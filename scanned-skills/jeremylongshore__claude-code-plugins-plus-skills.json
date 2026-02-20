@@ -1,0 +1,138 @@
+[
+  {
+    "name": "claude-code-plugins-plus-skills (jeremylongshore)",
+    "description": "[项目级] 270+ Claude Code plugins with 739 agent skills. Production orchestration patterns, interactive tutorials (11 Jupyter notebooks), and CCPI package manager. 4.13.0。来源: https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "python",
+      "stars-1397",
+      "github-jeremylongshore",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "270+ Claude Code plugins with 739 agent skills. Production orchestration patterns, interactive tutorials (11 Jupyter notebooks), and CCPI package manager. 4.13.0\n\n来源: https://github.com/jeremylongshore/claude-code-plugins-plus-skills\n语言: Python\nStars: 1397",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pnpm add -g @intentsolutionsio/ccpi",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "000-docs\n000-docs/001-BL-LICN-license.txt\n000-docs/002-RA-REPT-marketplace-generation.md\n000-docs/003-MS-OLDV-implementation-status.md\n000-docs/004-MS-OLDV-phase-1-completion.md\n000-docs/005-TQ-SECU-security-status.md\n000-docs/006-BL-POLI-code-of-conduct.md\n000-docs/007-DR-GUID-contributing.md\n000-docs/008-TQ-SECU-security.md\n000-docs/009-MS-OLDV-task-complete.md\n000-docs/010-MS-OLDV-plugin-catalog.md\n000-docs/011-MS-OLDV-release-v1-0-0.md\n000-docs/012-MS-OLDV-mcp-servers-status.md\n000-docs/013-MS-OLDV-restructure-complete.md\n000-docs/014-MS-OLDV-ai-ml-plugins-complete.md\n000-docs/015-MS-OLDV-200-plugin-mission-complete.md\n000-docs/016-MS-OLDV-marketplace-generation-complete.md\n000-docs/017-DR-MANL-setup.md\n000-docs/018-DR-GUID-marketplace-deployment.md\n000-docs/019-MS-DRFT-redesign.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🔧 DevOps Skills:** Automated CI/CD, deployment, monitoring\n- **🔒 Security Skills:** Code auditing, vulnerability scanning, compliance\n- **📊 Data Skills:** Analysis, visualization, reporting\n- **🎨 Frontend Skills:** UI/UX improvements, responsive design, accessibility\n- **🧪 Testing Skills:** Automated test generation, coverage analysis\n- **📝 Documentation Skills:** Auto-documentation, API specs, tutorials",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.57259820305709
+  },
+  {
+    "name": "claude-code-plugins-plus-skills/000-docs 模块",
+    "description": "[模块级] claude-code-plugins-plus-skills 项目的 000-docs 模块 (source)。来源: https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "module-level",
+      "source",
+      "000-docs"
+    ],
+    "genes": [
+      {
+        "title": "000-docs 模块说明",
+        "content": "模块路径: 000-docs/\n类型: source\n文件数: 84\n\n包含文件:\n- 000-docs/001-BL-LICN-license.txt\n- 000-docs/002-RA-REPT-marketplace-generation.md\n- 000-docs/003-MS-OLDV-implementation-status.md\n- 000-docs/004-MS-OLDV-phase-1-completion.md\n- 000-docs/005-TQ-SECU-security-status.md\n- 000-docs/006-BL-POLI-code-of-conduct.md\n- 000-docs/007-DR-GUID-contributing.md\n- 000-docs/008-TQ-SECU-security.md\n- 000-docs/009-MS-OLDV-task-complete.md\n- 000-docs/010-MS-OLDV-plugin-catalog.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "000-docs 文件结构",
+        "content": "000-docs/001-BL-LICN-license.txt\n000-docs/002-RA-REPT-marketplace-generation.md\n000-docs/003-MS-OLDV-implementation-status.md\n000-docs/004-MS-OLDV-phase-1-completion.md\n000-docs/005-TQ-SECU-security-status.md\n000-docs/006-BL-POLI-code-of-conduct.md\n000-docs/007-DR-GUID-contributing.md\n000-docs/008-TQ-SECU-security.md\n000-docs/009-MS-OLDV-task-complete.md\n000-docs/010-MS-OLDV-plugin-catalog.md\n000-docs/011-MS-OLDV-release-v1-0-0.md\n000-docs/012-MS-OLDV-mcp-servers-status.md\n000-docs/013-MS-OLDV-restructure-complete.md\n000-docs/014-MS-OLDV-ai-ml-plugins-complete.md\n000-docs/015-MS-OLDV-200-plugin-mission-complete.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7580785624456725
+  },
+  {
+    "name": "claude-code-plugins-plus-skills/archive 模块",
+    "description": "[模块级] claude-code-plugins-plus-skills 项目的 archive 模块 (source)。来源: https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "module-level",
+      "source",
+      "archive"
+    ],
+    "genes": [
+      {
+        "title": "archive 模块说明",
+        "content": "模块路径: archive/\n类型: source\n文件数: 5\n\n包含文件:\n- archive/releases\n- archive/releases/AI_ML_Engineering_Pack_v1.0.0.zip\n- archive/releases/DevOps_Automation_Pack_v1.0.0.zip\n- archive/releases/Fullstack_Starter_Pack_v1.0.0.zip\n- archive/releases/Security_Pro_Pack_v1.0.0.zip",
+        "gene_type": "principle"
+      },
+      {
+        "title": "archive 文件结构",
+        "content": "archive/releases\narchive/releases/AI_ML_Engineering_Pack_v1.0.0.zip\narchive/releases/DevOps_Automation_Pack_v1.0.0.zip\narchive/releases/Fullstack_Starter_Pack_v1.0.0.zip\narchive/releases/Security_Pro_Pack_v1.0.0.zip",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7580785624456725
+  },
+  {
+    "name": "claude-code-plugins-plus-skills/backups 模块",
+    "description": "[模块级] claude-code-plugins-plus-skills 项目的 backups 模块 (source)。来源: https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "module-level",
+      "source",
+      "backups"
+    ],
+    "genes": [
+      {
+        "title": "backups 模块说明",
+        "content": "模块路径: backups/\n类型: source\n文件数: 55\n\n包含文件:\n- backups/asset_generation.db\n- backups/plugin-enhancements\n- backups/plugin-enhancements/20251019_015158_overnight-dev_SKILL.md.bak\n- backups/plugin-enhancements/20251019_015544_overnight-dev_SKILL.md.bak\n- backups/plugin-enhancements/enhancements.db\n- backups/plugin-enhancements/plugin-backups\n- backups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343\n- backups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/.claude-plugin\n- backups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/.claude-plugin/plugin.json\n- backups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/LICENSE",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backups 文件结构",
+        "content": "backups/asset_generation.db\nbackups/plugin-enhancements\nbackups/plugin-enhancements/20251019_015158_overnight-dev_SKILL.md.bak\nbackups/plugin-enhancements/20251019_015544_overnight-dev_SKILL.md.bak\nbackups/plugin-enhancements/enhancements.db\nbackups/plugin-enhancements/plugin-backups\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/.claude-plugin\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/.claude-plugin/plugin.json\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/LICENSE\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/README.md\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/commands\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/commands/audit-access.md\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/skills\nbackups/plugin-enhancements/plugin-backups/access-control-auditor_20251019_122343/skills/skill-adapter",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7580785624456725
+  }
+]

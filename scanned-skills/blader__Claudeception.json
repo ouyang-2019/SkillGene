@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Claudeception (blader)",
+    "description": "[项目级] A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.。来源: https://github.com/blader/Claudeception",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-1641",
+      "github-blader",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.\n\n来源: https://github.com/blader/Claudeception\n语言: Shell\nStars: 1641",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSKILL.md\nWARP.md\nexamples\nexamples/nextjs-server-side-error-debugging\nexamples/prisma-connection-pool-exhaustion\nexamples/typescript-circular-dependency\nresources\nresources/research-references.md\nresources/skill-template.md\nscripts\nscripts/claudeception-activator.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.607554290526546
+  },
+  {
+    "name": "Claudeception/examples 模块",
+    "description": "[模块级] Claudeception 项目的 examples 模块 (example)。来源: https://github.com/blader/Claudeception",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-1641",
+      "github-blader",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "See `examples/` for sample skills:\n\n- `nextjs-server-side-error-debugging/`: errors that don't show in browser console\n- `prisma-connection-pool-exhaustion/`: the \"too many connections\" serverless problem\n- `typescript-circular-dependency/`: detecting and fixing import cycles",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/nextjs-server-side-error-debugging\nexamples/nextjs-server-side-error-debugging/SKILL.md\nexamples/prisma-connection-pool-exhaustion\nexamples/prisma-connection-pool-exhaustion/SKILL.md\nexamples/typescript-circular-dependency\nexamples/typescript-circular-dependency/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7860434324212373
+  },
+  {
+    "name": "Claudeception/resources 模块",
+    "description": "[模块级] Claudeception 项目的 resources 模块 (source)。来源: https://github.com/blader/Claudeception",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-1641",
+      "github-blader",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 2\n\n包含文件:\n- resources/research-references.md\n- resources/skill-template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/research-references.md\nresources/skill-template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7860434324212373
+  }
+]

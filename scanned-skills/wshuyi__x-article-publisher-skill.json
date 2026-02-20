@@ -1,0 +1,71 @@
+[
+  {
+    "name": "x-article-publisher-skill (wshuyi)",
+    "description": "[项目级] Claude Code skill for publishing Markdown articles to X (Twitter) Articles。来源: https://github.com/wshuyi/x-article-publisher-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-588",
+      "github-wshuyi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code skill for publishing Markdown articles to X (Twitter) Articles\n\n来源: https://github.com/wshuyi/x-article-publisher-skill\n语言: Python\nStars: 588",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_CN.md\ndocs\ndocs/GUIDE.md\nskills\nskills/x-article-publisher",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Rich Text Paste**: Convert Markdown to HTML, paste via clipboard — all formatting preserved\n- **Block-Index Positioning** (v1.1): Precise image placement using element indices, not text matching\n- **Reverse Insertion**: Insert images from highest to lowest index to avoid position shifts\n- **Smart Wait Strategy**: Conditions return immediately when met, no wasted wait time\n- **Safe by Design**: Only saves as draft, never publishes automatically\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3846886630380695
+  },
+  {
+    "name": "x-article-publisher-skill/skills 模块",
+    "description": "[模块级] x-article-publisher-skill 项目的 skills 模块 (source)。来源: https://github.com/wshuyi/x-article-publisher-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-588",
+      "github-wshuyi",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 6\n\n包含文件:\n- skills/x-article-publisher\n- skills/x-article-publisher/SKILL.md\n- skills/x-article-publisher/scripts\n- skills/x-article-publisher/scripts/copy_to_clipboard.py\n- skills/x-article-publisher/scripts/parse_markdown.py\n- skills/x-article-publisher/scripts/table_to_image.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/x-article-publisher\nskills/x-article-publisher/SKILL.md\nskills/x-article-publisher/scripts\nskills/x-article-publisher/scripts/copy_to_clipboard.py\nskills/x-article-publisher/scripts/parse_markdown.py\nskills/x-article-publisher/scripts/table_to_image.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6077509304304556
+  }
+]

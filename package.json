@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "seed": "node dist/seed.js"
+    "seed": "node dist/seed.js",
+    "scan": "node dist/auto-scan.js",
+    "import-scan": "node dist/import-scan.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",

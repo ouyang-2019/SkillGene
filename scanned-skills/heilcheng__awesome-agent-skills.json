@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-agent-skills (heilcheng)",
+    "description": "[项目级] A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Copilot, VS Code)。来源: https://github.com/heilcheng/awesome-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-development",
+      "anthropic",
+      "automation",
+      "stars-2299",
+      "github-heilcheng",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Copilot, VS Code)\n\n来源: https://github.com/heilcheng/awesome-agent-skills\n语言: unknown\nStars: 2299",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.es.md\nREADME.ja.md\nREADME.ko.md\nREADME.md\nREADME.zh-CN.md\nREADME.zh-TW.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Real-world examples]\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.68076948563464
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "name": "claude-seo (AgriciDaniel)",
+    "description": "[项目级]  Universal SEO skill for Claude Code. Comprehensive SEO analysis for any website or business type.。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "python",
+      "stars-948",
+      "github-agricidaniel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " Universal SEO skill for Claude Code. Comprehensive SEO analysis for any website or business type.\n\n来源: https://github.com/AgriciDaniel/claude-seo\n语言: Python\nStars: 948",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nTODO.md\nagents\nagents/seo-content.md\nagents/seo-performance.md\nagents/seo-schema.md\nagents/seo-sitemap.md\nagents/seo-technical.md\nagents/seo-visual.md\ndocs\ndocs/ARCHITECTURE.md\ndocs/COMMANDS.md\ndocs/INSTALLATION.md\ndocs/MCP-INTEGRATION.md\ndocs/TROUBLESHOOTING.md\nhooks\nhooks/pre-commit-seo-check.sh\nhooks/validate-schema.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4884041686690335
+  },
+  {
+    "name": "claude-seo/agents 模块",
+    "description": "[模块级] claude-seo 项目的 agents 模块 (source)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 6\n\n包含文件:\n- agents/seo-content.md\n- agents/seo-performance.md\n- agents/seo-schema.md\n- agents/seo-sitemap.md\n- agents/seo-technical.md\n- agents/seo-visual.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/seo-content.md\nagents/seo-performance.md\nagents/seo-schema.md\nagents/seo-sitemap.md\nagents/seo-technical.md\nagents/seo-visual.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/docs 模块",
+    "description": "[模块级] claude-seo 项目的 docs 模块 (docs)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "documentation",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/ARCHITECTURE.md\n- docs/COMMANDS.md\n- docs/INSTALLATION.md\n- docs/MCP-INTEGRATION.md\n- docs/TROUBLESHOOTING.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ARCHITECTURE.md\ndocs/COMMANDS.md\ndocs/INSTALLATION.md\ndocs/MCP-INTEGRATION.md\ndocs/TROUBLESHOOTING.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/hooks 模块",
+    "description": "[模块级] claude-seo 项目的 hooks 模块 (source)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 2\n\n包含文件:\n- hooks/pre-commit-seo-check.sh\n- hooks/validate-schema.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/pre-commit-seo-check.sh\nhooks/validate-schema.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/screenshots 模块",
+    "description": "[模块级] claude-seo 项目的 screenshots 模块 (source)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "source",
+      "screenshots"
+    ],
+    "genes": [
+      {
+        "title": "screenshots 模块说明",
+        "content": "模块路径: screenshots/\n类型: source\n文件数: 3\n\n包含文件:\n- screenshots/cover-image.jpeg\n- screenshots/seo-audit-demo.gif\n- screenshots/seo-command-demo.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "screenshots 文件结构",
+        "content": "screenshots/cover-image.jpeg\nscreenshots/seo-audit-demo.gif\nscreenshots/seo-command-demo.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/scripts 模块",
+    "description": "[模块级] claude-seo 项目的 scripts 模块 (script)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/analyze_visual.py\n- scripts/capture_screenshot.py\n- scripts/fetch_page.py\n- scripts/parse_html.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/analyze_visual.py\nscripts/capture_screenshot.py\nscripts/fetch_page.py\nscripts/parse_html.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/seo 模块",
+    "description": "[模块级] claude-seo 项目的 seo 模块 (source)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "source",
+      "seo"
+    ],
+    "genes": [
+      {
+        "title": "seo 模块说明",
+        "content": "Comprehensive SEO analysis skill for Claude Code. Covers technical SEO, on-page analysis, content quality (E-E-A-T), schema markup, image optimization, sitemap architecture, AI search optimization (GEO), and strategic planning.\n\n![SEO Command Demo](screenshots/seo-command-demo.gif)\n\n[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/claude-code)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seo 文件结构",
+        "content": "seo/SKILL.md\nseo/references\nseo/references/cwv-thresholds.md\nseo/references/eeat-framework.md\nseo/references/quality-gates.md\nseo/references/schema-types.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  },
+  {
+    "name": "claude-seo/skills 模块",
+    "description": "[模块级] claude-seo 项目的 skills 模块 (source)。来源: https://github.com/AgriciDaniel/claude-seo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "core-web-vitals",
+      "schema-markup",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 31\n\n包含文件:\n- skills/seo-audit\n- skills/seo-audit/SKILL.md\n- skills/seo-competitor-pages\n- skills/seo-competitor-pages/SKILL.md\n- skills/seo-content\n- skills/seo-content/SKILL.md\n- skills/seo-geo\n- skills/seo-geo/SKILL.md\n- skills/seo-hreflang\n- skills/seo-hreflang/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/seo-audit\nskills/seo-audit/SKILL.md\nskills/seo-competitor-pages\nskills/seo-competitor-pages/SKILL.md\nskills/seo-content\nskills/seo-content/SKILL.md\nskills/seo-geo\nskills/seo-geo/SKILL.md\nskills/seo-hreflang\nskills/seo-hreflang/SKILL.md\nskills/seo-images\nskills/seo-images/SKILL.md\nskills/seo-page\nskills/seo-page/SKILL.md\nskills/seo-plan",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  }
+]

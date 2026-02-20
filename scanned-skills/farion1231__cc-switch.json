@@ -1,0 +1,228 @@
+[
+  {
+    "name": "cc-switch (farion1231)",
+    "description": "[项目级] A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "typescript",
+      "stars-19006",
+      "github-farion1231",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.\n\n来源: https://github.com/farion1231/cc-switch\n语言: TypeScript\nStars: 19006",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nREADME_JA.md\nREADME_ZH.md\nassets\nassets/partners\nassets/screenshots\ncc-switch-main\ncc-switch-main/src\ncomponents.json\ndeplink.html\ndocs\ndocs/BACKEND_REFACTOR_PLAN.md\ndocs/CODEX_MCP_RAW_TOML_PLAN.md\ndocs/REFACTORING_CHECKLIST.md\ndocs/REFACTORING_MASTER_PLAN.md\ndocs/REFACTORING_REFERENCE.md\ndocs/TEST_DEVELOPMENT_PLAN.md\ndocs/opencode-implementation-plan.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Add Provider**: Click \"Add Provider\" → Choose preset or create custom configuration\n2. **Switch Provider**:\n   - Main UI: Select provider → Click \"Enable\"\n   - System Tray: Click provider name directly (instant effect)\n3. **Takes Effect**: Restart your terminal or Claude Code / Codex / Gemini clients to apply changes\n4. **Back to Official**: Select the \"Official Login\" preset (Claude/Codex) or \"Google Official\" preset (Gemini), restart the corresponding client, then follow its login/OAuth flow",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "cc-switch/assets 模块",
+    "description": "[模块级] cc-switch 项目的 assets 模块 (source)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 26\n\n包含文件:\n- assets/partners\n- assets/partners/banners\n- assets/partners/banners/glm-en.jpg\n- assets/partners/banners/glm-zh.jpg\n- assets/partners/banners/minimax-en.jpeg\n- assets/partners/banners/minimax-zh.jpeg\n- assets/partners/logos\n- assets/partners/logos/aicodemirror.jpg\n- assets/partners/logos/aicoding.jpg\n- assets/partners/logos/aigocode.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/partners\nassets/partners/banners\nassets/partners/banners/glm-en.jpg\nassets/partners/banners/glm-zh.jpg\nassets/partners/banners/minimax-en.jpeg\nassets/partners/banners/minimax-zh.jpeg\nassets/partners/logos\nassets/partners/logos/aicodemirror.jpg\nassets/partners/logos/aicoding.jpg\nassets/partners/logos/aigocode.png\nassets/partners/logos/crazyrouter.jpg\nassets/partners/logos/cubence.png\nassets/partners/logos/dmx-en.jpg\nassets/partners/logos/dmx-zh.jpeg\nassets/partners/logos/packycode.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  },
+  {
+    "name": "cc-switch/cc-switch-main 模块",
+    "description": "[模块级] cc-switch 项目的 cc-switch-main 模块 (source)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "source",
+      "cc-switch-main"
+    ],
+    "genes": [
+      {
+        "title": "cc-switch-main 模块说明",
+        "content": "模块路径: cc-switch-main/\n类型: source\n文件数: 3\n\n包含文件:\n- cc-switch-main/src\n- cc-switch-main/src/config\n- cc-switch-main/src/config/universalProviderPresets.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cc-switch-main 文件结构",
+        "content": "cc-switch-main/src\ncc-switch-main/src/config\ncc-switch-main/src/config/universalProviderPresets.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  },
+  {
+    "name": "cc-switch/docs 模块",
+    "description": "[模块级] cc-switch 项目的 docs 模块 (docs)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "documentation",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "**v3.8.0 Major Update (2025-11-28)**\n\n**Persistence Architecture Upgrade & Brand New UI**\n\n- **SQLite + JSON Dual-layer Architecture**\n  - Migrated from JSON file storage to SQLite + JSON dual-layer structure\n  - Syncable data (providers, MCP, Prompts, Skills) stored in SQLite\n  - Device-level data (window state, local paths) stored in JSON\n  - Lays the foundation for future cloud sync functionality\n  - Schema version management for database migrations\n\n- **Brand New User Interface**\n  - Complet",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BACKEND_REFACTOR_PLAN.md\ndocs/CODEX_MCP_RAW_TOML_PLAN.md\ndocs/REFACTORING_CHECKLIST.md\ndocs/REFACTORING_MASTER_PLAN.md\ndocs/REFACTORING_REFERENCE.md\ndocs/TEST_DEVELOPMENT_PLAN.md\ndocs/opencode-implementation-plan.md\ndocs/proxy-guide-zh.md\ndocs/release-note-v3.10.0-en.md\ndocs/release-note-v3.10.0-ja.md\ndocs/release-note-v3.10.0-zh.md\ndocs/release-note-v3.6.0-en.md\ndocs/release-note-v3.6.0-zh.md\ndocs/release-note-v3.6.1-en.md\ndocs/release-note-v3.6.1-zh.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  },
+  {
+    "name": "cc-switch/flatpak 模块",
+    "description": "[模块级] cc-switch 项目的 flatpak 模块 (source)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "source",
+      "flatpak"
+    ],
+    "genes": [
+      {
+        "title": "flatpak 模块说明",
+        "content": "模块路径: flatpak/\n类型: source\n文件数: 4\n\n包含文件:\n- flatpak/README.md\n- flatpak/com.ccswitch.desktop.desktop\n- flatpak/com.ccswitch.desktop.metainfo.xml\n- flatpak/com.ccswitch.desktop.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flatpak 文件结构",
+        "content": "flatpak/README.md\nflatpak/com.ccswitch.desktop.desktop\nflatpak/com.ccswitch.desktop.metainfo.xml\nflatpak/com.ccswitch.desktop.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  },
+  {
+    "name": "cc-switch/scripts 模块",
+    "description": "[模块级] cc-switch 项目的 scripts 模块 (script)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/extract-icons.js\n- scripts/filter-icons.js\n- scripts/generate-icon-index.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/extract-icons.js\nscripts/filter-icons.js\nscripts/generate-icon-index.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  },
+  {
+    "name": "cc-switch/src-tauri 模块",
+    "description": "[模块级] cc-switch 项目的 src-tauri 模块 (source)。来源: https://github.com/farion1231/cc-switch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "codex",
+      "desktop-app",
+      "kimi-k2-thiking",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 61\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/Info.plist\n- src-tauri/build.rs\n- src-tauri/capabilities\n- src-tauri/capabilities/default.json\n- src-tauri/common-controls.manifest\n- src-tauri/icons\n- src-tauri/icons/128x128.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/Info.plist\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/common-controls.manifest\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/64x64.png\nsrc-tauri/icons/Square107x107Logo.png\nsrc-tauri/icons/Square142x142Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211556289971472
+  }
+]

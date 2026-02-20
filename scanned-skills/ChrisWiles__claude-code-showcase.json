@@ -1,0 +1,38 @@
+[
+  {
+    "name": "claude-code-showcase (ChrisWiles)",
+    "description": "[项目级] Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows。来源: https://github.com/ChrisWiles/claude-code-showcase",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-5341",
+      "github-chriswiles",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows\n\n来源: https://github.com/ChrisWiles/claude-code-showcase\n语言: JavaScript\nStars: 5341",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "{\n  \"mcpServers\": {\n    \"jira\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@anthropic/mcp-jira\"],\n      \"env\": {\n        \"JIRA_HOST\": \"${JIRA_HOST}\",\n        \"JIRA_EMAIL\": \"${JIRA_EMAIL}\",\n        \"JIRA_API_TOKEN\": \"${JIRA_API_TOKEN}\"\n      }\n    }\n  }\n}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.863811288984569
+  }
+]

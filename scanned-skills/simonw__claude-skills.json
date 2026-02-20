@@ -1,0 +1,27 @@
+[
+  {
+    "name": "claude-skills (simonw)",
+    "description": "[项目级] The contents of /mnt/skills in Claude's code interpreter environment。来源: https://github.com/simonw/claude-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-917",
+      "github-simonw",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The contents of /mnt/skills in Claude's code interpreter environment\n\n来源: https://github.com/simonw/claude-skills\n语言: unknown\nStars: 917",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.48118466783501
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "name": "claude-code-skill-factory (alirezarezvani)",
+    "description": "[项目级] Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-518",
+      "github-alirezarezvani",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Skill Factory — A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.\n\n来源: https://github.com/alirezarezvani/claude-code-skill-factory\n语言: Python\nStars: 518",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nWORKFLOW_ADAPTATION_PLAN.md\nclaude-skills-examples\nclaude-skills-examples/CLAUDE.md\ndocumentation\ndocumentation/CLAUDE.md\ndocumentation/GISTS.md\ndocumentation/foundation\ndocumentation/operations\ndocumentation/references\ndocumentation/templates\ndocumentation/wiki\ngenerated-agents\ngenerated-agents/README.md\ngenerated-agents/claude-md-guardian",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Production-Ready Output** - Proper YAML frontmatter, type-annotated Python, error handling\n- **Interactive Workflows** - Guided conversations through 4 specialist agents\n- **Built-in Automation** - 7 slash commands for common tasks\n- **Complete Packaging** - Documentation, samples, ZIP files included\n- **Smart Detection** - Automatically determines when Python code is needed vs prompt-only\n- **Multi-Format Support** - XML, Claude, ChatGPT, Gemini output formats\n- **Official Patterns** - Based on Anthropic documentation and examples\n- **Cross-Platform** - Works with Claude AI (desktop/brows",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.357164879872617
+  },
+  {
+    "name": "claude-code-skill-factory/documentation 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 documentation 模块 (docs)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "documentation",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "- **Skills Guide**: [documentation/references/claude-skills-instructions.md](documentation/references/claude-skills-instructions.md) - Complete Anthropic documentation\n- **Agents Guide**: [documentation/references/claude-agents-instructions.md](documentation/references/claude-agents-instructions.md) - Complete Anthropic documentation\n- **Codex CLI Reference**: [documentation/references/openai-codex-cli-instructions.md](documentation/references/openai-codex-cli-instructions.md) - Complete OpenAI ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/CLAUDE.md\ndocumentation/GISTS.md\ndocumentation/foundation\ndocumentation/foundation/architecture.md\ndocumentation/foundation/mission.md\ndocumentation/foundation/project-status.md\ndocumentation/foundation/roadmap.md\ndocumentation/foundation/wiki-documentation-prd.md\ndocumentation/operations\ndocumentation/operations/cleanup-summary.md\ndocumentation/operations/documentation-audit-2025-10.md\ndocumentation/operations/documentation-cleanup-report.md\ndocumentation/references\ndocumentation/references/agents-md-loader-hook-example-code.json\ndocumentation/references/auto-git-add-hook-example-code.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "claude-code-skill-factory/generated-agents 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 generated-agents 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "generated-agents"
+    ],
+    "genes": [
+      {
+        "title": "generated-agents 模块说明",
+        "content": "模块路径: generated-agents/\n类型: source\n文件数: 4\n\n包含文件:\n- generated-agents/README.md\n- generated-agents/claude-md-guardian\n- generated-agents/claude-md-guardian/README.md\n- generated-agents/claude-md-guardian/claude-md-guardian.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generated-agents 文件结构",
+        "content": "generated-agents/README.md\ngenerated-agents/claude-md-guardian\ngenerated-agents/claude-md-guardian/README.md\ngenerated-agents/claude-md-guardian/claude-md-guardian.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "claude-code-skill-factory/generated-commands 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 generated-commands 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "generated-commands"
+    ],
+    "genes": [
+      {
+        "title": "generated-commands 模块说明",
+        "content": "模块路径: generated-commands/\n类型: source\n文件数: 7\n\n包含文件:\n- generated-commands/README.md\n- generated-commands/enhance-claude-md\n- generated-commands/enhance-claude-md/README.md\n- generated-commands/enhance-claude-md/enhance-claude-md.md\n- generated-commands/marketing-research\n- generated-commands/marketing-research/HOW_TO_USE.md\n- generated-commands/marketing-research/marketing-research.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generated-commands 文件结构",
+        "content": "generated-commands/README.md\ngenerated-commands/enhance-claude-md\ngenerated-commands/enhance-claude-md/README.md\ngenerated-commands/enhance-claude-md/enhance-claude-md.md\ngenerated-commands/marketing-research\ngenerated-commands/marketing-research/HOW_TO_USE.md\ngenerated-commands/marketing-research/marketing-research.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "claude-code-skill-factory/generated-hooks 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 generated-hooks 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "generated-hooks"
+    ],
+    "genes": [
+      {
+        "title": "generated-hooks 模块说明",
+        "content": "模块路径: generated-hooks/\n类型: source\n文件数: 16\n\n包含文件:\n- generated-hooks/auto-add-files-to-git-after-editing-python\n- generated-hooks/auto-add-files-to-git-after-editing-python/README.md\n- generated-hooks/auto-add-files-to-git-after-editing-python/hook.json\n- generated-hooks/auto-format-code-after-editing-python\n- generated-hooks/auto-format-code-after-editing-python/README.md\n- generated-hooks/auto-format-code-after-editing-python/hook.json\n- generated-hooks/auto-sync-plan-to-github\n- generated-hooks/auto-sync-plan-to-github/README.md\n- generated-hooks/auto-sync-plan-to-github/hook.json\n- generated-hooks/auto-sync-plan-to-github/sync-plan.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generated-hooks 文件结构",
+        "content": "generated-hooks/auto-add-files-to-git-after-editing-python\ngenerated-hooks/auto-add-files-to-git-after-editing-python/README.md\ngenerated-hooks/auto-add-files-to-git-after-editing-python/hook.json\ngenerated-hooks/auto-format-code-after-editing-python\ngenerated-hooks/auto-format-code-after-editing-python/README.md\ngenerated-hooks/auto-format-code-after-editing-python/hook.json\ngenerated-hooks/auto-sync-plan-to-github\ngenerated-hooks/auto-sync-plan-to-github/README.md\ngenerated-hooks/auto-sync-plan-to-github/hook.json\ngenerated-hooks/auto-sync-plan-to-github/sync-plan.sh\ngenerated-hooks/notify-factory-guide-completion\ngenerated-hooks/notify-factory-guide-completion/README.md\ngenerated-hooks/notify-factory-guide-completion/hook.json\ngenerated-hooks/run-tests-when-agent-completes-typescript\ngenerated-hooks/run-tests-when-agent-completes-typescript/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "claude-code-skill-factory/generated-prompts 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 generated-prompts 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "generated-prompts"
+    ],
+    "genes": [
+      {
+        "title": "generated-prompts 模块说明",
+        "content": "模块路径: generated-prompts/\n类型: source\n文件数: 9\n\n包含文件:\n- generated-prompts/README-EXAMPLES.md\n- generated-prompts/advanced-system-architect.md\n- generated-prompts/basic-code-reviewer.md\n- generated-prompts/expert-research-analyst.md\n- generated-prompts/github-cicd-specialist-mega-prompt.md\n- generated-prompts/intermediate-data-analyst.md\n- generated-prompts/marketing-growth-prompt-builder.md\n- generated-prompts/master-strategic-consultant.md\n- generated-prompts/sample-growth-hacker-prompt.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generated-prompts 文件结构",
+        "content": "generated-prompts/README-EXAMPLES.md\ngenerated-prompts/advanced-system-architect.md\ngenerated-prompts/basic-code-reviewer.md\ngenerated-prompts/expert-research-analyst.md\ngenerated-prompts/github-cicd-specialist-mega-prompt.md\ngenerated-prompts/intermediate-data-analyst.md\ngenerated-prompts/marketing-growth-prompt-builder.md\ngenerated-prompts/master-strategic-consultant.md\ngenerated-prompts/sample-growth-hacker-prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "claude-code-skill-factory/generated-skills 模块",
+    "description": "[模块级] claude-code-skill-factory 项目的 generated-skills 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-skill-factory",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "generated-skills"
+    ],
+    "genes": [
+      {
+        "title": "generated-skills 模块说明",
+        "content": "模块路径: generated-skills/\n类型: source\n文件数: 26\n\n包含文件:\n- generated-skills/CLAUDE.md\n- generated-skills/agent-factory.zip\n- generated-skills/agent-factory\n- generated-skills/agent-factory/HOW_TO_USE.md\n- generated-skills/agent-factory/SKILL.md\n- generated-skills/agent-factory/agent_generator.py\n- generated-skills/agent-factory/expected_output.json\n- generated-skills/agent-factory/generated-agents\n- generated-skills/agent-factory/generated-agents/software-architect.md\n- generated-skills/agent-factory/sample_input.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generated-skills 文件结构",
+        "content": "generated-skills/CLAUDE.md\ngenerated-skills/agent-factory.zip\ngenerated-skills/agent-factory\ngenerated-skills/agent-factory/HOW_TO_USE.md\ngenerated-skills/agent-factory/SKILL.md\ngenerated-skills/agent-factory/agent_generator.py\ngenerated-skills/agent-factory/expected_output.json\ngenerated-skills/agent-factory/generated-agents\ngenerated-skills/agent-factory/generated-agents/software-architect.md\ngenerated-skills/agent-factory/sample_input.json\ngenerated-skills/app-store-optimization.zip\ngenerated-skills/app-store-optimization\ngenerated-skills/app-store-optimization/HOW_TO_USE.md\ngenerated-skills/app-store-optimization/README.md\ngenerated-skills/app-store-optimization/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  }
+]

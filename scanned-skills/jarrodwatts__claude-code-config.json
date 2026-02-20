@@ -1,0 +1,158 @@
+[
+  {
+    "name": "claude-code-config (jarrodwatts)",
+    "description": "[项目级] My personal Claude Code configuration - rules, hooks, agents, skills, and commands。来源: https://github.com/jarrodwatts/claude-code-config",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles",
+      "javascript",
+      "stars-941",
+      "github-jarrodwatts",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "My personal Claude Code configuration - rules, hooks, agents, skills, and commands\n\n来源: https://github.com/jarrodwatts/claude-code-config\n语言: JavaScript\nStars: 941",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nINSTALL.md\nREADME.md\nagents\nagents/codebase-search.md\nagents/media-interpreter.md\nagents/open-source-librarian.md\nagents/tech-docs-writer.md\ncommands\ncommands/interview.md\nhooks\nhooks/check-comments.py\nhooks/keyword-detector.py\nhooks/skill-reminder.sh\nhooks/todo-enforcer.sh\nrules\nrules/comments.md\nrules/forge.md\nrules/testing.md\nrules/typescript.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4867948117136285
+  },
+  {
+    "name": "claude-code-config/agents 模块",
+    "description": "[模块级] claude-code-config 项目的 agents 模块 (source)。来源: https://github.com/jarrodwatts/claude-code-config",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Custom subagents for specialized tasks.\n\n| Agent | Description |\n|-------|-------------|\n| `codebase-search` | Find files and implementations |\n| `media-interpreter` | Extract info from PDFs/images |\n| `open-source-librarian` | Research OSS with citations |\n| `tech-docs-writer` | Create technical documentation |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/codebase-search.md\nagents/media-interpreter.md\nagents/open-source-librarian.md\nagents/tech-docs-writer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "claude-code-config/hooks 模块",
+    "description": "[模块级] claude-code-config 项目的 hooks 模块 (source)。来源: https://github.com/jarrodwatts/claude-code-config",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "Scripts triggered by Claude Code events.\n\n| Hook | Event | Description |\n|------|-------|-------------|\n| `keyword-detector.py` | UserPromptSubmit | Detects keywords in prompts |\n| `check-comments.py` | PostToolUse (Write/Edit) | Validates comment policy |\n| `todo-enforcer.sh` | Stop | Ensures todos are tracked |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/check-comments.py\nhooks/keyword-detector.py\nhooks/skill-reminder.sh\nhooks/todo-enforcer.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "claude-code-config/rules 模块",
+    "description": "[模块级] claude-code-config 项目的 rules 模块 (source)。来源: https://github.com/jarrodwatts/claude-code-config",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles",
+      "module-level",
+      "source",
+      "rules"
+    ],
+    "genes": [
+      {
+        "title": "rules 模块说明",
+        "content": "Path-scoped instructions loaded automatically when working with matching files.\n\n| File | Scope | Description |\n|------|-------|-------------|\n| `typescript.md` | `**/*.{ts,tsx}` | TypeScript conventions |\n| `testing.md` | `**/*.{test,spec}.ts` | Testing patterns |\n| `comments.md` | All files | Comment policy |\n| `forge.md` | `**/*.sol` | Foundry/ZKsync rules |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rules 文件结构",
+        "content": "rules/comments.md\nrules/forge.md\nrules/testing.md\nrules/typescript.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "claude-code-config/skills 模块",
+    "description": "[模块级] claude-code-config 项目的 skills 模块 (source)。来源: https://github.com/jarrodwatts/claude-code-config",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "dotfiles",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Model-invoked capabilities Claude applies automatically.\n\n| Skill | Description |\n|-------|-------------|\n| `planning-with-files` | Manus-style persistent markdown planning |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/planning-with-files\nskills/planning-with-files/SKILL.md\nskills/planning-with-files/examples.md\nskills/planning-with-files/reference.md\nskills/react-useeffect\nskills/react-useeffect/SKILL.md\nskills/react-useeffect/alternatives.md\nskills/react-useeffect/anti-patterns.md\nskills/rigorous-coding\nskills/rigorous-coding/SKILL.md\nskills/vercel-react-best-practices\nskills/vercel-react-best-practices/.github\nskills/vercel-react-best-practices/.github/workflows\nskills/vercel-react-best-practices/.github/workflows/ci.yml\nskills/vercel-react-best-practices/.gitignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  }
+]

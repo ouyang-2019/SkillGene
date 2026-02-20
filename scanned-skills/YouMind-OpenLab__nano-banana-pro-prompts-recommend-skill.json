@@ -1,0 +1,73 @@
+[
+  {
+    "name": "nano-banana-pro-prompts-recommend-skill (YouMind-OpenLab)",
+    "description": "[项目级] Claude Code / Cursor skill to recommend from 7000+ Nano Banana Pro image prompts.。来源: https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentskills",
+      "claude",
+      "claudeskills",
+      "nanobananapro",
+      "typescript",
+      "stars-969",
+      "github-youmind-openlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code / Cursor skill to recommend from 7000+ Nano Banana Pro image prompts.\n\n来源: https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill\n语言: TypeScript\nStars: 969",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nSKILL.md\npackage.json\npnpm-lock.yaml\npublic\npublic/cover.png\nreferences\nreferences/.gitkeep\nreferences/app-web-design.json\nreferences/comic-storyboard.json\nreferences/ecommerce-main-image.json\nreferences/game-asset.json\nreferences/infographic-edu-visual.json\nreferences/others.json\nreferences/poster-flyer.json\nreferences/product-marketing.json\nreferences/profile-avatar.json\nreferences/social-media-post.json\nreferences/youtube-thumbnail.json\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"Find me a cartoon-style avatar prompt\"\n\"I need prompts for travel blog covers\"\n\"Help me create an infographic for data comparison\"\n\"Looking for product photography prompts with white background\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.493161888525383
+  },
+  {
+    "name": "nano-banana-pro-prompts-recommend-skill/references 模块",
+    "description": "[模块级] nano-banana-pro-prompts-recommend-skill 项目的 references 模块 (source)。来源: https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentskills",
+      "claude",
+      "claudeskills",
+      "nanobananapro",
+      "module-level",
+      "source",
+      "references"
+    ],
+    "genes": [
+      {
+        "title": "references 模块说明",
+        "content": "pnpm run generate\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "references 文件结构",
+        "content": "references/.gitkeep\nreferences/app-web-design.json\nreferences/comic-storyboard.json\nreferences/ecommerce-main-image.json\nreferences/game-asset.json\nreferences/infographic-edu-visual.json\nreferences/others.json\nreferences/poster-flyer.json\nreferences/product-marketing.json\nreferences/profile-avatar.json\nreferences/social-media-post.json\nreferences/youtube-thumbnail.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6945295108203062
+  }
+]

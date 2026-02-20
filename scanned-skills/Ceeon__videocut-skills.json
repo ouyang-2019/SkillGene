@@ -1,0 +1,155 @@
+[
+  {
+    "name": "videocut-skills (Ceeon)",
+    "description": "[项目级] 用 Claude Code Skills 做的视频剪辑 Agent。来源: https://github.com/Ceeon/videocut-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-932",
+      "github-ceeon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "用 Claude Code Skills 做的视频剪辑 Agent\n\n来源: https://github.com/Ceeon/videocut-skills\n语言: JavaScript\nStars: 932",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\n剪口播\n剪口播/SKILL.md\n剪口播/scripts\n剪口播/用户习惯\n字幕\n字幕/README.md\n字幕/SKILL.md\n字幕/scripts\n字幕/词典.txt\n安装\n安装/README.md\n安装/SKILL.md\n自进化\n自进化/README.md\n自进化/SKILL.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "┌─────────────────────────────────────────────────────────┐\n│  /videocut:安装  →  首次使用，安装环境和模型            │\n└─────────────────────────────────────────────────────────┘\n                            ↓\n┌─────────────────────────────────────────────────────────┐\n│  /videocut:剪口播 视频.mp4                              │\n│                                                         │\n│  1. 提取音频 → 上传云端                                 │\n│  2. 火山引擎转录 → 字级别时间戳                         │\n│  3. AI 审核：静音/口误/重复/语气词                      │\n│  4. 生成审核网页 → 浏览器打开                           │\n└───────────────────────────────",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| 功能 | 说明 | 对比剪映 |\n|------|------|----------|\n| **语义理解** | AI 逐句分析，识别重说/纠正/卡顿 | 只能模式匹配 |\n| **静音检测** | >0.3s 自动标记，可调阈值 | 固定阈值 |\n| **重复句检测** | 相邻句开头≥5字相同 → 删前保后 | 无此功能 |\n| **句内重复** | \"好我们接下来好我们接下来做\" → 删重复部分 | 无此功能 |\n| **词典纠错** | 自定义专业术语词典 | 无此功能 |\n| **自更新** | 记住你的偏好，越用越准 | 无此功能 |",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.48470795617699
+  },
+  {
+    "name": "videocut-skills/剪口播 模块",
+    "description": "[模块级] videocut-skills 项目的 剪口播 模块 (source)。来源: https://github.com/Ceeon/videocut-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-932",
+      "github-ceeon",
+      "module-level",
+      "source",
+      "剪口播"
+    ],
+    "genes": [
+      {
+        "title": "剪口播 模块说明",
+        "content": "模块路径: 剪口播/\n类型: source\n文件数: 18\n\n包含文件:\n- 剪口播/SKILL.md\n- 剪口播/scripts\n- 剪口播/scripts/cut_video.sh\n- 剪口播/scripts/generate_review.js\n- 剪口播/scripts/generate_subtitles.js\n- 剪口播/scripts/review_server.js\n- 剪口播/scripts/volcengine_transcribe.sh\n- 剪口播/用户习惯\n- 剪口播/用户习惯/1-核心原则.md\n- 剪口播/用户习惯/2-语气词检测.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "剪口播 文件结构",
+        "content": "剪口播/SKILL.md\n剪口播/scripts\n剪口播/scripts/cut_video.sh\n剪口播/scripts/generate_review.js\n剪口播/scripts/generate_subtitles.js\n剪口播/scripts/review_server.js\n剪口播/scripts/volcengine_transcribe.sh\n剪口播/用户习惯\n剪口播/用户习惯/1-核心原则.md\n剪口播/用户习惯/2-语气词检测.md\n剪口播/用户习惯/3-静音段处理.md\n剪口播/用户习惯/4-重复句检测.md\n剪口播/用户习惯/5-卡顿词.md\n剪口播/用户习惯/6-句内重复检测.md\n剪口播/用户习惯/7-连续语气词.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6877663649415924
+  },
+  {
+    "name": "videocut-skills/字幕 模块",
+    "description": "[模块级] videocut-skills 项目的 字幕 模块 (source)。来源: https://github.com/Ceeon/videocut-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-932",
+      "github-ceeon",
+      "module-level",
+      "source",
+      "字幕"
+    ],
+    "genes": [
+      {
+        "title": "字幕 模块说明",
+        "content": "模块路径: 字幕/\n类型: source\n文件数: 5\n\n包含文件:\n- 字幕/README.md\n- 字幕/SKILL.md\n- 字幕/scripts\n- 字幕/scripts/subtitle_server.js\n- 字幕/词典.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "字幕 文件结构",
+        "content": "字幕/README.md\n字幕/SKILL.md\n字幕/scripts\n字幕/scripts/subtitle_server.js\n字幕/词典.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6877663649415924
+  },
+  {
+    "name": "videocut-skills/安装 模块",
+    "description": "[模块级] videocut-skills 项目的 安装 模块 (source)。来源: https://github.com/Ceeon/videocut-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-932",
+      "github-ceeon",
+      "module-level",
+      "source",
+      "安装"
+    ],
+    "genes": [
+      {
+        "title": "安装 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装 文件结构",
+        "content": "安装/README.md\n安装/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6877663649415924
+  },
+  {
+    "name": "videocut-skills/自进化 模块",
+    "description": "[模块级] videocut-skills 项目的 自进化 模块 (source)。来源: https://github.com/Ceeon/videocut-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-932",
+      "github-ceeon",
+      "module-level",
+      "source",
+      "自进化"
+    ],
+    "genes": [
+      {
+        "title": "自进化 模块说明",
+        "content": "模块路径: 自进化/\n类型: source\n文件数: 2\n\n包含文件:\n- 自进化/README.md\n- 自进化/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "自进化 文件结构",
+        "content": "自进化/README.md\n自进化/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6877663649415924
+  }
+]

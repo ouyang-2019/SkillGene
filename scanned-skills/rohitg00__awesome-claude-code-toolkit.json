@@ -1,0 +1,94 @@
+[
+  {
+    "name": "awesome-claude-code-toolkit (rohitg00)",
+    "description": "[项目级] The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+15,000 via SkillKit), 42 commands, 120 plugins, 19 hooks, 15 rules, 7 templates, 6 MCP configs, and more.。来源: https://github.com/rohitg00/awesome-claude-code-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-506",
+      "github-rohitg00",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+15,000 via SkillKit), 42 commands, 120 plugins, 19 hooks, 15 rules, 7 templates, 6 MCP configs, and more.\n\n来源: https://github.com/rohitg00/awesome-claude-code-toolkit\n语言: JavaScript\nStars: 506",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add rohitg00/awesome-claude-code-toolkit",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nagents\nagents/business-product\nagents/core-development\nagents/data-ai\nagents/developer-experience\nagents/infrastructure\nagents/language-experts\nagents/orchestration\nagents/quality-assurance\nagents/research-analysis\nagents/specialized-domains\ncommands\ncommands/architecture\ncommands/devops\ncommands/documentation\ncommands/git\ncommands/refactoring",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Three walkthrough examples demonstrating real toolkit usage.\n\n| Example | File | Description |\n|---------|------|-------------|\n| Session Workflow | [`session-workflow.md`](examples/session-workflow.md) | End-to-end productive development session |\n| Multi-Agent Pipeline | [`multi-agent-pipeline.md`](examples/multi-agent-pipeline.md) | Chaining agents for a Stripe billing feature |\n| Project Setup | [`project-setup.md`](examples/project-setup.md) | Setting up a new project with the full toolkit |\n\n---",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3520752584199
+  },
+  {
+    "name": "awesome-claude-code-toolkit/agents 模块",
+    "description": "[模块级] awesome-claude-code-toolkit 项目的 agents 模块 (source)。来源: https://github.com/rohitg00/awesome-claude-code-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-506",
+      "github-rohitg00",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "One hundred thirty-five specialized agents organized into ten categories. Each agent defines a persona, system instructions, and tool access patterns.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/business-product\nagents/business-product/business-analyst.md\nagents/business-product/content-strategist.md\nagents/business-product/customer-success.md\nagents/business-product/growth-engineer.md\nagents/business-product/legal-advisor.md\nagents/business-product/marketing-analyst.md\nagents/business-product/product-manager.md\nagents/business-product/project-manager.md\nagents/business-product/sales-engineer.md\nagents/business-product/scrum-master.md\nagents/business-product/technical-writer.md\nagents/business-product/ux-researcher.md\nagents/core-development\nagents/core-development/api-designer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.58166020673592
+  },
+  {
+    "name": "awesome-claude-code-toolkit/commands 模块",
+    "description": "[模块级] awesome-claude-code-toolkit 项目的 commands 模块 (source)。来源: https://github.com/rohitg00/awesome-claude-code-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-506",
+      "github-rohitg00",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "Forty-two slash commands organized into eight categories. Drop these into your project's `.claude/commands/` directory.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/architecture\ncommands/architecture/adr.md\ncommands/architecture/design-review.md\ncommands/architecture/diagram.md\ncommands/architecture/migrate.md\ncommands/architecture/plan.md\ncommands/architecture/refactor.md\ncommands/devops\ncommands/devops/ci-pipeline.md\ncommands/devops/deploy.md\ncommands/devops/dockerfile.md\ncommands/devops/k8s-manifest.md\ncommands/devops/monitor.md\ncommands/documentation\ncommands/documentation/api-docs.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.58166020673592
+  }
+]

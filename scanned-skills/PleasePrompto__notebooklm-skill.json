@@ -1,0 +1,99 @@
+[
+  {
+    "name": "notebooklm-skill (PleasePrompto)",
+    "description": "[项目级] Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.。来源: https://github.com/PleasePrompto/notebooklm-skill",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-3633",
+      "github-pleaseprompto",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.\n\n来源: https://github.com/PleasePrompto/notebooklm-skill\n语言: Python\nStars: 3633",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTHENTICATION.md\nCHANGELOG.md\nLICENSE\nREADME.md\nSKILL.md\nimages\nimages/example_notebookchat.png\nreferences\nreferences/api_reference.md\nreferences/troubleshooting.md\nreferences/usage_patterns.md\nrequirements.txt\nscripts\nscripts/__init__.py\nscripts/ask_question.py\nscripts/auth_manager.py\nscripts/browser_session.py\nscripts/browser_utils.py\nscripts/cleanup_manager.py\nscripts/config.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.780132698931357
+  },
+  {
+    "name": "notebooklm-skill/references 模块",
+    "description": "[模块级] notebooklm-skill 项目的 references 模块 (source)。来源: https://github.com/PleasePrompto/notebooklm-skill",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-3633",
+      "github-pleaseprompto",
+      "module-level",
+      "source",
+      "references"
+    ],
+    "genes": [
+      {
+        "title": "references 模块说明",
+        "content": "模块路径: references/\n类型: source\n文件数: 3\n\n包含文件:\n- references/api_reference.md\n- references/troubleshooting.md\n- references/usage_patterns.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "references 文件结构",
+        "content": "references/api_reference.md\nreferences/troubleshooting.md\nreferences/usage_patterns.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9241061591450856
+  },
+  {
+    "name": "notebooklm-skill/scripts 模块",
+    "description": "[模块级] notebooklm-skill 项目的 scripts 模块 (script)。来源: https://github.com/PleasePrompto/notebooklm-skill",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-3633",
+      "github-pleaseprompto",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/__init__.py\nscripts/ask_question.py\nscripts/auth_manager.py\nscripts/browser_session.py\nscripts/browser_utils.py\nscripts/cleanup_manager.py\nscripts/config.py\nscripts/notebook_manager.py\nscripts/run.py\nscripts/setup_environment.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9241061591450856
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "n-skills (numman-ali)",
+    "description": "[项目级] Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills。来源: https://github.com/numman-ali/n-skills",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-911",
+      "github-numman-ali",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills\n\n来源: https://github.com/numman-ali/n-skills\n语言: TypeScript\nStars: 911",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/logo.svg\ndocs\ndocs/categories.md\ndocs/cross-platform.md\ndocs/skill-format.md\npackage.json\nscripts\nscripts/sync-external.mjs\nscripts/update-registry.mjs\nskills\nskills/automation\nskills/tools\nskills/workflow\nsources.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. Open an [issue](https://github.com/numman-ali/n-skills/issues) with your skill details\n2. Explain what it does and why it's valuable\n3. If approved, submit a PR following [CONTRIBUTING.md](CONTRIBUTING.md)\n\nOr DM me on X: [@nummanali](https://x.com/nummanali)\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "This is a **curated** marketplace. Anyone can request to be included, but only **high-quality, real value-add projects** will be considered.\n\n**What we're looking for:**\n- Skills that solve real problems\n- Clean, well-documented code\n- Genuine utility for developers\n- Active maintenance\n\n**Not interested in:**\n- Wrapper skills with no real value\n- Abandoned or unmaintained projects\n- Low-effort submissions",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.479759188486499
+  },
+  {
+    "name": "n-skills/docs 模块",
+    "description": "[模块级] n-skills 项目的 docs 模块 (docs)。来源: https://github.com/numman-ali/n-skills",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-911",
+      "github-numman-ali",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/categories.md\n- docs/cross-platform.md\n- docs/skill-format.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/categories.md\ndocs/cross-platform.md\ndocs/skill-format.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6838073507891993
+  },
+  {
+    "name": "n-skills/scripts 模块",
+    "description": "[模块级] n-skills 项目的 scripts 模块 (script)。来源: https://github.com/numman-ali/n-skills",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-911",
+      "github-numman-ali",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/sync-external.mjs\n- scripts/update-registry.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/sync-external.mjs\nscripts/update-registry.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6838073507891993
+  },
+  {
+    "name": "n-skills/skills 模块",
+    "description": "[模块级] n-skills 项目的 skills 模块 (source)。来源: https://github.com/numman-ali/n-skills",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-911",
+      "github-numman-ali",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "We embrace the diversity with a universal approach:\n\n```\n┌─────────────────────────────────────────────────────────┐\n│                                                         │\n│   SKILL.md          →  The universal skill format      │\n│   AGENTS.md         →  The universal discovery file    │\n│   openskills        →  The universal installer         │\n│                                                         │\n│   Write once. Run everywhere.                          │\n│                          ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/automation\nskills/automation/dev-browser\nskills/automation/dev-browser/.claude-plugin\nskills/automation/dev-browser/.claude-plugin/plugin.json\nskills/automation/dev-browser/.source.json\nskills/automation/dev-browser/skills\nskills/automation/dev-browser/skills/dev-browser\nskills/automation/dev-browser/skills/dev-browser/SKILL.md\nskills/automation/dev-browser/skills/dev-browser/package.json\nskills/automation/dev-browser/skills/dev-browser/references\nskills/automation/dev-browser/skills/dev-browser/references/scraping.md\nskills/automation/dev-browser/skills/dev-browser/scripts\nskills/automation/dev-browser/skills/dev-browser/scripts/start-relay.ts\nskills/automation/dev-browser/skills/dev-browser/scripts/start-server.ts\nskills/automation/dev-browser/skills/dev-browser/server.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "skills 代码示例",
+        "content": "┌─────────────────────────────────────────────────────────┐\n│                                                         │\n│   SKILL.md          →  The universal skill format      │\n│   AGENTS.md         →  The universal discovery file    │\n│   openskills        →  The universal installer         │\n│                                                         │\n│   Write once. Run everywhere.                          │\n│                                                         │\n└─────────────────────────────────────────────────────────┘",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6838073507891993
+  }
+]

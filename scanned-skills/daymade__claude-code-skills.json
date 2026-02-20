@@ -1,0 +1,557 @@
+[
+  {
+    "name": "claude-code-skills (daymade)",
+    "description": "[项目级] Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.\n\n来源: https://github.com/daymade/claude-code-skills\n语言: Python\nStars: 592",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add daymade/claude-code-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nQUICKSTART.md\nQUICKSTART.zh-CN.md\nREADME.md\nREADME.zh-CN.md\nclaude-code-history-files-finder\nclaude-code-history-files-finder/.INTEGRATION_SUMMARY.md\nclaude-code-history-files-finder/.security-scan-passed\nclaude-code-history-files-finder/SKILL.md\nclaude-code-history-files-finder/references\nclaude-code-history-files-finder/scripts\nclaude-md-progressive-disclosurer\nclaude-md-progressive-disclosurer/.security-scan-passed\nclaude-md-progressive-disclosurer/SKILL.md\nclaude-md-progressive-disclosurer/references\nclaude-skills-troubleshooting",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```\n\n**🎬 Live Demo**\n\n*Coming soon*\n\n📚 **Documentation**: See [prompt-optimizer/references/](./prompt-optimizer/references/) for:\n- `ears_syntax.md` - Complete EARS patterns and transformation rules\n- `domain_theories.md` - 40+ theories mapped to domains with selection guidance\n- `examples.md` - Full transformation examples with before/after comparisons\n\n**💡 Innovation**: EARS methodology eliminates ambiguity by forcing explicit conditions, triggers, and measurable criteria. Combined with domain theory grounding (GTD, BJ Fogg, Gestalt, etc.), it transforms \"build a todo app\" into a complete",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.38616085336146
+  },
+  {
+    "name": "claude-code-skills/claude-code-history-files-finder 模块",
+    "description": "[模块级] claude-code-skills 项目的 claude-code-history-files-finder 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "claude-code-history-files-finder"
+    ],
+    "genes": [
+      {
+        "title": "claude-code-history-files-finder 模块说明",
+        "content": "Find and recover content from Claude Code session history files stored in `~/.claude/projects/`.\n\n**When to use:**\n- Recovering deleted or lost files from previous Claude Code sessions\n- Searching for specific code across conversation history\n- Tracking file modifications across multiple sessions\n- Finding sessions containing specific keywords or implementations\n\n**Key features:**\n- **Session search**: Find sessions by keywords with frequency ranking\n- **Content recovery**: Extract files from Wr",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-code-history-files-finder 文件结构",
+        "content": "claude-code-history-files-finder/.INTEGRATION_SUMMARY.md\nclaude-code-history-files-finder/.security-scan-passed\nclaude-code-history-files-finder/SKILL.md\nclaude-code-history-files-finder/references\nclaude-code-history-files-finder/references/session_file_format.md\nclaude-code-history-files-finder/references/workflow_examples.md\nclaude-code-history-files-finder/scripts\nclaude-code-history-files-finder/scripts/analyze_sessions.py\nclaude-code-history-files-finder/scripts/recover_content.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/claude-md-progressive-disclosurer 模块",
+    "description": "[模块级] claude-code-skills 项目的 claude-md-progressive-disclosurer 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "claude-md-progressive-disclosurer"
+    ],
+    "genes": [
+      {
+        "title": "claude-md-progressive-disclosurer 模块说明",
+        "content": "Optimize user CLAUDE.md files using progressive disclosure to reduce context bloat while preserving critical rules.\n\n**When to use:**\n- CLAUDE.md is too long or repetitive\n- Need to move detailed procedures into references\n- Want to extract reusable workflows into skills\n\n**Key features:**\n- Section classification (keep/move/extract/remove)\n- Before/after line-count reporting\n- Reference file and pointer formats\n- Best-practice optimization workflow\n\n**Example usage:**\n```\n\"Optimize my ~/.claude",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-md-progressive-disclosurer 文件结构",
+        "content": "claude-md-progressive-disclosurer/.security-scan-passed\nclaude-md-progressive-disclosurer/SKILL.md\nclaude-md-progressive-disclosurer/references\nclaude-md-progressive-disclosurer/references/progressive_disclosure_principles.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "claude-md-progressive-disclosurer 代码示例",
+        "content": "\"Optimize my ~/.claude/CLAUDE.md using progressive disclosure and propose a plan.\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/claude-skills-troubleshooting 模块",
+    "description": "[模块级] claude-code-skills 项目的 claude-skills-troubleshooting 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "claude-skills-troubleshooting"
+    ],
+    "genes": [
+      {
+        "title": "claude-skills-troubleshooting 模块说明",
+        "content": "Diagnose and resolve Claude Code plugin and skill configuration issues. Debug plugin installation, enablement, and activation problems with systematic workflows.\n\n**When to use:**\n- Plugins installed but not showing in available skills list\n- Skills not activating as expected despite installation\n- Troubleshooting enabledPlugins configuration in settings.json\n- Debugging \"plugin not working\" or \"skill not showing\" issues\n- Understanding plugin state architecture and lifecycle\n\n**Key features:**\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-skills-troubleshooting 文件结构",
+        "content": "claude-skills-troubleshooting/SKILL.md\nclaude-skills-troubleshooting/references\nclaude-skills-troubleshooting/references/architecture.md\nclaude-skills-troubleshooting/references/known_issues.md\nclaude-skills-troubleshooting/scripts\nclaude-skills-troubleshooting/scripts/diagnose_plugins.py\nclaude-skills-troubleshooting/scripts/enable_all_plugins.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/cli-demo-generator 模块",
+    "description": "[模块级] claude-code-skills 项目的 cli-demo-generator 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "cli-demo-generator"
+    ],
+    "genes": [
+      {
+        "title": "cli-demo-generator 模块说明",
+        "content": "Generate professional animated CLI demos and terminal recordings with VHS automation.\n\n**When to use:**\n- Creating demos for documentation\n- Recording terminal workflows as GIFs\n- Generating animated tutorials\n- Batch-generating multiple demos\n- Showcasing CLI tools\n\n**Key features:**\n- Automated demo generation from command lists\n- Batch processing with YAML/JSON configs\n- Interactive recording with asciinema\n- Smart timing based on command complexity\n- Multiple output formats (GIF, MP4, WebM)\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli-demo-generator 文件结构",
+        "content": "cli-demo-generator/SKILL.md\ncli-demo-generator/assets\ncli-demo-generator/assets/examples\ncli-demo-generator/assets/examples/batch-config.yaml\ncli-demo-generator/assets/templates\ncli-demo-generator/assets/templates/basic.tape\ncli-demo-generator/assets/templates/interactive.tape\ncli-demo-generator/references\ncli-demo-generator/references/best_practices.md\ncli-demo-generator/references/vhs_syntax.md\ncli-demo-generator/scripts\ncli-demo-generator/scripts/auto_generate_demo.py\ncli-demo-generator/scripts/batch_generate.py\ncli-demo-generator/scripts/record_interactive.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/cloudflare-troubleshooting 模块",
+    "description": "[模块级] claude-code-skills 项目的 cloudflare-troubleshooting 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "cloudflare-troubleshooting"
+    ],
+    "genes": [
+      {
+        "title": "cloudflare-troubleshooting 模块说明",
+        "content": "Investigate and resolve Cloudflare configuration issues using API-driven evidence gathering.\n\n**When to use:**\n- Site shows ERR_TOO_MANY_REDIRECTS\n- SSL/TLS configuration errors\n- DNS resolution problems\n- Cloudflare-related issues\n\n**Key features:**\n- Evidence-based investigation methodology\n- Comprehensive Cloudflare API reference\n- SSL/TLS mode troubleshooting (Flexible, Full, Strict)\n- DNS, cache, and firewall diagnostics\n- Agentic approach with optional helper scripts\n\n**🎬 Live Demo**\n\n![C",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cloudflare-troubleshooting 文件结构",
+        "content": "cloudflare-troubleshooting/SKILL.md\ncloudflare-troubleshooting/references\ncloudflare-troubleshooting/references/api_overview.md\ncloudflare-troubleshooting/references/common_issues.md\ncloudflare-troubleshooting/references/ssl_modes.md\ncloudflare-troubleshooting/scripts\ncloudflare-troubleshooting/scripts/check_cloudflare_config.py\ncloudflare-troubleshooting/scripts/fix_ssl_mode.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/competitors-analysis 模块",
+    "description": "[模块级] claude-code-skills 项目的 competitors-analysis 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "competitors-analysis"
+    ],
+    "genes": [
+      {
+        "title": "competitors-analysis 模块说明",
+        "content": "Analyze competitor repositories with evidence-based approach. All analysis must be based on actual cloned code, never assumptions.\n\n**When to use:**\n- Track and analyze competitor products or technologies\n- Create evidence-based competitor profiles\n- Generate competitive analysis reports\n- Need to document technical decisions with cited sources\n\n**Key features:**\n- Pre-analysis checklist to ensure repositories are cloned locally\n- Forbidden patterns to prevent assumptions (\"推测...\", \"可能...\", \"应该.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "competitors-analysis 文件结构",
+        "content": "competitors-analysis/.security-scan-passed\ncompetitors-analysis/SKILL.md\ncompetitors-analysis/references\ncompetitors-analysis/references/analysis_checklist.md\ncompetitors-analysis/references/profile_template.md\ncompetitors-analysis/scripts\ncompetitors-analysis/scripts/update-competitors.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/deep-research 模块",
+    "description": "[模块级] claude-code-skills 项目的 deep-research 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "deep-research"
+    ],
+    "genes": [
+      {
+        "title": "deep-research 模块说明",
+        "content": "Generate format-controlled research reports with evidence tracking and citations.\n\n**When to use:**\n- Need a structured research report, literature review, or market/industry analysis\n- Require strict section formatting or a template to be enforced\n- Need evidence mapping, citations, and source quality review\n- Want multi-pass synthesis to avoid missing key findings\n\n**Key features:**\n- Report spec and format contract workflow\n- Evidence table with source quality rubric\n- Multi-pass complete dra",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deep-research 文件结构",
+        "content": "deep-research/.security-scan-passed\ndeep-research/SKILL.md\ndeep-research/references\ndeep-research/references/completeness_review_checklist.md\ndeep-research/references/formatting_rules.md\ndeep-research/references/research_plan_checklist.md\ndeep-research/references/research_report_template.md\ndeep-research/references/source_quality_rubric.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/demos 模块",
+    "description": "[模块级] claude-code-skills 项目的 demos 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "demos"
+    ],
+    "genes": [
+      {
+        "title": "demos 模块说明",
+        "content": "**📝 Initialize New Skill**\n\n![Initialize Skill Demo](./demos/skill-creator/init-skill.gif)\n\n**✅ Validate Skill Structure**\n\n![Validate Skill Demo](./demos/skill-creator/validate-skill.gif)\n\n**📦 Package Skill for Distribution**\n\n![Package Skill Demo](./demos/skill-creator/package-skill.gif)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demos 文件结构",
+        "content": "demos/README.md\ndemos/cli-demo-generator\ndemos/cli-demo-generator/generate-demo.gif\ndemos/cli-demo-generator/generate-demo.tape\ndemos/generate_all_demos.sh\ndemos/github-ops\ndemos/github-ops/create-pr.gif\ndemos/github-ops/create-pr.tape\ndemos/index.html\ndemos/llm-icon-finder\ndemos/llm-icon-finder/find-icons.gif\ndemos/llm-icon-finder/find-icons.tape\ndemos/markdown-tools\ndemos/markdown-tools/convert-docs.gif\ndemos/markdown-tools/convert-docs.tape",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/docs-cleaner 模块",
+    "description": "[模块级] claude-code-skills 项目的 docs-cleaner 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "docs-cleaner"
+    ],
+    "genes": [
+      {
+        "title": "docs-cleaner 模块说明",
+        "content": "Consolidate redundant documentation while preserving all valuable content.\n\n**When to use:**\n- Cleaning up documentation bloat across projects\n- Merging redundant docs covering the same topics\n- Reducing documentation sprawl after rapid development\n- Consolidating multiple files into authoritative sources\n\n**Key features:**\n- **Content preservation**: Never lose valuable information during cleanup\n- **Redundancy detection**: Identify overlapping documentation\n- **Smart merging**: Combine related",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-cleaner 文件结构",
+        "content": "docs-cleaner/.security-scan-passed\ndocs-cleaner/SKILL.md\ndocs-cleaner/references\ndocs-cleaner/references/value_analysis_template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/fact-checker 模块",
+    "description": "[模块级] claude-code-skills 项目的 fact-checker 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "fact-checker"
+    ],
+    "genes": [
+      {
+        "title": "fact-checker 模块说明",
+        "content": "Verify factual claims in documents using web search and official sources, then propose corrections with user confirmation.\n\n**When to use:**\n- Fact-checking documents for accuracy\n- Verifying AI model specifications and technical documentation\n- Updating outdated information in documents\n- Validating statistical claims and benchmarks\n- Checking API capabilities and version numbers\n\n**Key features:**\n- Web search integration with authoritative sources\n- AI model specification verification\n- Techn",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fact-checker 文件结构",
+        "content": "fact-checker/.security-scan-passed\nfact-checker/README.md\nfact-checker/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/github-contributor 模块",
+    "description": "[模块级] claude-code-skills 项目的 github-contributor 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "github-contributor"
+    ],
+    "genes": [
+      {
+        "title": "github-contributor 模块说明",
+        "content": "Strategic guide for becoming an effective GitHub contributor and building your open-source reputation.\n\n**When to use:**\n- Looking for projects to contribute to\n- Learning contribution best practices\n- Building your GitHub presence and reputation\n- Understanding how to write high-quality PRs\n\n**Key features:**\n- **Four contribution types**: Documentation, Code Quality, Bug Fixes, Features\n- **Project selection criteria**: What makes a good first project vs red flags\n- **PR excellence workflow**:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "github-contributor 文件结构",
+        "content": "github-contributor/.security-scan-passed\ngithub-contributor/SKILL.md\ngithub-contributor/references\ngithub-contributor/references/communication_templates.md\ngithub-contributor/references/pr_checklist.md\ngithub-contributor/references/project_evaluation.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "github-contributor 代码示例",
+        "content": "Level 1: Documentation fixes (lowest barrier, high impact)\n    ↓ (build familiarity)\nLevel 2: Code quality (medium effort, demonstrates skill)\n    ↓ (understand codebase)\nLevel 3: Bug fixes (high impact, builds trust)\n    ↓ (trusted contributor)\nLevel 4: Feature additions (highest visibility)\n    ↓ (potential maintainer)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/github-ops 模块",
+    "description": "[模块级] claude-code-skills 项目的 github-ops 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "github-ops"
+    ],
+    "genes": [
+      {
+        "title": "github-ops 模块说明",
+        "content": "Comprehensive GitHub operations using gh CLI and GitHub API.\n\n**When to use:**\n- Creating, viewing, or managing pull requests\n- Managing issues and repository settings\n- Querying GitHub API endpoints\n- Working with GitHub Actions workflows\n- Automating GitHub operations\n\n**Key features:**\n- PR creation with JIRA integration\n- Issue management workflows\n- GitHub API (REST & GraphQL) operations\n- Workflow automation\n- Enterprise GitHub support\n\n**🎬 Live Demo**\n\n![GitHub Ops Demo](./demos/github-o",
+        "gene_type": "principle"
+      },
+      {
+        "title": "github-ops 文件结构",
+        "content": "github-ops/SKILL.md\ngithub-ops/references\ngithub-ops/references/api_reference.md\ngithub-ops/references/best_practices.md\ngithub-ops/references/issue_operations.md\ngithub-ops/references/pr_operations.md\ngithub-ops/references/workflow_operations.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/i18n-expert 模块",
+    "description": "[模块级] claude-code-skills 项目的 i18n-expert 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "i18n-expert"
+    ],
+    "genes": [
+      {
+        "title": "i18n-expert 模块说明",
+        "content": "Complete internationalization/localization setup and auditing for UI codebases. Configure i18n frameworks, replace hard-coded strings with translation keys, ensure locale parity between en-US and zh-CN, and validate pluralization and formatting.\n\n**When to use:**\n- Setting up i18n for new React/Next.js/Vue applications\n- Auditing existing i18n implementations for key parity and completeness\n- Replacing hard-coded strings with translation keys\n- Ensuring proper error code mapping to localized mes",
+        "gene_type": "principle"
+      },
+      {
+        "title": "i18n-expert 文件结构",
+        "content": "i18n-expert/.security-scan-passed\ni18n-expert/SKILL.md\ni18n-expert/scripts\ni18n-expert/scripts/i18n_audit.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/iOS-APP-developer 模块",
+    "description": "[模块级] claude-code-skills 项目的 iOS-APP-developer 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "ios-app-developer"
+    ],
+    "genes": [
+      {
+        "title": "iOS-APP-developer 模块说明",
+        "content": "Build, configure, and debug iOS apps with XcodeGen, SwiftUI, and Swift Package Manager.\n\n**When to use:**\n- Setting up XcodeGen `project.yml`\n- Fixing SPM dependency or embed issues\n- Handling code signing and device deployment errors\n- Debugging camera/AVFoundation problems\n\n**Key features:**\n- XcodeGen project templates\n- SPM dynamic framework embedding fixes\n- Code signing and provisioning guidance\n- Device deployment and troubleshooting checklists\n\n**Example usage:**\n```bash\nxcodegen generat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "iOS-APP-developer 文件结构",
+        "content": "iOS-APP-developer/.security-scan-passed\niOS-APP-developer/SKILL.md\niOS-APP-developer/references\niOS-APP-developer/references/camera-avfoundation.md\niOS-APP-developer/references/swiftui-compatibility.md\niOS-APP-developer/references/testing-mainactor.md\niOS-APP-developer/references/xcodegen-full.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "iOS-APP-developer 代码示例",
+        "content": "xcodegen generate\nxcodebuild -destination 'platform=iOS Simulator,name=iPhone 17' build",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/llm-icon-finder 模块",
+    "description": "[模块级] claude-code-skills 项目的 llm-icon-finder 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "llm-icon-finder"
+    ],
+    "genes": [
+      {
+        "title": "llm-icon-finder 模块说明",
+        "content": "Access 100+ AI model and LLM provider brand icons from lobe-icons library.\n\n**When to use:**\n- Finding brand icons for AI models/providers\n- Downloading logos for Claude, GPT, Gemini, etc.\n- Getting icons in multiple formats (SVG/PNG/WEBP)\n- Building AI tool documentation\n- Creating presentations about LLMs\n\n**Key features:**\n- 100+ AI/LLM model icons\n- Multiple format support (SVG, PNG, WEBP)\n- URL generation for direct access\n- Local download capabilities\n- Searchable icon catalog\n\n**🎬 Live D",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm-icon-finder 文件结构",
+        "content": "llm-icon-finder/SKILL.md\nllm-icon-finder/references\nllm-icon-finder/references/developer-info.md\nllm-icon-finder/references/icons-list.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/macos-cleaner 模块",
+    "description": "[模块级] claude-code-skills 项目的 macos-cleaner 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "macos-cleaner"
+    ],
+    "genes": [
+      {
+        "title": "macos-cleaner 模块说明",
+        "content": "**The safest way to reclaim disk space on macOS.** Analyze system caches, application remnants, large files, and development environments with intelligent categorization and interactive cleanup.\n\n**Why macos-cleaner stands out:**\n- **Safety-First Philosophy**: Never deletes without explicit user confirmation. Every operation includes risk assessment (🟢 Safe / 🟡 Caution / 🔴 Keep).\n- **Intelligence Over Automation**: Analyzes first, explains thoroughly, then lets you decide. Unlike one-click cl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "macos-cleaner 文件结构",
+        "content": "macos-cleaner/.security-scan-passed\nmacos-cleaner/SKILL.md\nmacos-cleaner/references\nmacos-cleaner/references/cleanup_targets.md\nmacos-cleaner/references/mole_integration.md\nmacos-cleaner/references/safety_rules.md\nmacos-cleaner/scripts\nmacos-cleaner/scripts/analyze_caches.py\nmacos-cleaner/scripts/analyze_dev_env.py\nmacos-cleaner/scripts/analyze_large_files.py\nmacos-cleaner/scripts/cleanup_report.py\nmacos-cleaner/scripts/find_app_remnants.py\nmacos-cleaner/scripts/safe_delete.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/markdown-tools 模块",
+    "description": "[模块级] claude-code-skills 项目的 markdown-tools 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "markdown-tools"
+    ],
+    "genes": [
+      {
+        "title": "markdown-tools 模块说明",
+        "content": "Converts documents to markdown with Windows/WSL path handling and PDF image extraction.\n\n**When to use:**\n- Converting .doc/.docx/PDF/PPTX to markdown\n- Extracting images from PDF files\n- Processing Confluence exports\n- Handling Windows/WSL path conversions\n\n**Key features:**\n- Multi-format document conversion\n- PDF image extraction using PyMuPDF\n- Windows/WSL path automation\n- Confluence export processing\n- Helper scripts for path conversion and image extraction\n\n**🎬 Live Demo**\n\n![Markdown To",
+        "gene_type": "principle"
+      },
+      {
+        "title": "markdown-tools 文件结构",
+        "content": "markdown-tools/SKILL.md\nmarkdown-tools/references\nmarkdown-tools/references/conversion-examples.md\nmarkdown-tools/references/heavy-mode-guide.md\nmarkdown-tools/references/tool-comparison.md\nmarkdown-tools/scripts\nmarkdown-tools/scripts/convert.py\nmarkdown-tools/scripts/convert_path.py\nmarkdown-tools/scripts/extract_pdf_images.py\nmarkdown-tools/scripts/merge_outputs.py\nmarkdown-tools/scripts/validate_output.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  },
+  {
+    "name": "claude-code-skills/meeting-minutes-taker 模块",
+    "description": "[模块级] claude-code-skills 项目的 meeting-minutes-taker 模块 (source)。来源: https://github.com/daymade/claude-code-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-592",
+      "github-daymade",
+      "module-level",
+      "source",
+      "meeting-minutes-taker"
+    ],
+    "genes": [
+      {
+        "title": "meeting-minutes-taker 模块说明",
+        "content": "Transform meeting transcripts into high-fidelity, structured meeting minutes with iterative human review.\n\n**When to use:**\n- Meeting transcript provided and minutes/notes/summaries requested\n- Multiple versions of meeting minutes need merging without content loss\n- Existing minutes need review against original transcript for missing items\n\n**Key features:**\n- Multi-pass parallel generation with UNION merge strategy\n- Evidence-based recording with speaker quotes\n- Mermaid diagrams for architectu",
+        "gene_type": "principle"
+      },
+      {
+        "title": "meeting-minutes-taker 文件结构",
+        "content": "meeting-minutes-taker/SKILL.md\nmeeting-minutes-taker/references\nmeeting-minutes-taker/references/completeness_review_checklist.md\nmeeting-minutes-taker/references/context_file_template.md\nmeeting-minutes-taker/references/meeting_minutes_template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.608928682689168
+  }
+]

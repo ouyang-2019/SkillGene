@@ -1,0 +1,113 @@
+[
+  {
+    "name": "wooyun-legacy (tanweai)",
+    "description": "[项目级] wooyun-legacy skill for claude code 。来源: https://github.com/tanweai/wooyun-legacy",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1232",
+      "github-tanweai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "wooyun-legacy skill for claude code \n\n来源: https://github.com/tanweai/wooyun-legacy\n语言: unknown\nStars: 1232",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPROGRESS.md\nREADME.md\nSKILL.md\nagent_knowledge_extraction_template.md\ncategories\ncategories/command-execution.md\ncategories/csrf.md\ncategories/file-traversal.md\ncategories/file-upload.md\ncategories/info-disclosure.md\ncategories/logic-flaws.md\ncategories/misconfig.md\ncategories/other.md\ncategories/rce.md\ncategories/sql-injection.md\ncategories/ssrf.md\ncategories/unauthorized-access.md\ncategories/weak-password.md\ncategories/xss.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "将本仓库克隆到 `~/.claude/skills/wooyun-legacy/`，然后在 Claude Code 中调用。",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.545305353914204
+  },
+  {
+    "name": "wooyun-legacy/categories 模块",
+    "description": "[模块级] wooyun-legacy 项目的 categories 模块 (source)。来源: https://github.com/tanweai/wooyun-legacy",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1232",
+      "github-tanweai",
+      "module-level",
+      "source",
+      "categories"
+    ],
+    "genes": [
+      {
+        "title": "categories 模块说明",
+        "content": "模块路径: categories/\n类型: source\n文件数: 15\n\n包含文件:\n- categories/command-execution.md\n- categories/csrf.md\n- categories/file-traversal.md\n- categories/file-upload.md\n- categories/info-disclosure.md\n- categories/logic-flaws.md\n- categories/misconfig.md\n- categories/other.md\n- categories/rce.md\n- categories/sql-injection.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "categories 文件结构",
+        "content": "categories/command-execution.md\ncategories/csrf.md\ncategories/file-traversal.md\ncategories/file-upload.md\ncategories/info-disclosure.md\ncategories/logic-flaws.md\ncategories/misconfig.md\ncategories/other.md\ncategories/rce.md\ncategories/sql-injection.md\ncategories/ssrf.md\ncategories/unauthorized-access.md\ncategories/weak-password.md\ncategories/xss.md\ncategories/xxe.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.736244283131363
+  },
+  {
+    "name": "wooyun-legacy/examples 模块",
+    "description": "[模块级] wooyun-legacy 项目的 examples 模块 (example)。来源: https://github.com/tanweai/wooyun-legacy",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1232",
+      "github-tanweai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 3\n\n包含文件:\n- examples/README.md\n- examples/bank-penetration.md\n- examples/telecom-penetration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/bank-penetration.md\nexamples/telecom-penetration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.736244283131363
+  },
+  {
+    "name": "wooyun-legacy/knowledge 模块",
+    "description": "[模块级] wooyun-legacy 项目的 knowledge 模块 (source)。来源: https://github.com/tanweai/wooyun-legacy",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1232",
+      "github-tanweai",
+      "module-level",
+      "source",
+      "knowledge"
+    ],
+    "genes": [
+      {
+        "title": "knowledge 模块说明",
+        "content": "模块路径: knowledge/\n类型: source\n文件数: 8\n\n包含文件:\n- knowledge/command-execution.md\n- knowledge/file-traversal.md\n- knowledge/file-upload.md\n- knowledge/info-disclosure.md\n- knowledge/logic-flaws.md\n- knowledge/sql-injection.md\n- knowledge/unauthorized-access.md\n- knowledge/xss.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "knowledge 文件结构",
+        "content": "knowledge/command-execution.md\nknowledge/file-traversal.md\nknowledge/file-upload.md\nknowledge/info-disclosure.md\nknowledge/logic-flaws.md\nknowledge/sql-injection.md\nknowledge/unauthorized-access.md\nknowledge/xss.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.736244283131363
+  }
+]

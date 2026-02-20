@@ -1,0 +1,131 @@
+[
+  {
+    "name": "SkillForge (tripleyak)",
+    "description": "[项目级] The ultimate meta-skill for generating best-in-class Claude Code skills.。来源: https://github.com/tripleyak/SkillForge",
+    "domain": "devops",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-512",
+      "github-tripleyak",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The ultimate meta-skill for generating best-in-class Claude Code skills.\n\n来源: https://github.com/tripleyak/SkillForge\n语言: Python\nStars: 512",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "![Installation](assets/images/12-installation.png)\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSESSION_HANDOFF.md\nSKILL.md\nassets\nassets/images\nassets/templates\nreferences\nreferences/evolution-scoring.md\nreferences/multi-lens-framework.md\nreferences/regression-questions.md\nreferences/script-integration-framework.md\nreferences/script-patterns-catalog.md\nreferences/specification-template.md\nreferences/synthesis-protocol.md\nscripts\nscripts/discover_skills.py\nscripts/package_skill.py\nscripts/quick_validate.py\nscripts/triage_skill_request.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "![Installation](assets/images/12-installation.png)\n\n```bash",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.354634980487916
+  },
+  {
+    "name": "SkillForge/assets 模块",
+    "description": "[模块级] SkillForge 项目的 assets 模块 (source)。来源: https://github.com/tripleyak/SkillForge",
+    "domain": "devops",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-512",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 18\n\n包含文件:\n- assets/images\n- assets/images/01-title.png\n- assets/images/02-quality-gap.png\n- assets/images/03-quality-built-in.png\n- assets/images/04-four-phase-architecture.png\n- assets/images/05-phase1-thinking-lenses.png\n- assets/images/06-phases-2-3.png\n- assets/images/07-phase4-synthesis.png\n- assets/images/08-evolution-mandate.png\n- assets/images/09-core-principles.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/images\nassets/images/01-title.png\nassets/images/02-quality-gap.png\nassets/images/03-quality-built-in.png\nassets/images/04-four-phase-architecture.png\nassets/images/05-phase1-thinking-lenses.png\nassets/images/06-phases-2-3.png\nassets/images/07-phase4-synthesis.png\nassets/images/08-evolution-mandate.png\nassets/images/09-core-principles.png\nassets/images/10-agentic-capabilities.png\nassets/images/11-directory-structure.png\nassets/images/12-installation.png\nassets/images/13-closing.png\nassets/templates",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5837079843903323
+  },
+  {
+    "name": "SkillForge/references 模块",
+    "description": "[模块级] SkillForge 项目的 references 模块 (source)。来源: https://github.com/tripleyak/SkillForge",
+    "domain": "devops",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-512",
+      "module-level",
+      "source",
+      "references"
+    ],
+    "genes": [
+      {
+        "title": "references 模块说明",
+        "content": "模块路径: references/\n类型: source\n文件数: 7\n\n包含文件:\n- references/evolution-scoring.md\n- references/multi-lens-framework.md\n- references/regression-questions.md\n- references/script-integration-framework.md\n- references/script-patterns-catalog.md\n- references/specification-template.md\n- references/synthesis-protocol.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "references 文件结构",
+        "content": "references/evolution-scoring.md\nreferences/multi-lens-framework.md\nreferences/regression-questions.md\nreferences/script-integration-framework.md\nreferences/script-patterns-catalog.md\nreferences/specification-template.md\nreferences/synthesis-protocol.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5837079843903323
+  },
+  {
+    "name": "SkillForge/scripts 模块",
+    "description": "[模块级] SkillForge 项目的 scripts 模块 (script)。来源: https://github.com/tripleyak/SkillForge",
+    "domain": "devops",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-512",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "| Script | Purpose |\n|--------|---------|\n| `triage_skill_request.py` | Intelligent input classification and skill matching |\n| `discover_skills.py` | Scans all skill sources and builds searchable index |\n| `match_skills.py` | Multi-factor confidence scoring |\n| `verify_recommendation.py` | Self-verification of recommendation quality |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/discover_skills.py\nscripts/package_skill.py\nscripts/quick_validate.py\nscripts/triage_skill_request.py\nscripts/validate-skill.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5837079843903323
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "marketingskills (coreyhaines31)",
+    "description": "[项目级] Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.。来源: https://github.com/coreyhaines31/marketingskills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing",
+      "javascript",
+      "stars-8492",
+      "github-coreyhaines31",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.\n\n来源: https://github.com/coreyhaines31/marketingskills\n语言: JavaScript\nStars: 8492",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nVERSIONS.md\nskills\nskills/ab-test-setup\nskills/ad-creative\nskills/ai-seo\nskills/analytics-tracking\nskills/churn-prevention\nskills/cold-email\nskills/competitor-alternatives\nskills/content-strategy\nskills/copy-editing\nskills/copywriting\nskills/email-sequence\nskills/form-cro\nskills/free-tool-strategy",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"Help me optimize this landing page for conversions\"\n→ Uses page-cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics-tracking skill\n\n\"Create a 5-email welcome sequence\"\n→ Uses email-sequence skill",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.96450499274698
+  },
+  {
+    "name": "marketingskills/skills 模块",
+    "description": "[模块级] marketingskills 项目的 skills 模块 (source)。来源: https://github.com/coreyhaines31/marketingskills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing",
+      "javascript",
+      "stars-8492",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want Claude Code (or similar AI coding assistants) to help with conversion optimization, copywriting, SEO, analytics, and growth engineering.\n\nBuilt by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/ab-test-setup\nskills/ab-test-setup/SKILL.md\nskills/ab-test-setup/references\nskills/ab-test-setup/references/sample-size-guide.md\nskills/ab-test-setup/references/test-templates.md\nskills/ad-creative\nskills/ad-creative/SKILL.md\nskills/ad-creative/references\nskills/ad-creative/references/generative-tools.md\nskills/ad-creative/references/platform-specs.md\nskills/ai-seo\nskills/ai-seo/SKILL.md\nskills/ai-seo/references\nskills/ai-seo/references/content-patterns.md\nskills/ai-seo/references/platform-ranking-factors.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.071603994197584
+  },
+  {
+    "name": "marketingskills/tools 模块",
+    "description": "[模块级] marketingskills 项目的 tools 模块 (script)。来源: https://github.com/coreyhaines31/marketingskills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing",
+      "javascript",
+      "stars-8492",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "模块路径: tools/\n类型: script\n文件数: 53\n\n包含文件:\n- tools/REGISTRY.md\n- tools/clis\n- tools/clis/README.md\n- tools/clis/activecampaign.js\n- tools/clis/adobe-analytics.js\n- tools/clis/ahrefs.js\n- tools/clis/amplitude.js\n- tools/clis/apollo.js\n- tools/clis/beehiiv.js\n- tools/clis/brevo.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/REGISTRY.md\ntools/clis\ntools/clis/README.md\ntools/clis/activecampaign.js\ntools/clis/adobe-analytics.js\ntools/clis/ahrefs.js\ntools/clis/amplitude.js\ntools/clis/apollo.js\ntools/clis/beehiiv.js\ntools/clis/brevo.js\ntools/clis/buffer.js\ntools/clis/calendly.js\ntools/clis/clearbit.js\ntools/clis/customer-io.js\ntools/clis/dataforseo.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.071603994197584
+  }
+]

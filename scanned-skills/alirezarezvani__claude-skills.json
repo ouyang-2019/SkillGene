@@ -1,0 +1,163 @@
+[
+  {
+    "name": "claude-skills (alirezarezvani)",
+    "description": "[项目级] A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commnads。来源: https://github.com/alirezarezvani/claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "python",
+      "stars-1889",
+      "github-alirezarezvani",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository provides **modular, self-contained skill packages** designed to augment Claude AI with specialized domain expertise. Each skill includes:\n\n- **📖 Comprehensive documentation** - Workflows, best practices, and strategic frameworks\n- **🛠️ Python analysis tools** - 87+ CLI utilities for automated analysis and optimization\n- **📚 Knowledge bases** - Curated reference materials and guidelines\n- **📋 Ready-to-use templates** - Customizable assets for immediate deployment\n\n**Key Benefits:**\n- ⚡ **Immediate deployment** - Download and use in minutes\n- 🎯 **Domain expertise** - Battle-tested frameworks from industry experts\n- 🔧 **Practical tools** - Algorithmic analysis without external API dependencies\n- 📈 **Measurable ROI** - 40%+ time savings, 30%+ quality improvements\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Choose your AI agent:**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUDIT_REPORT.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nINSTALLATION.md\nLICENSE\nREADME.md\nSECURITY.md\nagents\nagents/CLAUDE.md\nagents/c-level\nagents/marketing\nagents/product\nbusiness-growth\nbusiness-growth/.claude-plugin\nbusiness-growth/CLAUDE.md\nbusiness-growth/customer-success-manager\nbusiness-growth/revenue-operations\nbusiness-growth/sales-engineer",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Claude AI can use these skills to provide specialized expertise in your conversations.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.638115978960917
+  },
+  {
+    "name": "claude-skills/agents 模块",
+    "description": "[模块级] claude-skills 项目的 agents 模块 (source)。来源: https://github.com/alirezarezvani/claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Install to Claude Code, Cursor, VS Code, Amp, Goose, and more - all with one command:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/CLAUDE.md\nagents/c-level\nagents/c-level/.gitkeep\nagents/c-level/cs-ceo-advisor.md\nagents/c-level/cs-cto-advisor.md\nagents/marketing\nagents/marketing/.gitkeep\nagents/marketing/cs-content-creator.md\nagents/marketing/cs-demand-gen-specialist.md\nagents/product\nagents/product/.gitkeep\nagents/product/cs-product-manager.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8104927831687334
+  },
+  {
+    "name": "claude-skills/business-growth 模块",
+    "description": "[模块级] claude-skills 项目的 business-growth 模块 (source)。来源: https://github.com/alirezarezvani/claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "module-level",
+      "source",
+      "business-growth"
+    ],
+    "genes": [
+      {
+        "title": "business-growth 模块说明",
+        "content": "模块路径: business-growth/\n类型: source\n文件数: 54\n\n包含文件:\n- business-growth/.claude-plugin\n- business-growth/.claude-plugin/plugin.json\n- business-growth/CLAUDE.md\n- business-growth/customer-success-manager\n- business-growth/customer-success-manager/SKILL.md\n- business-growth/customer-success-manager/assets\n- business-growth/customer-success-manager/assets/executive_business_review_template.md\n- business-growth/customer-success-manager/assets/expected_output.json\n- business-growth/customer-success-manager/assets/onboarding_checklist_template.md\n- business-growth/customer-success-manager/assets/qbr_template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "business-growth 文件结构",
+        "content": "business-growth/.claude-plugin\nbusiness-growth/.claude-plugin/plugin.json\nbusiness-growth/CLAUDE.md\nbusiness-growth/customer-success-manager\nbusiness-growth/customer-success-manager/SKILL.md\nbusiness-growth/customer-success-manager/assets\nbusiness-growth/customer-success-manager/assets/executive_business_review_template.md\nbusiness-growth/customer-success-manager/assets/expected_output.json\nbusiness-growth/customer-success-manager/assets/onboarding_checklist_template.md\nbusiness-growth/customer-success-manager/assets/qbr_template.md\nbusiness-growth/customer-success-manager/assets/sample_customer_data.json\nbusiness-growth/customer-success-manager/assets/success_plan_template.md\nbusiness-growth/customer-success-manager/references\nbusiness-growth/customer-success-manager/references/cs-metrics-benchmarks.md\nbusiness-growth/customer-success-manager/references/cs-playbooks.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8104927831687334
+  },
+  {
+    "name": "claude-skills/c-level-advisor 模块",
+    "description": "[模块级] claude-skills 项目的 c-level-advisor 模块 (source)。来源: https://github.com/alirezarezvani/claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "module-level",
+      "source",
+      "c-level-advisor"
+    ],
+    "genes": [
+      {
+        "title": "c-level-advisor 模块说明",
+        "content": "模块路径: c-level-advisor/\n类型: source\n文件数: 25\n\n包含文件:\n- c-level-advisor/.claude-plugin\n- c-level-advisor/.claude-plugin/plugin.json\n- c-level-advisor/CLAUDE.md\n- c-level-advisor/README.md\n- c-level-advisor/c_level_leadership_skills_overview.md\n- c-level-advisor/ceo-advisor.zip\n- c-level-advisor/ceo-advisor\n- c-level-advisor/ceo-advisor/SKILL.md\n- c-level-advisor/ceo-advisor/references\n- c-level-advisor/ceo-advisor/references/board_governance_investor_relations.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "c-level-advisor 文件结构",
+        "content": "c-level-advisor/.claude-plugin\nc-level-advisor/.claude-plugin/plugin.json\nc-level-advisor/CLAUDE.md\nc-level-advisor/README.md\nc-level-advisor/c_level_leadership_skills_overview.md\nc-level-advisor/ceo-advisor.zip\nc-level-advisor/ceo-advisor\nc-level-advisor/ceo-advisor/SKILL.md\nc-level-advisor/ceo-advisor/references\nc-level-advisor/ceo-advisor/references/board_governance_investor_relations.md\nc-level-advisor/ceo-advisor/references/executive_decision_framework.md\nc-level-advisor/ceo-advisor/references/leadership_organizational_culture.md\nc-level-advisor/ceo-advisor/scripts\nc-level-advisor/ceo-advisor/scripts/financial_scenario_analyzer.py\nc-level-advisor/ceo-advisor/scripts/strategy_analyzer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8104927831687334
+  },
+  {
+    "name": "claude-skills/documentation 模块",
+    "description": "[模块级] claude-skills 项目的 documentation 模块 (docs)。来源: https://github.com/alirezarezvani/claude-skills",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agentic-coding",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "**Status:** ✅ Production Ready | **Version:** 1.0\n\nDocumentation control and review of regulatory documentation.\n\n**What's Included:**\n- **Document Version Control** - Manage document versions (Python CLI)\n- **Technical File Builder** - Build regulatory technical files (Python CLI)\n- **Document Compliance Checker** - Verify compliance (Python CLI)\n- **Document Control Procedures** - Best practices\n- **Technical File Requirements** - Regulatory requirements\n- **Change Control Process** - Change m",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/GIST_CONTENT.md\ndocumentation/GROWTH_STRATEGY.md\ndocumentation/PYTHON_TOOLS_AUDIT.md\ndocumentation/WORKFLOW.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8104927831687334
+  }
+]

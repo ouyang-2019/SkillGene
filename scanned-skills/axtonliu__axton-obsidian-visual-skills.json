@@ -1,0 +1,145 @@
+[
+  {
+    "name": "axton-obsidian-visual-skills (axtonliu)",
+    "description": "[项目级] Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1549",
+      "github-axtonliu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code\n\n来源: https://github.com/axtonliu/axton-obsidian-visual-skills\n语言: unknown\nStars: 1549",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_CN.md\nassets\nassets/canvas-demo.png\nassets/excalidraw-demo.png\nassets/mermaid-demo.png\nexcalidraw-diagram\nexcalidraw-diagram/SKILL.md\nexcalidraw-diagram/references\nmermaid-visualizer\nmermaid-visualizer/SKILL.md\nmermaid-visualizer/references\nobsidian-canvas-creator\nobsidian-canvas-creator/SKILL.md\nobsidian-canvas-creator/assets\nobsidian-canvas-creator/references",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once installed, Claude Code will automatically use these skills when you ask for visualizations:\n\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.595025708879603
+  },
+  {
+    "name": "axton-obsidian-visual-skills/assets 模块",
+    "description": "[模块级] axton-obsidian-visual-skills 项目的 assets 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1549",
+      "github-axtonliu",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/canvas-demo.png\n- assets/excalidraw-demo.png\n- assets/mermaid-demo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/canvas-demo.png\nassets/excalidraw-demo.png\nassets/mermaid-demo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776020567103682
+  },
+  {
+    "name": "axton-obsidian-visual-skills/excalidraw-diagram 模块",
+    "description": "[模块级] axton-obsidian-visual-skills 项目的 excalidraw-diagram 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1549",
+      "github-axtonliu",
+      "module-level",
+      "source",
+      "excalidraw-diagram"
+    ],
+    "genes": [
+      {
+        "title": "excalidraw-diagram 模块说明",
+        "content": "模块路径: excalidraw-diagram/\n类型: source\n文件数: 3\n\n包含文件:\n- excalidraw-diagram/SKILL.md\n- excalidraw-diagram/references\n- excalidraw-diagram/references/excalidraw-schema.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "excalidraw-diagram 文件结构",
+        "content": "excalidraw-diagram/SKILL.md\nexcalidraw-diagram/references\nexcalidraw-diagram/references/excalidraw-schema.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776020567103682
+  },
+  {
+    "name": "axton-obsidian-visual-skills/mermaid-visualizer 模块",
+    "description": "[模块级] axton-obsidian-visual-skills 项目的 mermaid-visualizer 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1549",
+      "github-axtonliu",
+      "module-level",
+      "source",
+      "mermaid-visualizer"
+    ],
+    "genes": [
+      {
+        "title": "mermaid-visualizer 模块说明",
+        "content": "模块路径: mermaid-visualizer/\n类型: source\n文件数: 3\n\n包含文件:\n- mermaid-visualizer/SKILL.md\n- mermaid-visualizer/references\n- mermaid-visualizer/references/syntax-rules.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mermaid-visualizer 文件结构",
+        "content": "mermaid-visualizer/SKILL.md\nmermaid-visualizer/references\nmermaid-visualizer/references/syntax-rules.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776020567103682
+  },
+  {
+    "name": "axton-obsidian-visual-skills/obsidian-canvas-creator 模块",
+    "description": "[模块级] axton-obsidian-visual-skills 项目的 obsidian-canvas-creator 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-1549",
+      "github-axtonliu",
+      "module-level",
+      "source",
+      "obsidian-canvas-creator"
+    ],
+    "genes": [
+      {
+        "title": "obsidian-canvas-creator 模块说明",
+        "content": "模块路径: obsidian-canvas-creator/\n类型: source\n文件数: 7\n\n包含文件:\n- obsidian-canvas-creator/SKILL.md\n- obsidian-canvas-creator/assets\n- obsidian-canvas-creator/assets/template-freeform-grouped.canvas\n- obsidian-canvas-creator/assets/template-mindmap-simple.canvas\n- obsidian-canvas-creator/references\n- obsidian-canvas-creator/references/canvas-spec.md\n- obsidian-canvas-creator/references/layout-algorithms.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "obsidian-canvas-creator 文件结构",
+        "content": "obsidian-canvas-creator/SKILL.md\nobsidian-canvas-creator/assets\nobsidian-canvas-creator/assets/template-freeform-grouped.canvas\nobsidian-canvas-creator/assets/template-mindmap-simple.canvas\nobsidian-canvas-creator/references\nobsidian-canvas-creator/references/canvas-spec.md\nobsidian-canvas-creator/references/layout-algorithms.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776020567103682
+  }
+]

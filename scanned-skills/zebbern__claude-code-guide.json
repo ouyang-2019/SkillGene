@@ -1,0 +1,137 @@
+[
+  {
+    "name": "claude-code-guide (zebbern)",
+    "description": "[项目级] Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks 。来源: https://github.com/zebbern/claude-code-guide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude",
+      "claude-ai",
+      "stars-3429",
+      "github-zebbern",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks \n\n来源: https://github.com/zebbern/claude-code-guide\n语言: unknown\nStars: 3429",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nagents\nagents/README.md\nagents/accessibility-tester.md\nagents/agent-installer.md\nagents/agent-organizer.md\nagents/ai-engineer.md\nagents/angular-architect.md\nagents/api-designer.md\nagents/api-documenter.md\nagents/architect-reviewer.md\nagents/backend-developer.md\nagents/blockchain-developer.md\nagents/build-engineer.md\nagents/cli-developer.md\nagents/cloud-architect.md\nagents/code-reviewer.md\nagents/context-manager.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "</div>\n\n---\n\n<h3 id=\"content\">Content</h3>\n\n_Quick links:_ [Install](#quick-start) · [Commands](#claude-commands) · [Shortcuts](#keyboard-shortcuts) · [MCP](#mcp-integration) · [Troubleshoot](#help--troubleshooting)\n\n- **[Getting Started](#getting-started)**\n  - [Quick Start](#quick-start)\n  - [Initial Setup](#initial-setup)\n\n- **[Configuration & Environment](#configuration--environment)**\n  - [Environment Variables](#environment-variables)\n  - [Configuration Files](#configuration-files)\n\n- **[Commands & Usage](#commands--usage)**\n  - [Claude Commands](#claude-commands)\n  - [Cheat Sheet](#chea",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.767583742557472
+  },
+  {
+    "name": "claude-code-guide/agents 模块",
+    "description": "[模块级] claude-code-guide 项目的 agents 模块 (source)。来源: https://github.com/zebbern/claude-code-guide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude",
+      "claude-ai",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "claude --agents '{\n  \"code-reviewer\": {\n    \"description\": \"Expert code reviewer. Use proactively after code changes.\",\n    \"prompt\": \"You are a senior code reviewer. Focus on code quality, security, and best practices.\",\n    \"tools\": [\"Read\", \"Grep\", \"Glob\", \"Bash\"],\n    \"model\": \"sonnet\"\n  },\n  \"debugger\": {\n    \"description\": \"Debugging specialist for errors and test failures.\",\n    \"prompt\": \"You are an expert debugger. Analyze errors, identify root causes, and provide fixes.\"\n  }\n}'\n```\n\n<h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/README.md\nagents/accessibility-tester.md\nagents/agent-installer.md\nagents/agent-organizer.md\nagents/ai-engineer.md\nagents/angular-architect.md\nagents/api-designer.md\nagents/api-documenter.md\nagents/architect-reviewer.md\nagents/backend-developer.md\nagents/blockchain-developer.md\nagents/build-engineer.md\nagents/cli-developer.md\nagents/cloud-architect.md\nagents/code-reviewer.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "<h3 id=\"create-your-core-agents\">Create your core agents</h3>\n\n> - **planner** (read‑only): turns features/issues into small, testable tasks; outputs a task list or plan.md.\n> - **codegen** (edit‑capable): implements tasks; limited to `src/` + `tests/`.\n> - **tester** (read‑only or patch‑only): writes _one_ failing test or a minimal repro.\n> - **reviewer** (read‑only): leaves structured review comments; never edits.\n> - **docs** (edit‑capable): updates `README.md`/`docs/` only.\n\n**\\*Policy** tip: Prefer **patch output** for edit‑capable agents so changes land through your normal Git workflow.\\",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.914066994045978
+  },
+  {
+    "name": "claude-code-guide/guides 模块",
+    "description": "[模块级] claude-code-guide 项目的 guides 模块 (source)。来源: https://github.com/zebbern/claude-code-guide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude",
+      "claude-ai",
+      "module-level",
+      "source",
+      "guides"
+    ],
+    "genes": [
+      {
+        "title": "guides 模块说明",
+        "content": "模块路径: guides/\n类型: source\n文件数: 52\n\n包含文件:\n- guides/CLAUDE.md Collection\n- guides/CLAUDE.md Collection/Python\n- guides/CLAUDE.md Collection/Python/python-developer.md\n- guides/CLAUDE.md Collection/django\n- guides/CLAUDE.md Collection/django/django-api-developer.md\n- guides/CLAUDE.md Collection/django/django-backend-expert.md\n- guides/CLAUDE.md Collection/django/django-orm-expert.md\n- guides/CLAUDE.md Collection/laravel\n- guides/CLAUDE.md Collection/laravel/laravel-backend-expert.md\n- guides/CLAUDE.md Collection/laravel/laravel-eloquent-expert.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guides 文件结构",
+        "content": "guides/CLAUDE.md Collection\nguides/CLAUDE.md Collection/Python\nguides/CLAUDE.md Collection/Python/python-developer.md\nguides/CLAUDE.md Collection/django\nguides/CLAUDE.md Collection/django/django-api-developer.md\nguides/CLAUDE.md Collection/django/django-backend-expert.md\nguides/CLAUDE.md Collection/django/django-orm-expert.md\nguides/CLAUDE.md Collection/laravel\nguides/CLAUDE.md Collection/laravel/laravel-backend-expert.md\nguides/CLAUDE.md Collection/laravel/laravel-eloquent-expert.md\nguides/CLAUDE.md Collection/optimizers\nguides/CLAUDE.md Collection/optimizers/code-archaeologist.md\nguides/CLAUDE.md Collection/optimizers/code-reviewer.md\nguides/CLAUDE.md Collection/optimizers/documentation-specialist.md\nguides/CLAUDE.md Collection/optimizers/performance-optimizer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.914066994045978
+  },
+  {
+    "name": "claude-code-guide/skills 模块",
+    "description": "[模块级] claude-code-guide 项目的 skills 模块 (source)。来源: https://github.com/zebbern/claude-code-guide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agent-tools",
+      "claude",
+      "claude-ai",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "</div>\n\n---\n\n<h3 id=\"content\">Content</h3>\n\n_Quick links:_ [Install](#quick-start) · [Commands](#claude-commands) · [Shortcuts](#keyboard-shortcuts) · [MCP](#mcp-integration) · [Troubleshoot](#help--troubleshooting)\n\n- **[Getting Started](#getting-started)**\n  - [Quick Start](#quick-start)\n  - [Initial Setup](#initial-setup)\n\n- **[Configuration & Environment](#configuration--environment)**\n  - [Environment Variables](#environment-variables)\n  - [Configuration Files](#configuration-files)\n\n- **[C",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/active-directory-attacks\nskills/active-directory-attacks/SKILL.md\nskills/active-directory-attacks/references\nskills/active-directory-attacks/references/advanced-attacks.md\nskills/api-fuzzing-bug-bounty\nskills/api-fuzzing-bug-bounty/SKILL.md\nskills/aws-penetration-testing\nskills/aws-penetration-testing/SKILL.md\nskills/aws-penetration-testing/references\nskills/aws-penetration-testing/references/advanced-aws-pentesting.md\nskills/broken-authentication\nskills/broken-authentication/SKILL.md\nskills/burp-suite-testing\nskills/burp-suite-testing/SKILL.md\nskills/cloud-penetration-testing",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.914066994045978
+  }
+]

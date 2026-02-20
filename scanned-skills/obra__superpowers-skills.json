@@ -1,0 +1,61 @@
+[
+  {
+    "name": "superpowers-skills (obra)",
+    "description": "[项目级] Community-editable skills for Claude Code's superpowers plugin。来源: https://github.com/obra/superpowers-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-514",
+      "github-obra",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Community-editable skills for Claude Code's superpowers plugin\n\n来源: https://github.com/obra/superpowers-skills\n语言: TypeScript\nStars: 514",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This repository is automatically cloned by the superpowers plugin to `~/.config/superpowers/skills/`.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nskills\nskills/REQUESTS.md\nskills/architecture\nskills/collaboration\nskills/debugging\nskills/meta\nskills/problem-solving\nskills/research\nskills/testing\nskills/using-skills",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.355481559497638
+  },
+  {
+    "name": "superpowers-skills/skills 模块",
+    "description": "[模块级] superpowers-skills 项目的 skills 模块 (source)。来源: https://github.com/obra/superpowers-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-514",
+      "github-obra",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Community-editable skills for Claude Code's superpowers plugin.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/REQUESTS.md\nskills/architecture\nskills/architecture/ABOUT.md\nskills/architecture/preserving-productive-tensions\nskills/architecture/preserving-productive-tensions/SKILL.md\nskills/collaboration\nskills/collaboration/brainstorming\nskills/collaboration/brainstorming/SKILL.md\nskills/collaboration/dispatching-parallel-agents\nskills/collaboration/dispatching-parallel-agents/SKILL.md\nskills/collaboration/executing-plans\nskills/collaboration/executing-plans/SKILL.md\nskills/collaboration/finishing-a-development-branch\nskills/collaboration/finishing-a-development-branch/SKILL.md\nskills/collaboration/receiving-code-review",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.58438524759811
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "awesome-claude-code (hesreallyhim)",
+    "description": "[项目级] A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic。来源: https://github.com/hesreallyhim/awesome-claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "agentic-code",
+      "agentic-coding",
+      "ai-workflow-optimization",
+      "ai-workflows",
+      "python",
+      "stars-24349",
+      "github-hesreallyhim",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic\n\n来源: https://github.com/hesreallyhim/awesome-claude-code\n语言: Python\nStars: 24349",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nREADME_ALTERNATIVES\nREADME_ALTERNATIVES/README_AWESOME.md\nREADME_ALTERNATIVES/README_CLASSIC.md\nREADME_ALTERNATIVES/README_EXTRA.md\nREADME_ALTERNATIVES/README_FLAT_ALL_AZ.md\nREADME_ALTERNATIVES/README_FLAT_ALL_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_ALL_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_ALL_UPDATED.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_AZ.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_UPDATED.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_AZ.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_UPDATED.md\nREADME_ALTERNATIVES/README_FLAT_COMMANDS_AZ.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [CC Usage](https://github.com/ryoppippi/ccusage) by [ryoppippi](https://github.com/ryoppippi) - Handy CLI tool for managing and analyzing Claude Code usage, based on analyzing local Claude Code logs. Presents a nice dashboard regarding cost information, token consumption, etc.\n- [ccflare](https://github.com/snipeship/ccflare) by [snipeship](https://github.com/snipeship) - Claude Code usage dashboard with a web-UI that would put Tableau to shame. Thoroughly comprehensive metrics, frictionless setup, detailed logging, really really nice UI.\n- [ccflare -> **better-ccflare**](https://github.com/",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "awesome-claude-code/README_ALTERNATIVES 模块",
+    "description": "[模块级] awesome-claude-code 项目的 README_ALTERNATIVES 模块 (source)。来源: https://github.com/hesreallyhim/awesome-claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "agentic-code",
+      "agentic-coding",
+      "ai-workflow-optimization",
+      "ai-workflows",
+      "module-level",
+      "source",
+      "readme_alternatives"
+    ],
+    "genes": [
+      {
+        "title": "README_ALTERNATIVES 模块说明",
+        "content": "模块路径: README_ALTERNATIVES/\n类型: source\n文件数: 47\n\n包含文件:\n- README_ALTERNATIVES/README_AWESOME.md\n- README_ALTERNATIVES/README_CLASSIC.md\n- README_ALTERNATIVES/README_EXTRA.md\n- README_ALTERNATIVES/README_FLAT_ALL_AZ.md\n- README_ALTERNATIVES/README_FLAT_ALL_CREATED.md\n- README_ALTERNATIVES/README_FLAT_ALL_RELEASES.md\n- README_ALTERNATIVES/README_FLAT_ALL_UPDATED.md\n- README_ALTERNATIVES/README_FLAT_CLAUDE-MD_AZ.md\n- README_ALTERNATIVES/README_FLAT_CLAUDE-MD_CREATED.md\n- README_ALTERNATIVES/README_FLAT_CLAUDE-MD_RELEASES.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "README_ALTERNATIVES 文件结构",
+        "content": "README_ALTERNATIVES/README_AWESOME.md\nREADME_ALTERNATIVES/README_CLASSIC.md\nREADME_ALTERNATIVES/README_EXTRA.md\nREADME_ALTERNATIVES/README_FLAT_ALL_AZ.md\nREADME_ALTERNATIVES/README_FLAT_ALL_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_ALL_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_ALL_UPDATED.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_AZ.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_CLAUDE-MD_UPDATED.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_AZ.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_CREATED.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_RELEASES.md\nREADME_ALTERNATIVES/README_FLAT_CLIENTS_UPDATED.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2545924518728295
+  },
+  {
+    "name": "awesome-claude-code/assets 模块",
+    "description": "[模块级] awesome-claude-code 项目的 assets 模块 (source)。来源: https://github.com/hesreallyhim/awesome-claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "agentic-code",
+      "agentic-coding",
+      "ai-workflow-optimization",
+      "ai-workflows",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 124\n\n包含文件:\n- assets/ACC-v2-screenshot-dark.png\n- assets/ACC-v2-screenshot-light.png\n- assets/awesome-claude-code-social-clawd-2.png\n- assets/badge-ab-method.svg\n- assets/badge-add-to-changelog.svg\n- assets/badge-agentic-workflow-patterns.svg\n- assets/badge-agentsys.svg\n- assets/badge-ai-agent-ai-spy.svg\n- assets/badge-ai-intellij-plugin.svg\n- assets/badge-analyze-issue.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/ACC-v2-screenshot-dark.png\nassets/ACC-v2-screenshot-light.png\nassets/awesome-claude-code-social-clawd-2.png\nassets/badge-ab-method.svg\nassets/badge-add-to-changelog.svg\nassets/badge-agentic-workflow-patterns.svg\nassets/badge-agentsys.svg\nassets/badge-ai-agent-ai-spy.svg\nassets/badge-ai-intellij-plugin.svg\nassets/badge-analyze-issue.svg\nassets/badge-anthropic-documentation.svg\nassets/badge-anthropic-quickstarts.svg\nassets/badge-auto-claude.svg\nassets/badge-avs-vibe-developer-guide.svg\nassets/badge-awesome-ralph.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2545924518728295
+  }
+]

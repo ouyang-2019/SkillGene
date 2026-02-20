@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-agent-skills (VoltAgent)",
+    "description": "[项目级] Claude Code Skills and 380+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.。来源: https://github.com/VoltAgent/awesome-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity-skills",
+      "awesome",
+      "awesome-list",
+      "stars-7518",
+      "github-voltagent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Skills and 380+ agent skills from official dev teams and the community, compatible with Codex, Antigravity, Gemini CLI, Cursor and others.\n\n来源: https://github.com/VoltAgent/awesome-agent-skills\n语言: unknown\nStars: 7518",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.938051160688897
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "VibeSec-Skill (BehiSecc)",
+    "description": "[项目级] This skill helps Claude write secure code and prevent common vulnerabilities.。来源: https://github.com/BehiSecc/VibeSec-Skill",
+    "domain": "devops",
+    "tags": [
+      "stars-490",
+      "github-behisecc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Vibe coding is fun until your app ends up on social media for all the wrong reasons.\n\nWe have all seen the posts/memes:\n\n* API keys hardcoded in JavaScript bundles\n* IDOR vulnerabilities allowing user data dumps\n* No authentication for sensitive pages\n* Weak passwords for admin panels\n\nSecurity gaps aren't obvious until someone exploits them. Without the right guidance, AI will confidently ship vulnerable patterns alongside your features.\n\nVibeSec is an AI Skill that acts as a security-first co-pilot. It teaches your selected model to approach your code from a bug hunter's perspective, catching vulnerabilities before they ship.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- <details><summary>Claude Code</summary>\n\n  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`\n\n  * Add it to `~/.claude/skills` (global) or `.claude/skills` in your project directory (project-only).\n</details>\n\n- <details><summary>Cursor</summary>\n\n  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`\n\n  * Add it to `~/.cursor/skills` (global) or `.cursor/skills` in your project directory (project-only).\n</details>\n\n- <details><summary>Codex</summary>\n\n  * Clone this repository: `git clone https://github.com/BehiSecc/VibeSec-Skill`\n\n  * ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.345098040014257
+  }
+]

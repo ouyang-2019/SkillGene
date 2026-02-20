@@ -1,0 +1,158 @@
+[
+  {
+    "name": "AionUi (iOfficeAI)",
+    "description": "[项目级] Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!。来源: https://github.com/iOfficeAI/AionUi",
+    "domain": "ai-llm",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "typescript",
+      "stars-16690",
+      "github-iofficeai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!\n\n来源: https://github.com/iOfficeAI/AionUi\n语言: TypeScript\nStars: 16690",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "AionUi ships with a complete AI agent engine. Unlike tools that require you to install CLI agents separately, **AionUi works the moment you install it**.\n\n- **No CLI tools to install** — the agent engine is built in\n- **No complex setup** — sign in with Google or paste any API key\n- **Full agent capabilities** — file read/write, web search, image generation, MCP tools\n- **Ready-to-use assistants** — 11+ built-in professional assistants (Cowork, PPTX Generator, PDF to PPT, 3D Game, UI/UX Pro Max, and more) ready to use immediately\n\n<p align=\"center\">\n  <img src=\"./resources/build-in agents.png\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_STYLE.md\nLICENSE\nWEBUI_GUIDE.md\nassistant\nassistant/beautiful-mermaid\nassistant/cowork\nassistant/game-3d\nassistant/human-3-coach\nassistant/moltbook\nassistant/openclaw-setup\nassistant/pdf-to-ppt\nassistant/planning-with-files\nassistant/pptx-generator\nassistant/social-job-publisher\nassistant/story-roleplay\nassistant/ui-ux-pro-max\nbun.lock\nconfig\nconfig/webpack",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "AionUi/assistant 模块",
+    "description": "[模块级] AionUi 项目的 assistant 模块 (source)。来源: https://github.com/iOfficeAI/AionUi",
+    "domain": "ai-llm",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "module-level",
+      "source",
+      "assistant"
+    ],
+    "genes": [
+      {
+        "title": "assistant 模块说明",
+        "content": "_Extensible assistant system with 12 built-in professional assistants and custom skill support. Create and manage your own assistants and skills._\n\n- **Create Custom Assistants** — Define your own assistants with custom rules and capabilities\n- **Manage Skills** — Create, enable, and disable skills for any assistant to extend AI capabilities\n\n<p align=\"center\">\n  <img src=\"./resources/assistants_skills.png\" alt=\"AI Assistants & Skills Ecosystem\" width=\"800\">\n</p>\n\n<details>\n<summary><strong>🔍 V",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assistant 文件结构",
+        "content": "assistant/beautiful-mermaid\nassistant/beautiful-mermaid/beautiful-mermaid.md\nassistant/beautiful-mermaid/beautiful-mermaid.zh-CN.md\nassistant/cowork\nassistant/cowork/cowork-skills.md\nassistant/cowork/cowork-skills.zh-CN.md\nassistant/cowork/cowork.md\nassistant/cowork/cowork.zh-CN.md\nassistant/game-3d\nassistant/game-3d/game-3d.md\nassistant/game-3d/game-3d.zh-CN.md\nassistant/human-3-coach\nassistant/human-3-coach/human-3-coach.md\nassistant/human-3-coach/human-3-coach.zh-CN.md\nassistant/moltbook",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.188982534671698
+  },
+  {
+    "name": "AionUi/config 模块",
+    "description": "[模块级] AionUi 项目的 config 模块 (config)。来源: https://github.com/iOfficeAI/AionUi",
+    "domain": "devops",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "AionUi ships with a complete AI agent engine. Unlike tools that require you to install CLI agents separately, **AionUi works the moment you install it**.\n\n- **No CLI tools to install** — the agent engine is built in\n- **No complex setup** — sign in with Google or paste any API key\n- **Full agent capabilities** — file read/write, web search, image generation, MCP tools\n- **Ready-to-use assistants** — 11+ built-in professional assistants (Cowork, PPTX Generator, PDF to PPT, 3D Game, UI/UX Pro Max,",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/webpack\nconfig/webpack/icon-park-loader.js\nconfig/webpack/webpack.config.ts\nconfig/webpack/webpack.plugins.ts\nconfig/webpack/webpack.renderer.config.ts\nconfig/webpack/webpack.rules.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.188982534671698
+  },
+  {
+    "name": "AionUi/docs 模块",
+    "description": "[模块级] AionUi 项目的 docs 模块 (docs)。来源: https://github.com/iOfficeAI/AionUi",
+    "domain": "documentation",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/index.html\n- docs/style.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/index.html\ndocs/style.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.188982534671698
+  },
+  {
+    "name": "AionUi/resources 模块",
+    "description": "[模块级] AionUi 项目的 resources 模块 (source)。来源: https://github.com/iOfficeAI/AionUi",
+    "domain": "ai-llm",
+    "tags": [
+      "acp",
+      "ai",
+      "ai-agent",
+      "chat",
+      "chatbot",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 41\n\n包含文件:\n- resources/Image_Generation.gif\n- resources/acp home page.gif\n- resources/ai-assistants-experts.png\n- resources/aionui sort file 2.gif\n- resources/aionui-banner-1.png\n- resources/aionui_logo_black_bg.svg\n- resources/aionui_logo_no_border.png\n- resources/aionui_readme_header_0807.png\n- resources/alart-task.png\n- resources/app.icns",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/Image_Generation.gif\nresources/acp home page.gif\nresources/ai-assistants-experts.png\nresources/aionui sort file 2.gif\nresources/aionui-banner-1.png\nresources/aionui_logo_black_bg.svg\nresources/aionui_logo_no_border.png\nresources/aionui_readme_header_0807.png\nresources/alart-task.png\nresources/app.icns\nresources/app.ico\nresources/app.png\nresources/app_dev.png\nresources/assistants_skills.png\nresources/bannerimage.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.188982534671698
+  }
+]

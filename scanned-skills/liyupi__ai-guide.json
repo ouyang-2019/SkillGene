@@ -1,0 +1,63 @@
+[
+  {
+    "name": "ai-guide (liyupi)",
+    "description": "[项目级] 程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站。来源: https://github.com/liyupi/ai-guide",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "algorithm",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude",
+      "javascript",
+      "stars-7029",
+      "github-liyupi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站\n\n来源: https://github.com/liyupi/ai-guide\n语言: JavaScript\nStars: 7029",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AI\nAI/AI应用场景\nAI/AI行业资讯",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.923446771658313
+  },
+  {
+    "name": "ai-guide/AI 模块",
+    "description": "[模块级] ai-guide 项目的 AI 模块 (source)。来源: https://github.com/liyupi/ai-guide",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "algorithm",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude",
+      "module-level",
+      "source",
+      "ai"
+    ],
+    "genes": [
+      {
+        "title": "AI 模块说明",
+        "content": "模块路径: AI/\n类型: source\n文件数: 136\n\n包含文件:\n- AI/AI应用场景\n- AI/AI应用场景/AI + 内容创作\n- AI/AI应用场景/AI + 内容创作/3秒让DeepSeek写出爆款小红书.md\n- AI/AI应用场景/AI + 内容创作/AI写小说怎么写？deepseek帮你写小说教程.md\n- AI/AI应用场景/AI + 内容创作/DeepSeek使用指南：提升公文、新闻与广告文案写作效率的三大技巧 .md\n- AI/AI应用场景/AI + 内容创作/人有多大胆，地有多大产：如何用DeepSeek写长篇小说.md\n- AI/AI应用场景/AI + 内容创作/如何利用DeepSeek进行高效内容创作.md\n- AI/AI应用场景/AI + 内容创作/用DeepSeek做小红书真的太牛了！轻轻松松打造爆款笔记.md\n- AI/AI应用场景/AI + 内容创作/用DeepSeek写文章？这4个骚操作让你躺平也能出爆款！（含提示词）.md\n- AI/AI应用场景/AI + 创意设计",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AI 文件结构",
+        "content": "AI/AI应用场景\nAI/AI应用场景/AI + 内容创作\nAI/AI应用场景/AI + 内容创作/3秒让DeepSeek写出爆款小红书.md\nAI/AI应用场景/AI + 内容创作/AI写小说怎么写？deepseek帮你写小说教程.md\nAI/AI应用场景/AI + 内容创作/DeepSeek使用指南：提升公文、新闻与广告文案写作效率的三大技巧 .md\nAI/AI应用场景/AI + 内容创作/人有多大胆，地有多大产：如何用DeepSeek写长篇小说.md\nAI/AI应用场景/AI + 内容创作/如何利用DeepSeek进行高效内容创作.md\nAI/AI应用场景/AI + 内容创作/用DeepSeek做小红书真的太牛了！轻轻松松打造爆款笔记.md\nAI/AI应用场景/AI + 内容创作/用DeepSeek写文章？这4个骚操作让你躺平也能出爆款！（含提示词）.md\nAI/AI应用场景/AI + 创意设计\nAI/AI应用场景/AI + 创意设计/5 个不得不收藏的 Deepseek 王炸组合！.md\nAI/AI应用场景/AI + 创意设计/DeepSeek一句话搞定修图难题.md\nAI/AI应用场景/AI + 创意设计/deepseek+数字人王炸组合使用方法.md\nAI/AI应用场景/AI + 创意设计/和 Deepseek 联手，做个哪吒的乾坤圈视频.md\nAI/AI应用场景/AI + 创意设计/用 deepseek 做 AI 视频，绝了，和抄作业一样简单！.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.03875741732665
+  }
+]

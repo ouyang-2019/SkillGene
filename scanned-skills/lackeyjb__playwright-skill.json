@@ -1,0 +1,78 @@
+[
+  {
+    "name": "playwright-skill (lackeyjb)",
+    "description": "[项目级] Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.。来源: https://github.com/lackeyjb/playwright-skill",
+    "domain": "devops",
+    "tags": [
+      "ai-tools",
+      "automation",
+      "browser-automation",
+      "claude",
+      "claude-code",
+      "javascript",
+      "stars-1720",
+      "github-lackeyjb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.\n\n来源: https://github.com/lackeyjb/playwright-skill\n语言: JavaScript\nStars: 1720",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This repository is structured as a [Claude Code Plugin](https://docs.claude.com/en/docs/claude-code/plugins) containing a skill. You can install it as either a **plugin** (recommended) or extract it as a **standalone skill**.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nskills\nskills/playwright-skill",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Any Automation Task** - Claude writes custom code for your specific request, not limited to pre-built scripts\n- **Visible Browser by Default** - See automation in real-time with `headless: false`\n- **Zero Module Resolution Errors** - Universal executor ensures proper module access\n- **Progressive Disclosure** - Concise SKILL.md with full API reference loaded only when needed\n- **Safe Cleanup** - Smart temp file management without race conditions\n- **Comprehensive Helpers** - Optional utility functions for common tasks",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.617764223453774
+  },
+  {
+    "name": "playwright-skill/skills 模块",
+    "description": "[模块级] playwright-skill 项目的 skills 模块 (source)。来源: https://github.com/lackeyjb/playwright-skill",
+    "domain": "devops",
+    "tags": [
+      "ai-tools",
+      "automation",
+      "browser-automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "mkdir -p ~/.claude/skills\ncp -r /tmp/playwright-skill-temp/skills/playwright-skill ~/.claude/skills/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/playwright-skill\nskills/playwright-skill/API_REFERENCE.md\nskills/playwright-skill/SKILL.md\nskills/playwright-skill/lib\nskills/playwright-skill/lib/helpers.js\nskills/playwright-skill/package.json\nskills/playwright-skill/run.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79421137876302
+  }
+]

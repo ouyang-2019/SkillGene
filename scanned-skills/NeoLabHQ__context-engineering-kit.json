@@ -1,0 +1,113 @@
+[
+  {
+    "name": "context-engineering-kit (NeoLabHQ)",
+    "description": "[项目级] Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.。来源: https://github.com/NeoLabHQ/context-engineering-kit",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cline",
+      "cursor",
+      "typescript",
+      "stars-495",
+      "github-neolabhq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.\n\n来源: https://github.com/NeoLabHQ/context-engineering-kit\n语言: TypeScript\nStars: 495",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\ndocs\ndocs/README.md\ndocs/SUMMARY.md\ndocs/assets\ndocs/best-practices.md\ndocs/concepts.md\ndocs/getting-started.md\ndocs/guides\ndocs/plugins\ndocs/reference\ndocs/resources\nplugins\nplugins/README.md\nplugins/code-review",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Simple to Use** - Easy to install and use without any dependencies. Contains automatically used skills and self-explanatory commands.\n- **Token-Efficient** - Carefully crafted prompts and architecture, preferring command-oriented skills with sub-agents over general information skills when possible, to minimize populating context with unnecessary information.\n- **Quality-Focused** - Each plugin is focused on meaningfully improving agent results in a specific area.\n- **Granular** - Install only the plugins you need. Each plugin loads only its specific agents, commands, and skills. Each witho",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.347302599466785
+  },
+  {
+    "name": "context-engineering-kit/docs 模块",
+    "description": "[模块级] context-engineering-kit 项目的 docs 模块 (docs)。来源: https://github.com/NeoLabHQ/context-engineering-kit",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cline",
+      "cursor",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "Commands for project analysis and documentation management based on proven writing principles.\n\n**How to install**\n\n```bash\n/plugin install docs@NeoLabHQ/context-engineering-kit\n```\n\n**Commands**\n\n- [/docs:update-docs](https://cek.neolab.finance/plugins/docs/update-docs) - Update implementation documentation after completing development phases\n- [/docs:write-concisely](https://cek.neolab.finance/plugins/docs/write-concisely) - Apply *The Elements of Style* principles to make documentation cleare",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/SUMMARY.md\ndocs/assets\ndocs/assets/Context-Engineering-Kit6.png\ndocs/best-practices.md\ndocs/concepts.md\ndocs/getting-started.md\ndocs/guides\ndocs/guides/README.md\ndocs/guides/brainstorming-to-implementation.md\ndocs/guides/bug-investigation.md\ndocs/guides/ci-integration.md\ndocs/guides/code-quality-improvement.md\ndocs/guides/competitivy-generation.md\ndocs/guides/custom-extensions.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docs 代码示例",
+        "content": "/plugin install docs@NeoLabHQ/context-engineering-kit",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  },
+  {
+    "name": "context-engineering-kit/plugins 模块",
+    "description": "[模块级] context-engineering-kit 项目的 plugins 模块 (source)。来源: https://github.com/NeoLabHQ/context-engineering-kit",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cline",
+      "cursor",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 15\n\n包含文件:\n- plugins/README.md\n- plugins/code-review\n- plugins/code-review/.claude-plugin\n- plugins/code-review/.claude-plugin/plugin.json\n- plugins/code-review/README.md\n- plugins/code-review/agents\n- plugins/code-review/agents/bug-hunter.md\n- plugins/code-review/agents/code-quality-reviewer.md\n- plugins/code-review/agents/contracts-reviewer.md\n- plugins/code-review/agents/historical-context-reviewer.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/README.md\nplugins/code-review\nplugins/code-review/.claude-plugin\nplugins/code-review/.claude-plugin/plugin.json\nplugins/code-review/README.md\nplugins/code-review/agents\nplugins/code-review/agents/bug-hunter.md\nplugins/code-review/agents/code-quality-reviewer.md\nplugins/code-review/agents/contracts-reviewer.md\nplugins/code-review/agents/historical-context-reviewer.md\nplugins/code-review/agents/security-auditor.md\nplugins/code-review/agents/test-coverage-reviewer.md\nplugins/code-review/skills\nplugins/code-review/skills/review-local-changes\nplugins/code-review/skills/review-local-changes/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  }
+]

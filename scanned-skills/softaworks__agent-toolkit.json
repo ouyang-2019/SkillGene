@@ -1,0 +1,108 @@
+[
+  {
+    "name": "agent-toolkit (softaworks)",
+    "description": "[项目级] A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.。来源: https://github.com/softaworks/agent-toolkit",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "automation",
+      "claude",
+      "claude-code",
+      "python",
+      "stars-625",
+      "github-softaworks",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities across development, documentation, planning, and professional workflows.\n\n来源: https://github.com/softaworks/agent-toolkit\n语言: Python\nStars: 625",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\nagents\nagents/ascii-ui-mockup-generator.md\nagents/codebase-pattern-finder.md\nagents/communication-excellence-coach.md\nagents/general-purpose.md\nagents/mermaid-diagram-specialist.md\nagents/ui-ux-designer.md\ncommands\ncommands/codex-plan.md\ncommands/compose-email.md\ncommands/explain-changes-mental-model.md\ncommands/explain-pr-changes.md\ncommands/sync-branch.md\ncommands/sync-skills-readme.md\ncommands/viral-tweet.md\ndist",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3979400086720375
+  },
+  {
+    "name": "agent-toolkit/agents 模块",
+    "description": "[模块级] agent-toolkit 项目的 agents 模块 (source)。来源: https://github.com/softaworks/agent-toolkit",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "> **Requires [Claude Code CLI](https://docs.anthropic.com/claude-code)** — These agents and commands are exclusive to Claude Code users.\n>\n> For full access, add the marketplace and install plugins:\n> ```bash\n> /plugin marketplace add softaworks/agent-toolkit\n> /plugin install codex@agent-toolkit\n> ```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/ascii-ui-mockup-generator.md\nagents/codebase-pattern-finder.md\nagents/communication-excellence-coach.md\nagents/general-purpose.md\nagents/mermaid-diagram-specialist.md\nagents/ui-ux-designer.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "> /plugin marketplace add softaworks/agent-toolkit\n> /plugin install codex@agent-toolkit\n>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6183520069376303
+  },
+  {
+    "name": "agent-toolkit/commands 模块",
+    "description": "[模块级] agent-toolkit 项目的 commands 模块 (source)。来源: https://github.com/softaworks/agent-toolkit",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "> **Requires [Claude Code CLI](https://docs.anthropic.com/claude-code)** — These agents and commands are exclusive to Claude Code users.\n>\n> For full access, add the marketplace and install plugins:\n> ```bash\n> /plugin marketplace add softaworks/agent-toolkit\n> /plugin install codex@agent-toolkit\n> ```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/codex-plan.md\ncommands/compose-email.md\ncommands/explain-changes-mental-model.md\ncommands/explain-pr-changes.md\ncommands/sync-branch.md\ncommands/sync-skills-readme.md\ncommands/viral-tweet.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "commands 代码示例",
+        "content": "> /plugin marketplace add softaworks/agent-toolkit\n> /plugin install codex@agent-toolkit\n>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6183520069376303
+  }
+]

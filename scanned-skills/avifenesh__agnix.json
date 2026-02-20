@@ -1,0 +1,73 @@
+[
+  {
+    "name": "agnix (avifenesh)",
+    "description": "[项目级] The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.。来源: https://github.com/avifenesh/agnix",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-coding-assistant",
+      "claude",
+      "rust",
+      "stars-48",
+      "github-avifenesh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.\n\n来源: https://github.com/avifenesh/agnix\n语言: Rust\nStars: 48",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "$ npx agnix .\nValidating: .\n\nCLAUDE.md:15:1 warning: Generic instruction 'Be helpful and accurate' [fixable]\n  help: Remove generic instructions. Claude already knows this.\n\n.claude/skills/review/SKILL.md:3:1 error: Invalid name 'Review-Code' [fixable]\n  help: Use lowercase letters and hyphens only (e.g., 'code-review')\n\nFound 1 error, 1 warning\n  2 issues are automatically fixable\n\nhint: Run with --fix, --fix-safe, or --fix-unsafe to apply fixes",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nFormula\nFormula/agnix.rb\nLICENSE-APACHE\nLICENSE-MIT\nREADME.md\nSECURITY.md\nSPEC.md\naction.yml\nassets\nassets/vscode-validation.png\naudit.toml\ncodecov.yml\ncrates",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "agnix .              # Validate current directory\nagnix --fix .        # Apply HIGH and MEDIUM confidence fixes\nagnix --fix-safe .   # Apply only HIGH confidence fixes\nagnix --fix-unsafe . # Apply all fixes, including LOW confidence\nagnix --dry-run --show-fixes .  # Preview fixes with inline diff output\nagnix --strict .     # Strict mode (warnings = errors)\nagnix --target claude-code .  # Target specific tool",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.840620618687794
+  },
+  {
+    "name": "agnix/crates 模块",
+    "description": "[模块级] agnix 项目的 crates 模块 (source)。来源: https://github.com/avifenesh/agnix",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-coding-assistant",
+      "claude",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 146\n\n包含文件:\n- crates/agnix-cli\n- crates/agnix-cli/Cargo.toml\n- crates/agnix-cli/README.md\n- crates/agnix-cli/build.rs\n- crates/agnix-cli/locales\n- crates/agnix-cli/locales/en.yml\n- crates/agnix-cli/locales/es.yml\n- crates/agnix-cli/locales/zh-CN.yml\n- crates/agnix-cli/src\n- crates/agnix-cli/src/json.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/agnix-cli\ncrates/agnix-cli/Cargo.toml\ncrates/agnix-cli/README.md\ncrates/agnix-cli/build.rs\ncrates/agnix-cli/locales\ncrates/agnix-cli/locales/en.yml\ncrates/agnix-cli/locales/es.yml\ncrates/agnix-cli/locales/zh-CN.yml\ncrates/agnix-cli/src\ncrates/agnix-cli/src/json.rs\ncrates/agnix-cli/src/locale.rs\ncrates/agnix-cli/src/main.rs\ncrates/agnix-cli/src/sarif.rs\ncrates/agnix-cli/src/telemetry\ncrates/agnix-cli/src/telemetry/client.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.172496494950235
+  }
+]

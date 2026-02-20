@@ -1,0 +1,158 @@
+[
+  {
+    "name": "taches-cc-resources (glittercowboy)",
+    "description": "[项目级] A collection of my favorite custom Claude Code resources to make life easier.。来源: https://github.com/glittercowboy/taches-cc-resources",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "shell",
+      "stars-1352",
+      "github-glittercowboy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of my favorite custom Claude Code resources to make life easier.\n\n来源: https://github.com/glittercowboy/taches-cc-resources\n语言: Shell\nStars: 1352",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/skill-auditor.md\nagents/slash-command-auditor.md\nagents/subagent-auditor.md\ncommands\ncommands/add-to-todos.md\ncommands/ask-me-questions.md\ncommands/audit-skill.md\ncommands/audit-slash-command.md\ncommands/audit-subagent.md\ncommands/check-todos.md\ncommands/consider\ncommands/create-agent-skill.md\ncommands/create-hook.md\ncommands/create-meta-prompt.md\ncommands/create-plan.md\ncommands/create-prompt.md\ncommands/create-slash-command.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.565488345802809
+  },
+  {
+    "name": "taches-cc-resources/agents 模块",
+    "description": "[模块级] taches-cc-resources 项目的 agents 模块 (source)。来源: https://github.com/glittercowboy/taches-cc-resources",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Specialized subagents used by the audit commands.\n\n- [`skill-auditor`](./agents/skill-auditor.md) - Expert skill auditor for best practices compliance\n- [`slash-command-auditor`](./agents/slash-command-auditor.md) - Expert slash command auditor\n- [`subagent-auditor`](./agents/subagent-auditor.md) - Expert subagent configuration auditor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/skill-auditor.md\nagents/slash-command-auditor.md\nagents/subagent-auditor.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  },
+  {
+    "name": "taches-cc-resources/commands 模块",
+    "description": "[模块级] taches-cc-resources 项目的 commands 模块 (source)。来源: https://github.com/glittercowboy/taches-cc-resources",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "cp -r commands/* ~/.claude/commands/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/add-to-todos.md\ncommands/ask-me-questions.md\ncommands/audit-skill.md\ncommands/audit-slash-command.md\ncommands/audit-subagent.md\ncommands/check-todos.md\ncommands/consider\ncommands/consider/10-10-10.md\ncommands/consider/5-whys.md\ncommands/consider/eisenhower-matrix.md\ncommands/consider/first-principles.md\ncommands/consider/inversion.md\ncommands/consider/occams-razor.md\ncommands/consider/one-thing.md\ncommands/consider/opportunity-cost.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  },
+  {
+    "name": "taches-cc-resources/docs 模块",
+    "description": "[模块级] taches-cc-resources 项目的 docs 模块 (docs)。来源: https://github.com/glittercowboy/taches-cc-resources",
+    "domain": "documentation",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/context-handoff.md\n- docs/meta-prompting.md\n- docs/todo-management.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/context-handoff.md\ndocs/meta-prompting.md\ndocs/todo-management.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  },
+  {
+    "name": "taches-cc-resources/skills 模块",
+    "description": "[模块级] taches-cc-resources 项目的 skills 模块 (source)。来源: https://github.com/glittercowboy/taches-cc-resources",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "cp -r skills/* ~/.claude/skills/\n```\n\nCommands install globally to `~/.claude/commands/`. Skills install to `~/.claude/skills/`. Project-specific data (prompts, todos) lives in each project's working directory.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/.DS_Store\nskills/create-agent-skills\nskills/create-agent-skills/.DS_Store\nskills/create-agent-skills/SKILL.md\nskills/create-agent-skills/references\nskills/create-agent-skills/references/api-security.md\nskills/create-agent-skills/references/be-clear-and-direct.md\nskills/create-agent-skills/references/common-patterns.md\nskills/create-agent-skills/references/core-principles.md\nskills/create-agent-skills/references/executable-code.md\nskills/create-agent-skills/references/iteration-and-testing.md\nskills/create-agent-skills/references/recommended-structure.md\nskills/create-agent-skills/references/skill-structure.md\nskills/create-agent-skills/references/use-xml-tags.md\nskills/create-agent-skills/references/using-scripts.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  }
+]

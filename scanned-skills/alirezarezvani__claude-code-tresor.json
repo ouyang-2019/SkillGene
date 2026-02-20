@@ -1,0 +1,163 @@
+[
+  {
+    "name": "claude-code-tresor (alirezarezvani)",
+    "description": "[项目级] A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow。来源: https://github.com/alirezarezvani/claude-code-tresor",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-development-kit",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "agents",
+      "shell",
+      "stars-525",
+      "github-alirezarezvani",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow\n\n来源: https://github.com/alirezarezvani/claude-code-tresor\n语言: Shell\nStars: 525",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- [141 Claude Code Agents: The Setup That Actually Works](https://medium.com/@alirezarezvani/141-claude-code-agents-the-setup-that-actually-works-a-complete-guide-98c2c79bf867?sk=73d5be97f9bd81a18edbcc0394e44b95)\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ARCHITECTURE.md\nCHANGELOG.md\nCLAUDE-CODE-COMPATIBILITY-FIXES.md\nCLAUDE.md\nCONTRIBUTING.md\nGETTING-STARTED.md\nLICENSE\nMIGRATION-GUIDE.md\nMIGRATION.md\nNAVIGATION.md\nREADME.md\nRELEASE-NOTES-v2.5.0.md\nRELEASE-NOTES-v2.6.0.md\nRELEASE-NOTES-v2.7.0.md\nSCRIPTS-VERIFICATION.md\nWORKFLOW-GUIDE.md\nactiveContext.md\nagents\nagents/README.md\nagents/config-safety-reviewer.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Complete workflow demonstrations:\n\n- **React App Setup**: Full modern React application from scratch\n- **API Development**: RESTful APIs with testing and documentation\n- **Performance Optimization**: Systematic performance improvement\n- **CI/CD Pipelines**: Automated testing and deployment",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3600796517029785
+  },
+  {
+    "name": "claude-code-tresor/agents 模块",
+    "description": "[模块级] claude-code-tresor 项目的 agents 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-tresor",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-development-kit",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "agents",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Expert-level assistance for complex development tasks:\n\n| Agent | Expertise | Best For |\n|-------|-----------|----------|\n| **`@config-safety-reviewer`** | Configuration safety, production reliability | Pool sizes, timeouts, connection limits, magic numbers |\n| **`@test-engineer`** | Testing strategies, test creation, QA | Unit tests, integration tests, coverage analysis |\n| **`@docs-writer`** | Technical documentation, user guides | API docs, README files, troubleshooting guides |\n| **`@systems",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/README.md\nagents/config-safety-reviewer.md\nagents/config-safety-reviewer\nagents/config-safety-reviewer/README.md\nagents/config-safety-reviewer/agent.md\nagents/docs-writer.md\nagents/docs-writer\nagents/docs-writer/README.md\nagents/docs-writer/agent.md\nagents/performance-tuner.md\nagents/performance-tuner\nagents/performance-tuner/README.md\nagents/performance-tuner/agent.md\nagents/refactor-expert.md\nagents/refactor-expert",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  },
+  {
+    "name": "claude-code-tresor/commands 模块",
+    "description": "[模块级] claude-code-tresor 项目的 commands 模块 (source)。来源: https://github.com/alirezarezvani/claude-code-tresor",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-development-kit",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "agents",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "**Development Commands** (4):\n\n| Command | Purpose | Example Usage |\n|---------|---------|---------------|\n| **`/scaffold`** | Generate project structures, components, and boilerplate | `/scaffold react-component UserProfile --hooks --tests` |\n| **`/review`** | Automated code review with security and performance analysis | `/review --scope staged --checks security,performance` |\n| **`/test-gen`** | Create comprehensive test suites automatically | `/test-gen --file utils.js --coverage 90` |\n| **`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/README.md\ncommands/development\ncommands/development/scaffold.md\ncommands/development/scaffold\ncommands/development/scaffold/README.md\ncommands/documentation\ncommands/documentation/docs-gen.md\ncommands/documentation/docs-gen\ncommands/documentation/docs-gen/README.md\ncommands/operations\ncommands/operations/deploy-validate\ncommands/operations/deploy-validate/README.md\ncommands/operations/deploy-validate/deploy-validate.md\ncommands/operations/health-check\ncommands/operations/health-check/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  },
+  {
+    "name": "claude-code-tresor/docs 模块",
+    "description": "[模块级] claude-code-tresor 项目的 docs 模块 (docs)。来源: https://github.com/alirezarezvani/claude-code-tresor",
+    "domain": "documentation",
+    "tags": [
+      "agent-development-kit",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "agents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 29\n\n包含文件:\n- docs/AGENT-LIBRARY-GUIDE.md\n- docs/CROSS-TEAM-COLLABORATION.md\n- docs/ECOSYSTEM-ROADMAP.md\n- docs/FINAL-MIGRATION-SUMMARY.md\n- docs/PHASE-1-TASKS.md\n- docs/QUICK-WINS.md\n- docs/SLASH-COMMANDS-ENHANCEMENT-PLAN.md\n- docs/TECHNICAL-REFERENCE.md\n- docs/archive\n- docs/archive/AGENT-CATEGORIZATION.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/AGENT-LIBRARY-GUIDE.md\ndocs/CROSS-TEAM-COLLABORATION.md\ndocs/ECOSYSTEM-ROADMAP.md\ndocs/FINAL-MIGRATION-SUMMARY.md\ndocs/PHASE-1-TASKS.md\ndocs/QUICK-WINS.md\ndocs/SLASH-COMMANDS-ENHANCEMENT-PLAN.md\ndocs/TECHNICAL-REFERENCE.md\ndocs/archive\ndocs/archive/AGENT-CATEGORIZATION.md\ndocs/archive/AGENT-DEPENDENCIES.md\ndocs/archive/AGENT-INVENTORY.md\ndocs/archive/ANTHROPIC-REFERENCE.md\ndocs/archive/COLOR-LEGEND.md\ndocs/archive/COMPARISON-ANALYSIS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  },
+  {
+    "name": "claude-code-tresor/documentation 模块",
+    "description": "[模块级] claude-code-tresor 项目的 documentation 模块 (docs)。来源: https://github.com/alirezarezvani/claude-code-tresor",
+    "domain": "documentation",
+    "tags": [
+      "agent-development-kit",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "agents",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "**[Complete Documentation →](documentation/README.md)**",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/AGENT-SKILL-INTEGRATION-COMPLETE.md\ndocumentation/AGENT-SKILL-INTEGRATION.md\ndocumentation/README.md\ndocumentation/archive\ndocumentation/archive/README.md\ndocumentation/archive/planning\ndocumentation/archive/planning/AI-SAAS-OS-ENHANCEMENT-PLAN.md\ndocumentation/archive/planning/AUTOMATION-IMPLEMENTATION-SUMMARY.md\ndocumentation/archive/planning/README.md\ndocumentation/archive/tests\ndocumentation/archive/tests/BRANCH-PROTECTION-TEST.md\ndocumentation/archive/tests/README.md\ndocumentation/archive/tests/WORKFLOW-SIMULATION-RESULTS.md\ndocumentation/archive/tests/WORKFLOW-TEST-SUCCESS.md\ndocumentation/archive/tests/WORKFLOW-TEST.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  }
+]

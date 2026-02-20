@@ -1,0 +1,278 @@
+[
+  {
+    "name": "AI-Research-SKILLs (Orchestra-Research)",
+    "description": "[项目级] Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "tex",
+      "stars-3677",
+      "github-orchestra-research",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.\n\n来源: https://github.com/Orchestra-Research/AI-Research-SKILLs\n语言: TeX\nStars: 3677",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx @orchestra-research/ai-research-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "01-model-architecture\n01-model-architecture/.gitkeep\n01-model-architecture/litgpt\n01-model-architecture/mamba\n01-model-architecture/nanogpt\n01-model-architecture/rwkv\n01-model-architecture/torchtitan\n02-tokenization\n02-tokenization/.gitkeep\n02-tokenization/huggingface-tokenizers\n02-tokenization/sentencepiece\n03-fine-tuning\n03-fine-tuning/axolotl\n03-fine-tuning/llama-factory\n03-fine-tuning/peft\n03-fine-tuning/unsloth\n04-mechanistic-interpretability\n04-mechanistic-interpretability/nnsight\n04-mechanistic-interpretability/pyvene\n04-mechanistic-interpretability/saelens",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.782746814934431
+  },
+  {
+    "name": "AI-Research-SKILLs/01-model-architecture 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 01-model-architecture 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "01-model-architecture"
+    ],
+    "genes": [
+      {
+        "title": "01-model-architecture 模块说明",
+        "content": "模块路径: 01-model-architecture/\n类型: source\n文件数: 33\n\n包含文件:\n- 01-model-architecture/.gitkeep\n- 01-model-architecture/litgpt\n- 01-model-architecture/litgpt/SKILL.md\n- 01-model-architecture/litgpt/references\n- 01-model-architecture/litgpt/references/custom-models.md\n- 01-model-architecture/litgpt/references/distributed-training.md\n- 01-model-architecture/litgpt/references/supported-models.md\n- 01-model-architecture/litgpt/references/training-recipes.md\n- 01-model-architecture/mamba\n- 01-model-architecture/mamba/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "01-model-architecture 文件结构",
+        "content": "01-model-architecture/.gitkeep\n01-model-architecture/litgpt\n01-model-architecture/litgpt/SKILL.md\n01-model-architecture/litgpt/references\n01-model-architecture/litgpt/references/custom-models.md\n01-model-architecture/litgpt/references/distributed-training.md\n01-model-architecture/litgpt/references/supported-models.md\n01-model-architecture/litgpt/references/training-recipes.md\n01-model-architecture/mamba\n01-model-architecture/mamba/SKILL.md\n01-model-architecture/mamba/references\n01-model-architecture/mamba/references/architecture-details.md\n01-model-architecture/mamba/references/benchmarks.md\n01-model-architecture/mamba/references/training-guide.md\n01-model-architecture/nanogpt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/02-tokenization 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 02-tokenization 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "02-tokenization"
+    ],
+    "genes": [
+      {
+        "title": "02-tokenization 模块说明",
+        "content": "模块路径: 02-tokenization/\n类型: source\n文件数: 13\n\n包含文件:\n- 02-tokenization/.gitkeep\n- 02-tokenization/huggingface-tokenizers\n- 02-tokenization/huggingface-tokenizers/SKILL.md\n- 02-tokenization/huggingface-tokenizers/references\n- 02-tokenization/huggingface-tokenizers/references/algorithms.md\n- 02-tokenization/huggingface-tokenizers/references/integration.md\n- 02-tokenization/huggingface-tokenizers/references/pipeline.md\n- 02-tokenization/huggingface-tokenizers/references/training.md\n- 02-tokenization/sentencepiece\n- 02-tokenization/sentencepiece/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "02-tokenization 文件结构",
+        "content": "02-tokenization/.gitkeep\n02-tokenization/huggingface-tokenizers\n02-tokenization/huggingface-tokenizers/SKILL.md\n02-tokenization/huggingface-tokenizers/references\n02-tokenization/huggingface-tokenizers/references/algorithms.md\n02-tokenization/huggingface-tokenizers/references/integration.md\n02-tokenization/huggingface-tokenizers/references/pipeline.md\n02-tokenization/huggingface-tokenizers/references/training.md\n02-tokenization/sentencepiece\n02-tokenization/sentencepiece/SKILL.md\n02-tokenization/sentencepiece/references\n02-tokenization/sentencepiece/references/algorithms.md\n02-tokenization/sentencepiece/references/training.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/03-fine-tuning 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 03-fine-tuning 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "03-fine-tuning"
+    ],
+    "genes": [
+      {
+        "title": "03-fine-tuning 模块说明",
+        "content": "模块路径: 03-fine-tuning/\n类型: source\n文件数: 27\n\n包含文件:\n- 03-fine-tuning/axolotl\n- 03-fine-tuning/axolotl/SKILL.md\n- 03-fine-tuning/axolotl/references\n- 03-fine-tuning/axolotl/references/api.md\n- 03-fine-tuning/axolotl/references/dataset-formats.md\n- 03-fine-tuning/axolotl/references/index.md\n- 03-fine-tuning/axolotl/references/other.md\n- 03-fine-tuning/llama-factory\n- 03-fine-tuning/llama-factory/SKILL.md\n- 03-fine-tuning/llama-factory/references",
+        "gene_type": "principle"
+      },
+      {
+        "title": "03-fine-tuning 文件结构",
+        "content": "03-fine-tuning/axolotl\n03-fine-tuning/axolotl/SKILL.md\n03-fine-tuning/axolotl/references\n03-fine-tuning/axolotl/references/api.md\n03-fine-tuning/axolotl/references/dataset-formats.md\n03-fine-tuning/axolotl/references/index.md\n03-fine-tuning/axolotl/references/other.md\n03-fine-tuning/llama-factory\n03-fine-tuning/llama-factory/SKILL.md\n03-fine-tuning/llama-factory/references\n03-fine-tuning/llama-factory/references/_images.md\n03-fine-tuning/llama-factory/references/advanced.md\n03-fine-tuning/llama-factory/references/getting_started.md\n03-fine-tuning/llama-factory/references/index.md\n03-fine-tuning/llama-factory/references/other.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/04-mechanistic-interpretability 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 04-mechanistic-interpretability 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "04-mechanistic-interpretability"
+    ],
+    "genes": [
+      {
+        "title": "04-mechanistic-interpretability 模块说明",
+        "content": "模块路径: 04-mechanistic-interpretability/\n类型: source\n文件数: 24\n\n包含文件:\n- 04-mechanistic-interpretability/nnsight\n- 04-mechanistic-interpretability/nnsight/SKILL.md\n- 04-mechanistic-interpretability/nnsight/references\n- 04-mechanistic-interpretability/nnsight/references/README.md\n- 04-mechanistic-interpretability/nnsight/references/api.md\n- 04-mechanistic-interpretability/nnsight/references/tutorials.md\n- 04-mechanistic-interpretability/pyvene\n- 04-mechanistic-interpretability/pyvene/SKILL.md\n- 04-mechanistic-interpretability/pyvene/references\n- 04-mechanistic-interpretability/pyvene/references/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "04-mechanistic-interpretability 文件结构",
+        "content": "04-mechanistic-interpretability/nnsight\n04-mechanistic-interpretability/nnsight/SKILL.md\n04-mechanistic-interpretability/nnsight/references\n04-mechanistic-interpretability/nnsight/references/README.md\n04-mechanistic-interpretability/nnsight/references/api.md\n04-mechanistic-interpretability/nnsight/references/tutorials.md\n04-mechanistic-interpretability/pyvene\n04-mechanistic-interpretability/pyvene/SKILL.md\n04-mechanistic-interpretability/pyvene/references\n04-mechanistic-interpretability/pyvene/references/README.md\n04-mechanistic-interpretability/pyvene/references/api.md\n04-mechanistic-interpretability/pyvene/references/tutorials.md\n04-mechanistic-interpretability/saelens\n04-mechanistic-interpretability/saelens/SKILL.md\n04-mechanistic-interpretability/saelens/references",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/05-data-processing 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 05-data-processing 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "05-data-processing"
+    ],
+    "genes": [
+      {
+        "title": "05-data-processing 模块说明",
+        "content": "模块路径: 05-data-processing/\n类型: source\n文件数: 11\n\n包含文件:\n- 05-data-processing/.gitkeep\n- 05-data-processing/nemo-curator\n- 05-data-processing/nemo-curator/SKILL.md\n- 05-data-processing/nemo-curator/references\n- 05-data-processing/nemo-curator/references/deduplication.md\n- 05-data-processing/nemo-curator/references/filtering.md\n- 05-data-processing/ray-data\n- 05-data-processing/ray-data/SKILL.md\n- 05-data-processing/ray-data/references\n- 05-data-processing/ray-data/references/integration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "05-data-processing 文件结构",
+        "content": "05-data-processing/.gitkeep\n05-data-processing/nemo-curator\n05-data-processing/nemo-curator/SKILL.md\n05-data-processing/nemo-curator/references\n05-data-processing/nemo-curator/references/deduplication.md\n05-data-processing/nemo-curator/references/filtering.md\n05-data-processing/ray-data\n05-data-processing/ray-data/SKILL.md\n05-data-processing/ray-data/references\n05-data-processing/ray-data/references/integration.md\n05-data-processing/ray-data/references/transformations.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/06-post-training 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 06-post-training 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "06-post-training"
+    ],
+    "genes": [
+      {
+        "title": "06-post-training 模块说明",
+        "content": "模块路径: 06-post-training/\n类型: source\n文件数: 47\n\n包含文件:\n- 06-post-training/grpo-rl-training\n- 06-post-training/grpo-rl-training/README.md\n- 06-post-training/grpo-rl-training/SKILL.md\n- 06-post-training/grpo-rl-training/examples\n- 06-post-training/grpo-rl-training/examples/reward_functions_library.py\n- 06-post-training/grpo-rl-training/templates\n- 06-post-training/grpo-rl-training/templates/basic_grpo_training.py\n- 06-post-training/miles\n- 06-post-training/miles/SKILL.md\n- 06-post-training/miles/references",
+        "gene_type": "principle"
+      },
+      {
+        "title": "06-post-training 文件结构",
+        "content": "06-post-training/grpo-rl-training\n06-post-training/grpo-rl-training/README.md\n06-post-training/grpo-rl-training/SKILL.md\n06-post-training/grpo-rl-training/examples\n06-post-training/grpo-rl-training/examples/reward_functions_library.py\n06-post-training/grpo-rl-training/templates\n06-post-training/grpo-rl-training/templates/basic_grpo_training.py\n06-post-training/miles\n06-post-training/miles/SKILL.md\n06-post-training/miles/references\n06-post-training/miles/references/api-reference.md\n06-post-training/miles/references/troubleshooting.md\n06-post-training/openrlhf\n06-post-training/openrlhf/SKILL.md\n06-post-training/openrlhf/references",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/07-safety-alignment 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 07-safety-alignment 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "07-safety-alignment"
+    ],
+    "genes": [
+      {
+        "title": "07-safety-alignment 模块说明",
+        "content": "模块路径: 07-safety-alignment/\n类型: source\n文件数: 9\n\n包含文件:\n- 07-safety-alignment/.gitkeep\n- 07-safety-alignment/constitutional-ai\n- 07-safety-alignment/constitutional-ai/SKILL.md\n- 07-safety-alignment/llamaguard\n- 07-safety-alignment/llamaguard/SKILL.md\n- 07-safety-alignment/nemo-guardrails\n- 07-safety-alignment/nemo-guardrails/SKILL.md\n- 07-safety-alignment/prompt-guard\n- 07-safety-alignment/prompt-guard/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "07-safety-alignment 文件结构",
+        "content": "07-safety-alignment/.gitkeep\n07-safety-alignment/constitutional-ai\n07-safety-alignment/constitutional-ai/SKILL.md\n07-safety-alignment/llamaguard\n07-safety-alignment/llamaguard/SKILL.md\n07-safety-alignment/nemo-guardrails\n07-safety-alignment/nemo-guardrails/SKILL.md\n07-safety-alignment/prompt-guard\n07-safety-alignment/prompt-guard/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  },
+  {
+    "name": "AI-Research-SKILLs/08-distributed-training 模块",
+    "description": "[模块级] AI-Research-SKILLs 项目的 08-distributed-training 模块 (source)。来源: https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "08-distributed-training"
+    ],
+    "genes": [
+      {
+        "title": "08-distributed-training 模块说明",
+        "content": "模块路径: 08-distributed-training/\n类型: source\n文件数: 20\n\n包含文件:\n- 08-distributed-training/accelerate\n- 08-distributed-training/accelerate/SKILL.md\n- 08-distributed-training/accelerate/references\n- 08-distributed-training/accelerate/references/custom-plugins.md\n- 08-distributed-training/accelerate/references/megatron-integration.md\n- 08-distributed-training/accelerate/references/performance.md\n- 08-distributed-training/deepspeed\n- 08-distributed-training/deepspeed/SKILL.md\n- 08-distributed-training/deepspeed/references\n- 08-distributed-training/deepspeed/references/08.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "08-distributed-training 文件结构",
+        "content": "08-distributed-training/accelerate\n08-distributed-training/accelerate/SKILL.md\n08-distributed-training/accelerate/references\n08-distributed-training/accelerate/references/custom-plugins.md\n08-distributed-training/accelerate/references/megatron-integration.md\n08-distributed-training/accelerate/references/performance.md\n08-distributed-training/deepspeed\n08-distributed-training/deepspeed/SKILL.md\n08-distributed-training/deepspeed/references\n08-distributed-training/deepspeed/references/08.md\n08-distributed-training/deepspeed/references/09.md\n08-distributed-training/deepspeed/references/2020.md\n08-distributed-training/deepspeed/references/2023.md\n08-distributed-training/deepspeed/references/assets.md\n08-distributed-training/deepspeed/references/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9261974519475453
+  }
+]

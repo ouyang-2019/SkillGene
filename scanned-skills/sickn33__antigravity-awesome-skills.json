@@ -1,0 +1,168 @@
+[
+  {
+    "name": "antigravity-awesome-skills (sickn33)",
+    "description": "[项目级] The Ultimate Collection of 800+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.。来源: https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "autonomous-coding",
+      "claude-code",
+      "python",
+      "stars-13275",
+      "github-sickn33",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Ultimate Collection of 800+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.\n\n来源: https://github.com/sickn33/antigravity-awesome-skills\n语言: Python\nStars: 13275",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "# Default path: ~/.agent/skills\n   npx antigravity-awesome-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CATALOG.md\nCHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/star-history.png\nbin\nbin/install.js\ndata\ndata/aliases.json\ndata/bundles.json\ndata/catalog.json\ndata/package-lock.json\ndata/package.json\ndata/skills_index.json\ndata/workflows.json\ndocs\ndocs/BUNDLES.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once installed, just ask your agent naturally:\n\n> \"Use the **@brainstorming** skill to help me plan a SaaS.\"\n> \"Run **@lint-and-validate** on this file.\"\n\n👉 **NEW:** [**Complete Usage Guide - Read This First!**](docs/USAGE.md) (answers: \"What do I do after installation?\", \"How do I execute skills?\", \"What should prompts look like?\")\n\n👉 **[Full Getting Started Guide](docs/GETTING_STARTED.md)**\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "The repository is organized into specialized domains to transform your AI into an expert across the entire software development lifecycle:\n\n| Category       | Focus                                              | Example skills                                                                  |\n| :------------- | :------------------------------------------------- | :------------------------------------------------------------------------------ |\n| Architecture   | System design, ADRs, C4, and scalable patterns     | `architecture`, `c4-context`, `senior-architect`                                ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "antigravity-awesome-skills/data 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 data 模块 (source)。来源: https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "autonomous-coding",
+      "claude-code",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 7\n\n包含文件:\n- data/aliases.json\n- data/bundles.json\n- data/catalog.json\n- data/package-lock.json\n- data/package.json\n- data/skills_index.json\n- data/workflows.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/aliases.json\ndata/bundles.json\ndata/catalog.json\ndata/package-lock.json\ndata/package.json\ndata/skills_index.json\ndata/workflows.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.149213811901403
+  },
+  {
+    "name": "antigravity-awesome-skills/docs 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 docs 模块 (docs)。来源: https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "documentation",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "autonomous-coding",
+      "claude-code",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 30\n\n包含文件:\n- docs/BUNDLES.md\n- docs/CI_DRIFT_FIX.md\n- docs/COMMUNITY_GUIDELINES.md\n- docs/EXAMPLES.md\n- docs/FAQ.md\n- docs/GETTING_STARTED.md\n- docs/LICENSE-MICROSOFT\n- docs/QUALITY_BAR.md\n- docs/SECURITY_GUARDRAILS.md\n- docs/SKILL_ANATOMY.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BUNDLES.md\ndocs/CI_DRIFT_FIX.md\ndocs/COMMUNITY_GUIDELINES.md\ndocs/EXAMPLES.md\ndocs/FAQ.md\ndocs/GETTING_STARTED.md\ndocs/LICENSE-MICROSOFT\ndocs/QUALITY_BAR.md\ndocs/SECURITY_GUARDRAILS.md\ndocs/SKILL_ANATOMY.md\ndocs/SOURCES.md\ndocs/USAGE.md\ndocs/VISUAL_GUIDE.md\ndocs/WORKFLOWS.md\ndocs/microsoft-skills-attribution.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.149213811901403
+  },
+  {
+    "name": "antigravity-awesome-skills/scripts 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 scripts 模块 (script)。来源: https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "autonomous-coding",
+      "claude-code",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 15\n\n包含文件:\n- scripts/build-catalog.js\n- scripts/generate_index.py\n- scripts/normalize-frontmatter.js\n- scripts/release_cycle.sh\n- scripts/skills_manager.py\n- scripts/sync_microsoft_skills.py\n- scripts/sync_recommended_skills.sh\n- scripts/tests\n- scripts/tests/inspect_microsoft_repo.py\n- scripts/tests/test_comprehensive_coverage.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build-catalog.js\nscripts/generate_index.py\nscripts/normalize-frontmatter.js\nscripts/release_cycle.sh\nscripts/skills_manager.py\nscripts/sync_microsoft_skills.py\nscripts/sync_recommended_skills.sh\nscripts/tests\nscripts/tests/inspect_microsoft_repo.py\nscripts/tests/test_comprehensive_coverage.py\nscripts/tests/test_validate_skills_headings.py\nscripts/tests/validate_skills_headings.test.js\nscripts/update_readme.py\nscripts/validate-skills.js\nscripts/validate_skills.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.149213811901403
+  },
+  {
+    "name": "antigravity-awesome-skills/skills 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 skills 模块 (source)。来源: https://github.com/sickn33/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "autonomous-coding",
+      "claude-code",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "> **The Ultimate Collection of 868+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)\n[![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/.gitignore\nskills/3d-web-experience\nskills/3d-web-experience/SKILL.md\nskills/README.md\nskills/SPDD\nskills/SPDD/1-research.md\nskills/SPDD/2-spec.md\nskills/SPDD/3-implementation.md\nskills/ab-test-setup\nskills/ab-test-setup/SKILL.md\nskills/accessibility-compliance-accessibility-audit\nskills/accessibility-compliance-accessibility-audit/SKILL.md\nskills/accessibility-compliance-accessibility-audit/resources\nskills/accessibility-compliance-accessibility-audit/resources/implementation-playbook.md\nskills/active-directory-attacks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.149213811901403
+  }
+]

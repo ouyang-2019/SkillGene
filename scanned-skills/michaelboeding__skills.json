@@ -1,0 +1,132 @@
+[
+  {
+    "name": "skills (michaelboeding)",
+    "description": "[项目级] Personal collection of agent skills using the open SKILL.md standard. Works with Claude (claude.ai, Claude Code, API), Cursor, and other AI assistants.。来源: https://github.com/michaelboeding/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-9",
+      "github-michaelboeding",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Personal collection of agent skills using the open SKILL.md standard. Works with Claude (claude.ai, Claude Code, API), Cursor, and other AI assistants.\n\n来源: https://github.com/michaelboeding/skills\n语言: Python\nStars: 9",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/builder-solver-1.md\nagents/builder-solver-10.md\nagents/builder-solver-2.md\nagents/builder-solver-3.md\nagents/builder-solver-4.md\nagents/builder-solver-5.md\nagents/builder-solver-6.md\nagents/builder-solver-7.md\nagents/builder-solver-8.md\nagents/builder-solver-9.md\nagents/debug-solver-1.md\nagents/debug-solver-10.md\nagents/debug-solver-2.md\nagents/debug-solver-3.md\nagents/debug-solver-4.md\nagents/debug-solver-5.md\nagents/debug-solver-6.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "USER: \"Create a 30-second product video for my new wireless earbuds\"\n\nPRODUCER WORKFLOW:\n1. Asks: Duration? Style? Have product images?\n2. Plans: 5 scenes (reveal, features, lifestyle, CTA)\n3. Generates:\n   - 5 video clips (Veo 3.1)\n   - Voiceover script (Gemini TTS)\n   - Background music (Lyria)\n4. Assembles:\n   - Concat clips with transitions\n   - Mix voice + music (music ducks under voice)\n   - Merge audio with video\n5. Delivers: final_product_video.mp4\n\nOUTPUT: Professional video with VO, music, transitions",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "10 feature solver agents focused on building features:\n\n| Agents | Purpose |\n|--------|---------|\n| `feature-solver-1` through `feature-solver-10` | Independent feature implementation |\n\nFocus: Codebase pattern matching, edge case coverage, comprehensive implementation.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4771212547196626
+  },
+  {
+    "name": "skills/agents 模块",
+    "description": "[模块级] skills 项目的 agents 模块 (source)。来源: https://github.com/michaelboeding/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-9",
+      "github-michaelboeding",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "**Everything is a skill** (has a SKILL.md file), but there are two types:\n\n```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│                    AGENT SKILLS (Higher-Level)                              │\n│         Skills that orchestrate other skills + have sub-agents              │\n│                                                                             │\n│  ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────┐ │\n│  │ patent-lawyer-age",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/builder-solver-1.md\nagents/builder-solver-10.md\nagents/builder-solver-2.md\nagents/builder-solver-3.md\nagents/builder-solver-4.md\nagents/builder-solver-5.md\nagents/builder-solver-6.md\nagents/builder-solver-7.md\nagents/builder-solver-8.md\nagents/builder-solver-9.md\nagents/debug-solver-1.md\nagents/debug-solver-10.md\nagents/debug-solver-2.md\nagents/debug-solver-3.md\nagents/debug-solver-4.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                    AGENT SKILLS (Higher-Level)                              │\n│         Skills that orchestrate other skills + have sub-agents              │\n│                                                                             │\n│  ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────┐ │\n│  │ patent-lawyer-agent │  │ product-engineer-   │  │ video-producer-     │ │\n│  │   5 sub-agents      │  │     agent           │  │     agent           │ │\n│  │   uses: image-gen   │  │   5 sub-agent",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  },
+  {
+    "name": "skills/scripts 模块",
+    "description": "[模块级] skills 项目的 scripts 模块 (script)。来源: https://github.com/michaelboeding/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-9",
+      "github-michaelboeding",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/check_deps.py\n- scripts/install.sh\n- scripts/update-plugin.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/check_deps.py\nscripts/install.sh\nscripts/update-plugin.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  },
+  {
+    "name": "skills/skills 模块",
+    "description": "[模块级] skills 项目的 skills 模块 (source)。来源: https://github.com/michaelboeding/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-9",
+      "github-michaelboeding",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "> **Version 5.22.0** - Added sidequest skill for spawning parallel Claude sessions\n\nPersonal collection of agent skills using the open [SKILL.md standard](https://agentskills.io). Works with Claude Code and other AI assistants.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/add-to-xcode\nskills/add-to-xcode/SKILL.md\nskills/add-to-xcode/scripts\nskills/add-to-xcode/scripts/add_to_xcode.rb\nskills/android-to-ios\nskills/android-to-ios/SKILL.md\nskills/audio-producer-agent\nskills/audio-producer-agent/SKILL.md\nskills/background-remove\nskills/background-remove/SKILL.md\nskills/background-remove/scripts\nskills/background-remove/scripts/background_remove.py\nskills/brand-research-agent\nskills/brand-research-agent/SKILL.md\nskills/brand-research-agent/agents",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "name": "pinme (glitternetwork)",
+    "description": "[项目级] Deploy Your Frontend in a Single Command. Claude Code Skills supported.。来源: https://github.com/glitternetwork/pinme",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code-skill",
+      "claude-skills",
+      "deployment",
+      "deployment-tools",
+      "typescript",
+      "stars-2786",
+      "github-glitternetwork",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "VIP membership provides access to premium features including domain binding and custom DNS support.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nbin\nbin/bind.ts\nbin/exportCar.ts\nbin/importCar.ts\nbin/index.ts\nbin/logout.ts\nbin/my-domains.ts\nbin/remove.ts\nbin/set-appkey.ts\nbin/show-appkey.ts\nbin/upload.ts\nbin/utils\nbuild.js\nexample\nexample/docs\nexample/pinme-blog\nexample/supabase",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "> **Deployment Request:**\n> Please read the PinMe documentation, then use PinMe CLI to deploy the specified website (upload static files) to server.\n>\n> **Operation Steps:**\n> 1. Check Node.js version (requires 16.13.0+)\n> 2. Check if pinme is installed, install if not\n> 3. Identify the static file directory for the website to deploy\n> 4. Execute deployment command\n> 5. Return preview page link: `https://pinme.eth.limo/#/preview/*`\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Free | VIP |\n|---------|------|-----|\n| Upload files to IPFS | ✅ | ✅ |\n| Preview URL | ✅ | ✅ |\n| Pinme subdomain binding | ❌ | ✅ |\n| Custom DNS domain binding | ❌ | ✅ |\n| Priority support | ❌ | ✅ |",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.722490556043972
+  },
+  {
+    "name": "pinme/bin 模块",
+    "description": "[模块级] pinme 项目的 bin 模块 (script)。来源: https://github.com/glitternetwork/pinme",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code-skill",
+      "claude-skills",
+      "deployment",
+      "deployment-tools",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/bind.ts\nbin/exportCar.ts\nbin/importCar.ts\nbin/index.ts\nbin/logout.ts\nbin/my-domains.ts\nbin/remove.ts\nbin/set-appkey.ts\nbin/show-appkey.ts\nbin/upload.ts\nbin/utils\nbin/utils/auth.ts\nbin/utils/checkNodeVersion.ts\nbin/utils/checkPath.ts\nbin/utils/decrypt.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.877992444835178
+  },
+  {
+    "name": "pinme/example 模块",
+    "description": "[模块级] pinme 项目的 example 模块 (example)。来源: https://github.com/glitternetwork/pinme",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "claude-code-skill",
+      "claude-skills",
+      "deployment",
+      "deployment-tools",
+      "module-level",
+      "example",
+      "example"
+    ],
+    "genes": [
+      {
+        "title": "example 模块说明",
+        "content": "```yaml\nname: Deploy to PinMe\n\non:\n  push:\n    branches: [main, master]\n  workflow_dispatch:\n    inputs:\n      domain:\n        description: 'PinMe domain name'\n        required: true\n      build_dir:\n        description: 'Build directory'\n        default: 'dist'\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '18'\n      - run: npm ci\n      - run: npm run build\n      - run: npm insta",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example 文件结构",
+        "content": "example/docs\nexample/docs/.nojekyll\nexample/docs/README.md\nexample/docs/_navbar.md\nexample/docs/_sidebar.md\nexample/docs/contact\nexample/docs/contact/_sidebar.md\nexample/docs/contact/index.md\nexample/docs/contact/test.md\nexample/docs/guide\nexample/docs/guide/config.md\nexample/docs/guide/installation.md\nexample/docs/index.html\nexample/docs/quickstart.md\nexample/pinme-blog",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "example 代码示例",
+        "content": "name: Deploy to PinMe\n\non:\n  push:\n    branches: [main, master]\n  workflow_dispatch:\n    inputs:\n      domain:\n        description: 'PinMe domain name'\n        required: true\n      build_dir:\n        description: 'Build directory'\n        default: 'dist'\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '18'\n      - run: npm ci\n      - run: npm run build\n      - run: npm install -g pinme\n      - run: pinme set-appkey \"${{ secrets.PINME_APPKEY }}\"\n      - run: pinme upload dist --dom",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.877992444835178
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "everything-claude-code (affaan-m)",
+    "description": "[项目级] Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.。来源: https://github.com/affaan-m/everything-claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "javascript",
+      "stars-48639",
+      "github-affaan-m",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.\n\n来源: https://github.com/affaan-m/everything-claude-code\n语言: JavaScript\nStars: 48639",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- **Interactive installation wizard** — New `configure-ecc` skill provides guided setup with merge/overwrite detection\n- **PM2 & multi-agent orchestration** — 6 new commands (`/pm2`, `/multi-plan`, `/multi-execute`, `/multi-backend`, `/multi-frontend`, `/multi-workflow`) for managing complex multi-service workflows\n- **Multi-language rules architecture** — Rules restructured from flat files into `common/` + `typescript/` + `python/` + `golang/` directories. Install only the languages you need\n- **Chinese (zh-CN) translations** — Complete translation of all agents, commands, skills, and rules (",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Claude Code | OpenCode | Status |\n|---------|-------------|----------|--------|\n| Agents | ✅ 13 agents | ✅ 12 agents | **Claude Code leads** |\n| Commands | ✅ 31 commands | ✅ 24 commands | **Claude Code leads** |\n| Skills | ✅ 43 skills | ✅ 16 skills | **Claude Code leads** |\n| Hooks | ✅ 3 phases | ✅ 20+ events | **OpenCode has more!** |\n| Rules | ✅ 8 rules | ✅ 8 rules | **Full parity** |\n| MCP Servers | ✅ Full | ✅ Full | **Full parity** |\n| Custom Tools | ✅ Via hooks | ✅ Native support | **OpenCode is better** |",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  }
+]

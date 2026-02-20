@@ -1,0 +1,68 @@
+[
+  {
+    "name": "skills (trailofbits)",
+    "description": "[项目级] Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows。来源: https://github.com/trailofbits/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "python",
+      "stars-2817",
+      "github-trailofbits",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[Trail of Bits](https://www.trailofbits.com/) is a security research and consulting firm.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODEOWNERS\nLICENSE\nREADME.md\nplugins\nplugins/ask-questions-if-underspecified\nplugins/audit-context-building\nplugins/building-secure-contracts\nplugins/burpsuite-project-parser\nplugins/claude-in-chrome-troubleshooting\nplugins/constant-time-analysis\nplugins/culture-index\nplugins/debug-buttercup",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.724893423492887
+  },
+  {
+    "name": "skills/plugins 模块",
+    "description": "[模块级] skills 项目的 plugins 模块 (source)。来源: https://github.com/trailofbits/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "python",
+      "stars-2817",
+      "github-trailofbits",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "```\n/plugin menu\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ask-questions-if-underspecified\nplugins/ask-questions-if-underspecified/.claude-plugin\nplugins/ask-questions-if-underspecified/.claude-plugin/plugin.json\nplugins/ask-questions-if-underspecified/README.md\nplugins/ask-questions-if-underspecified/skills\nplugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified\nplugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md\nplugins/audit-context-building\nplugins/audit-context-building/.claude-plugin\nplugins/audit-context-building/.claude-plugin/plugin.json\nplugins/audit-context-building/README.md\nplugins/audit-context-building/agents\nplugins/audit-context-building/agents/function-analyzer.md\nplugins/audit-context-building/commands\nplugins/audit-context-building/commands/audit-context.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "plugins 代码示例",
+        "content": "/plugin menu",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8799147387943096
+  }
+]

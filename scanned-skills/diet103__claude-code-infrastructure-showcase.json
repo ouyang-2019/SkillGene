@@ -1,0 +1,38 @@
+[
+  {
+    "name": "claude-code-infrastructure-showcase (diet103)",
+    "description": "[项目级] Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents。来源: https://github.com/diet103/claude-code-infrastructure-showcase",
+    "domain": "ai-llm",
+    "tags": [
+      "shell",
+      "stars-8952",
+      "github-diet103",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents\n\n来源: https://github.com/diet103/claude-code-infrastructure-showcase\n语言: Shell\nStars: 8952",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE_INTEGRATION_GUIDE.md\nLICENSE\nREADME.md\ndev\ndev/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Skills use generic blog examples (Post/Comment/User):\n- These are **teaching examples**, not requirements\n- Patterns work for any domain (e-commerce, SaaS, etc.)\n- Adapt the patterns to your business logic",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.975960036760147
+  }
+]

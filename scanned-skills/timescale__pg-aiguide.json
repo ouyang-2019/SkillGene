@@ -1,0 +1,193 @@
+[
+  {
+    "name": "pg-aiguide (timescale)",
+    "description": "[项目级] MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "python",
+      "stars-1551",
+      "github-timescale",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.\n\n来源: https://github.com/timescale/pg-aiguide\n语言: Python\nStars: 1551",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "API.md\nCLAUDE.md\nDEVELOPMENT.md\nDockerfile\nLICENSE\nNOTICE\nREADME.md\nbiome.json\nbun\nbun.lock\ndocker-compose.yml\ndocker\ndocker/tsdb\ngenerate-server.json.ts\ningest\ningest/.python-version\ningest/README.md\ningest/postgres_docs.py\ningest/pyproject.toml\ningest/tiger_docs.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.595305898906803
+  },
+  {
+    "name": "pg-aiguide/docker 模块",
+    "description": "[模块级] pg-aiguide 项目的 docker 模块 (source)。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 2\n\n包含文件:\n- docker/tsdb\n- docker/tsdb/100_setup_db.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/tsdb\ndocker/tsdb/100_setup_db.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776244719125442
+  },
+  {
+    "name": "pg-aiguide/ingest 模块",
+    "description": "[模块级] pg-aiguide 项目的 ingest 模块 (source)。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "module-level",
+      "source",
+      "ingest"
+    ],
+    "genes": [
+      {
+        "title": "ingest 模块说明",
+        "content": "模块路径: ingest/\n类型: source\n文件数: 7\n\n包含文件:\n- ingest/.python-version\n- ingest/README.md\n- ingest/postgres_docs.py\n- ingest/pyproject.toml\n- ingest/tiger_docs.py\n- ingest/tiger_docs_config.toml\n- ingest/uv.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ingest 文件结构",
+        "content": "ingest/.python-version\ningest/README.md\ningest/postgres_docs.py\ningest/pyproject.toml\ningest/tiger_docs.py\ningest/tiger_docs_config.toml\ningest/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776244719125442
+  },
+  {
+    "name": "pg-aiguide/migrations 模块",
+    "description": "[模块级] pg-aiguide 项目的 migrations 模块 (source)。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "module-level",
+      "source",
+      "migrations"
+    ],
+    "genes": [
+      {
+        "title": "migrations 模块说明",
+        "content": "模块路径: migrations/\n类型: source\n文件数: 5\n\n包含文件:\n- migrations/1756387543053-initial.js\n- migrations/1759241172003-add-hnsw-indexes.js\n- migrations/1759241361471-add-version-index.js\n- migrations/1759851009030-add-tiger-indexes.js\n- migrations/1767990776052-add-bm25-indexes.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "migrations 文件结构",
+        "content": "migrations/1756387543053-initial.js\nmigrations/1759241172003-add-hnsw-indexes.js\nmigrations/1759241361471-add-version-index.js\nmigrations/1759851009030-add-tiger-indexes.js\nmigrations/1767990776052-add-bm25-indexes.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776244719125442
+  },
+  {
+    "name": "pg-aiguide/skills 模块",
+    "description": "[模块级] pg-aiguide 项目的 skills 模块 (source)。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "- **[`view_skill`](API.md#view_skill)**  \n  Exposes curated, opinionated PostgreSQL best-practice skills used automatically by AI coding assistants.\n\n  These skills provide guidance on:\n  - Schema design\n  - Indexing strategies\n  - Data types\n  - Data integrity and constraints\n  - Naming conventions\n  - Performance tuning\n  - Modern PostgreSQL features",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/design-postgres-tables\nskills/design-postgres-tables/SKILL.md\nskills/find-hypertable-candidates\nskills/find-hypertable-candidates/SKILL.md\nskills/migrate-postgres-tables-to-hypertables\nskills/migrate-postgres-tables-to-hypertables/SKILL.md\nskills/pgvector-semantic-search\nskills/pgvector-semantic-search/SKILL.md\nskills/postgres-hybrid-text-search\nskills/postgres-hybrid-text-search/SKILL.md\nskills/setup-timescaledb-hypertables\nskills/setup-timescaledb-hypertables/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776244719125442
+  },
+  {
+    "name": "pg-aiguide/src 模块",
+    "description": "[模块级] pg-aiguide 项目的 src 模块 (source)。来源: https://github.com/timescale/pg-aiguide",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 14\n\n包含文件:\n- src/apis\n- src/apis/index.ts\n- src/apis/searchDocs.ts\n- src/config.ts\n- src/httpServer.ts\n- src/index.ts\n- src/migrate.ts\n- src/prompts\n- src/prompts/index.ts\n- src/serverInfo.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/apis\nsrc/apis/index.ts\nsrc/apis/searchDocs.ts\nsrc/config.ts\nsrc/httpServer.ts\nsrc/index.ts\nsrc/migrate.ts\nsrc/prompts\nsrc/prompts/index.ts\nsrc/serverInfo.ts\nsrc/stdio.ts\nsrc/types.ts\nsrc/util\nsrc/util/featureFlags.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.776244719125442
+  }
+]

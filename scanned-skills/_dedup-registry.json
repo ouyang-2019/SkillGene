@@ -1,0 +1,29 @@
+{
+  "scanned_repos": {
+    "avifenesh/agnix": {
+      "scanned_at": "2026-02-20T14:21:38.847Z",
+      "stars": 48,
+      "capsule_count": 2
+    },
+    "frmoretto/stream-coding": {
+      "scanned_at": "2026-02-20T14:21:40.652Z",
+      "stars": 48,
+      "capsule_count": 4
+    },
+    "yfe404/ai-anything": {
+      "scanned_at": "2026-02-20T14:21:42.508Z",
+      "stars": 11,
+      "capsule_count": 1
+    },
+    "aktsmm/vscode-agent-skill-ninja": {
+      "scanned_at": "2026-02-20T14:21:44.387Z",
+      "stars": 11,
+      "capsule_count": 5
+    },
+    "michaelboeding/skills": {
+      "scanned_at": "2026-02-20T14:21:46.164Z",
+      "stars": 9,
+      "capsule_count": 4
+    }
+  }
+}

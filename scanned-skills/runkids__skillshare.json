@@ -1,0 +1,128 @@
+[
+  {
+    "name": "skillshare (runkids)",
+    "description": "[项目级] 📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Claude Code, OpenClaw, OpenCode & more。来源: https://github.com/runkids/skillshare",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "antigravity",
+      "claude-code",
+      "clawdbot",
+      "cli",
+      "go",
+      "stars-562",
+      "github-runkids",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Claude Code, OpenClaw, OpenCode & more\n\n来源: https://github.com/runkids/skillshare\n语言: Go\nStars: 562",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMakefile\nREADME.md\ncmd\ncmd/skillshare\ndocker-compose.sandbox.yml\ndocker\ndocker/ci\ndocker/production\ndocker/sandbox\ngo.mod\ngo.sum\ninstall.ps1\ninstall.sh\ninternal\ninternal/audit\ninternal/backup\ninternal/config\ninternal/git",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3748681577845305
+  },
+  {
+    "name": "skillshare/cmd 模块",
+    "description": "[模块级] skillshare 项目的 cmd 模块 (source)。来源: https://github.com/runkids/skillshare",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "antigravity",
+      "claude-code",
+      "clawdbot",
+      "cli",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 49\n\n包含文件:\n- cmd/skillshare\n- cmd/skillshare/audit.go\n- cmd/skillshare/audit_project.go\n- cmd/skillshare/backup.go\n- cmd/skillshare/check.go\n- cmd/skillshare/check_project.go\n- cmd/skillshare/collect.go\n- cmd/skillshare/collect_project.go\n- cmd/skillshare/diff.go\n- cmd/skillshare/diff_project.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/skillshare\ncmd/skillshare/audit.go\ncmd/skillshare/audit_project.go\ncmd/skillshare/backup.go\ncmd/skillshare/check.go\ncmd/skillshare/check_project.go\ncmd/skillshare/collect.go\ncmd/skillshare/collect_project.go\ncmd/skillshare/diff.go\ncmd/skillshare/diff_project.go\ncmd/skillshare/doctor.go\ncmd/skillshare/helpers.go\ncmd/skillshare/hub.go\ncmd/skillshare/hub_manage.go\ncmd/skillshare/init.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5998945262276245
+  },
+  {
+    "name": "skillshare/docker 模块",
+    "description": "[模块级] skillshare 项目的 docker 模块 (source)。来源: https://github.com/runkids/skillshare",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "antigravity",
+      "claude-code",
+      "clawdbot",
+      "cli",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "Use Docker for reproducible testing, interactive playgrounds, and production deployment.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/ci\ndocker/ci/Dockerfile\ndocker/production\ndocker/production/Dockerfile\ndocker/production/entrypoint.sh\ndocker/sandbox\ndocker/sandbox/Dockerfile\ndocker/sandbox/entrypoint.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5998945262276245
+  },
+  {
+    "name": "skillshare/internal 模块",
+    "description": "[模块级] skillshare 项目的 internal 模块 (source)。来源: https://github.com/runkids/skillshare",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "antigravity",
+      "claude-code",
+      "clawdbot",
+      "cli",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 85\n\n包含文件:\n- internal/audit\n- internal/audit/audit.go\n- internal/audit/audit_result_helpers_test.go\n- internal/audit/audit_rules_test.go\n- internal/audit/audit_scan_content_test.go\n- internal/audit/audit_scan_skill_test.go\n- internal/audit/export_test.go\n- internal/audit/patterns.go\n- internal/audit/risk_test.go\n- internal/audit/rules.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/audit\ninternal/audit/audit.go\ninternal/audit/audit_result_helpers_test.go\ninternal/audit/audit_rules_test.go\ninternal/audit/audit_scan_content_test.go\ninternal/audit/audit_scan_skill_test.go\ninternal/audit/export_test.go\ninternal/audit/patterns.go\ninternal/audit/risk_test.go\ninternal/audit/rules.yaml\ninternal/audit/testdata\ninternal/audit/testdata/clean-skill.md\ninternal/audit/testdata/malicious-destructive.md\ninternal/audit/testdata/malicious-exfiltration.md\ninternal/audit/testdata/malicious-injection.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5998945262276245
+  }
+]

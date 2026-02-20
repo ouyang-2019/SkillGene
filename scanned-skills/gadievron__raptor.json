@@ -1,0 +1,150 @@
+[
+  {
+    "name": "raptor (gadievron)",
+    "description": "[项目级] Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating rules, sub-agents, and skills, and orchestrating security tool usage, we configure the agent for adversarial thinking, and perform research or attack/defense operations.。来源: https://github.com/gadievron/raptor",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1129",
+      "github-gadievron",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Beyond RAPTOR's potential for autonomous security research and community collaboration, it\ndemonstrates how Claude Code can be adapted for **any purpose**, with RAPTOR packages.\n\n**Recent improvements:**\n- **LiteLLM Integration:** Unified LLM interface with Pydantic validation, smart model selection, and cost tracking\n- **SecOpsAgentKit:** Offensive security specialist agent with comprehensive penetration testing capabilities\n- **Cost Management:** Budget enforcement, real-time callbacks, and intelligent quota detection\n- **Enhanced Reliability:** Multiple bug fixes improving robustness across CodeQL, static analysis, and LLM providers\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\nYou have two options, install on your own, or deploy the devcontainer.\n\n**Install**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCLAUDE_CODE_QUICKSTART.md\nDEPENDENCIES.md\nLICENSE\nREADME.md\ncore\ncore/__init__.py\ncore/config.py\ncore/logging.py\ncore/progress.py\ncore/sarif\ndocs\ndocs/ARCHITECTURE.md\ndocs/CLAUDE_CODE_USAGE.md\ndocs/DATAFLOW_VALIDATION_SUMMARY.md\ndocs/EXTENDING_LAUNCHER.md\ndocs/FUZZING_QUICKSTART.md\ndocs/PYTHON_CLI.md\ndocs/README.md\ndocs/VISUAL_DESIGN.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Budget Control:**",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.526346970962484
+  },
+  {
+    "name": "raptor/core 模块",
+    "description": "[模块级] raptor 项目的 core 模块 (source)。来源: https://github.com/gadievron/raptor",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1129",
+      "github-gadievron",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 7\n\n包含文件:\n- core/__init__.py\n- core/config.py\n- core/logging.py\n- core/progress.py\n- core/sarif\n- core/sarif/__init__.py\n- core/sarif/parser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/__init__.py\ncore/config.py\ncore/logging.py\ncore/progress.py\ncore/sarif\ncore/sarif/__init__.py\ncore/sarif/parser.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7210775767699875
+  },
+  {
+    "name": "raptor/docs 模块",
+    "description": "[模块级] raptor 项目的 docs 模块 (docs)。来源: https://github.com/gadievron/raptor",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-1129",
+      "github-gadievron",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/ARCHITECTURE.md\n- docs/CLAUDE_CODE_USAGE.md\n- docs/DATAFLOW_VALIDATION_SUMMARY.md\n- docs/EXTENDING_LAUNCHER.md\n- docs/FUZZING_QUICKSTART.md\n- docs/PYTHON_CLI.md\n- docs/README.md\n- docs/VISUAL_DESIGN.md\n- docs/crash-analysis.md\n- docs/exploit-feasibility.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ARCHITECTURE.md\ndocs/CLAUDE_CODE_USAGE.md\ndocs/DATAFLOW_VALIDATION_SUMMARY.md\ndocs/EXTENDING_LAUNCHER.md\ndocs/FUZZING_QUICKSTART.md\ndocs/PYTHON_CLI.md\ndocs/README.md\ndocs/VISUAL_DESIGN.md\ndocs/crash-analysis.md\ndocs/exploit-feasibility.md\ndocs/exploitability-validation-integration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7210775767699875
+  },
+  {
+    "name": "raptor/engine 模块",
+    "description": "[模块级] raptor 项目的 engine 模块 (source)。来源: https://github.com/gadievron/raptor",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1129",
+      "github-gadievron",
+      "module-level",
+      "source",
+      "engine"
+    ],
+    "genes": [
+      {
+        "title": "engine 模块说明",
+        "content": "模块路径: engine/\n类型: source\n文件数: 34\n\n包含文件:\n- engine/codeql\n- engine/codeql/suites\n- engine/codeql/suites/README.md\n- engine/semgrep\n- engine/semgrep/rules\n- engine/semgrep/rules/auth\n- engine/semgrep/rules/auth/tls-skip-verify.yaml\n- engine/semgrep/rules/crypto\n- engine/semgrep/rules/crypto/insecure-iv-or-nonce.yaml\n- engine/semgrep/rules/crypto/reused-nonce-heuristic.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "engine 文件结构",
+        "content": "engine/codeql\nengine/codeql/suites\nengine/codeql/suites/README.md\nengine/semgrep\nengine/semgrep/rules\nengine/semgrep/rules/auth\nengine/semgrep/rules/auth/tls-skip-verify.yaml\nengine/semgrep/rules/crypto\nengine/semgrep/rules/crypto/insecure-iv-or-nonce.yaml\nengine/semgrep/rules/crypto/reused-nonce-heuristic.yaml\nengine/semgrep/rules/crypto/weak-asym-keysize.yaml\nengine/semgrep/rules/crypto/weak-block-modes.yaml\nengine/semgrep/rules/crypto/weak-hash.yaml\nengine/semgrep/rules/crypto/weak-kdf-iterations.yaml\nengine/semgrep/rules/crypto/weak-kdf-keysize.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7210775767699875
+  },
+  {
+    "name": "raptor/packages 模块",
+    "description": "[模块级] raptor 项目的 packages 模块 (source)。来源: https://github.com/gadievron/raptor",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1129",
+      "github-gadievron",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 9\n\n包含文件:\n- packages/__init__.py\n- packages/autonomous\n- packages/autonomous/__init__.py\n- packages/autonomous/corpus_generator.py\n- packages/autonomous/dialogue.py\n- packages/autonomous/exploit_validator.py\n- packages/autonomous/goal_planner.py\n- packages/autonomous/memory.py\n- packages/autonomous/planner.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/__init__.py\npackages/autonomous\npackages/autonomous/__init__.py\npackages/autonomous/corpus_generator.py\npackages/autonomous/dialogue.py\npackages/autonomous/exploit_validator.py\npackages/autonomous/goal_planner.py\npackages/autonomous/memory.py\npackages/autonomous/planner.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7210775767699875
+  }
+]

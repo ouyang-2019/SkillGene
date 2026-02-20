@@ -1,0 +1,42 @@
+[
+  {
+    "name": "awesome-claude-skills (travisvn)",
+    "description": "[项目级] A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code。来源: https://github.com/travisvn/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "stars-7385",
+      "github-travisvn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code\n\n来源: https://github.com/travisvn/awesome-claude-skills\n语言: unknown\nStars: 7385",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [anthropics/skills](https://github.com/anthropics/skills) - Official public repository for Skills\n- [Claude Cookbooks - Skills](https://github.com/anthropics/claude-cookbooks/tree/main/skills) - Example notebooks and tutorials",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.934175249823984
+  }
+]

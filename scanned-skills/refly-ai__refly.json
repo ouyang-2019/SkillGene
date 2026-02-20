@@ -1,0 +1,68 @@
+[
+  {
+    "name": "refly (refly-ai)",
+    "description": "[项目级] The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.。来源: https://github.com/refly-ai/refly",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "automation",
+      "claude",
+      "clawdbot",
+      "typescript",
+      "stars-6640",
+      "github-refly-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.\n\n来源: https://github.com/refly-ai/refly\n语言: TypeScript\nStars: 6640",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCONTRIBUTING_CN.md\nLICENSE\nREADME.md\nREADME_CN.md\napps\napps/api",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.911084039684009
+  },
+  {
+    "name": "refly/apps 模块",
+    "description": "[模块级] refly 项目的 apps 模块 (source)。来源: https://github.com/refly-ai/refly",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "automation",
+      "claude",
+      "clawdbot",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 132\n\n包含文件:\n- apps/api\n- apps/api/.env.development\n- apps/api/.env.example\n- apps/api/.gitignore\n- apps/api/.node-options\n- apps/api/.swcrc\n- apps/api/Dockerfile\n- apps/api/Dockerfile.slim\n- apps/api/README.md\n- apps/api/jest.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/api\napps/api/.env.development\napps/api/.env.example\napps/api/.gitignore\napps/api/.node-options\napps/api/.swcrc\napps/api/Dockerfile\napps/api/Dockerfile.slim\napps/api/README.md\napps/api/jest.config.ts\napps/api/load-tests\napps/api/load-tests/config.js\napps/api/load-tests/helpers\napps/api/load-tests/helpers/auth.js\napps/api/load-tests/run-all.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.028867231747207
+  }
+]

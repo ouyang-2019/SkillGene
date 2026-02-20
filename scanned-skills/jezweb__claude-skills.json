@@ -1,0 +1,68 @@
+[
+  {
+    "name": "claude-skills (jezweb)",
+    "description": "[项目级] Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.。来源: https://github.com/jezweb/claude-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-skills",
+      "python",
+      "stars-517",
+      "github-jezweb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.\n\n来源: https://github.com/jezweb/claude-skills\n语言: Python\nStars: 517",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nskills\nskills/aussie-business-english\nskills/claude-capabilities\nskills/cloudflare-worker-builder\nskills/color-palette\nskills/context-manager\nskills/d1-drizzle-schema\nskills/dev-session\nskills/elevenlabs-agents\nskills/favicon-gen\nskills/gemini-peer-review\nskills/github-release\nskills/google-apps-script\nskills/google-chat-messages\nskills/hono-api-scaffolder\nskills/icon-set-generator\nskills/mcp-builder",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.356745271546972
+  },
+  {
+    "name": "claude-skills/skills 模块",
+    "description": "[模块级] claude-skills 项目的 skills 模块 (source)。来源: https://github.com/jezweb/claude-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\nWorkflow skills for [Claude Code](https://claude.com/claude-code) that produce tangible output. Each skill guides Claude through a recipe — scaffold a project, generate assets, deploy to production.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/aussie-business-english\nskills/aussie-business-english/SKILL.md\nskills/claude-capabilities\nskills/claude-capabilities/SKILL.md\nskills/claude-capabilities/references\nskills/claude-capabilities/references/changelog.md\nskills/claude-capabilities/references/claude-ai.md\nskills/claude-capabilities/references/claude-code.md\nskills/claude-capabilities/references/models.md\nskills/cloudflare-worker-builder\nskills/cloudflare-worker-builder/.claude-plugin\nskills/cloudflare-worker-builder/.claude-plugin/plugin.json\nskills/cloudflare-worker-builder/SKILL.md\nskills/cloudflare-worker-builder/assets\nskills/cloudflare-worker-builder/assets/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585396217237577
+  }
+]

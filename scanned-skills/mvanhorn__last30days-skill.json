@@ -1,0 +1,193 @@
+[
+  {
+    "name": "last30days-skill (mvanhorn)",
+    "description": "[项目级] Claude Code skill that researches any topic across Reddit + X from the last 30 days, then writes copy-paste-ready prompts。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "python",
+      "stars-2858",
+      "github-mvanhorn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code skill that researches any topic across Reddit + X from the last 30 days, then writes copy-paste-ready prompts\n\n来源: https://github.com/mvanhorn/last30days-skill\n语言: Python\nStars: 2858",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nREADME.md\nSKILL-original.md\nSKILL.md\nSPEC.md\nTASKS.md\nagents\nagents/openai.yaml\nassets\nassets/aging-portrait.jpeg\nassets/claude-code-rap.mp3\nassets/dog-as-human.png\nassets/dog-original.jpeg\nassets/swimmom-mockup.jpeg\ndocs\ndocs/plans\ndocs/pr-credits.md\ndocs/v2.1-launch-copy.md\ndocs/v2.1-tweets.md\nfixtures",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/last30days [topic]\n/last30days [topic] for [tool]",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.728031112227476
+  },
+  {
+    "name": "last30days-skill/assets 模块",
+    "description": "[模块级] last30days-skill 项目的 assets 模块 (source)。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/aging-portrait.jpeg\n- assets/claude-code-rap.mp3\n- assets/dog-as-human.png\n- assets/dog-original.jpeg\n- assets/swimmom-mockup.jpeg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/aging-portrait.jpeg\nassets/claude-code-rap.mp3\nassets/dog-as-human.png\nassets/dog-original.jpeg\nassets/swimmom-mockup.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.882424889781981
+  },
+  {
+    "name": "last30days-skill/docs 模块",
+    "description": "[模块级] last30days-skill 项目的 docs 模块 (docs)。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "documentation",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 17\n\n包含文件:\n- docs/plans\n- docs/plans/2026-02-03-bird-cli-implementation.md\n- docs/plans/2026-02-03-bird-cli-integration-design.md\n- docs/plans/2026-02-06-feat-last30days-bird-cli-release-plan.md\n- docs/plans/2026-02-06-feat-visible-query-parsing-display-plan.md\n- docs/plans/2026-02-06-fix-last30days-v2-formatting-reddit-citations-plan.md\n- docs/plans/2026-02-06-fix-skill-execution-fork-mode-plan.md\n- docs/plans/2026-02-06-test-v1-vs-v2-comparison-plan.md\n- docs/plans/2026-02-07-feat-bundle-bird-x-search-plan.md\n- docs/plans/2026-02-07-feat-smart-supplemental-search-plan.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/plans\ndocs/plans/2026-02-03-bird-cli-implementation.md\ndocs/plans/2026-02-03-bird-cli-integration-design.md\ndocs/plans/2026-02-06-feat-last30days-bird-cli-release-plan.md\ndocs/plans/2026-02-06-feat-visible-query-parsing-display-plan.md\ndocs/plans/2026-02-06-fix-last30days-v2-formatting-reddit-citations-plan.md\ndocs/plans/2026-02-06-fix-skill-execution-fork-mode-plan.md\ndocs/plans/2026-02-06-test-v1-vs-v2-comparison-plan.md\ndocs/plans/2026-02-07-feat-bundle-bird-x-search-plan.md\ndocs/plans/2026-02-07-feat-smart-supplemental-search-plan.md\ndocs/plans/2026-02-07-fix-x-search-query-construction-plan.md\ndocs/plans/2026-02-14-feat-codex-skill-compatibility-plan.md\ndocs/plans/2026-02-14-feat-merge-openclaw-variant-plan.md\ndocs/plans/2026-02-14-feat-youtube-transcript-search-plan.md\ndocs/pr-credits.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.882424889781981
+  },
+  {
+    "name": "last30days-skill/fixtures 模块",
+    "description": "[模块级] last30days-skill 项目的 fixtures 模块 (source)。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "module-level",
+      "source",
+      "fixtures"
+    ],
+    "genes": [
+      {
+        "title": "fixtures 模块说明",
+        "content": "模块路径: fixtures/\n类型: source\n文件数: 5\n\n包含文件:\n- fixtures/models_openai_sample.json\n- fixtures/models_xai_sample.json\n- fixtures/openai_sample.json\n- fixtures/reddit_thread_sample.json\n- fixtures/xai_sample.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fixtures 文件结构",
+        "content": "fixtures/models_openai_sample.json\nfixtures/models_xai_sample.json\nfixtures/openai_sample.json\nfixtures/reddit_thread_sample.json\nfixtures/xai_sample.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.882424889781981
+  },
+  {
+    "name": "last30days-skill/plans 模块",
+    "description": "[模块级] last30days-skill 项目的 plans 模块 (source)。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "module-level",
+      "source",
+      "plans"
+    ],
+    "genes": [
+      {
+        "title": "plans 模块说明",
+        "content": "模块路径: plans/\n类型: source\n文件数: 2\n\n包含文件:\n- plans/feat-add-websearch-source.md\n- plans/fix-strict-date-filtering.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plans 文件结构",
+        "content": "plans/feat-add-websearch-source.md\nplans/fix-strict-date-filtering.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.882424889781981
+  },
+  {
+    "name": "last30days-skill/scripts 模块",
+    "description": "[模块级] last30days-skill 项目的 scripts 模块 (script)。来源: https://github.com/mvanhorn/last30days-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-prompts",
+      "claude",
+      "claude-code",
+      "reddit",
+      "twitter",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "**YouTube is now a 4th research source.** When yt-dlp is installed (`brew install yt-dlp`), /last30days automatically searches YouTube for your topic, fetches view counts and engagement data, and extracts auto-generated transcripts from the top videos. Transcripts give the synthesis engine actual content to work with  - not just titles.\n\nYouTube items go through the same scoring pipeline (relevance + recency + engagement) and are deduped, scored, and rendered alongside Reddit and X results. View",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/briefing.py\nscripts/last30days.py\nscripts/lib\nscripts/lib/__init__.py\nscripts/lib/bird_x.py\nscripts/lib/brave_search.py\nscripts/lib/cache.py\nscripts/lib/dates.py\nscripts/lib/dedupe.py\nscripts/lib/entity_extract.py\nscripts/lib/env.py\nscripts/lib/http.py\nscripts/lib/models.py\nscripts/lib/normalize.py\nscripts/lib/openai_reddit.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.882424889781981
+  }
+]

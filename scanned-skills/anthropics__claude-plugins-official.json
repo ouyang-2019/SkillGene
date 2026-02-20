@@ -1,0 +1,96 @@
+[
+  {
+    "name": "claude-plugins-official (anthropics)",
+    "description": "[项目级] Official, Anthropic-managed directory of high quality Claude Code Plugins.。来源: https://github.com/anthropics/claude-plugins-official",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "stars-7741",
+      "github-anthropics",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n来源: https://github.com/anthropics/claude-plugins-official\n语言: Python\nStars: 7741",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Plugins can be installed directly from this marketplace via Claude Code's plugin system.\n\nTo install, run `/plugin install {plugin-name}@claude-plugin-directory`\n\nor browse for the plugin in `/plugin > Discover`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nexternal_plugins\nexternal_plugins/asana\nexternal_plugins/context7\nexternal_plugins/firebase\nexternal_plugins/github\nexternal_plugins/gitlab\nexternal_plugins/greptile\nexternal_plugins/laravel-boost\nexternal_plugins/linear\nexternal_plugins/playwright\nexternal_plugins/serena\nexternal_plugins/slack\nexternal_plugins/stripe\nexternal_plugins/supabase\nplugins\nplugins/agent-sdk-dev\nplugins/clangd-lsp\nplugins/claude-code-setup\nplugins/claude-md-management",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.94439853372834
+  },
+  {
+    "name": "claude-plugins-official/external_plugins 模块",
+    "description": "[模块级] claude-plugins-official 项目的 external_plugins 模块 (source)。来源: https://github.com/anthropics/claude-plugins-official",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "stars-7741",
+      "module-level",
+      "source",
+      "external_plugins"
+    ],
+    "genes": [
+      {
+        "title": "external_plugins 模块说明",
+        "content": "模块路径: external_plugins/\n类型: source\n文件数: 59\n\n包含文件:\n- external_plugins/asana\n- external_plugins/asana/.claude-plugin\n- external_plugins/asana/.claude-plugin/plugin.json\n- external_plugins/asana/.mcp.json\n- external_plugins/context7\n- external_plugins/context7/.claude-plugin\n- external_plugins/context7/.claude-plugin/plugin.json\n- external_plugins/context7/.mcp.json\n- external_plugins/firebase\n- external_plugins/firebase/.claude-plugin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "external_plugins 文件结构",
+        "content": "external_plugins/asana\nexternal_plugins/asana/.claude-plugin\nexternal_plugins/asana/.claude-plugin/plugin.json\nexternal_plugins/asana/.mcp.json\nexternal_plugins/context7\nexternal_plugins/context7/.claude-plugin\nexternal_plugins/context7/.claude-plugin/plugin.json\nexternal_plugins/context7/.mcp.json\nexternal_plugins/firebase\nexternal_plugins/firebase/.claude-plugin\nexternal_plugins/firebase/.claude-plugin/plugin.json\nexternal_plugins/firebase/.mcp.json\nexternal_plugins/github\nexternal_plugins/github/.claude-plugin\nexternal_plugins/github/.claude-plugin/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.055518826982672
+  },
+  {
+    "name": "claude-plugins-official/plugins 模块",
+    "description": "[模块级] claude-plugins-official 项目的 plugins 模块 (source)。来源: https://github.com/anthropics/claude-plugins-official",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "stars-7741",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "A curated directory of high-quality plugins for Claude Code.\n\n> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/agent-sdk-dev\nplugins/agent-sdk-dev/.claude-plugin\nplugins/agent-sdk-dev/.claude-plugin/plugin.json\nplugins/agent-sdk-dev/README.md\nplugins/agent-sdk-dev/agents\nplugins/agent-sdk-dev/agents/agent-sdk-verifier-py.md\nplugins/agent-sdk-dev/agents/agent-sdk-verifier-ts.md\nplugins/agent-sdk-dev/commands\nplugins/agent-sdk-dev/commands/new-sdk-app.md\nplugins/clangd-lsp\nplugins/clangd-lsp/README.md\nplugins/claude-code-setup\nplugins/claude-code-setup/.claude-plugin\nplugins/claude-code-setup/.claude-plugin/plugin.json\nplugins/claude-code-setup/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.055518826982672
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "name": "vscode-agent-skill-ninja (aktsmm)",
+    "description": "[项目级] VS Code Extension for searching, installing and managing Agent Skills (SKILL.md) for GitHub Copilot, Claude Code and AI coding assistants。来源: https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-11",
+      "github-aktsmm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "VS Code Extension for searching, installing and managing Agent Skills (SKILL.md) for GitHub Copilot, Claude Code and AI coding assistants\n\n来源: https://github.com/aktsmm/vscode-agent-skill-ninja\n语言: TypeScript\nStars: 11",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- One-click installation (default: `.github/skills/`, configurable in settings)\n- Auto-update **instruction file** (AGENTS.md / copilot-instructions.md / CLAUDE.md)\n- **Table Format** - Skills displayed in table with \"When to Use\" column\n- **Auto-extract \"When to Use\"** - Extracted from SKILL.md `## When to Use` section\n- **Edit Description** - Right-click to customize skill description\n- Uninstall functionality\n- **Reinstall All** - Batch reinstall from latest source (with auto index update)\n- **Install Feedback** - NEW badge, status bar notification, auto-select in tree view\n- **Open Folder*",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAGENTS.md.backup\nCHANGELOG.md\nLICENSE\nREADME.md\nREADME_ja.md\ndocs\ndocs/screenshots\nesbuild.js\neslint.config.mjs\npackage-lock.json\npackage.json\npackage.nls.ja.json\npackage.nls.json\nresources\nresources/icon.png\nresources/icon.svg\nresources/skill-index.json\nrobots.txt\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```markdown\n<!-- skill-ninja-START -->",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5206963425791127
+  },
+  {
+    "name": "vscode-agent-skill-ninja/docs 模块",
+    "description": "[模块级] vscode-agent-skill-ninja 项目的 docs 模块 (docs)。来源: https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-11",
+      "github-aktsmm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/screenshots\n- docs/screenshots/demo.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/screenshots\ndocs/screenshots/demo.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "vscode-agent-skill-ninja/resources 模块",
+    "description": "[模块级] vscode-agent-skill-ninja 项目的 resources 模块 (source)。来源: https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-11",
+      "github-aktsmm",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 3\n\n包含文件:\n- resources/icon.png\n- resources/icon.svg\n- resources/skill-index.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/icon.png\nresources/icon.svg\nresources/skill-index.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "vscode-agent-skill-ninja/scripts 模块",
+    "description": "[模块级] vscode-agent-skill-ninja 项目的 scripts 模块 (script)。来源: https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-11",
+      "github-aktsmm",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/migrate-index.js\n- scripts/update-preset-index.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/migrate-index.js\nscripts/update-preset-index.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "vscode-agent-skill-ninja/src 模块",
+    "description": "[模块级] vscode-agent-skill-ninja 项目的 src 模块 (source)。来源: https://github.com/aktsmm/vscode-agent-skill-ninja",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-11",
+      "github-aktsmm",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 15\n\n包含文件:\n- src/chatParticipant.ts\n- src/constants.ts\n- src/extension.ts\n- src/githubAuth.ts\n- src/i18n.ts\n- src/indexUpdater.ts\n- src/instructionManager.ts\n- src/localSkillScanner.ts\n- src/mcpTools.ts\n- src/skillIndex.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/chatParticipant.ts\nsrc/constants.ts\nsrc/extension.ts\nsrc/githubAuth.ts\nsrc/i18n.ts\nsrc/indexUpdater.ts\nsrc/instructionManager.ts\nsrc/localSkillScanner.ts\nsrc/mcpTools.ts\nsrc/skillIndex.ts\nsrc/skillInstaller.ts\nsrc/skillPreview.ts\nsrc/skillSearch.ts\nsrc/toolDetector.ts\nsrc/treeProvider.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "name": "claude-workflow-v2 (CloudAI-X)",
+    "description": "[项目级] Universal Claude Code workflow plugin with agents, skills, hooks, and commands。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "python",
+      "stars-1248",
+      "github-cloudai-x",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands\n\n来源: https://github.com/CloudAI-X/claude-workflow-v2\n语言: Python\nStars: 1248",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODEBASE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nPERMISSIONS.md\nREADME.md\nagents\nagents/code-reviewer.md\nagents/debugger.md\nagents/docs-writer.md\nagents/orchestrator.md\nagents/refactorer.md\nagents/security-auditor.md\nagents/test-architect.md\ncommands\ncommands/add-tests.md\ncommands/architect.md\ncommands/bootstrap-repo.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.548107292673203
+  },
+  {
+    "name": "claude-workflow-v2/agents 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 agents 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Agents spawn automatically based on your request:\n\n**You say:** \"The login is broken, users get 401 errors\"\n\n```\n[debugger agent activated]\n→ Checking auth middleware... found issue\n→ Token validation uses wrong secret in production\n→ Fix: Update AUTH_SECRET in .env.production\n```\n\n**You say:** \"Review my changes\"\n\n```\n[code-reviewer agent activated]\n→ Analyzing 3 files changed...\n✓ Logic is correct\n⚠ Missing null check on line 42\n⚠ Consider adding rate limiting to this endpoint\n```\n\n**You say:*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/code-reviewer.md\nagents/debugger.md\nagents/docs-writer.md\nagents/orchestrator.md\nagents/refactorer.md\nagents/security-auditor.md\nagents/test-architect.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "[debugger agent activated]\n→ Checking auth middleware... found issue\n→ Token validation uses wrong secret in production\n→ Fix: Update AUTH_SECRET in .env.production",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/commands 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 commands 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "**Auto-commit your changes:**\n\n```\n> /project-starter:commit\n\nLooking at staged changes...\n✓ Created commit: feat(auth): add JWT refresh token endpoint\n```\n\n**Full git workflow:**\n\n```\n> /project-starter:commit-push-pr\n\n✓ Committed: feat: add user dashboard\n✓ Pushed to origin/feature/dashboard\n✓ Created PR #42: https://github.com/you/repo/pull/42\n```\n\n**Verify before shipping:**\n\n```\n> /project-starter:verify-changes\n\nSpawning verification agents...\n├─ build-validator: ✓ Build passes\n├─ test-run",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/add-tests.md\ncommands/architect.md\ncommands/bootstrap-repo.md\ncommands/code-simplifier.md\ncommands/commit-push-pr.md\ncommands/commit.md\ncommands/dependency-upgrade.md\ncommands/lint-check.md\ncommands/lint-fix.md\ncommands/mentor.md\ncommands/metrics.md\ncommands/parallel-analyze.md\ncommands/parallel-review.md\ncommands/plan.md\ncommands/quick-fix.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "commands 代码示例",
+        "content": "> /project-starter:commit\n\nLooking at staged changes...\n✓ Created commit: feat(auth): add JWT refresh token endpoint",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/examples 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 examples 模块 (example)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 14\n\n包含文件:\n- examples/README.md\n- examples/orchestration\n- examples/orchestration/comprehensive-code-review\n- examples/orchestration/comprehensive-code-review/README.md\n- examples/orchestration/comprehensive-code-review/sample-outputs\n- examples/orchestration/comprehensive-code-review/sample-outputs/01-orchestrator-plan.md\n- examples/orchestration/comprehensive-code-review/sample-outputs/02-code-reviewer-report.md\n- examples/orchestration/comprehensive-code-review/sample-outputs/03-security-auditor-report.md\n- examples/orchestration/comprehensive-code-review/sample-outputs/04-test-architect-report.md\n- examples/orchestration/comprehensive-code-review/sample-outputs/05-final-summary.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/orchestration\nexamples/orchestration/comprehensive-code-review\nexamples/orchestration/comprehensive-code-review/README.md\nexamples/orchestration/comprehensive-code-review/sample-outputs\nexamples/orchestration/comprehensive-code-review/sample-outputs/01-orchestrator-plan.md\nexamples/orchestration/comprehensive-code-review/sample-outputs/02-code-reviewer-report.md\nexamples/orchestration/comprehensive-code-review/sample-outputs/03-security-auditor-report.md\nexamples/orchestration/comprehensive-code-review/sample-outputs/04-test-architect-report.md\nexamples/orchestration/comprehensive-code-review/sample-outputs/05-final-summary.md\nexamples/orchestration/comprehensive-code-review/verification.md\nexamples/orchestration/comprehensive-code-review/workflow.md\nexamples/orchestration/parallel-execution\nexamples/orchestration/parallel-execution/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/hooks 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 hooks 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "Hooks run automatically on events:\n\n**Security block (pre-edit):**\n\n```\n⛔ BLOCKED: Potential secret detected\n   File: src/config.ts, Line 5\n   Pattern: API key (sk-...)\n\n   Remove the secret and use environment variables.\n```\n\n**Auto-format (post-edit):**\n\n```\n✓ Formatted with prettier: src/components/Button.tsx\n✓ Formatted with black: scripts/deploy.py\n```\n\n**Desktop notifications:**\n\n```\n🔔 \"Claude needs input\" - when waiting for your response\n🔔 \"Task complete\" - when finished\n```\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/branch-protection.sh\nhooks/format-on-edit.py\nhooks/hooks.json\nhooks/log-commands.sh\nhooks/notify-complete.sh\nhooks/notify-input.sh\nhooks/pre-commit-check.py\nhooks/protect-files.py\nhooks/security-check.py\nhooks/suggest-doc-updates.py\nhooks/track-metrics.py\nhooks/typescript-check.py\nhooks/validate-environment.py\nhooks/validate-prompt.py\nhooks/verify-on-complete.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "hooks 代码示例",
+        "content": "⛔ BLOCKED: Potential secret detected\n   File: src/config.ts, Line 5\n   Pattern: API key (sk-...)\n\n   Remove the secret and use environment variables.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/packages 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 packages 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 8\n\n包含文件:\n- packages/add-skill\n- packages/add-skill/README.md\n- packages/add-skill/bin\n- packages/add-skill/bin/cli.js\n- packages/add-skill/lib\n- packages/add-skill/lib/installer.js\n- packages/add-skill/package-lock.json\n- packages/add-skill/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/add-skill\npackages/add-skill/README.md\npackages/add-skill/bin\npackages/add-skill/bin/cli.js\npackages/add-skill/lib\npackages/add-skill/lib/installer.js\npackages/add-skill/package-lock.json\npackages/add-skill/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/skills 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 skills 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "```bash\nnpx skills add CloudAI-X/claude-workflow-v2\n```\n\nInstalls skills to Claude Code, Cursor, Codex, Windsurf, Cline, and 35+ other AI agents automatically.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/analyzing-projects\nskills/analyzing-projects/SKILL.md\nskills/convex-backend\nskills/convex-backend/SKILL.md\nskills/database-design\nskills/database-design/SKILL.md\nskills/designing-apis\nskills/designing-apis/OPENAPI-TEMPLATE.md\nskills/designing-apis/SKILL.md\nskills/designing-architecture\nskills/designing-architecture/SKILL.md\nskills/designing-tests\nskills/designing-tests/SKILL.md\nskills/devops-infrastructure\nskills/devops-infrastructure/SKILL.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "skills 代码示例",
+        "content": "npx skills add CloudAI-X/claude-workflow-v2",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  },
+  {
+    "name": "claude-workflow-v2/templates 模块",
+    "description": "[模块级] claude-workflow-v2 项目的 templates 模块 (source)。来源: https://github.com/CloudAI-X/claude-workflow-v2",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 6\n\n包含文件:\n- templates/CLAUDE.md.template\n- templates/README.md\n- templates/mcp-servers-template.md\n- templates/mcp.json.template\n- templates/settings.json.template\n- templates/settings.local.json.template",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/CLAUDE.md.template\ntemplates/README.md\ntemplates/mcp-servers-template.md\ntemplates/mcp.json.template\ntemplates/settings.json.template\ntemplates/settings.local.json.template",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7384858341385625
+  }
+]

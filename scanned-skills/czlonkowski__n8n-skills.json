@@ -1,0 +1,131 @@
+[
+  {
+    "name": "n8n-skills (czlonkowski)",
+    "description": "[项目级] n8n skillset for Claude Code to build flawless n8n workflows。来源: https://github.com/czlonkowski/n8n-skills",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "n8n",
+      "workflow-automation",
+      "shell",
+      "stars-2887",
+      "github-czlonkowski",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[![n8n Skills Introduction](skills.png)](https://youtu.be/e6VvRqmUY2Y?si=6Igply3cadjO6Xx0)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nbuild.sh\ndist\ndist/README.md\ndist/n8n-expression-syntax-v1.1.0.zip\ndist/n8n-mcp-skills-v1.1.0.zip\ndist/n8n-mcp-tools-expert-v1.1.0.zip\ndist/n8n-node-configuration-v1.1.0.zip\ndist/n8n-validation-expert-v1.1.0.zip\ndist/n8n-workflow-patterns-v1.1.0.zip\ndocs\ndocs/CODE_NODE_BEST_PRACTICES.md\ndocs/DEVELOPMENT.md\ndocs/INSTALLATION.md\ndocs/MCP_TESTING_LOG.md\ndocs/USAGE.md\nevaluations\nevaluations/code-javascript",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"How do I write n8n expressions?\"\n→ Activates: n8n Expression Syntax\n\n\"Find me a Slack node\"\n→ Activates: n8n MCP Tools Expert\n\n\"Build a webhook workflow\"\n→ Activates: n8n Workflow Patterns\n\n\"Why is validation failing?\"\n→ Activates: n8n Validation Expert\n\n\"How do I configure the HTTP Request node?\"\n→ Activates: n8n Node Configuration\n\n\"How do I access webhook data in a Code node?\"\n→ Activates: n8n Code JavaScript\n\n\"Can I use pandas in Python Code node?\"\n→ Activates: n8n Code Python",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.73022339194036
+  },
+  {
+    "name": "n8n-skills/docs 模块",
+    "description": "[模块级] n8n-skills 项目的 docs 模块 (docs)。来源: https://github.com/czlonkowski/n8n-skills",
+    "domain": "documentation",
+    "tags": [
+      "ai-agents",
+      "n8n",
+      "workflow-automation",
+      "shell",
+      "stars-2887",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/CODE_NODE_BEST_PRACTICES.md\n- docs/DEVELOPMENT.md\n- docs/INSTALLATION.md\n- docs/MCP_TESTING_LOG.md\n- docs/USAGE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CODE_NODE_BEST_PRACTICES.md\ndocs/DEVELOPMENT.md\ndocs/INSTALLATION.md\ndocs/MCP_TESTING_LOG.md\ndocs/USAGE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8841787135522883
+  },
+  {
+    "name": "n8n-skills/evaluations 模块",
+    "description": "[模块级] n8n-skills 项目的 evaluations 模块 (source)。来源: https://github.com/czlonkowski/n8n-skills",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "n8n",
+      "workflow-automation",
+      "shell",
+      "stars-2887",
+      "module-level",
+      "source",
+      "evaluations"
+    ],
+    "genes": [
+      {
+        "title": "evaluations 模块说明",
+        "content": "npm test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluations 文件结构",
+        "content": "evaluations/code-javascript\nevaluations/code-javascript/eval-001-webhook-body-gotcha.json\nevaluations/code-javascript/eval-002-return-format-error.json\nevaluations/code-javascript/eval-003-http-request.json\nevaluations/code-javascript/eval-004-aggregation-pattern.json\nevaluations/code-javascript/eval-005-expression-syntax-confusion.json\nevaluations/code-python\nevaluations/code-python/eval-001-module-import-error.json\nevaluations/code-python/eval-002-dictionary-keyerror.json\nevaluations/code-python/eval-003-webhook-body-gotcha.json\nevaluations/code-python/eval-004-return-format-error.json\nevaluations/code-python/eval-005-standard-library-usage.json\nevaluations/expression-syntax\nevaluations/expression-syntax/eval-001-missing-braces.json\nevaluations/expression-syntax/eval-002-webhook-body-data.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8841787135522883
+  },
+  {
+    "name": "n8n-skills/skills 模块",
+    "description": "[模块级] n8n-skills 项目的 skills 模块 (source)。来源: https://github.com/czlonkowski/n8n-skills",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "n8n",
+      "workflow-automation",
+      "shell",
+      "stars-2887",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "**Expert Claude Code skills for building flawless n8n workflows using the n8n-mcp MCP server**\n\n[![GitHub stars](https://img.shields.io/github/stars/czlonkowski/n8n-skills?style=social)](https://github.com/czlonkowski/n8n-skills)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![n8n-mcp](https://img.shields.io/badge/n8n--mcp-compatible-green.svg)](https://github.com/czlonkowski/n8n-mcp)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/n8n-code-javascript\nskills/n8n-code-javascript/BUILTIN_FUNCTIONS.md\nskills/n8n-code-javascript/COMMON_PATTERNS.md\nskills/n8n-code-javascript/DATA_ACCESS.md\nskills/n8n-code-javascript/ERROR_PATTERNS.md\nskills/n8n-code-javascript/README.md\nskills/n8n-code-javascript/SKILL.md\nskills/n8n-code-python\nskills/n8n-code-python/COMMON_PATTERNS.md\nskills/n8n-code-python/DATA_ACCESS.md\nskills/n8n-code-python/ERROR_PATTERNS.md\nskills/n8n-code-python/README.md\nskills/n8n-code-python/SKILL.md\nskills/n8n-code-python/STANDARD_LIBRARY.md\nskills/n8n-expression-syntax",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8841787135522883
+  }
+]

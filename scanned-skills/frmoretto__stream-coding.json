@@ -1,0 +1,127 @@
+[
+  {
+    "name": "stream-coding (frmoretto)",
+    "description": "[项目级] Stop \"vibe coding\" and start Stream Coding, the 10-20x velocity methodology for AI-accelerated development. Includes the official SKILL.md for Claude/Cursor/Windsurf and the complete Manifesto.。来源: https://github.com/frmoretto/stream-coding",
+    "domain": "devops",
+    "tags": [
+      "ai-accelerated",
+      "ai-coding",
+      "ai-development",
+      "claude",
+      "claude-code",
+      "stars-48",
+      "github-frmoretto",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Created by [Francesco Marinoni Moretto](https://www.linkedin.com/in/francesco-moretto/) while building [5Levels](https://5levels.io), a LinkedIn relationship intelligence platform.\n\nThe methodology emerged from building 7 production modules in 4.5 hours, and documenting exactly how.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSKILL.md\ndist\ndist/stream-coding.skill\nmanifesto\nmanifesto/Appendix_A_The_Toolkit.md\nmanifesto/Appendix_B_References.md\nmanifesto/Appendix_C_5Levels_Case_Study.md\nmanifesto/Chapter_01_The_10x_Promise.md\nmanifesto/Chapter_02_Why_AI_Cant_Deliver.md\nmanifesto/Chapter_03_The_Methodology_Gap.md\nmanifesto/Chapter_04_What_Is_Stream_Coding.md\nmanifesto/Chapter_05_The_Perpetual_Stream.md\nmanifesto/advanced\nskills\nskills/stream-coding\ntemplates\ntemplates/ADR_TEMPLATE.md\ntemplates/CLARITY_GATE_CHECKLIST.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.840620618687794
+  },
+  {
+    "name": "stream-coding/manifesto 模块",
+    "description": "[模块级] stream-coding 项目的 manifesto 模块 (source)。来源: https://github.com/frmoretto/stream-coding",
+    "domain": "devops",
+    "tags": [
+      "ai-accelerated",
+      "ai-coding",
+      "ai-development",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "manifesto"
+    ],
+    "genes": [
+      {
+        "title": "manifesto 模块说明",
+        "content": "The [`/manifesto`](./manifesto) folder contains the complete methodology:\n\n| Chapter | Topic |\n|---------|-------|\n| [Chapter 1](./manifesto/Chapter_01_The_10x_Promise.md) | The Velocity Mirage |\n| [Chapter 2](./manifesto/Chapter_02_Why_AI_Cant_Deliver.md) | Why AI Tools Alone Fail |\n| [Chapter 3](./manifesto/Chapter_03_The_Methodology_Gap.md) | The Missing Middle |\n| [Chapter 4](./manifesto/Chapter_04_What_Is_Stream_Coding.md) | The 4-Phase Methodology |\n| [Chapter 5](./manifesto/Chapter_05_The",
+        "gene_type": "principle"
+      },
+      {
+        "title": "manifesto 文件结构",
+        "content": "manifesto/Appendix_A_The_Toolkit.md\nmanifesto/Appendix_B_References.md\nmanifesto/Appendix_C_5Levels_Case_Study.md\nmanifesto/Chapter_01_The_10x_Promise.md\nmanifesto/Chapter_02_Why_AI_Cant_Deliver.md\nmanifesto/Chapter_03_The_Methodology_Gap.md\nmanifesto/Chapter_04_What_Is_Stream_Coding.md\nmanifesto/Chapter_05_The_Perpetual_Stream.md\nmanifesto/advanced\nmanifesto/advanced/Advanced_Framework_v3.3.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.172496494950235
+  },
+  {
+    "name": "stream-coding/skills 模块",
+    "description": "[模块级] stream-coding 项目的 skills 模块 (source)。来源: https://github.com/frmoretto/stream-coding",
+    "domain": "devops",
+    "tags": [
+      "ai-accelerated",
+      "ai-coding",
+      "ai-development",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "```\n\nOr copy `.claude/skills/stream-coding/` to your project's `.claude/skills/` directory.\n\nAsk Claude: *\"Build a user authentication system\"*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/stream-coding\nskills/stream-coding/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.172496494950235
+  },
+  {
+    "name": "stream-coding/templates 模块",
+    "description": "[模块级] stream-coding 项目的 templates 模块 (source)。来源: https://github.com/frmoretto/stream-coding",
+    "domain": "devops",
+    "tags": [
+      "ai-accelerated",
+      "ai-coding",
+      "ai-development",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "The [`/templates`](./templates) folder contains ready-to-use frameworks:\n\n| Template | Purpose |\n|----------|--------|\n| [Strategic Blueprint](./templates/STRATEGIC_BLUEPRINT.md) | Answer the 7 Phase 1 Questions |\n| [ADR Template](./templates/ADR_TEMPLATE.md) | Document architecture decisions with rationale |\n| [Clarity Gate Checklist](./templates/CLARITY_GATE_CHECKLIST.md) | The mandatory Phase 2→3 gate |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/ADR_TEMPLATE.md\ntemplates/CLARITY_GATE_CHECKLIST.md\ntemplates/STRATEGIC_BLUEPRINT.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.172496494950235
+  }
+]

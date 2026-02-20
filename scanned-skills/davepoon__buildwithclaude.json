@@ -1,0 +1,78 @@
+[
+  {
+    "name": "buildwithclaude (davepoon)",
+    "description": "[项目级] A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw。来源: https://github.com/davepoon/buildwithclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-commands",
+      "claude-skills",
+      "cli-tool",
+      "typescript",
+      "stars-2453",
+      "github-davepoon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw\n\n来源: https://github.com/davepoon/buildwithclaude\n语言: TypeScript\nStars: 2453",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\nUPDATES.md\nbuildwithclaude-commands.png\nbuildwithclaude-homepage.png\nbuildwithclaude-hooks.png\nbuildwithclaude-mcp.png\nbuildwithclaude-plugin-marketplaces.png\nbuildwithclaude-plugins.png\nbuildwithclaude-skills.png\nbuildwithclaude-subagents.png\nhook-validation-report.json\nmcp-servers.json\npackage-lock.json\npackage.json\nplugins\nplugins/agents-blockchain-web3\nplugins/agents-business-finance",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Browse all plugin types with filtering\n- Search across plugins, agents, commands, hooks, skills\n- Copy install commands with one click\n- View full documentation and usage examples\n- Discover MCP servers and community plugins",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.694848774103193
+  },
+  {
+    "name": "buildwithclaude/plugins 模块",
+    "description": "[模块级] buildwithclaude 项目的 plugins 模块 (source)。来源: https://github.com/davepoon/buildwithclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-commands",
+      "claude-skills",
+      "cli-tool",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)\n[![GitHub stars](https://img.shields.io/github/stars/davepoon/buildwithclaude.svg?style=social&label=Star)](https://github.com/davepoon/buildwithclaude)\n\n\n**A plugin marketplace and discovery platform ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/agents-blockchain-web3\nplugins/agents-blockchain-web3/.claude-plugin\nplugins/agents-blockchain-web3/.claude-plugin/plugin.json\nplugins/agents-blockchain-web3/agents\nplugins/agents-blockchain-web3/agents/blockchain-developer.md\nplugins/agents-blockchain-web3/agents/hyperledger-fabric-developer.md\nplugins/agents-business-finance\nplugins/agents-business-finance/.claude-plugin\nplugins/agents-business-finance/.claude-plugin/plugin.json\nplugins/agents-business-finance/agents\nplugins/agents-business-finance/agents/business-analyst.md\nplugins/agents-business-finance/agents/legal-advisor.md\nplugins/agents-business-finance/agents/payment-integration.md\nplugins/agents-business-finance/agents/quant-analyst.md\nplugins/agents-crypto-trading",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.855879019282554
+  }
+]

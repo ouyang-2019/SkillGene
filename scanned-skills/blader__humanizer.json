@@ -1,0 +1,37 @@
+[
+  {
+    "name": "humanizer (blader)",
+    "description": "[项目级] Claude Code skill that removes signs of AI-generated writing from text。来源: https://github.com/blader/humanizer",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-5232",
+      "github-blader",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Based on [Wikipedia's \"Signs of AI writing\"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide, maintained by WikiProject AI Cleanup. This comprehensive guide comes from observations of thousands of instances of AI-generated text.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nSKILL.md\nWARP.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/humanizer\n\n[paste your text here]",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.859333867658106
+  }
+]

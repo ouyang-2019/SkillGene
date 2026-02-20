@@ -1,0 +1,145 @@
+[
+  {
+    "name": "pi-skills (badlogic)",
+    "description": "[项目级] Skills for pi coding agent (compatible with Claude Code and Codex CLI)。来源: https://github.com/badlogic/pi-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-540",
+      "github-badlogic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Skills for pi coding agent (compatible with Claude Code and Codex CLI)\n\n来源: https://github.com/badlogic/pi-skills\n语言: JavaScript\nStars: 540",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbrave-search\nbrave-search/.gitignore\nbrave-search/SKILL.md\nbrave-search/content.js\nbrave-search/package-lock.json\nbrave-search/package.json\nbrave-search/search.js\nbrowser-tools\nbrowser-tools/.gitignore\nbrowser-tools/SKILL.md\nbrowser-tools/browser-content.js\nbrowser-tools/browser-cookies.js\nbrowser-tools/browser-eval.js\nbrowser-tools/browser-hn-scraper.js\nbrowser-tools/browser-nav.js\nbrowser-tools/browser-pick.js\nbrowser-tools/browser-screenshot.js\nbrowser-tools/browser-start.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3661968799114845
+  },
+  {
+    "name": "pi-skills/brave-search 模块",
+    "description": "[模块级] pi-skills 项目的 brave-search 模块 (source)。来源: https://github.com/badlogic/pi-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-540",
+      "github-badlogic",
+      "module-level",
+      "source",
+      "brave-search"
+    ],
+    "genes": [
+      {
+        "title": "brave-search 模块说明",
+        "content": "模块路径: brave-search/\n类型: source\n文件数: 6\n\n包含文件:\n- brave-search/.gitignore\n- brave-search/SKILL.md\n- brave-search/content.js\n- brave-search/package-lock.json\n- brave-search/package.json\n- brave-search/search.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "brave-search 文件结构",
+        "content": "brave-search/.gitignore\nbrave-search/SKILL.md\nbrave-search/content.js\nbrave-search/package-lock.json\nbrave-search/package.json\nbrave-search/search.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "pi-skills/browser-tools 模块",
+    "description": "[模块级] pi-skills 项目的 browser-tools 模块 (source)。来源: https://github.com/badlogic/pi-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-540",
+      "github-badlogic",
+      "module-level",
+      "source",
+      "browser-tools"
+    ],
+    "genes": [
+      {
+        "title": "browser-tools 模块说明",
+        "content": "模块路径: browser-tools/\n类型: source\n文件数: 12\n\n包含文件:\n- browser-tools/.gitignore\n- browser-tools/SKILL.md\n- browser-tools/browser-content.js\n- browser-tools/browser-cookies.js\n- browser-tools/browser-eval.js\n- browser-tools/browser-hn-scraper.js\n- browser-tools/browser-nav.js\n- browser-tools/browser-pick.js\n- browser-tools/browser-screenshot.js\n- browser-tools/browser-start.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "browser-tools 文件结构",
+        "content": "browser-tools/.gitignore\nbrowser-tools/SKILL.md\nbrowser-tools/browser-content.js\nbrowser-tools/browser-cookies.js\nbrowser-tools/browser-eval.js\nbrowser-tools/browser-hn-scraper.js\nbrowser-tools/browser-nav.js\nbrowser-tools/browser-pick.js\nbrowser-tools/browser-screenshot.js\nbrowser-tools/browser-start.js\nbrowser-tools/package-lock.json\nbrowser-tools/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "pi-skills/transcribe 模块",
+    "description": "[模块级] pi-skills 项目的 transcribe 模块 (source)。来源: https://github.com/badlogic/pi-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-540",
+      "github-badlogic",
+      "module-level",
+      "source",
+      "transcribe"
+    ],
+    "genes": [
+      {
+        "title": "transcribe 模块说明",
+        "content": "模块路径: transcribe/\n类型: source\n文件数: 3\n\n包含文件:\n- transcribe/.gitignore\n- transcribe/SKILL.md\n- transcribe/transcribe.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "transcribe 文件结构",
+        "content": "transcribe/.gitignore\ntranscribe/SKILL.md\ntranscribe/transcribe.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "pi-skills/youtube-transcript 模块",
+    "description": "[模块级] pi-skills 项目的 youtube-transcript 模块 (source)。来源: https://github.com/badlogic/pi-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-540",
+      "github-badlogic",
+      "module-level",
+      "source",
+      "youtube-transcript"
+    ],
+    "genes": [
+      {
+        "title": "youtube-transcript 模块说明",
+        "content": "模块路径: youtube-transcript/\n类型: source\n文件数: 3\n\n包含文件:\n- youtube-transcript/SKILL.md\n- youtube-transcript/package.json\n- youtube-transcript/transcript.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "youtube-transcript 文件结构",
+        "content": "youtube-transcript/SKILL.md\nyoutube-transcript/package.json\nyoutube-transcript/transcript.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  }
+]

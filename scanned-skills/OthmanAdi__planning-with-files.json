@@ -1,0 +1,38 @@
+[
+  {
+    "name": "planning-with-files (OthmanAdi)",
+    "description": "[项目级] Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.。来源: https://github.com/OthmanAdi/planning-with-files",
+    "domain": "ai-llm",
+    "tags": [
+      "adal",
+      "agent",
+      "agent-skills",
+      "agents",
+      "antigravity",
+      "python",
+      "stars-14166",
+      "github-othmanadi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.\n\n来源: https://github.com/OthmanAdi/planning-with-files\n语言: Python\nStars: 14166",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add OthmanAdi/planning-with-files\n/plugin install planning-with-files@planning-with-files",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once installed, the AI agent will:\n\n1. **Ask for your task** if no description is provided\n2. **Create `task_plan.md`, `findings.md`, and `progress.md`** in your project directory\n3. **Re-read plan** before major decisions (via PreToolUse hook)\n4. **Remind you** to update status after file writes (via PostToolUse hook)\n5. **Store findings** in `findings.md` instead of stuffing context\n6. **Log errors** for future reference\n7. **Verify completion** before stopping (via Stop hook)\n\nInvoke with:\n- `/planning-with-files:plan` - Type `/plan` to find in autocomplete (v2.11.0+)\n- `/planning-with-file",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  }
+]

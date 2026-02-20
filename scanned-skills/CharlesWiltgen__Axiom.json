@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Axiom (CharlesWiltgen)",
+    "description": "[项目级] Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development。来源: https://github.com/CharlesWiltgen/Axiom",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-476",
+      "github-charleswiltgen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Battle-tested Claude Code skills for modern xOS (iOS, iPadOS, watchOS, tvOS) development\n\n来源: https://github.com/CharlesWiltgen/Axiom\n语言: TypeScript\nStars: 476",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "- \"I'm getting BUILD FAILED in Xcode\" → activates `axiom-xcode-debugging`\n- \"How do I fix Swift 6 concurrency errors?\" → activates `axiom-swift-concurrency`\n- \"I need to add a database column safely\" → activates `axiom-database-migration`\n- \"My app has memory leaks\" → activates `axiom-memory-debugging`\n- \"My app drains battery quickly\" → activates `axiom-energy`\n- \"Help me migrate from Realm to SwiftData\" → activates `realm-to-swiftdata-migration`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Expert Review Checklist** — 7-section validation checklist for reviewing Liquid Glass implementations (material appropriateness, variant selection, legibility, layering, accessibility, performance)\n- Regular vs Clear variant decision criteria\n- Layered system architecture (highlights, shadows, glow, tinting)\n- Troubleshooting visual artifacts, dark mode issues, performance\n- Migration from UIBlurEffect/NSVisualEffectView\n- Complete API reference with code examples\n\n**When to use** Implementing Liquid Glass effects, reviewing UI for adoption, debugging visual artifacts, requesting expert re",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.338803476360247
+  }
+]

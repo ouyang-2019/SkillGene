@@ -1,0 +1,70 @@
+[
+  {
+    "name": "skill-codex (skills-directory)",
+    "description": "[项目级] A claude code skill to delegate prompts to codex。来源: https://github.com/skills-directory/skill-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "codex",
+      "stars-603",
+      "github-skills-directory",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A claude code skill to delegate prompts to codex\n\n来源: https://github.com/skills-directory/skill-codex\n语言: unknown\nStars: 603",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This repository is structured as a [Claude Code Plugin](https://code.claude.com/docs/en/plugins) with a marketplace. You can install it as a **plugin** (recommended) or extract it as a **standalone skill**.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nplugins\nplugins/skill-codex",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.390158656070076
+  },
+  {
+    "name": "skill-codex/plugins 模块",
+    "description": "[模块级] skill-codex 项目的 plugins 模块 (source)。来源: https://github.com/skills-directory/skill-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "codex",
+      "stars-603",
+      "github-skills-directory",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 6\n\n包含文件:\n- plugins/skill-codex\n- plugins/skill-codex/.claude-plugin\n- plugins/skill-codex/.claude-plugin/plugin.json\n- plugins/skill-codex/skills\n- plugins/skill-codex/skills/codex\n- plugins/skill-codex/skills/codex/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/skill-codex\nplugins/skill-codex/.claude-plugin\nplugins/skill-codex/.claude-plugin/plugin.json\nplugins/skill-codex/skills\nplugins/skill-codex/skills/codex\nplugins/skill-codex/skills/codex/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6121269248560606
+  }
+]

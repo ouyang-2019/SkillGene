@@ -1,0 +1,37 @@
+[
+  {
+    "name": "AI-anything (yfe404)",
+    "description": "[项目级] Transform a youtube video / youtube playlist in a SKILL.md file, allowing Claude Code to learn new skills/workflows from video content。来源: https://github.com/yfe404/AI-anything",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-11",
+      "github-yfe404",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Transform a youtube video / youtube playlist in a SKILL.md file, allowing Claude Code to learn new skills/workflows from video content\n\n来源: https://github.com/yfe404/AI-anything\n语言: unknown\nStars: 11",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Create a skill from this YouTube video: https://youtube.com/watch?v=...",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5206963425791127
+  }
+]

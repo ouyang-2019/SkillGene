@@ -1,0 +1,100 @@
+[
+  {
+    "name": "agent-skills (tech-leads-club)",
+    "description": "[项目级] Extend the capabilities of Antigravity, Claude Code, Cursor, GitHub Copilot, and more with reusable, packaged instructions.。来源: https://github.com/tech-leads-club/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "skills",
+      "typescript",
+      "stars-1414",
+      "github-tech-leads-club",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Extend the capabilities of Antigravity, Claude Code, Cursor, GitHub Copilot, and more with reusable, packaged instructions.\n\n来源: https://github.com/tech-leads-club/agent-skills\n语言: TypeScript\nStars: 1414",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\neslint.config.js\njest.config.ts\njest.preset.js\nlibs\nlibs/core\nnx.json\npackage-lock.json\npackage.json\npackages\npackages/cli\npackages/marketplace",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "A glimpse of what's available in our growing catalog:\n\n| Skill                                                                                              | Category    | Description                                                                                                                                                                        |\n| -------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.575224704730441
+  },
+  {
+    "name": "agent-skills/libs 模块",
+    "description": "[模块级] agent-skills 项目的 libs 模块 (source)。来源: https://github.com/tech-leads-club/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "skills",
+      "typescript",
+      "stars-1414",
+      "github-tech-leads-club",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 16\n\n包含文件:\n- libs/core\n- libs/core/README.md\n- libs/core/eslint.config.mjs\n- libs/core/jest.config.ts\n- libs/core/package.json\n- libs/core/project.json\n- libs/core/src\n- libs/core/src/index.spec.ts\n- libs/core/src/index.ts\n- libs/core/src/lib",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/core\nlibs/core/README.md\nlibs/core/eslint.config.mjs\nlibs/core/jest.config.ts\nlibs/core/package.json\nlibs/core/project.json\nlibs/core/src\nlibs/core/src/index.spec.ts\nlibs/core/src/index.ts\nlibs/core/src/lib\nlibs/core/src/lib/constants.ts\nlibs/core/src/lib/types.ts\nlibs/core/src/lib/utils.ts\nlibs/core/tsconfig.json\nlibs/core/tsconfig.lib.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.760179763784352
+  },
+  {
+    "name": "agent-skills/packages 模块",
+    "description": "[模块级] agent-skills 项目的 packages 模块 (source)。来源: https://github.com/tech-leads-club/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "skills",
+      "typescript",
+      "stars-1414",
+      "github-tech-leads-club",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 144\n\n包含文件:\n- packages/cli\n- packages/cli/CHANGELOG.md\n- packages/cli/jest.config.ts\n- packages/cli/package.json\n- packages/cli/project.json\n- packages/cli/src\n- packages/cli/src/app.tsx\n- packages/cli/src/assets\n- packages/cli/src/assets/chiptune.mp3\n- packages/cli/src/atoms",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/cli\npackages/cli/CHANGELOG.md\npackages/cli/jest.config.ts\npackages/cli/package.json\npackages/cli/project.json\npackages/cli/src\npackages/cli/src/app.tsx\npackages/cli/src/assets\npackages/cli/src/assets/chiptune.mp3\npackages/cli/src/atoms\npackages/cli/src/atoms/environmentCheck.ts\npackages/cli/src/atoms/installedSkills.ts\npackages/cli/src/atoms/wizard.ts\npackages/cli/src/cli\npackages/cli/src/cli/audit.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.760179763784352
+  }
+]
