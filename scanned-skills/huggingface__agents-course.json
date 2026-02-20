@@ -1,0 +1,153 @@
+[
+  {
+    "name": "agents-course (huggingface)",
+    "description": "[项目级] This repository contains the Hugging Face Agents Course. 。来源: https://github.com/huggingface/agents-course",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "mdx",
+      "stars-25448",
+      "github-huggingface",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains the Hugging Face Agents Course. \n\n来源: https://github.com/huggingface/agents-course\n语言: MDX\nStars: 25448",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nquiz\nquiz/.python-version\nquiz/README.md\nquiz/data\nquiz/push_questions.py\nquiz/pyproject.toml\nquiz/uv.lock\nscripts\nscripts/translation.py\nscripts/vi.py\ntranslation_agreements\ntranslation_agreements/ru\nunits\nunits/en\nunits/es",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agents-course/quiz 模块",
+    "description": "[模块级] agents-course 项目的 quiz 模块 (source)。来源: https://github.com/huggingface/agents-course",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "source",
+      "quiz"
+    ],
+    "genes": [
+      {
+        "title": "quiz 模块说明",
+        "content": "模块路径: quiz/\n类型: source\n文件数: 7\n\n包含文件:\n- quiz/.python-version\n- quiz/README.md\n- quiz/data\n- quiz/data/unit_1.json\n- quiz/push_questions.py\n- quiz/pyproject.toml\n- quiz/uv.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "quiz 文件结构",
+        "content": "quiz/.python-version\nquiz/README.md\nquiz/data\nquiz/data/unit_1.json\nquiz/push_questions.py\nquiz/pyproject.toml\nquiz/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262261462439723
+  },
+  {
+    "name": "agents-course/scripts 模块",
+    "description": "[模块级] agents-course 项目的 scripts 模块 (script)。来源: https://github.com/huggingface/agents-course",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/translation.py\n- scripts/vi.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/translation.py\nscripts/vi.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262261462439723
+  },
+  {
+    "name": "agents-course/translation_agreements 模块",
+    "description": "[模块级] agents-course 项目的 translation_agreements 模块 (source)。来源: https://github.com/huggingface/agents-course",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "source",
+      "translation_agreements"
+    ],
+    "genes": [
+      {
+        "title": "translation_agreements 模块说明",
+        "content": "模块路径: translation_agreements/\n类型: source\n文件数: 2\n\n包含文件:\n- translation_agreements/ru\n- translation_agreements/ru/TRANSLATION_AGREEMENTS.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "translation_agreements 文件结构",
+        "content": "translation_agreements/ru\ntranslation_agreements/ru/TRANSLATION_AGREEMENTS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262261462439723
+  },
+  {
+    "name": "agents-course/units 模块",
+    "description": "[模块级] agents-course 项目的 units 模块 (source)。来源: https://github.com/huggingface/agents-course",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "course",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "source",
+      "units"
+    ],
+    "genes": [
+      {
+        "title": "units 模块说明",
+        "content": "模块路径: units/\n类型: source\n文件数: 173\n\n包含文件:\n- units/en\n- units/en/_toctree.yml\n- units/en/bonus-unit1\n- units/en/bonus-unit1/conclusion.mdx\n- units/en/bonus-unit1/fine-tuning.mdx\n- units/en/bonus-unit1/introduction.mdx\n- units/en/bonus-unit1/what-is-function-calling.mdx\n- units/en/bonus-unit2\n- units/en/bonus-unit2/introduction.mdx\n- units/en/bonus-unit2/monitoring-and-evaluating-agents-notebook.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "units 文件结构",
+        "content": "units/en\nunits/en/_toctree.yml\nunits/en/bonus-unit1\nunits/en/bonus-unit1/conclusion.mdx\nunits/en/bonus-unit1/fine-tuning.mdx\nunits/en/bonus-unit1/introduction.mdx\nunits/en/bonus-unit1/what-is-function-calling.mdx\nunits/en/bonus-unit2\nunits/en/bonus-unit2/introduction.mdx\nunits/en/bonus-unit2/monitoring-and-evaluating-agents-notebook.mdx\nunits/en/bonus-unit2/quiz.mdx\nunits/en/bonus-unit2/what-is-agent-observability-and-evaluation.mdx\nunits/en/bonus-unit3\nunits/en/bonus-unit3/building_your_pokemon_agent.mdx\nunits/en/bonus-unit3/conclusion.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262261462439723
+  }
+]

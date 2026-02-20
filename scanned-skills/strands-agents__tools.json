@@ -1,0 +1,168 @@
+[
+  {
+    "name": "tools (strands-agents)",
+    "description": "[项目级] A set of tools that gives agents powerful capabilities.。来源: https://github.com/strands-agents/tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "python",
+      "stars-941",
+      "github-strands-agents",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Below is a comprehensive table of all available tools, how to use them with an agent, and typical use cases:\n\n| Tool | Agent Usage | Use Case |\n|------|-------------|----------|\n| a2a_client | `provider = A2AClientToolProvider(known_agent_urls=[\"http://localhost:9000\"]); agent = Agent(tools=provider.tools)` | Discover and communicate with A2A-compliant agents, send messages between agents |\n| file_read | `agent.tool.file_read(path=\"path/to/file.txt\")` | Reading configuration files, parsing code files, loading datasets |\n| file_write | `agent.tool.file_write(path=\"path/to/file.txt\", content=\"file content\")` | Writing results to files, creating new files, saving output data |\n| editor | `agent.tool.editor(command=\"view\", path=\"path/to/file.py\")` | Advanced file operations like syntax highlig",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\ndocs\ndocs/elasticsearch_memory_tool.md\ndocs/mongodb_memory_tool.md\ndocs/stability_ai_tool.md\npyproject.toml\nsrc\nsrc/strands_tools\ntests\ntests/__init__.py\ntests/browser\ntests/code_interpreter\ntests/conftest.py\ntests/test_a2a_client.py\ntests/test_agent_core_memory.py\ntests/test_agent_graph.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📁 **File Operations** - Read, write, and edit files with syntax highlighting and intelligent modifications\n- 🖥️ **Shell Integration** - Execute and interact with shell commands securely\n- 🧠 **Memory** - Store user and agent memories across agent runs to provide personalized experiences with both Mem0, Amazon Bedrock Knowledge Bases, Elasticsearch, and MongoDB Atlas\n- 🕸️ **Web Infrastructure** - Perform web searches, extract page content, and crawl websites with Tavily and Exa-powered tools\n- 🌐 **HTTP Client** - Make API requests with comprehensive authentication support\n- 💬 **Slack Cli",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4867948117136285
+  },
+  {
+    "name": "tools/docs 模块",
+    "description": "[模块级] tools 项目的 docs 模块 (docs)。来源: https://github.com/strands-agents/tools",
+    "domain": "documentation",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/elasticsearch_memory_tool.md\n- docs/mongodb_memory_tool.md\n- docs/stability_ai_tool.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/elasticsearch_memory_tool.md\ndocs/mongodb_memory_tool.md\ndocs/stability_ai_tool.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "tools/src 模块",
+    "description": "[模块级] tools 项目的 src 模块 (source)。来源: https://github.com/strands-agents/tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 77\n\n包含文件:\n- src/strands_tools\n- src/strands_tools/__init__.py\n- src/strands_tools/a2a_client.py\n- src/strands_tools/agent_core_memory.py\n- src/strands_tools/agent_graph.py\n- src/strands_tools/batch.py\n- src/strands_tools/bright_data.py\n- src/strands_tools/browser\n- src/strands_tools/browser/__init__.py\n- src/strands_tools/browser/agent_core_browser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/strands_tools\nsrc/strands_tools/__init__.py\nsrc/strands_tools/a2a_client.py\nsrc/strands_tools/agent_core_memory.py\nsrc/strands_tools/agent_graph.py\nsrc/strands_tools/batch.py\nsrc/strands_tools/bright_data.py\nsrc/strands_tools/browser\nsrc/strands_tools/browser/__init__.py\nsrc/strands_tools/browser/agent_core_browser.py\nsrc/strands_tools/browser/browser.py\nsrc/strands_tools/browser/local_chromium_browser.py\nsrc/strands_tools/browser/models.py\nsrc/strands_tools/calculator.py\nsrc/strands_tools/chat_video.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "tools/tests 模块",
+    "description": "[模块级] tools 项目的 tests 模块 (test)。来源: https://github.com/strands-agents/tools",
+    "domain": "testing",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 74\n\n包含文件:\n- tests/__init__.py\n- tests/browser\n- tests/browser/test_agent_core_browser.py\n- tests/browser/test_browser.py\n- tests/browser/test_local_chromium_browser.py\n- tests/browser/test_models.py\n- tests/code_interpreter\n- tests/code_interpreter/test_agent_core_code_interpreter.py\n- tests/code_interpreter/test_code_interpreter.py\n- tests/conftest.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/browser\ntests/browser/test_agent_core_browser.py\ntests/browser/test_browser.py\ntests/browser/test_local_chromium_browser.py\ntests/browser/test_models.py\ntests/code_interpreter\ntests/code_interpreter/test_agent_core_code_interpreter.py\ntests/code_interpreter/test_code_interpreter.py\ntests/conftest.py\ntests/test_a2a_client.py\ntests/test_agent_core_memory.py\ntests/test_agent_graph.py\ntests/test_basic.py\ntests/test_batch.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  },
+  {
+    "name": "tools/tests_integ 模块",
+    "description": "[模块级] tools 项目的 tests_integ 模块 (source)。来源: https://github.com/strands-agents/tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "tests_integ"
+    ],
+    "genes": [
+      {
+        "title": "tests_integ 模块说明",
+        "content": "模块路径: tests_integ/\n类型: source\n文件数: 21\n\n包含文件:\n- tests_integ/__init__.py\n- tests_integ/browser\n- tests_integ/browser/__init__.py\n- tests_integ/browser/test_browser.py\n- tests_integ/ci_environments.py\n- tests_integ/code_interpreter\n- tests_integ/code_interpreter/__init__.py\n- tests_integ/code_interpreter/test_agent_core_code_interpreter.py\n- tests_integ/code_interpreter/test_agent_core_code_interpreter_custom_identifier.py\n- tests_integ/conftest.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests_integ 文件结构",
+        "content": "tests_integ/__init__.py\ntests_integ/browser\ntests_integ/browser/__init__.py\ntests_integ/browser/test_browser.py\ntests_integ/ci_environments.py\ntests_integ/code_interpreter\ntests_integ/code_interpreter/__init__.py\ntests_integ/code_interpreter/test_agent_core_code_interpreter.py\ntests_integ/code_interpreter/test_agent_core_code_interpreter_custom_identifier.py\ntests_integ/conftest.py\ntests_integ/mcp_client\ntests_integ/mcp_client/__init__.py\ntests_integ/mcp_client/mock_mcp_server.py\ntests_integ/mcp_client/test_helpers.py\ntests_integ/mcp_client/test_mcp_client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689435849370903
+  }
+]

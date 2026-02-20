@@ -1,0 +1,150 @@
+[
+  {
+    "name": "cognitive-dissonance-dspy (evalops)",
+    "description": "[项目级] A multi-agent LLM system for detecting and resolving cognitive dissonance.。来源: https://github.com/evalops/cognitive-dissonance-dspy",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-275",
+      "github-evalops",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A multi-agent LLM system for detecting and resolving cognitive dissonance.\n\n来源: https://github.com/evalops/cognitive-dissonance-dspy\n语言: Python\nStars: 275",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Makefile\nREADME.md\ncognitive_dissonance\ncognitive_dissonance/__init__.py\ncognitive_dissonance/__main__.py\ncognitive_dissonance/config.py\ncognitive_dissonance/data.py\ncognitive_dissonance/evaluation.py\ncognitive_dissonance/experiment.py\ncognitive_dissonance/main.py\ncognitive_dissonance/mathematical_resolver.py\ncognitive_dissonance/metrics.py\ncognitive_dissonance/optimization.py\ncognitive_dissonance/uncertainty.py\ncognitive_dissonance/verifier.py\nexamples\nexamples/__init__.py\nexamples/adaptive_proof_demo.py\nexamples/advanced_proof_demo.py\nexamples/advanced_theorems.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nfrom formal_verification import FormalVerificationConflictDetector, Claim, PropertyType\n\ndetector = FormalVerificationConflictDetector()\n\nclaims = [\n    Claim(\"alice\", \"2 + 2 = 4\", PropertyType.CORRECTNESS, 0.95, time.time()),\n    Claim(\"bob\", \"2 + 2 = 5\", PropertyType.CORRECTNESS, 0.80, time.time()),\n]\n\nresults = detector.analyze_claims(claims)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.219666346915131
+  },
+  {
+    "name": "cognitive-dissonance-dspy/cognitive_dissonance 模块",
+    "description": "[模块级] cognitive-dissonance-dspy 项目的 cognitive_dissonance 模块 (source)。来源: https://github.com/evalops/cognitive-dissonance-dspy",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-275",
+      "github-evalops",
+      "module-level",
+      "source",
+      "cognitive_dissonance"
+    ],
+    "genes": [
+      {
+        "title": "cognitive_dissonance 模块说明",
+        "content": "模块路径: cognitive_dissonance/\n类型: source\n文件数: 12\n\n包含文件:\n- cognitive_dissonance/__init__.py\n- cognitive_dissonance/__main__.py\n- cognitive_dissonance/config.py\n- cognitive_dissonance/data.py\n- cognitive_dissonance/evaluation.py\n- cognitive_dissonance/experiment.py\n- cognitive_dissonance/main.py\n- cognitive_dissonance/mathematical_resolver.py\n- cognitive_dissonance/metrics.py\n- cognitive_dissonance/optimization.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cognitive_dissonance 文件结构",
+        "content": "cognitive_dissonance/__init__.py\ncognitive_dissonance/__main__.py\ncognitive_dissonance/config.py\ncognitive_dissonance/data.py\ncognitive_dissonance/evaluation.py\ncognitive_dissonance/experiment.py\ncognitive_dissonance/main.py\ncognitive_dissonance/mathematical_resolver.py\ncognitive_dissonance/metrics.py\ncognitive_dissonance/optimization.py\ncognitive_dissonance/uncertainty.py\ncognitive_dissonance/verifier.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "cognitive-dissonance-dspy/examples 模块",
+    "description": "[模块级] cognitive-dissonance-dspy 项目的 examples 模块 (example)。来源: https://github.com/evalops/cognitive-dissonance-dspy",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-275",
+      "github-evalops",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/adaptive_proof_demo.py\nexamples/advanced_proof_demo.py\nexamples/advanced_theorems.py\nexamples/algorithm_correctness.py\nexamples/comprehensive_demo.py\nexamples/concrete_proofs.py\nexamples/mathematical_claims.py\nexamples/openai_agents_demo.py\nexamples/proof_debugging_demo.py\nexamples/software_verification_demo.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "cognitive-dissonance-dspy/formal_verification 模块",
+    "description": "[模块级] cognitive-dissonance-dspy 项目的 formal_verification 模块 (source)。来源: https://github.com/evalops/cognitive-dissonance-dspy",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-275",
+      "github-evalops",
+      "module-level",
+      "source",
+      "formal_verification"
+    ],
+    "genes": [
+      {
+        "title": "formal_verification 模块说明",
+        "content": "模块路径: formal_verification/\n类型: source\n文件数: 17\n\n包含文件:\n- formal_verification/README.md\n- formal_verification/__init__.py\n- formal_verification/deep_analysis.py\n- formal_verification/detector.py\n- formal_verification/guardrails.py\n- formal_verification/hybrid_resolver.py\n- formal_verification/lemma_discovery.py\n- formal_verification/necessity_prover.py\n- formal_verification/openai_agents.py\n- formal_verification/proof_cache.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "formal_verification 文件结构",
+        "content": "formal_verification/README.md\nformal_verification/__init__.py\nformal_verification/deep_analysis.py\nformal_verification/detector.py\nformal_verification/guardrails.py\nformal_verification/hybrid_resolver.py\nformal_verification/lemma_discovery.py\nformal_verification/necessity_prover.py\nformal_verification/openai_agents.py\nformal_verification/proof_cache.py\nformal_verification/proof_learning.py\nformal_verification/prover.py\nformal_verification/semantic_bridge.py\nformal_verification/structured_models.py\nformal_verification/translator.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "cognitive-dissonance-dspy/tests 模块",
+    "description": "[模块级] cognitive-dissonance-dspy 项目的 tests 模块 (test)。来源: https://github.com/evalops/cognitive-dissonance-dspy",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-275",
+      "github-evalops",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 14\n\n包含文件:\n- tests/conftest.py\n- tests/test_config.py\n- tests/test_data.py\n- tests/test_evaluation.py\n- tests/test_experiment.py\n- tests/test_formal_verification.py\n- tests/test_integration.py\n- tests/test_mathematical_resolver.py\n- tests/test_metrics.py\n- tests/test_necessity_prover.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/test_config.py\ntests/test_data.py\ntests/test_evaluation.py\ntests/test_experiment.py\ntests/test_formal_verification.py\ntests/test_integration.py\ntests/test_mathematical_resolver.py\ntests/test_metrics.py\ntests/test_necessity_prover.py\ntests/test_openai_agents.py\ntests/test_optimization.py\ntests/test_uncertainty.py\ntests/test_verifier.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  }
+]

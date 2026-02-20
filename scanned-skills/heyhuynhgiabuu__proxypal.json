@@ -1,0 +1,193 @@
+[
+  {
+    "name": "proxypal (heyhuynhgiabuu)",
+    "description": "[项目级] A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage.。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "typescript",
+      "stars-913",
+      "github-heyhuynhgiabuu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage.\n\n来源: https://github.com/heyhuynhgiabuu/proxypal\n语言: TypeScript\nStars: 913",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Download from [Releases](https://github.com/heyhuynhgiabuu/proxypal/releases)\n2. Launch ProxyPal and start the proxy\n3. Connect your AI accounts (OAuth or auth files)\n4. Point your coding tool to `http://localhost:8317/v1`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nDESIGN_SPLIT_STORAGE.md\nLICENSE\nREADME.md\nTEST_PLAN.md\nWORK_SUMMARY.md\nbun.lock\ncli-proxy-api-management\ncli-proxy-api-management/ai-provider.png\ncli-proxy-api-management/api-keys.png\ncli-proxy-api-management/auth-files.png\ncli-proxy-api-management/basic-settings.png\ncli-proxy-api-management/log-viewer.png\ncli-proxy-api-management/system-info.png\ncli-proxy-api-management/usage-statistics.png\ndocs\ndocs/minimax-integration-research.md\ndocs/plans\nindex.html\npackage.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multiple AI Providers** - Connect Claude, ChatGPT, Gemini, Qwen, iFlow, Vertex AI, and custom OpenAI-compatible endpoints\n- **GitHub Copilot Bridge** - Use Copilot models via OpenAI-compatible API\n- **Antigravity Support** - Access thinking models through Antigravity proxy\n- **Works Everywhere** - Cursor, Cline, Continue, Claude Code, OpenCode, and any OpenAI-compatible client\n- **Usage Analytics** - Track requests, tokens, success rates, and estimated savings\n- **Request Monitoring** - View all API requests with response times and status codes\n- **Auto-Configure** - Detects installed CLI ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4802353887671496
+  },
+  {
+    "name": "proxypal/cli-proxy-api-management 模块",
+    "description": "[模块级] proxypal 项目的 cli-proxy-api-management 模块 (source)。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "module-level",
+      "source",
+      "cli-proxy-api-management"
+    ],
+    "genes": [
+      {
+        "title": "cli-proxy-api-management 模块说明",
+        "content": "模块路径: cli-proxy-api-management/\n类型: source\n文件数: 7\n\n包含文件:\n- cli-proxy-api-management/ai-provider.png\n- cli-proxy-api-management/api-keys.png\n- cli-proxy-api-management/auth-files.png\n- cli-proxy-api-management/basic-settings.png\n- cli-proxy-api-management/log-viewer.png\n- cli-proxy-api-management/system-info.png\n- cli-proxy-api-management/usage-statistics.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli-proxy-api-management 文件结构",
+        "content": "cli-proxy-api-management/ai-provider.png\ncli-proxy-api-management/api-keys.png\ncli-proxy-api-management/auth-files.png\ncli-proxy-api-management/basic-settings.png\ncli-proxy-api-management/log-viewer.png\ncli-proxy-api-management/system-info.png\ncli-proxy-api-management/usage-statistics.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6841883110137195
+  },
+  {
+    "name": "proxypal/docs 模块",
+    "description": "[模块级] proxypal 项目的 docs 模块 (docs)。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "documentation",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/minimax-integration-research.md\n- docs/plans\n- docs/plans/2025-12-22-split-storage.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/minimax-integration-research.md\ndocs/plans\ndocs/plans/2025-12-22-split-storage.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6841883110137195
+  },
+  {
+    "name": "proxypal/public 模块",
+    "description": "[模块级] proxypal 项目的 public 模块 (source)。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 26\n\n包含文件:\n- public/logos\n- public/logos/amp.svg\n- public/logos/antigravity.webp\n- public/logos/claude.svg\n- public/logos/cline.svg\n- public/logos/continue.svg\n- public/logos/copilot.svg\n- public/logos/cursor.svg\n- public/logos/droid.svg\n- public/logos/gemini.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/logos\npublic/logos/amp.svg\npublic/logos/antigravity.webp\npublic/logos/claude.svg\npublic/logos/cline.svg\npublic/logos/continue.svg\npublic/logos/copilot.svg\npublic/logos/cursor.svg\npublic/logos/droid.svg\npublic/logos/gemini.svg\npublic/logos/github.svg\npublic/logos/iflow.svg\npublic/logos/kimi.png\npublic/logos/kiro.svg\npublic/logos/openai.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6841883110137195
+  },
+  {
+    "name": "proxypal/src-tauri 模块",
+    "description": "[模块级] proxypal 项目的 src-tauri 模块 (source)。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 116\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/AGENTS.md\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/binaries\n- src-tauri/binaries/cli-proxy-api-aarch64-apple-darwin\n- src-tauri/binaries/cli-proxy-api-aarch64-pc-windows-msvc.exe\n- src-tauri/binaries/cli-proxy-api-aarch64-unknown-linux-gnu\n- src-tauri/binaries/cli-proxy-api-x86_64-apple-darwin\n- src-tauri/binaries/cli-proxy-api-x86_64-pc-windows-msvc.exe",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/AGENTS.md\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/binaries\nsrc-tauri/binaries/cli-proxy-api-aarch64-apple-darwin\nsrc-tauri/binaries/cli-proxy-api-aarch64-pc-windows-msvc.exe\nsrc-tauri/binaries/cli-proxy-api-aarch64-unknown-linux-gnu\nsrc-tauri/binaries/cli-proxy-api-x86_64-apple-darwin\nsrc-tauri/binaries/cli-proxy-api-x86_64-pc-windows-msvc.exe\nsrc-tauri/binaries/cli-proxy-api-x86_64-unknown-linux-gnu\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/icons",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6841883110137195
+  },
+  {
+    "name": "proxypal/src 模块",
+    "description": "[模块级] proxypal 项目的 src 模块 (source)。来源: https://github.com/heyhuynhgiabuu/proxypal",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "codex",
+      "gemini",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 24\n\n包含文件:\n- src/AGENTS.md\n- src/App.tsx\n- src/components\n- src/components/AgentSetup.tsx\n- src/components/ApiEndpoint.tsx\n- src/components/CommandPalette.tsx\n- src/components/CopilotCard.tsx\n- src/components/EmptyState.tsx\n- src/components/HealthIndicator.tsx\n- src/components/ModelCard.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/AGENTS.md\nsrc/App.tsx\nsrc/components\nsrc/components/AgentSetup.tsx\nsrc/components/ApiEndpoint.tsx\nsrc/components/CommandPalette.tsx\nsrc/components/CopilotCard.tsx\nsrc/components/EmptyState.tsx\nsrc/components/HealthIndicator.tsx\nsrc/components/ModelCard.tsx\nsrc/components/ModelsList.tsx\nsrc/components/ModelsWidget.tsx\nsrc/components/OAuthModal.tsx\nsrc/components/OpenCodeKitBanner.tsx\nsrc/components/ProviderBadge.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6841883110137195
+  }
+]

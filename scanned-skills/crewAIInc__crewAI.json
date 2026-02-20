@@ -1,0 +1,78 @@
+[
+  {
+    "name": "crewAI (crewAIInc)",
+    "description": "[项目级] Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.。来源: https://github.com/crewAIInc/crewAI",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "aiagentframework",
+      "llms",
+      "python",
+      "stars-44338",
+      "github-crewaiinc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.\n\n来源: https://github.com/crewAIInc/crewAI\n语言: Python\nStars: 44338",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Setup and run your first CrewAI agents by following this tutorial.\n\n[![CrewAI Getting Started Tutorial](https://img.youtube.com/vi/-kSOTtYzgEw/hqdefault.jpg)](https://www.youtube.com/watch?v=-kSOTtYzgEw \"CrewAI Getting Started Tutorial\")\n\n###\n\nLearning Resources\n\nLearn CrewAI through our comprehensive courses:\n\n- [Multi AI Agent Systems with CrewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/) - Master the fundamentals of multi-agent systems\n- [Practical Multi AI Agents and Advanced Use Cases](https://www.deeplearning.ai/short-courses/practical-multi-ai-agents",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nconftest.py\ndocs\ndocs/common-room-tracking.js\ndocs/docs.json\ndocs/en",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "crewai create crew latest-ai-development",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Tracing & Observability**: Monitor and track your AI agents and workflows in real-time, including metrics, logs, and traces.\n- **Unified Control Plane**: A centralized platform for managing, monitoring, and scaling your AI agents and workflows.\n- **Seamless Integrations**: Easily connect with existing enterprise systems, data sources, and cloud infrastructure.\n- **Advanced Security**: Built-in robust security and compliance measures ensuring safe deployment and management.\n- **Actionable Insights**: Real-time analytics and reporting to optimize performance and decision-making.\n- **24/7 Sup",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "crewAI/docs 模块",
+    "description": "[模块级] crewAI 项目的 docs 模块 (docs)。来源: https://github.com/crewAIInc/crewAI",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "aiagentframework",
+      "llms",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 170\n\n包含文件:\n- docs/common-room-tracking.js\n- docs/docs.json\n- docs/en\n- docs/en/api-reference\n- docs/en/api-reference/inputs.mdx\n- docs/en/api-reference/introduction.mdx\n- docs/en/api-reference/kickoff.mdx\n- docs/en/api-reference/resume.mdx\n- docs/en/api-reference/status.mdx\n- docs/en/changelog.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/common-room-tracking.js\ndocs/docs.json\ndocs/en\ndocs/en/api-reference\ndocs/en/api-reference/inputs.mdx\ndocs/en/api-reference/introduction.mdx\ndocs/en/api-reference/kickoff.mdx\ndocs/en/api-reference/resume.mdx\ndocs/en/api-reference/status.mdx\ndocs/en/changelog.mdx\ndocs/en/concepts\ndocs/en/concepts/agents.mdx\ndocs/en/concepts/cli.mdx\ndocs/en/concepts/collaboration.mdx\ndocs/en/concepts/crews.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.35871043962006
+  }
+]

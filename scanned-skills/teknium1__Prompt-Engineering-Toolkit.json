@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Prompt-Engineering-Toolkit (teknium1)",
+    "description": "[项目级] Prompt-Engineering-Toolkit。来源: https://github.com/teknium1/Prompt-Engineering-Toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-417",
+      "github-teknium1",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/teknium1/Prompt-Engineering-Toolkit\n语言: JavaScript\nStars: 417",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nREADME.md\npackage-lock.json\npackage.json\npublic\npublic/favicon.ico\npublic/favicon2.ico\npublic/index.html\npublic/logo192.png\npublic/logo512.png\npublic/manifest.json\npublic/robots.txt\nsrc\nsrc/App.js\nsrc/App.test.js\nsrc/index.css\nsrc/index.js\nsrc/logo.svg\nsrc/reportWebVitals.js\nsrc/setupTests.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. Configure your API keys for the LLM providers you want to use (OpenAI, Anthropic, etc.) in the \"Model Configurations\" section.\n\n2. Create variables if needed in the \"Variables\" section.\n\n3. Enter your prompt in the main prompt area or use the global prompt feature.\n\n4. Click \"Run Prompt\" to send the prompt to the configured models.\n\n5. View the outputs in the respective model sections.\n\n6. Save prompts, variables, or model configurations for future use.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Support for multiple LLM providers (currently OpenAI and Anthropic)\n- Global and individual prompt modes\n- Variable management for dynamic prompt generation\n- Save and load functionality for prompts, variables, and model configurations\n- Responsive design with resizable panels\n- Temperature adjustment for each model",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.310068027486879
+  },
+  {
+    "name": "Prompt-Engineering-Toolkit/public 模块",
+    "description": "[模块级] Prompt-Engineering-Toolkit 项目的 public 模块 (source)。来源: https://github.com/teknium1/Prompt-Engineering-Toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-417",
+      "github-teknium1",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 7\n\n包含文件:\n- public/favicon.ico\n- public/favicon2.ico\n- public/index.html\n- public/logo192.png\n- public/logo512.png\n- public/manifest.json\n- public/robots.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/favicon.ico\npublic/favicon2.ico\npublic/index.html\npublic/logo192.png\npublic/logo512.png\npublic/manifest.json\npublic/robots.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5480544219895034
+  },
+  {
+    "name": "Prompt-Engineering-Toolkit/src 模块",
+    "description": "[模块级] Prompt-Engineering-Toolkit 项目的 src 模块 (source)。来源: https://github.com/teknium1/Prompt-Engineering-Toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-417",
+      "github-teknium1",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/App.js\n- src/App.test.js\n- src/index.css\n- src/index.js\n- src/logo.svg\n- src/reportWebVitals.js\n- src/setupTests.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.js\nsrc/App.test.js\nsrc/index.css\nsrc/index.js\nsrc/logo.svg\nsrc/reportWebVitals.js\nsrc/setupTests.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5480544219895034
+  }
+]

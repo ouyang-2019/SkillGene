@@ -1,0 +1,98 @@
+[
+  {
+    "name": "autogen (microsoft)",
+    "description": "[项目级] A programming framework for agentic AI。来源: https://github.com/microsoft/autogen",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-agi",
+      "agents",
+      "ai",
+      "autogen",
+      "python",
+      "stars-54663",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A programming framework for agentic AI\n\n来源: https://github.com/microsoft/autogen\n语言: Python\nStars: 54663",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "AutoGen requires **Python 3.10 or later**.\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nFAQ.md\nLICENSE\nLICENSE-CODE\nREADME.md\nSECURITY.md\nSUPPORT.md\nTRANSPARENCY_FAQS.md\nautogen-landing.jpg\ncodecov.yml\ndocs\ndocs/design\ndocs/dotnet\ndocs/switcher.json\ndotnet\ndotnet/.config\ndotnet/.editorconfig\ndotnet/.gitattributes\ndotnet/.gitignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "autogen/docs 模块",
+    "description": "[模块级] autogen 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/autogen",
+    "domain": "documentation",
+    "tags": [
+      "agentic",
+      "agentic-agi",
+      "agents",
+      "ai",
+      "autogen",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 28\n\n包含文件:\n- docs/design\n- docs/design/01 - Programming Model.md\n- docs/design/02 - Topics.md\n- docs/design/03 - Agent Worker Protocol.md\n- docs/design/04 - Agent and Topic ID Specs.md\n- docs/design/05 - Services.md\n- docs/design/readme.md\n- docs/dotnet\n- docs/dotnet/.gitignore\n- docs/dotnet/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/design\ndocs/design/01 - Programming Model.md\ndocs/design/02 - Topics.md\ndocs/design/03 - Agent Worker Protocol.md\ndocs/design/04 - Agent and Topic ID Specs.md\ndocs/design/05 - Services.md\ndocs/design/readme.md\ndocs/dotnet\ndocs/dotnet/.gitignore\ndocs/dotnet/README.md\ndocs/dotnet/core\ndocs/dotnet/core/differences-from-python.md\ndocs/dotnet/core/index.md\ndocs/dotnet/core/installation.md\ndocs/dotnet/core/protobuf-message-types.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.395077385137262
+  },
+  {
+    "name": "autogen/dotnet 模块",
+    "description": "[模块级] autogen 项目的 dotnet 模块 (source)。来源: https://github.com/microsoft/autogen",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-agi",
+      "agents",
+      "ai",
+      "autogen",
+      "module-level",
+      "source",
+      "dotnet"
+    ],
+    "genes": [
+      {
+        "title": "dotnet 模块说明",
+        "content": "模块路径: dotnet/\n类型: source\n文件数: 125\n\n包含文件:\n- dotnet/.config\n- dotnet/.config/dotnet-tools.json\n- dotnet/.editorconfig\n- dotnet/.gitattributes\n- dotnet/.gitignore\n- dotnet/.tools\n- dotnet/.tools/run_all_notebook.ps1\n- dotnet/.tools/test-aot-compatibility.ps1\n- dotnet/AutoGen.sln\n- dotnet/AutoGen.v3.ncrunchsolution",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dotnet 文件结构",
+        "content": "dotnet/.config\ndotnet/.config/dotnet-tools.json\ndotnet/.editorconfig\ndotnet/.gitattributes\ndotnet/.gitignore\ndotnet/.tools\ndotnet/.tools/run_all_notebook.ps1\ndotnet/.tools/test-aot-compatibility.ps1\ndotnet/AutoGen.sln\ndotnet/AutoGen.v3.ncrunchsolution\ndotnet/Directory.Build.props\ndotnet/Directory.Build.targets\ndotnet/Directory.Packages.props\ndotnet/NuGet.config\ndotnet/PACKAGING.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.395077385137262
+  }
+]

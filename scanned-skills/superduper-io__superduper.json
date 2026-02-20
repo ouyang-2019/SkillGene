@@ -1,0 +1,98 @@
+[
+  {
+    "name": "superduper (superduper-io)",
+    "description": "[项目级] Superduper: End-to-end framework for building custom AI applications and agents.。来源: https://github.com/superduper-io/superduper",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatbot",
+      "data",
+      "database",
+      "distributed-ml",
+      "python",
+      "stars-5252",
+      "github-superduper-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Superduper: End-to-end framework for building custom AI applications and agents.\n\n来源: https://github.com/superduper-io/superduper\n语言: Python\nStars: 5252",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install superduper-framework >= 0.7.0",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\napplications\napplications/simple_rag\nplugins\nplugins/README.md\nplugins/anthropic\nplugins/chromadb\nplugins/cohere\nplugins/generate_readme.py\nplugins/jina\nplugins/lance\nplugins/llamacpp\nplugins/mongodb\nplugins/openai",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.86016235870872
+  },
+  {
+    "name": "superduper/applications 模块",
+    "description": "[模块级] superduper 项目的 applications 模块 (source)。来源: https://github.com/superduper-io/superduper",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatbot",
+      "data",
+      "database",
+      "distributed-ml",
+      "module-level",
+      "source",
+      "applications"
+    ],
+    "genes": [
+      {
+        "title": "applications 模块说明",
+        "content": "模块路径: applications/\n类型: source\n文件数: 5\n\n包含文件:\n- applications/simple_rag\n- applications/simple_rag/.gitignore\n- applications/simple_rag/build.ipynb\n- applications/simple_rag/rag_plugin.py\n- applications/simple_rag/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "applications 文件结构",
+        "content": "applications/simple_rag\napplications/simple_rag/.gitignore\napplications/simple_rag/build.ipynb\napplications/simple_rag/rag_plugin.py\napplications/simple_rag/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.988129886966977
+  },
+  {
+    "name": "superduper/plugins 模块",
+    "description": "[模块级] superduper 项目的 plugins 模块 (source)。来源: https://github.com/superduper-io/superduper",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatbot",
+      "data",
+      "database",
+      "distributed-ml",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 163\n\n包含文件:\n- plugins/README.md\n- plugins/anthropic\n- plugins/anthropic/LICENSE\n- plugins/anthropic/README.md\n- plugins/anthropic/plugin_test\n- plugins/anthropic/plugin_test/test_model_anthropic.py\n- plugins/anthropic/pyproject.toml\n- plugins/anthropic/superduper_anthropic\n- plugins/anthropic/superduper_anthropic/__init__.py\n- plugins/anthropic/superduper_anthropic/model.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/README.md\nplugins/anthropic\nplugins/anthropic/LICENSE\nplugins/anthropic/README.md\nplugins/anthropic/plugin_test\nplugins/anthropic/plugin_test/test_model_anthropic.py\nplugins/anthropic/pyproject.toml\nplugins/anthropic/superduper_anthropic\nplugins/anthropic/superduper_anthropic/__init__.py\nplugins/anthropic/superduper_anthropic/model.py\nplugins/chromadb\nplugins/chromadb/LICENSE\nplugins/chromadb/plugin_test\nplugins/chromadb/plugin_test/test_vector_searcher.py\nplugins/chromadb/pyproject.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.988129886966977
+  }
+]

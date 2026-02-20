@@ -1,0 +1,103 @@
+[
+  {
+    "name": "haystack (deepset-ai)",
+    "description": "[项目级] Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.。来源: https://github.com/deepset-ai/haystack",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "gemini",
+      "generative-ai",
+      "mdx",
+      "stars-24245",
+      "github-deepset-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.\n\n来源: https://github.com/deepset-ai/haystack\n语言: MDX\nStars: 24245",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install haystack-ai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nVERSION.txt\ncode_of_conduct.txt\ndocker\ndocker/Dockerfile.base\ndocker/README.md\ndocker/docker-bake.hcl\ndocs-website\ndocs-website/.gitattributes\ndocs-website/.gitignore\ndocs-website/.vale.ini\ndocs-website/.vale\ndocs-website/CONTRIBUTING.md\ndocs-website/README.md\ndocs-website/api\ndocs-website/docs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Built for context engineering**  \nDesign flexible systems with explicit control over how information is retrieved, ranked, filtered, combined, structured, and routed before it reaches the model. Define pipelines and agent workflows where retrieval, memory, tools, and generation are transparent and traceable.\n\n**Model- and vendor-agnostic**  \nIntegrate with OpenAI, Mistral, Anthropic, Cohere, Hugging Face, Azure OpenAI, AWS Bedrock, local models, and many others. Swap models or infrastructure components without rewriting your system.\n\n**Modular and customizable**  \nUse built-in components for",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "haystack/docker 模块",
+    "description": "[模块级] haystack 项目的 docker 模块 (source)。来源: https://github.com/deepset-ai/haystack",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "gemini",
+      "generative-ai",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 3\n\n包含文件:\n- docker/Dockerfile.base\n- docker/README.md\n- docker/docker-bake.hcl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.base\ndocker/README.md\ndocker/docker-bake.hcl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.253848875380617
+  },
+  {
+    "name": "haystack/docs-website 模块",
+    "description": "[模块级] haystack 项目的 docs-website 模块 (source)。来源: https://github.com/deepset-ai/haystack",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "gemini",
+      "generative-ai",
+      "module-level",
+      "source",
+      "docs-website"
+    ],
+    "genes": [
+      {
+        "title": "docs-website 模块说明",
+        "content": "模块路径: docs-website/\n类型: source\n文件数: 139\n\n包含文件:\n- docs-website/.gitattributes\n- docs-website/.gitignore\n- docs-website/.vale.ini\n- docs-website/.vale\n- docs-website/.vale/styles\n- docs-website/.vale/styles/.vale-config\n- docs-website/.vale/styles/.vale-config/1-MDX.ini\n- docs-website/.vale/styles/Google\n- docs-website/.vale/styles/Google/AMPM.yml\n- docs-website/.vale/styles/Google/Acronyms.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-website 文件结构",
+        "content": "docs-website/.gitattributes\ndocs-website/.gitignore\ndocs-website/.vale.ini\ndocs-website/.vale\ndocs-website/.vale/styles\ndocs-website/.vale/styles/.vale-config\ndocs-website/.vale/styles/.vale-config/1-MDX.ini\ndocs-website/.vale/styles/Google\ndocs-website/.vale/styles/Google/AMPM.yml\ndocs-website/.vale/styles/Google/Acronyms.yml\ndocs-website/.vale/styles/Google/Colons.yml\ndocs-website/.vale/styles/Google/Contractions.yml\ndocs-website/.vale/styles/Google/DateFormat.yml\ndocs-website/.vale/styles/Google/Ellipses.yml\ndocs-website/.vale/styles/Google/EmDash.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.253848875380617
+  }
+]

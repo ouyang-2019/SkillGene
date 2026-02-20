@@ -1,0 +1,173 @@
+[
+  {
+    "name": "vectordb (jina-ai)",
+    "description": "[项目级] A Python vector database you just need - no more, no less.。来源: https://github.com/jina-ai/vectordb",
+    "domain": "general",
+    "tags": [
+      "embedding-similarity",
+      "neural-search",
+      "sentence-embeddings",
+      "vector-database",
+      "vector-database-embedding",
+      "python",
+      "stars-642",
+      "github-jina-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Python vector database you just need - no more, no less.\n\n来源: https://github.com/jina-ai/vectordb\n语言: Python\nStars: 642",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install vectordb",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfiles\nDockerfiles/vectordb.Dockerfile\nLICENSE\nMANIFEST.in\nREADME.md\nexample.py\nrequirements.txt\nresources\nresources/jcloud_exec_template\nscripts\nscripts/black.sh\nscripts/get-all-test-paths.sh\nscripts/get-last-release-note.py\nscripts/release.sh\nsetup.py\ntests\ntests/__init__.py\ntests/conftest.py\ntests/integration",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Next, follow these steps to deploy your instance:\n\n1. If you haven't already, sign up for a [Jina AI Cloud](https://cloud.jina.ai/) account.\n\n2. Use the `jc` command line to login to your Jina AI Cloud account:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **User-friendly Interface:** With `vectordb`, simplicity is key. Its intuitive interface is designed to accommodate users across varying levels of expertise.\n\n- **Minimalistic Design:** `vectordb` packs all the essentials, with no unnecessary complexity. It ensures a seamless transition from local to server and cloud deployment.\n\n- **Full CRUD Support:** From indexing and searching to updating and deleting, `vectordb` covers the entire spectrum of CRUD operations.\n\n- **DB as a Service:** Harness the power of gRPC, HTTP, and Websocket protocols with `vectordb`. It enables you to serve your da",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.403767514034427
+  },
+  {
+    "name": "vectordb/resources 模块",
+    "description": "[模块级] vectordb 项目的 resources 模块 (source)。来源: https://github.com/jina-ai/vectordb",
+    "domain": "general",
+    "tags": [
+      "embedding-similarity",
+      "neural-search",
+      "sentence-embeddings",
+      "vector-database",
+      "vector-database-embedding",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 6\n\n包含文件:\n- resources/jcloud_exec_template\n- resources/jcloud_exec_template/Dockerfile\n- resources/jcloud_exec_template/__init__.py\n- resources/jcloud_exec_template/config.yml\n- resources/jcloud_exec_template/executor.py\n- resources/jcloud_exec_template/vectordb_app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/jcloud_exec_template\nresources/jcloud_exec_template/Dockerfile\nresources/jcloud_exec_template/__init__.py\nresources/jcloud_exec_template/config.yml\nresources/jcloud_exec_template/executor.py\nresources/jcloud_exec_template/vectordb_app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.623014011227541
+  },
+  {
+    "name": "vectordb/scripts 模块",
+    "description": "[模块级] vectordb 项目的 scripts 模块 (script)。来源: https://github.com/jina-ai/vectordb",
+    "domain": "general",
+    "tags": [
+      "embedding-similarity",
+      "neural-search",
+      "sentence-embeddings",
+      "vector-database",
+      "vector-database-embedding",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/black.sh\n- scripts/get-all-test-paths.sh\n- scripts/get-last-release-note.py\n- scripts/release.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/black.sh\nscripts/get-all-test-paths.sh\nscripts/get-last-release-note.py\nscripts/release.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.623014011227541
+  },
+  {
+    "name": "vectordb/tests 模块",
+    "description": "[模块级] vectordb 项目的 tests 模块 (test)。来源: https://github.com/jina-ai/vectordb",
+    "domain": "testing",
+    "tags": [
+      "embedding-similarity",
+      "neural-search",
+      "sentence-embeddings",
+      "vector-database",
+      "vector-database-embedding",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 10\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/integration\n- tests/integration/__init__.py\n- tests/integration/test_hnswlib_vectordb_serve.py\n- tests/integration/test_inmemory_vectordb_serve.py\n- tests/unit\n- tests/unit/__init__.py\n- tests/unit/test_hnswlib_vectordb.py\n- tests/unit/test_inmemory_vectordb.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/integration\ntests/integration/__init__.py\ntests/integration/test_hnswlib_vectordb_serve.py\ntests/integration/test_inmemory_vectordb_serve.py\ntests/unit\ntests/unit/__init__.py\ntests/unit/test_hnswlib_vectordb.py\ntests/unit/test_inmemory_vectordb.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.623014011227541
+  },
+  {
+    "name": "vectordb/vectordb 模块",
+    "description": "[模块级] vectordb 项目的 vectordb 模块 (source)。来源: https://github.com/jina-ai/vectordb",
+    "domain": "general",
+    "tags": [
+      "embedding-similarity",
+      "neural-search",
+      "sentence-embeddings",
+      "vector-database",
+      "vector-database-embedding",
+      "module-level",
+      "source",
+      "vectordb"
+    ],
+    "genes": [
+      {
+        "title": "vectordb 模块说明",
+        "content": "1. Kick things off by defining a Document schema with the [DocArray](https://docs.docarray.org/user_guide/representing/first_step/) dataclass syntax:\n\n```python\nfrom docarray import BaseDoc\nfrom docarray.typing import NdArray\n\nclass ToyDoc(BaseDoc):\n  text: str = ''\n  embedding: NdArray[128]\n```\n\n2. Opt for a pre-built database (like `InMemoryExactNNVectorDB` or `HNSWVectorDB`), and apply the schema:\n\n```python\nfrom docarray import DocList\nimport numpy as np\nfrom vectordb import InMemoryExactNNV",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vectordb 文件结构",
+        "content": "vectordb/__init__.py\nvectordb/__main__.py\nvectordb/client\nvectordb/client/__init__.py\nvectordb/client/client.py\nvectordb/db\nvectordb/db/__init__.py\nvectordb/db/base.py\nvectordb/db/executors\nvectordb/db/executors/__init__.py\nvectordb/db/executors/hnsw_indexer.py\nvectordb/db/executors/inmemory_exact_indexer.py\nvectordb/db/executors/typed_executor.py\nvectordb/db/hnsw_vectordb.py\nvectordb/db/inmemory_exact_vectordb.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "vectordb 代码示例",
+        "content": "from docarray import BaseDoc\nfrom docarray.typing import NdArray\n\nclass ToyDoc(BaseDoc):\n  text: str = ''\n  embedding: NdArray[128]",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.623014011227541
+  }
+]

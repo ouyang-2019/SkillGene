@@ -1,0 +1,133 @@
+[
+  {
+    "name": "awesome-nano-banana-pro-prompts (YouMind-OpenLab)",
+    "description": "[项目级] 🍌 8000+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library。来源: https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "gemini-3-pro-image-preview",
+      "gemini-ai",
+      "nano-banana",
+      "nano-banana-2",
+      "typescript",
+      "stars-7477",
+      "github-youmind-openlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🍌 8000+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library\n\n来源: https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts\n语言: TypeScript\nStars: 7477",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_de-DE.md\nREADME_es-419.md\nREADME_es-ES.md\nREADME_fr-FR.md\nREADME_hi-IN.md\nREADME_it-IT.md\nREADME_ja-JP.md\nREADME_ko-KR.md\nREADME_pt-BR.md\nREADME_pt-PT.md\nREADME_th-TH.md\nREADME_tr-TR.md\nREADME_vi-VN.md\nREADME_zh-TW.md\nREADME_zh.md\ndocs\ndocs/CONTRIBUTING.md\ndocs/FAQ.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "We welcome contributions! You can submit prompts via:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "> ⭐ Hand-picked by our team for exceptional quality and creativity",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.93686369032334
+  },
+  {
+    "name": "awesome-nano-banana-pro-prompts/docs 模块",
+    "description": "[模块级] awesome-nano-banana-pro-prompts 项目的 docs 模块 (docs)。来源: https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "domain": "documentation",
+    "tags": [
+      "awesome",
+      "gemini-3-pro-image-preview",
+      "gemini-ai",
+      "nano-banana",
+      "nano-banana-2",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/CONTRIBUTING.md\n- docs/FAQ.md\n- docs/LOCAL_DEVELOPMENT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CONTRIBUTING.md\ndocs/FAQ.md\ndocs/LOCAL_DEVELOPMENT.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.049490952258672
+  },
+  {
+    "name": "awesome-nano-banana-pro-prompts/public 模块",
+    "description": "[模块级] awesome-nano-banana-pro-prompts 项目的 public 模块 (source)。来源: https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "gemini-3-pro-image-preview",
+      "gemini-ai",
+      "nano-banana",
+      "nano-banana-2",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 3\n\n包含文件:\n- public/images\n- public/images/nano-banana-pro-prompts-cover-en.png\n- public/images/nano-banana-pro-prompts-cover-zh.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/images\npublic/images/nano-banana-pro-prompts-cover-en.png\npublic/images/nano-banana-pro-prompts-cover-zh.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.049490952258672
+  },
+  {
+    "name": "awesome-nano-banana-pro-prompts/scripts 模块",
+    "description": "[模块级] awesome-nano-banana-pro-prompts 项目的 scripts 模块 (script)。来源: https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "gemini-3-pro-image-preview",
+      "gemini-ai",
+      "nano-banana",
+      "nano-banana-2",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 7\n\n包含文件:\n- scripts/generate-readme.ts\n- scripts/sync-approved-to-cms.ts\n- scripts/utils\n- scripts/utils/cms-client.ts\n- scripts/utils/i18n.ts\n- scripts/utils/image-uploader.ts\n- scripts/utils/markdown-generator.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/generate-readme.ts\nscripts/sync-approved-to-cms.ts\nscripts/utils\nscripts/utils/cms-client.ts\nscripts/utils/i18n.ts\nscripts/utils/image-uploader.ts\nscripts/utils/markdown-generator.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.049490952258672
+  }
+]

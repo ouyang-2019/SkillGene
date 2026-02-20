@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Awesome-LLM-Eval (onejune2018)",
+    "description": "[项目级] Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs and models, mainly for Evaluation on LLMs.  一个由工具、基准/数据、演示、排行榜和大模型等组成的精选列表，主要面向基础大模型评测，旨在探求生成式AI的技术边界.。来源: https://github.com/onejune2018/Awesome-LLM-Eval",
+    "domain": "devops",
+    "tags": [
+      "awsome-list",
+      "awsome-lists",
+      "benchmark",
+      "bert",
+      "chatglm",
+      "stars-610",
+      "github-onejune2018",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome-LLM-Eval: a curated list of tools, datasets/benchmark, demos, leaderboard, papers, docs and models, mainly for Evaluation on LLMs.  一个由工具、基准/数据、演示、排行榜和大模型等组成的精选列表，主要面向基础大模型评测，旨在探求生成式AI的技术边界.\n\n来源: https://github.com/onejune2018/Awesome-LLM-Eval\n语言: unknown\nStars: 610",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE-DATA.txt\nLICENSE.txt\nREADME.md\nREADME_CN.md\nREADME_EN.md\ndocs\ndocs/image_llm_palm.gif\ndocs/llm-eval-tree-2025.png\ndocs/readme\ndocs/survey-gif-test.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.392664917505384
+  },
+  {
+    "name": "Awesome-LLM-Eval/docs 模块",
+    "description": "[模块级] Awesome-LLM-Eval 项目的 docs 模块 (docs)。来源: https://github.com/onejune2018/Awesome-LLM-Eval",
+    "domain": "documentation",
+    "tags": [
+      "awsome-list",
+      "awsome-lists",
+      "benchmark",
+      "bert",
+      "chatglm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/image_llm_palm.gif\n- docs/llm-eval-tree-2025.png\n- docs/readme\n- docs/survey-gif-test.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/image_llm_palm.gif\ndocs/llm-eval-tree-2025.png\ndocs/readme\ndocs/survey-gif-test.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.614131934004307
+  }
+]

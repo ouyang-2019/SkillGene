@@ -1,0 +1,206 @@
+[
+  {
+    "name": "awesome-claude-skills (frostant)",
+    "description": "[项目级] Claude Skills 合集 - fork from ComposioHQ with Chinese docs and enhancements。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Skills 合集 - fork from ComposioHQ with Chinese docs and enhancements\n\n来源: https://github.com/frostant/awesome-claude-skills\n语言: Python\nStars: 7",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "claude --plugin-dir ./connect-apps-plugin",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nREADME.md\nSKILLS_目录.md\nai-paper-reader\nai-paper-reader/SKILL.md\nai-paper-reader/logo_paper_reader.png\nartifacts-builder\nartifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nbrand-guidelines\nbrand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md\ncanvas-design\ncanvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\nchangelog-generator\nchangelog-generator/SKILL.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Real-world examples showing the skill in action]\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4225490200071285
+  },
+  {
+    "name": "awesome-claude-skills/ai-paper-reader 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 ai-paper-reader 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "ai-paper-reader"
+    ],
+    "genes": [
+      {
+        "title": "ai-paper-reader 模块说明",
+        "content": "模块路径: ai-paper-reader/\n类型: source\n文件数: 2\n\n包含文件:\n- ai-paper-reader/SKILL.md\n- ai-paper-reader/logo_paper_reader.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-paper-reader 文件结构",
+        "content": "ai-paper-reader/SKILL.md\nai-paper-reader/logo_paper_reader.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "awesome-claude-skills/artifacts-builder 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 artifacts-builder 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "artifacts-builder"
+    ],
+    "genes": [
+      {
+        "title": "artifacts-builder 模块说明",
+        "content": "模块路径: artifacts-builder/\n类型: source\n文件数: 6\n\n包含文件:\n- artifacts-builder/LICENSE.txt\n- artifacts-builder/SKILL.md\n- artifacts-builder/scripts\n- artifacts-builder/scripts/bundle-artifact.sh\n- artifacts-builder/scripts/init-artifact.sh\n- artifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "artifacts-builder 文件结构",
+        "content": "artifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nartifacts-builder/scripts/bundle-artifact.sh\nartifacts-builder/scripts/init-artifact.sh\nartifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "awesome-claude-skills/brand-guidelines 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 brand-guidelines 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "brand-guidelines"
+    ],
+    "genes": [
+      {
+        "title": "brand-guidelines 模块说明",
+        "content": "模块路径: brand-guidelines/\n类型: source\n文件数: 2\n\n包含文件:\n- brand-guidelines/LICENSE.txt\n- brand-guidelines/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "brand-guidelines 文件结构",
+        "content": "brand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "awesome-claude-skills/canvas-design 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 canvas-design 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "canvas-design"
+    ],
+    "genes": [
+      {
+        "title": "canvas-design 模块说明",
+        "content": "模块路径: canvas-design/\n类型: source\n文件数: 84\n\n包含文件:\n- canvas-design/LICENSE.txt\n- canvas-design/SKILL.md\n- canvas-design/canvas-fonts\n- canvas-design/canvas-fonts/ArsenalSC-OFL.txt\n- canvas-design/canvas-fonts/ArsenalSC-Regular.ttf\n- canvas-design/canvas-fonts/BigShoulders-Bold.ttf\n- canvas-design/canvas-fonts/BigShoulders-OFL.txt\n- canvas-design/canvas-fonts/BigShoulders-Regular.ttf\n- canvas-design/canvas-fonts/Boldonse-OFL.txt\n- canvas-design/canvas-fonts/Boldonse-Regular.ttf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "canvas-design 文件结构",
+        "content": "canvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\ncanvas-design/canvas-fonts/ArsenalSC-OFL.txt\ncanvas-design/canvas-fonts/ArsenalSC-Regular.ttf\ncanvas-design/canvas-fonts/BigShoulders-Bold.ttf\ncanvas-design/canvas-fonts/BigShoulders-OFL.txt\ncanvas-design/canvas-fonts/BigShoulders-Regular.ttf\ncanvas-design/canvas-fonts/Boldonse-OFL.txt\ncanvas-design/canvas-fonts/Boldonse-Regular.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-OFL.txt\ncanvas-design/canvas-fonts/BricolageGrotesque-Regular.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Bold.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Italic.ttf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "awesome-claude-skills/connect-apps-plugin 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 connect-apps-plugin 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "connect-apps-plugin"
+    ],
+    "genes": [
+      {
+        "title": "connect-apps-plugin 模块说明",
+        "content": "模块路径: connect-apps-plugin/\n类型: source\n文件数: 5\n\n包含文件:\n- connect-apps-plugin/.claude-plugin\n- connect-apps-plugin/.claude-plugin/plugin.json\n- connect-apps-plugin/README.md\n- connect-apps-plugin/commands\n- connect-apps-plugin/commands/setup.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "connect-apps-plugin 文件结构",
+        "content": "connect-apps-plugin/.claude-plugin\nconnect-apps-plugin/.claude-plugin/plugin.json\nconnect-apps-plugin/README.md\nconnect-apps-plugin/commands\nconnect-apps-plugin/commands/setup.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "awesome-claude-skills/document-skills 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 document-skills 模块 (source)。来源: https://github.com/frostant/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-frostant",
+      "module-level",
+      "source",
+      "document-skills"
+    ],
+    "genes": [
+      {
+        "title": "document-skills 模块说明",
+        "content": "模块路径: document-skills/\n类型: source\n文件数: 77\n\n包含文件:\n- document-skills/docx\n- document-skills/docx/LICENSE.txt\n- document-skills/docx/SKILL.md\n- document-skills/docx/docx-js.md\n- document-skills/docx/ooxml.md\n- document-skills/docx/ooxml\n- document-skills/docx/ooxml/schemas\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+        "gene_type": "principle"
+      },
+      {
+        "title": "document-skills 文件结构",
+        "content": "document-skills/docx\ndocument-skills/docx/LICENSE.txt\ndocument-skills/docx/SKILL.md\ndocument-skills/docx/docx-js.md\ndocument-skills/docx/ooxml.md\ndocument-skills/docx/ooxml\ndocument-skills/docx/ooxml/schemas\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  }
+]

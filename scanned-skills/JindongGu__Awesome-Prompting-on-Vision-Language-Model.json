@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Awesome-Prompting-on-Vision-Language-Model (JindongGu)",
+    "description": "[项目级] This repo lists relevant papers summarized in our survey paper:  A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.。来源: https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model",
+    "domain": "devops",
+    "tags": [
+      "foundation-models",
+      "prompt-engineering",
+      "vision-and-language",
+      "stars-510",
+      "github-jindonggu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repo lists relevant papers summarized in our survey paper:  A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.\n\n来源: https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model\n语言: unknown\nStars: 510",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nassets\nassets/3-models.png\nassets/chapt3_prompting_method.png\nassets/chapt4_prompting_method.png\nassets/pvlm-mindmap.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.353785088048968
+  },
+  {
+    "name": "Awesome-Prompting-on-Vision-Language-Model/assets 模块",
+    "description": "[模块级] Awesome-Prompting-on-Vision-Language-Model 项目的 assets 模块 (source)。来源: https://github.com/JindongGu/Awesome-Prompting-on-Vision-Language-Model",
+    "domain": "devops",
+    "tags": [
+      "foundation-models",
+      "prompt-engineering",
+      "vision-and-language",
+      "stars-510",
+      "github-jindonggu",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 4\n\n包含文件:\n- assets/3-models.png\n- assets/chapt3_prompting_method.png\n- assets/chapt4_prompting_method.png\n- assets/pvlm-mindmap.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/3-models.png\nassets/chapt3_prompting_method.png\nassets/chapt4_prompting_method.png\nassets/pvlm-mindmap.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  }
+]

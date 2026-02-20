@@ -1,0 +1,103 @@
+[
+  {
+    "name": "adk-python (google)",
+    "description": "[项目级] An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.。来源: https://github.com/google/adk-python",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "agents-sdk",
+      "python",
+      "stars-17858",
+      "github-google",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.\n\n来源: https://github.com/google/adk-python\n语言: Python\nStars: 17858",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/adk-web-dev-ui-function-call.png\nassets/agent-development-kit.png\nautoformat.sh\ncontributing\ncontributing/README.md\ncontributing/adk_project_overview_and_architecture.md\ncontributing/dev\ncontributing/samples",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Rich Tool Ecosystem**: Utilize pre-built tools, custom functions,\n  OpenAPI specs, MCP tools or integrate existing tools to give agents diverse\n  capabilities, all for tight integration with the Google ecosystem.\n\n- **Code-First Development**: Define agent logic, tools, and orchestration\n  directly in Python for ultimate flexibility, testability, and versioning.\n\n- **Agent Config**: Build agents without code. Check out the\n  [Agent Config](https://google.github.io/adk-docs/agents/config/) feature.\n\n- **Tool Confirmation**: A [tool confirmation flow(HITL)](https://google.github.io/adk-docs/",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "adk-python/assets 模块",
+    "description": "[模块级] adk-python 项目的 assets 模块 (source)。来源: https://github.com/google/adk-python",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "agents-sdk",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/adk-web-dev-ui-function-call.png\n- assets/agent-development-kit.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/adk-web-dev-ui-function-call.png\nassets/agent-development-kit.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.200733127451456
+  },
+  {
+    "name": "adk-python/contributing 模块",
+    "description": "[模块级] adk-python 项目的 contributing 模块 (source)。来源: https://github.com/google/adk-python",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "agents-sdk",
+      "module-level",
+      "source",
+      "contributing"
+    ],
+    "genes": [
+      {
+        "title": "contributing 模块说明",
+        "content": "We welcome contributions from the community! Whether it's bug reports, feature requests, documentation improvements, or code contributions, please see our\n- [General contribution guideline and flow](https://google.github.io/adk-docs/contributing-guide/).\n- Then if you want to contribute code, please read [Code Contributing Guidelines](./CONTRIBUTING.md) to get started.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "contributing 文件结构",
+        "content": "contributing/README.md\ncontributing/adk_project_overview_and_architecture.md\ncontributing/dev\ncontributing/dev/utils\ncontributing/dev/utils/build_llms_txt.py\ncontributing/samples\ncontributing/samples/a2a_auth\ncontributing/samples/a2a_auth/README.md\ncontributing/samples/a2a_auth/__init__.py\ncontributing/samples/a2a_auth/agent.py\ncontributing/samples/a2a_auth/remote_a2a\ncontributing/samples/a2a_auth/remote_a2a/bigquery_agent\ncontributing/samples/a2a_auth/remote_a2a/bigquery_agent/__init__.py\ncontributing/samples/a2a_auth/remote_a2a/bigquery_agent/agent.json\ncontributing/samples/a2a_auth/remote_a2a/bigquery_agent/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.200733127451456
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "NeumAI (NeumTry)",
+    "description": "[项目级] Neum AI is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale.。来源: https://github.com/NeumTry/NeumAI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-engineering",
+      "database",
+      "python",
+      "stars-866",
+      "github-neumtry",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Neum AI is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale.\n\n来源: https://github.com/NeumTry/NeumAI\n语言: Python\nStars: 866",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/README.md\ndocs/_snippets\ndocs/components\ndocs/favicon.svg\ndocs/get-started\ndocs/images\ndocs/integrations\ndocs/local-development\ndocs/logo\ndocs/managed-platform\ndocs/mint.json\ndocs/platform-apis\nneumai-tools\nneumai-tools/README.md\nneumai-tools/dist\nneumai-tools/neumai_tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🏭 **High throughput distributed architecture** to handle billions of data points. Allows high degrees of parallelization to optimize embedding generation and ingestion.\n- 🧱 **Built-in data connectors** to common data sources, embedding services and vector stores.\n- 🔄 **Real-time synchronization** of data sources to ensure your data is always up-to-date. \n- ♻ **Customizable data pre-processing** in the form of loading, chunking and selecting.\n- 🤝 **Cohesive data management** to support hybrid retrieval with metadata. Neum AI automatically augments and tracks metadata to provide rich retri",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.468758946008673
+  },
+  {
+    "name": "NeumAI/docs 模块",
+    "description": "[模块级] NeumAI 项目的 docs 模块 (docs)。来源: https://github.com/NeumTry/NeumAI",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-engineering",
+      "database",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 114\n\n包含文件:\n- docs/README.md\n- docs/_snippets\n- docs/_snippets/snippet-example.mdx\n- docs/components\n- docs/components/chunkers\n- docs/components/chunkers/CharacterChunker.mdx\n- docs/components/chunkers/CustomChunker.mdx\n- docs/components/chunkers/RecursiveChunker.mdx\n- docs/components/chunkers/sample-chunker.mdx\n- docs/components/data-connectors",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/_snippets\ndocs/_snippets/snippet-example.mdx\ndocs/components\ndocs/components/chunkers\ndocs/components/chunkers/CharacterChunker.mdx\ndocs/components/chunkers/CustomChunker.mdx\ndocs/components/chunkers/RecursiveChunker.mdx\ndocs/components/chunkers/sample-chunker.mdx\ndocs/components/data-connectors\ndocs/components/data-connectors/AzureBlobConnector.mdx\ndocs/components/data-connectors/FileConnector.mdx\ndocs/components/data-connectors/PostgresConnector.mdx\ndocs/components/data-connectors/S3Connector.mdx\ndocs/components/data-connectors/SharepointConnector.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.675007156806939
+  },
+  {
+    "name": "NeumAI/neumai-tools 模块",
+    "description": "[模块级] NeumAI 项目的 neumai-tools 模块 (source)。来源: https://github.com/NeumTry/NeumAI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-engineering",
+      "database",
+      "module-level",
+      "source",
+      "neumai-tools"
+    ],
+    "genes": [
+      {
+        "title": "neumai-tools 模块说明",
+        "content": "模块路径: neumai-tools/\n类型: source\n文件数: 24\n\n包含文件:\n- neumai-tools/README.md\n- neumai-tools/dist\n- neumai-tools/dist/neumai_tools-0.1.0-py3-none-any.whl\n- neumai-tools/dist/neumai_tools-0.1.0.tar.gz\n- neumai-tools/neumai_tools\n- neumai-tools/neumai_tools/DatasetEvaluation\n- neumai-tools/neumai_tools/DatasetEvaluation/Dataset.py\n- neumai-tools/neumai_tools/DatasetEvaluation/DatasetUtils.py\n- neumai-tools/neumai_tools/DatasetEvaluation/Evaluation.py\n- neumai-tools/neumai_tools/DatasetEvaluation/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "neumai-tools 文件结构",
+        "content": "neumai-tools/README.md\nneumai-tools/dist\nneumai-tools/dist/neumai_tools-0.1.0-py3-none-any.whl\nneumai-tools/dist/neumai_tools-0.1.0.tar.gz\nneumai-tools/neumai_tools\nneumai-tools/neumai_tools/DatasetEvaluation\nneumai-tools/neumai_tools/DatasetEvaluation/Dataset.py\nneumai-tools/neumai_tools/DatasetEvaluation/DatasetUtils.py\nneumai-tools/neumai_tools/DatasetEvaluation/Evaluation.py\nneumai-tools/neumai_tools/DatasetEvaluation/__init__.py\nneumai-tools/neumai_tools/InteropHelpers\nneumai-tools/neumai_tools/InteropHelpers/DocumentTransformer.py\nneumai-tools/neumai_tools/InteropHelpers/__init__.py\nneumai-tools/neumai_tools/PipelineCollection\nneumai-tools/neumai_tools/PipelineCollection/PipelineCollection.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.675007156806939
+  },
+  {
+    "name": "NeumAI/neumai 模块",
+    "description": "[模块级] NeumAI 项目的 neumai 模块 (source)。来源: https://github.com/NeumTry/NeumAI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-engineering",
+      "database",
+      "module-level",
+      "source",
+      "neumai"
+    ],
+    "genes": [
+      {
+        "title": "neumai 模块说明",
+        "content": "模块路径: neumai/\n类型: source\n文件数: 55\n\n包含文件:\n- neumai/README.md\n- neumai/neumai\n- neumai/neumai/Chunkers\n- neumai/neumai/Chunkers/CharacterChunker.py\n- neumai/neumai/Chunkers/Chunker.py\n- neumai/neumai/Chunkers/ChunkerEnum.py\n- neumai/neumai/Chunkers/CustomChunker.py\n- neumai/neumai/Chunkers/RecursiveChunker.py\n- neumai/neumai/Chunkers/__init__.py\n- neumai/neumai/Client",
+        "gene_type": "principle"
+      },
+      {
+        "title": "neumai 文件结构",
+        "content": "neumai/README.md\nneumai/neumai\nneumai/neumai/Chunkers\nneumai/neumai/Chunkers/CharacterChunker.py\nneumai/neumai/Chunkers/Chunker.py\nneumai/neumai/Chunkers/ChunkerEnum.py\nneumai/neumai/Chunkers/CustomChunker.py\nneumai/neumai/Chunkers/RecursiveChunker.py\nneumai/neumai/Chunkers/__init__.py\nneumai/neumai/Client\nneumai/neumai/Client/NeumClient.py\nneumai/neumai/Client/__init__.py\nneumai/neumai/DataConnectors\nneumai/neumai/DataConnectors/AzureBlobConnector.py\nneumai/neumai/DataConnectors/DataConnector.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.675007156806939
+  }
+]

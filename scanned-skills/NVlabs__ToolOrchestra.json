@@ -1,0 +1,162 @@
+[
+  {
+    "name": "ToolOrchestra (NVlabs)",
+    "description": "[项目级] ToolOrchestra is an end-to-end RL training framework for orchestrating tools and agentic workflows.。来源: https://github.com/NVlabs/ToolOrchestra",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "deep-learning",
+      "large-language-models",
+      "python",
+      "stars-651",
+      "github-nvlabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ToolOrchestra is an end-to-end RL training framework for orchestrating tools and agentic workflows.\n\n来源: https://github.com/NVlabs/ToolOrchestra\n语言: Python\nStars: 651",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nLLM_CALL.py\nREADME.md\nTHIRD_PARTY_NOTICES.md\nassets\nassets/HLE_benchmark.png\nassets/cost_performance.png\nassets/method.png\nassets/results.png\nassets/results_figure.png\nassets/tool_calling_analysis.png\nassets/toolscale.png\ndata\ndata/data.jsonl\ndata/general_thought_example_urls.json\ndata/tau2\ndata_synthesis\ndata_synthesis/prompts\ndata_synthesis/run.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.406790494284095
+  },
+  {
+    "name": "ToolOrchestra/assets 模块",
+    "description": "[模块级] ToolOrchestra 项目的 assets 模块 (source)。来源: https://github.com/NVlabs/ToolOrchestra",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "deep-learning",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/HLE_benchmark.png\n- assets/cost_performance.png\n- assets/method.png\n- assets/results.png\n- assets/results_figure.png\n- assets/tool_calling_analysis.png\n- assets/toolscale.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/HLE_benchmark.png\nassets/cost_performance.png\nassets/method.png\nassets/results.png\nassets/results_figure.png\nassets/tool_calling_analysis.png\nassets/toolscale.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6254323954272767
+  },
+  {
+    "name": "ToolOrchestra/data 模块",
+    "description": "[模块级] ToolOrchestra 项目的 data 模块 (source)。来源: https://github.com/NVlabs/ToolOrchestra",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "deep-learning",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 73\n\n包含文件:\n- data/data.jsonl\n- data/general_thought_example_urls.json\n- data/tau2\n- data/tau2/domains\n- data/tau2/domains/airline\n- data/tau2/domains/airline/db.json\n- data/tau2/domains/airline/original_tasks.json\n- data/tau2/domains/airline/policy.md\n- data/tau2/domains/airline/tasks.json\n- data/tau2/domains/bank",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/data.jsonl\ndata/general_thought_example_urls.json\ndata/tau2\ndata/tau2/domains\ndata/tau2/domains/airline\ndata/tau2/domains/airline/db.json\ndata/tau2/domains/airline/original_tasks.json\ndata/tau2/domains/airline/policy.md\ndata/tau2/domains/airline/tasks.json\ndata/tau2/domains/bank\ndata/tau2/domains/bank/db.json\ndata/tau2/domains/bank/policy.md\ndata/tau2/domains/basketball\ndata/tau2/domains/basketball/db.json\ndata/tau2/domains/basketball/policy.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6254323954272767
+  },
+  {
+    "name": "ToolOrchestra/data_synthesis 模块",
+    "description": "[模块级] ToolOrchestra 项目的 data_synthesis 模块 (source)。来源: https://github.com/NVlabs/ToolOrchestra",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "deep-learning",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "data_synthesis"
+    ],
+    "genes": [
+      {
+        "title": "data_synthesis 模块说明",
+        "content": "模块路径: data_synthesis/\n类型: source\n文件数: 9\n\n包含文件:\n- data_synthesis/prompts\n- data_synthesis/prompts/data_model_prompt.txt\n- data_synthesis/prompts/db_entry_prompt.txt\n- data_synthesis/prompts/evolve_prompt.txt\n- data_synthesis/prompts/schema_prompt.txt\n- data_synthesis/prompts/table_prompt.txt\n- data_synthesis/prompts/task_prompt.txt\n- data_synthesis/prompts/tool_prompt.txt\n- data_synthesis/run.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data_synthesis 文件结构",
+        "content": "data_synthesis/prompts\ndata_synthesis/prompts/data_model_prompt.txt\ndata_synthesis/prompts/db_entry_prompt.txt\ndata_synthesis/prompts/evolve_prompt.txt\ndata_synthesis/prompts/schema_prompt.txt\ndata_synthesis/prompts/table_prompt.txt\ndata_synthesis/prompts/task_prompt.txt\ndata_synthesis/prompts/tool_prompt.txt\ndata_synthesis/run.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6254323954272767
+  },
+  {
+    "name": "ToolOrchestra/evaluation 模块",
+    "description": "[模块级] ToolOrchestra 项目的 evaluation 模块 (source)。来源: https://github.com/NVlabs/ToolOrchestra",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "deep-learning",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "You need to re-build the image because it requires local installation of tau2:\n\n```bash\nsrun --partition=interactive --time=04:00:00 --nodes=1 --overcommit --ntasks-per-node=1 --cpus-per-task=128 --job-name tau2-bench --account=nvr_lpr_agentic --gres=gpu:8  --container-image /lustre/fsw/portfolios/nvr/users/$USER/docker/s1.sqsh --container-save /lustre/fsw/portfolios/nvr/users/$USER/docker/s1.sqsh --container-mounts=$HOME:/home,/lustre:/lustre --pty /bin/bash\n\npip uninstall -y tau2\ncd toolorches",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/.gitattributes\nevaluation/eval_frames.py\nevaluation/eval_hle.py\nevaluation/eval_hle_basic.py\nevaluation/examples.json\nevaluation/frames.jsonl\nevaluation/hle.jsonl\nevaluation/retrieval_hle.py\nevaluation/retrieval_wiki.py\nevaluation/run_frames.py\nevaluation/run_hle.py\nevaluation/tau2-bench\nevaluation/tau2-bench/.env.example\nevaluation/tau2-bench/.python-version\nevaluation/tau2-bench/.vscode",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "evaluation 代码示例",
+        "content": "srun --partition=interactive --time=04:00:00 --nodes=1 --overcommit --ntasks-per-node=1 --cpus-per-task=128 --job-name tau2-bench --account=nvr_lpr_agentic --gres=gpu:8  --container-image /lustre/fsw/portfolios/nvr/users/$USER/docker/s1.sqsh --container-save /lustre/fsw/portfolios/nvr/users/$USER/docker/s1.sqsh --container-mounts=$HOME:/home,/lustre:/lustre --pty /bin/bash\n\npip uninstall -y tau2\ncd toolorchestra/evaluation/tau2-bench\npip install -e .\nexit",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6254323954272767
+  }
+]

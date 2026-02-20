@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Awesome-AI-Memory (IAAR-Shanghai)",
+    "description": "[项目级] Awesome AI Memory | LLM Memory | A curated knowledge base on AI memory for LLMs and agents, covering long-term memory, reasoning, retrieval, and memory-native system design.  Awesome-AI-Memory 是一个 集中式、持续更新的 AI 记忆知识库，系统性整理了与 大模型记忆（LLM Memory）与智能体记忆（Agent Memory） 相关的前沿研究、工程框架、系统设计、评测基准与真实应用实践。。来源: https://github.com/IAAR-Shanghai/Awesome-AI-Memory",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-memory",
+      "ai-memory",
+      "ai-memory-system",
+      "awesome-ai-memory",
+      "continual-learning",
+      "python",
+      "stars-369",
+      "github-iaar-shanghai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Large Language Models (LLMs) have rapidly evolved into powerful general-purpose reasoning and generation engines. Nevertheless, despite their continuously advancing capabilities, LLMs remain fundamentally constrained by a critical limitation: the finite length of their context window. This constraint defines the scope of information directly accessible during a single inference process, endowing models with only short-term memory capabilities. Consequently, they struggle to support extended conversations, personalized interactions, continuous learning, and complex multi-stage tasks.\n\nTo transcend the inherent limitations of context windows, AI memory and memory systems for LLMs have emerged as a vital and active research and engineering frontier. By introducing external, persistent, and co",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_cn.md\nassets\nassets/Gemini_Generated_Image_hretabhretabhret.png\nassets/wechat-qr-code.png\nscripts\nscripts/update_paper_count.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.28351318307953
+  },
+  {
+    "name": "Awesome-AI-Memory/assets 模块",
+    "description": "[模块级] Awesome-AI-Memory 项目的 assets 模块 (source)。来源: https://github.com/IAAR-Shanghai/Awesome-AI-Memory",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-memory",
+      "ai-memory",
+      "ai-memory-system",
+      "awesome-ai-memory",
+      "continual-learning",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/Gemini_Generated_Image_hretabhretabhret.png\n- assets/wechat-qr-code.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Gemini_Generated_Image_hretabhretabhret.png\nassets/wechat-qr-code.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.526810546463624
+  }
+]

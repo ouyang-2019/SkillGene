@@ -4,7 +4,7 @@
     "description": "[项目级] Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。。来源: https://github.com/op7418/Humanizer-zh",
     "domain": "ai-llm",
     "tags": [
-      "stars-3029",
+      "stars-3030",
       "github-op7418",
       "project-level"
     ],
@@ -32,6 +32,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.7406496366664275
+    "rating": 4.740721314251152
   }
 ]

@@ -1,0 +1,108 @@
+[
+  {
+    "name": "DeepResearch (Alibaba-NLP)",
+    "description": "[项目级] Tongyi Deep Research, the Leading Open-source Deep Research Agent。来源: https://github.com/Alibaba-NLP/DeepResearch",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "alibaba",
+      "artificial-intelligence",
+      "deep-research",
+      "deepresearch",
+      "python",
+      "stars-18247",
+      "github-alibaba-nlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "We present <img src=\"./assets/tongyi.png\" width=\"14px\" style=\"display:inline;\"> **Tongyi DeepResearch**, an agentic large language model featuring 30.5 billion total parameters, with only 3.3 billion activated per token. Developed by Tongyi Lab, the model is specifically designed for **long-horizon, deep information-seeking** tasks. Tongyi DeepResearch demonstrates state-of-the-art performance across a range of agentic search benchmarks, including Humanity's Last Exam, BrowseComp, BrowseComp-ZH, WebWalkerQA,xbench-DeepSearch, FRAMES and SimpleQA.\n\n> Tongyi DeepResearch builds upon our previous work on the <img src=\"./assets/tongyi.png\" width=\"14px\" style=\"display:inline;\"> [WebAgent](./WebAgent/) project.\n\nMore details can be found in our 📰&nbsp;<a href=\"https://tongyi-agent.github.io/blo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This guide provides instructions for setting up the environment and running inference scripts located in the [inference](./inference/) folder.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Agent\nAgent/AgentFounder\nAgent/AgentScaler\nFAQ.md\nLICENSE\nREADME.md\nTech_Report.pdf\nWebAgent\nWebAgent/.gitigore\nWebAgent/AgentFold\nWebAgent/LICENSE\nWebAgent/NestBrowse\nWebAgent/ParallelMuse\nWebAgent/README.md\nWebAgent/WebDancer\nWebAgent/WebLeaper\nWebAgent/WebResearcher\nWebAgent/WebResummer\nWebAgent/WebSailor-V2\nWebAgent/WebSailor",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "conda create -n react_infer_env python=3.10.0\nconda activate react_infer_env\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ⚙️ **Fully automated synthetic data generation pipeline**: We design a highly scalable data synthesis pipeline, which is fully automatic and empowers agentic pre-training, supervised fine-tuning, and reinforcement learning.\n- 🔄 **Large-scale continual pre-training on agentic data**: Leveraging diverse, high-quality agentic interaction data to extend model capabilities, maintain freshness, and strengthen reasoning performance.\n- 🔁 **End-to-end reinforcement learning**: We employ a strictly on-policy RL approach based on a customized Group Relative Policy Optimization framework, with token-l",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "DeepResearch/Agent 模块",
+    "description": "[模块级] DeepResearch 项目的 Agent 模块 (source)。来源: https://github.com/Alibaba-NLP/DeepResearch",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "alibaba",
+      "artificial-intelligence",
+      "deep-research",
+      "deepresearch",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "Agent 模块说明",
+        "content": "<p align=\"center\">\n  <img width=\"100%\" src=\"./assets/family17.png\">\n</p>\n\nTongyi DeepResearch also has an extensive deep research agent family. You can find more information in the following paper:\n\n[1] [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/pdf/2501.07572) (ACL 2025)<br>\n[2] [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/pdf/2505.22648) (NeurIPS 2025)<br>\n[3] [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/pd",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Agent 文件结构",
+        "content": "Agent/AgentFounder\nAgent/AgentFounder/README.md\nAgent/AgentFounder/assets\nAgent/AgentFounder/assets/data_scaling.png\nAgent/AgentFounder/assets/has.jpg\nAgent/AgentFounder/assets/logo.png\nAgent/AgentFounder/assets/main_performance.png\nAgent/AgentFounder/assets/openend_world_memory.jpg\nAgent/AgentFounder/assets/pipeline.jpg\nAgent/AgentFounder/assets/size_scaling.pdf\nAgent/AgentFounder/assets/size_scaling.png\nAgent/AgentFounder/assets/tts.pdf\nAgent/AgentScaler\nAgent/AgentScaler/README.md\nAgent/AgentScaler/assets",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204476588820148
+  },
+  {
+    "name": "DeepResearch/WebAgent 模块",
+    "description": "[模块级] DeepResearch 项目的 WebAgent 模块 (source)。来源: https://github.com/Alibaba-NLP/DeepResearch",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "alibaba",
+      "artificial-intelligence",
+      "deep-research",
+      "deepresearch",
+      "module-level",
+      "source",
+      "webagent"
+    ],
+    "genes": [
+      {
+        "title": "WebAgent 模块说明",
+        "content": "模块路径: WebAgent/\n类型: source\n文件数: 165\n\n包含文件:\n- WebAgent/.gitigore\n- WebAgent/AgentFold\n- WebAgent/AgentFold/infer.py\n- WebAgent/AgentFold/serve.sh\n- WebAgent/LICENSE\n- WebAgent/NestBrowse\n- WebAgent/NestBrowse/data\n- WebAgent/NestBrowse/data/.gitkeep\n- WebAgent/NestBrowse/infer_async_nestbrowse.py\n- WebAgent/NestBrowse/prompts.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "WebAgent 文件结构",
+        "content": "WebAgent/.gitigore\nWebAgent/AgentFold\nWebAgent/AgentFold/infer.py\nWebAgent/AgentFold/serve.sh\nWebAgent/LICENSE\nWebAgent/NestBrowse\nWebAgent/NestBrowse/data\nWebAgent/NestBrowse/data/.gitkeep\nWebAgent/NestBrowse/infer_async_nestbrowse.py\nWebAgent/NestBrowse/prompts.py\nWebAgent/NestBrowse/results\nWebAgent/NestBrowse/results/.gitkeep\nWebAgent/NestBrowse/toolkit\nWebAgent/NestBrowse/toolkit/browser.py\nWebAgent/NestBrowse/toolkit/mcp_client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204476588820148
+  }
+]

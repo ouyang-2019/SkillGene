@@ -1,0 +1,132 @@
+[
+  {
+    "name": "spring-ai-alibaba (alibaba)",
+    "description": "[项目级] Agentic AI Framework for Java Developers。来源: https://github.com/alibaba/spring-ai-alibaba",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic",
+      "artificial-intelligence",
+      "context-engineering",
+      "graph",
+      "java",
+      "stars-8415",
+      "github-alibaba",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agentic AI Framework for Java Developers\n\n来源: https://github.com/alibaba/spring-ai-alibaba\n语言: Java\nStars: 8415",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nCOMMITTERS.md\nCONTRIBUTING-zh.md\nCONTRIBUTING.md\nGOVERNANCE.md\nLICENSE\nMakefile\nPMC_MEMBERS.md\nREADME.md\nSECURITY.md\ndocs\ndocs/imgs\nexamples\nexamples/chatbot\nexamples/deepresearch\nexamples/documentation\nmvnw\nmvnw.cmd\npom.xml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **[Multi-Agent Orchestration](https://java2ai.com/docs/frameworks/agent-framework/advanced/multi-agent)**: Compose multiple agents with built-in patterns including `SequentialAgent`, `ParallelAgent`, `LlmRoutingAgent`, and `LoopAgent` for complex task execution.\n\n* **[Context Engineering](https://java2ai.com/docs/frameworks/agent-framework/tutorials/hooks)**: Built-in best practices for context engineering policies to improve agent reliability and performance, including human-in-the-loop, context compaction, context editing, model & tool call limit, tool retry, planning, dynamic tool selecti",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.962527060155921
+  },
+  {
+    "name": "spring-ai-alibaba/docs 模块",
+    "description": "[模块级] spring-ai-alibaba 项目的 docs 模块 (docs)。来源: https://github.com/alibaba/spring-ai-alibaba",
+    "domain": "documentation",
+    "tags": [
+      "agentic",
+      "artificial-intelligence",
+      "context-engineering",
+      "graph",
+      "java",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 10\n\n包含文件:\n- docs/imgs\n- docs/imgs/agent-chat-ui.jpg\n- docs/imgs/architecture-new.png\n- docs/imgs/chatbot-chat-ui.gif\n- docs/imgs/governance.png\n- docs/imgs/graphworkflow.png\n- docs/imgs/saa-admin.png\n- docs/imgs/saa-architecture.png\n- docs/imgs/spring-ai-alibaba-ecosystem.png\n- docs/imgs/wechat-account.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/imgs\ndocs/imgs/agent-chat-ui.jpg\ndocs/imgs/architecture-new.png\ndocs/imgs/chatbot-chat-ui.gif\ndocs/imgs/governance.png\ndocs/imgs/graphworkflow.png\ndocs/imgs/saa-admin.png\ndocs/imgs/saa-architecture.png\ndocs/imgs/spring-ai-alibaba-ecosystem.png\ndocs/imgs/wechat-account.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070021648124737
+  },
+  {
+    "name": "spring-ai-alibaba/examples 模块",
+    "description": "[模块级] spring-ai-alibaba 项目的 examples 模块 (example)。来源: https://github.com/alibaba/spring-ai-alibaba",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic",
+      "artificial-intelligence",
+      "context-engineering",
+      "graph",
+      "java",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 103\n\n包含文件:\n- examples/chatbot\n- examples/chatbot/README.md\n- examples/chatbot/pom.xml\n- examples/chatbot/src\n- examples/chatbot/src/main\n- examples/chatbot/src/main/java\n- examples/chatbot/src/main/java/com\n- examples/chatbot/src/main/java/com/alibaba\n- examples/chatbot/src/main/java/com/alibaba/cloud\n- examples/chatbot/src/main/java/com/alibaba/cloud/ai",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/chatbot\nexamples/chatbot/README.md\nexamples/chatbot/pom.xml\nexamples/chatbot/src\nexamples/chatbot/src/main\nexamples/chatbot/src/main/java\nexamples/chatbot/src/main/java/com\nexamples/chatbot/src/main/java/com/alibaba\nexamples/chatbot/src/main/java/com/alibaba/cloud\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai/examples\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai/examples/chatbot\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai/examples/chatbot/AgentStaticLoader.java\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai/examples/chatbot/ChatbotAgent.java\nexamples/chatbot/src/main/java/com/alibaba/cloud/ai/examples/chatbot/ChatbotApplication.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070021648124737
+  },
+  {
+    "name": "spring-ai-alibaba/spring-ai-alibaba-admin 模块",
+    "description": "[模块级] spring-ai-alibaba 项目的 spring-ai-alibaba-admin 模块 (source)。来源: https://github.com/alibaba/spring-ai-alibaba",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic",
+      "artificial-intelligence",
+      "context-engineering",
+      "graph",
+      "java",
+      "module-level",
+      "source",
+      "spring-ai-alibaba-admin"
+    ],
+    "genes": [
+      {
+        "title": "spring-ai-alibaba-admin 模块说明",
+        "content": "模块路径: spring-ai-alibaba-admin/\n类型: source\n文件数: 43\n\n包含文件:\n- spring-ai-alibaba-admin/.gitignore\n- spring-ai-alibaba-admin/LICENSE\n- spring-ai-alibaba-admin/Makefile\n- spring-ai-alibaba-admin/README-zh.md\n- spring-ai-alibaba-admin/README.md\n- spring-ai-alibaba-admin/deploy\n- spring-ai-alibaba-admin/deploy/README.md\n- spring-ai-alibaba-admin/deploy/docker-compose\n- spring-ai-alibaba-admin/deploy/docker-compose/.gitignore\n- spring-ai-alibaba-admin/deploy/docker-compose/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "spring-ai-alibaba-admin 文件结构",
+        "content": "spring-ai-alibaba-admin/.gitignore\nspring-ai-alibaba-admin/LICENSE\nspring-ai-alibaba-admin/Makefile\nspring-ai-alibaba-admin/README-zh.md\nspring-ai-alibaba-admin/README.md\nspring-ai-alibaba-admin/deploy\nspring-ai-alibaba-admin/deploy/README.md\nspring-ai-alibaba-admin/deploy/docker-compose\nspring-ai-alibaba-admin/deploy/docker-compose/.gitignore\nspring-ai-alibaba-admin/deploy/docker-compose/README.md\nspring-ai-alibaba-admin/deploy/docker-compose/backend\nspring-ai-alibaba-admin/deploy/docker-compose/backend/application-docker.yml\nspring-ai-alibaba-admin/deploy/docker-compose/docker-compose-service.yaml\nspring-ai-alibaba-admin/deploy/kubernetes\nspring-ai-alibaba-admin/deploy/kubernetes/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070021648124737
+  }
+]

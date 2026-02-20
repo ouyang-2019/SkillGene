@@ -1,0 +1,143 @@
+[
+  {
+    "name": "model.nvim (gsuuon)",
+    "description": "[项目级] Neovim plugin for interacting with LLM's and building editor integrated prompts.。来源: https://github.com/gsuuon/model.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "neovim",
+      "neovim-plugin",
+      "lua",
+      "stars-396",
+      "github-gsuuon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Neovim plugin for interacting with LLM's and building editor integrated prompts.\n\n来源: https://github.com/gsuuon/model.nvim\n语言: Lua\nStars: 396",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nTODO.md\nlua\nlua/model\nlua/telescope\nlua/tests\nplugin\nplugin/init.lua\npython3\npython3/Pipfile\npython3/Pipfile.lock\npython3/store.py\nqueries\nqueries/mchat\nselene.toml\nsyntax\nsyntax/mchat.vim\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "https://github.com/gsuuon/model.nvim/assets/6422188/ae00076d-3327-4d97-9cc1-41acffead327\n\n\n**model.nvim** comes with some [starter prompts](./lua/model/prompts/starters.lua) and makes it easy to build your own prompt library. For an example of a more complex agent-like multi-step prompt where we curl for openapi schema, ask gpt for relevant endpoint, then include that in a final prompt look at the `openapi` starter prompt.\n\nPrompts can have 5 different [modes](#segmentmode) which determine what happens to the response: append, insert, replace, buffer, insert_or_replace. The default is to appen",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎪 Provider agnostic. Comes with:\n  - hosted\n    - OpenAI ChatGPT (and compatible API's)\n    - Google PaLM, together, huggingface\n  - local\n    - llama.cpp\n    - ollama\n  - easy to add your own\n- 🎨 Programmatic prompts in lua\n  - customize everything\n  - async and multistep prompts\n  - starter examples\n- 🌠 Streaming completions\n  - directly in buffer\n  - transform/extract text\n  - append/replace/insert modes\n- 🦜 Chat in `mchat` filetype buffer\n  - edit settings or messages at any point\n  - take conversations to different models\n  - treesitter highlights and folds",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2988475929627565
+  },
+  {
+    "name": "model.nvim/lua 模块",
+    "description": "[模块级] model.nvim 项目的 lua 模块 (source)。来源: https://github.com/gsuuon/model.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "neovim",
+      "neovim-plugin",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "```lua\n--- Looks for `<llm:` at the end and splits into before and after\n--- returns all text if no directive\nlocal function match_llm_directive(text)\n  local before, _, after = text:match(\"(.-)(<llm:)%s?(.*)$\")\n  if not before and not after then\n    before, after = text, \"\"\n  elseif not before then\n    before = \"\"\n  elseif not after then\n    after = \"\"\n  end\n  return before, after\nend\n\nlocal instruct_code = 'You are a highly competent programmer. Include only valid code in your response.'\n\nretu",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/model\nlua/model/core\nlua/model/core/chat.lua\nlua/model/core/input.lua\nlua/model/core/provider.lua\nlua/model/core/scopes.lua\nlua/model/format\nlua/model/format/claude.lua\nlua/model/format/llama2.lua\nlua/model/format/starling.lua\nlua/model/format/zephyr.lua\nlua/model/format/zephyr_tokenizing.lua\nlua/model/init.lua\nlua/model/prompts\nlua/model/prompts/chats.lua",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "lua 代码示例",
+        "content": "--- Looks for `<llm:` at the end and splits into before and after\n--- returns all text if no directive\nlocal function match_llm_directive(text)\n  local before, _, after = text:match(\"(.-)(<llm:)%s?(.*)$\")\n  if not before and not after then\n    before, after = text, \"\"\n  elseif not before then\n    before = \"\"\n  elseif not after then\n    after = \"\"\n  end\n  return before, after\nend\n\nlocal instruct_code = 'You are a highly competent programmer. Include only valid code in your response.'\n\nreturn {\n  ['to code'] = {\n    provider = openai,\n    builder = function(input)\n      local text, directive = m",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.539078074370205
+  },
+  {
+    "name": "model.nvim/python3 模块",
+    "description": "[模块级] model.nvim 项目的 python3 模块 (source)。来源: https://github.com/gsuuon/model.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "neovim",
+      "neovim-plugin",
+      "module-level",
+      "source",
+      "python3"
+    ],
+    "genes": [
+      {
+        "title": "python3 模块说明",
+        "content": "模块路径: python3/\n类型: source\n文件数: 3\n\n包含文件:\n- python3/Pipfile\n- python3/Pipfile.lock\n- python3/store.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python3 文件结构",
+        "content": "python3/Pipfile\npython3/Pipfile.lock\npython3/store.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.539078074370205
+  },
+  {
+    "name": "model.nvim/queries 模块",
+    "description": "[模块级] model.nvim 项目的 queries 模块 (source)。来源: https://github.com/gsuuon/model.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "neovim",
+      "neovim-plugin",
+      "module-level",
+      "source",
+      "queries"
+    ],
+    "genes": [
+      {
+        "title": "queries 模块说明",
+        "content": "模块路径: queries/\n类型: source\n文件数: 4\n\n包含文件:\n- queries/mchat\n- queries/mchat/folds.scm\n- queries/mchat/highlights.scm\n- queries/mchat/injections.scm",
+        "gene_type": "principle"
+      },
+      {
+        "title": "queries 文件结构",
+        "content": "queries/mchat\nqueries/mchat/folds.scm\nqueries/mchat/highlights.scm\nqueries/mchat/injections.scm",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.539078074370205
+  }
+]

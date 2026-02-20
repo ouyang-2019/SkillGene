@@ -1,0 +1,133 @@
+[
+  {
+    "name": "GPTCache (zilliztech)",
+    "description": "[项目级] Semantic cache for LLMs. Fully integrated with LangChain and llama_index. 。来源: https://github.com/zilliztech/GPTCache",
+    "domain": "ai-llm",
+    "tags": [
+      "aigc",
+      "autogpt",
+      "babyagi",
+      "chatbot",
+      "chatgpt",
+      "python",
+      "stars-7940",
+      "github-zilliztech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic cache for LLMs. Fully integrated with LangChain and llama_index. \n\n来源: https://github.com/zilliztech/GPTCache\n语言: Python\nStars: 7940",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "`pip install gptcache`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMANIFEST.in\nMakefile\nOWNERS\nREADME.md\ncache_config_template.yml\ncodecov.yml\ndocs\ndocs/.readthedocs.yaml\ndocs/GPT-Cache-Multinode.png\ndocs/GPTCache-Distributed-Search.png\ndocs/GPTCache-Local-Search.png\ndocs/GPTCache.png\ndocs/GPTCacheStructure.png\ndocs/Makefile\ndocs/_exts\ndocs/_templates\ndocs/bootcamp\ndocs/conf.py\ndocs/configure_it.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "These examples will help you understand how to use exact and similar matching with caching. You can also run the example on [Colab](https://colab.research.google.com/drive/1m1s-iTDfLDk-UwUAQ_L8j1C-gzkcr2Sk?usp=share_link). And more examples you can refer to the [Bootcamp](https://gptcache.readthedocs.io/en/latest/bootcamp/openai/chat.html)\n\nBefore running the example, **make sure** the OPENAI_API_KEY environment variable is set by executing `echo $OPENAI_API_KEY`. \n\nIf it is not already set, it can be set by using `export OPENAI_API_KEY=YOUR_API_KEY` on Unix/Linux/MacOS systems or `set OPENAI_",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.949910251213549
+  },
+  {
+    "name": "GPTCache/docs 模块",
+    "description": "[模块级] GPTCache 项目的 docs 模块 (docs)。来源: https://github.com/zilliztech/GPTCache",
+    "domain": "documentation",
+    "tags": [
+      "aigc",
+      "autogpt",
+      "babyagi",
+      "chatbot",
+      "chatgpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 78\n\n包含文件:\n- docs/.readthedocs.yaml\n- docs/GPT-Cache-Multinode.png\n- docs/GPTCache-Distributed-Search.png\n- docs/GPTCache-Local-Search.png\n- docs/GPTCache.png\n- docs/GPTCacheStructure.png\n- docs/Makefile\n- docs/_exts\n- docs/_exts/docgen2.py\n- docs/_exts/index_con.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.readthedocs.yaml\ndocs/GPT-Cache-Multinode.png\ndocs/GPTCache-Distributed-Search.png\ndocs/GPTCache-Local-Search.png\ndocs/GPTCache.png\ndocs/GPTCacheStructure.png\ndocs/Makefile\ndocs/_exts\ndocs/_exts/docgen2.py\ndocs/_exts/index_con.py\ndocs/_templates\ndocs/_templates/author.html\ndocs/_templates/copyright.html\ndocs/_templates/function.rst\ndocs/_templates/index.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.059928200970838
+  },
+  {
+    "name": "GPTCache/examples 模块",
+    "description": "[模块级] GPTCache 项目的 examples 模块 (example)。来源: https://github.com/zilliztech/GPTCache",
+    "domain": "ai-llm",
+    "tags": [
+      "aigc",
+      "autogpt",
+      "babyagi",
+      "chatbot",
+      "chatgpt",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 57\n\n包含文件:\n- examples/README.md\n- examples/adapter\n- examples/adapter/api.py\n- examples/adapter/langchain_llms.py\n- examples/adapter/openai_chatgpt.py\n- examples/benchmark\n- examples/benchmark/benchmark_sqlite_faiss_onnx.py\n- examples/benchmark/mock_data.json\n- examples/benchmark/similiar_qqp.json.gz\n- examples/benchmark/similiar_qqp_full.json.gz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/adapter\nexamples/adapter/api.py\nexamples/adapter/langchain_llms.py\nexamples/adapter/openai_chatgpt.py\nexamples/benchmark\nexamples/benchmark/benchmark_sqlite_faiss_onnx.py\nexamples/benchmark/mock_data.json\nexamples/benchmark/similiar_qqp.json.gz\nexamples/benchmark/similiar_qqp_full.json.gz\nexamples/context_process\nexamples/context_process/selective_context.py\nexamples/context_process/summarization_context.py\nexamples/data_manager\nexamples/data_manager/map_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.059928200970838
+  },
+  {
+    "name": "GPTCache/gptcache 模块",
+    "description": "[模块级] GPTCache 项目的 gptcache 模块 (source)。来源: https://github.com/zilliztech/GPTCache",
+    "domain": "ai-llm",
+    "tags": [
+      "aigc",
+      "autogpt",
+      "babyagi",
+      "chatbot",
+      "chatgpt",
+      "module-level",
+      "source",
+      "gptcache"
+    ],
+    "genes": [
+      {
+        "title": "gptcache 模块说明",
+        "content": "Slash Your LLM API Costs by 10x 💰, Boost Speed by 100x ⚡ \n\n[![Release](https://img.shields.io/pypi/v/gptcache?label=Release&color&logo=Python)](https://pypi.org/project/gptcache/)\n[![pip download](https://img.shields.io/pypi/dm/gptcache.svg?color=bright-green&logo=Pypi)](https://pypi.org/project/gptcache/)\n[![Codecov](https://img.shields.io/codecov/c/github/zilliztech/GPTCache/dev?label=Codecov&logo=codecov&token=E30WxqBeJJ)](https://codecov.io/gh/zilliztech/GPTCache)\n[![License](https://img.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gptcache 文件结构",
+        "content": "gptcache/__init__.py\ngptcache/adapter\ngptcache/adapter/__init__.py\ngptcache/adapter/adapter.py\ngptcache/adapter/api.py\ngptcache/adapter/base.py\ngptcache/adapter/diffusers.py\ngptcache/adapter/dolly.py\ngptcache/adapter/langchain_models.py\ngptcache/adapter/llama_cpp.py\ngptcache/adapter/minigpt4.py\ngptcache/adapter/openai.py\ngptcache/adapter/replicate.py\ngptcache/adapter/stability_sdk.py\ngptcache/client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.059928200970838
+  }
+]

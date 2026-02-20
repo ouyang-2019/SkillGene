@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Awesome_GPT_Super_Prompting (CyberAlbSecOP)",
+    "description": "[项目级] ChatGPT Jailbreaks, GPT Assistants Prompt Leaks, GPTs Prompt Injection, LLM Prompt Security, Super Prompts, Prompt Hack, Prompt Security, Ai Prompt Engineering, Adversarial Machine Learning.。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "html",
+      "stars-3656",
+      "github-cyberalbsecop",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT Jailbreaks, GPT Assistants Prompt Leaks, GPTs Prompt Injection, LLM Prompt Security, Super Prompts, Prompt Hack, Prompt Security, Ai Prompt Engineering, Adversarial Machine Learning.\n\n来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting\n语言: HTML\nStars: 3656",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nLatest Jailbreaks\nLatest Jailbreaks/AGI.md\nLatest Jailbreaks/Apex.md\nLatest Jailbreaks/BOB.md\nLatest Jailbreaks/Born Survivalist (yell0wfever92).md\nLatest Jailbreaks/Chat GPT5 (elder-plinus).md\nLatest Jailbreaks/CodeGPT6.md\nLatest Jailbreaks/Complex.md\nLatest Jailbreaks/DANDoc_v2.2 (DaVoidCaller).md\nLatest Jailbreaks/DarkGPT.md\nLatest Jailbreaks/Datasets\nLatest Jailbreaks/Decodes Anything Now.md\nLatest Jailbreaks/Demonic Chloe (pleasing-punisher).md\nLatest Jailbreaks/EarthSaver.md\nLatest Jailbreaks/Forest (pink_panther--).md\nLatest Jailbreaks/GBTHEN.md\nLatest Jailbreaks/GPT 3.5 Web Search.md\nLatest Jailbreaks/GPT 4.5 Fusion.md\nLatest Jailbreaks/GPT-5_Jailbreak_PROMISQROUTE-Method.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.781503093530897
+  },
+  {
+    "name": "Awesome_GPT_Super_Prompting/Latest Jailbreaks 模块",
+    "description": "[模块级] Awesome_GPT_Super_Prompting 项目的 Latest Jailbreaks 模块 (source)。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "module-level",
+      "source",
+      "latest jailbreaks"
+    ],
+    "genes": [
+      {
+        "title": "Latest Jailbreaks 模块说明",
+        "content": "模块路径: Latest Jailbreaks/\n类型: source\n文件数: 50\n\n包含文件:\n- Latest Jailbreaks/AGI.md\n- Latest Jailbreaks/Apex.md\n- Latest Jailbreaks/BOB.md\n- Latest Jailbreaks/Born Survivalist (yell0wfever92).md\n- Latest Jailbreaks/Chat GPT5 (elder-plinus).md\n- Latest Jailbreaks/CodeGPT6.md\n- Latest Jailbreaks/Complex.md\n- Latest Jailbreaks/DANDoc_v2.2 (DaVoidCaller).md\n- Latest Jailbreaks/DarkGPT.md\n- Latest Jailbreaks/Datasets",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Latest Jailbreaks 文件结构",
+        "content": "Latest Jailbreaks/AGI.md\nLatest Jailbreaks/Apex.md\nLatest Jailbreaks/BOB.md\nLatest Jailbreaks/Born Survivalist (yell0wfever92).md\nLatest Jailbreaks/Chat GPT5 (elder-plinus).md\nLatest Jailbreaks/CodeGPT6.md\nLatest Jailbreaks/Complex.md\nLatest Jailbreaks/DANDoc_v2.2 (DaVoidCaller).md\nLatest Jailbreaks/DarkGPT.md\nLatest Jailbreaks/Datasets\nLatest Jailbreaks/Datasets/efgmarquez - Jailbreak Database.md\nLatest Jailbreaks/Datasets/empty.md\nLatest Jailbreaks/Decodes Anything Now.md\nLatest Jailbreaks/Demonic Chloe (pleasing-punisher).md\nLatest Jailbreaks/EarthSaver.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.925202474824718
+  },
+  {
+    "name": "Awesome_GPT_Super_Prompting/Legendary Leaks 模块",
+    "description": "[模块级] Awesome_GPT_Super_Prompting 项目的 Legendary Leaks 模块 (source)。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "module-level",
+      "source",
+      "legendary leaks"
+    ],
+    "genes": [
+      {
+        "title": "Legendary Leaks 模块说明",
+        "content": "模块路径: Legendary Leaks/\n类型: source\n文件数: 70\n\n包含文件:\n- Legendary Leaks/AI Book Writer Assistant.md\n- Legendary Leaks/Book Creator Guide.md\n- Legendary Leaks/Book Writer GPT.md\n- Legendary Leaks/CODEGPTV6.md\n- Legendary Leaks/Copywrighter GPT.md\n- Legendary Leaks/CreativeGPT's Prompt Generator.md\n- Legendary Leaks/Email Writer.md\n- Legendary Leaks/Fully SEO Optimized Article 2.md\n- Legendary Leaks/GP(en)T(ester).md\n- Legendary Leaks/God of Prompt.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Legendary Leaks 文件结构",
+        "content": "Legendary Leaks/AI Book Writer Assistant.md\nLegendary Leaks/Book Creator Guide.md\nLegendary Leaks/Book Writer GPT.md\nLegendary Leaks/CODEGPTV6.md\nLegendary Leaks/Copywrighter GPT.md\nLegendary Leaks/CreativeGPT's Prompt Generator.md\nLegendary Leaks/Email Writer.md\nLegendary Leaks/Fully SEO Optimized Article 2.md\nLegendary Leaks/GP(en)T(ester).md\nLegendary Leaks/God of Prompt.md\nLegendary Leaks/Grimoire 2-9\nLegendary Leaks/Grimoire 2-9/GPTavern.md\nLegendary Leaks/Grimoire 2-9/Grimoire 29.md\nLegendary Leaks/Grimoire 2-9/Grimoire.md\nLegendary Leaks/Grimoire 2-9/Interludes.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.925202474824718
+  },
+  {
+    "name": "Awesome_GPT_Super_Prompting/My Super Prompts 模块",
+    "description": "[模块级] Awesome_GPT_Super_Prompting 项目的 My Super Prompts 模块 (source)。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "module-level",
+      "source",
+      "my super prompts"
+    ],
+    "genes": [
+      {
+        "title": "My Super Prompts 模块说明",
+        "content": "模块路径: My Super Prompts/\n类型: source\n文件数: 9\n\n包含文件:\n- My Super Prompts/Ai Integration Finder.md\n- My Super Prompts/Jailbreak Tester.md\n- My Super Prompts/Mental Health Therapist.md\n- My Super Prompts/ORK | System Prompt Writer and Optimizer.md\n- My Super Prompts/PSYKOO | Mental Manipulator.md\n- My Super Prompts/Prompt Engineer Template.md\n- My Super Prompts/Response Quality Enhacer.md\n- My Super Prompts/Rizz Game Improver.md\n- My Super Prompts/VAMPIRE | Ultra Prompt Writer.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "My Super Prompts 文件结构",
+        "content": "My Super Prompts/Ai Integration Finder.md\nMy Super Prompts/Jailbreak Tester.md\nMy Super Prompts/Mental Health Therapist.md\nMy Super Prompts/ORK | System Prompt Writer and Optimizer.md\nMy Super Prompts/PSYKOO | Mental Manipulator.md\nMy Super Prompts/Prompt Engineer Template.md\nMy Super Prompts/Response Quality Enhacer.md\nMy Super Prompts/Rizz Game Improver.md\nMy Super Prompts/VAMPIRE | Ultra Prompt Writer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.925202474824718
+  },
+  {
+    "name": "Awesome_GPT_Super_Prompting/Prompt Security 模块",
+    "description": "[模块级] Awesome_GPT_Super_Prompting 项目的 Prompt Security 模块 (source)。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "module-level",
+      "source",
+      "prompt security"
+    ],
+    "genes": [
+      {
+        "title": "Prompt Security 模块说明",
+        "content": "模块路径: Prompt Security/\n类型: source\n文件数: 48\n\n包含文件:\n- Prompt Security/10 rules of protection and misdirection.md\n- Prompt Security/100 Life points.md\n- Prompt Security/Anti-verbatim.md\n- Prompt Security/Bad faith actors protection.md\n- Prompt Security/Bank Security Robot.md\n- Prompt Security/Blue Team.md\n- Prompt Security/Bot data protection.md\n- Prompt Security/CIPHERON.md\n- Prompt Security/Data Privacy - Formal.md\n- Prompt Security/Do not Leak!.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Prompt Security 文件结构",
+        "content": "Prompt Security/10 rules of protection and misdirection.md\nPrompt Security/100 Life points.md\nPrompt Security/Anti-verbatim.md\nPrompt Security/Bad faith actors protection.md\nPrompt Security/Bank Security Robot.md\nPrompt Security/Blue Team.md\nPrompt Security/Bot data protection.md\nPrompt Security/CIPHERON.md\nPrompt Security/Data Privacy - Formal.md\nPrompt Security/Do not Leak!.md\nPrompt Security/Final reminder.md\nPrompt Security/Fingers crossed technique.md\nPrompt Security/Gated access.md\nPrompt Security/Guardian Shield.md\nPrompt Security/HackTricksGPT Defense.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.925202474824718
+  },
+  {
+    "name": "Awesome_GPT_Super_Prompting/Ultra Prompts 模块",
+    "description": "[模块级] Awesome_GPT_Super_Prompting 项目的 Ultra Prompts 模块 (source)。来源: https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting",
+    "domain": "ai-llm",
+    "tags": [
+      "adversarial-machine-learning",
+      "agent",
+      "ai",
+      "assistant",
+      "chatgpt",
+      "module-level",
+      "source",
+      "ultra prompts"
+    ],
+    "genes": [
+      {
+        "title": "Ultra Prompts 模块说明",
+        "content": "模块路径: Ultra Prompts/\n类型: source\n文件数: 2\n\n包含文件:\n- Ultra Prompts/Prompt Guru V5.md\n- Ultra Prompts/Prompt Quality Evaluation and Enhancement System V1.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Ultra Prompts 文件结构",
+        "content": "Ultra Prompts/Prompt Guru V5.md\nUltra Prompts/Prompt Quality Evaluation and Enhancement System V1.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.925202474824718
+  }
+]

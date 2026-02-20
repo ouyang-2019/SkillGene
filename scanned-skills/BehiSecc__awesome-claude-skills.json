@@ -1,0 +1,27 @@
+[
+  {
+    "name": "awesome-claude-skills (BehiSecc)",
+    "description": "[项目级] A curated list of Claude Skills.。来源: https://github.com/BehiSecc/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-6005",
+      "github-behisecc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of Claude Skills.\n\n来源: https://github.com/BehiSecc/awesome-claude-skills\n语言: unknown\nStars: 6005",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.889256505869462
+  }
+]

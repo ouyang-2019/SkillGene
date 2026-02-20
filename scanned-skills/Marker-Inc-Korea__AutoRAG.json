@@ -1,0 +1,68 @@
+[
+  {
+    "name": "AutoRAG (Marker-Inc-Korea)",
+    "description": "[项目级] AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization with AutoML-Style Automation。来源: https://github.com/Marker-Inc-Korea/AutoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "automl",
+      "benchmarking",
+      "document-parser",
+      "embeddings",
+      "python",
+      "stars-4576",
+      "github-marker-inc-korea",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization with AutoML-Style Automation\n\n来源: https://github.com/Marker-Inc-Korea/AutoRAG\n语言: Python\nStars: 4576",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install AutoRAG",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CNAME\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nautorag\nautorag/__init__.py\nautorag/chunker.py\nautorag/cli.py\nautorag/dashboard.py\nautorag/data\nautorag/deploy\nautorag/embedding\nautorag/evaluation\nautorag/evaluator.py\nautorag/node_line.py\nautorag/nodes",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.830243007892484
+  },
+  {
+    "name": "AutoRAG/autorag 模块",
+    "description": "[模块级] AutoRAG 项目的 autorag 模块 (source)。来源: https://github.com/Marker-Inc-Korea/AutoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "automl",
+      "benchmarking",
+      "document-parser",
+      "embeddings",
+      "module-level",
+      "source",
+      "autorag"
+    ],
+    "genes": [
+      {
+        "title": "autorag 模块说明",
+        "content": "RAG AutoML tool for automatically finding an optimal RAG pipeline for your data.\n\n![Thumbnail](https://github.com/user-attachments/assets/6bab243d-a4b3-431a-8ac0-fe17336ab4de)\n\n![PyPI - Downloads](https://img.shields.io/pypi/dm/AutoRAG)\n[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/company/104375108/admin/dashboard/)\n![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AutoRAG_HQ)\n[![Hugging Face](https:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autorag 文件结构",
+        "content": "autorag/__init__.py\nautorag/chunker.py\nautorag/cli.py\nautorag/dashboard.py\nautorag/data\nautorag/data/__init__.py\nautorag/data/chunk\nautorag/data/chunk/__init__.py\nautorag/data/chunk/base.py\nautorag/data/chunk/langchain_chunk.py\nautorag/data/chunk/llama_index_chunk.py\nautorag/data/chunk/run.py\nautorag/data/legacy\nautorag/data/legacy/__init__.py\nautorag/data/legacy/corpus",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.964194406313987
+  }
+]

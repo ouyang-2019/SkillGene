@@ -1,0 +1,163 @@
+[
+  {
+    "name": "llm.nvim (Kurama622)",
+    "description": "[项目级] A large language model (LLM) plugin for Neovim, provides commands to interact with LLM (like ChatGPT, Copilot, ChatGLM, kimi, deepseek, openrouter and local llms). Support Github models.。来源: https://github.com/Kurama622/llm.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatanywhere",
+      "chatgpt",
+      "copilot",
+      "deep-thinking",
+      "lua",
+      "stars-461",
+      "github-kurama622",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A large language model (LLM) plugin for Neovim, provides commands to interact with LLM (like ChatGPT, Copilot, ChatGLM, kimi, deepseek, openrouter and local llms). Support Github models.\n\n来源: https://github.com/Kurama622/llm.nvim\n语言: Lua\nStars: 461",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ACKNOWLEDGMENTS.md\nLICENSE\nREADME.md\nREADME_CN.md\nafter\nafter/syntax\nbasic_template.lua\ndocs\ndocs/functions\ndocs/tools\nexamples\nexamples/ai-tools\nexamples/chat\nexamples/ui\nlua\nlua/llm\nplugin\nplugin/llm.lua\nstylua.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "`enable_cword_context = true`: Translate the text under the cursor in normal mode.\n<p align= \"center\">\n  <img src=\"https://github.com/user-attachments/assets/4c98484a-f0af-45ae-9b62-ea0069ccbf60\" alt=\"llm-translate\" width=\"800\">\n</p>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.331850462694824
+  },
+  {
+    "name": "llm.nvim/after 模块",
+    "description": "[模块级] llm.nvim 项目的 after 模块 (source)。来源: https://github.com/Kurama622/llm.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatanywhere",
+      "chatgpt",
+      "copilot",
+      "deep-thinking",
+      "module-level",
+      "source",
+      "after"
+    ],
+    "genes": [
+      {
+        "title": "after 模块说明",
+        "content": "模块路径: after/\n类型: source\n文件数: 2\n\n包含文件:\n- after/syntax\n- after/syntax/llm.vim",
+        "gene_type": "principle"
+      },
+      {
+        "title": "after 文件结构",
+        "content": "after/syntax\nafter/syntax/llm.vim",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  },
+  {
+    "name": "llm.nvim/docs 模块",
+    "description": "[模块级] llm.nvim 项目的 docs 模块 (docs)。来源: https://github.com/Kurama622/llm.nvim",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "chatanywhere",
+      "chatgpt",
+      "copilot",
+      "deep-thinking",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "<p align= \"center\">\n  <img src=\"https://github.com/user-attachments/assets/a1ae0ba7-d914-4bcd-a136-b88d79f7eb91\" alt=\"llm-docstring\" width=\"800\">\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/functions\ndocs/functions/README.md\ndocs/tools\ndocs/tools/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  },
+  {
+    "name": "llm.nvim/examples 模块",
+    "description": "[模块级] llm.nvim 项目的 examples 模块 (example)。来源: https://github.com/Kurama622/llm.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatanywhere",
+      "chatgpt",
+      "copilot",
+      "deep-thinking",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "`enable_cword_context = true`: Translate the text under the cursor in normal mode.\n<p align= \"center\">\n  <img src=\"https://github.com/user-attachments/assets/4c98484a-f0af-45ae-9b62-ea0069ccbf60\" alt=\"llm-translate\" width=\"800\">\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/ai-tools\nexamples/ai-tools/AI-Commit-Messages\nexamples/ai-tools/AI-Commit-Messages/config.lua\nexamples/ai-tools/AI-Translate\nexamples/ai-tools/AI-Translate/config.lua\nexamples/ai-tools/Ask\nexamples/ai-tools/Ask/config.lua\nexamples/ai-tools/Attach-To-Chat\nexamples/ai-tools/Attach-To-Chat/config.lua\nexamples/ai-tools/Code-Completions\nexamples/ai-tools/Code-Completions/README.md\nexamples/ai-tools/Code-Completions/config.lua\nexamples/ai-tools/Code-Explain\nexamples/ai-tools/Code-Explain/config.lua\nexamples/ai-tools/Formula-Recognition",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  },
+  {
+    "name": "llm.nvim/lua 模块",
+    "description": "[模块级] llm.nvim 项目的 lua 模块 (source)。来源: https://github.com/Kurama622/llm.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatanywhere",
+      "chatgpt",
+      "copilot",
+      "deep-thinking",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "`enable_cword_context = true`: Translate the text under the cursor in normal mode.\n<p align= \"center\">\n  <img src=\"https://github.com/user-attachments/assets/4c98484a-f0af-45ae-9b62-ea0069ccbf60\" alt=\"llm-translate\" width=\"800\">\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/llm\nlua/llm/app.lua\nlua/llm/backends\nlua/llm/backends/copilot.lua\nlua/llm/backends/deepseek.lua\nlua/llm/backends/init.lua\nlua/llm/backends/lmstudio.lua\nlua/llm/backends/ollama.lua\nlua/llm/backends/openai.lua\nlua/llm/backends/utils.lua\nlua/llm/backends/workers_ai.lua\nlua/llm/backends/zhipu.lua\nlua/llm/common\nlua/llm/common/api.lua\nlua/llm/common/buffers.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  }
+]

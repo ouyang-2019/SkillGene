@@ -1,0 +1,61 @@
+[
+  {
+    "name": "AutoDeeplab (MenghaoGuo)",
+    "description": "[项目级] Pytorch Implementation the paper Auto-DeepLab Hierarchical Neural Architecture Search for Semantic Image Segmentation。来源: https://github.com/MenghaoGuo/AutoDeeplab",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-412",
+      "github-menghaoguo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Pytorch Implementation the paper Auto-DeepLab Hierarchical Neural Architecture Search for Semantic Image Segmentation\n\n来源: https://github.com/MenghaoGuo/AutoDeeplab\n语言: Python\nStars: 412",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "First, clone the repository\n\n    git clone https://github.com/MenghaoGuo/AutoDeeplab.git\n    \nThen\n\n    cd AutoDeeplab",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\n__pycache__\n__pycache__/.DS_Store\narchitect.py\nauto_deeplab.py\ndataloaders\ndataloaders/.DS_Store\ndataloaders/__init__.py\ndataloaders/custom_transforms.py\ndataloaders/datasets\ndataloaders/utils.py\ngenotypes.py\nmodel_search.py\nmypath.py\noperations.py\ntrain_autodeeplab.py\ntrain_voc.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.307448608016568
+  },
+  {
+    "name": "AutoDeeplab/dataloaders 模块",
+    "description": "[模块级] AutoDeeplab 项目的 dataloaders 模块 (source)。来源: https://github.com/MenghaoGuo/AutoDeeplab",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-412",
+      "github-menghaoguo",
+      "module-level",
+      "source",
+      "dataloaders"
+    ],
+    "genes": [
+      {
+        "title": "dataloaders 模块说明",
+        "content": "模块路径: dataloaders/\n类型: source\n文件数: 11\n\n包含文件:\n- dataloaders/.DS_Store\n- dataloaders/__init__.py\n- dataloaders/custom_transforms.py\n- dataloaders/datasets\n- dataloaders/datasets/__init__.py\n- dataloaders/datasets/cityscapes.py\n- dataloaders/datasets/coco.py\n- dataloaders/datasets/combine_dbs.py\n- dataloaders/datasets/pascal.py\n- dataloaders/datasets/sbd.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dataloaders 文件结构",
+        "content": "dataloaders/.DS_Store\ndataloaders/__init__.py\ndataloaders/custom_transforms.py\ndataloaders/datasets\ndataloaders/datasets/__init__.py\ndataloaders/datasets/cityscapes.py\ndataloaders/datasets/coco.py\ndataloaders/datasets/combine_dbs.py\ndataloaders/datasets/pascal.py\ndataloaders/datasets/sbd.py\ndataloaders/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5459588864132536
+  }
+]

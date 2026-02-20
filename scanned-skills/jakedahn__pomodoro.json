@@ -1,0 +1,72 @@
+[
+  {
+    "name": "pomodoro (jakedahn)",
+    "description": "[项目级]   Reference implementation of the System Skill Pattern for building Claude   Skills that remember, learn, and improve over time. CLI + SKILL.md +   Database demonstrated via a Pomodoro timer.。来源: https://github.com/jakedahn/pomodoro",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "typescript",
+      "stars-29",
+      "github-jakedahn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "  Reference implementation of the System Skill Pattern for building Claude   Skills that remember, learn, and improve over time. CLI + SKILL.md +   Database demonstrated via a Pomodoro timer.\n\n来源: https://github.com/jakedahn/pomodoro\n语言: TypeScript\nStars: 29",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nblog-post.md\nbuild.sh\ncodesign.sh\ndist\ndist/skills\ninstall.sh\nsrc\nsrc/SKILL.md\nsrc/cli\nsystem-skill.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"Start a pomodoro for writing documentation\"\n\"What did I work on today?\"\n\"How productive was I this week?\"\n\"What times do I work best?\"\n\"Let's do flash cards, start 5 2min/1min pomodoro cycles\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.731198998949478
+  },
+  {
+    "name": "pomodoro/src 模块",
+    "description": "[模块级] pomodoro 项目的 src 模块 (source)。来源: https://github.com/jakedahn/pomodoro",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "typescript",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/SKILL.md\n- src/cli\n- src/cli/db.ts\n- src/cli/deno.json\n- src/cli/deno.lock\n- src/cli/pomodoro.ts\n- src/cli/timer.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/SKILL.md\nsrc/cli\nsrc/cli/db.ts\nsrc/cli/deno.json\nsrc/cli/deno.lock\nsrc/cli/pomodoro.ts\nsrc/cli/timer.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0849591991595826
+  }
+]

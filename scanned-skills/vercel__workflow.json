@@ -1,0 +1,28 @@
+[
+  {
+    "name": "workflow (vercel)",
+    "description": "[项目级] Workflow DevKit: Build durable, reliable, and observable apps and AI Agents in TypeScript。来源: https://github.com/vercel/workflow",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1717",
+      "github-vercel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Workflow DevKit: Build durable, reliable, and observable apps and AI Agents in TypeScript\n\n来源: https://github.com/vercel/workflow\n语言: TypeScript\nStars: 1717",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The **Workflow Development Kit** lets you easily add durability, reliability, and observability to async JavaScript. Build apps and AI agents that can suspend, resume, and maintain state with ease.\n\nVisit [https://useworkflow.dev](https://useworkflow.dev) to view the full documentation.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.617385147580459
+  }
+]

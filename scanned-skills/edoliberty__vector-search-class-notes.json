@@ -1,0 +1,63 @@
+[
+  {
+    "name": "vector-search-class-notes (edoliberty)",
+    "description": "[项目级] Class notes for the course \"Long Term Memory in AI - Vector Search and Databases\" COS 597A @ Princeton Fall 2023。来源: https://github.com/edoliberty/vector-search-class-notes",
+    "domain": "devops",
+    "tags": [
+      "algorithm",
+      "class",
+      "course",
+      "databases",
+      "princeton",
+      "tex",
+      "stars-326",
+      "github-edoliberty",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Long Term Memory is a foundational capability in the modern AI Stack. At their core, these systems use vector search. Vector search is also a basic tool for systems that manipulate large collections of media like search engines, knowledge bases, content moderation tools, recommendation systems, etc. As such, the discipline lays at the intersection of Artificial Intelligence and Database Management Systems. This course will cover the theoretical foundations and practical implementation of vector search applications, algorithms, and systems. The course will be evaluated with project and in-class presentation.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbibtomarkdown.py\nbuild.sh\nclass_notes\nclass_notes/Class_01_introduction.pdf\nclass_notes/Class_02_text_embeddings.pdf\nclass_notes/Class_03_image_embeddings.pdf\nclass_notes/Class_03_image_embeddings.tex\nclass_notes/Class_04_low_dimensional_vector_search.pdf\nclass_notes/Class_04_low_dimensional_vector_search.tex\nclass_notes/Class_05_dimensionality_reduction.pdf\nclass_notes/Class_05_dimensionality_reduction.tex\nclass_notes/Class_06_aproximate_nearest_neighbor_search.pdf\nclass_notes/Class_06_aproximate_nearest_neighbor_search.tex\nclass_notes/Class_07_clustering.pdf\nclass_notes/Class_07_clustering.tex\nclass_notes/Class_08_quantization.pdf\nclass_notes/Class_08_runbook_for_students.ipynb\nclass_notes/Class_09_graph_indexes.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.25660880003397
+  },
+  {
+    "name": "vector-search-class-notes/class_notes 模块",
+    "description": "[模块级] vector-search-class-notes 项目的 class_notes 模块 (source)。来源: https://github.com/edoliberty/vector-search-class-notes",
+    "domain": "devops",
+    "tags": [
+      "algorithm",
+      "class",
+      "course",
+      "databases",
+      "princeton",
+      "module-level",
+      "source",
+      "class_notes"
+    ],
+    "genes": [
+      {
+        "title": "class_notes 模块说明",
+        "content": "模块路径: class_notes/\n类型: source\n文件数: 34\n\n包含文件:\n- class_notes/Class_01_introduction.pdf\n- class_notes/Class_02_text_embeddings.pdf\n- class_notes/Class_03_image_embeddings.pdf\n- class_notes/Class_03_image_embeddings.tex\n- class_notes/Class_04_low_dimensional_vector_search.pdf\n- class_notes/Class_04_low_dimensional_vector_search.tex\n- class_notes/Class_05_dimensionality_reduction.pdf\n- class_notes/Class_05_dimensionality_reduction.tex\n- class_notes/Class_06_aproximate_nearest_neighbor_search.pdf\n- class_notes/Class_06_aproximate_nearest_neighbor_search.tex",
+        "gene_type": "principle"
+      },
+      {
+        "title": "class_notes 文件结构",
+        "content": "class_notes/Class_01_introduction.pdf\nclass_notes/Class_02_text_embeddings.pdf\nclass_notes/Class_03_image_embeddings.pdf\nclass_notes/Class_03_image_embeddings.tex\nclass_notes/Class_04_low_dimensional_vector_search.pdf\nclass_notes/Class_04_low_dimensional_vector_search.tex\nclass_notes/Class_05_dimensionality_reduction.pdf\nclass_notes/Class_05_dimensionality_reduction.tex\nclass_notes/Class_06_aproximate_nearest_neighbor_search.pdf\nclass_notes/Class_06_aproximate_nearest_neighbor_search.tex\nclass_notes/Class_07_clustering.pdf\nclass_notes/Class_07_clustering.tex\nclass_notes/Class_08_quantization.pdf\nclass_notes/Class_08_runbook_for_students.ipynb\nclass_notes/Class_09_graph_indexes.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  }
+]

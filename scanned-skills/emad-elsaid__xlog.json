@@ -1,0 +1,122 @@
+[
+  {
+    "name": "xlog (emad-elsaid)",
+    "description": "[项目级] 💥 Personal knowledge management application. One binary HTTP server. works in any Markdown directory. autolinks pages, hashtags, auto preview images link, screenshare, screenshot, camera recording and audio recording embedded in the note. and fast search through the KB。来源: https://github.com/emad-elsaid/xlog",
+    "domain": "devops",
+    "tags": [
+      "blog",
+      "go",
+      "golang",
+      "knowledge-base",
+      "markdown",
+      "stars-203",
+      "github-emad-elsaid",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "💥 Personal knowledge management application. One binary HTTP server. works in any Markdown directory. autolinks pages, hashtags, auto preview images link, screenshare, screenshot, camera recording and audio recording embedded in the note. and fast search through the KB\n\n来源: https://github.com/emad-elsaid/xlog\n语言: Go\nStars: 203",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nbuild.go\ncmd\ncmd/assets\ncmd/xlog\ncommand.go\ndocker-compose.yaml\ndocs\ndocs/.cache\ndocs/404.md\ndocs/API.md\ndocs/Assets.md\ndocs/Bulma.md\ndocs/Dependencies.md\ndocs/Features Test.md\ndocs/Github.md\ndocs/Go package.md\ndocs/Installation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.153748018956606
+  },
+  {
+    "name": "xlog/cmd 模块",
+    "description": "[模块级] xlog 项目的 cmd 模块 (source)。来源: https://github.com/emad-elsaid/xlog",
+    "domain": "devops",
+    "tags": [
+      "blog",
+      "go",
+      "golang",
+      "knowledge-base",
+      "markdown",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 12\n\n包含文件:\n- cmd/assets\n- cmd/assets/dubai-font.css\n- cmd/assets/dubai-font\n- cmd/assets/dubai-font/DubaiW23-Bold.woff\n- cmd/assets/dubai-font/DubaiW23-Regular.woff\n- cmd/assets/index.js\n- cmd/assets/package.json\n- cmd/assets/styles.scss\n- cmd/assets/webpack.config.js\n- cmd/assets/yarn.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/assets\ncmd/assets/dubai-font.css\ncmd/assets/dubai-font\ncmd/assets/dubai-font/DubaiW23-Bold.woff\ncmd/assets/dubai-font/DubaiW23-Regular.woff\ncmd/assets/index.js\ncmd/assets/package.json\ncmd/assets/styles.scss\ncmd/assets/webpack.config.js\ncmd/assets/yarn.lock\ncmd/xlog\ncmd/xlog/xlog.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.422998415165285
+  },
+  {
+    "name": "xlog/docs 模块",
+    "description": "[模块级] xlog 项目的 docs 模块 (docs)。来源: https://github.com/emad-elsaid/xlog",
+    "domain": "documentation",
+    "tags": [
+      "blog",
+      "go",
+      "golang",
+      "knowledge-base",
+      "markdown",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 35\n\n包含文件:\n- docs/.cache\n- docs/.cache/1316c89f817afdf85038ad3a02698a3a4757263c7e28f0d83c34c387d9d5088a.json\n- docs/.cache/66f5fcbba4e9ef12e70b5b685c478e62f2fe659fbc9438ca7fd7582d22342d0e.json\n- docs/.cache/718ff3b88f310e3dfadb357db10a1d6a2a973217656adbf35b4be9075e57fd59.json\n- docs/.cache/9bfa931273abab8cd69e213e5657059e8107cc359d011f3893433a1911b59a71.json\n- docs/.cache/dadbd4f3a88b7ac925c9afb369104ff8b429ed32fe02ec2725b94c789610585a.json\n- docs/.cache/de4b0df00d5d7b3c5e9159bfae73447229522578195227cbee2f21c0f8ea461f.json\n- docs/404.md\n- docs/API.md\n- docs/Assets.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.cache\ndocs/.cache/1316c89f817afdf85038ad3a02698a3a4757263c7e28f0d83c34c387d9d5088a.json\ndocs/.cache/66f5fcbba4e9ef12e70b5b685c478e62f2fe659fbc9438ca7fd7582d22342d0e.json\ndocs/.cache/718ff3b88f310e3dfadb357db10a1d6a2a973217656adbf35b4be9075e57fd59.json\ndocs/.cache/9bfa931273abab8cd69e213e5657059e8107cc359d011f3893433a1911b59a71.json\ndocs/.cache/dadbd4f3a88b7ac925c9afb369104ff8b429ed32fe02ec2725b94c789610585a.json\ndocs/.cache/de4b0df00d5d7b3c5e9159bfae73447229522578195227cbee2f21c0f8ea461f.json\ndocs/404.md\ndocs/API.md\ndocs/Assets.md\ndocs/Bulma.md\ndocs/Dependencies.md\ndocs/Features Test.md\ndocs/Github.md\ndocs/Go package.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.422998415165285
+  },
+  {
+    "name": "xlog/extensions 模块",
+    "description": "[模块级] xlog 项目的 extensions 模块 (source)。来源: https://github.com/emad-elsaid/xlog",
+    "domain": "devops",
+    "tags": [
+      "blog",
+      "go",
+      "golang",
+      "knowledge-base",
+      "markdown",
+      "module-level",
+      "source",
+      "extensions"
+    ],
+    "genes": [
+      {
+        "title": "extensions 模块说明",
+        "content": "模块路径: extensions/\n类型: source\n文件数: 132\n\n包含文件:\n- extensions/activitypub\n- extensions/activitypub/activitypub.go\n- extensions/all\n- extensions/all/all.go\n- extensions/autolink\n- extensions/autolink/autolink.go\n- extensions/autolink_pages\n- extensions/autolink_pages/Autolink pages.md\n- extensions/autolink_pages/autolink_pages.go\n- extensions/autolink_pages/extension.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extensions 文件结构",
+        "content": "extensions/activitypub\nextensions/activitypub/activitypub.go\nextensions/all\nextensions/all/all.go\nextensions/autolink\nextensions/autolink/autolink.go\nextensions/autolink_pages\nextensions/autolink_pages/Autolink pages.md\nextensions/autolink_pages/autolink_pages.go\nextensions/autolink_pages/extension.go\nextensions/autolink_pages/node.go\nextensions/autolink_pages/parser.go\nextensions/autolink_pages/renderer.go\nextensions/autolink_pages/templates\nextensions/autolink_pages/templates/backlinks.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.422998415165285
+  }
+]

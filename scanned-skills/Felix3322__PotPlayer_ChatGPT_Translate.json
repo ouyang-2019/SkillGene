@@ -1,0 +1,103 @@
+[
+  {
+    "name": "PotPlayer_ChatGPT_Translate (Felix3322)",
+    "description": "[项目级] 【兼容ollama和其他模型】将何具有OpenAI API调用方法的模型集成到PotPlayer中。它使你在观看视频时能够实时翻译字幕，从而打破语言障碍，提升你的观看体验。 This real-time subtitle translation plugin integrates OpenAI's ChatGPT API (or any model with the same API calling method) into PotPlayer. It enables you to translate subtitles on-the-fly while watching videos. 。来源: https://github.com/Felix3322/PotPlayer_ChatGPT_Translate",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-translator",
+      "anglescript",
+      "api",
+      "chatgpt",
+      "chatgpt-api",
+      "angelscript",
+      "stars-879",
+      "github-felix3322",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**PotPlayer_ChatGPT_Translate** is a PotPlayer plugin that integrates the ChatGPT API to deliver real-time, context-aware subtitle translation. Unlike traditional translation tools, this plugin considers context, idioms, and cultural nuances to produce more accurate translations. The core of the project is implemented using AngleScript, leveraging both the ChatGPT API and PotPlayer API for deep integration.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- 前段时间存储库消失是因为GitHub给我封号了\n\n- 【PotPlayer AI翻译插件安装教程-哔哩哔哩】 https://b23.tv/ntF2dxu\n\n\n<a id=\"readme-top\"></a>\n\n[![Forks][forks-shield]]([forks-url])\n[![Stargazers][stars-shield]]([stars-url])\n[![Issues][issues-shield]]([issues-url])\n[![License][license-shield]]([license-url])\n\n<div align=\"right\">\n  <a href=\"https://github.com/Felix3322/PotPlayer_ChatGPT_Translate/blob/master/docs/readme_zh.md\">简体中文</a> |\n  <a href=\"https://github.com/Felix3322/PotPlayer_ChatGPT_Translate/blob/master/docs/readme_zh-tw.md\">繁体中文</a> |\n  <strong href=\"https://github.com/Felix3322/PotPlayer_ChatGPT_Translate/blob/maste",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSubtitleTranslate - ChatGPT - Without Context.as\nSubtitleTranslate - ChatGPT - Without Context.ico\nSubtitleTranslate - ChatGPT.as\nSubtitleTranslate - ChatGPT.ico\napi.txt\ndocs\ndocs/ChatGPT.png\ndocs/Google translate.png\ndocs/readme_zh-tw.md\ndocs/readme_zh.md\ndocs/release_notes.md\ndocs/using context.png\ndocs/without context.png\nicon.ico\nreleases\nreleases/archive\nreleases/build\nreleases/latest",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.471994437536885
+  },
+  {
+    "name": "PotPlayer_ChatGPT_Translate/docs 模块",
+    "description": "[模块级] PotPlayer_ChatGPT_Translate 项目的 docs 模块 (docs)。来源: https://github.com/Felix3322/PotPlayer_ChatGPT_Translate",
+    "domain": "documentation",
+    "tags": [
+      "ai-translator",
+      "anglescript",
+      "api",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/ChatGPT.png\n- docs/Google translate.png\n- docs/readme_zh-tw.md\n- docs/readme_zh.md\n- docs/release_notes.md\n- docs/using context.png\n- docs/without context.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ChatGPT.png\ndocs/Google translate.png\ndocs/readme_zh-tw.md\ndocs/readme_zh.md\ndocs/release_notes.md\ndocs/using context.png\ndocs/without context.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6775955500295088
+  },
+  {
+    "name": "PotPlayer_ChatGPT_Translate/releases 模块",
+    "description": "[模块级] PotPlayer_ChatGPT_Translate 项目的 releases 模块 (source)。来源: https://github.com/Felix3322/PotPlayer_ChatGPT_Translate",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-translator",
+      "anglescript",
+      "api",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "releases"
+    ],
+    "genes": [
+      {
+        "title": "releases 模块说明",
+        "content": "模块路径: releases/\n类型: source\n文件数: 25\n\n包含文件:\n- releases/archive\n- releases/archive/installer.v1.4.1.exe\n- releases/archive/installer.v1.4.2.exe\n- releases/archive/installer.v1.4.3.exe\n- releases/archive/installer.v1.4.4.exe\n- releases/archive/installer.v1.4.5.exe\n- releases/archive/installer.v1.4.6.exe\n- releases/archive/installer.v1.5.0.1.exe\n- releases/archive/installer.v1.5.1.exe\n- releases/archive/installer.v1.5.2.exe",
+        "gene_type": "principle"
+      },
+      {
+        "title": "releases 文件结构",
+        "content": "releases/archive\nreleases/archive/installer.v1.4.1.exe\nreleases/archive/installer.v1.4.2.exe\nreleases/archive/installer.v1.4.3.exe\nreleases/archive/installer.v1.4.4.exe\nreleases/archive/installer.v1.4.5.exe\nreleases/archive/installer.v1.4.6.exe\nreleases/archive/installer.v1.5.0.1.exe\nreleases/archive/installer.v1.5.1.exe\nreleases/archive/installer.v1.5.2.exe\nreleases/archive/installer.v1.5.exe\nreleases/archive/installer.v1.7.1.exe\nreleases/archive/installer.v1.7.2.exe\nreleases/archive/installer.v1.7.3.exe\nreleases/archive/installer.v1.7.4.exe",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6775955500295088
+  }
+]

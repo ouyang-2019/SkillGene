@@ -1,0 +1,73 @@
+[
+  {
+    "name": "astron-agent (iflytek)",
+    "description": "[项目级] Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.。来源: https://github.com/iflytek/astron-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-workflow",
+      "ai",
+      "enterprise",
+      "llm",
+      "java",
+      "stars-9737",
+      "github-iflytek",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.\n\n来源: https://github.com/iflytek/astron-agent\n语言: Java\nStars: 9737",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "We offer two deployment methods to meet different scenarios:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nFAQ.md\nLICENSE\nMakefile\nNOTICE\nREADME.md\nconsole\nconsole/.gitignore\nconsole/README.md\nconsole/backend",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Enterprise-Grade High Availability:** Full-stack capabilities for development, building, optimization, and management. Supports one-click deployment with strong reliability.  \n- **Intelligent RPA Integration:** Enables cross-system process automation, empowering Agents with controllable execution to achieve a complete loop “from decision to action.”  \n- **Ready-to-Use Tool Ecosystem:** Integrates massive AI capabilities and tools from the [iFLYTEK Open Platform](https://www.xfyun.cn), validated by millions of developers, supporting plug-and-play integration without extra development.  \n- *",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.994212585003152
+  },
+  {
+    "name": "astron-agent/console 模块",
+    "description": "[模块级] astron-agent 项目的 console 模块 (source)。来源: https://github.com/iflytek/astron-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-workflow",
+      "ai",
+      "enterprise",
+      "llm",
+      "module-level",
+      "source",
+      "console"
+    ],
+    "genes": [
+      {
+        "title": "console 模块说明",
+        "content": "模块路径: console/\n类型: source\n文件数: 160\n\n包含文件:\n- console/.gitignore\n- console/README.md\n- console/backend\n- console/backend/commons\n- console/backend/commons/pom.xml\n- console/backend/commons/src\n- console/backend/commons/src/main\n- console/backend/commons/src/main/java\n- console/backend/commons/src/main/java/com\n- console/backend/commons/src/main/java/com/iflytek",
+        "gene_type": "principle"
+      },
+      {
+        "title": "console 文件结构",
+        "content": "console/.gitignore\nconsole/README.md\nconsole/backend\nconsole/backend/commons\nconsole/backend/commons/pom.xml\nconsole/backend/commons/src\nconsole/backend/commons/src/main\nconsole/backend/commons/src/main/java\nconsole/backend/commons/src/main/java/com\nconsole/backend/commons/src/main/java/com/iflytek\nconsole/backend/commons/src/main/java/com/iflytek/astron\nconsole/backend/commons/src/main/java/com/iflytek/astron/console\nconsole/backend/commons/src/main/java/com/iflytek/astron/console/commons\nconsole/backend/commons/src/main/java/com/iflytek/astron/console/commons/annotation\nconsole/backend/commons/src/main/java/com/iflytek/astron/console/commons/annotation/RateLimit.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.095370068002522
+  }
+]

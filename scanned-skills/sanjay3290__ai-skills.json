@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ai-skills (sanjay3290)",
+    "description": "[项目级] Collection of agent skills for AI coding assistants。来源: https://github.com/sanjay3290/ai-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-85",
+      "github-sanjay3290",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Collection of agent skills for AI coding assistants\n\n来源: https://github.com/sanjay3290/ai-skills\n语言: Python\nStars: 85",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> **[`npx skills`](https://github.com/nicepkg/skills)** — The package manager for the open [Agent Skills](https://agentskills.io) ecosystem. One command to install skills into any AI coding agent.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nskills\nskills/azure-devops\nskills/deep-research\nskills/elevenlabs\nskills/gmail\nskills/google-calendar\nskills/google-chat\nskills/google-docs\nskills/google-drive\nskills/google-sheets\nskills/google-slides\nskills/imagen\nskills/jules\nskills/manus\nskills/mssql\nskills/mysql\nskills/notebooklm\nskills/outline",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once installed, skills activate automatically based on your requests. Just ask naturally:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9647094628571464
+  },
+  {
+    "name": "ai-skills/skills 模块",
+    "description": "[模块级] ai-skills 项目的 skills 模块 (source)。来源: https://github.com/sanjay3290/ai-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-85",
+      "github-sanjay3290",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sanjay3290/ai-skills)\n\nA collection of portable skills for AI coding assistants. Works with all major AI clients that support the [Agent Skills Standard](https://agentskills.io).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/azure-devops\nskills/azure-devops/README.md\nskills/azure-devops/SKILL.md\nskills/azure-devops/requirements.txt\nskills/azure-devops/scripts\nskills/azure-devops/scripts/api_client.py\nskills/azure-devops/scripts/attachments.py\nskills/azure-devops/scripts/auth.py\nskills/azure-devops/scripts/core.py\nskills/azure-devops/scripts/environments.py\nskills/azure-devops/scripts/pipelines.py\nskills/azure-devops/scripts/policies.py\nskills/azure-devops/scripts/repos.py\nskills/azure-devops/scripts/search.py\nskills/azure-devops/scripts/security.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.271767570285717
+  }
+]

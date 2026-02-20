@@ -1,0 +1,108 @@
+[
+  {
+    "name": "rag-template (stackitcloud)",
+    "description": "[项目级] Template for AI chatbots & document management using Retrieval-Augmented Generation with vector search and FastAPI.。来源: https://github.com/stackitcloud/rag-template",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "api",
+      "docker",
+      "fastapi",
+      "kubernetes",
+      "python",
+      "stars-55",
+      "github-stackitcloud",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Template for AI chatbots & document management using Retrieval-Augmented Generation with vector search and FastAPI.\n\n来源: https://github.com/stackitcloud/rag-template\n语言: Python\nStars: 55",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "A [`Tiltfile`](./Tiltfile) is provided to get you started :rocket:. If Tilt is new for you, and you want to learn more about it, please take a look at the [Tilt guides](https://docs.tilt.dev/tiltfile_authoring.html).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nTiltfile\nconftest.py\ndocs\ndocs/UI_Customization.md\neslint.config.mjs\ninfrastructure\ninfrastructure/.gitignore\ninfrastructure/README.md\ninfrastructure/figures\ninfrastructure/kustomize\ninfrastructure/local-cluster-setup\ninfrastructure/rag\ninfrastructure/server-setup\ninfrastructure/terraform\nlibs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This example of the rag-template includes a WebUI for document-management, as well as for the chat.\n\nAfter following the setup instruction for either the [local installation](#-local-setup-instructions) or the [installation on a server](#-Deployment-to-server) the WebUI is accessible via the configured ingress.\nAfter uploading a file in the document-management WebUI you can start asking question about your document in the chat WebUI.\n\nFor a complete documentation of the available REST-APIs, please consult [the libs README](./libs/README.md).\n\nIf you want to replace some dependencies with you o",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Document Management**: Supports PDFs, Office docs (DOCX, PPTX), spreadsheets (XLSX), Markdown/AsciiDoc (MD, MDX, ADOC), EPUB/HTML/XML, CSV/TXT, and raster images, with automatic fallbacks between Docling, MarkItDown, and custom extractors; also handles Confluence spaces and sitemaps.\n\n**AI Integration**: Multiple LLM and embedder providers for flexibility.\n\n**Tracing & Evaluation**: Tools for monitoring and assessing system performance.\n\n**Frontends**: User-friendly interfaces for easy interaction.\n\n**Security**: Basic authentication for secure access.\n\n**Deployment**: Options for both local",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.870181344747122
+  },
+  {
+    "name": "rag-template/infrastructure 模块",
+    "description": "[模块级] rag-template 项目的 infrastructure 模块 (source)。来源: https://github.com/stackitcloud/rag-template",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "api",
+      "docker",
+      "fastapi",
+      "kubernetes",
+      "module-level",
+      "source",
+      "infrastructure"
+    ],
+    "genes": [
+      {
+        "title": "infrastructure 模块说明",
+        "content": "Contains the Helm chart and other files related to infrastructure and deployment, including Kubernetes manifests, Terraform scripts, and cluster setup tools.\n\nFor further information, please consult the [Infrastructure README](./infrastructure/README.md).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infrastructure 文件结构",
+        "content": "infrastructure/.gitignore\ninfrastructure/README.md\ninfrastructure/figures\ninfrastructure/figures/langfuse-api-access.png\ninfrastructure/kustomize\ninfrastructure/kustomize/langfuse\ninfrastructure/kustomize/langfuse/.env.langfuse.template\ninfrastructure/kustomize/langfuse/kustomization.yaml\ninfrastructure/local-cluster-setup\ninfrastructure/local-cluster-setup/k3d-cluster-config.yaml\ninfrastructure/local-cluster-setup/setup-k3d-cluster.sh\ninfrastructure/rag\ninfrastructure/rag/.helmignore\ninfrastructure/rag/Chart.lock\ninfrastructure/rag/Chart.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1961450757976975
+  },
+  {
+    "name": "rag-template/libs 模块",
+    "description": "[模块级] rag-template 项目的 libs 模块 (source)。来源: https://github.com/stackitcloud/rag-template",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "api",
+      "docker",
+      "fastapi",
+      "kubernetes",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "Contains the API libraries that are used to construct the backend services in this repository. This includes core RAG functionality, admin APIs, and document extraction APIs.\n\nFor further information, please consult the [Libs README](./libs/README.md).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/.gitignore\nlibs/Dockerfile\nlibs/Makefile\nlibs/README.md\nlibs/admin-api-lib\nlibs/admin-api-lib/.dockerignore\nlibs/admin-api-lib/.gitignore\nlibs/admin-api-lib/.openapi-generator-ignore\nlibs/admin-api-lib/Makefile\nlibs/admin-api-lib/README.md\nlibs/admin-api-lib/openapi.yaml\nlibs/admin-api-lib/poetry.lock\nlibs/admin-api-lib/pyproject.toml\nlibs/admin-api-lib/pytest.ini\nlibs/admin-api-lib/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1961450757976975
+  }
+]

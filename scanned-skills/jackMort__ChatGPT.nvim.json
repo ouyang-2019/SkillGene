@@ -1,0 +1,77 @@
+[
+  {
+    "name": "ChatGPT.nvim (jackMort)",
+    "description": "[项目级] ChatGPT Neovim Plugin: Effortless Natural Language Generation with OpenAI's ChatGPT API。来源: https://github.com/jackMort/ChatGPT.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "neovim",
+      "nvim-plugin",
+      "openai",
+      "lua",
+      "stars-4014",
+      "github-jackmort",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT Neovim Plugin: Effortless Natural Language Generation with OpenAI's ChatGPT API\n\n来源: https://github.com/jackMort/ChatGPT.nvim\n语言: Lua\nStars: 4014",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "{\n  ...,\n  extra_curl_params = {\n    \"-H\",\n    \"Origin: https://example.com\"\n  }\n}",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nlua\nlua/chatgpt.lua\nlua/chatgpt\nplugin\nplugin/chatgpt.lua",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "{\n  \"jackMort/ChatGPT.nvim\",\n  event = \"VeryLazy\",\n  config = function()\n    require(\"chatgpt\").setup({\n      -- this config assumes you have OPENAI_API_KEY environment variable set\n      openai_params = {\n        -- NOTE: model can be a function returning the model name\n        -- this is useful if you want to change the model on the fly\n        -- using commands\n        -- Example:\n        -- model = function()\n        --     if some_condition() then\n        --         return \"gpt-5\"\n        --     else\n        --         return \"gpt-5-mini\"\n        --     end\n        -- end,\n        model =",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Interactive Q&A**: Engage in interactive question-and-answer sessions with\nthe powerful gpt model (ChatGPT) using an intuitive interface.\n\n- **Persona-based Conversations**: Explore various perspectives and have\nconversations with different personas by selecting prompts from Awesome ChatGPT\nPrompts.\n\n- **Code Editing Assistance**: Enhance your coding experience with an interactive\nediting window powered by the gpt model, offering instructions tailored for\ncoding tasks.\n\n- **Code Completion**: Enjoy the convenience of code completion similar to GitHub\nCopilot, leveraging the capabilities of",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.801788684075733
+  },
+  {
+    "name": "ChatGPT.nvim/lua 模块",
+    "description": "[模块级] ChatGPT.nvim 项目的 lua 模块 (source)。来源: https://github.com/jackMort/ChatGPT.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "neovim",
+      "nvim-plugin",
+      "openai",
+      "lua",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 43\n\n包含文件:\n- lua/chatgpt.lua\n- lua/chatgpt\n- lua/chatgpt/api.lua\n- lua/chatgpt/code_edits.lua\n- lua/chatgpt/common\n- lua/chatgpt/common/classes.lua\n- lua/chatgpt/common/input_widget.lua\n- lua/chatgpt/common/logger.lua\n- lua/chatgpt/common/preview_window.lua\n- lua/chatgpt/config.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/chatgpt.lua\nlua/chatgpt\nlua/chatgpt/api.lua\nlua/chatgpt/code_edits.lua\nlua/chatgpt/common\nlua/chatgpt/common/classes.lua\nlua/chatgpt/common/input_widget.lua\nlua/chatgpt/common/logger.lua\nlua/chatgpt/common/preview_window.lua\nlua/chatgpt/config.lua\nlua/chatgpt/context\nlua/chatgpt/context/init.lua\nlua/chatgpt/context/lsp.lua\nlua/chatgpt/context/project.lua\nlua/chatgpt/flows",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.941430947260587
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "agor (preset-io)",
+    "description": "[项目级] Orchestrate Claude Code, Codex, and Gemini sessions on a multiplayer canvas. Manage git worktrees, track AI conversations, and visualize your team's agentic work in real-time.。来源: https://github.com/preset-io/agor",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-996",
+      "github-preset-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Heavily prompted by [@mistercrunch](https://github.com/mistercrunch)** ([Preset](https://preset.io), [Apache Superset](https://github.com/apache/superset), [Apache Airflow](https://github.com/apache/airflow)), built by an army of Claudes.\n\nRead the story: [Making of Agor →](https://agor.live/blog/making-of-agor)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nANALYSIS-session-id-loading.md\nCLAUDE.md\nCONTRIBUTING.md\nJenkinsfile\nLICENSE\nMakefile\nPLAN.md\nREADME.md\napps\napps/agor-cli\napps/agor-daemon",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.499129669211849
+  },
+  {
+    "name": "agor/apps 模块",
+    "description": "[模块级] agor 项目的 apps 模块 (source)。来源: https://github.com/preset-io/agor",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-996",
+      "github-preset-io",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 159\n\n包含文件:\n- apps/agor-cli\n- apps/agor-cli/bin\n- apps/agor-cli/bin/dev.ts\n- apps/agor-cli/bin/run.js\n- apps/agor-cli/package.json\n- apps/agor-cli/src\n- apps/agor-cli/src/base-command.ts\n- apps/agor-cli/src/commands\n- apps/agor-cli/src/commands/admin\n- apps/agor-cli/src/commands/admin/add-to-worktree-group.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/agor-cli\napps/agor-cli/bin\napps/agor-cli/bin/dev.ts\napps/agor-cli/bin/run.js\napps/agor-cli/package.json\napps/agor-cli/src\napps/agor-cli/src/base-command.ts\napps/agor-cli/src/commands\napps/agor-cli/src/commands/admin\napps/agor-cli/src/commands/admin/add-to-worktree-group.ts\napps/agor-cli/src/commands/admin/create-symlink.ts\napps/agor-cli/src/commands/admin/create-worktree-group.ts\napps/agor-cli/src/commands/admin/delete-user.ts\napps/agor-cli/src/commands/admin/delete-worktree-group.ts\napps/agor-cli/src/commands/admin/ensure-user.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6993037353694795
+  }
+]

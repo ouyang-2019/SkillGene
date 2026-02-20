@@ -1,0 +1,178 @@
+[
+  {
+    "name": "weggli (weggli-rs)",
+    "description": "[项目级] weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.。来源: https://github.com/weggli-rs/weggli",
+    "domain": "security",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "weggli is a fast and robust semantic search tool for C and C++ codebases.\nIt is designed to help security researchers identify interesting functionality in large codebases.\n\nweggli performs pattern matching on Abstract Syntax Trees based on user provided queries. Its query language\nresembles C and C++ code, making it easy to turn interesting code patterns into queries.\n\nweggli is inspired by great tools like [Semgrep](https://semgrep.dev/), [Coccinelle](https://coccinelle.gitlabpages.inria.fr/website/), [joern](https://joern.readthedocs.io/en/latest/) and [CodeQL](https://securitylab.github.com/tools/codeql), but makes some different design decisions:\n\n- **C++ support**: weggli has first class support for modern C++ constructs, such as lambda expressions, range-based for loops and constexp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "$ cargo install weggli",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCargo.lock\nCargo.toml\nLICENSE\nManifest.in\nREADME.md\nbenches\nbenches/examples.rs\nbuild.rs\nexample.gif\nfuzz\nfuzz/.gitignore\nfuzz/Cargo.lock\nfuzz/Cargo.toml\nfuzz/fuzz_targets\nplugins\nplugins/binaryninja\nplugins/idapro\npyproject.toml\nsetup.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Use -h for short descriptions and --help for more details.\n\n Homepage: https://github.com/weggli-rs/weggli\n\n USAGE: weggli [OPTIONS] <PATTERN> <PATH>\n\n ARGS:\n     <PATTERN>\n            A weggli search pattern. weggli's query language closely resembles\n             C and C++ with a small number of extra features.\n\n             For example, the pattern '{_ $buf[_]; memcpy($buf,_,_);}' will\n             find all calls to memcpy that directly write into a stack buffer.\n\n             Besides normal C and C++ constructs, weggli's query language\n             supports the following features:\n\n        ",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.696963003292918
+  },
+  {
+    "name": "weggli/fuzz 模块",
+    "description": "[模块级] weggli 项目的 fuzz 模块 (source)。来源: https://github.com/weggli-rs/weggli",
+    "domain": "security",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "module-level",
+      "source",
+      "fuzz"
+    ],
+    "genes": [
+      {
+        "title": "fuzz 模块说明",
+        "content": "模块路径: fuzz/\n类型: source\n文件数: 5\n\n包含文件:\n- fuzz/.gitignore\n- fuzz/Cargo.lock\n- fuzz/Cargo.toml\n- fuzz/fuzz_targets\n- fuzz/fuzz_targets/fuzz_query.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fuzz 文件结构",
+        "content": "fuzz/.gitignore\nfuzz/Cargo.lock\nfuzz/Cargo.toml\nfuzz/fuzz_targets\nfuzz/fuzz_targets/fuzz_query.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8575704026343347
+  },
+  {
+    "name": "weggli/plugins 模块",
+    "description": "[模块级] weggli 项目的 plugins 模块 (source)。来源: https://github.com/weggli-rs/weggli",
+    "domain": "security",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 8\n\n包含文件:\n- plugins/binaryninja\n- plugins/binaryninja/LICENSE\n- plugins/binaryninja/README.md\n- plugins/binaryninja/binja_weggli.py\n- plugins/binaryninja/plugins.json\n- plugins/binaryninja/requirements.txt\n- plugins/idapro\n- plugins/idapro/ida_weggli.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/binaryninja\nplugins/binaryninja/LICENSE\nplugins/binaryninja/README.md\nplugins/binaryninja/binja_weggli.py\nplugins/binaryninja/plugins.json\nplugins/binaryninja/requirements.txt\nplugins/idapro\nplugins/idapro/ida_weggli.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8575704026343347
+  },
+  {
+    "name": "weggli/src 模块",
+    "description": "[模块级] weggli 项目的 src 模块 (source)。来源: https://github.com/weggli-rs/weggli",
+    "domain": "security",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 9\n\n包含文件:\n- src/builder.rs\n- src/capture.rs\n- src/cli.rs\n- src/lib.rs\n- src/main.rs\n- src/python.rs\n- src/query.rs\n- src/result.rs\n- src/util.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/builder.rs\nsrc/capture.rs\nsrc/cli.rs\nsrc/lib.rs\nsrc/main.rs\nsrc/python.rs\nsrc/query.rs\nsrc/result.rs\nsrc/util.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8575704026343347
+  },
+  {
+    "name": "weggli/tests 模块",
+    "description": "[模块级] weggli 项目的 tests 模块 (test)。来源: https://github.com/weggli-rs/weggli",
+    "domain": "testing",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 3\n\n包含文件:\n- tests/__init__.py\n- tests/cli.rs\n- tests/query.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/cli.rs\ntests/query.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8575704026343347
+  },
+  {
+    "name": "weggli/third_party 模块",
+    "description": "[模块级] weggli 项目的 third_party 模块 (source)。来源: https://github.com/weggli-rs/weggli",
+    "domain": "security",
+    "tags": [
+      "rust",
+      "stars-2477",
+      "github-weggli-rs",
+      "module-level",
+      "source",
+      "third_party"
+    ],
+    "genes": [
+      {
+        "title": "third_party 模块说明",
+        "content": "模块路径: third_party/\n类型: source\n文件数: 20\n\n包含文件:\n- third_party/examples\n- third_party/examples/cluster.c\n- third_party/examples/invalid-utf8.c\n- third_party/examples/malloc.c\n- third_party/examples/parser.c\n- third_party/grammars\n- third_party/grammars/tree-sitter-c.patch\n- third_party/grammars/tree_sitter\n- third_party/grammars/tree_sitter/parser.h\n- third_party/grammars/weggli-c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "third_party 文件结构",
+        "content": "third_party/examples\nthird_party/examples/cluster.c\nthird_party/examples/invalid-utf8.c\nthird_party/examples/malloc.c\nthird_party/examples/parser.c\nthird_party/grammars\nthird_party/grammars/tree-sitter-c.patch\nthird_party/grammars/tree_sitter\nthird_party/grammars/tree_sitter/parser.h\nthird_party/grammars/weggli-c\nthird_party/grammars/weggli-c/grammar.js\nthird_party/grammars/weggli-c/src\nthird_party/grammars/weggli-c/src/node-types.json\nthird_party/grammars/weggli-c/src/parser.c\nthird_party/grammars/weggli-cpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8575704026343347
+  }
+]

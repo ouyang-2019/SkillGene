@@ -1,0 +1,68 @@
+[
+  {
+    "name": "cli (entireio)",
+    "description": "[项目级] Entire is a new developer platform that hooks into your git workflow to capture AI agent sessions on every push, unifying your code with its context and reasoning.。来源: https://github.com/entireio/cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "developer",
+      "developer-platform",
+      "go",
+      "stars-2778",
+      "github-entireio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Entire is a new developer platform that hooks into your git workflow to capture AI agent sessions on every push, unifying your code with its context and reasoning.\n\n来源: https://github.com/entireio/cli\n语言: Go\nStars: 2778",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nGEMINI.md\nLICENSE\nREADME.md\nSECURITY.md\ncmd\ncmd/entire",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.721866120700798
+  },
+  {
+    "name": "cli/cmd 模块",
+    "description": "[模块级] cli 项目的 cmd 模块 (source)。来源: https://github.com/entireio/cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "developer",
+      "developer-platform",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 136\n\n包含文件:\n- cmd/entire\n- cmd/entire/cli\n- cmd/entire/cli/agent\n- cmd/entire/cli/agent/agent.go\n- cmd/entire/cli/agent/agent_test.go\n- cmd/entire/cli/agent/chunking.go\n- cmd/entire/cli/agent/chunking_test.go\n- cmd/entire/cli/agent/claudecode\n- cmd/entire/cli/agent/claudecode/claude.go\n- cmd/entire/cli/agent/claudecode/claude_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/entire\ncmd/entire/cli\ncmd/entire/cli/agent\ncmd/entire/cli/agent/agent.go\ncmd/entire/cli/agent/agent_test.go\ncmd/entire/cli/agent/chunking.go\ncmd/entire/cli/agent/chunking_test.go\ncmd/entire/cli/agent/claudecode\ncmd/entire/cli/agent/claudecode/claude.go\ncmd/entire/cli/agent/claudecode/claude_test.go\ncmd/entire/cli/agent/claudecode/hooks.go\ncmd/entire/cli/agent/claudecode/hooks_test.go\ncmd/entire/cli/agent/claudecode/lifecycle.go\ncmd/entire/cli/agent/claudecode/lifecycle_test.go\ncmd/entire/cli/agent/claudecode/transcript.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.877492896560639
+  }
+]

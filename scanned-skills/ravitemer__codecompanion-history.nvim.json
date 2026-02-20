@@ -1,0 +1,138 @@
+[
+  {
+    "name": "codecompanion-history.nvim (ravitemer)",
+    "description": "[项目级] A history management extension for codecompanion AI chat plugin that enables saving, browsing and restoring chat sessions.。来源: https://github.com/ravitemer/codecompanion-history.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatplugin",
+      "claude",
+      "claude-code",
+      "lua",
+      "stars-165",
+      "github-ravitemer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A history management extension for codecompanion AI chat plugin that enables saving, browsing and restoring chat sessions.\n\n来源: https://github.com/ravitemer/codecompanion-history.nvim\n语言: Lua\nStars: 165",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Using [lazy.nvim](https://github.com/folke/lazy.nvim):",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE.md\nMakefile\nREADME.md\ndoc\ndoc/codecompanion-history.txt\nlua\nlua/codecompanion\nscripts\nscripts/minimal_init.lua\nscripts/vimdoc.md\nstylua.toml\ntests\ntests/cc_config.lua\ntests/cc_helpers.lua\ntests/helpers.lua\ntests/stubs\ntests/test_filtering.lua\ntests/test_providers.lua\ntests/test_setup.lua",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.108741972106953
+  },
+  {
+    "name": "codecompanion-history.nvim/lua 模块",
+    "description": "[模块级] codecompanion-history.nvim 项目的 lua 模块 (source)。来源: https://github.com/ravitemer/codecompanion-history.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatplugin",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 18\n\n包含文件:\n- lua/codecompanion\n- lua/codecompanion/_extensions\n- lua/codecompanion/_extensions/history\n- lua/codecompanion/_extensions/history/init.lua\n- lua/codecompanion/_extensions/history/log.lua\n- lua/codecompanion/_extensions/history/pickers\n- lua/codecompanion/_extensions/history/pickers/default.lua\n- lua/codecompanion/_extensions/history/pickers/fzf-lua.lua\n- lua/codecompanion/_extensions/history/pickers/init.lua\n- lua/codecompanion/_extensions/history/pickers/snacks.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/codecompanion\nlua/codecompanion/_extensions\nlua/codecompanion/_extensions/history\nlua/codecompanion/_extensions/history/init.lua\nlua/codecompanion/_extensions/history/log.lua\nlua/codecompanion/_extensions/history/pickers\nlua/codecompanion/_extensions/history/pickers/default.lua\nlua/codecompanion/_extensions/history/pickers/fzf-lua.lua\nlua/codecompanion/_extensions/history/pickers/init.lua\nlua/codecompanion/_extensions/history/pickers/snacks.lua\nlua/codecompanion/_extensions/history/pickers/telescope.lua\nlua/codecompanion/_extensions/history/storage.lua\nlua/codecompanion/_extensions/history/summary_generator.lua\nlua/codecompanion/_extensions/history/title_generator.lua\nlua/codecompanion/_extensions/history/types.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3869935776855624
+  },
+  {
+    "name": "codecompanion-history.nvim/scripts 模块",
+    "description": "[模块级] codecompanion-history.nvim 项目的 scripts 模块 (script)。来源: https://github.com/ravitemer/codecompanion-history.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatplugin",
+      "claude",
+      "claude-code",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/minimal_init.lua\n- scripts/vimdoc.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/minimal_init.lua\nscripts/vimdoc.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3869935776855624
+  },
+  {
+    "name": "codecompanion-history.nvim/tests 模块",
+    "description": "[模块级] codecompanion-history.nvim 项目的 tests 模块 (test)。来源: https://github.com/ravitemer/codecompanion-history.nvim",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatplugin",
+      "claude",
+      "claude-code",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 12\n\n包含文件:\n- tests/cc_config.lua\n- tests/cc_helpers.lua\n- tests/helpers.lua\n- tests/stubs\n- tests/stubs/chat_data.json\n- tests/stubs/weather.lua\n- tests/test_filtering.lua\n- tests/test_providers.lua\n- tests/test_setup.lua\n- tests/test_storage.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/cc_config.lua\ntests/cc_helpers.lua\ntests/helpers.lua\ntests/stubs\ntests/stubs/chat_data.json\ntests/stubs/weather.lua\ntests/test_filtering.lua\ntests/test_providers.lua\ntests/test_setup.lua\ntests/test_storage.lua\ntests/test_summary.lua\ntests/test_title_generator.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3869935776855624
+  }
+]

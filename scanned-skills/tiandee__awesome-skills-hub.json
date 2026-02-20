@@ -1,0 +1,127 @@
+[
+  {
+    "name": "awesome-skills-hub (tiandee)",
+    "description": "[项目级] A professional package manager for AI IDE skills & rules. Centralize your prompts and sync across Antigravity, Cursor, Windsurf, and Claude with \"Write Once, Link Everywhere\" simplicity.。来源: https://github.com/tiandee/awesome-skills-hub",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-16",
+      "github-tiandee",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A professional package manager for AI IDE skills & rules. Centralize your prompts and sync across Antigravity, Cursor, Windsurf, and Claude with \"Write Once, Link Everywhere\" simplicity.\n\n来源: https://github.com/tiandee/awesome-skills-hub\n语言: Python\nStars: 16",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_CN.md\nbin\nbin/ash\nbin/ash-wrapper.js\nbin/ash.ps1\ndoc\ndoc/INTRODUCTION.md\ndoc/INTRODUCTION_CN.md\ninstall.ps1\ninstall.sh\npackage.json\nskills\nskills/algorithmic-art\nskills/brand-guidelines\nskills/canvas-design\nskills/doc-coauthoring\nskills/docx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Dual-Scope Management**: Support both **Global Scope** (`~/.ash/skills`) and **Project Scope** (Project-local).\n- **Universal IDE Bridge**: Automatically compatibilizes with **Cursor**, **Windsurf**, **TRAE**, **Antigravity**, and **Copilot).\n- **Centralized \"Homebrew\"**: Keep all your prompts in one place, independent of IDE configs.\n- **Live Symlinks**: Updates in the repository immediately reflect in all your connected IDEs.\n- **Ecosystem Integration**: Auto-import skills downloaded via `npx skills` (See [Ecosystem Integration](#-ecosystem-integration)).\n- **Smart Monorepo Discovery**: ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6020599913279625
+  },
+  {
+    "name": "awesome-skills-hub/bin 模块",
+    "description": "[模块级] awesome-skills-hub 项目的 bin 模块 (script)。来源: https://github.com/tiandee/awesome-skills-hub",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-16",
+      "github-tiandee",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 3\n\n包含文件:\n- bin/ash\n- bin/ash-wrapper.js\n- bin/ash.ps1",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/ash\nbin/ash-wrapper.js\nbin/ash.ps1",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.98164799306237
+  },
+  {
+    "name": "awesome-skills-hub/doc 模块",
+    "description": "[模块级] awesome-skills-hub 项目的 doc 模块 (docs)。来源: https://github.com/tiandee/awesome-skills-hub",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-16",
+      "github-tiandee",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "模块路径: doc/\n类型: docs\n文件数: 2\n\n包含文件:\n- doc/INTRODUCTION.md\n- doc/INTRODUCTION_CN.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/INTRODUCTION.md\ndoc/INTRODUCTION_CN.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.98164799306237
+  },
+  {
+    "name": "awesome-skills-hub/skills 模块",
+    "description": "[模块级] awesome-skills-hub 项目的 skills 模块 (source)。来源: https://github.com/tiandee/awesome-skills-hub",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-16",
+      "github-tiandee",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "> **One skill library, every AI IDE** — install once, sync to Cursor, Claude, Windsurf, and more.\n\n[![NPM Version](https://img.shields.io/npm/v/askill?color=red)](https://www.npmjs.com/package/askill)\n[![License](https://img.shields.io/npm/l/askill)](https://github.com/tiandee/awesome-skills-hub/blob/main/LICENSE)\n\nA lightweight package manager for AI IDE skills, rules, and architecture instructions.\n\n**English** | [简体中文](README_CN.md) | [Contributing](CONTRIBUTING.md)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/algorithmic-art\nskills/algorithmic-art/LICENSE.txt\nskills/algorithmic-art/SKILL.md\nskills/algorithmic-art/templates\nskills/algorithmic-art/templates/generator_template.js\nskills/algorithmic-art/templates/viewer.html\nskills/brand-guidelines\nskills/brand-guidelines/LICENSE.txt\nskills/brand-guidelines/SKILL.md\nskills/canvas-design\nskills/canvas-design/LICENSE.txt\nskills/canvas-design/SKILL.md\nskills/canvas-design/canvas-fonts\nskills/canvas-design/canvas-fonts/ArsenalSC-OFL.txt\nskills/canvas-design/canvas-fonts/ArsenalSC-Regular.ttf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.98164799306237
+  }
+]

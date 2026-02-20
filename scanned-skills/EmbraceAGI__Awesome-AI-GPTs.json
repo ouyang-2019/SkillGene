@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Awesome-AI-GPTs (EmbraceAGI)",
+    "description": "[项目级] Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking。来源: https://github.com/EmbraceAGI/Awesome-AI-GPTs",
+    "domain": "ai-llm",
+    "tags": [
+      "aigpts",
+      "bots",
+      "chatbot",
+      "gpt-3",
+      "gpt-4",
+      "stars-1178",
+      "github-embraceagi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking\n\n来源: https://github.com/EmbraceAGI/Awesome-AI-GPTs\n语言: unknown\nStars: 1178",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nimgs\nimgs/wx.jpg\nimgs/wx2.jpg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**1.微信公众号**\n\n![wx_gh](https://raw.githubusercontent.com/yzfly/awesome-chatgpt-zh/main/imgs/qrcode_for_wx_gh.jpg)\n\n**2.Telegram 电报**\n\n欢迎加入电报交流群讨论 ChatGPT 相关资源及日常使用等相关话题：\n\n- 🚀[电报频道：ChatGPT 精选](https://t.me/AwesomeChatGPT)🚀\n- 🚀[电报交流群：ChatGPT 精选 Chat](https://t.me/+cBIhxVSwABg4Y2M5)🚀\n\n**3.微信群**\n\n![imgs](imgs/wx2.jpg)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.535572645225542
+  },
+  {
+    "name": "Awesome-AI-GPTs/imgs 模块",
+    "description": "[模块级] Awesome-AI-GPTs 项目的 imgs 模块 (source)。来源: https://github.com/EmbraceAGI/Awesome-AI-GPTs",
+    "domain": "ai-llm",
+    "tags": [
+      "aigpts",
+      "bots",
+      "chatbot",
+      "gpt-3",
+      "gpt-4",
+      "module-level",
+      "source",
+      "imgs"
+    ],
+    "genes": [
+      {
+        "title": "imgs 模块说明",
+        "content": "模块路径: imgs/\n类型: source\n文件数: 2\n\n包含文件:\n- imgs/wx.jpg\n- imgs/wx2.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "imgs 文件结构",
+        "content": "imgs/wx.jpg\nimgs/wx2.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.728458116180433
+  }
+]

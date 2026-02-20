@@ -1,0 +1,178 @@
+[
+  {
+    "name": "agent-skills (jdrhyne)",
+    "description": "[项目级] A collection of AI agent skills for Clawdbot, Claude Code, Codex。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of AI agent skills for Clawdbot, Claude Code, Codex\n\n来源: https://github.com/jdrhyne/agent-skills\n语言: Python\nStars: 184",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCOMPATIBILITY.md\nCONTRIBUTING.md\nREADME.md\nclawdbot\nclawdbot/auto-updater\nclawdbot/clawdbot-release-check\nclawdbot/clawddocs\nclawdbot/gallery-scraper\nclawdbot/knowledge-graph\nclawdbot/self-improving-agent\nclawdbot/skill-sync\nclawdbot/todo-tracker\ncodex\ncodex/codex\ncodex/command-creator\ncodex/gemini\nprompts\nprompts/frontend-design\nprompts/humanizer",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.132408911504768
+  },
+  {
+    "name": "agent-skills/clawdbot 模块",
+    "description": "[模块级] agent-skills 项目的 clawdbot 模块 (source)。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "module-level",
+      "source",
+      "clawdbot"
+    ],
+    "genes": [
+      {
+        "title": "clawdbot 模块说明",
+        "content": "Skills designed specifically for [OpenClaw](https://github.com/openclaw/openclaw):\n\n| Skill | Trust &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |\n|-------|-------|-------------|\n| [`auto-updater`](clawdbot/auto-updater/) | <img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fjdrhyne.github.io%2Fagent-skills%2Fskills%2Fclawdbot--auto-updater--SKILL.md.json&label=&style=for-the-badge\" width=\"200\"> | Automatically update OpenClaw and installed skills daily via ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clawdbot 文件结构",
+        "content": "clawdbot/auto-updater\nclawdbot/auto-updater/SKILL.md\nclawdbot/auto-updater/references\nclawdbot/auto-updater/references/agent-guide.md\nclawdbot/auto-updater/references/summary-examples.md\nclawdbot/clawdbot-release-check\nclawdbot/clawdbot-release-check/SKILL.md\nclawdbot/clawdbot-release-check/scripts\nclawdbot/clawdbot-release-check/scripts/check.sh\nclawdbot/clawdbot-release-check/scripts/setup.sh\nclawdbot/clawddocs\nclawdbot/clawddocs/SKILL.md\nclawdbot/clawddocs/package.json\nclawdbot/clawddocs/scripts\nclawdbot/clawddocs/scripts/build-index.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4059271292038145
+  },
+  {
+    "name": "agent-skills/codex 模块",
+    "description": "[模块级] agent-skills 项目的 codex 模块 (source)。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "module-level",
+      "source",
+      "codex"
+    ],
+    "genes": [
+      {
+        "title": "codex 模块说明",
+        "content": "Skills designed for [Codex CLI](https://github.com/openai/codex) (OpenAI's coding agent):\n\n| Skill | Trust &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |\n|-------|-------|-------------|\n| [`codex`](codex/codex/) | <img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fjdrhyne.github.io%2Fagent-skills%2Fskills%2Fcodex--codex--SKILL.md.json&label=&style=for-the-badge\" width=\"200\"> | Run Codex CLI with GPT-5.2. Covers sandbox modes, reasoning levels, resume sessio",
+        "gene_type": "principle"
+      },
+      {
+        "title": "codex 文件结构",
+        "content": "codex/codex\ncodex/codex/README.md\ncodex/codex/SKILL.md\ncodex/command-creator\ncodex/command-creator/README.md\ncodex/command-creator/SKILL.md\ncodex/command-creator/references\ncodex/command-creator/references/best-practices.md\ncodex/command-creator/references/examples.md\ncodex/command-creator/references/patterns.md\ncodex/gemini\ncodex/gemini/README.md\ncodex/gemini/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4059271292038145
+  },
+  {
+    "name": "agent-skills/prompts 模块",
+    "description": "[模块级] agent-skills 项目的 prompts 模块 (source)。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "Pure instruction prompts — guidance text that works with any AI agent:\n\n| Prompt | Trust &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |\n|--------|-------|-------------|\n| [`frontend-design`](prompts/frontend-design/) | <img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fjdrhyne.github.io%2Fagent-skills%2Fskills%2Fprompts--frontend-design--SKILL.md.json&label=&style=for-the-badge\" width=\"200\"> | Expert frontend design guidelines for creating beautiful, modern",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/frontend-design\nprompts/frontend-design/SKILL.md\nprompts/humanizer\nprompts/humanizer/SKILL.md\nprompts/munger-observer\nprompts/munger-observer/SKILL.md\nprompts/senior-engineering\nprompts/senior-engineering/SKILL.md\nprompts/web-design-guidelines\nprompts/web-design-guidelines/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4059271292038145
+  },
+  {
+    "name": "agent-skills/scripts 模块",
+    "description": "[模块级] agent-skills 项目的 scripts 模块 (script)。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "- `scripts/update-readme.sh` — Auto-generate README from skill metadata\n- `scripts/validate-skills.sh` — Validate SKILL.md format across all skills\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/update-readme.sh\nscripts/validate-skills.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4059271292038145
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/jdrhyne/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-184",
+      "github-jdrhyne",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "```\n═══════════════════════════════════════════════════════════════════════════════════════\n█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█\n█                                                                                       █\n█     ░█████╗░░██████╗░███████╗███╗░░██╗████████╗  ░██████╗██╗░░██╗██╗██╗░░░░░██╗░░░░░  █\n█     ██╔══██╗██╔════╝░██╔════╝████╗░██║╚══██╔══╝  ██╔════╝██║░██╔╝██║██║░░░░░██║░░░░░  █\n█     ███████║██║░░██╗░█████╗░░██╔██╗██║░░░██║░░░ ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/context-recovery\nskills/context-recovery/SKILL.md\nskills/elegant-reports\nskills/elegant-reports/NORDIC_DESIGN_RESEARCH.md\nskills/elegant-reports/SKILL.md\nskills/elegant-reports/examples\nskills/elegant-reports/examples/sample-executive.md\nskills/elegant-reports/examples/sample-output.html\nskills/elegant-reports/examples/sample-output.pdf\nskills/elegant-reports/generate.js\nskills/elegant-reports/package-lock.json\nskills/elegant-reports/package.json\nskills/elegant-reports/templates\nskills/elegant-reports/templates/analysis.html\nskills/elegant-reports/templates/executive-v2.html",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "skills 代码示例",
+        "content": "═══════════════════════════════════════════════════════════════════════════════════════\n█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█\n█                                                                                       █\n█     ░█████╗░░██████╗░███████╗███╗░░██╗████████╗  ░██████╗██╗░░██╗██╗██╗░░░░░██╗░░░░░  █\n█     ██╔══██╗██╔════╝░██╔════╝████╗░██║╚══██╔══╝  ██╔════╝██║░██╔╝██║██║░░░░░██║░░░░░  █\n█     ███████║██║░░██╗░█████╗░░██╔██╗██║░░░██║░░░  ╚█████╗░█████═╝░██║██║░░░░░██║░░░░░  █\n█     ██╔══██║██║░░╚██╗██╔══╝░░██║╚████║░░░██║░░░  ░╚═══██╗██╔═█",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4059271292038145
+  }
+]

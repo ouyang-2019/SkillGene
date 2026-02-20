@@ -1,0 +1,87 @@
+[
+  {
+    "name": "goose (block)",
+    "description": "[项目级] an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM。来源: https://github.com/block/goose",
+    "domain": "ai-llm",
+    "tags": [
+      "mcp",
+      "rust",
+      "stars-30745",
+      "github-block",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM\n\n来源: https://github.com/block/goose\n语言: Rust\nStars: 30745",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nBUILDING_DOCKER.md\nBUILDING_LINUX.md\nCONTRIBUTING.md\nCONTRIBUTING_RECIPES.md\nCUSTOM_DISTROS.md\nCargo.lock\nCargo.toml\nCross.toml\nDockerfile\nGOVERNANCE.md\nHOWTOAI.md\nJustfile\nLICENSE\nMAINTAINERS.md\nREADME.md\nRELEASE.md\nRELEASE_CHECKLIST.md\nSECURITY.md\nbin",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "goose/bin 模块",
+    "description": "[模块级] goose 项目的 bin 模块 (script)。来源: https://github.com/block/goose",
+    "domain": "ai-llm",
+    "tags": [
+      "mcp",
+      "rust",
+      "stars-30745",
+      "github-block",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 31\n\n包含文件:\n- bin/.just-1.40.0.pkg\n- bin/.node-24.10.0.pkg\n- bin/.protoc-31.1.pkg\n- bin/.rustup-1.28.2.pkg\n- bin/.temporal-cli-1.3.0.pkg\n- bin/README.hermit.md\n- bin/activate-hermit\n- bin/activate-hermit.fish\n- bin/cargo\n- bin/cargo-clippy",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/.just-1.40.0.pkg\nbin/.node-24.10.0.pkg\nbin/.protoc-31.1.pkg\nbin/.rustup-1.28.2.pkg\nbin/.temporal-cli-1.3.0.pkg\nbin/README.hermit.md\nbin/activate-hermit\nbin/activate-hermit.fish\nbin/cargo\nbin/cargo-clippy\nbin/cargo-fmt\nbin/cargo-miri\nbin/clippy-driver\nbin/corepack\nbin/hermit",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.295109798952267
+  },
+  {
+    "name": "goose/crates 模块",
+    "description": "[模块级] goose 项目的 crates 模块 (source)。来源: https://github.com/block/goose",
+    "domain": "ai-llm",
+    "tags": [
+      "mcp",
+      "rust",
+      "stars-30745",
+      "github-block",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 79\n\n包含文件:\n- crates/goose-acp-macros\n- crates/goose-acp-macros/Cargo.toml\n- crates/goose-acp-macros/src\n- crates/goose-acp-macros/src/lib.rs\n- crates/goose-acp\n- crates/goose-acp/Cargo.toml\n- crates/goose-acp/acp-meta.json\n- crates/goose-acp/acp-schema.json\n- crates/goose-acp/src\n- crates/goose-acp/src/adapters.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/goose-acp-macros\ncrates/goose-acp-macros/Cargo.toml\ncrates/goose-acp-macros/src\ncrates/goose-acp-macros/src/lib.rs\ncrates/goose-acp\ncrates/goose-acp/Cargo.toml\ncrates/goose-acp/acp-meta.json\ncrates/goose-acp/acp-schema.json\ncrates/goose-acp/src\ncrates/goose-acp/src/adapters.rs\ncrates/goose-acp/src/bin\ncrates/goose-acp/src/bin/generate_acp_schema.rs\ncrates/goose-acp/src/bin/server.rs\ncrates/goose-acp/src/custom_requests.rs\ncrates/goose-acp/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.295109798952267
+  }
+]

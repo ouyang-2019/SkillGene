@@ -1,0 +1,168 @@
+[
+  {
+    "name": "vim-ai (madox2)",
+    "description": "[项目级] AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim.。来源: https://github.com/madox2/vim-ai",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "code-generation",
+      "gemini",
+      "gpt-4",
+      "llm",
+      "python",
+      "stars-1133",
+      "github-madox2",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim.\n\n来源: https://github.com/madox2/vim-ai\n语言: Python\nStars: 1133",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nautoload\nautoload/vim_ai.vim\nautoload/vim_ai_config.vim\nautoload/vim_ai_provider.vim\ndemo.gif\ndoc\ndoc/tags\ndoc/vim-ai.txt\nftdetect\nftdetect/aichat.vim\nftplugin\nftplugin/aichat.vim\nplugin\nplugin/vim-ai.vim\npy\npy/__init__.py\npy/chat.py\npy/complete.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "========== Basic AI commands ==========\n\n:AI          complete text\n:AIEdit      edit text\n:AIChat      continue or open new chat\n:AIStopChat  stop the generation of the AI response for the AIChat\n:AIImage     generate image\n\n============== Utilities ==============\n\n:AIRedo          repeat last AI command\n:AIUtilRolesOpen open role config file\n:AIUtilDebugOn   turn on debug logging\n:AIUtilDebugOff  turn off debug logging\n\n:help vim-ai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Generate text or code, answer questions with AI\n- Edit selected text in-place with AI\n- Interactive conversation with ChatGPT\n- Custom roles\n- Vision capabilities (image to text)\n- Generate images\n- Integrates with any OpenAI-compatible API\n- AI provider plugins",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.527114954931699
+  },
+  {
+    "name": "vim-ai/autoload 模块",
+    "description": "[模块级] vim-ai 项目的 autoload 模块 (source)。来源: https://github.com/madox2/vim-ai",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "code-generation",
+      "gemini",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "source",
+      "autoload"
+    ],
+    "genes": [
+      {
+        "title": "autoload 模块说明",
+        "content": "模块路径: autoload/\n类型: source\n文件数: 3\n\n包含文件:\n- autoload/vim_ai.vim\n- autoload/vim_ai_config.vim\n- autoload/vim_ai_provider.vim",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autoload 文件结构",
+        "content": "autoload/vim_ai.vim\nautoload/vim_ai_config.vim\nautoload/vim_ai_provider.vim",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "vim-ai/doc 模块",
+    "description": "[模块级] vim-ai 项目的 doc 模块 (docs)。来源: https://github.com/madox2/vim-ai",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "code-generation",
+      "gemini",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "模块路径: doc/\n类型: docs\n文件数: 2\n\n包含文件:\n- doc/tags\n- doc/vim-ai.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/tags\ndoc/vim-ai.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "vim-ai/py 模块",
+    "description": "[模块级] vim-ai 项目的 py 模块 (source)。来源: https://github.com/madox2/vim-ai",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "code-generation",
+      "gemini",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "source",
+      "py"
+    ],
+    "genes": [
+      {
+        "title": "py 模块说明",
+        "content": "模块路径: py/\n类型: source\n文件数: 10\n\n包含文件:\n- py/__init__.py\n- py/chat.py\n- py/complete.py\n- py/context.py\n- py/image.py\n- py/providers\n- py/providers/openai.py\n- py/roles.py\n- py/types.py\n- py/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "py 文件结构",
+        "content": "py/__init__.py\npy/chat.py\npy/complete.py\npy/context.py\npy/image.py\npy/providers\npy/providers/openai.py\npy/roles.py\npy/types.py\npy/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "vim-ai/tests 模块",
+    "description": "[模块级] vim-ai 项目的 tests 模块 (test)。来源: https://github.com/madox2/vim-ai",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "code-generation",
+      "gemini",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 14\n\n包含文件:\n- tests/chat_test.py\n- tests/context_test.py\n- tests/deprecated_role_syntax_test.py\n- tests/mocks\n- tests/mocks/vim.py\n- tests/resources\n- tests/resources/binary_file.bin\n- tests/resources/example.token\n- tests/resources/image_file.jpg\n- tests/resources/roles.ini",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/chat_test.py\ntests/context_test.py\ntests/deprecated_role_syntax_test.py\ntests/mocks\ntests/mocks/vim.py\ntests/resources\ntests/resources/binary_file.bin\ntests/resources/example.token\ntests/resources/image_file.jpg\ntests/resources/roles.ini\ntests/resources/test1.include.txt\ntests/resources/test2.include.txt\ntests/roles_test.py\ntests/utils_test.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Lynkr (Fast-Editor)",
+    "description": "[项目级] Streamline your workflow with Lynkr, a CLI tool that acts as an HTTP proxy for efficient code interactions using Claude Code CLI.。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "javascript",
+      "stars-339",
+      "github-fast-editor",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Lynkr is a **self-hosted proxy server** that unlocks Claude Code CLI , Cursor IDE and Codex Cli by enabling:\n\n- 🚀 **Any LLM Provider** - Databricks, AWS Bedrock (100+ models), OpenRouter (100+ models), Ollama (local), llama.cpp, Azure OpenAI, Azure Anthropic, OpenAI, LM Studio\n- 💰 **60-80% Cost Reduction** - Built-in token optimization with smart tool selection, prompt caching, and memory deduplication\n- 🔒 **100% Local/Private** - Run completely offline with Ollama or llama.cpp\n- 🌐 **Remote or Local** - Connect to providers on any IP/hostname (not limited to localhost)\n- 🎯 **Zero Code Changes** - Drop-in replacement for Anthropic's backend\n- 🏢 **Enterprise-Ready** - Circuit breakers, load shedding, Prometheus metrics, health checks\n\n**Perfect for:**\n- Developers who want provider fle",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATIONS.bib\nDEPLOYMENT.md\nDockerfile\nLICENSE\nPERFORMANCE-REPORT.md\nREADME.md\nbin\nbin/cli.js\ndocker-compose.yml\ndocker\ndocker/start.sh\ndocs\ndocs/42642f749da6234f41b6b425c3bb07c9.txt\ndocs/BingSiteAuth.xml\ndocs/docs-style.css\ndocs/docs.html\ndocs/google5be250e608e6da39.html\ndocs/index.html\ndocs/index.md\ndocs/robots.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp .env.example .env",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ✨ **[Core Features](documentation/features.md)** - Architecture, request flow, format conversion\n- 🧠 **[Memory System](documentation/memory-system.md)** - Titans-inspired long-term memory\n- 🗃️ **[Semantic Cache](#semantic-cache)** - Cache responses for similar prompts\n- 💰 **[Token Optimization](documentation/token-optimization.md)** - 60-80% cost reduction strategies\n- 🔧 **[Tools & Execution](documentation/tools.md)** - Tool calling, execution modes, custom tools",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.265099849101541
+  },
+  {
+    "name": "Lynkr/docs 模块",
+    "description": "[模块级] Lynkr 项目的 docs 模块 (docs)。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/42642f749da6234f41b6b425c3bb07c9.txt\n- docs/BingSiteAuth.xml\n- docs/docs-style.css\n- docs/docs.html\n- docs/google5be250e608e6da39.html\n- docs/index.html\n- docs/index.md\n- docs/robots.txt\n- docs/sitemap.xml\n- docs/style.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/42642f749da6234f41b6b425c3bb07c9.txt\ndocs/BingSiteAuth.xml\ndocs/docs-style.css\ndocs/docs.html\ndocs/google5be250e608e6da39.html\ndocs/index.html\ndocs/index.md\ndocs/robots.txt\ndocs/sitemap.xml\ndocs/style.css\ndocs/toon-integration-spec.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5120798792812327
+  },
+  {
+    "name": "Lynkr/documentation 模块",
+    "description": "[模块级] Lynkr 项目的 documentation 模块 (docs)。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "模块路径: documentation/\n类型: docs\n文件数: 19\n\n包含文件:\n- documentation/README.md\n- documentation/api.md\n- documentation/claude-code-cli.md\n- documentation/codex-cli.md\n- documentation/contributing.md\n- documentation/cursor-integration.md\n- documentation/docker.md\n- documentation/embeddings.md\n- documentation/faq.md\n- documentation/features.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/README.md\ndocumentation/api.md\ndocumentation/claude-code-cli.md\ndocumentation/codex-cli.md\ndocumentation/contributing.md\ndocumentation/cursor-integration.md\ndocumentation/docker.md\ndocumentation/embeddings.md\ndocumentation/faq.md\ndocumentation/features.md\ndocumentation/headroom.md\ndocumentation/installation.md\ndocumentation/memory-system.md\ndocumentation/production.md\ndocumentation/providers.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5120798792812327
+  },
+  {
+    "name": "Lynkr/headroom-sidecar 模块",
+    "description": "[模块级] Lynkr 项目的 headroom-sidecar 模块 (source)。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "module-level",
+      "source",
+      "headroom-sidecar"
+    ],
+    "genes": [
+      {
+        "title": "headroom-sidecar 模块说明",
+        "content": "模块路径: headroom-sidecar/\n类型: source\n文件数: 4\n\n包含文件:\n- headroom-sidecar/Dockerfile\n- headroom-sidecar/config.py\n- headroom-sidecar/requirements.txt\n- headroom-sidecar/server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "headroom-sidecar 文件结构",
+        "content": "headroom-sidecar/Dockerfile\nheadroom-sidecar/config.py\nheadroom-sidecar/requirements.txt\nheadroom-sidecar/server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5120798792812327
+  },
+  {
+    "name": "Lynkr/scripts 模块",
+    "description": "[模块级] Lynkr 项目的 scripts 模块 (script)。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/audit-log-reader.js\n- scripts/compact-dictionary.js\n- scripts/setup.js\n- scripts/test-deduplication.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/audit-log-reader.js\nscripts/compact-dictionary.js\nscripts/setup.js\nscripts/test-deduplication.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5120798792812327
+  },
+  {
+    "name": "Lynkr/src 模块",
+    "description": "[模块级] Lynkr 项目的 src 模块 (source)。来源: https://github.com/Fast-Editor/Lynkr",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "claude",
+      "claudecode",
+      "code-assistant",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 128\n\n包含文件:\n- src/agents\n- src/agents/context-manager.js\n- src/agents/definitions\n- src/agents/definitions/loader.js\n- src/agents/executor.js\n- src/agents/index.js\n- src/agents/parallel-coordinator.js\n- src/agents/reflector.js\n- src/agents/skillbook.js\n- src/agents/store.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/context-manager.js\nsrc/agents/definitions\nsrc/agents/definitions/loader.js\nsrc/agents/executor.js\nsrc/agents/index.js\nsrc/agents/parallel-coordinator.js\nsrc/agents/reflector.js\nsrc/agents/skillbook.js\nsrc/agents/store.js\nsrc/api\nsrc/api/health.js\nsrc/api/middleware\nsrc/api/middleware/budget.js\nsrc/api/middleware/error-handling.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5120798792812327
+  }
+]

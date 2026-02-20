@@ -1,0 +1,103 @@
+[
+  {
+    "name": "litellm (BerriAI)",
+    "description": "[项目级] Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]。来源: https://github.com/BerriAI/litellm",
+    "domain": "backend",
+    "tags": [
+      "ai-gateway",
+      "anthropic",
+      "azure-openai",
+      "bedrock",
+      "gateway",
+      "python",
+      "stars-36411",
+      "github-berriai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]\n\n来源: https://github.com/BerriAI/litellm\n语言: Python\nStars: 36411",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/BerriAI/litellm.git\ncd litellm\nmake install-dev    # Install development dependencies\nmake format         # Format your code\nmake lint           # Run all linting checks\nmake test-unit      # Run unit tests\nmake format-check   # Check formatting only",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nARCHITECTURE.md\nCLAUDE.md\nCONTRIBUTING.md\nDockerfile\nGEMINI.md\nLICENSE\nMakefile\nREADME.md\nci_cd\nci_cd/.grype.yaml\nci_cd/TEST_KEY_PATTERNS.md\nci_cd/baseline_db.py\nci_cd/check_file_length.py\nci_cd/check_files_match.py\nci_cd/publish-proxy-extras.sh\nci_cd/run_migration.py\nci_cd/security_scans.sh\nci_cd/security_scans_readme.md\ncodecov.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can use LiteLLM through either the Proxy Server or Python SDK. Both gives you a unified interface to access multiple LLMs (100+ LLMs). Choose the option that best fits your needs:\n\n<table style={{width: '100%', tableLayout: 'fixed'}}>\n<thead>\n<tr>\n<th style={{width: '14%'}}></th>\n<th style={{width: '43%'}}><strong><a href=\"https://docs.litellm.ai/docs/simple_proxy\">LiteLLM AI Gateway</a></strong></th>\n<th style={{width: '43%'}}><strong><a href=\"https://docs.litellm.ai/docs/\">LiteLLM Python SDK</a></strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style={{width: '14%'}}><strong>Use Case</strong",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "litellm/ci_cd 模块",
+    "description": "[模块级] litellm 项目的 ci_cd 模块 (source)。来源: https://github.com/BerriAI/litellm",
+    "domain": "backend",
+    "tags": [
+      "ai-gateway",
+      "anthropic",
+      "azure-openai",
+      "bedrock",
+      "gateway",
+      "module-level",
+      "source",
+      "ci_cd"
+    ],
+    "genes": [
+      {
+        "title": "ci_cd 模块说明",
+        "content": "模块路径: ci_cd/\n类型: source\n文件数: 9\n\n包含文件:\n- ci_cd/.grype.yaml\n- ci_cd/TEST_KEY_PATTERNS.md\n- ci_cd/baseline_db.py\n- ci_cd/check_file_length.py\n- ci_cd/check_files_match.py\n- ci_cd/publish-proxy-extras.sh\n- ci_cd/run_migration.py\n- ci_cd/security_scans.sh\n- ci_cd/security_scans_readme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci_cd 文件结构",
+        "content": "ci_cd/.grype.yaml\nci_cd/TEST_KEY_PATTERNS.md\nci_cd/baseline_db.py\nci_cd/check_file_length.py\nci_cd/check_files_match.py\nci_cd/publish-proxy-extras.sh\nci_cd/run_migration.py\nci_cd/security_scans.sh\nci_cd/security_scans_readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.324493042664136
+  },
+  {
+    "name": "litellm/cookbook 模块",
+    "description": "[模块级] litellm 项目的 cookbook 模块 (source)。来源: https://github.com/BerriAI/litellm",
+    "domain": "backend",
+    "tags": [
+      "ai-gateway",
+      "anthropic",
+      "azure-openai",
+      "bedrock",
+      "gateway",
+      "module-level",
+      "source",
+      "cookbook"
+    ],
+    "genes": [
+      {
+        "title": "cookbook 模块说明",
+        "content": "模块路径: cookbook/\n类型: source\n文件数: 107\n\n包含文件:\n- cookbook/Benchmarking_LLMs_by_use_case.ipynb\n- cookbook/Claude_(Anthropic)_with_Streaming_liteLLM_Examples.ipynb\n- cookbook/Evaluating_LLMs.ipynb\n- cookbook/LiteLLM_Azure_and_OpenAI_example.ipynb\n- cookbook/LiteLLM_Bedrock.ipynb\n- cookbook/LiteLLM_CometAPI.ipynb\n- cookbook/LiteLLM_Comparing_LLMs.ipynb\n- cookbook/LiteLLM_Completion_Cost.ipynb\n- cookbook/LiteLLM_HuggingFace.ipynb\n- cookbook/LiteLLM_NovitaAI_Cookbook.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbook 文件结构",
+        "content": "cookbook/Benchmarking_LLMs_by_use_case.ipynb\ncookbook/Claude_(Anthropic)_with_Streaming_liteLLM_Examples.ipynb\ncookbook/Evaluating_LLMs.ipynb\ncookbook/LiteLLM_Azure_and_OpenAI_example.ipynb\ncookbook/LiteLLM_Bedrock.ipynb\ncookbook/LiteLLM_CometAPI.ipynb\ncookbook/LiteLLM_Comparing_LLMs.ipynb\ncookbook/LiteLLM_Completion_Cost.ipynb\ncookbook/LiteLLM_HuggingFace.ipynb\ncookbook/LiteLLM_NovitaAI_Cookbook.ipynb\ncookbook/LiteLLM_OpenRouter.ipynb\ncookbook/LiteLLM_Petals.ipynb\ncookbook/LiteLLM_PromptLayer.ipynb\ncookbook/LiteLLM_User_Based_Rate_Limits.ipynb\ncookbook/LiteLLM_batch_completion.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.324493042664136
+  }
+]

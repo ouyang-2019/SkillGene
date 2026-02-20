@@ -1,0 +1,123 @@
+[
+  {
+    "name": "LearnPrompt (LearnPrompt)",
+    "description": "[项目级] 永久免费开源的 AIGC 课程, 目前已支持Prompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI数字人，AI声音&音乐，开源大模型。来源: https://github.com/LearnPrompt/LearnPrompt",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "aimusic",
+      "aivoice",
+      "chatgpt-app",
+      "digital-human",
+      "javascript",
+      "stars-2310",
+      "github-learnprompt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "永久免费开源的 AIGC 课程, 目前已支持Prompt Engineering, ChatGPT, Midjourney, Runway, Stable Diffusion, AI数字人，AI声音&音乐，开源大模型\n\n来源: https://github.com/LearnPrompt/LearnPrompt\n语言: JavaScript\nStars: 2310",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CNAME\nLICENSE\nREADME.md\nREADME_EN.md\nads_code.txt\nbabel.config.js\nbibliography.bib\nblog\nblog/2024-06-30-daily-archive.md\nblog/2024-07-01-daily.md\nblog/2024-07-03-daily.md\nblog/2024-07-05-daily.md\nblog/2024-07-08-daily.md\nblog/2024-07-10-daily.md\nblog/2024-07-16-daily.md\nblog/2024-07-17-daily.md\nblog/2024-07-18-daily.md\nblog/2024-07-19-daily.md\nblog/2024-07-21-log.md\nblog/2024-07-23-daily.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.681805989946072
+  },
+  {
+    "name": "LearnPrompt/blog 模块",
+    "description": "[模块级] LearnPrompt 项目的 blog 模块 (source)。来源: https://github.com/LearnPrompt/LearnPrompt",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "aimusic",
+      "aivoice",
+      "chatgpt-app",
+      "digital-human",
+      "module-level",
+      "source",
+      "blog"
+    ],
+    "genes": [
+      {
+        "title": "blog 模块说明",
+        "content": "模块路径: blog/\n类型: source\n文件数: 36\n\n包含文件:\n- blog/2024-06-30-daily-archive.md\n- blog/2024-07-01-daily.md\n- blog/2024-07-03-daily.md\n- blog/2024-07-05-daily.md\n- blog/2024-07-08-daily.md\n- blog/2024-07-10-daily.md\n- blog/2024-07-16-daily.md\n- blog/2024-07-17-daily.md\n- blog/2024-07-18-daily.md\n- blog/2024-07-19-daily.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "blog 文件结构",
+        "content": "blog/2024-06-30-daily-archive.md\nblog/2024-07-01-daily.md\nblog/2024-07-03-daily.md\nblog/2024-07-05-daily.md\nblog/2024-07-08-daily.md\nblog/2024-07-10-daily.md\nblog/2024-07-16-daily.md\nblog/2024-07-17-daily.md\nblog/2024-07-18-daily.md\nblog/2024-07-19-daily.md\nblog/2024-07-21-log.md\nblog/2024-07-23-daily.md\nblog/2024-07-25-daily.md\nblog/2024-07-27-daily.md\nblog/2024-07-29-log.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.845444791956858
+  },
+  {
+    "name": "LearnPrompt/data 模块",
+    "description": "[模块级] LearnPrompt 项目的 data 模块 (source)。来源: https://github.com/LearnPrompt/LearnPrompt",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "aimusic",
+      "aivoice",
+      "chatgpt-app",
+      "digital-human",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 4\n\n包含文件:\n- data/friends.tsx\n- data/medias.tsx\n- data/projects.tsx\n- data/team.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/friends.tsx\ndata/medias.tsx\ndata/projects.tsx\ndata/team.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.845444791956858
+  },
+  {
+    "name": "LearnPrompt/docs 模块",
+    "description": "[模块级] LearnPrompt 项目的 docs 模块 (docs)。来源: https://github.com/LearnPrompt/LearnPrompt",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "aimusic",
+      "aivoice",
+      "chatgpt-app",
+      "digital-human",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 144\n\n包含文件:\n- docs/additional-resources.mdx\n- docs/advanced-prompting\n- docs/advanced-prompting/_category_.json\n- docs/advanced-prompting/🟡 Automatic-Reasoning-and-Tool-use.md\n- docs/advanced-prompting/🟢 Automated-Prompt-Engineer.md\n- docs/advanced-prompting/🟢 Chain-of-Thought.md\n- docs/advanced-prompting/🟢 Introduction.md\n- docs/advanced-prompting/🟢 Knowledge-Prompting.md\n- docs/advanced-prompting/🟢 Tree-of-Thoughts.md\n- docs/advanced-prompting/🟢 Zero-shot-CoT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/additional-resources.mdx\ndocs/advanced-prompting\ndocs/advanced-prompting/_category_.json\ndocs/advanced-prompting/🟡 Automatic-Reasoning-and-Tool-use.md\ndocs/advanced-prompting/🟢 Automated-Prompt-Engineer.md\ndocs/advanced-prompting/🟢 Chain-of-Thought.md\ndocs/advanced-prompting/🟢 Introduction.md\ndocs/advanced-prompting/🟢 Knowledge-Prompting.md\ndocs/advanced-prompting/🟢 Tree-of-Thoughts.md\ndocs/advanced-prompting/🟢 Zero-shot-CoT.md\ndocs/ai-human-generators\ndocs/ai-human-generators/_category_.json\ndocs/ai-human-generators/🟡 Capcut.md\ndocs/ai-human-generators/🟡 digital-human-sample-video.md\ndocs/ai-human-generators/🟡 sadtalker.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.845444791956858
+  }
+]

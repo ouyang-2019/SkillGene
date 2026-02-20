@@ -1,0 +1,103 @@
+[
+  {
+    "name": "search (kelindar)",
+    "description": "[项目级] Go library for embedded vector search and semantic embeddings using llama.cpp。来源: https://github.com/kelindar/search",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "bert",
+      "embeddings",
+      "gguf",
+      "gpu",
+      "go",
+      "stars-525",
+      "github-kelindar",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Go library for embedded vector search and semantic embeddings using llama.cpp\n\n来源: https://github.com/kelindar/search\n语言: Go\nStars: 525",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nLICENSE\nREADME.md\ndist\ndist/MiniLM-L6-v2.Q8_0.gguf\ndist/dataset.bin\ndist/dataset.txt\ndist/linux-x64-avx\ndist/linux-x64-vulkan\ndist/win-x64-avx\ndist/win-x64-vulkan\nexample\nexample/main.go\ngo.mod\ngo.sum\nindex.go\nindex_codec.go\nindex_test.go\ninternal\ninternal/cosine",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "m, err := search.NewVectorizer(\"../dist/MiniLM-L6-v2.Q8_0.gguf\", 0)\nif err != nil {\n    // handle error\n}\ndefer m.Close()",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **llama.cpp without cgo**: The library is built to work with [llama.cpp](https://github.com/ggerganov/llama.cpp) without using cgo. Instead, it relies on [purego](https://github.com/ebitengine/purego) , which allows calling shared C libraries directly from Go code without the need for cgo. This design significantly simplifies the integration, deployment, and cross-compilation, making it easier to build Go applications that interface with native libraries.\n- **Support for BERT Models**: The library supports BERT models via [llama.cpp](https://github.com/ggerganov/llama.cpp/pull/5423). Vast va",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3600796517029785
+  },
+  {
+    "name": "search/internal 模块",
+    "description": "[模块级] search 项目的 internal 模块 (source)。来源: https://github.com/kelindar/search",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "bert",
+      "embeddings",
+      "gguf",
+      "gpu",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 18\n\n包含文件:\n- internal/cosine\n- internal/cosine/cosine_apple.c\n- internal/cosine/cosine_avx.c\n- internal/cosine/cosine_neon.c\n- internal/cosine/gen.sh\n- internal/cosine/simd\n- internal/cosine/simd/cosine_apple.go\n- internal/cosine/simd/cosine_apple.s\n- internal/cosine/simd/cosine_avx.go\n- internal/cosine/simd/cosine_avx.s",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/cosine\ninternal/cosine/cosine_apple.c\ninternal/cosine/cosine_avx.c\ninternal/cosine/cosine_neon.c\ninternal/cosine/gen.sh\ninternal/cosine/simd\ninternal/cosine/simd/cosine_apple.go\ninternal/cosine/simd/cosine_apple.s\ninternal/cosine/simd/cosine_avx.go\ninternal/cosine/simd/cosine_avx.s\ninternal/cosine/simd/cosine_neon.go\ninternal/cosine/simd/cosine_neon.s\ninternal/cosine/simd/cosine_stub.go\ninternal/cosine/simd/simd.go\ninternal/cosine/simd/simd_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  },
+  {
+    "name": "search/llama-go.cpp 模块",
+    "description": "[模块级] search 项目的 llama-go.cpp 模块 (source)。来源: https://github.com/kelindar/search",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "bert",
+      "embeddings",
+      "gguf",
+      "gpu",
+      "module-level",
+      "source",
+      "llama-go.cpp"
+    ],
+    "genes": [
+      {
+        "title": "llama-go.cpp 模块说明",
+        "content": "模块路径: llama-go.cpp/\n类型: source\n文件数: 3\n\n包含文件:\n- llama-go.cpp/CMakeLists.txt\n- llama-go.cpp/llama-go.cpp\n- llama-go.cpp/llama-go.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llama-go.cpp 文件结构",
+        "content": "llama-go.cpp/CMakeLists.txt\nllama-go.cpp/llama-go.cpp\nllama-go.cpp/llama-go.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.588063721362383
+  }
+]

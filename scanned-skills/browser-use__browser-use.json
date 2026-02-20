@@ -1,0 +1,98 @@
+[
+  {
+    "name": "browser-use (browser-use)",
+    "description": "[项目级] 🌐 Make websites accessible for AI agents. Automate tasks online with ease.。来源: https://github.com/browser-use/browser-use",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "llm",
+      "python",
+      "stars-78599",
+      "github-browser-use",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.\n\n来源: https://github.com/browser-use/browser-use\n语言: Python\nStars: 78599",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCLOUD.md\nDockerfile\nDockerfile.fast\nLICENSE\nREADME.md\nbin\nbin/lint.sh\nbin/setup.sh\nbin/test.sh\nbrowser_use\nbrowser_use/README.md\nbrowser_use/__init__.py\nbrowser_use/actor\nbrowser_use/agent\nbrowser_use/browser\nbrowser_use/cli.py\nbrowser_use/code_use\nbrowser_use/config.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<br/>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "browser-use/bin 模块",
+    "description": "[模块级] browser-use 项目的 bin 模块 (script)。来源: https://github.com/browser-use/browser-use",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "llm",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 3\n\n包含文件:\n- bin/lint.sh\n- bin/setup.sh\n- bin/test.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/lint.sh\nbin/setup.sh\nbin/test.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4581668082516686
+  },
+  {
+    "name": "browser-use/browser_use 模块",
+    "description": "[模块级] browser-use 项目的 browser_use 模块 (source)。来源: https://github.com/browser-use/browser-use",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "browser-use",
+      "llm",
+      "module-level",
+      "source",
+      "browser_use"
+    ],
+    "genes": [
+      {
+        "title": "browser_use 模块说明",
+        "content": "模块路径: browser_use/\n类型: source\n文件数: 160\n\n包含文件:\n- browser_use/README.md\n- browser_use/__init__.py\n- browser_use/actor\n- browser_use/actor/README.md\n- browser_use/actor/__init__.py\n- browser_use/actor/element.py\n- browser_use/actor/mouse.py\n- browser_use/actor/page.py\n- browser_use/actor/playground\n- browser_use/actor/playground/flights.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "browser_use 文件结构",
+        "content": "browser_use/README.md\nbrowser_use/__init__.py\nbrowser_use/actor\nbrowser_use/actor/README.md\nbrowser_use/actor/__init__.py\nbrowser_use/actor/element.py\nbrowser_use/actor/mouse.py\nbrowser_use/actor/page.py\nbrowser_use/actor/playground\nbrowser_use/actor/playground/flights.py\nbrowser_use/actor/playground/mixed_automation.py\nbrowser_use/actor/playground/playground.py\nbrowser_use/actor/utils.py\nbrowser_use/agent\nbrowser_use/agent/cloud_events.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4581668082516686
+  }
+]

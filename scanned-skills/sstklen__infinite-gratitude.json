@@ -1,0 +1,102 @@
+[
+  {
+    "name": "infinite-gratitude (sstklen)",
+    "description": "[项目级] 🥋 AI Dojo: 報恩術 | Multi-agent research skill for Claude Code. 10 agents, 3 waves, infinite gifts. Made by Washin Village 🐾。来源: https://github.com/sstklen/infinite-gratitude",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "automation",
+      "awesome",
+      "cats",
+      "stars-31",
+      "github-sstklen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🥋 AI Dojo: 報恩術 | Multi-agent research skill for Claude Code. 10 agents, 3 waves, infinite gifts. Made by Washin Village 🐾\n\n来源: https://github.com/sstklen/infinite-gratitude\n语言: unknown\nStars: 31",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSKILL.md\nassets\nassets/demo-10-agents.png\nassets/demo-10-cats-promotion.png\ndocs\ndocs/PROMOTION_LOG.md\ndocs/hackernews_post.md\ndocs/producthunt_draft.md\ninfinite-gratitude-story.md\nreferences\nreferences/agent-config.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/infinite-gratitude \"topic\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7456808469171365
+  },
+  {
+    "name": "infinite-gratitude/assets 模块",
+    "description": "[模块级] infinite-gratitude 项目的 assets 模块 (source)。来源: https://github.com/sstklen/infinite-gratitude",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "automation",
+      "awesome",
+      "cats",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/demo-10-agents.png\n- assets/demo-10-cats-promotion.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/demo-10-agents.png\nassets/demo-10-cats-promotion.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.096544677533709
+  },
+  {
+    "name": "infinite-gratitude/docs 模块",
+    "description": "[模块级] infinite-gratitude 项目的 docs 模块 (docs)。来源: https://github.com/sstklen/infinite-gratitude",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "automation",
+      "awesome",
+      "cats",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/PROMOTION_LOG.md\n- docs/hackernews_post.md\n- docs/producthunt_draft.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/PROMOTION_LOG.md\ndocs/hackernews_post.md\ndocs/producthunt_draft.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.096544677533709
+  }
+]

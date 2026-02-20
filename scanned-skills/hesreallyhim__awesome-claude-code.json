@@ -10,14 +10,14 @@
       "ai-workflow-optimization",
       "ai-workflows",
       "python",
-      "stars-24349",
+      "stars-24353",
       "github-hesreallyhim",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic\n\n来源: https://github.com/hesreallyhim/awesome-claude-code\n语言: Python\nStars: 24349",
+        "content": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic\n\n来源: https://github.com/hesreallyhim/awesome-claude-code\n语言: Python\nStars: 24353",
         "gene_type": "principle"
       },
       {
@@ -63,7 +63,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.2545924518728295
+    "rating": 4.2546209875047385
   },
   {
     "name": "awesome-claude-code/assets 模块",
@@ -93,6 +93,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.2545924518728295
+    "rating": 4.2546209875047385
   }
 ]

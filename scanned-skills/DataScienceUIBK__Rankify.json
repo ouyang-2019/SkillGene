@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Rankify (DataScienceUIBK)",
+    "description": "[项目级] 🔥 Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation 🔥. Our toolkit integrates 40 pre-retrieved benchmark datasets and supports 7+ retrieval techniques, 24+ state-of-the-art Reranking models, and multiple RAG methods.。来源: https://github.com/DataScienceUIBK/Rankify",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "information-retrieval",
+      "llm",
+      "python",
+      "stars-588",
+      "github-datascienceuibk",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥 Rankify: A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation 🔥. Our toolkit integrates 40 pre-retrieved benchmark datasets and supports 7+ retrieval techniques, 24+ state-of-the-art Reranking models, and multiple RAG methods.\n\n来源: https://github.com/DataScienceUIBK/Rankify\n语言: Python\nStars: 588",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install streamlit",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nREADME-PyPI.md\nREADME.md\nREADME_zh.md\ndemo-web\ndemo-web/.gitignore\ndemo-web/README.md\ndemo-web/components.json\ndemo-web/eslint.config.mjs\ndemo-web/next.config.ts\ndemo-web/package-lock.json\ndemo-web/package.json\ndemo-web/postcss.config.mjs\ndemo-web/public\ndemo-web/src\ndemo-web/tsconfig.json\ndocs\ndocs/.gitignore\ndocs/docs\ndocs/mkdocs.yml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "curl -X POST http://localhost:8000/rag \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"query\": \"What is AI?\", \"n_contexts\": 5}'\n```\n\n📖 **[Server Documentation](https://rankify.readthedocs.io/en/latest/tutorials/pipeline/server/)**\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🔥 **Unified Framework**: Combines **retrieval**, **re-ranking**, and **retrieval-augmented generation (RAG)** into a single modular toolkit.  \n- 📚 **Rich Dataset Support**: Includes **40+ benchmark datasets** with **pre-retrieved documents** for seamless experimentation.  \n- 🧲 **Diverse Retrieval Methods**: Supports **BM25, DPR, ANCE, BPR, ColBERT, BGE, Contriever, SFR, E5, GritLM, M2, Nomic, Instructor, RaDeR, ReasonIR, BGE-Reasoner and  ReasonEmbed** for flexible retrieval strategies.  \n- 🎯 **Powerful Re-Ranking**: Implements **24 advanced models** with **41 sub-methods** to optimize r",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3846886630380695
+  },
+  {
+    "name": "Rankify/demo-web 模块",
+    "description": "[模块级] Rankify 项目的 demo-web 模块 (source)。来源: https://github.com/DataScienceUIBK/Rankify",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "information-retrieval",
+      "llm",
+      "module-level",
+      "source",
+      "demo-web"
+    ],
+    "genes": [
+      {
+        "title": "demo-web 模块说明",
+        "content": "模块路径: demo-web/\n类型: source\n文件数: 36\n\n包含文件:\n- demo-web/.gitignore\n- demo-web/README.md\n- demo-web/components.json\n- demo-web/eslint.config.mjs\n- demo-web/next.config.ts\n- demo-web/package-lock.json\n- demo-web/package.json\n- demo-web/postcss.config.mjs\n- demo-web/public\n- demo-web/public/file.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo-web 文件结构",
+        "content": "demo-web/.gitignore\ndemo-web/README.md\ndemo-web/components.json\ndemo-web/eslint.config.mjs\ndemo-web/next.config.ts\ndemo-web/package-lock.json\ndemo-web/package.json\ndemo-web/postcss.config.mjs\ndemo-web/public\ndemo-web/public/file.svg\ndemo-web/public/globe.svg\ndemo-web/public/next.svg\ndemo-web/public/vercel.svg\ndemo-web/public/window.svg\ndemo-web/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6077509304304556
+  },
+  {
+    "name": "Rankify/docs 模块",
+    "description": "[模块级] Rankify 项目的 docs 模块 (docs)。来源: https://github.com/DataScienceUIBK/Rankify",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "information-retrieval",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 140\n\n包含文件:\n- docs/.gitignore\n- docs/docs\n- docs/docs/api\n- docs/docs/api/agent.md\n- docs/docs/api/dataset.md\n- docs/docs/api/generators\n- docs/docs/api/generators/generator.md\n- docs/docs/api/generators/models\n- docs/docs/api/generators/models/base_rag_model.md\n- docs/docs/api/generators/models/fid_model.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/docs\ndocs/docs/api\ndocs/docs/api/agent.md\ndocs/docs/api/dataset.md\ndocs/docs/api/generators\ndocs/docs/api/generators/generator.md\ndocs/docs/api/generators/models\ndocs/docs/api/generators/models/base_rag_model.md\ndocs/docs/api/generators/models/fid_model.md\ndocs/docs/api/generators/models/huggingface_model.md\ndocs/docs/api/generators/models/litellm_model.md\ndocs/docs/api/generators/models/model_factory.md\ndocs/docs/api/generators/models/openai_model.md\ndocs/docs/api/generators/models/vllm_model.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6077509304304556
+  },
+  {
+    "name": "Rankify/examples 模块",
+    "description": "[模块级] Rankify 项目的 examples 模块 (example)。来源: https://github.com/DataScienceUIBK/Rankify",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "information-retrieval",
+      "llm",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 7\n\n包含文件:\n- examples/RAGAS_metrices.py\n- examples/agent_examples.py\n- examples/custom_datasets\n- examples/custom_datasets/FutureQueryEval_bm25.json\n- examples/custom_datasets/FutureQueryEval_qrels.txt\n- examples/custom_datasets/log.json\n- examples/custom_datasets/test.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/RAGAS_metrices.py\nexamples/agent_examples.py\nexamples/custom_datasets\nexamples/custom_datasets/FutureQueryEval_bm25.json\nexamples/custom_datasets/FutureQueryEval_qrels.txt\nexamples/custom_datasets/log.json\nexamples/custom_datasets/test.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6077509304304556
+  }
+]

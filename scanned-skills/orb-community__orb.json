@@ -1,0 +1,153 @@
+[
+  {
+    "name": "orb (orb-community)",
+    "description": "[项目级] Orb is a dynamic network observability platform with agent fleet orchestration and data pipelines with OpenTelemetry。来源: https://github.com/orb-community/orb",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "cloud-native",
+      "control-plane",
+      "dns",
+      "edge",
+      "go",
+      "stars-671",
+      "github-orb-community",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Orb is a dynamic network observability platform with agent fleet orchestration and data pipelines with OpenTelemetry\n\n来源: https://github.com/orb-community/orb\n语言: Go\nStars: 671",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nRFCs\nRFCs/2021-04-16-5-orb-data-model.md\nVERSION\nagent\nagent/README.md\nagent/agent.go\nagent/agent_prof_test.go\nagent/backend\nagent/cloud_config\nagent/comms.go\nagent/config\nagent/docker\nagent/heartbeats.go\nagent/logging.go\nagent/otel",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.413361260084496
+  },
+  {
+    "name": "orb/agent 模块",
+    "description": "[模块级] orb 项目的 agent 模块 (source)。来源: https://github.com/orb-community/orb",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "cloud-native",
+      "control-plane",
+      "dns",
+      "edge",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "Orb uses IoT principles to allow the observability agents to connect out to the Orb central control plane, avoiding\nfirewall problems. Once connected, agents are controlled in real time from the Orb Portal or REST API, orchestrating\nobservability [policies](https://orb.community/about/#policies) designed to precisely extract the desired insights. Agents\nare grouped and addressed based on [tags](https://orb.community/about/#agent-group).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/README.md\nagent/agent.go\nagent/agent_prof_test.go\nagent/backend\nagent/backend/backend.go\nagent/backend/otel\nagent/backend/otel/comms.go\nagent/backend/otel/exporter_builder.go\nagent/backend/otel/exporter_builder_test.go\nagent/backend/otel/otel.go\nagent/backend/otel/policy.go\nagent/backend/otel/scrape.go\nagent/backend/otel/vars.go\nagent/backend/pktvisor\nagent/backend/pktvisor/pktvisor.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6306890080675966
+  },
+  {
+    "name": "orb/cmd 模块",
+    "description": "[模块级] orb 项目的 cmd 模块 (source)。来源: https://github.com/orb-community/orb",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "cloud-native",
+      "control-plane",
+      "dns",
+      "edge",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 16\n\n包含文件:\n- cmd/agent\n- cmd/agent/agent.example.yaml\n- cmd/agent/e2e_agent_test.go\n- cmd/agent/main.go\n- cmd/fleet\n- cmd/fleet/main.go\n- cmd/maestro\n- cmd/maestro/main.go\n- cmd/migrate\n- cmd/migrate/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/agent\ncmd/agent/agent.example.yaml\ncmd/agent/e2e_agent_test.go\ncmd/agent/main.go\ncmd/fleet\ncmd/fleet/main.go\ncmd/maestro\ncmd/maestro/main.go\ncmd/migrate\ncmd/migrate/main.go\ncmd/policies\ncmd/policies/main.go\ncmd/sinker\ncmd/sinker/main.go\ncmd/sinks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6306890080675966
+  },
+  {
+    "name": "orb/docker 模块",
+    "description": "[模块级] orb 项目的 docker 模块 (source)。来源: https://github.com/orb-community/orb",
+    "domain": "ai-llm",
+    "tags": [
+      "analysis",
+      "cloud-native",
+      "control-plane",
+      "dns",
+      "edge",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 45\n\n包含文件:\n- docker/.env\n- docker/Dockerfile\n- docker/Dockerfile.debug\n- docker/Dockerfile.dev\n- docker/configs\n- docker/configs/grafana-defaults.ini\n- docker/configs/prometheus.yml\n- docker/docker-compose.yml\n- docker/keto\n- docker/keto/keto.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env\ndocker/Dockerfile\ndocker/Dockerfile.debug\ndocker/Dockerfile.dev\ndocker/configs\ndocker/configs/grafana-defaults.ini\ndocker/configs/prometheus.yml\ndocker/docker-compose.yml\ndocker/keto\ndocker/keto/keto.yml\ndocker/nats\ndocker/nats/nats.conf\ndocker/nginx\ndocker/nginx/.gitignore\ndocker/nginx/entrypoint-ui.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6306890080675966
+  },
+  {
+    "name": "orb/docs 模块",
+    "description": "[模块级] orb 项目的 docs 模块 (docs)。来源: https://github.com/orb-community/orb",
+    "domain": "documentation",
+    "tags": [
+      "analysis",
+      "cloud-native",
+      "control-plane",
+      "dns",
+      "edge",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 9\n\n包含文件:\n- docs/OTLP-Orb-Collector.png\n- docs/Orb-OpenTelemetry.md\n- docs/images\n- docs/images/ORB-logo-black@3x.png\n- docs/images/ORB-logo-transparent.png\n- docs/images/OrbArchitectureConcepts.png\n- docs/images/OrbArchitectureFleet.png\n- docs/images/OrbArchitecturePolicy.png\n- docs/images/OrbArchitectureSinker.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/OTLP-Orb-Collector.png\ndocs/Orb-OpenTelemetry.md\ndocs/images\ndocs/images/ORB-logo-black@3x.png\ndocs/images/ORB-logo-transparent.png\ndocs/images/OrbArchitectureConcepts.png\ndocs/images/OrbArchitectureFleet.png\ndocs/images/OrbArchitecturePolicy.png\ndocs/images/OrbArchitectureSinker.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6306890080675966
+  }
+]

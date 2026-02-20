@@ -1,0 +1,93 @@
+[
+  {
+    "name": "openai-api-kr (teddylee777)",
+    "description": "[项目级] OpenAI 공식 Document, Cookbook, 그 밖의 실용 예제를 바탕으로 작성한 한국어 튜토리얼입니다.  본 튜토리얼을 통해 Python OpenAI API 를 더 쉽고 효과적으로 사용하는 방법을 배울 수 있습니다.。来源: https://github.com/teddylee777/openai-api-kr",
+    "domain": "ai-llm",
+    "tags": [
+      "assistant-api",
+      "assistant-chat-bots",
+      "assistants-api",
+      "gpt-3",
+      "gpt-4-turbo",
+      "jupyter notebook",
+      "stars-56",
+      "github-teddylee777",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OpenAI 공식 Document, Cookbook, 그 밖의 실용 예제를 바탕으로 작성한 한국어 튜토리얼입니다.  본 튜토리얼을 통해 Python OpenAI API 를 더 쉽고 효과적으로 사용하는 방법을 배울 수 있습니다.\n\n来源: https://github.com/teddylee777/openai-api-kr\n语言: Jupyter Notebook\nStars: 56",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "01-ChatCompletion.ipynb\n02-ImageGeneration.ipynb\n03-TTS-and-STT.ipynb\n04-Creating-Transcripts.ipynb\n05-Assistant-API.ipynb\nREADME.md\naudio_utils.py\ndata\ndata/edited_image.jpg\ndata/generated_image1.jpg\ndata/generated_image2.jpg\ndata/generated_image_porche.png\ndata/porche_911.jpg\ndata/sample-mask.png\ndata/sample.png\ndata/오디오샘플_01.wav\ndata/채용면접_샘플_01.wav\ndata/채용면접_샘플_02.wav\nimages\nimages/NotRealCorp_chart.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8740940135031003
+  },
+  {
+    "name": "openai-api-kr/data 模块",
+    "description": "[模块级] openai-api-kr 项目的 data 模块 (source)。来源: https://github.com/teddylee777/openai-api-kr",
+    "domain": "ai-llm",
+    "tags": [
+      "assistant-api",
+      "assistant-chat-bots",
+      "assistants-api",
+      "gpt-3",
+      "gpt-4-turbo",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 10\n\n包含文件:\n- data/edited_image.jpg\n- data/generated_image1.jpg\n- data/generated_image2.jpg\n- data/generated_image_porche.png\n- data/porche_911.jpg\n- data/sample-mask.png\n- data/sample.png\n- data/오디오샘플_01.wav\n- data/채용면접_샘플_01.wav\n- data/채용면접_샘플_02.wav",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/edited_image.jpg\ndata/generated_image1.jpg\ndata/generated_image2.jpg\ndata/generated_image_porche.png\ndata/porche_911.jpg\ndata/sample-mask.png\ndata/sample.png\ndata/오디오샘플_01.wav\ndata/채용면접_샘플_01.wav\ndata/채용면접_샘플_02.wav",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1992752108024805
+  },
+  {
+    "name": "openai-api-kr/images 模块",
+    "description": "[模块级] openai-api-kr 项目的 images 模块 (source)。来源: https://github.com/teddylee777/openai-api-kr",
+    "domain": "ai-llm",
+    "tags": [
+      "assistant-api",
+      "assistant-chat-bots",
+      "assistants-api",
+      "gpt-3",
+      "gpt-4-turbo",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 61\n\n包含文件:\n- images/NotRealCorp_chart.png\n- images/assistant-code-interpreter.png\n- images/assistant-create.png\n- images/assistant-file-id.png\n- images/assistant-file-upload.png\n- images/assistant-function1.png\n- images/assistant-function2.png\n- images/assistant-lists.png\n- images/assistant-math-tutor.png\n- images/assistant-retrieval.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/NotRealCorp_chart.png\nimages/assistant-code-interpreter.png\nimages/assistant-create.png\nimages/assistant-file-id.png\nimages/assistant-file-upload.png\nimages/assistant-function1.png\nimages/assistant-function2.png\nimages/assistant-lists.png\nimages/assistant-math-tutor.png\nimages/assistant-retrieval.png\nimages/assistants_overview_assistants_dashboard.png\nimages/assistants_overview_assistants_playground.png\nimages/assistants_overview_diagram.png\nimages/assistants_overview_enable_code_interpreter.png\nimages/assistants_overview_enable_function.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1992752108024805
+  }
+]

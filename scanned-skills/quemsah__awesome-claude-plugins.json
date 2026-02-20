@@ -1,0 +1,63 @@
+[
+  {
+    "name": "awesome-claude-plugins (quemsah)",
+    "description": "[项目级] Automated collection of Claude Code plugin adoption metrics across GitHub repositories using n8n workflows。来源: https://github.com/quemsah/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-list",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-plugins-marketplace",
+      "typescript",
+      "stars-121",
+      "github-quemsah",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Automated collection of Claude Code plugin adoption metrics across GitHub repositories using n8n workflows\n\n来源: https://github.com/quemsah/awesome-claude-plugins\n语言: TypeScript\nStars: 121",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nui\nui/.gitignore\nui/.husky\nui/biome.json\nui/components.json\nui/deno.json\nui/deno.lock\nui/next.config.ts\nui/package.json\nui/postcss.config.mjs\nui/public\nui/src\nui/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.041392685158225
+  },
+  {
+    "name": "awesome-claude-plugins/ui 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 ui 模块 (source)。来源: https://github.com/quemsah/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-list",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-plugins-marketplace",
+      "module-level",
+      "source",
+      "ui"
+    ],
+    "genes": [
+      {
+        "title": "ui 模块说明",
+        "content": "模块路径: ui/\n类型: source\n文件数: 102\n\n包含文件:\n- ui/.gitignore\n- ui/.husky\n- ui/.husky/pre-commit\n- ui/biome.json\n- ui/components.json\n- ui/deno.json\n- ui/deno.lock\n- ui/next.config.ts\n- ui/package.json\n- ui/postcss.config.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ui 文件结构",
+        "content": "ui/.gitignore\nui/.husky\nui/.husky/pre-commit\nui/biome.json\nui/components.json\nui/deno.json\nui/deno.lock\nui/next.config.ts\nui/package.json\nui/postcss.config.mjs\nui/public\nui/public/android-chrome-192x192.png\nui/public/android-chrome-512x512.png\nui/public/apple-touch-icon.png\nui/public/favicon-16x16.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.33311414812658
+  }
+]

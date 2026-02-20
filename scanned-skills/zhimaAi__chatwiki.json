@@ -1,0 +1,168 @@
+[
+  {
+    "name": "chatwiki (zhimaAi)",
+    "description": "[项目级] ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。。来源: https://github.com/zhimaAi/chatwiki",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aytomation",
+      "llm",
+      "rag",
+      "vue",
+      "stars-1746",
+      "github-zhimaai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatWiki 微信公众号的AI知识库工作流Agent平台，RAG大模型AI客服机器人，致力于成为垂直领域的coze、n8n。\n\n来源: https://github.com/zhimaAi/chatwiki\n语言: Vue\nStars: 1746",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "sudo curl -sSL https://get.docker.com/ | CHANNEL=stable sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_en.md\nUpdateLog.md\nbuild\nbuild/chatwiki\nbuild/code_run\nbuild/crawler\nbuild/gen_thumbnail\nbuild/message_service\nbuild/plugin\nbuild/user_domain_service\nbuild/websocket\ncmd\ncmd/chatwiki\ncmd/code_run\ncmd/crawler\ncmd/gen_thumbnail\ncmd/message_service\ncmd/plugin",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.621022119684776
+  },
+  {
+    "name": "chatwiki/cmd 模块",
+    "description": "[模块级] chatwiki 项目的 cmd 模块 (source)。来源: https://github.com/zhimaAi/chatwiki",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aytomation",
+      "llm",
+      "rag",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 17\n\n包含文件:\n- cmd/chatwiki\n- cmd/chatwiki/main.go\n- cmd/code_run\n- cmd/code_run/main.go\n- cmd/crawler\n- cmd/crawler/main.go\n- cmd/crawler/process_page.go\n- cmd/gen_thumbnail\n- cmd/gen_thumbnail/main.go\n- cmd/message_service",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/chatwiki\ncmd/chatwiki/main.go\ncmd/code_run\ncmd/code_run/main.go\ncmd/crawler\ncmd/crawler/main.go\ncmd/crawler/process_page.go\ncmd/gen_thumbnail\ncmd/gen_thumbnail/main.go\ncmd/message_service\ncmd/message_service/main.go\ncmd/plugin\ncmd/plugin/main.go\ncmd/user_domain_service\ncmd/user_domain_service/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79681769574782
+  },
+  {
+    "name": "chatwiki/configs 模块",
+    "description": "[模块级] chatwiki 项目的 configs 模块 (config)。来源: https://github.com/zhimaAi/chatwiki",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "aytomation",
+      "llm",
+      "rag",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 21\n\n包含文件:\n- configs/chatwiki\n- configs/chatwiki/.gitignore\n- configs/chatwiki/config_pro.ini\n- configs/code_run\n- configs/code_run/.gitignore\n- configs/code_run/config_pro.ini\n- configs/gen_thumbnail\n- configs/gen_thumbnail/.gitignore\n- configs/gen_thumbnail/config_pro.ini\n- configs/message_service",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/chatwiki\nconfigs/chatwiki/.gitignore\nconfigs/chatwiki/config_pro.ini\nconfigs/code_run\nconfigs/code_run/.gitignore\nconfigs/code_run/config_pro.ini\nconfigs/gen_thumbnail\nconfigs/gen_thumbnail/.gitignore\nconfigs/gen_thumbnail/config_pro.ini\nconfigs/message_service\nconfigs/message_service/.gitignore\nconfigs/message_service/config_pro.ini\nconfigs/plugin\nconfigs/plugin/.gitignore\nconfigs/plugin/config_pro.ini",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79681769574782
+  },
+  {
+    "name": "chatwiki/docker 模块",
+    "description": "[模块级] chatwiki 项目的 docker 模块 (source)。来源: https://github.com/zhimaAi/chatwiki",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aytomation",
+      "llm",
+      "rag",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "sudo curl -sSL https://get.docker.com/ | CHANNEL=stable sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env\ndocker/DockerfileGoCore\ndocker/DockerfileGoNsq\ndocker/DockerfileGoPush\ndocker/DockerfilePostgres\ndocker/bge\ndocker/bge/.env\ndocker/bge/Dockerfile\ndocker/bge/api.py\ndocker/bge/docker-compose.yml\ndocker/bge/requirements.txt\ndocker/bge/uvicorn_config.json\ndocker/docker-compose.yml\ndocker/go-nsq\ndocker/go-nsq/go-nsqadmin.conf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79681769574782
+  },
+  {
+    "name": "chatwiki/front-end 模块",
+    "description": "[模块级] chatwiki 项目的 front-end 模块 (source)。来源: https://github.com/zhimaAi/chatwiki",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aytomation",
+      "llm",
+      "rag",
+      "module-level",
+      "source",
+      "front-end"
+    ],
+    "genes": [
+      {
+        "title": "front-end 模块说明",
+        "content": "模块路径: front-end/\n类型: source\n文件数: 118\n\n包含文件:\n- front-end/.gitignore\n- front-end/chat-ai-admin-vue\n- front-end/chat-ai-admin-vue/.env.analyze\n- front-end/chat-ai-admin-vue/.env.dev1\n- front-end/chat-ai-admin-vue/.env.dev10\n- front-end/chat-ai-admin-vue/.env.dev11\n- front-end/chat-ai-admin-vue/.env.dev12\n- front-end/chat-ai-admin-vue/.env.dev13\n- front-end/chat-ai-admin-vue/.env.dev14\n- front-end/chat-ai-admin-vue/.env.dev15",
+        "gene_type": "principle"
+      },
+      {
+        "title": "front-end 文件结构",
+        "content": "front-end/.gitignore\nfront-end/chat-ai-admin-vue\nfront-end/chat-ai-admin-vue/.env.analyze\nfront-end/chat-ai-admin-vue/.env.dev1\nfront-end/chat-ai-admin-vue/.env.dev10\nfront-end/chat-ai-admin-vue/.env.dev11\nfront-end/chat-ai-admin-vue/.env.dev12\nfront-end/chat-ai-admin-vue/.env.dev13\nfront-end/chat-ai-admin-vue/.env.dev14\nfront-end/chat-ai-admin-vue/.env.dev15\nfront-end/chat-ai-admin-vue/.env.dev19\nfront-end/chat-ai-admin-vue/.env.dev2\nfront-end/chat-ai-admin-vue/.env.dev3\nfront-end/chat-ai-admin-vue/.env.dev4\nfront-end/chat-ai-admin-vue/.env.dev5",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79681769574782
+  }
+]

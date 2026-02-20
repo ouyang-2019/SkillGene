@@ -1,0 +1,63 @@
+[
+  {
+    "name": "code_search (hamelsmu)",
+    "description": "[项目级] Code For Medium Article: \"How To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning\"。来源: https://github.com/hamelsmu/code_search",
+    "domain": "devops",
+    "tags": [
+      "code-search",
+      "data-science",
+      "deep-learning",
+      "fastai",
+      "keras",
+      "jupyter notebook",
+      "stars-490",
+      "github-hamelsmu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Code For Medium Article: \"How To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning\"\n\n来源: https://github.com/hamelsmu/code_search\n语言: Jupyter Notebook\nStars: 490",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nfastai\nfastai/.gitignore\nfastai/.travis.yml\nfastai/CODE-OF-CONDUCT.md\nfastai/LICENSE\nfastai/MANIFEST\nfastai/MANIFEST.in\nfastai/README.md\nfastai/courses",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.345098040014257
+  },
+  {
+    "name": "code_search/fastai 模块",
+    "description": "[模块级] code_search 项目的 fastai 模块 (source)。来源: https://github.com/hamelsmu/code_search",
+    "domain": "devops",
+    "tags": [
+      "code-search",
+      "data-science",
+      "deep-learning",
+      "fastai",
+      "keras",
+      "module-level",
+      "source",
+      "fastai"
+    ],
+    "genes": [
+      {
+        "title": "fastai 模块说明",
+        "content": "模块路径: fastai/\n类型: source\n文件数: 197\n\n包含文件:\n- fastai/.gitignore\n- fastai/.travis.yml\n- fastai/CODE-OF-CONDUCT.md\n- fastai/LICENSE\n- fastai/MANIFEST\n- fastai/MANIFEST.in\n- fastai/README.md\n- fastai/courses\n- fastai/courses/dl1\n- fastai/courses/dl1/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fastai 文件结构",
+        "content": "fastai/.gitignore\nfastai/.travis.yml\nfastai/CODE-OF-CONDUCT.md\nfastai/LICENSE\nfastai/MANIFEST\nfastai/MANIFEST.in\nfastai/README.md\nfastai/courses\nfastai/courses/dl1\nfastai/courses/dl1/.gitignore\nfastai/courses/dl1/adamw-sgdw-demo.ipynb\nfastai/courses/dl1/cifar10-simplenet.ipynb\nfastai/courses/dl1/cifar10.ipynb\nfastai/courses/dl1/embedding_refactoring_unit_tests.ipynb\nfastai/courses/dl1/excel",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5760784320114056
+  }
+]

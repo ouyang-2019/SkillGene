@@ -1,0 +1,133 @@
+[
+  {
+    "name": "qdrant (qdrant)",
+    "description": "[项目级] Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/。来源: https://github.com/qdrant/qdrant",
+    "domain": "general",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "embeddings-similarity",
+      "hnsw",
+      "image-search",
+      "rust",
+      "stars-28964",
+      "github-qdrant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/\n\n来源: https://github.com/qdrant/qdrant\n语言: Rust\nStars: 28964",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Cargo.lock\nCargo.toml\nDockerfile\nLICENSE\nREADME.md\nclippy.toml\nconfig\nconfig/config.yaml\nconfig/deb.yaml\nconfig/development.yaml\nconfig/production.yaml\ndocs\ndocs/CODE_OF_CONDUCT.md\ndocs/CONTRIBUTING.md\ndocs/DEVELOPMENT.md\ndocs/QUICK_START.md\ndocs/imgs\ndocs/logo-dark.svg\ndocs/logo-light.svg\ndocs/logo.svg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "qdrant/config 模块",
+    "description": "[模块级] qdrant 项目的 config 模块 (config)。来源: https://github.com/qdrant/qdrant",
+    "domain": "devops",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "embeddings-similarity",
+      "hnsw",
+      "image-search",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 4\n\n包含文件:\n- config/config.yaml\n- config/deb.yaml\n- config/development.yaml\n- config/production.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.yaml\nconfig/deb.yaml\nconfig/development.yaml\nconfig/production.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284743415523411
+  },
+  {
+    "name": "qdrant/docs 模块",
+    "description": "[模块级] qdrant 项目的 docs 模块 (docs)。来源: https://github.com/qdrant/qdrant",
+    "domain": "documentation",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "embeddings-similarity",
+      "hnsw",
+      "image-search",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 125\n\n包含文件:\n- docs/CODE_OF_CONDUCT.md\n- docs/CONTRIBUTING.md\n- docs/DEVELOPMENT.md\n- docs/QUICK_START.md\n- docs/imgs\n- docs/imgs/call-graph-profile.png\n- docs/imgs/ci-coverage-report.png\n- docs/imgs/flamegraph-profile.png\n- docs/imgs/local-coverage-report.png\n- docs/logo-dark.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CODE_OF_CONDUCT.md\ndocs/CONTRIBUTING.md\ndocs/DEVELOPMENT.md\ndocs/QUICK_START.md\ndocs/imgs\ndocs/imgs/call-graph-profile.png\ndocs/imgs/ci-coverage-report.png\ndocs/imgs/flamegraph-profile.png\ndocs/imgs/local-coverage-report.png\ndocs/logo-dark.svg\ndocs/logo-light.svg\ndocs/logo.svg\ndocs/redoc\ndocs/redoc/.gitignore\ndocs/redoc/default_version.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284743415523411
+  },
+  {
+    "name": "qdrant/lib 模块",
+    "description": "[模块级] qdrant 项目的 lib 模块 (source)。来源: https://github.com/qdrant/qdrant",
+    "domain": "general",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "embeddings-similarity",
+      "hnsw",
+      "image-search",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 29\n\n包含文件:\n- lib/api\n- lib/api/Cargo.toml\n- lib/api/build.rs\n- lib/api/src\n- lib/api/src/conversions\n- lib/api/src/conversions/inference.rs\n- lib/api/src/conversions/json.rs\n- lib/api/src/conversions/mod.rs\n- lib/api/src/conversions/vectors.rs\n- lib/api/src/grpc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/api\nlib/api/Cargo.toml\nlib/api/build.rs\nlib/api/src\nlib/api/src/conversions\nlib/api/src/conversions/inference.rs\nlib/api/src/conversions/json.rs\nlib/api/src/conversions/mod.rs\nlib/api/src/conversions/vectors.rs\nlib/api/src/grpc\nlib/api/src/grpc/conversions.rs\nlib/api/src/grpc/dynamic_channel_pool.rs\nlib/api/src/grpc/dynamic_pool.rs\nlib/api/src/grpc/grpc.health.v1.rs\nlib/api/src/grpc/mod.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284743415523411
+  }
+]

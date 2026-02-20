@@ -1,0 +1,155 @@
+[
+  {
+    "name": "idea-claude-code-gui (zhukunpenglinyutong)",
+    "description": "[项目级] IDEA Claude Code GUI Plugin。来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1278",
+      "github-zhukunpenglinyutong",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "IDEA Claude Code GUI Plugin\n\n来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui\n语言: TypeScript\nStars: 1278",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "[IDEA Claude Code GUI Installation](https://plugins.jetbrains.com/plugin/29342-claude-code-gui)\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nPROJECT_INDEX.md\nREADME.md\nREADME.zh-CN.md\nSPONSORS.md\nai-bridge\nai-bridge/.gitignore\nai-bridge/.npmrc\nai-bridge/channel-manager.js\nai-bridge/channels\nai-bridge/config\nai-bridge/package-lock.json\nai-bridge/package.json\nai-bridge/permission-handler.js\nai-bridge/read-cc-switch-db.js\nai-bridge/services\nai-bridge/utils\nbuild.gradle",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5532654269111905
+  },
+  {
+    "name": "idea-claude-code-gui/ai-bridge 模块",
+    "description": "[模块级] idea-claude-code-gui 项目的 ai-bridge 模块 (source)。来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1278",
+      "github-zhukunpenglinyutong",
+      "module-level",
+      "source",
+      "ai-bridge"
+    ],
+    "genes": [
+      {
+        "title": "ai-bridge 模块说明",
+        "content": "```bash\ncd ai-bridge\nnpm install\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-bridge 文件结构",
+        "content": "ai-bridge/.gitignore\nai-bridge/.npmrc\nai-bridge/channel-manager.js\nai-bridge/channels\nai-bridge/channels/claude-channel.js\nai-bridge/channels/codex-channel.js\nai-bridge/config\nai-bridge/config/api-config.js\nai-bridge/package-lock.json\nai-bridge/package.json\nai-bridge/permission-handler.js\nai-bridge/read-cc-switch-db.js\nai-bridge/services\nai-bridge/services/claude\nai-bridge/services/claude/attachment-service.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "ai-bridge 代码示例",
+        "content": "cd ai-bridge\nnpm install",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.742612341528953
+  },
+  {
+    "name": "idea-claude-code-gui/docs 模块",
+    "description": "[模块级] idea-claude-code-gui 项目的 docs 模块 (docs)。来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-1278",
+      "github-zhukunpenglinyutong",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 50\n\n包含文件:\n- docs/codex\n- docs/codex/CODEX-INTEGRATION-QUICKSTART.md\n- docs/codex/CODEX-NO-RESPONSE-FIX.md\n- docs/codex/DEBUG-OUTPUT-DISPLAY.md\n- docs/codex/MULTI-PROVIDER-ARCHITECTURE.md\n- docs/codex/README.md\n- docs/codex/docs\n- docs/codex/docs/CLA.md\n- docs/codex/docs/advanced.md\n- docs/codex/docs/agents_md.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/codex\ndocs/codex/CODEX-INTEGRATION-QUICKSTART.md\ndocs/codex/CODEX-NO-RESPONSE-FIX.md\ndocs/codex/DEBUG-OUTPUT-DISPLAY.md\ndocs/codex/MULTI-PROVIDER-ARCHITECTURE.md\ndocs/codex/README.md\ndocs/codex/docs\ndocs/codex/docs/CLA.md\ndocs/codex/docs/advanced.md\ndocs/codex/docs/agents_md.md\ndocs/codex/docs/authentication.md\ndocs/codex/docs/config.md\ndocs/codex/docs/contributing.md\ndocs/codex/docs/example-config.md\ndocs/codex/docs/exec.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.742612341528953
+  },
+  {
+    "name": "idea-claude-code-gui/gradle 模块",
+    "description": "[模块级] idea-claude-code-gui 项目的 gradle 模块 (source)。来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1278",
+      "github-zhukunpenglinyutong",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "模块路径: gradle/\n类型: source\n文件数: 3\n\n包含文件:\n- gradle/wrapper\n- gradle/wrapper/gradle-wrapper.jar\n- gradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.742612341528953
+  },
+  {
+    "name": "idea-claude-code-gui/src 模块",
+    "description": "[模块级] idea-claude-code-gui 项目的 src 模块 (source)。来源: https://github.com/zhukunpenglinyutong/idea-claude-code-gui",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1278",
+      "github-zhukunpenglinyutong",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 76\n\n包含文件:\n- src/main\n- src/main/java\n- src/main/java/com\n- src/main/java/com/github\n- src/main/java/com/github/claudecodegui\n- src/main/java/com/github/claudecodegui/ClaudeCodeGuiBundle.java\n- src/main/java/com/github/claudecodegui/ClaudeSDKToolWindow.java\n- src/main/java/com/github/claudecodegui/ClaudeSession.java\n- src/main/java/com/github/claudecodegui/CodemossSettingsService.java\n- src/main/java/com/github/claudecodegui/CreateNewTabAction.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/java\nsrc/main/java/com\nsrc/main/java/com/github\nsrc/main/java/com/github/claudecodegui\nsrc/main/java/com/github/claudecodegui/ClaudeCodeGuiBundle.java\nsrc/main/java/com/github/claudecodegui/ClaudeSDKToolWindow.java\nsrc/main/java/com/github/claudecodegui/ClaudeSession.java\nsrc/main/java/com/github/claudecodegui/CodemossSettingsService.java\nsrc/main/java/com/github/claudecodegui/CreateNewTabAction.java\nsrc/main/java/com/github/claudecodegui/GenerateCommitMessageAction.java\nsrc/main/java/com/github/claudecodegui/OpenDevToolsAction.java\nsrc/main/java/com/github/claudecodegui/QuickFixWithClaudeAction.java\nsrc/main/java/com/github/claudecodegui/RenameTabAction.java\nsrc/main/java/com/github/claudecodegui/SendFilePathToInputAction.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.742612341528953
+  }
+]

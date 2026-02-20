@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ralph-orchestrator (mikeyobrien)",
+    "description": "[项目级] An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration。来源: https://github.com/mikeyobrien/ralph-orchestrator",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-developer-tools",
+      "claude-code",
+      "rust",
+      "stars-1864",
+      "github-mikeyobrien",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration\n\n来源: https://github.com/mikeyobrien/ralph-orchestrator\n语言: Rust\nStars: 1864",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "ralph plan \"Add user authentication with JWT\"",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.635222954008981
+  }
+]

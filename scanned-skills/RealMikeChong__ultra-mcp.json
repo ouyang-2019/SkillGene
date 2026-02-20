@@ -1,0 +1,127 @@
+[
+  {
+    "name": "ultra-mcp (RealMikeChong)",
+    "description": "[项目级] 100x Your Claude Code, Gemini CLI, Cursor and/or any coding tools with MCP client support。来源: https://github.com/RealMikeChong/ultra-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-268",
+      "github-realmikechong",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "👋 **Mike Chong** - Building tools to amplify human potential through AI.\n\nAs one of the earliest **users** of GitHub Copilot (personally invited by Nat Friedman, former GitHub CEO), I've witnessed firsthand how AI-assisted development can transform the way we build software. My journey as a former engineer on **Outlook iOS/Android** taught me the importance of creating tools that genuinely improve people's daily lives.\n\n**Ultra MCP** represents my vision of democratizing access to the best AI models, making cutting-edge AI capabilities accessible to every developer through a unified, simple interface. I believe that by removing barriers between developers and AI models, we can accelerate innovation and create a better world for everyone.\n\n_\"The future belongs to those who can seamlessly o",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nbun.lock\ndrizzle.config.ts\ndrizzle\ndrizzle/0000_wealthy_vulture.sql\ndrizzle/0001_volatile_galactus.sql\ndrizzle/0002_add_unique_constraints.sql\ndrizzle/meta\neslint.config.js\npackage.json\nsmithery.yaml\nsrc\nsrc/__mocks__\nsrc/__tests__\nsrc/api\nsrc/cli.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- **Local SQLite database** - All usage data stored locally using libSQL\n- **Automatic tracking** - Every LLM request is tracked with token counts and costs\n- **Usage statistics** - View your AI usage with `npx ultra-mcp db:stats`\n- **Privacy first** - Your data never leaves your machine",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🤖 **Multi-Model Support**: Integrate OpenAI (GPT-5), Google Gemini (2.5 Pro), Azure OpenAI, and xAI Grok models\n- 🔌 **MCP Protocol**: Standard Model Context Protocol interface\n- 🎯 **Discoverable Prompts**: All 25 tools available as prompts in Claude Code (New in v0.7.0)\n- 🧠 **Deep Reasoning Tools**: Access GPT-5 for complex problem-solving\n- 🔍 **Investigation & Research**: Built-in tools for thorough investigation and research\n- 🌐 **Google Search Integration**: Gemini 2.5 Pro with real-time web search\n- ⚡ **Real-time Streaming**: Live model responses via Vercel AI SDK\n- 🔧 **Zero Confi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214067397014395
+  },
+  {
+    "name": "ultra-mcp/drizzle 模块",
+    "description": "[模块级] ultra-mcp 项目的 drizzle 模块 (source)。来源: https://github.com/RealMikeChong/ultra-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-268",
+      "github-realmikechong",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 7\n\n包含文件:\n- drizzle/0000_wealthy_vulture.sql\n- drizzle/0001_volatile_galactus.sql\n- drizzle/0002_add_unique_constraints.sql\n- drizzle/meta\n- drizzle/meta/0000_snapshot.json\n- drizzle/meta/0001_snapshot.json\n- drizzle/meta/_journal.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_wealthy_vulture.sql\ndrizzle/0001_volatile_galactus.sql\ndrizzle/0002_add_unique_constraints.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/0001_snapshot.json\ndrizzle/meta/_journal.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "ultra-mcp/src 模块",
+    "description": "[模块级] ultra-mcp 项目的 src 模块 (source)。来源: https://github.com/RealMikeChong/ultra-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-268",
+      "github-realmikechong",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 113\n\n包含文件:\n- src/__mocks__\n- src/__mocks__/stdio.ts\n- src/__tests__\n- src/__tests__/commands\n- src/__tests__/commands/install.test.ts\n- src/__tests__/config\n- src/__tests__/config/interactive.test.ts\n- src/__tests__/config/manager.test.ts\n- src/__tests__/config/schema.test.ts\n- src/__tests__/db",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__mocks__\nsrc/__mocks__/stdio.ts\nsrc/__tests__\nsrc/__tests__/commands\nsrc/__tests__/commands/install.test.ts\nsrc/__tests__/config\nsrc/__tests__/config/interactive.test.ts\nsrc/__tests__/config/manager.test.ts\nsrc/__tests__/config/schema.test.ts\nsrc/__tests__/db\nsrc/__tests__/db/fast-completion-path.test.ts\nsrc/__tests__/db/tracking.test.ts\nsrc/__tests__/e2e\nsrc/__tests__/e2e/chat.test.ts\nsrc/__tests__/e2e/cli.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "ultra-mcp/web 模块",
+    "description": "[模块级] ultra-mcp 项目的 web 模块 (source)。来源: https://github.com/RealMikeChong/ultra-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-268",
+      "github-realmikechong",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "- **Beautiful UI** - React dashboard with Tailwind CSS\n- **Real-time stats** - View usage trends, costs by provider, and model distribution\n- **Easy access** - Just run `npx ultra-mcp dashboard`\n- **Configuration UI** - Manage API keys and model priorities from the web",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/bun.lock\nweb/index.html\nweb/package.json\nweb/postcss.config.js\nweb/src\nweb/src/App.tsx\nweb/src/components\nweb/src/components/ui\nweb/src/components/ui/card.tsx\nweb/src/index.css\nweb/src/lib\nweb/src/lib/__tests__\nweb/src/lib/__tests__/utils.test.ts\nweb/src/lib/api-types.ts\nweb/src/lib/trpc.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  }
+]

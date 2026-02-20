@@ -1,0 +1,138 @@
+[
+  {
+    "name": "MetaGPT (FoundationAgents)",
+    "description": "[项目级] 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming。来源: https://github.com/FoundationAgents/MetaGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "gpt",
+      "llm",
+      "metagpt",
+      "multi-agent",
+      "python",
+      "stars-64315",
+      "github-foundationagents",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming\n\n来源: https://github.com/FoundationAgents/MetaGPT\n语言: Python\nStars: 64315",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> Ensure that Python 3.9 or later, but less than 3.12, is installed on your system. You can check this by using: `python --version`.  \n> You can use conda like this: `conda create -n metagpt python=3.9 && conda activate metagpt`\n\n```bash\npip install --upgrade metagpt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMANIFEST.in\nREADME.md\nSECURITY.md\nconfig\nconfig/config2.example.yaml\nconfig/config2.yaml\nconfig/examples\nconfig/puppeteer-config.json\nconfig/vault.example.yaml\ndocs\ndocs/.agent-store-config.yaml.example\ndocs/.pylintrc\ndocs/.well-known\ndocs/ACADEMIC_WORK.md\ndocs/FAQ-EN.md\ndocs/NEWS.md\ndocs/README_CN.md\ndocs/README_FR.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "metagpt \"Create a 2048 game\"  # this will create a repo in ./workspace",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "MetaGPT/config 模块",
+    "description": "[模块级] MetaGPT 项目的 config 模块 (config)。来源: https://github.com/FoundationAgents/MetaGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "gpt",
+      "llm",
+      "metagpt",
+      "multi-agent",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "You can init the config of MetaGPT by running the following command, or manually create `~/.metagpt/config2.yaml` file:\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config2.example.yaml\nconfig/config2.yaml\nconfig/examples\nconfig/examples/anthropic-claude-3-5-sonnet.yaml\nconfig/examples/aws-bedrock.yaml\nconfig/examples/google-gemini.yaml\nconfig/examples/groq-llama3-70b.yaml\nconfig/examples/huoshan_ark.yaml\nconfig/examples/llamaapi-Llama-3.3-70B-Instruct.yaml\nconfig/examples/llamaapi-Llama-3.3-8B-Instruct.yaml\nconfig/examples/llamaapi-Llama-4-Scout-17B-16E-Instruct-FP8.yaml\nconfig/examples/llamaapi-llama-4-Maverick-17B-128E-Instruct-FP8.yaml\nconfig/examples/openai-gpt-3.5-turbo.yaml\nconfig/examples/openai-gpt-4-turbo.yaml\nconfig/examples/openrouter-llama3-70b-instruct.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.423324909589597
+  },
+  {
+    "name": "MetaGPT/docs 模块",
+    "description": "[模块级] MetaGPT 项目的 docs 模块 (docs)。来源: https://github.com/FoundationAgents/MetaGPT",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "gpt",
+      "llm",
+      "metagpt",
+      "multi-agent",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "metagpt --init-config  # it will create ~/.metagpt/config2.yaml, just modify it to your needs\n```\n\nYou can configure `~/.metagpt/config2.yaml` according to the [example](https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml) and [doc](https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html):\n\n```yaml\nllm:\n  api_type: \"openai\"  # or azure / ollama / groq etc. Check LLMType for more options\n  model: \"gpt-4-turbo\"  # or gpt-3.5-turbo\n  base_url: \"https://api.openai",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.agent-store-config.yaml.example\ndocs/.pylintrc\ndocs/.well-known\ndocs/.well-known/ai-plugin.json\ndocs/.well-known/metagpt_oas3_api.yaml\ndocs/.well-known/openapi.yaml\ndocs/.well-known/skills.yaml\ndocs/ACADEMIC_WORK.md\ndocs/FAQ-EN.md\ndocs/NEWS.md\ndocs/README_CN.md\ndocs/README_FR.md\ndocs/README_JA.md\ndocs/ROADMAP.md\ndocs/install",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docs 代码示例",
+        "content": "You can configure `~/.metagpt/config2.yaml` according to the [example](https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml) and [doc](https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html):",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.423324909589597
+  },
+  {
+    "name": "MetaGPT/examples 模块",
+    "description": "[模块级] MetaGPT 项目的 examples 模块 (example)。来源: https://github.com/FoundationAgents/MetaGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "gpt",
+      "llm",
+      "metagpt",
+      "multi-agent",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 45\n\n包含文件:\n- examples/aflow\n- examples/aflow/README.md\n- examples/aflow/config2.example.yaml\n- examples/aflow/optimize.py\n- examples/agent_creator.py\n- examples/android_assistant\n- examples/android_assistant/requirements.txt\n- examples/android_assistant/run_assistant.py\n- examples/build_customized_agent.py\n- examples/build_customized_multi_agents.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/aflow\nexamples/aflow/README.md\nexamples/aflow/config2.example.yaml\nexamples/aflow/optimize.py\nexamples/agent_creator.py\nexamples/android_assistant\nexamples/android_assistant/requirements.txt\nexamples/android_assistant/run_assistant.py\nexamples/build_customized_agent.py\nexamples/build_customized_multi_agents.py\nexamples/cr.py\nexamples/dalle_gpt4v_agent.py\nexamples/data\nexamples/data/di\nexamples/data/di/dog.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.423324909589597
+  }
+]

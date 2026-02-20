@@ -9,14 +9,14 @@
       "awesome",
       "awesome-list",
       "awesome-lists",
-      "stars-7385",
+      "stars-7386",
       "github-travisvn",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code\n\n来源: https://github.com/travisvn/awesome-claude-skills\n语言: unknown\nStars: 7385",
+        "content": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code\n\n来源: https://github.com/travisvn/awesome-claude-skills\n语言: unknown\nStars: 7386",
         "gene_type": "principle"
       },
       {
@@ -37,6 +37,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.934175249823984
+    "rating": 4.93420465165748
   }
 ]

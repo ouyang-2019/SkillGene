@@ -1,0 +1,150 @@
+[
+  {
+    "name": "claude-dashboard (uppinote20)",
+    "description": "[项目级] Comprehensive status line plugin for Claude Code with context usage, API rate limits, and cost tracking。来源: https://github.com/uppinote20/claude-dashboard",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-156",
+      "github-uppinote20",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Comprehensive status line plugin for Claude Code with context usage, API rate limits, and cost tracking\n\n来源: https://github.com/uppinote20/claude-dashboard\n语言: TypeScript\nStars: 156",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Requirements:** Claude Code v1.0.80+ / Node.js 18+",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ncommands\ncommands/check-usage.md\ncommands/setup.md\ncommands/update.md\ndemo.gif\ndist\ndist/check-usage.js\ndist/index.js\nimages\nimages/check-usage-json.png\nimages/check-usage.png\nimages/compact.png\nimages/detailed.png\nimages/normal.png\nlocales\nlocales/en.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/claude-dashboard:check-usage              # Interactive output with colors\n/claude-dashboard:check-usage --json       # JSON output for scripting\n/claude-dashboard:check-usage --lang ko    # Specify language",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.096562299177231
+  },
+  {
+    "name": "claude-dashboard/commands 模块",
+    "description": "[模块级] claude-dashboard 项目的 commands 模块 (source)。来源: https://github.com/uppinote20/claude-dashboard",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-156",
+      "github-uppinote20",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 3\n\n包含文件:\n- commands/check-usage.md\n- commands/setup.md\n- commands/update.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/check-usage.md\ncommands/setup.md\ncommands/update.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3772498393417845
+  },
+  {
+    "name": "claude-dashboard/images 模块",
+    "description": "[模块级] claude-dashboard 项目的 images 模块 (source)。来源: https://github.com/uppinote20/claude-dashboard",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-156",
+      "github-uppinote20",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/check-usage-json.png\n- images/check-usage.png\n- images/compact.png\n- images/detailed.png\n- images/normal.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/check-usage-json.png\nimages/check-usage.png\nimages/compact.png\nimages/detailed.png\nimages/normal.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3772498393417845
+  },
+  {
+    "name": "claude-dashboard/locales 模块",
+    "description": "[模块级] claude-dashboard 项目的 locales 模块 (source)。来源: https://github.com/uppinote20/claude-dashboard",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-156",
+      "github-uppinote20",
+      "module-level",
+      "source",
+      "locales"
+    ],
+    "genes": [
+      {
+        "title": "locales 模块说明",
+        "content": "模块路径: locales/\n类型: source\n文件数: 2\n\n包含文件:\n- locales/en.json\n- locales/ko.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "locales 文件结构",
+        "content": "locales/en.json\nlocales/ko.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3772498393417845
+  },
+  {
+    "name": "claude-dashboard/scripts 模块",
+    "description": "[模块级] claude-dashboard 项目的 scripts 模块 (script)。来源: https://github.com/uppinote20/claude-dashboard",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-156",
+      "github-uppinote20",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 54\n\n包含文件:\n- scripts/__tests__\n- scripts/__tests__/api-client.test.ts\n- scripts/__tests__/check-usage.test.ts\n- scripts/__tests__/fixtures.ts\n- scripts/__tests__/formatters.test.ts\n- scripts/__tests__/gemini-client.test.ts\n- scripts/__tests__/hash.test.ts\n- scripts/__tests__/i18n.test.ts\n- scripts/__tests__/progress-bar.test.ts\n- scripts/__tests__/rate-limit.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/__tests__\nscripts/__tests__/api-client.test.ts\nscripts/__tests__/check-usage.test.ts\nscripts/__tests__/fixtures.ts\nscripts/__tests__/formatters.test.ts\nscripts/__tests__/gemini-client.test.ts\nscripts/__tests__/hash.test.ts\nscripts/__tests__/i18n.test.ts\nscripts/__tests__/progress-bar.test.ts\nscripts/__tests__/rate-limit.test.ts\nscripts/__tests__/session-id.test.ts\nscripts/__tests__/transcript-parser.test.ts\nscripts/__tests__/widgets.test.ts\nscripts/__tests__/zai-api-client.test.ts\nscripts/build.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3772498393417845
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "name": "miaou (Canop)",
+    "description": "[项目级] A chat server with OAuth2 authentication, persistent and searchable history, video and audio, markdown formatting, private and public rooms, stars, votes, embedded games, and many other features。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "stars-552",
+      "github-canop",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A chat server with OAuth2 authentication, persistent and searchable history, video and audio, markdown formatting, private and public rooms, stars, votes, embedded games, and many other features\n\n来源: https://github.com/Canop/miaou\n语言: JavaScript\nStars: 552",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "If you want to install Miaou, the installation documentation is available [here](installation.md).\n\nDon't hesitate to come ask us some advices in one of the dedicated chat rooms [![Chat on Miaou](https://miaou.dystroy.org/static/shields/room-en.svg?v=1)](https://miaou.dystroy.org/1?Miaou) and [![Chat on Miaou](https://miaou.dystroy.org/static/shields/room-fr.svg?v=1)](https://miaou.dystroy.org/3?Code_Croissants) (please note that they're currently more active between 8 and 19 GMT).\n\nAnd if you run your own server, please tell us, we're always happy to learn about installations.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nREADME.md\nVagrantfile\nbacon.toml\nbench.sh\nbenchmark\nbenchmark/naming.bench.js\nbenchmark/tribo.bench.js\nconfig-default.js\ndocker-compose.yml\ndocker\ndocker/README.md\ndocker/config.js\ndocker/miaou-default.env\neslint.config.mjs\ngraphics\ngraphics/M-white.svg\ngraphics/M.svg\ngraphics/Miaou.svg\ngulpfile.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3709695388646
+  },
+  {
+    "name": "miaou/benchmark 模块",
+    "description": "[模块级] miaou 项目的 benchmark 模块 (source)。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 2\n\n包含文件:\n- benchmark/naming.bench.js\n- benchmark/tribo.bench.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/naming.bench.js\nbenchmark/tribo.bench.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5967756310916794
+  },
+  {
+    "name": "miaou/docker 模块",
+    "description": "[模块级] miaou 项目的 docker 模块 (source)。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 3\n\n包含文件:\n- docker/README.md\n- docker/config.js\n- docker/miaou-default.env",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/README.md\ndocker/config.js\ndocker/miaou-default.env",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5967756310916794
+  },
+  {
+    "name": "miaou/graphics 模块",
+    "description": "[模块级] miaou 项目的 graphics 模块 (source)。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "module-level",
+      "source",
+      "graphics"
+    ],
+    "genes": [
+      {
+        "title": "graphics 模块说明",
+        "content": "模块路径: graphics/\n类型: source\n文件数: 3\n\n包含文件:\n- graphics/M-white.svg\n- graphics/M.svg\n- graphics/Miaou.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "graphics 文件结构",
+        "content": "graphics/M-white.svg\ngraphics/M.svg\ngraphics/Miaou.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5967756310916794
+  },
+  {
+    "name": "miaou/libs 模块",
+    "description": "[模块级] miaou 项目的 libs 模块 (source)。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 43\n\n包含文件:\n- libs/Miaou.js\n- libs/README.md\n- libs/afk.js\n- libs/anti-csrf.js\n- libs/app-utils.js\n- libs/auths.js\n- libs/ban.js\n- libs/bans.js\n- libs/bench.js\n- libs/bots.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/Miaou.js\nlibs/README.md\nlibs/afk.js\nlibs/anti-csrf.js\nlibs/app-utils.js\nlibs/auths.js\nlibs/ban.js\nlibs/bans.js\nlibs/bench.js\nlibs/bots.js\nlibs/chat.js\nlibs/clienterrors.js\nlibs/commands.js\nlibs/db.js\nlibs/err.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5967756310916794
+  },
+  {
+    "name": "miaou/plugins 模块",
+    "description": "[模块级] miaou 项目的 plugins 模块 (source)。来源: https://github.com/Canop/miaou",
+    "domain": "devops",
+    "tags": [
+      "chat",
+      "javascript",
+      "nodejs",
+      "postgresql",
+      "redis",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 128\n\n包含文件:\n- plugins/IP-login\n- plugins/IP-login/README.md\n- plugins/IP-login/plugin.js\n- plugins/README.md\n- plugins/attention\n- plugins/attention/README.md\n- plugins/attention/client-scripts\n- plugins/attention/client-scripts/miaou.attention.js\n- plugins/attention/css\n- plugins/attention/css/attention.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/IP-login\nplugins/IP-login/README.md\nplugins/IP-login/plugin.js\nplugins/README.md\nplugins/attention\nplugins/attention/README.md\nplugins/attention/client-scripts\nplugins/attention/client-scripts/miaou.attention.js\nplugins/attention/css\nplugins/attention/css/attention.css\nplugins/attention/doc\nplugins/attention/doc/attention-bang-hovering.png\nplugins/attention/doc/attention-bang-menu.png\nplugins/attention/doc/attention-bang.png\nplugins/attention/doc/attention-nothing-hovering.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5967756310916794
+  }
+]

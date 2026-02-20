@@ -1,0 +1,108 @@
+[
+  {
+    "name": "ai-code-context-helper (sansan0)",
+    "description": "[项目级] 🚀 Desktop tool for extracting code context to enhance AI-assisted development. Visualize project structure, export multiple files with one-click, and get more accurate suggestions from AI assistants while keeping your code private.。来源: https://github.com/sansan0/ai-code-context-helper",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "ai-collaboration",
+      "chatgpt",
+      "claude",
+      "code-context",
+      "python",
+      "stars-196",
+      "github-sansan0",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Code Context Helper is designed for anyone who needs to understand, learn, and develop code. Through visualized project structure display and one-click code export, whether you're a programming beginner, professional developer, or educator, whether you're learning to understand code, developing new features, or seeking code improvement suggestions, it helps you easily extract code context and communicate efficiently with AI assistants.\n\n<p align=\"center\">\n  <img src=\"./_images/app_en.gif\" width=\"50%\" alt=\"Demo GIF\">\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nREADME_zh.md\n_images\n_images/app_en.gif\n_images/app_zh.gif\nai_code_context_helper\nai_code_context_helper/__init__.py\nai_code_context_helper/clipboard_operations.py\nai_code_context_helper/code_context_generator.py\nai_code_context_helper/config.py\nai_code_context_helper/dialogs.py\nai_code_context_helper/file_utils.py\nai_code_context_helper/gui_components.py\nai_code_context_helper/languages.py\nai_code_context_helper/resources\nai_code_context_helper/run.py\nai_code_context_helper/settings_manager.py\nai_code_context_helper/tooltip.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146128035678238
+  },
+  {
+    "name": "ai-code-context-helper/_images 模块",
+    "description": "[模块级] ai-code-context-helper 项目的 _images 模块 (source)。来源: https://github.com/sansan0/ai-code-context-helper",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "ai-collaboration",
+      "chatgpt",
+      "claude",
+      "code-context",
+      "module-level",
+      "source",
+      "_images"
+    ],
+    "genes": [
+      {
+        "title": "_images 模块说明",
+        "content": "模块路径: _images/\n类型: source\n文件数: 2\n\n包含文件:\n- _images/app_en.gif\n- _images/app_zh.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_images 文件结构",
+        "content": "_images/app_en.gif\n_images/app_zh.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.41690242854259
+  },
+  {
+    "name": "ai-code-context-helper/ai_code_context_helper 模块",
+    "description": "[模块级] ai-code-context-helper 项目的 ai_code_context_helper 模块 (source)。来源: https://github.com/sansan0/ai-code-context-helper",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "ai-collaboration",
+      "chatgpt",
+      "claude",
+      "code-context",
+      "module-level",
+      "source",
+      "ai_code_context_helper"
+    ],
+    "genes": [
+      {
+        "title": "ai_code_context_helper 模块说明",
+        "content": "模块路径: ai_code_context_helper/\n类型: source\n文件数: 17\n\n包含文件:\n- ai_code_context_helper/__init__.py\n- ai_code_context_helper/clipboard_operations.py\n- ai_code_context_helper/code_context_generator.py\n- ai_code_context_helper/config.py\n- ai_code_context_helper/dialogs.py\n- ai_code_context_helper/file_utils.py\n- ai_code_context_helper/gui_components.py\n- ai_code_context_helper/languages.py\n- ai_code_context_helper/resources\n- ai_code_context_helper/resources/default_settings.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_code_context_helper 文件结构",
+        "content": "ai_code_context_helper/__init__.py\nai_code_context_helper/clipboard_operations.py\nai_code_context_helper/code_context_generator.py\nai_code_context_helper/config.py\nai_code_context_helper/dialogs.py\nai_code_context_helper/file_utils.py\nai_code_context_helper/gui_components.py\nai_code_context_helper/languages.py\nai_code_context_helper/resources\nai_code_context_helper/resources/default_settings.json\nai_code_context_helper/resources/icon.ico\nai_code_context_helper/resources/weixin.png\nai_code_context_helper/run.py\nai_code_context_helper/settings_manager.py\nai_code_context_helper/tooltip.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.41690242854259
+  }
+]

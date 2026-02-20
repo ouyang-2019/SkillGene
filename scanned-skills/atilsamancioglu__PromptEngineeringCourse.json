@@ -1,0 +1,54 @@
+[
+  {
+    "name": "PromptEngineeringCourse (atilsamancioglu)",
+    "description": "[项目级] PromptEngineeringCourse。来源: https://github.com/atilsamancioglu/PromptEngineeringCourse",
+    "domain": "devops",
+    "tags": [
+      "stars-269",
+      "github-atilsamancioglu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/atilsamancioglu/PromptEngineeringCourse\n语言: unknown\nStars: 269",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "EnglishGuide.MD\nLICENSE\nREADME.md\nTurkishGuide.md\ndata\ndata/datacleaning.xlsx\ndata/edasample.xlsx\ndata/employeesample_test.csv\ndata/employeesample_train.csv\ndata/metallicahistory.pdf\nmedia\nmedia/scatterplot.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214876140001204
+  },
+  {
+    "name": "PromptEngineeringCourse/data 模块",
+    "description": "[模块级] PromptEngineeringCourse 项目的 data 模块 (source)。来源: https://github.com/atilsamancioglu/PromptEngineeringCourse",
+    "domain": "devops",
+    "tags": [
+      "stars-269",
+      "github-atilsamancioglu",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 5\n\n包含文件:\n- data/datacleaning.xlsx\n- data/edasample.xlsx\n- data/employeesample_test.csv\n- data/employeesample_train.csv\n- data/metallicahistory.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/datacleaning.xlsx\ndata/edasample.xlsx\ndata/employeesample_test.csv\ndata/employeesample_train.csv\ndata/metallicahistory.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4719009120009634
+  }
+]

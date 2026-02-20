@@ -1,0 +1,78 @@
+[
+  {
+    "name": "entity-db (babycommando)",
+    "description": "[项目级] EntityDB is an in-browser vector database wrapping indexedDB and Transformers.js over WebAssembly。来源: https://github.com/babycommando/entity-db",
+    "domain": "general",
+    "tags": [
+      "db",
+      "dbbrowser",
+      "embeddings",
+      "idb",
+      "indexed-db",
+      "javascript",
+      "stars-275",
+      "github-babycommando",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**EntityDB** is a powerful, lightweight in-browser database designed for storing and querying vectors. It integrates seamlessly with [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) for persistent storage and [Transformers.js](https://github.com/xenova/transformers) to generate embeddings from text, allowing you to build fast and efficient search systems with state-of-the-art models. Whether you're building search engines, recommendation systems, Ai memory or any app requiring vector similarity, EntityDB has got you covered.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install @babycommando/entity-db",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.MD\nbinary_js.png\nbinary_wasm.png\ncover.gif\nhaming_distance_simd.wat\npackage.json\nsc-binary-wasm.png\nsc-binary.png\nsc-db.png\nsrc\nsrc/index.d.ts\nsrc/index.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **In-browser**: Runs entirely in the browser using IndexedDB for local storage.\n- **Seamless Integration with Transformers**: Easily generate text embeddings with Hugging Face models via Transformers.js.\n- **Cosine Similarity Search**: Efficient querying based on cosine similarity between vectors.\n- **Flexible**: Supports both automatic embedding generation and manual insertion of pre-computed embeddings.\n- **Lightweight**: No need for a server-side component or complex setup.\n\n![EntityDB_in_action](sc-db.png)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.219666346915131
+  },
+  {
+    "name": "entity-db/src 模块",
+    "description": "[模块级] entity-db 项目的 src 模块 (source)。来源: https://github.com/babycommando/entity-db",
+    "domain": "general",
+    "tags": [
+      "db",
+      "dbbrowser",
+      "embeddings",
+      "idb",
+      "indexed-db",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/index.d.ts\n- src/index.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/index.d.ts\nsrc/index.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  }
+]

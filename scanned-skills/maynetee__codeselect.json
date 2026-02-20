@@ -1,0 +1,43 @@
+[
+  {
+    "name": "codeselect (maynetee)",
+    "description": "[项目级] A simple, interactive tool to select and share code with AI assistants like Claude and ChatGPT. Analyzes file relationships and generates context-rich output.。来源: https://github.com/maynetee/codeselect",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-235",
+      "github-maynetee",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A simple, interactive tool to select and share code with AI assistants like Claude and ChatGPT. Analyzes file relationships and generates context-rich output.\n\n来源: https://github.com/maynetee/codeselect\n语言: Python\nStars: 235",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncodeselect.py\ninstall.sh\nuninstall.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Visual File Selection**: Interactive UI to easily select files with checkboxes\n- **Intelligent Code Analysis**: Automatically detects imports and relationships between files\n- **Multi-language Support**: Works with Python, C/C++, JavaScript, Java, Go, Ruby, PHP, Rust, Swift and more\n- **Zero Dependencies**: Works with standard Python libraries only\n- **Non-admin Installation**: No special privileges required\n- **Clipboard Integration**: Automatically copies output to clipboard\n- **AI-optimized Format**: Structures output to help AI assistants understand project context",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.185533931135868
+  }
+]

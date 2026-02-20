@@ -1,0 +1,91 @@
+[
+  {
+    "name": "happy-llm (datawhalechina)",
+    "description": "[项目级] 📚 从零开始的大语言模型原理与实践教程。来源: https://github.com/datawhalechina/happy-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "jupyter notebook",
+      "stars-25988",
+      "github-datawhalechina",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📚 从零开始的大语言模型原理与实践教程\n\n来源: https://github.com/datawhalechina/happy-llm\n语言: Jupyter Notebook\nStars: 25988",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Extra-Chapter\nExtra-Chapter/CDDRS\nExtra-Chapter/Readme.md\nExtra-Chapter/generation-method\nExtra-Chapter/s1-vllm-thinking-budget\nExtra-Chapter/text-data-processing\nExtra-Chapter/transformer-architecture\nExtra-Chapter/vlm-concatenation-finetune\nExtra-Chapter/why-fine-tune-small-large-language-models\nLICENSE.txt\nREADME.md\nREADME_en.md\ndocs\ndocs/.nojekyll\ndocs/README.md\ndocs/_sidebar.md\ndocs/chapter1\ndocs/chapter2\ndocs/chapter3\ndocs/chapter4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "happy-llm/Extra-Chapter 模块",
+    "description": "[模块级] happy-llm 项目的 Extra-Chapter 模块 (source)。来源: https://github.com/datawhalechina/happy-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "jupyter notebook",
+      "stars-25988",
+      "module-level",
+      "source",
+      "extra-chapter"
+    ],
+    "genes": [
+      {
+        "title": "Extra-Chapter 模块说明",
+        "content": "- [ditingdapeng](https://github.com/ditingdapeng)（内容贡献者-云原生基础架构工程师）\n- [蔡鋆捷](https://github.com/xinala-781)（内容贡献者-福州大学）\n- [ShaohonChen](https://github.com/ShaohonChen) （情感机器实验室研究员-西安电子科技大学在读硕士）\n- [肖鸿儒, 庄健琨](https://github.com/Hongru0306) (内容贡献者-同济大学)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Extra-Chapter 文件结构",
+        "content": "Extra-Chapter/CDDRS\nExtra-Chapter/CDDRS/CDDRS.ipynb\nExtra-Chapter/CDDRS/images\nExtra-Chapter/CDDRS/images/pic1.png\nExtra-Chapter/CDDRS/images/pic2.png\nExtra-Chapter/CDDRS/images/pic3.png\nExtra-Chapter/CDDRS/readme.md\nExtra-Chapter/Readme.md\nExtra-Chapter/generation-method\nExtra-Chapter/generation-method/llm_generation.py\nExtra-Chapter/generation-method/model_down.py\nExtra-Chapter/generation-method/readme.md\nExtra-Chapter/s1-vllm-thinking-budget\nExtra-Chapter/s1-vllm-thinking-budget/images\nExtra-Chapter/s1-vllm-thinking-budget/images/image-1.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.265909143237332
+  },
+  {
+    "name": "happy-llm/docs 模块",
+    "description": "[模块级] happy-llm 项目的 docs 模块 (docs)。来源: https://github.com/datawhalechina/happy-llm",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "jupyter notebook",
+      "stars-25988",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 115\n\n包含文件:\n- docs/.nojekyll\n- docs/README.md\n- docs/_sidebar.md\n- docs/chapter1\n- docs/chapter1/第一章 NLP基础概念.md\n- docs/chapter2\n- docs/chapter2/code\n- docs/chapter2/code/requirements.txt\n- docs/chapter2/code/transformer.py\n- docs/chapter2/第二章 Transformer架构.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.nojekyll\ndocs/README.md\ndocs/_sidebar.md\ndocs/chapter1\ndocs/chapter1/第一章 NLP基础概念.md\ndocs/chapter2\ndocs/chapter2/code\ndocs/chapter2/code/requirements.txt\ndocs/chapter2/code/transformer.py\ndocs/chapter2/第二章 Transformer架构.md\ndocs/chapter3\ndocs/chapter3/第三章 预训练语言模型.md\ndocs/chapter4\ndocs/chapter4/第四章 大语言模型.md\ndocs/chapter5",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.265909143237332
+  }
+]

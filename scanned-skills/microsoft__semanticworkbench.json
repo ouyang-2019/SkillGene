@@ -1,0 +1,122 @@
+[
+  {
+    "name": "semanticworkbench (microsoft)",
+    "description": "[项目级] A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems 。来源: https://github.com/microsoft/semanticworkbench",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-386",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A versatile tool designed to help prototype intelligent assistants, agents and multi-agentic systems \n\n来源: https://github.com/microsoft/semanticworkbench\n语言: Python\nStars: 386",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "GitHub Codespaces provides a cloud-based development environment for your repository. It allows you to develop, build, and test your code\nin a consistent environment, without needing to install dependencies or configure your local machine. It works with any system with a web\nbrowser and internet connection, including Windows, MacOS, Linux, Chromebooks, tablets, and mobile devices.\n\nSee the [GitHub Codespaces / devcontainer README](.devcontainer/README.md) for more information on how to set up and use GitHub Codespaces\nwith Semantic Workbench.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nKNOWN_ISSUES.md\nLICENSE\nMakefile\nREADME.md\nRESPONSIBLE_AI_FAQ.md\nSECURITY.md\nSUPPORT.md\nai_context\nai_context/generated\naspire-orchestrator\naspire-orchestrator/.editorconfig\naspire-orchestrator/Aspire.AppHost\naspire-orchestrator/Aspire.Extensions\naspire-orchestrator/Aspire.ServiceDefaults\naspire-orchestrator/README.md\naspire-orchestrator/SemanticWorkbench.Aspire.sln\naspire-orchestrator/SemanticWorkbench.Aspire.sln.DotSettings",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "![Configured dashboard example](docs/images/dashboard_configured_view.png)\n\n![Prospector Assistant example](docs/images/prospector_example.png)\n\n![Message debug inspection](docs/images/message_inspection.png)\n\n![Mermaid graph example](examples/dotnet/dotnet-02-message-types-demo/docs/mermaid.png)\n\n![ABC music example](examples/dotnet/dotnet-02-message-types-demo/docs/abc.png)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.293293652335878
+  },
+  {
+    "name": "semanticworkbench/ai_context 模块",
+    "description": "[模块级] semanticworkbench 项目的 ai_context 模块 (source)。来源: https://github.com/microsoft/semanticworkbench",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-386",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "ai_context"
+    ],
+    "genes": [
+      {
+        "title": "ai_context 模块说明",
+        "content": "模块路径: ai_context/\n类型: source\n文件数: 21\n\n包含文件:\n- ai_context/generated\n- ai_context/generated/ASPIRE_ORCHESTRATOR.md\n- ai_context/generated/ASSISTANTS_OTHER.md\n- ai_context/generated/ASSISTANTS_OVERVIEW.md\n- ai_context/generated/ASSISTANT_CODESPACE.md\n- ai_context/generated/ASSISTANT_DOCUMENT.md\n- ai_context/generated/ASSISTANT_NAVIGATOR.md\n- ai_context/generated/ASSISTANT_PROJECT.md\n- ai_context/generated/ASSISTANT_PROSPECTOR.md\n- ai_context/generated/CONFIGURATION.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_context 文件结构",
+        "content": "ai_context/generated\nai_context/generated/ASPIRE_ORCHESTRATOR.md\nai_context/generated/ASSISTANTS_OTHER.md\nai_context/generated/ASSISTANTS_OVERVIEW.md\nai_context/generated/ASSISTANT_CODESPACE.md\nai_context/generated/ASSISTANT_DOCUMENT.md\nai_context/generated/ASSISTANT_NAVIGATOR.md\nai_context/generated/ASSISTANT_PROJECT.md\nai_context/generated/ASSISTANT_PROSPECTOR.md\nai_context/generated/CONFIGURATION.md\nai_context/generated/DOTNET_LIBRARIES.md\nai_context/generated/EXAMPLES.md\nai_context/generated/MCP_SERVERS.md\nai_context/generated/PYTHON_LIBRARIES_AI_CLIENTS.md\nai_context/generated/PYTHON_LIBRARIES_CORE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.534634921868702
+  },
+  {
+    "name": "semanticworkbench/aspire-orchestrator 模块",
+    "description": "[模块级] semanticworkbench 项目的 aspire-orchestrator 模块 (source)。来源: https://github.com/microsoft/semanticworkbench",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-386",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "aspire-orchestrator"
+    ],
+    "genes": [
+      {
+        "title": "aspire-orchestrator 模块说明",
+        "content": "模块路径: aspire-orchestrator/\n类型: source\n文件数: 24\n\n包含文件:\n- aspire-orchestrator/.editorconfig\n- aspire-orchestrator/Aspire.AppHost\n- aspire-orchestrator/Aspire.AppHost/.gitignore\n- aspire-orchestrator/Aspire.AppHost/Aspire.AppHost.csproj\n- aspire-orchestrator/Aspire.AppHost/Program.cs\n- aspire-orchestrator/Aspire.AppHost/Properties\n- aspire-orchestrator/Aspire.AppHost/Properties/launchSettings.json\n- aspire-orchestrator/Aspire.AppHost/appsettings.json\n- aspire-orchestrator/Aspire.Extensions\n- aspire-orchestrator/Aspire.Extensions/Aspire.Extensions.csproj",
+        "gene_type": "principle"
+      },
+      {
+        "title": "aspire-orchestrator 文件结构",
+        "content": "aspire-orchestrator/.editorconfig\naspire-orchestrator/Aspire.AppHost\naspire-orchestrator/Aspire.AppHost/.gitignore\naspire-orchestrator/Aspire.AppHost/Aspire.AppHost.csproj\naspire-orchestrator/Aspire.AppHost/Program.cs\naspire-orchestrator/Aspire.AppHost/Properties\naspire-orchestrator/Aspire.AppHost/Properties/launchSettings.json\naspire-orchestrator/Aspire.AppHost/appsettings.json\naspire-orchestrator/Aspire.Extensions\naspire-orchestrator/Aspire.Extensions/Aspire.Extensions.csproj\naspire-orchestrator/Aspire.Extensions/Dashboard.cs\naspire-orchestrator/Aspire.Extensions/DockerFileExtensions.cs\naspire-orchestrator/Aspire.Extensions/PathNormalizer.cs\naspire-orchestrator/Aspire.Extensions/UvAppHostingExtensions.cs\naspire-orchestrator/Aspire.Extensions/UvAppResource.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.534634921868702
+  },
+  {
+    "name": "semanticworkbench/assistants 模块",
+    "description": "[模块级] semanticworkbench 项目的 assistants 模块 (source)。来源: https://github.com/microsoft/semanticworkbench",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-386",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "assistants"
+    ],
+    "genes": [
+      {
+        "title": "assistants 模块说明",
+        "content": "To develop new assistants and connect existing ones, see the [Assistant Development Guide](docs/ASSISTANT_DEVELOPMENT_GUIDE.md) or any check out one of the [examples](examples).\n\n- [Python example 1](examples/python/python-01-echo-bot/README.md): a simple assistant echoing text back.\n- [Python example 2](examples/python/python-02-simple-chatbot/README.md): a simple chatbot implementing metaprompt guardrails and content moderation.\n- [Python example 3](examples/python/python-03-multimodel-chatbot",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assistants 文件结构",
+        "content": "assistants/Makefile\nassistants/codespace-assistant\nassistants/codespace-assistant/.claude\nassistants/codespace-assistant/.claude/settings.local.json\nassistants/codespace-assistant/.env.example\nassistants/codespace-assistant/.vscode\nassistants/codespace-assistant/.vscode/extensions.json\nassistants/codespace-assistant/.vscode/launch.json\nassistants/codespace-assistant/.vscode/settings.json\nassistants/codespace-assistant/Makefile\nassistants/codespace-assistant/README.md\nassistants/codespace-assistant/assistant.code-workspace\nassistants/codespace-assistant/assistant\nassistants/codespace-assistant/assistant/__init__.py\nassistants/codespace-assistant/assistant/assets",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.534634921868702
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "agent37-skills-collection (Agent-3-7)",
+    "description": "[项目级] Collection of useful Claude AI skills and commands。来源: https://github.com/Agent-3-7/agent37-skills-collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-150",
+      "github-agent-3-7",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Collection of useful Claude AI skills and commands\n\n来源: https://github.com/Agent-3-7/agent37-skills-collection\n语言: Python\nStars: 150",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nplugins\nplugins/local-review\nplugins/yc-advisor",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088045629527841
+  },
+  {
+    "name": "agent37-skills-collection/plugins 模块",
+    "description": "[模块级] agent37-skills-collection 项目的 plugins 模块 (source)。来源: https://github.com/Agent-3-7/agent37-skills-collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-150",
+      "github-agent-3-7",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 194\n\n包含文件:\n- plugins/local-review\n- plugins/local-review/.claude-plugin\n- plugins/local-review/.claude-plugin/plugin.json\n- plugins/local-review/commands\n- plugins/local-review/commands/local-review.md\n- plugins/yc-advisor\n- plugins/yc-advisor/.claude-plugin\n- plugins/yc-advisor/.claude-plugin/plugin.json\n- plugins/yc-advisor/skills\n- plugins/yc-advisor/skills/yc-advisor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/local-review\nplugins/local-review/.claude-plugin\nplugins/local-review/.claude-plugin/plugin.json\nplugins/local-review/commands\nplugins/local-review/commands/local-review.md\nplugins/yc-advisor\nplugins/yc-advisor/.claude-plugin\nplugins/yc-advisor/.claude-plugin/plugin.json\nplugins/yc-advisor/skills\nplugins/yc-advisor/skills/yc-advisor\nplugins/yc-advisor/skills/yc-advisor/.gitignore\nplugins/yc-advisor/skills/yc-advisor/CLAUDE.md\nplugins/yc-advisor/skills/yc-advisor/SKILL.md\nplugins/yc-advisor/skills/yc-advisor/references\nplugins/yc-advisor/skills/yc-advisor/references/1k-benchmarks.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3704365036222725
+  }
+]

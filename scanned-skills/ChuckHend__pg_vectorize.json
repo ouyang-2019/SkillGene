@@ -1,0 +1,246 @@
+[
+  {
+    "name": "pg_vectorize (ChuckHend)",
+    "description": "[项目级] Full-text and semantic search on any Postgres。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "github-chuckhend",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "pg_vectorize provides two ways to add semantic, full text, and hybrid search to any Postgres making it easy to build retrieval-augmented generation (RAG) on Postgres. This project provides an external server only implementation and SQL experience via a Postgres extension.\n\nModes at a glance:\n\n- HTTP server (recommended for managed DBs): run a standalone service that connects to Postgres and exposes a REST API (POST /api/v1/table, GET /api/v1/search).\n- Postgres extension (SQL): install the extension into Postgres and use SQL functions like `vectorize.table()` and `vectorize.search()` (requires filesystem access to Postgres; see [./extension/README.md](./extension/README.md)).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Run Postgres and the HTTP servers locally using docker compose:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCargo.lock\nCargo.toml\nINSTALLATION.md\nLICENSE\nMakefile\nREADME.md\ncore\ncore/Cargo.toml\ncore/src\ndocker-compose.yml\ndocs\ndocs/extension\ndocs/index.md\ndocs/server\nextension\nextension/.cargo\nextension/.gitignore\nextension/.sqlx\nextension/Cargo.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.457963605848558
+  },
+  {
+    "name": "pg_vectorize/core 模块",
+    "description": "[模块级] pg_vectorize 项目的 core 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 23\n\n包含文件:\n- core/Cargo.toml\n- core/src\n- core/src/config.rs\n- core/src/db.rs\n- core/src/errors.rs\n- core/src/guc.rs\n- core/src/init.rs\n- core/src/lib.rs\n- core/src/query.rs\n- core/src/transformers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/Cargo.toml\ncore/src\ncore/src/config.rs\ncore/src/db.rs\ncore/src/errors.rs\ncore/src/guc.rs\ncore/src/init.rs\ncore/src/lib.rs\ncore/src/query.rs\ncore/src/transformers\ncore/src/transformers/generic.rs\ncore/src/transformers/http_handler.rs\ncore/src/transformers/mod.rs\ncore/src/transformers/providers\ncore/src/transformers/providers/cohere.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/docs 模块",
+    "description": "[模块级] pg_vectorize 项目的 docs 模块 (docs)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/extension\n- docs/extension/api\n- docs/extension/api/index.md\n- docs/extension/api/rag.md\n- docs/extension/api/search.md\n- docs/extension/api/utilities.md\n- docs/extension/configuration.md\n- docs/extension/examples\n- docs/extension/examples/openai_embeddings.md\n- docs/extension/examples/scheduling.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/extension\ndocs/extension/api\ndocs/extension/api/index.md\ndocs/extension/api/rag.md\ndocs/extension/api/search.md\ndocs/extension/api/utilities.md\ndocs/extension/configuration.md\ndocs/extension/examples\ndocs/extension/examples/openai_embeddings.md\ndocs/extension/examples/scheduling.md\ndocs/extension/examples/sentence_transformers.md\ndocs/extension/index.md\ndocs/extension/models\ndocs/extension/models/index.md\ndocs/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/extension 模块",
+    "description": "[模块级] pg_vectorize 项目的 extension 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "extension"
+    ],
+    "genes": [
+      {
+        "title": "extension 模块说明",
+        "content": "模块路径: extension/\n类型: source\n文件数: 80\n\n包含文件:\n- extension/.cargo\n- extension/.cargo/config.toml\n- extension/.gitignore\n- extension/.sqlx\n- extension/.sqlx/query-affb610249585833abfa6cc8e988e06d331a51fbd5980eadc209763de59eb52d.json\n- extension/Cargo.toml\n- extension/META.json.in\n- extension/Makefile\n- extension/README.md\n- extension/benchmarks",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extension 文件结构",
+        "content": "extension/.cargo\nextension/.cargo/config.toml\nextension/.gitignore\nextension/.sqlx\nextension/.sqlx/query-affb610249585833abfa6cc8e988e06d331a51fbd5980eadc209763de59eb52d.json\nextension/Cargo.toml\nextension/META.json.in\nextension/Makefile\nextension/README.md\nextension/benchmarks\nextension/benchmarks/bench_trigger.rs\nextension/docker-compose.yml\nextension/sql\nextension/sql/example.sql\nextension/sql/meta.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/images 模块",
+    "description": "[模块级] pg_vectorize 项目的 images 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/vectorize-pg\n- images/vectorize-pg/Dockerfile\n- images/vectorize-pg/postgresql.conf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/vectorize-pg\nimages/vectorize-pg/Dockerfile\nimages/vectorize-pg/postgresql.conf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/ollama-serve 模块",
+    "description": "[模块级] pg_vectorize 项目的 ollama-serve 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "ollama-serve"
+    ],
+    "genes": [
+      {
+        "title": "ollama-serve 模块说明",
+        "content": "模块路径: ollama-serve/\n类型: source\n文件数: 2\n\n包含文件:\n- ollama-serve/Dockerfile\n- ollama-serve/pull-model.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ollama-serve 文件结构",
+        "content": "ollama-serve/Dockerfile\nollama-serve/pull-model.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/proxy 模块",
+    "description": "[模块级] pg_vectorize 项目的 proxy 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "proxy"
+    ],
+    "genes": [
+      {
+        "title": "proxy 模块说明",
+        "content": "模块路径: proxy/\n类型: source\n文件数: 8\n\n包含文件:\n- proxy/Cargo.toml\n- proxy/src\n- proxy/src/cache.rs\n- proxy/src/embeddings.rs\n- proxy/src/lib.rs\n- proxy/src/message_parser.rs\n- proxy/src/protocol.rs\n- proxy/src/proxy.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "proxy 文件结构",
+        "content": "proxy/Cargo.toml\nproxy/src\nproxy/src/cache.rs\nproxy/src/embeddings.rs\nproxy/src/lib.rs\nproxy/src/message_parser.rs\nproxy/src/protocol.rs\nproxy/src/proxy.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  },
+  {
+    "name": "pg_vectorize/server 模块",
+    "description": "[模块级] pg_vectorize 项目的 server 模块 (source)。来源: https://github.com/ChuckHend/pg_vectorize",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "rag",
+      "vectordb",
+      "rust",
+      "stars-824",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "Run Postgres and the HTTP servers locally using docker compose:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/.dockerignore\nserver/.gitignore\nserver/.sqlx\nserver/.sqlx/query-2fc618887954eee57adc9505363ad78c22c3c6c9f4605c59159a0a6f5d3c32d6.json\nserver/.sqlx/query-affb610249585833abfa6cc8e988e06d331a51fbd5980eadc209763de59eb52d.json\nserver/Cargo.toml\nserver/Dockerfile\nserver/README.md\nserver/docker-compose.yml\nserver/sql\nserver/sql/example.sql\nserver/src\nserver/src/app_state.rs\nserver/src/bin\nserver/src/bin/worker.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6663708846788463
+  }
+]

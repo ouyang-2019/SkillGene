@@ -1,0 +1,125 @@
+[
+  {
+    "name": "compound-engineering-plugin (EveryInc)",
+    "description": "[项目级] Official Claude Code compound engineering plugin。来源: https://github.com/EveryInc/compound-engineering-plugin",
+    "domain": "devops",
+    "tags": [
+      "compound",
+      "engineering",
+      "typescript",
+      "stars-9290",
+      "github-everyinc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Official Claude Code compound engineering plugin\n\n来源: https://github.com/EveryInc/compound-engineering-plugin\n语言: TypeScript\nStars: 9290",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add https://github.com/EveryInc/compound-engineering-plugin\n/plugin install compound-engineering",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nbun.lock\ndocs\ndocs/brainstorms\ndocs/css\ndocs/index.html\ndocs/js\ndocs/pages\ndocs/plans\ndocs/solutions\ndocs/specs\npackage.json\nplans\nplans/grow-your-own-garden-plugin-architecture.md\nplans/landing-page-launchkit-refresh.md\nplugins",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.984007856996821
+  },
+  {
+    "name": "compound-engineering-plugin/docs 模块",
+    "description": "[模块级] compound-engineering-plugin 项目的 docs 模块 (docs)。来源: https://github.com/EveryInc/compound-engineering-plugin",
+    "domain": "documentation",
+    "tags": [
+      "compound",
+      "engineering",
+      "typescript",
+      "stars-9290",
+      "github-everyinc",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 35\n\n包含文件:\n- docs/brainstorms\n- docs/brainstorms/2026-02-14-copilot-converter-target-brainstorm.md\n- docs/brainstorms/2026-02-17-copilot-skill-naming-brainstorm.md\n- docs/css\n- docs/css/docs.css\n- docs/css/style.css\n- docs/index.html\n- docs/js\n- docs/js/main.js\n- docs/pages",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/brainstorms\ndocs/brainstorms/2026-02-14-copilot-converter-target-brainstorm.md\ndocs/brainstorms/2026-02-17-copilot-skill-naming-brainstorm.md\ndocs/css\ndocs/css/docs.css\ndocs/css/style.css\ndocs/index.html\ndocs/js\ndocs/js/main.js\ndocs/pages\ndocs/pages/agents.html\ndocs/pages/changelog.html\ndocs/pages/commands.html\ndocs/pages/getting-started.html\ndocs/pages/mcp-servers.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.087206285597457
+  },
+  {
+    "name": "compound-engineering-plugin/plans 模块",
+    "description": "[模块级] compound-engineering-plugin 项目的 plans 模块 (source)。来源: https://github.com/EveryInc/compound-engineering-plugin",
+    "domain": "devops",
+    "tags": [
+      "compound",
+      "engineering",
+      "typescript",
+      "stars-9290",
+      "github-everyinc",
+      "module-level",
+      "source",
+      "plans"
+    ],
+    "genes": [
+      {
+        "title": "plans 模块说明",
+        "content": "模块路径: plans/\n类型: source\n文件数: 2\n\n包含文件:\n- plans/grow-your-own-garden-plugin-architecture.md\n- plans/landing-page-launchkit-refresh.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plans 文件结构",
+        "content": "plans/grow-your-own-garden-plugin-architecture.md\nplans/landing-page-launchkit-refresh.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.087206285597457
+  },
+  {
+    "name": "compound-engineering-plugin/plugins 模块",
+    "description": "[模块级] compound-engineering-plugin 项目的 plugins 模块 (source)。来源: https://github.com/EveryInc/compound-engineering-plugin",
+    "domain": "devops",
+    "tags": [
+      "compound",
+      "engineering",
+      "typescript",
+      "stars-9290",
+      "github-everyinc",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 139\n\n包含文件:\n- plugins/coding-tutor\n- plugins/coding-tutor/.claude-plugin\n- plugins/coding-tutor/.claude-plugin/plugin.json\n- plugins/coding-tutor/.cursor-plugin\n- plugins/coding-tutor/.cursor-plugin/plugin.json\n- plugins/coding-tutor/README.md\n- plugins/coding-tutor/commands\n- plugins/coding-tutor/commands/quiz-me.md\n- plugins/coding-tutor/commands/sync-tutorials.md\n- plugins/coding-tutor/commands/teach-me.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/coding-tutor\nplugins/coding-tutor/.claude-plugin\nplugins/coding-tutor/.claude-plugin/plugin.json\nplugins/coding-tutor/.cursor-plugin\nplugins/coding-tutor/.cursor-plugin/plugin.json\nplugins/coding-tutor/README.md\nplugins/coding-tutor/commands\nplugins/coding-tutor/commands/quiz-me.md\nplugins/coding-tutor/commands/sync-tutorials.md\nplugins/coding-tutor/commands/teach-me.md\nplugins/coding-tutor/skills\nplugins/coding-tutor/skills/coding-tutor\nplugins/coding-tutor/skills/coding-tutor/SKILL.md\nplugins/coding-tutor/skills/coding-tutor/scripts\nplugins/coding-tutor/skills/coding-tutor/scripts/create_tutorial.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.087206285597457
+  }
+]

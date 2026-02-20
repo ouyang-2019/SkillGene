@@ -1,0 +1,278 @@
+[
+  {
+    "name": "grace (Gabriella439)",
+    "description": "[项目级] A prompt engineering functional programming language。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "haskell",
+      "stars-536",
+      "github-gabriella439",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A prompt engineering functional programming language\n\n来源: https://github.com/Gabriella439/grace\n语言: Haskell\nStars: 536",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSetup.hs\ndependencies\ndependencies/.gitkeep\ndependencies/grace-ghcjs.nix\ndependencies/grace.nix\ndependencies/openai.nix\ndoctest\ndoctest/Main.hs\nexamples\nexamples/bluesky\nexamples/chaining.ffg\nexamples/code.ffg\nexamples/emotion-wheel.ffg\nexamples/eval.ffg\nexamples/history.ffg\nexamples/learn-in-y-minutes.ffg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Integrated language support for models\n\n  You don't need to install any dependencies or import anything to get started.\n  Everything you need is built directly into the language.\n\n  The language provides a built-in `prompt` function for prompting a model:\n\n  ```haskell\n  >>> let key = ./openai.key : Key\n\n  >>> prompt{ key, text: \"Generate a list of names\" }\n  \"\n  Here are 40 varied first names (mixed genders and cultures):\n\n  - Aiden\n  - Sofia\n  - Mateo\n  …\n  - Mabel\n  - Imani\n  - Zane\n\n  Want names filtered by gender, culture, style (modern/vintage), or as full names/surnames?\"\n  ```\n\n  … a",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.364582394846385
+  },
+  {
+    "name": "grace/dependencies 模块",
+    "description": "[模块级] grace 项目的 dependencies 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "dependencies"
+    ],
+    "genes": [
+      {
+        "title": "dependencies 模块说明",
+        "content": "模块路径: dependencies/\n类型: source\n文件数: 4\n\n包含文件:\n- dependencies/.gitkeep\n- dependencies/grace-ghcjs.nix\n- dependencies/grace.nix\n- dependencies/openai.nix",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dependencies 文件结构",
+        "content": "dependencies/.gitkeep\ndependencies/grace-ghcjs.nix\ndependencies/grace.nix\ndependencies/openai.nix",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/examples 模块",
+    "description": "[模块级] grace 项目的 examples 模块 (example)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 25\n\n包含文件:\n- examples/bluesky\n- examples/bluesky/2025-11-27.ffg\n- examples/chaining.ffg\n- examples/code.ffg\n- examples/emotion-wheel.ffg\n- examples/eval.ffg\n- examples/history.ffg\n- examples/learn-in-y-minutes.ffg\n- examples/mustache.ffg\n- examples/poem.ffg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/bluesky\nexamples/bluesky/2025-11-27.ffg\nexamples/chaining.ffg\nexamples/code.ffg\nexamples/emotion-wheel.ffg\nexamples/eval.ffg\nexamples/history.ffg\nexamples/learn-in-y-minutes.ffg\nexamples/mustache.ffg\nexamples/poem.ffg\nexamples/prompt.ffg\nexamples/taxes.ffg\nexamples/tools.ffg\nexamples/transform-text.ffg\nexamples/tutorial",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/ghc 模块",
+    "description": "[模块级] grace 项目的 ghc 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "ghc"
+    ],
+    "genes": [
+      {
+        "title": "ghc 模块说明",
+        "content": "模块路径: ghc/\n类型: source\n文件数: 4\n\n包含文件:\n- ghc/Grace\n- ghc/Grace/DataFile.hs\n- ghc/Grace/HTTP.hs\n- ghc/Grace/Width.hs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ghc 文件结构",
+        "content": "ghc/Grace\nghc/Grace/DataFile.hs\nghc/Grace/HTTP.hs\nghc/Grace/Width.hs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/ghcjs 模块",
+    "description": "[模块级] grace 项目的 ghcjs 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "ghcjs"
+    ],
+    "genes": [
+      {
+        "title": "ghcjs 模块说明",
+        "content": "模块路径: ghcjs/\n类型: source\n文件数: 5\n\n包含文件:\n- ghcjs/Grace\n- ghcjs/Grace/DataFile.hs\n- ghcjs/Grace/HTTP.hs\n- ghcjs/Grace/Size.hs\n- ghcjs/Grace/Width.hs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ghcjs 文件结构",
+        "content": "ghcjs/Grace\nghcjs/Grace/DataFile.hs\nghcjs/Grace/HTTP.hs\nghcjs/Grace/Size.hs\nghcjs/Grace/Width.hs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/prelude 模块",
+    "description": "[模块级] grace 项目的 prelude 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "prelude"
+    ],
+    "genes": [
+      {
+        "title": "prelude 模块说明",
+        "content": "模块路径: prelude/\n类型: source\n文件数: 36\n\n包含文件:\n- prelude/bool\n- prelude/bool/and.ffg\n- prelude/bool/not.ffg\n- prelude/bool/or.ffg\n- prelude/bool/package.ffg\n- prelude/integer\n- prelude/integer/clamp.ffg\n- prelude/integer/package.ffg\n- prelude/integer/product.ffg\n- prelude/integer/sum.ffg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prelude 文件结构",
+        "content": "prelude/bool\nprelude/bool/and.ffg\nprelude/bool/not.ffg\nprelude/bool/or.ffg\nprelude/bool/package.ffg\nprelude/integer\nprelude/integer/clamp.ffg\nprelude/integer/package.ffg\nprelude/integer/product.ffg\nprelude/integer/sum.ffg\nprelude/integer/toNatural.ffg\nprelude/list\nprelude/list/all.ffg\nprelude/list/any.ffg\nprelude/list/concat.ffg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/prompts 模块",
+    "description": "[模块级] grace 项目的 prompts 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 2\n\n包含文件:\n- prompts/abnf.md\n- prompts/inference.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/abnf.md\nprompts/inference.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/src 模块",
+    "description": "[模块级] grace 项目的 src 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 34\n\n包含文件:\n- src/Grace.hs\n- src/Grace\n- src/Grace/Aeson.hs\n- src/Grace/Compat.hs\n- src/Grace/Context.hs\n- src/Grace/Decode.hs\n- src/Grace/Domain.hs\n- src/Grace/Encode.hs\n- src/Grace/Existential.hs\n- src/Grace/GitHub.hs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Grace.hs\nsrc/Grace\nsrc/Grace/Aeson.hs\nsrc/Grace/Compat.hs\nsrc/Grace/Context.hs\nsrc/Grace/Decode.hs\nsrc/Grace/Domain.hs\nsrc/Grace/Encode.hs\nsrc/Grace/Existential.hs\nsrc/Grace/GitHub.hs\nsrc/Grace/HTTP\nsrc/Grace/HTTP/Type.hs\nsrc/Grace/Import.hs\nsrc/Grace/Infer.hs\nsrc/Grace/Input.hs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  },
+  {
+    "name": "grace/tasty 模块",
+    "description": "[模块级] grace 项目的 tasty 模块 (source)。来源: https://github.com/Gabriella439/grace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "functional-programming",
+      "interpreter",
+      "llm",
+      "programming-language",
+      "module-level",
+      "source",
+      "tasty"
+    ],
+    "genes": [
+      {
+        "title": "tasty 模块说明",
+        "content": "模块路径: tasty/\n类型: source\n文件数: 64\n\n包含文件:\n- tasty/Main.hs\n- tasty/data\n- tasty/data/complex\n- tasty/data/complex/abstract-fold-input.ffg\n- tasty/data/complex/abstract-fold-output.ffg\n- tasty/data/complex/abstract-fold-type.ffg\n- tasty/data/complex/alternative-input.ffg\n- tasty/data/complex/alternative-output.ffg\n- tasty/data/complex/alternative-type.ffg\n- tasty/data/complex/arithmetic-input.ffg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tasty 文件结构",
+        "content": "tasty/Main.hs\ntasty/data\ntasty/data/complex\ntasty/data/complex/abstract-fold-input.ffg\ntasty/data/complex/abstract-fold-output.ffg\ntasty/data/complex/abstract-fold-type.ffg\ntasty/data/complex/alternative-input.ffg\ntasty/data/complex/alternative-output.ffg\ntasty/data/complex/alternative-type.ffg\ntasty/data/complex/arithmetic-input.ffg\ntasty/data/complex/arithmetic-output.ffg\ntasty/data/complex/arithmetic-type.ffg\ntasty/data/complex/chain-identity-input.ffg\ntasty/data/complex/chain-identity-output.ffg\ntasty/data/complex/chain-identity-type.ffg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5916659158771083
+  }
+]

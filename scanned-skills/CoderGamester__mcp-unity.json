@@ -1,0 +1,133 @@
+[
+  {
+    "name": "mcp-unity (CoderGamester)",
+    "description": "[项目级] Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs。来源: https://github.com/CoderGamester/mcp-unity",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity-ide",
+      "claudecode",
+      "codex-cli",
+      "copilot",
+      "cursor",
+      "c#",
+      "stars-1338",
+      "github-codergamester",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs\n\n来源: https://github.com/CoderGamester/mcp-unity\n语言: C#\nStars: 1338",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Installing this MCP Unity Server is a multi-step process:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAGENTS.md.meta\nCLAUDE.md\nCLAUDE.md.meta\nEditor.meta\nEditor\nEditor/Lib.meta\nEditor/Lib\nEditor/McpUnity.Editor.asmdef\nEditor/McpUnity.Editor.asmdef.meta\nEditor/Models.meta\nEditor/Models\nEditor/Resources.meta\nEditor/Resources\nEditor/Services.meta\nEditor/Services\nEditor/Tests.meta\nEditor/Tests\nEditor/Tools.meta\nEditor/Tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.563228056715902
+  },
+  {
+    "name": "mcp-unity/Editor 模块",
+    "description": "[模块级] mcp-unity 项目的 Editor 模块 (source)。来源: https://github.com/CoderGamester/mcp-unity",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity-ide",
+      "claudecode",
+      "codex-cli",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "editor"
+    ],
+    "genes": [
+      {
+        "title": "Editor 模块说明",
+        "content": "[![](https://badge.mcpx.dev?status=on 'MCP Enabled')](https://modelcontextprotocol.io/introduction)\n[![](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white 'Unity')](https://unity.com/releases/editor/archive)\n[![](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white 'Node.js')](https://nodejs.org/en/download/)\n[![](https://img.shields.io/github/stars/CoderGamester/mcp-unity 'Stars')](https://github.com/CoderGamester/mcp-unity/stargaze",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Editor 文件结构",
+        "content": "Editor/Lib.meta\nEditor/Lib\nEditor/Lib/websocket-sharp.dll\nEditor/Lib/websocket-sharp.dll.meta\nEditor/McpUnity.Editor.asmdef\nEditor/McpUnity.Editor.asmdef.meta\nEditor/Models.meta\nEditor/Models\nEditor/Models/UpdateGameObjectRequest.cs\nEditor/Models/UpdateGameObjectRequest.cs.meta\nEditor/Resources.meta\nEditor/Resources\nEditor/Resources/GetAssetsResource.cs\nEditor/Resources/GetAssetsResource.cs.meta\nEditor/Resources/GetConsoleLogsResource.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.750582445372722
+  },
+  {
+    "name": "mcp-unity/Server~ 模块",
+    "description": "[模块级] mcp-unity 项目的 Server~ 模块 (source)。来源: https://github.com/CoderGamester/mcp-unity",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity-ide",
+      "claudecode",
+      "codex-cli",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "server~"
+    ],
+    "genes": [
+      {
+        "title": "Server~ 模块说明",
+        "content": "模块路径: Server~/\n类型: source\n文件数: 57\n\n包含文件:\n- Server~/.dockerignore\n- Server~/Dockerfile\n- Server~/jest.config.js\n- Server~/package-lock.json\n- Server~/package.json\n- Server~/smithery.yaml\n- Server~/src\n- Server~/src/__tests__\n- Server~/src/__tests__/batchExecuteTool.test.ts\n- Server~/src/__tests__/commandQueue.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Server~ 文件结构",
+        "content": "Server~/.dockerignore\nServer~/Dockerfile\nServer~/jest.config.js\nServer~/package-lock.json\nServer~/package.json\nServer~/smithery.yaml\nServer~/src\nServer~/src/__tests__\nServer~/src/__tests__/batchExecuteTool.test.ts\nServer~/src/__tests__/commandQueue.test.ts\nServer~/src/__tests__/errors.test.ts\nServer~/src/__tests__/logger.test.ts\nServer~/src/__tests__/materialTools.test.ts\nServer~/src/__tests__/mcpUnity.test.ts\nServer~/src/__tests__/unityConnection.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.750582445372722
+  },
+  {
+    "name": "mcp-unity/docs 模块",
+    "description": "[模块级] mcp-unity 项目的 docs 模块 (docs)。来源: https://github.com/CoderGamester/mcp-unity",
+    "domain": "documentation",
+    "tags": [
+      "antigravity-ide",
+      "claudecode",
+      "codex-cli",
+      "copilot",
+      "cursor",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/configure.jpg\n- docs/configure.jpg.meta\n- docs/install.jpg\n- docs/install.jpg.meta\n- docs/node.jpg\n- docs/node.jpg.meta",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/configure.jpg\ndocs/configure.jpg.meta\ndocs/install.jpg\ndocs/install.jpg.meta\ndocs/node.jpg\ndocs/node.jpg.meta",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.750582445372722
+  }
+]

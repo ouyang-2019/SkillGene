@@ -1,0 +1,127 @@
+[
+  {
+    "name": "napari-chatgpt (royerlab)",
+    "description": "[项目级] A napari plugin to process and analyse images with chatGPT!。来源: https://github.com/royerlab/napari-chatgpt",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-286",
+      "github-royerlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A napari plugin to process and analyse images with chatGPT!\n\n来源: https://github.com/royerlab/napari-chatgpt\n语言: Python\nStars: 286",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Assuming you have a Python environment with a working napari installation, you can simply:\n\n    pip install napari-chatgpt\n\nOr install the plugin from napari's plugin installer.\n\nFor detailed instructions and variations, check [this page](http://github.com/royerlab/napari-chatgpt/wiki/InstallOmega)\nof our wiki.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nart\nart/OmegaLogo.png\nart/OmegaLogoIcon.png\nart/omega_chat_ui.png\nart/omega_widget_creation.png\nmanuscript\nmanuscript/Fig1_Omega.png\nmanuscript/Omega.pdf\nmanuscript/SuppFig1_user_interface.pdf\nmanuscript/SuppFig2_code_editor.pdf\nmanuscript/SuppFig3_architecture.pdf\nmanuscript/prompt_table.pdf\nmanuscript/reproducibility_analysis.pdf\nmanuscript/widget_table.pdf\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- **Widget Creation**: Expert users can create widgets using the Omega dialogue agent and retain them for future use.\n- **Collaboration**: Share custom widgets with colleagues or the community, even if they don't have access to an API\n  key.\n- **Learning**: New users can learn from the AI-augmented suggestions, improving their coding skills in Python and image\n  analysis workflows.\n\nYou can find more information in the\ncorresponding [wiki page](https://github.com/royerlab/napari-chatgpt/wiki/OmegaCodeEditor).\n\n----------------------------------",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Code Highlighting and Completion**: For ease of reading and writing, the code editor comes with built-in syntax\n  highlighting and intelligent code completion features.\n- **LLM-Augmented Tools**: The editor is equipped with AI tools that assist in commenting, cleaning up, fixing,\n  modifying, and performing safety checks on the code.\n- **Persistent Code Snippets**: Users can save and manage snippets of code, preserving their work across multiple Napari\n  sessions.\n- **Network Code Sharing (Code-Drop)**: Facilitates the sharing of code snippets across the local network, empowering\n  collabo",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.228183016564522
+  },
+  {
+    "name": "napari-chatgpt/art 模块",
+    "description": "[模块级] napari-chatgpt 项目的 art 模块 (source)。来源: https://github.com/royerlab/napari-chatgpt",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-286",
+      "github-royerlab",
+      "module-level",
+      "source",
+      "art"
+    ],
+    "genes": [
+      {
+        "title": "art 模块说明",
+        "content": "https://user-images.githubusercontent.com/1870994/235768559-ca8bfa84-21f5-47b6-b2bd-7fcc07cedd92.mp4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "art 文件结构",
+        "content": "art/OmegaLogo.png\nart/OmegaLogoIcon.png\nart/omega_chat_ui.png\nart/omega_widget_creation.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.482546413251617
+  },
+  {
+    "name": "napari-chatgpt/manuscript 模块",
+    "description": "[模块级] napari-chatgpt 项目的 manuscript 模块 (source)。来源: https://github.com/royerlab/napari-chatgpt",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-286",
+      "github-royerlab",
+      "module-level",
+      "source",
+      "manuscript"
+    ],
+    "genes": [
+      {
+        "title": "manuscript 模块说明",
+        "content": "模块路径: manuscript/\n类型: source\n文件数: 8\n\n包含文件:\n- manuscript/Fig1_Omega.png\n- manuscript/Omega.pdf\n- manuscript/SuppFig1_user_interface.pdf\n- manuscript/SuppFig2_code_editor.pdf\n- manuscript/SuppFig3_architecture.pdf\n- manuscript/prompt_table.pdf\n- manuscript/reproducibility_analysis.pdf\n- manuscript/widget_table.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "manuscript 文件结构",
+        "content": "manuscript/Fig1_Omega.png\nmanuscript/Omega.pdf\nmanuscript/SuppFig1_user_interface.pdf\nmanuscript/SuppFig2_code_editor.pdf\nmanuscript/SuppFig3_architecture.pdf\nmanuscript/prompt_table.pdf\nmanuscript/reproducibility_analysis.pdf\nmanuscript/widget_table.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.482546413251617
+  },
+  {
+    "name": "napari-chatgpt/src 模块",
+    "description": "[模块级] napari-chatgpt 项目的 src 模块 (source)。来源: https://github.com/royerlab/napari-chatgpt",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-286",
+      "github-royerlab",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 168\n\n包含文件:\n- src/napari_chatgpt\n- src/napari_chatgpt/__init__.py\n- src/napari_chatgpt/_sample_data.py\n- src/napari_chatgpt/_widget.py\n- src/napari_chatgpt/chat_server\n- src/napari_chatgpt/chat_server/__init__.py\n- src/napari_chatgpt/chat_server/chat_response.py\n- src/napari_chatgpt/chat_server/chat_server.py\n- src/napari_chatgpt/chat_server/demo\n- src/napari_chatgpt/chat_server/demo/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/napari_chatgpt\nsrc/napari_chatgpt/__init__.py\nsrc/napari_chatgpt/_sample_data.py\nsrc/napari_chatgpt/_widget.py\nsrc/napari_chatgpt/chat_server\nsrc/napari_chatgpt/chat_server/__init__.py\nsrc/napari_chatgpt/chat_server/chat_response.py\nsrc/napari_chatgpt/chat_server/chat_server.py\nsrc/napari_chatgpt/chat_server/demo\nsrc/napari_chatgpt/chat_server/demo/__init__.py\nsrc/napari_chatgpt/chat_server/demo/chat_server_demo.py\nsrc/napari_chatgpt/chat_server/static\nsrc/napari_chatgpt/chat_server/static/OmegaLogoIcon.png\nsrc/napari_chatgpt/chat_server/static/chat.js\nsrc/napari_chatgpt/chat_server/static/marked-highlight.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.482546413251617
+  }
+]

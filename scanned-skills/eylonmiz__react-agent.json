@@ -1,0 +1,133 @@
+[
+  {
+    "name": "react-agent (eylonmiz)",
+    "description": "[项目级] The open-source React.js Autonomous LLM Agent。来源: https://github.com/eylonmiz/react-agent",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "gpt-4",
+      "headless",
+      "headlessui",
+      "llm",
+      "typescript",
+      "stars-1655",
+      "github-eylonmiz",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSECURITY.md\nSUMMARY.md\narch.md\narchitecture\narchitecture/Design Document Outline.md\narchitecture/Design Document Overview.md\narchitecture/High Level Developer Responsibilities.md\narchitecture/developer-responsibilities\narchitecture/guidelines-and-principles\narchitecture/in-scope-parts\nbackend\nbackend/main\ncode_of_conduct.md\ncontributing.md\nfrontend\nfrontend/main\nfrontend/shadcn-ui",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<img src=\"https://github.com/eylonmiz/react-agent/assets/43254163/e5921e79-140d-4ccb-bbdf-96b2b28e2d77\" alt=\"Example\"/>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Generate React Components from user stories\n- Compose React Components from existing components\n- Use a local design system to generate React Components\n- Use React, TailwindCSS, Typescript, Radix UI, Shadcn UI\n- Built with Atomic Design Principles",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.609398999055869
+  },
+  {
+    "name": "react-agent/architecture 模块",
+    "description": "[模块级] react-agent 项目的 architecture 模块 (source)。来源: https://github.com/eylonmiz/react-agent",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "gpt-4",
+      "headless",
+      "headlessui",
+      "llm",
+      "module-level",
+      "source",
+      "architecture"
+    ],
+    "genes": [
+      {
+        "title": "architecture 模块说明",
+        "content": "模块路径: architecture/\n类型: source\n文件数: 20\n\n包含文件:\n- architecture/Design Document Outline.md\n- architecture/Design Document Overview.md\n- architecture/High Level Developer Responsibilities.md\n- architecture/developer-responsibilities\n- architecture/developer-responsibilities/Step 1 - Project planning and estimation.md\n- architecture/developer-responsibilities/Step 2 - Requirements analysis and documentation.md\n- architecture/developer-responsibilities/Step 3 - Architectural design.md\n- architecture/developer-responsibilities/Step 4 - Team leadership and mentorship.md\n- architecture/developer-responsibilities/Step 5 - Development and implementation.md\n- architecture/developer-responsibilities/Step 6 - Testing and quality assurance.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "architecture 文件结构",
+        "content": "architecture/Design Document Outline.md\narchitecture/Design Document Overview.md\narchitecture/High Level Developer Responsibilities.md\narchitecture/developer-responsibilities\narchitecture/developer-responsibilities/Step 1 - Project planning and estimation.md\narchitecture/developer-responsibilities/Step 2 - Requirements analysis and documentation.md\narchitecture/developer-responsibilities/Step 3 - Architectural design.md\narchitecture/developer-responsibilities/Step 4 - Team leadership and mentorship.md\narchitecture/developer-responsibilities/Step 5 - Development and implementation.md\narchitecture/developer-responsibilities/Step 6 - Testing and quality assurance.md\narchitecture/developer-responsibilities/Step 7 - Deployment and release management.md\narchitecture/developer-responsibilities/Step 8 - Refactoring and code maintenance.md\narchitecture/guidelines-and-principles\narchitecture/guidelines-and-principles/approach.md\narchitecture/guidelines-and-principles/general.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.787519199244695
+  },
+  {
+    "name": "react-agent/backend 模块",
+    "description": "[模块级] react-agent 项目的 backend 模块 (source)。来源: https://github.com/eylonmiz/react-agent",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "gpt-4",
+      "headless",
+      "headlessui",
+      "llm",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 29\n\n包含文件:\n- backend/main\n- backend/main/.env.example\n- backend/main/.gitignore\n- backend/main/index.ts\n- backend/main/package.json\n- backend/main/react-agent\n- backend/main/react-agent/generateComponents.ts\n- backend/main/react-agent/generateComponentsConfigurations.ts\n- backend/main/react-agent/generateComponentsFromConfigurations.ts\n- backend/main/react-agent/generateComponentsStoryBook.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/main\nbackend/main/.env.example\nbackend/main/.gitignore\nbackend/main/index.ts\nbackend/main/package.json\nbackend/main/react-agent\nbackend/main/react-agent/generateComponents.ts\nbackend/main/react-agent/generateComponentsConfigurations.ts\nbackend/main/react-agent/generateComponentsFromConfigurations.ts\nbackend/main/react-agent/generateComponentsStoryBook.ts\nbackend/main/react-agent/generateComposedComponent.ts\nbackend/main/react-agent/generateDemo.ts\nbackend/main/react-agent/generateSkeletonCompositionFromStory.ts\nbackend/main/react-agent/generative\nbackend/main/react-agent/generative/ReactComponentGenerator.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.787519199244695
+  },
+  {
+    "name": "react-agent/frontend 模块",
+    "description": "[模块级] react-agent 项目的 frontend 模块 (source)。来源: https://github.com/eylonmiz/react-agent",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "gpt-4",
+      "headless",
+      "headlessui",
+      "llm",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 140\n\n包含文件:\n- frontend/main\n- frontend/main/.eslintrc\n- frontend/main/.gitignore\n- frontend/main/.prettierignore\n- frontend/main/.prettierrc\n- frontend/main/index.html\n- frontend/main/package.json\n- frontend/main/public\n- frontend/main/public/LICENCSE.md\n- frontend/main/public/_redirects",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/main\nfrontend/main/.eslintrc\nfrontend/main/.gitignore\nfrontend/main/.prettierignore\nfrontend/main/.prettierrc\nfrontend/main/index.html\nfrontend/main/package.json\nfrontend/main/public\nfrontend/main/public/LICENCSE.md\nfrontend/main/public/_redirects\nfrontend/main/public/avatars\nfrontend/main/public/avatars/01.png\nfrontend/main/public/avatars/02.png\nfrontend/main/public/avatars/03.png\nfrontend/main/public/avatars/04.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.787519199244695
+  }
+]

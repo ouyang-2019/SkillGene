@@ -1,0 +1,168 @@
+[
+  {
+    "name": "PageIndex (VectifyAI)",
+    "description": "[项目级] 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG。来源: https://github.com/VectifyAI/PageIndex",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "context-engineering",
+      "llm",
+      "python",
+      "stars-15659",
+      "github-vectifyai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Are you frustrated with vector database retrieval accuracy for long professional documents? Traditional vector-based RAG relies on semantic *similarity* rather than true *relevance*. But **similarity ≠ relevance** — what we truly need in retrieval is **relevance**, and that requires **reasoning**. When working with professional documents that demand domain expertise and multi-step reasoning, similarity search often falls short.\n\nInspired by AlphaGo, we propose **[PageIndex](https://vectify.ai/pageindex)** — a **vectorless**, **reasoning-based RAG** system that builds a **hierarchical tree index** from long documents and uses LLMs to **reason** *over that index* for **agentic, context-aware retrieval**.\nIt simulates how *human experts* navigate and extract knowledge from complex documents t",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip3 install --upgrade -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ncookbook\ncookbook/README.md\ncookbook/agentic_retrieval.ipynb\ncookbook/pageIndex_chat_quickstart.ipynb\ncookbook/pageindex_RAG_simple.ipynb\ncookbook/vision_RAG_pageindex.ipynb\npageindex\npageindex/__init__.py\npageindex/config.yaml\npageindex/page_index.py\npageindex/page_index_md.py\npageindex/utils.py\nrequirements.txt\nrun_pageindex.py\ntests\ntests/pdfs\ntests/results",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can follow these steps to generate a PageIndex tree from a PDF document.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Compared to traditional vector-based RAG, **PageIndex** features:\n- **No Vector DB**: Uses document structure and LLM reasoning for retrieval, instead of vector similarity search.\n- **No Chunking**: Documents are organized into natural sections, not artificial chunks.\n- **Human-like Retrieval**: Simulates how human experts navigate and extract knowledge from complex documents.\n- **Better Explainability and Traceability**: Retrieval is based on reasoning — traceable and interpretable, with page and section references. No more opaque, approximate vector search (“vibe retrieval”).\n\nPageIndex powe",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "PageIndex/cookbook 模块",
+    "description": "[模块级] PageIndex 项目的 cookbook 模块 (source)。来源: https://github.com/VectifyAI/PageIndex",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "context-engineering",
+      "llm",
+      "module-level",
+      "source",
+      "cookbook"
+    ],
+    "genes": [
+      {
+        "title": "cookbook 模块说明",
+        "content": "模块路径: cookbook/\n类型: source\n文件数: 5\n\n包含文件:\n- cookbook/README.md\n- cookbook/agentic_retrieval.ipynb\n- cookbook/pageIndex_chat_quickstart.ipynb\n- cookbook/pageindex_RAG_simple.ipynb\n- cookbook/vision_RAG_pageindex.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbook 文件结构",
+        "content": "cookbook/README.md\ncookbook/agentic_retrieval.ipynb\ncookbook/pageIndex_chat_quickstart.ipynb\ncookbook/pageindex_RAG_simple.ipynb\ncookbook/vision_RAG_pageindex.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1779056096443545
+  },
+  {
+    "name": "PageIndex/pageindex 模块",
+    "description": "[模块级] PageIndex 项目的 pageindex 模块 (source)。来源: https://github.com/VectifyAI/PageIndex",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "context-engineering",
+      "llm",
+      "module-level",
+      "source",
+      "pageindex"
+    ],
+    "genes": [
+      {
+        "title": "pageindex 模块说明",
+        "content": "<p align=\"center\"><b>Reasoning-based RAG&nbsp; ◦ &nbsp;No Vector DB&nbsp; ◦ &nbsp;No Chunking&nbsp; ◦ &nbsp;Human-like Retrieval</b></p>\n\n<h4 align=\"center\">\n  <a href=\"https://vectify.ai\">🏠 Homepage</a>&nbsp; • &nbsp;\n  <a href=\"https://chat.pageindex.ai\">🖥️ Chat Platform</a>&nbsp; • &nbsp;\n  <a href=\"https://pageindex.ai/mcp\">🔌 MCP</a>&nbsp; • &nbsp;\n  <a href=\"https://docs.pageindex.ai\">📚 Docs</a>&nbsp; • &nbsp;\n  <a href=\"https://discord.com/invite/VuXuf29EUj\">💬 Discord</a>&nbsp; • &nbs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pageindex 文件结构",
+        "content": "pageindex/__init__.py\npageindex/config.yaml\npageindex/page_index.py\npageindex/page_index_md.py\npageindex/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1779056096443545
+  },
+  {
+    "name": "PageIndex/tests 模块",
+    "description": "[模块级] PageIndex 项目的 tests 模块 (test)。来源: https://github.com/VectifyAI/PageIndex",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "context-engineering",
+      "llm",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 18\n\n包含文件:\n- tests/pdfs\n- tests/pdfs/2023-annual-report-truncated.pdf\n- tests/pdfs/2023-annual-report.pdf\n- tests/pdfs/PRML.pdf\n- tests/pdfs/Regulation Best Interest_Interpretive release.pdf\n- tests/pdfs/Regulation Best Interest_proposed rule.pdf\n- tests/pdfs/earthmover.pdf\n- tests/pdfs/four-lectures.pdf\n- tests/pdfs/q1-fy25-earnings.pdf\n- tests/results",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/pdfs\ntests/pdfs/2023-annual-report-truncated.pdf\ntests/pdfs/2023-annual-report.pdf\ntests/pdfs/PRML.pdf\ntests/pdfs/Regulation Best Interest_Interpretive release.pdf\ntests/pdfs/Regulation Best Interest_proposed rule.pdf\ntests/pdfs/earthmover.pdf\ntests/pdfs/four-lectures.pdf\ntests/pdfs/q1-fy25-earnings.pdf\ntests/results\ntests/results/2023-annual-report-truncated_structure.json\ntests/results/2023-annual-report_structure.json\ntests/results/PRML_structure.json\ntests/results/Regulation Best Interest_Interpretive release_structure.json\ntests/results/Regulation Best Interest_proposed rule_structure.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1779056096443545
+  },
+  {
+    "name": "PageIndex/tutorials 模块",
+    "description": "[模块级] PageIndex 项目的 tutorials 模块 (source)。来源: https://github.com/VectifyAI/PageIndex",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "context-engineering",
+      "llm",
+      "module-level",
+      "source",
+      "tutorials"
+    ],
+    "genes": [
+      {
+        "title": "tutorials 模块说明",
+        "content": "模块路径: tutorials/\n类型: source\n文件数: 7\n\n包含文件:\n- tutorials/doc-search\n- tutorials/doc-search/README.md\n- tutorials/doc-search/description.md\n- tutorials/doc-search/metadata.md\n- tutorials/doc-search/semantics.md\n- tutorials/tree-search\n- tutorials/tree-search/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tutorials 文件结构",
+        "content": "tutorials/doc-search\ntutorials/doc-search/README.md\ntutorials/doc-search/description.md\ntutorials/doc-search/metadata.md\ntutorials/doc-search/semantics.md\ntutorials/tree-search\ntutorials/tree-search/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1779056096443545
+  }
+]

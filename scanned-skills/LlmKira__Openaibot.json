@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Openaibot (LlmKira)",
+    "description": "[项目级] ⚡️ Build Your Own chatgpt Bot|🧀 Discord/Slack/Kook/Telegram |⛓ ToolCall|🔖 Plugin Support | 🌻 out-of-box | gpt-4o。来源: https://github.com/LlmKira/Openaibot",
+    "domain": "devops",
+    "tags": [
+      "assistant",
+      "chat-gpt",
+      "discordbot",
+      "gpt-4",
+      "gpt-4-vision-preview",
+      "python",
+      "stars-1981",
+      "github-llmkira",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⚡️ Build Your Own chatgpt Bot|🧀 Discord/Slack/Kook/Telegram |⛓ ToolCall|🔖 Plugin Support | 🌻 out-of-box | gpt-4o\n\n来源: https://github.com/LlmKira/Openaibot\n语言: Python\nStars: 1981",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Refer to the [🧀 Deployment Document](https://llmkira.github.io/Docs/) for more information.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nDockerfile\nLICENSE\nNOTICE.MD\nREADME.md\napp\napp/__init__.py\napp/_exception.py\napp/components\napp/const.py\napp/middleware\napp/receiver\napp/schema.py\napp/sender\napp/setting\napp/tutorial.py\ndeploy.sh\ndocker-compose.yml\ndocs\ndocs/SeriveProvider.svg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Refer to the example plugins in the `plugins` directory and\nthe [🧀 Plugin Development Document](https://llmkira.github.io/Docs/dev/basic) for plugin development documentation.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🍪 A comprehensive plugin development ecosystem, adopting a classic design, and seamless integration with plugins\n  through `pip` installation\n- 📝 Message system with no time or sender constraints, offering fully decoupled logics\n- 📬 Offers Login via a URL mechanism, providing a flexible and expandable authentication development solution\n- 🍰 Empowers users to authorize plugin execution. Users can configure plugin environment variables at their discretion\n- 📦 Support for plugins to access files\n- 🍟 Multi-platform support – extend new platforms by inheriting the base class\n- 🍔 Plugins ca",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.648442237769274
+  },
+  {
+    "name": "Openaibot/app 模块",
+    "description": "[模块级] Openaibot 项目的 app 模块 (source)。来源: https://github.com/LlmKira/Openaibot",
+    "domain": "devops",
+    "tags": [
+      "assistant",
+      "chat-gpt",
+      "discordbot",
+      "gpt-4",
+      "gpt-4-vision-preview",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 58\n\n包含文件:\n- app/__init__.py\n- app/_exception.py\n- app/components\n- app/components/__init__.py\n- app/components/credential.py\n- app/components/user_manager\n- app/components/user_manager/__init__.py\n- app/const.py\n- app/middleware\n- app/middleware/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/_exception.py\napp/components\napp/components/__init__.py\napp/components/credential.py\napp/components/user_manager\napp/components/user_manager/__init__.py\napp/const.py\napp/middleware\napp/middleware/__init__.py\napp/middleware/llm_task.py\napp/receiver\napp/receiver/__init__.py\napp/receiver/app.py\napp/receiver/aps.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.818753790215419
+  },
+  {
+    "name": "Openaibot/docs 模块",
+    "description": "[模块级] Openaibot 项目的 docs 模块 (docs)。来源: https://github.com/LlmKira/Openaibot",
+    "domain": "documentation",
+    "tags": [
+      "assistant",
+      "chat-gpt",
+      "discordbot",
+      "gpt-4",
+      "gpt-4-vision-preview",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 60\n\n包含文件:\n- docs/SeriveProvider.svg\n- docs/chain_chat.gif\n- docs/code_interpreter_func.gif\n- docs/dev_note\n- docs/dev_note/chat_start.md\n- docs/dev_note/hook.md\n- docs/dev_note/time.md\n- docs/dev_note/tool_call_restart.md\n- docs/note\n- docs/note/app.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/SeriveProvider.svg\ndocs/chain_chat.gif\ndocs/code_interpreter_func.gif\ndocs/dev_note\ndocs/dev_note/chat_start.md\ndocs/dev_note/hook.md\ndocs/dev_note/time.md\ndocs/dev_note/tool_call_restart.md\ndocs/note\ndocs/note/app.md\ndocs/note/func_call.md\ndocs/note/refer.md\ndocs/note/resign.md\ndocs/project_cover.png\ndocs/schema_exp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.818753790215419
+  },
+  {
+    "name": "Openaibot/llmkira 模块",
+    "description": "[模块级] Openaibot 项目的 llmkira 模块 (source)。来源: https://github.com/LlmKira/Openaibot",
+    "domain": "devops",
+    "tags": [
+      "assistant",
+      "chat-gpt",
+      "discordbot",
+      "gpt-4",
+      "gpt-4-vision-preview",
+      "module-level",
+      "source",
+      "llmkira"
+    ],
+    "genes": [
+      {
+        "title": "llmkira 模块说明",
+        "content": "模块路径: llmkira/\n类型: source\n文件数: 55\n\n包含文件:\n- llmkira/__init__.py\n- llmkira/_exception.py\n- llmkira/cache\n- llmkira/cache/__init__.py\n- llmkira/cache/elara_runtime.py\n- llmkira/cache/lmdb_runtime.py\n- llmkira/cache/redis_runtime.py\n- llmkira/cache/runtime_schema.py\n- llmkira/doc_manager\n- llmkira/doc_manager/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llmkira 文件结构",
+        "content": "llmkira/__init__.py\nllmkira/_exception.py\nllmkira/cache\nllmkira/cache/__init__.py\nllmkira/cache/elara_runtime.py\nllmkira/cache/lmdb_runtime.py\nllmkira/cache/redis_runtime.py\nllmkira/cache/runtime_schema.py\nllmkira/doc_manager\nllmkira/doc_manager/__init__.py\nllmkira/extra\nllmkira/extra/plugins\nllmkira/extra/plugins/__init__.py\nllmkira/extra/plugins/alarm\nllmkira/extra/plugins/alarm/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.818753790215419
+  }
+]

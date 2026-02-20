@@ -1,0 +1,66 @@
+[
+  {
+    "name": "sisi (frost-beta)",
+    "description": "[项目级] Semantic Image Search CLI tool.。来源: https://github.com/frost-beta/sisi",
+    "domain": "tooling",
+    "tags": [
+      "maching-learning",
+      "mlx",
+      "nodejs",
+      "typescript",
+      "stars-576",
+      "github-frost-beta",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic Image Search CLI tool.\n\n来源: https://github.com/frost-beta/sisi\n语言: TypeScript\nStars: 576",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\npackage.json\nsrc\nsrc/cli.ts\nsrc/fs.ts\nsrc/indexing.ts\nsrc/model.ts\nsrc/search.ts\nsrc/sisi.ts\nsrc/worker.ts\ntsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "npm install -g @frost-beta/sisi",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.380211241711606
+  },
+  {
+    "name": "sisi/src 模块",
+    "description": "[模块级] sisi 项目的 src 模块 (source)。来源: https://github.com/frost-beta/sisi",
+    "domain": "tooling",
+    "tags": [
+      "maching-learning",
+      "mlx",
+      "nodejs",
+      "typescript",
+      "stars-576",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/cli.ts\n- src/fs.ts\n- src/indexing.ts\n- src/model.ts\n- src/search.ts\n- src/sisi.ts\n- src/worker.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cli.ts\nsrc/fs.ts\nsrc/indexing.ts\nsrc/model.ts\nsrc/search.ts\nsrc/sisi.ts\nsrc/worker.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.604168993369285
+  }
+]

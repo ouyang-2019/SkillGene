@@ -1,0 +1,100 @@
+[
+  {
+    "name": "semantic-code-search (sturdy-dev)",
+    "description": "[项目级] Search your codebase with natural language • CLI • No data leaves your computer。来源: https://github.com/sturdy-dev/semantic-code-search",
+    "domain": "tooling",
+    "tags": [
+      "ai",
+      "codesearch",
+      "python",
+      "stars-388",
+      "github-sturdy-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "`sem` is a command line application which allows you to search your git repository using natural language. For example you can query for:\n\n- 'Where are API requests authenticated?'\n- 'Saving user objects to the database'\n- 'Handling of webhook events'\n- 'Where are jobs read from the queue?'\n\nYou will get a (visualized) list of code snippets and their `file:line` locations. You can use `sem` for exploring large codebases or, if you are as forgetfull as I am, even small ones.\n\nBasic usage:\n\n```bash\nsem 'my query'\n```\n\nThis will present you with a list of code snippets that most closely match your search. You can select one and press  `Return` to open it in your editor of choice.\n\nHow does this work? In a nutshell, it uses a neural network to generate code embeddings. More info [below](#how-i",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can install `semantic-code-search` via `pip`.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.txt\nREADME.md\ndocs\ndocs/example-results.png\ndocs/readme-banner.png\nrequirements.txt\nsetup.cfg\nsetup.py\nsrc\nsrc/semantic_code_search",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cd /my/repo\nsem 'my query'",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.294415862797104
+  },
+  {
+    "name": "semantic-code-search/docs 模块",
+    "description": "[模块级] semantic-code-search 项目的 docs 模块 (docs)。来源: https://github.com/sturdy-dev/semantic-code-search",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "codesearch",
+      "python",
+      "stars-388",
+      "github-sturdy-dev",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/example-results.png\n- docs/readme-banner.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/example-results.png\ndocs/readme-banner.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.535532690237683
+  },
+  {
+    "name": "semantic-code-search/src 模块",
+    "description": "[模块级] semantic-code-search 项目的 src 模块 (source)。来源: https://github.com/sturdy-dev/semantic-code-search",
+    "domain": "tooling",
+    "tags": [
+      "ai",
+      "codesearch",
+      "python",
+      "stars-388",
+      "github-sturdy-dev",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/semantic_code_search\n- src/semantic_code_search/__init__.py\n- src/semantic_code_search/cli.py\n- src/semantic_code_search/cluster.py\n- src/semantic_code_search/embed.py\n- src/semantic_code_search/prompt.py\n- src/semantic_code_search/query.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/semantic_code_search\nsrc/semantic_code_search/__init__.py\nsrc/semantic_code_search/cli.py\nsrc/semantic_code_search/cluster.py\nsrc/semantic_code_search/embed.py\nsrc/semantic_code_search/prompt.py\nsrc/semantic_code_search/query.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.535532690237683
+  }
+]

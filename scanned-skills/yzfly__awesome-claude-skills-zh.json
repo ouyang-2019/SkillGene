@@ -1,0 +1,27 @@
+[
+  {
+    "name": "awesome-claude-skills-zh (yzfly)",
+    "description": "[项目级] claude skills, LLM skills, AI skills, Skills 精选资源。来源: https://github.com/yzfly/awesome-claude-skills-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-7",
+      "github-yzfly",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "本项目由 **云中江树** 整理维护，致力于推动 AI 智能体技术在中文社区的普及与发展。\n\n- **GitHub**: [@yzfly](https://github.com/yzfly)\n- **公众号**: 云中江树\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagentskills.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4225490200071285
+  }
+]

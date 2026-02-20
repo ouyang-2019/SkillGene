@@ -1,0 +1,93 @@
+[
+  {
+    "name": "archestra (archestra-ai)",
+    "description": "[项目级] Secure cloud-native MCP registry, gateway & orchestrator。来源: https://github.com/archestra-ai/archestra",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "a2a-mcp",
+      "acp",
+      "agent",
+      "ai",
+      "typescript",
+      "stars-3571",
+      "github-archestra-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Secure cloud-native MCP registry, gateway & orchestrator\n\n来源: https://github.com/archestra-ai/archestra\n语言: TypeScript\nStars: 3571",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/assets\ndocs/docs_writer_prompt.md\ndocs/openapi.json\ndocs/pages\nplatform\nplatform/.claude\nplatform/.cursor\nplatform/.cursorrules\nplatform/.dockerignore\nplatform/.editorconfig\nplatform/.env.example\nplatform/.gitattributes\nplatform/.gitignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.776394925096391
+  },
+  {
+    "name": "archestra/docs 模块",
+    "description": "[模块级] archestra 项目的 docs 模块 (docs)。来源: https://github.com/archestra-ai/archestra",
+    "domain": "documentation",
+    "tags": [
+      "a2a",
+      "a2a-mcp",
+      "acp",
+      "agent",
+      "ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 112\n\n包含文件:\n- docs/assets\n- docs/assets/automated_screenshots\n- docs/assets/automated_screenshots/mcp-server-install-vault-complete.png\n- docs/assets/automated_screenshots/mcp-server-install-vault-key-dropdown.png\n- docs/assets/automated_screenshots/mcp-server-install-vault-secret-dropdown.png\n- docs/assets/automated_screenshots/mcp-server-install-vault-secrets.png\n- docs/assets/automated_screenshots/platform-example-teams-a2a_connect-dialog.png\n- docs/assets/automated_screenshots/platform-identity-providers_sign-in-with-sso.png\n- docs/assets/automated_screenshots/platform-identity-providers_sso-providers-overview.png\n- docs/assets/automated_screenshots/platform_add_tool_call_policy.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/automated_screenshots\ndocs/assets/automated_screenshots/mcp-server-install-vault-complete.png\ndocs/assets/automated_screenshots/mcp-server-install-vault-key-dropdown.png\ndocs/assets/automated_screenshots/mcp-server-install-vault-secret-dropdown.png\ndocs/assets/automated_screenshots/mcp-server-install-vault-secrets.png\ndocs/assets/automated_screenshots/platform-example-teams-a2a_connect-dialog.png\ndocs/assets/automated_screenshots/platform-identity-providers_sign-in-with-sso.png\ndocs/assets/automated_screenshots/platform-identity-providers_sso-providers-overview.png\ndocs/assets/automated_screenshots/platform_add_tool_call_policy.png\ndocs/assets/automated_screenshots/platform_add_tool_result_policy.png\ndocs/assets/automated_screenshots/platform_chat_interface.png\ndocs/assets/automated_screenshots/platform_cost_limits.png\ndocs/assets/automated_screenshots/platform_cost_optimization.png\ndocs/assets/automated_screenshots/platform_cost_statistics.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.921115940077113
+  },
+  {
+    "name": "archestra/platform 模块",
+    "description": "[模块级] archestra 项目的 platform 模块 (source)。来源: https://github.com/archestra-ai/archestra",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "a2a-mcp",
+      "acp",
+      "agent",
+      "ai",
+      "module-level",
+      "source",
+      "platform"
+    ],
+    "genes": [
+      {
+        "title": "platform 模块说明",
+        "content": "Simplify AI usage in your company, providing user-friendly MCP toolbox, observability and control built on a strong security foundation.\n\n<div align=\"center\">\n\n[![License](https://img.shields.io/github/license/archestra-ai/archestra)](LICENSE)\n<img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/archestra-ai/archestra\"/>\n<img alt=\"Github Last Commit\" src=\"https://img.shields.io/github/last-commit/archestra-ai/archestra\"/>\n[![Contributors](https://img.shields.io/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "platform 文件结构",
+        "content": "platform/.claude\nplatform/.cursor\nplatform/.cursor/rules\nplatform/.cursor/rules/README.md\nplatform/.cursor/rules/backend-models.mdc\nplatform/.cursor/rules/development-workflow.mdc\nplatform/.cursor/rules/frontend-components.mdc\nplatform/.cursor/rules/project-conventions.mdc\nplatform/.cursor/rules/shared-workspace.mdc\nplatform/.cursor/rules/tech-stack.mdc\nplatform/.cursorrules\nplatform/.dockerignore\nplatform/.editorconfig\nplatform/.env.example\nplatform/.gitattributes",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.921115940077113
+  }
+]

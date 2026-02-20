@@ -1,0 +1,103 @@
+[
+  {
+    "name": "awesome-claude-skills (Mann1988)",
+    "description": "[项目级] 📊 Explore high-quality Claude skills focused on business analysis and content creation, enhancing your AI capabilities for practical applications.。来源: https://github.com/Mann1988/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "anthropic-skills",
+      "awesome-claude-code",
+      "claude-ai",
+      "python",
+      "stars-11",
+      "github-mann1988",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📊 Explore high-quality Claude skills focused on business analysis and content creation, enhancing your AI capabilities for practical applications.\n\n来源: https://github.com/Mann1988/awesome-claude-skills\n语言: Python\nStars: 11",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To get started with awesome-claude-skills, follow these simple steps. This guide will help you download and install the application easily.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nUS Government Shutdown Tracker - 安装指南.md\nmckinsey-consultant-11\nmckinsey-consultant-11/LICENSE\nmckinsey-consultant-11/README.md\nmckinsey-consultant-11/SKILL.md\nmckinsey-consultant-11/references\nmckinsey-sample-PPT.pptx\nmimeng-sample.md\nmimeng-writing\nmimeng-writing/SKILL.md\nsample-shutdown_2025_analysis.png\nsample-us-shutdown-tracker.md\nus-gov-shutdown-tracker\nus-gov-shutdown-tracker/SKILL.md\nus-gov-shutdown-tracker/awesome-claude-skills-suavely.zip\nus-gov-shutdown-tracker/references\nus-gov-shutdown-tracker/scripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "awesome-claude-skills includes several useful features:\n\n- **Smart Task Management:** Organize your daily tasks effortlessly.\n- **Data Analysis Tools:** Analyze your data efficiently with built-in tools.\n- **Brainstorming Assistants:** Generate ideas and suggestions in real time.\n- **User-Friendly Interface:** Navigate with ease using an intuitive design.\n- **Regular Updates:** Stay up to date with the latest features and improvements.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5206963425791127
+  },
+  {
+    "name": "awesome-claude-skills/mckinsey-consultant-11 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 mckinsey-consultant-11 模块 (source)。来源: https://github.com/Mann1988/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "anthropic-skills",
+      "awesome-claude-code",
+      "claude-ai",
+      "module-level",
+      "source",
+      "mckinsey-consultant-11"
+    ],
+    "genes": [
+      {
+        "title": "mckinsey-consultant-11 模块说明",
+        "content": "模块路径: mckinsey-consultant-11/\n类型: source\n文件数: 15\n\n包含文件:\n- mckinsey-consultant-11/LICENSE\n- mckinsey-consultant-11/README.md\n- mckinsey-consultant-11/SKILL.md\n- mckinsey-consultant-11/references\n- mckinsey-consultant-11/references/V2_vs_V3_comparison.md\n- mckinsey-consultant-11/references/delivery-summary.md\n- mckinsey-consultant-11/references/design-specs.md\n- mckinsey-consultant-11/references/examples.md\n- mckinsey-consultant-11/references/excel-data-spec.md\n- mckinsey-consultant-11/references/layouts.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mckinsey-consultant-11 文件结构",
+        "content": "mckinsey-consultant-11/LICENSE\nmckinsey-consultant-11/README.md\nmckinsey-consultant-11/SKILL.md\nmckinsey-consultant-11/references\nmckinsey-consultant-11/references/V2_vs_V3_comparison.md\nmckinsey-consultant-11/references/delivery-summary.md\nmckinsey-consultant-11/references/design-specs.md\nmckinsey-consultant-11/references/examples.md\nmckinsey-consultant-11/references/excel-data-spec.md\nmckinsey-consultant-11/references/layouts.md\nmckinsey-consultant-11/references/methodology.md\nmckinsey-consultant-11/references/page-dependencies.md\nmckinsey-consultant-11/references/quick-guide.md\nmckinsey-consultant-11/references/troubleshooting.md\nmckinsey-consultant-11/references/workflow.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "awesome-claude-skills/us-gov-shutdown-tracker 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 us-gov-shutdown-tracker 模块 (source)。来源: https://github.com/Mann1988/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "anthropic-skills",
+      "awesome-claude-code",
+      "claude-ai",
+      "module-level",
+      "source",
+      "us-gov-shutdown-tracker"
+    ],
+    "genes": [
+      {
+        "title": "us-gov-shutdown-tracker 模块说明",
+        "content": "模块路径: us-gov-shutdown-tracker/\n类型: source\n文件数: 9\n\n包含文件:\n- us-gov-shutdown-tracker/SKILL.md\n- us-gov-shutdown-tracker/awesome-claude-skills-suavely.zip\n- us-gov-shutdown-tracker/references\n- us-gov-shutdown-tracker/references/awesome-skills-claude-3.3.zip\n- us-gov-shutdown-tracker/references/data_sources.md\n- us-gov-shutdown-tracker/references/historical_cases.md\n- us-gov-shutdown-tracker/scripts\n- us-gov-shutdown-tracker/scripts/analyze_shutdown.py\n- us-gov-shutdown-tracker/scripts/visualize.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "us-gov-shutdown-tracker 文件结构",
+        "content": "us-gov-shutdown-tracker/SKILL.md\nus-gov-shutdown-tracker/awesome-claude-skills-suavely.zip\nus-gov-shutdown-tracker/references\nus-gov-shutdown-tracker/references/awesome-skills-claude-3.3.zip\nus-gov-shutdown-tracker/references/data_sources.md\nus-gov-shutdown-tracker/references/historical_cases.md\nus-gov-shutdown-tracker/scripts\nus-gov-shutdown-tracker/scripts/analyze_shutdown.py\nus-gov-shutdown-tracker/scripts/visualize.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  }
+]

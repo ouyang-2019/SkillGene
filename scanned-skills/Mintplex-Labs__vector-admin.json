@@ -1,0 +1,163 @@
+[
+  {
+    "name": "vector-admin (Mintplex-Labs)",
+    "description": "[项目级] The universal tool suite for vector database management. Manage Pinecone, Chroma, Qdrant, Weaviate and more vector databases with ease.。来源: https://github.com/Mintplex-Labs/vector-admin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "aitools",
+      "chroma",
+      "database-management",
+      "typescript",
+      "stars-2157",
+      "github-mintplex-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "VectorAdmin aims to be a full-stack application that gives you total control over your otherwise unwieldy vector data that you are embedding via an API or using tools like LangChain, which don't show you what you just saved into your database.\n\nVectorAdmin is a full capable multi-user product that you can run locally via Docker as well as host remotely and manage multiple vector databases at once.\n\nVectorAdmin is more than a single tool. VectorAdmin is a **suite** of tools that make interacting with and understanding vectorized text easy without compromise for the controls you would expect from a traditional database management system.\n\nSome cool features of VectorAdmin\n- Multi-user instance support and oversight\n- Atomically view, update, and delete singular text chunks of embeddings.\n- C",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "[Get up and running in minutes with Docker](./docker/DOCKER.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbackend\nbackend/.env.example\nbackend/.gitignore\nbackend/.nvmrc\nbackend/endpoints\nbackend/index.js\nbackend/models\nbackend/package.json\nbackend/prisma\nbackend/storage\nbackend/utils\nbackend/yarn.lock\nclean.sh\ndevSetup.js\ndocker\ndocker/.env.example\ndocker/DOCKER.md\ndocker/Dockerfile",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Get up and running in minutes with Docker](./docker/DOCKER.md)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6669250725512725
+  },
+  {
+    "name": "vector-admin/backend 模块",
+    "description": "[模块级] vector-admin 项目的 backend 模块 (source)。来源: https://github.com/Mintplex-Labs/vector-admin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "aitools",
+      "chroma",
+      "database-management",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 145\n\n包含文件:\n- backend/.env.example\n- backend/.gitignore\n- backend/.nvmrc\n- backend/endpoints\n- backend/endpoints/auth.js\n- backend/endpoints/system.js\n- backend/endpoints/v1\n- backend/endpoints/v1/document-processor\n- backend/endpoints/v1/document-processor/index.js\n- backend/endpoints/v1/documents",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.env.example\nbackend/.gitignore\nbackend/.nvmrc\nbackend/endpoints\nbackend/endpoints/auth.js\nbackend/endpoints/system.js\nbackend/endpoints/v1\nbackend/endpoints/v1/document-processor\nbackend/endpoints/v1/document-processor/index.js\nbackend/endpoints/v1/documents\nbackend/endpoints/v1/documents/index.js\nbackend/endpoints/v1/index.js\nbackend/endpoints/v1/jobs\nbackend/endpoints/v1/jobs/index.js\nbackend/endpoints/v1/organizations",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8335400580410184
+  },
+  {
+    "name": "vector-admin/docker 模块",
+    "description": "[模块级] vector-admin 项目的 docker 模块 (source)。来源: https://github.com/Mintplex-Labs/vector-admin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "aitools",
+      "chroma",
+      "database-management",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "[Get up and running in minutes with Docker](./docker/DOCKER.md)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env.example\ndocker/DOCKER.md\ndocker/Dockerfile\ndocker/docker-compose.yml\ndocker/docker-entrypoint.sh\ndocker/docker-healthcheck.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8335400580410184
+  },
+  {
+    "name": "vector-admin/document-processor 模块",
+    "description": "[模块级] vector-admin 项目的 document-processor 模块 (source)。来源: https://github.com/Mintplex-Labs/vector-admin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "aitools",
+      "chroma",
+      "database-management",
+      "module-level",
+      "source",
+      "document-processor"
+    ],
+    "genes": [
+      {
+        "title": "document-processor 模块说明",
+        "content": "模块路径: document-processor/\n类型: source\n文件数: 18\n\n包含文件:\n- document-processor/.gitignore\n- document-processor/README.md\n- document-processor/api.py\n- document-processor/hotdir\n- document-processor/hotdir/__HOTDIR__.md\n- document-processor/requirements.txt\n- document-processor/scripts\n- document-processor/scripts/__init__.py\n- document-processor/scripts/extract_text.py\n- document-processor/scripts/filetypes.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "document-processor 文件结构",
+        "content": "document-processor/.gitignore\ndocument-processor/README.md\ndocument-processor/api.py\ndocument-processor/hotdir\ndocument-processor/hotdir/__HOTDIR__.md\ndocument-processor/requirements.txt\ndocument-processor/scripts\ndocument-processor/scripts/__init__.py\ndocument-processor/scripts/extract_text.py\ndocument-processor/scripts/filetypes.py\ndocument-processor/scripts/parsers\ndocument-processor/scripts/parsers/as_docx.py\ndocument-processor/scripts/parsers/as_markdown.py\ndocument-processor/scripts/parsers/as_mbox.py\ndocument-processor/scripts/parsers/as_pdf.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8335400580410184
+  },
+  {
+    "name": "vector-admin/frontend 模块",
+    "description": "[模块级] vector-admin 项目的 frontend 模块 (source)。来源: https://github.com/Mintplex-Labs/vector-admin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "aitools",
+      "chroma",
+      "database-management",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 8\n\n包含文件:\n- frontend/.env.example\n- frontend/.gitignore\n- frontend/.nvmrc\n- frontend/.prettierrc\n- frontend/index.html\n- frontend/package.json\n- frontend/postcss.config.cjs\n- frontend/public",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/.gitignore\nfrontend/.nvmrc\nfrontend/.prettierrc\nfrontend/index.html\nfrontend/package.json\nfrontend/postcss.config.cjs\nfrontend/public",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8335400580410184
+  }
+]

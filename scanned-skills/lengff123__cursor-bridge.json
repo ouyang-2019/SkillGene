@@ -1,0 +1,43 @@
+[
+  {
+    "name": "cursor-bridge (lengff123)",
+    "description": "[项目级] Seamlessly bridge Obsidian and Cursor, the AI-powered code editor. Elevate your coding workflow by opening notes directly in Cursor, bringing the power of AI to your knowledge base.。来源: https://github.com/lengff123/cursor-bridge",
+    "domain": "testing",
+    "tags": [
+      "typescript",
+      "stars-49",
+      "github-lengff123",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Seamlessly bridge Obsidian and Cursor, the AI-powered code editor. Elevate your coding workflow by opening notes directly in Cursor, bringing the power of AI to your knowledge base.\n\n来源: https://github.com/lengff123/cursor-bridge\n语言: TypeScript\nStars: 49",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Open Obsidian and navigate to Settings > Community Plugins\r\n2. Disable Safe Mode\r\n3. Click on Browse and search for \"Cursor Bridge\"\r\n4. Install the plugin and enable it",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/wechat-qr.png\nmain.ts\nmanifest.json\npackage.json\nrollup.config.js\ntsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "After installation, you can bridge to Cursor in multiple ways:\r\n\r\n- Use the command palette (Ctrl/Cmd + P) and search for \"Open in Cursor\"\r\n- Right-click on a file or folder and select \"Open in Cursor\"\r\n- Click the Cursor icon in the left sidebar to open the current file",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🚀 **One-Click Opening**: Launch your Obsidian notes in Cursor with a single command\r\n- 🧠 **AI-Powered Coding**: Harness the full potential of Cursor's AI capabilities directly from your Obsidian vault\r\n- 🔄 **Seamless Integration**: Effortlessly switch between your knowledge base and coding environment\r\n- 📁 **Folder Support**: Open entire project folders from Obsidian in Cursor\r\n- ⚙️ **Customizable Workflow**: Tailor the plugin to fit your unique development process\r\n- It already supports Windows and Apple systems",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.845098040014257
+  }
+]

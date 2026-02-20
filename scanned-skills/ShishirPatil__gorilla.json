@@ -1,0 +1,98 @@
+[
+  {
+    "name": "gorilla (ShishirPatil)",
+    "description": "[项目级] Gorilla: Training and Evaluating LLMs for Function Calls (Tool Calls)。来源: https://github.com/ShishirPatil/gorilla",
+    "domain": "ai-llm",
+    "tags": [
+      "api",
+      "api-documentation",
+      "chatgpt",
+      "claude-api",
+      "gpt-4-api",
+      "python",
+      "stars-12726",
+      "github-shishirpatil",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Gorilla enables LLMs to use tools by invoking APIs. Given a natural language query, Gorilla comes up with the semantically- and syntactically- correct API to invoke.** \n\nWith Gorilla, we are the first to demonstrate how to use LLMs to invoke 1,600+ (and growing) API calls accurately while reducing hallucination. This repository contains [inference code](/gorilla/inference) for running Gorilla finetuned models, [evaluation code](/gorilla/eval) for reproducing results from our paper, and [APIBench](/data) - the largest collection of APIs, curated and easy to be trained on!\n\nSince our initial release, we've served ~500k requests and witnessed incredible adoption by developers worldwide. The project has expanded to include tools, evaluations, leaderboard, end-to-end finetuning recipes, infra",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagent-arena\nagent-arena/README.md\nagent-arena/client\nagent-arena/evalutation\nberkeley-function-call-leaderboard\nberkeley-function-call-leaderboard/CHANGELOG.md\nberkeley-function-call-leaderboard/CONTRIBUTING.md\nberkeley-function-call-leaderboard/LOG_GUIDE.md\nberkeley-function-call-leaderboard/README.md\nberkeley-function-call-leaderboard/SUPPORTED_MODELS.md\nberkeley-function-call-leaderboard/TEST_CATEGORIES.md\nberkeley-function-call-leaderboard/architecture_diagram.png\nberkeley-function-call-leaderboard/bfcl_eval",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "gorilla/agent-arena 模块",
+    "description": "[模块级] gorilla 项目的 agent-arena 模块 (source)。来源: https://github.com/ShishirPatil/gorilla",
+    "domain": "ai-llm",
+    "tags": [
+      "api",
+      "api-documentation",
+      "chatgpt",
+      "claude-api",
+      "gpt-4-api",
+      "module-level",
+      "source",
+      "agent-arena"
+    ],
+    "genes": [
+      {
+        "title": "agent-arena 模块说明",
+        "content": "模块路径: agent-arena/\n类型: source\n文件数: 55\n\n包含文件:\n- agent-arena/README.md\n- agent-arena/client\n- agent-arena/client/.gitignore\n- agent-arena/client/ThemeContext.js\n- agent-arena/client/package-lock.json\n- agent-arena/client/package.json\n- agent-arena/client/public\n- agent-arena/client/public/agents_desc.txt\n- agent-arena/client/public/agents_list.txt\n- agent-arena/client/public/dark-theme.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-arena 文件结构",
+        "content": "agent-arena/README.md\nagent-arena/client\nagent-arena/client/.gitignore\nagent-arena/client/ThemeContext.js\nagent-arena/client/package-lock.json\nagent-arena/client/package.json\nagent-arena/client/public\nagent-arena/client/public/agents_desc.txt\nagent-arena/client/public/agents_list.txt\nagent-arena/client/public/dark-theme.css\nagent-arena/client/public/elo_ratings_by_category.txt\nagent-arena/client/public/favicon.ico\nagent-arena/client/public/index.html\nagent-arena/client/public/light-theme.css\nagent-arena/client/public/logo512.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141876767560082
+  },
+  {
+    "name": "gorilla/berkeley-function-call-leaderboard 模块",
+    "description": "[模块级] gorilla 项目的 berkeley-function-call-leaderboard 模块 (source)。来源: https://github.com/ShishirPatil/gorilla",
+    "domain": "ai-llm",
+    "tags": [
+      "api",
+      "api-documentation",
+      "chatgpt",
+      "claude-api",
+      "gpt-4-api",
+      "module-level",
+      "source",
+      "berkeley-function-call-leaderboard"
+    ],
+    "genes": [
+      {
+        "title": "berkeley-function-call-leaderboard 模块说明",
+        "content": "模块路径: berkeley-function-call-leaderboard/\n类型: source\n文件数: 123\n\n包含文件:\n- berkeley-function-call-leaderboard/CHANGELOG.md\n- berkeley-function-call-leaderboard/CONTRIBUTING.md\n- berkeley-function-call-leaderboard/LOG_GUIDE.md\n- berkeley-function-call-leaderboard/README.md\n- berkeley-function-call-leaderboard/SUPPORTED_MODELS.md\n- berkeley-function-call-leaderboard/TEST_CATEGORIES.md\n- berkeley-function-call-leaderboard/architecture_diagram.png\n- berkeley-function-call-leaderboard/bfcl_eval\n- berkeley-function-call-leaderboard/bfcl_eval/.env.example\n- berkeley-function-call-leaderboard/bfcl_eval/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "berkeley-function-call-leaderboard 文件结构",
+        "content": "berkeley-function-call-leaderboard/CHANGELOG.md\nberkeley-function-call-leaderboard/CONTRIBUTING.md\nberkeley-function-call-leaderboard/LOG_GUIDE.md\nberkeley-function-call-leaderboard/README.md\nberkeley-function-call-leaderboard/SUPPORTED_MODELS.md\nberkeley-function-call-leaderboard/TEST_CATEGORIES.md\nberkeley-function-call-leaderboard/architecture_diagram.png\nberkeley-function-call-leaderboard/bfcl_eval\nberkeley-function-call-leaderboard/bfcl_eval/.env.example\nberkeley-function-call-leaderboard/bfcl_eval/__init__.py\nberkeley-function-call-leaderboard/bfcl_eval/__main__.py\nberkeley-function-call-leaderboard/bfcl_eval/_llm_response_generation.py\nberkeley-function-call-leaderboard/bfcl_eval/constants\nberkeley-function-call-leaderboard/bfcl_eval/constants/__init__.py\nberkeley-function-call-leaderboard/bfcl_eval/constants/category_mapping.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141876767560082
+  }
+]

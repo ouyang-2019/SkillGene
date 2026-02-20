@@ -1,0 +1,128 @@
+[
+  {
+    "name": "DeepAnalyze (ruc-datalab)",
+    "description": "[项目级] DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！。来源: https://github.com/ruc-datalab/DeepAnalyze",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-scientist",
+      "python",
+      "stars-3674",
+      "github-ruc-datalab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！\n\n来源: https://github.com/ruc-datalab/DeepAnalyze\n语言: Python\nStars: 3674",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "API\nAPI/README.md\nAPI/README_ZH.md\nAPI/__init__.py\nAPI/admin_api.py\nAPI/chat_api.py\nAPI/config.py\nAPI/example\nAPI/file_api.py\nAPI/main.py\nAPI/models.py\nAPI/models_api.py\nAPI/start_server.py\nAPI/storage.py\nAPI/utils.py\nCONTRIBUTION.md\nLICENSE\nREADME.md\nassets\nassets/deepanalyze.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.782569575984895
+  },
+  {
+    "name": "DeepAnalyze/API 模块",
+    "description": "[模块级] DeepAnalyze 项目的 API 模块 (source)。来源: https://github.com/ruc-datalab/DeepAnalyze",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-scientist",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "API 模块说明",
+        "content": "**API keys are now available!**\n\nTo request your key, please fill out one of the following application forms:\n*   **[Primary Form (Google)](https://forms.gle/YxVkCzczqq8jeciw9)**\n*   **[Alternative Form (Feishu)](https://heywhale.feishu.cn/share/base/shrcnnBRgO0x2qhx40yq4m1HxUg)**\n\n**📚 For comprehensive usage instructions, please refer to the API guide:**\n\n*   **[Documentation](./docs/DeepAnalyze_API_Key_Usage_Guide.md)**\n*   **[Feishu Wiki](https://heywhale.feishu.cn/wiki/TcVmw314liwCiKkxnttc2",
+        "gene_type": "principle"
+      },
+      {
+        "title": "API 文件结构",
+        "content": "API/README.md\nAPI/README_ZH.md\nAPI/__init__.py\nAPI/admin_api.py\nAPI/chat_api.py\nAPI/config.py\nAPI/example\nAPI/example/Simpson.csv\nAPI/example/employee_data.csv\nAPI/example/exampleOpenAI.py\nAPI/example/exampleRequest.py\nAPI/file_api.py\nAPI/main.py\nAPI/models.py\nAPI/models_api.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.926055660787916
+  },
+  {
+    "name": "DeepAnalyze/assets 模块",
+    "description": "[模块级] DeepAnalyze 项目的 assets 模块 (source)。来源: https://github.com/ruc-datalab/DeepAnalyze",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-scientist",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 6\n\n包含文件:\n- assets/deepanalyze.jpg\n- assets/logo.png\n- assets/model.jpg\n- assets/report.png\n- assets/wechat.jpg\n- assets/wechat2.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/deepanalyze.jpg\nassets/logo.png\nassets/model.jpg\nassets/report.png\nassets/wechat.jpg\nassets/wechat2.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.926055660787916
+  },
+  {
+    "name": "DeepAnalyze/deepanalyze 模块",
+    "description": "[模块级] DeepAnalyze 项目的 deepanalyze 模块 (source)。来源: https://github.com/ruc-datalab/DeepAnalyze",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-scientist",
+      "module-level",
+      "source",
+      "deepanalyze"
+    ],
+    "genes": [
+      {
+        "title": "deepanalyze 模块说明",
+        "content": "[![arXiv](https://img.shields.io/badge/arXiv-2510.16872-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2510.16872)\n[![homepage](https://img.shields.io/badge/%F0%9F%8C%90%20Homepage%20-DeepAnalyze%20Cases-blue.svg)](https://ruc-deepanalyze.github.io/)\n[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface%20-DeepAnalyze--8B-orange.svg)](https://huggingface.co/RUC-DataLab/DeepAnalyze-8B)\n[![data](https://img.shields.io/badge/%F0%9F%93%9A%20Datasets%20-DataScience--Instruct--500K-darkgree",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deepanalyze 文件结构",
+        "content": "deepanalyze/README.md\ndeepanalyze/SkyRL\ndeepanalyze/SkyRL/.gitignore\ndeepanalyze/SkyRL/.gitmodules\ndeepanalyze/SkyRL/.pre-commit-config.yaml\ndeepanalyze/SkyRL/.readthedocs.yaml\ndeepanalyze/SkyRL/LICENSE\ndeepanalyze/SkyRL/README.md\ndeepanalyze/SkyRL/docker\ndeepanalyze/SkyRL/docker/Dockerfile\ndeepanalyze/SkyRL/docker/Dockerfile.ray244\ndeepanalyze/SkyRL/format.sh\ndeepanalyze/SkyRL/pyproject.toml\ndeepanalyze/SkyRL/skyagent\ndeepanalyze/SkyRL/skyagent/.env.example",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.926055660787916
+  }
+]

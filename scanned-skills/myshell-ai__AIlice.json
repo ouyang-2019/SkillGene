@@ -1,0 +1,77 @@
+[
+  {
+    "name": "AIlice (myshell-ai)",
+    "description": "[项目级] AIlice is a fully autonomous, general-purpose AI agent.。来源: https://github.com/myshell-ai/AIlice",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "llm",
+      "llm-agent",
+      "python",
+      "stars-1380",
+      "github-myshell-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AIlice is a fully autonomous, general-purpose AI agent.\n\n来源: https://github.com/myshell-ai/AIlice\n语言: Python\nStars: 1380",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<a name=\"quick-installation\"></a>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nIACT.jpg\nLICENSE\nREADME.md\nailice\nailice/AIliceMain.py\nailice/AIliceTurbo.py\nailice/AServices.py\nailice/__init__.py\nailice/app\nailice/common\nailice/core\nailice/finetuning\nailice/modules\nailice/prompts\nailice/tests\nailice/ui\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- \"List the contents of the current directory.\"\n- \"Check the weather in San Francisco today.\"\n- \"Calculate the integral of e^(-x^2) from negative infinity to positive infinity with detailed derivation steps.\"\n- \"Generate fractal visualization using any algorithm of choice.\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Key technical features of Ailice include:\n\n- **In-depth research capabilities on specialized subjects.**\n- **The ability to read and analyze articles and scholarly works.**\n- **Advanced automation in programming and script execution, functioning as a comprehensive coder and an efficient system management tool, similar to an AI-powered operating system.**\n- **Voice interaction support.**\n- **Compatibility with open-source models and seamless integration with commercial models.**\n- **Native multi-modal support across all agents.**\n- **Rich media UI with image/video/audio, LaTeX formulas, code hi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5699395432006185
+  },
+  {
+    "name": "AIlice/ailice 模块",
+    "description": "[模块级] AIlice 项目的 ailice 模块 (source)。来源: https://github.com/myshell-ai/AIlice",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "llm",
+      "llm-agent",
+      "python",
+      "module-level",
+      "source",
+      "ailice"
+    ],
+    "genes": [
+      {
+        "title": "ailice 模块说明",
+        "content": "**Experience Ailice instantly at [kragent.ai](https://kragent.ai/)** - A platform built on Ailice that lets you explore its capabilities without local setup. Perfect for testing and discovering what this AI assistant can do!\n\nUse **your own API key** to configure powerful commercial LLMs and unlock their full potential (it will be a completely different beast from the free default configuration!). For optimal cost-effectiveness, consider a hybrid setup combining commercial and open-source LLMs. ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ailice 文件结构",
+        "content": "ailice/AIliceMain.py\nailice/AIliceTurbo.py\nailice/AServices.py\nailice/__init__.py\nailice/app\nailice/app/__init__.py\nailice/app/app.py\nailice/app/cleaner.py\nailice/app/config.py\nailice/app/context.py\nailice/app/decorators.py\nailice/app/exceptions.py\nailice/app/factory.py\nailice/app/log.py\nailice/app/msgque.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7559516345604944
+  }
+]

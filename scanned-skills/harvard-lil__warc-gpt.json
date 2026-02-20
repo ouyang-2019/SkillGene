@@ -1,0 +1,72 @@
+[
+  {
+    "name": "warc-gpt (harvard-lil)",
+    "description": "[项目级] WARC + AI - Experimental Retrieval Augmented Generation Pipeline for Web Archive Collections.。来源: https://github.com/harvard-lil/warc-gpt",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "rag",
+      "warc",
+      "webarchiving",
+      "python",
+      "stars-270",
+      "github-harvard-lil",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "WARC + AI - Experimental Retrieval Augmented Generation Pipeline for Web Archive Collections.\n\n来源: https://github.com/harvard-lil/warc-gpt\n语言: Python\nStars: 270",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/harvard-lil/warc-gpt.git\ncd warc-gpt\npoetry env use 3.11\npoetry install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbanner.png\npoetry.lock\npyproject.toml\nsetup.cfg\nwarc\nwarc/.keep\nwarc_gpt\nwarc_gpt/__init__.py\nwarc_gpt/commands\nwarc_gpt/static\nwarc_gpt/templates\nwarc_gpt/utils\nwarc_gpt/views\nwsgi.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Retrieval Augmented Generation pipeline for WARC files\n- Highly customizable, can interact with many different LLMs, providers and embedding models\n- REST API\n- Web UI\n- Embeddings visualization\n\n[☝️ Summary](#summary)\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.215681882079494
+  },
+  {
+    "name": "warc-gpt/warc_gpt 模块",
+    "description": "[模块级] warc-gpt 项目的 warc_gpt 模块 (source)。来源: https://github.com/harvard-lil/warc-gpt",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "rag",
+      "warc",
+      "webarchiving",
+      "python",
+      "module-level",
+      "source",
+      "warc_gpt"
+    ],
+    "genes": [
+      {
+        "title": "warc_gpt 模块说明",
+        "content": "模块路径: warc_gpt/\n类型: source\n文件数: 38\n\n包含文件:\n- warc_gpt/__init__.py\n- warc_gpt/commands\n- warc_gpt/commands/__init__.py\n- warc_gpt/commands/ingest.py\n- warc_gpt/commands/visualize.py\n- warc_gpt/static\n- warc_gpt/static/components\n- warc_gpt/static/components/ChatBubble.css\n- warc_gpt/static/components/ChatBubble.js\n- warc_gpt/static/components/ChatFlow.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "warc_gpt 文件结构",
+        "content": "warc_gpt/__init__.py\nwarc_gpt/commands\nwarc_gpt/commands/__init__.py\nwarc_gpt/commands/ingest.py\nwarc_gpt/commands/visualize.py\nwarc_gpt/static\nwarc_gpt/static/components\nwarc_gpt/static/components/ChatBubble.css\nwarc_gpt/static/components/ChatBubble.js\nwarc_gpt/static/components/ChatFlow.css\nwarc_gpt/static/components/ChatFlow.js\nwarc_gpt/static/components/ChatInput.css\nwarc_gpt/static/components/ChatInput.js\nwarc_gpt/static/components/InspectDialog.css\nwarc_gpt/static/components/InspectDialog.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4725455056635948
+  }
+]

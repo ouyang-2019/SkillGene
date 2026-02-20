@@ -1,0 +1,89 @@
+[
+  {
+    "name": "agent-skills (apify)",
+    "description": "[项目级] Collection of Apify Agent Skills。来源: https://github.com/apify/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-217",
+      "github-apify",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Collection of Apify Agent Skills\n\n来源: https://github.com/apify/agent-skills\n语言: JavaScript\nStars: 217",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx skills add apify/agent-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagents\nagents/AGENTS.md\ncommands\ncommands/create-actor.md\ngemini-extension.json\nscripts\nscripts/AGENTS_TEMPLATE.md\nscripts/generate_agents.py\nskills\nskills/apify-actor-development\nskills/apify-actorization\nskills/apify-audience-analysis\nskills/apify-brand-reputation-monitoring\nskills/apify-competitor-intelligence\nskills/apify-content-analytics\nskills/apify-ecommerce\nskills/apify-influencer-discovery\nskills/apify-lead-generation\nskills/apify-market-research",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.168229866924265
+  },
+  {
+    "name": "agent-skills/scripts 模块",
+    "description": "[模块级] agent-skills 项目的 scripts 模块 (script)。来源: https://github.com/apify/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-217",
+      "github-apify",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/AGENTS_TEMPLATE.md\n- scripts/generate_agents.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/AGENTS_TEMPLATE.md\nscripts/generate_agents.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4345838935394117
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/apify/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-217",
+      "github-apify",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Official Apify Agent Skills for web scraping, data extraction, and automation. Works with Claude Code, Cursor, Codex, Gemini CLI, and other AI coding assistants.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/apify-actor-development\nskills/apify-actor-development/SKILL.md\nskills/apify-actor-development/references\nskills/apify-actor-development/references/actor-json.md\nskills/apify-actor-development/references/dataset-schema.md\nskills/apify-actor-development/references/input-schema.md\nskills/apify-actor-development/references/key-value-store-schema.md\nskills/apify-actor-development/references/logging.md\nskills/apify-actor-development/references/output-schema.md\nskills/apify-actor-development/references/standby-mode.md\nskills/apify-actorization\nskills/apify-actorization/SKILL.md\nskills/apify-actorization/references\nskills/apify-actorization/references/cli-actorization.md\nskills/apify-actorization/references/js-ts-actorization.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4345838935394117
+  }
+]

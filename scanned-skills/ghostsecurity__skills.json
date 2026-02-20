@@ -1,0 +1,72 @@
+[
+  {
+    "name": "skills (ghostsecurity)",
+    "description": "[项目级] Ghost Security's collection of AppSec skills for AI coding agents。来源: https://github.com/ghostsecurity/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "agents",
+      "ai",
+      "security",
+      "shell",
+      "stars-202",
+      "github-ghostsecurity",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ghost Security's collection of AppSec skills for AI coding agents\n\n来源: https://github.com/ghostsecurity/skills\n语言: Shell\nStars: 202",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "claude plugin marketplace add ghostsecurity/skills\nclaude plugin install ghost@ghost-security\nclaude",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nplugins\nplugins/ghost",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "[Open an Issue](https://github.com/ghostsecurity/skills/issues/new) per the [Contributing](.github/CONTRIBUTING.md) guidelines and [Code of Conduct](.github/CODE_OF_CONDUCT.md)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.152675684723312
+  },
+  {
+    "name": "skills/plugins 模块",
+    "description": "[模块级] skills 项目的 plugins 模块 (source)。来源: https://github.com/ghostsecurity/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "agents",
+      "ai",
+      "security",
+      "shell",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 66\n\n包含文件:\n- plugins/ghost\n- plugins/ghost/.claude-plugin\n- plugins/ghost/.claude-plugin/plugin.json\n- plugins/ghost/CHANGELOG.md\n- plugins/ghost/README.md\n- plugins/ghost/skills\n- plugins/ghost/skills/proxy\n- plugins/ghost/skills/proxy/SKILL.md\n- plugins/ghost/skills/repo-context\n- plugins/ghost/skills/repo-context/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ghost\nplugins/ghost/.claude-plugin\nplugins/ghost/.claude-plugin/plugin.json\nplugins/ghost/CHANGELOG.md\nplugins/ghost/README.md\nplugins/ghost/skills\nplugins/ghost/skills/proxy\nplugins/ghost/skills/proxy/SKILL.md\nplugins/ghost/skills/repo-context\nplugins/ghost/skills/repo-context/SKILL.md\nplugins/ghost/skills/repo-context/detector.md\nplugins/ghost/skills/repo-context/summarizer.md\nplugins/ghost/skills/repo-context/template-repo.md\nplugins/ghost/skills/report\nplugins/ghost/skills/report/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4221405477786497
+  }
+]

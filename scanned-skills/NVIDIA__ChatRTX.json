@@ -1,0 +1,89 @@
+[
+  {
+    "name": "ChatRTX (NVIDIA)",
+    "description": "[项目级] A developer reference project for creating Retrieval Augmented Generation (RAG) chatbots on Windows using TensorRT-LLM。来源: https://github.com/NVIDIA/ChatRTX",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3111",
+      "github-nvidia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A developer reference project for creating Retrieval Augmented Generation (RAG) chatbots on Windows using TensorRT-LLM\n\n来源: https://github.com/NVIDIA/ChatRTX\n语言: Python\nStars: 3111",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "3rd_party_license.txt\nChatRTX_APIs\nChatRTX_APIs/ChatRTX\nChatRTX_APIs/MANIFEST.in\nChatRTX_APIs/README.md\nChatRTX_APIs/dist\nChatRTX_APIs/poetry.lock\nChatRTX_APIs/pyproject.toml\nChatRTX_APIs/requirements.txt\nChatRTX_APIs/setup.py\nChatRTX_App\nChatRTX_App/.gitignore\nChatRTX_App/3rd_party_license.txt\nChatRTX_App/ChatRTXUI",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.746450005554352
+  },
+  {
+    "name": "ChatRTX/ChatRTX_APIs 模块",
+    "description": "[模块级] ChatRTX 项目的 ChatRTX_APIs 模块 (source)。来源: https://github.com/NVIDIA/ChatRTX",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3111",
+      "github-nvidia",
+      "module-level",
+      "source",
+      "chatrtx_apis"
+    ],
+    "genes": [
+      {
+        "title": "ChatRTX_APIs 模块说明",
+        "content": "模块路径: ChatRTX_APIs/\n类型: source\n文件数: 183\n\n包含文件:\n- ChatRTX_APIs/ChatRTX\n- ChatRTX_APIs/ChatRTX/3rd_party_license.txt\n- ChatRTX_APIs/ChatRTX/LICENSE.md\n- ChatRTX_APIs/ChatRTX/NIM_licenses\n- ChatRTX_APIs/ChatRTX/NIM_licenses/__init__.py\n- ChatRTX_APIs/ChatRTX/NIM_licenses/license-llama-3.1-8b-instruct.txt\n- ChatRTX_APIs/ChatRTX/NIM_licenses/license-parakeet-0-6b-ctc-en-us.txt\n- ChatRTX_APIs/ChatRTX/__init__.py\n- ChatRTX_APIs/ChatRTX/chatrtx.py\n- ChatRTX_APIs/ChatRTX/chatrtx_rag.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ChatRTX_APIs 文件结构",
+        "content": "ChatRTX_APIs/ChatRTX\nChatRTX_APIs/ChatRTX/3rd_party_license.txt\nChatRTX_APIs/ChatRTX/LICENSE.md\nChatRTX_APIs/ChatRTX/NIM_licenses\nChatRTX_APIs/ChatRTX/NIM_licenses/__init__.py\nChatRTX_APIs/ChatRTX/NIM_licenses/license-llama-3.1-8b-instruct.txt\nChatRTX_APIs/ChatRTX/NIM_licenses/license-parakeet-0-6b-ctc-en-us.txt\nChatRTX_APIs/ChatRTX/__init__.py\nChatRTX_APIs/ChatRTX/chatrtx.py\nChatRTX_APIs/ChatRTX/chatrtx_rag.py\nChatRTX_APIs/ChatRTX/config\nChatRTX_APIs/ChatRTX/config/__init__.py\nChatRTX_APIs/ChatRTX/config/app_config.json\nChatRTX_APIs/ChatRTX/config/config.json\nChatRTX_APIs/ChatRTX/examples",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8971600044434815
+  },
+  {
+    "name": "ChatRTX/ChatRTX_App 模块",
+    "description": "[模块级] ChatRTX 项目的 ChatRTX_App 模块 (source)。来源: https://github.com/NVIDIA/ChatRTX",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3111",
+      "github-nvidia",
+      "module-level",
+      "source",
+      "chatrtx_app"
+    ],
+    "genes": [
+      {
+        "title": "ChatRTX_App 模块说明",
+        "content": "模块路径: ChatRTX_App/\n类型: source\n文件数: 13\n\n包含文件:\n- ChatRTX_App/.gitignore\n- ChatRTX_App/3rd_party_license.txt\n- ChatRTX_App/ChatRTXUI\n- ChatRTX_App/ChatRTXUI/.prettierrc.json\n- ChatRTX_App/ChatRTXUI/README.md\n- ChatRTX_App/ChatRTXUI/electron-builder.json\n- ChatRTX_App/ChatRTXUI/engine\n- ChatRTX_App/ChatRTXUI/engine/ChatRTXUIEngine.py\n- ChatRTX_App/ChatRTXUI/engine/MockBackend.py\n- ChatRTX_App/ChatRTXUI/engine/ResponseUtility.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ChatRTX_App 文件结构",
+        "content": "ChatRTX_App/.gitignore\nChatRTX_App/3rd_party_license.txt\nChatRTX_App/ChatRTXUI\nChatRTX_App/ChatRTXUI/.prettierrc.json\nChatRTX_App/ChatRTXUI/README.md\nChatRTX_App/ChatRTXUI/electron-builder.json\nChatRTX_App/ChatRTXUI/engine\nChatRTX_App/ChatRTXUI/engine/ChatRTXUIEngine.py\nChatRTX_App/ChatRTXUI/engine/MockBackend.py\nChatRTX_App/ChatRTXUI/engine/ResponseUtility.py\nChatRTX_App/ChatRTXUI/engine/backend.py\nChatRTX_App/ChatRTXUI/engine/configuration.py\nChatRTX_App/ChatRTXUI/package-lock.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8971600044434815
+  }
+]

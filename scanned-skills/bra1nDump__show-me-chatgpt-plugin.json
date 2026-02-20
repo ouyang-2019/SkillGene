@@ -1,0 +1,145 @@
+[
+  {
+    "name": "show-me-chatgpt-plugin (bra1nDump)",
+    "description": "[项目级] Create and edit diagrams in ChatGPT。来源: https://github.com/bra1nDump/show-me-chatgpt-plugin",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-677",
+      "github-bra1ndump",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Create and edit diagrams in ChatGPT\n\n来源: https://github.com/bra1nDump/show-me-chatgpt-plugin\n语言: TypeScript\nStars: 677",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nKrokiError.md\nREADME.md\ndocker-compose.yml\nflyio\nflyio/fly-blockdiag.toml\nflyio/fly-bpmn.toml\nflyio/fly-deploy-all.sh\nflyio/fly-excalidraw.toml\nflyio/fly-kroki.toml\nflyio/fly-mermaid.toml\nflyio/fly-wireviz.toml\nmanifest-versions\nmanifest-versions/new with old getMermaidRoute.json\nmanifest-versions/old getMermaidRoute.json\npackage-lock.json\npackage.json\nprompts\nprompts/Finding good : bad diagrams.md\nprompts/critic-gpt-4.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<img width=\"643\" alt=\"image\" src=\"https://user-images.githubusercontent.com/12608159/235550530-e5021790-76a9-4e9a-b352-60c723cdb32b.png\">",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.415294334342573
+  },
+  {
+    "name": "show-me-chatgpt-plugin/flyio 模块",
+    "description": "[模块级] show-me-chatgpt-plugin 项目的 flyio 模块 (source)。来源: https://github.com/bra1nDump/show-me-chatgpt-plugin",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-677",
+      "github-bra1ndump",
+      "module-level",
+      "source",
+      "flyio"
+    ],
+    "genes": [
+      {
+        "title": "flyio 模块说明",
+        "content": "模块路径: flyio/\n类型: source\n文件数: 7\n\n包含文件:\n- flyio/fly-blockdiag.toml\n- flyio/fly-bpmn.toml\n- flyio/fly-deploy-all.sh\n- flyio/fly-excalidraw.toml\n- flyio/fly-kroki.toml\n- flyio/fly-mermaid.toml\n- flyio/fly-wireviz.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flyio 文件结构",
+        "content": "flyio/fly-blockdiag.toml\nflyio/fly-bpmn.toml\nflyio/fly-deploy-all.sh\nflyio/fly-excalidraw.toml\nflyio/fly-kroki.toml\nflyio/fly-mermaid.toml\nflyio/fly-wireviz.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.632235467474058
+  },
+  {
+    "name": "show-me-chatgpt-plugin/manifest-versions 模块",
+    "description": "[模块级] show-me-chatgpt-plugin 项目的 manifest-versions 模块 (source)。来源: https://github.com/bra1nDump/show-me-chatgpt-plugin",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-677",
+      "github-bra1ndump",
+      "module-level",
+      "source",
+      "manifest-versions"
+    ],
+    "genes": [
+      {
+        "title": "manifest-versions 模块说明",
+        "content": "模块路径: manifest-versions/\n类型: source\n文件数: 2\n\n包含文件:\n- manifest-versions/new with old getMermaidRoute.json\n- manifest-versions/old getMermaidRoute.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "manifest-versions 文件结构",
+        "content": "manifest-versions/new with old getMermaidRoute.json\nmanifest-versions/old getMermaidRoute.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.632235467474058
+  },
+  {
+    "name": "show-me-chatgpt-plugin/prompts 模块",
+    "description": "[模块级] show-me-chatgpt-plugin 项目的 prompts 模块 (source)。来源: https://github.com/bra1nDump/show-me-chatgpt-plugin",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-677",
+      "github-bra1ndump",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 5\n\n包含文件:\n- prompts/Finding good : bad diagrams.md\n- prompts/critic-gpt-4.md\n- prompts/mermaid-state-diagram-v2-docs-dump.md\n- prompts/n-outputs.txt\n- prompts/old prompts.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/Finding good : bad diagrams.md\nprompts/critic-gpt-4.md\nprompts/mermaid-state-diagram-v2-docs-dump.md\nprompts/n-outputs.txt\nprompts/old prompts.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.632235467474058
+  },
+  {
+    "name": "show-me-chatgpt-plugin/src 模块",
+    "description": "[模块级] show-me-chatgpt-plugin 项目的 src 模块 (source)。来源: https://github.com/bra1nDump/show-me-chatgpt-plugin",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-677",
+      "github-bra1ndump",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 16\n\n包含文件:\n- src/index.ts\n- src/logo.ts\n- src/mixpanel.ts\n- src/privacy-page.ts\n- src/routes\n- src/routes/CollectEmail.ts\n- src/routes/Diagram.ts\n- src/routes/DiagramEditorWithEmailForm.html\n- src/routes/Shorten.ts\n- src/routes/diagrams",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/index.ts\nsrc/logo.ts\nsrc/mixpanel.ts\nsrc/privacy-page.ts\nsrc/routes\nsrc/routes/CollectEmail.ts\nsrc/routes/Diagram.ts\nsrc/routes/DiagramEditorWithEmailForm.html\nsrc/routes/Shorten.ts\nsrc/routes/diagrams\nsrc/routes/diagrams/index.ts\nsrc/routes/diagrams/mermaid.ts\nsrc/routes/diagrams/plantuml.ts\nsrc/routes/diagrams/utils.ts\nsrc/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.632235467474058
+  }
+]

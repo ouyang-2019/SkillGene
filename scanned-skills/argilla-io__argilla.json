@@ -1,0 +1,73 @@
+[
+  {
+    "name": "argilla (argilla-io)",
+    "description": "[项目级] Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets。来源: https://github.com/argilla-io/argilla",
+    "domain": "devops",
+    "tags": [
+      "active-learning",
+      "ai",
+      "annotation-tool",
+      "developer-tools",
+      "gpt-4",
+      "python",
+      "stars-4860",
+      "github-argilla-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets\n\n来源: https://github.com/argilla-io/argilla\n语言: Python\nStars: 4860",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nargilla-frontend\nargilla-frontend/.eslintignore\nargilla-frontend/.eslintrc.js\nargilla-frontend/.gitignore\nargilla-frontend/.prettierrc.js\nargilla-frontend/CHANGELOG.md\nargilla-frontend/LICENSE\nargilla-frontend/README.md\nargilla-frontend/assets\nargilla-frontend/babel.config.js\nargilla-frontend/components",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "AI teams from organizations such as the [Red Cross](https://510.global/), [Loris.ai](https://loris.ai/) and [Prolific](https://www.prolific.com/) use Argilla to improve the quality and efficiency of AI projects. They shared their experiences in our [AI community meetup](https://lu.ma/embed-checkout/evt-IQtRiSuXZCIW6FB).\n\n- AI for good: [the Red Cross presentation](https://youtu.be/ZsCqrAhzkFU?feature=shared) showcases how the Red Cross domain experts and AI team collaborated by classifying and redirecting requests from refugees of the Ukrainian crisis to streamline the support processes of the",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.843318134631147
+  },
+  {
+    "name": "argilla/argilla-frontend 模块",
+    "description": "[模块级] argilla 项目的 argilla-frontend 模块 (source)。来源: https://github.com/argilla-io/argilla",
+    "domain": "devops",
+    "tags": [
+      "active-learning",
+      "ai",
+      "annotation-tool",
+      "developer-tools",
+      "gpt-4",
+      "module-level",
+      "source",
+      "argilla-frontend"
+    ],
+    "genes": [
+      {
+        "title": "argilla-frontend 模块说明",
+        "content": "模块路径: argilla-frontend/\n类型: source\n文件数: 153\n\n包含文件:\n- argilla-frontend/.eslintignore\n- argilla-frontend/.eslintrc.js\n- argilla-frontend/.gitignore\n- argilla-frontend/.prettierrc.js\n- argilla-frontend/CHANGELOG.md\n- argilla-frontend/LICENSE\n- argilla-frontend/README.md\n- argilla-frontend/assets\n- argilla-frontend/assets/css\n- argilla-frontend/assets/css/fonts.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "argilla-frontend 文件结构",
+        "content": "argilla-frontend/.eslintignore\nargilla-frontend/.eslintrc.js\nargilla-frontend/.gitignore\nargilla-frontend/.prettierrc.js\nargilla-frontend/CHANGELOG.md\nargilla-frontend/LICENSE\nargilla-frontend/README.md\nargilla-frontend/assets\nargilla-frontend/assets/css\nargilla-frontend/assets/css/fonts.css\nargilla-frontend/assets/css/themes.css\nargilla-frontend/assets/icon-template.js.tmp\nargilla-frontend/assets/icons\nargilla-frontend/assets/icons/arrow-down.js\nargilla-frontend/assets/icons/arrow-up.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9746545077049173
+  }
+]

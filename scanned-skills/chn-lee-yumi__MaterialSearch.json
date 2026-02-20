@@ -1,0 +1,61 @@
+[
+  {
+    "name": "MaterialSearch (chn-lee-yumi)",
+    "description": "[项目级] Semantic search. Search local photos and videos through natural language. AI语义搜索本地素材。以图搜图、查找本地素材、根据文字描述匹配画面、视频帧搜索、根据画面描述搜索视频。。来源: https://github.com/chn-lee-yumi/MaterialSearch",
+    "domain": "general",
+    "tags": [
+      "html",
+      "stars-1820",
+      "github-chn-lee-yumi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic search. Search local photos and videos through natural language. AI语义搜索本地素材。以图搜图、查找本地素材、根据文字描述匹配画面、视频帧搜索、根据画面描述搜索视频。\n\n来源: https://github.com/chn-lee-yumi/MaterialSearch\n语言: HTML\nStars: 1820",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_ZH.md\ndocker-compose.yml\ngui_config.py\nstatic\nstatic/assets\nstatic/index.html\nstatic/locales\nstatic/login.html",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Text-based image search\n- Image-based image search\n- Text-based video search (provides matching video clips based on descriptions)\n- Image-based video search (searches for video segments based on screenshots)\n- Calculation of image-text similarity (provides a score, not very useful)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.630035693992538
+  },
+  {
+    "name": "MaterialSearch/static 模块",
+    "description": "[模块级] MaterialSearch 项目的 static 模块 (source)。来源: https://github.com/chn-lee-yumi/MaterialSearch",
+    "domain": "general",
+    "tags": [
+      "html",
+      "stars-1820",
+      "github-chn-lee-yumi",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 13\n\n包含文件:\n- static/assets\n- static/assets/axios.min.js\n- static/assets/clipboard.min.js\n- static/assets/index.css\n- static/assets/index.full.min.js\n- static/assets/index.iife.min.js\n- static/assets/vue-i18n.global.prod.js\n- static/assets/vue.global.prod.js\n- static/index.html\n- static/locales",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/assets\nstatic/assets/axios.min.js\nstatic/assets/clipboard.min.js\nstatic/assets/index.css\nstatic/assets/index.full.min.js\nstatic/assets/index.iife.min.js\nstatic/assets/vue-i18n.global.prod.js\nstatic/assets/vue.global.prod.js\nstatic/index.html\nstatic/locales\nstatic/locales/en.json\nstatic/locales/zh.json\nstatic/login.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.80402855519403
+  }
+]

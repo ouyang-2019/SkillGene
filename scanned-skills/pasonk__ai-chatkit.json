@@ -1,0 +1,163 @@
+[
+  {
+    "name": "ai-chatkit (pasonk)",
+    "description": "[项目级] A full-stack ai agent chat project, built with langgraph+fastapi+nextjs, supporting tool invocation and RAG knowledge base。来源: https://github.com/pasonk/ai-chatkit",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "fastapi",
+      "langchain",
+      "python",
+      "stars-75",
+      "github-pasonk",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A full-stack ai agent chat project, built with langgraph+fastapi+nextjs, supporting tool invocation and RAG knowledge base\n\n来源: https://github.com/pasonk/ai-chatkit\n语言: Python\nStars: 75",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_zh.md\nbackend\nbackend/.env.example\nbackend/.gitignore\nbackend/.python-version\nbackend/app\nbackend/pyproject.toml\nbackend/resource\nbackend/tests\nbackend/uv.lock\nfrontend\nfrontend/.env.local\nfrontend/app\nfrontend/next-env.d.ts\nfrontend/package.json\nfrontend/pnpm-lock.yaml\nfrontend/postcss.config.mjs\nfrontend/tailwind.config.ts\nfrontend/tsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. AI agent chat application built on the langGraph framework, supporting custom behavior logic orchestration for agents.\n2. Supports custom knowledge base Q&A capabilities for agents, using ChromaDB for knowledge base storage and querying.\n3. Supports custom tool invocation for agents.\n4. Python backend interface API, implemented based on FastAPI, Support full asynchronous calls.\n5. Supports custom frontend applications for agents, implemented using NextJS.\n6. Supports chat streaming output, with frontend support for SSE (Server-Sent Events) streaming.\n7. Supports multiple custom agents\n8. Su",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.93753063169585
+  },
+  {
+    "name": "ai-chatkit/backend 模块",
+    "description": "[模块级] ai-chatkit 项目的 backend 模块 (source)。来源: https://github.com/pasonk/ai-chatkit",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "fastapi",
+      "langchain",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "Backend .env file configuration\nRename .env.example to .env\n\n```properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.env.example\nbackend/.gitignore\nbackend/.python-version\nbackend/app\nbackend/app/__init__.py\nbackend/app/ai\nbackend/app/ai/agent\nbackend/app/ai/agent/agents.py\nbackend/app/ai/agent/multi_agent.py\nbackend/app/ai/agent/oa_assistant.py\nbackend/app/ai/llm.py\nbackend/app/ai/models.py\nbackend/app/ai/rag\nbackend/app/ai/rag/chromaClient.py\nbackend/app/ai/tools",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.25002450535668
+  },
+  {
+    "name": "ai-chatkit/frontend 模块",
+    "description": "[模块级] ai-chatkit 项目的 frontend 模块 (source)。来源: https://github.com/pasonk/ai-chatkit",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "fastapi",
+      "langchain",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "```sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.local\nfrontend/app\nfrontend/app/chat\nfrontend/app/chat/[threadId]\nfrontend/app/chat/[threadId]/page.tsx\nfrontend/app/chat/components\nfrontend/app/chat/components/ChatComponent.tsx\nfrontend/app/chat/components/MessageBubble.tsx\nfrontend/app/chat/components/MessageInput.tsx\nfrontend/app/chat/hooks\nfrontend/app/chat/hooks/useChatActions.ts\nfrontend/app/chat/hooks/useScrollToBottom.ts\nfrontend/app/chat/hooks/useStreamChat.ts\nfrontend/app/chat/page.tsx\nfrontend/app/chat/types",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.25002450535668
+  },
+  {
+    "name": "ai-chatkit/pictures 模块",
+    "description": "[模块级] ai-chatkit 项目的 pictures 模块 (source)。来源: https://github.com/pasonk/ai-chatkit",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "fastapi",
+      "langchain",
+      "module-level",
+      "source",
+      "pictures"
+    ],
+    "genes": [
+      {
+        "title": "pictures 模块说明",
+        "content": "模块路径: pictures/\n类型: source\n文件数: 2\n\n包含文件:\n- pictures/chat_img.png\n- pictures/chat_multi_agent_img.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pictures 文件结构",
+        "content": "pictures/chat_img.png\npictures/chat_multi_agent_img.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.25002450535668
+  },
+  {
+    "name": "ai-chatkit/resource 模块",
+    "description": "[模块级] ai-chatkit 项目的 resource 模块 (source)。来源: https://github.com/pasonk/ai-chatkit",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "fastapi",
+      "langchain",
+      "module-level",
+      "source",
+      "resource"
+    ],
+    "genes": [
+      {
+        "title": "resource 模块说明",
+        "content": "模块路径: resource/\n类型: source\n文件数: 2\n\n包含文件:\n- resource/chroma_db\n- resource/chroma_db/chroma.sqlite3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resource 文件结构",
+        "content": "resource/chroma_db\nresource/chroma_db/chroma.sqlite3",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.25002450535668
+  }
+]

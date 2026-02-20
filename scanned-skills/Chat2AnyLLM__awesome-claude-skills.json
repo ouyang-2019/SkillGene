@@ -1,0 +1,91 @@
+[
+  {
+    "name": "awesome-claude-skills (Chat2AnyLLM)",
+    "description": "[项目级] A curated list of awesome claude skills。来源: https://github.com/Chat2AnyLLM/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "skills",
+      "python",
+      "stars-87",
+      "github-chat2anyllm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome claude skills\n\n来源: https://github.com/Chat2AnyLLM/awesome-claude-skills\n语言: Python\nStars: 87",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nFULL-SKILLS.md\nREADME.md\nSETUP.md\nconfig.yaml\ndomains\ndomains/ai-and-llm.md\ndomains/backend-development.md\ndomains/business-and-productivity.md\ndomains/data-and-analytics.md\ndomains/devops-and-infrastructure.md\ndomains/documentation.md\ndomains/frontend-development.md\ndomains/machine-learning.md\ndomains/security.md\ndomains/testing-and-quality.md\ndomains/tools-and-utilities.md\ndomains/uncategorized.md\ndomains/version-control-and-collaboration.md\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.969759626309309
+  },
+  {
+    "name": "awesome-claude-skills/domains 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 domains 模块 (source)。来源: https://github.com/Chat2AnyLLM/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "skills",
+      "python",
+      "stars-87",
+      "module-level",
+      "source",
+      "domains"
+    ],
+    "genes": [
+      {
+        "title": "domains 模块说明",
+        "content": "模块路径: domains/\n类型: source\n文件数: 13\n\n包含文件:\n- domains/ai-and-llm.md\n- domains/backend-development.md\n- domains/business-and-productivity.md\n- domains/data-and-analytics.md\n- domains/devops-and-infrastructure.md\n- domains/documentation.md\n- domains/frontend-development.md\n- domains/machine-learning.md\n- domains/security.md\n- domains/testing-and-quality.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "domains 文件结构",
+        "content": "domains/ai-and-llm.md\ndomains/backend-development.md\ndomains/business-and-productivity.md\ndomains/data-and-analytics.md\ndomains/devops-and-infrastructure.md\ndomains/documentation.md\ndomains/frontend-development.md\ndomains/machine-learning.md\ndomains/security.md\ndomains/testing-and-quality.md\ndomains/tools-and-utilities.md\ndomains/uncategorized.md\ndomains/version-control-and-collaboration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2758077010474476
+  },
+  {
+    "name": "awesome-claude-skills/scripts 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 scripts 模块 (script)。来源: https://github.com/Chat2AnyLLM/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "skills",
+      "python",
+      "stars-87",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 17\n\n包含文件:\n- scripts/config.py\n- scripts/fetching\n- scripts/fetching/__init__.py\n- scripts/fetching/base.py\n- scripts/fetching/parallel.py\n- scripts/fetching/parsers.py\n- scripts/fetching/repository.py\n- scripts/generators\n- scripts/generators/readme_generator.py\n- scripts/models.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/config.py\nscripts/fetching\nscripts/fetching/__init__.py\nscripts/fetching/base.py\nscripts/fetching/parallel.py\nscripts/fetching/parsers.py\nscripts/fetching/repository.py\nscripts/generators\nscripts/generators/readme_generator.py\nscripts/models.py\nscripts/scripts\nscripts/scripts/requirements.txt\nscripts/skill_scraper.py\nscripts/utils\nscripts/utils/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2758077010474476
+  }
+]

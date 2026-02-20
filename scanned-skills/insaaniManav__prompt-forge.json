@@ -1,0 +1,94 @@
+[
+  {
+    "name": "prompt-forge (insaaniManav)",
+    "description": "[项目级] AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.。来源: https://github.com/insaaniManav/prompt-forge",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-773",
+      "github-insaanimanav",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI prompt engineering workbench for crafting, testing, and systematically evaluating prompts with powerful analysis tools.\n\n来源: https://github.com/insaaniManav/prompt-forge\n语言: Go\nStars: 773",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run -d -p 8080:8080 -e ANTHROPIC_API_KEY=\"your-key\" ghcr.io/insaanimanav/prompt-forge:main",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\napi\napi/go.mod\napi/go.sum\napi/internal\napi/main.go\napi/run_tests.sh\ndocker-compose.test.yml\ndocker-compose.yml\nenv.ollama.js\nfrontend\nfrontend/api-operations.js\nfrontend/app.js\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/prompt-generator.js\nfrontend/styles.css",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.444089746959163
+  },
+  {
+    "name": "prompt-forge/api 模块",
+    "description": "[模块级] prompt-forge 项目的 api 模块 (source)。来源: https://github.com/insaaniManav/prompt-forge",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-773",
+      "github-insaanimanav",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 24\n\n包含文件:\n- api/go.mod\n- api/go.sum\n- api/internal\n- api/internal/config\n- api/internal/config/config.go\n- api/internal/config/config_test.go\n- api/internal/database\n- api/internal/database/database.go\n- api/internal/database/database_test.go\n- api/internal/handlers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/go.mod\napi/go.sum\napi/internal\napi/internal/config\napi/internal/config/config.go\napi/internal/config/config_test.go\napi/internal/database\napi/internal/database/database.go\napi/internal/database/database_test.go\napi/internal/handlers\napi/internal/handlers/handlers.go\napi/internal/handlers/handlers_test.go\napi/internal/models\napi/internal/models/constants.go\napi/internal/models/models.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6552717975673303
+  },
+  {
+    "name": "prompt-forge/frontend 模块",
+    "description": "[模块级] prompt-forge 项目的 frontend 模块 (source)。来源: https://github.com/insaaniManav/prompt-forge",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-773",
+      "github-insaanimanav",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 8\n\n包含文件:\n- frontend/api-operations.js\n- frontend/app.js\n- frontend/index.html\n- frontend/package-lock.json\n- frontend/package.json\n- frontend/prompt-generator.js\n- frontend/styles.css\n- frontend/tokenizer.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/api-operations.js\nfrontend/app.js\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/prompt-generator.js\nfrontend/styles.css\nfrontend/tokenizer.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6552717975673303
+  }
+]

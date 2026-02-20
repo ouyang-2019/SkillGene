@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Continuous-Claude-v3 (parcadei)",
+    "description": "[项目级] Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.。来源: https://github.com/parcadei/Continuous-Claude-v3",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-hooks",
+      "claude-code-mcp",
+      "python",
+      "stars-3530",
+      "github-parcadei",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.\n\n来源: https://github.com/parcadei/Continuous-Claude-v3\n语言: Python\nStars: 3530",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "**You don't need to memorize slash commands.** Just describe what you want naturally.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Updated: 2026-01-08",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.773887352693912
+  }
+]

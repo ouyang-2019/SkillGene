@@ -1,0 +1,150 @@
+[
+  {
+    "name": "myclaude (cexll)",
+    "description": "[项目级] Multi-agent orchestration workflow (Claude Code  Codex Gemini OpenCode)。来源: https://github.com/cexll/myclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "go",
+      "stars-2269",
+      "github-cexll",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "| Module | Description | Documentation |\n|--------|-------------|---------------|\n| [do](skills/do/README.md) | **Recommended** - 5-phase feature development with codeagent orchestration | `/do` command |\n| [omo](skills/omo/README.md) | Multi-agent orchestration with intelligent routing | `/omo` command |\n| [bmad](agents/bmad/README.md) | BMAD agile workflow with 6 specialized agents | `/bmad-pilot` command |\n| [requirements](agents/requirements/README.md) | Lightweight requirements-to-code pipeline | `/requirements-pilot` command |\n| [essentials](agents/development-essentials/README.md) | 11 core dev commands: ask, bugfix, code, debug, docs, enhance-prompt, optimize, refactor, review, test, think | `/code`, `/debug`, etc. |\n| [sparv](skills/sparv/README.md) | SPARV workflow (Specify→Plan→",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx github:cexll/myclaude",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMakefile\nPLUGIN_README.md\nREADME.md\nREADME_CN.md\nagents\nagents/bmad\nagents/development-essentials\nagents/requirements\nbin\nbin/cli.js\ncliff.toml\ncodeagent-wrapper\ncodeagent-wrapper/.github\ncodeagent-wrapper/.gitignore\ncodeagent-wrapper/Makefile\ncodeagent-wrapper/README.md\ncodeagent-wrapper/README_CN.md\ncodeagent-wrapper/USER_GUIDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.677917247942468
+  },
+  {
+    "name": "myclaude/agents 模块",
+    "description": "[模块级] myclaude 项目的 agents 模块 (source)。来源: https://github.com/cexll/myclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "go",
+      "stars-2269",
+      "github-cexll",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 50\n\n包含文件:\n- agents/bmad\n- agents/bmad/.claude-plugin\n- agents/bmad/.claude-plugin/plugin.json\n- agents/bmad/BMAD-WORKFLOW.md\n- agents/bmad/README.md\n- agents/bmad/agents\n- agents/bmad/agents/bmad-architect.md\n- agents/bmad/agents/bmad-dev.md\n- agents/bmad/agents/bmad-orchestrator.md\n- agents/bmad/agents/bmad-po.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/bmad\nagents/bmad/.claude-plugin\nagents/bmad/.claude-plugin/plugin.json\nagents/bmad/BMAD-WORKFLOW.md\nagents/bmad/README.md\nagents/bmad/agents\nagents/bmad/agents/bmad-architect.md\nagents/bmad/agents/bmad-dev.md\nagents/bmad/agents/bmad-orchestrator.md\nagents/bmad/agents/bmad-po.md\nagents/bmad/agents/bmad-qa.md\nagents/bmad/agents/bmad-review.md\nagents/bmad/agents/bmad-sm.md\nagents/bmad/commands\nagents/bmad/commands/bmad-pilot.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8423337983539745
+  },
+  {
+    "name": "myclaude/codeagent-wrapper 模块",
+    "description": "[模块级] myclaude 项目的 codeagent-wrapper 模块 (source)。来源: https://github.com/cexll/myclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "go",
+      "stars-2269",
+      "github-cexll",
+      "module-level",
+      "source",
+      "codeagent-wrapper"
+    ],
+    "genes": [
+      {
+        "title": "codeagent-wrapper 模块说明",
+        "content": "npx github:cexll/myclaude\n```\n\n**Module not loading:**\n```bash\ncat ~/.claude/installed_modules.json\nnpx github:cexll/myclaude --force\n```\n\n**Backend CLI errors:**\n```bash\nwhich codex && codex --version\nwhich claude && claude --version\nwhich gemini && gemini --version\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "codeagent-wrapper 文件结构",
+        "content": "codeagent-wrapper/.github\ncodeagent-wrapper/.github/workflows\ncodeagent-wrapper/.github/workflows/ci.yml\ncodeagent-wrapper/.gitignore\ncodeagent-wrapper/Makefile\ncodeagent-wrapper/README.md\ncodeagent-wrapper/README_CN.md\ncodeagent-wrapper/USER_GUIDE.md\ncodeagent-wrapper/cmd\ncodeagent-wrapper/cmd/codeagent-wrapper\ncodeagent-wrapper/cmd/codeagent-wrapper/main.go\ncodeagent-wrapper/go.mod\ncodeagent-wrapper/go.sum\ncodeagent-wrapper/internal\ncodeagent-wrapper/internal/app",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "codeagent-wrapper 代码示例",
+        "content": "**Module not loading:**",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8423337983539745
+  },
+  {
+    "name": "myclaude/hooks 模块",
+    "description": "[模块级] myclaude 项目的 hooks 模块 (source)。来源: https://github.com/cexll/myclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "go",
+      "stars-2269",
+      "github-cexll",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 4\n\n包含文件:\n- hooks/hooks.json\n- hooks/inject-spec.py\n- hooks/log-prompt.py\n- hooks/pre-bash.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/hooks.json\nhooks/inject-spec.py\nhooks/log-prompt.py\nhooks/pre-bash.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8423337983539745
+  },
+  {
+    "name": "myclaude/skills 模块",
+    "description": "[模块级] myclaude 项目的 skills 模块 (source)。来源: https://github.com/cexll/myclaude",
+    "domain": "ai-llm",
+    "tags": [
+      "go",
+      "stars-2269",
+      "github-cexll",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Individual skills can be installed separately via `npx github:cexll/myclaude --list` (skills bundled in modules like do, omo, sparv are listed above):\n\n| Skill | Description |\n|-------|-------------|\n| browser | Browser automation for web testing and data extraction |\n| codeagent | codeagent-wrapper invocation for multi-backend AI code tasks |\n| codex | Direct Codex backend execution |\n| dev | Lightweight end-to-end development workflow |\n| gemini | Direct Gemini backend execution |\n| product-re",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/README.md\nskills/browser\nskills/browser/SKILL.md\nskills/browser/browser.zip\nskills/browser/package-lock.json\nskills/browser/package.json\nskills/browser/scripts\nskills/browser/scripts/eval.cjs\nskills/browser/scripts/nav.cjs\nskills/browser/scripts/pick.cjs\nskills/browser/scripts/screenshot.cjs\nskills/browser/scripts/start.cjs\nskills/codeagent\nskills/codeagent/SKILL.md\nskills/codex",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8423337983539745
+  }
+]

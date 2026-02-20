@@ -1,0 +1,78 @@
+[
+  {
+    "name": "AgentVerse (OpenBMB)",
+    "description": "[项目级] 🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation。来源: https://github.com/OpenBMB/AgentVerse",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "gpt",
+      "gpt-4",
+      "llm",
+      "javascript",
+      "stars-4939",
+      "github-openbmb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation\n\n来源: https://github.com/OpenBMB/AgentVerse\n语言: JavaScript\nStars: 4939",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMANIFEST.in\nPULL_REQUEST_TEMPLATE.md\nREADME.md\nREADME_simulation_cases.md\nREADME_tasksolving_cases.md\nREADME_zh.md\nagentverse\nagentverse/__init__.py\nagentverse/agents\nagentverse/agentverse.py\nagentverse/demo.py\nagentverse/environments\nagentverse/gui.py\nagentverse/initialization.py\nagentverse/llms\nagentverse/logging.py\nagentverse/memory\nagentverse/memory_manipulator",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "agentverse-simulation --task simulation/nlp_classroom_9players",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.846819513080774
+  },
+  {
+    "name": "AgentVerse/agentverse 模块",
+    "description": "[模块级] AgentVerse 项目的 agentverse 模块 (source)。来源: https://github.com/OpenBMB/AgentVerse",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "gpt",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "source",
+      "agentverse"
+    ],
+    "genes": [
+      {
+        "title": "agentverse 模块说明",
+        "content": "agentverse-benchmark --task tasksolving/humaneval/gpt-3.5 --dataset_path data/humaneval/test.jsonl --overwrite\n```\n\nTo run AgentVerse on a specific problem, you can try\n```shell",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentverse 文件结构",
+        "content": "agentverse/__init__.py\nagentverse/agents\nagentverse/agents/__init__.py\nagentverse/agents/base.py\nagentverse/agents/simulation_agent\nagentverse/agents/simulation_agent/__init__.py\nagentverse/agents/simulation_agent/conversation.py\nagentverse/agents/simulation_agent/prisoner_dilemma.py\nagentverse/agents/simulation_agent/reflection.py\nagentverse/agents/simulation_agent/tool.py\nagentverse/agents/tasksolving_agent\nagentverse/agents/tasksolving_agent/__init__.py\nagentverse/agents/tasksolving_agent/critic.py\nagentverse/agents/tasksolving_agent/evaluator.py\nagentverse/agents/tasksolving_agent/executor.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agentverse 代码示例",
+        "content": "To run AgentVerse on a specific problem, you can try",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9774556104646193
+  }
+]

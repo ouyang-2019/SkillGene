@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-android-agent-skills (new-silvermoon)",
+    "description": "[项目级] A collection of standardized Agent Skills to teach GitHub Copilot, Claude, Gemini and Cursor about modern Android development (Kotlin, Jetpack Compose, etc.).。来源: https://github.com/new-silvermoon/awesome-android-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-333",
+      "github-new-silvermoon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of standardized Agent Skills to teach GitHub Copilot, Claude, Gemini and Cursor about modern Android development (Kotlin, Jetpack Compose, etc.).\n\n来源: https://github.com/new-silvermoon/awesome-android-agent-skills\n语言: unknown\nStars: 333",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To equip your AI agent with these skills, you must place them in a location where the agent can discover them.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.26122211675316
+  }
+]

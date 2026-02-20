@@ -1,0 +1,223 @@
+[
+  {
+    "name": "KrillinAI (krillinai)",
+    "description": "[项目级] Video translation and dubbing tool powered by LLMs. The video translator offers 100 language translations and one-click full-process deployment. The video translation output is optimized for platforms like YouTube，TikTok.   AI视频翻译配音工具，100种语言双向翻译，一键部署全流程，可以生抖音，小红书，哔哩哔哩，视频号，TikTok，Youtube等形态的内容成适配。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "ai-llm",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "go",
+      "stars-9399",
+      "github-krillinai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[**Quick Start**](#-quick-start)\n\nKrillinAI is a versatile audio and video localization and enhancement solution developed by Krillin AI. This minimalist yet powerful tool integrates video translation, dubbing, and voice cloning, supporting both landscape and portrait formats to ensure perfect presentation on all major platforms (Bilibili, Xiaohongshu, Douyin, WeChat Video, Kuaishou, YouTube, TikTok, etc.). With an end-to-end workflow, you can transform raw materials into beautifully ready-to-use cross-platform content with just a few clicks.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can ask questions on the [Deepwiki of KrillinAI](https://deepwiki.com/krillinai/KrillinAI). It indexes the files in the repository, so you can find answers quickly.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\naliyun.md\ncmd\ncmd/desktop\ncmd/server\nconfig\nconfig/config-example.toml\nconfig/config.go\ndocker.md\ndocs\ndocs/ar\ndocs/de\ndocs/es\ndocs/fr\ndocs/images\ndocs/jp\ndocs/kr\ndocs/pt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "🎯 **One-click Start**: No complex environment configuration required, automatic dependency installation, ready to use immediately, with a new desktop version for easier access!\n\n📥 **Video Acquisition**: Supports yt-dlp downloads or local file uploads\n\n📜 **Accurate Recognition**: High-accuracy speech recognition based on Whisper\n\n🧠 **Intelligent Segmentation**: Subtitle segmentation and alignment using LLM\n\n🔄 **Terminology Replacement**: One-click replacement of professional vocabulary\n\n🌍 **Professional Translation**: LLM translation with context to maintain natural semantics\n\n🎙️ **Voice",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.9865408248006835
+  },
+  {
+    "name": "KrillinAI/cmd 模块",
+    "description": "[模块级] KrillinAI 项目的 cmd 模块 (source)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "ai-llm",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 4\n\n包含文件:\n- cmd/desktop\n- cmd/desktop/main.go\n- cmd/server\n- cmd/server/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/desktop\ncmd/desktop/main.go\ncmd/server\ncmd/server/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  },
+  {
+    "name": "KrillinAI/config 模块",
+    "description": "[模块级] KrillinAI 项目的 config 模块 (config)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "devops",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "The configuration file is divided into several sections: `[app]`, `[server]`, `[llm]`, `[transcribe]`, and `[tts]`. A task is composed of speech recognition (`transcribe`) + large model translation (`llm`) + optional voice services (`tts`). Understanding this will help you better grasp the configuration file.\n\n**Easiest and Quickest Configuration:**\n\n**For Subtitle Translation Only:**\n   * In the `[transcribe]` section, set `provider.name` to `openai`.\n   * You will then only need to fill in you",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config-example.toml\nconfig/config.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  },
+  {
+    "name": "KrillinAI/docs 模块",
+    "description": "[模块级] KrillinAI 项目的 docs 模块 (docs)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "documentation",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 68\n\n包含文件:\n- docs/ar\n- docs/ar/README.md\n- docs/ar/aliyun.md\n- docs/ar/docker.md\n- docs/ar/faq.md\n- docs/de\n- docs/de/README.md\n- docs/de/aliyun.md\n- docs/de/docker.md\n- docs/de/faq.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ar\ndocs/ar/README.md\ndocs/ar/aliyun.md\ndocs/ar/docker.md\ndocs/ar/faq.md\ndocs/de\ndocs/de/README.md\ndocs/de/aliyun.md\ndocs/de/docker.md\ndocs/de/faq.md\ndocs/es\ndocs/es/README.md\ndocs/es/aliyun.md\ndocs/es/docker.md\ndocs/es/faq.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  },
+  {
+    "name": "KrillinAI/internal 模块",
+    "description": "[模块级] KrillinAI 项目的 internal 模块 (source)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "ai-llm",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 49\n\n包含文件:\n- internal/api\n- internal/api/subtitle.go\n- internal/deps\n- internal/deps/checker.go\n- internal/desktop\n- internal/desktop/components.go\n- internal/desktop/desktop.go\n- internal/desktop/file.go\n- internal/desktop/subtitle.go\n- internal/desktop/theme.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/api\ninternal/api/subtitle.go\ninternal/deps\ninternal/deps/checker.go\ninternal/desktop\ninternal/desktop/components.go\ninternal/desktop/desktop.go\ninternal/desktop/file.go\ninternal/desktop/subtitle.go\ninternal/desktop/theme.go\ninternal/desktop/theme_manager.go\ninternal/desktop/ui.go\ninternal/dto\ninternal/dto/subtitle_task.go\ninternal/handler",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  },
+  {
+    "name": "KrillinAI/pkg 模块",
+    "description": "[模块级] KrillinAI 项目的 pkg 模块 (source)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "ai-llm",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "source",
+      "pkg"
+    ],
+    "genes": [
+      {
+        "title": "pkg 模块说明",
+        "content": "模块路径: pkg/\n类型: source\n文件数: 36\n\n包含文件:\n- pkg/aliyun\n- pkg/aliyun/asr.go\n- pkg/aliyun/base.go\n- pkg/aliyun/chat.go\n- pkg/aliyun/oss.go\n- pkg/aliyun/tts.go\n- pkg/aliyun/voice_clone.go\n- pkg/fasterwhisper\n- pkg/fasterwhisper/init.go\n- pkg/fasterwhisper/transcription.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pkg 文件结构",
+        "content": "pkg/aliyun\npkg/aliyun/asr.go\npkg/aliyun/base.go\npkg/aliyun/chat.go\npkg/aliyun/oss.go\npkg/aliyun/tts.go\npkg/aliyun/voice_clone.go\npkg/fasterwhisper\npkg/fasterwhisper/init.go\npkg/fasterwhisper/transcription.go\npkg/localtts\npkg/localtts/edgetts.go\npkg/openai\npkg/openai/init.go\npkg/openai/openai.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  },
+  {
+    "name": "KrillinAI/static 模块",
+    "description": "[模块级] KrillinAI 项目的 static 模块 (source)。来源: https://github.com/krillinai/KrillinAI",
+    "domain": "ai-llm",
+    "tags": [
+      "dubbing",
+      "localization",
+      "tts",
+      "video-transcription",
+      "video-translation",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 13\n\n包含文件:\n- static/background.jpg\n- static/embed.go\n- static/index.html\n- static/source\n- static/source/deepseek-color.png\n- static/source/deepseek-color.svg\n- static/source/deepseek-text.svg\n- static/source/openai-text.svg\n- static/source/openai.png\n- static/source/openai.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/background.jpg\nstatic/embed.go\nstatic/index.html\nstatic/source\nstatic/source/deepseek-color.png\nstatic/source/deepseek-color.svg\nstatic/source/deepseek-text.svg\nstatic/source/openai-text.svg\nstatic/source/openai.png\nstatic/source/openai.svg\nstatic/source/qwen-color.png\nstatic/source/qwen-color.svg\nstatic/source/qwen-text.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0892326598405475
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "SwanLab (SwanHubX)",
+    "description": "[项目级] ⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.。来源: https://github.com/SwanHubX/SwanLab",
+    "domain": "devops",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "python",
+      "stars-3601",
+      "github-swanhubx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras etc.\n\n来源: https://github.com/SwanHubX/SwanLab\n语言: Python\nStars: 3601",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_EN.md\nREADME_JP.md\nREADME_RU.md\nSECURITY.md\ncore\ncore/.golangci.yml\ncore/.idea\ncore/LICENSE\ncore/README.md\ncore/cmd\ncore/go.mod\ncore/go.sum\ncore/internal\ncore/pkg\npyproject.toml\nreadme_files",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.778211560685643
+  },
+  {
+    "name": "SwanLab/core 模块",
+    "description": "[模块级] SwanLab 项目的 core 模块 (source)。来源: https://github.com/SwanHubX/SwanLab",
+    "domain": "devops",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 35\n\n包含文件:\n- core/.golangci.yml\n- core/.idea\n- core/.idea/.gitignore\n- core/.idea/copilot.data.migration.agent.xml\n- core/.idea/copilot.data.migration.ask.xml\n- core/.idea/copilot.data.migration.ask2agent.xml\n- core/.idea/copilot.data.migration.edit.xml\n- core/.idea/core.iml\n- core/.idea/dictionaries\n- core/.idea/dictionaries/project.xml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/.golangci.yml\ncore/.idea\ncore/.idea/.gitignore\ncore/.idea/copilot.data.migration.agent.xml\ncore/.idea/copilot.data.migration.ask.xml\ncore/.idea/copilot.data.migration.ask2agent.xml\ncore/.idea/copilot.data.migration.edit.xml\ncore/.idea/core.iml\ncore/.idea/dictionaries\ncore/.idea/dictionaries/project.xml\ncore/.idea/golinter.xml\ncore/.idea/inspectionProfiles\ncore/.idea/inspectionProfiles/Project_Default.xml\ncore/.idea/modules.xml\ncore/.idea/vcs.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9225692485485144
+  },
+  {
+    "name": "SwanLab/readme_files 模块",
+    "description": "[模块级] SwanLab 项目的 readme_files 模块 (source)。来源: https://github.com/SwanHubX/SwanLab",
+    "domain": "devops",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "module-level",
+      "source",
+      "readme_files"
+    ],
+    "genes": [
+      {
+        "title": "readme_files 模块说明",
+        "content": "模块路径: readme_files/\n类型: source\n文件数: 28\n\n包含文件:\n- readme_files/.gitkeep\n- readme_files/contribution_images\n- readme_files/contribution_images/debug.png\n- readme_files/contribution_images/vscode_recommend.png\n- readme_files/echarts.png\n- readme_files/example-audio-classification.png\n- readme_files/example-catsdogs.png\n- readme_files/example-easyr1-rl.png\n- readme_files/example-lstm.png\n- readme_files/example-qwen2-grpo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "readme_files 文件结构",
+        "content": "readme_files/.gitkeep\nreadme_files/contribution_images\nreadme_files/contribution_images/debug.png\nreadme_files/contribution_images/vscode_recommend.png\nreadme_files/echarts.png\nreadme_files/example-audio-classification.png\nreadme_files/example-catsdogs.png\nreadme_files/example-easyr1-rl.png\nreadme_files/example-lstm.png\nreadme_files/example-qwen2-grpo.png\nreadme_files/example-qwen2-vl.jpg\nreadme_files/example-qwen2.png\nreadme_files/example-yolo.png\nreadme_files/gdc2025.png\nreadme_files/integrations.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9225692485485144
+  },
+  {
+    "name": "SwanLab/script 模块",
+    "description": "[模块级] SwanLab 项目的 script 模块 (source)。来源: https://github.com/SwanHubX/SwanLab",
+    "domain": "devops",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "module-level",
+      "source",
+      "script"
+    ],
+    "genes": [
+      {
+        "title": "script 模块说明",
+        "content": "模块路径: script/\n类型: source\n文件数: 5\n\n包含文件:\n- script/README.md\n- script/build_proto.py\n- script/build_pypi.py\n- script/explort_csv_from_local.py\n- script/transfer_logfile_0.1.4.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "script 文件结构",
+        "content": "script/README.md\nscript/build_proto.py\nscript/build_pypi.py\nscript/explort_csv_from_local.py\nscript/transfer_logfile_0.1.4.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9225692485485144
+  },
+  {
+    "name": "SwanLab/swanlab 模块",
+    "description": "[模块级] SwanLab 项目的 swanlab 模块 (source)。来源: https://github.com/SwanHubX/SwanLab",
+    "domain": "devops",
+    "tags": [
+      "data-science",
+      "deep-learning",
+      "llm",
+      "logging",
+      "machine-learning",
+      "module-level",
+      "source",
+      "swanlab"
+    ],
+    "genes": [
+      {
+        "title": "swanlab 模块说明",
+        "content": "SwanLab 是一款**AI训练分析与指标观测平台**，面向模型训练团队，提供训练可视化、自动日志记录、超参数记录、实验对比、多人协同等功能，帮助团队快速发现训练问题，加速模型迭代。\n\n在SwanLab上，研究者能基于直观的可视化图表发现训练问题，对比多个实验找到研究灵感，并通过**在线网页**的分享与基于组织的**多人协同训练**，打破团队沟通的壁垒，提高组织训练效率。\n\nhttps://github.com/user-attachments/assets/7965fec4-c8b0-4956-803d-dbf177b44f54\n\n以下是其核心特性列表：\n\n**1. 📊 实验指标与超参数跟踪**: 极简的代码嵌入您的机器学习 pipeline，跟踪记录训练关键指标\n\n- ☁️ 支持**云端**使用（类似Weights & Biases），随时随地查看训练进展。[手机看实验的方法](https://docs.swanlab.cn/guide_cloud/general/app.html)\n\n- 📝 支持**超参数记录**、**指标总结**、**表格分析**\n\n- 🌸 **可视化",
+        "gene_type": "principle"
+      },
+      {
+        "title": "swanlab 文件结构",
+        "content": "swanlab/__init__.py\nswanlab/__main__.py\nswanlab/api\nswanlab/api/__init__.py\nswanlab/api/deprecated\nswanlab/api/deprecated/__init__.py\nswanlab/api/deprecated/base.py\nswanlab/api/deprecated/experiment.py\nswanlab/api/deprecated/group.py\nswanlab/api/deprecated/main.py\nswanlab/api/deprecated/project.py\nswanlab/api/deprecated/types.py\nswanlab/api/experiment\nswanlab/api/experiment/__init__.py\nswanlab/api/experiments",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9225692485485144
+  }
+]

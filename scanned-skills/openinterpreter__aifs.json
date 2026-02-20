@@ -1,0 +1,84 @@
+[
+  {
+    "name": "aifs (openinterpreter)",
+    "description": "[项目级] Local semantic search. Stupidly simple.。来源: https://github.com/openinterpreter/aifs",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-450",
+      "github-openinterpreter",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Local semantic search. Stupidly simple.\n\n来源: https://github.com/openinterpreter/aifs\n语言: Python\nStars: 450",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nROADMAP.md\naifs\naifs/__init__.py\naifs/search.py\naifs/test.py\naifs/testfuncs\npoetry.lock\npyproject.toml\ntests\ntests/__init__.py\ntests/test_aifs.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.326606256887672
+  },
+  {
+    "name": "aifs/aifs 模块",
+    "description": "[模块级] aifs 项目的 aifs 模块 (source)。来源: https://github.com/openinterpreter/aifs",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-450",
+      "github-openinterpreter",
+      "module-level",
+      "source",
+      "aifs"
+    ],
+    "genes": [
+      {
+        "title": "aifs 模块说明",
+        "content": "模块路径: aifs/\n类型: source\n文件数: 16\n\n包含文件:\n- aifs/__init__.py\n- aifs/search.py\n- aifs/test.py\n- aifs/testfuncs\n- aifs/testfuncs/_.aifs\n- aifs/testfuncs/bookTicket.py\n- aifs/testfuncs/browseWeb.py\n- aifs/testfuncs/cookDish.py\n- aifs/testfuncs/doLaundry.py\n- aifs/testfuncs/drinkAlcohol.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "aifs 文件结构",
+        "content": "aifs/__init__.py\naifs/search.py\naifs/test.py\naifs/testfuncs\naifs/testfuncs/_.aifs\naifs/testfuncs/bookTicket.py\naifs/testfuncs/browseWeb.py\naifs/testfuncs/cookDish.py\naifs/testfuncs/doLaundry.py\naifs/testfuncs/drinkAlcohol.py\naifs/testfuncs/executiveAssistant.py\naifs/testfuncs/liftWeights.py\naifs/testfuncs/lowerBrightness.py\naifs/testfuncs/playTennis.py\naifs/testfuncs/sendEmail.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5612850055101375
+  },
+  {
+    "name": "aifs/tests 模块",
+    "description": "[模块级] aifs 项目的 tests 模块 (test)。来源: https://github.com/openinterpreter/aifs",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-450",
+      "github-openinterpreter",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/__init__.py\n- tests/test_aifs.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_aifs.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5612850055101375
+  }
+]

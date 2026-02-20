@@ -1,0 +1,133 @@
+[
+  {
+    "name": "aichat (sigoden)",
+    "description": "[项目级] All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.。来源: https://github.com/sigoden/aichat",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "claude",
+      "cli",
+      "rust",
+      "stars-9334",
+      "github-sigoden",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.\n\n来源: https://github.com/sigoden/aichat\n语言: Rust\nStars: 9334",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Argcfile.sh\nCargo.lock\nCargo.toml\nLICENSE-APACHE\nLICENSE-MIT\nREADME.md\nassets\nassets/arena.html\nassets/monokai-extended-light.theme.bin\nassets/monokai-extended.theme.bin\nassets/playground.html\nassets/roles\nassets/syntaxes.bin\nconfig.agent.example.yaml\nconfig.example.yaml\nmodels.yaml\nscripts\nscripts/completions\nscripts/shell-integration\nsrc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.985033898274569
+  },
+  {
+    "name": "aichat/assets 模块",
+    "description": "[模块级] aichat 项目的 assets 模块 (source)。来源: https://github.com/sigoden/aichat",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "claude",
+      "cli",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/arena.html\n- assets/monokai-extended-light.theme.bin\n- assets/monokai-extended.theme.bin\n- assets/playground.html\n- assets/roles\n- assets/roles/%code%.md\n- assets/roles/%create-prompt%.md\n- assets/roles/%create-title%.md\n- assets/roles/%explain-shell%.md\n- assets/roles/%functions%.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/arena.html\nassets/monokai-extended-light.theme.bin\nassets/monokai-extended.theme.bin\nassets/playground.html\nassets/roles\nassets/roles/%code%.md\nassets/roles/%create-prompt%.md\nassets/roles/%create-title%.md\nassets/roles/%explain-shell%.md\nassets/roles/%functions%.md\nassets/roles/%shell%.md\nassets/syntaxes.bin",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088027118619655
+  },
+  {
+    "name": "aichat/scripts 模块",
+    "description": "[模块级] aichat 项目的 scripts 模块 (script)。来源: https://github.com/sigoden/aichat",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "claude",
+      "cli",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 12\n\n包含文件:\n- scripts/completions\n- scripts/completions/aichat.bash\n- scripts/completions/aichat.fish\n- scripts/completions/aichat.nu\n- scripts/completions/aichat.ps1\n- scripts/completions/aichat.zsh\n- scripts/shell-integration\n- scripts/shell-integration/integration.bash\n- scripts/shell-integration/integration.fish\n- scripts/shell-integration/integration.nu",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/completions\nscripts/completions/aichat.bash\nscripts/completions/aichat.fish\nscripts/completions/aichat.nu\nscripts/completions/aichat.ps1\nscripts/completions/aichat.zsh\nscripts/shell-integration\nscripts/shell-integration/integration.bash\nscripts/shell-integration/integration.fish\nscripts/shell-integration/integration.nu\nscripts/shell-integration/integration.ps1\nscripts/shell-integration/integration.zsh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088027118619655
+  },
+  {
+    "name": "aichat/src 模块",
+    "description": "[模块级] aichat 项目的 src 模块 (source)。来源: https://github.com/sigoden/aichat",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "claude",
+      "cli",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 55\n\n包含文件:\n- src/cli.rs\n- src/client\n- src/client/access_token.rs\n- src/client/azure_openai.rs\n- src/client/bedrock.rs\n- src/client/claude.rs\n- src/client/cohere.rs\n- src/client/common.rs\n- src/client/gemini.rs\n- src/client/macros.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cli.rs\nsrc/client\nsrc/client/access_token.rs\nsrc/client/azure_openai.rs\nsrc/client/bedrock.rs\nsrc/client/claude.rs\nsrc/client/cohere.rs\nsrc/client/common.rs\nsrc/client/gemini.rs\nsrc/client/macros.rs\nsrc/client/message.rs\nsrc/client/mod.rs\nsrc/client/model.rs\nsrc/client/openai.rs\nsrc/client/openai_compatible.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088027118619655
+  }
+]

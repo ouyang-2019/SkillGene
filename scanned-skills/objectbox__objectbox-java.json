@@ -1,0 +1,197 @@
+[
+  {
+    "name": "objectbox-java (objectbox)",
+    "description": "[项目级] Database for Android and JVM - first and fast, lightweight on-device vector database。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "stars-4594",
+      "github-objectbox",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Database for Android and JVM - first and fast, lightweight on-device vector database\n\n来源: https://github.com/objectbox/objectbox-java\n语言: Java\nStars: 4594",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> [!NOTE]\n> Prefer to look at example code? Check out [our examples repository](https://github.com/objectbox/objectbox-examples).\n\nYou can add the ObjectBox Java SDK using a:\n\n- [Gradle setup](#gradle-setup)\n- [Maven setup](#maven-setup)\n\nObjectBox tools and dependencies are available on [the Maven Central repository](https://central.sonatype.com/namespace/io.objectbox).\n\nThe database libraries available for the ObjectBox Java SDK support:\n\n- JVM 8 or newer\n  - Linux (x64, arm64, armv7)\n  - macOS (x64, arm64)\n  - Windows (x64)\n- Android 5.0 (API level 21) or newer\n\nThe ObjectBox Java SDK suppo",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nJenkinsfile\nLICENSE.txt\nREADME.md\nbuild.gradle.kts\nbuildSrc\nbuildSrc/build.gradle.kts\nbuildSrc/settings.gradle.kts\nbuildSrc/src\nci\nci/Jenkinsfile-Windows\nci/send-to-gchat.sh\ngradle.properties\ngradle\ngradle/wrapper\ngradlew\ngradlew.bat\nlogo.png\nobjectbox-java-api",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "// Annotate a class to create a Box\n@Entity\npublic class Person {\n  private @Id long id;\n  private String firstName;\n  private String lastName;\n\n  // Constructor, getters and setters left out for simplicity\n}\n \nBoxStore store = MyObjectBox.builder()\n        .name(\"person-db\")\n        .build();\n \nBox<Person> box = store.boxFor(Person.class);\n \nPerson person = new Person(\"Joe\", \"Green\");\nlong id = box.put(person);    // Create\nperson = box.get(id);         // Read\nperson.setLastName(\"Black\");\nbox.put(person);              // Update\nbox.remove(person);           // Delete",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "🧠 **First on-device vector database:** easily manage vector data and perform fast vector search\n🏁 **High performance:** exceptional speed, outperforming alternatives like SQLite and Realm in all CRUD operations.\\\n💚 **Efficient Resource Usage:** minimal CPU, power and memory consumption for maximum flexibility and sustainability.\\\n🔗 **[Built-in Object Relations](https://docs.objectbox.io/relations):** built-in support for object relations, allowing you to easily establish and manage relationships between objects.\\\n👌 **Ease of use:** concise API that eliminates the need for complex SQL quer",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.831095495429503
+  },
+  {
+    "name": "objectbox-java/buildSrc 模块",
+    "description": "[模块级] objectbox-java 项目的 buildSrc 模块 (source)。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "module-level",
+      "source",
+      "buildsrc"
+    ],
+    "genes": [
+      {
+        "title": "buildSrc 模块说明",
+        "content": "模块路径: buildSrc/\n类型: source\n文件数: 6\n\n包含文件:\n- buildSrc/build.gradle.kts\n- buildSrc/settings.gradle.kts\n- buildSrc/src\n- buildSrc/src/main\n- buildSrc/src/main/kotlin\n- buildSrc/src/main/kotlin/objectbox-publish.gradle.kts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "buildSrc 文件结构",
+        "content": "buildSrc/build.gradle.kts\nbuildSrc/settings.gradle.kts\nbuildSrc/src\nbuildSrc/src/main\nbuildSrc/src/main/kotlin\nbuildSrc/src/main/kotlin/objectbox-publish.gradle.kts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9648763963436027
+  },
+  {
+    "name": "objectbox-java/ci 模块",
+    "description": "[模块级] objectbox-java 项目的 ci 模块 (source)。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "ObjectBox Java is a lightweight yet powerful on-device database & vector database designed specifically for **Java and Kotlin** applications.\nStore and manage data effortlessly in your Android or JVM Linux, macOS or Windows app with ObjectBox.\nEasily manage vector data alongside your objects and perform superfast on-device vector search to empower your apps with RAG AI, generative AI, and similarity search.\nEnjoy exceptional speed, battery-friendly resource usage, and environmentally-friendly de",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/Jenkinsfile-Windows\nci/send-to-gchat.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9648763963436027
+  },
+  {
+    "name": "objectbox-java/gradle 模块",
+    "description": "[模块级] objectbox-java 项目的 gradle 模块 (source)。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "For Gradle projects, add the required plugins to your root Gradle script.\n\nWhen using a [TOML version catalog](https://docs.gradle.org/current/userguide/version_catalogs.html) and plugins syntax \n(for alternatives see below):\n          \n```toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9648763963436027
+  },
+  {
+    "name": "objectbox-java/objectbox-java-api 模块",
+    "description": "[模块级] objectbox-java 项目的 objectbox-java-api 模块 (source)。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "module-level",
+      "source",
+      "objectbox-java-api"
+    ],
+    "genes": [
+      {
+        "title": "objectbox-java-api 模块说明",
+        "content": "模块路径: objectbox-java-api/\n类型: source\n文件数: 45\n\n包含文件:\n- objectbox-java-api/LICENSE\n- objectbox-java-api/NOTICE\n- objectbox-java-api/build.gradle.kts\n- objectbox-java-api/src\n- objectbox-java-api/src/main\n- objectbox-java-api/src/main/java\n- objectbox-java-api/src/main/java/io\n- objectbox-java-api/src/main/java/io/objectbox\n- objectbox-java-api/src/main/java/io/objectbox/annotation\n- objectbox-java-api/src/main/java/io/objectbox/annotation/Backlink.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "objectbox-java-api 文件结构",
+        "content": "objectbox-java-api/LICENSE\nobjectbox-java-api/NOTICE\nobjectbox-java-api/build.gradle.kts\nobjectbox-java-api/src\nobjectbox-java-api/src/main\nobjectbox-java-api/src/main/java\nobjectbox-java-api/src/main/java/io\nobjectbox-java-api/src/main/java/io/objectbox\nobjectbox-java-api/src/main/java/io/objectbox/annotation\nobjectbox-java-api/src/main/java/io/objectbox/annotation/Backlink.java\nobjectbox-java-api/src/main/java/io/objectbox/annotation/BaseEntity.java\nobjectbox-java-api/src/main/java/io/objectbox/annotation/ConflictStrategy.java\nobjectbox-java-api/src/main/java/io/objectbox/annotation/Convert.java\nobjectbox-java-api/src/main/java/io/objectbox/annotation/DatabaseType.java\nobjectbox-java-api/src/main/java/io/objectbox/annotation/DefaultValue.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9648763963436027
+  },
+  {
+    "name": "objectbox-java/objectbox-java 模块",
+    "description": "[模块级] objectbox-java 项目的 objectbox-java 模块 (source)。来源: https://github.com/objectbox/objectbox-java",
+    "domain": "general",
+    "tags": [
+      "android",
+      "database",
+      "edge",
+      "embedded",
+      "java",
+      "module-level",
+      "source",
+      "objectbox-java"
+    ],
+    "genes": [
+      {
+        "title": "objectbox-java 模块说明",
+        "content": "模块路径: objectbox-java/\n类型: source\n文件数: 116\n\n包含文件:\n- objectbox-java/build.gradle.kts\n- objectbox-java/spotbugs-exclude.xml\n- objectbox-java/src\n- objectbox-java/src/main\n- objectbox-java/src/main/java\n- objectbox-java/src/main/java/io\n- objectbox-java/src/main/java/io/objectbox\n- objectbox-java/src/main/java/io/objectbox/Box.java\n- objectbox-java/src/main/java/io/objectbox/BoxStore.java\n- objectbox-java/src/main/java/io/objectbox/BoxStoreBuilder.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "objectbox-java 文件结构",
+        "content": "objectbox-java/build.gradle.kts\nobjectbox-java/spotbugs-exclude.xml\nobjectbox-java/src\nobjectbox-java/src/main\nobjectbox-java/src/main/java\nobjectbox-java/src/main/java/io\nobjectbox-java/src/main/java/io/objectbox\nobjectbox-java/src/main/java/io/objectbox/Box.java\nobjectbox-java/src/main/java/io/objectbox/BoxStore.java\nobjectbox-java/src/main/java/io/objectbox/BoxStoreBuilder.java\nobjectbox-java/src/main/java/io/objectbox/Cursor.java\nobjectbox-java/src/main/java/io/objectbox/EntityInfo.java\nobjectbox-java/src/main/java/io/objectbox/Factory.java\nobjectbox-java/src/main/java/io/objectbox/InternalAccess.java\nobjectbox-java/src/main/java/io/objectbox/KeyValueCursor.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9648763963436027
+  }
+]

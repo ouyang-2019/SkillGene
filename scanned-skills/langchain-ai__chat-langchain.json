@@ -1,0 +1,66 @@
+[
+  {
+    "name": "chat-langchain (langchain-ai)",
+    "description": "[项目级] chat-langchain。来源: https://github.com/langchain-ai/chat-langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-6246",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This is a documentation assistant agent that helps answer questions about LangChain, LangGraph, and LangSmith. It demonstrates how to build a production-ready agent using:\n\n- **LangGraph** - For agent orchestration and state management\n- **LangChain Agents** - For agent creation with middleware support\n- **Guardrails** - To keep conversations on-topic",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nlanggraph.json\npyproject.toml\nsrc\nsrc/agent\nsrc/middleware\nsrc/prompts\nsrc/tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Documentation Search** - Searches official LangChain docs\n- **Support KB** - Searches the Pylon knowledge base for known issues\n- **Link Validation** - Verifies URLs before including in responses\n- **Guardrails** - Filters off-topic queries",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.89780098994709
+  },
+  {
+    "name": "chat-langchain/src 模块",
+    "description": "[模块级] chat-langchain 项目的 src 模块 (source)。来源: https://github.com/langchain-ai/chat-langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-6246",
+      "github-langchain-ai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 15\n\n包含文件:\n- src/agent\n- src/agent/__init__.py\n- src/agent/config.py\n- src/agent/docs_graph.py\n- src/middleware\n- src/middleware/__init__.py\n- src/middleware/guardrails_middleware.py\n- src/middleware/retry_middleware.py\n- src/prompts\n- src/prompts/docs_agent_prompt.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agent\nsrc/agent/__init__.py\nsrc/agent/config.py\nsrc/agent/docs_graph.py\nsrc/middleware\nsrc/middleware/__init__.py\nsrc/middleware/guardrails_middleware.py\nsrc/middleware/retry_middleware.py\nsrc/prompts\nsrc/prompts/docs_agent_prompt.py\nsrc/tools\nsrc/tools/docs_tools.py\nsrc/tools/link_check_tools.py\nsrc/tools/pylon_tools.py\nsrc/tools/redis.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0182407919576715
+  }
+]

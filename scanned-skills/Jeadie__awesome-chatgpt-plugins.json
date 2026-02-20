@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-chatgpt-plugins (Jeadie)",
+    "description": "[项目级] A curated list of awesome ChatGPT plugins, demos and Posts。来源: https://github.com/Jeadie/awesome-chatgpt-plugins",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "chatgpt-plugins",
+      "openai",
+      "stars-373",
+      "github-jeadie",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome ChatGPT plugins, demos and Posts\n\n来源: https://github.com/Jeadie/awesome-chatgpt-plugins\n语言: unknown\nStars: 373",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.285854415904344
+  }
+]

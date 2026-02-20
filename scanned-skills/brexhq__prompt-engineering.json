@@ -1,0 +1,27 @@
+[
+  {
+    "name": "prompt-engineering (brexhq)",
+    "description": "[项目级] Tips and tricks for working with Large Language Models like OpenAI's GPT-4.。来源: https://github.com/brexhq/prompt-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-9466",
+      "github-brexhq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tips and tricks for working with Large Language Models like OpenAI's GPT-4.\n\n来源: https://github.com/brexhq/prompt-engineering\n语言: unknown\nStars: 9466",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCONTRIBUTORS.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.988083250065987
+  }
+]

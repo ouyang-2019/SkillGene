@@ -1,0 +1,128 @@
+[
+  {
+    "name": "CodeCursor (Helixform)",
+    "description": "[项目级] An extension for using Cursor in Visual Studio Code. 。来源: https://github.com/Helixform/CodeCursor",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "extension",
+      "gpt-4",
+      "ide",
+      "openai",
+      "typescript",
+      "stars-1843",
+      "github-helixform",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An extension for using Cursor in Visual Studio Code. \n\n来源: https://github.com/Helixform/CodeCursor\n语言: TypeScript\nStars: 1843",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You must sign into your Cursor account or configure you own API keys to use this extension. Please refer to the [Custom API Keys](#custom-api-keys) section for details.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\nactivitybar-icon.svg\nartworks\nartworks/chat.png\nartworks/command-palette.png\nartworks/completed.png\nartworks/generating.png\nartworks/project-continue-warning.png\nartworks/project-generation.png\ncrates\ncrates/cursor-core\ncrates/node-bridge\nicon.png\npackage-lock.json\npackage.json\nsrc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.632762667609537
+  },
+  {
+    "name": "CodeCursor/artworks 模块",
+    "description": "[模块级] CodeCursor 项目的 artworks 模块 (source)。来源: https://github.com/Helixform/CodeCursor",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "extension",
+      "gpt-4",
+      "ide",
+      "openai",
+      "module-level",
+      "source",
+      "artworks"
+    ],
+    "genes": [
+      {
+        "title": "artworks 模块说明",
+        "content": "模块路径: artworks/\n类型: source\n文件数: 6\n\n包含文件:\n- artworks/chat.png\n- artworks/command-palette.png\n- artworks/completed.png\n- artworks/generating.png\n- artworks/project-continue-warning.png\n- artworks/project-generation.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "artworks 文件结构",
+        "content": "artworks/chat.png\nartworks/command-palette.png\nartworks/completed.png\nartworks/generating.png\nartworks/project-continue-warning.png\nartworks/project-generation.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8062101340876295
+  },
+  {
+    "name": "CodeCursor/crates 模块",
+    "description": "[模块级] CodeCursor 项目的 crates 模块 (source)。来源: https://github.com/Helixform/CodeCursor",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "extension",
+      "gpt-4",
+      "ide",
+      "openai",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 58\n\n包含文件:\n- crates/cursor-core\n- crates/cursor-core/Cargo.toml\n- crates/cursor-core/README.md\n- crates/cursor-core/src\n- crates/cursor-core/src/auth\n- crates/cursor-core/src/auth/mod.rs\n- crates/cursor-core/src/auth/token.rs\n- crates/cursor-core/src/bindings\n- crates/cursor-core/src/bindings/mod.rs\n- crates/cursor-core/src/bindings/progress.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/cursor-core\ncrates/cursor-core/Cargo.toml\ncrates/cursor-core/README.md\ncrates/cursor-core/src\ncrates/cursor-core/src/auth\ncrates/cursor-core/src/auth/mod.rs\ncrates/cursor-core/src/auth/token.rs\ncrates/cursor-core/src/bindings\ncrates/cursor-core/src/bindings/mod.rs\ncrates/cursor-core/src/bindings/progress.rs\ncrates/cursor-core/src/bindings/progress_location.rs\ncrates/cursor-core/src/bindings/progress_options.rs\ncrates/cursor-core/src/context.rs\ncrates/cursor-core/src/lib.rs\ncrates/cursor-core/src/model_configuration.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8062101340876295
+  },
+  {
+    "name": "CodeCursor/src 模块",
+    "description": "[模块级] CodeCursor 项目的 src 模块 (source)。来源: https://github.com/Helixform/CodeCursor",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "extension",
+      "gpt-4",
+      "ide",
+      "openai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 39\n\n包含文件:\n- src/common\n- src/common/chatService\n- src/common/chatService/index.ts\n- src/common/chatService/model.ts\n- src/common/ipc\n- src/common/ipc/base.ts\n- src/common/ipc/extensionHost.ts\n- src/common/ipc/index.ts\n- src/common/ipc/webview.ts\n- src/extension",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/common\nsrc/common/chatService\nsrc/common/chatService/index.ts\nsrc/common/chatService/model.ts\nsrc/common/ipc\nsrc/common/ipc/base.ts\nsrc/common/ipc/extensionHost.ts\nsrc/common/ipc/index.ts\nsrc/common/ipc/webview.ts\nsrc/extension\nsrc/extension/chat\nsrc/extension/chat/chatPanelProvider.ts\nsrc/extension/chat/chatServiceImpl.ts\nsrc/extension/chat/core.ts\nsrc/extension/context.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8062101340876295
+  }
+]

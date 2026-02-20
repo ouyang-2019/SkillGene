@@ -1,0 +1,33 @@
+[
+  {
+    "name": "seq2seq_chatbot_new (lc222)",
+    "description": "[项目级] 基于seq2seq模型的简单对话系统的tf实现，具有embedding、attention、beam_search等功能，数据集是Cornell Movie Dialogs。来源: https://github.com/lc222/seq2seq_chatbot_new",
+    "domain": "general",
+    "tags": [
+      "attention-mechanism",
+      "beam-search",
+      "chatbot",
+      "seq2seq",
+      "tensorflow",
+      "python",
+      "stars-146",
+      "github-lc222",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "基于seq2seq模型的简单对话系统的tf实现，具有embedding、attention、beam_search等功能，数据集是Cornell Movie Dialogs\n\n来源: https://github.com/lc222/seq2seq_chatbot_new\n语言: Python\nStars: 146",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ndata\ndata/dataset-cornell-length10-filter1-vocabSize40000.pkl\ndata_helpers.py\nmodel.py\npredict.py\ntrain.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.082176427892218
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "awesome-ai-apps (Arindam200)",
+    "description": "[项目级] A collection of projects showcasing RAG, agents, workflows, and other AI use cases。来源: https://github.com/Arindam200/awesome-ai-apps",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "hacktoberfest",
+      "llm",
+      "mcp",
+      "python",
+      "stars-8977",
+      "github-arindam200",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases\n\n来源: https://github.com/Arindam200/awesome-ai-apps\n语言: Python\nStars: 8977",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nadvance_ai_agents\nadvance_ai_agents/ai-hedgefund\nadvance_ai_agents/candidate_analyser\nadvance_ai_agents/car_finder_agent\nadvance_ai_agents/conference_agnositc_cfp_generator\nadvance_ai_agents/conference_talk_abstract_generator\nadvance_ai_agents/content_team_agent\nadvance_ai_agents/deep_researcher_agent\nadvance_ai_agents/finance_service_agent\nadvance_ai_agents/job_finder_agent\nadvance_ai_agents/meeting_assistant_agent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.976565612591722
+  },
+  {
+    "name": "awesome-ai-apps/advance_ai_agents 模块",
+    "description": "[模块级] awesome-ai-apps 项目的 advance_ai_agents 模块 (source)。来源: https://github.com/Arindam200/awesome-ai-apps",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "hacktoberfest",
+      "llm",
+      "mcp",
+      "module-level",
+      "source",
+      "advance_ai_agents"
+    ],
+    "genes": [
+      {
+        "title": "advance_ai_agents 模块说明",
+        "content": "模块路径: advance_ai_agents/\n类型: source\n文件数: 182\n\n包含文件:\n- advance_ai_agents/ai-hedgefund\n- advance_ai_agents/ai-hedgefund/.dockerignore\n- advance_ai_agents/ai-hedgefund/.gitignore\n- advance_ai_agents/ai-hedgefund/Dockerfile\n- advance_ai_agents/ai-hedgefund/README.md\n- advance_ai_agents/ai-hedgefund/bun.lock\n- advance_ai_agents/ai-hedgefund/config\n- advance_ai_agents/ai-hedgefund/config/company-mappings.json\n- advance_ai_agents/ai-hedgefund/docker-compose.yml\n- advance_ai_agents/ai-hedgefund/env.example",
+        "gene_type": "principle"
+      },
+      {
+        "title": "advance_ai_agents 文件结构",
+        "content": "advance_ai_agents/ai-hedgefund\nadvance_ai_agents/ai-hedgefund/.dockerignore\nadvance_ai_agents/ai-hedgefund/.gitignore\nadvance_ai_agents/ai-hedgefund/Dockerfile\nadvance_ai_agents/ai-hedgefund/README.md\nadvance_ai_agents/ai-hedgefund/bun.lock\nadvance_ai_agents/ai-hedgefund/config\nadvance_ai_agents/ai-hedgefund/config/company-mappings.json\nadvance_ai_agents/ai-hedgefund/docker-compose.yml\nadvance_ai_agents/ai-hedgefund/env.example\nadvance_ai_agents/ai-hedgefund/motia-workbench.json\nadvance_ai_agents/ai-hedgefund/package.json\nadvance_ai_agents/ai-hedgefund/public\nadvance_ai_agents/ai-hedgefund/public/aihedgefund-workflow.png\nadvance_ai_agents/ai-hedgefund/public/aihedgefund.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.081252490073378
+  }
+]

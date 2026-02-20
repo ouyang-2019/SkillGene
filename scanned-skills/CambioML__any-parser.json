@@ -1,0 +1,133 @@
+[
+  {
+    "name": "any-parser (CambioML)",
+    "description": "[项目级] Accurate, private and configurable document retrieval LLM。来源: https://github.com/CambioML/any-parser",
+    "domain": "ai-llm",
+    "tags": [
+      "data-extraction",
+      "document",
+      "llm",
+      "pdf",
+      "privacy",
+      "python",
+      "stars-131",
+      "github-cambioml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Accurate, private and configurable document retrieval LLM\n\n来源: https://github.com/CambioML/any-parser\n语言: Python\nStars: 131",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nany_parser\nany_parser/__init__.py\nany_parser/any_parser.py\nany_parser/async_parser.py\nany_parser/base_parser.py\nany_parser/batch_parser.py\nany_parser/constants.py\nany_parser/sync_parser.py\nany_parser/utils.py\nexamples\nexamples/async_extract_key_value_img.ipynb\nexamples/async_extract_key_value_pdf.ipynb\nexamples/async_extract_pii.ipynb\nexamples/async_extract_tables.ipynb\nexamples/async_parse_pdf.ipynb\nexamples/async_parse_pdf2.ipynb\nexamples/async_parse_pro_pdf.ipynb\nexamples/extract_key_value_img.ipynb\nexamples/extract_key_value_pdf.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Check out these examples to see how you can utilize **AnyParser** to extract text, numbers, and symbols in fewer than 10 lines of code!",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.058635647827883
+  },
+  {
+    "name": "any-parser/any_parser 模块",
+    "description": "[模块级] any-parser 项目的 any_parser 模块 (source)。来源: https://github.com/CambioML/any-parser",
+    "domain": "ai-llm",
+    "tags": [
+      "data-extraction",
+      "document",
+      "llm",
+      "pdf",
+      "privacy",
+      "module-level",
+      "source",
+      "any_parser"
+    ],
+    "genes": [
+      {
+        "title": "any_parser 模块说明",
+        "content": "模块路径: any_parser/\n类型: source\n文件数: 8\n\n包含文件:\n- any_parser/__init__.py\n- any_parser/any_parser.py\n- any_parser/async_parser.py\n- any_parser/base_parser.py\n- any_parser/batch_parser.py\n- any_parser/constants.py\n- any_parser/sync_parser.py\n- any_parser/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "any_parser 文件结构",
+        "content": "any_parser/__init__.py\nany_parser/any_parser.py\nany_parser/async_parser.py\nany_parser/base_parser.py\nany_parser/batch_parser.py\nany_parser/constants.py\nany_parser/sync_parser.py\nany_parser/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.346908518262306
+  },
+  {
+    "name": "any-parser/examples 模块",
+    "description": "[模块级] any-parser 项目的 examples 模块 (example)。来源: https://github.com/CambioML/any-parser",
+    "domain": "ai-llm",
+    "tags": [
+      "data-extraction",
+      "document",
+      "llm",
+      "pdf",
+      "privacy",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Check out these examples to see how you can utilize **AnyParser** to extract text, numbers, and symbols in fewer than 10 lines of code!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/async_extract_key_value_img.ipynb\nexamples/async_extract_key_value_pdf.ipynb\nexamples/async_extract_pii.ipynb\nexamples/async_extract_tables.ipynb\nexamples/async_parse_pdf.ipynb\nexamples/async_parse_pdf2.ipynb\nexamples/async_parse_pro_pdf.ipynb\nexamples/extract_key_value_img.ipynb\nexamples/extract_key_value_pdf.ipynb\nexamples/extract_pii.ipynb\nexamples/extract_tables.ipynb\nexamples/parse_batch_api.ipynb\nexamples/parse_docx.ipynb\nexamples/parse_img.ipynb\nexamples/parse_img_pro.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.346908518262306
+  },
+  {
+    "name": "any-parser/tests 模块",
+    "description": "[模块级] any-parser 项目的 tests 模块 (test)。来源: https://github.com/CambioML/any-parser",
+    "domain": "testing",
+    "tags": [
+      "data-extraction",
+      "document",
+      "llm",
+      "pdf",
+      "privacy",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 10\n\n包含文件:\n- tests/README.md\n- tests/__init__.py\n- tests/outputs\n- tests/outputs/correct_docx_output.txt\n- tests/outputs/correct_pdf_output.txt\n- tests/outputs/correct_png_output.txt\n- tests/outputs/correct_pptx_output.txt\n- tests/test.py\n- tests/test_batch_api.py\n- tests/test_data.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.md\ntests/__init__.py\ntests/outputs\ntests/outputs/correct_docx_output.txt\ntests/outputs/correct_pdf_output.txt\ntests/outputs/correct_png_output.txt\ntests/outputs/correct_pptx_output.txt\ntests/test.py\ntests/test_batch_api.py\ntests/test_data.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.346908518262306
+  }
+]

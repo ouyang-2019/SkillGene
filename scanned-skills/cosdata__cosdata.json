@@ -1,0 +1,94 @@
+[
+  {
+    "name": "cosdata (cosdata)",
+    "description": "[项目级] Cosdata: A cutting-edge AI data platform for next-gen search pipelines. Features semantic search, hybrid capabilities, real-time scalability, and ML integration. Designed for immutability and version control to enhance AI projects. 。来源: https://github.com/cosdata/cosdata",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-350",
+      "github-cosdata",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Cosdata is a next-generation retrieval infrastructure engineered for AI-native applications that demand **relevance beyond simple vector similarity**.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLA.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nDockerfile\nLICENSE\nREADME.docker.md\nREADME.md\nbuild.rs\nconfig.toml\ngoogle40a566553f2a3151.html\ninstall\ninstall/install.sh\norg\norg/Cargo.toml\norg/RESTful-api.org\norg/Separation_of_Storage_and_Compute.org\norg/api-doc.org\norg/branches.png\norg/buffered_file_io.org",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.272034022175138
+  },
+  {
+    "name": "cosdata/org 模块",
+    "description": "[模块级] cosdata 项目的 org 模块 (source)。来源: https://github.com/cosdata/cosdata",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-350",
+      "github-cosdata",
+      "module-level",
+      "source",
+      "org"
+    ],
+    "genes": [
+      {
+        "title": "org 模块说明",
+        "content": "模块路径: org/\n类型: source\n文件数: 50\n\n包含文件:\n- org/Cargo.toml\n- org/RESTful-api.org\n- org/Separation_of_Storage_and_Compute.org\n- org/api-doc.org\n- org/branches.png\n- org/buffered_file_io.org\n- org/channi.org\n- org/channi_illustration.svg\n- org/docs_index.md\n- org/graph-datalog.org",
+        "gene_type": "principle"
+      },
+      {
+        "title": "org 文件结构",
+        "content": "org/Cargo.toml\norg/RESTful-api.org\norg/Separation_of_Storage_and_Compute.org\norg/api-doc.org\norg/branches.png\norg/buffered_file_io.org\norg/channi.org\norg/channi_illustration.svg\norg/docs_index.md\norg/graph-datalog.org\norg/http-api.org\norg/indexing.org\norg/inverted-index-idf.org\norg/inverted_index_design.org\norg/inverted_index_stats.org",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5176272177401104
+  },
+  {
+    "name": "cosdata/src 模块",
+    "description": "[模块级] cosdata 项目的 src 模块 (source)。来源: https://github.com/cosdata/cosdata",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-350",
+      "github-cosdata",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 113\n\n包含文件:\n- src/api\n- src/api/auth\n- src/api/auth/authentication_middleware.rs\n- src/api/auth/controller.rs\n- src/api/auth/dtos.rs\n- src/api/auth/error.rs\n- src/api/auth/mod.rs\n- src/api/auth/service.rs\n- src/api/docs.rs\n- src/api/mod.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/api\nsrc/api/auth\nsrc/api/auth/authentication_middleware.rs\nsrc/api/auth/controller.rs\nsrc/api/auth/dtos.rs\nsrc/api/auth/error.rs\nsrc/api/auth/mod.rs\nsrc/api/auth/service.rs\nsrc/api/docs.rs\nsrc/api/mod.rs\nsrc/api/openapi.rs\nsrc/api/vectordb\nsrc/api/vectordb/collections\nsrc/api/vectordb/collections/controller.rs\nsrc/api/vectordb/collections/dtos.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5176272177401104
+  }
+]

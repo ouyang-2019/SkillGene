@@ -1,0 +1,153 @@
+[
+  {
+    "name": "SWE-agent (SWE-agent)",
+    "description": "[项目级] SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] 。来源: https://github.com/SWE-agent/SWE-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "python",
+      "stars-18513",
+      "github-swe-agent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] \n\n来源: https://github.com/SWE-agent/SWE-agent\n语言: Python\nStars: 18513",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/batch_animated.gif\nassets/swe-agent-banner-dark.svg\nassets/swe-agent-banner-light.svg\nassets/swe-agent-banner.png\nassets/swe-agent-banner.svg\nassets/swe-agent-hand.png\nassets/swe-agent-hand.svg\ncodecov.yml\nconfig\nconfig/README.md\nconfig/bash_only.yaml\nconfig/benchmarks\nconfig/coding_challenge.yaml\nconfig/default.yaml\nconfig/default_backticks.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "SWE-agent/assets 模块",
+    "description": "[模块级] SWE-agent 项目的 assets 模块 (source)。来源: https://github.com/SWE-agent/SWE-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/batch_animated.gif\n- assets/swe-agent-banner-dark.svg\n- assets/swe-agent-banner-light.svg\n- assets/swe-agent-banner.png\n- assets/swe-agent-banner.svg\n- assets/swe-agent-hand.png\n- assets/swe-agent-hand.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/batch_animated.gif\nassets/swe-agent-banner-dark.svg\nassets/swe-agent-banner-light.svg\nassets/swe-agent-banner.png\nassets/swe-agent-banner.svg\nassets/swe-agent-hand.png\nassets/swe-agent-hand.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.20699072045362
+  },
+  {
+    "name": "SWE-agent/config 模块",
+    "description": "[模块级] SWE-agent 项目的 config 模块 (config)。来源: https://github.com/SWE-agent/SWE-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 30\n\n包含文件:\n- config/README.md\n- config/bash_only.yaml\n- config/benchmarks\n- config/benchmarks/250212_sweagent_heavy_sbl.yaml\n- config/benchmarks/250225_anthropic_filemap_simple_review.yaml\n- config/benchmarks/250522_anthropic_filemap_simple_review.yaml\n- config/benchmarks/250526_anthropic_filemap_simple_review_sbl.yaml\n- config/benchmarks/anthropic_filemap_multilingual.yaml\n- config/coding_challenge.yaml\n- config/default.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/README.md\nconfig/bash_only.yaml\nconfig/benchmarks\nconfig/benchmarks/250212_sweagent_heavy_sbl.yaml\nconfig/benchmarks/250225_anthropic_filemap_simple_review.yaml\nconfig/benchmarks/250522_anthropic_filemap_simple_review.yaml\nconfig/benchmarks/250526_anthropic_filemap_simple_review_sbl.yaml\nconfig/benchmarks/anthropic_filemap_multilingual.yaml\nconfig/coding_challenge.yaml\nconfig/default.yaml\nconfig/default_backticks.yaml\nconfig/default_mm_no_images.yaml\nconfig/default_mm_with_images.yaml\nconfig/demo\nconfig/demo/default.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.20699072045362
+  },
+  {
+    "name": "SWE-agent/docs 模块",
+    "description": "[模块级] SWE-agent 项目的 docs 模块 (docs)。来源: https://github.com/SWE-agent/SWE-agent",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 99\n\n包含文件:\n- docs/CNAME\n- docs/README.md\n- docs/_footer.md\n- docs/assets\n- docs/assets/architecture.png\n- docs/assets/batch_animated.gif\n- docs/assets/bubbles.css\n- docs/assets/custom.css\n- docs/assets/favicon.ico\n- docs/assets/image_theme.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CNAME\ndocs/README.md\ndocs/_footer.md\ndocs/assets\ndocs/assets/architecture.png\ndocs/assets/batch_animated.gif\ndocs/assets/bubbles.css\ndocs/assets/custom.css\ndocs/assets/favicon.ico\ndocs/assets/image_theme.css\ndocs/assets/inspector_1.png\ndocs/assets/inspector_2.png\ndocs/assets/js\ndocs/assets/js/sh-annotation.js\ndocs/assets/mini_logo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.20699072045362
+  },
+  {
+    "name": "SWE-agent/sweagent 模块",
+    "description": "[模块级] SWE-agent 项目的 sweagent 模块 (source)。来源: https://github.com/SWE-agent/SWE-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-model",
+      "ai",
+      "cybersecurity",
+      "developer-tools",
+      "module-level",
+      "source",
+      "sweagent"
+    ],
+    "genes": [
+      {
+        "title": "sweagent 模块说明",
+        "content": "模块路径: sweagent/\n类型: source\n文件数: 24\n\n包含文件:\n- sweagent/__init__.py\n- sweagent/__main__.py\n- sweagent/agent\n- sweagent/agent/__init__.py\n- sweagent/agent/action_sampler.py\n- sweagent/agent/agents.py\n- sweagent/agent/extra\n- sweagent/agent/extra/shell_agent.py\n- sweagent/agent/history_processors.py\n- sweagent/agent/hooks",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sweagent 文件结构",
+        "content": "sweagent/__init__.py\nsweagent/__main__.py\nsweagent/agent\nsweagent/agent/__init__.py\nsweagent/agent/action_sampler.py\nsweagent/agent/agents.py\nsweagent/agent/extra\nsweagent/agent/extra/shell_agent.py\nsweagent/agent/history_processors.py\nsweagent/agent/hooks\nsweagent/agent/hooks/__init__.py\nsweagent/agent/hooks/abstract.py\nsweagent/agent/hooks/status.py\nsweagent/agent/models.py\nsweagent/agent/problem_statement.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.20699072045362
+  }
+]

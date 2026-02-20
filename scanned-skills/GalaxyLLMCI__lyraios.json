@@ -1,0 +1,211 @@
+[
+  {
+    "name": "lyraios (GalaxyLLMCI)",
+    "description": "[项目级] LYRAI is a Model Context Protocol (MCP) operating system for multi-AI AGENTs designed to extend the functionality of AI applications by enabling them to interact with financial networks and blockchain public chains. The server offers a range of advanced AI assistants, including blockchain public chain operations (SOLANA,ETH,BSC,etc.)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LYRAI is a Model Context Protocol (MCP) operating system for multi-AI AGENTs designed to extend the functionality of AI applications (such as Claude Desktop and Cursor) by enabling them to interact with financial networks and blockchain public chains. The server offers a range of advanced AI assistants, including blockchain public chain operations (SOLANA, ETH, etc. - retrieving wallet addresses, listing wallet balances, transferring funds, deploying smart contracts, on-chain lending, calling contract functions, managing tokens), fintech market analysis and summary reports, and learning and training systems for the education sector.\n\n> In the future operation of LYRAIOS, advanced VIP features will exclusively support payment using LYRAI on solana, with LYRAI's CA : `A6MTWuHbXqjH3vYEfbs3mzv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Define Tool Manifest**: Create a JSON file describing your tool's capabilities\n2. **Implement Tool**: Develop the tool functionality according to the protocol\n3. **Register Tool**: Use the API to register your tool with LYRAIOS\n4. **Use Tool**: Your tool is now available for use by LYRAIOS agents\n\nFor examples and detailed documentation, see the [Tool Integration Guide](docs/tool_integration.md).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\n__init__.py\nai\nai/__init__.py\nai/assistants.py\nai/llm\nai/settings.py\nai/storage.py\nai/vectordb.py\napp\napp/__init__.py\napp/api\napp/assets\napp/components\napp/config\napp/db\napp/main.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp workspace/example_secrets workspace/secrets",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Standardized Tool Manifest**: Define tools using a JSON schema that describes capabilities, parameters, and requirements\n- **Pluggable Adapter System**: Support for different tool types (REST API, Python plugins, etc.)\n- **Secure Execution Environment**: Tools run in a controlled environment with resource limits and permission checks\n- **Versioning and Dependency Management**: Track tool versions and dependencies\n- **Monitoring and Logging**: Comprehensive logging of tool execution",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.176091259055681
+  },
+  {
+    "name": "lyraios/ai 模块",
+    "description": "[模块级] lyraios 项目的 ai 模块 (source)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "source",
+      "ai"
+    ],
+    "genes": [
+      {
+        "title": "ai 模块说明",
+        "content": "模块路径: ai/\n类型: source\n文件数: 8\n\n包含文件:\n- ai/__init__.py\n- ai/assistants.py\n- ai/llm\n- ai/llm/factory.py\n- ai/llm/openai_chat.py\n- ai/settings.py\n- ai/storage.py\n- ai/vectordb.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai 文件结构",
+        "content": "ai/__init__.py\nai/assistants.py\nai/llm\nai/llm/factory.py\nai/llm/openai_chat.py\nai/settings.py\nai/storage.py\nai/vectordb.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  },
+  {
+    "name": "lyraios/app 模块",
+    "description": "[模块级] lyraios 项目的 app 模块 (source)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 60\n\n包含文件:\n- app/__init__.py\n- app/api\n- app/api/__init__.py\n- app/api/auth.py\n- app/api/main.py\n- app/api/middleware\n- app/api/middleware/error_handler.py\n- app/api/routes\n- app/api/routes/__init__.py\n- app/api/routes/assistants.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/api\napp/api/__init__.py\napp/api/auth.py\napp/api/main.py\napp/api/middleware\napp/api/middleware/error_handler.py\napp/api/routes\napp/api/routes/__init__.py\napp/api/routes/assistants.py\napp/api/routes/endpoints.py\napp/api/routes/health.py\napp/api/routes/status.py\napp/api/routes/tools.py\napp/api/routes/v1_router.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  },
+  {
+    "name": "lyraios/client 模块",
+    "description": "[模块级] lyraios 项目的 client 模块 (source)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 84\n\n包含文件:\n- client/.gitignore\n- client/components.json\n- client/index.html\n- client/package-lock.json\n- client/package.json\n- client/pnpm-lock.yaml\n- client/src\n- client/src/App.css\n- client/src/App.tsx\n- client/src/assets",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/.gitignore\nclient/components.json\nclient/index.html\nclient/package-lock.json\nclient/package.json\nclient/pnpm-lock.yaml\nclient/src\nclient/src/App.css\nclient/src/App.tsx\nclient/src/assets\nclient/src/assets/images\nclient/src/assets/images/background.png\nclient/src/assets/images/lyraios.png\nclient/src/components\nclient/src/components/AppIcon.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  },
+  {
+    "name": "lyraios/docs 模块",
+    "description": "[模块级] lyraios 项目的 docs 模块 (docs)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/ARCHITECTURE.md\n- docs/lyraios-architecture.jpg\n- docs/manus-architecture.png\n- docs/tool_integration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ARCHITECTURE.md\ndocs/lyraios-architecture.jpg\ndocs/manus-architecture.png\ndocs/tool_integration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  },
+  {
+    "name": "lyraios/examples 模块",
+    "description": "[模块级] lyraios 项目的 examples 模块 (example)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 5\n\n包含文件:\n- examples/register_calculator.py\n- examples/test_calculator.py\n- examples/tools\n- examples/tools/calculator.py\n- examples/tools/calculator_manifest.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/register_calculator.py\nexamples/test_calculator.py\nexamples/tools\nexamples/tools/calculator.py\nexamples/tools/calculator_manifest.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  },
+  {
+    "name": "lyraios/mcp_solana 模块",
+    "description": "[模块级] lyraios 项目的 mcp_solana 模块 (source)。来源: https://github.com/GalaxyLLMCI/lyraios",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-225",
+      "github-galaxyllmci",
+      "module-level",
+      "source",
+      "mcp_solana"
+    ],
+    "genes": [
+      {
+        "title": "mcp_solana 模块说明",
+        "content": "模块路径: mcp_solana/\n类型: source\n文件数: 23\n\n包含文件:\n- mcp_solana/README.md\n- mcp_solana/__init__.py\n- mcp_solana/client\n- mcp_solana/client/__init__.py\n- mcp_solana/client/client.py\n- mcp_solana/client/contract_client.py\n- mcp_solana/examples\n- mcp_solana/examples/client_example.py\n- mcp_solana/examples/contract_example.py\n- mcp_solana/examples/server_example.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp_solana 文件结构",
+        "content": "mcp_solana/README.md\nmcp_solana/__init__.py\nmcp_solana/client\nmcp_solana/client/__init__.py\nmcp_solana/client/client.py\nmcp_solana/client/contract_client.py\nmcp_solana/examples\nmcp_solana/examples/client_example.py\nmcp_solana/examples/contract_example.py\nmcp_solana/examples/server_example.py\nmcp_solana/models\nmcp_solana/models/__init__.py\nmcp_solana/models/protocol.py\nmcp_solana/server\nmcp_solana/server/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4408730072445453
+  }
+]

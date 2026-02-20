@@ -1,0 +1,198 @@
+[
+  {
+    "name": "ZeroLaunch-rs (ghost-him)",
+    "description": "[项目级] 🚀 A lightning‑fast, privacy‑first Windows smart launcher that excels at Pinyin and fuzzy matching. Optionally add on‑device AI semantic search for typo‑ and intent‑proof instant results. Built with Rust + Tauri + Vue! 🚀一款极速、隐私优先的 Windows 智能启动器，精通拼音与模糊匹配；可选本地 AI 语义检索，让错字与意图搜索也能秒速直达。基于 Rust + Tauri + Vue 构建！。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "web-frontend",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "rust",
+      "stars-516",
+      "github-ghost-him",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 A lightning‑fast, privacy‑first Windows smart launcher that excels at Pinyin and fuzzy matching. Optionally add on‑device AI semantic search for typo‑ and intent‑proof instant results. Built with Rust + Tauri + Vue! 🚀一款极速、隐私优先的 Windows 智能启动器，精通拼音与模糊匹配；可选本地 AI 语义检索，让错字与意图搜索也能秒速直达。基于 Rust + Tauri + Vue 构建！\n\n来源: https://github.com/ghost-him/ZeroLaunch-rs\n语言: Rust\nStars: 516",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "在终端中运行以下任一命令即可：\n```bash\nwinget install zerolaunch",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_SIGNING.md\nCONTRIBUTING.md\nLICENSE.txt\nNOTICE\nPRIVACY.md\nREADME.md\nasset\nasset/picture-cn.md\nasset/picture-en.md\nasset/picture.md\nasset/select_language.png\nasset/signpath-icon.png\nasset/主界面.png\nasset/其他搜索.png\nasset/坚果云.png\nasset/外观设置.png\nasset/所有程序.png\nasset/拼音匹配.png\nasset/拼音模糊匹配.png\nasset/模糊匹配.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "在终端中运行以下任一命令即可：\n```bash\nwinget install zerolaunch",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.356324850813605
+  },
+  {
+    "name": "ZeroLaunch-rs/asset 模块",
+    "description": "[模块级] ZeroLaunch-rs 项目的 asset 模块 (source)。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "web-frontend",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "module-level",
+      "source",
+      "asset"
+    ],
+    "genes": [
+      {
+        "title": "asset 模块说明",
+        "content": "模块路径: asset/\n类型: source\n文件数: 21\n\n包含文件:\n- asset/picture-cn.md\n- asset/picture-en.md\n- asset/picture.md\n- asset/select_language.png\n- asset/signpath-icon.png\n- asset/主界面.png\n- asset/其他搜索.png\n- asset/坚果云.png\n- asset/外观设置.png\n- asset/所有程序.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "asset 文件结构",
+        "content": "asset/picture-cn.md\nasset/picture-en.md\nasset/picture.md\nasset/select_language.png\nasset/signpath-icon.png\nasset/主界面.png\nasset/其他搜索.png\nasset/坚果云.png\nasset/外观设置.png\nasset/所有程序.png\nasset/拼音匹配.png\nasset/拼音模糊匹配.png\nasset/模糊匹配.png\nasset/程序搜索.png\nasset/精准匹配.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585059880650885
+  },
+  {
+    "name": "ZeroLaunch-rs/docs 模块",
+    "description": "[模块级] ZeroLaunch-rs 项目的 docs 模块 (docs)。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "documentation",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/.nojekyll\n- docs/Feature_Implementation_Guide_cn.md\n- docs/Feature_Implementation_Guide_cn2.md\n- docs/Feature_Implementation_Guide_en.md\n- docs/README.md\n- docs/index.html\n- docs/parameter_resolver_usage.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.nojekyll\ndocs/Feature_Implementation_Guide_cn.md\ndocs/Feature_Implementation_Guide_cn2.md\ndocs/Feature_Implementation_Guide_en.md\ndocs/README.md\ndocs/index.html\ndocs/parameter_resolver_usage.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585059880650885
+  },
+  {
+    "name": "ZeroLaunch-rs/manifests 模块",
+    "description": "[模块级] ZeroLaunch-rs 项目的 manifests 模块 (source)。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "web-frontend",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "module-level",
+      "source",
+      "manifests"
+    ],
+    "genes": [
+      {
+        "title": "manifests 模块说明",
+        "content": "模块路径: manifests/\n类型: source\n文件数: 7\n\n包含文件:\n- manifests/g\n- manifests/g/ghost-him\n- manifests/g/ghost-him/ZeroLaunch-rs\n- manifests/g/ghost-him/ZeroLaunch-rs/0.4.14\n- manifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.installer.yaml\n- manifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.locale.en-US.yaml\n- manifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "manifests 文件结构",
+        "content": "manifests/g\nmanifests/g/ghost-him\nmanifests/g/ghost-him/ZeroLaunch-rs\nmanifests/g/ghost-him/ZeroLaunch-rs/0.4.14\nmanifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.installer.yaml\nmanifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.locale.en-US.yaml\nmanifests/g/ghost-him/ZeroLaunch-rs/0.4.14/ghost-him.ZeroLaunch-rs.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585059880650885
+  },
+  {
+    "name": "ZeroLaunch-rs/public 模块",
+    "description": "[模块级] ZeroLaunch-rs 项目的 public 模块 (source)。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "web-frontend",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 2\n\n包含文件:\n- public/tauri.svg\n- public/vite.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/tauri.svg\npublic/vite.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585059880650885
+  },
+  {
+    "name": "ZeroLaunch-rs/src-tauri 模块",
+    "description": "[模块级] ZeroLaunch-rs 项目的 src-tauri 模块 (source)。来源: https://github.com/ghost-him/ZeroLaunch-rs",
+    "domain": "web-frontend",
+    "tags": [
+      "application-launcher",
+      "launcher",
+      "launchy",
+      "listary",
+      "producitivity",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 132\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/Everything64.dll\n- src-tauri/build.rs\n- src-tauri/capabilities\n- src-tauri/capabilities/default.json\n- src-tauri/capabilities/desktop.json\n- src-tauri/icons\n- src-tauri/icons/128x128.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/Everything64.dll\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/capabilities/desktop.json\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32-white.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/Square107x107Logo.png\nsrc-tauri/icons/Square142x142Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585059880650885
+  }
+]

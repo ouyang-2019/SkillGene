@@ -1,0 +1,168 @@
+[
+  {
+    "name": "langflow (langflow-ai)",
+    "description": "[项目级] Langflow is a powerful tool for building and deploying AI-powered agents and workflows.。来源: https://github.com/langflow-ai/langflow",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "python",
+      "stars-144923",
+      "github-langflow-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.\n\n来源: https://github.com/langflow-ai/langflow\n语言: Python\nStars: 144923",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Requires Python 3.10–3.13 and [uv](https://docs.astral.sh/uv/getting-started/installation/) (recommended package manager).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDEVELOPMENT.md\nLICENSE\nMakefile\nMakefile.frontend\nREADME.md\nRELEASE.md\nSECURITY.md\ncodecov.yml\ndeploy\ndeploy/.env.example\ndeploy/.gitignore\ndeploy/README.md\ndeploy/docker-compose.override.yml\ndeploy/docker-compose.yml\ndeploy/prometheus.yml\ndocker\ndocker/.dockerignore\ndocker/build_and_push.Dockerfile",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Visual builder interface** to quickly get started and iterate.\n- **Source code access** lets you customize any component using Python.\n- **Interactive playground** to immediately test and refine your flows with step-by-step control.\n- **Multi-agent orchestration** with conversation management and retrieval.\n- **Deploy as an API** or export as JSON for Python apps.\n- **Deploy as an MCP server** and turn your flows into tools for MCP clients.\n- **Observability** with LangSmith, LangFuse and other integrations.\n- **Enterprise-ready** security and scalability.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "langflow/deploy 模块",
+    "description": "[模块级] langflow 项目的 deploy 模块 (source)。来源: https://github.com/langflow-ai/langflow",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "Langflow is completely open source and you can deploy it to all major deployment clouds. To learn how to deploy Langflow, see our [Langflow deployment guides](https://docs.langflow.org/deployment-overview).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/.env.example\ndeploy/.gitignore\ndeploy/README.md\ndeploy/docker-compose.override.yml\ndeploy/docker-compose.yml\ndeploy/prometheus.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564454926253088
+  },
+  {
+    "name": "langflow/docker 模块",
+    "description": "[模块级] langflow 项目的 docker 模块 (source)。来源: https://github.com/langflow-ai/langflow",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "Start a Langflow container with default settings:\n```shell\ndocker run -p 7860:7860 langflowai/langflow:latest\n```\nLangflow is available at http://localhost:7860/.\nFor configuration options, see the [Docker deployment guide](https://docs.langflow.org/deployment-docker).\n\n> [!CAUTION]\n> - Users must update to Langflow >= 1.7.1 to protect against [CVE-2025-68477](https://github.com/langflow-ai/langflow/security/advisories/GHSA-5993-7p27-66g5) and [CVE-2025-68478](https://github.com/langflow-ai/lang",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.dockerignore\ndocker/build_and_push.Dockerfile\ndocker/build_and_push_backend.Dockerfile\ndocker/build_and_push_base.Dockerfile\ndocker/build_and_push_ep.Dockerfile\ndocker/build_and_push_with_extras.Dockerfile\ndocker/cdk-docker-compose.yml\ndocker/cdk.Dockerfile\ndocker/container-cmd-cdk.sh\ndocker/dev.Dockerfile\ndocker/dev.docker-compose.yml\ndocker/dev.start.sh\ndocker/frontend\ndocker/frontend/build_and_push_frontend.Dockerfile\ndocker/frontend/default.conf.template",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "docker run -p 7860:7860 langflowai/langflow:latest",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564454926253088
+  },
+  {
+    "name": "langflow/docker_example 模块",
+    "description": "[模块级] langflow 项目的 docker_example 模块 (source)。来源: https://github.com/langflow-ai/langflow",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "module-level",
+      "source",
+      "docker_example"
+    ],
+    "genes": [
+      {
+        "title": "docker_example 模块说明",
+        "content": "模块路径: docker_example/\n类型: source\n文件数: 5\n\n包含文件:\n- docker_example/Dockerfile\n- docker_example/README.md\n- docker_example/docker-compose.yml\n- docker_example/pre.Dockerfile\n- docker_example/pre.docker-compose.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker_example 文件结构",
+        "content": "docker_example/Dockerfile\ndocker_example/README.md\ndocker_example/docker-compose.yml\ndocker_example/pre.Dockerfile\ndocker_example/pre.docker-compose.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564454926253088
+  },
+  {
+    "name": "langflow/docs 模块",
+    "description": "[模块级] langflow 项目的 docs 模块 (docs)。来源: https://github.com/langflow-ai/langflow",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 77\n\n包含文件:\n- docs/.gitignore\n- docs/.yarnrc.yml\n- docs/README.md\n- docs/babel.config.js\n- docs/css\n- docs/css/custom.css\n- docs/docs\n- docs/docs/API-Reference\n- docs/docs/API-Reference/api-build.mdx\n- docs/docs/API-Reference/api-files.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.yarnrc.yml\ndocs/README.md\ndocs/babel.config.js\ndocs/css\ndocs/css/custom.css\ndocs/docs\ndocs/docs/API-Reference\ndocs/docs/API-Reference/api-build.mdx\ndocs/docs/API-Reference/api-files.mdx\ndocs/docs/API-Reference/api-flows-run.mdx\ndocs/docs/API-Reference/api-flows.mdx\ndocs/docs/API-Reference/api-logs.mdx\ndocs/docs/API-Reference/api-monitor.mdx\ndocs/docs/API-Reference/api-openai-responses.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564454926253088
+  }
+]

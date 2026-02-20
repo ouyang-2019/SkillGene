@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Advanced-QA-and-RAG-Series (Farzad-R)",
+    "description": "[项目级] This repository contains advanced LLM-based chatbots for Q&A using LLM agents, and Retrieval Augmented Generation (RAG) and with different databases. (VectorDB, GraphDB, SQLite, CSV, XLSX, etc.)。来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-436",
+      "github-farzad-r",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains advanced LLM-based chatbots for Q&A using LLM agents, and Retrieval Augmented Generation (RAG) and with different databases. (VectorDB, GraphDB, SQLite, CSV, XLSX, etc.)\n\n来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series\n语言: Jupyter Notebook\nStars: 436",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AgentGraph-Intelligent-Q&A-and-RAG-System\nAgentGraph-Intelligent-Q&A-and-RAG-System/.here\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks\nAgentGraph-Intelligent-Q&A-and-RAG-System/README.md\nAgentGraph-Intelligent-Q&A-and-RAG-System/configs\nAgentGraph-Intelligent-Q&A-and-RAG-System/data\nAgentGraph-Intelligent-Q&A-and-RAG-System/env_example\nAgentGraph-Intelligent-Q&A-and-RAG-System/images\nAgentGraph-Intelligent-Q&A-and-RAG-System/memory\nAgentGraph-Intelligent-Q&A-and-RAG-System/requirements.txt\nAgentGraph-Intelligent-Q&A-and-RAG-System/sample_questions.txt\nAgentGraph-Intelligent-Q&A-and-RAG-System/src\nKnowledgeGraph-Q&A-and-RAG-with-TabularData\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/.here\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/Helper.md\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/README.md\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/configs\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/data\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/images",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.319743244634293
+  },
+  {
+    "name": "Advanced-QA-and-RAG-Series/AgentGraph-Intelligent-Q&A-and-RAG-System 模块",
+    "description": "[模块级] Advanced-QA-and-RAG-Series 项目的 AgentGraph-Intelligent-Q&A-and-RAG-System 模块 (source)。来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-436",
+      "github-farzad-r",
+      "module-level",
+      "source",
+      "agentgraph-intelligent-q&a-and-rag-system"
+    ],
+    "genes": [
+      {
+        "title": "AgentGraph-Intelligent-Q&A-and-RAG-System 模块说明",
+        "content": "模块路径: AgentGraph-Intelligent-Q&A-and-RAG-System/\n类型: source\n文件数: 68\n\n包含文件:\n- AgentGraph-Intelligent-Q&A-and-RAG-System/.here\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/RAG_tool_step_by_step\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/RAG_tool_step_by_step/rag_tool.ipynb\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_chain_for_large_db.ipynb\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_chain_steps.ipynb\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_steps.ipynb\n- AgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/tavily",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AgentGraph-Intelligent-Q&A-and-RAG-System 文件结构",
+        "content": "AgentGraph-Intelligent-Q&A-and-RAG-System/.here\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/RAG_tool_step_by_step\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/RAG_tool_step_by_step/rag_tool.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_chain_for_large_db.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_chain_steps.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/sql_agents/sql_agent_steps.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/tavily\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/Tools/tavily/tavily_search.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/custom_agent\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/custom_agent/openai_function_calling.ipynb\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/explore_databases\nAgentGraph-Intelligent-Q&A-and-RAG-System/Notebooks/explore_databases/explore_chinook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.555794595707434
+  },
+  {
+    "name": "Advanced-QA-and-RAG-Series/KnowledgeGraph-Q&A-and-RAG-with-TabularData 模块",
+    "description": "[模块级] Advanced-QA-and-RAG-Series 项目的 KnowledgeGraph-Q&A-and-RAG-with-TabularData 模块 (source)。来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-436",
+      "github-farzad-r",
+      "module-level",
+      "source",
+      "knowledgegraph-q&a-and-rag-with-tabulardata"
+    ],
+    "genes": [
+      {
+        "title": "KnowledgeGraph-Q&A-and-RAG-with-TabularData 模块说明",
+        "content": "模块路径: KnowledgeGraph-Q&A-and-RAG-with-TabularData/\n类型: source\n文件数: 39\n\n包含文件:\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/.here\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/Helper.md\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/README.md\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/configs\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/configs/app_config.yml\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/data\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/data/movie_csv\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/data/movie_csv/movie.csv\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/explore\n- KnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB",
+        "gene_type": "principle"
+      },
+      {
+        "title": "KnowledgeGraph-Q&A-and-RAG-with-TabularData 文件结构",
+        "content": "KnowledgeGraph-Q&A-and-RAG-with-TabularData/.here\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/Helper.md\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/README.md\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/configs\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/configs/app_config.yml\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/data\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/data/movie_csv\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/data/movie_csv/movie.csv\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB/1_load_and_save_movide_data.ipynb\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB/1_load_and_save_movie_data.ipynb\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB/2_AzureOpenAI_GraphDB_RAG_data_preparation.ipynb\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB/3_query_movieDB_with_cypher.ipynb\nKnowledgeGraph-Q&A-and-RAG-with-TabularData/explore/Movie_RAG_GraphDB/4_AzureOpenAI_Langchain_Q_A_with_GraphDB_using_LLM_Agent.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.555794595707434
+  },
+  {
+    "name": "Advanced-QA-and-RAG-Series/LangGraph_1o1_Agentic_Customer_Support 模块",
+    "description": "[模块级] Advanced-QA-and-RAG-Series 项目的 LangGraph_1o1_Agentic_Customer_Support 模块 (source)。来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-436",
+      "github-farzad-r",
+      "module-level",
+      "source",
+      "langgraph_1o1_agentic_customer_support"
+    ],
+    "genes": [
+      {
+        "title": "LangGraph_1o1_Agentic_Customer_Support 模块说明",
+        "content": "模块路径: LangGraph_1o1_Agentic_Customer_Support/\n类型: source\n文件数: 71\n\n包含文件:\n- LangGraph_1o1_Agentic_Customer_Support/.here\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/1_bot_zero_shot.ipynb\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/2_bot_with_user_approval.ipynb\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/3_bot_with_conditional_user_approval.ipynb\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/4_bot_with_specialized_workflows.ipynb\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools/NOTE.md\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools/tools_flights.py\n- LangGraph_1o1_Agentic_Customer_Support/Notebooks/test_openai_models",
+        "gene_type": "principle"
+      },
+      {
+        "title": "LangGraph_1o1_Agentic_Customer_Support 文件结构",
+        "content": "LangGraph_1o1_Agentic_Customer_Support/.here\nLangGraph_1o1_Agentic_Customer_Support/Notebooks\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/1_bot_zero_shot.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/2_bot_with_user_approval.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/3_bot_with_conditional_user_approval.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/4_bot_with_specialized_workflows.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools/NOTE.md\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/new_tools/tools_flights.py\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/test_openai_models\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/test_openai_models/gpt-4o.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/test_openai_models/gpt.ipynb\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/test_openai_models/image.png\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/tools\nLangGraph_1o1_Agentic_Customer_Support/Notebooks/tools/NOTE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.555794595707434
+  },
+  {
+    "name": "Advanced-QA-and-RAG-Series/Q&A-and-RAG-with-SQL-and-TabularData 模块",
+    "description": "[模块级] Advanced-QA-and-RAG-Series 项目的 Q&A-and-RAG-with-SQL-and-TabularData 模块 (source)。来源: https://github.com/Farzad-R/Advanced-QA-and-RAG-Series",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-436",
+      "github-farzad-r",
+      "module-level",
+      "source",
+      "q&a-and-rag-with-sql-and-tabulardata"
+    ],
+    "genes": [
+      {
+        "title": "Q&A-and-RAG-with-SQL-and-TabularData 模块说明",
+        "content": "模块路径: Q&A-and-RAG-with-SQL-and-TabularData/\n类型: source\n文件数: 16\n\n包含文件:\n- Q&A-and-RAG-with-SQL-and-TabularData/.here\n- Q&A-and-RAG-with-SQL-and-TabularData/README.md\n- Q&A-and-RAG-with-SQL-and-TabularData/configs\n- Q&A-and-RAG-with-SQL-and-TabularData/configs/app_config.yml\n- Q&A-and-RAG-with-SQL-and-TabularData/data\n- Q&A-and-RAG-with-SQL-and-TabularData/data/chroma\n- Q&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096\n- Q&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/data_level0.bin\n- Q&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/header.bin\n- Q&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/length.bin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Q&A-and-RAG-with-SQL-and-TabularData 文件结构",
+        "content": "Q&A-and-RAG-with-SQL-and-TabularData/.here\nQ&A-and-RAG-with-SQL-and-TabularData/README.md\nQ&A-and-RAG-with-SQL-and-TabularData/configs\nQ&A-and-RAG-with-SQL-and-TabularData/configs/app_config.yml\nQ&A-and-RAG-with-SQL-and-TabularData/data\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/data_level0.bin\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/header.bin\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/length.bin\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/6b32506c-809e-4957-8ff3-01ea94b1e096/link_lists.bin\nQ&A-and-RAG-with-SQL-and-TabularData/data/chroma/chroma.sqlite3\nQ&A-and-RAG-with-SQL-and-TabularData/data/csv_xlsx\nQ&A-and-RAG-with-SQL-and-TabularData/data/csv_xlsx/cancer.csv\nQ&A-and-RAG-with-SQL-and-TabularData/data/csv_xlsx/diabetes.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.555794595707434
+  }
+]

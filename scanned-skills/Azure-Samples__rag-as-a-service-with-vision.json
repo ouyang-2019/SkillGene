@@ -1,0 +1,133 @@
+[
+  {
+    "name": "rag-as-a-service-with-vision (Azure-Samples)",
+    "description": "[项目级] This repository offers a Python framework for a retrieval-augmented generation (RAG) pipeline using text and images from MHTML documents, leveraging Azure AI and OpenAI services. It includes ingestion and enrichment flows, a RAG with Vision pipeline, and evaluation tools.。来源: https://github.com/Azure-Samples/rag-as-a-service-with-vision",
+    "domain": "ai-llm",
+    "tags": [
+      "azure-ai-search",
+      "azure-ai-vision",
+      "cosmosdb",
+      "gpt-4o",
+      "llm",
+      "python",
+      "stars-34",
+      "github-azure-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository offers a Python framework for a retrieval-augmented generation (RAG) pipeline using text and images from MHTML documents, leveraging Azure AI and OpenAI services. It includes ingestion and enrichment flows, a RAG with Vision pipeline, and evaluation tools.\n\n来源: https://github.com/Azure-Samples/rag-as-a-service-with-vision\n语言: Python\nStars: 34",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.md\ndeploy\ndeploy/README.md\ndeploy/main.tf\ndeploy/outputs.tf\ndeploy/terraform.tfvars.example\ndeploy/variables.tf\ndocs\ndocs/assets\ndocs/evaluation.md\ndocs/vision-rag-architecture.md\nsrc\nsrc/api\nsrc/eval",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "This repository provides an application framework for a Python-based [retrieval-augmented generation (RAG)](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview) pipeline that can utilize both textual and image content from MHTML documents to answer user queries, leveraging Azure AI Services, Azure AI Search, and Azure OpenAI Service.\r\nThe project framework provides the following features:\r\n\r\n- **Ingestion flow**: Ingests MHTML files into Azure AI Search using a newly developed enrichment pipeline.\r\n- **Enrichment flow**: Enhances ingested documents by classif",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7657394585211277
+  },
+  {
+    "name": "rag-as-a-service-with-vision/deploy 模块",
+    "description": "[模块级] rag-as-a-service-with-vision 项目的 deploy 模块 (source)。来源: https://github.com/Azure-Samples/rag-as-a-service-with-vision",
+    "domain": "ai-llm",
+    "tags": [
+      "azure-ai-search",
+      "azure-ai-vision",
+      "cosmosdb",
+      "gpt-4o",
+      "llm",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 5\n\n包含文件:\n- deploy/README.md\n- deploy/main.tf\n- deploy/outputs.tf\n- deploy/terraform.tfvars.example\n- deploy/variables.tf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/README.md\ndeploy/main.tf\ndeploy/outputs.tf\ndeploy/terraform.tfvars.example\ndeploy/variables.tf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "rag-as-a-service-with-vision/docs 模块",
+    "description": "[模块级] rag-as-a-service-with-vision 项目的 docs 模块 (docs)。来源: https://github.com/Azure-Samples/rag-as-a-service-with-vision",
+    "domain": "documentation",
+    "tags": [
+      "azure-ai-search",
+      "azure-ai-vision",
+      "cosmosdb",
+      "gpt-4o",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/assets\n- docs/assets/answer-feedback-tool-screenshot.png\n- docs/assets/answer-feedback-tool-with-dropdown.png\n- docs/assets/doc-upload-flow.drawio.png\n- docs/assets/enrichment-flow.drawio.png\n- docs/assets/image-feedback-tool-screenshot.png\n- docs/assets/inference-flow.drawio.png\n- docs/assets/swagger-ui-api.png\n- docs/assets/vscode-launch-api.png\n- docs/assets/vscode-launch-eval.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/answer-feedback-tool-screenshot.png\ndocs/assets/answer-feedback-tool-with-dropdown.png\ndocs/assets/doc-upload-flow.drawio.png\ndocs/assets/enrichment-flow.drawio.png\ndocs/assets/image-feedback-tool-screenshot.png\ndocs/assets/inference-flow.drawio.png\ndocs/assets/swagger-ui-api.png\ndocs/assets/vscode-launch-api.png\ndocs/assets/vscode-launch-eval.png\ndocs/evaluation.md\ndocs/vision-rag-architecture.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "rag-as-a-service-with-vision/src 模块",
+    "description": "[模块级] rag-as-a-service-with-vision 项目的 src 模块 (source)。来源: https://github.com/Azure-Samples/rag-as-a-service-with-vision",
+    "domain": "ai-llm",
+    "tags": [
+      "azure-ai-search",
+      "azure-ai-vision",
+      "cosmosdb",
+      "gpt-4o",
+      "llm",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 110\n\n包含文件:\n- src/api\n- src/api/README.md\n- src/api/configs\n- src/api/configs/config.py\n- src/api/configs/cosmos_config.py\n- src/api/configs/sample.env\n- src/api/constants.py\n- src/api/enrichment\n- src/api/enrichment/__init__.py\n- src/api/enrichment/caching",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/api\nsrc/api/README.md\nsrc/api/configs\nsrc/api/configs/config.py\nsrc/api/configs/cosmos_config.py\nsrc/api/configs/sample.env\nsrc/api/constants.py\nsrc/api/enrichment\nsrc/api/enrichment/__init__.py\nsrc/api/enrichment/caching\nsrc/api/enrichment/caching/__init__.py\nsrc/api/enrichment/caching/caching_service.py\nsrc/api/enrichment/caching/cosmosdb_keyvalue_cache.py\nsrc/api/enrichment/classifier\nsrc/api/enrichment/classifier/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  }
+]

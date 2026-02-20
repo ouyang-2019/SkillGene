@@ -1,0 +1,158 @@
+[
+  {
+    "name": "YiVal (YiVal)",
+    "description": "[项目级] Your Automatic Prompt Engineering Assistant for GenAI Applications。来源: https://github.com/YiVal/YiVal",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-experiments",
+      "ai-toolkit",
+      "aigc",
+      "api",
+      "python",
+      "stars-2125",
+      "github-yival",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Your Automatic Prompt Engineering Assistant for GenAI Applications\n\n来源: https://github.com/YiVal/YiVal\n语言: Python\nStars: 2125",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ndefault_auto_generated_config.yaml\ndemo\ndemo/__init__.py\ndemo/animal_story.py\ndemo/auto_prompt_bot.py\ndemo/auto_reply\ndemo/code_agent.py\ndemo/complete_task.py\ndemo/configs\ndemo/data\ndemo/essay_topic_outline.py\ndemo/guardrails\ndemo/headline_generation.py\ndemo/headline_generation_detail.py\ndemo/model_compare.py\ndemo/news_article_summary.py\ndemo/place_food_generation.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.663679467193165
+  },
+  {
+    "name": "YiVal/demo 模块",
+    "description": "[模块级] YiVal 项目的 demo 模块 (example)。来源: https://github.com/YiVal/YiVal",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-experiments",
+      "ai-toolkit",
+      "aigc",
+      "api",
+      "module-level",
+      "example",
+      "demo"
+    ],
+    "genes": [
+      {
+        "title": "demo 模块说明",
+        "content": "**[Tiktok title autotune](http://ec2-35-85-28-134.us-west-2.compute.amazonaws.com:8074/enhancer-experiment-results)**",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo 文件结构",
+        "content": "demo/__init__.py\ndemo/animal_story.py\ndemo/auto_prompt_bot.py\ndemo/auto_reply\ndemo/auto_reply/__init__.py\ndemo/auto_reply/heiyueguang\ndemo/auto_reply/heiyueguang/character_definitions\ndemo/auto_reply/heiyueguang/character_definitions/澹台烬.json\ndemo/auto_reply/heiyueguang/summaries\ndemo/auto_reply/heiyueguang/summaries/summary_0.txt\ndemo/auto_reply/heiyueguang/summaries/summary_1.txt\ndemo/auto_reply/heiyueguang/summaries/summary_10.txt\ndemo/auto_reply/heiyueguang/summaries/summary_11.txt\ndemo/auto_reply/heiyueguang/summaries/summary_12.txt\ndemo/auto_reply/heiyueguang/summaries/summary_13.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8309435737545323
+  },
+  {
+    "name": "YiVal/dockerfiles 模块",
+    "description": "[模块级] YiVal 项目的 dockerfiles 模块 (source)。来源: https://github.com/YiVal/YiVal",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-experiments",
+      "ai-toolkit",
+      "aigc",
+      "api",
+      "module-level",
+      "source",
+      "dockerfiles"
+    ],
+    "genes": [
+      {
+        "title": "dockerfiles 模块说明",
+        "content": "模块路径: dockerfiles/\n类型: source\n文件数: 5\n\n包含文件:\n- dockerfiles/Demo_test_headlinegen.ipynb\n- dockerfiles/pkgs.txt\n- dockerfiles/py310_cuda11_jupyter.Dockerfile\n- dockerfiles/py310_cuda12_torch_jupyter_poetry.Dockerfile\n- dockerfiles/py311_jupyter_lab_poetry.Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dockerfiles 文件结构",
+        "content": "dockerfiles/Demo_test_headlinegen.ipynb\ndockerfiles/pkgs.txt\ndockerfiles/py310_cuda11_jupyter.Dockerfile\ndockerfiles/py310_cuda12_torch_jupyter_poetry.Dockerfile\ndockerfiles/py311_jupyter_lab_poetry.Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8309435737545323
+  },
+  {
+    "name": "YiVal/docs 模块",
+    "description": "[模块级] YiVal 项目的 docs 模块 (docs)。来源: https://github.com/YiVal/YiVal",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-experiments",
+      "ai-toolkit",
+      "aigc",
+      "api",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 22\n\n包含文件:\n- docs/.generated-files.txt\n- docs/_include\n- docs/_include/links.md\n- docs/architecture.md\n- docs/auto_prompts_generation.md\n- docs/basic_interactive_mode.md\n- docs/blog\n- docs/blog/prompt_generation_using_retrivel.md\n- docs/blog/yival_introduction.md\n- docs/changelog.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.generated-files.txt\ndocs/_include\ndocs/_include/links.md\ndocs/architecture.md\ndocs/auto_prompts_generation.md\ndocs/basic_interactive_mode.md\ndocs/blog\ndocs/blog/prompt_generation_using_retrivel.md\ndocs/blog/yival_introduction.md\ndocs/changelog.md\ndocs/contributing.md\ndocs/custom_classes\ndocs/custom_classes/data_generators.md\ndocs/custom_classes/enhancers.md\ndocs/custom_classes/evaluators.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8309435737545323
+  },
+  {
+    "name": "YiVal/src 模块",
+    "description": "[模块级] YiVal 项目的 src 模块 (source)。来源: https://github.com/YiVal/YiVal",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-experiments",
+      "ai-toolkit",
+      "aigc",
+      "api",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 25\n\n包含文件:\n- src/yival\n- src/yival/__init__.py\n- src/yival/__main__.py\n- src/yival/auto_prompt\n- src/yival/auto_prompt/__init__.py\n- src/yival/auto_prompt/default_task.py\n- src/yival/auto_prompt/main.py\n- src/yival/cli\n- src/yival/cli/__init__.py\n- src/yival/cli/bot.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/yival\nsrc/yival/__init__.py\nsrc/yival/__main__.py\nsrc/yival/auto_prompt\nsrc/yival/auto_prompt/__init__.py\nsrc/yival/auto_prompt/default_task.py\nsrc/yival/auto_prompt/main.py\nsrc/yival/cli\nsrc/yival/cli/__init__.py\nsrc/yival/cli/bot.py\nsrc/yival/cli/demo.py\nsrc/yival/cli/gen.py\nsrc/yival/cli/init.py\nsrc/yival/cli/run.py\nsrc/yival/cli/task.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8309435737545323
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "DocsGPT (arc53)",
+    "description": "[项目级] Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.。来源: https://github.com/arc53/DocsGPT",
+    "domain": "web-frontend",
+    "tags": [
+      "agent-builder",
+      "agents",
+      "ai",
+      "chatgpt",
+      "docsgpt",
+      "python",
+      "stars-17715",
+      "github-arc53",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.\n\n来源: https://github.com/arc53/DocsGPT\n语言: Python\nStars: 17715",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nHACKTOBERFEST.md\nLICENSE\nREADME.md\nSECURITY.md\napplication\napplication/Dockerfile\napplication/__init__.py\napplication/agents\napplication/api\napplication/app.py\napplication/auth.py\napplication/cache.py\napplication/celery_init.py\napplication/celeryconfig.py\napplication/core\napplication/error.py\napplication/index.faiss\napplication/index.pkl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "DocsGPT/application 模块",
+    "description": "[模块级] DocsGPT 项目的 application 模块 (source)。来源: https://github.com/arc53/DocsGPT",
+    "domain": "web-frontend",
+    "tags": [
+      "agent-builder",
+      "agents",
+      "ai",
+      "chatgpt",
+      "docsgpt",
+      "module-level",
+      "source",
+      "application"
+    ],
+    "genes": [
+      {
+        "title": "application 模块说明",
+        "content": "模块路径: application/\n类型: source\n文件数: 152\n\n包含文件:\n- application/Dockerfile\n- application/__init__.py\n- application/agents\n- application/agents/__init__.py\n- application/agents/agent_creator.py\n- application/agents/base.py\n- application/agents/classic_agent.py\n- application/agents/react_agent.py\n- application/agents/tools\n- application/agents/tools/api_body_serializer.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "application 文件结构",
+        "content": "application/Dockerfile\napplication/__init__.py\napplication/agents\napplication/agents/__init__.py\napplication/agents/agent_creator.py\napplication/agents/base.py\napplication/agents/classic_agent.py\napplication/agents/react_agent.py\napplication/agents/tools\napplication/agents/tools/api_body_serializer.py\napplication/agents/tools/api_tool.py\napplication/agents/tools/base.py\napplication/agents/tools/brave.py\napplication/agents/tools/cryptoprice.py\napplication/agents/tools/duckduckgo.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.199336462667678
+  }
+]

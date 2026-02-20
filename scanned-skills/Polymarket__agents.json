@@ -1,0 +1,127 @@
+[
+  {
+    "name": "agents (Polymarket)",
+    "description": "[项目级] Trade autonomously on Polymarket using AI Agents。来源: https://github.com/Polymarket/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2207",
+      "github-polymarket",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Trade autonomously on Polymarket using AI Agents\n\n来源: https://github.com/Polymarket/agents\n语言: Python\nStars: 2207",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/{username}/polymarket-agents.git\n   cd polymarket-agents",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE.md\nREADME.md\nagents\nagents/application\nagents/connectors\nagents/polymarket\nagents/utils\ndocs\ndocs/EXAMPLE.md\ndocs/images\nrequirements.txt\nscripts\nscripts/bash\nscripts/python\ntests\ntests/test.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Integration with Polymarket API\n- AI agent utilities for prediction markets\n- Local and remote RAG (Retrieval-Augmented Generation) support\n- Data sourcing from betting services, news providers, and web search\n- Comphrehensive LLM tools for prompt engineering",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.671901166580827
+  },
+  {
+    "name": "agents/agents 模块",
+    "description": "[模块级] agents 项目的 agents 模块 (source)。来源: https://github.com/Polymarket/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2207",
+      "github-polymarket",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Polymarket Agents is a developer framework and set of utilities for building AI agents for Polymarket.\n\nThis code is free and publicly available under MIT License open source license ([terms of service](#terms-of-service))!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/application\nagents/application/creator.py\nagents/application/cron.py\nagents/application/executor.py\nagents/application/prompts.py\nagents/application/trade.py\nagents/connectors\nagents/connectors/chroma.py\nagents/connectors/news.py\nagents/connectors/search.py\nagents/polymarket\nagents/polymarket/gamma.py\nagents/polymarket/polymarket.py\nagents/utils\nagents/utils/objects.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.837520933264662
+  },
+  {
+    "name": "agents/docs 模块",
+    "description": "[模块级] agents 项目的 docs 模块 (docs)。来源: https://github.com/Polymarket/agents",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-2207",
+      "github-polymarket",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/EXAMPLE.md\n- docs/images\n- docs/images/cli.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/EXAMPLE.md\ndocs/images\ndocs/images/cli.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.837520933264662
+  },
+  {
+    "name": "agents/scripts 模块",
+    "description": "[模块级] agents 项目的 scripts 模块 (script)。来源: https://github.com/Polymarket/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2207",
+      "github-polymarket",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "Files for managing your local environment, server set-up to run the application remotely, and cli for end-user commands.\n\n`cli.py` is the primary user interface for the repo. Users can run various commands to interact with the Polymarket API, retrieve relevant news articles, query local data, send data/prompts to LLMs, and execute trades in Polymarkets.\n\nCommands should follow this format:\n\n`python scripts/python/cli.py command_name [attribute value] [attribute value]`\n\nExample:\n\n`get-all-market",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/bash\nscripts/bash/build-docker.sh\nscripts/bash/install.sh\nscripts/bash/run-docker-dev.sh\nscripts/bash/run-docker.sh\nscripts/bash/start-dev.sh\nscripts/python\nscripts/python/cli.py\nscripts/python/server.py\nscripts/python/setup.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "scripts 代码示例",
+        "content": "python scripts/python/cli.py get-all-markets --limit <LIMIT> --sort-by <SORT_BY>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.837520933264662
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "RAGLAB (fate-ubw)",
+    "description": "[项目级] [EMNLP 2024: Demo Oral] RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation。来源: https://github.com/fate-ubw/RAGLAB",
+    "domain": "ai-llm",
+    "tags": [
+      "fair-comparison",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-310",
+      "github-fate-ubw",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[EMNLP 2024: Demo Oral] RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation\n\n来源: https://github.com/fate-ubw/RAGLAB\n语言: Python\nStars: 310",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- dev environment：pytorch:2.0.1-py3.10-cuda11.8.0-devel-ubuntu22.04\n- [install miniconda](https://docs.anaconda.com/free/miniconda/index.html)\n\n- git clone RAGLAB\n  ~~~bash\n  https://github.com/fate-ubw/RAGLAB.git\n  ~~~\n\n- create environment from yml file \n  ~~~bash\n  cd RAGLAB\n  conda env create -f environment.yml\n  ~~~\n- install flash-attn, en_core_web_sm, punkt manually\n  ~~~bash\n  pip install flash-attn==2.2\n  python -m spacy download en_core_web_sm\n  python -m nltk.downloader punkt\n  ~~~",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ALCE\nALCE/.gitignore\nALCE/LICENSE\nALCE/README.md\nALCE/assets\nALCE/configs\nALCE/download_data.sh\nALCE/eval.py\nALCE/human_eval\nALCE/paper\nALCE/post_hoc_cite.py\nALCE/prompts\nALCE/requirements.txt\nALCE/retrieval.py\nALCE/run.py\nALCE/searcher.py\nALCE/tools\nALCE/utils.py\nFActScore\nFActScore/LICENSE",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Comprehensive RAG Ecosystem:** Supports the entire RAG pipeline from data collection and training to auto-evaluation.\n- **Advanced Algorithm Implementations:** Reproduces 6 state-of-the-art RAG algorithms, with an easy-to-extend framework for developing new algorithms.\n- **Interact Mode & Evaluation Mode:** Interact Mode is specifically designed for quickly understanding algorithms. Evaluation Mode is specifically designed for reproducing paper results and scientific research.\n- **Fair Comparison Platform:** Provides benchmark results for 6 algorithms across 5 task types and 10 datasets.\n-",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2456808469171365
+  },
+  {
+    "name": "RAGLAB/ALCE 模块",
+    "description": "[模块级] RAGLAB 项目的 ALCE 模块 (source)。来源: https://github.com/fate-ubw/RAGLAB",
+    "domain": "ai-llm",
+    "tags": [
+      "fair-comparison",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "alce"
+    ],
+    "genes": [
+      {
+        "title": "ALCE 模块说明",
+        "content": "- RAGLAB includes 3 classic evaluation methods: accuracy, F1, and EM (Exact Match). These 3 methods are simple to calculate, so they can be computed dynamically during the inference process. However, ALCE and Factscore, two advanced metrics, require the completion of the inference process before evaluation.\n- **ALCE**: RAGLAB has integrated the ALCE repository into RAGLAB. You only need to set the path for the inference results in the config file.\n  ~~~bash\n  cd RAGLAB\n  cd run/ALCE/\n\n  # Change",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ALCE 文件结构",
+        "content": "ALCE/.gitignore\nALCE/LICENSE\nALCE/README.md\nALCE/assets\nALCE/assets/ALCE.png\nALCE/assets/moose.png\nALCE/configs\nALCE/configs/asqa_alpaca-7b_shot1_ndoc3_gtr_default.yaml\nALCE/configs/asqa_alpaca-7b_shot2_ndoc3_gtr_light_inst.yaml\nALCE/configs/asqa_gpt4_shot2_ndoc10_gtr_default.yaml\nALCE/configs/asqa_gpt4_shot2_ndoc20_gtr_default.yaml\nALCE/configs/asqa_gpt4_shot2_ndoc5_gtr_default.yaml\nALCE/configs/asqa_llama-13b_shot2_ndoc10_gtr_extraction.yaml\nALCE/configs/asqa_llama-13b_shot2_ndoc10_gtr_summary.yaml\nALCE/configs/asqa_llama-13b_shot2_ndoc3_gtr_light_inst.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4965446775337092
+  },
+  {
+    "name": "RAGLAB/FActScore 模块",
+    "description": "[模块级] RAGLAB 项目的 FActScore 模块 (source)。来源: https://github.com/fate-ubw/RAGLAB",
+    "domain": "ai-llm",
+    "tags": [
+      "fair-comparison",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "factscore"
+    ],
+    "genes": [
+      {
+        "title": "FActScore 模块说明",
+        "content": "- RAGLAB includes 3 classic evaluation methods: accuracy, F1, and EM (Exact Match). These 3 methods are simple to calculate, so they can be computed dynamically during the inference process. However, ALCE and Factscore, two advanced metrics, require the completion of the inference process before evaluation.\n- **ALCE**: RAGLAB has integrated the ALCE repository into RAGLAB. You only need to set the path for the inference results in the config file.\n  ~~~bash\n  cd RAGLAB\n  cd run/ALCE/\n\n  # Change",
+        "gene_type": "principle"
+      },
+      {
+        "title": "FActScore 文件结构",
+        "content": "FActScore/LICENSE\nFActScore/README.md\nFActScore/factscore\nFActScore/factscore/__init__.py\nFActScore/factscore/abstain_detection.py\nFActScore/factscore/atomic_facts.py\nFActScore/factscore/clm.py\nFActScore/factscore/download_data.py\nFActScore/factscore/factscorer.py\nFActScore/factscore/lm.py\nFActScore/factscore/npm.py\nFActScore/factscore/openai_lm.py\nFActScore/factscore/retrieval.py\nFActScore/factscore/utils.py\nFActScore/preprocessing",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4965446775337092
+  },
+  {
+    "name": "RAGLAB/auto_gpu_scheduling_scripts 模块",
+    "description": "[模块级] RAGLAB 项目的 auto_gpu_scheduling_scripts 模块 (source)。来源: https://github.com/fate-ubw/RAGLAB",
+    "domain": "ai-llm",
+    "tags": [
+      "fair-comparison",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "auto_gpu_scheduling_scripts"
+    ],
+    "genes": [
+      {
+        "title": "auto_gpu_scheduling_scripts 模块说明",
+        "content": "模块路径: auto_gpu_scheduling_scripts/\n类型: source\n文件数: 6\n\n包含文件:\n- auto_gpu_scheduling_scripts/auto_eval_ALCE.txt\n- auto_gpu_scheduling_scripts/auto_run-Llama3_70B-baseline_4bit-scripts.txt\n- auto_gpu_scheduling_scripts/auto_run-factscore.txt\n- auto_gpu_scheduling_scripts/auto_run-llama3_8b-baseline-scripts.txt\n- auto_gpu_scheduling_scripts/auto_run-selfrag-8B.txt\n- auto_gpu_scheduling_scripts/auto_run_chat_scripts.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "auto_gpu_scheduling_scripts 文件结构",
+        "content": "auto_gpu_scheduling_scripts/auto_eval_ALCE.txt\nauto_gpu_scheduling_scripts/auto_run-Llama3_70B-baseline_4bit-scripts.txt\nauto_gpu_scheduling_scripts/auto_run-factscore.txt\nauto_gpu_scheduling_scripts/auto_run-llama3_8b-baseline-scripts.txt\nauto_gpu_scheduling_scripts/auto_run-selfrag-8B.txt\nauto_gpu_scheduling_scripts/auto_run_chat_scripts.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4965446775337092
+  },
+  {
+    "name": "RAGLAB/config 模块",
+    "description": "[模块级] RAGLAB 项目的 config 模块 (config)。来源: https://github.com/fate-ubw/RAGLAB",
+    "domain": "devops",
+    "tags": [
+      "fair-comparison",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 46\n\n包含文件:\n- config/active_rag\n- config/active_rag/active_rag-ASQA-Chatgpt.yaml\n- config/active_rag/active_rag-ASQA-Llama3-70B-baseline.yaml\n- config/active_rag/active_rag-ASQA-Llama3-70B-baseline_4bit.yaml\n- config/active_rag/active_rag-ASQA-Llama3-baseline.yaml\n- config/active_rag/active_rag-ArcChallenge-Chatgpt.yaml\n- config/active_rag/active_rag-ArcChallenge-Llama3-70B-baseline.yaml\n- config/active_rag/active_rag-ArcChallenge-Llama3-70B-baseline_4bit.yaml\n- config/active_rag/active_rag-ArcChallenge-Llama3-baseline.yaml\n- config/active_rag/active_rag-Factscore-Chatgpt.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/active_rag\nconfig/active_rag/active_rag-ASQA-Chatgpt.yaml\nconfig/active_rag/active_rag-ASQA-Llama3-70B-baseline.yaml\nconfig/active_rag/active_rag-ASQA-Llama3-70B-baseline_4bit.yaml\nconfig/active_rag/active_rag-ASQA-Llama3-baseline.yaml\nconfig/active_rag/active_rag-ArcChallenge-Chatgpt.yaml\nconfig/active_rag/active_rag-ArcChallenge-Llama3-70B-baseline.yaml\nconfig/active_rag/active_rag-ArcChallenge-Llama3-70B-baseline_4bit.yaml\nconfig/active_rag/active_rag-ArcChallenge-Llama3-baseline.yaml\nconfig/active_rag/active_rag-Factscore-Chatgpt.yaml\nconfig/active_rag/active_rag-Factscore-Llama3-70B-baseline.yaml\nconfig/active_rag/active_rag-Factscore-Llama3-70B-baseline_4bit.yaml\nconfig/active_rag/active_rag-Factscore-Llama3-baseline.yaml\nconfig/active_rag/active_rag-HotPotQA-Chatgpt.yaml\nconfig/active_rag/active_rag-HotPotQA-Llama3-70B-baseline.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4965446775337092
+  }
+]

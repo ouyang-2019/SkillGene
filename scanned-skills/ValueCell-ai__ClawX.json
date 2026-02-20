@@ -1,0 +1,168 @@
+[
+  {
+    "name": "ClawX (ValueCell-ai)",
+    "description": "[项目级] ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. We’ve moved from clawx.dev to claw-x.com.。来源: https://github.com/ValueCell-ai/ClawX",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "clawdbot",
+      "typescript",
+      "stars-1063",
+      "github-valuecell-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**ClawX** bridges the gap between powerful AI agents and everyday users. Built on top of [OpenClaw](https://github.com/OpenClaw), it transforms command-line AI orchestration into an accessible, beautiful desktop experience—no terminal required.\n\nWhether you're automating workflows, managing AI-powered channels, or scheduling intelligent tasks, ClawX provides the interface you need to harness AI agents effectively.\n\nClawX comes pre-configured with best-practice model providers and natively supports Windows as well as multi-language settings. Of course, you can also fine-tune advanced configurations via **Settings → Advanced → Developer Mode**.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nLICENSE\nREADME.md\nREADME.zh-CN.md\nSECURITY.md\nelectron-builder.yml\nelectron\nelectron/gateway\nelectron/main\nelectron/preload\nelectron/utils\nentitlements.mac.plist\neslint.config.mjs\nindex.html\npackage.json\npnpm-lock.yaml\npnpm-workspace.yaml\npostcss.config.js\nresources\nresources/dmg-background.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Fork** the repository\n2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)\n3. **Commit** your changes with clear messages\n4. **Push** to your branch\n5. **Open** a Pull Request",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.513266632261648
+  },
+  {
+    "name": "ClawX/electron 模块",
+    "description": "[模块级] ClawX 项目的 electron 模块 (source)。来源: https://github.com/ValueCell-ai/ClawX",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "clawdbot",
+      "module-level",
+      "source",
+      "electron"
+    ],
+    "genes": [
+      {
+        "title": "electron 模块说明",
+        "content": "模块路径: electron/\n类型: source\n文件数: 29\n\n包含文件:\n- electron/gateway\n- electron/gateway/clawhub.ts\n- electron/gateway/client.ts\n- electron/gateway/manager.ts\n- electron/gateway/protocol.ts\n- electron/main\n- electron/main/index.ts\n- electron/main/ipc-handlers.ts\n- electron/main/menu.ts\n- electron/main/tray.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "electron 文件结构",
+        "content": "electron/gateway\nelectron/gateway/clawhub.ts\nelectron/gateway/client.ts\nelectron/gateway/manager.ts\nelectron/gateway/protocol.ts\nelectron/main\nelectron/main/index.ts\nelectron/main/ipc-handlers.ts\nelectron/main/menu.ts\nelectron/main/tray.ts\nelectron/main/updater.ts\nelectron/main/window.ts\nelectron/preload\nelectron/preload/index.ts\nelectron/utils",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7106133058093187
+  },
+  {
+    "name": "ClawX/resources 模块",
+    "description": "[模块级] ClawX 项目的 resources 模块 (source)。来源: https://github.com/ValueCell-ai/ClawX",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "clawdbot",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 34\n\n包含文件:\n- resources/dmg-background.png\n- resources/icons\n- resources/icons/.gitkeep\n- resources/icons/128x128.png\n- resources/icons/16x16.png\n- resources/icons/256x256.png\n- resources/icons/32x32.png\n- resources/icons/48x48.png\n- resources/icons/512x512.png\n- resources/icons/64x64.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/dmg-background.png\nresources/icons\nresources/icons/.gitkeep\nresources/icons/128x128.png\nresources/icons/16x16.png\nresources/icons/256x256.png\nresources/icons/32x32.png\nresources/icons/48x48.png\nresources/icons/512x512.png\nresources/icons/64x64.png\nresources/icons/README.md\nresources/icons/icon-plain.svg\nresources/icons/icon.icns\nresources/icons/icon.ico\nresources/icons/icon.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7106133058093187
+  },
+  {
+    "name": "ClawX/scripts 模块",
+    "description": "[模块级] ClawX 项目的 scripts 模块 (script)。来源: https://github.com/ValueCell-ai/ClawX",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "clawdbot",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 9\n\n包含文件:\n- scripts/after-pack.cjs\n- scripts/bundle-openclaw.mjs\n- scripts/crop_qr.py\n- scripts/download-bundled-uv.mjs\n- scripts/generate-icons.mjs\n- scripts/installer.nsh\n- scripts/linux\n- scripts/linux/after-install.sh\n- scripts/linux/after-remove.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/after-pack.cjs\nscripts/bundle-openclaw.mjs\nscripts/crop_qr.py\nscripts/download-bundled-uv.mjs\nscripts/generate-icons.mjs\nscripts/installer.nsh\nscripts/linux\nscripts/linux/after-install.sh\nscripts/linux/after-remove.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7106133058093187
+  },
+  {
+    "name": "ClawX/src 模块",
+    "description": "[模块级] ClawX 项目的 src 模块 (source)。来源: https://github.com/ValueCell-ai/ClawX",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "clawdbot",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 104\n\n包含文件:\n- src/App.tsx\n- src/assets\n- src/assets/community\n- src/assets/community/20260212-185822.png\n- src/assets/community/feishu-qr.png\n- src/assets/community/wecom-qr.png\n- src/assets/logo.svg\n- src/assets/providers\n- src/assets/providers/anthropic.svg\n- src/assets/providers/custom.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.tsx\nsrc/assets\nsrc/assets/community\nsrc/assets/community/20260212-185822.png\nsrc/assets/community/feishu-qr.png\nsrc/assets/community/wecom-qr.png\nsrc/assets/logo.svg\nsrc/assets/providers\nsrc/assets/providers/anthropic.svg\nsrc/assets/providers/custom.svg\nsrc/assets/providers/google.svg\nsrc/assets/providers/index.ts\nsrc/assets/providers/moonshot.svg\nsrc/assets/providers/ollama.svg\nsrc/assets/providers/openai.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7106133058093187
+  }
+]

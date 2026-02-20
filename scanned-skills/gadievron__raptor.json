@@ -5,7 +5,7 @@
     "domain": "ai-llm",
     "tags": [
       "python",
-      "stars-1129",
+      "stars-1130",
       "github-gadievron",
       "project-level"
     ],
@@ -33,7 +33,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.526346970962484
+    "rating": 4.52653922174171
   },
   {
     "name": "raptor/core 模块",
@@ -41,7 +41,7 @@
     "domain": "ai-llm",
     "tags": [
       "python",
-      "stars-1129",
+      "stars-1130",
       "github-gadievron",
       "module-level",
       "source",
@@ -61,7 +61,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7210775767699875
+    "rating": 3.721231377393368
   },
   {
     "name": "raptor/docs 模块",
@@ -69,7 +69,7 @@
     "domain": "documentation",
     "tags": [
       "python",
-      "stars-1129",
+      "stars-1130",
       "github-gadievron",
       "module-level",
       "docs",
@@ -89,7 +89,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7210775767699875
+    "rating": 3.721231377393368
   },
   {
     "name": "raptor/engine 模块",
@@ -97,7 +97,7 @@
     "domain": "ai-llm",
     "tags": [
       "python",
-      "stars-1129",
+      "stars-1130",
       "github-gadievron",
       "module-level",
       "source",
@@ -117,7 +117,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7210775767699875
+    "rating": 3.721231377393368
   },
   {
     "name": "raptor/packages 模块",
@@ -125,7 +125,7 @@
     "domain": "ai-llm",
     "tags": [
       "python",
-      "stars-1129",
+      "stars-1130",
       "github-gadievron",
       "module-level",
       "source",
@@ -145,6 +145,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7210775767699875
+    "rating": 3.721231377393368
   }
 ]

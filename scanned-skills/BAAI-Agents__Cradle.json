@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Cradle (BAAI-Agents)",
+    "description": "[项目级] The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.。来源: https://github.com/BAAI-Agents/Cradle",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "computer-control",
+      "cradle",
+      "python",
+      "stars-2452",
+      "github-baai-agents",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.\n\n来源: https://github.com/BAAI-Agents/Cradle\n语言: Python\nStars: 2452",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ENVIRONMENTS.md\nLICENSE\nREADME.md\n__init__.py\ncache\ncache/GroundingDINO_SwinB_cfg.py\nconf\nconf/azure_text_config.json\nconf/azure_vis_config.json\nconf/claude_config.json\nconf/env_config_capcut.json\nconf/env_config_chrome.json\nconf/env_config_dealers.json\nconf/env_config_feishu.json\nconf/env_config_outlook.json\nconf/env_config_rdr2_main_storyline.json\nconf/env_config_rdr2_open_ended_mission.json\nconf/env_config_skylines.json\nconf/env_config_stardew_cultivation.json\nconf/env_config_stardew_farm_clearup.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.694760232923189
+  },
+  {
+    "name": "Cradle/conf 模块",
+    "description": "[模块级] Cradle 项目的 conf 模块 (source)。来源: https://github.com/BAAI-Agents/Cradle",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "computer-control",
+      "cradle",
+      "module-level",
+      "source",
+      "conf"
+    ],
+    "genes": [
+      {
+        "title": "conf 模块说明",
+        "content": "模块路径: conf/\n类型: source\n文件数: 18\n\n包含文件:\n- conf/azure_text_config.json\n- conf/azure_vis_config.json\n- conf/claude_config.json\n- conf/env_config_capcut.json\n- conf/env_config_chrome.json\n- conf/env_config_dealers.json\n- conf/env_config_feishu.json\n- conf/env_config_outlook.json\n- conf/env_config_rdr2_main_storyline.json\n- conf/env_config_rdr2_open_ended_mission.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "conf 文件结构",
+        "content": "conf/azure_text_config.json\nconf/azure_vis_config.json\nconf/claude_config.json\nconf/env_config_capcut.json\nconf/env_config_chrome.json\nconf/env_config_dealers.json\nconf/env_config_feishu.json\nconf/env_config_outlook.json\nconf/env_config_rdr2_main_storyline.json\nconf/env_config_rdr2_open_ended_mission.json\nconf/env_config_skylines.json\nconf/env_config_stardew_cultivation.json\nconf/env_config_stardew_farm_clearup.json\nconf/env_config_stardew_shopping.json\nconf/env_config_xiuxiu.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8558081863385514
+  },
+  {
+    "name": "Cradle/cradle 模块",
+    "description": "[模块级] Cradle 项目的 cradle 模块 (source)。来源: https://github.com/BAAI-Agents/Cradle",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "computer-control",
+      "cradle",
+      "module-level",
+      "source",
+      "cradle"
+    ],
+    "genes": [
+      {
+        "title": "cradle 模块说明",
+        "content": "<div align=\"center\">\n\n[[Website]](https://baai-agents.github.io/Cradle/)\n[[arXiv]](https://arxiv.org/abs/2403.03186)\n[[PDF]](https://arxiv.org/pdf/2403.03186)\n\n[![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)]()\n[![GitHub license](https://img.shields.io/badge/MIT-blue)]()\n\n![](docs/images/cradle-intro-cr.png)\n\n</div>\n\nThe Cradle framework empowers nascent foundation models to perform complex computer tasks\nvia the same unified interface humans use, i.e., screenshots as input",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cradle 文件结构",
+        "content": "cradle/__init__.py\ncradle/config\ncradle/config/__init__.py\ncradle/config/config.py\ncradle/constants.py\ncradle/environment\ncradle/environment/__init__.py\ncradle/environment/capcut\ncradle/environment/capcut/__init__.py\ncradle/environment/capcut/atomic_skills\ncradle/environment/capcut/atomic_skills/__init__.py\ncradle/environment/capcut/atomic_skills/interact.py\ncradle/environment/capcut/composite_skills\ncradle/environment/capcut/composite_skills/__init__.py\ncradle/environment/capcut/composite_skills/aug_interact.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8558081863385514
+  }
+]

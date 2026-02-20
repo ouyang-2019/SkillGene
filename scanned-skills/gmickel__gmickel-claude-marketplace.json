@@ -1,0 +1,33 @@
+[
+  {
+    "name": "gmickel-claude-marketplace (gmickel)",
+    "description": "[项目级] Claude Code plugins for reliable AI coding. Flow-Next: plan-first workflows, Ralph autonomous mode (overnight coding with fresh context), multi-model review gates via RepoPrompt/Codex, re-anchoring to prevent drift, receipt-based gating.。来源: https://github.com/gmickel/gmickel-claude-marketplace",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-workflow",
+      "anthropic",
+      "autonomous-agent",
+      "claude-code",
+      "python",
+      "stars-515",
+      "github-gmickel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code plugins for reliable AI coding. Flow-Next: plan-first workflows, Ralph autonomous mode (overnight coding with fresh context), multi-model review gates via RepoPrompt/Codex, re-anchoring to prevent drift, receipt-based gating.\n\n来源: https://github.com/gmickel/gmickel-claude-marketplace\n语言: Python\nStars: 515",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add https://github.com/gmickel/gmickel-claude-marketplace\n/plugin install flow-next",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.355903614520596
+  }
+]

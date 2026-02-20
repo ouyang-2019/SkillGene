@@ -10,14 +10,14 @@
       "claude-code",
       "codex",
       "python",
-      "stars-1248",
+      "stars-1249",
       "github-cloudai-x",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands\n\n来源: https://github.com/CloudAI-X/claude-workflow-v2\n语言: Python\nStars: 1248",
+        "content": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands\n\n来源: https://github.com/CloudAI-X/claude-workflow-v2\n语言: Python\nStars: 1249",
         "gene_type": "principle"
       },
       {
@@ -38,7 +38,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.548107292673203
+    "rating": 4.548281219187068
   },
   {
     "name": "claude-workflow-v2/agents 模块",
@@ -73,7 +73,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/commands 模块",
@@ -108,7 +108,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/examples 模块",
@@ -138,7 +138,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/hooks 模块",
@@ -173,7 +173,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/packages 模块",
@@ -203,7 +203,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/skills 模块",
@@ -238,7 +238,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   },
   {
     "name": "claude-workflow-v2/templates 模块",
@@ -268,6 +268,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7384858341385625
+    "rating": 3.738624975349654
   }
 ]

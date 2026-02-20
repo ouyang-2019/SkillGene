@@ -1,0 +1,173 @@
+[
+  {
+    "name": "oh-my-codex (Yeachan-Heo)",
+    "description": "[项目级] OmX - Oh My Codex: Power tools for OpenAI Codex CLI。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OmX - Oh My Codex: Power tools for OpenAI Codex CLI\n\n来源: https://github.com/Yeachan-Heo/oh-my-codex\n语言: TypeScript\nStars: 668",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- `~/.codex/prompts/` (30 prompt files)\n- `~/.agents/skills/` (40 skills)\n- `~/.codex/config.toml` updates:\n  - `notify = [\"node\", \"...\"]`\n  - `model_reasoning_effort = \"high\"`\n  - `developer_instructions = \"...\"`\n  - `[features] multi_agent = true, child_agents_md = true`\n  - MCP server entries (`omx_state`, `omx_memory`, `omx_code_intel`, `omx_trace`)\n  - `[tui] status_line`\n- Project `AGENTS.md`\n- `.omx/` runtime directories and HUD config",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCONTRIBUTING.md\nCOVERAGE.md\nDEMO.md\nREADME.es.md\nREADME.ja.md\nREADME.ko.md\nREADME.md\nREADME.pt.md\nREADME.ru.md\nREADME.vi.md\nREADME.zh.md\nbin\nbin/omx.js\ndocs\ndocs/_config.yml\ndocs/agents.html\ndocs/getting-started.html\ndocs/guidance-schema.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.412388231237773
+  },
+  {
+    "name": "oh-my-codex/docs 模块",
+    "description": "[模块级] oh-my-codex 项目的 docs 模块 (docs)。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 13\n\n包含文件:\n- docs/_config.yml\n- docs/agents.html\n- docs/getting-started.html\n- docs/guidance-schema.md\n- docs/hooks-extension.md\n- docs/index.html\n- docs/prompt-migration-changelog.md\n- docs/qa-plan-0.4.2.md\n- docs/qa-report-0.4.2.md\n- docs/shared",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/_config.yml\ndocs/agents.html\ndocs/getting-started.html\ndocs/guidance-schema.md\ndocs/hooks-extension.md\ndocs/index.html\ndocs/prompt-migration-changelog.md\ndocs/qa-plan-0.4.2.md\ndocs/qa-report-0.4.2.md\ndocs/shared\ndocs/shared/agent-tiers.md\ndocs/skills.html\ndocs/style.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "oh-my-codex/prompts 模块",
+    "description": "[模块级] oh-my-codex 项目的 prompts 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 31\n\n包含文件:\n- prompts/analyst.md\n- prompts/api-reviewer.md\n- prompts/architect.md\n- prompts/build-fixer.md\n- prompts/code-reviewer.md\n- prompts/code-simplifier.md\n- prompts/critic.md\n- prompts/debugger.md\n- prompts/deep-executor.md\n- prompts/dependency-expert.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/analyst.md\nprompts/api-reviewer.md\nprompts/architect.md\nprompts/build-fixer.md\nprompts/code-reviewer.md\nprompts/code-simplifier.md\nprompts/critic.md\nprompts/debugger.md\nprompts/deep-executor.md\nprompts/dependency-expert.md\nprompts/designer.md\nprompts/executor.md\nprompts/explore.md\nprompts/git-master.md\nprompts/information-architect.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "oh-my-codex/scripts 模块",
+    "description": "[模块级] oh-my-codex 项目的 scripts 模块 (script)。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/hook-derived-watcher.js\n- scripts/notify-fallback-watcher.js\n- scripts/notify-hook.js\n- scripts/tmux-hook-engine.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/hook-derived-watcher.js\nscripts/notify-fallback-watcher.js\nscripts/notify-hook.js\nscripts/tmux-hook-engine.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "oh-my-codex/skills 模块",
+    "description": "[模块级] oh-my-codex 项目的 skills 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "- Prompts: `prompts/*.md` (installed to `~/.codex/prompts/`)\n- Skills: `skills/*/SKILL.md` (installed to `~/.agents/skills/`)\n\nExamples:\n- Agents: `architect`, `planner`, `executor`, `debugger`, `verifier`, `security-reviewer`\n- `deep-executor` is deprecated; use `executor` for complex implementation tasks.\n- Skills: `autopilot`, `plan`, `team`, `ralph`, `ultrawork`, `ultrapilot`, `research`, `cancel`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/analyze\nskills/analyze/SKILL.md\nskills/autopilot\nskills/autopilot/SKILL.md\nskills/build-fix\nskills/build-fix/SKILL.md\nskills/cancel\nskills/cancel/SKILL.md\nskills/code-review\nskills/code-review/SKILL.md\nskills/configure-discord\nskills/configure-discord/SKILL.md\nskills/configure-telegram\nskills/configure-telegram/SKILL.md\nskills/deepinit",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "oh-my-codex/src 模块",
+    "description": "[模块级] oh-my-codex 项目的 src 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-codex",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-668",
+      "github-yeachan-heo",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 40\n\n包含文件:\n- src/agents\n- src/agents/definitions.ts\n- src/agents/native-config.ts\n- src/cli\n- src/cli/__tests__\n- src/cli/__tests__/doctor-team.test.ts\n- src/cli/__tests__/index.test.ts\n- src/cli/__tests__/lifecycle-notifications.test.ts\n- src/cli/__tests__/session-scoped-runtime.test.ts\n- src/cli/__tests__/setup-gh-star.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/definitions.ts\nsrc/agents/native-config.ts\nsrc/cli\nsrc/cli/__tests__\nsrc/cli/__tests__/doctor-team.test.ts\nsrc/cli/__tests__/index.test.ts\nsrc/cli/__tests__/lifecycle-notifications.test.ts\nsrc/cli/__tests__/session-scoped-runtime.test.ts\nsrc/cli/__tests__/setup-gh-star.test.ts\nsrc/cli/__tests__/star-prompt.test.ts\nsrc/cli/__tests__/update.test.ts\nsrc/cli/doctor.ts\nsrc/cli/hooks.ts\nsrc/cli/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  }
+]

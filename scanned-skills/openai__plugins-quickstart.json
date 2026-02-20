@@ -1,0 +1,35 @@
+[
+  {
+    "name": "plugins-quickstart (openai)",
+    "description": "[项目级] Get a ChatGPT plugin up and running in under 5 minutes!。来源: https://github.com/openai/plugins-quickstart",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-4236",
+      "github-openai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Get a ChatGPT plugin up and running in under 5 minutes!\n\n来源: https://github.com/openai/plugins-quickstart\n语言: Python\nStars: 4236",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nlogo.png\nmain.py\nopenapi.yaml\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.813477975717724
+  }
+]

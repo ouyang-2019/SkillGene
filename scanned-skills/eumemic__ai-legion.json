@@ -1,0 +1,89 @@
+[
+  {
+    "name": "ai-legion (eumemic)",
+    "description": "[项目级] An LLM-powered autonomous agent platform。来源: https://github.com/eumemic/ai-legion",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1428",
+      "github-eumemic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An LLM-powered autonomous agent platform\n\n来源: https://github.com/eumemic/ai-legion\n语言: TypeScript\nStars: 1428",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\njest.config.js\nmemories\nmemories/ineffectual\nmemories/same-error\nmemories/strange-loop\nmemories/summarizing-bug\nmodel-registry.json\npackage-lock.json\npackage.json\npoems\npoems/GPT-Legion_A_Symphony_of_Autonomous_Endeavor.txt\nsrc\nsrc/action-handler.ts\nsrc/agent.ts\nsrc/console.ts\nsrc/in-memory-message-bus.ts\nsrc/main.ts\nsrc/make-decision.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.577364103720078
+  },
+  {
+    "name": "ai-legion/memories 模块",
+    "description": "[模块级] ai-legion 项目的 memories 模块 (source)。来源: https://github.com/eumemic/ai-legion",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1428",
+      "github-eumemic",
+      "module-level",
+      "source",
+      "memories"
+    ],
+    "genes": [
+      {
+        "title": "memories 模块说明",
+        "content": "模块路径: memories/\n类型: source\n文件数: 8\n\n包含文件:\n- memories/ineffectual\n- memories/ineffectual/memory\n- memories/same-error\n- memories/same-error/memory\n- memories/strange-loop\n- memories/strange-loop/memory\n- memories/summarizing-bug\n- memories/summarizing-bug/memory",
+        "gene_type": "principle"
+      },
+      {
+        "title": "memories 文件结构",
+        "content": "memories/ineffectual\nmemories/ineffectual/memory\nmemories/same-error\nmemories/same-error/memory\nmemories/strange-loop\nmemories/strange-loop/memory\nmemories/summarizing-bug\nmemories/summarizing-bug/memory",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7618912829760625
+  },
+  {
+    "name": "ai-legion/src 模块",
+    "description": "[模块级] ai-legion 项目的 src 模块 (source)。来源: https://github.com/eumemic/ai-legion",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1428",
+      "github-eumemic",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 41\n\n包含文件:\n- src/action-handler.ts\n- src/agent.ts\n- src/console.ts\n- src/in-memory-message-bus.ts\n- src/main.ts\n- src/make-decision.ts\n- src/memory\n- src/memory/index.ts\n- src/memory/memory.ts\n- src/message-bus.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/action-handler.ts\nsrc/agent.ts\nsrc/console.ts\nsrc/in-memory-message-bus.ts\nsrc/main.ts\nsrc/make-decision.ts\nsrc/memory\nsrc/memory/index.ts\nsrc/memory/memory.ts\nsrc/message-bus.ts\nsrc/message.ts\nsrc/module\nsrc/module/action-definition.ts\nsrc/module/define-module.ts\nsrc/module/definitions",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7618912829760625
+  }
+]

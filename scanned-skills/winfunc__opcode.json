@@ -1,0 +1,138 @@
+[
+  {
+    "name": "opcode (winfunc)",
+    "description": "[项目级] A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.。来源: https://github.com/winfunc/opcode",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus",
+      "typescript",
+      "stars-20610",
+      "github-winfunc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**opcode** is a powerful desktop application that transforms how you interact with Claude Code. Built with Tauri 2, it provides a beautiful GUI for managing your Claude Code sessions, creating custom agents, tracking usage, and much more.\n\nThink of opcode as your command center for Claude Code - bridging the gap between the command-line tool and a visual experience that makes AI-assisted development more intuitive and productive.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Launch opcode**: Open the application after installation\n2. **Welcome Screen**: Choose between CC Agents or Projects\n3. **First Time Setup**: opcode will automatically detect your `~/.claude` directory",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nbun.lock\nbun.lockb\ncc_agents\ncc_agents/README.md\ncc_agents/git-commit-bot.opcode.json\ncc_agents/security-scanner.opcode.json\ncc_agents/unit-tests-bot.opcode.json\nindex.html\njustfile\npackage-lock.json\npackage.json\nscripts\nscripts/bump-version.sh\nshell.nix\nsrc-tauri\nsrc-tauri/.gitignore\nsrc-tauri/Cargo.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- **Cost Tracking**: Monitor your Claude API usage and costs in real-time\n- **Token Analytics**: Detailed breakdown by model, project, and time period\n- **Visual Charts**: Beautiful charts showing usage trends and patterns\n- **Export Data**: Export usage data for accounting and analysis",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "opcode/cc_agents 模块",
+    "description": "[模块级] opcode 项目的 cc_agents 模块 (source)。来源: https://github.com/winfunc/opcode",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus",
+      "module-level",
+      "source",
+      "cc_agents"
+    ],
+    "genes": [
+      {
+        "title": "cc_agents 模块说明",
+        "content": "模块路径: cc_agents/\n类型: source\n文件数: 4\n\n包含文件:\n- cc_agents/README.md\n- cc_agents/git-commit-bot.opcode.json\n- cc_agents/security-scanner.opcode.json\n- cc_agents/unit-tests-bot.opcode.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cc_agents 文件结构",
+        "content": "cc_agents/README.md\ncc_agents/git-commit-bot.opcode.json\ncc_agents/security-scanner.opcode.json\ncc_agents/unit-tests-bot.opcode.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225631196711685
+  },
+  {
+    "name": "opcode/src-tauri 模块",
+    "description": "[模块级] opcode 项目的 src-tauri 模块 (source)。来源: https://github.com/winfunc/opcode",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 93\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/Info.plist\n- src-tauri/build.rs\n- src-tauri/capabilities\n- src-tauri/capabilities/default.json\n- src-tauri/entitlements.plist\n- src-tauri/icons\n- src-tauri/icons/128x128.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/Info.plist\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/entitlements.plist\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/64x64.png\nsrc-tauri/icons/Square107x107Logo.png\nsrc-tauri/icons/Square142x142Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225631196711685
+  },
+  {
+    "name": "opcode/src 模块",
+    "description": "[模块级] opcode 项目的 src 模块 (source)。来源: https://github.com/winfunc/opcode",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-4",
+      "claude-4-opus",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 76\n\n包含文件:\n- src/App.tsx\n- src/assets\n- src/assets/fonts\n- src/assets/fonts/inter\n- src/assets/fonts/inter/Inter.ttf\n- src/assets/nfo\n- src/assets/nfo/asterisk-logo.png\n- src/assets/nfo/opcode-nfo.ogg\n- src/assets/shimmer.css\n- src/components",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.tsx\nsrc/assets\nsrc/assets/fonts\nsrc/assets/fonts/inter\nsrc/assets/fonts/inter/Inter.ttf\nsrc/assets/nfo\nsrc/assets/nfo/asterisk-logo.png\nsrc/assets/nfo/opcode-nfo.ogg\nsrc/assets/shimmer.css\nsrc/components\nsrc/components/AgentExecution.tsx\nsrc/components/AgentExecutionDemo.tsx\nsrc/components/AgentRunOutputViewer.tsx\nsrc/components/AgentRunView.tsx\nsrc/components/AgentRunsList.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225631196711685
+  }
+]

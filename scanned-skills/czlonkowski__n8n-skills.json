@@ -8,7 +8,7 @@
       "n8n",
       "workflow-automation",
       "shell",
-      "stars-2887",
+      "stars-2889",
       "github-czlonkowski",
       "project-level"
     ],
@@ -36,7 +36,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.73022339194036
+    "rating": 4.730373770922099
   },
   {
     "name": "n8n-skills/docs 模块",
@@ -47,7 +47,7 @@
       "n8n",
       "workflow-automation",
       "shell",
-      "stars-2887",
+      "stars-2889",
       "module-level",
       "docs",
       "docs"
@@ -66,7 +66,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.8841787135522883
+    "rating": 3.884299016737679
   },
   {
     "name": "n8n-skills/evaluations 模块",
@@ -77,7 +77,7 @@
       "n8n",
       "workflow-automation",
       "shell",
-      "stars-2887",
+      "stars-2889",
       "module-level",
       "source",
       "evaluations"
@@ -96,7 +96,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.8841787135522883
+    "rating": 3.884299016737679
   },
   {
     "name": "n8n-skills/skills 模块",
@@ -107,7 +107,7 @@
       "n8n",
       "workflow-automation",
       "shell",
-      "stars-2887",
+      "stars-2889",
       "module-level",
       "source",
       "skills"
@@ -126,6 +126,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.8841787135522883
+    "rating": 3.884299016737679
   }
 ]

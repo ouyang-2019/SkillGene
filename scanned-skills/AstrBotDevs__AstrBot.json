@@ -1,0 +1,78 @@
+[
+  {
+    "name": "AstrBot (AstrBotDevs)",
+    "description": "[项目级] Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨。来源: https://github.com/AstrBotDevs/AstrBot",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "chatbot",
+      "chatgpt",
+      "docker",
+      "python",
+      "stars-16996",
+      "github-astrbotdevs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨\n\n来源: https://github.com/AstrBotDevs/AstrBot\n语言: Python\nStars: 16996",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nEULA.md\nFIRST_NOTICE.en-US.md\nFIRST_NOTICE.md\nLICENSE\nMakefile\nREADME.md\nREADME_en.md\nREADME_fr.md\nREADME_ja.md\nREADME_ru.md\nREADME_zh-TW.md\nastrbot\nastrbot/__init__.py\nastrbot/api\nastrbot/builtin_stars\nastrbot/cli",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "paru -S astrbot-git\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. 💯 免费 & 开源。\n2. ✨ AI 大模型对话，多模态，Agent，MCP，Skills，知识库，人格设定，自动压缩对话。\n3. 🤖 支持接入 Dify、阿里云百炼、Coze 等智能体平台。\n4. 🌐 多平台，支持 QQ、企业微信、飞书、钉钉、微信公众号、Telegram、Slack 以及[更多](#支持的消息平台)。\n5. 📦 插件扩展，已有近 800 个插件可一键安装。\n6. 🛡️ [Agent Sandbox](https://docs.astrbot.app/use/astrbot-agent-sandbox.html) 隔离化环境，安全地执行任何代码、调用 Shell、会话级资源复用。\n7. 💻 WebUI 支持。\n8. 🌈 Web ChatUI 支持，ChatUI 内置代理沙盒、网页搜索等。\n9. 🌐 国际化（i18n）支持。\n\n<br>\n\n<table align=\"center\">\n  <tr align=\"center\">\n    <th>💙 角色扮演 & 情感陪伴</th>\n    <th>✨ 主动式 Agent</th>\n    <th>🚀 通用 Agentic 能力</th>\n    <th>🧩 900+ 社区插件</th>\n  </tr>\n  <tr>\n    <td align=\"center\"><p align=\"cent",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "AstrBot/astrbot 模块",
+    "description": "[模块级] AstrBot 项目的 astrbot 模块 (source)。来源: https://github.com/AstrBotDevs/AstrBot",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "chatbot",
+      "chatgpt",
+      "docker",
+      "module-level",
+      "source",
+      "astrbot"
+    ],
+    "genes": [
+      {
+        "title": "astrbot 模块说明",
+        "content": "进入 [AstrBot Launcher](https://github.com/Raven95676/astrbot-launcher) 仓库，在 Releases 页最新版本下找到对应的系统安装包安装即可。",
+        "gene_type": "principle"
+      },
+      {
+        "title": "astrbot 文件结构",
+        "content": "astrbot/__init__.py\nastrbot/api\nastrbot/api/__init__.py\nastrbot/api/all.py\nastrbot/api/event\nastrbot/api/event/__init__.py\nastrbot/api/event/filter\nastrbot/api/event/filter/__init__.py\nastrbot/api/message_components.py\nastrbot/api/platform\nastrbot/api/platform/__init__.py\nastrbot/api/provider\nastrbot/api/provider/__init__.py\nastrbot/api/star\nastrbot/api/star/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.192138688966991
+  }
+]

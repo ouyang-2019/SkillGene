@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-gpt (awesome-gptX)",
+    "description": "[项目级] 🏆 An awe-inspiring collection of resources, encompassing a wide range of tools, documents, resources, applications, and use cases related to ChatGPT.。来源: https://github.com/awesome-gptX/awesome-gpt",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chat-gpt-tool",
+      "chatbot",
+      "chatgpt",
+      "stars-1106",
+      "github-awesome-gptx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🏆 An awe-inspiring collection of resources, encompassing a wide range of tools, documents, resources, applications, and use cases related to ChatGPT.\n\n来源: https://github.com/awesome-gptX/awesome-gpt\n语言: unknown\nStars: 1106",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.star.md\nREADME.zh-cn.md\nREADME.zh-cn.star.md\nbanner.png\npackage.json\npnpm-lock.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [Kubectl OpenAI plugin](https://github.com/sozercan/kubectl-ai) This project is a kubectl plugin to generate and apply Kubernetes manifests using OpenAI GPT\n- [shareGPT](https://github.com/domeccleston/sharegpt) permanent links to your conversations\n- [email-helper](https://github.com/shengxinjing/email-helper) Generate your business emails in seconds\n- [twitterbio](https://github.com/Nutlope/twitterbio) Generate your Twitter bio with OpenAI and Vercel Edge Functions\n- [OpenAI-ImageGeneration-Vue3](https://github.com/Jaykef/OpenAI-ImageGeneration-Vue3) Utilizing OpenAI's Image Generation api",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.52187756348434
+  }
+]

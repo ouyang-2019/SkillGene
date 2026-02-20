@@ -1,0 +1,94 @@
+[
+  {
+    "name": "LingEcho-App (code-100-precent)",
+    "description": "[项目级] LingEcho is an intelligent voice interaction platform that provides a comprehensive AI voice interaction solution. It integrates advanced speech recognition (ASR), text-to-speech (TTS), large language models (LLM) and real-time communication, supporting real-time calls, voice cloning, knowledge base management and other enterprise-level features.。来源: https://github.com/code-100-precent/LingEcho-App",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-252",
+      "github-code-100-precent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LingEcho is an enterprise-grade intelligent voice interaction platform based on Go + React, providing a complete AI voice interaction solution. It integrates advanced speech recognition (ASR), text-to-speech (TTS), large language models (LLM), and real-time communication technologies, supporting real-time calls, voice cloning, knowledge base management, workflow automation, device management, alerting, billing, and other enterprise-level features.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nREADME_CN.md\napp\napp/.DS_Store\napp/.expo\napp/App.tsx\napp/app.json\napp/app\napp/assets\napp/babel.config.js\napp/eas.json\napp/package-lock.json\napp/package.json\napp/src\napp/tsconfig.json\napp/yarn.lock\ndesktop\ndesktop/.DS_Store",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "-  **AI Character Real-time Calls** - Real-time voice calls with AI characters based on WebRTC technology, supporting high-quality audio transmission and low-latency interaction\n-  **Voice Cloning & Training** - Support for custom voice training and cloning, allowing AI assistants to have exclusive voice characteristics for personalized voice experiences\n-  **Workflow Automation** - Visual workflow designer with multiple trigger types (API, Event, Schedule, Webhook, Assistant), supporting complex business process automation\n-  **Knowledge Base Management** - Powerful knowledge base management ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.200700270390772
+  },
+  {
+    "name": "LingEcho-App/app 模块",
+    "description": "[模块级] LingEcho-App 项目的 app 模块 (source)。来源: https://github.com/code-100-precent/LingEcho-App",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-252",
+      "github-code-100-precent",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 177\n\n包含文件:\n- app/.DS_Store\n- app/.expo\n- app/.expo/README.md\n- app/.expo/devices.json\n- app/.expo/web\n- app/.expo/web/cache\n- app/.expo/web/cache/production\n- app/.expo/web/cache/production/images\n- app/.expo/web/cache/production/images/favicon\n- app/.expo/web/cache/production/images/favicon/favicon-0656af1a9def1fdac7379e81869ca790c5a22cc77ef4db82d6f706865b37c367-contain-transparent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.DS_Store\napp/.expo\napp/.expo/README.md\napp/.expo/devices.json\napp/.expo/web\napp/.expo/web/cache\napp/.expo/web/cache/production\napp/.expo/web/cache/production/images\napp/.expo/web/cache/production/images/favicon\napp/.expo/web/cache/production/images/favicon/favicon-0656af1a9def1fdac7379e81869ca790c5a22cc77ef4db82d6f706865b37c367-contain-transparent\napp/.expo/web/cache/production/images/favicon/favicon-0656af1a9def1fdac7379e81869ca790c5a22cc77ef4db82d6f706865b37c367-contain-transparent/favicon-48.png\napp/App.tsx\napp/app.json\napp/app\napp/app/.easignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4605602163126177
+  },
+  {
+    "name": "LingEcho-App/desktop 模块",
+    "description": "[模块级] LingEcho-App 项目的 desktop 模块 (source)。来源: https://github.com/code-100-precent/LingEcho-App",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-252",
+      "github-code-100-precent",
+      "module-level",
+      "source",
+      "desktop"
+    ],
+    "genes": [
+      {
+        "title": "desktop 模块说明",
+        "content": "模块路径: desktop/\n类型: source\n文件数: 14\n\n包含文件:\n- desktop/.DS_Store\n- desktop/Cargo.lock\n- desktop/Cargo.toml\n- desktop/Dockerfile\n- desktop/Makefile\n- desktop/app-icon.png\n- desktop/index.html\n- desktop/package.json\n- desktop/postcss.config.js\n- desktop/public",
+        "gene_type": "principle"
+      },
+      {
+        "title": "desktop 文件结构",
+        "content": "desktop/.DS_Store\ndesktop/Cargo.lock\ndesktop/Cargo.toml\ndesktop/Dockerfile\ndesktop/Makefile\ndesktop/app-icon.png\ndesktop/index.html\ndesktop/package.json\ndesktop/postcss.config.js\ndesktop/public\ndesktop/public/manifest.json\ndesktop/public/sprites\ndesktop/public/sprites/Blooky Shimeji.png\ndesktop/public/sprites/ghost_cry_1.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4605602163126177
+  }
+]

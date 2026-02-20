@@ -1,0 +1,133 @@
+[
+  {
+    "name": "datasets (huggingface)",
+    "description": "[项目级] 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools。来源: https://github.com/huggingface/datasets",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "computer-vision",
+      "dataset-hub",
+      "datasets",
+      "python",
+      "stars-21196",
+      "github-huggingface",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools\n\n来源: https://github.com/huggingface/datasets\n语言: Python\nStars: 21196",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ADD_NEW_DATASET.md\nAUTHORS\nCITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\nbenchmarks\nbenchmarks/benchmark_array_xd.py\nbenchmarks/benchmark_getitem_100B.py\nbenchmarks/benchmark_indices_mapping.py\nbenchmarks/benchmark_iterating.py\nbenchmarks/benchmark_map_filter.py\nbenchmarks/format.py\nbenchmarks/results\nbenchmarks/utils.py\ndocs\ndocs/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "🤗 Datasets is made to be very simple to use - the API is centered around a single function, `datasets.load_dataset(dataset_name, **kwargs)`, that instantiates a dataset.\n\nThis library can be used for text/image/audio/etc. datasets. Here is an example to load a text dataset:\n\nHere is a quick example:\n\n```python\nfrom datasets import load_dataset",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "datasets/benchmarks 模块",
+    "description": "[模块级] datasets 项目的 benchmarks 模块 (source)。来源: https://github.com/huggingface/datasets",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "computer-vision",
+      "dataset-hub",
+      "datasets",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 14\n\n包含文件:\n- benchmarks/benchmark_array_xd.py\n- benchmarks/benchmark_getitem_100B.py\n- benchmarks/benchmark_indices_mapping.py\n- benchmarks/benchmark_iterating.py\n- benchmarks/benchmark_map_filter.py\n- benchmarks/format.py\n- benchmarks/results\n- benchmarks/results/.gitkeep\n- benchmarks/results/benchmark_array_xd.json\n- benchmarks/results/benchmark_getitem_100B.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/benchmark_array_xd.py\nbenchmarks/benchmark_getitem_100B.py\nbenchmarks/benchmark_indices_mapping.py\nbenchmarks/benchmark_iterating.py\nbenchmarks/benchmark_map_filter.py\nbenchmarks/format.py\nbenchmarks/results\nbenchmarks/results/.gitkeep\nbenchmarks/results/benchmark_array_xd.json\nbenchmarks/results/benchmark_getitem_100B.json\nbenchmarks/results/benchmark_indices_mapping.json\nbenchmarks/results/benchmark_iterating.json\nbenchmarks/results/benchmark_map_filter.json\nbenchmarks/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230501564336917
+  },
+  {
+    "name": "datasets/docs 模块",
+    "description": "[模块级] datasets 项目的 docs 模块 (docs)。来源: https://github.com/huggingface/datasets",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "computer-vision",
+      "dataset-hub",
+      "datasets",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 67\n\n包含文件:\n- docs/README.md\n- docs/source\n- docs/source/_config.py\n- docs/source/_redirects.yml\n- docs/source/_toctree.yml\n- docs/source/about_arrow.md\n- docs/source/about_cache.mdx\n- docs/source/about_dataset_features.mdx\n- docs/source/about_dataset_load.mdx\n- docs/source/about_map_batch.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/source\ndocs/source/_config.py\ndocs/source/_redirects.yml\ndocs/source/_toctree.yml\ndocs/source/about_arrow.md\ndocs/source/about_cache.mdx\ndocs/source/about_dataset_features.mdx\ndocs/source/about_dataset_load.mdx\ndocs/source/about_map_batch.mdx\ndocs/source/about_mapstyle_vs_iterable.mdx\ndocs/source/access.mdx\ndocs/source/audio_dataset.mdx\ndocs/source/audio_load.mdx\ndocs/source/audio_process.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230501564336917
+  },
+  {
+    "name": "datasets/src 模块",
+    "description": "[模块级] datasets 项目的 src 模块 (source)。来源: https://github.com/huggingface/datasets",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "computer-vision",
+      "dataset-hub",
+      "datasets",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 75\n\n包含文件:\n- src/datasets\n- src/datasets/__init__.py\n- src/datasets/arrow_dataset.py\n- src/datasets/arrow_reader.py\n- src/datasets/arrow_writer.py\n- src/datasets/builder.py\n- src/datasets/combine.py\n- src/datasets/commands\n- src/datasets/commands/__init__.py\n- src/datasets/commands/datasets_cli.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/datasets\nsrc/datasets/__init__.py\nsrc/datasets/arrow_dataset.py\nsrc/datasets/arrow_reader.py\nsrc/datasets/arrow_writer.py\nsrc/datasets/builder.py\nsrc/datasets/combine.py\nsrc/datasets/commands\nsrc/datasets/commands/__init__.py\nsrc/datasets/commands/datasets_cli.py\nsrc/datasets/commands/delete_from_hub.py\nsrc/datasets/commands/env.py\nsrc/datasets/commands/test.py\nsrc/datasets/config.py\nsrc/datasets/data_files.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230501564336917
+  }
+]

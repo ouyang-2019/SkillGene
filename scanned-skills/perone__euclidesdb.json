@@ -1,0 +1,248 @@
+[
+  {
+    "name": "euclidesdb (perone)",
+    "description": "[项目级] A multi-model machine learning feature embedding database。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "c++",
+      "stars-639",
+      "github-perone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A multi-model machine learning feature embedding database\n\n来源: https://github.com/perone/euclidesdb\n语言: C++\nStars: 639",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- [Official Documentation](http://euclidesdb.readthedocs.io)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nLICENSE\nREADME.md\ncmake\ncmake/FindGRPC.cmake\ncmake/FindLevelDB.cmake\ncmake/TargetCopyFiles.cmake\ndocker\ndocker/euclidesdb_build\ndocker/package\ndocs\ndocs/Makefile\ndocs/images\ndocs/make.bat\ndocs/source\nmodels\nmodels/resnet101\nmodels/resnet18\nmodels/vgg16\nmodules",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4027504290792
+  },
+  {
+    "name": "euclidesdb/cmake 模块",
+    "description": "[模块级] euclidesdb 项目的 cmake 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 3\n\n包含文件:\n- cmake/FindGRPC.cmake\n- cmake/FindLevelDB.cmake\n- cmake/TargetCopyFiles.cmake",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/FindGRPC.cmake\ncmake/FindLevelDB.cmake\ncmake/TargetCopyFiles.cmake",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/docker 模块",
+    "description": "[模块级] euclidesdb 项目的 docker 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 8\n\n包含文件:\n- docker/euclidesdb_build\n- docker/euclidesdb_build/Dockerfile\n- docker/euclidesdb_build/bootstrap_euclidesdb.sh\n- docker/euclidesdb_build/build.sh\n- docker/euclidesdb_build/euclidesdb.conf\n- docker/euclidesdb_build/run.sh\n- docker/package\n- docker/package/Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/euclidesdb_build\ndocker/euclidesdb_build/Dockerfile\ndocker/euclidesdb_build/bootstrap_euclidesdb.sh\ndocker/euclidesdb_build/build.sh\ndocker/euclidesdb_build/euclidesdb.conf\ndocker/euclidesdb_build/run.sh\ndocker/package\ndocker/package/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/docs 模块",
+    "description": "[模块级] euclidesdb 项目的 docs 模块 (docs)。来源: https://github.com/perone/euclidesdb",
+    "domain": "documentation",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 26\n\n包含文件:\n- docs/Makefile\n- docs/images\n- docs/images/arch.png\n- docs/images/arch.sketch\n- docs/images/models_dir.png\n- docs/images/models_dir.sketch\n- docs/images/original_logo\n- docs/images/original_logo/logo.png\n- docs/images/original_logo/logo.psd\n- docs/make.bat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/images\ndocs/images/arch.png\ndocs/images/arch.sketch\ndocs/images/models_dir.png\ndocs/images/models_dir.sketch\ndocs/images/original_logo\ndocs/images/original_logo/logo.png\ndocs/images/original_logo/logo.psd\ndocs/make.bat\ndocs/source\ndocs/source/_static\ndocs/source/_static/img\ndocs/source/_static/img/arch.png\ndocs/source/_static/img/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/models 模块",
+    "description": "[模块级] euclidesdb 项目的 models 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "models"
+    ],
+    "genes": [
+      {
+        "title": "models 模块说明",
+        "content": "模块路径: models/\n类型: source\n文件数: 9\n\n包含文件:\n- models/resnet101\n- models/resnet101/model.conf\n- models/resnet101/resnet_trace.py\n- models/resnet18\n- models/resnet18/model.conf\n- models/resnet18/resnet_trace.py\n- models/vgg16\n- models/vgg16/model.conf\n- models/vgg16/vgg16_trace.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "models 文件结构",
+        "content": "models/resnet101\nmodels/resnet101/model.conf\nmodels/resnet101/resnet_trace.py\nmodels/resnet18\nmodels/resnet18/model.conf\nmodels/resnet18/resnet_trace.py\nmodels/vgg16\nmodels/vgg16/model.conf\nmodels/vgg16/vgg16_trace.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/modules 模块",
+    "description": "[模块级] euclidesdb 项目的 modules 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "modules"
+    ],
+    "genes": [
+      {
+        "title": "modules 模块说明",
+        "content": "模块路径: modules/\n类型: source\n文件数: 2\n\n包含文件:\n- modules/.gitkeep\n- modules/faiss",
+        "gene_type": "principle"
+      },
+      {
+        "title": "modules 文件结构",
+        "content": "modules/.gitkeep\nmodules/faiss",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/python 模块",
+    "description": "[模块级] euclidesdb 项目的 python 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 20\n\n包含文件:\n- python/euclides\n- python/euclides/__init__.py\n- python/euclides/euclidesproto_pb2.py\n- python/euclides/euclidesproto_pb2_grpc.py\n- python/euclides/services.py\n- python/examples\n- python/examples/add_image.py\n- python/examples/add_image_directory.py\n- python/examples/find_similar.py\n- python/examples/images",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/euclides\npython/euclides/__init__.py\npython/euclides/euclidesproto_pb2.py\npython/euclides/euclidesproto_pb2_grpc.py\npython/euclides/services.py\npython/examples\npython/examples/add_image.py\npython/examples/add_image_directory.py\npython/examples/find_similar.py\npython/examples/images\npython/examples/images/cat.jpg\npython/examples/images/cat2.jpg\npython/examples/images/cat3.jpg\npython/examples/images/elephant.jpg\npython/examples/images/elephant2.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  },
+  {
+    "name": "euclidesdb/source 模块",
+    "description": "[模块级] euclidesdb 项目的 source 模块 (source)。来源: https://github.com/perone/euclidesdb",
+    "domain": "testing",
+    "tags": [
+      "cpp",
+      "database",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "module-level",
+      "source",
+      "source"
+    ],
+    "genes": [
+      {
+        "title": "source 模块说明",
+        "content": "模块路径: source/\n类型: source\n文件数: 49\n\n包含文件:\n- source/EuclidesConfig.h.in\n- source/databasemanager.cpp\n- source/databasemanager.hpp\n- source/euclidesdb.conf\n- source/external\n- source/external/CLI11.hpp\n- source/external/INIReader.h\n- source/external/annoy\n- source/external/annoy/annoylib.h\n- source/external/annoy/kissrandom.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "source 文件结构",
+        "content": "source/EuclidesConfig.h.in\nsource/databasemanager.cpp\nsource/databasemanager.hpp\nsource/euclidesdb.conf\nsource/external\nsource/external/CLI11.hpp\nsource/external/INIReader.h\nsource/external/annoy\nsource/external/annoy/annoylib.h\nsource/external/annoy/kissrandom.h\nsource/external/annoy/mman.h\nsource/external/easylogging++.cpp\nsource/external/easylogging++.h\nsource/external/fs\nsource/external/fs/fwd.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6222003432633603
+  }
+]

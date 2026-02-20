@@ -1,0 +1,183 @@
+[
+  {
+    "name": "compose-for-agents (docker)",
+    "description": "[项目级] Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs, tools, and agent runtimes.。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "typescript",
+      "stars-843",
+      "github-docker",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build and run AI agents using Docker Compose. A collection of ready-to-use examples for orchestrating open-source LLMs, tools, and agent runtimes.\n\n来源: https://github.com/docker/compose-for-agents\n语言: TypeScript\nStars: 843",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile.tools\nLICENSE.APACHE-2\nLICENSE.MIT\nREADME.md\nTaskfile.yaml\na2a\na2a/.dockerignore\na2a/.gitignore\na2a/.ruff.toml\na2a/Dockerfile\na2a/LICENSE\na2a/README.md\na2a/agents\na2a/compose.dmr.yaml\na2a/compose.offload.yaml\na2a/compose.yaml\na2a/demo.gif\na2a/main.py\na2a/pyproject.toml\na2a/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.462913787312371
+  },
+  {
+    "name": "compose-for-agents/a2a 模块",
+    "description": "[模块级] compose-for-agents 项目的 a2a 模块 (source)。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "module-level",
+      "source",
+      "a2a"
+    ],
+    "genes": [
+      {
+        "title": "a2a 模块说明",
+        "content": "模块路径: a2a/\n类型: source\n文件数: 35\n\n包含文件:\n- a2a/.dockerignore\n- a2a/.gitignore\n- a2a/.ruff.toml\n- a2a/Dockerfile\n- a2a/LICENSE\n- a2a/README.md\n- a2a/agents\n- a2a/agents/auditor.yaml\n- a2a/agents/critic.yaml\n- a2a/agents/reviser.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "a2a 文件结构",
+        "content": "a2a/.dockerignore\na2a/.gitignore\na2a/.ruff.toml\na2a/Dockerfile\na2a/LICENSE\na2a/README.md\na2a/agents\na2a/agents/auditor.yaml\na2a/agents/critic.yaml\na2a/agents/reviser.yaml\na2a/compose.dmr.yaml\na2a/compose.offload.yaml\na2a/compose.yaml\na2a/demo.gif\na2a/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.670331029849897
+  },
+  {
+    "name": "compose-for-agents/adk-cerebras 模块",
+    "description": "[模块级] compose-for-agents 项目的 adk-cerebras 模块 (source)。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "module-level",
+      "source",
+      "adk-cerebras"
+    ],
+    "genes": [
+      {
+        "title": "adk-cerebras 模块说明",
+        "content": "模块路径: adk-cerebras/\n类型: source\n文件数: 23\n\n包含文件:\n- adk-cerebras/.env.sample\n- adk-cerebras/.gitignore\n- adk-cerebras/.ruff.toml\n- adk-cerebras/LICENSE\n- adk-cerebras/README.md\n- adk-cerebras/agents\n- adk-cerebras/agents/Dockerfile\n- adk-cerebras/agents/devduck\n- adk-cerebras/agents/devduck/__init__.py\n- adk-cerebras/agents/devduck/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adk-cerebras 文件结构",
+        "content": "adk-cerebras/.env.sample\nadk-cerebras/.gitignore\nadk-cerebras/.ruff.toml\nadk-cerebras/LICENSE\nadk-cerebras/README.md\nadk-cerebras/agents\nadk-cerebras/agents/Dockerfile\nadk-cerebras/agents/devduck\nadk-cerebras/agents/devduck/__init__.py\nadk-cerebras/agents/devduck/agent.py\nadk-cerebras/agents/devduck/sub_agents\nadk-cerebras/agents/devduck/sub_agents/__init__.py\nadk-cerebras/agents/devduck/sub_agents/bob\nadk-cerebras/agents/devduck/sub_agents/bob/__init__.py\nadk-cerebras/agents/devduck/sub_agents/bob/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.670331029849897
+  },
+  {
+    "name": "compose-for-agents/adk-sock-shop 模块",
+    "description": "[模块级] compose-for-agents 项目的 adk-sock-shop 模块 (source)。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "module-level",
+      "source",
+      "adk-sock-shop"
+    ],
+    "genes": [
+      {
+        "title": "adk-sock-shop 模块说明",
+        "content": "模块路径: adk-sock-shop/\n类型: source\n文件数: 40\n\n包含文件:\n- adk-sock-shop/.dockerignore\n- adk-sock-shop/.envrc\n- adk-sock-shop/.gitignore\n- adk-sock-shop/.mcp.env.example\n- adk-sock-shop/.ruff.toml\n- adk-sock-shop/CLAUDE.md\n- adk-sock-shop/Dockerfile\n- adk-sock-shop/Dockerfile.adk-ui\n- adk-sock-shop/Makefile\n- adk-sock-shop/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adk-sock-shop 文件结构",
+        "content": "adk-sock-shop/.dockerignore\nadk-sock-shop/.envrc\nadk-sock-shop/.gitignore\nadk-sock-shop/.mcp.env.example\nadk-sock-shop/.ruff.toml\nadk-sock-shop/CLAUDE.md\nadk-sock-shop/Dockerfile\nadk-sock-shop/Dockerfile.adk-ui\nadk-sock-shop/Makefile\nadk-sock-shop/README.md\nadk-sock-shop/agents\nadk-sock-shop/agents/__init__.py\nadk-sock-shop/agents/agent.py\nadk-sock-shop/agents/sub_agents\nadk-sock-shop/agents/sub_agents/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.670331029849897
+  },
+  {
+    "name": "compose-for-agents/adk 模块",
+    "description": "[模块级] compose-for-agents 项目的 adk 模块 (source)。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "module-level",
+      "source",
+      "adk"
+    ],
+    "genes": [
+      {
+        "title": "adk 模块说明",
+        "content": "模块路径: adk/\n类型: source\n文件数: 27\n\n包含文件:\n- adk/.dockerignore\n- adk/.gitignore\n- adk/.ruff.toml\n- adk/Dockerfile\n- adk/LICENSE\n- adk/README.md\n- adk/agents\n- adk/agents/__init__.py\n- adk/agents/agent.py\n- adk/agents/sub_agents",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adk 文件结构",
+        "content": "adk/.dockerignore\nadk/.gitignore\nadk/.ruff.toml\nadk/Dockerfile\nadk/LICENSE\nadk/README.md\nadk/agents\nadk/agents/__init__.py\nadk/agents/agent.py\nadk/agents/sub_agents\nadk/agents/sub_agents/__init__.py\nadk/agents/sub_agents/critic\nadk/agents/sub_agents/critic/__init__.py\nadk/agents/sub_agents/critic/agent.py\nadk/agents/sub_agents/critic/prompt.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.670331029849897
+  },
+  {
+    "name": "compose-for-agents/agno 模块",
+    "description": "[模块级] compose-for-agents 项目的 agno 模块 (source)。来源: https://github.com/docker/compose-for-agents",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflows",
+      "ai-agents",
+      "docker",
+      "docker-compose",
+      "examples",
+      "module-level",
+      "source",
+      "agno"
+    ],
+    "genes": [
+      {
+        "title": "agno 模块说明",
+        "content": "模块路径: agno/\n类型: source\n文件数: 46\n\n包含文件:\n- agno/.gitignore\n- agno/.mcp.env.example\n- agno/LICENSE\n- agno/README.md\n- agno/agent-ui\n- agno/agent-ui/.dockerignore\n- agno/agent-ui/.github\n- agno/agent-ui/.github/workflows\n- agno/agent-ui/.github/workflows/validate.yml\n- agno/agent-ui/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agno 文件结构",
+        "content": "agno/.gitignore\nagno/.mcp.env.example\nagno/LICENSE\nagno/README.md\nagno/agent-ui\nagno/agent-ui/.dockerignore\nagno/agent-ui/.github\nagno/agent-ui/.github/workflows\nagno/agent-ui/.github/workflows/validate.yml\nagno/agent-ui/.gitignore\nagno/agent-ui/CONTRIBUTING.md\nagno/agent-ui/Dockerfile\nagno/agent-ui/LICENSE\nagno/agent-ui/README.md\nagno/agent-ui/components.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.670331029849897
+  }
+]

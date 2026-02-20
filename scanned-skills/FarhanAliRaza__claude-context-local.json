@@ -1,0 +1,253 @@
+[
+  {
+    "name": "claude-context-local (FarhanAliRaza)",
+    "description": "[项目级] Code search MCP for Claude Code. Make entire codebase the context for any coding agent. Embeddings are created and stored locally. No API cost. 。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "python",
+      "stars-190",
+      "github-farhanaliraza",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent. Embeddings are created and stored locally. No API cost. \n\n来源: https://github.com/FarhanAliRaza/claude-context-local\n语言: Python\nStars: 190",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md\nchunking\nchunking/__init__.py\nchunking/available_languages.py\nchunking/base_chunker.py\nchunking/code_chunk.py\nchunking/languages\nchunking/multi_language_chunker.py\nchunking/tree_sitter.py\ncommon_utils.py\nconftest.py\nembeddings\nembeddings/__init__.py\nembeddings/embedder.py\nembeddings/embedding_model.py\nembeddings/embedding_models_register.py\nembeddings/gemma.py\nembeddings/sentence_transformer.py\nmcp_server",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-language support**: 9+ programming languages with 15 file extensions\n- **Intelligent chunking**: AST-based (Python) + tree-sitter (JS/TS/Go/Java/Rust/C/C++/C#)\n- **Semantic search**: Natural language queries to find code across all languages\n- **Rich metadata**: File paths, folder structure, semantic tags, language-specific info\n- **MCP integration**: Direct integration with Claude Code\n- **Local processing**: All embeddings stored locally, no API calls\n- **Fast search**: FAISS for efficient similarity search",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.139376800476414
+  },
+  {
+    "name": "claude-context-local/chunking 模块",
+    "description": "[模块级] claude-context-local 项目的 chunking 模块 (source)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "chunking"
+    ],
+    "genes": [
+      {
+        "title": "chunking 模块说明",
+        "content": "The system uses advanced parsing to create semantically meaningful chunks across all supported languages:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chunking 文件结构",
+        "content": "chunking/__init__.py\nchunking/available_languages.py\nchunking/base_chunker.py\nchunking/code_chunk.py\nchunking/languages\nchunking/languages/__init__.py\nchunking/languages/c_chunker.py\nchunking/languages/cpp_chunker.py\nchunking/languages/csharp_chunker.py\nchunking/languages/go_chunker.py\nchunking/languages/java_chunker.py\nchunking/languages/javascript_chunker.py\nchunking/languages/jsx_chunker.py\nchunking/languages/markdown_chunker.py\nchunking/languages/python_chunker.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/embeddings 模块",
+    "description": "[模块级] claude-context-local 项目的 embeddings 模块 (source)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "embeddings"
+    ],
+    "genes": [
+      {
+        "title": "embeddings 模块说明",
+        "content": "模块路径: embeddings/\n类型: source\n文件数: 6\n\n包含文件:\n- embeddings/__init__.py\n- embeddings/embedder.py\n- embeddings/embedding_model.py\n- embeddings/embedding_models_register.py\n- embeddings/gemma.py\n- embeddings/sentence_transformer.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embeddings 文件结构",
+        "content": "embeddings/__init__.py\nembeddings/embedder.py\nembeddings/embedding_model.py\nembeddings/embedding_models_register.py\nembeddings/gemma.py\nembeddings/sentence_transformer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/mcp_server 模块",
+    "description": "[模块级] claude-context-local 项目的 mcp_server 模块 (source)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "mcp_server"
+    ],
+    "genes": [
+      {
+        "title": "mcp_server 模块说明",
+        "content": "模块路径: mcp_server/\n类型: source\n文件数: 5\n\n包含文件:\n- mcp_server/__init__.py\n- mcp_server/code_search_mcp.py\n- mcp_server/code_search_server.py\n- mcp_server/server.py\n- mcp_server/strings.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp_server 文件结构",
+        "content": "mcp_server/__init__.py\nmcp_server/code_search_mcp.py\nmcp_server/code_search_server.py\nmcp_server/server.py\nmcp_server/strings.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/merkle 模块",
+    "description": "[模块级] claude-context-local 项目的 merkle 模块 (source)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "merkle"
+    ],
+    "genes": [
+      {
+        "title": "merkle 模块说明",
+        "content": "模块路径: merkle/\n类型: source\n文件数: 4\n\n包含文件:\n- merkle/__init__.py\n- merkle/change_detector.py\n- merkle/merkle_dag.py\n- merkle/snapshot_manager.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "merkle 文件结构",
+        "content": "merkle/__init__.py\nmerkle/change_detector.py\nmerkle/merkle_dag.py\nmerkle/snapshot_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/scripts 模块",
+    "description": "[模块级] claude-context-local 项目的 scripts 模块 (script)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/__init__.py\n- scripts/download_model_standalone.py\n- scripts/index_codebase.py\n- scripts/install.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/__init__.py\nscripts/download_model_standalone.py\nscripts/index_codebase.py\nscripts/install.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/search 模块",
+    "description": "[模块级] claude-context-local 项目的 search 模块 (source)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "search"
+    ],
+    "genes": [
+      {
+        "title": "search 模块说明",
+        "content": "模块路径: search/\n类型: source\n文件数: 4\n\n包含文件:\n- search/__init__.py\n- search/incremental_indexer.py\n- search/indexer.py\n- search/searcher.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "search 文件结构",
+        "content": "search/__init__.py\nsearch/incremental_indexer.py\nsearch/indexer.py\nsearch/searcher.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  },
+  {
+    "name": "claude-context-local/tests 模块",
+    "description": "[模块级] claude-context-local 项目的 tests 模块 (test)。来源: https://github.com/FarhanAliRaza/claude-context-local",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 53\n\n包含文件:\n- tests/README.md\n- tests/__init__.py\n- tests/fixtures\n- tests/fixtures/__init__.py\n- tests/fixtures/sample_code.py\n- tests/integration\n- tests/integration/__init__.py\n- tests/integration/test_auto_reindex.py\n- tests/integration/test_chunking.py\n- tests/integration/test_full_flow.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.md\ntests/__init__.py\ntests/fixtures\ntests/fixtures/__init__.py\ntests/fixtures/sample_code.py\ntests/integration\ntests/integration/__init__.py\ntests/integration/test_auto_reindex.py\ntests/integration/test_chunking.py\ntests/integration/test_full_flow.py\ntests/integration/test_incremental_indexing.py\ntests/integration/test_mcp_indexing.py\ntests/integration/test_mcp_project_storage.py\ntests/integration/test_metadata_richness.py\ntests/run_tests.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4115014403811315
+  }
+]

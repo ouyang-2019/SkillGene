@@ -1,0 +1,117 @@
+[
+  {
+    "name": "XAgent (OpenBMB)",
+    "description": "[项目级] An Autonomous LLM Agent for Complex Task Solving。来源: https://github.com/OpenBMB/XAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8497",
+      "github-openbmb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "XAgent is an open-source experimental Large Language Model (LLM) driven autonomous agent that can automatically solve various tasks. \nIt is designed to be a general-purpose agent that can be applied to a wide range of tasks. XAgent is still in its early stages, and we are working hard to improve it.\n\n🏆 Our goal is to create a super-intelligent agent that can solve any given task!\n\nWe welcome diverse forms of collaborations, including full-time and part-time roles and more. If you are interested in the frontiers of agents and want to join us in realizing true autonomous agents, please contact us at xagentteam@gmail.com.\n\n<div align=\"center\">\n    <img src=\"assets/readme/overview.png\" alt=\"Overview of Xagent\" width=\"700\"/>\n    <br/>\n    <figcaption>Overview of XAgent.</figcaption>\n</div>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "ToolServer is where XAgent's action takes place. It is a docker container that provides a safe environment for XAgent to run.\nSo you should install `docker` and `docker-compose` first. \nThen, you need to build the ToolServer image. Construct referring to any one of the following methods:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMarkdown_Docs\nMarkdown_Docs/XAgent\nMarkdown_Docs/XAgentGen\nMarkdown_Docs/setup.md\nMarkdown_Docs/start_server.md\nMarkdown_Docs/tests\nREADME.md\nREADME_JA.md\nREADME_ZH.md\nToolServer\nToolServer/README.md\nToolServer/README_ZH.md\nToolServer/ToolServerManager\nToolServer/ToolServerNode\nXAgent\nXAgent/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.964632809126533
+  },
+  {
+    "name": "XAgent/Markdown_Docs 模块",
+    "description": "[模块级] XAgent 项目的 Markdown_Docs 模块 (source)。来源: https://github.com/OpenBMB/XAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8497",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "markdown_docs"
+    ],
+    "genes": [
+      {
+        "title": "Markdown_Docs 模块说明",
+        "content": "模块路径: Markdown_Docs/\n类型: source\n文件数: 80\n\n包含文件:\n- Markdown_Docs/XAgent\n- Markdown_Docs/XAgent/agent\n- Markdown_Docs/XAgent/agent/__init__.md\n- Markdown_Docs/XAgent/agent/base_agent.md\n- Markdown_Docs/XAgent/agent/dispatcher.md\n- Markdown_Docs/XAgent/agent/plan_generate_agent\n- Markdown_Docs/XAgent/agent/plan_generate_agent/__init__.md\n- Markdown_Docs/XAgent/agent/plan_generate_agent/agent.md\n- Markdown_Docs/XAgent/agent/plan_generate_agent/prompt.md\n- Markdown_Docs/XAgent/agent/plan_refine_agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Markdown_Docs 文件结构",
+        "content": "Markdown_Docs/XAgent\nMarkdown_Docs/XAgent/agent\nMarkdown_Docs/XAgent/agent/__init__.md\nMarkdown_Docs/XAgent/agent/base_agent.md\nMarkdown_Docs/XAgent/agent/dispatcher.md\nMarkdown_Docs/XAgent/agent/plan_generate_agent\nMarkdown_Docs/XAgent/agent/plan_generate_agent/__init__.md\nMarkdown_Docs/XAgent/agent/plan_generate_agent/agent.md\nMarkdown_Docs/XAgent/agent/plan_generate_agent/prompt.md\nMarkdown_Docs/XAgent/agent/plan_refine_agent\nMarkdown_Docs/XAgent/agent/plan_refine_agent/__init__.md\nMarkdown_Docs/XAgent/agent/plan_refine_agent/agent.md\nMarkdown_Docs/XAgent/agent/plan_refine_agent/prompt.md\nMarkdown_Docs/XAgent/agent/reflect_agent\nMarkdown_Docs/XAgent/agent/reflect_agent/__init__.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.071706247301226
+  },
+  {
+    "name": "XAgent/ToolServer 模块",
+    "description": "[模块级] XAgent 项目的 ToolServer 模块 (source)。来源: https://github.com/OpenBMB/XAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8497",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "toolserver"
+    ],
+    "genes": [
+      {
+        "title": "ToolServer 模块说明",
+        "content": "ToolServer is the server that provides XAgent with powerful and safe tools to solve tasks. It is a docker container that provides a safe environment for XAgent to run.\nCurrently, ToolServer provides the following tools:\n- **📝 File Editor** provides a text editing tool to write, read, and modify files.\n- **📘 Python Notebook** provides an interactive Python notebook that can run Python code to validate ideas, draw figures, etc.\n- **🌏 Web Browser** provides a web browser to search and visit webp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ToolServer 文件结构",
+        "content": "ToolServer/README.md\nToolServer/README_ZH.md\nToolServer/ToolServerManager\nToolServer/ToolServerManager/config.py\nToolServer/ToolServerManager/connections.py\nToolServer/ToolServerManager/main.py\nToolServer/ToolServerManager/models.py\nToolServer/ToolServerManager/node_checker.py\nToolServer/ToolServerManager/requirements.txt\nToolServer/ToolServerNode\nToolServer/ToolServerNode/assets\nToolServer/ToolServerNode/assets/HOW_TO_BUILD_NEW_TOOLS.md\nToolServer/ToolServerNode/assets/HOW_TO_BUILD_NEW_TOOLS_CN.md\nToolServer/ToolServerNode/assets/doc2tool.json\nToolServer/ToolServerNode/assets/doc_embeding.npy",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.071706247301226
+  },
+  {
+    "name": "XAgent/XAgent 模块",
+    "description": "[模块级] XAgent 项目的 XAgent 模块 (source)。来源: https://github.com/OpenBMB/XAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8497",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "xagent"
+    ],
+    "genes": [
+      {
+        "title": "XAgent 模块说明",
+        "content": "XAgent is designed with the following features:\n- **Autonomy**: XAgent can automatically solve various tasks without human participation.\n- **Safety**: XAgent is designed to run safely. All actions are constrained inside a docker container. Run it anyway!\n- **Extensibility**: XAgent is designed to be extensible. You can easily add new tools to enhance agent's abilities and even new agents！\n- **GUI**: XAgent provides a friendly GUI for users to interact with the agent. You can also use the comman",
+        "gene_type": "principle"
+      },
+      {
+        "title": "XAgent 文件结构",
+        "content": "XAgent/__init__.py\nXAgent/agent\nXAgent/agent/__init__.py\nXAgent/agent/base_agent.py\nXAgent/agent/dispatcher.py\nXAgent/agent/dispatcher_agent\nXAgent/agent/dispatcher_agent/__init__.py\nXAgent/agent/dispatcher_agent/agent.py\nXAgent/agent/dispatcher_agent/prompt.py\nXAgent/agent/plan_generate_agent\nXAgent/agent/plan_generate_agent/__init__.py\nXAgent/agent/plan_generate_agent/agent.py\nXAgent/agent/plan_generate_agent/prompt.py\nXAgent/agent/plan_refine_agent\nXAgent/agent/plan_refine_agent/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.071706247301226
+  }
+]

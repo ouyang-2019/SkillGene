@@ -1,0 +1,140 @@
+[
+  {
+    "name": "similarity-graph-traversal-semantic-rag-research (glacier-creative-git)",
+    "description": "[项目级] Completed research on semantic retrieval augmented generation through novel semantic similarity graph traversal algorithms.。来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-268",
+      "github-glacier-creative-git",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Completed research on semantic retrieval augmented generation through novel semantic similarity graph traversal algorithms.\n\n来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research\n语言: Python\nStars: 268",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbenchmark.py\nconfig.yaml\ndatasets\ndatasets/1qa-intradoc-reasoning-multicontext.csv\ndatasets/20qa-themes-gpt4omini-reasoning.csv\ndatasets/50qa-seq-multihop-gpt4o-reasoning-comparative-multicontext.csv\ndocs\ndocs/2D_VIS.png\ndocs/2D_VIS_LOCAL.png\ndocs/3D_VIS_1.png\ndocs/3D_VIS_2.png\ndocs/3D_VIS_3.png\ndocs/BASIC_RETRIEVAL.png\ndocs/LLM_GUIDED_TRAVERSAL.png\ndocs/QUERY_TRAVERSAL.png\ndocs/SSG_ARCHITECTURE.png\ndocs/SSG_PLOTLY.html\ndocs/SSG_TRAVERSAL.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214067397014395
+  },
+  {
+    "name": "similarity-graph-traversal-semantic-rag-research/datasets 模块",
+    "description": "[模块级] similarity-graph-traversal-semantic-rag-research 项目的 datasets 模块 (source)。来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-268",
+      "github-glacier-creative-git",
+      "module-level",
+      "source",
+      "datasets"
+    ],
+    "genes": [
+      {
+        "title": "datasets 模块说明",
+        "content": "DeepEval supports *synthetic dataset generation*. This involves a process of systematically grouping chunks of text and sending them to DeepEval to generate a question using an LLM of choice. Additionally, DeepEval uses a complex question-generation process called *evolution*, where it will generate a question, then recursively modify it according to a particular chain of thought (reasoning, multicontext, etc.)\n\nRather than random context grouping, a series of custom context grouping algorithms ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datasets 文件结构",
+        "content": "datasets/1qa-intradoc-reasoning-multicontext.csv\ndatasets/20qa-themes-gpt4omini-reasoning.csv\ndatasets/50qa-seq-multihop-gpt4o-reasoning-comparative-multicontext.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "similarity-graph-traversal-semantic-rag-research/docs 模块",
+    "description": "[模块级] similarity-graph-traversal-semantic-rag-research 项目的 docs 模块 (docs)。来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-268",
+      "github-glacier-creative-git",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 19\n\n包含文件:\n- docs/2D_VIS.png\n- docs/2D_VIS_LOCAL.png\n- docs/3D_VIS_1.png\n- docs/3D_VIS_2.png\n- docs/3D_VIS_3.png\n- docs/BASIC_RETRIEVAL.png\n- docs/LLM_GUIDED_TRAVERSAL.png\n- docs/QUERY_TRAVERSAL.png\n- docs/SSG_ARCHITECTURE.png\n- docs/SSG_PLOTLY.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/2D_VIS.png\ndocs/2D_VIS_LOCAL.png\ndocs/3D_VIS_1.png\ndocs/3D_VIS_2.png\ndocs/3D_VIS_3.png\ndocs/BASIC_RETRIEVAL.png\ndocs/LLM_GUIDED_TRAVERSAL.png\ndocs/QUERY_TRAVERSAL.png\ndocs/SSG_ARCHITECTURE.png\ndocs/SSG_PLOTLY.html\ndocs/SSG_TRAVERSAL.png\ndocs/TRAVERAL_EXAMPLE_GLOBAL.png\ndocs/TRAVERAL_EXAMPLE_SEQUENTIAL.png\ndocs/TRIANGULATION_AVERAGE.png\ndocs/TRIANGULATION_GEOMETRIC.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "similarity-graph-traversal-semantic-rag-research/evaluation 模块",
+    "description": "[模块级] similarity-graph-traversal-semantic-rag-research 项目的 evaluation 模块 (source)。来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-268",
+      "github-glacier-creative-git",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "模块路径: evaluation/\n类型: source\n文件数: 12\n\n包含文件:\n- evaluation/__init__.py\n- evaluation/__pycache__\n- evaluation/__pycache__/__init__.cpython-312.pyc\n- evaluation/__pycache__/context_grouping.cpython-312.pyc\n- evaluation/__pycache__/dataset.cpython-312.pyc\n- evaluation/__pycache__/evaluation.cpython-312.pyc\n- evaluation/__pycache__/models.cpython-312.pyc\n- evaluation/context_grouping.py\n- evaluation/conversion.py\n- evaluation/dataset.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/__init__.py\nevaluation/__pycache__\nevaluation/__pycache__/__init__.cpython-312.pyc\nevaluation/__pycache__/context_grouping.cpython-312.pyc\nevaluation/__pycache__/dataset.cpython-312.pyc\nevaluation/__pycache__/evaluation.cpython-312.pyc\nevaluation/__pycache__/models.cpython-312.pyc\nevaluation/context_grouping.py\nevaluation/conversion.py\nevaluation/dataset.py\nevaluation/evaluation.py\nevaluation/models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "similarity-graph-traversal-semantic-rag-research/utils 模块",
+    "description": "[模块级] similarity-graph-traversal-semantic-rag-research 项目的 utils 模块 (source)。来源: https://github.com/glacier-creative-git/similarity-graph-traversal-semantic-rag-research",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-268",
+      "github-glacier-creative-git",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 55\n\n包含文件:\n- utils/.DS_Store\n- utils/__init__.py\n- utils/__pycache__\n- utils/__pycache__/__init__.cpython-312.pyc\n- utils/__pycache__/chunking.cpython-312.pyc\n- utils/__pycache__/dataset_generator.cpython-312-pytest-8.4.1.pyc\n- utils/__pycache__/extraction.cpython-312.pyc\n- utils/__pycache__/kg_pipeline.cpython-312.pyc\n- utils/__pycache__/knowledge_graph.cpython-312.pyc\n- utils/__pycache__/matplotlib_visualizer.cpython-312.pyc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/.DS_Store\nutils/__init__.py\nutils/__pycache__\nutils/__pycache__/__init__.cpython-312.pyc\nutils/__pycache__/chunking.cpython-312.pyc\nutils/__pycache__/dataset_generator.cpython-312-pytest-8.4.1.pyc\nutils/__pycache__/extraction.cpython-312.pyc\nutils/__pycache__/kg_pipeline.cpython-312.pyc\nutils/__pycache__/knowledge_graph.cpython-312.pyc\nutils/__pycache__/matplotlib_visualizer.cpython-312.pyc\nutils/__pycache__/models.cpython-312.pyc\nutils/__pycache__/pipeline.cpython-312.pyc\nutils/__pycache__/plotly_visualizer.cpython-312.pyc\nutils/__pycache__/reranker.cpython-312.pyc\nutils/__pycache__/retrieval.cpython-312.pyc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  }
+]

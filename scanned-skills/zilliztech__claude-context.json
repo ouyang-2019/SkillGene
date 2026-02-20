@@ -1,0 +1,193 @@
+[
+  {
+    "name": "claude-context (zilliztech)",
+    "description": "[项目级] Code search MCP for Claude Code. Make entire codebase the context for any coding agent.。来源: https://github.com/zilliztech/claude-context",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "typescript",
+      "stars-5379",
+      "github-zilliztech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.\n\n来源: https://github.com/zilliztech/claude-context\n语言: TypeScript\nStars: 5379",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/Architecture.png\nassets/claude-context.png\nassets/docs\nassets/file_synchronizer.png\nassets/mcp_efficiency_analysis_chart.png\nassets/signup_and_create_cluster.jpeg\nassets/signup_and_get_apikey.png\nassets/vscode-setup.png\nassets/zilliz_cloud_dashboard.jpeg\nbuild-benchmark.json\ndocs\ndocs/README.md\ndocs/dive-deep\ndocs/getting-started\ndocs/troubleshooting\nevaluation",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cd your-project-directory\n   claude",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.865350772140923
+  },
+  {
+    "name": "claude-context/assets 模块",
+    "description": "[模块级] claude-context 项目的 assets 模块 (source)。来源: https://github.com/zilliztech/claude-context",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/Architecture.png\n- assets/claude-context.png\n- assets/docs\n- assets/docs/file-inclusion-flow.png\n- assets/docs/indexing-flow-diagram.png\n- assets/docs/indexing-sequence-diagram.png\n- assets/file_synchronizer.png\n- assets/mcp_efficiency_analysis_chart.png\n- assets/signup_and_create_cluster.jpeg\n- assets/signup_and_get_apikey.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Architecture.png\nassets/claude-context.png\nassets/docs\nassets/docs/file-inclusion-flow.png\nassets/docs/indexing-flow-diagram.png\nassets/docs/indexing-sequence-diagram.png\nassets/file_synchronizer.png\nassets/mcp_efficiency_analysis_chart.png\nassets/signup_and_create_cluster.jpeg\nassets/signup_and_get_apikey.png\nassets/vscode-setup.png\nassets/zilliz_cloud_dashboard.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.992280617712738
+  },
+  {
+    "name": "claude-context/docs 模块",
+    "description": "[模块级] claude-context 项目的 docs 模块 (docs)。来源: https://github.com/zilliztech/claude-context",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/README.md\n- docs/dive-deep\n- docs/dive-deep/asynchronous-indexing-workflow.md\n- docs/dive-deep/file-inclusion-rules.md\n- docs/getting-started\n- docs/getting-started/environment-variables.md\n- docs/getting-started/prerequisites.md\n- docs/getting-started/quick-start.md\n- docs/troubleshooting\n- docs/troubleshooting/faq.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/dive-deep\ndocs/dive-deep/asynchronous-indexing-workflow.md\ndocs/dive-deep/file-inclusion-rules.md\ndocs/getting-started\ndocs/getting-started/environment-variables.md\ndocs/getting-started/prerequisites.md\ndocs/getting-started/quick-start.md\ndocs/troubleshooting\ndocs/troubleshooting/faq.md\ndocs/troubleshooting/troubleshooting-guide.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.992280617712738
+  },
+  {
+    "name": "claude-context/evaluation 模块",
+    "description": "[模块级] claude-context 项目的 evaluation 模块 (source)。来源: https://github.com/zilliztech/claude-context",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "Our controlled evaluation demonstrates that Claude Context MCP achieves ~40% token reduction under the condition of equivalent retrieval quality. This translates to significant cost and time savings in production environments. This also means that, under the constraint of limited token context length, using Claude Context yields better retrieval and answer results.\n\n![MCP Efficiency Analysis](assets/mcp_efficiency_analysis_chart.png)\n\nFor detailed evaluation methodology and results, see the [eva",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/.python-version\nevaluation/README.md\nevaluation/analyze_and_plot_mcp_efficiency.py\nevaluation/case_study\nevaluation/case_study/README.md\nevaluation/case_study/django_14170\nevaluation/case_study/django_14170/README.md\nevaluation/case_study/django_14170/both_conversation.log\nevaluation/case_study/django_14170/both_result.json\nevaluation/case_study/django_14170/grep_conversation.log\nevaluation/case_study/django_14170/grep_result.json\nevaluation/case_study/pydata_xarray_6938\nevaluation/case_study/pydata_xarray_6938/README.md\nevaluation/case_study/pydata_xarray_6938/both_conversation.log\nevaluation/case_study/pydata_xarray_6938/both_result.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.992280617712738
+  },
+  {
+    "name": "claude-context/examples 模块",
+    "description": "[模块级] claude-context 项目的 examples 模块 (example)。来源: https://github.com/zilliztech/claude-context",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/basic-usage\nexamples/basic-usage/README.md\nexamples/basic-usage/index.ts\nexamples/basic-usage/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.992280617712738
+  },
+  {
+    "name": "claude-context/packages 模块",
+    "description": "[模块级] claude-context 项目的 packages 模块 (source)。来源: https://github.com/zilliztech/claude-context",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-rag",
+      "ai-coding",
+      "claude-code",
+      "code-generation",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "pnpm build",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/chrome-extension\npackages/chrome-extension/CONTRIBUTING.md\npackages/chrome-extension/README.md\npackages/chrome-extension/package.json\npackages/chrome-extension/src\npackages/chrome-extension/src/background.ts\npackages/chrome-extension/src/config\npackages/chrome-extension/src/config/milvusConfig.ts\npackages/chrome-extension/src/content.ts\npackages/chrome-extension/src/icons\npackages/chrome-extension/src/icons/icon128.png\npackages/chrome-extension/src/icons/icon16.png\npackages/chrome-extension/src/icons/icon32.png\npackages/chrome-extension/src/icons/icon48.png\npackages/chrome-extension/src/manifest.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.992280617712738
+  }
+]

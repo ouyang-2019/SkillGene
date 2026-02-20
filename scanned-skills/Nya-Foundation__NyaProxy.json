@@ -1,0 +1,193 @@
+[
+  {
+    "name": "NyaProxy (Nya-Foundation)",
+    "description": "[项目级] NyaProxy acts like a smart, central manager for accessing various online services (APIs) – think AI tools (like OpenAI, Gemini, Anthropic), image generators, or almost any web service that uses access keys. It helps you use these services more reliably, efficiently, and securely.。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "devops",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "python",
+      "stars-944",
+      "github-nya-foundation",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "> [!WARNING]\n> This project is currently under active development. Documentation may not reflect the latest changes. If you encounter unexpected behavior, please consider using a previous stable version or report issues on our GitHub repository.\n\nNyaProxy acts like a smart, central manager for accessing various online services (APIs) – think AI tools (like OpenAI, Gemini, Anthropic), image generators, or almost any web service that uses access keys. It helps you use these services more reliably, efficiently, and securely.\n\nHere's how NyaProxy can help:\n\n-   **Share the Load:** Automatically spreads requests across multiple access keys so no single key gets overwhelmed (Load Balancing).\n-   **Stay Online:** If one key fails, NyaProxy automatically tries another, keeping your application run",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\nREADME_ja.md\nREADME_zh.md\nassets\nassets/banner.png\nassets/config_ui.png\nassets/dashboard_ui.png\nassets/login_ui.png\nconfigs\nconfigs/gemini.yaml\nconfigs/novelai.yaml\nconfigs/openai.yaml\ndocker-compose.yml\ndocs\ndocs/openai-docker.md\ndocs/openai-pip.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.487485997149035
+  },
+  {
+    "name": "NyaProxy/assets 模块",
+    "description": "[模块级] NyaProxy 项目的 assets 模块 (source)。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "devops",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 4\n\n包含文件:\n- assets/banner.png\n- assets/config_ui.png\n- assets/dashboard_ui.png\n- assets/login_ui.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/banner.png\nassets/config_ui.png\nassets/dashboard_ui.png\nassets/login_ui.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "NyaProxy/configs 模块",
+    "description": "[模块级] NyaProxy 项目的 configs 模块 (config)。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "devops",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 3\n\n包含文件:\n- configs/gemini.yaml\n- configs/novelai.yaml\n- configs/openai.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/gemini.yaml\nconfigs/novelai.yaml\nconfigs/openai.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "NyaProxy/docs 模块",
+    "description": "[模块级] NyaProxy 项目的 docs 模块 (docs)。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "documentation",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/openai-docker.md\n- docs/openai-pip.md\n- docs/request_body_substitution.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/openai-docker.md\ndocs/openai-pip.md\ndocs/request_body_substitution.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "NyaProxy/nya-app 模块",
+    "description": "[模块级] NyaProxy 项目的 nya-app 模块 (source)。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "devops",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "module-level",
+      "source",
+      "nya-app"
+    ],
+    "genes": [
+      {
+        "title": "nya-app 模块说明",
+        "content": "模块路径: nya-app/\n类型: source\n文件数: 125\n\n包含文件:\n- nya-app/.editorconfig\n- nya-app/.env.production\n- nya-app/.gitattributes\n- nya-app/.gitignore\n- nya-app/.prettierrc.json\n- nya-app/.vscode\n- nya-app/.vscode/extensions.json\n- nya-app/README.md\n- nya-app/env.d.ts\n- nya-app/eslint.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nya-app 文件结构",
+        "content": "nya-app/.editorconfig\nnya-app/.env.production\nnya-app/.gitattributes\nnya-app/.gitignore\nnya-app/.prettierrc.json\nnya-app/.vscode\nnya-app/.vscode/extensions.json\nnya-app/README.md\nnya-app/env.d.ts\nnya-app/eslint.config.ts\nnya-app/index.html\nnya-app/package.json\nnya-app/pnpm-lock.yaml\nnya-app/postcss.config.js\nnya-app/public",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "NyaProxy/nya 模块",
+    "description": "[模块级] NyaProxy 项目的 nya 模块 (source)。来源: https://github.com/Nya-Foundation/NyaProxy",
+    "domain": "devops",
+    "tags": [
+      "api-management",
+      "api-monitoring",
+      "developer-tools",
+      "gemini-api",
+      "gemini-proxy",
+      "module-level",
+      "source",
+      "nya"
+    ],
+    "genes": [
+      {
+        "title": "nya 模块说明",
+        "content": "**📖 多言語ドキュメント / Multi-language Documentation:**\n- [English](README.md)\n- [简体中文](README_zh.md)\n- [日本語](README_ja.md)\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Nya-Foundation/NyaProxy/main/assets/banner.png\" alt=\"NyaProxy Banner\" width=\"800\" />\n  \n  <h3>The smart way to balance, secure, and monitor all your API interactions</h3>\n  \n  <div>\n    <a href=\"https://github.com/Nya-Foundation/nyaproxy/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/Nya-Founda",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nya 文件结构",
+        "content": "nya/__init__.py\nnya/_version.py\nnya/common\nnya/common/__init__.py\nnya/common/constants.py\nnya/common/exceptions.py\nnya/common/models.py\nnya/config.yaml\nnya/config\nnya/config/__init__.py\nnya/config/manager.py\nnya/core\nnya/core/__init__.py\nnya/core/control.py\nnya/core/handler.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "worktrunk (max-sixty)",
+    "description": "[项目级] Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "rust",
+      "stars-2230",
+      "github-max-sixty",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows\n\n来源: https://github.com/max-sixty/worktrunk\n语言: Rust\nStars: 2230",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "brew install worktrunk && wt config shell install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\nTaskfile.yaml\nbenches\nbenches/CLAUDE.md\nbenches/completion.rs\nbenches/cow_copy.rs\nbenches/list.rs\nbenches/time_to_first_output.rs\nbuild.rs\ndev\ndev/config.example.toml\ndev/logo-prompt.json\ndev/wt.example.toml\ndist-workspace.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.67415243152408
+  },
+  {
+    "name": "worktrunk/benches 模块",
+    "description": "[模块级] worktrunk 项目的 benches 模块 (source)。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "module-level",
+      "source",
+      "benches"
+    ],
+    "genes": [
+      {
+        "title": "benches 模块说明",
+        "content": "模块路径: benches/\n类型: source\n文件数: 5\n\n包含文件:\n- benches/CLAUDE.md\n- benches/completion.rs\n- benches/cow_copy.rs\n- benches/list.rs\n- benches/time_to_first_output.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benches 文件结构",
+        "content": "benches/CLAUDE.md\nbenches/completion.rs\nbenches/cow_copy.rs\nbenches/list.rs\nbenches/time_to_first_output.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393219452192646
+  },
+  {
+    "name": "worktrunk/dev 模块",
+    "description": "[模块级] worktrunk 项目的 dev 模块 (source)。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "module-level",
+      "source",
+      "dev"
+    ],
+    "genes": [
+      {
+        "title": "dev 模块说明",
+        "content": "模块路径: dev/\n类型: source\n文件数: 3\n\n包含文件:\n- dev/config.example.toml\n- dev/logo-prompt.json\n- dev/wt.example.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev 文件结构",
+        "content": "dev/config.example.toml\ndev/logo-prompt.json\ndev/wt.example.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393219452192646
+  },
+  {
+    "name": "worktrunk/docs 模块",
+    "description": "[模块级] worktrunk 项目的 docs 模块 (docs)。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 84\n\n包含文件:\n- docs/.gitignore\n- docs/CLAUDE.md\n- docs/config.toml\n- docs/content\n- docs/content/_index.md\n- docs/content/claude-code.md\n- docs/content/config.md\n- docs/content/faq.md\n- docs/content/hook.md\n- docs/content/list.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/CLAUDE.md\ndocs/config.toml\ndocs/content\ndocs/content/_index.md\ndocs/content/claude-code.md\ndocs/content/config.md\ndocs/content/faq.md\ndocs/content/hook.md\ndocs/content/list.md\ndocs/content/llm-commits.md\ndocs/content/merge.md\ndocs/content/remove.md\ndocs/content/step.md\ndocs/content/switch.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393219452192646
+  },
+  {
+    "name": "worktrunk/skills 模块",
+    "description": "[模块级] worktrunk 项目的 skills 模块 (source)。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 18\n\n包含文件:\n- skills/worktrunk\n- skills/worktrunk/SKILL.md\n- skills/worktrunk/reference\n- skills/worktrunk/reference/README.md\n- skills/worktrunk/reference/claude-code.md\n- skills/worktrunk/reference/config.md\n- skills/worktrunk/reference/faq.md\n- skills/worktrunk/reference/hook.md\n- skills/worktrunk/reference/list.md\n- skills/worktrunk/reference/llm-commits.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/worktrunk\nskills/worktrunk/SKILL.md\nskills/worktrunk/reference\nskills/worktrunk/reference/README.md\nskills/worktrunk/reference/claude-code.md\nskills/worktrunk/reference/config.md\nskills/worktrunk/reference/faq.md\nskills/worktrunk/reference/hook.md\nskills/worktrunk/reference/list.md\nskills/worktrunk/reference/llm-commits.md\nskills/worktrunk/reference/merge.md\nskills/worktrunk/reference/remove.md\nskills/worktrunk/reference/shell-integration.md\nskills/worktrunk/reference/step.md\nskills/worktrunk/reference/switch.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393219452192646
+  },
+  {
+    "name": "worktrunk/src 模块",
+    "description": "[模块级] worktrunk 项目的 src 模块 (source)。来源: https://github.com/max-sixty/worktrunk",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "developer-tools",
+      "git",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 24\n\n包含文件:\n- src/cli\n- src/cli/config.rs\n- src/cli/hook.rs\n- src/cli/list.rs\n- src/cli/mod.rs\n- src/cli/step.rs\n- src/command_log.rs\n- src/commands\n- src/commands/CLAUDE.md\n- src/commands/branch_deletion.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cli\nsrc/cli/config.rs\nsrc/cli/hook.rs\nsrc/cli/list.rs\nsrc/cli/mod.rs\nsrc/cli/step.rs\nsrc/command_log.rs\nsrc/commands\nsrc/commands/CLAUDE.md\nsrc/commands/branch_deletion.rs\nsrc/commands/command_approval.rs\nsrc/commands/command_executor.rs\nsrc/commands/commit.rs\nsrc/commands/config\nsrc/commands/config/create.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393219452192646
+  }
+]

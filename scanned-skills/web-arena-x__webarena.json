@@ -1,0 +1,305 @@
+[
+  {
+    "name": "webarena (web-arena-x)",
+    "description": "[项目级] Code repo for \"WebArena: A Realistic Web Environment for Building Autonomous Agents\"。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Code repo for \"WebArena: A Realistic Web Environment for Building Autonomous Agents\"\n\n来源: https://github.com/web-arena-x/webarena\n语言: Python\nStars: 1335",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nREADME.md\nagent\nagent/__init__.py\nagent/agent.py\nagent/prompts\nbrowser_env\nbrowser_env/__init__.py\nbrowser_env/actions.py\nbrowser_env/async_envs.py\nbrowser_env/auto_login.py\nbrowser_env/constants.py\nbrowser_env/env_config.py\nbrowser_env/envs.py\nbrowser_env/helper_functions.py\nbrowser_env/processors.py\nbrowser_env/py.typed\nbrowser_env/trajectory.py\nbrowser_env/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.562740632850297
+  },
+  {
+    "name": "webarena/agent 模块",
+    "description": "[模块级] webarena 项目的 agent 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "<p align=\"center\">\n    <img src=\"media/logo.png\" alt=\"Logo\" width=\"80px\">\n    <br>\n    <b>WebArena is a standalone, self-hostable web environment for building autonomous agents</b>\n</p>\n\n\n<p align=\"center\">\n<a href=\"https://www.python.org/downloads/release/python-3109/\"><img src=\"https://img.shields.io/badge/python-3.10-blue.svg\" alt=\"Python 3.10\"></a>\n<a href=\"https://pre-commit.com/\"><img src=\"https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white\" alt=\"pr",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/__init__.py\nagent/agent.py\nagent/prompts\nagent/prompts/README.md\nagent/prompts/__init__.py\nagent/prompts/prompt_constructor.py\nagent/prompts/raw\nagent/prompts/raw/p_cot_id_actree_2s.py\nagent/prompts/raw/p_cot_id_actree_2s_no_na.py\nagent/prompts/raw/p_direct_id_actree_2s.py\nagent/prompts/raw/p_direct_id_actree_2s_no_na.py\nagent/prompts/raw/p_direct_id_actree_3s_llama.py\nagent/prompts/to_json.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/browser_env 模块",
+    "description": "[模块级] webarena 项目的 browser_env 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "browser_env"
+    ],
+    "genes": [
+      {
+        "title": "browser_env 模块说明",
+        "content": "模块路径: browser_env/\n类型: source\n文件数: 12\n\n包含文件:\n- browser_env/__init__.py\n- browser_env/actions.py\n- browser_env/async_envs.py\n- browser_env/auto_login.py\n- browser_env/constants.py\n- browser_env/env_config.py\n- browser_env/envs.py\n- browser_env/helper_functions.py\n- browser_env/processors.py\n- browser_env/py.typed",
+        "gene_type": "principle"
+      },
+      {
+        "title": "browser_env 文件结构",
+        "content": "browser_env/__init__.py\nbrowser_env/actions.py\nbrowser_env/async_envs.py\nbrowser_env/auto_login.py\nbrowser_env/constants.py\nbrowser_env/env_config.py\nbrowser_env/envs.py\nbrowser_env/helper_functions.py\nbrowser_env/processors.py\nbrowser_env/py.typed\nbrowser_env/trajectory.py\nbrowser_env/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/config_files 模块",
+    "description": "[模块级] webarena 项目的 config_files 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "config_files"
+    ],
+    "genes": [
+      {
+        "title": "config_files 模块说明",
+        "content": "模块路径: config_files/\n类型: source\n文件数: 6\n\n包含文件:\n- config_files/examples\n- config_files/examples/1.json\n- config_files/examples/2.json\n- config_files/examples/3.json\n- config_files/examples/4.json\n- config_files/test.raw.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config_files 文件结构",
+        "content": "config_files/examples\nconfig_files/examples/1.json\nconfig_files/examples/2.json\nconfig_files/examples/3.json\nconfig_files/examples/4.json\nconfig_files/test.raw.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/environment_docker 模块",
+    "description": "[模块级] webarena 项目的 environment_docker 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "environment_docker"
+    ],
+    "genes": [
+      {
+        "title": "environment_docker 模块说明",
+        "content": "模块路径: environment_docker/\n类型: source\n文件数: 20\n\n包含文件:\n- environment_docker/README.md\n- environment_docker/webarena-homepage\n- environment_docker/webarena-homepage/app.py\n- environment_docker/webarena-homepage/static\n- environment_docker/webarena-homepage/static/figures\n- environment_docker/webarena-homepage/static/figures/calculator.png\n- environment_docker/webarena-homepage/static/figures/cms.png\n- environment_docker/webarena-homepage/static/figures/gitlab.png\n- environment_docker/webarena-homepage/static/figures/manual1.png\n- environment_docker/webarena-homepage/static/figures/manual2.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "environment_docker 文件结构",
+        "content": "environment_docker/README.md\nenvironment_docker/webarena-homepage\nenvironment_docker/webarena-homepage/app.py\nenvironment_docker/webarena-homepage/static\nenvironment_docker/webarena-homepage/static/figures\nenvironment_docker/webarena-homepage/static/figures/calculator.png\nenvironment_docker/webarena-homepage/static/figures/cms.png\nenvironment_docker/webarena-homepage/static/figures/gitlab.png\nenvironment_docker/webarena-homepage/static/figures/manual1.png\nenvironment_docker/webarena-homepage/static/figures/manual2.png\nenvironment_docker/webarena-homepage/static/figures/map.png\nenvironment_docker/webarena-homepage/static/figures/onestopshop.png\nenvironment_docker/webarena-homepage/static/figures/password.png\nenvironment_docker/webarena-homepage/static/figures/reddit.png\nenvironment_docker/webarena-homepage/static/figures/scratchpad.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/evaluation_harness 模块",
+    "description": "[模块级] webarena 项目的 evaluation_harness 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "evaluation_harness"
+    ],
+    "genes": [
+      {
+        "title": "evaluation_harness 模块说明",
+        "content": "模块路径: evaluation_harness/\n类型: source\n文件数: 3\n\n包含文件:\n- evaluation_harness/__init__.py\n- evaluation_harness/evaluators.py\n- evaluation_harness/helper_functions.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation_harness 文件结构",
+        "content": "evaluation_harness/__init__.py\nevaluation_harness/evaluators.py\nevaluation_harness/helper_functions.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/llms 模块",
+    "description": "[模块级] webarena 项目的 llms 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "llms"
+    ],
+    "genes": [
+      {
+        "title": "llms 模块说明",
+        "content": "模块路径: llms/\n类型: source\n文件数: 7\n\n包含文件:\n- llms/__init__.py\n- llms/lm_config.py\n- llms/providers\n- llms/providers/hf_utils.py\n- llms/providers/openai_utils.py\n- llms/tokenizers.py\n- llms/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llms 文件结构",
+        "content": "llms/__init__.py\nllms/lm_config.py\nllms/providers\nllms/providers/hf_utils.py\nllms/providers/openai_utils.py\nllms/tokenizers.py\nllms/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/media 模块",
+    "description": "[模块级] webarena 项目的 media 模块 (source)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 6\n\n包含文件:\n- media/example_trace_viewer.png\n- media/homepage_demo.png\n- media/logo.png\n- media/overview.png\n- media/v1_result.png\n- media/v2_result.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/example_trace_viewer.png\nmedia/homepage_demo.png\nmedia/logo.png\nmedia/overview.png\nmedia/v1_result.png\nmedia/v2_result.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/scripts 模块",
+    "description": "[模块级] webarena 项目的 scripts 模块 (script)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/check_error_runs.py\n- scripts/collect_obs.py\n- scripts/generate_test_data.py\n- scripts/html2json.py\n- scripts/webarena-zeno.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/check_error_runs.py\nscripts/collect_obs.py\nscripts/generate_test_data.py\nscripts/html2json.py\nscripts/webarena-zeno.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "webarena/tests 模块",
+    "description": "[模块级] webarena 项目的 tests 模块 (test)。来源: https://github.com/web-arena-x/webarena",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "nlp",
+      "python",
+      "stars-1335",
+      "github-web-arena-x",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 7\n\n包含文件:\n- tests/conftest.py\n- tests/test_browser_env\n- tests/test_browser_env/test_action_functionalities.py\n- tests/test_browser_env/test_actions.py\n- tests/test_browser_env/test_auth_cookie.py\n- tests/test_browser_env/test_playwright_actions.py\n- tests/test_browser_env/test_script_browser_env.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/test_browser_env\ntests/test_browser_env/test_action_functionalities.py\ntests/test_browser_env/test_actions.py\ntests/test_browser_env/test_auth_cookie.py\ntests/test_browser_env/test_playwright_actions.py\ntests/test_browser_env/test_script_browser_env.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  }
+]

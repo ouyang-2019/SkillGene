@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-rag (coree)",
+    "description": "[项目级] A curated list of retrieval-augmented generation (RAG) in large language models。来源: https://github.com/coree/awesome-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-list",
+      "awesome-resources",
+      "embeddings",
+      "large-language-models",
+      "llm",
+      "stars-366",
+      "github-coree",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of retrieval-augmented generation (RAG) in large language models\n\n来源: https://github.com/coree/awesome-rag\n语言: unknown\nStars: 366",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2817405426972055
+  }
+]

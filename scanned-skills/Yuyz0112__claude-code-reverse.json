@@ -1,0 +1,112 @@
+[
+  {
+    "name": "claude-code-reverse (Yuyz0112)",
+    "description": "[项目级] A Tool to Visualize Claude Code's LLM Interactions。来源: https://github.com/Yuyz0112/claude-code-reverse",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2102",
+      "github-yuyz0112",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Tool to Visualize Claude Code's LLM Interactions\n\n来源: https://github.com/Yuyz0112/claude-code-reverse\n语言: JavaScript\nStars: 2102",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME.zh_CN.md\ncli.js.patch\nlogs\nlogs/basic.log\nlogs/compact.log\nlogs/ide-integration.log\nlogs/output-style-explanatory.log\nlogs/output-style-learning.log\nlogs/setup-output-style.log\nlogs/sub-agent.log\nlogs/summarize.log\nparser.js\nresults\nresults/prompts\nresults/tools\nv1\nv1/README.md\nv1/README.zh_CN.md\nv1/chunks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.661316355846112
+  },
+  {
+    "name": "claude-code-reverse/logs 模块",
+    "description": "[模块级] claude-code-reverse 项目的 logs 模块 (source)。来源: https://github.com/Yuyz0112/claude-code-reverse",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2102",
+      "github-yuyz0112",
+      "module-level",
+      "source",
+      "logs"
+    ],
+    "genes": [
+      {
+        "title": "logs 模块说明",
+        "content": "模块路径: logs/\n类型: source\n文件数: 8\n\n包含文件:\n- logs/basic.log\n- logs/compact.log\n- logs/ide-integration.log\n- logs/output-style-explanatory.log\n- logs/output-style-learning.log\n- logs/setup-output-style.log\n- logs/sub-agent.log\n- logs/summarize.log",
+        "gene_type": "principle"
+      },
+      {
+        "title": "logs 文件结构",
+        "content": "logs/basic.log\nlogs/compact.log\nlogs/ide-integration.log\nlogs/output-style-explanatory.log\nlogs/output-style-learning.log\nlogs/setup-output-style.log\nlogs/sub-agent.log\nlogs/summarize.log",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8290530846768895
+  },
+  {
+    "name": "claude-code-reverse/results 模块",
+    "description": "[模块级] claude-code-reverse 项目的 results 模块 (source)。来源: https://github.com/Yuyz0112/claude-code-reverse",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2102",
+      "github-yuyz0112",
+      "module-level",
+      "source",
+      "results"
+    ],
+    "genes": [
+      {
+        "title": "results 模块说明",
+        "content": "> This section on analysis results will be continuously updated as more task scenarios are explored.\n\nThe internal processes of Claude Code that have been reverse-engineered include:\n\n- Quota check\n- Topic detection\n- Core Agent workflow\n- Context compaction\n- IDE integration\n- Todo short-term memory management\n- Task/Sub Agent workflow\n- Summarize previous conversations\n\nThe analyzed prompts are recorded in the [prompts directory](./results/prompts/), and the analyzed tool definitions are recor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "results 文件结构",
+        "content": "results/prompts\nresults/prompts/check-active-git-files.prompt.md\nresults/prompts/check-new-topic.prompt.md\nresults/prompts/compact.prompt.md\nresults/prompts/ide-opened-file.prompt.md\nresults/prompts/summarize-previous-conversation.prompt.md\nresults/prompts/system-compact.prompt.md\nresults/prompts/system-identity.prompt.md\nresults/prompts/system-output-style-explanatory.prompt.md\nresults/prompts/system-output-style-learning.prompt.md\nresults/prompts/system-reminder-end.prompt.md\nresults/prompts/system-reminder-start.prompt.md\nresults/prompts/system-workflow.prompt.md\nresults/tools\nresults/tools/Bash.tool.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8290530846768895
+  },
+  {
+    "name": "claude-code-reverse/v1 模块",
+    "description": "[模块级] claude-code-reverse 项目的 v1 模块 (source)。来源: https://github.com/Yuyz0112/claude-code-reverse",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2102",
+      "github-yuyz0112",
+      "module-level",
+      "source",
+      "v1"
+    ],
+    "genes": [
+      {
+        "title": "v1 模块说明",
+        "content": "模块路径: v1/\n类型: source\n文件数: 155\n\n包含文件:\n- v1/README.md\n- v1/README.zh_CN.md\n- v1/chunks\n- v1/chunks/chunks.1.json\n- v1/chunks/chunks.1.mjs\n- v1/chunks/chunks.10.json\n- v1/chunks/chunks.10.mjs\n- v1/chunks/chunks.11.json\n- v1/chunks/chunks.11.mjs\n- v1/chunks/chunks.12.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "v1 文件结构",
+        "content": "v1/README.md\nv1/README.zh_CN.md\nv1/chunks\nv1/chunks/chunks.1.json\nv1/chunks/chunks.1.mjs\nv1/chunks/chunks.10.json\nv1/chunks/chunks.10.mjs\nv1/chunks/chunks.11.json\nv1/chunks/chunks.11.mjs\nv1/chunks/chunks.12.json\nv1/chunks/chunks.12.mjs\nv1/chunks/chunks.13.json\nv1/chunks/chunks.13.mjs\nv1/chunks/chunks.14.json\nv1/chunks/chunks.14.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8290530846768895
+  }
+]

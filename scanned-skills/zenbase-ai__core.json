@@ -1,0 +1,94 @@
+[
+  {
+    "name": "core (zenbase-ai)",
+    "description": "[项目级] Prompt engineering, automated.。来源: https://github.com/zenbase-ai/core",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-352",
+      "github-zenbase-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt engineering, automated.\n\n来源: https://github.com/zenbase-ai/core\n语言: Jupyter Notebook\nStars: 352",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install zenbase",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nlitellm\nlitellm/.env.sample\nlitellm/README.md\nlitellm/config.yaml\nlitellm/docker-compose.yml\npy\npy/.env.sample\npy/.gitignore\npy/.pre-commit-config.yaml\npy/.python-version\npy/README.md\npy/cookbooks\npy/pyproject.toml\npy/requirements-dev.lock\npy/requirements.lock\npy/src\npy/tests",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.273271331739066
+  },
+  {
+    "name": "core/litellm 模块",
+    "description": "[模块级] core 项目的 litellm 模块 (source)。来源: https://github.com/zenbase-ai/core",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-352",
+      "github-zenbase-ai",
+      "module-level",
+      "source",
+      "litellm"
+    ],
+    "genes": [
+      {
+        "title": "litellm 模块说明",
+        "content": "模块路径: litellm/\n类型: source\n文件数: 4\n\n包含文件:\n- litellm/.env.sample\n- litellm/README.md\n- litellm/config.yaml\n- litellm/docker-compose.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "litellm 文件结构",
+        "content": "litellm/.env.sample\nlitellm/README.md\nlitellm/config.yaml\nlitellm/docker-compose.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5186170653912523
+  },
+  {
+    "name": "core/py 模块",
+    "description": "[模块级] core 项目的 py 模块 (source)。来源: https://github.com/zenbase-ai/core",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-352",
+      "github-zenbase-ai",
+      "module-level",
+      "source",
+      "py"
+    ],
+    "genes": [
+      {
+        "title": "py 模块说明",
+        "content": "```bash\npip install zenbase\n```\n\nFor more information take a look at the [Zenbase Core Python README](./py/README.md).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "py 文件结构",
+        "content": "py/.env.sample\npy/.gitignore\npy/.pre-commit-config.yaml\npy/.python-version\npy/README.md\npy/cookbooks\npy/cookbooks/bootstrap_few_shot\npy/cookbooks/bootstrap_few_shot/arize.ipynb\npy/cookbooks/bootstrap_few_shot/langfuse.ipynb\npy/cookbooks/bootstrap_few_shot/langsmith.ipynb\npy/cookbooks/bootstrap_few_shot/lunary.ipynb\npy/cookbooks/bootstrap_few_shot/parea.ipynb\npy/cookbooks/labeled_few_shot\npy/cookbooks/labeled_few_shot/arize.ipynb\npy/cookbooks/labeled_few_shot/json.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "py 代码示例",
+        "content": "pip install zenbase",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5186170653912523
+  }
+]

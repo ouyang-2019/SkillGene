@@ -1,0 +1,143 @@
+[
+  {
+    "name": "telegram-search (groupultra)",
+    "description": "[项目级] 🔍 导出并模糊搜索 Telegram 聊天记录 | Export and fuzzy search your Telegram chat history。来源: https://github.com/groupultra/telegram-search",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "embedding",
+      "mcp",
+      "telegram",
+      "typescript",
+      "stars-3754",
+      "github-groupultra",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔍 导出并模糊搜索 Telegram 聊天记录 | Export and fuzzy search your Telegram chat history\n\n来源: https://github.com/groupultra/telegram-search\n语言: TypeScript\nStars: 3754",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\napps\napps/server\napps/web\nbump.config.ts\ncspell.config.yaml\ndocker\ndocker/.env.example\ndocker/Dockerfile\ndocker/docker-compose.dev.yml\ndocker/docker-compose.yml\ndocker/entrypoint.sh\ndocker/init.sql\ndocker/nginx.conf\ndocker/observability\ndocs\ndocs/CODE_OF_CONDUCT.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "我们提供了一个在线体验版，无需自行部署，即可体验 Telegram Search 的全部功能。\n\n访问以下网址开始使用：https://search.lingogram.app\n\n> [!WARNING]\n> 本项目未发行任何虚拟货币，请警惕相关诈骗风险。\n>\n> 本软件仅供您导出和检索个人聊天记录使用，切勿将其用于任何违法用途。",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.787247134142664
+  },
+  {
+    "name": "telegram-search/apps 模块",
+    "description": "[模块级] telegram-search 项目的 apps 模块 (source)。来源: https://github.com/groupultra/telegram-search",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "embedding",
+      "mcp",
+      "telegram",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 123\n\n包含文件:\n- apps/server\n- apps/server/mock\n- apps/server/mock/index.ts\n- apps/server/mock/setup-test.ts\n- apps/server/package.json\n- apps/server/src\n- apps/server/src/account.ts\n- apps/server/src/apis\n- apps/server/src/apis/v1\n- apps/server/src/apis/v1/index.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/server\napps/server/mock\napps/server/mock/index.ts\napps/server/mock/setup-test.ts\napps/server/package.json\napps/server/src\napps/server/src/account.ts\napps/server/src/apis\napps/server/src/apis/v1\napps/server/src/apis/v1/index.test.ts\napps/server/src/apis/v1/index.ts\napps/server/src/app.ts\napps/server/src/events.ts\napps/server/src/index.ts\napps/server/src/storage",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.929797707314131
+  },
+  {
+    "name": "telegram-search/docker 模块",
+    "description": "[模块级] telegram-search 项目的 docker 模块 (source)。来源: https://github.com/groupultra/telegram-search",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "embedding",
+      "mcp",
+      "telegram",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "1. 新建一个空目录，用于存放 Telegram Search 的配置和数据：\n```bash\nmkdir telegram-search\ncd telegram-search\n```\n\n2. 下载 Docker Compose 文件并启动全部服务（包括数据库、MinIO 等）：\n```bash\ncurl -L https://raw.githubusercontent.com/groupultra/telegram-search/refs/heads/main/docker/docker-compose.yml -o docker-compose.yml\ncurl -L https://raw.githubusercontent.com/groupultra/telegram-search/refs/heads/main/docker/.env.example -o .env\ncurl -L https://raw.githubusercontent.com/groupultra/telegram-search/refs/heads/main/docker/init.sql -o i",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env.example\ndocker/Dockerfile\ndocker/docker-compose.dev.yml\ndocker/docker-compose.yml\ndocker/entrypoint.sh\ndocker/init.sql\ndocker/nginx.conf\ndocker/observability\ndocker/observability/docker-compose.yml\ndocker/observability/grafana\ndocker/observability/grafana/dashboards\ndocker/observability/grafana/dashboards/.gitkeep\ndocker/observability/grafana/dashboards/provider.yaml\ndocker/observability/grafana/dashboards/telegram-search.json\ndocker/observability/grafana/datasources",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "mkdir telegram-search\ncd telegram-search",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.929797707314131
+  },
+  {
+    "name": "telegram-search/docs 模块",
+    "description": "[模块级] telegram-search 项目的 docs 模块 (docs)。来源: https://github.com/groupultra/telegram-search",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "embedding",
+      "mcp",
+      "telegram",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/CODE_OF_CONDUCT.md\n- docs/CONTRIBUTING.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CODE_OF_CONDUCT.md\ndocs/CONTRIBUTING.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.929797707314131
+  }
+]

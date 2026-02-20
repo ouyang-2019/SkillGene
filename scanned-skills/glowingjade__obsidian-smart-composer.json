@@ -1,0 +1,94 @@
+[
+  {
+    "name": "obsidian-smart-composer (glowingjade)",
+    "description": "[项目级] AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.。来源: https://github.com/glowingjade/obsidian-smart-composer",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2111",
+      "github-glowingjade",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support.\n\n来源: https://github.com/glowingjade/obsidian-smart-composer\n语言: TypeScript\nStars: 2111",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> [!IMPORTANT]\n> **Installer Version Requirement**  \n> Smart Composer requires a recent version of the Obsidian installer. If you experience issues with the plugin not loading properly:\n> \n> 1. First, try updating Obsidian normally at `Settings > General > Check for updates`.\n> \n> 2. If issues persist, manually update your Obsidian installer:\n>    - Download the latest installer from [Obsidian's download page](https://obsidian.md/download)\n>    - Close Obsidian completely\n>    - Run the new installer\n\n1. Open Obsidian Settings\n2. Navigate to \"Community plugins\" and click \"Browse\"\n3. Search for",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDEVELOPMENT.md\nLICENSE\nREADME.md\n__mocks__\n__mocks__/obsidian.ts\ncompile-migration.js\ndrizzle.config.ts\ndrizzle\ndrizzle/0000_add_vector_extension.sql\ndrizzle/0001_create_vector_data_tables.sql\ndrizzle/0002_create_vector_data_nomic_embed_text.sql\ndrizzle/0003_create_vector_data_mxbai_embed_large.sql\ndrizzle/0004_create_vector_data_bge_m3.sql\ndrizzle/0005_create_template_table.sql\ndrizzle/0006_rename_vector_tables.sql\ndrizzle/0007_create_vector_data_gemini_text_embedding_004.sql\ndrizzle/0008_unify_embedding_table.sql\ndrizzle/0009_support_more_dimension_for_indexing.sql\ndrizzle/meta",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.662244116653828
+  },
+  {
+    "name": "obsidian-smart-composer/drizzle 模块",
+    "description": "[模块级] obsidian-smart-composer 项目的 drizzle 模块 (source)。来源: https://github.com/glowingjade/obsidian-smart-composer",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2111",
+      "github-glowingjade",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 22\n\n包含文件:\n- drizzle/0000_add_vector_extension.sql\n- drizzle/0001_create_vector_data_tables.sql\n- drizzle/0002_create_vector_data_nomic_embed_text.sql\n- drizzle/0003_create_vector_data_mxbai_embed_large.sql\n- drizzle/0004_create_vector_data_bge_m3.sql\n- drizzle/0005_create_template_table.sql\n- drizzle/0006_rename_vector_tables.sql\n- drizzle/0007_create_vector_data_gemini_text_embedding_004.sql\n- drizzle/0008_unify_embedding_table.sql\n- drizzle/0009_support_more_dimension_for_indexing.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_add_vector_extension.sql\ndrizzle/0001_create_vector_data_tables.sql\ndrizzle/0002_create_vector_data_nomic_embed_text.sql\ndrizzle/0003_create_vector_data_mxbai_embed_large.sql\ndrizzle/0004_create_vector_data_bge_m3.sql\ndrizzle/0005_create_template_table.sql\ndrizzle/0006_rename_vector_tables.sql\ndrizzle/0007_create_vector_data_gemini_text_embedding_004.sql\ndrizzle/0008_unify_embedding_table.sql\ndrizzle/0009_support_more_dimension_for_indexing.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/0001_snapshot.json\ndrizzle/meta/0002_snapshot.json\ndrizzle/meta/0003_snapshot.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8297952933230626
+  },
+  {
+    "name": "obsidian-smart-composer/src 模块",
+    "description": "[模块级] obsidian-smart-composer 项目的 src 模块 (source)。来源: https://github.com/glowingjade/obsidian-smart-composer",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2111",
+      "github-glowingjade",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 145\n\n包含文件:\n- src/ApplyView.tsx\n- src/ChatView.tsx\n- src/components\n- src/components/apply-view\n- src/components/apply-view/ApplyViewRoot.tsx\n- src/components/chat-view\n- src/components/chat-view/AssistantMessageAnnotations.tsx\n- src/components/chat-view/AssistantMessageContent.tsx\n- src/components/chat-view/AssistantMessageReasoning.tsx\n- src/components/chat-view/AssistantToolMessageGroupActions.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/ApplyView.tsx\nsrc/ChatView.tsx\nsrc/components\nsrc/components/apply-view\nsrc/components/apply-view/ApplyViewRoot.tsx\nsrc/components/chat-view\nsrc/components/chat-view/AssistantMessageAnnotations.tsx\nsrc/components/chat-view/AssistantMessageContent.tsx\nsrc/components/chat-view/AssistantMessageReasoning.tsx\nsrc/components/chat-view/AssistantToolMessageGroupActions.tsx\nsrc/components/chat-view/AssistantToolMessageGroupItem.tsx\nsrc/components/chat-view/Chat.tsx\nsrc/components/chat-view/ChatListDropdown.tsx\nsrc/components/chat-view/LLMResponseInfoPopover.tsx\nsrc/components/chat-view/MarkdownCodeComponent.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8297952933230626
+  }
+]

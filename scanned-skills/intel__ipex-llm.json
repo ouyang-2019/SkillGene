@@ -1,0 +1,132 @@
+[
+  {
+    "name": "ipex-llm (intel)",
+    "description": "[项目级] Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, DeepSeek, Mixtral, Gemma, Phi, MiniCPM, Qwen-VL, MiniCPM-V, etc.) on Intel XPU (e.g., local PC with iGPU and NPU, discrete GPU such as Arc, Flex and Max); seamlessly integrate with llama.cpp, Ollama, HuggingFace, LangChain, LlamaIndex, vLLM, DeepSpeed, Axolotl, etc.。来源: https://github.com/intel/ipex-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "gpu",
+      "llm",
+      "pytorch",
+      "transformers",
+      "python",
+      "stars-8686",
+      "github-intel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, DeepSeek, Mixtral, Gemma, Phi, MiniCPM, Qwen-VL, MiniCPM-V, etc.) on Intel XPU (e.g., local PC with iGPU and NPU, discrete GPU such as Arc, Flex and Max); seamlessly integrate with llama.cpp, Ollama, HuggingFace, LangChain, LlamaIndex, vLLM, DeepSpeed, Axolotl, etc.\n\n来源: https://github.com/intel/ipex-llm\n语言: Python\nStars: 8686",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- [Windows GPU](docs/mddocs/Quickstart/install_windows_gpu.md): installing `ipex-llm` on Windows with Intel GPU\n- [Linux GPU](docs/mddocs/Quickstart/install_linux_gpu.md): installing `ipex-llm` on Linux with Intel GPU\n- *For more details, please refer to the [full installation guide](docs/mddocs/Overview/install.md)*",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.zh-CN.md\nSECURITY.md\napps\napps/ipynb2py.sh\ndocker\ndocker/llm\ndocs\ndocs/mddocs\npyproject.toml\npython\npython/llm",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- #### Low bit inference\n  - [INT4 inference](python/llm/example/GPU/HuggingFace/LLM): **INT4** LLM inference on Intel [GPU](python/llm/example/GPU/HuggingFace/LLM) and [CPU](python/llm/example/CPU/HF-Transformers-AutoModels/Model)\n  - [FP8/FP6/FP4 inference](python/llm/example/GPU/HuggingFace/More-Data-Types): **FP8**, **FP6** and **FP4** LLM inference on Intel [GPU](python/llm/example/GPU/HuggingFace/More-Data-Types)\n  - [INT8 inference](python/llm/example/GPU/HuggingFace/More-Data-Types): **INT8** LLM inference on Intel [GPU](python/llm/example/GPU/HuggingFace/More-Data-Types) and [CPU](pyt",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.969409912513105
+  },
+  {
+    "name": "ipex-llm/docker 模块",
+    "description": "[模块级] ipex-llm 项目的 docker 模块 (source)。来源: https://github.com/intel/ipex-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "gpu",
+      "llm",
+      "pytorch",
+      "transformers",
+      "python",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "- [GPU Inference in C++](docs/mddocs/DockerGuides/docker_cpp_xpu_quickstart.md): running `llama.cpp`, `ollama`, etc., with `ipex-llm` on Intel GPU\n- [GPU Inference in Python](docs/mddocs/DockerGuides/docker_pytorch_inference_gpu.md) : running HuggingFace `transformers`, `LangChain`, `LlamaIndex`, `ModelScope`, etc. with `ipex-llm` on Intel GPU\n- [vLLM on GPU](docs/mddocs/DockerGuides/vllm_docker_quickstart.md): running `vLLM` serving with `ipex-llm` on Intel GPU\n- [vLLM on CPU](docs/mddocs/Docke",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/llm\ndocker/llm/README.md\ndocker/llm/README_backup.md\ndocker/llm/finetune\ndocker/llm/finetune/lora\ndocker/llm/finetune/lora/cpu\ndocker/llm/finetune/lora/cpu/README.md\ndocker/llm/finetune/lora/cpu/docker\ndocker/llm/finetune/lora/cpu/docker/Dockerfile\ndocker/llm/finetune/lora/cpu/docker/README.md\ndocker/llm/finetune/lora/cpu/docker/ipex-llm-lora-finetuing-entrypoint.sh\ndocker/llm/finetune/lora/cpu/docker/lora_finetune.py\ndocker/llm/finetune/lora/cpu/docker/requirements.txt\ndocker/llm/finetune/lora/cpu/kubernetes\ndocker/llm/finetune/lora/cpu/kubernetes/Chart.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075527930010484
+  },
+  {
+    "name": "ipex-llm/docs 模块",
+    "description": "[模块级] ipex-llm 项目的 docs 模块 (docs)。来源: https://github.com/intel/ipex-llm",
+    "domain": "documentation",
+    "tags": [
+      "gpu",
+      "llm",
+      "pytorch",
+      "transformers",
+      "python",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 69\n\n包含文件:\n- docs/mddocs\n- docs/mddocs/DockerGuides\n- docs/mddocs/DockerGuides/README.md\n- docs/mddocs/DockerGuides/docker_cpp_xpu_quickstart.md\n- docs/mddocs/DockerGuides/docker_pytorch_inference_gpu.md\n- docs/mddocs/DockerGuides/docker_run_pytorch_inference_in_vscode.md\n- docs/mddocs/DockerGuides/docker_windows_gpu.md\n- docs/mddocs/DockerGuides/fastchat_docker_quickstart.md\n- docs/mddocs/DockerGuides/vllm_cpu_docker_quickstart.md\n- docs/mddocs/DockerGuides/vllm_docker_quickstart.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/mddocs\ndocs/mddocs/DockerGuides\ndocs/mddocs/DockerGuides/README.md\ndocs/mddocs/DockerGuides/docker_cpp_xpu_quickstart.md\ndocs/mddocs/DockerGuides/docker_pytorch_inference_gpu.md\ndocs/mddocs/DockerGuides/docker_run_pytorch_inference_in_vscode.md\ndocs/mddocs/DockerGuides/docker_windows_gpu.md\ndocs/mddocs/DockerGuides/fastchat_docker_quickstart.md\ndocs/mddocs/DockerGuides/vllm_cpu_docker_quickstart.md\ndocs/mddocs/DockerGuides/vllm_docker_quickstart.md\ndocs/mddocs/Inference\ndocs/mddocs/Inference/Self_Speculative_Decoding.md\ndocs/mddocs/Overview\ndocs/mddocs/Overview/FAQ\ndocs/mddocs/Overview/FAQ/faq.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075527930010484
+  },
+  {
+    "name": "ipex-llm/python 模块",
+    "description": "[模块级] ipex-llm 项目的 python 模块 (source)。来源: https://github.com/intel/ipex-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "gpu",
+      "llm",
+      "pytorch",
+      "transformers",
+      "python",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 10\n\n包含文件:\n- python/llm\n- python/llm/.gitignore\n- python/llm/dev\n- python/llm/dev/benchmark\n- python/llm/dev/benchmark/LongBench\n- python/llm/dev/benchmark/LongBench/README.md\n- python/llm/dev/benchmark/LongBench/config.yaml\n- python/llm/dev/benchmark/LongBench/config\n- python/llm/dev/benchmark/LongBench/config/ablation_c1024_w32_k7_maxpool.json\n- python/llm/dev/benchmark/LongBench/config/ablation_c2048_w32_k7_maxpool.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/llm\npython/llm/.gitignore\npython/llm/dev\npython/llm/dev/benchmark\npython/llm/dev/benchmark/LongBench\npython/llm/dev/benchmark/LongBench/README.md\npython/llm/dev/benchmark/LongBench/config.yaml\npython/llm/dev/benchmark/LongBench/config\npython/llm/dev/benchmark/LongBench/config/ablation_c1024_w32_k7_maxpool.json\npython/llm/dev/benchmark/LongBench/config/ablation_c2048_w32_k7_maxpool.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075527930010484
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "name": "RestGPT (Yifan-Song793)",
+    "description": "[项目级] An LLM-based autonomous agent controlling real-world applications via RESTful APIs。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An LLM-based autonomous agent controlling real-world applications via RESTful APIs\n\n来源: https://github.com/Yifan-Song793/RestGPT\n语言: Python\nStars: 1391",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install langchain colorama tiktoken spotipy openai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nconfig.yaml\ndatasets\ndatasets/spotify.json\ndatasets/tmdb.json\nimgs\nimgs/example.gif\nimgs/intro.png\nimgs/model.png\nimgs/restbench_example.png\ninit_spotify.py\nmodel\nmodel/__init__.py\nmodel/api_selector.py\nmodel/caller.py\nmodel/parser.py\nmodel/planner.py\nmodel/rest_gpt.py\nrun.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.571663564996023
+  },
+  {
+    "name": "RestGPT/datasets 模块",
+    "description": "[模块级] RestGPT 项目的 datasets 模块 (source)。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "module-level",
+      "source",
+      "datasets"
+    ],
+    "genes": [
+      {
+        "title": "datasets 模块说明",
+        "content": "模块路径: datasets/\n类型: source\n文件数: 2\n\n包含文件:\n- datasets/spotify.json\n- datasets/tmdb.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datasets 文件结构",
+        "content": "datasets/spotify.json\ndatasets/tmdb.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7573308519968185
+  },
+  {
+    "name": "RestGPT/imgs 模块",
+    "description": "[模块级] RestGPT 项目的 imgs 模块 (source)。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "module-level",
+      "source",
+      "imgs"
+    ],
+    "genes": [
+      {
+        "title": "imgs 模块说明",
+        "content": "模块路径: imgs/\n类型: source\n文件数: 4\n\n包含文件:\n- imgs/example.gif\n- imgs/intro.png\n- imgs/model.png\n- imgs/restbench_example.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "imgs 文件结构",
+        "content": "imgs/example.gif\nimgs/intro.png\nimgs/model.png\nimgs/restbench_example.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7573308519968185
+  },
+  {
+    "name": "RestGPT/model 模块",
+    "description": "[模块级] RestGPT 项目的 model 模块 (source)。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "module-level",
+      "source",
+      "model"
+    ],
+    "genes": [
+      {
+        "title": "model 模块说明",
+        "content": "模块路径: model/\n类型: source\n文件数: 6\n\n包含文件:\n- model/__init__.py\n- model/api_selector.py\n- model/caller.py\n- model/parser.py\n- model/planner.py\n- model/rest_gpt.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "model 文件结构",
+        "content": "model/__init__.py\nmodel/api_selector.py\nmodel/caller.py\nmodel/parser.py\nmodel/planner.py\nmodel/rest_gpt.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7573308519968185
+  },
+  {
+    "name": "RestGPT/specs 模块",
+    "description": "[模块级] RestGPT 项目的 specs 模块 (source)。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "module-level",
+      "source",
+      "specs"
+    ],
+    "genes": [
+      {
+        "title": "specs 模块说明",
+        "content": "模块路径: specs/\n类型: source\n文件数: 2\n\n包含文件:\n- specs/spotify_oas.json\n- specs/tmdb_oas.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "specs 文件结构",
+        "content": "specs/spotify_oas.json\nspecs/tmdb_oas.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7573308519968185
+  },
+  {
+    "name": "RestGPT/utils 模块",
+    "description": "[模块级] RestGPT 项目的 utils 模块 (source)。来源: https://github.com/Yifan-Song793/RestGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1391",
+      "github-yifan-song793",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 3\n\n包含文件:\n- utils/__init__.py\n- utils/oas_utils.py\n- utils/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/oas_utils.py\nutils/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7573308519968185
+  }
+]

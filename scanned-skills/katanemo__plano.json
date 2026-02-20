@@ -1,0 +1,98 @@
+[
+  {
+    "name": "plano (katanemo)",
+    "description": "[项目级] Delivery infrastructure for agentic apps - Plano is an AI-native proxy and data plane that offloads plumbing work, so you stay focused on your agent's core logic (via any AI framework).。来源: https://github.com/katanemo/plano",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-gateway",
+      "ai-gateway-support",
+      "envoy",
+      "envoyproxy",
+      "gateway",
+      "rust",
+      "stars-5121",
+      "github-katanemo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Building agentic demos is easy. Shipping agentic applications safely, reliably, and repeatably to production is hard. After the thrill of a quick hack, you end up building the “hidden middleware” to reach production: routing logic to reach the right agent, guardrail hooks for safety and moderation, evaluation and observability glue for continuous learning, and model/provider quirks scattered across frameworks and application code.\n\nPlano solves this by moving core delivery concerns into a unified, out-of-process dataplane.\n\n- **🚦 Orchestration:** Low-latency orchestration between agents; add new agents without modifying app code.\n- **🔗 Model Agility:** Route [by model name, alias (semantic names) or automatically via preferences](#use-plano-as-a-llm-router).\n- **🕵 Agentic Signals&trade;",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Ready to try Plano? Check out our comprehensive documentation:\n\n- **[Quickstart Guide](https://docs.planoai.dev/get_started/quickstart.html)** - Get up and running in minutes\n- **[LLM Routing](https://docs.planoai.dev/guides/llm_router.html)** - Route by model name, alias, or intelligent preferences\n- **[Agent Orchestration](https://docs.planoai.dev/guides/orchestration.html)** - Build multi-agent workflows\n- **[Filter Chains](https://docs.planoai.dev/concepts/filter_chain.html)** - Add guardrails, moderation, and memory hooks\n- **[Prompt Targets](https://docs.planoai.dev/concepts/prompt_targe",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\napps\napps/.gitignore\napps/katanemo-www\napps/www\narchgw.code-workspace\nbuild_filter_image.sh\ncli\ncli/README.md\ncli/build_cli.sh\ncli/planoai\ncli/pyproject.toml\ncli/test",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.854677387917198
+  },
+  {
+    "name": "plano/apps 模块",
+    "description": "[模块级] plano 项目的 apps 模块 (source)。来源: https://github.com/katanemo/plano",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-gateway",
+      "ai-gateway-support",
+      "envoy",
+      "envoyproxy",
+      "gateway",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "Plano handles **orchestration, model management, and observability** as modular building blocks - letting you configure only what you need (edge proxying for agentic orchestration and guardrails, or LLM routing from your services, or both together) to fit cleanly into existing architectures. Below is a simple multi-agent travel agent built with Plano that showcases all three core capabilities\n\n> 📁 **Full working code:** See [`demos/agent_orchestration/travel_agents/`](demos/agent_orchestration/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/.gitignore\napps/katanemo-www\napps/katanemo-www/.gitignore\napps/katanemo-www/biome.json\napps/katanemo-www/next.config.ts\napps/katanemo-www/package.json\napps/katanemo-www/postcss.config.mjs\napps/katanemo-www/public\napps/katanemo-www/public/KatanemoLogo.svg\napps/katanemo-www/public/logos\napps/katanemo-www/public/logos/clubcentric.svg\napps/katanemo-www/public/logos/hp.svg\napps/katanemo-www/public/logos/huggingface.svg\napps/katanemo-www/public/logos/sandisk.svg\napps/katanemo-www/public/logos/tmobile.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.983741910333759
+  },
+  {
+    "name": "plano/cli 模块",
+    "description": "[模块级] plano 项目的 cli 模块 (source)。来源: https://github.com/katanemo/plano",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-gateway",
+      "ai-gateway-support",
+      "envoy",
+      "envoyproxy",
+      "gateway",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 29\n\n包含文件:\n- cli/README.md\n- cli/build_cli.sh\n- cli/planoai\n- cli/planoai/__init__.py\n- cli/planoai/config_generator.py\n- cli/planoai/consts.py\n- cli/planoai/core.py\n- cli/planoai/docker_cli.py\n- cli/planoai/init_cmd.py\n- cli/planoai/main.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/README.md\ncli/build_cli.sh\ncli/planoai\ncli/planoai/__init__.py\ncli/planoai/config_generator.py\ncli/planoai/consts.py\ncli/planoai/core.py\ncli/planoai/docker_cli.py\ncli/planoai/init_cmd.py\ncli/planoai/main.py\ncli/planoai/rich_click_config.py\ncli/planoai/targets.py\ncli/planoai/template_sync.py\ncli/planoai/templates\ncli/planoai/templates/coding_agent_routing.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.983741910333759
+  }
+]

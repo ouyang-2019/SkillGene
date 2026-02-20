@@ -1,0 +1,66 @@
+[
+  {
+    "name": "voicetree (voicetreelab)",
+    "description": "[项目级] The spatial IDE for recursive multi-agent orchestration. It's like an Obsidian graph-view that you work directly inside of. 。来源: https://github.com/voicetreelab/voicetree",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "typescript",
+      "stars-656",
+      "github-voicetreelab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The spatial IDE for recursive multi-agent orchestration. It's like an Obsidian graph-view that you work directly inside of. \n\n来源: https://github.com/voicetreelab/voicetree\n语言: TypeScript\nStars: 656",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "brew tap voicetreelab/voicetree && brew install voicetree",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nbackend\nbackend/__init__.py\nbackend/benchmarker\nbackend/claude.md\nbackend/context_retrieval\nbackend/logging_config.py\nbackend/markdownTreeVaultDefault\nbackend/markdown_tree_manager\nbackend/paths.py\nbackend/readme-dev.md\nbackend/settings.py\nbackend/sse\nbackend/tests",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.40845191968783
+  },
+  {
+    "name": "voicetree/backend 模块",
+    "description": "[模块级] voicetree 项目的 backend 模块 (source)。来源: https://github.com/voicetreelab/voicetree",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "codex",
+      "typescript",
+      "stars-656",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 154\n\n包含文件:\n- backend/__init__.py\n- backend/benchmarker\n- backend/benchmarker/__init__.py\n- backend/benchmarker/input\n- backend/benchmarker/input/8k.txt\n- backend/benchmarker/input/igsm_op14_ip20_force_True_2_problem_question.txt\n- backend/benchmarker/input/igsm_op17_ip20_force_True_0_problem_question.txt\n- backend/benchmarker/input/igsm_op19_ip20_force_True_7_problem_question.txt\n- backend/benchmarker/input/ilan_transcript.txt\n- backend/benchmarker/input/nolima_16k_vegan.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/__init__.py\nbackend/benchmarker\nbackend/benchmarker/__init__.py\nbackend/benchmarker/input\nbackend/benchmarker/input/8k.txt\nbackend/benchmarker/input/igsm_op14_ip20_force_True_2_problem_question.txt\nbackend/benchmarker/input/igsm_op17_ip20_force_True_0_problem_question.txt\nbackend/benchmarker/input/igsm_op19_ip20_force_True_7_problem_question.txt\nbackend/benchmarker/input/ilan_transcript.txt\nbackend/benchmarker/input/nolima_16k_vegan.txt\nbackend/benchmarker/input/nolima_8k_spain.txt\nbackend/benchmarker/input/nolima_twohop_spain.txt\nbackend/benchmarker/input/og_vt_transcript.txt\nbackend/benchmarker/input/owl_transcript.txt\nbackend/benchmarker/input/russian_improvement.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6267615357502643
+  }
+]

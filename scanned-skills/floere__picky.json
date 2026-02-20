@@ -1,0 +1,180 @@
+[
+  {
+    "name": "picky (floere)",
+    "description": "[项目级] Picky is an easy to use and fast Ruby semantic search engine that helps your users find what they are looking for.。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Picky is an easy to use and fast Ruby semantic search engine that helps your users find what they are looking for.\n\n来源: https://github.com/floere/picky\n语言: HTML\nStars: 440",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.textile\nactivemodel\nactivemodel/Gemfile\nactivemodel/MIT-LICENSE\nactivemodel/README.rdoc\nactivemodel/lib\nactivemodel/picky-activemodel.gemspec\nactivemodel/test\nbin\nbin/document\nbin/install\nbin/integration\nbin/publish\nbin/release\nbin/specs\nbin/tag\nbin/uninstall\nclient",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321726338243094
+  },
+  {
+    "name": "picky/activemodel 模块",
+    "description": "[模块级] picky 项目的 activemodel 模块 (source)。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "module-level",
+      "source",
+      "activemodel"
+    ],
+    "genes": [
+      {
+        "title": "activemodel 模块说明",
+        "content": "模块路径: activemodel/\n类型: source\n文件数: 17\n\n包含文件:\n- activemodel/Gemfile\n- activemodel/MIT-LICENSE\n- activemodel/README.rdoc\n- activemodel/lib\n- activemodel/lib/picky-activemodel.rb\n- activemodel/lib/picky-activemodel\n- activemodel/lib/picky-activemodel/model.rb\n- activemodel/lib/picky-activemodel/model\n- activemodel/lib/picky-activemodel/model/indexing.rb\n- activemodel/lib/picky-activemodel/model/searching.rb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "activemodel 文件结构",
+        "content": "activemodel/Gemfile\nactivemodel/MIT-LICENSE\nactivemodel/README.rdoc\nactivemodel/lib\nactivemodel/lib/picky-activemodel.rb\nactivemodel/lib/picky-activemodel\nactivemodel/lib/picky-activemodel/model.rb\nactivemodel/lib/picky-activemodel/model\nactivemodel/lib/picky-activemodel/model/indexing.rb\nactivemodel/lib/picky-activemodel/model/searching.rb\nactivemodel/lib/picky-activemodel/picky.rb\nactivemodel/picky-activemodel.gemspec\nactivemodel/test\nactivemodel/test/activemodels\nactivemodel/test/activemodels/gem.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "picky/bin 模块",
+    "description": "[模块级] picky 项目的 bin 模块 (script)。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 8\n\n包含文件:\n- bin/document\n- bin/install\n- bin/integration\n- bin/publish\n- bin/release\n- bin/specs\n- bin/tag\n- bin/uninstall",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/document\nbin/install\nbin/integration\nbin/publish\nbin/release\nbin/specs\nbin/tag\nbin/uninstall",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "picky/client 模块",
+    "description": "[模块级] picky 项目的 client 模块 (source)。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 116\n\n包含文件:\n- client/Gemfile\n- client/Gemfile.lock\n- client/LICENSE\n- client/README.rdoc\n- client/Rakefile\n- client/document\n- client/generate_bundles\n- client/javascripts\n- client/javascripts/README\n- client/javascripts/compiler.jar",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/Gemfile\nclient/Gemfile.lock\nclient/LICENSE\nclient/README.rdoc\nclient/Rakefile\nclient/document\nclient/generate_bundles\nclient/javascripts\nclient/javascripts/README\nclient/javascripts/compiler.jar\nclient/javascripts/history.adapter.jquery.min.js\nclient/javascripts/history.min.js\nclient/javascripts/jquery.min.js\nclient/javascripts/picky.min.js\nclient/javascripts/picky.source.js.tar",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "picky/examples 模块",
+    "description": "[模块级] picky 项目的 examples 模块 (example)。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 41\n\n包含文件:\n- examples/.gitignore\n- examples/csv.rb\n- examples/document.rb\n- examples/dump_load.rb\n- examples/objects.rb\n- examples/people.csv\n- examples/simple_example\n- examples/simple_example/webapp\n- examples/simple_example/webapp/Gemfile\n- examples/simple_example/webapp/Gemfile.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/.gitignore\nexamples/csv.rb\nexamples/document.rb\nexamples/dump_load.rb\nexamples/objects.rb\nexamples/people.csv\nexamples/simple_example\nexamples/simple_example/webapp\nexamples/simple_example/webapp/Gemfile\nexamples/simple_example/webapp/Gemfile.lock\nexamples/simple_example/webapp/app.rb\nexamples/simple_example/webapp/books.csv\nexamples/simple_example/webapp/config.ru\nexamples/simple_example/webapp/images\nexamples/simple_example/webapp/images/picky.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "picky/generators 模块",
+    "description": "[模块级] picky 项目的 generators 模块 (source)。来源: https://github.com/floere/picky",
+    "domain": "general",
+    "tags": [
+      "ruby",
+      "search-engine",
+      "html",
+      "stars-440",
+      "github-floere",
+      "module-level",
+      "source",
+      "generators"
+    ],
+    "genes": [
+      {
+        "title": "generators 模块说明",
+        "content": "模块路径: generators/\n类型: source\n文件数: 9\n\n包含文件:\n- generators/Gemfile\n- generators/Gemfile.lock\n- generators/Rakefile\n- generators/bin\n- generators/bin/picky-generate\n- generators/lib\n- generators/lib/picky-generators.rb\n- generators/lib/picky-generators\n- generators/lib/picky-generators/generators",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generators 文件结构",
+        "content": "generators/Gemfile\ngenerators/Gemfile.lock\ngenerators/Rakefile\ngenerators/bin\ngenerators/bin/picky-generate\ngenerators/lib\ngenerators/lib/picky-generators.rb\ngenerators/lib/picky-generators\ngenerators/lib/picky-generators/generators",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "name": "camel (camel-ai)",
+    "description": "[项目级] 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org。来源: https://github.com/camel-ai/camel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai-societies",
+      "artificial-intelligence",
+      "communicative-ai",
+      "cooperative-ai",
+      "python",
+      "stars-16060",
+      "github-camel-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org\n\n来源: https://github.com/camel-ai/camel\n语言: Python\nStars: 16060",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install camel-ai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nMakefile\nREADME.ja.md\nREADME.md\nREADME.zh.md\nSECURITY.md\napps\napps/agents\napps/common\napps/data_explorer\napps/dilemma\ncamel\ncamel/__init__.py\ncamel/agents\ncamel/benchmarks\ncamel/bots\ncamel/configs\ncamel/data_collectors\ncamel/datagen",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Cookbook | Description |\n|:---|:---|\n| **[Tools Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_tools)** | Integrating tools for enhanced functionality. |\n| **[Memory Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_memory)** | Implementing memory systems in agents. |\n| **[RAG Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_rag)** | Recipes for Retrieval-Augmented Generation. |\n| **[Graph RAG Cookbook](https://docs.camel-ai.org/cookbooks/advanced_features/agents_with_graph_rag)** | Leveraging knowledge graphs ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "camel/apps 模块",
+    "description": "[模块级] camel 项目的 apps 模块 (source)。来源: https://github.com/camel-ai/camel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai-societies",
+      "artificial-intelligence",
+      "communicative-ai",
+      "cooperative-ai",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 25\n\n包含文件:\n- apps/agents\n- apps/agents/README.md\n- apps/agents/agents.py\n- apps/agents/test\n- apps/agents/test/test_agents.py\n- apps/agents/test/test_text_utils.py\n- apps/agents/text_utils.py\n- apps/common\n- apps/common/auto_zip.py\n- apps/common/test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/agents\napps/agents/README.md\napps/agents/agents.py\napps/agents/test\napps/agents/test/test_agents.py\napps/agents/test/test_text_utils.py\napps/agents/text_utils.py\napps/common\napps/common/auto_zip.py\napps/common/test\napps/common/test/test_archive_1.zip\napps/common/test/test_auto_zip.py\napps/data_explorer\napps/data_explorer/.gitignore\napps/data_explorer/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.182298216377065
+  },
+  {
+    "name": "camel/camel 模块",
+    "description": "[模块级] camel 项目的 camel 模块 (source)。来源: https://github.com/camel-ai/camel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai-societies",
+      "artificial-intelligence",
+      "communicative-ai",
+      "cooperative-ai",
+      "module-level",
+      "source",
+      "camel"
+    ],
+    "genes": [
+      {
+        "title": "camel 模块说明",
+        "content": "<h3>🧬 Evolvability</h3 >\n\nThe framework enables multi-agent systems to continuously evolve by generating data and interacting with environments. This evolution can be driven by reinforcement learning with verifiable rewards or supervised learning.\n\n<h3>📈 Scalability</h3>\n\nThe framework is designed to support systems with millions of agents, ensuring efficient coordination, communication, and resource management at scale.\n\n<h3>💾 Statefulness</h3>\n\nAgents maintain stateful memory, enabling them",
+        "gene_type": "principle"
+      },
+      {
+        "title": "camel 文件结构",
+        "content": "camel/__init__.py\ncamel/agents\ncamel/agents/__init__.py\ncamel/agents/_types.py\ncamel/agents/_utils.py\ncamel/agents/base.py\ncamel/agents/chat_agent.py\ncamel/agents/critic_agent.py\ncamel/agents/deductive_reasoner_agent.py\ncamel/agents/embodied_agent.py\ncamel/agents/knowledge_graph_agent.py\ncamel/agents/mcp_agent.py\ncamel/agents/multi_hop_generator_agent.py\ncamel/agents/programmed_agent_instruction.py\ncamel/agents/repo_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.182298216377065
+  }
+]

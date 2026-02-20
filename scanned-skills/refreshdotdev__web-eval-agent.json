@@ -1,0 +1,78 @@
+[
+  {
+    "name": "web-eval-agent (refreshdotdev)",
+    "description": "[项目级] An MCP server that autonomously evaluates web applications. 。来源: https://github.com/refreshdotdev/web-eval-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "debugging",
+      "debugging-tool",
+      "mcp",
+      "mcp-server",
+      "modelcontextprotocol",
+      "python",
+      "stars-1235",
+      "github-refreshdotdev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An MCP server that autonomously evaluates web applications. \n\n来源: https://github.com/refreshdotdev/web-eval-agent\n语言: Python\nStars: 1235",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n__init__.py\ndemo.gif\npyproject.toml\nrequirements.txt\nsmithery.yaml\nuv.lock\nwebEvalAgent\nwebEvalAgent/__init__.py\nwebEvalAgent/mcp_server.py\nwebEvalAgent/src\nwebEvalAgent/templates",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "📊 Web Evaluation Report for http://localhost:5173 complete!\n📝 Task: Test the API-key deletion flow by navigating to the API Keys section, deleting a key, and judging the UX.\n\n🔍 Agent Steps\n  📍 1. Navigate → http://localhost:5173\n  📍 2. Click     \"Login\"        (button index 2)\n  📍 3. Click     \"API Keys\"     (button index 4)\n  📍 4. Click     \"Create Key\"   (button index 9)\n  📍 5. Type      \"Test API Key\" (input index 2)\n  📍 6. Click     \"Done\"         (button index 3)\n  📍 7. Click     \"Delete\"       (button index 10)\n  📍 8. Click     \"Delete\"       (confirm index 3)\n🏁 Flow tested s",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🌐 **Navigate your webapp** using BrowserUse (2x faster with operative backend)\n- 📊 **Capture network traffic** - requests are intelligently filtered and returned into the context window\n- 🚨 **Collect console errors** - captures logs & errors\n- 🤖 **Autonomous debugging** - the Cursor agent calls the web QA agent mcp server to test if the code it wrote works as epected end-to-end.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.545833478797842
+  },
+  {
+    "name": "web-eval-agent/webEvalAgent 模块",
+    "description": "[模块级] web-eval-agent 项目的 webEvalAgent 模块 (source)。来源: https://github.com/refreshdotdev/web-eval-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "debugging",
+      "debugging-tool",
+      "mcp",
+      "mcp-server",
+      "modelcontextprotocol",
+      "module-level",
+      "source",
+      "webevalagent"
+    ],
+    "genes": [
+      {
+        "title": "webEvalAgent 模块说明",
+        "content": "模块路径: webEvalAgent/\n类型: source\n文件数: 16\n\n包含文件:\n- webEvalAgent/__init__.py\n- webEvalAgent/mcp_server.py\n- webEvalAgent/src\n- webEvalAgent/src/__init__.py\n- webEvalAgent/src/agent_overlay.js\n- webEvalAgent/src/api_utils.py\n- webEvalAgent/src/browser_manager.py\n- webEvalAgent/src/browser_utils.py\n- webEvalAgent/src/env_utils.py\n- webEvalAgent/src/log_server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "webEvalAgent 文件结构",
+        "content": "webEvalAgent/__init__.py\nwebEvalAgent/mcp_server.py\nwebEvalAgent/src\nwebEvalAgent/src/__init__.py\nwebEvalAgent/src/agent_overlay.js\nwebEvalAgent/src/api_utils.py\nwebEvalAgent/src/browser_manager.py\nwebEvalAgent/src/browser_utils.py\nwebEvalAgent/src/env_utils.py\nwebEvalAgent/src/log_server.py\nwebEvalAgent/src/prompts.py\nwebEvalAgent/src/tool_handlers.py\nwebEvalAgent/src/utils.py\nwebEvalAgent/templates\nwebEvalAgent/templates/static",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.736666783038274
+  }
+]

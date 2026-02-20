@@ -1,0 +1,128 @@
+[
+  {
+    "name": "layra (liweiphys)",
+    "description": "[项目级] LAYRA—an enterprise-ready, out-of-the-box solution—unlocks next-generation intelligent systems powered by visual RAG and limitless visual multi-step agent workflow orchestration.。来源: https://github.com/liweiphys/layra",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "colpali",
+      "document-parser",
+      "fastapi",
+      "gpt-4o",
+      "typescript",
+      "stars-897",
+      "github-liweiphys",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LAYRA—an enterprise-ready, out-of-the-box solution—unlocks next-generation intelligent systems powered by visual RAG and limitless visual multi-step agent workflow orchestration.\n\n来源: https://github.com/liweiphys/layra\n语言: TypeScript\nStars: 897",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "##### 1. Configure Environment Variables\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_zh.md\nassets\nassets/Wechat-group1.jpg\nassets/WechatOfficialAccount.jpg\nassets/dialog.png\nassets/dialog1.png\nassets/homepage.png\nassets/knowledgebase.png\nassets/logo.png\nassets/mcp.png\nassets/mcp2.png\nassets/query.png\nassets/upload.png\nassets/workflow.png\nassets/workflow1.png\nbackend\nbackend/Dockerfile\nbackend/alembic.ini",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.476396221522046
+  },
+  {
+    "name": "layra/assets 模块",
+    "description": "[模块级] layra 项目的 assets 模块 (source)。来源: https://github.com/liweiphys/layra",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "colpali",
+      "document-parser",
+      "fastapi",
+      "gpt-4o",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 13\n\n包含文件:\n- assets/Wechat-group1.jpg\n- assets/WechatOfficialAccount.jpg\n- assets/dialog.png\n- assets/dialog1.png\n- assets/homepage.png\n- assets/knowledgebase.png\n- assets/logo.png\n- assets/mcp.png\n- assets/mcp2.png\n- assets/query.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Wechat-group1.jpg\nassets/WechatOfficialAccount.jpg\nassets/dialog.png\nassets/dialog1.png\nassets/homepage.png\nassets/knowledgebase.png\nassets/logo.png\nassets/mcp.png\nassets/mcp2.png\nassets/query.png\nassets/upload.png\nassets/workflow.png\nassets/workflow1.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.681116977217637
+  },
+  {
+    "name": "layra/backend 模块",
+    "description": "[模块级] layra 项目的 backend 模块 (source)。来源: https://github.com/liweiphys/layra",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "colpali",
+      "document-parser",
+      "fastapi",
+      "gpt-4o",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 74\n\n包含文件:\n- backend/Dockerfile\n- backend/alembic.ini\n- backend/app\n- backend/app/__init__.py\n- backend/app/api\n- backend/app/api/__init__.py\n- backend/app/api/endpoints\n- backend/app/api/endpoints/__init__.py\n- backend/app/api/endpoints/auth.py\n- backend/app/api/endpoints/base.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/alembic.ini\nbackend/app\nbackend/app/__init__.py\nbackend/app/api\nbackend/app/api/__init__.py\nbackend/app/api/endpoints\nbackend/app/api/endpoints/__init__.py\nbackend/app/api/endpoints/auth.py\nbackend/app/api/endpoints/base.py\nbackend/app/api/endpoints/chat.py\nbackend/app/api/endpoints/chatflow.py\nbackend/app/api/endpoints/config.py\nbackend/app/api/endpoints/health.py\nbackend/app/api/endpoints/sse.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.681116977217637
+  },
+  {
+    "name": "layra/docs 模块",
+    "description": "[模块级] layra 项目的 docs 模块 (docs)。来源: https://github.com/liweiphys/layra",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "colpali",
+      "document-parser",
+      "fastapi",
+      "gpt-4o",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 94\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/blog\n- docs/blog/2025-06-08-welcome\n- docs/blog/2025-06-08-welcome/index.md\n- docs/blog/authors.yml\n- docs/blog/tags.yml\n- docs/docs\n- docs/docs/RAG-Chat.md\n- docs/docs/img",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/blog\ndocs/blog/2025-06-08-welcome\ndocs/blog/2025-06-08-welcome/index.md\ndocs/blog/authors.yml\ndocs/blog/tags.yml\ndocs/docs\ndocs/docs/RAG-Chat.md\ndocs/docs/img\ndocs/docs/img/Create-Knowledge-Base.png\ndocs/docs/img/Document-Management.png\ndocs/docs/img/Document-Upload.png\ndocs/docs/img/Knowledge-Base-Config-Now.png\ndocs/docs/img/Knowledge-Base-Configuration-Lower-Section.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.681116977217637
+  }
+]

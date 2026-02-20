@@ -1,0 +1,158 @@
+[
+  {
+    "name": "superglue (superglue-ai)",
+    "description": "[项目级] superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems.。来源: https://github.com/superglue-ai/superglue",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "typescript",
+      "stars-1985",
+      "github-superglue-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems.\n\n来源: https://github.com/superglue-ai/superglue\n语言: TypeScript\nStars: 1985",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\napi.graphql\ndocker-compose.yml\ndocker\ndocker/DOCKER.md\ndocker/Dockerfile\ndocker/Dockerfile.server\ndocker/Dockerfile.web\ndocker/docker-compose.yaml\ndocs\ndocs/openapi.yaml\neval\neval/integration-evals\neval/legacy-api-ranking\neval/llm-benchmark-evals\neval/sdk-test\neval/tool-evals",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.648880255549567
+  },
+  {
+    "name": "superglue/docker 模块",
+    "description": "[模块级] superglue 项目的 docker 模块 (source)。来源: https://github.com/superglue-ai/superglue",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 5\n\n包含文件:\n- docker/DOCKER.md\n- docker/Dockerfile\n- docker/Dockerfile.server\n- docker/Dockerfile.web\n- docker/docker-compose.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/DOCKER.md\ndocker/Dockerfile\ndocker/Dockerfile.server\ndocker/Dockerfile.web\ndocker/docker-compose.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819104204439654
+  },
+  {
+    "name": "superglue/eval 模块",
+    "description": "[模块级] superglue 项目的 eval 模块 (source)。来源: https://github.com/superglue-ai/superglue",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "module-level",
+      "source",
+      "eval"
+    ],
+    "genes": [
+      {
+        "title": "eval 模块说明",
+        "content": "模块路径: eval/\n类型: source\n文件数: 138\n\n包含文件:\n- eval/integration-evals\n- eval/integration-evals/.gitignore\n- eval/integration-evals/README.md\n- eval/integration-evals/benchmark\n- eval/integration-evals/benchmark/evaluation-debug-baseline.csv\n- eval/integration-evals/benchmark/fetch-results-baseline.csv\n- eval/integration-evals/config\n- eval/integration-evals/config/doc-eval-config.json\n- eval/integration-evals/index.ts\n- eval/integration-evals/run-documentation-evaluations.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "eval 文件结构",
+        "content": "eval/integration-evals\neval/integration-evals/.gitignore\neval/integration-evals/README.md\neval/integration-evals/benchmark\neval/integration-evals/benchmark/evaluation-debug-baseline.csv\neval/integration-evals/benchmark/fetch-results-baseline.csv\neval/integration-evals/config\neval/integration-evals/config/doc-eval-config.json\neval/integration-evals/index.ts\neval/integration-evals/run-documentation-evaluations.ts\neval/integration-evals/utils\neval/integration-evals/utils/benchmark-comparer.ts\neval/integration-evals/utils/doc-eval-config-loader.ts\neval/integration-evals/utils/doc-eval-fetcher.ts\neval/integration-evals/utils/doc-eval-retrieval-evaulator.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819104204439654
+  },
+  {
+    "name": "superglue/ftp-data 模块",
+    "description": "[模块级] superglue 项目的 ftp-data 模块 (source)。来源: https://github.com/superglue-ai/superglue",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "module-level",
+      "source",
+      "ftp-data"
+    ],
+    "genes": [
+      {
+        "title": "ftp-data 模块说明",
+        "content": "模块路径: ftp-data/\n类型: source\n文件数: 4\n\n包含文件:\n- ftp-data/customers.csv\n- ftp-data/orders.json\n- ftp-data/products.xml\n- ftp-data/test.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ftp-data 文件结构",
+        "content": "ftp-data/customers.csv\nftp-data/orders.json\nftp-data/products.xml\nftp-data/test.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819104204439654
+  },
+  {
+    "name": "superglue/packages 模块",
+    "description": "[模块级] superglue 项目的 packages 模块 (source)。来源: https://github.com/superglue-ai/superglue",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "api-gateway",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 17\n\n包含文件:\n- packages/core\n- packages/core/api\n- packages/core/api/api-server.test.ts\n- packages/core/api/api-server.ts\n- packages/core/api/ee\n- packages/core/api/ee/index.ts\n- packages/core/api/ee/scope-hooks.ts\n- packages/core/api/file-references.ts\n- packages/core/api/index.ts\n- packages/core/api/registry.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/core\npackages/core/api\npackages/core/api/api-server.test.ts\npackages/core/api/api-server.ts\npackages/core/api/ee\npackages/core/api/ee/index.ts\npackages/core/api/ee/scope-hooks.ts\npackages/core/api/file-references.ts\npackages/core/api/index.ts\npackages/core/api/registry.ts\npackages/core/api/response-helpers.test.ts\npackages/core/api/response-helpers.ts\npackages/core/api/runs.test.ts\npackages/core/api/runs.ts\npackages/core/api/systems-documentation.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819104204439654
+  }
+]

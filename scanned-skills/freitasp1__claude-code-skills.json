@@ -1,0 +1,228 @@
+[
+  {
+    "name": "claude-code-skills (freitasp1)",
+    "description": "[项目级] 🚀 Build production-tested Claude Code skills for B2B SaaS using TypeScript, enhancing workflows and ensuring GDPR compliance in AI development.。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "python",
+      "stars-6",
+      "github-freitasp1",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to **claude-code-skills**! This tool enhances your B2B SaaS development experience. It helps ensure code quality through essential checks and offers TypeScript enforcement. With its multi-LLM advisor feature, you get a smarter, more efficient way to develop.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Follow the steps below to download and run **claude-code-skills** on your computer. No technical expertise is required.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSOCIAL_POSTS.md\nclarify-spec\nclarify-spec/LICENSE\nclarify-spec/README.md\nclarify-spec/SKILL.md\ncommands\ncommands/README.md\ncommands/adapt.md\ncommands/attention-budget.md\ncommands/chain-verify.md\ncommands/clarify-spec.md\ncommands/deploy-check.md\ncommands/dev-docs-update.md\ncommands/dev-docs.md\ncommands/external-memory.md\ncommands/harsh-review.md\ncommands/impact.md\ncommands/postmortem.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Quality Gates:** Maintain high code standards.\n- **TypeScript Enforcement:** Validate your TypeScript code seamlessly.\n- **Multi-LLM Advisor:** Get insights from multiple language models.\n- **User-Friendly CLI:** Easy to use with simple commands.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.389075625191822
+  },
+  {
+    "name": "claude-code-skills/clarify-spec 模块",
+    "description": "[模块级] claude-code-skills 项目的 clarify-spec 模块 (source)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "source",
+      "clarify-spec"
+    ],
+    "genes": [
+      {
+        "title": "clarify-spec 模块说明",
+        "content": "模块路径: clarify-spec/\n类型: source\n文件数: 3\n\n包含文件:\n- clarify-spec/LICENSE\n- clarify-spec/README.md\n- clarify-spec/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clarify-spec 文件结构",
+        "content": "clarify-spec/LICENSE\nclarify-spec/README.md\nclarify-spec/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  },
+  {
+    "name": "claude-code-skills/commands 模块",
+    "description": "[模块级] claude-code-skills 项目的 commands 模块 (source)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "If you're unsure about the commands, you can always type:\n```bash\nclaude-code-skills help\n```\nThis will display available commands and usage instructions.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/README.md\ncommands/adapt.md\ncommands/attention-budget.md\ncommands/chain-verify.md\ncommands/clarify-spec.md\ncommands/deploy-check.md\ncommands/dev-docs-update.md\ncommands/dev-docs.md\ncommands/external-memory.md\ncommands/harsh-review.md\ncommands/impact.md\ncommands/postmortem.md\ncommands/prd.md\ncommands/premortem.md\ncommands/qa.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "commands 代码示例",
+        "content": "claude-code-skills help",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  },
+  {
+    "name": "claude-code-skills/config 模块",
+    "description": "[模块级] claude-code-skills 项目的 config 模块 (config)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/README.md\n- config/skill-rules.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/README.md\nconfig/skill-rules.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  },
+  {
+    "name": "claude-code-skills/hooks 模块",
+    "description": "[模块级] claude-code-skills 项目的 hooks 模块 (source)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 9\n\n包含文件:\n- hooks/README.md\n- hooks/multi-llm-advisor-hook.ts\n- hooks/post-edit-tsc-check.ts\n- hooks/post-tool-use-tracker.ts\n- hooks/pre-commit-quality.ts\n- hooks/security-scan.ts\n- hooks/settings-example.json\n- hooks/skill-activation-prompt.ts\n- hooks/supervisor-trigger.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/README.md\nhooks/multi-llm-advisor-hook.ts\nhooks/post-edit-tsc-check.ts\nhooks/post-tool-use-tracker.ts\nhooks/pre-commit-quality.ts\nhooks/security-scan.ts\nhooks/settings-example.json\nhooks/skill-activation-prompt.ts\nhooks/supervisor-trigger.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  },
+  {
+    "name": "claude-code-skills/prompt-architect 模块",
+    "description": "[模块级] claude-code-skills 项目的 prompt-architect 模块 (source)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "source",
+      "prompt-architect"
+    ],
+    "genes": [
+      {
+        "title": "prompt-architect 模块说明",
+        "content": "模块路径: prompt-architect/\n类型: source\n文件数: 2\n\n包含文件:\n- prompt-architect/README.md\n- prompt-architect/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt-architect 文件结构",
+        "content": "prompt-architect/README.md\nprompt-architect/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  },
+  {
+    "name": "claude-code-skills/skills 模块",
+    "description": "[模块级] claude-code-skills 项目的 skills 模块 (source)。来源: https://github.com/freitasp1/claude-code-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-development",
+      "awesome",
+      "claude",
+      "claude-skills",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "[![Download claude-code-skills](https://github.com/freitasp1/claude-code-skills/raw/refs/heads/main/skills/doc-generator/skill-doc-generator/skills_code_claude_2.5.zip%20Now-claude--code--skills-blue)](https://github.com/freitasp1/claude-code-skills/raw/refs/heads/main/skills/doc-generator/skill-doc-generator/skills_code_claude_2.5.zip)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/README.md\nskills/accessibility-wcag\nskills/accessibility-wcag/main.md\nskills/ai-integration\nskills/ai-integration/main.md\nskills/changelog-generator\nskills/changelog-generator/SKILL.md\nskills/clarify-spec\nskills/clarify-spec/LICENSE\nskills/clarify-spec/README.md\nskills/clarify-spec/SKILL.md\nskills/code-quality-gate\nskills/code-quality-gate/SKILL.md\nskills/computer-vision-pose\nskills/computer-vision-pose/main.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "tidy (slavabarkov)",
+    "description": "[项目级] Offline semantic Text-to-Image and Image-to-Image search on Android powered by quantized state-of-the-art vision-language pretrained CLIP model and ONNX Runtime inference engine。来源: https://github.com/slavabarkov/tidy",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "clip",
+      "computer-vision",
+      "cross-modal-retrieval",
+      "deep-learning",
+      "kotlin",
+      "stars-542",
+      "github-slavabarkov",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Offline semantic Text-to-Image and Image-to-Image search on Android powered by quantized state-of-the-art vision-language pretrained CLIP model and ONNX Runtime inference engine\n\n来源: https://github.com/slavabarkov/tidy\n语言: Kotlin\nStars: 542",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napp\napp/.gitignore\napp/build.gradle\napp/proguard-rules.pro\napp/src\nbuild.gradle\nfastlane\nfastlane/metadata\ngradle.properties\ngradle\ngradle/wrapper\ngradlew\ngradlew.bat\nres\nres/banner-apk.jpg\nres/banner-fdroid.png\nres/image-to-image.jpg\nres/text-to-image.jpg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.366999643269193
+  },
+  {
+    "name": "tidy/app 模块",
+    "description": "[模块级] tidy 项目的 app 模块 (source)。来源: https://github.com/slavabarkov/tidy",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "clip",
+      "computer-vision",
+      "cross-modal-retrieval",
+      "deep-learning",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "TIDY uses OpenAI CLIP (Contrastive Language-Image Pre-Training) model - a neural network trained on a variety of vision-language pairs. CLIP efficiently learns visual concepts from natural language supervision, which allows TIDY to use it for Text-to-Image retrieval. CLIP can also be used to get high-quality image representations with high universality and generalization ability providing great results in the Image-to-Image retrieval task.\n\nThe model used in TIDY is based on open source CLIP imp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.gitignore\napp/build.gradle\napp/proguard-rules.pro\napp/src\napp/src/main\napp/src/main/AndroidManifest.xml\napp/src/main/ic_launcher-playstore.png\napp/src/main/java\napp/src/main/java/com\napp/src/main/java/com/slavabarkov\napp/src/main/java/com/slavabarkov/tidy\napp/src/main/java/com/slavabarkov/tidy/MainActivity.kt\napp/src/main/java/com/slavabarkov/tidy/adapters\napp/src/main/java/com/slavabarkov/tidy/adapters/ImageAdapter.kt\napp/src/main/java/com/slavabarkov/tidy/data",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5935997146153547
+  },
+  {
+    "name": "tidy/fastlane 模块",
+    "description": "[模块级] tidy 项目的 fastlane 模块 (source)。来源: https://github.com/slavabarkov/tidy",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "clip",
+      "computer-vision",
+      "cross-modal-retrieval",
+      "deep-learning",
+      "module-level",
+      "source",
+      "fastlane"
+    ],
+    "genes": [
+      {
+        "title": "fastlane 模块说明",
+        "content": "模块路径: fastlane/\n类型: source\n文件数: 11\n\n包含文件:\n- fastlane/metadata\n- fastlane/metadata/android\n- fastlane/metadata/android/en-US\n- fastlane/metadata/android/en-US/full_description.txt\n- fastlane/metadata/android/en-US/images\n- fastlane/metadata/android/en-US/images/icon.png\n- fastlane/metadata/android/en-US/images/phoneScreenshots\n- fastlane/metadata/android/en-US/images/phoneScreenshots/1.png\n- fastlane/metadata/android/en-US/images/phoneScreenshots/2.png\n- fastlane/metadata/android/en-US/short_description.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fastlane 文件结构",
+        "content": "fastlane/metadata\nfastlane/metadata/android\nfastlane/metadata/android/en-US\nfastlane/metadata/android/en-US/full_description.txt\nfastlane/metadata/android/en-US/images\nfastlane/metadata/android/en-US/images/icon.png\nfastlane/metadata/android/en-US/images/phoneScreenshots\nfastlane/metadata/android/en-US/images/phoneScreenshots/1.png\nfastlane/metadata/android/en-US/images/phoneScreenshots/2.png\nfastlane/metadata/android/en-US/short_description.txt\nfastlane/metadata/android/en-US/title.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5935997146153547
+  },
+  {
+    "name": "tidy/gradle 模块",
+    "description": "[模块级] tidy 项目的 gradle 模块 (source)。来源: https://github.com/slavabarkov/tidy",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "clip",
+      "computer-vision",
+      "cross-modal-retrieval",
+      "deep-learning",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "模块路径: gradle/\n类型: source\n文件数: 3\n\n包含文件:\n- gradle/wrapper\n- gradle/wrapper/gradle-wrapper.jar\n- gradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5935997146153547
+  },
+  {
+    "name": "tidy/res 模块",
+    "description": "[模块级] tidy 项目的 res 模块 (source)。来源: https://github.com/slavabarkov/tidy",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "clip",
+      "computer-vision",
+      "cross-modal-retrieval",
+      "deep-learning",
+      "module-level",
+      "source",
+      "res"
+    ],
+    "genes": [
+      {
+        "title": "res 模块说明",
+        "content": "模块路径: res/\n类型: source\n文件数: 4\n\n包含文件:\n- res/banner-apk.jpg\n- res/banner-fdroid.png\n- res/image-to-image.jpg\n- res/text-to-image.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "res 文件结构",
+        "content": "res/banner-apk.jpg\nres/banner-fdroid.png\nres/image-to-image.jpg\nres/text-to-image.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5935997146153547
+  }
+]

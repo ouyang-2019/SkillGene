@@ -1,0 +1,122 @@
+[
+  {
+    "name": "awesome-prompts (ai-boost)",
+    "description": "[项目级] Curated list of chatgpt prompts from the top-rated GPTs in the GPTs Store. Prompt Engineering, prompt attack & prompt protect. Advanced Prompt Engineering papers.。来源: https://github.com/ai-boost/awesome-prompts",
+    "domain": "general",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "gpt4",
+      "gpts",
+      "stars-7305",
+      "github-ai-boost",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "People are writing great tools and papers for improving outputs from GPT. Here are some cool ones we've seen:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_zh.md\nassets\nassets/banner.png\nassets/star-history-2024321.png\npapers\npapers/Algorithm of Thoughts- Enhancing Exploration of Ideas in Large Language Models.pdf\npapers/Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models.pdf\npapers/Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf\npapers/Graph of Thoughts- Solving Elaborate Problems with Large Language Models.pdf\npapers/SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS.pdf\npapers/Skeleton-of-Thought- Large Language Models Can Do Parallel Decoding .pdf\npapers/Tree of Thoughts- Deliberate Problem Solving with Large Language Models.pdf\npapers/readme.txt\nprompts\nprompts/AutoGPT.md\nprompts/Beauty_DND.txt\nprompts/LearnOS_PRO.txt\nprompts/Literature_Professor.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.9318101101351575
+  },
+  {
+    "name": "awesome-prompts/assets 模块",
+    "description": "[模块级] awesome-prompts 项目的 assets 模块 (source)。来源: https://github.com/ai-boost/awesome-prompts",
+    "domain": "general",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "gpt4",
+      "gpts",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/banner.png\n- assets/star-history-2024321.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/banner.png\nassets/star-history-2024321.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0454480881081265
+  },
+  {
+    "name": "awesome-prompts/papers 模块",
+    "description": "[模块级] awesome-prompts 项目的 papers 模块 (source)。来源: https://github.com/ai-boost/awesome-prompts",
+    "domain": "general",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "gpt4",
+      "gpts",
+      "module-level",
+      "source",
+      "papers"
+    ],
+    "genes": [
+      {
+        "title": "papers 模块说明",
+        "content": "- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (2022)](https://arxiv.org/abs/2201.11903): Using few-shot prompts to ask models to think step by step improves their reasoning. PaLM's score on math word problems (GSM8K) rises from 18% to 57%.\n- [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](https://arxiv.org/abs/2203.11171): Taking votes from multiple outputs improves accuracy even more. Voting across 40 outputs raises PaLM's score on mat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "papers 文件结构",
+        "content": "papers/Algorithm of Thoughts- Enhancing Exploration of Ideas in Large Language Models.pdf\npapers/Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models.pdf\npapers/Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf\npapers/Graph of Thoughts- Solving Elaborate Problems with Large Language Models.pdf\npapers/SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS.pdf\npapers/Skeleton-of-Thought- Large Language Models Can Do Parallel Decoding .pdf\npapers/Tree of Thoughts- Deliberate Problem Solving with Large Language Models.pdf\npapers/readme.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0454480881081265
+  },
+  {
+    "name": "awesome-prompts/prompts 模块",
+    "description": "[模块级] awesome-prompts 项目的 prompts 模块 (source)。来源: https://github.com/ai-boost/awesome-prompts",
+    "domain": "general",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "gpt4",
+      "gpts",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "👋 Discover the secret prompts of top GPTs (from the official GPT Store )! Share and explore the most enchanting prompts from renowned GPTs. 🤩\n\n🔥 **Features**:\n- **Top GPT Prompts**: Unveil the magic behind the best GPTs! 🥇\n- **Community Sharing**: Join the github repo for exchanging brilliant GPT prompts! 💬\n- **Prompt Showcase**: Got an amazing prompt? Share it and inspire others! ✨\n\n🌈 **Join us** in shaping the future of AI with every prompt you share! 🌐\n\n![star history img](https://raw.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/AutoGPT.md\nprompts/Beauty_DND.txt\nprompts/LearnOS_PRO.txt\nprompts/Literature_Professor.md\nprompts/Meta MJ.md\nprompts/Mr_Ranedeer.txt\nprompts/Prompt Creater.md\nprompts/QuickSilver OS.md\nprompts/SuperPrompt.md\nprompts/Vampire The Masquerade Lore Expert.md\nprompts/claude_artifacts_prompt.md\nprompts/luna_prompt.txt\nprompts/meta_prompt.txt\nprompts/pdf_translator.txt\nprompts/✏️All-around Writer (Professional Version).md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0454480881081265
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "name": "agentic-project-management (sdi2200262)",
+    "description": "[项目级] A framework for managing complex projects with AI assistants through structured multi-agent workflows. Integrates to AI Assistants like Cursor, Claude Code, GitHub Copilot and more.。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A framework for managing complex projects with AI assistants through structured multi-agent workflows. Integrates to AI Assistants like Cursor, Claude Code, GitHub Copilot and more.\n\n来源: https://github.com/sdi2200262/agentic-project-management\n语言: JavaScript\nStars: 2034",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g agentic-pm",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nVERSIONING.md\nassets\nassets/apm-banner.png\nassets/apm-workflow-diagram.png\nassets/cobuter-man.png\nbuild-config.json\ndocs\ndocs/Agent_Types.md\ndocs/CLI.md\ndocs/Context_and_Memory_Management.md\ndocs/Context_and_Prompt_Engineering.md\ndocs/Getting_Started.md\ndocs/Introduction.md\ndocs/Modifying_APM.md\ndocs/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.654175474293362
+  },
+  {
+    "name": "agentic-project-management/assets 模块",
+    "description": "[模块级] agentic-project-management 项目的 assets 模块 (source)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/apm-banner.png\n- assets/apm-workflow-diagram.png\n- assets/cobuter-man.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/apm-banner.png\nassets/apm-workflow-diagram.png\nassets/cobuter-man.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  },
+  {
+    "name": "agentic-project-management/docs 模块",
+    "description": "[模块级] agentic-project-management 项目的 docs 模块 (docs)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "documentation",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/Agent_Types.md\n- docs/CLI.md\n- docs/Context_and_Memory_Management.md\n- docs/Context_and_Prompt_Engineering.md\n- docs/Getting_Started.md\n- docs/Introduction.md\n- docs/Modifying_APM.md\n- docs/README.md\n- docs/Token_Consumption_Tips.md\n- docs/Troubleshooting_Guide.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Agent_Types.md\ndocs/CLI.md\ndocs/Context_and_Memory_Management.md\ndocs/Context_and_Prompt_Engineering.md\ndocs/Getting_Started.md\ndocs/Introduction.md\ndocs/Modifying_APM.md\ndocs/README.md\ndocs/Token_Consumption_Tips.md\ndocs/Troubleshooting_Guide.md\ndocs/Workflow_Overview.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  },
+  {
+    "name": "agentic-project-management/scripts 模块",
+    "description": "[模块级] agentic-project-management 项目的 scripts 模块 (script)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/build.js\n- scripts/tests\n- scripts/tests/build.test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build.js\nscripts/tests\nscripts/tests/build.test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  },
+  {
+    "name": "agentic-project-management/src 模块",
+    "description": "[模块级] agentic-project-management 项目的 src 模块 (source)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 3\n\n包含文件:\n- src/downloader.js\n- src/index.js\n- src/utils.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/downloader.js\nsrc/index.js\nsrc/utils.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  },
+  {
+    "name": "agentic-project-management/templates 模块",
+    "description": "[模块级] agentic-project-management 项目的 templates 模块 (source)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 21\n\n包含文件:\n- templates/Implementation_Agent\n- templates/Implementation_Agent/Implementation_Agent_Handover_Prompt.md\n- templates/Implementation_Agent/Implementation_Agent_Initiation_Prompt.md\n- templates/Manager_Agent\n- templates/Manager_Agent/Manager_Agent_Handover_Prompt.md\n- templates/Manager_Agent/Manager_Agent_Initiation_Prompt.md\n- templates/README.md\n- templates/Setup_Agent\n- templates/Setup_Agent/Setup_Agent_Initiation_Prompt.md\n- templates/ad-hoc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/Implementation_Agent\ntemplates/Implementation_Agent/Implementation_Agent_Handover_Prompt.md\ntemplates/Implementation_Agent/Implementation_Agent_Initiation_Prompt.md\ntemplates/Manager_Agent\ntemplates/Manager_Agent/Manager_Agent_Handover_Prompt.md\ntemplates/Manager_Agent/Manager_Agent_Initiation_Prompt.md\ntemplates/README.md\ntemplates/Setup_Agent\ntemplates/Setup_Agent/Setup_Agent_Initiation_Prompt.md\ntemplates/ad-hoc\ntemplates/ad-hoc/Ad_Hoc_Agent_Initiation_Prompt.md\ntemplates/ad-hoc/Debug_Delegation_Guide.md\ntemplates/ad-hoc/README.md\ntemplates/ad-hoc/Research_Delegation_Guide.md\ntemplates/guides",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  },
+  {
+    "name": "agentic-project-management/website 模块",
+    "description": "[模块级] agentic-project-management 项目的 website 模块 (source)。来源: https://github.com/sdi2200262/agentic-project-management",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-2034",
+      "github-sdi2200262",
+      "module-level",
+      "source",
+      "website"
+    ],
+    "genes": [
+      {
+        "title": "website 模块说明",
+        "content": "模块路径: website/\n类型: source\n文件数: 138\n\n包含文件:\n- website/.gitignore\n- website/docusaurus.config.js\n- website/package-lock.json\n- website/package.json\n- website/scripts\n- website/scripts/concat-docs.js\n- website/sidebars.js\n- website/src\n- website/src/components\n- website/src/components/APMLogo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "website 文件结构",
+        "content": "website/.gitignore\nwebsite/docusaurus.config.js\nwebsite/package-lock.json\nwebsite/package.json\nwebsite/scripts\nwebsite/scripts/concat-docs.js\nwebsite/sidebars.js\nwebsite/src\nwebsite/src/components\nwebsite/src/components/APMLogo\nwebsite/src/components/APMLogo/index.js\nwebsite/src/components/APMLogo/styles.module.css\nwebsite/src/components/About\nwebsite/src/components/About/AssistantIcons.js\nwebsite/src/components/About/MobileAssistants.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8233403794346903
+  }
+]

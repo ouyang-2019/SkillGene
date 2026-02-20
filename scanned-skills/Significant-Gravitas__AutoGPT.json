@@ -1,0 +1,103 @@
+[
+  {
+    "name": "AutoGPT (Significant-Gravitas)",
+    "description": "[项目级] AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.。来源: https://github.com/Significant-Gravitas/AutoGPT",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "gpt-4",
+      "llama-api",
+      "python",
+      "stars-181899",
+      "github-significant-gravitas",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🛡️ **Polyform Shield License:**\nAll code and content within the `autogpt_platform` folder is licensed under the Polyform Shield License. This new project is our in-developlemt platform for building, deploying and managing agents.</br>_[Read more about this effort](https://agpt.co/blog/introducing-the-autogpt-platform)_\n\n🦉 **MIT License:**\nAll other portions of the AutoGPT repository (i.e., everything outside the `autogpt_platform` folder) are licensed under the MIT License. This includes the original stand-alone AutoGPT Agent, along with projects such as [Forge](https://github.com/Significant-Gravitas/AutoGPT/tree/master/classic/forge), [agbenchmark](https://github.com/Significant-Gravitas/AutoGPT/tree/master/classic/benchmark) and the [AutoGPT Classic GUI](https://github.com/Significant",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "We've moved to a fully maintained and regularly updated documentation site.\n\n👉 [Follow the official self-hosting guide here](https://agpt.co/docs/platform/getting-started/getting-started)\n\n\nThis tutorial assumes you have Docker, VSCode, git and npm installed.\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/gpt_dark_RGB.icns\nassets/gpt_dark_RGB.ico\nassets/gpt_dark_RGB.png\nautogpt_platform\nautogpt_platform/.env.default\nautogpt_platform/.gitignore\nautogpt_platform/CLAUDE.md\nautogpt_platform/Contributor License Agreement (CLA).md\nautogpt_platform/LICENSE.md\nautogpt_platform/Makefile\nautogpt_platform/README.md\nautogpt_platform/__init__.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "> [!NOTE]\n> Setting up and hosting the AutoGPT Platform yourself is a technical process. \n> If you'd rather something that just works, we recommend [joining the waitlist](https://bit.ly/3ZDijAI) for the cloud-hosted beta.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "AutoGPT/assets 模块",
+    "description": "[模块级] AutoGPT 项目的 assets 模块 (source)。来源: https://github.com/Significant-Gravitas/AutoGPT",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "gpt-4",
+      "llama-api",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/gpt_dark_RGB.icns\n- assets/gpt_dark_RGB.ico\n- assets/gpt_dark_RGB.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/gpt_dark_RGB.icns\nassets/gpt_dark_RGB.ico\nassets/gpt_dark_RGB.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6039321246046665
+  },
+  {
+    "name": "AutoGPT/autogpt_platform 模块",
+    "description": "[模块级] AutoGPT 项目的 autogpt_platform 模块 (source)。来源: https://github.com/Significant-Gravitas/AutoGPT",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "gpt-4",
+      "llama-api",
+      "module-level",
+      "source",
+      "autogpt_platform"
+    ],
+    "genes": [
+      {
+        "title": "autogpt_platform 模块说明",
+        "content": "模块路径: autogpt_platform/\n类型: source\n文件数: 82\n\n包含文件:\n- autogpt_platform/.env.default\n- autogpt_platform/.gitignore\n- autogpt_platform/CLAUDE.md\n- autogpt_platform/Contributor License Agreement (CLA).md\n- autogpt_platform/LICENSE.md\n- autogpt_platform/Makefile\n- autogpt_platform/README.md\n- autogpt_platform/__init__.py\n- autogpt_platform/autogpt_libs\n- autogpt_platform/autogpt_libs/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autogpt_platform 文件结构",
+        "content": "autogpt_platform/.env.default\nautogpt_platform/.gitignore\nautogpt_platform/CLAUDE.md\nautogpt_platform/Contributor License Agreement (CLA).md\nautogpt_platform/LICENSE.md\nautogpt_platform/Makefile\nautogpt_platform/README.md\nautogpt_platform/__init__.py\nautogpt_platform/autogpt_libs\nautogpt_platform/autogpt_libs/README.md\nautogpt_platform/autogpt_libs/autogpt_libs\nautogpt_platform/autogpt_libs/autogpt_libs/__init__.py\nautogpt_platform/autogpt_libs/autogpt_libs/api_key\nautogpt_platform/autogpt_libs/autogpt_libs/api_key/keysmith.py\nautogpt_platform/autogpt_libs/autogpt_libs/api_key/test_keysmith.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6039321246046665
+  }
+]

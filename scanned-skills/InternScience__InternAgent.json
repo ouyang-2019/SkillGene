@@ -1,0 +1,223 @@
+[
+  {
+    "name": "InternAgent (InternScience)",
+    "description": "[项目级] InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "python",
+      "stars-995",
+      "github-internscience",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "![InternAgent](assets/internagent_overall.png)\n\n**InternAgent 1.5** is a unified autonomous system for end-to-end scientific discovery across both **Algorithm Discovery** and **Empirical Discovery**. Building on InternAgent 1.0, it organizes scientific inquiry into three coordinated subsystems: **Generation** (hypothesis construction via deep research), **Verification** (methodological evaluation via solution refinement), and **Evolution** (evidence-driven refinement via long-horizon memory).\n![Benchmark](assets/benchmark.png)\nInternAgent 1.5 achieves **leading performance** on scientific reasoning benchmarks (GAIA, HLE, GPQA, FrontierScience, SGI-bench) and demonstrates **sustained autonomous optimization** across extended discovery cycles. The system supports **algorithm discovery** (age",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nassets\nassets/benchmark.png\nassets/bio_science_report.pdf\nassets/capability.png\nassets/image copy.png\nassets/internagent_framework.png\nassets/internagent_overall.png\nassets/life_science_report.pdf\nconfig\nconfig/config.yaml\nconfig/debug_config.yaml\nconfig/default_config.yaml\nconfig/feedback_global.json\nconfig/feedback_local.json\nconfig/interns1_config.yaml\ndocs\ndocs/config.js\ndocs/index.html\ninternagent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "![Framework](assets/internagent_framework.png)\n\nInternAgent 1.5 is built on three foundational subsystems that enable autonomous scientific discovery:",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.498911540372863
+  },
+  {
+    "name": "InternAgent/assets 模块",
+    "description": "[模块级] InternAgent 项目的 assets 模块 (source)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/benchmark.png\n- assets/bio_science_report.pdf\n- assets/capability.png\n- assets/image copy.png\n- assets/internagent_framework.png\n- assets/internagent_overall.png\n- assets/life_science_report.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/benchmark.png\nassets/bio_science_report.pdf\nassets/capability.png\nassets/image copy.png\nassets/internagent_framework.png\nassets/internagent_overall.png\nassets/life_science_report.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  },
+  {
+    "name": "InternAgent/config 模块",
+    "description": "[模块级] InternAgent 项目的 config 模块 (config)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 6\n\n包含文件:\n- config/config.yaml\n- config/debug_config.yaml\n- config/default_config.yaml\n- config/feedback_global.json\n- config/feedback_local.json\n- config/interns1_config.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.yaml\nconfig/debug_config.yaml\nconfig/default_config.yaml\nconfig/feedback_global.json\nconfig/feedback_local.json\nconfig/interns1_config.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  },
+  {
+    "name": "InternAgent/docs 模块",
+    "description": "[模块级] InternAgent 项目的 docs 模块 (docs)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "documentation",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/config.js\n- docs/index.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/config.js\ndocs/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  },
+  {
+    "name": "InternAgent/internagent 模块",
+    "description": "[模块级] InternAgent 项目的 internagent 模块 (source)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "source",
+      "internagent"
+    ],
+    "genes": [
+      {
+        "title": "internagent 模块说明",
+        "content": "> *Autonomous Discovery Across All Sciences*\n- **Papers**: [InternAgent 1.0](https://arxiv.org/abs/2505.16938) | [InternAgent 1.5](https://huggingface.co/papers/2602.08990)\n- **Links**: [Website](https://discovery.intern-ai.org.cn) | [HuggingFace](https://huggingface.co/collections/InternScience/internagent)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internagent 文件结构",
+        "content": "internagent/__init__.py\ninternagent/experiments_utils_aider.py\ninternagent/mas\ninternagent/mas/__init__.py\ninternagent/mas/agents\ninternagent/mas/agents/__init__.py\ninternagent/mas/agents/agent_factory.py\ninternagent/mas/agents/base_agent.py\ninternagent/mas/agents/codeview_agent.py\ninternagent/mas/agents/evolution_agent.py\ninternagent/mas/agents/generation_agent.py\ninternagent/mas/agents/method_development_agent.py\ninternagent/mas/agents/ranking_agent.py\ninternagent/mas/agents/refinement_agent.py\ninternagent/mas/agents/reflection_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  },
+  {
+    "name": "InternAgent/scripts 模块",
+    "description": "[模块级] InternAgent 项目的 scripts 模块 (script)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/run_pipeline.sh\n- scripts/run_skip-idea.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/run_pipeline.sh\nscripts/run_skip-idea.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  },
+  {
+    "name": "InternAgent/tasks 模块",
+    "description": "[模块级] InternAgent 项目的 tasks 模块 (source)。来源: https://github.com/InternScience/InternAgent",
+    "domain": "devops",
+    "tags": [
+      "agentic-framework",
+      "ai-scientists",
+      "automatic-paper-survey",
+      "automatic-scientific-discovery",
+      "coding-agents",
+      "module-level",
+      "source",
+      "tasks"
+    ],
+    "genes": [
+      {
+        "title": "tasks 模块说明",
+        "content": "**Scientific Algorithm Discovery**\n- Suzuki–Miyaura Reaction Yield Prediction\n- Transcription Prediction for Perturbation Response\n- Power Flow Estimation\n- Time Series Forecasting\n- Molecular Dynamics Simulation\n- Enhancer Activity Prediction\n\n**AI Algorithm Discovery**\n- Test-Time Scaling for LLM Reasoning\n- Long-Term Memory Management for Agents\n- Self-Distillation for Mathematical Reasoning\n- Test-Time Reinforcement Learning\n\n**Empirical Discovery**\n- Automated Climate Diagnostics\n- Climate ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tasks 文件结构",
+        "content": "tasks/AutoChem\ntasks/AutoChem/ds_config.json\ntasks/AutoChem/experiment.py\ntasks/AutoChem/launcher.sh\ntasks/AutoChem/prompt.json\ntasks/AutoChem/run_0\ntasks/AutoChem/run_0/experiment.py\ntasks/AutoChem/run_0/final_info.json\ntasks/AutoCls2D\ntasks/AutoCls2D/experiment.py\ntasks/AutoCls2D/launcher.sh\ntasks/AutoCls2D/prompt.json\ntasks/AutoCls2D/run_0\ntasks/AutoCls2D/run_0/experiment.py\ntasks/AutoCls2D/run_0/final_info.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69912923229829
+  }
+]

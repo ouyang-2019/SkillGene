@@ -1,0 +1,84 @@
+[
+  {
+    "name": "cline (cline)",
+    "description": "[项目级] Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.。来源: https://github.com/cline/cline",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-58178",
+      "github-cline",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.\n\n来源: https://github.com/cline/cline\n语言: TypeScript\nStars: 58178",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/docs\nassets/icons\nbiome.jsonc\nbuf.yaml\ncli\ncli/CHANGELOG.md\ncli/DEVELOPMENT.md\ncli/README.md\ncli/cline.rb\ncli/esbuild.mts\ncli/man\ncli/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "cline/assets 模块",
+    "description": "[模块级] cline 项目的 assets 模块 (source)。来源: https://github.com/cline/cline",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-58178",
+      "github-cline",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 16\n\n包含文件:\n- assets/docs\n- assets/docs/demo.gif\n- assets/icons\n- assets/icons/cline-bot.svg\n- assets/icons/cline-bot.ttf\n- assets/icons/cline-bot.woff\n- assets/icons/icon.png\n- assets/icons/icon.svg\n- assets/icons/robot_panel_dark.png\n- assets/icons/robot_panel_light.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/docs\nassets/docs/demo.gif\nassets/icons\nassets/icons/cline-bot.svg\nassets/icons/cline-bot.ttf\nassets/icons/cline-bot.woff\nassets/icons/icon.png\nassets/icons/icon.svg\nassets/icons/robot_panel_dark.png\nassets/icons/robot_panel_light.png\nassets/icons/social\nassets/icons/social/discord.svg\nassets/icons/social/github.svg\nassets/icons/social/linkedin.svg\nassets/icons/social/reddit.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.405903514926028
+  },
+  {
+    "name": "cline/cli 模块",
+    "description": "[模块级] cline 项目的 cli 模块 (source)。来源: https://github.com/cline/cline",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-58178",
+      "github-cline",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "<p align=\"center\">\n  <img src=\"https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif\" width=\"100%\" />\n</p>\n\n<div align=\"center\">\n<table>\n<tbody>\n<td align=\"center\">\n<a href=\"https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev\" target=\"_blank\"><strong>Download on VS Marketplace</strong></a>\n</td>\n<td align=\"center\">\n<a href=\"https://discord.gg/cline\" target=\"_blank\"><strong>Discord</strong></a>\n</td>\n<td align=\"center\">\n<a href=\"https://www.reddit.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/CHANGELOG.md\ncli/DEVELOPMENT.md\ncli/README.md\ncli/cline.rb\ncli/esbuild.mts\ncli/man\ncli/man/cline.1\ncli/man/cline.1.md\ncli/package.json\ncli/scripts\ncli/scripts/update-brew-formula.mts\ncli/src\ncli/src/acp\ncli/src/acp/ACPDiffViewProvider.ts\ncli/src/acp/ACPHostBridgeClientProvider.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.405903514926028
+  }
+]

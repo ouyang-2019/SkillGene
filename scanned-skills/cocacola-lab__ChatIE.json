@@ -1,0 +1,103 @@
+[
+  {
+    "name": "ChatIE (cocacola-lab)",
+    "description": "[项目级] The online version is temporarily unavailable because we cannot afford the key. You can clone and run it locally. Note: we set defaul openai key. If keys exceed plan and are invalid, please tell us. The response speed depends on openai. ( sometimes, the official is too crowded and slow)。来源: https://github.com/cocacola-lab/ChatIE",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatgpt-app",
+      "event-extraciton",
+      "event-extraction",
+      "python",
+      "stars-828",
+      "github-cocacola-lab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The online version is temporarily unavailable because we cannot afford the key. You can clone and run it locally. Note: we set defaul openai key. If keys exceed plan and are invalid, please tell us. The response speed depends on openai. ( sometimes, the official is too crowded and slow)\n\n来源: https://github.com/cocacola-lab/ChatIE\n语言: Python\nStars: 828",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "react+flask  \n1. cd `front-end` and Run `npm install` to download required dependencies.  \n2. Run `npm run start`. ChatIE should open up in a new browser tab.  \n3. cd `back-end` and Run `python run.py`.  \n4. note: node-version v14.17.4  npm-version 9.6.0  \n5. you may need to configure **proxy** on your machine.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "MODEL_LICENSE.txt\nREADME.md\ndocs\ndocs/examples\ndocs/framework4.png\ndocs/prompts\ndocs/result.jpeg\ndocs/src\ntools\ntools/LICENSE\ntools/back-end\ntools/default-types\ntools/examples\ntools/front-end",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.45901516839244
+  },
+  {
+    "name": "ChatIE/docs 模块",
+    "description": "[模块级] ChatIE 项目的 docs 模块 (docs)。来源: https://github.com/cocacola-lab/ChatIE",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatgpt-app",
+      "event-extraciton",
+      "event-extraction",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 28\n\n包含文件:\n- docs/examples\n- docs/examples/EE-1.png\n- docs/examples/EE-2.png\n- docs/examples/EE-3.png\n- docs/examples/EE-4.png\n- docs/examples/NER-1.png\n- docs/examples/NER-2.png\n- docs/examples/NER-3.png\n- docs/examples/NER-4.png\n- docs/examples/NER-5.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/examples\ndocs/examples/EE-1.png\ndocs/examples/EE-2.png\ndocs/examples/EE-3.png\ndocs/examples/EE-4.png\ndocs/examples/NER-1.png\ndocs/examples/NER-2.png\ndocs/examples/NER-3.png\ndocs/examples/NER-4.png\ndocs/examples/NER-5.png\ndocs/examples/RE-1.png\ndocs/examples/RE-2.png\ndocs/examples/RE-3.png\ndocs/examples/RE-4.png\ndocs/examples/RE-5.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.667212134713952
+  },
+  {
+    "name": "ChatIE/tools 模块",
+    "description": "[模块级] ChatIE 项目的 tools 模块 (script)。来源: https://github.com/cocacola-lab/ChatIE",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chatgpt-app",
+      "event-extraciton",
+      "event-extraction",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "**UPDATE：** **we use the official api, the tool becomes more faster!!! if the key exceed limits please tell us.**  \n\n**NOTICE：** **The response speed depends on the official openai chatgpt api. (sometimes, the official is too crowded and the speed will be slow or the chatgpt will be overloaded.)** Moreover, you better use your own openai key because if our default account is used by multiple people at the same time, the account may be overloaded.  \n\n~~**NOTICE:** because official api is not avai",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/LICENSE\ntools/back-end\ntools/back-end/access.py\ntools/back-end/access_record.json\ntools/back-end/access_v1.py\ntools/back-end/run.py\ntools/back-end/tokens.txt\ntools/default-types\ntools/examples\ntools/examples/EE-eng.png\ntools/examples/EE-zh.png\ntools/examples/NER-eng.png\ntools/examples/NER-zh.png\ntools/examples/RE-chi.gif\ntools/examples/RE-eng.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.667212134713952
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "dapr-agents (dapr)",
+    "description": "[项目级] Build autonomous, resilient and observable AI agents with built-in workflow orchestration, security, statefulness and telemetry.。来源: https://github.com/dapr/dapr-agents",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-618",
+      "github-dapr",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build autonomous, resilient and observable AI agents with built-in workflow orchestration, security, statefulness and telemetry.\n\n来源: https://github.com/dapr/dapr-agents\n语言: Python\nStars: 618",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Prerequisites:\n\n- [Dapr CLI](https://docs.dapr.io/getting-started/install-dapr-cli/)\n- [Python >=3.11](https://www.python.org/downloads/latest/python3.11/)\n- [uv](https://docs.astral.sh/uv/getting-started/installation/)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCODEOWNERS\nGOVERNANCE.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\ndapr_agents\ndapr_agents/__init__.py\ndapr_agents/agents\ndapr_agents/document\ndapr_agents/executors\ndapr_agents/llm\ndapr_agents/memory\ndapr_agents/observability\ndapr_agents/prompt\ndapr_agents/py.typed\ndapr_agents/service\ndapr_agents/storage",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once you've gotten a feel for the fundamentals of the project in the quickstarts, then dive deeper with the [examples](./examples/README.md).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Scale and Efficiency**: Run thousands of agents efficiently on a single core. Dapr distributes single and multi-agent apps transparently across fleets of machines and handles their lifecycle.\n- **Workflow Resilience**: Automatically retries agentic workflows and ensures task completion.\n- **Kubernetes-Native**: Easily deploy and manage agents in Kubernetes environments.\n- **Data-Driven Agents**: Directly integrate with databases, documents, and unstructured data by connecting to dozens of different data sources.\n- **Multi-Agent Systems**: Secure and observable by default, enabling collabor",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.395494237544408
+  },
+  {
+    "name": "dapr-agents/dapr_agents 模块",
+    "description": "[模块级] dapr-agents 项目的 dapr_agents 模块 (source)。来源: https://github.com/dapr/dapr-agents",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-618",
+      "github-dapr",
+      "module-level",
+      "source",
+      "dapr_agents"
+    ],
+    "genes": [
+      {
+        "title": "dapr_agents 模块说明",
+        "content": "模块路径: dapr_agents/\n类型: source\n文件数: 174\n\n包含文件:\n- dapr_agents/__init__.py\n- dapr_agents/agents\n- dapr_agents/agents/__init__.py\n- dapr_agents/agents/base.py\n- dapr_agents/agents/components.py\n- dapr_agents/agents/configs.py\n- dapr_agents/agents/durable.py\n- dapr_agents/agents/orchestration\n- dapr_agents/agents/orchestration/__init__.py\n- dapr_agents/agents/orchestration/agent_strategy.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dapr_agents 文件结构",
+        "content": "dapr_agents/__init__.py\ndapr_agents/agents\ndapr_agents/agents/__init__.py\ndapr_agents/agents/base.py\ndapr_agents/agents/components.py\ndapr_agents/agents/configs.py\ndapr_agents/agents/durable.py\ndapr_agents/agents/orchestration\ndapr_agents/agents/orchestration/__init__.py\ndapr_agents/agents/orchestration/agent_strategy.py\ndapr_agents/agents/orchestration/random_strategy.py\ndapr_agents/agents/orchestration/roundrobin_strategy.py\ndapr_agents/agents/orchestration/strategy.py\ndapr_agents/agents/orchestrators\ndapr_agents/agents/orchestrators/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6163953900355263
+  }
+]

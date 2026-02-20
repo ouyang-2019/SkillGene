@@ -1,0 +1,43 @@
+[
+  {
+    "name": "OpenAgentsControl (darrenhinde)",
+    "description": "[项目级] AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode。来源: https://github.com/darrenhinde/OpenAgentsControl",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-t",
+      "automation",
+      "code-generation",
+      "typescript",
+      "stars-2111",
+      "github-darrenhinde",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode\n\n来源: https://github.com/darrenhinde/OpenAgentsControl\n语言: TypeScript\nStars: 2111",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Prerequisites:** [OpenCode CLI](https://opencode.ai/docs) (free, open-source) • Bash 3.2+ • Git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "opencode --agent OpenCoder\n> \"Create a user dashboard with authentication and profile settings\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.662244116653828
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "LaVague (lavague-ai)",
+    "description": "[项目级] Large Action Model framework to develop AI Web Agents。来源: https://github.com/lavague-ai/LaVague",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "python",
+      "stars-6303",
+      "github-lavague-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Large Action Model framework to develop AI Web Agents\n\n来源: https://github.com/lavague-ai/LaVague\n语言: Python\nStars: 6303",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n_lavague\n_lavague/lavague\ndocs\ndocs/assets\ndocs/docs\ndocs/generate_api_reference.sh\ndocs/index.md\ndocs/material_theme_customization\ndocs/pdoc_template\ndocs/requirements.in\ndocs/requirements.txt\ndocs/stylesheets\nexamples\nexamples/.gitignore\nexamples/Idefics_LaVague_notebook.ipynb\nexamples/agent_anthropic.py\nexamples/agent_azure.py\nexamples/agent_fireworks.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ✅ [Built-in Contexts](https://docs.lavague.ai/en/latest/docs/get-started/customization/) (aka. configurations)\r\n- ✅ [Customizable configuration](https://docs.lavague.ai/en/latest/docs/get-started/customization/)\r\n- ✅ [A test runner](https://docs.lavague.ai/en/latest/docs/get-started/testing/) for testing and benchmarking the performance of LaVague\r\n- ✅ A [Token Counter](https://docs.lavague.ai/en/latest/docs/get-started/token-usage/) for estimating token usage and costs\r\n- ✅ [Logging tools](https://docs.lavague.ai/en/latest/docs/get-started/customization/)\r\n- ✅ An optional, interactive [Grad",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.899773653562807
+  },
+  {
+    "name": "LaVague/_lavague 模块",
+    "description": "[模块级] LaVague 项目的 _lavague 模块 (source)。来源: https://github.com/lavague-ai/LaVague",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "module-level",
+      "source",
+      "_lavague"
+    ],
+    "genes": [
+      {
+        "title": "_lavague 模块说明",
+        "content": "模块路径: _lavague/\n类型: source\n文件数: 3\n\n包含文件:\n- _lavague/lavague\n- _lavague/lavague/_bundle\n- _lavague/lavague/_bundle/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_lavague 文件结构",
+        "content": "_lavague/lavague\n_lavague/lavague/_bundle\n_lavague/lavague/_bundle/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.019818922850246
+  },
+  {
+    "name": "LaVague/docs 模块",
+    "description": "[模块级] LaVague 项目的 docs 模块 (docs)。来源: https://github.com/lavague-ai/LaVague",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 133\n\n包含文件:\n- docs/assets\n- docs/assets/LLM-eval.png\n- docs/assets/action-engine-diagram.png\n- docs/assets/architecture.png\n- docs/assets/beatles-found.png\n- docs/assets/build_openai_py.png\n- docs/assets/code.png\n- docs/assets/custom-port.png\n- docs/assets/default_instructions.png\n- docs/assets/demo_agent_hf.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/LLM-eval.png\ndocs/assets/action-engine-diagram.png\ndocs/assets/architecture.png\ndocs/assets/beatles-found.png\ndocs/assets/build_openai_py.png\ndocs/assets/code.png\ndocs/assets/custom-port.png\ndocs/assets/default_instructions.png\ndocs/assets/demo_agent_hf.gif\ndocs/assets/demo_lavague_form_idefics.gif\ndocs/assets/evaluation-results.png\ndocs/assets/execute-instruction.png\ndocs/assets/gradio.png\ndocs/assets/gradio.webm",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.019818922850246
+  },
+  {
+    "name": "LaVague/examples 模块",
+    "description": "[模块级] LaVague 项目的 examples 模块 (example)。来源: https://github.com/lavague-ai/LaVague",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 26\n\n包含文件:\n- examples/.gitignore\n- examples/Idefics_LaVague_notebook.ipynb\n- examples/agent_anthropic.py\n- examples/agent_azure.py\n- examples/agent_fireworks.py\n- examples/agent_gemini.py\n- examples/chrome_extension.py\n- examples/eval_example.ipynb\n- examples/gradio_example.py\n- examples/idefics_example.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/.gitignore\nexamples/Idefics_LaVague_notebook.ipynb\nexamples/agent_anthropic.py\nexamples/agent_azure.py\nexamples/agent_fireworks.py\nexamples/agent_gemini.py\nexamples/chrome_extension.py\nexamples/eval_example.ipynb\nexamples/gradio_example.py\nexamples/idefics_example.py\nexamples/iframe_example.py\nexamples/knowledge\nexamples/knowledge/data_entry_example.txt\nexamples/knowledge/doctolib_knowledge.txt\nexamples/knowledge/hf_example.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.019818922850246
+  },
+  {
+    "name": "LaVague/extension_chrome 模块",
+    "description": "[模块级] LaVague 项目的 extension_chrome 模块 (source)。来源: https://github.com/lavague-ai/LaVague",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "browser",
+      "large-action-model",
+      "llm",
+      "oss",
+      "module-level",
+      "source",
+      "extension_chrome"
+    ],
+    "genes": [
+      {
+        "title": "extension_chrome 模块说明",
+        "content": "模块路径: extension_chrome/\n类型: source\n文件数: 16\n\n包含文件:\n- extension_chrome/.eslintignore\n- extension_chrome/.eslintrc.js\n- extension_chrome/.prettierignore\n- extension_chrome/.prettierrc\n- extension_chrome/README.md\n- extension_chrome/jsconfig.json\n- extension_chrome/package-lock.json\n- extension_chrome/package.json\n- extension_chrome/public\n- extension_chrome/public/content.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extension_chrome 文件结构",
+        "content": "extension_chrome/.eslintignore\nextension_chrome/.eslintrc.js\nextension_chrome/.prettierignore\nextension_chrome/.prettierrc\nextension_chrome/README.md\nextension_chrome/jsconfig.json\nextension_chrome/package-lock.json\nextension_chrome/package.json\nextension_chrome/public\nextension_chrome/public/content.html\nextension_chrome/public/images\nextension_chrome/public/images/lavague.png\nextension_chrome/public/images/logo-128x128.png\nextension_chrome/public/images/logo-16x16.png\nextension_chrome/public/images/logo-256x256.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.019818922850246
+  }
+]

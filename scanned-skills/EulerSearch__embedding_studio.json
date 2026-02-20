@@ -1,0 +1,73 @@
+[
+  {
+    "name": "embedding_studio (EulerSearch)",
+    "description": "[项目级]  Embedding Studio is a framework which allows you transform your Vector Database into a feature-rich Search Engine.。来源: https://github.com/EulerSearch/embedding_studio",
+    "domain": "ai-llm",
+    "tags": [
+      "embeddings",
+      "embeddings-similarity",
+      "fine-tuning",
+      "llm-inference",
+      "query-parser",
+      "python",
+      "stars-382",
+      "github-eulersearch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " Embedding Studio is a framework which allows you transform your Vector Database into a feature-rich Search Engine.\n\n来源: https://github.com/EulerSearch/embedding_studio\n语言: Python\nStars: 382",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/embedding_studio_chart.png\ndocker-compose.local.yml\ndocker-compose.yml\ndocs\ndocs/api\ndocs/challenges.md\ndocs/embedding_studio",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.291031681455855
+  },
+  {
+    "name": "embedding_studio/docs 模块",
+    "description": "[模块级] embedding_studio 项目的 docs 模块 (docs)。来源: https://github.com/EulerSearch/embedding_studio",
+    "domain": "documentation",
+    "tags": [
+      "embeddings",
+      "embeddings-similarity",
+      "fine-tuning",
+      "llm-inference",
+      "query-parser",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 191\n\n包含文件:\n- docs/api\n- docs/api/api_v1\n- docs/api/api_v1/endpoints\n- docs/api/api_v1/endpoints/clickstream_client.py.md\n- docs/api/api_v1/endpoints/clickstream_internal.py.md\n- docs/api/api_v1/endpoints/delete.py.md\n- docs/api/api_v1/endpoints/fine_tuning.py.md\n- docs/api/api_v1/endpoints/ping.py.md\n- docs/api/api_v1/endpoints/query_parsing.py.md\n- docs/api/api_v1/endpoints/similarity_search.py.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/api\ndocs/api/api_v1\ndocs/api/api_v1/endpoints\ndocs/api/api_v1/endpoints/clickstream_client.py.md\ndocs/api/api_v1/endpoints/clickstream_internal.py.md\ndocs/api/api_v1/endpoints/delete.py.md\ndocs/api/api_v1/endpoints/fine_tuning.py.md\ndocs/api/api_v1/endpoints/ping.py.md\ndocs/api/api_v1/endpoints/query_parsing.py.md\ndocs/api/api_v1/endpoints/similarity_search.py.md\ndocs/api/api_v1/endpoints/suggesting.py.md\ndocs/api/api_v1/endpoints/upsert.py.md\ndocs/api/api_v1/internal_endpoints\ndocs/api/api_v1/internal_endpoints/delete.py.md\ndocs/api/api_v1/internal_endpoints/inference_deployment_tasks.py.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5328253451646834
+  }
+]

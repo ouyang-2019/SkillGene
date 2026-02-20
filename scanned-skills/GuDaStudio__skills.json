@@ -1,0 +1,61 @@
+[
+  {
+    "name": "skills (GuDaStudio)",
+    "description": "[项目级] This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.。来源: https://github.com/GuDaStudio/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "powershell",
+      "stars-1777",
+      "github-gudastudio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Agent Skills** 是 [Anthropic 推出的](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)模块化能力扩展机制，让 LLM 能够按需加载专业领域知识与工作流。本仓库收录了 **GudaStudio** 开发的 Agent Skills 集合，实现 Claude 与其他 AI 模型、工具的无缝协作。\n\n<details>\n<summary><b>展开查看已收录的 Skills</b></summary>\n\n| Skill | 功能描述 | 协作模型 |\n|-------|----------|----------|\n| [collaborating-with-codex](https://github.com/GuDaStudio/collaborating-with-codex) | 将编码任务委托给 Codex CLI，用于原型开发、调试和代码审查 | OpenAI Codex |\n| [collaborating-with-gemini](https://github.com/GuDaStudio/collaborating-with-gemini) | 将编码任务委托给 Gemini CLI，用于原型开发、调试和代码审查 | Google Gemini |\n\n</details>\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncollaborating-with-codex\ncollaborating-with-gemini\ndocs\ndocs/README_EN.md\nimgs\nimgs/title.png\nimgs/verify.png\ninstall.ps1\ninstall.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.624843713902651
+  },
+  {
+    "name": "skills/imgs 模块",
+    "description": "[模块级] skills 项目的 imgs 模块 (source)。来源: https://github.com/GuDaStudio/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "powershell",
+      "stars-1777",
+      "github-gudastudio",
+      "module-level",
+      "source",
+      "imgs"
+    ],
+    "genes": [
+      {
+        "title": "imgs 模块说明",
+        "content": "模块路径: imgs/\n类型: source\n文件数: 2\n\n包含文件:\n- imgs/title.png\n- imgs/verify.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "imgs 文件结构",
+        "content": "imgs/title.png\nimgs/verify.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7998749711221205
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "skill-to-kiro (MartinRistov)",
+    "description": "[项目级] Convert any Claude Skill’s SKILL.md into Amazon Kiro steering files (.kiro/steering/)。来源: https://github.com/MartinRistov/skill-to-kiro",
+    "domain": "backend",
+    "tags": [
+      "stars-3",
+      "github-martinristov",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This Claude Skill transforms any Claude Skill's `SKILL.md` into a complete set of Amazon Kiro steering files (`.kiro/steering/`). It intelligently extracts goals, stack, structure, guardrails, and procedures, mapping them to Kiro's format with appropriate inclusion modes (`always`, `fileMatch`, `manual`).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nSKILL.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "✅ **Intelligent Mapping** - Automatically categorizes content into appropriate Kiro files  \n✅ **Inclusion Modes** - Sets `always`, `fileMatch`, and `manual` based on content type  \n✅ **Security First** - Redacts secrets and never includes credentials  \n✅ **Safe Operation** - Shows diffs and asks before overwriting existing files  \n✅ **Complete Coverage** - Generates all core Kiro steering files  \n✅ **Language Support** - Creates language-specific files for Python and TypeScript",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2385606273598313
+  }
+]

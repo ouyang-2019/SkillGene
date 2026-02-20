@@ -1,0 +1,128 @@
+[
+  {
+    "name": "NagaAgent (RTGS2017)",
+    "description": "[项目级] A simple yet powerful agent framework for personal assistants, designed to enable intelligent interaction, multi-agent collaboration, and seamless tool integration.。来源: https://github.com/RTGS2017/NagaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "mcp",
+      "mcp-client",
+      "openai",
+      "python",
+      "stars-1380",
+      "github-rtgs2017",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "NagaAgent 由四个独立微服务组成：\n\n| 服务 | 端口 | 职责 |\n|------|------|------|\n| **API Server** | 8000 | 对话、流式工具调用、文档上传、认证代理、记忆 API、配置管理 |\n| **Agent Server** | 8001 | 后台意图分析、OpenClaw 集成、任务调度与压缩记忆 |\n| **MCP Server** | 8003 | MCP 工具注册/发现/并行调度 |\n| **Voice Service** | 5048 | TTS (Edge-TTS) + ASR (FunASR) + 实时语音 (Qwen Omni) |\n\n`main.py` 统一编排启动，所有服务以 daemon thread 运行。前端可选 Electron + Vue 3 桌面端或 PyQt5 原生 GUI。\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nLICENSE-CLOSED-SOURCE\nREADME.md\nREADME_en.md\nagentserver\nagentserver/OPENCLAW_FLOW.md\nagentserver/README.md\nagentserver/__init__.py\nagentserver/agent_server.py\nagentserver/config.py\nagentserver/openclaw\nagentserver/task_scheduler.py\napiserver\napiserver/README.md\napiserver/__init__.py\napiserver/agentic_tool_loop.py\napiserver/api_server.py\napiserver/context_compressor.py\napiserver/llm_service.py\napiserver/message_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5699395432006185
+  },
+  {
+    "name": "NagaAgent/agentserver 模块",
+    "description": "[模块级] NagaAgent 项目的 agentserver 模块 (source)。来源: https://github.com/RTGS2017/NagaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "mcp",
+      "mcp-client",
+      "openai",
+      "module-level",
+      "source",
+      "agentserver"
+    ],
+    "genes": [
+      {
+        "title": "agentserver 模块说明",
+        "content": "模块路径: agentserver/\n类型: source\n文件数: 18\n\n包含文件:\n- agentserver/OPENCLAW_FLOW.md\n- agentserver/README.md\n- agentserver/__init__.py\n- agentserver/agent_server.py\n- agentserver/config.py\n- agentserver/openclaw\n- agentserver/openclaw/README.md\n- agentserver/openclaw/__init__.py\n- agentserver/openclaw/config_manager.py\n- agentserver/openclaw/detector.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentserver 文件结构",
+        "content": "agentserver/OPENCLAW_FLOW.md\nagentserver/README.md\nagentserver/__init__.py\nagentserver/agent_server.py\nagentserver/config.py\nagentserver/openclaw\nagentserver/openclaw/README.md\nagentserver/openclaw/__init__.py\nagentserver/openclaw/config_manager.py\nagentserver/openclaw/detector.py\nagentserver/openclaw/embedded_runtime.py\nagentserver/openclaw/installer.py\nagentserver/openclaw/llm_config_bridge.py\nagentserver/openclaw/openclaw_client.py\nagentserver/openclaw/run_tests.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7559516345604944
+  },
+  {
+    "name": "NagaAgent/apiserver 模块",
+    "description": "[模块级] NagaAgent 项目的 apiserver 模块 (source)。来源: https://github.com/RTGS2017/NagaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "mcp",
+      "mcp-client",
+      "openai",
+      "module-level",
+      "source",
+      "apiserver"
+    ],
+    "genes": [
+      {
+        "title": "apiserver 模块说明",
+        "content": "模块路径: apiserver/\n类型: source\n文件数: 21\n\n包含文件:\n- apiserver/README.md\n- apiserver/__init__.py\n- apiserver/agentic_tool_loop.py\n- apiserver/api_server.py\n- apiserver/context_compressor.py\n- apiserver/llm_service.py\n- apiserver/message_manager.py\n- apiserver/naga_auth.py\n- apiserver/response_util.py\n- apiserver/skills_templates",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apiserver 文件结构",
+        "content": "apiserver/README.md\napiserver/__init__.py\napiserver/agentic_tool_loop.py\napiserver/api_server.py\napiserver/context_compressor.py\napiserver/llm_service.py\napiserver/message_manager.py\napiserver/naga_auth.py\napiserver/response_util.py\napiserver/skills_templates\napiserver/skills_templates/context7\napiserver/skills_templates/context7/SKILL.md\napiserver/skills_templates/office-docs\napiserver/skills_templates/office-docs/SKILL.md\napiserver/skills_templates/office-docs/tools",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7559516345604944
+  },
+  {
+    "name": "NagaAgent/frontend 模块",
+    "description": "[模块级] NagaAgent 项目的 frontend 模块 (source)。来源: https://github.com/RTGS2017/NagaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "mcp",
+      "mcp-client",
+      "openai",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 147\n\n包含文件:\n- frontend/.gitignore\n- frontend/README.md\n- frontend/build\n- frontend/build/entitlements.mac.plist\n- frontend/build/icon.png\n- frontend/build/uninstaller.nsh\n- frontend/electron-builder.yml\n- frontend/electron\n- frontend/electron/main.ts\n- frontend/electron/modules",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.gitignore\nfrontend/README.md\nfrontend/build\nfrontend/build/entitlements.mac.plist\nfrontend/build/icon.png\nfrontend/build/uninstaller.nsh\nfrontend/electron-builder.yml\nfrontend/electron\nfrontend/electron/main.ts\nfrontend/electron/modules\nfrontend/electron/modules/backend.ts\nfrontend/electron/modules/hotkeys.ts\nfrontend/electron/modules/menu.ts\nfrontend/electron/modules/tray.ts\nfrontend/electron/modules/updater.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7559516345604944
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "claude-hud (jarrodwatts)",
+    "description": "[项目级] A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress。来源: https://github.com/jarrodwatts/claude-hud",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "javascript",
+      "stars-3594",
+      "github-jarrodwatts",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress\n\n来源: https://github.com/jarrodwatts/claude-hud\n语言: JavaScript\nStars: 3594",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add jarrodwatts/claude-hud",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.README.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMAINTAINERS.md\nREADME.md\nRELEASING.md\nSECURITY.md\nSUPPORT.md\nTESTING.md\nclaude-hud-preview-16-9.png\nclaude-hud-preview-5-2.png\ncommands\ncommands/configure.md\ncommands/setup.md\ndist\ndist/config-reader.d.ts\ndist/config-reader.d.ts.map",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Context █████░░░░░ 45% │ Usage ██░░░░░░░░ 25% (1h 30m / 5h) | ██████████ 85% (2d / 7d)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.777789036386477
+  },
+  {
+    "name": "claude-hud/commands 模块",
+    "description": "[模块级] claude-hud 项目的 commands 模块 (source)。来源: https://github.com/jarrodwatts/claude-hud",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 2\n\n包含文件:\n- commands/configure.md\n- commands/setup.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/configure.md\ncommands/setup.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9222312291091823
+  },
+  {
+    "name": "claude-hud/src 模块",
+    "description": "[模块级] claude-hud 项目的 src 模块 (source)。来源: https://github.com/jarrodwatts/claude-hud",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 25\n\n包含文件:\n- src/config-reader.ts\n- src/config.ts\n- src/constants.ts\n- src/debug.ts\n- src/extra-cmd.ts\n- src/git.ts\n- src/index.ts\n- src/render\n- src/render/agents-line.ts\n- src/render/colors.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/config-reader.ts\nsrc/config.ts\nsrc/constants.ts\nsrc/debug.ts\nsrc/extra-cmd.ts\nsrc/git.ts\nsrc/index.ts\nsrc/render\nsrc/render/agents-line.ts\nsrc/render/colors.ts\nsrc/render/index.ts\nsrc/render/lines\nsrc/render/lines/environment.ts\nsrc/render/lines/identity.ts\nsrc/render/lines/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9222312291091823
+  },
+  {
+    "name": "claude-hud/tests 模块",
+    "description": "[模块级] claude-hud 项目的 tests 模块 (test)。来源: https://github.com/jarrodwatts/claude-hud",
+    "domain": "testing",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "plugin",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 15\n\n包含文件:\n- tests/config.test.js\n- tests/core.test.js\n- tests/extra-cmd.test.js\n- tests/fixtures\n- tests/fixtures/expected\n- tests/fixtures/expected/render-basic.txt\n- tests/fixtures/transcript-basic.jsonl\n- tests/fixtures/transcript-render.jsonl\n- tests/git.test.js\n- tests/index.test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/config.test.js\ntests/core.test.js\ntests/extra-cmd.test.js\ntests/fixtures\ntests/fixtures/expected\ntests/fixtures/expected/render-basic.txt\ntests/fixtures/transcript-basic.jsonl\ntests/fixtures/transcript-render.jsonl\ntests/git.test.js\ntests/index.test.js\ntests/integration.test.js\ntests/render.test.js\ntests/speed-tracker.test.js\ntests/stdin.test.js\ntests/usage-api.test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9222312291091823
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "name": "code2prompt (mufeedvh)",
+    "description": "[项目级] A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.。来源: https://github.com/mufeedvh/code2prompt",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cli",
+      "command-line",
+      "rust",
+      "stars-7145",
+      "github-mufeedvh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.\n\n来源: https://github.com/mufeedvh/code2prompt\n语言: Rust\nStars: 7145",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Cargo.lock\nCargo.toml\nLICENSE\nREADME.md\nREADME_ES.md\ncrates\ncrates/code2prompt-core\ncrates/code2prompt-python\ncrates/code2prompt\nllms-install.md\nwebsite\nwebsite/.gitignore\nwebsite/.vscode\nwebsite/README.md\nwebsite/astro.config.mjs\nwebsite/package.json\nwebsite/pnpm-lock.yaml\nwebsite/pnpm-workspace.yaml\nwebsite/public",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Code2Prompt transforms your entire codebase into a well-structured prompt for large language models. Key features include:\n\n- **Terminal User Interface (TUI)**: Interactive terminal interface for configuring and generating prompts\n- **Smart Filtering**: Include/exclude files using glob patterns and respect `.gitignore` rules\n- **Flexible Templating**: Customize prompts with Handlebars templates for different use cases\n- **Automatic Code Processing**: Convert codebases of any size into readable, formatted prompts\n- **Token Tracking**: Track token usage to stay within LLM context limits\n- **Smar",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.927001116563495
+  },
+  {
+    "name": "code2prompt/crates 模块",
+    "description": "[模块级] code2prompt 项目的 crates 模块 (source)。来源: https://github.com/mufeedvh/code2prompt",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cli",
+      "command-line",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 123\n\n包含文件:\n- crates/code2prompt-core\n- crates/code2prompt-core/Cargo.toml\n- crates/code2prompt-core/src\n- crates/code2prompt-core/src/builtin_templates.rs\n- crates/code2prompt-core/src/configuration.rs\n- crates/code2prompt-core/src/default_template_md.hbs\n- crates/code2prompt-core/src/default_template_xml.hbs\n- crates/code2prompt-core/src/file_processor\n- crates/code2prompt-core/src/file_processor/csv.rs\n- crates/code2prompt-core/src/file_processor/default.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/code2prompt-core\ncrates/code2prompt-core/Cargo.toml\ncrates/code2prompt-core/src\ncrates/code2prompt-core/src/builtin_templates.rs\ncrates/code2prompt-core/src/configuration.rs\ncrates/code2prompt-core/src/default_template_md.hbs\ncrates/code2prompt-core/src/default_template_xml.hbs\ncrates/code2prompt-core/src/file_processor\ncrates/code2prompt-core/src/file_processor/csv.rs\ncrates/code2prompt-core/src/file_processor/default.rs\ncrates/code2prompt-core/src/file_processor/ipynb.rs\ncrates/code2prompt-core/src/file_processor/jsonl.rs\ncrates/code2prompt-core/src/file_processor/mod.rs\ncrates/code2prompt-core/src/file_processor/tsv.rs\ncrates/code2prompt-core/src/filter.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.041600893250796
+  },
+  {
+    "name": "code2prompt/website 模块",
+    "description": "[模块级] code2prompt 项目的 website 模块 (source)。来源: https://github.com/mufeedvh/code2prompt",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cli",
+      "command-line",
+      "module-level",
+      "source",
+      "website"
+    ],
+    "genes": [
+      {
+        "title": "website 模块说明",
+        "content": "模块路径: website/\n类型: source\n文件数: 54\n\n包含文件:\n- website/.gitignore\n- website/.vscode\n- website/.vscode/extensions.json\n- website/.vscode/launch.json\n- website/README.md\n- website/astro.config.mjs\n- website/package.json\n- website/pnpm-lock.yaml\n- website/pnpm-workspace.yaml\n- website/public",
+        "gene_type": "principle"
+      },
+      {
+        "title": "website 文件结构",
+        "content": "website/.gitignore\nwebsite/.vscode\nwebsite/.vscode/extensions.json\nwebsite/.vscode/launch.json\nwebsite/README.md\nwebsite/astro.config.mjs\nwebsite/package.json\nwebsite/pnpm-lock.yaml\nwebsite/pnpm-workspace.yaml\nwebsite/public\nwebsite/public/CNAME\nwebsite/public/assets\nwebsite/public/assets/blog\nwebsite/public/assets/blog/post1\nwebsite/public/assets/blog/post1/curse_of_dimensionality.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.041600893250796
+  }
+]

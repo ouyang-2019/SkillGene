@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Denario (AstroPilot-AI)",
+    "description": "[项目级] Modular Multi-Agent System for Scientific Research Assistance。来源: https://github.com/AstroPilot-AI/Denario",
+    "domain": "devops",
+    "tags": [
+      "tex",
+      "stars-498",
+      "github-astropilot-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Modular Multi-Agent System for Scientific Research Assistance\n\n来源: https://github.com/AstroPilot-AI/Denario\n语言: TeX\nStars: 498",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "python -m venv Denario_env\nsource Denario_env/bin/activate\npip install \"denario[app]\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncompose.yaml\ndenario\ndenario/__init__.py\ndenario/cli.py\ndenario/config.py\ndenario/denario.py\ndenario/experiment.py\ndenario/idea.py\ndenario/key_manager.py\ndenario/langgraph_agents\ndenario/llm.py\ndenario/method.py\ndenario/paper_agents\ndenario/prompts\ndenario/research.py\ndenario/utils.py\ndocker\ndocker/Dockerfile.dev",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.348614671379859
+  },
+  {
+    "name": "Denario/denario 模块",
+    "description": "[模块级] Denario 项目的 denario 模块 (source)。来源: https://github.com/AstroPilot-AI/Denario",
+    "domain": "devops",
+    "tags": [
+      "tex",
+      "stars-498",
+      "github-astropilot-ai",
+      "module-level",
+      "source",
+      "denario"
+    ],
+    "genes": [
+      {
+        "title": "denario 模块说明",
+        "content": "[![Version](https://img.shields.io/pypi/v/denario.svg)](https://pypi.python.org/pypi/denario) [![Python Version](https://img.shields.io/badge/python-%3E%3D3.12-blue.svg)](https://www.python.org/downloads/) [![PyPI - Downloads](https://img.shields.io/pypi/dm/denario)](https://pypi.python.org/pypi/denario) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AstroPilot-",
+        "gene_type": "principle"
+      },
+      {
+        "title": "denario 文件结构",
+        "content": "denario/__init__.py\ndenario/cli.py\ndenario/config.py\ndenario/denario.py\ndenario/experiment.py\ndenario/idea.py\ndenario/key_manager.py\ndenario/langgraph_agents\ndenario/langgraph_agents/__init__.py\ndenario/langgraph_agents/agents_graph.py\ndenario/langgraph_agents/idea.py\ndenario/langgraph_agents/literature.py\ndenario/langgraph_agents/methods.py\ndenario/langgraph_agents/parameters.py\ndenario/langgraph_agents/pdf_reader.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.578891737103887
+  },
+  {
+    "name": "Denario/docker 模块",
+    "description": "[模块级] Denario 项目的 docker 模块 (source)。来源: https://github.com/AstroPilot-AI/Denario",
+    "domain": "devops",
+    "tags": [
+      "tex",
+      "stars-498",
+      "github-astropilot-ai",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "You can run Denario in a [Docker](https://www.docker.com/) image, which includes all the required dependencies for Denario including LaTeX. Pull the image with:\n\n```bash\ndocker pull pablovd/denario:latest\n```\n\nOnce built, you can run the GUI with\n\n```bash\ndocker run -p 8501:8501 --rm pablovd/denario:latest\n```\n\nor in interactive mode with\n\n```bash\ndocker run --rm -it pablovd/denario:latest bash\n```\n\nShare volumes with `-v $(pwd)/project:/app/project` for inputing data and accessing to it. You ca",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.dev\ndocker/Dockerfile.prod",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "docker pull pablovd/denario:latest",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.578891737103887
+  },
+  {
+    "name": "Denario/docs 模块",
+    "description": "[模块级] Denario 项目的 docs 模块 (docs)。来源: https://github.com/AstroPilot-AI/Denario",
+    "domain": "documentation",
+    "tags": [
+      "tex",
+      "stars-498",
+      "github-astropilot-ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 41\n\n包含文件:\n- docs/Write_paper\n- docs/Write_paper/Project2\n- docs/Write_paper/Project2/paper\n- docs/Write_paper/Project2/paper/paper_v2_no_citations.pdf\n- docs/api_ref\n- docs/api_ref/api_classes.md\n- docs/api_ref/api_denario.md\n- docs/api_ref/api_journals.md\n- docs/api_ref/api_llms.md\n- docs/api_ref/api_paper.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Write_paper\ndocs/Write_paper/Project2\ndocs/Write_paper/Project2/paper\ndocs/Write_paper/Project2/paper/paper_v2_no_citations.pdf\ndocs/api_ref\ndocs/api_ref/api_classes.md\ndocs/api_ref/api_denario.md\ndocs/api_ref/api_journals.md\ndocs/api_ref/api_llms.md\ndocs/api_ref/api_paper.md\ndocs/api_ref/api_utils.md\ndocs/app.md\ndocs/css\ndocs/css/extra.css\ndocs/css/mkdocstrings.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.578891737103887
+  },
+  {
+    "name": "Denario/examples 模块",
+    "description": "[模块级] Denario 项目的 examples 模块 (example)。来源: https://github.com/AstroPilot-AI/Denario",
+    "domain": "devops",
+    "tags": [
+      "tex",
+      "stars-498",
+      "github-astropilot-ai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 31\n\n包含文件:\n- examples/GW231123\n- examples/GW231123/input.md\n- examples/Project1\n- examples/Project1/input.md\n- examples/Project1/input_files\n- examples/Project1/input_files/idea.md\n- examples/Project2\n- examples/Project2/input.md\n- examples/Project2/input_files\n- examples/Project2/input_files/data_description.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/GW231123\nexamples/GW231123/input.md\nexamples/Project1\nexamples/Project1/input.md\nexamples/Project1/input_files\nexamples/Project1/input_files/idea.md\nexamples/Project2\nexamples/Project2/input.md\nexamples/Project2/input_files\nexamples/Project2/input_files/data_description.md\nexamples/Project2/input_files/idea.md\nexamples/Project2/input_files/methods.md\nexamples/Project2/input_files/plots\nexamples/Project2/input_files/plots/boxplots_data_value_num_6_1749851184.png\nexamples/Project2/input_files/plots/boxplots_input_intendedretrievals_4_1749851184.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.578891737103887
+  }
+]

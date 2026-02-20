@@ -1,0 +1,128 @@
+[
+  {
+    "name": "ramalama (containers)",
+    "description": "[项目级] RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers.。来源: https://github.com/containers/ramalama",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "containers",
+      "cuda",
+      "hacktoberfest",
+      "hip",
+      "python",
+      "stars-2603",
+      "github-containers",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers.\n\n来源: https://github.com/containers/ramalama\n语言: Python\nStars: 2603",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE-OF-CONDUCT.md\nCONTRIBUTING.md\nCONTRIBUTOR_LADDER.md\nLICENSE\nMAINTAINERS.md\nMANIFEST.in\nMakefile\nREADME.md\nRoadmap.md\nSECURITY.md\nbin\nbin/ramalama\ncompletions\ncompletions/bash-completion\ncompletions/fish\ncompletions/zsh\ncontainer-images\ncontainer-images/asahi\ncontainer-images/bats",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.707737084054617
+  },
+  {
+    "name": "ramalama/completions 模块",
+    "description": "[模块级] ramalama 项目的 completions 模块 (source)。来源: https://github.com/containers/ramalama",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "containers",
+      "cuda",
+      "hacktoberfest",
+      "hip",
+      "module-level",
+      "source",
+      "completions"
+    ],
+    "genes": [
+      {
+        "title": "completions 模块说明",
+        "content": "sudo rm /usr/local/share/bash-completion/completions/ramalama\nsudo rm /usr/local/share/fish/vendor_completions.d/ramalama.fish\nsudo rm /usr/local/share/zsh/site-functions/_ramalama\n```\n\nSee the [macOS Installation Guide](docs/MACOS_INSTALL.md) for more details.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "completions 文件结构",
+        "content": "completions/bash-completion\ncompletions/bash-completion/completions\ncompletions/bash-completion/completions/ramalama\ncompletions/fish\ncompletions/fish/vendor_completions.d\ncompletions/fish/vendor_completions.d/ramalama.fish\ncompletions/zsh\ncompletions/zsh/site-functions\ncompletions/zsh/site-functions/_ramalama",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8661896672436944
+  },
+  {
+    "name": "ramalama/container-images 模块",
+    "description": "[模块级] ramalama 项目的 container-images 模块 (source)。来源: https://github.com/containers/ramalama",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "containers",
+      "cuda",
+      "hacktoberfest",
+      "hip",
+      "module-level",
+      "source",
+      "container-images"
+    ],
+    "genes": [
+      {
+        "title": "container-images 模块说明",
+        "content": "模块路径: container-images/\n类型: source\n文件数: 57\n\n包含文件:\n- container-images/asahi\n- container-images/asahi/Containerfile\n- container-images/bats\n- container-images/bats/Containerfile\n- container-images/bats/containers.conf\n- container-images/bats/entrypoint.sh\n- container-images/cann\n- container-images/cann/Containerfile\n- container-images/common\n- container-images/common/Containerfile.rag",
+        "gene_type": "principle"
+      },
+      {
+        "title": "container-images 文件结构",
+        "content": "container-images/asahi\ncontainer-images/asahi/Containerfile\ncontainer-images/bats\ncontainer-images/bats/Containerfile\ncontainer-images/bats/containers.conf\ncontainer-images/bats/entrypoint.sh\ncontainer-images/cann\ncontainer-images/cann/Containerfile\ncontainer-images/common\ncontainer-images/common/Containerfile.rag\ncontainer-images/common/Makefile\ncontainer-images/common/requirements-rag-cpu-aarch64.txt\ncontainer-images/common/requirements-rag-cpu.txt\ncontainer-images/common/requirements-rag-cu128-aarch64.txt\ncontainer-images/common/requirements-rag-cu128.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8661896672436944
+  },
+  {
+    "name": "ramalama/docs 模块",
+    "description": "[模块级] ramalama 项目的 docs 模块 (docs)。来源: https://github.com/containers/ramalama",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "containers",
+      "cuda",
+      "hacktoberfest",
+      "hip",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 25\n\n包含文件:\n- docs/MACOS_INSTALL.md\n- docs/Makefile\n- docs/README.md\n- docs/demo\n- docs/demo/README.md\n- docs/demo/camera-demo.html\n- docs/demo/ramalama.sh\n- docs/links\n- docs/links/ramalama-ls.1\n- docs/links/ramalama-nvidia.7",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/MACOS_INSTALL.md\ndocs/Makefile\ndocs/README.md\ndocs/demo\ndocs/demo/README.md\ndocs/demo/camera-demo.html\ndocs/demo/ramalama.sh\ndocs/links\ndocs/links/ramalama-ls.1\ndocs/links/ramalama-nvidia.7\ndocs/links/ramalama-ps.1\ndocs/ramalama-bench.1.md\ndocs/ramalama-benchmarks.1.md\ndocs/ramalama-cann.7.md\ndocs/ramalama-chat.1.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8661896672436944
+  }
+]

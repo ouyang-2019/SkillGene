@@ -5,14 +5,14 @@
     "domain": "devops",
     "tags": [
       "shell",
-      "stars-1641",
+      "stars-1644",
       "github-blader",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.\n\n来源: https://github.com/blader/Claudeception\n语言: Shell\nStars: 1641",
+        "content": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.\n\n来源: https://github.com/blader/Claudeception\n语言: Shell\nStars: 1644",
         "gene_type": "principle"
       },
       {
@@ -33,7 +33,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.607554290526546
+    "rating": 4.6079509066020155
   },
   {
     "name": "Claudeception/examples 模块",
@@ -41,7 +41,7 @@
     "domain": "devops",
     "tags": [
       "shell",
-      "stars-1641",
+      "stars-1644",
       "github-blader",
       "module-level",
       "example",
@@ -61,7 +61,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7860434324212373
+    "rating": 3.7863607252816127
   },
   {
     "name": "Claudeception/resources 模块",
@@ -69,7 +69,7 @@
     "domain": "devops",
     "tags": [
       "shell",
-      "stars-1641",
+      "stars-1644",
       "github-blader",
       "module-level",
       "source",
@@ -89,6 +89,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.7860434324212373
+    "rating": 3.7863607252816127
   }
 ]

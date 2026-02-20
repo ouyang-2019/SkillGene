@@ -1,0 +1,68 @@
+[
+  {
+    "name": "bob-plugin-akl-chatgpt-free-translate (akl7777777)",
+    "description": "[项目级] **免api_key,免费,免翻,使用OpenAI ChatGPT**,无需apiKey;无需账号密码;无需启动服务;。来源: https://github.com/akl7777777/bob-plugin-akl-chatgpt-free-translate",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt3",
+      "openai",
+      "javascript",
+      "stars-288",
+      "github-akl7777777",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**免api_key,免费,免翻,使用OpenAI ChatGPT**,无需apiKey;无需账号密码;无需启动服务;\n\n来源: https://github.com/akl7777777/bob-plugin-akl-chatgpt-free-translate\n语言: JavaScript\nStars: 288",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nappcast.json\nlicence\nscripts\nscripts/update_appcast.py\nsrc\nsrc/8888.js\nsrc/aifree.js\nsrc/cha.js\nsrc/config.js\nsrc/customKeyStream.js\nsrc/customKeyStreamOverseas.js\nsrc/delta.js\nsrc/dw.js\nsrc/e.js\nsrc/file.js\nsrc/freeShellGPT.js\nsrc/gamma.js\nsrc/hh.js\nsrc/icon.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "<img width=\"730\" alt=\"image\" src=\"https://user-images.githubusercontent.com/84266551/226171072-bad6a24b-2979-418a-954e-a5aa2931ce90.png\">\n\n同时也支持指令切换\n\n![iShot_2023-04-07_17 32 07](https://user-images.githubusercontent.com/84266551/230584980-cf88c42f-2c49-4cd7-bbec-f19d2bb60ec1.gif)\n\n\n\n(如果使用有问题可以给我提issue)\n\nbob插件主要为bob用户开发,bob是一款macOS上的翻译软件,bob官网地址:https://bobtranslate.com/",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.229696243879616
+  },
+  {
+    "name": "bob-plugin-akl-chatgpt-free-translate/src 模块",
+    "description": "[模块级] bob-plugin-akl-chatgpt-free-translate 项目的 src 模块 (source)。来源: https://github.com/akl7777777/bob-plugin-akl-chatgpt-free-translate",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt3",
+      "openai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 25\n\n包含文件:\n- src/8888.js\n- src/aifree.js\n- src/cha.js\n- src/config.js\n- src/customKeyStream.js\n- src/customKeyStreamOverseas.js\n- src/delta.js\n- src/dw.js\n- src/e.js\n- src/file.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/8888.js\nsrc/aifree.js\nsrc/cha.js\nsrc/config.js\nsrc/customKeyStream.js\nsrc/customKeyStreamOverseas.js\nsrc/delta.js\nsrc/dw.js\nsrc/e.js\nsrc/file.js\nsrc/freeShellGPT.js\nsrc/gamma.js\nsrc/hh.js\nsrc/icon.png\nsrc/info.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4837569951036924
+  }
+]

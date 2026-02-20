@@ -1,0 +1,68 @@
+[
+  {
+    "name": "AGiXT (Josh-XT)",
+    "description": "[项目级] AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.。来源: https://github.com/Josh-XT/AGiXT",
+    "domain": "devops",
+    "tags": [
+      "agent-llm",
+      "agi",
+      "agixt",
+      "ai",
+      "artificial",
+      "python",
+      "stars-3153",
+      "github-josh-xt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AGiXT is not just another AI framework—it's a complete automation platform that bridges the gap between artificial intelligence and real-world applications. Whether you're controlling smart home devices, managing enterprise workflows, trading cryptocurrencies, or developing complex applications, AGiXT provides the tools and infrastructure to make it happen through natural language interactions.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install agixt\nagixt start",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nDockerfile\nLICENSE\nMANIFEST.in\nSECURITY.md\nagixt\nagixt/Agent.py\nagixt/ApiClient.py\nagixt/BotManagerRegistry.py\nagixt/Chain.py\nagixt/Complexity.py\nagixt/Conversations.py\nagixt/DB.py\nagixt/DiscordBot.py\nagixt/DiscordBotManager.py\nagixt/Extensions.py\nagixt/ExtensionsHub.py\nagixt/FacebookBotManager.py\nagixt/GitHubBotManager.py\nagixt/Globals.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.749361985373953
+  },
+  {
+    "name": "AGiXT/agixt 模块",
+    "description": "[模块级] AGiXT 项目的 agixt 模块 (source)。来源: https://github.com/Josh-XT/AGiXT",
+    "domain": "devops",
+    "tags": [
+      "agent-llm",
+      "agi",
+      "agixt",
+      "ai",
+      "artificial",
+      "module-level",
+      "source",
+      "agixt"
+    ],
+    "genes": [
+      {
+        "title": "agixt 模块说明",
+        "content": "[![GitHub](https://img.shields.io/badge/GitHub-Sponsor%20Josh%20XT-blue?logo=github&style=plastic)](https://github.com/sponsors/Josh-XT) [![PayPal](https://img.shields.io/badge/PayPal-Sponsor%20Josh%20XT-blue.svg?logo=paypal&style=plastic)](https://paypal.me/joshxt) [![Ko-Fi](https://img.shields.io/badge/Kofi-Sponsor%20Josh%20XT-blue.svg?logo=kofi&style=plastic)](https://ko-fi.com/joshxt)\n\n[![GitHub](https://img.shields.io/badge/GitHub-AGiXT%20Core-blue?logo=github&style=plastic)](https://github",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agixt 文件结构",
+        "content": "agixt/Agent.py\nagixt/ApiClient.py\nagixt/BotManagerRegistry.py\nagixt/Chain.py\nagixt/Complexity.py\nagixt/Conversations.py\nagixt/DB.py\nagixt/DiscordBot.py\nagixt/DiscordBotManager.py\nagixt/Extensions.py\nagixt/ExtensionsHub.py\nagixt/FacebookBotManager.py\nagixt/GitHubBotManager.py\nagixt/Globals.py\nagixt/GoogleEmailBotManager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8994895882991623
+  }
+]

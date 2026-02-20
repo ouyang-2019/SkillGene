@@ -1,0 +1,193 @@
+[
+  {
+    "name": "assistant (gridaco)",
+    "description": "[项目级] 🤖  Bring your Figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design。来源: https://github.com/gridaco/assistant",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "typescript",
+      "stars-612",
+      "github-gridaco",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖  Bring your Figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design\n\n来源: https://github.com/gridaco/assistant\n语言: TypeScript\nStars: 612",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "yarn",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nTESTING.md\napp\napp/README.md\napp/__plugin__init__\napp/lib\napp/package.json\nbranding\nbranding/assistant-cover-v0.1.1.png\nbranding/assistant-cover-v2021.2.0.png\nbranding/assistant-cover-v2021.8.0.png\nbranding/assistant-logo-v0.1.1.png\nbranding/design-assistant-icons-loader.png\ndocs\ndocs/gifs\ndocs/images",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "> Install figma plugin via below link. Note that the published plugin is always behind few new features behind this repository. For trying out the latest and mindblowing features, please build from your local environment directly.\n\nInstall via figma plugin [link here](https://www.figma.com/community/plugin/896445082033423994).",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.393375711072781
+  },
+  {
+    "name": "assistant/app 模块",
+    "description": "[模块级] assistant 项目的 app 模块 (source)。来源: https://github.com/gridaco/assistant",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 67\n\n包含文件:\n- app/README.md\n- app/__plugin__init__\n- app/__plugin__init__/README.md\n- app/__plugin__init__/index.ts\n- app/lib\n- app/lib/app.css\n- app/lib/app.css.d.ts\n- app/lib/components\n- app/lib/components/action-after-filekey-set-button.tsx\n- app/lib/components/animated",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/README.md\napp/__plugin__init__\napp/__plugin__init__/README.md\napp/__plugin__init__/index.ts\napp/lib\napp/lib/app.css\napp/lib/app.css.d.ts\napp/lib/components\napp/lib/components/action-after-filekey-set-button.tsx\napp/lib/components/animated\napp/lib/components/animated/index.ts\napp/lib/components/animated/reveal-when-visible.tsx\napp/lib/components/comming-soon-template.tsx\napp/lib/components/index.ts\napp/lib/components/motions",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  },
+  {
+    "name": "assistant/branding 模块",
+    "description": "[模块级] assistant 项目的 branding 模块 (source)。来源: https://github.com/gridaco/assistant",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "module-level",
+      "source",
+      "branding"
+    ],
+    "genes": [
+      {
+        "title": "branding 模块说明",
+        "content": "模块路径: branding/\n类型: source\n文件数: 5\n\n包含文件:\n- branding/assistant-cover-v0.1.1.png\n- branding/assistant-cover-v2021.2.0.png\n- branding/assistant-cover-v2021.8.0.png\n- branding/assistant-logo-v0.1.1.png\n- branding/design-assistant-icons-loader.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "branding 文件结构",
+        "content": "branding/assistant-cover-v0.1.1.png\nbranding/assistant-cover-v2021.2.0.png\nbranding/assistant-cover-v2021.8.0.png\nbranding/assistant-logo-v0.1.1.png\nbranding/design-assistant-icons-loader.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  },
+  {
+    "name": "assistant/docs 模块",
+    "description": "[模块级] assistant 项目的 docs 模块 (docs)。来源: https://github.com/gridaco/assistant",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "- [Create Figma Plugin docs](https://github.com/yuanqing/create-figma-plugin#docs)\n- [Figma plugin API docs](https://figma.com/plugin-docs/api/)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/gifs\ndocs/gifs/assistant-demo-2021.0.1.gif\ndocs/gifs/assistant-icons-loader-2021.0.1f.gif\ndocs/gifs/quicklook-demo-v002.gif\ndocs/images\ndocs/images/assistant-webdev-example.png\ndocs/images/plugin-flutter-example-v0.0.1.png\ndocs/images/plugin-flutter-example-v0.0.2.png\ndocs/images/plugin-flutter-example.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  },
+  {
+    "name": "assistant/figma-core 模块",
+    "description": "[模块级] assistant 项目的 figma-core 模块 (source)。来源: https://github.com/gridaco/assistant",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "module-level",
+      "source",
+      "figma-core"
+    ],
+    "genes": [
+      {
+        "title": "figma-core 模块说明",
+        "content": "模块路径: figma-core/\n类型: source\n文件数: 87\n\n包含文件:\n- figma-core/code-thread\n- figma-core/code-thread/broadcast-selection-preview.ts\n- figma-core/code-thread/core-init.ts\n- figma-core/code-thread/default-handler.ts\n- figma-core/code-thread/index.ts\n- figma-core/code-thread/message-handler.ts\n- figma-core/code-thread/resize-screen.ts\n- figma-core/code-thread/runon.ts\n- figma-core/code-thread/selection.ts\n- figma-core/code-thread/show-ui.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figma-core 文件结构",
+        "content": "figma-core/code-thread\nfigma-core/code-thread/broadcast-selection-preview.ts\nfigma-core/code-thread/core-init.ts\nfigma-core/code-thread/default-handler.ts\nfigma-core/code-thread/index.ts\nfigma-core/code-thread/message-handler.ts\nfigma-core/code-thread/resize-screen.ts\nfigma-core/code-thread/runon.ts\nfigma-core/code-thread/selection.ts\nfigma-core/code-thread/show-ui.ts\nfigma-core/code-thread/user-interest.ts\nfigma-core/contents-extraction\nfigma-core/contents-extraction/README.md\nfigma-core/event-handlers\nfigma-core/event-handlers/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  },
+  {
+    "name": "assistant/figma-native 模块",
+    "description": "[模块级] assistant 项目的 figma-native 模块 (source)。来源: https://github.com/gridaco/assistant",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "assistant",
+      "chatgpt",
+      "figma",
+      "figma-flutter",
+      "module-level",
+      "source",
+      "figma-native"
+    ],
+    "genes": [
+      {
+        "title": "figma-native 模块说明",
+        "content": "模块路径: figma-native/\n类型: source\n文件数: 6\n\n包含文件:\n- figma-native/.env.defaults\n- figma-native/.gitignore\n- figma-native/README.md\n- figma-native/manifest.json\n- figma-native/package.json\n- figma-native/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figma-native 文件结构",
+        "content": "figma-native/.env.defaults\nfigma-native/.gitignore\nfigma-native/README.md\nfigma-native/manifest.json\nfigma-native/package.json\nfigma-native/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  }
+]

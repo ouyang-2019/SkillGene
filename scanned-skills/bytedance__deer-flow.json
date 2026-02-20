@@ -1,0 +1,168 @@
+[
+  {
+    "name": "deer-flow (bytedance)",
+    "description": "[项目级] An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.。来源: https://github.com/bytedance/deer-flow",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "typescript",
+      "stars-20024",
+      "github-bytedance",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.\n\n来源: https://github.com/bytedance/deer-flow\n语言: TypeScript\nStars: 20024",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\nbackend\nbackend/.gitignore\nbackend/.python-version\nbackend/.vscode\nbackend/AGENTS.md\nbackend/CLAUDE.md\nbackend/CONTRIBUTING.md\nbackend/Dockerfile\nbackend/Makefile\nbackend/README.md\nbackend/debug.py\nbackend/docs\nbackend/langgraph.json\nbackend/pyproject.toml\nbackend/ruff.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "deer-flow/backend 模块",
+    "description": "[模块级] deer-flow 项目的 backend 模块 (source)。来源: https://github.com/bytedance/deer-flow",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 154\n\n包含文件:\n- backend/.gitignore\n- backend/.python-version\n- backend/.vscode\n- backend/.vscode/extensions.json\n- backend/.vscode/settings.json\n- backend/AGENTS.md\n- backend/CLAUDE.md\n- backend/CONTRIBUTING.md\n- backend/Dockerfile\n- backend/Makefile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.gitignore\nbackend/.python-version\nbackend/.vscode\nbackend/.vscode/extensions.json\nbackend/.vscode/settings.json\nbackend/AGENTS.md\nbackend/CLAUDE.md\nbackend/CONTRIBUTING.md\nbackend/Dockerfile\nbackend/Makefile\nbackend/README.md\nbackend/debug.py\nbackend/docs\nbackend/docs/API.md\nbackend/docs/APPLE_CONTAINER.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.220620334640067
+  },
+  {
+    "name": "deer-flow/docker 模块",
+    "description": "[模块级] deer-flow 项目的 docker 模块 (source)。来源: https://github.com/bytedance/deer-flow",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "The fastest way to get started with a consistent environment:\n\n1. **Initialize and start**:\n   ```bash\n   make docker-init    # Pull sandbox image (Only once or when image updates)\n   make docker-start   # Start all services and watch for code changes\n   ```\n\n2. **Access**: http://localhost:2026\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md) for detailed Docker development guide.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/docker-compose-dev.yaml\ndocker/nginx\ndocker/nginx/nginx.conf\ndocker/nginx/nginx.local.conf\ndocker/provisioner\ndocker/provisioner/Dockerfile\ndocker/provisioner/README.md\ndocker/provisioner/app.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "make docker-init    # Pull sandbox image (Only once or when image updates)\n   make docker-start   # Start all services and watch for code changes",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.220620334640067
+  },
+  {
+    "name": "deer-flow/docs 模块",
+    "description": "[模块级] deer-flow 项目的 docs 模块 (docs)。来源: https://github.com/bytedance/deer-flow",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/CODE_CHANGE_SUMMARY_BY_FILE.md\n- docs/SKILL_NAME_CONFLICT_FIX.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CODE_CHANGE_SUMMARY_BY_FILE.md\ndocs/SKILL_NAME_CONFLICT_FIX.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.220620334640067
+  },
+  {
+    "name": "deer-flow/frontend 模块",
+    "description": "[模块级] deer-flow 项目的 frontend 模块 (source)。来源: https://github.com/bytedance/deer-flow",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 21\n\n包含文件:\n- frontend/.env.example\n- frontend/.gitignore\n- frontend/.npmrc\n- frontend/.vscode\n- frontend/.vscode/settings.json\n- frontend/AGENTS.md\n- frontend/CLAUDE.md\n- frontend/Dockerfile\n- frontend/Makefile\n- frontend/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/.gitignore\nfrontend/.npmrc\nfrontend/.vscode\nfrontend/.vscode/settings.json\nfrontend/AGENTS.md\nfrontend/CLAUDE.md\nfrontend/Dockerfile\nfrontend/Makefile\nfrontend/README.md\nfrontend/components.json\nfrontend/eslint.config.js\nfrontend/next.config.js\nfrontend/package.json\nfrontend/pnpm-lock.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.220620334640067
+  }
+]

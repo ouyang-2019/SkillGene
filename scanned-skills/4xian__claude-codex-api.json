@@ -1,0 +1,78 @@
+[
+  {
+    "name": "claude-codex-api (4xian)",
+    "description": "[项目级] ccapi - A management tool for quickly switching Claude Code and Codex configurations | 一个Claude Code 和 Codex 配置管理工具，一键切换多个中转站API配置；一键切换系统环境变量；一键测试API延迟；一键测试API有效性；自动择优线路切换与国际化支持。。来源: https://github.com/4xian/claude-codex-api",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ccapi",
+      "claude",
+      "claude-code",
+      "codex",
+      "javascript",
+      "stars-162",
+      "github-4xian",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ccapi - A management tool for quickly switching Claude Code and Codex configurations | 一个Claude Code 和 Codex 配置管理工具，一键切换多个中转站API配置；一键切换系统环境变量；一键测试API延迟；一键测试API有效性；自动择优线路切换与国际化支持。\n\n来源: https://github.com/4xian/claude-codex-api\n语言: JavaScript\nStars: 162",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEX_README.md\nCODEX_README_EN.md\nREADME.md\nREADME_EN.md\nbin\nbin/ccapi\ndist\ndist/index.js\npackage-lock.json\npackage.json\nrollup.config.js\nsrc\nsrc/commands\nsrc/i18n\nsrc/index.js\nsrc/utils",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🚀 **一键切换** - 轻松在不同 Claude / Codex API 配置间切换\n- 🌐 **环境变量管理** - 一键设置API配置到系统环境变量\n- ⚡ **延迟测试** - 快速同时测试所有中转站延迟以及API配置的可用性\n- 🎯 **自动优选** - 自动测试并切换到延迟最低的最优配置\n- 📄 **多格式支持** - 支持 JSON、JSON5、YAML、TOML 配置文件\n- 🌍 **国际化支持** - 支持中文和英文界面语言切换",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.104757507271316
+  },
+  {
+    "name": "claude-codex-api/src 模块",
+    "description": "[模块级] claude-codex-api 项目的 src 模块 (source)。来源: https://github.com/4xian/claude-codex-api",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ccapi",
+      "claude",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 38\n\n包含文件:\n- src/commands\n- src/commands/claude\n- src/commands/claude/auto.js\n- src/commands/claude/clear.js\n- src/commands/claude/env.js\n- src/commands/claude/list.js\n- src/commands/claude/ping.js\n- src/commands/claude/set.js\n- src/commands/claude/test.js\n- src/commands/claude/use.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/commands\nsrc/commands/claude\nsrc/commands/claude/auto.js\nsrc/commands/claude/clear.js\nsrc/commands/claude/env.js\nsrc/commands/claude/list.js\nsrc/commands/claude/ping.js\nsrc/commands/claude/set.js\nsrc/commands/claude/test.js\nsrc/commands/claude/use.js\nsrc/commands/codex\nsrc/commands/codex/auto.js\nsrc/commands/codex/instructions.js\nsrc/commands/codex/list.js\nsrc/commands/codex/ping.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3838060058170525
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "name": "vanna (vanna-ai)",
+    "description": "[项目级] 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "python",
+      "stars-22709",
+      "github-vanna-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.\n\n来源: https://github.com/vanna-ai/vanna\n语言: Python\nStars: 22709",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Here's a complete example integrating Vanna with your existing FastAPI app and authentication:\n\n```python\nfrom fastapi import FastAPI\nfrom vanna import Agent\nfrom vanna.servers.fastapi.routes import register_chat_routes\nfrom vanna.servers.base import ChatHandler\nfrom vanna.core.user import UserResolver, User, RequestContext\nfrom vanna.integrations.anthropic import AnthropicLlmService\nfrom vanna.tools import RunSqlTool\nfrom vanna.integrations.sqlite import SqliteRunner\nfrom vanna.core.registry import ToolRegistry",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nMIGRATION_GUIDE.md\nREADME.md\nREADME_LEGACY.md\nexamples\nexamples/chromadb_gpu_example.py\nexamples/transform_args_example.py\nfrontends\nfrontends/webcomponent\nimg\nimg/architecture.png\nimg/top-10-customers.png\nimg/vanna-readme-diagram.png\nimg/vanna2.svg\nnotebooks\nnotebooks/quickstart.ipynb\npapers\npapers/ai-sql-accuracy-2023-08-17.md\npapers/img",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Vanna 2.0 includes powerful enterprise features for production use:\n\n**Lifecycle Hooks** — Add quota checking, custom logging, content filtering at key points in the request lifecycle\n\n**LLM Middlewares** — Implement caching, prompt engineering, or cost tracking around LLM calls\n\n**Conversation Storage** — Persist and retrieve conversation history per user\n\n**Observability** — Built-in tracing and metrics integration\n\n**Context Enrichers** — Add RAG, memory, or documentation to enhance agent responses\n\n**Agent Configuration** — Control streaming, temperature, max iterations, and more\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "vanna/examples 模块",
+    "description": "[模块级] vanna 项目的 examples 模块 (example)。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/chromadb_gpu_example.py\n- examples/transform_args_example.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/chromadb_gpu_example.py\nexamples/transform_args_example.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.242479204123052
+  },
+  {
+    "name": "vanna/frontends 模块",
+    "description": "[模块级] vanna 项目的 frontends 模块 (source)。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "module-level",
+      "source",
+      "frontends"
+    ],
+    "genes": [
+      {
+        "title": "frontends 模块说明",
+        "content": "模块路径: frontends/\n类型: source\n文件数: 43\n\n包含文件:\n- frontends/webcomponent\n- frontends/webcomponent/.storybook\n- frontends/webcomponent/.storybook/main.ts\n- frontends/webcomponent/.storybook/preview-head.html\n- frontends/webcomponent/.storybook/preview.ts\n- frontends/webcomponent/TEST_README.md\n- frontends/webcomponent/package.json\n- frontends/webcomponent/requirements-test.txt\n- frontends/webcomponent/scripts\n- frontends/webcomponent/scripts/sync-version.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontends 文件结构",
+        "content": "frontends/webcomponent\nfrontends/webcomponent/.storybook\nfrontends/webcomponent/.storybook/main.ts\nfrontends/webcomponent/.storybook/preview-head.html\nfrontends/webcomponent/.storybook/preview.ts\nfrontends/webcomponent/TEST_README.md\nfrontends/webcomponent/package.json\nfrontends/webcomponent/requirements-test.txt\nfrontends/webcomponent/scripts\nfrontends/webcomponent/scripts/sync-version.js\nfrontends/webcomponent/src\nfrontends/webcomponent/src/components\nfrontends/webcomponent/src/components/button.stories.ts\nfrontends/webcomponent/src/components/dataframe-component.stories.ts\nfrontends/webcomponent/src/components/plotly-chart.stories.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.242479204123052
+  },
+  {
+    "name": "vanna/img 模块",
+    "description": "[模块级] vanna 项目的 img 模块 (source)。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 4\n\n包含文件:\n- img/architecture.png\n- img/top-10-customers.png\n- img/vanna-readme-diagram.png\n- img/vanna2.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/architecture.png\nimg/top-10-customers.png\nimg/vanna-readme-diagram.png\nimg/vanna2.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.242479204123052
+  },
+  {
+    "name": "vanna/papers 模块",
+    "description": "[模块级] vanna 项目的 papers 模块 (source)。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "module-level",
+      "source",
+      "papers"
+    ],
+    "genes": [
+      {
+        "title": "papers 模块说明",
+        "content": "模块路径: papers/\n类型: source\n文件数: 18\n\n包含文件:\n- papers/ai-sql-accuracy-2023-08-17.md\n- papers/img\n- papers/img/accuracy-by-llm.png\n- papers/img/accuracy-using-contextual-examples.png\n- papers/img/accuracy-using-schema-only.png\n- papers/img/accuracy-using-static-examples.png\n- papers/img/chat-gpt-question.png\n- papers/img/chatgpt-results.png\n- papers/img/framework-for-sql-generation.png\n- papers/img/question-flow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "papers 文件结构",
+        "content": "papers/ai-sql-accuracy-2023-08-17.md\npapers/img\npapers/img/accuracy-by-llm.png\npapers/img/accuracy-using-contextual-examples.png\npapers/img/accuracy-using-schema-only.png\npapers/img/accuracy-using-static-examples.png\npapers/img/chat-gpt-question.png\npapers/img/chatgpt-results.png\npapers/img/framework-for-sql-generation.png\npapers/img/question-flow.png\npapers/img/schema-only.png\npapers/img/sql-error.png\npapers/img/summary-table.png\npapers/img/summary.png\npapers/img/test-architecture.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.242479204123052
+  },
+  {
+    "name": "vanna/src 模块",
+    "description": "[模块级] vanna 项目的 src 模块 (source)。来源: https://github.com/vanna-ai/vanna",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "data-visualization",
+      "database",
+      "llm",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 109\n\n包含文件:\n- src/evals\n- src/evals/benchmarks\n- src/evals/benchmarks/llm_comparison.py\n- src/evals/datasets\n- src/evals/datasets/sql_generation\n- src/evals/datasets/sql_generation/basic.yaml\n- src/vanna\n- src/vanna/__init__.py\n- src/vanna/agents\n- src/vanna/agents/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/evals\nsrc/evals/benchmarks\nsrc/evals/benchmarks/llm_comparison.py\nsrc/evals/datasets\nsrc/evals/datasets/sql_generation\nsrc/evals/datasets/sql_generation/basic.yaml\nsrc/vanna\nsrc/vanna/__init__.py\nsrc/vanna/agents\nsrc/vanna/agents/__init__.py\nsrc/vanna/capabilities\nsrc/vanna/capabilities/__init__.py\nsrc/vanna/capabilities/agent_memory\nsrc/vanna/capabilities/agent_memory/__init__.py\nsrc/vanna/capabilities/agent_memory/base.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.242479204123052
+  }
+]

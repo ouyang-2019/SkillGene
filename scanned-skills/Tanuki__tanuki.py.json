@@ -1,0 +1,168 @@
+[
+  {
+    "name": "tanuki.py (Tanuki)",
+    "description": "[项目级] Prompt engineering for developers。来源: https://github.com/Tanuki/tanuki.py",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-functions",
+      "alignment",
+      "chat-gpt",
+      "distillation",
+      "python",
+      "stars-695",
+      "github-tanuki",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tanuki is a way to easily call an LLM in place of the function body in Python, with the same parameters and output that you would expect from a function implemented by hand. \n\nThese LLM-powered functions are well-typed, reliable, stateless, and production-ready to be dropped into your app seamlessly. Rather than endless prompt-wrangling and nasty surprises, these LLM-powered functions and applications behave like traditional functions with proper error handling.\n\nLastly, the more you use Tanuki functions, the cheaper and faster they gets (up to 9-10x!) through automatic model distillation.\n\n```python\n@tanuki.patch\ndef some_function(input: TypedInput) -> TypedOutput:\n    \"\"\"(Optional) Include the description of how your function will be used.\"\"\"\n\n@tanuki.align\ndef test_some_function(example",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<!-- TOC --><a name=\"installation\"></a>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.txt\nMANIFEST\nSECURITY.md\nSUPPORT.md\ndev.requirements.txt\ndocs\ndocs/anyscale.md\ndocs/aws_bedrock.md\ndocs/embeddings_support.md\ndocs/function_configurability.md\ndocs/together_ai.md\nexamples\nexamples/clean_language\nexamples/email_cleaner\nexamples/email_matching\nexamples/google_news_scraper",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Easy and seamless integration** - Add LLM augmented functions to any workflow within seconds. Decorate a function stub with `@tanuki.patch` and optionally add type hints and docstrings to guide the execution. That’s it.\n- **Type aware** - Ensure that the outputs of the LLM adhere to the type constraints of the function (Python Base types, Pydantic classes, Literals, Generics etc) to guard against bugs or unexpected side-effects of using LLMs.\n- **Aligned outputs** - LLMs are unreliable, which makes them difficult to use in place of classically programmed functions. Using simple assert stat",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.420992402295057
+  },
+  {
+    "name": "tanuki.py/docs 模块",
+    "description": "[模块级] tanuki.py 项目的 docs 模块 (docs)。来源: https://github.com/Tanuki/tanuki.py",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-functions",
+      "alignment",
+      "chat-gpt",
+      "distillation",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/anyscale.md\n- docs/aws_bedrock.md\n- docs/embeddings_support.md\n- docs/function_configurability.md\n- docs/together_ai.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/anyscale.md\ndocs/aws_bedrock.md\ndocs/embeddings_support.md\ndocs/function_configurability.md\ndocs/together_ai.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6367939218360457
+  },
+  {
+    "name": "tanuki.py/examples 模块",
+    "description": "[模块级] tanuki.py 项目的 examples 模块 (example)。来源: https://github.com/Tanuki/tanuki.py",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-functions",
+      "alignment",
+      "chat-gpt",
+      "distillation",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 71\n\n包含文件:\n- examples/clean_language\n- examples/clean_language/main.py\n- examples/email_cleaner\n- examples/email_cleaner/.env.example\n- examples/email_cleaner/data\n- examples/email_cleaner/data/personas.xlsx\n- examples/email_cleaner/data/test_emails.txt\n- examples/email_cleaner/main.py\n- examples/email_cleaner/readme.md\n- examples/email_cleaner/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/clean_language\nexamples/clean_language/main.py\nexamples/email_cleaner\nexamples/email_cleaner/.env.example\nexamples/email_cleaner/data\nexamples/email_cleaner/data/personas.xlsx\nexamples/email_cleaner/data/test_emails.txt\nexamples/email_cleaner/main.py\nexamples/email_cleaner/readme.md\nexamples/email_cleaner/requirements.txt\nexamples/email_cleaner/run.sh\nexamples/email_matching\nexamples/email_matching/.env.example\nexamples/email_matching/main.py\nexamples/email_matching/readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6367939218360457
+  },
+  {
+    "name": "tanuki.py/src 模块",
+    "description": "[模块级] tanuki.py 项目的 src 模块 (source)。来源: https://github.com/Tanuki/tanuki.py",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-functions",
+      "alignment",
+      "chat-gpt",
+      "distillation",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 69\n\n包含文件:\n- src/tanuki.py.egg-info\n- src/tanuki.py.egg-info/PKG-INFO\n- src/tanuki.py.egg-info/SOURCES.txt\n- src/tanuki.py.egg-info/dependency_links.txt\n- src/tanuki.py.egg-info/requires.txt\n- src/tanuki.py.egg-info/top_level.txt\n- src/tanuki\n- src/tanuki/__init__.py\n- src/tanuki/_test_ast_parsing.py\n- src/tanuki/aligns",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/tanuki.py.egg-info\nsrc/tanuki.py.egg-info/PKG-INFO\nsrc/tanuki.py.egg-info/SOURCES.txt\nsrc/tanuki.py.egg-info/dependency_links.txt\nsrc/tanuki.py.egg-info/requires.txt\nsrc/tanuki.py.egg-info/top_level.txt\nsrc/tanuki\nsrc/tanuki/__init__.py\nsrc/tanuki/_test_ast_parsing.py\nsrc/tanuki/aligns\nsrc/tanuki/aligns/align_action_items.py\nsrc/tanuki/aligns/align_applied_functions.py\nsrc/tanuki/aligns/align_classify_sentiment.py\nsrc/tanuki/bloom_filter.py\nsrc/tanuki/constants.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6367939218360457
+  },
+  {
+    "name": "tanuki.py/tests 模块",
+    "description": "[模块级] tanuki.py 项目的 tests 模块 (test)。来源: https://github.com/Tanuki/tanuki.py",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "ai-functions",
+      "alignment",
+      "chat-gpt",
+      "distillation",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 8\n\n包含文件:\n- tests/bloom_filter_state.bin\n- tests/test.bin\n- tests/test_align\n- tests/test_align/.align\n- tests/test_align/.align/b01fbd89d35b7eef4015fe0c6e363969\n- tests/test_align/.align/c364f14f40084510581a3418aaab4037\n- tests/test_align/test_align_class.py\n- tests/test_align/test_align_dynamic.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/bloom_filter_state.bin\ntests/test.bin\ntests/test_align\ntests/test_align/.align\ntests/test_align/.align/b01fbd89d35b7eef4015fe0c6e363969\ntests/test_align/.align/c364f14f40084510581a3418aaab4037\ntests/test_align/test_align_class.py\ntests/test_align/test_align_dynamic.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6367939218360457
+  }
+]

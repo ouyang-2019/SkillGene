@@ -1,0 +1,72 @@
+[
+  {
+    "name": "rust-skills (leonardomso)",
+    "description": "[项目级] A collection of 179 rules that AI coding agents can use when writing Rust. 。来源: https://github.com/leonardomso/rust-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "best-practices",
+      "claude-code",
+      "code-quality",
+      "stars-35",
+      "github-leonardomso",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of 179 rules that AI coding agents can use when writing Rust. \n\n来源: https://github.com/leonardomso/rust-skills\n语言: unknown\nStars: 35",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx add-skill leonardomso/rust-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\nSKILL.md\nrules\nrules/anti-clone-excessive.md\nrules/anti-collect-intermediate.md\nrules/anti-empty-catch.md\nrules/anti-expect-lazy.md\nrules/anti-format-hot-path.md\nrules/anti-index-over-iter.md\nrules/anti-lock-across-await.md\nrules/anti-over-abstraction.md\nrules/anti-panic-expected.md\nrules/anti-premature-optimize.md\nrules/anti-string-for-str.md\nrules/anti-stringly-typed.md\nrules/anti-type-erasure.md\nrules/anti-unwrap-abuse.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/rust-skills review this function",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.772034022175138
+  },
+  {
+    "name": "rust-skills/rules 模块",
+    "description": "[模块级] rust-skills 项目的 rules 模块 (source)。来源: https://github.com/leonardomso/rust-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "best-practices",
+      "claude-code",
+      "code-quality",
+      "module-level",
+      "source",
+      "rules"
+    ],
+    "genes": [
+      {
+        "title": "rules 模块说明",
+        "content": "See [SKILL.md](./SKILL.md) for the full list with links to each rule file.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rules 文件结构",
+        "content": "rules/anti-clone-excessive.md\nrules/anti-collect-intermediate.md\nrules/anti-empty-catch.md\nrules/anti-expect-lazy.md\nrules/anti-format-hot-path.md\nrules/anti-index-over-iter.md\nrules/anti-lock-across-await.md\nrules/anti-over-abstraction.md\nrules/anti-panic-expected.md\nrules/anti-premature-optimize.md\nrules/anti-string-for-str.md\nrules/anti-stringly-typed.md\nrules/anti-type-erasure.md\nrules/anti-unwrap-abuse.md\nrules/anti-vec-for-slice.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.11762721774011
+  }
+]

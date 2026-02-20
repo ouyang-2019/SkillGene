@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MyScaleDB (myscale)",
+    "description": "[项目级] A @ClickHouse fork that supports high-performance vector search and full-text search.。来源: https://github.com/myscale/MyScaleDB",
+    "domain": "ai-llm",
+    "tags": [
+      "ann",
+      "big-data",
+      "embedding",
+      "image-search",
+      "llm",
+      "c++",
+      "stars-1024",
+      "github-myscale",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A @ClickHouse fork that supports high-performance vector search and full-text search.\n\n来源: https://github.com/myscale/MyScaleDB\n语言: C++\nStars: 1024",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTHORS\nCHANGELOG.md\nCMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE.txt\nPreLoad.cmake\nREADME-ClickHouse.md\nREADME.md\nSECURITY.md\nbase\nbase/CMakeLists.txt\nbase/base\nbase/glibc-compatibility",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.505149978319906
+  },
+  {
+    "name": "MyScaleDB/base 模块",
+    "description": "[模块级] MyScaleDB 项目的 base 模块 (source)。来源: https://github.com/myscale/MyScaleDB",
+    "domain": "ai-llm",
+    "tags": [
+      "ann",
+      "big-data",
+      "embedding",
+      "image-search",
+      "llm",
+      "module-level",
+      "source",
+      "base"
+    ],
+    "genes": [
+      {
+        "title": "base 模块说明",
+        "content": "模块路径: base/\n类型: source\n文件数: 159\n\n包含文件:\n- base/CMakeLists.txt\n- base/base\n- base/base/BorrowedObjectPool.h\n- base/base/CMakeLists.txt\n- base/base/DayNum.h\n- base/base/Decimal.h\n- base/base/DecomposedFloat.h\n- base/base/EnumReflection.h\n- base/base/FnTraits.h\n- base/base/FunctorToStaticMethodAdaptor.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "base 文件结构",
+        "content": "base/CMakeLists.txt\nbase/base\nbase/base/BorrowedObjectPool.h\nbase/base/CMakeLists.txt\nbase/base/DayNum.h\nbase/base/Decimal.h\nbase/base/DecomposedFloat.h\nbase/base/EnumReflection.h\nbase/base/FnTraits.h\nbase/base/FunctorToStaticMethodAdaptor.h\nbase/base/IPv4andIPv6.h\nbase/base/JSON.cpp\nbase/base/JSON.h\nbase/base/MoveOrCopyIfThrow.h\nbase/base/StringRef.cpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.704119982655925
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "global-agent-hackathon-may-2025 (global-agent-hackathon)",
+    "description": "[项目级] A month-long, open-source AI Agent Hackathon — open to all builders and dreamers working on agents, RAG, tool use, and multi-agent systems.。来源: https://github.com/global-agent-hackathon/global-agent-hackathon-may-2025",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "multi-agent-systems",
+      "rag",
+      "stars-242",
+      "github-global-agent-hackathon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A month-long, open-source AI Agent Hackathon — open to all builders and dreamers working on agents, RAG, tool use, and multi-agent systems.\n\n来源: https://github.com/global-agent-hackathon/global-agent-hackathon-may-2025\n语言: unknown\nStars: 242",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nresources\nresources/agno.md\nresources/browser-use.md\nresources/firecrawl.md\nresources/graphlit.md\nresources/lutra-ai.md\nresources/mem0.md\nresources/potpie.md\nresources/unwindai.md\nsubmissions\nsubmissions/.gitkeep\nwinners\nwinners/.gitkeep",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Submit your project** by creating a GitHub issue in this repo following the provided [template](./.github/ISSUE_TEMPLATE/submission-template.md).\n2. **Get category assignment**\n    - The Hackathon team will review your submission and assign it to a prize category.\n    - You can update your issue as you build, and we'll update the prize category accordingly.\n    - Prize categories can be updated until the hackathon ends.\n    - Categories include Best use of Agno, Firecrawl, Mem0, Graphlit and Browser Use.\n3. **Build your project** and submit a PR for your project in the submissions folder ",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.191907682990216
+  },
+  {
+    "name": "global-agent-hackathon-may-2025/resources 模块",
+    "description": "[模块级] global-agent-hackathon-may-2025 项目的 resources 模块 (source)。来源: https://github.com/global-agent-hackathon/global-agent-hackathon-may-2025",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "multi-agent-systems",
+      "rag",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "Projects showcasing the best use case of Agno will get following cash prizes:\n- 🏆 **GRAND PRIZE**: $5,000 🏆\n- 🥇 1 winner: $2,000\n- 🥈 5 winners: $1,000 each\n- 🥉 10 winners: $500 each\n- 🏅 10 winners: $300 each\n\nThe $300, $500 and $1,000 prizes will be awarded on a rolling basis. The $2,000 and $5,000 prizes will be awarded at the end of the hackathon.\n\nJudges: Dirk Brand, Yash Solanky, Monali Dambre",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/agno.md\nresources/browser-use.md\nresources/firecrawl.md\nresources/graphlit.md\nresources/lutra-ai.md\nresources/mem0.md\nresources/potpie.md\nresources/unwindai.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4535261463921723
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "gpt-newspaper (rotemweiss57)",
+    "description": "[项目级] GPT based autonomous agent designed to create personalized newspapers tailored to user preferences. 。来源: https://github.com/rotemweiss57/gpt-newspaper",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1455",
+      "github-rotemweiss57",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "GPT Newspaper consists of six specialized sub-agents in LangChain's new [LangGraph Library](https://github.com/langchain-ai/langgraph):\n\n1. **Search Agent**: Scours the web for the latest and most relevant news.\n2. **Curator Agent**: Filters and selects news based on user-defined preferences and interests.\n3. **Writer Agent**: Crafts engaging and reader-friendly articles.\n4. **Critique Agent** Provide feedback to the writer until article is approved.\n5. **Designer Agent**: Layouts and designs the articles for an aesthetically pleasing reading experience.\n6. **Editor Agent**: Constructs the newspaper based on produced articles.\n7. **Publisher Agent** Publishes the newspaper to the frontend or desired service\n\nEach agent plays a critical role in delivering a unique and personalized newspaper",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENCE\nREADME.md\napp.py\nbackend\nbackend/__init__.py\nbackend/agents\nbackend/langgraph_agent.py\nbackend/server.py\nbackend/templates\ndocker-compose.yml\nfrontend\nfrontend/index.html\nfrontend/static\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Personalized Content**: Get news that aligns with your interests and preferences.\n- **Diverse Sources**: Aggregates content from a wide range of reputable news sources.\n- **Engaging Design**: Enjoy a visually appealing layout and design.\n- **Quality Assurance**: Rigorous editing ensures reliable and accurate news reporting.\n- **User-Friendly Interface**: Easy-to-use platform for setting preferences and receiving your newspaper.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.581431496660963
+  },
+  {
+    "name": "gpt-newspaper/backend 模块",
+    "description": "[模块级] gpt-newspaper 项目的 backend 模块 (source)。来源: https://github.com/rotemweiss57/gpt-newspaper",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1455",
+      "github-rotemweiss57",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 21\n\n包含文件:\n- backend/__init__.py\n- backend/agents\n- backend/agents/__init__.py\n- backend/agents/critique.py\n- backend/agents/curator.py\n- backend/agents/designer.py\n- backend/agents/editor.py\n- backend/agents/publisher.py\n- backend/agents/search.py\n- backend/agents/writer.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/__init__.py\nbackend/agents\nbackend/agents/__init__.py\nbackend/agents/critique.py\nbackend/agents/curator.py\nbackend/agents/designer.py\nbackend/agents/editor.py\nbackend/agents/publisher.py\nbackend/agents/search.py\nbackend/agents/writer.py\nbackend/langgraph_agent.py\nbackend/server.py\nbackend/templates\nbackend/templates/article\nbackend/templates/article/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7651451973287706
+  },
+  {
+    "name": "gpt-newspaper/frontend 模块",
+    "description": "[模块级] gpt-newspaper 项目的 frontend 模块 (source)。来源: https://github.com/rotemweiss57/gpt-newspaper",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1455",
+      "github-rotemweiss57",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 9\n\n包含文件:\n- frontend/index.html\n- frontend/static\n- frontend/static/favicon.ico\n- frontend/static/layout_icons\n- frontend/static/layout_icons/layout_1.png\n- frontend/static/layout_icons/layout_2.png\n- frontend/static/layout_icons/layout_3.png\n- frontend/static/scripts.js\n- frontend/static/styles.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/index.html\nfrontend/static\nfrontend/static/favicon.ico\nfrontend/static/layout_icons\nfrontend/static/layout_icons/layout_1.png\nfrontend/static/layout_icons/layout_2.png\nfrontend/static/layout_icons/layout_3.png\nfrontend/static/scripts.js\nfrontend/static/styles.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7651451973287706
+  }
+]

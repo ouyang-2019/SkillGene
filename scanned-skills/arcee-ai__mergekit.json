@@ -1,0 +1,166 @@
+[
+  {
+    "name": "mergekit (arcee-ai)",
+    "description": "[项目级] Tools for merging pretrained large language models.。来源: https://github.com/arcee-ai/mergekit",
+    "domain": "ai-llm",
+    "tags": [
+      "llama",
+      "llm",
+      "model-merging",
+      "python",
+      "stars-6798",
+      "github-arcee-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "| Method (`value`)                                                                                                      | Core Idea                                                            | # Models | Base Model | Key Strengths / Use Cases                                       |\n|:----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------|:--------:|:----:|:---------------------------------------------------------------|\n| [**Linear** (`linear`)](docs/merge_methods.md#linear-linear)                                                          | Simple weighted average of model parameters.                         |    ≥2    |  -   | Averaging similar checkpoints, ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/arcee-ai/mergekit.git\ncd mergekit\n\npip install -e .  # install the package and make scripts available",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLA.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/create_a_merge_method.md\ndocs/evolve.md\ndocs/merge_methods.md\ndocs/moe.md\ndocs/multimerge.md\ndocs/tokensurgeon.md\nexamples\nexamples/arcee_fusion.yml\nexamples/bio-merge.yml\nexamples/gradient-slerp.yml\nexamples/linear.yml\nexamples/orcamini-platy-44layer.yml\nexamples/ties.yml\nmergekit\nmergekit/__init__.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "mergekit-yaml path/to/your/config.yml ./output-model-directory [--cuda] [--lazy-unpickle] [--allow-crimes] [... other options]",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Key features of `mergekit` include:\n\n- Supports Llama, Mistral, GPT-NeoX, StableLM, and more\n- Many [merge methods](#merge-methods)\n- GPU or CPU execution\n- Lazy loading of tensors for low memory use\n- Interpolated gradients for parameter values (inspired by Gryphe's [BlockMerge_Gradient](https://github.com/Gryphe/BlockMerge_Gradient) script)\n- Piecewise assembly of language models from layers (\"Frankenmerging\")\n- [Mixture of Experts merging](#mixture-of-experts-merging)\n- [LORA extraction](#lora-extraction)\n- [Evolutionary merge methods](#evolutionary-merge-methods)\n- [Multi-stage merging](#m",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.91619058012352
+  },
+  {
+    "name": "mergekit/docs 模块",
+    "description": "[模块级] mergekit 项目的 docs 模块 (docs)。来源: https://github.com/arcee-ai/mergekit",
+    "domain": "documentation",
+    "tags": [
+      "llama",
+      "llm",
+      "model-merging",
+      "python",
+      "stars-6798",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/create_a_merge_method.md\n- docs/evolve.md\n- docs/merge_methods.md\n- docs/moe.md\n- docs/multimerge.md\n- docs/tokensurgeon.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/create_a_merge_method.md\ndocs/evolve.md\ndocs/merge_methods.md\ndocs/moe.md\ndocs/multimerge.md\ndocs/tokensurgeon.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032952464098816
+  },
+  {
+    "name": "mergekit/examples 模块",
+    "description": "[模块级] mergekit 项目的 examples 模块 (example)。来源: https://github.com/arcee-ai/mergekit",
+    "domain": "ai-llm",
+    "tags": [
+      "llama",
+      "llm",
+      "model-merging",
+      "python",
+      "stars-6798",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Several examples of merge configurations are available in [`examples/`](examples/).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/arcee_fusion.yml\nexamples/bio-merge.yml\nexamples/gradient-slerp.yml\nexamples/linear.yml\nexamples/orcamini-platy-44layer.yml\nexamples/ties.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032952464098816
+  },
+  {
+    "name": "mergekit/mergekit 模块",
+    "description": "[模块级] mergekit 项目的 mergekit 模块 (source)。来源: https://github.com/arcee-ai/mergekit",
+    "domain": "ai-llm",
+    "tags": [
+      "llama",
+      "llm",
+      "model-merging",
+      "python",
+      "stars-6798",
+      "module-level",
+      "source",
+      "mergekit"
+    ],
+    "genes": [
+      {
+        "title": "mergekit 模块说明",
+        "content": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)\n[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/arcee-ai/mergekit/pre-commit.yml?label=Tests)](https://github.com/arcee-ai/mergekit/actions/workflows/pre-commit.yml)\n[![Arcee Discord](https://img.shields.io/badge/Arcee%20Discord-Arcee%20Discord?logo=discord&logoColor=white&color=5865F2)](https://discord.gg/arceeai)\n\n`mergekit` is a toolkit f",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mergekit 文件结构",
+        "content": "mergekit/__init__.py\nmergekit/_data\nmergekit/_data/__init__.py\nmergekit/_data/architectures\nmergekit/_data/architectures/__init__.py\nmergekit/_data/architectures/afmoe_partial.json\nmergekit/_data/architectures/apertus.json\nmergekit/_data/architectures/arcee.json\nmergekit/_data/architectures/baichuan.json\nmergekit/_data/architectures/bert-masked-lm.json\nmergekit/_data/architectures/bert-sequence-classification.json\nmergekit/_data/architectures/bert.json\nmergekit/_data/architectures/chatglm.json\nmergekit/_data/architectures/cohere.json\nmergekit/_data/architectures/cohere2.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032952464098816
+  },
+  {
+    "name": "mergekit/tests 模块",
+    "description": "[模块级] mergekit 项目的 tests 模块 (test)。来源: https://github.com/arcee-ai/mergekit",
+    "domain": "testing",
+    "tags": [
+      "llama",
+      "llm",
+      "model-merging",
+      "python",
+      "stars-6798",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 10\n\n包含文件:\n- tests/__init__.py\n- tests/common.py\n- tests/test_basic_merges.py\n- tests/test_chat_template.py\n- tests/test_graph.py\n- tests/test_io.py\n- tests/test_lazy_unpickle.py\n- tests/test_modelref.py\n- tests/test_sparsify.py\n- tests/test_tokenizer.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/common.py\ntests/test_basic_merges.py\ntests/test_chat_template.py\ntests/test_graph.py\ntests/test_io.py\ntests/test_lazy_unpickle.py\ntests/test_modelref.py\ntests/test_sparsify.py\ntests/test_tokenizer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032952464098816
+  }
+]

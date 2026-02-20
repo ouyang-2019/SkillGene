@@ -1,0 +1,163 @@
+[
+  {
+    "name": "mcphub.nvim (ravitemer)",
+    "description": "[项目级] An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.。来源: https://github.com/ravitemer/mcphub.nvim",
+    "domain": "devops",
+    "tags": [
+      "avante",
+      "chatgpt",
+      "chatplugin",
+      "claude-ai",
+      "codecompanion",
+      "lua",
+      "stars-1723",
+      "github-ravitemer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.\n\n来源: https://github.com/ravitemer/mcphub.nvim\n语言: Lua\nStars: 1723",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Visit our [documentation site](https://ravitemer.github.io/mcphub.nvim/) for detailed guides and examples",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nMakefile\nREADME.md\nSECURITY.md\nbundled_build.lua\ndoc\ndoc/.gitignore\ndoc/.vitepress\ndoc/configuration.md\ndoc/extensions\ndoc/index.md\ndoc/installation.md\ndoc/mcp\ndoc/mcphub.txt\ndoc/other\ndoc/package-lock.json\ndoc/package.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Category | Feature | Support | Details |\n|----------|---------|---------|-------|\n| [**Capabilities**](https://modelcontextprotocol.io/specification/2025-03-26/server) ||||\n| | Tools | ✅ | Full support |\n| | 🔔 Tool List Changed | ✅ | Real-time updates |\n| | Resources | ✅ | Full support |\n| | 🔔 Resource List Changed | ✅ | Real-time updates |\n| | Resource Templates | ✅ | URI templates |\n| | Prompts | ✅ | Full support |\n| | 🔔 Prompts List Changed | ✅ | Real-time updates |\n| | Roots | ❌ | Not supported |\n| | Sampling | ❌ | Not supported |\n| **MCP Server Transports** ||||\n| | [Streamable-HTTP]",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.618142638724015
+  },
+  {
+    "name": "mcphub.nvim/doc 模块",
+    "description": "[模块级] mcphub.nvim 项目的 doc 模块 (docs)。来源: https://github.com/ravitemer/mcphub.nvim",
+    "domain": "documentation",
+    "tags": [
+      "avante",
+      "chatgpt",
+      "chatplugin",
+      "claude-ai",
+      "codecompanion",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "模块路径: doc/\n类型: docs\n文件数: 41\n\n包含文件:\n- doc/.gitignore\n- doc/.vitepress\n- doc/.vitepress/config.mjs\n- doc/.vitepress/theme\n- doc/.vitepress/theme/CustomLayout.vue\n- doc/.vitepress/theme/Sponsors.vue\n- doc/.vitepress/theme/index.js\n- doc/configuration.md\n- doc/extensions\n- doc/extensions/avante.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/.gitignore\ndoc/.vitepress\ndoc/.vitepress/config.mjs\ndoc/.vitepress/theme\ndoc/.vitepress/theme/CustomLayout.vue\ndoc/.vitepress/theme/Sponsors.vue\ndoc/.vitepress/theme/index.js\ndoc/configuration.md\ndoc/extensions\ndoc/extensions/avante.md\ndoc/extensions/codecompanion.md\ndoc/extensions/copilotchat.md\ndoc/extensions/lualine.md\ndoc/index.md\ndoc/installation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7945141109792115
+  },
+  {
+    "name": "mcphub.nvim/lua 模块",
+    "description": "[模块级] mcphub.nvim 项目的 lua 模块 (source)。来源: https://github.com/ravitemer/mcphub.nvim",
+    "domain": "devops",
+    "tags": [
+      "avante",
+      "chatgpt",
+      "chatplugin",
+      "claude-ai",
+      "codecompanion",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 99\n\n包含文件:\n- lua/mcphub\n- lua/mcphub/config.lua\n- lua/mcphub/extensions\n- lua/mcphub/extensions/avante\n- lua/mcphub/extensions/avante/init.lua\n- lua/mcphub/extensions/avante/slash_commands.lua\n- lua/mcphub/extensions/codecompanion\n- lua/mcphub/extensions/codecompanion/core.lua\n- lua/mcphub/extensions/codecompanion/init.lua\n- lua/mcphub/extensions/codecompanion/slash_commands.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/mcphub\nlua/mcphub/config.lua\nlua/mcphub/extensions\nlua/mcphub/extensions/avante\nlua/mcphub/extensions/avante/init.lua\nlua/mcphub/extensions/avante/slash_commands.lua\nlua/mcphub/extensions/codecompanion\nlua/mcphub/extensions/codecompanion/core.lua\nlua/mcphub/extensions/codecompanion/init.lua\nlua/mcphub/extensions/codecompanion/slash_commands.lua\nlua/mcphub/extensions/codecompanion/tools.lua\nlua/mcphub/extensions/codecompanion/variables.lua\nlua/mcphub/extensions/codecompanion/xml_tool.lua\nlua/mcphub/extensions/copilotchat\nlua/mcphub/extensions/copilotchat/functions.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7945141109792115
+  },
+  {
+    "name": "mcphub.nvim/scripts 模块",
+    "description": "[模块级] mcphub.nvim 项目的 scripts 模块 (script)。来源: https://github.com/ravitemer/mcphub.nvim",
+    "domain": "devops",
+    "tags": [
+      "avante",
+      "chatgpt",
+      "chatplugin",
+      "claude-ai",
+      "codecompanion",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/minimal_init.lua\n- scripts/vimdoc.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/minimal_init.lua\nscripts/vimdoc.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7945141109792115
+  },
+  {
+    "name": "mcphub.nvim/tests 模块",
+    "description": "[模块级] mcphub.nvim 项目的 tests 模块 (test)。来源: https://github.com/ravitemer/mcphub.nvim",
+    "domain": "testing",
+    "tags": [
+      "avante",
+      "chatgpt",
+      "chatplugin",
+      "claude-ai",
+      "codecompanion",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 14\n\n包含文件:\n- tests/config.lua\n- tests/helpers.lua\n- tests/native\n- tests/native/neovim\n- tests/native/neovim/files\n- tests/native/neovim/files/edit_file\n- tests/native/neovim/files/edit_file/test_block_locator.lua\n- tests/native/neovim/files/edit_file/test_diff_parser.lua\n- tests/native/neovim/files/edit_file/test_edit_ui.lua\n- tests/native/neovim/files/edit_file/test_search_engine.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/config.lua\ntests/helpers.lua\ntests/native\ntests/native/neovim\ntests/native/neovim/files\ntests/native/neovim/files/edit_file\ntests/native/neovim/files/edit_file/test_block_locator.lua\ntests/native/neovim/files/edit_file/test_diff_parser.lua\ntests/native/neovim/files/edit_file/test_edit_ui.lua\ntests/native/neovim/files/edit_file/test_search_engine.lua\ntests/native/neovim/files/edit_file/test_string_utils.lua\ntests/servers.json\ntests/state.lua\ntests/test_global_env.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7945141109792115
+  }
+]

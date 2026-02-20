@@ -1,0 +1,201 @@
+[
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base (vercel-labs)",
+    "description": "[项目级] ai-sdk-preview-internal-knowledge-base。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base\n语言: TypeScript\nStars: 306",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nai\nai/index.ts\nai/rag-middleware.ts\napp\napp/(auth)\napp/(chat)\napp/db.ts\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/uncut-sans.woff2\ncomponents\ncomponents/chat.tsx\ncomponents/data.ts\ncomponents/files.tsx\ncomponents/form.tsx\ncomponents/history.tsx\ncomponents/icons.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "npx create-next-app --example https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base ai-sdk-preview-internal-knowledge-base-example",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.24286071324079
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/ai 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 ai 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "ai"
+    ],
+    "genes": [
+      {
+        "title": "ai 模块说明",
+        "content": "模块路径: ai/\n类型: source\n文件数: 2\n\n包含文件:\n- ai/index.ts\n- ai/rag-middleware.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai 文件结构",
+        "content": "ai/index.ts\nai/rag-middleware.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/app 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 app 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 35\n\n包含文件:\n- app/(auth)\n- app/(auth)/actions.ts\n- app/(auth)/api\n- app/(auth)/api/auth\n- app/(auth)/api/auth/[...nextauth]\n- app/(auth)/api/auth/[...nextauth]/route.ts\n- app/(auth)/auth.config.ts\n- app/(auth)/auth.ts\n- app/(auth)/login\n- app/(auth)/login/page.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/(auth)\napp/(auth)/actions.ts\napp/(auth)/api\napp/(auth)/api/auth\napp/(auth)/api/auth/[...nextauth]\napp/(auth)/api/auth/[...nextauth]/route.ts\napp/(auth)/auth.config.ts\napp/(auth)/auth.ts\napp/(auth)/login\napp/(auth)/login/page.tsx\napp/(auth)/register\napp/(auth)/register/page.tsx\napp/(chat)\napp/(chat)/[id]\napp/(chat)/[id]/page.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/components 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 components 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 10\n\n包含文件:\n- components/chat.tsx\n- components/data.ts\n- components/files.tsx\n- components/form.tsx\n- components/history.tsx\n- components/icons.tsx\n- components/message.tsx\n- components/navbar.tsx\n- components/submit-button.tsx\n- components/use-scroll-to-bottom.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/chat.tsx\ncomponents/data.ts\ncomponents/files.tsx\ncomponents/form.tsx\ncomponents/history.tsx\ncomponents/icons.tsx\ncomponents/message.tsx\ncomponents/navbar.tsx\ncomponents/submit-button.tsx\ncomponents/use-scroll-to-bottom.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/drizzle 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 drizzle 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 4\n\n包含文件:\n- drizzle/0000_pretty_dracula.sql\n- drizzle/meta\n- drizzle/meta/0000_snapshot.json\n- drizzle/meta/_journal.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_pretty_dracula.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/_journal.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/public 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 public 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 3\n\n包含文件:\n- public/iphone.png\n- public/tv.png\n- public/watch.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/iphone.png\npublic/tv.png\npublic/watch.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "ai-sdk-preview-internal-knowledge-base/utils 模块",
+    "description": "[模块级] ai-sdk-preview-internal-knowledge-base 项目的 utils 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-internal-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "typescript",
+      "stars-306",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 2\n\n包含文件:\n- utils/functions.ts\n- utils/pdf.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/functions.ts\nutils/pdf.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  }
+]

@@ -4,14 +4,14 @@
     "description": "[项目级] Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
     "domain": "ai-llm",
     "tags": [
-      "stars-1549",
+      "stars-1552",
       "github-axtonliu",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code\n\n来源: https://github.com/axtonliu/axton-obsidian-visual-skills\n语言: unknown\nStars: 1549",
+        "content": "Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code\n\n来源: https://github.com/axtonliu/axton-obsidian-visual-skills\n语言: unknown\nStars: 1552",
         "gene_type": "principle"
       },
       {
@@ -32,14 +32,14 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.595025708879603
+    "rating": 4.595445858461085
   },
   {
     "name": "axton-obsidian-visual-skills/assets 模块",
     "description": "[模块级] axton-obsidian-visual-skills 项目的 assets 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
     "domain": "ai-llm",
     "tags": [
-      "stars-1549",
+      "stars-1552",
       "github-axtonliu",
       "module-level",
       "source",
@@ -59,14 +59,14 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.776020567103682
+    "rating": 3.7763566867688683
   },
   {
     "name": "axton-obsidian-visual-skills/excalidraw-diagram 模块",
     "description": "[模块级] axton-obsidian-visual-skills 项目的 excalidraw-diagram 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
     "domain": "ai-llm",
     "tags": [
-      "stars-1549",
+      "stars-1552",
       "github-axtonliu",
       "module-level",
       "source",
@@ -86,14 +86,14 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.776020567103682
+    "rating": 3.7763566867688683
   },
   {
     "name": "axton-obsidian-visual-skills/mermaid-visualizer 模块",
     "description": "[模块级] axton-obsidian-visual-skills 项目的 mermaid-visualizer 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
     "domain": "ai-llm",
     "tags": [
-      "stars-1549",
+      "stars-1552",
       "github-axtonliu",
       "module-level",
       "source",
@@ -113,14 +113,14 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.776020567103682
+    "rating": 3.7763566867688683
   },
   {
     "name": "axton-obsidian-visual-skills/obsidian-canvas-creator 模块",
     "description": "[模块级] axton-obsidian-visual-skills 项目的 obsidian-canvas-creator 模块 (source)。来源: https://github.com/axtonliu/axton-obsidian-visual-skills",
     "domain": "ai-llm",
     "tags": [
-      "stars-1549",
+      "stars-1552",
       "github-axtonliu",
       "module-level",
       "source",
@@ -140,6 +140,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.776020567103682
+    "rating": 3.7763566867688683
   }
 ]

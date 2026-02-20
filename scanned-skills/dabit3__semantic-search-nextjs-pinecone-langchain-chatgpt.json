@@ -1,0 +1,122 @@
+[
+  {
+    "name": "semantic-search-nextjs-pinecone-langchain-chatgpt (dabit3)",
+    "description": "[项目级] Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI。来源: https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "openai",
+      "pinecone",
+      "typescript",
+      "stars-762",
+      "github-dabit3",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI\n\n来源: https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt\n语言: TypeScript\nStars: 762",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\napp\napp/api\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/page.tsx\ncomponents.json\ncomponents\ncomponents/ui\nconfig.ts\ndocuments\ndocuments/Client SDK\ndocuments/Creating a Module\ndocuments/Deploying the Lens smart contracts\ndocuments/Documentation\ndocuments/Integrations\ndocuments/Lens API\ndocuments/Major Concepts\ndocuments/React Hooks SDK",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4409774856698006
+  },
+  {
+    "name": "semantic-search-nextjs-pinecone-langchain-chatgpt/app 模块",
+    "description": "[模块级] semantic-search-nextjs-pinecone-langchain-chatgpt 项目的 app 模块 (source)。来源: https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "openai",
+      "pinecone",
+      "typescript",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "In this section I will walk you through how to deploy and run this app.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/api\napp/api/read\napp/api/read/route.ts\napp/api/setup\napp/api/setup/route.ts\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/page.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6527819885358404
+  },
+  {
+    "name": "semantic-search-nextjs-pinecone-langchain-chatgpt/components 模块",
+    "description": "[模块级] semantic-search-nextjs-pinecone-langchain-chatgpt 项目的 components 模块 (source)。来源: https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "openai",
+      "pinecone",
+      "typescript",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 2\n\n包含文件:\n- components/ui\n- components/ui/button.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/ui\ncomponents/ui/button.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6527819885358404
+  },
+  {
+    "name": "semantic-search-nextjs-pinecone-langchain-chatgpt/documents 模块",
+    "description": "[模块级] semantic-search-nextjs-pinecone-langchain-chatgpt 项目的 documents 模块 (source)。来源: https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "openai",
+      "pinecone",
+      "typescript",
+      "module-level",
+      "source",
+      "documents"
+    ],
+    "genes": [
+      {
+        "title": "documents 模块说明",
+        "content": "模块路径: documents/\n类型: source\n文件数: 180\n\n包含文件:\n- documents/Client SDK\n- documents/Client SDK/client-sdk-reference.md\n- documents/Client SDK/client-sdk-types.md\n- documents/Creating a Module\n- documents/Creating a Module/creating-a-module.md\n- documents/Creating a Module/module-interfaces.md\n- documents/Creating a Module/publishing-a-module.md\n- documents/Creating a Module/testing-a-module.md\n- documents/Deploying the Lens smart contracts\n- documents/Deploying the Lens smart contracts/collecting-publications.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documents 文件结构",
+        "content": "documents/Client SDK\ndocuments/Client SDK/client-sdk-reference.md\ndocuments/Client SDK/client-sdk-types.md\ndocuments/Creating a Module\ndocuments/Creating a Module/creating-a-module.md\ndocuments/Creating a Module/module-interfaces.md\ndocuments/Creating a Module/publishing-a-module.md\ndocuments/Creating a Module/testing-a-module.md\ndocuments/Deploying the Lens smart contracts\ndocuments/Deploying the Lens smart contracts/collecting-publications.md\ndocuments/Deploying the Lens smart contracts/creating-a-profile.md\ndocuments/Deploying the Lens smart contracts/creating-publications.md\ndocuments/Deploying the Lens smart contracts/deploying-the-protocol.md\ndocuments/Deploying the Lens smart contracts/following-a-profile.md\ndocuments/Deploying the Lens smart contracts/primer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6527819885358404
+  }
+]

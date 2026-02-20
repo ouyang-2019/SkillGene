@@ -1,0 +1,128 @@
+[
+  {
+    "name": "autogluon-assistant (autogluon)",
+    "description": "[项目级] Multi-Agent System Powered by LLMs for End-to-end Multimodal ML Automation。来源: https://github.com/autogluon/autogluon-assistant",
+    "domain": "devops",
+    "tags": [
+      "automl",
+      "data-science",
+      "llm",
+      "machine-learning",
+      "mlzero",
+      "python",
+      "stars-254",
+      "github-autogluon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-Agent System Powered by LLMs for End-to-end Multimodal ML Automation\n\n来源: https://github.com/autogluon/autogluon-assistant\n语言: Python\nStars: 254",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install uv && uv pip install git+https://github.com/autogluon/autogluon-assistant.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nNOTICE\nREADME.md\ndocs\ndocs/README.md\ndocs/_static\ndocs/_templates\ndocs/api\ndocs/assets\ndocs/conf.py\ndocs/index.md\ndocs/requirements_doc.txt\ndocs/tutorials\ndocs/versions.rst\ndocs/whats_new\nmaab\nmaab/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.202416858309969
+  },
+  {
+    "name": "autogluon-assistant/docs 模块",
+    "description": "[模块级] autogluon-assistant 项目的 docs 模块 (docs)。来源: https://github.com/autogluon/autogluon-assistant",
+    "domain": "documentation",
+    "tags": [
+      "automl",
+      "data-science",
+      "llm",
+      "machine-learning",
+      "mlzero",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 38\n\n包含文件:\n- docs/README.md\n- docs/_static\n- docs/_static/autogluon-s.png\n- docs/_static/autogluon-w.png\n- docs/_static/autogluon.png\n- docs/_static/custom.css\n- docs/_static/custom.js\n- docs/_static/favicon.ico\n- docs/_templates\n- docs/_templates/autosummary",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/_static\ndocs/_static/autogluon-s.png\ndocs/_static/autogluon-w.png\ndocs/_static/autogluon.png\ndocs/_static/custom.css\ndocs/_static/custom.js\ndocs/_static/favicon.ico\ndocs/_templates\ndocs/_templates/autosummary\ndocs/_templates/autosummary/base.rst\ndocs/_templates/autosummary/class.rst\ndocs/_templates/autosummary/module.rst\ndocs/_templates/custom_class.rst\ndocs/api",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "autogluon-assistant/maab 模块",
+    "description": "[模块级] autogluon-assistant 项目的 maab 模块 (source)。来源: https://github.com/autogluon/autogluon-assistant",
+    "domain": "devops",
+    "tags": [
+      "automl",
+      "data-science",
+      "llm",
+      "machine-learning",
+      "mlzero",
+      "module-level",
+      "source",
+      "maab"
+    ],
+    "genes": [
+      {
+        "title": "maab 模块说明",
+        "content": "模块路径: maab/\n类型: source\n文件数: 33\n\n包含文件:\n- maab/Dockerfile\n- maab/README.md\n- maab/agents\n- maab/agents/mlzero_default\n- maab/agents/mlzero_default/mlzero_default.sh\n- maab/aws_batch_submit.sh\n- maab/eval_batch.sh\n- maab/example_dataset\n- maab/example_dataset/abalone\n- maab/example_dataset/abalone/eval",
+        "gene_type": "principle"
+      },
+      {
+        "title": "maab 文件结构",
+        "content": "maab/Dockerfile\nmaab/README.md\nmaab/agents\nmaab/agents/mlzero_default\nmaab/agents/mlzero_default/mlzero_default.sh\nmaab/aws_batch_submit.sh\nmaab/eval_batch.sh\nmaab/example_dataset\nmaab/example_dataset/abalone\nmaab/example_dataset/abalone/eval\nmaab/example_dataset/abalone/eval/ground_truth.csv\nmaab/example_dataset/abalone/training\nmaab/example_dataset/abalone/training/descriptions.txt\nmaab/example_dataset/abalone/training/pred.csv\nmaab/example_dataset/abalone/training/train.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "autogluon-assistant/src 模块",
+    "description": "[模块级] autogluon-assistant 项目的 src 模块 (source)。来源: https://github.com/autogluon/autogluon-assistant",
+    "domain": "devops",
+    "tags": [
+      "automl",
+      "data-science",
+      "llm",
+      "machine-learning",
+      "mlzero",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 91\n\n包含文件:\n- src/autogluon\n- src/autogluon/assistant\n- src/autogluon/assistant/__init__.py\n- src/autogluon/assistant/agents\n- src/autogluon/assistant/agents/__init__.py\n- src/autogluon/assistant/agents/base_agent.py\n- src/autogluon/assistant/agents/chat_agent.py\n- src/autogluon/assistant/agents/coder_agent.py\n- src/autogluon/assistant/agents/data_perception_agent.py\n- src/autogluon/assistant/agents/description_file_retriever_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/autogluon\nsrc/autogluon/assistant\nsrc/autogluon/assistant/__init__.py\nsrc/autogluon/assistant/agents\nsrc/autogluon/assistant/agents/__init__.py\nsrc/autogluon/assistant/agents/base_agent.py\nsrc/autogluon/assistant/agents/chat_agent.py\nsrc/autogluon/assistant/agents/coder_agent.py\nsrc/autogluon/assistant/agents/data_perception_agent.py\nsrc/autogluon/assistant/agents/description_file_retriever_agent.py\nsrc/autogluon/assistant/agents/error_analyzer_agent.py\nsrc/autogluon/assistant/agents/executer_agent.py\nsrc/autogluon/assistant/agents/meta_prompting_agent.py\nsrc/autogluon/assistant/agents/reranker_agent.py\nsrc/autogluon/assistant/agents/retriever_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  }
+]

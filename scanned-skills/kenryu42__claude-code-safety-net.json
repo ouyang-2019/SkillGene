@@ -1,0 +1,168 @@
+[
+  {
+    "name": "claude-code-safety-net (kenryu42)",
+    "description": "[项目级] A Claude Code plugin that acts as a safety net, catching destructive git and filesystem commands before they execute.。来源: https://github.com/kenryu42/claude-code-safety-net",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "destructive-commands",
+      "security",
+      "typescript",
+      "stars-1066",
+      "github-kenryu42",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code offers [native sandboxing](https://code.claude.com/docs/en/sandboxing) that provides OS-level filesystem and network isolation. Here's how it compares to Safety Net:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/cc-safety-net.schema.json\nast-grep\nast-grep/rule-tests\nast-grep/rules\nast-grep/utils\nbiome.json\nbun.lock\nbunfig.toml\ncodecov.yml\ncommands\ncommands/set-custom-rules.md\ncommands/set-statusline.md\ncommands/verify-custom-rules.md\ndist",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "npx cc-safety-net explain \"rm -rf /\"\nnpx cc-safety-net explain --json \"git checkout -- file.txt\"\nnpx cc-safety-net explain --cwd /tmp \"git status\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.513878602345277
+  },
+  {
+    "name": "claude-code-safety-net/ast-grep 模块",
+    "description": "[模块级] claude-code-safety-net 项目的 ast-grep 模块 (source)。来源: https://github.com/kenryu42/claude-code-safety-net",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "destructive-commands",
+      "security",
+      "module-level",
+      "source",
+      "ast-grep"
+    ],
+    "genes": [
+      {
+        "title": "ast-grep 模块说明",
+        "content": "模块路径: ast-grep/\n类型: source\n文件数: 10\n\n包含文件:\n- ast-grep/rule-tests\n- ast-grep/rule-tests/.gitkeep\n- ast-grep/rule-tests/__snapshots__\n- ast-grep/rule-tests/__snapshots__/no-dynamic-import-snapshot.yml\n- ast-grep/rule-tests/no-dynamic-import-test.yml\n- ast-grep/rules\n- ast-grep/rules/.gitkeep\n- ast-grep/rules/no-dynamic-import.yml\n- ast-grep/utils\n- ast-grep/utils/.gitkeep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ast-grep 文件结构",
+        "content": "ast-grep/rule-tests\nast-grep/rule-tests/.gitkeep\nast-grep/rule-tests/__snapshots__\nast-grep/rule-tests/__snapshots__/no-dynamic-import-snapshot.yml\nast-grep/rule-tests/no-dynamic-import-test.yml\nast-grep/rules\nast-grep/rules/.gitkeep\nast-grep/rules/no-dynamic-import.yml\nast-grep/utils\nast-grep/utils/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7111028818762213
+  },
+  {
+    "name": "claude-code-safety-net/commands 模块",
+    "description": "[模块级] claude-code-safety-net 项目的 commands 模块 (source)。来源: https://github.com/kenryu42/claude-code-safety-net",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "destructive-commands",
+      "security",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "| Command Pattern | Why It's Dangerous |\n|-----------------|-------------------|\n| git checkout -- files | Discards uncommitted changes permanently |\n| git checkout \\<ref\\> -- \\<path\\> | Overwrites working tree with ref version |\n| git restore files | Discards uncommitted changes |\n| git restore --worktree | Explicitly discards working tree changes |\n| git reset --hard | Destroys all uncommitted changes |\n| git reset --merge | Can lose uncommitted changes |\n| git clean -f | Removes untracked fil",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/set-custom-rules.md\ncommands/set-statusline.md\ncommands/verify-custom-rules.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7111028818762213
+  },
+  {
+    "name": "claude-code-safety-net/scripts 模块",
+    "description": "[模块级] claude-code-safety-net 项目的 scripts 模块 (script)。来源: https://github.com/kenryu42/claude-code-safety-net",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "destructive-commands",
+      "security",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/build-schema.ts\n- scripts/build.ts\n- scripts/generate-changelog.ts\n- scripts/publish.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build-schema.ts\nscripts/build.ts\nscripts/generate-changelog.ts\nscripts/publish.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7111028818762213
+  },
+  {
+    "name": "claude-code-safety-net/src 模块",
+    "description": "[模块级] claude-code-safety-net 项目的 src 模块 (source)。来源: https://github.com/kenryu42/claude-code-safety-net",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "destructive-commands",
+      "security",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 61\n\n包含文件:\n- src/bin\n- src/bin/cc-safety-net.ts\n- src/bin/commands\n- src/bin/commands/claude-code.ts\n- src/bin/commands/copilot-cli.ts\n- src/bin/commands/custom-rules-doc.ts\n- src/bin/commands/doctor.ts\n- src/bin/commands/explain.ts\n- src/bin/commands/gemini-cli.ts\n- src/bin/commands/index.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/bin\nsrc/bin/cc-safety-net.ts\nsrc/bin/commands\nsrc/bin/commands/claude-code.ts\nsrc/bin/commands/copilot-cli.ts\nsrc/bin/commands/custom-rules-doc.ts\nsrc/bin/commands/doctor.ts\nsrc/bin/commands/explain.ts\nsrc/bin/commands/gemini-cli.ts\nsrc/bin/commands/index.ts\nsrc/bin/commands/statusline.ts\nsrc/bin/commands/types.ts\nsrc/bin/commands/verify-config.ts\nsrc/bin/custom-rules-doc.ts\nsrc/bin/doctor",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7111028818762213
+  }
+]

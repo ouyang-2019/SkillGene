@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Controllable-RAG-Agent (NirDiamant)",
+    "description": "[项目级] This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering. It uses sophisticated graph based algorithm to handle the tasks.。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "jupyter notebook",
+      "stars-1542",
+      "github-nirdiamant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository provides an advanced Retrieval-Augmented Generation (RAG) solution for complex question answering. It uses sophisticated graph based algorithm to handle the tasks.\n\n来源: https://github.com/NirDiamant/Controllable-RAG-Agent\n语言: Jupyter Notebook\nStars: 1542",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/subscribe-button.svg\nassets/substack_image.png\nassets/video_demo.mp4\nbook_quotes_vectorstore\nbook_quotes_vectorstore/index.faiss\nbook_quotes_vectorstore/index.pkl\nchapter_summaries_vector_store\nchapter_summaries_vector_store/index.faiss\nchapter_summaries_vector_store/index.pkl\nchunks_vector_store\nchunks_vector_store/index.faiss\nchunks_vector_store/index.pkl\ndocker-compose.yml\ndockerfile\nfull_graph_visualization.ipynb\nfunctions_for_pipeline.py\ngraphs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Q: How did the protagonist defeat the villain's assistant?**\n\nTo solve this question, the following steps are necessary:\n\n1. Identify the protagonist of the plot.\n2. Identify the villain.\n3. Identify the villain's assistant.\n4. Search for confrontations or interactions between the protagonist and the villain.\n5. Deduce the reason that led the protagonist to defeat the assistant.\n\nThe agent's ability to break down and solve such complex queries demonstrates its sophisticated reasoning capabilities.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Sophisticated Deterministic Graph**: Acts as the \"brain\" of the agent, enabling complex reasoning.\n- **Controllable Autonomous Agent**: Capable of answering non-trivial questions from custom datasets.\n- **Hallucination Prevention**: Ensures answers are solely based on provided data, avoiding AI hallucinations.\n- **Multi-step Reasoning**: Breaks down complex queries into manageable sub-tasks.\n- **Adaptive Planning**: Continuously updates its plan based on new information.\n- **Performance Evaluation**: Utilizes `Ragas` metrics for comprehensive quality assessment.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.594042186857469
+  },
+  {
+    "name": "Controllable-RAG-Agent/assets 模块",
+    "description": "[模块级] Controllable-RAG-Agent 项目的 assets 模块 (source)。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/subscribe-button.svg\n- assets/substack_image.png\n- assets/video_demo.mp4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/subscribe-button.svg\nassets/substack_image.png\nassets/video_demo.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7752337494859756
+  },
+  {
+    "name": "Controllable-RAG-Agent/book_quotes_vectorstore 模块",
+    "description": "[模块级] Controllable-RAG-Agent 项目的 book_quotes_vectorstore 模块 (source)。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "book_quotes_vectorstore"
+    ],
+    "genes": [
+      {
+        "title": "book_quotes_vectorstore 模块说明",
+        "content": "模块路径: book_quotes_vectorstore/\n类型: source\n文件数: 2\n\n包含文件:\n- book_quotes_vectorstore/index.faiss\n- book_quotes_vectorstore/index.pkl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "book_quotes_vectorstore 文件结构",
+        "content": "book_quotes_vectorstore/index.faiss\nbook_quotes_vectorstore/index.pkl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7752337494859756
+  },
+  {
+    "name": "Controllable-RAG-Agent/chapter_summaries_vector_store 模块",
+    "description": "[模块级] Controllable-RAG-Agent 项目的 chapter_summaries_vector_store 模块 (source)。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "chapter_summaries_vector_store"
+    ],
+    "genes": [
+      {
+        "title": "chapter_summaries_vector_store 模块说明",
+        "content": "模块路径: chapter_summaries_vector_store/\n类型: source\n文件数: 2\n\n包含文件:\n- chapter_summaries_vector_store/index.faiss\n- chapter_summaries_vector_store/index.pkl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chapter_summaries_vector_store 文件结构",
+        "content": "chapter_summaries_vector_store/index.faiss\nchapter_summaries_vector_store/index.pkl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7752337494859756
+  },
+  {
+    "name": "Controllable-RAG-Agent/chunks_vector_store 模块",
+    "description": "[模块级] Controllable-RAG-Agent 项目的 chunks_vector_store 模块 (source)。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "chunks_vector_store"
+    ],
+    "genes": [
+      {
+        "title": "chunks_vector_store 模块说明",
+        "content": "模块路径: chunks_vector_store/\n类型: source\n文件数: 2\n\n包含文件:\n- chunks_vector_store/index.faiss\n- chunks_vector_store/index.pkl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chunks_vector_store 文件结构",
+        "content": "chunks_vector_store/index.faiss\nchunks_vector_store/index.pkl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7752337494859756
+  },
+  {
+    "name": "Controllable-RAG-Agent/graphs 模块",
+    "description": "[模块级] Controllable-RAG-Agent 项目的 graphs 模块 (source)。来源: https://github.com/NirDiamant/Controllable-RAG-Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "agent",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "graphs"
+    ],
+    "genes": [
+      {
+        "title": "graphs 模块说明",
+        "content": "模块路径: graphs/\n类型: source\n文件数: 8\n\n包含文件:\n- graphs/answer sub graph.jpeg\n- graphs/demo.gif\n- graphs/final_graph_schema.jpeg\n- graphs/final_graph_schema_unextended.jpeg\n- graphs/first_stage_schema.jpeg\n- graphs/retrieve_chunks_subgraph.jpeg\n- graphs/retrieve_quotes_subgraph.jpeg\n- graphs/retrieve_summaries_subgraph.jpeg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "graphs 文件结构",
+        "content": "graphs/answer sub graph.jpeg\ngraphs/demo.gif\ngraphs/final_graph_schema.jpeg\ngraphs/final_graph_schema_unextended.jpeg\ngraphs/first_stage_schema.jpeg\ngraphs/retrieve_chunks_subgraph.jpeg\ngraphs/retrieve_quotes_subgraph.jpeg\ngraphs/retrieve_summaries_subgraph.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7752337494859756
+  }
+]

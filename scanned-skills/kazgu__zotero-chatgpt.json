@@ -1,0 +1,94 @@
+[
+  {
+    "name": "zotero-chatgpt (kazgu)",
+    "description": "[项目级] ChatGPT plugin for Zotero。来源: https://github.com/kazgu/zotero-chatgpt",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-297",
+      "github-kazgu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT plugin for Zotero\n\n来源: https://github.com/kazgu/zotero-chatgpt\n语言: TypeScript\nStars: 297",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Download the latest `.xpi` file from the [Releases page](https://github.com/kazgu/zotero-chatgpt/releases)\n2. In Zotero, go to Tools → Add-ons\n3. Click the gear icon and select \"Install Add-on From File\"\n4. Select the downloaded `.xpi` file\n5. Restart Zotero",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\naddon\naddon/bootstrap.js\naddon/chrome\naddon/locale\naddon/manifest.json\naddon/prefs.js\ndefault.jpg\ndoc\ndoc/README-zhCN.md\neslint.config.mjs\npackage.json\nsrc\nsrc/addon.ts\nsrc/hooks.ts\nsrc/index.ts\nsrc/modules\nsrc/utils\ntsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **ChatGPT Query Interface**: \n  - Directly query ChatGPT with research questions\n  - Stream responses in real-time\n  - Supports system prompts for customized behavior\n\n- **Research Paper Tools**:\n  - **PDF Summarization**: Automatically summarize attached PDFs of research papers\n  - **BibTeX Generation**: Fetch BibTeX entries from DBLP for references\n  - **Context Integration**: Auto-include paper titles/abstracts in queries\n\n- **Translation**:\n  - Translate text to Chinese with one click\n  - Customizable translation prompts\n\n- **UI Integration**:\n  - Right-click context menu for quick acces",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.236378224658607
+  },
+  {
+    "name": "zotero-chatgpt/addon 模块",
+    "description": "[模块级] zotero-chatgpt 项目的 addon 模块 (source)。来源: https://github.com/kazgu/zotero-chatgpt",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-297",
+      "github-kazgu",
+      "module-level",
+      "source",
+      "addon"
+    ],
+    "genes": [
+      {
+        "title": "addon 模块说明",
+        "content": "模块路径: addon/\n类型: source\n文件数: 19\n\n包含文件:\n- addon/bootstrap.js\n- addon/chrome\n- addon/chrome/content\n- addon/chrome/content/icons\n- addon/chrome/content/icons/favicon.png\n- addon/chrome/content/icons/favicon@0.5x.png\n- addon/chrome/content/preferences.xhtml\n- addon/chrome/content/zoteroPane.css\n- addon/locale\n- addon/locale/en-US",
+        "gene_type": "principle"
+      },
+      {
+        "title": "addon 文件结构",
+        "content": "addon/bootstrap.js\naddon/chrome\naddon/chrome/content\naddon/chrome/content/icons\naddon/chrome/content/icons/favicon.png\naddon/chrome/content/icons/favicon@0.5x.png\naddon/chrome/content/preferences.xhtml\naddon/chrome/content/zoteroPane.css\naddon/locale\naddon/locale/en-US\naddon/locale/en-US/addon.ftl\naddon/locale/en-US/mainWindow.ftl\naddon/locale/en-US/preferences.ftl\naddon/locale/zh-CN\naddon/locale/zh-CN/addon.ftl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "zotero-chatgpt/src 模块",
+    "description": "[模块级] zotero-chatgpt 项目的 src 模块 (source)。来源: https://github.com/kazgu/zotero-chatgpt",
+    "domain": "general",
+    "tags": [
+      "typescript",
+      "stars-297",
+      "github-kazgu",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 12\n\n包含文件:\n- src/addon.ts\n- src/hooks.ts\n- src/index.ts\n- src/modules\n- src/modules/main.ts\n- src/modules/preferenceScript.ts\n- src/utils\n- src/utils/locale.ts\n- src/utils/prefs.ts\n- src/utils/wait.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/addon.ts\nsrc/hooks.ts\nsrc/index.ts\nsrc/modules\nsrc/modules/main.ts\nsrc/modules/preferenceScript.ts\nsrc/utils\nsrc/utils/locale.ts\nsrc/utils/prefs.ts\nsrc/utils/wait.ts\nsrc/utils/window.ts\nsrc/utils/ztoolkit.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  }
+]

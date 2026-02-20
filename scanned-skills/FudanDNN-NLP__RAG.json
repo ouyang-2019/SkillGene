@@ -1,0 +1,61 @@
+[
+  {
+    "name": "RAG (FudanDNN-NLP)",
+    "description": "[项目级] This is an implementation of the paper:  Searching for Best Practices in Retrieval-Augmented Generation (EMNLP2024)。来源: https://github.com/FudanDNN-NLP/RAG",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-344",
+      "github-fudandnn-nlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This is an implementation of the paper: \n\n<a href=\"https://arxiv.org/pdf/2407.01219\">Searching for Best Practices in Retrieval-Augmented Generation</a>\n\n  ![workflow](workflow.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nopencompass\nopencompass/.cache\nopencompass/.codespellrc\nopencompass/.eggs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2682792212857645
+  },
+  {
+    "name": "RAG/opencompass 模块",
+    "description": "[模块级] RAG 项目的 opencompass 模块 (source)。来源: https://github.com/FudanDNN-NLP/RAG",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-344",
+      "github-fudandnn-nlp",
+      "module-level",
+      "source",
+      "opencompass"
+    ],
+    "genes": [
+      {
+        "title": "opencompass 模块说明",
+        "content": "模块路径: opencompass/\n类型: source\n文件数: 197\n\n包含文件:\n- opencompass/.cache\n- opencompass/.cache/dataset_size.json\n- opencompass/.codespellrc\n- opencompass/.eggs\n- opencompass/.eggs/README.txt\n- opencompass/.eggs/joblib-1.4.2-py3.10.egg\n- opencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO\n- opencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/LICENSE.txt\n- opencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/PKG-INFO\n- opencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/RECORD",
+        "gene_type": "principle"
+      },
+      {
+        "title": "opencompass 文件结构",
+        "content": "opencompass/.cache\nopencompass/.cache/dataset_size.json\nopencompass/.codespellrc\nopencompass/.eggs\nopencompass/.eggs/README.txt\nopencompass/.eggs/joblib-1.4.2-py3.10.egg\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/LICENSE.txt\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/PKG-INFO\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/RECORD\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/WHEEL\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/EGG-INFO/top_level.txt\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/joblib\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/joblib/__init__.py\nopencompass/.eggs/joblib-1.4.2-py3.10.egg/joblib/_cloudpickle_wrapper.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  }
+]

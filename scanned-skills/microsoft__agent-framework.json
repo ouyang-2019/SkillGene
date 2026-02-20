@@ -1,0 +1,133 @@
+[
+  {
+    "name": "agent-framework (microsoft)",
+    "description": "[项目级] A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.。来源: https://github.com/microsoft/agent-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "dotnet",
+      "python",
+      "stars-7291",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.\n\n来源: https://github.com/microsoft/agent-framework\n语言: Python\nStars: 7291",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCOMMUNITY.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nSUPPORT.md\nTRANSPARENCY_FAQ.md\nagent-samples\nagent-samples/README.md\nagent-samples/azure\nagent-samples/chatclient\nagent-samples/foundry\nagent-samples/openai\ndocs\ndocs/FAQS.md\ndocs/assets\ndocs/decisions\ndocs/design\ndocs/features",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.931393549117672
+  },
+  {
+    "name": "agent-framework/agent-samples 模块",
+    "description": "[模块级] agent-framework 项目的 agent-samples 模块 (source)。来源: https://github.com/microsoft/agent-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "dotnet",
+      "module-level",
+      "source",
+      "agent-samples"
+    ],
+    "genes": [
+      {
+        "title": "agent-samples 模块说明",
+        "content": "模块路径: agent-samples/\n类型: source\n文件数: 18\n\n包含文件:\n- agent-samples/README.md\n- agent-samples/azure\n- agent-samples/azure/AzureOpenAI.yaml\n- agent-samples/azure/AzureOpenAIAssistants.yaml\n- agent-samples/azure/AzureOpenAIChat.yaml\n- agent-samples/azure/AzureOpenAIResponses.yaml\n- agent-samples/chatclient\n- agent-samples/chatclient/Assistant.yaml\n- agent-samples/chatclient/GetWeather.yaml\n- agent-samples/foundry",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-samples 文件结构",
+        "content": "agent-samples/README.md\nagent-samples/azure\nagent-samples/azure/AzureOpenAI.yaml\nagent-samples/azure/AzureOpenAIAssistants.yaml\nagent-samples/azure/AzureOpenAIChat.yaml\nagent-samples/azure/AzureOpenAIResponses.yaml\nagent-samples/chatclient\nagent-samples/chatclient/Assistant.yaml\nagent-samples/chatclient/GetWeather.yaml\nagent-samples/foundry\nagent-samples/foundry/FoundryAgent.yaml\nagent-samples/foundry/MicrosoftLearnAgent.yaml\nagent-samples/foundry/PersistentAgent.yaml\nagent-samples/openai\nagent-samples/openai/OpenAI.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.045114839294138
+  },
+  {
+    "name": "agent-framework/docs 模块",
+    "description": "[模块级] agent-framework 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/agent-framework",
+    "domain": "documentation",
+    "tags": [
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "dotnet",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 35\n\n包含文件:\n- docs/FAQS.md\n- docs/assets\n- docs/assets/Agentic-framework_high-res.png\n- docs/assets/readme-banner.png\n- docs/decisions\n- docs/decisions/0001-agent-run-response.md\n- docs/decisions/0002-agent-tools.md\n- docs/decisions/0003-agent-opentelemetry-instrumentation.md\n- docs/decisions/0004-foundry-sdk-extensions.md\n- docs/decisions/0005-python-naming-conventions.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/FAQS.md\ndocs/assets\ndocs/assets/Agentic-framework_high-res.png\ndocs/assets/readme-banner.png\ndocs/decisions\ndocs/decisions/0001-agent-run-response.md\ndocs/decisions/0002-agent-tools.md\ndocs/decisions/0003-agent-opentelemetry-instrumentation.md\ndocs/decisions/0004-foundry-sdk-extensions.md\ndocs/decisions/0005-python-naming-conventions.md\ndocs/decisions/0006-userapproval.md\ndocs/decisions/0007-agent-filtering-middleware.md\ndocs/decisions/0008-python-subpackages.md\ndocs/decisions/0009-support-long-running-operations.md\ndocs/decisions/0010-ag-ui-support.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.045114839294138
+  },
+  {
+    "name": "agent-framework/dotnet 模块",
+    "description": "[模块级] agent-framework 项目的 dotnet 模块 (source)。来源: https://github.com/microsoft/agent-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-framework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "dotnet",
+      "module-level",
+      "source",
+      "dotnet"
+    ],
+    "genes": [
+      {
+        "title": "dotnet 模块说明",
+        "content": "模块路径: dotnet/\n类型: source\n文件数: 88\n\n包含文件:\n- dotnet/.editorconfig\n- dotnet/.github\n- dotnet/.github/skills\n- dotnet/.github/skills/build-and-test\n- dotnet/.github/skills/build-and-test/SKILL.md\n- dotnet/.github/skills/project-structure\n- dotnet/.github/skills/project-structure/SKILL.md\n- dotnet/.github/skills/verify-dotnet-samples\n- dotnet/.github/skills/verify-dotnet-samples/SKILL.md\n- dotnet/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dotnet 文件结构",
+        "content": "dotnet/.editorconfig\ndotnet/.github\ndotnet/.github/skills\ndotnet/.github/skills/build-and-test\ndotnet/.github/skills/build-and-test/SKILL.md\ndotnet/.github/skills/project-structure\ndotnet/.github/skills/project-structure/SKILL.md\ndotnet/.github/skills/verify-dotnet-samples\ndotnet/.github/skills/verify-dotnet-samples/SKILL.md\ndotnet/.gitignore\ndotnet/.vscode\ndotnet/.vscode/extensions.json\ndotnet/.vscode/settings.json\ndotnet/.vscode/tasks.json\ndotnet/AGENTS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.045114839294138
+  }
+]

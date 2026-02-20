@@ -1,0 +1,78 @@
+[
+  {
+    "name": "KaibanJS (kaiban-ai)",
+    "description": "[项目级] KaibanJS is a JavaScript-native framework for building and managing multi-agent systems  with a Kanban-inspired approach.。来源: https://github.com/kaiban-ai/KaibanJS",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-framework",
+      "agenticjs",
+      "agents",
+      "ai",
+      "typescript",
+      "stars-1345",
+      "github-kaiban-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "KaibanJS is a JavaScript-native framework for building and managing multi-agent systems  with a Kanban-inspired approach.\n\n来源: https://github.com/kaiban-ai/KaibanJS\n语言: TypeScript\nStars: 1345",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get started with KaibanJS in under a minute:\n\n[![Quick Start Video](https://res.cloudinary.com/dnno8pxyy/image/upload/v1728039764/KaibanJS_QuickStart_Guide_2_asuyvu.jpg)](https://youtu.be/NFpqFEl-URY?si=_JCkJuprRxqD0Uo 'Quick Start Video')",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLABELS.md\nLICENSE\nREADME.md\nbabel.config.js\neslint.config.mjs\njest.config.js\npackage-lock.json\npackage.json\npackages\npackages/opentelemetry\npackages/tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "npm install kaibanjs",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details style=\"margin-bottom:10px;\">\n  <summary><b style=\"color:black;\">The Kaiban Board</b></summary>\n\nKanban boards are excellent tools for showcasing team workflows in real time, providing a clear and interactive snapshot of each member's progress.\n\n> We've adapted this concept for AI agents.\n\nNow, you can visualize the workflow of your AI agents as team members, with tasks moving from \"To Do\" to \"Done\" right before your eyes. This visual representation simplifies understanding and managing complex AI operations, making it accessible to anyone, anywhere.\n\n</details>\n\n<details style=\"margin",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564361142169213
+  },
+  {
+    "name": "KaibanJS/packages 模块",
+    "description": "[模块级] KaibanJS 项目的 packages 模块 (source)。来源: https://github.com/kaiban-ai/KaibanJS",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-framework",
+      "agenticjs",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 164\n\n包含文件:\n- packages/opentelemetry\n- packages/opentelemetry/EXAMPLES.md\n- packages/opentelemetry/README.md\n- packages/opentelemetry/package-lock.json\n- packages/opentelemetry/package.json\n- packages/opentelemetry/src\n- packages/opentelemetry/src/core\n- packages/opentelemetry/src/core/KaibanSpanContext.test.ts\n- packages/opentelemetry/src/core/KaibanSpanContext.ts\n- packages/opentelemetry/src/core/OpenTelemetryAdapter.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/opentelemetry\npackages/opentelemetry/EXAMPLES.md\npackages/opentelemetry/README.md\npackages/opentelemetry/package-lock.json\npackages/opentelemetry/package.json\npackages/opentelemetry/src\npackages/opentelemetry/src/core\npackages/opentelemetry/src/core/KaibanSpanContext.test.ts\npackages/opentelemetry/src/core/KaibanSpanContext.ts\npackages/opentelemetry/src/core/OpenTelemetryAdapter.test.ts\npackages/opentelemetry/src/core/OpenTelemetryAdapter.ts\npackages/opentelemetry/src/core/SpanManager.otlp.test.ts\npackages/opentelemetry/src/core/SpanManager.test.ts\npackages/opentelemetry/src/core/SpanManager.ts\npackages/opentelemetry/src/examples",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.751488913735371
+  }
+]

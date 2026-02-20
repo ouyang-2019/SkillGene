@@ -1,0 +1,68 @@
+[
+  {
+    "name": "JeecgBoot (jeecgboot)",
+    "description": "[项目级] 【AI低代码平台】AI low-code platform empowers enterprises to quickly develop low-code solutions and build AI applications.  助力企业快速实现低代码开发和构建AI应用！ AI应用平台涵盖：AI应用、AI模型、AI聊天助手、知识库、AI流程编排、MCP和插件，聊天式业务操作等。 强大代码生成器：实现前后端一键生成，无需手写代码! 显著提升效率节省成本，又不失灵活~。来源: https://github.com/jeecgboot/JeecgBoot",
+    "domain": "web-frontend",
+    "tags": [
+      "activiti",
+      "agent",
+      "ai",
+      "aiflow",
+      "ant-design-vue",
+      "java",
+      "stars-45248",
+      "github-jeecgboot",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "【AI低代码平台】AI low-code platform empowers enterprises to quickly develop low-code solutions and build AI applications.  助力企业快速实现低代码开发和构建AI应用！ AI应用平台涵盖：AI应用、AI模型、AI聊天助手、知识库、AI流程编排、MCP和插件，聊天式业务操作等。 强大代码生成器：实现前后端一键生成，无需手写代码! 显著提升效率节省成本，又不失灵活~\n\n来源: https://github.com/jeecgboot/JeecgBoot\n语言: Java\nStars: 45248",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME-AI.md\nREADME.en-US.md\nREADME.md\ncheck_jeecgenv.py\ndocker-compose-cloud.yml\ndocker-compose.yml\njeecg-boot\njeecg-boot/.gitignore\njeecg-boot/LICENSE\njeecg-boot/README.md\njeecg-boot/db\njeecg-boot/docker-compose.yml\njeecg-boot/jeecg-boot-base-core",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "```\n├─AI应用平台\n│  ├─AI模型管理\n│  ├─AI应用管理\n│  ├─AI知识库\n│  ├─AI流程编排\n│  ├─AI聊天助手(支持图片、文件)\n│  ├─AI聊天助手支持嵌入第三方、支持移动端\n│  ├─MCP插件管理\n│  ├─提示词管理\n│  ├─支持各种常见模型ChatGPT和DeepSeek、ollama等\n├─AI应用门户\n│  ├─ Chat2BI 图表生成智能体\n│  ├─ AI绘图智能体\n│  ├─ 看图说话\n│  ├─ 图像识别\n│  ├─ 帮我写作\n├─工具箱\n│  ├─OCR识别\n│  ├─AI 海报\n│  ├─AI 写作\n│  ├─AI 简历\n├─AI辅助功能\n│  ├─AI建表（Online表单）\n│  ├─AI生成报表（Online报表）\n│  ├─AI生成大屏\n├─系统管理\n│  ├─用户管理\n│  ├─角色管理\n│  ├─菜单管理\n│  ├─首页配置\n│  ├─权限设置（支持按钮权限、数据权限）\n│  ├─表单权限（控制字段禁用、隐藏）\n│  ├─部门管理\n│  ├─我的部门（二级管理员）\n│  └─字典管理\n│  └─分类字典\n│  └─系统公告\n│  └─职务管理\n│  └─通讯录\n│  ├─多数据源管理\n│  ├─白名单管理\n│  ├─第三方配置（对接钉钉和企业微信）\n│  └─多租户管理（租户管理、租户角色、我的租户、租户默",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "JeecgBoot/jeecg-boot 模块",
+    "description": "[模块级] JeecgBoot 项目的 jeecg-boot 模块 (source)。来源: https://github.com/jeecgboot/JeecgBoot",
+    "domain": "web-frontend",
+    "tags": [
+      "activiti",
+      "agent",
+      "ai",
+      "aiflow",
+      "ant-design-vue",
+      "module-level",
+      "source",
+      "jeecg-boot"
+    ],
+    "genes": [
+      {
+        "title": "jeecg-boot 模块说明",
+        "content": "模块路径: jeecg-boot/\n类型: source\n文件数: 186\n\n包含文件:\n- jeecg-boot/.gitignore\n- jeecg-boot/LICENSE\n- jeecg-boot/README.md\n- jeecg-boot/db\n- jeecg-boot/db/Dockerfile\n- jeecg-boot/db/jeecgboot-mysql-5.7.sql\n- jeecg-boot/db/tables_nacos.sql\n- jeecg-boot/db/tables_xxl_job.sql\n- jeecg-boot/db/其他数据库脚本\n- jeecg-boot/db/其他数据库脚本/oracle11g dmp说明.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jeecg-boot 文件结构",
+        "content": "jeecg-boot/.gitignore\njeecg-boot/LICENSE\njeecg-boot/README.md\njeecg-boot/db\njeecg-boot/db/Dockerfile\njeecg-boot/db/jeecgboot-mysql-5.7.sql\njeecg-boot/db/tables_nacos.sql\njeecg-boot/db/tables_xxl_job.sql\njeecg-boot/db/其他数据库脚本\njeecg-boot/db/其他数据库脚本/oracle11g dmp说明.txt\njeecg-boot/db/版本升级说明.md\njeecg-boot/docker-compose.yml\njeecg-boot/jeecg-boot-base-core\njeecg-boot/jeecg-boot-base-core/pom.xml\njeecg-boot/jeecg-boot-base-core/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.362239755112315
+  }
+]

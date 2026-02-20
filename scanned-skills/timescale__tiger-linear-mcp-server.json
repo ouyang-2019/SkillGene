@@ -1,0 +1,56 @@
+[
+  {
+    "name": "tiger-linear-mcp-server (timescale)",
+    "description": "[项目级] A wrapper around the Linear API for internal LLMs。来源: https://github.com/timescale/tiger-linear-mcp-server",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-33",
+      "github-timescale",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A wrapper around the Linear API for internal LLMs\n\n来源: https://github.com/timescale/tiger-linear-mcp-server\n语言: TypeScript\nStars: 33",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nDockerfile\nLICENSE\nNOTICE\nREADME.md\neslint.config.mjs\npackage-lock.json\npackage.json\nsrc\nsrc/apis\nsrc/httpServer.ts\nsrc/index.ts\nsrc/serverInfo.ts\nsrc/stdio.ts\nsrc/types.ts\nsrc/utils\ntsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.759256969938944
+  },
+  {
+    "name": "tiger-linear-mcp-server/src 模块",
+    "description": "[模块级] tiger-linear-mcp-server 项目的 src 模块 (source)。来源: https://github.com/timescale/tiger-linear-mcp-server",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-33",
+      "github-timescale",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 25\n\n包含文件:\n- src/apis\n- src/apis/getIssue.ts\n- src/apis/getIssues.ts\n- src/apis/getProjects.ts\n- src/apis/getUsers.ts\n- src/apis/index.ts\n- src/httpServer.ts\n- src/index.ts\n- src/serverInfo.ts\n- src/stdio.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/apis\nsrc/apis/getIssue.ts\nsrc/apis/getIssues.ts\nsrc/apis/getProjects.ts\nsrc/apis/getUsers.ts\nsrc/apis/index.ts\nsrc/httpServer.ts\nsrc/index.ts\nsrc/serverInfo.ts\nsrc/stdio.ts\nsrc/types.ts\nsrc/utils\nsrc/utils/attachment.ts\nsrc/utils/comment.ts\nsrc/utils/date.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  }
+]

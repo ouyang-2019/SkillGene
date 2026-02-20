@@ -1,0 +1,108 @@
+[
+  {
+    "name": "openlit (openlit)",
+    "description": "[项目级] Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.。来源: https://github.com/openlit/openlit",
+    "domain": "backend",
+    "tags": [
+      "ai-observability",
+      "amd-gpu",
+      "clickhouse",
+      "distributed-tracing",
+      "genai",
+      "python",
+      "stars-2231",
+      "github-openlit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.\n\n来源: https://github.com/openlit/openlit\n语言: Python\nStars: 2231",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "flowchart TB;\n    subgraph \" \"\n        direction LR;\n        subgraph \" \"\n            direction LR;\n            OpenLIT_SDK[OpenLIT SDK] -->|Sends Traces & Metrics| OTC[OpenTelemetry Collector];\n            OTC -->|Stores Data| ClickHouseDB[ClickHouse];\n        end\n        subgraph \" \"\n            direction RL;\n            OpenLIT_UI[OpenLIT] -->|Pulls Data| ClickHouseDB;\n        end\n    end",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nOPAMP_DEPLOYMENT.md\nREADME.md\nSECURITY.md\nassets\nassets/.openlit.env.example\nassets/clickhouse-config.xml\nassets/clickhouse-init.sh\nassets/otel-collector-config.yaml\nassets/pricing.json\nassets/signoz-gpu-dashboard.json\nassets/signoz-openlit.json\nassets/supervisor-dynamic.yaml\nassets/supervisor-production.yaml\nassets/supervisor.yaml\ncontributors\ncontributors/otel-span-events-and-attributes.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import openlit\n  \n  openlit.init(\n    otlp_endpoint=\"http://127.0.0.1:4318\", \n  )",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "![OpenLIT Banner](https://github.com/openlit/.github/blob/main/profile/assets/openlit-feature-banner.png?raw=true)\n\n- 📈 **Analytics Dashboard**: Monitor your AI application's health and performance with detailed dashboards that track metrics, costs, and user interactions, providing a clear view of overall efficiency.\n\n- 🔌 **OpenTelemetry-native Observability SDKs**: Vendor-neutral SDKs to send traces and metrics to your existing observability tools.\n\n- 💲 **Cost Tracking for Custom and Fine-Tuned Models**: Tailor cost estimations for specific models using custom pricing files for precise bud",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.674249785141919
+  },
+  {
+    "name": "openlit/assets 模块",
+    "description": "[模块级] openlit 项目的 assets 模块 (source)。来源: https://github.com/openlit/openlit",
+    "domain": "backend",
+    "tags": [
+      "ai-observability",
+      "amd-gpu",
+      "clickhouse",
+      "distributed-tracing",
+      "genai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 10\n\n包含文件:\n- assets/.openlit.env.example\n- assets/clickhouse-config.xml\n- assets/clickhouse-init.sh\n- assets/otel-collector-config.yaml\n- assets/pricing.json\n- assets/signoz-gpu-dashboard.json\n- assets/signoz-openlit.json\n- assets/supervisor-dynamic.yaml\n- assets/supervisor-production.yaml\n- assets/supervisor.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/.openlit.env.example\nassets/clickhouse-config.xml\nassets/clickhouse-init.sh\nassets/otel-collector-config.yaml\nassets/pricing.json\nassets/signoz-gpu-dashboard.json\nassets/signoz-openlit.json\nassets/supervisor-dynamic.yaml\nassets/supervisor-production.yaml\nassets/supervisor.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393998281135353
+  },
+  {
+    "name": "openlit/docs 模块",
+    "description": "[模块级] openlit 项目的 docs 模块 (docs)。来源: https://github.com/openlit/openlit",
+    "domain": "documentation",
+    "tags": [
+      "ai-observability",
+      "amd-gpu",
+      "clickhouse",
+      "distributed-tracing",
+      "genai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 153\n\n包含文件:\n- docs/docs.json\n- docs/favicon.png\n- docs/images\n- docs/images/auto-evals-dashboard.png\n- docs/images/auto-evals-result.png\n- docs/images/create-dashboard-form.png\n- docs/images/dash0-metrics.png\n- docs/images/dash0-traces.png\n- docs/images/dashboard-empty.png\n- docs/images/dashboard-export.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/docs.json\ndocs/favicon.png\ndocs/images\ndocs/images/auto-evals-dashboard.png\ndocs/images/auto-evals-result.png\ndocs/images/create-dashboard-form.png\ndocs/images/dash0-metrics.png\ndocs/images/dash0-traces.png\ndocs/images/dashboard-empty.png\ndocs/images/dashboard-export.png\ndocs/images/dashboard-import-cta.png\ndocs/images/dashboard-import-popup.png\ndocs/images/dashboard-select-existing-widget-popup.png\ndocs/images/dashboard-select-new-widget-popup.png\ndocs/images/dashboard-widget-configuration-general.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8393998281135353
+  }
+]

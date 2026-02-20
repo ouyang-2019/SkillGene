@@ -1,0 +1,117 @@
+[
+  {
+    "name": "langchainjs (langchain-ai)",
+    "description": "[项目级] 🦜🔗 Build context-aware reasoning applications。来源: https://github.com/langchain-ai/langchainjs",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-17011",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🦜🔗 Build context-aware reasoning applications\n\n来源: https://github.com/langchain-ai/langchainjs\n语言: TypeScript\nStars: 17011",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can use npm, pnpm, or yarn to install LangChain.js\n\n`npm install -S langchain` or `pnpm install langchain` or `yarn add langchain`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndeno.json\ndependency_range_tests\ndependency_range_tests/docker-compose.yml\ndependency_range_tests/scripts\ndocs\ndocs/core_docs\nenvironment_tests\nenvironment_tests/README.md\nenvironment_tests/docker-compose.yml\nenvironment_tests/scripts\nenvironment_tests/test-exports-bun\nenvironment_tests/test-exports-cf\nenvironment_tests/test-exports-cjs\nenvironment_tests/test-exports-esbuild\nenvironment_tests/test-exports-esm\nenvironment_tests/test-exports-node-classic",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "langchainjs/dependency_range_tests 模块",
+    "description": "[模块级] langchainjs 项目的 dependency_range_tests 模块 (source)。来源: https://github.com/langchain-ai/langchainjs",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-17011",
+      "github-langchain-ai",
+      "module-level",
+      "source",
+      "dependency_range_tests"
+    ],
+    "genes": [
+      {
+        "title": "dependency_range_tests 模块说明",
+        "content": "模块路径: dependency_range_tests/\n类型: source\n文件数: 53\n\n包含文件:\n- dependency_range_tests/docker-compose.yml\n- dependency_range_tests/scripts\n- dependency_range_tests/scripts/create-mock-tsconfigs.sh\n- dependency_range_tests/scripts/langchain\n- dependency_range_tests/scripts/langchain/node\n- dependency_range_tests/scripts/langchain/node/package.json\n- dependency_range_tests/scripts/langchain/node/update_resolutions_latest.js\n- dependency_range_tests/scripts/langchain/node/update_resolutions_lowest.js\n- dependency_range_tests/scripts/langchain/test-with-latest-deps.sh\n- dependency_range_tests/scripts/langchain/test-with-lowest-deps.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dependency_range_tests 文件结构",
+        "content": "dependency_range_tests/docker-compose.yml\ndependency_range_tests/scripts\ndependency_range_tests/scripts/create-mock-tsconfigs.sh\ndependency_range_tests/scripts/langchain\ndependency_range_tests/scripts/langchain/node\ndependency_range_tests/scripts/langchain/node/package.json\ndependency_range_tests/scripts/langchain/node/update_resolutions_latest.js\ndependency_range_tests/scripts/langchain/node/update_resolutions_lowest.js\ndependency_range_tests/scripts/langchain/test-with-latest-deps.sh\ndependency_range_tests/scripts/langchain/test-with-lowest-deps.sh\ndependency_range_tests/scripts/with_standard_tests\ndependency_range_tests/scripts/with_standard_tests/anthropic\ndependency_range_tests/scripts/with_standard_tests/anthropic/node\ndependency_range_tests/scripts/with_standard_tests/anthropic/node/package.json\ndependency_range_tests/scripts/with_standard_tests/anthropic/node/update_resolutions_latest.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.192291937831072
+  },
+  {
+    "name": "langchainjs/docs 模块",
+    "description": "[模块级] langchainjs 项目的 docs 模块 (docs)。来源: https://github.com/langchain-ai/langchainjs",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-17011",
+      "github-langchain-ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/core_docs\n- docs/core_docs/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/core_docs\ndocs/core_docs/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.192291937831072
+  },
+  {
+    "name": "langchainjs/environment_tests 模块",
+    "description": "[模块级] langchainjs 项目的 environment_tests 模块 (source)。来源: https://github.com/langchain-ai/langchainjs",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-17011",
+      "github-langchain-ai",
+      "module-level",
+      "source",
+      "environment_tests"
+    ],
+    "genes": [
+      {
+        "title": "environment_tests 模块说明",
+        "content": "模块路径: environment_tests/\n类型: source\n文件数: 72\n\n包含文件:\n- environment_tests/README.md\n- environment_tests/docker-compose.yml\n- environment_tests/scripts\n- environment_tests/scripts/docker-bun-entrypoint.sh\n- environment_tests/scripts/docker-entrypoint.sh\n- environment_tests/scripts/test-runner.ts\n- environment_tests/test-exports-bun\n- environment_tests/test-exports-bun/package.json\n- environment_tests/test-exports-bun/scripts\n- environment_tests/test-exports-bun/scripts/combine-dependencies.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "environment_tests 文件结构",
+        "content": "environment_tests/README.md\nenvironment_tests/docker-compose.yml\nenvironment_tests/scripts\nenvironment_tests/scripts/docker-bun-entrypoint.sh\nenvironment_tests/scripts/docker-entrypoint.sh\nenvironment_tests/scripts/test-runner.ts\nenvironment_tests/test-exports-bun\nenvironment_tests/test-exports-bun/package.json\nenvironment_tests/test-exports-bun/scripts\nenvironment_tests/test-exports-bun/scripts/combine-dependencies.js\nenvironment_tests/test-exports-bun/src\nenvironment_tests/test-exports-bun/src/entrypoints.js\nenvironment_tests/test-exports-bun/src/import.cjs\nenvironment_tests/test-exports-bun/src/index.js\nenvironment_tests/test-exports-bun/src/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.192291937831072
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "markitdown (microsoft)",
+    "description": "[项目级] Python tool for converting files and office documents to Markdown.。来源: https://github.com/microsoft/markitdown",
+    "domain": "ai-llm",
+    "tags": [
+      "autogen",
+      "autogen-extension",
+      "langchain",
+      "markdown",
+      "microsoft-office",
+      "python",
+      "stars-87328",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python tool for converting files and office documents to Markdown.\n\n来源: https://github.com/microsoft/markitdown\n语言: Python\nStars: 87328",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "If you are using Anaconda, you can create a virtual environment with:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nDockerfile\nLICENSE\nREADME.md\nSECURITY.md\nSUPPORT.md\npackages\npackages/markitdown-mcp\npackages/markitdown-sample-plugin\npackages/markitdown",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "markitdown/packages 模块",
+    "description": "[模块级] markitdown 项目的 packages 模块 (source)。来源: https://github.com/microsoft/markitdown",
+    "domain": "ai-llm",
+    "tags": [
+      "autogen",
+      "autogen-extension",
+      "langchain",
+      "markdown",
+      "microsoft-office",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "```\n\nIf you are using Anaconda, you can create a virtual environment with:\n\n```bash\nconda create -n markitdown python=3.12\nconda activate markitdown\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/markitdown-mcp\npackages/markitdown-mcp/Dockerfile\npackages/markitdown-mcp/README.md\npackages/markitdown-mcp/pyproject.toml\npackages/markitdown-mcp/src\npackages/markitdown-mcp/src/markitdown_mcp\npackages/markitdown-mcp/src/markitdown_mcp/__about__.py\npackages/markitdown-mcp/src/markitdown_mcp/__init__.py\npackages/markitdown-mcp/src/markitdown_mcp/__main__.py\npackages/markitdown-mcp/src/markitdown_mcp/py.typed\npackages/markitdown-mcp/tests\npackages/markitdown-mcp/tests/__init__.py\npackages/markitdown-sample-plugin\npackages/markitdown-sample-plugin/README.md\npackages/markitdown-sample-plugin/pyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "packages 代码示例",
+        "content": "If you are using Anaconda, you can create a virtual environment with:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.476461405595921
+  }
+]

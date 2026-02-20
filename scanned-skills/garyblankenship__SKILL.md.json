@@ -1,0 +1,64 @@
+[
+  {
+    "name": "SKILL.md (garyblankenship)",
+    "description": "[项目级] /learn — Self-improving Claude Code skills。来源: https://github.com/garyblankenship/SKILL.md",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-4",
+      "github-garyblankenship",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "/learn — Self-improving Claude Code skills\n\n来源: https://github.com/garyblankenship/SKILL.md\n语言: unknown\nStars: 4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Option 2: Study the patterns**\n\nRead through `examples/learn/README.md`. Understand the architecture. Apply the patterns to your own commands/agents/skills.\n\n**Option 3: Learn from this repo**\n\nMeta, right? Point `/learn` at this repo:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nexamples\nexamples/learn",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Option 1: Copy directly**\n\nEach example mirrors `~/.claude/` structure. Just copy:\n\n```bash",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3010299956639813
+  },
+  {
+    "name": "SKILL.md/examples 模块",
+    "description": "[模块级] SKILL.md 项目的 examples 模块 (example)。来源: https://github.com/garyblankenship/SKILL.md",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-4",
+      "github-garyblankenship",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "**Option 1: Copy directly**\n\nEach example mirrors `~/.claude/` structure. Just copy:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/learn\nexamples/learn/README.md\nexamples/learn/agents\nexamples/learn/agents/skill-learning-specialist.md\nexamples/learn/commands\nexamples/learn/commands/learn.md\nexamples/learn/skills\nexamples/learn/skills/skill-learning\nexamples/learn/skills/skill-learning/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.740823996531185
+  }
+]

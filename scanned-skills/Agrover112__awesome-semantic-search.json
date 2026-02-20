@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-semantic-search (Agrover112)",
+    "description": "[项目级] A curated list of  awesome resources related to Semantic Search🔎  and Semantic Similarity tasks.。来源: https://github.com/Agrover112/awesome-semantic-search",
+    "domain": "general",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "hacktoberfest",
+      "information-retrieval",
+      "information-retrival",
+      "stars-361",
+      "github-agrover112",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of  awesome resources related to Semantic Search🔎  and Semantic Similarity tasks.\n\n来源: https://github.com/Agrover112/awesome-semantic-search\n语言: unknown\nStars: 361",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.md\nREADME_French.md\nREADME_Hindi.md\nREADME_Portuguesse.md\nREADME_Spanish.md\n_config.yml\nlogo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.278753600952829
+  }
+]

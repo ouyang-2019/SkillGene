@@ -1,0 +1,103 @@
+[
+  {
+    "name": "EasyEdit (zjunlp)",
+    "description": "[项目级] [ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs.。来源: https://github.com/zjunlp/EasyEdit",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "baichuan",
+      "chatgpt",
+      "cknowedit",
+      "easyedit",
+      "jupyter notebook",
+      "stars-2718",
+      "github-zjunlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "EasyEdit is a Python package for edit Large Language Models (LLM) like `GPT-J`, `Llama`, `GPT-NEO`, `GPT2`, `T5`(support models from **1B** to **65B**), the objective of which is to alter the behavior of LLMs efficiently within a specific domain without negatively impacting performance across other inputs. It is designed to be easy to use and easy to extend.\n\n<h3 align=\"center\">\n<img src=\"figs/FrameWork.png\">\n</h3>\n\n- EasyEdit contains a unified framework for **Editor**, **Method** and **Evaluate**, respectively representing the editing scenario, editing technique, and evaluation method.\n\n- Each Knowledge Editing scenario comprises of three components:\n\n  - `Editor`: such as BaseEditor(**Factual Knowledge** and **Generation** Editor) for LM, MultiModalEditor(**MultiModal Knowledge**).\n  - ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "| **Work** | Description |    Path   |\n| :--------: | :---------: | :-------: |\n|InstructEdit|InstructEdit: Instruction-based Knowledge Editing for Large Language Models| [Quick Start](https://github.com/zjunlp/EasyEdit/blob/main/examples/InstructEdit.md)|\n|DINM|Detoxifying Large Language Models via Knowledge Editing|[Quick Start](https://github.com/zjunlp/EasyEdit/blob/main/examples/SafeEdit.md)|\n|WISE|WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models|[Quick Start](https://github.com/zjunlp/EasyEdit/blob/main/examples/WISE.md)|\n|ConceptEdit|Editing Conc",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nREADME_2.md\naxbench.py\ncolab_requirements.txt\ndemo\ndemo/EasySteer_demo\ndemo/SafeEdit_demo\neasyeditor\neasyeditor/__init__.py\neasyeditor/dataset\neasyeditor/editors\neasyeditor/evaluate\neasyeditor/models",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Our results are all based on the default configuration\n\n|         | llama-2-7B | chatglm2 | gpt-j-6b | gpt-xl |\n|:-------:|:----------:|:--------:|:--------:|:------:|\n|   FT    |    60GB    |   58GB   |   55GB   |  7GB   |\n|  SERAC  |    42GB    |   32GB   |   31GB   |  10GB  |\n|   IKE   |    52GB    |   38GB   |   38GB   |  10GB  |\n|  MEND   |    46GB    |   37GB   |   37GB   |  13GB  |\n|   KN    |    42GB    |   39GB   |   40GB   |  12GB  |\n|  ROME   |    31GB    |   29GB   |   27GB   |  10GB  |\n|  MEMIT  |    33GB    |   31GB   |   31GB   |  11GB  |\n| AdaLoRA |    29GB    |   24GB   |   25",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.717124726198238
+  },
+  {
+    "name": "EasyEdit/demo 模块",
+    "description": "[模块级] EasyEdit 项目的 demo 模块 (example)。来源: https://github.com/zjunlp/EasyEdit",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "baichuan",
+      "chatgpt",
+      "cknowedit",
+      "easyedit",
+      "module-level",
+      "example",
+      "demo"
+    ],
+    "genes": [
+      {
+        "title": "demo 模块说明",
+        "content": "There is a demonstration of editing. The GIF file is created by [Terminalizer](https://github.com/faressoft/terminalizer). <br>\n\nWe provide a handy [Jupyter Notebook](https://github.com/zjunlp/EasyEdit/blob/main/tutorial-notebooks/EasyEdit_Example_US_President.ipynb)! It allows you to edit a LLM's knowledge of the US president, switching from Biden to Trump and even back to Biden. This includes methods like [WISE](https://arxiv.org/abs/2405.14768), [AlphaEdit](https://arxiv.org/abs/2410.02355), ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo 文件结构",
+        "content": "demo/EasySteer_demo\ndemo/EasySteer_demo/app.py\ndemo/EasySteer_demo/demo_hparams.py\ndemo/EasySteer_demo/demo_vector\ndemo/EasySteer_demo/demo_vector/fact\ndemo/EasySteer_demo/demo_vector/fact/fact.pt\ndemo/EasySteer_demo/demo_vector/personality\ndemo/EasySteer_demo/demo_vector/personality/personality.pt\ndemo/EasySteer_demo/demo_vector/readme.txt\ndemo/EasySteer_demo/demo_vector/safety\ndemo/EasySteer_demo/demo_vector/safety/safety.pt\ndemo/EasySteer_demo/demo_vector/sentiment\ndemo/EasySteer_demo/demo_vector/sentiment/sentiment.pt\ndemo/EasySteer_demo/demo_vector/translate\ndemo/EasySteer_demo/demo_vector/translate/translate.pt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8736997809585905
+  },
+  {
+    "name": "EasyEdit/easyeditor 模块",
+    "description": "[模块级] EasyEdit 项目的 easyeditor 模块 (source)。来源: https://github.com/zjunlp/EasyEdit",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "baichuan",
+      "chatgpt",
+      "cknowedit",
+      "easyedit",
+      "module-level",
+      "source",
+      "easyeditor"
+    ],
+    "genes": [
+      {
+        "title": "easyeditor 模块说明",
+        "content": "模块路径: easyeditor/\n类型: source\n文件数: 163\n\n包含文件:\n- easyeditor/__init__.py\n- easyeditor/dataset\n- easyeditor/dataset/AKEW_both.py\n- easyeditor/dataset/Cknowedit.py\n- easyeditor/dataset/ComprehendEdit.py\n- easyeditor/dataset/HalluEditBench.py\n- easyeditor/dataset/LEME.py\n- easyeditor/dataset/MQuAKE.py\n- easyeditor/dataset/__init__.py\n- easyeditor/dataset/adsedit.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "easyeditor 文件结构",
+        "content": "easyeditor/__init__.py\neasyeditor/dataset\neasyeditor/dataset/AKEW_both.py\neasyeditor/dataset/Cknowedit.py\neasyeditor/dataset/ComprehendEdit.py\neasyeditor/dataset/HalluEditBench.py\neasyeditor/dataset/LEME.py\neasyeditor/dataset/MQuAKE.py\neasyeditor/dataset/__init__.py\neasyeditor/dataset/adsedit.py\neasyeditor/dataset/attr_snippets.py\neasyeditor/dataset/coco_caption.py\neasyeditor/dataset/counterfact.py\neasyeditor/dataset/knowedit.py\neasyeditor/dataset/knowns.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8736997809585905
+  }
+]

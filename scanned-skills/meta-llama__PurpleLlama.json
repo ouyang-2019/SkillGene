@@ -1,0 +1,61 @@
+[
+  {
+    "name": "PurpleLlama (meta-llama)",
+    "description": "[项目级] Set of tools to assess and improve LLM security.。来源: https://github.com/meta-llama/PurpleLlama",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4031",
+      "github-meta-llama",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Set of tools to assess and improve LLM security.\n\n来源: https://github.com/meta-llama/PurpleLlama\n语言: Python\nStars: 4031",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "As part of the [Llama reference system](https://github.com/meta-llama/llama-agentic-system), we’re integrating a safety layer to facilitate adoption and deployment of these safeguards.\nResources to get started with the safeguards are available in the [Llama-recipe GitHub repository](https://github.com/meta-llama/llama-recipes).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCodeShield\nCodeShield/LICENSE\nCodeShield/README.md\nCodeShield/__init__.py\nCodeShield/codeshield.py\nCodeShield/example.py\nCodeShield/images\nCodeShield/insecure_code_detector\nCodeShield/notebook\nCodeShield/pyproject.toml\nCodeShield/tests\nCybersecurityBenchmarks\nCybersecurityBenchmarks/LICENSE",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.802706399076525
+  },
+  {
+    "name": "PurpleLlama/CodeShield 模块",
+    "description": "[模块级] PurpleLlama 项目的 CodeShield 模块 (source)。来源: https://github.com/meta-llama/PurpleLlama",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4031",
+      "github-meta-llama",
+      "module-level",
+      "source",
+      "codeshield"
+    ],
+    "genes": [
+      {
+        "title": "CodeShield 模块说明",
+        "content": "模块路径: CodeShield/\n类型: source\n文件数: 188\n\n包含文件:\n- CodeShield/LICENSE\n- CodeShield/README.md\n- CodeShield/__init__.py\n- CodeShield/codeshield.py\n- CodeShield/example.py\n- CodeShield/images\n- CodeShield/images/codeshield_logo.png\n- CodeShield/images/design.png\n- CodeShield/insecure_code_detector\n- CodeShield/insecure_code_detector/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "CodeShield 文件结构",
+        "content": "CodeShield/LICENSE\nCodeShield/README.md\nCodeShield/__init__.py\nCodeShield/codeshield.py\nCodeShield/example.py\nCodeShield/images\nCodeShield/images/codeshield_logo.png\nCodeShield/images/design.png\nCodeShield/insecure_code_detector\nCodeShield/insecure_code_detector/README.md\nCodeShield/insecure_code_detector/analyzers.py\nCodeShield/insecure_code_detector/insecure_code_detector.py\nCodeShield/insecure_code_detector/insecure_patterns.py\nCodeShield/insecure_code_detector/issues.py\nCodeShield/insecure_code_detector/languages.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9421651192612206
+  }
+]

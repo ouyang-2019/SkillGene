@@ -1,0 +1,98 @@
+[
+  {
+    "name": "zenml (zenml-io)",
+    "description": "[项目级] ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.。来源: https://github.com/zenml-io/zenml",
+    "domain": "devops",
+    "tags": [
+      "agentops",
+      "agents",
+      "ai",
+      "automl",
+      "data-science",
+      "python",
+      "stars-5217",
+      "github-zenml-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ZenML uses a [**client-server architecture**](https://docs.zenml.io/getting-started/system-architectures) with an integrated web dashboard ([zenml-io/zenml-dashboard](https://github.com/zenml-io/zenml-dashboard)):\n\n- **Local Development**: `pip install \"zenml[local]\"` - runs both client and server locally\n- **Production**: Deploy server separately, connect with `pip install zenml` + `zenml login <server-url>`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install \"zenml[server]\"  # pip install zenml will install a slimmer client",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLA.md\nCLAUDE.md\nCODE-OF-CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nRELEASE_NOTES.md\nROADMAP.md\nSECURITY.md\nalembic.ini\nchangelog.json\ndocker\ndocker/base.Dockerfile\ndocker/zenml-dev.Dockerfile\ndocker/zenml-server-dev.Dockerfile\ndocker/zenml-server-hf-spaces.Dockerfile\ndocs\ndocs/README.md\ndocs/_static",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.858710418361188
+  },
+  {
+    "name": "zenml/docker 模块",
+    "description": "[模块级] zenml 项目的 docker 模块 (source)。来源: https://github.com/zenml-io/zenml",
+    "domain": "devops",
+    "tags": [
+      "agentops",
+      "agents",
+      "ai",
+      "automl",
+      "data-science",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 4\n\n包含文件:\n- docker/base.Dockerfile\n- docker/zenml-dev.Dockerfile\n- docker/zenml-server-dev.Dockerfile\n- docker/zenml-server-hf-spaces.Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/base.Dockerfile\ndocker/zenml-dev.Dockerfile\ndocker/zenml-server-dev.Dockerfile\ndocker/zenml-server-hf-spaces.Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9869683346889504
+  },
+  {
+    "name": "zenml/docs 模块",
+    "description": "[模块级] zenml 项目的 docs 模块 (docs)。来源: https://github.com/zenml-io/zenml",
+    "domain": "documentation",
+    "tags": [
+      "agentops",
+      "agents",
+      "ai",
+      "automl",
+      "data-science",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 94\n\n包含文件:\n- docs/README.md\n- docs/_static\n- docs/_static/append.css\n- docs/_static/config.js\n- docs/_static/klaro.css\n- docs/_static/klaro.max.js\n- docs/_templates\n- docs/_templates/layout.html\n- docs/book\n- docs/book/.gitbook",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/_static\ndocs/_static/append.css\ndocs/_static/config.js\ndocs/_static/klaro.css\ndocs/_static/klaro.max.js\ndocs/_templates\ndocs/_templates/layout.html\ndocs/book\ndocs/book/.gitbook\ndocs/book/.gitbook/assets\ndocs/book/.gitbook/assets/01_pipeline.png\ndocs/book/.gitbook/assets/02_pipeline_local_stack.png\ndocs/book/.gitbook/assets/04_architecture.png\ndocs/book/.gitbook/assets/CachedDag.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9869683346889504
+  }
+]

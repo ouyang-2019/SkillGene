@@ -1,0 +1,67 @@
+[
+  {
+    "name": "knowledgebase (primaryobjects)",
+    "description": "[项目级] An expert system using logic-based artificial intelligence and symbolic AI.。来源: https://github.com/primaryobjects/knowledgebase",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "expert-system",
+      "expert-systems",
+      "javascript",
+      "stars-86",
+      "github-primaryobjects",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Logic-based artificial intelligence is a form of classical AI that deals with representing knowledge as human-readable logical statements. In constrast to the machine learning statistical techniques that are currently popular, classical AI uses logical mechanisms for deducing intelligent statements and making decicisons.\n\nOne type of system that can be created with logical AI is an expert system.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "app.js\ndata\ndata/etfs.js\ndata/funds.js\ndata/funds.pl\ndata/images\ndata/plants.js\npackage.json\nreadme.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "npm install\nnode app.js",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9672492256217837
+  },
+  {
+    "name": "knowledgebase/data 模块",
+    "description": "[模块级] knowledgebase 项目的 data 模块 (source)。来源: https://github.com/primaryobjects/knowledgebase",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "expert-system",
+      "expert-systems",
+      "javascript",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "A [knowledge-base](data/plants.js) consisting of traits and classifications for plants.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/etfs.js\ndata/funds.js\ndata/funds.pl\ndata/images\ndata/images/funds-full.png\ndata/images/funds-sm.png\ndata/images/funds.png\ndata/images/funds.xml\ndata/images/water-ice-snow.png\ndata/images/water-ice-snow.xml\ndata/plants.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2737993804974272
+  }
+]

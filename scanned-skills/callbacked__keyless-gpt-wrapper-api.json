@@ -1,0 +1,38 @@
+[
+  {
+    "name": "keyless-gpt-wrapper-api (callbacked)",
+    "description": "[项目级] A Free OpenAI-compatible API designed to interact with models like GPT-4o, Claude 3 Haiku, Mixtral 8x7b & Llama 3 70b through DuckDuckGo's AI Chat. 。来源: https://github.com/callbacked/keyless-gpt-wrapper-api",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "duckduckgo-api",
+      "llama3",
+      "python",
+      "stars-89",
+      "github-callbacked",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Free OpenAI-compatible API designed to interact with models like GPT-4o, Claude 3 Haiku, Mixtral 8x7b & Llama 3 70b through DuckDuckGo's AI Chat. \n\n来源: https://github.com/callbacked/keyless-gpt-wrapper-api\n语言: Python\nStars: 89",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nREADME.md\nconfig.py\ndocker-compose.yml\nmodels.py\nrequirements.txt\nserver.py\ntestcalls.py\ntts.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "https://github.com/user-attachments/assets/e4032e31-d12e-4f66-9d27-8932a146811e\n\n\n\nhttps://github.com/user-attachments/assets/1d5ece0e-201e-4079-915c-f5c3351654fa\n\n\n\nhttps://github.com/user-attachments/assets/02dc5970-1b2b-4ce8-8aab-e3b589c276e8",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9746950033224566
+  }
+]

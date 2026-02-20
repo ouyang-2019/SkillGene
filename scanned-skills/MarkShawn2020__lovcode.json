@@ -1,0 +1,258 @@
+[
+  {
+    "name": "lovcode (MarkShawn2020)",
+    "description": "[项目级] A desktop companion app for AI coding tools. Browse Claude Code chat history, manage configurations, commands, skills, and more.。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "typescript",
+      "stars-283",
+      "github-markshawn2020",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A desktop companion app for AI coding tools. Browse Claude Code chat history, manage configurations, commands, skills, and more.\n\n来源: https://github.com/MarkShawn2020/lovcode\n语言: TypeScript\nStars: 283",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nOPENCODE_RESEARCH.md\nQUICK_START_GUIDE.md\nREADME.md\nRESEARCH_INDEX.md\nRESEARCH_SUMMARY.md\nSESSION_TAGGING_SPEC.md\nSKILLS_INSTALLATION_SPEC.md\nassets\nassets/logo-drafts\nassets/logo-square.png\nassets/logo.png\nassets/logo.svg\ncommand-example.md\ncomponents.json\ndesign-guide.md\ndocs\ndocs/assets",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. Launch Lovcode\n2. Select **Projects** to browse chat history from Claude Code sessions\n3. Use the **Configuration** section to manage commands, MCP servers, skills, and hooks\n4. Visit **Marketplace** to discover community templates",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Chat History Viewer** — Browse and search conversation history across all projects with full-text search\n- **Commands Manager** — View and manage slash commands (`~/.claude/commands/`)\n- **MCP Servers** — Configure and monitor MCP server integrations\n- **Skills** — Manage reusable skill templates\n- **Hooks** — Configure automation triggers\n- **Sub-Agents** — Manage AI agents with custom models\n- **Output Styles** — Customize response formatting\n- **Marketplace** — Browse and install community templates\n- **Customizable Statusbar** — Personalize your statusbar display with scripts\n- **Sessi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225893217762145
+  },
+  {
+    "name": "lovcode/assets 模块",
+    "description": "[模块级] lovcode 项目的 assets 模块 (source)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 61\n\n包含文件:\n- assets/logo-drafts\n- assets/logo-drafts/v10-soft-vibe.png\n- assets/logo-drafts/v10-soft-vibe.svg\n- assets/logo-drafts/v11-ubuntu-style.png\n- assets/logo-drafts/v11-ubuntu-style.svg\n- assets/logo-drafts/v12-ultra-simple.png\n- assets/logo-drafts/v12-ultra-simple.svg\n- assets/logo-drafts/v13-collab.png\n- assets/logo-drafts/v13-collab.svg\n- assets/logo-drafts/v14-flowing-V.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/logo-drafts\nassets/logo-drafts/v10-soft-vibe.png\nassets/logo-drafts/v10-soft-vibe.svg\nassets/logo-drafts/v11-ubuntu-style.png\nassets/logo-drafts/v11-ubuntu-style.svg\nassets/logo-drafts/v12-ultra-simple.png\nassets/logo-drafts/v12-ultra-simple.svg\nassets/logo-drafts/v13-collab.png\nassets/logo-drafts/v13-collab.svg\nassets/logo-drafts/v14-flowing-V.png\nassets/logo-drafts/v14-flowing-V.svg\nassets/logo-drafts/v15-digital-V.png\nassets/logo-drafts/v15-digital-V.svg\nassets/logo-drafts/v16-code-V.png\nassets/logo-drafts/v16-code-V.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/docs 模块",
+    "description": "[模块级] lovcode 项目的 docs 模块 (docs)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "documentation",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/assets\n- docs/assets/gallery.png\n- docs/assets/logo.svg\n- docs/images\n- docs/images/cover.png\n- docs/prd-parallel-vibe-coding.md\n- docs/proxy-configuration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/gallery.png\ndocs/assets/logo.svg\ndocs/images\ndocs/images/cover.png\ndocs/prd-parallel-vibe-coding.md\ndocs/proxy-configuration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/marketplace 模块",
+    "description": "[模块级] lovcode 项目的 marketplace 模块 (source)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "source",
+      "marketplace"
+    ],
+    "genes": [
+      {
+        "title": "marketplace 模块说明",
+        "content": "模块路径: marketplace/\n类型: source\n文件数: 5\n\n包含文件:\n- marketplace/lovstudio\n- marketplace/lovstudio/statuslines\n- marketplace/lovstudio/statuslines/minimal.sh\n- marketplace/lovstudio/statuslines/vibe-genius-wind.sh\n- marketplace/lovstudio/statuslines/vibe-genius.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "marketplace 文件结构",
+        "content": "marketplace/lovstudio\nmarketplace/lovstudio/statuslines\nmarketplace/lovstudio/statuslines/minimal.sh\nmarketplace/lovstudio/statuslines/vibe-genius-wind.sh\nmarketplace/lovstudio/statuslines/vibe-genius.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/public 模块",
+    "description": "[模块级] lovcode 项目的 public 模块 (source)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 6\n\n包含文件:\n- public/annual-report-phoenix.png\n- public/logo.png\n- public/logo.svg\n- public/lovcode-qrcode.png\n- public/lovcode.svg\n- public/lovpen-logo.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/annual-report-phoenix.png\npublic/logo.png\npublic/logo.svg\npublic/lovcode-qrcode.png\npublic/lovcode.svg\npublic/lovpen-logo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/scripts 模块",
+    "description": "[模块级] lovcode 项目的 scripts 模块 (script)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/bump-version.cjs\n- scripts/sync-cargo-version.cjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/bump-version.cjs\nscripts/sync-cargo-version.cjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/src-tauri 模块",
+    "description": "[模块级] lovcode 项目的 src-tauri 模块 (source)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 78\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/build.rs\n- src-tauri/capabilities\n- src-tauri/capabilities/default.json\n- src-tauri/capabilities/desktop.json\n- src-tauri/icons\n- src-tauri/icons/128x128.png\n- src-tauri/icons/128x128@2x.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/capabilities/desktop.json\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/64x64.png\nsrc-tauri/icons/Square107x107Logo.png\nsrc-tauri/icons/Square142x142Logo.png\nsrc-tauri/icons/Square150x150Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "lovcode/src 模块",
+    "description": "[模块级] lovcode 项目的 src 模块 (source)。来源: https://github.com/MarkShawn2020/lovcode",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "desktop-app",
+      "react",
+      "rust",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 5\n\n包含文件:\n- src/App.tsx\n- src/components\n- src/components/ContextFileItem.tsx\n- src/components/DocumentReader.tsx\n- src/components/FileTree",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.tsx\nsrc/components\nsrc/components/ContextFileItem.tsx\nsrc/components/DocumentReader.tsx\nsrc/components/FileTree",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  }
+]

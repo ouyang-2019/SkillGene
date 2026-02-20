@@ -1,0 +1,61 @@
+[
+  {
+    "name": "prompt-engineering-note (isLinXu)",
+    "description": "[项目级] 🔥🔔prompt-engineering-note🔔🔥。来源: https://github.com/isLinXu/prompt-engineering-note",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "prompt-engineering",
+      "jupyter notebook",
+      "stars-264",
+      "github-islinxu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥🔔prompt-engineering-note🔔🔥\n\n来源: https://github.com/isLinXu/prompt-engineering-note\n语言: Jupyter Notebook\nStars: 264",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\ndocs\ndocs/.nojekyll\ndocs/Chatbot\ndocs/Conclusion\ndocs/Expanding\ndocs/Guidelines\ndocs/Inferring\ndocs/Introduction\ndocs/Iterative\ndocs/Summarizing\ndocs/Transforming\ndocs/_images\ndocs/_sources\ndocs/_static",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.210801963434916
+  },
+  {
+    "name": "prompt-engineering-note/docs 模块",
+    "description": "[模块级] prompt-engineering-note 项目的 docs 模块 (docs)。来源: https://github.com/isLinXu/prompt-engineering-note",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "prompt-engineering",
+      "jupyter notebook",
+      "stars-264",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 196\n\n包含文件:\n- docs/.nojekyll\n- docs/Chatbot\n- docs/Chatbot/context.html\n- docs/Chatbot/index.html\n- docs/Conclusion\n- docs/Conclusion/index.html\n- docs/Expanding\n- docs/Expanding/context.html\n- docs/Expanding/index.html\n- docs/Guidelines",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.nojekyll\ndocs/Chatbot\ndocs/Chatbot/context.html\ndocs/Chatbot/index.html\ndocs/Conclusion\ndocs/Conclusion/index.html\ndocs/Expanding\ndocs/Expanding/context.html\ndocs/Expanding/index.html\ndocs/Guidelines\ndocs/Guidelines/context.html\ndocs/Guidelines/guideline_for_prompting.html\ndocs/Guidelines/index.html\ndocs/Guidelines/jb_code\ndocs/Guidelines/jb_code/guideline_for_prompting.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4686415707479323
+  }
+]

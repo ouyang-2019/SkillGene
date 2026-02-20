@@ -1,0 +1,158 @@
+[
+  {
+    "name": "OpenContracts (Open-Source-Legal)",
+    "description": "[项目级] Humans and AI agents, building knowledge bases together. Self-hosted document annotation, version control, semantic search, and MCP.。来源: https://github.com/Open-Source-Legal/OpenContracts",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "etl",
+      "etl-pipeline",
+      "llm",
+      "python",
+      "stars-1212",
+      "github-open-source-legal",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Humans and AI agents, building knowledge bases together. Self-hosted document annotation, version control, semantic search, and MCP.\n\n来源: https://github.com/Open-Source-Legal/OpenContracts\n语言: Python\nStars: 1212",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\ncloudflare-og-worker\ncloudflare-og-worker/.gitignore\ncloudflare-og-worker/README.md\ncloudflare-og-worker/package-lock.json\ncloudflare-og-worker/package.json\ncloudflare-og-worker/src\ncloudflare-og-worker/tsconfig.json\ncloudflare-og-worker/vitest.config.ts\ncloudflare-og-worker/wrangler.toml\ncompose\ncompose/local\ncompose/production\ncompose/test-production-ci.yml\nconfig\nconfig/__init__.py\nconfig/admin_auth",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.541751309915133
+  },
+  {
+    "name": "OpenContracts/cloudflare-og-worker 模块",
+    "description": "[模块级] OpenContracts 项目的 cloudflare-og-worker 模块 (source)。来源: https://github.com/Open-Source-Legal/OpenContracts",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "etl",
+      "etl-pipeline",
+      "llm",
+      "module-level",
+      "source",
+      "cloudflare-og-worker"
+    ],
+    "genes": [
+      {
+        "title": "cloudflare-og-worker 模块说明",
+        "content": "模块路径: cloudflare-og-worker/\n类型: source\n文件数: 17\n\n包含文件:\n- cloudflare-og-worker/.gitignore\n- cloudflare-og-worker/README.md\n- cloudflare-og-worker/package-lock.json\n- cloudflare-og-worker/package.json\n- cloudflare-og-worker/src\n- cloudflare-og-worker/src/crawler.test.ts\n- cloudflare-og-worker/src/crawler.ts\n- cloudflare-og-worker/src/html.test.ts\n- cloudflare-og-worker/src/html.ts\n- cloudflare-og-worker/src/index.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cloudflare-og-worker 文件结构",
+        "content": "cloudflare-og-worker/.gitignore\ncloudflare-og-worker/README.md\ncloudflare-og-worker/package-lock.json\ncloudflare-og-worker/package.json\ncloudflare-og-worker/src\ncloudflare-og-worker/src/crawler.test.ts\ncloudflare-og-worker/src/crawler.ts\ncloudflare-og-worker/src/html.test.ts\ncloudflare-og-worker/src/html.ts\ncloudflare-og-worker/src/index.ts\ncloudflare-og-worker/src/metadata.ts\ncloudflare-og-worker/src/parser.test.ts\ncloudflare-og-worker/src/parser.ts\ncloudflare-og-worker/src/types.ts\ncloudflare-og-worker/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.733401047932107
+  },
+  {
+    "name": "OpenContracts/compose 模块",
+    "description": "[模块级] OpenContracts 项目的 compose 模块 (source)。来源: https://github.com/Open-Source-Legal/OpenContracts",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "etl",
+      "etl-pipeline",
+      "llm",
+      "module-level",
+      "source",
+      "compose"
+    ],
+    "genes": [
+      {
+        "title": "compose 模块说明",
+        "content": "模块路径: compose/\n类型: source\n文件数: 46\n\n包含文件:\n- compose/local\n- compose/local/django\n- compose/local/django/Dockerfile\n- compose/local/django/celery\n- compose/local/django/celery/beat\n- compose/local/django/celery/beat/start\n- compose/local/django/celery/flower\n- compose/local/django/celery/flower/start\n- compose/local/django/celery/worker\n- compose/local/django/celery/worker/start",
+        "gene_type": "principle"
+      },
+      {
+        "title": "compose 文件结构",
+        "content": "compose/local\ncompose/local/django\ncompose/local/django/Dockerfile\ncompose/local/django/celery\ncompose/local/django/celery/beat\ncompose/local/django/celery/beat/start\ncompose/local/django/celery/flower\ncompose/local/django/celery/flower/start\ncompose/local/django/celery/worker\ncompose/local/django/celery/worker/start\ncompose/local/django/start\ncompose/production\ncompose/production/aws\ncompose/production/aws/Dockerfile\ncompose/production/aws/maintenance",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.733401047932107
+  },
+  {
+    "name": "OpenContracts/config 模块",
+    "description": "[模块级] OpenContracts 项目的 config 模块 (config)。来源: https://github.com/Open-Source-Legal/OpenContracts",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "etl",
+      "etl-pipeline",
+      "llm",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 77\n\n包含文件:\n- config/__init__.py\n- config/admin_auth\n- config/admin_auth/__init__.py\n- config/admin_auth/backends.py\n- config/admin_auth/views.py\n- config/asgi.py\n- config/celery_app.py\n- config/graphql\n- config/graphql/__init__.py\n- config/graphql/agent_mutations.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/__init__.py\nconfig/admin_auth\nconfig/admin_auth/__init__.py\nconfig/admin_auth/backends.py\nconfig/admin_auth/views.py\nconfig/asgi.py\nconfig/celery_app.py\nconfig/graphql\nconfig/graphql/__init__.py\nconfig/graphql/agent_mutations.py\nconfig/graphql/annotation_serializers.py\nconfig/graphql/badge_mutations.py\nconfig/graphql/base.py\nconfig/graphql/conversation_mutations.py\nconfig/graphql/corpus_folder_mutations.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.733401047932107
+  },
+  {
+    "name": "OpenContracts/docs 模块",
+    "description": "[模块级] OpenContracts 项目的 docs 模块 (docs)。来源: https://github.com/Open-Source-Legal/OpenContracts",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "etl",
+      "etl-pipeline",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/.dockerignore\n- docs/.overrides\n- docs/.overrides/.gitkeep\n- docs/GCP_STORAGE_SETUP.md\n- docs/acknowledgements.md\n- docs/analyzer_framework\n- docs/analyzer_framework/backend.md\n- docs/analyzer_framework/frontend.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.dockerignore\ndocs/.overrides\ndocs/.overrides/.gitkeep\ndocs/GCP_STORAGE_SETUP.md\ndocs/acknowledgements.md\ndocs/analyzer_framework\ndocs/analyzer_framework/backend.md\ndocs/analyzer_framework/frontend.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.733401047932107
+  }
+]

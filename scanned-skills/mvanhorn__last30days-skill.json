@@ -10,14 +10,14 @@
       "reddit",
       "twitter",
       "python",
-      "stars-2858",
+      "stars-2861",
       "github-mvanhorn",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Claude Code skill that researches any topic across Reddit + X from the last 30 days, then writes copy-paste-ready prompts\n\n来源: https://github.com/mvanhorn/last30days-skill\n语言: Python\nStars: 2858",
+        "content": "Claude Code skill that researches any topic across Reddit + X from the last 30 days, then writes copy-paste-ready prompts\n\n来源: https://github.com/mvanhorn/last30days-skill\n语言: Python\nStars: 2861",
         "gene_type": "principle"
       },
       {
@@ -38,7 +38,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.728031112227476
+    "rating": 4.7282589289026316
   },
   {
     "name": "last30days-skill/assets 模块",
@@ -68,7 +68,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.882424889781981
+    "rating": 3.8826071431221054
   },
   {
     "name": "last30days-skill/docs 模块",
@@ -98,7 +98,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.882424889781981
+    "rating": 3.8826071431221054
   },
   {
     "name": "last30days-skill/fixtures 模块",
@@ -128,7 +128,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.882424889781981
+    "rating": 3.8826071431221054
   },
   {
     "name": "last30days-skill/plans 模块",
@@ -158,7 +158,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.882424889781981
+    "rating": 3.8826071431221054
   },
   {
     "name": "last30days-skill/scripts 模块",
@@ -188,6 +188,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.882424889781981
+    "rating": 3.8826071431221054
   }
 ]

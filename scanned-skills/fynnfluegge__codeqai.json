@@ -1,0 +1,138 @@
+[
+  {
+    "name": "codeqai (fynnfluegge)",
+    "description": "[项目级] Local first semantic code search and chat | Leverage custom copilots with fine-tuning datasets from code in Alpaca, Conversational, Completion and Instruction format。来源: https://github.com/fynnfluegge/codeqai",
+    "domain": "ai-llm",
+    "tags": [
+      "codellama",
+      "faiss",
+      "gpt",
+      "huggingface",
+      "langchain",
+      "python",
+      "stars-497",
+      "github-fynnfluegge",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Local first semantic code search and chat | Leverage custom copilots with fine-tuning datasets from code in Alpaca, Conversational, Completion and Instruction format\n\n来源: https://github.com/fynnfluegge/codeqai\n语言: Python\nStars: 497",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pipx install codeqai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncodeqai\ncodeqai/__init__.py\ncodeqai/__main__.py\ncodeqai/app.py\ncodeqai/bootstrap.py\ncodeqai/cache.py\ncodeqai/codeparser.py\ncodeqai/config.py\ncodeqai/constants.py\ncodeqai/dataset_extractor.py\ncodeqai/embeddings.py\ncodeqai/llm.py\ncodeqai/repo.py\ncodeqai/streamlit.py\ncodeqai/treesitter\ncodeqai/utils.py\ncodeqai/vector_store.py\nconda-linux-64.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🗒️ &nbsp;Finetuning dataset generation\n  - export in Alpaca, conversational, instruction or completionn format \n- 🔎 &nbsp;Semantic code search\n- 💬 &nbsp;GPT-like chat with your codebase\n- ⚙️ &nbsp;Synchronize vector store and latest code changes with ease\n- 💻 &nbsp;100% local embeddings and llms\n  - sentence-transformers, instructor-embeddings, llama.cpp, Ollama\n- 🌐 &nbsp;OpenAI, Azure OpenAI and Anthropic\n- 🌳 &nbsp;Treesitter integration\n\n> [!NOTE]  \n> There will be better results if the code is well documented. You might consider [doc-comments-ai](https://github.com/fynnfluegge/doc-c",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.348178194366666
+  },
+  {
+    "name": "codeqai/codeqai 模块",
+    "description": "[模块级] codeqai 项目的 codeqai 模块 (source)。来源: https://github.com/fynnfluegge/codeqai",
+    "domain": "ai-llm",
+    "tags": [
+      "codellama",
+      "faiss",
+      "gpt",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "source",
+      "codeqai"
+    ],
+    "genes": [
+      {
+        "title": "codeqai 模块说明",
+        "content": "[![Build](https://github.com/fynnfluegge/codeqai/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/fynnfluegge/codeqai/actions/workflows/build.yaml)\n[![Publish](https://github.com/fynnfluegge/codeqai/actions/workflows/publish.yaml/badge.svg)](https://github.com/fynnfluegge/codeqai/actions/workflows/publish.yaml)\n[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)\n\n</div>\n\n<div align=\"center\">\n\nGenerate datase",
+        "gene_type": "principle"
+      },
+      {
+        "title": "codeqai 文件结构",
+        "content": "codeqai/__init__.py\ncodeqai/__main__.py\ncodeqai/app.py\ncodeqai/bootstrap.py\ncodeqai/cache.py\ncodeqai/codeparser.py\ncodeqai/config.py\ncodeqai/constants.py\ncodeqai/dataset_extractor.py\ncodeqai/embeddings.py\ncodeqai/llm.py\ncodeqai/repo.py\ncodeqai/streamlit.py\ncodeqai/treesitter\ncodeqai/treesitter/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  },
+  {
+    "name": "codeqai/datasets 模块",
+    "description": "[模块级] codeqai 项目的 datasets 模块 (source)。来源: https://github.com/fynnfluegge/codeqai",
+    "domain": "ai-llm",
+    "tags": [
+      "codellama",
+      "faiss",
+      "gpt",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "source",
+      "datasets"
+    ],
+    "genes": [
+      {
+        "title": "datasets 模块说明",
+        "content": "模块路径: datasets/\n类型: source\n文件数: 3\n\n包含文件:\n- datasets/alpaca_dataset.json\n- datasets/completion_dataset.json\n- datasets/conversational_dataset.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datasets 文件结构",
+        "content": "datasets/alpaca_dataset.json\ndatasets/completion_dataset.json\ndatasets/conversational_dataset.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  },
+  {
+    "name": "codeqai/tests 模块",
+    "description": "[模块级] codeqai 项目的 tests 模块 (test)。来源: https://github.com/fynnfluegge/codeqai",
+    "domain": "testing",
+    "tags": [
+      "codellama",
+      "faiss",
+      "gpt",
+      "huggingface",
+      "langchain",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/fixtures\n- tests/fixtures/vector_entries.py\n- tests/vector_store_test.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/fixtures\ntests/fixtures/vector_entries.py\ntests/vector_store_test.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  }
+]

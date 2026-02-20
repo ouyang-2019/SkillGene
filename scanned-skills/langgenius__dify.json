@@ -1,0 +1,73 @@
+[
+  {
+    "name": "dify (langgenius)",
+    "description": "[项目级] Production-ready platform for agentic workflow development.。来源: https://github.com/langgenius/dify",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "typescript",
+      "stars-129857",
+      "github-langgenius",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Production-ready platform for agentic workflow development.\n\n来源: https://github.com/langgenius/dify\n语言: TypeScript\nStars: 129857",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "cd dify\ncd docker\ncp .env.example .env\ndocker compose up -d",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAUTHORS\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\napi\napi/.dockerignore\napi/.env.example\napi/.idea\napi/.importlinter\napi/.ruff.toml\napi/.vscode\napi/AGENTS.md\napi/Dockerfile\napi/README.md\napi/app.py\napi/app_factory.py\napi/celery_entrypoint.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "**1. Workflow**:\nBuild and test powerful AI workflows on a visual canvas, leveraging all the following features and beyond.\n\n**2. Comprehensive model support**:\nSeamless integration with hundreds of proprietary / open-source LLMs from dozens of inference providers and self-hosted solutions, covering GPT, Mistral, Llama3, and any OpenAI API-compatible models. A full list of supported model providers can be found [here](https://docs.dify.ai/getting-started/readme/model-providers).\n\n![providers-v5](https://github.com/langgenius/dify/assets/13230914/5a17bdbe-097a-4100-8363-40255b70f6e3)\n\n**3. Prom",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "dify/api 模块",
+    "description": "[模块级] dify 项目的 api 模块 (source)。来源: https://github.com/langgenius/dify",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 100\n\n包含文件:\n- api/.dockerignore\n- api/.env.example\n- api/.idea\n- api/.idea/icon.png\n- api/.idea/vcs.xml\n- api/.importlinter\n- api/.ruff.toml\n- api/.vscode\n- api/.vscode/launch.json.example\n- api/AGENTS.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/.dockerignore\napi/.env.example\napi/.idea\napi/.idea/icon.png\napi/.idea/vcs.xml\napi/.importlinter\napi/.ruff.toml\napi/.vscode\napi/.vscode/launch.json.example\napi/AGENTS.md\napi/Dockerfile\napi/README.md\napi/app.py\napi/app_factory.py\napi/celery_entrypoint.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.545386146174296
+  }
+]

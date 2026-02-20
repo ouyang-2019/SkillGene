@@ -1,0 +1,73 @@
+[
+  {
+    "name": "AdalFlow (SylphAI-Inc)",
+    "description": "[项目级] AdalFlow: The library to build & auto-optimize LLM applications.。来源: https://github.com/SylphAI-Inc/AdalFlow",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "auto-prompting",
+      "bm25",
+      "chatbot",
+      "python",
+      "stars-4034",
+      "github-sylphai-inc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AdalFlow: The library to build & auto-optimize LLM applications.\n\n来源: https://github.com/SylphAI-Inc/AdalFlow\n语言: Python\nStars: 4034",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install adalflow",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTO_RELEASE.md\nCNAME\nLICENSE.md\nMakefile\nNOTES.md\nREADME.md\nadalflow\nadalflow/.gitignore\nadalflow/CHANGELOG.md\nadalflow/LICENSE.md\nadalflow/PACKAGING.md\nadalflow/README.md\nadalflow/adalflow\nadalflow/poetry.lock\nadalflow/pyproject.toml\nadalflow/pytest.ini\nadalflow/tests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nfrom adalflow import Agent, Runner\nfrom adalflow.components.model_client.openai_client import OpenAIClient\nfrom adalflow.core.types import (\n    ToolCallActivityRunItem, \n    RunItemStreamEvent,\n    ToolCallRunItem,\n    ToolOutputRunItem,\n    FinalOutputItem\n)\nimport asyncio",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.802867946938373
+  },
+  {
+    "name": "AdalFlow/adalflow 模块",
+    "description": "[模块级] AdalFlow 项目的 adalflow 模块 (source)。来源: https://github.com/SylphAI-Inc/AdalFlow",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "auto-prompting",
+      "bm25",
+      "chatbot",
+      "module-level",
+      "source",
+      "adalflow"
+    ],
+    "genes": [
+      {
+        "title": "adalflow 模块说明",
+        "content": "1. **100% Open-source Agents SDK**: Lightweight and requires no additional API to setup ``Human-in-the-Loop`` and ``Tracing`` Functionalities.\n2. **Say goodbye to manual prompting**: AdalFlow provides a unified auto-differentiative framework for both zero-shot optimization and few-shot prompt optimization. Our research, ``LLM-AutoDiff`` and ``Learn-to-Reason Few-shot In Context Learning``, achieve the highest accuracy among all auto-prompt optimization libraries.\n3. **Switch your LLM app to any ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adalflow 文件结构",
+        "content": "adalflow/.gitignore\nadalflow/CHANGELOG.md\nadalflow/LICENSE.md\nadalflow/PACKAGING.md\nadalflow/README.md\nadalflow/adalflow\nadalflow/adalflow/__init__.py\nadalflow/adalflow/apps\nadalflow/adalflow/apps/__init__.py\nadalflow/adalflow/apps/cli_permission_handler.py\nadalflow/adalflow/apps/fastapi_permission_handler.py\nadalflow/adalflow/apps/permission_manager.py\nadalflow/adalflow/components\nadalflow/adalflow/components/__init__.py\nadalflow/adalflow/components/agent",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.942294357550699
+  }
+]

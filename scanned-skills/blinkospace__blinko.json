@@ -1,0 +1,68 @@
+[
+  {
+    "name": "blinko (blinkospace)",
+    "description": "[项目级] An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .。来源: https://github.com/blinkospace/blinko",
+    "domain": "web-frontend",
+    "tags": [
+      "markdown",
+      "memos",
+      "nextjs",
+      "notebook",
+      "openai",
+      "typescript",
+      "stars-9461",
+      "github-blinkospace",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .\n\n来源: https://github.com/blinkospace/blinko\n语言: TypeScript\nStars: 9461",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nDEV.md\nLICENSE\nREADME.md\nREADME.zh-CN.md\nSECURITY.md\napp\napp/.gitignore\napp/README.md\napp/app-icon.png\napp/index.html\napp/package.json\napp/public\napp/src-tauri",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🤖**AI-Enhanced Note Retrieval** ：With Blinko's advanced AI-powered RAG (Retrieval-Augmented Generation), you can quickly search and access your notes using natural language queries, making it effortless to find exactly what you need.\n\n- 🔒**Data Ownership** :Your privacy matters. All your notes and data are stored securely in your self-hosted environment, ensuring complete control over your information.\n\n- 🚀**Efficient and Fast** :Capture ideas instantly and store them as plain text for easy access, with full Markdown support for quick formatting and seamless sharing.\n\n- 💡**Lightweight ar",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.987968521241555
+  },
+  {
+    "name": "blinko/app 模块",
+    "description": "[模块级] blinko 项目的 app 模块 (source)。来源: https://github.com/blinkospace/blinko",
+    "domain": "web-frontend",
+    "tags": [
+      "markdown",
+      "memos",
+      "nextjs",
+      "notebook",
+      "openai",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 170\n\n包含文件:\n- app/.gitignore\n- app/README.md\n- app/app-icon.png\n- app/index.html\n- app/package.json\n- app/public\n- app/public/fallback.png\n- app/public/favicon.ico\n- app/public/fonts\n- app/public/fonts/Roboto",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.gitignore\napp/README.md\napp/app-icon.png\napp/index.html\napp/package.json\napp/public\napp/public/fallback.png\napp/public/favicon.ico\napp/public/fonts\napp/public/fonts/Roboto\napp/public/fonts/Roboto/Roboto-VariableFont_wdth_wght.woff2\napp/public/home.png\napp/public/home.webp\napp/public/icons\napp/public/icons/Square107x107Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.090374816993244
+  }
+]

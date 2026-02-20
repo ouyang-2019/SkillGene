@@ -1,0 +1,73 @@
+[
+  {
+    "name": "kubectl-ai (sozercan)",
+    "description": "[项目级] ✨ Kubectl plugin to create manifests with LLMs。来源: https://github.com/sozercan/kubectl-ai",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "hacktoberfest",
+      "go",
+      "stars-1194",
+      "github-sozercan",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "✨ Kubectl plugin to create manifests with LLMs\n\n来源: https://github.com/sozercan/kubectl-ai\n语言: Go\nStars: 1194",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nSECURITY.md\ncmd\ncmd/cli\ncmd/main.go\ngo.mod\ngo.sum\nkubectl-ai.rb\nmain.go\nplugins\nplugins/kubectl-ai.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.538502163396675
+  },
+  {
+    "name": "kubectl-ai/cmd 模块",
+    "description": "[模块级] kubectl-ai 项目的 cmd 模块 (source)。来源: https://github.com/sozercan/kubectl-ai",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "hacktoberfest",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 8\n\n包含文件:\n- cmd/cli\n- cmd/cli/completion.go\n- cmd/cli/functions.go\n- cmd/cli/kubernetes.go\n- cmd/cli/openai.go\n- cmd/cli/root.go\n- cmd/cli/schema.go\n- cmd/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/cli\ncmd/cli/completion.go\ncmd/cli/functions.go\ncmd/cli/kubernetes.go\ncmd/cli/openai.go\ncmd/cli/root.go\ncmd/cli/schema.go\ncmd/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7308017307173404
+  }
+]

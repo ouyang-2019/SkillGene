@@ -1,0 +1,93 @@
+[
+  {
+    "name": "StableDiffusionBook (sudoskys)",
+    "description": "[项目级] How do we integrate AI generation tools into actual work? | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Prompts Engineering| 指南 Guide | Seeking Maintainer&Translator🙌。来源: https://github.com/sudoskys/StableDiffusionBook",
+    "domain": "devops",
+    "tags": [
+      "aiart",
+      "stable-diffusion",
+      "stable-diffusion-tutorial",
+      "stable-diffusion-webui",
+      "stablediffusion",
+      "html",
+      "stars-1973",
+      "github-sudoskys",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "How do we integrate AI generation tools into actual work? | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Prompts Engineering| 指南 Guide | Seeking Maintainer&Translator🙌\n\n来源: https://github.com/sudoskys/StableDiffusionBook\n语言: HTML\nStars: 1973",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_EN.md\ncode_of_conduct.md\ndocs\ndocs/GettingStarted\ndocs/ckpt_safe\ndocs/config\ndocs/cover.png\ndocs/index.en.md\ndocs/index.md\ndocs/install\ndocs/landing\ndocs/paint\ndocs/prepare\ndocs/train\ndocs/vercel.json\nindex.html\nmkdocs.yml\npdm.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.647563542626095
+  },
+  {
+    "name": "StableDiffusionBook/docs 模块",
+    "description": "[模块级] StableDiffusionBook 项目的 docs 模块 (docs)。来源: https://github.com/sudoskys/StableDiffusionBook",
+    "domain": "documentation",
+    "tags": [
+      "aiart",
+      "stable-diffusion",
+      "stable-diffusion-tutorial",
+      "stable-diffusion-webui",
+      "stablediffusion",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 56\n\n包含文件:\n- docs/GettingStarted\n- docs/GettingStarted/contributing.en.md\n- docs/GettingStarted/contributing.md\n- docs/GettingStarted/news.en.md\n- docs/GettingStarted/news.md\n- docs/GettingStarted/state.en.md\n- docs/GettingStarted/state.md\n- docs/GettingStarted/term.en.md\n- docs/GettingStarted/term.md\n- docs/ckpt_safe",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/GettingStarted\ndocs/GettingStarted/contributing.en.md\ndocs/GettingStarted/contributing.md\ndocs/GettingStarted/news.en.md\ndocs/GettingStarted/news.md\ndocs/GettingStarted/state.en.md\ndocs/GettingStarted/state.md\ndocs/GettingStarted/term.en.md\ndocs/GettingStarted/term.md\ndocs/ckpt_safe\ndocs/config\ndocs/config/GPU.md\ndocs/config/Troubleshoot.md\ndocs/config/index.md\ndocs/cover.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8180508341008768
+  },
+  {
+    "name": "StableDiffusionBook/resource 模块",
+    "description": "[模块级] StableDiffusionBook 项目的 resource 模块 (source)。来源: https://github.com/sudoskys/StableDiffusionBook",
+    "domain": "devops",
+    "tags": [
+      "aiart",
+      "stable-diffusion",
+      "stable-diffusion-tutorial",
+      "stable-diffusion-webui",
+      "stablediffusion",
+      "module-level",
+      "source",
+      "resource"
+    ],
+    "genes": [
+      {
+        "title": "resource 模块说明",
+        "content": "模块路径: resource/\n类型: source\n文件数: 28\n\n包含文件:\n- resource/00119_136826557_masterpiece,_best_quality,_1girl,_black_hair,_hat1.jpg\n- resource/Aesthetic_other.png\n- resource/CS231n.png\n- resource/Textual_Inversion.jpg\n- resource/controlnet.png\n- resource/controlnet_pose.png\n- resource/controlnet_usage.png\n- resource/draw_workflow.en.png\n- resource/draw_workflow.svg\n- resource/exp_hypernet.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resource 文件结构",
+        "content": "resource/00119_136826557_masterpiece,_best_quality,_1girl,_black_hair,_hat1.jpg\nresource/Aesthetic_other.png\nresource/CS231n.png\nresource/Textual_Inversion.jpg\nresource/controlnet.png\nresource/controlnet_pose.png\nresource/controlnet_usage.png\nresource/draw_workflow.en.png\nresource/draw_workflow.svg\nresource/exp_hypernet.jpg\nresource/infofrom_bili_uid_87077691.png\nresource/kohya_blip.png\nresource/kohya_data.png\nresource/kohya_ui.png\nresource/launch.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8180508341008768
+  }
+]

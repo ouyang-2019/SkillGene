@@ -1,0 +1,108 @@
+[
+  {
+    "name": "langtrace (Scale3-Labs)",
+    "description": "[项目级] Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊。来源: https://github.com/Scale3-Labs/langtrace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "datasets",
+      "evaluations",
+      "gpt",
+      "langchain",
+      "typescript",
+      "stars-1182",
+      "github-scale3-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊\n\n来源: https://github.com/Scale3-Labs/langtrace\n语言: TypeScript\nStars: 1182",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nSECURITY.md\napp\napp/(auth)\napp/(protected)\napp/api\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/page.tsx\ncomponents.json\ncomponents\ncomponents/.eslintrc.json\ncomponents/charts\ncomponents/dataset",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📊 **Open Telemetry Support**: Built on OTEL standards for comprehensive tracing\n- 🔄 **Real-time Monitoring**: Track LLM API calls, vector operations, and framework usage\n- 🎯 **Performance Insights**: Analyze latency, costs, and usage patterns\n- 🔍 **Debug Tools**: Trace and debug your LLM application workflows\n- 📈 **Analytics**: Get detailed metrics and visualizations\n- 🏠 **Self-hosting Option**: Deploy on your own infrastructure",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.536308738272618
+  },
+  {
+    "name": "langtrace/app 模块",
+    "description": "[模块级] langtrace 项目的 app 模块 (source)。来源: https://github.com/Scale3-Labs/langtrace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "datasets",
+      "evaluations",
+      "gpt",
+      "langchain",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "```typescript\nnpm i @langtrase/typescript-sdk\n```\n\n```typescript\nimport * as Langtrace from '@langtrase/typescript-sdk' // Must precede any llm module imports\nLangtrace.init({ api_key: <your_api_key> })\n```\n\nOR\n\n```typescript\nimport * as Langtrace from \"@langtrase/typescript-sdk\"; // Must precede any llm module imports\nLangTrace.init(); // LANGTRACE_API_KEY as an ENVIRONMENT variable\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/(auth)\napp/(auth)/layout.tsx\napp/(auth)/login\napp/(auth)/login/form.tsx\napp/(auth)/login/page.tsx\napp/(auth)/signup\napp/(auth)/signup/form.tsx\napp/(auth)/signup/page.tsx\napp/(protected)\napp/(protected)/layout.tsx\napp/(protected)/project\napp/(protected)/project/[project_id]\napp/(protected)/project/[project_id]/crewai-dash\napp/(protected)/project/[project_id]/crewai-dash/page.tsx\napp/(protected)/project/[project_id]/datasets",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "app 代码示例",
+        "content": "npm i @langtrase/typescript-sdk",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7290469906180945
+  },
+  {
+    "name": "langtrace/components 模块",
+    "description": "[模块级] langtrace 项目的 components 模块 (source)。来源: https://github.com/Scale3-Labs/langtrace",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "datasets",
+      "evaluations",
+      "gpt",
+      "langchain",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 12\n\n包含文件:\n- components/.eslintrc.json\n- components/charts\n- components/charts/dspy-eval-chart.tsx\n- components/charts/eval-chart.tsx\n- components/charts/inference-chart.tsx\n- components/charts/large-chart-skeleton.tsx\n- components/charts/latency-chart.tsx\n- components/charts/small-chart-skeleton.tsx\n- components/charts/token-chart.tsx\n- components/charts/trace-chart.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/.eslintrc.json\ncomponents/charts\ncomponents/charts/dspy-eval-chart.tsx\ncomponents/charts/eval-chart.tsx\ncomponents/charts/inference-chart.tsx\ncomponents/charts/large-chart-skeleton.tsx\ncomponents/charts/latency-chart.tsx\ncomponents/charts/small-chart-skeleton.tsx\ncomponents/charts/token-chart.tsx\ncomponents/charts/trace-chart.tsx\ncomponents/dataset\ncomponents/dataset/dataset-tabs.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7290469906180945
+  }
+]

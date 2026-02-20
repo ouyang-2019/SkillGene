@@ -1,0 +1,193 @@
+[
+  {
+    "name": "papersgpt-for-zotero (papersgpt)",
+    "description": "[项目级] A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3, Claude, Grok, DeepSeek, OpenRouter, Kimi 2.5, GLM 4.7, SiliconFlow, GPT-oss, Gemma 3, Qwen 3。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "javascript",
+      "stars-2123",
+      "github-papersgpt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3, Claude, Grok, DeepSeek, OpenRouter, Kimi 2.5, GLM 4.7, SiliconFlow, GPT-oss, Gemma 3, Qwen 3\n\n来源: https://github.com/papersgpt/papersgpt-for-zotero\n语言: JavaScript\nStars: 2123",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1.  First, download the latest [PapersGPT](https://github.com/papersgpt/papersgpt-for-zotero/releases/download/papersgpt-v0.4.4/papersgpt-v0.4.4.xpi).  \n2.  Then, install the downloaded Zotero plugin file. For more details, please see [here](https://www.papersgpt.com/quickstart).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\naddon\naddon/bootstrap.js\naddon/chrome.manifest\naddon/chrome\naddon/install.rdf\naddon/manifest.json\naddon/prefs.js\naddon/updates.json\npackage.json\nscripts\nscripts/build.js\nscripts/start.js\nscripts/stop.js\nscripts/zotero-cmd-default.json\nsrc\nsrc/addon.ts\nsrc/hooks.ts\nsrc/index.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "**The fastest responding MCP server connecting to Zotero**  \nC++ MCP server, no need to install Python or Node, after installing the PapersGPT plugin, start Zotero, and it can be used on all Chatbot clients that support MCP Server on Mac and Windows. It supports BM25 full-text search of document title, author, tags, abstract, notes, annotation and collection.  \nPlease use SSE Server of MCP in the MCP host(such as ChatWise, Cherry Studio, Cursor or Gemini Cli...), set the URL to http://localhost:9080/sse  \n\n**Blazing-Fast. Even for 100+ Page Documents**  \nOptimized for heavy documents, 5x faste",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.663474997082999
+  },
+  {
+    "name": "papersgpt-for-zotero/addon 模块",
+    "description": "[模块级] papersgpt-for-zotero 项目的 addon 模块 (source)。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "module-level",
+      "source",
+      "addon"
+    ],
+    "genes": [
+      {
+        "title": "addon 模块说明",
+        "content": "模块路径: addon/\n类型: source\n文件数: 29\n\n包含文件:\n- addon/bootstrap.js\n- addon/chrome.manifest\n- addon/chrome\n- addon/chrome/content\n- addon/chrome/content/icons\n- addon/chrome/content/icons/bronze.png\n- addon/chrome/content/icons/favicon.ico\n- addon/chrome/content/icons/favicon@0.5x.ico\n- addon/chrome/content/icons/gold.png\n- addon/chrome/content/icons/gpt.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "addon 文件结构",
+        "content": "addon/bootstrap.js\naddon/chrome.manifest\naddon/chrome\naddon/chrome/content\naddon/chrome/content/icons\naddon/chrome/content/icons/bronze.png\naddon/chrome/content/icons/favicon.ico\naddon/chrome/content/icons/favicon@0.5x.ico\naddon/chrome/content/icons/gold.png\naddon/chrome/content/icons/gpt.png\naddon/chrome/content/icons/paperplane-fill.svg\naddon/chrome/content/icons/papersgpt-logo.png\naddon/chrome/content/icons/platinum.png\naddon/chrome/content/icons/silver.png\naddon/chrome/content/icons/subscribe.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8307799976664
+  },
+  {
+    "name": "papersgpt-for-zotero/scripts 模块",
+    "description": "[模块级] papersgpt-for-zotero 项目的 scripts 模块 (script)。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/build.js\n- scripts/start.js\n- scripts/stop.js\n- scripts/zotero-cmd-default.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build.js\nscripts/start.js\nscripts/stop.js\nscripts/zotero-cmd-default.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8307799976664
+  },
+  {
+    "name": "papersgpt-for-zotero/src 模块",
+    "description": "[模块级] papersgpt-for-zotero 项目的 src 模块 (source)。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 17\n\n包含文件:\n- src/addon.ts\n- src/hooks.ts\n- src/index.ts\n- src/modules\n- src/modules/Meet\n- src/modules/Meet/BetterNotes.ts\n- src/modules/Meet/Zotero.ts\n- src/modules/Meet/api.ts\n- src/modules/Meet/integratellms.ts\n- src/modules/Meet/papersgpt.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/addon.ts\nsrc/hooks.ts\nsrc/index.ts\nsrc/modules\nsrc/modules/Meet\nsrc/modules/Meet/BetterNotes.ts\nsrc/modules/Meet/Zotero.ts\nsrc/modules/Meet/api.ts\nsrc/modules/Meet/integratellms.ts\nsrc/modules/Meet/papersgpt.ts\nsrc/modules/base.ts\nsrc/modules/base.ts.bak\nsrc/modules/localStorage.ts\nsrc/modules/locale.ts\nsrc/modules/utils.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8307799976664
+  },
+  {
+    "name": "papersgpt-for-zotero/tags 模块",
+    "description": "[模块级] papersgpt-for-zotero 项目的 tags 模块 (source)。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "module-level",
+      "source",
+      "tags"
+    ],
+    "genes": [
+      {
+        "title": "tags 模块说明",
+        "content": "模块路径: tags/\n类型: source\n文件数: 10\n\n包含文件:\n- tags/Abstract2Introduction.txt\n- tags/AddTags.txt\n- tags/AskAbstract.txt\n- tags/AskClipboard.txt\n- tags/AskExperimentDetails.txt\n- tags/AskJournal.txt\n- tags/AskPDF.txt\n- tags/Readme.md\n- tags/SearchItems.txt\n- tags/Translate.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tags 文件结构",
+        "content": "tags/Abstract2Introduction.txt\ntags/AddTags.txt\ntags/AskAbstract.txt\ntags/AskClipboard.txt\ntags/AskExperimentDetails.txt\ntags/AskJournal.txt\ntags/AskPDF.txt\ntags/Readme.md\ntags/SearchItems.txt\ntags/Translate.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8307799976664
+  },
+  {
+    "name": "papersgpt-for-zotero/videos 模块",
+    "description": "[模块级] papersgpt-for-zotero 项目的 videos 模块 (source)。来源: https://github.com/papersgpt/papersgpt-for-zotero",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chat",
+      "chatgpt",
+      "claude",
+      "deepresearch",
+      "module-level",
+      "source",
+      "videos"
+    ],
+    "genes": [
+      {
+        "title": "videos 模块说明",
+        "content": "模块路径: videos/\n类型: source\n文件数: 2\n\n包含文件:\n- videos/chat-multiple-files.mp4\n- videos/demo-local-llm.mp4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "videos 文件结构",
+        "content": "videos/chat-multiple-files.mp4\nvideos/demo-local-llm.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8307799976664
+  }
+]

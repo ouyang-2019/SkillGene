@@ -1,0 +1,98 @@
+[
+  {
+    "name": "yt-semantic-search (transitive-bullshit)",
+    "description": "[项目级] OpenAI-powered semantic search for any YouTube playlist – featuring the All-In Podcast. 💪。来源: https://github.com/transitive-bullshit/yt-semantic-search",
+    "domain": "devops",
+    "tags": [
+      "openai",
+      "pinecone",
+      "podcast",
+      "search",
+      "youtube",
+      "typescript",
+      "stars-539",
+      "github-transitive-bullshit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OpenAI-powered semantic search for any YouTube playlist – featuring the All-In Podcast. 💪\n\n来源: https://github.com/transitive-bullshit/yt-semantic-search\n语言: TypeScript\nStars: 539",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "license\nnext.config.js\npackage.json\npnpm-lock.yaml\npostcss.config.cjs\npublic\npublic/favicon.ico\npublic/icon.png\npublic/images\npublic/logo-dark.png\npublic/logo-light.png\npublic/robots.txt\npublic/social.jpg\nreadme.md\nsrc\nsrc/bin\nsrc/components\nsrc/icons\nsrc/lib\nsrc/pages",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Clone the repository to your local machine.\n- Navigate to the root directory of the repository in your terminal.\n- Run the command `npm install` to install all the necessary dependencies.\n- Run the command `npx tsx src/bin/resolve-yt-playlist.ts` to download the English transcripts for each episode of the target playlist (in this case, the All-In Podcast Episodes Playlist).\n- Run the command `npx tsx src/bin/process-yt-playlist.ts` to pre-process the transcripts and fetch embeddings from OpenAI, then insert them into a Pinecone search index.\n- You can now run the command `npx tsx src/bin/que",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.36579438259337
+  },
+  {
+    "name": "yt-semantic-search/public 模块",
+    "description": "[模块级] yt-semantic-search 项目的 public 模块 (source)。来源: https://github.com/transitive-bullshit/yt-semantic-search",
+    "domain": "devops",
+    "tags": [
+      "openai",
+      "pinecone",
+      "podcast",
+      "search",
+      "youtube",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 10\n\n包含文件:\n- public/favicon.ico\n- public/icon.png\n- public/images\n- public/images/screenshot-desktop-dark.jpg\n- public/images/screenshot-desktop-light.jpg\n- public/images/youtube.svg\n- public/logo-dark.png\n- public/logo-light.png\n- public/robots.txt\n- public/social.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/favicon.ico\npublic/icon.png\npublic/images\npublic/images/screenshot-desktop-dark.jpg\npublic/images/screenshot-desktop-light.jpg\npublic/images/youtube.svg\npublic/logo-dark.png\npublic/logo-light.png\npublic/robots.txt\npublic/social.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5926355060746955
+  },
+  {
+    "name": "yt-semantic-search/src 模块",
+    "description": "[模块级] yt-semantic-search 项目的 src 模块 (source)。来源: https://github.com/transitive-bullshit/yt-semantic-search",
+    "domain": "devops",
+    "tags": [
+      "openai",
+      "pinecone",
+      "podcast",
+      "search",
+      "youtube",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 102\n\n包含文件:\n- src/bin\n- src/bin/generate-thumbnails.ts\n- src/bin/process-yt-playlist.ts\n- src/bin/query.ts\n- src/bin/resolve-yt-playlist.ts\n- src/components\n- src/components/ActiveLink\n- src/components/ActiveLink/ActiveLink.tsx\n- src/components/Button\n- src/components/Button/Button.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/bin\nsrc/bin/generate-thumbnails.ts\nsrc/bin/process-yt-playlist.ts\nsrc/bin/query.ts\nsrc/bin/resolve-yt-playlist.ts\nsrc/components\nsrc/components/ActiveLink\nsrc/components/ActiveLink/ActiveLink.tsx\nsrc/components/Button\nsrc/components/Button/Button.tsx\nsrc/components/Button/styles.module.css\nsrc/components/DarkModeToggle\nsrc/components/DarkModeToggle/DarkModeToggle.tsx\nsrc/components/DarkModeToggle/styles.module.css\nsrc/components/Footer",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5926355060746955
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "name": "swe-agent (langtalks)",
+    "description": "[项目级] 🤖 AI-powered software engineering multi-agent system with researcher and developer agents that automate code implementation through intelligent planning and execution. Built with LangGraph multi-agent workflows。来源: https://github.com/langtalks/swe-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-613",
+      "github-langtalks",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "```\nUser Request → Architect (Research & Plan) → Developer (Implement) → Results\n```\n\n**Key Components:**\n- **State Management**: Structured data flow between agents using Pydantic models\n- **Tool Integration**: File system operations, code search, and structure analysis\n- **Research Pipeline**: Hypothesis-driven exploration of codebases\n- **Atomic Execution**: Granular tasks for reliable implementation",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/langtalks/swe-agent-langgraph.git\ncd swe-agent-langgraph",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nagent\nagent/__init__.py\nagent/architect\nagent/common\nagent/developer\nagent/graph.py\nagent/prompts.py\nagent/prompts\nagent/state.py\nagent/tools\nhelpers\nhelpers/prompts.py\nhelpers/tools.py\nlanggraph.json\nlanggraph_debug.py\npyproject.toml\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "User Request\n    ↓\nAgentState {research_scratchpad: [HumanMessage(\"Add auth\")]}\n    ↓\nSoftwareArchitectState {\n    research_next_step: \"Find existing auth patterns\",\n    implementation_research_scratchpad: [research_messages...]\n}\n    ↓ (after research)\nSoftwareArchitectState {\n    implementation_plan: ImplementationPlan([\n        ImplementationTask(\n            file_path: \"auth.py\",\n            atomic_tasks: [AtomicTask(\"Add User model\")]\n        )\n    ])\n}\n    ↓\nSoftwareDeveloperState {\n    implementation_plan: <received_plan>,\n    current_task_idx: 0,\n    current_atomic_task_idx: 0,\n    cur",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Intelligent Code Planning**: AI architect analyzes requirements and creates detailed implementation plans\n- **Automated Code Generation**: Developer agent executes plans with precise file modifications\n- **Multi-Agent Workflow**: Separate planning and implementation phases for better reliability\n- **Codebase Understanding**: Advanced code analysis using tree-sitter and semantic search\n- **Incremental Development**: Atomic task breakdown for safer, more manageable changes",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3937302372592075
+  },
+  {
+    "name": "swe-agent/agent 模块",
+    "description": "[模块级] swe-agent 项目的 agent 模块 (source)。来源: https://github.com/langtalks/swe-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-613",
+      "github-langtalks",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "<img src=\"./static/cover.png\" width=\"400\" alt=\"Cover\">\n\n\n![Alpha](https://img.shields.io/badge/status-alpha-orange) ![Python](https://img.shields.io/badge/python-3.12+-blue) ![License](https://img.shields.io/badge/license-MIT-green)\n\nA sophisticated AI-powered software engineering agent that automates code implementation through intelligent planning and execution. Built with LangGraph for reliable multi-agent workflows.\n\n> ⚠️ **Alpha Status**: This project is in active development. Features may ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/__init__.py\nagent/architect\nagent/architect/graph.py\nagent/architect/prompts\nagent/architect/prompts/check_research_already_explored.md\nagent/architect/prompts/conduct_research_plan_prompt.md\nagent/architect/prompts/extract_implementation_plan.md\nagent/architect/prompts/plan_next_step_prompt.md\nagent/architect/state.py\nagent/common\nagent/common/entities.py\nagent/developer\nagent/developer/graph.py\nagent/developer/prompts\nagent/developer/prompts/create_diff_prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.614984189807366
+  },
+  {
+    "name": "swe-agent/helpers 模块",
+    "description": "[模块级] swe-agent 项目的 helpers 模块 (source)。来源: https://github.com/langtalks/swe-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-613",
+      "github-langtalks",
+      "module-level",
+      "source",
+      "helpers"
+    ],
+    "genes": [
+      {
+        "title": "helpers 模块说明",
+        "content": "模块路径: helpers/\n类型: source\n文件数: 2\n\n包含文件:\n- helpers/prompts.py\n- helpers/tools.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helpers 文件结构",
+        "content": "helpers/prompts.py\nhelpers/tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.614984189807366
+  },
+  {
+    "name": "swe-agent/static 模块",
+    "description": "[模块级] swe-agent 项目的 static 模块 (source)。来源: https://github.com/langtalks/swe-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-613",
+      "github-langtalks",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 6\n\n包含文件:\n- static/architect.png\n- static/cover.png\n- static/developer.png\n- static/input.png\n- static/main_agent.png\n- static/output.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/architect.png\nstatic/cover.png\nstatic/developer.png\nstatic/input.png\nstatic/main_agent.png\nstatic/output.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.614984189807366
+  }
+]

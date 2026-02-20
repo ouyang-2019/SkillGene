@@ -1,0 +1,78 @@
+[
+  {
+    "name": "athenadb (TimeSurgeLabs)",
+    "description": "[项目级] 🦉⚡️Serverless, distributed vector database as an API。来源: https://github.com/TimeSurgeLabs/athenadb",
+    "domain": "tooling",
+    "tags": [
+      "cloudflare",
+      "cloudflare-ai",
+      "cloudflare-d1",
+      "cloudflare-vectorize",
+      "cloudflare-workers",
+      "typescript",
+      "stars-273",
+      "github-timesurgelabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🦉⚡️Serverless, distributed vector database as an API\n\n来源: https://github.com/TimeSurgeLabs/athenadb\n语言: TypeScript\nStars: 273",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/TimeSurgeLabs/athenadb.git\ncd athenadb\nnpm run create-vector\nnpm run create-db",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Justfile\nLICENSE\nREADME.md\npackage-lock.json\npackage.json\nschema.sql\nsrc\nsrc/index.ts\nsrc/router.ts\nsrc/routes\nsrc/types.ts\nsrc/utils\ntsconfig.json\nworker-configuration.d.ts\nwrangler.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Simple API Endpoints**: AthenaDB provides straightforward endpoints for various database operations, making it accessible for developers of all skill levels.\n- **Distributed Nature**: With data replication across multiple data centers, AthenaDB ensures high availability and resilience.\n- **Built-In Data Replication**: Due to Cloudflare Workers’ underlying architecture, data is replicated across data centers automatically.\n- **Scalability**: AthenaDB is designed to handle large amounts of vector text data, making it suitable for projects with high data volumes.\n- **Serverless Architecture**",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.218081323520378
+  },
+  {
+    "name": "athenadb/src 模块",
+    "description": "[模块级] athenadb 项目的 src 模块 (source)。来源: https://github.com/TimeSurgeLabs/athenadb",
+    "domain": "tooling",
+    "tags": [
+      "cloudflare",
+      "cloudflare-ai",
+      "cloudflare-d1",
+      "cloudflare-vectorize",
+      "cloudflare-workers",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 12\n\n包含文件:\n- src/index.ts\n- src/router.ts\n- src/routes\n- src/routes/delete.ts\n- src/routes/deleteNamespace.ts\n- src/routes/embeddings.ts\n- src/routes/get.ts\n- src/routes/insert.ts\n- src/routes/query.ts\n- src/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/index.ts\nsrc/router.ts\nsrc/routes\nsrc/routes/delete.ts\nsrc/routes/deleteNamespace.ts\nsrc/routes/embeddings.ts\nsrc/routes/get.ts\nsrc/routes/insert.ts\nsrc/routes/query.ts\nsrc/types.ts\nsrc/utils\nsrc/utils/uuid.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4744650588163024
+  }
+]

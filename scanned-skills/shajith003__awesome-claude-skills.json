@@ -1,0 +1,188 @@
+[
+  {
+    "name": "awesome-claude-skills (shajith003)",
+    "description": "[项目级] 🚀 Enhance Claude's capabilities with example skills that streamline tasks and improve performance in specialized areas.。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "python",
+      "stars-17",
+      "github-shajith003",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 Enhance Claude's capabilities with example skills that streamline tasks and improve performance in specialized areas.\n\n来源: https://github.com/shajith003/awesome-claude-skills\n语言: Python\nStars: 17",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Welcome to the awesome-claude-skills repository. This guide will help you download and run the software easily. With these skills, you can enhance Claude's performance in specific tasks, making your interactions more efficient.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nTHIRD_PARTY_NOTICES.md\nagent_skills_spec.md\nalgorithmic-art\nalgorithmic-art/LICENSE.txt\nalgorithmic-art/SKILL.md\nalgorithmic-art/templates\nartifacts-builder\nartifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nbrand-guidelines\nbrand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md\ncanvas-design\ncanvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\ncomplexion\ncomplexion/awesome-claude-skills.zip",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.615224460689137
+  },
+  {
+    "name": "awesome-claude-skills/algorithmic-art 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 algorithmic-art 模块 (source)。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "module-level",
+      "source",
+      "algorithmic-art"
+    ],
+    "genes": [
+      {
+        "title": "algorithmic-art 模块说明",
+        "content": "模块路径: algorithmic-art/\n类型: source\n文件数: 5\n\n包含文件:\n- algorithmic-art/LICENSE.txt\n- algorithmic-art/SKILL.md\n- algorithmic-art/templates\n- algorithmic-art/templates/generator_template.js\n- algorithmic-art/templates/viewer.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "algorithmic-art 文件结构",
+        "content": "algorithmic-art/LICENSE.txt\nalgorithmic-art/SKILL.md\nalgorithmic-art/templates\nalgorithmic-art/templates/generator_template.js\nalgorithmic-art/templates/viewer.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.9921795685513097
+  },
+  {
+    "name": "awesome-claude-skills/artifacts-builder 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 artifacts-builder 模块 (source)。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "module-level",
+      "source",
+      "artifacts-builder"
+    ],
+    "genes": [
+      {
+        "title": "artifacts-builder 模块说明",
+        "content": "模块路径: artifacts-builder/\n类型: source\n文件数: 6\n\n包含文件:\n- artifacts-builder/LICENSE.txt\n- artifacts-builder/SKILL.md\n- artifacts-builder/scripts\n- artifacts-builder/scripts/bundle-artifact.sh\n- artifacts-builder/scripts/init-artifact.sh\n- artifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "artifacts-builder 文件结构",
+        "content": "artifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nartifacts-builder/scripts/bundle-artifact.sh\nartifacts-builder/scripts/init-artifact.sh\nartifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.9921795685513097
+  },
+  {
+    "name": "awesome-claude-skills/brand-guidelines 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 brand-guidelines 模块 (source)。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "module-level",
+      "source",
+      "brand-guidelines"
+    ],
+    "genes": [
+      {
+        "title": "brand-guidelines 模块说明",
+        "content": "模块路径: brand-guidelines/\n类型: source\n文件数: 2\n\n包含文件:\n- brand-guidelines/LICENSE.txt\n- brand-guidelines/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "brand-guidelines 文件结构",
+        "content": "brand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.9921795685513097
+  },
+  {
+    "name": "awesome-claude-skills/canvas-design 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 canvas-design 模块 (source)。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "module-level",
+      "source",
+      "canvas-design"
+    ],
+    "genes": [
+      {
+        "title": "canvas-design 模块说明",
+        "content": "模块路径: canvas-design/\n类型: source\n文件数: 84\n\n包含文件:\n- canvas-design/LICENSE.txt\n- canvas-design/SKILL.md\n- canvas-design/canvas-fonts\n- canvas-design/canvas-fonts/ArsenalSC-OFL.txt\n- canvas-design/canvas-fonts/ArsenalSC-Regular.ttf\n- canvas-design/canvas-fonts/BigShoulders-Bold.ttf\n- canvas-design/canvas-fonts/BigShoulders-OFL.txt\n- canvas-design/canvas-fonts/BigShoulders-Regular.ttf\n- canvas-design/canvas-fonts/Boldonse-OFL.txt\n- canvas-design/canvas-fonts/Boldonse-Regular.ttf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "canvas-design 文件结构",
+        "content": "canvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\ncanvas-design/canvas-fonts/ArsenalSC-OFL.txt\ncanvas-design/canvas-fonts/ArsenalSC-Regular.ttf\ncanvas-design/canvas-fonts/BigShoulders-Bold.ttf\ncanvas-design/canvas-fonts/BigShoulders-OFL.txt\ncanvas-design/canvas-fonts/BigShoulders-Regular.ttf\ncanvas-design/canvas-fonts/Boldonse-OFL.txt\ncanvas-design/canvas-fonts/Boldonse-Regular.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-OFL.txt\ncanvas-design/canvas-fonts/BricolageGrotesque-Regular.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Bold.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Italic.ttf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.9921795685513097
+  },
+  {
+    "name": "awesome-claude-skills/document-skills 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 document-skills 模块 (source)。来源: https://github.com/shajith003/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic-ai",
+      "anthropic-claude",
+      "awesome-claude-code",
+      "module-level",
+      "source",
+      "document-skills"
+    ],
+    "genes": [
+      {
+        "title": "document-skills 模块说明",
+        "content": "模块路径: document-skills/\n类型: source\n文件数: 91\n\n包含文件:\n- document-skills/docx\n- document-skills/docx/LICENSE.txt\n- document-skills/docx/SKILL.md\n- document-skills/docx/docx-js.md\n- document-skills/docx/ooxml.md\n- document-skills/docx/ooxml\n- document-skills/docx/ooxml/schemas\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\n- document-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+        "gene_type": "principle"
+      },
+      {
+        "title": "document-skills 文件结构",
+        "content": "document-skills/docx\ndocument-skills/docx/LICENSE.txt\ndocument-skills/docx/SKILL.md\ndocument-skills/docx/docx-js.md\ndocument-skills/docx/ooxml.md\ndocument-skills/docx/ooxml\ndocument-skills/docx/ooxml/schemas\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd\ndocument-skills/docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.9921795685513097
+  }
+]

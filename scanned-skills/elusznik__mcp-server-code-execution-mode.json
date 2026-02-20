@@ -1,0 +1,78 @@
+[
+  {
+    "name": "mcp-server-code-execution-mode (elusznik)",
+    "description": "[项目级] An MCP server that executes Python code in isolated rootless containers with optional MCP server proxying. Implementation of Anthropic's and Cloudflare's ideas for reducing MCP tool definitions context bloat.。来源: https://github.com/elusznik/mcp-server-code-execution-mode",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "python",
+      "stars-308",
+      "github-elusznik",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This bridge implements the **\"Code Execution with MCP\"** pattern, a convergence of ideas from industry leaders:\n\n- **Apple's [CodeAct](https://machinelearning.apple.com/research/codeact)**: \"Your LLM Agent Acts Better when Generating Code.\"\n- **Anthropic's [Code execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp)**: \"Building more efficient agents.\"\n- **Cloudflare's [Code Mode](https://blog.cloudflare.com/code-mode/)**: \"LLMs are better at writing code to call MCP, than at calling MCP directly.\"\n- **Docker's [Dynamic MCPs](https://www.docker.com/blog/dynamic-mcps-stop-hardcoding-your-agents-world/)**: \"Stop Hardcoding Your Agents’ World.\"\n- **[Terminal Bench](https://www.tbench.ai)'s [Terminus](https://www.tbench.ai/terminus)**: \"A realistic terminal environm",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ARCHITECTURE.md\nGUIDE.md\nHISTORY.md\nLICENSE\nREADME.md\nSTATUS.md\nexample_config.json\nmain.py\nmcp_server_code_execution_mode.py\npyproject.toml\nrequirements.txt\ntests\ntests/stub_mcp_server.py\ntests/test_config_loading.py\ntests/test_entrypoint.py\ntests/test_integration.py\ntests/test_list_tools_metadata.py\ntests/test_memory.py\ntests/test_no_runtime.py\ntests/test_persistence.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **Two-stage discovery** – `discovered_servers()` reveals what exists; `query_tool_docs(name)` loads only the schemas you need.\n2. **Fuzzy search across servers** – let the model find tools without memorising catalog names:\n\n    ```python\n    from mcp import runtime\n\n    matches = await runtime.search_tool_docs(\"calendar events\", limit=5)\n    for hit in matches:\n        print(hit[\"server\"], hit[\"tool\"], hit.get(\"description\", \"\"))\n    ```\n\n3. **Zero-copy proxying** – every tool call stays within the sandbox, mirrored over stdio with strict timeouts.\n4. **Rootless by default** – Podman/Docker",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.244275358250222
+  },
+  {
+    "name": "mcp-server-code-execution-mode/tests 模块",
+    "description": "[模块级] mcp-server-code-execution-mode 项目的 tests 模块 (test)。来源: https://github.com/elusznik/mcp-server-code-execution-mode",
+    "domain": "testing",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "uv run pytest",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/stub_mcp_server.py\ntests/test_config_loading.py\ntests/test_entrypoint.py\ntests/test_integration.py\ntests/test_list_tools_metadata.py\ntests/test_memory.py\ntests/test_no_runtime.py\ntests/test_persistence.py\ntests/test_resources.py\ntests/test_server_cwd.py\ntests/test_server_descriptions.py\ntests/test_tool_docs.py\ntests/test_toon_responses.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4954202866001776
+  }
+]

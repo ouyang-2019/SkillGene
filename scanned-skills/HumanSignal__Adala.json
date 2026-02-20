@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Adala (HumanSignal)",
+    "description": "[项目级] Adala: Autonomous DAta (Labeling) Agent framework。来源: https://github.com/HumanSignal/Adala",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "python",
+      "stars-1361",
+      "github-humansignal",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Adala: Autonomous DAta (Labeling) Agent framework\n\n来源: https://github.com/HumanSignal/Adala\n语言: Python\nStars: 1361",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install adala",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTION.md\nDockerfile.app\nLICENSE\nREADME.md\nadala\nadala/__init__.py\nadala/agents\nadala/environments\nadala/memories\nadala/runtimes\nadala/skills\nadala/utils\ncodecov.yml\ncompass.yml\ndocker-compose.native.yml\ndocker-compose.yml\ndocker-entrypoint.sh\ndocs\ndocs/README.md\ndocs/mkdocs.yml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "| Skill                                                                              | Description                                                                       | Colab                                                                                                                                                                                                                                        |\n|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.566929062601668
+  },
+  {
+    "name": "Adala/adala 模块",
+    "description": "[模块级] Adala 项目的 adala 模块 (source)。来源: https://github.com/HumanSignal/Adala",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "module-level",
+      "source",
+      "adala"
+    ],
+    "genes": [
+      {
+        "title": "adala 模块说明",
+        "content": "- 🌟 **Reliable agents**: Agents are built upon a foundation of ground\n  truth data. This ensures consistent and trustworthy results, making Adala a\n  reliable choice for your data processing needs.\n  \n- 🎮 **Controllable output**: For every skill, you can configure the\n  desired output and set specific constraints with varying degrees of\n  flexibility. Whether you want strict adherence to particular\n  guidelines or more adaptive outputs based on the agent's learning,\n  Adala allows you to tailo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adala 文件结构",
+        "content": "adala/__init__.py\nadala/agents\nadala/agents/__init__.py\nadala/agents/base.py\nadala/environments\nadala/environments/__init__.py\nadala/environments/base.py\nadala/environments/code_env.py\nadala/environments/console.py\nadala/environments/kafka.py\nadala/environments/servers\nadala/environments/servers/__init__.py\nadala/environments/servers/base.py\nadala/environments/servers/discord_bot.py\nadala/environments/static_env.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.753543250081334
+  },
+  {
+    "name": "Adala/docs 模块",
+    "description": "[模块级] Adala 项目的 docs 模块 (docs)。来源: https://github.com/HumanSignal/Adala",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 18\n\n包含文件:\n- docs/README.md\n- docs/mkdocs.yml\n- docs/src\n- docs/src/agents.md\n- docs/src/environments.md\n- docs/src/img\n- docs/src/img/diagram.png\n- docs/src/img/executing-agents-skill.png\n- docs/src/img/logo-dark-mode.png\n- docs/src/img/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/mkdocs.yml\ndocs/src\ndocs/src/agents.md\ndocs/src/environments.md\ndocs/src/img\ndocs/src/img/diagram.png\ndocs/src/img/executing-agents-skill.png\ndocs/src/img/logo-dark-mode.png\ndocs/src/img/logo.png\ndocs/src/img/training-agents-skill.png\ndocs/src/img/✅ executing-agents-skill.png\ndocs/src/img/✅ training-agents-skill.png\ndocs/src/index.md\ndocs/src/memories.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.753543250081334
+  },
+  {
+    "name": "Adala/examples 模块",
+    "description": "[模块级] Adala 项目的 examples 模块 (example)。来源: https://github.com/HumanSignal/Adala",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "| Skill                                                                              | Description                                                                       | Colab                                                                                                                                                                                                                                        |\n|------------------------------------------------------------------------------------|----",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/classification_skill.ipynb\nexamples/classification_skill_with_CoT.ipynb\nexamples/code_generation.ipynb\nexamples/gsm8k_test.ipynb\nexamples/ontology_creator.ipynb\nexamples/question_answering_skill.ipynb\nexamples/quickstart.ipynb\nexamples/skillsets_sequence_of_skills.ipynb\nexamples/summarization_skill.ipynb\nexamples/templates\nexamples/templates/classification.yml\nexamples/templates/cot.yml\nexamples/templates/cot_sc.yml\nexamples/templates/rest.yaml\nexamples/text_generation_skill.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.753543250081334
+  },
+  {
+    "name": "Adala/server 模块",
+    "description": "[模块级] Adala 项目的 server 模块 (source)。来源: https://github.com/HumanSignal/Adala",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "Initiate the Adala server. Note: Each agent operates as its own web server.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/README.md\nserver/__init__.py\nserver/api_codegen.sh\nserver/app.py\nserver/handlers\nserver/handlers/__init__.py\nserver/handlers/result_handlers.py\nserver/log_middleware.py\nserver/tasks\nserver/tasks/__init__.py\nserver/tasks/stream_inference.py\nserver/utils.py\nserver/worker_pool\nserver/worker_pool/README.md\nserver/worker_pool/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.753543250081334
+  },
+  {
+    "name": "Adala/tests 模块",
+    "description": "[模块级] Adala 项目的 tests 模块 (test)。来源: https://github.com/HumanSignal/Adala",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "agent-based-framework",
+      "agent-oriented-programming",
+      "autonomous-agents",
+      "gpt-4",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 38\n\n包含文件:\n- tests/cassettes\n- tests/cassettes/test_agent_basics\n- tests/cassettes/test_agent_basics/test_agent_arun_classification_skill.yaml\n- tests/cassettes/test_agent_basics/test_agent_quickstart_single_skill.yaml\n- tests/cassettes/test_agent_basics/test_agent_quickstart_two_skills.yaml\n- tests/cassettes/test_agent_basics/test_agent_run_classification_skill.yaml\n- tests/cassettes/test_agent_with_rag\n- tests/cassettes/test_agent_with_rag/test_rag_with_openai_chat_completion.yaml\n- tests/cassettes/test_analysis_skill\n- tests/cassettes/test_analysis_skill/test_code_generation.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/cassettes\ntests/cassettes/test_agent_basics\ntests/cassettes/test_agent_basics/test_agent_arun_classification_skill.yaml\ntests/cassettes/test_agent_basics/test_agent_quickstart_single_skill.yaml\ntests/cassettes/test_agent_basics/test_agent_quickstart_two_skills.yaml\ntests/cassettes/test_agent_basics/test_agent_run_classification_skill.yaml\ntests/cassettes/test_agent_with_rag\ntests/cassettes/test_agent_with_rag/test_rag_with_openai_chat_completion.yaml\ntests/cassettes/test_analysis_skill\ntests/cassettes/test_analysis_skill/test_code_generation.yaml\ntests/cassettes/test_cost_estimation\ntests/cassettes/test_cost_estimation/test_simple_estimate_cost_azure.yaml\ntests/cassettes/test_cost_estimation/test_simple_estimate_cost_custom_endpoint.yaml\ntests/cassettes/test_label_studio_skill\ntests/cassettes/test_label_studio_skill/test_label_studio_skill_basic.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.753543250081334
+  }
+]

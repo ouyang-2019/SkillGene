@@ -1,0 +1,138 @@
+[
+  {
+    "name": "AutoHedge (The-Swarm-Corporation)",
+    "description": "[项目级] Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.。来源: https://github.com/The-Swarm-Corporation/AutoHedge",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "blackrock",
+      "finance",
+      "goldmansachs",
+      "hedgefund",
+      "python",
+      "stars-1061",
+      "github-the-swarm-corporation",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AutoHedge is built to be the world's most powerful autonomous agent hedge fund. It runs continuous analysis, generates and validates trading theses, sizes risk, and executes orders across supported venues. The system is designed for institutional reliability: structured outputs, comprehensive logging, and a risk-first architecture that scales from single strategies to multi-venue, multi-asset deployment.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nautohedge\nautohedge/__init__.py\nautohedge/__main__.py\nautohedge/cli.py\nautohedge/env_loader.py\nautohedge/main.py\nautohedge/prompts.py\nautohedge/tools\nautohedge/workers.py\nexample.py\nexperimental\nexperimental/btc_agent.py\nexperimental/crypto_agent_wrapper.py\nexperimental/market_making.py\nlogs\nlogs/trades_20250305_193100.csv\nlogs/trades_20250305_193129.csv\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nautohedge \n```\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-Agent Architecture**: Specialized agents for each stage of the trading pipeline\n  - Director Agent: strategy and thesis generation\n  - Quant Agent: technical and statistical analysis\n  - Risk Management Agent: position sizing and risk assessment\n  - Execution Agent: order generation and execution\n\n- **Real-Time Market Analysis**: Integration with live market data for analysis and execution\n- **Risk-First Design**: Built-in risk management and position sizing before any execution\n- **Structured Output**: JSON-formatted recommendations and analysis for downstream systems\n- **Enterprise",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.51285769195067
+  },
+  {
+    "name": "AutoHedge/autohedge 模块",
+    "description": "[模块级] AutoHedge 项目的 autohedge 模块 (source)。来源: https://github.com/The-Swarm-Corporation/AutoHedge",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "blackrock",
+      "finance",
+      "goldmansachs",
+      "hedgefund",
+      "module-level",
+      "source",
+      "autohedge"
+    ],
+    "genes": [
+      {
+        "title": "autohedge 模块说明",
+        "content": "[![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/VapjxpSyHC3) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autohedge 文件结构",
+        "content": "autohedge/__init__.py\nautohedge/__main__.py\nautohedge/cli.py\nautohedge/env_loader.py\nautohedge/main.py\nautohedge/prompts.py\nautohedge/tools\nautohedge/tools/__init__.py\nautohedge/tools/exa_search_tool.py\nautohedge/tools/jupiter_price.py\nautohedge/tools/jupiter_search.py\nautohedge/tools/polygon_api.py\nautohedge/tools/tools_registry.py\nautohedge/tools/ultra_tools.py\nautohedge/tools/yahoo_api.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7102861535605367
+  },
+  {
+    "name": "AutoHedge/experimental 模块",
+    "description": "[模块级] AutoHedge 项目的 experimental 模块 (source)。来源: https://github.com/The-Swarm-Corporation/AutoHedge",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "blackrock",
+      "finance",
+      "goldmansachs",
+      "hedgefund",
+      "module-level",
+      "source",
+      "experimental"
+    ],
+    "genes": [
+      {
+        "title": "experimental 模块说明",
+        "content": "OPENAI_API_KEY=\nANTHROPIC_API_KEY=\nWORKSPACE_DIR=\"agent_workspace\"",
+        "gene_type": "principle"
+      },
+      {
+        "title": "experimental 文件结构",
+        "content": "experimental/btc_agent.py\nexperimental/crypto_agent_wrapper.py\nexperimental/market_making.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7102861535605367
+  },
+  {
+    "name": "AutoHedge/logs 模块",
+    "description": "[模块级] AutoHedge 项目的 logs 模块 (source)。来源: https://github.com/The-Swarm-Corporation/AutoHedge",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "blackrock",
+      "finance",
+      "goldmansachs",
+      "hedgefund",
+      "module-level",
+      "source",
+      "logs"
+    ],
+    "genes": [
+      {
+        "title": "logs 模块说明",
+        "content": "模块路径: logs/\n类型: source\n文件数: 2\n\n包含文件:\n- logs/trades_20250305_193100.csv\n- logs/trades_20250305_193129.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "logs 文件结构",
+        "content": "logs/trades_20250305_193100.csv\nlogs/trades_20250305_193129.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7102861535605367
+  }
+]

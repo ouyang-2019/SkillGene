@@ -1,0 +1,89 @@
+[
+  {
+    "name": "document.ai (GanymedeNil)",
+    "description": "[项目级] 基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)。来源: https://github.com/GanymedeNil/document.ai",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3678",
+      "github-ganymedenil",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)\n\n来源: https://github.com/GanymedeNil/document.ai\n语言: Python\nStars: 3678",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncode\ncode/README.md\ncode/data_import\ncode/server\ndocs\ndocs/flow.png\ndocs/pdf.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "请参考 OpenAI 的使用政策\n\nhttps://openai.com/policies/usage-policies\n\n我的 MSD 案例只是探索其中一个垂直领域的可行性，你可以把这个项目迁移到任何你熟悉的领域中，而不必拘泥于医疗领域",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7828058624510295
+  },
+  {
+    "name": "document.ai/code 模块",
+    "description": "[模块级] document.ai 项目的 code 模块 (source)。来源: https://github.com/GanymedeNil/document.ai",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3678",
+      "github-ganymedenil",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 14\n\n包含文件:\n- code/README.md\n- code/data_import\n- code/data_import/README.md\n- code/data_import/import_data.py\n- code/data_import/requirements.txt\n- code/data_import/source_data\n- code/data_import/source_data/001.txt\n- code/data_import/source_data/002.txt\n- code/server\n- code/server/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/README.md\ncode/data_import\ncode/data_import/README.md\ncode/data_import/import_data.py\ncode/data_import/requirements.txt\ncode/data_import/source_data\ncode/data_import/source_data/001.txt\ncode/data_import/source_data/002.txt\ncode/server\ncode/server/README.md\ncode/server/requirements.txt\ncode/server/server.py\ncode/server/templates\ncode/server/templates/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.926244689960823
+  },
+  {
+    "name": "document.ai/docs 模块",
+    "description": "[模块级] document.ai 项目的 docs 模块 (docs)。来源: https://github.com/GanymedeNil/document.ai",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-3678",
+      "github-ganymedenil",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/flow.png\n- docs/pdf.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/flow.png\ndocs/pdf.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.926244689960823
+  }
+]

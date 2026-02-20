@@ -1,0 +1,126 @@
+[
+  {
+    "name": "agents (aiwaves-cn)",
+    "description": "[项目级] An Open-source Framework for Data-centric, Self-evolving Autonomous Language Agents。来源: https://github.com/aiwaves-cn/agents",
+    "domain": "devops",
+    "tags": [
+      "autonomous-agents",
+      "language-model",
+      "llm",
+      "python",
+      "stars-5866",
+      "github-aiwaves-cn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent symbolic learning is a systematic framework for training language agents, which is inspired by the connectionist learning procedure used for training neural nets. We make an analogy between language agents and neural nets: the agent pipeline of an agent corresponds to the computational graph of a neural net, a node in the agent pipeline corresponds to a layer in the neural net, and the prompts and tools for a node correspond to the weights of a layer. In this way, we are able to implement the main components of connectionist learning, i.e., backward propagation and gradient-based weight update, in the context of agent training using language-based loss, gradients, and weights.\n\n<img src='./assets/overview.png'>\n\nWe implement loss function, back-propagation, and weight optimizer in th",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install git+https://github.com/aiwaves-cn/agents@master",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/agents-logo.png\nassets/algorithm.png\nassets/case.png\nassets/logo.png\nassets/main_results.png\nassets/other_results.png\nassets/overview.png\nassets/workflow.gif\nassets/workflow.png\nexamples\nexamples/chatbot\nexamples/creative_writing\nexamples/debate\nexamples/hotpotqa\nexamples/humaneval\nexamples/math_dataset\nexamples/software_dev",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.884171029322267
+  },
+  {
+    "name": "agents/assets 模块",
+    "description": "[模块级] agents 项目的 assets 模块 (source)。来源: https://github.com/aiwaves-cn/agents",
+    "domain": "devops",
+    "tags": [
+      "autonomous-agents",
+      "language-model",
+      "llm",
+      "python",
+      "stars-5866",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 9\n\n包含文件:\n- assets/agents-logo.png\n- assets/algorithm.png\n- assets/case.png\n- assets/logo.png\n- assets/main_results.png\n- assets/other_results.png\n- assets/overview.png\n- assets/workflow.gif\n- assets/workflow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agents-logo.png\nassets/algorithm.png\nassets/case.png\nassets/logo.png\nassets/main_results.png\nassets/other_results.png\nassets/overview.png\nassets/workflow.gif\nassets/workflow.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0073368234578135
+  },
+  {
+    "name": "agents/examples 模块",
+    "description": "[模块级] agents 项目的 examples 模块 (example)。来源: https://github.com/aiwaves-cn/agents",
+    "domain": "devops",
+    "tags": [
+      "autonomous-agents",
+      "language-model",
+      "llm",
+      "python",
+      "stars-5866",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 69\n\n包含文件:\n- examples/chatbot\n- examples/chatbot/config.json\n- examples/chatbot/run.py\n- examples/creative_writing\n- examples/creative_writing/configs\n- examples/creative_writing/configs/SOP.json\n- examples/creative_writing/configs/agent_team.json\n- examples/creative_writing/configs/optimizer_config.json\n- examples/creative_writing/configs/solution.json\n- examples/creative_writing/configs/task.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/chatbot\nexamples/chatbot/config.json\nexamples/chatbot/run.py\nexamples/creative_writing\nexamples/creative_writing/configs\nexamples/creative_writing/configs/SOP.json\nexamples/creative_writing/configs/agent_team.json\nexamples/creative_writing/configs/optimizer_config.json\nexamples/creative_writing/configs/solution.json\nexamples/creative_writing/configs/task.json\nexamples/creative_writing/configs/trainer_config.json\nexamples/creative_writing/run_eval.py\nexamples/creative_writing/run_train.py\nexamples/debate\nexamples/debate/config.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0073368234578135
+  },
+  {
+    "name": "agents/src 模块",
+    "description": "[模块级] agents 项目的 src 模块 (source)。来源: https://github.com/aiwaves-cn/agents",
+    "domain": "devops",
+    "tags": [
+      "autonomous-agents",
+      "language-model",
+      "llm",
+      "python",
+      "stars-5866",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 113\n\n包含文件:\n- src/agents\n- src/agents/__init__.py\n- src/agents/agents\n- src/agents/agents/__init__.py\n- src/agents/agents/action.py\n- src/agents/agents/agent.py\n- src/agents/agents/agent_team.py\n- src/agents/agents/environment.py\n- src/agents/agents/llm.py\n- src/agents/agents/memory.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/__init__.py\nsrc/agents/agents\nsrc/agents/agents/__init__.py\nsrc/agents/agents/action.py\nsrc/agents/agents/agent.py\nsrc/agents/agents/agent_team.py\nsrc/agents/agents/environment.py\nsrc/agents/agents/llm.py\nsrc/agents/agents/memory.py\nsrc/agents/agents/toolkit.py\nsrc/agents/datasets\nsrc/agents/datasets/__init__.py\nsrc/agents/datasets/base.py\nsrc/agents/datasets/creative_writing.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0073368234578135
+  }
+]

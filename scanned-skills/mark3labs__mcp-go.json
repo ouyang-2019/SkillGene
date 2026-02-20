@@ -1,0 +1,188 @@
+[
+  {
+    "name": "mcp-go (mark3labs)",
+    "description": "[项目级] A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.\n\n来源: https://github.com/mark3labs/mcp-go\n语言: Go\nStars: 8181",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "go get github.com/mark3labs/mcp-go",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nclient\nclient/client.go\nclient/client_edge_cases_test.go\nclient/elicitation.go\nclient/elicitation_test.go\nclient/http.go\nclient/http_test.go\nclient/inprocess.go\nclient/inprocess_elicitation_test.go\nclient/inprocess_sampling_test.go\nclient/inprocess_test.go\nclient/interface.go\nclient/issue583_test.go\nclient/oauth.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "For examples, see the [`examples/`](examples/) directory.\n\nKey examples include:\n- [`examples/task_tool/`](examples/task_tool/) - Demonstrates task-augmented tools with TaskSupportRequired and TaskSupportOptional modes\n- Additional examples covering resources, prompts, and more in the examples directory",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Fast**: High-level interface means less code and faster development\n* **Simple**: Build MCP servers with minimal boilerplate\n* **Complete***: MCP Go aims to provide a full implementation of the core MCP specification\n\n(\\*emphasis on *aims*)\n\n🚨 🚧 🏗️ *MCP Go is under active development, as is the MCP specification itself. Core features are working but some advanced capabilities are still in progress.* \n\n\n<!-- omit in toc -->",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.956403196330646
+  },
+  {
+    "name": "mcp-go/client 模块",
+    "description": "[模块级] mcp-go 项目的 client 模块 (source)。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 44\n\n包含文件:\n- client/client.go\n- client/client_edge_cases_test.go\n- client/elicitation.go\n- client/elicitation_test.go\n- client/http.go\n- client/http_test.go\n- client/inprocess.go\n- client/inprocess_elicitation_test.go\n- client/inprocess_sampling_test.go\n- client/inprocess_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/client.go\nclient/client_edge_cases_test.go\nclient/elicitation.go\nclient/elicitation_test.go\nclient/http.go\nclient/http_test.go\nclient/inprocess.go\nclient/inprocess_elicitation_test.go\nclient/inprocess_sampling_test.go\nclient/inprocess_test.go\nclient/interface.go\nclient/issue583_test.go\nclient/oauth.go\nclient/oauth_test.go\nclient/protocol_negotiation_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065122557064517
+  },
+  {
+    "name": "mcp-go/examples 模块",
+    "description": "[模块级] mcp-go 项目的 examples 模块 (example)。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "For examples, see the [`examples/`](examples/) directory.\n\nKey examples include:\n- [`examples/task_tool/`](examples/task_tool/) - Demonstrates task-augmented tools with TaskSupportRequired and TaskSupportOptional modes\n- Additional examples covering resources, prompts, and more in the examples directory",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/custom_context\nexamples/custom_context/main.go\nexamples/dynamic_path\nexamples/dynamic_path/main.go\nexamples/elicitation\nexamples/elicitation/main.go\nexamples/everything\nexamples/everything/id.go\nexamples/everything/main.go\nexamples/filesystem_stdio_client\nexamples/filesystem_stdio_client/main.go\nexamples/in_process\nexamples/in_process/main.go\nexamples/inprocess_sampling\nexamples/inprocess_sampling/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065122557064517
+  },
+  {
+    "name": "mcp-go/mcp 模块",
+    "description": "[模块级] mcp-go 项目的 mcp 模块 (source)。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "module-level",
+      "source",
+      "mcp"
+    ],
+    "genes": [
+      {
+        "title": "mcp 模块说明",
+        "content": "The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) lets you build servers that expose data and functionality to LLM applications in a secure, standardized way. Think of it like a web API, but specifically designed for LLM interactions.\n\nMCP servers can:\n- Expose data through **Resources** (think of these sort of like GET endpoints; they are used to load information into the LLM's context)\n- Provide functionality through **Tools** (sort of like POST endpoints; they are used to ex",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp 文件结构",
+        "content": "mcp/consts.go\nmcp/elicitation_test.go\nmcp/elicitation_validation_test.go\nmcp/errors.go\nmcp/errors_additional_test.go\nmcp/errors_test.go\nmcp/icons_test.go\nmcp/prompts.go\nmcp/prompts_test.go\nmcp/resources.go\nmcp/resources_test.go\nmcp/tasks.go\nmcp/tasks_test.go\nmcp/tools.go\nmcp/tools_additional_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065122557064517
+  },
+  {
+    "name": "mcp-go/mcptest 模块",
+    "description": "[模块级] mcp-go 项目的 mcptest 模块 (source)。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "module-level",
+      "source",
+      "mcptest"
+    ],
+    "genes": [
+      {
+        "title": "mcptest 模块说明",
+        "content": "模块路径: mcptest/\n类型: source\n文件数: 2\n\n包含文件:\n- mcptest/mcptest.go\n- mcptest/mcptest_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcptest 文件结构",
+        "content": "mcptest/mcptest.go\nmcptest/mcptest_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065122557064517
+  },
+  {
+    "name": "mcp-go/server 模块",
+    "description": "[模块级] mcp-go 项目的 server 模块 (source)。来源: https://github.com/mark3labs/mcp-go",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-8181",
+      "github-mark3labs",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "<details>\n<summary>Show Server Examples</summary>\n\nThe server is your core interface to the MCP protocol. It handles connection management, protocol compliance, and message routing:\n\n```go\n// Create a basic server\ns := server.NewMCPServer(\n    \"My Server\",  // Server name\n    \"1.0.0\",     // Version\n)\n\n// Start the server using stdio\nif err := server.ServeStdio(s); err != nil {\n    log.Fatalf(\"Server error: %v\", err)\n}\n```\n\n</details>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/completion.go\nserver/constants.go\nserver/ctx.go\nserver/elicitation.go\nserver/elicitation_test.go\nserver/errors.go\nserver/hooks.go\nserver/http_transport_options.go\nserver/inprocess_session.go\nserver/internal\nserver/internal/gen\nserver/internal/gen/README.md\nserver/internal/gen/data.go\nserver/internal/gen/hooks.go.tmpl\nserver/internal/gen/main.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "server 代码示例",
+        "content": "// Create a basic server\ns := server.NewMCPServer(\n    \"My Server\",  // Server name\n    \"1.0.0\",     // Version\n)\n\n// Start the server using stdio\nif err := server.ServeStdio(s); err != nil {\n    log.Fatalf(\"Server error: %v\", err)\n}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065122557064517
+  }
+]

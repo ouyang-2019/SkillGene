@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Agent-Kernel (ZJU-LLMs)",
+    "description": "[项目级] A MicroKernel Multi-Agents System Framework for Adaptive Social Simulation Powered by LLMs。来源: https://github.com/ZJU-LLMs/Agent-Kernel",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "multi-agent-systems",
+      "social-simulation",
+      "python",
+      "stars-293",
+      "github-zju-llms",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Agent-Kernel framework adopts a modular microkernel architecture, with a core system—composed of the **Agent**, **Environment**, **Action**, **Controller**, and **System** modules—and multiple plugins. The core manages plugin registration, behavior verification, asynchronous communication, and other core responsibilities, while plugins provide the specialized functions for social simulation, as shown in the diagram below:\n\n<p align=\"center\">\n\n<img src=\"assets/framework.png\" alt=\"Agent-Kernel Framework\" width=\"700\"/>\n\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_zh.md\nassets\nassets/agentkernel_cover.png\nassets/agentkernel_logo.png\nassets/framework.png\nassets/rat.jpg\nassets/softwaredesign.png\nassets/zju.png\nexamples\nexamples/distributed_test\nexamples/standalone_test\npackages\npackages/agentkernel-distributed",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Both `agentkernel-standalone` and `agentkernel-distributed` support optional dependencies for web services and storage solutions. You can install them as needed.\n\n- `web` → Installs `aiohttp`, `fastapi`, `uvicorn`\n- `storages` → Installs `asyncpg`, `pymilvus`, `redis`\n- `all` → Installs both `web` and `storages`\n\nTo install a package with these extras, use square brackets `[]`. For example:\n\n```bash",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.233433810177055
+  },
+  {
+    "name": "Agent-Kernel/assets 模块",
+    "description": "[模块级] Agent-Kernel 项目的 assets 模块 (source)。来源: https://github.com/ZJU-LLMs/Agent-Kernel",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "multi-agent-systems",
+      "social-simulation",
+      "python",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 6\n\n包含文件:\n- assets/agentkernel_cover.png\n- assets/agentkernel_logo.png\n- assets/framework.png\n- assets/rat.jpg\n- assets/softwaredesign.png\n- assets/zju.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agentkernel_cover.png\nassets/agentkernel_logo.png\nassets/framework.png\nassets/rat.jpg\nassets/softwaredesign.png\nassets/zju.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  },
+  {
+    "name": "Agent-Kernel/examples 模块",
+    "description": "[模块级] Agent-Kernel 项目的 examples 模块 (example)。来源: https://github.com/ZJU-LLMs/Agent-Kernel",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "multi-agent-systems",
+      "social-simulation",
+      "python",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 87\n\n包含文件:\n- examples/distributed_test\n- examples/distributed_test/README.md\n- examples/distributed_test/configs\n- examples/distributed_test/configs/actions_config.yaml\n- examples/distributed_test/configs/agents_config.yaml\n- examples/distributed_test/configs/db_config.yaml\n- examples/distributed_test/configs/environment_config.yaml\n- examples/distributed_test/configs/models_config.yaml\n- examples/distributed_test/configs/simulation_config.yaml\n- examples/distributed_test/configs/system_config.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/distributed_test\nexamples/distributed_test/README.md\nexamples/distributed_test/configs\nexamples/distributed_test/configs/actions_config.yaml\nexamples/distributed_test/configs/agents_config.yaml\nexamples/distributed_test/configs/db_config.yaml\nexamples/distributed_test/configs/environment_config.yaml\nexamples/distributed_test/configs/models_config.yaml\nexamples/distributed_test/configs/simulation_config.yaml\nexamples/distributed_test/configs/system_config.yaml\nexamples/distributed_test/custom_controller.py\nexamples/distributed_test/custom_pod_manager.py\nexamples/distributed_test/data\nexamples/distributed_test/data/agents\nexamples/distributed_test/data/agents/profiles.jsonl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  },
+  {
+    "name": "Agent-Kernel/packages 模块",
+    "description": "[模块级] Agent-Kernel 项目的 packages 模块 (source)。来源: https://github.com/ZJU-LLMs/Agent-Kernel",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "multi-agent-systems",
+      "social-simulation",
+      "python",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 96\n\n包含文件:\n- packages/agentkernel-distributed\n- packages/agentkernel-distributed/README.md\n- packages/agentkernel-distributed/agentkernel_distributed\n- packages/agentkernel-distributed/agentkernel_distributed/__init__.py\n- packages/agentkernel-distributed/agentkernel_distributed/mas\n- packages/agentkernel-distributed/agentkernel_distributed/mas/__init__.py\n- packages/agentkernel-distributed/agentkernel_distributed/mas/action\n- packages/agentkernel-distributed/agentkernel_distributed/mas/action/__init__.py\n- packages/agentkernel-distributed/agentkernel_distributed/mas/action/action.py\n- packages/agentkernel-distributed/agentkernel_distributed/mas/action/base",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/agentkernel-distributed\npackages/agentkernel-distributed/README.md\npackages/agentkernel-distributed/agentkernel_distributed\npackages/agentkernel-distributed/agentkernel_distributed/__init__.py\npackages/agentkernel-distributed/agentkernel_distributed/mas\npackages/agentkernel-distributed/agentkernel_distributed/mas/__init__.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/__init__.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/action.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/base\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/base/__init__.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/base/component_base.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/base/plugin_base.py\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/components\npackages/agentkernel-distributed/agentkernel_distributed/mas/action/components/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  }
+]

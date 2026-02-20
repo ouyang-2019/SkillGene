@@ -1,0 +1,183 @@
+[
+  {
+    "name": "GPT-RAG (Azure)",
+    "description": "[项目级] Sharing the learning along the way we been gathering to enable Azure OpenAI at enterprise scale in a secure manner. GPT-RAG core is a Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences.。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "bicep",
+      "stars-1133",
+      "github-azure",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Sharing the learning along the way we been gathering to enable Azure OpenAI at enterprise scale in a secure manner. GPT-RAG core is a Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences.\n\n来源: https://github.com/Azure/GPT-RAG\n语言: Bicep\nStars: 1133",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nSUPPORT.md\nazure.yaml\nconfig\nconfig/__init__.py\nconfig/aifoundry\nconfig/containerapps\nconfig/requirements.txt\nconfig/search\ndocs\ndocs/pull_request_template.md\ninfra\ninfra/constants\ninfra/install.ps1\ninfra/main.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.527114954931699
+  },
+  {
+    "name": "GPT-RAG/config 模块",
+    "description": "[模块级] GPT-RAG 项目的 config 模块 (config)。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "devops",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 15\n\n包含文件:\n- config/__init__.py\n- config/aifoundry\n- config/aifoundry/__init__.py\n- config/aifoundry/appconfig.py\n- config/aifoundry/keyvault.py\n- config/aifoundry/raiblocklist.json\n- config/aifoundry/raipolicies.json\n- config/aifoundry/setup.py\n- config/containerapps\n- config/containerapps/setup.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/__init__.py\nconfig/aifoundry\nconfig/aifoundry/__init__.py\nconfig/aifoundry/appconfig.py\nconfig/aifoundry/keyvault.py\nconfig/aifoundry/raiblocklist.json\nconfig/aifoundry/raipolicies.json\nconfig/aifoundry/setup.py\nconfig/containerapps\nconfig/containerapps/setup.py\nconfig/requirements.txt\nconfig/search\nconfig/search/search.j2\nconfig/search/search.settings.j2\nconfig/search/setup.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "GPT-RAG/infra 模块",
+    "description": "[模块级] GPT-RAG 项目的 infra 模块 (source)。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "module-level",
+      "source",
+      "infra"
+    ],
+    "genes": [
+      {
+        "title": "infra 模块说明",
+        "content": "模块路径: infra/\n类型: source\n文件数: 32\n\n包含文件:\n- infra/constants\n- infra/constants/abbreviations.json\n- infra/constants/constants.bicep\n- infra/constants/roles.json\n- infra/install.ps1\n- infra/main.bicep\n- infra/main.parameters.json\n- infra/manifest.json\n- infra/modules\n- infra/modules/ai-foundry",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infra 文件结构",
+        "content": "infra/constants\ninfra/constants/abbreviations.json\ninfra/constants/constants.bicep\ninfra/constants/roles.json\ninfra/install.ps1\ninfra/main.bicep\ninfra/main.parameters.json\ninfra/manifest.json\ninfra/modules\ninfra/modules/ai-foundry\ninfra/modules/ai-foundry/connection-ai-search.bicep\ninfra/modules/ai-foundry/connection-application-insights.bicep\ninfra/modules/ai-foundry/connection-bing-search-tool.bicep\ninfra/modules/ai-foundry/connection-storage-account.bicep\ninfra/modules/ai-foundry/get-project-principalid.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "GPT-RAG/media 模块",
+    "description": "[模块级] GPT-RAG 项目的 media 模块 (source)。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 3\n\n包含文件:\n- media/architecture-zero-trust.png\n- media/gpt-rag-homepage.png\n- media/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/architecture-zero-trust.png\nmedia/gpt-rag-homepage.png\nmedia/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "GPT-RAG/scripts 模块",
+    "description": "[模块级] GPT-RAG 项目的 scripts 模块 (script)。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 6\n\n包含文件:\n- scripts/postProvision.ps1\n- scripts/postProvision.sh\n- scripts/preDeploy.ps1\n- scripts/preDeploy.sh\n- scripts/preProvision.ps1\n- scripts/preProvision.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/postProvision.ps1\nscripts/postProvision.sh\nscripts/preDeploy.ps1\nscripts/preDeploy.sh\nscripts/preProvision.ps1\nscripts/preProvision.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  },
+  {
+    "name": "GPT-RAG/util 模块",
+    "description": "[模块级] GPT-RAG 项目的 util 模块 (source)。来源: https://github.com/Azure/GPT-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "azd-templates",
+      "azure",
+      "gpt-3",
+      "gpt-4",
+      "openai",
+      "module-level",
+      "source",
+      "util"
+    ],
+    "genes": [
+      {
+        "title": "util 模块说明",
+        "content": "模块路径: util/\n类型: source\n文件数: 3\n\n包含文件:\n- util/__init__.py\n- util/prereqs.py\n- util/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "util 文件结构",
+        "content": "util/__init__.py\nutil/prereqs.py\nutil/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721691963945359
+  }
+]

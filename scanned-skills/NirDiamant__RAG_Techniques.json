@@ -1,0 +1,223 @@
+[
+  {
+    "name": "RAG_Techniques (NirDiamant)",
+    "description": "[项目级] This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "jupyter notebook",
+      "stars-25478",
+      "github-nirdiamant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-Augmented Generation (RAG) is revolutionizing the way we combine information retrieval with generative AI. This repository showcases a curated collection of advanced techniques designed to supercharge your RAG systems, enabling them to deliver more accurate, contextually relevant, and comprehensive responses.\n\nOur goal is to provide a valuable resource for researchers and practitioners looking to push the boundaries of what's possible with RAG. By fostering a collaborative environment, we aim to accelerate innovation in this exciting field.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/NirDiamant/RAG_Techniques.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nall_rag_techniques\nall_rag_techniques/Agentic_RAG.ipynb\nall_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb\nall_rag_techniques/HyPE_Hypothetical_Prompt_Embeddings.ipynb\nall_rag_techniques/Microsoft_GraphRag.ipynb\nall_rag_techniques/adaptive_retrieval.ipynb\nall_rag_techniques/choose_chunk_size.ipynb\nall_rag_techniques/context_enrichment_window_around_chunk.ipynb\nall_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb\nall_rag_techniques/contextual_chunk_headers.ipynb\nall_rag_techniques/contextual_compression.ipynb\nall_rag_techniques/crag.ipynb\nall_rag_techniques/dartboard.ipynb\nall_rag_techniques/document_augmentation.ipynb\nall_rag_techniques/explainable_retrieval.ipynb\nall_rag_techniques/fusion_retrieval.ipynb\nall_rag_techniques/fusion_retrieval_with_llamaindex.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🧠 State-of-the-art RAG enhancements\n- 📚 Comprehensive documentation for each technique\n- 🛠️ Practical implementation guidelines\n- 🌟 Regular updates with the latest advancements",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "RAG_Techniques/all_rag_techniques 模块",
+    "description": "[模块级] RAG_Techniques 项目的 all_rag_techniques 模块 (source)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "all_rag_techniques"
+    ],
+    "genes": [
+      {
+        "title": "all_rag_techniques 模块说明",
+        "content": "模块路径: all_rag_techniques/\n类型: source\n文件数: 35\n\n包含文件:\n- all_rag_techniques/Agentic_RAG.ipynb\n- all_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb\n- all_rag_techniques/HyPE_Hypothetical_Prompt_Embeddings.ipynb\n- all_rag_techniques/Microsoft_GraphRag.ipynb\n- all_rag_techniques/adaptive_retrieval.ipynb\n- all_rag_techniques/choose_chunk_size.ipynb\n- all_rag_techniques/context_enrichment_window_around_chunk.ipynb\n- all_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb\n- all_rag_techniques/contextual_chunk_headers.ipynb\n- all_rag_techniques/contextual_compression.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "all_rag_techniques 文件结构",
+        "content": "all_rag_techniques/Agentic_RAG.ipynb\nall_rag_techniques/HyDe_Hypothetical_Document_Embedding.ipynb\nall_rag_techniques/HyPE_Hypothetical_Prompt_Embeddings.ipynb\nall_rag_techniques/Microsoft_GraphRag.ipynb\nall_rag_techniques/adaptive_retrieval.ipynb\nall_rag_techniques/choose_chunk_size.ipynb\nall_rag_techniques/context_enrichment_window_around_chunk.ipynb\nall_rag_techniques/context_enrichment_window_around_chunk_with_llamaindex.ipynb\nall_rag_techniques/contextual_chunk_headers.ipynb\nall_rag_techniques/contextual_compression.ipynb\nall_rag_techniques/crag.ipynb\nall_rag_techniques/dartboard.ipynb\nall_rag_techniques/document_augmentation.ipynb\nall_rag_techniques/explainable_retrieval.ipynb\nall_rag_techniques/fusion_retrieval.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  },
+  {
+    "name": "RAG_Techniques/all_rag_techniques_runnable_scripts 模块",
+    "description": "[模块级] RAG_Techniques 项目的 all_rag_techniques_runnable_scripts 模块 (source)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "all_rag_techniques_runnable_scripts"
+    ],
+    "genes": [
+      {
+        "title": "all_rag_techniques_runnable_scripts 模块说明",
+        "content": "模块路径: all_rag_techniques_runnable_scripts/\n类型: source\n文件数: 19\n\n包含文件:\n- all_rag_techniques_runnable_scripts/HyDe_Hypothetical_Document_Embedding.py\n- all_rag_techniques_runnable_scripts/HyPE_Hypothetical_Prompt_Embeddings.py\n- all_rag_techniques_runnable_scripts/adaptive_retrieval.py\n- all_rag_techniques_runnable_scripts/choose_chunk_size.py\n- all_rag_techniques_runnable_scripts/context_enrichment_window_around_chunk.py\n- all_rag_techniques_runnable_scripts/contextual_compression.py\n- all_rag_techniques_runnable_scripts/crag.py\n- all_rag_techniques_runnable_scripts/document_augmentation.py\n- all_rag_techniques_runnable_scripts/explainable_retrieval.py\n- all_rag_techniques_runnable_scripts/fusion_retrieval.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "all_rag_techniques_runnable_scripts 文件结构",
+        "content": "all_rag_techniques_runnable_scripts/HyDe_Hypothetical_Document_Embedding.py\nall_rag_techniques_runnable_scripts/HyPE_Hypothetical_Prompt_Embeddings.py\nall_rag_techniques_runnable_scripts/adaptive_retrieval.py\nall_rag_techniques_runnable_scripts/choose_chunk_size.py\nall_rag_techniques_runnable_scripts/context_enrichment_window_around_chunk.py\nall_rag_techniques_runnable_scripts/contextual_compression.py\nall_rag_techniques_runnable_scripts/crag.py\nall_rag_techniques_runnable_scripts/document_augmentation.py\nall_rag_techniques_runnable_scripts/explainable_retrieval.py\nall_rag_techniques_runnable_scripts/fusion_retrieval.py\nall_rag_techniques_runnable_scripts/graph_rag.py\nall_rag_techniques_runnable_scripts/hierarchical_indices.py\nall_rag_techniques_runnable_scripts/query_transformations.py\nall_rag_techniques_runnable_scripts/raptor.py\nall_rag_techniques_runnable_scripts/reranking.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  },
+  {
+    "name": "RAG_Techniques/data 模块",
+    "description": "[模块级] RAG_Techniques 项目的 data 模块 (source)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 4\n\n包含文件:\n- data/Understanding_Climate_Change.pdf\n- data/customers-100.csv\n- data/nike_2023_annual_report.txt\n- data/q_a.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/Understanding_Climate_Change.pdf\ndata/customers-100.csv\ndata/nike_2023_annual_report.txt\ndata/q_a.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  },
+  {
+    "name": "RAG_Techniques/evaluation 模块",
+    "description": "[模块级] RAG_Techniques 项目的 evaluation 模块 (source)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "25. **DeepEval Evaluation**: [<img src=\"https://img.shields.io/badge/GitHub-View-blue\" height=\"20\">](https://github.com/NirDiamant/RAG_TECHNIQUES/blob/main/https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_deep_eval.ipynb) [<img src=\"https://colab.research.google.com/assets/colab-badge.svg\" height=\"20\">](https://colab.research.google.com/github/NirDiamant/RAG_Techniques/blob/main/evaluation/evaluation_deep_eval.ipynb) | Comprehensive RAG system ev",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/define_evaluation_metrics.ipynb\nevaluation/evaluation_deep_eval.ipynb\nevaluation/evaluation_grouse.ipynb\nevaluation/evalute_rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  },
+  {
+    "name": "RAG_Techniques/images 模块",
+    "description": "[模块级] RAG_Techniques 项目的 images 模块 (source)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 41\n\n包含文件:\n- images/HyDe.svg\n- images/Microsoft_GraphRag.svg\n- images/adaptive_retrieval.svg\n- images/coderabbit_Dark_Type_Mark.png\n- images/coderabbit_Light_Type_Mark_Orange.png\n- images/context_enrichment_window.svg\n- images/contextual_chunk_headers.svg\n- images/contextual_compression.svg\n- images/crag.svg\n- images/fusion_retrieval.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/HyDe.svg\nimages/Microsoft_GraphRag.svg\nimages/adaptive_retrieval.svg\nimages/coderabbit_Dark_Type_Mark.png\nimages/coderabbit_Light_Type_Mark_Orange.png\nimages/context_enrichment_window.svg\nimages/contextual_chunk_headers.svg\nimages/contextual_compression.svg\nimages/crag.svg\nimages/fusion_retrieval.svg\nimages/graph_rag.svg\nimages/graph_rag_with_milvus_1.png\nimages/graph_rag_with_milvus_2.png\nimages/grouse.svg\nimages/hierarchical_indices.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  },
+  {
+    "name": "RAG_Techniques/tests 模块",
+    "description": "[模块级] RAG_Techniques 项目的 tests 模块 (test)。来源: https://github.com/NirDiamant/RAG_Techniques",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "langchain",
+      "llama-index",
+      "llm",
+      "llms",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/conftest.py\n- tests/test_imports.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/test_imports.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.262466133310621
+  }
+]

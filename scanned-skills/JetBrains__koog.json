@@ -1,0 +1,73 @@
+[
+  {
+    "name": "koog (JetBrains)",
+    "description": "[项目级] Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems。来源: https://github.com/JetBrains/koog",
+    "domain": "backend",
+    "tags": [
+      "agentframework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents-framework",
+      "kotlin",
+      "stars-3738",
+      "github-jetbrains",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin. It lets you create agents that can interact with tools, handle complex workflows, and communicate with users.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODEX.md\nCONTRIBUTING.md\nGEMINI.md\nGPT.md\nLICENSE.txt\nREADME.md\nTESTING.md\na2a\na2a/CLAUDE.md\na2a/a2a-client\na2a/a2a-core\na2a/a2a-server\na2a/a2a-test\na2a/a2a-transport",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "fun main() = runBlocking {\n    // Before you run the example, assign a corresponding API key as an environment variable.\n   val apiKey = System.getenv(\"OPENAI_API_KEY\") // or Anthropic, Google, OpenRouter, etc.\n\n   val agent = AIAgent(\n      promptExecutor = simpleOpenAIExecutor(apiKey), // or Anthropic, Google, OpenRouter, etc.\n      systemPrompt = \"You are a helpful assistant. Answer user questions concisely.\",\n      llmModel = OpenAIModels.Chat.GPT4o\n   )\n\n   val result = agent.run(\"Hello! How can you help me?\")\n   println(result)\n}",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Key features of Koog include:\n\n- **Multiplatform development**: Deploy agents across JVM, JS, WasmJS, Android, and iOS targets using Kotlin Multiplatform.\n- **Reliability and fault-tolerance**: Handle failures with built-in retries and restore the agent state at specific points during execution with the agent persistence feature.\n- **Intelligent history compression**: Optimize token usage while maintaining context in long-running conversations using advanced built-in history compression techniques.\n- **Enterprise-ready integrations**: Utilize integration with popular JVM frameworks such as Spr",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.786319648521406
+  },
+  {
+    "name": "koog/a2a 模块",
+    "description": "[模块级] koog 项目的 a2a 模块 (source)。来源: https://github.com/JetBrains/koog",
+    "domain": "backend",
+    "tags": [
+      "agentframework",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents-framework",
+      "module-level",
+      "source",
+      "a2a"
+    ],
+    "genes": [
+      {
+        "title": "a2a 模块说明",
+        "content": "模块路径: a2a/\n类型: source\n文件数: 160\n\n包含文件:\n- a2a/CLAUDE.md\n- a2a/a2a-client\n- a2a/a2a-client/Module.md\n- a2a/a2a-client/build.gradle.kts\n- a2a/a2a-client/src\n- a2a/a2a-client/src/commonMain\n- a2a/a2a-client/src/commonMain/kotlin\n- a2a/a2a-client/src/commonMain/kotlin/ai\n- a2a/a2a-client/src/commonMain/kotlin/ai/koog\n- a2a/a2a-client/src/commonMain/kotlin/ai/koog/a2a",
+        "gene_type": "principle"
+      },
+      {
+        "title": "a2a 文件结构",
+        "content": "a2a/CLAUDE.md\na2a/a2a-client\na2a/a2a-client/Module.md\na2a/a2a-client/build.gradle.kts\na2a/a2a-client/src\na2a/a2a-client/src/commonMain\na2a/a2a-client/src/commonMain/kotlin\na2a/a2a-client/src/commonMain/kotlin/ai\na2a/a2a-client/src/commonMain/kotlin/ai/koog\na2a/a2a-client/src/commonMain/kotlin/ai/koog/a2a\na2a/a2a-client/src/commonMain/kotlin/ai/koog/a2a/client\na2a/a2a-client/src/commonMain/kotlin/ai/koog/a2a/client/A2AClient.kt\na2a/a2a-client/src/commonMain/kotlin/ai/koog/a2a/client/AgentCardResolver.kt\na2a/a2a-client/src/jvmTest\na2a/a2a-client/src/jvmTest/kotlin",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9290557188171253
+  }
+]

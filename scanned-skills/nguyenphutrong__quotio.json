@@ -1,0 +1,137 @@
+[
+  {
+    "name": "quotio (nguyenphutrong)",
+    "description": "[项目级] Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.。来源: https://github.com/nguyenphutrong/quotio",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "developer-tools",
+      "proxy",
+      "quota-monitor",
+      "swift",
+      "stars-3627",
+      "github-nguyenphutrong",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.\n\n来源: https://github.com/nguyenphutrong/quotio\n语言: Swift\nStars: 3627",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nConfig\nConfig/Debug.xcconfig\nConfig/Local.xcconfig.example\nConfig/Release.xcconfig\nLICENSE\nQuotio.xcodeproj\nQuotio.xcodeproj/project.pbxproj\nQuotio.xcodeproj/project.xcworkspace\nQuotio.xcodeproj/xcshareddata\nQuotio\nQuotio/Assets.xcassets\nQuotio/Info.plist\nQuotio/Localizable.xcstrings",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🔌 Multi-Provider Support**: Connect accounts from Gemini, Claude, OpenAI Codex, Qwen, Vertex AI, iFlow, Antigravity, Kiro, Trae, and GitHub Copilot via OAuth or API keys.\n- **📊 Standalone Quota Mode**: View quota and accounts without running the proxy server - perfect for quick checks.\n- **🚀 One-Click Agent Configuration**: Auto-detect and configure AI coding tools like Claude Code, OpenCode, Gemini CLI, and more.\n- **📈 Real-time Dashboard**: Monitor request traffic, token usage, and success rates live.\n- **📉 Smart Quota Management**: Visual quota tracking per account with automatic f",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.779773777790217
+  },
+  {
+    "name": "quotio/Config 模块",
+    "description": "[模块级] quotio 项目的 Config 模块 (config)。来源: https://github.com/nguyenphutrong/quotio",
+    "domain": "devops",
+    "tags": [
+      "ai-tools",
+      "developer-tools",
+      "proxy",
+      "quota-monitor",
+      "swift",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "Config 模块说明",
+        "content": "Go to **Agents** tab → Select an installed agent → Click **Configure** → Choose Automatic or Manual mode.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Config 文件结构",
+        "content": "Config/Debug.xcconfig\nConfig/Local.xcconfig.example\nConfig/Release.xcconfig",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.923819022232174
+  },
+  {
+    "name": "quotio/Quotio.xcodeproj 模块",
+    "description": "[模块级] quotio 项目的 Quotio.xcodeproj 模块 (source)。来源: https://github.com/nguyenphutrong/quotio",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "developer-tools",
+      "proxy",
+      "quota-monitor",
+      "swift",
+      "module-level",
+      "source",
+      "quotio.xcodeproj"
+    ],
+    "genes": [
+      {
+        "title": "Quotio.xcodeproj 模块说明",
+        "content": "模块路径: Quotio.xcodeproj/\n类型: source\n文件数: 9\n\n包含文件:\n- Quotio.xcodeproj/project.pbxproj\n- Quotio.xcodeproj/project.xcworkspace\n- Quotio.xcodeproj/project.xcworkspace/contents.xcworkspacedata\n- Quotio.xcodeproj/project.xcworkspace/xcshareddata\n- Quotio.xcodeproj/project.xcworkspace/xcshareddata/swiftpm\n- Quotio.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved\n- Quotio.xcodeproj/xcshareddata\n- Quotio.xcodeproj/xcshareddata/xcschemes\n- Quotio.xcodeproj/xcshareddata/xcschemes/Quotio.xcscheme",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Quotio.xcodeproj 文件结构",
+        "content": "Quotio.xcodeproj/project.pbxproj\nQuotio.xcodeproj/project.xcworkspace\nQuotio.xcodeproj/project.xcworkspace/contents.xcworkspacedata\nQuotio.xcodeproj/project.xcworkspace/xcshareddata\nQuotio.xcodeproj/project.xcworkspace/xcshareddata/swiftpm\nQuotio.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved\nQuotio.xcodeproj/xcshareddata\nQuotio.xcodeproj/xcshareddata/xcschemes\nQuotio.xcodeproj/xcshareddata/xcschemes/Quotio.xcscheme",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.923819022232174
+  },
+  {
+    "name": "quotio/Quotio 模块",
+    "description": "[模块级] quotio 项目的 Quotio 模块 (source)。来源: https://github.com/nguyenphutrong/quotio",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "developer-tools",
+      "proxy",
+      "quota-monitor",
+      "swift",
+      "module-level",
+      "source",
+      "quotio"
+    ],
+    "genes": [
+      {
+        "title": "Quotio 模块说明",
+        "content": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"screenshots/menu_bar_dark.png\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"screenshots/menu_bar.png\" />\n    <img alt=\"Quotio Banner\" src=\"screenshots/menu_bar.png\" height=\"600\" />\n  </picture>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/platform-macOS-lightgrey.svg?style=flat\" alt=\"Platform macOS\" />\n  <img src=\"https://img.shields.io/badge/language-Swift-orange.svg?styl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Quotio 文件结构",
+        "content": "Quotio/Assets.xcassets\nQuotio/Assets.xcassets/AccentColor.colorset\nQuotio/Assets.xcassets/AccentColor.colorset/Contents.json\nQuotio/Assets.xcassets/AppIcon.appiconset\nQuotio/Assets.xcassets/AppIcon.appiconset/Contents.json\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_1024x1024.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_128x128.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_16x16.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_32x32.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png\nQuotio/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.923819022232174
+  }
+]

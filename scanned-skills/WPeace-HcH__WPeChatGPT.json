@@ -1,0 +1,73 @@
+[
+  {
+    "name": "WPeChatGPT (WPeace-HcH)",
+    "description": "[项目级] A plugin for IDA that can help to analyze binary file, it can be based on commonly used AI big models such as OpenAI and DeepSeek.。来源: https://github.com/WPeace-HcH/WPeChatGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "binary-analysis",
+      "chatgpt",
+      "ida",
+      "ida-plugin",
+      "openai",
+      "python",
+      "stars-1281",
+      "github-wpeace-hch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "&emsp;&emsp;From March 2, 2023, I often encounter API errors, and I thought it was a problem of server instability (because I have ups and downs here), but because there are too many feedbacks that I have encountered related errors, so I I first went to OpenAI to check the API Status and found that it was running well, so I found that it might not be the server problem I thought, so I searched and debugged related problems. The following is how I dealt with the OpenAI API connection problem:\n\n&emsp;&emsp;First of all, the plugin has been running under the conditions of **Scientific Online**.\n- Under the condition of scientific Internet access, if you find that the plug-in fails to connect to the API after many attempts, you need to check the urllib3 version of python (version 1.26 has a pr",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r ./requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Auto-WPeGPT_WPeace\nAuto-WPeGPT_WPeace/Auto_WPeGPT.py\nIMG\nIMG/auto-wpegpt_menu.png\nIMG/autogptExample.gif\nIMG/menuInEdit.png\nIMG/menuInPseudocode.png\nIMG/resultExample.gif\nIMG/useExample.gif\nIMG/vulnExample.gif\nREADME.ZH_CN.md\nREADME.md\nWPeChatGPT.py\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Supports using any of the **right click, menu bar or shortcut keys** in IDA.\n- hot key:  \n  `Function analysis = \"Ctrl-Alt-G\"`  \n  `Rename function variables = \"Ctrl-Alt-R\"`  \n  `Vulnerability finding = \"Ctrl-Alt-E\"`  \n\n- Right click on the pseudocode window:\n\n&emsp;&emsp;<img src=\"https://github.com/WPeace-HcH/WPeChatGPT/blob/main/IMG/menuInPseudocode.png\" width=\"788\"/>\n\n- Menu bar: Edit $\\Rightarrow$ WPeChatGPT\n\n&emsp;&emsp;<img src=\"https://github.com/WPeace-HcH/WPeChatGPT/blob/main/IMG/menuInEdit.png\" width=\"360\"/>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.553774564872343
+  },
+  {
+    "name": "WPeChatGPT/IMG 模块",
+    "description": "[模块级] WPeChatGPT 项目的 IMG 模块 (source)。来源: https://github.com/WPeace-HcH/WPeChatGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "binary-analysis",
+      "chatgpt",
+      "ida",
+      "ida-plugin",
+      "openai",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "IMG 模块说明",
+        "content": "模块路径: IMG/\n类型: source\n文件数: 7\n\n包含文件:\n- IMG/auto-wpegpt_menu.png\n- IMG/autogptExample.gif\n- IMG/menuInEdit.png\n- IMG/menuInPseudocode.png\n- IMG/resultExample.gif\n- IMG/useExample.gif\n- IMG/vulnExample.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "IMG 文件结构",
+        "content": "IMG/auto-wpegpt_menu.png\nIMG/autogptExample.gif\nIMG/menuInEdit.png\nIMG/menuInPseudocode.png\nIMG/resultExample.gif\nIMG/useExample.gif\nIMG/vulnExample.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7430196518978747
+  }
+]

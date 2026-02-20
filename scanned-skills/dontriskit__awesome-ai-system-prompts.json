@@ -1,0 +1,458 @@
+[
+  {
+    "name": "awesome-ai-system-prompts (dontriskit)",
+    "description": "[项目级] 🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI. 。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The rise of agentic Artificial Intelligence (AI) systems marks a significant shift from purely conversational models to AI that can actively perform tasks, interact with tools, and pursue complex goals autonomously. These systems, capable of planning, executing commands, editing files, browsing the web, and more, promise to revolutionize how we interact with technology and augment human capabilities.\n\nAt the heart of every effective agentic AI lies its **system prompt**. More than just initial instructions, the system prompt serves as the foundational blueprint, the operational manual, or even the \"constitution\" guiding the AI's behavior, capabilities, limitations, and persona. A well-crafted system prompt is critical for ensuring the agent acts reliably, safely, and effectively towards th",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Augment\nAugment/README.md\nAugment/part_a.js\nAugment/part_b.js\nBlackbox.ai\nBlackbox.ai/Blackbox-Agent.md\nBlackbox.ai/Blackbox-Complete.ts\nBlackbox.ai/README.md\nBlackbox.ai/extraction-scripts\nBolt.new\nBolt.new/prompts.ts\nChatGPT\nChatGPT/4-5.md\nChatGPT/4-5.summary.json\nChatGPT/4o.md\nChatGPT/5.md\nChatGPT/DALLE.md\nChatGPT/GPT-5.md\nChatGPT/study-mode-2025-07-31.md\nChatGPT/system-2025-04-16.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": ">     // Example for dalle tool policy within ChatGPT prompt\n>     namespace dalle {\n>     // Create images from a text-only prompt.\n>     type text2im = (_: {\n>     // The size of the requested image...\n>     size?: (\"1792x1024\" | \"1024x1024\" | \"1024x1792\"),\n>     // The number of images to generate...\n>     n?: number, // default: 1\n>     // The detailed image description...\n>     prompt: string,\n>     // If the user references a previous image...\n>     referenced_image_ids?: string[],\n>     }) => any;\n>     } // namespace dalle\n>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "*   **MDX Components as Tools:** Instead of traditional function calls, v0's \"tools\" are specific MDX component tags like `<CodeProject>` (for wrapping generated code), `<QuickEdit />` (for small code modifications), `<DeleteFile />`, and `<MoveFile />`. The prompt dictates exactly when and how to use these output formats.\n*   **Heavy Domain Specificity:** The prompt is rich with rules specific to Next.js App Router, Tailwind CSS, shadcn/ui, and Vercel's platform constraints (e.g., no `package.json`, how to handle environment variables, pre-installed libraries).\n*   **Implicit Planning via `<T",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8585438624635096
+  },
+  {
+    "name": "awesome-ai-system-prompts/Augment 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Augment 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "augment"
+    ],
+    "genes": [
+      {
+        "title": "Augment 模块说明",
+        "content": "While the four above provide deep examples, other prompts in the repository reinforce these patterns:\n\n*   **Cline & Augment:** Both define tools clearly within the prompt using structured text and XML-like examples, detailing parameters and usage. They emphasize step-by-step execution and waiting for confirmation. Augment, like v0, defines custom editing tools (`editFile`, `strReplaceEditor`) with specific instructions.\n    *[Source: Cline/system.ts](https://github.com/dontriskit/awesome-ai-sys",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Augment 文件结构",
+        "content": "Augment/README.md\nAugment/part_a.js\nAugment/part_b.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Blackbox.ai 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Blackbox.ai 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "blackbox.ai"
+    ],
+    "genes": [
+      {
+        "title": "Blackbox.ai 模块说明",
+        "content": "模块路径: Blackbox.ai/\n类型: source\n文件数: 9\n\n包含文件:\n- Blackbox.ai/Blackbox-Agent.md\n- Blackbox.ai/Blackbox-Complete.ts\n- Blackbox.ai/README.md\n- Blackbox.ai/extraction-scripts\n- Blackbox.ai/extraction-scripts/v0.py\n- Blackbox.ai/extraction-scripts/v1a.py\n- Blackbox.ai/extraction-scripts/v1b.py\n- Blackbox.ai/extraction-scripts/v2.py\n- Blackbox.ai/extraction-scripts/v4.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Blackbox.ai 文件结构",
+        "content": "Blackbox.ai/Blackbox-Agent.md\nBlackbox.ai/Blackbox-Complete.ts\nBlackbox.ai/README.md\nBlackbox.ai/extraction-scripts\nBlackbox.ai/extraction-scripts/v0.py\nBlackbox.ai/extraction-scripts/v1a.py\nBlackbox.ai/extraction-scripts/v1b.py\nBlackbox.ai/extraction-scripts/v2.py\nBlackbox.ai/extraction-scripts/v4.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/ChatGPT 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 ChatGPT 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "chatgpt"
+    ],
+    "genes": [
+      {
+        "title": "ChatGPT 模块说明",
+        "content": "*[Relevant Files: ChatGPT/4-5.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/ChatGPT/4-5.md)* | *[ChatGPT/4o.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/ChatGPT/4o.md)*\n\nChatGPT's prompts (as captured) demonstrate a tight integration of specific tools (plugins/functions) directly within the system message, complete with schemas and detailed operational policies.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ChatGPT 文件结构",
+        "content": "ChatGPT/4-5.md\nChatGPT/4-5.summary.json\nChatGPT/4o.md\nChatGPT/5.md\nChatGPT/DALLE.md\nChatGPT/GPT-5.md\nChatGPT/study-mode-2025-07-31.md\nChatGPT/system-2025-04-16.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Claude-Code 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Claude-Code 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "claude-code"
+    ],
+    "genes": [
+      {
+        "title": "Claude-Code 模块说明",
+        "content": "模块路径: Claude-Code/\n类型: source\n文件数: 10\n\n包含文件:\n- Claude-Code/AgentTool.js\n- Claude-Code/BatchExecutionTool.js\n- Claude-Code/BugReportTool.js\n- Claude-Code/ClearTool.js\n- Claude-Code/EditTool.js\n- Claude-Code/LSTool.js\n- Claude-Code/MemoryTool.js\n- Claude-Code/README.md\n- Claude-Code/ReadNotebook.js\n- Claude-Code/System.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Claude-Code 文件结构",
+        "content": "Claude-Code/AgentTool.js\nClaude-Code/BatchExecutionTool.js\nClaude-Code/BugReportTool.js\nClaude-Code/ClearTool.js\nClaude-Code/EditTool.js\nClaude-Code/LSTool.js\nClaude-Code/MemoryTool.js\nClaude-Code/README.md\nClaude-Code/ReadNotebook.js\nClaude-Code/System.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Claude 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Claude 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "claude"
+    ],
+    "genes": [
+      {
+        "title": "Claude 模块说明",
+        "content": "While the four above provide deep examples, other prompts in the repository reinforce these patterns:\n\n*   **Cline & Augment:** Both define tools clearly within the prompt using structured text and XML-like examples, detailing parameters and usage. They emphasize step-by-step execution and waiting for confirmation. Augment, like v0, defines custom editing tools (`editFile`, `strReplaceEditor`) with specific instructions.\n    *[Source: Cline/system.ts](https://github.com/dontriskit/awesome-ai-sys",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Claude 文件结构",
+        "content": "Claude/Claude-2025-05-06.txt\nClaude/Claude-Sonnet-3.7.txt\nClaude/claude-2026-01-08",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Cluely 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Cluely 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "cluely"
+    ],
+    "genes": [
+      {
+        "title": "Cluely 模块说明",
+        "content": "模块路径: Cluely/\n类型: source\n文件数: 2\n\n包含文件:\n- Cluely/default.md\n- Cluely/enterprise.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Cluely 文件结构",
+        "content": "Cluely/default.md\nCluely/enterprise.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Grok 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Grok 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "grok"
+    ],
+    "genes": [
+      {
+        "title": "Grok 模块说明",
+        "content": "模块路径: Grok/\n类型: source\n文件数: 8\n\n包含文件:\n- Grok/Grok2.md\n- Grok/Grok3.md\n- Grok/Grok3withDeepSearch.md\n- Grok/GrokJailBreakPrompt.md\n- Grok/ask_grok_summarizer.j2\n- Grok/default_deepsearch_final_summarizer_prompt.j2\n- Grok/grok3_official0330_p1.j2\n- Grok/grok_analyze_button.j2",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Grok 文件结构",
+        "content": "Grok/Grok2.md\nGrok/Grok3.md\nGrok/Grok3withDeepSearch.md\nGrok/GrokJailBreakPrompt.md\nGrok/ask_grok_summarizer.j2\nGrok/default_deepsearch_final_summarizer_prompt.j2\nGrok/grok3_official0330_p1.j2\nGrok/grok_analyze_button.j2",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Loveable 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Loveable 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "loveable"
+    ],
+    "genes": [
+      {
+        "title": "Loveable 模块说明",
+        "content": "模块路径: Loveable/\n类型: source\n文件数: 5\n\n包含文件:\n- Loveable/AgentPrompt.md\n- Loveable/AgentTools.json\n- Loveable/Prompt.md\n- Loveable/prev\n- Loveable/prev/Loveable-old.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Loveable 文件结构",
+        "content": "Loveable/AgentPrompt.md\nLoveable/AgentTools.json\nLoveable/Prompt.md\nLoveable/prev\nLoveable/prev/Loveable-old.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Manus 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Manus 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "manus"
+    ],
+    "genes": [
+      {
+        "title": "Manus 模块说明",
+        "content": "*[Relevant Files: Manus/Modules.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/Manus/Modules.md)* | *[Manus/AgentLoop.txt](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/Manus/AgentLoop.txt)* | *[Manus/tools.json](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/Manus/tools.json)*\n\nManus is designed as a broader, general-purpose agent operating within a Linux sandbox. Its standout feature is the explicitly defined operational loop.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Manus 文件结构",
+        "content": "Manus/AgentLoop.txt\nManus/Modules.md\nManus/Prompt.md\nManus/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/MetaAI-Whatsapp 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 MetaAI-Whatsapp 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "metaai-whatsapp"
+    ],
+    "genes": [
+      {
+        "title": "MetaAI-Whatsapp 模块说明",
+        "content": "模块路径: MetaAI-Whatsapp/\n类型: source\n文件数: 3\n\n包含文件:\n- MetaAI-Whatsapp/LLama4.txt\n- MetaAI-Whatsapp/MetaAI.txt\n- MetaAI-Whatsapp/Whatsapp-LLama4-Jul-19-2025.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "MetaAI-Whatsapp 文件结构",
+        "content": "MetaAI-Whatsapp/LLama4.txt\nMetaAI-Whatsapp/MetaAI.txt\nMetaAI-Whatsapp/Whatsapp-LLama4-Jul-19-2025.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Parahelp 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Parahelp 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "parahelp"
+    ],
+    "genes": [
+      {
+        "title": "Parahelp 模块说明",
+        "content": "模块路径: Parahelp/\n类型: source\n文件数: 2\n\n包含文件:\n- Parahelp/manager.md\n- Parahelp/planning.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Parahelp 文件结构",
+        "content": "Parahelp/manager.md\nParahelp/planning.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/Replit 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 Replit 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "replit"
+    ],
+    "genes": [
+      {
+        "title": "Replit 模块说明",
+        "content": "模块路径: Replit/\n类型: source\n文件数: 6\n\n包含文件:\n- Replit/2025-08-11\n- Replit/2025-08-11/prompt.md\n- Replit/2025-08-11/tools.json\n- Replit/before-2025-08-11\n- Replit/before-2025-08-11/system.md\n- Replit/before-2025-08-11/tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Replit 文件结构",
+        "content": "Replit/2025-08-11\nReplit/2025-08-11/prompt.md\nReplit/2025-08-11/tools.json\nReplit/before-2025-08-11\nReplit/before-2025-08-11/system.md\nReplit/before-2025-08-11/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/same.new 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 same.new 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "same.new"
+    ],
+    "genes": [
+      {
+        "title": "same.new 模块说明",
+        "content": "*[Relevant File: same.new/same.new.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/same.new/same.new.md)*\n\nsame.new positions itself as an agentic pair programmer operating within a cloud IDE. Its prompt emphasizes precise tool usage and iterative development workflows.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "same.new 文件结构",
+        "content": "same.new/functions-schema.json\nsame.new/same.new.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/v0 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 v0 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "v0"
+    ],
+    "genes": [
+      {
+        "title": "v0 模块说明",
+        "content": "*[Relevant File: v0/v0.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/v0/v0.md)* | *[v0/v0-tools.md](https://github.com/dontriskit/awesome-ai-system-prompts/blob/main/v0/v0-tools.md)*\n\nVercel's v0 agent specializes in generating UI components and full-stack Next.js applications based on user requests, often including image or screenshot inputs.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "v0 文件结构",
+        "content": "v0/2025-04-05\nv0/2025-04-05/instructions.md\nv0/2025-04-05/v0-model.md\nv0/2025-04-05/v0-tools.md\nv0/2025-04-05/v0.md\nv0/2025-08-11-prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  },
+  {
+    "name": "awesome-ai-system-prompts/windsurf 模块",
+    "description": "[模块级] awesome-ai-system-prompts 项目的 windsurf 模块 (source)。来源: https://github.com/dontriskit/awesome-ai-system-prompts",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-5213",
+      "github-dontriskit",
+      "module-level",
+      "source",
+      "windsurf"
+    ],
+    "genes": [
+      {
+        "title": "windsurf 模块说明",
+        "content": "模块路径: windsurf/\n类型: source\n文件数: 3\n\n包含文件:\n- windsurf/2025-08-11-wave11-tools.md\n- windsurf/2025-08-11-wave11.md\n- windsurf/system-2025-04-20.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "windsurf 文件结构",
+        "content": "windsurf/2025-08-11-wave11-tools.md\nwindsurf/2025-08-11-wave11.md\nwindsurf/system-2025-04-20.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986835089970808
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "chidori (ThousandBirdsInc)",
+    "description": "[项目级] A reactive runtime for building durable AI agents。来源: https://github.com/ThousandBirdsInc/chidori",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "debugging",
+      "framework",
+      "llmops",
+      "rust",
+      "stars-1335",
+      "github-thousandbirdsinc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A reactive runtime for building durable AI agents\n\n来源: https://github.com/ThousandBirdsInc/chidori\n语言: Rust\nStars: 1335",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Justfile\nLICENSE\nREADME.md\ndeployment\ndeployment/README.md\ndeployment/docker-single-container\ndeployment/telemetry\ndevenv.lock\ndevenv.nix\ndevenv.yaml\nlitellm_config.yaml\nmedia\nmedia/ChidoriPanel.png\nmedia/chidoriFrame.png\npyproject.toml\ntoolchain\ntoolchain/.run\ntoolchain/Cargo.lock\ntoolchain/Cargo.toml\ntoolchain/book.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The following example shows how to build a simple agent that fetches the top stories from Hacker News and call the OpenAI API to filter to AI related launches and then format that data into markdown.\n\n------",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "cargo +nightly install chidori-debugger --locked\n```\n\nIf you prefer to use a different python interpreter you can set PYO3_PYTHON=python3.12 (or whichever version > 3.7) during\nyour installation to change which is linked against.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.562740632850297
+  },
+  {
+    "name": "chidori/deployment 模块",
+    "description": "[模块级] chidori 项目的 deployment 模块 (source)。来源: https://github.com/ThousandBirdsInc/chidori",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "debugging",
+      "framework",
+      "llmops",
+      "module-level",
+      "source",
+      "deployment"
+    ],
+    "genes": [
+      {
+        "title": "deployment 模块说明",
+        "content": "模块路径: deployment/\n类型: source\n文件数: 9\n\n包含文件:\n- deployment/README.md\n- deployment/docker-single-container\n- deployment/docker-single-container/Dockerfile\n- deployment/docker-single-container/example_agent\n- deployment/docker-single-container/example_agent/example.md\n- deployment/docker-single-container/init.sh\n- deployment/docker-single-container/litellm_config.yaml\n- deployment/telemetry\n- deployment/telemetry/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deployment 文件结构",
+        "content": "deployment/README.md\ndeployment/docker-single-container\ndeployment/docker-single-container/Dockerfile\ndeployment/docker-single-container/example_agent\ndeployment/docker-single-container/example_agent/example.md\ndeployment/docker-single-container/init.sh\ndeployment/docker-single-container/litellm_config.yaml\ndeployment/telemetry\ndeployment/telemetry/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "chidori/media 模块",
+    "description": "[模块级] chidori 项目的 media 模块 (source)。来源: https://github.com/ThousandBirdsInc/chidori",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "debugging",
+      "framework",
+      "llmops",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 2\n\n包含文件:\n- media/ChidoriPanel.png\n- media/chidoriFrame.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/ChidoriPanel.png\nmedia/chidoriFrame.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  },
+  {
+    "name": "chidori/toolchain 模块",
+    "description": "[模块级] chidori 项目的 toolchain 模块 (source)。来源: https://github.com/ThousandBirdsInc/chidori",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "debugging",
+      "framework",
+      "llmops",
+      "module-level",
+      "source",
+      "toolchain"
+    ],
+    "genes": [
+      {
+        "title": "toolchain 模块说明",
+        "content": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\nrustup toolchain install nightly",
+        "gene_type": "principle"
+      },
+      {
+        "title": "toolchain 文件结构",
+        "content": "toolchain/.run\ntoolchain/.run/Test execution__database__tests__test_traverse_single_node.run.xml\ntoolchain/Cargo.lock\ntoolchain/Cargo.toml\ntoolchain/book.toml\ntoolchain/book_src\ntoolchain/book_src/ARCHITECTURE.md\ntoolchain/book_src/CODE_GENERATION.md\ntoolchain/book_src/COMMON_ERRORS.md\ntoolchain/book_src/DEV_ENVIRONMENT.md\ntoolchain/book_src/FUTURE_WORK.md\ntoolchain/book_src/RUNNING_EXAMPLES.md\ntoolchain/book_src/SUMMARY.md\ntoolchain/book_src/library\ntoolchain/book_src/library/ai.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7501925062802375
+  }
+]

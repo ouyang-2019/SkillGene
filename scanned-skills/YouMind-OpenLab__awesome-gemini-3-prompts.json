@@ -1,0 +1,127 @@
+[
+  {
+    "name": "awesome-gemini-3-prompts (YouMind-OpenLab)",
+    "description": "[项目级] ♊ 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library。来源: https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "gemini-ai",
+      "prompts",
+      "typescript",
+      "stars-404",
+      "github-youmind-openlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "♊ 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library\n\n来源: https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts\n语言: TypeScript\nStars: 404",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_de-DE.md\nREADME_es-419.md\nREADME_es-ES.md\nREADME_fr-FR.md\nREADME_hi-IN.md\nREADME_it-IT.md\nREADME_ja-JP.md\nREADME_ko-KR.md\nREADME_pt-BR.md\nREADME_pt-PT.md\nREADME_th-TH.md\nREADME_tr-TR.md\nREADME_vi-VN.md\nREADME_zh-TW.md\nREADME_zh.md\ndocs\ndocs/CONTRIBUTING.md\ndocs/FAQ.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "##### Image 1\n\n<div align=\"center\">\n<img src=\"https://cms-assets.youmind.com/media/1764209199931_ydctkh_ardodAtG20ci8f5l.jpg\" width=\"600\" alt=\"Thanksgiving Charlie Brown themed store - Image 1\">\n</div>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.303190682555303
+  },
+  {
+    "name": "awesome-gemini-3-prompts/docs 模块",
+    "description": "[模块级] awesome-gemini-3-prompts 项目的 docs 模块 (docs)。来源: https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "gemini-ai",
+      "prompts",
+      "typescript",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/CONTRIBUTING.md\n- docs/FAQ.md\n- docs/LOCAL_DEVELOPMENT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CONTRIBUTING.md\ndocs/FAQ.md\ndocs/LOCAL_DEVELOPMENT.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "awesome-gemini-3-prompts/public 模块",
+    "description": "[模块级] awesome-gemini-3-prompts 项目的 public 模块 (source)。来源: https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "gemini-ai",
+      "prompts",
+      "typescript",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 5\n\n包含文件:\n- public/images\n- public/images/gemini-3-prompts-cover-en.png\n- public/images/gemini-3-prompts-cover-zh.png\n- public/images/gemini-3-prompts-list-en.png\n- public/images/gemini-3-prompts-list-zh.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/images\npublic/images/gemini-3-prompts-cover-en.png\npublic/images/gemini-3-prompts-cover-zh.png\npublic/images/gemini-3-prompts-list-en.png\npublic/images/gemini-3-prompts-list-zh.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "awesome-gemini-3-prompts/scripts 模块",
+    "description": "[模块级] awesome-gemini-3-prompts 项目的 scripts 模块 (script)。来源: https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "gemini-ai",
+      "prompts",
+      "typescript",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 7\n\n包含文件:\n- scripts/generate-readme.ts\n- scripts/sync-approved-to-cms.ts\n- scripts/utils\n- scripts/utils/cms-client.ts\n- scripts/utils/i18n.ts\n- scripts/utils/image-uploader.ts\n- scripts/utils/markdown-generator.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/generate-readme.ts\nscripts/sync-approved-to-cms.ts\nscripts/utils\nscripts/utils/cms-client.ts\nscripts/utils/i18n.ts\nscripts/utils/image-uploader.ts\nscripts/utils/markdown-generator.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  }
+]

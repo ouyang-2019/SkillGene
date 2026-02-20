@@ -1,0 +1,89 @@
+[
+  {
+    "name": "toolkit-ai (toolkit-ai)",
+    "description": "[项目级] AI-agents that automatically generate and use Langchain Tools and ChatGPT plugins。来源: https://github.com/toolkit-ai/toolkit-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-537",
+      "github-toolkit-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI-agents that automatically generate and use Langchain Tools and ChatGPT plugins\n\n来源: https://github.com/toolkit-ai/toolkit-ai\n语言: TypeScript\nStars: 537",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ndist\ndist/ToolFormatter.d.ts\ndist/ToolFormatter.d.ts.map\ndist/ToolIterator.d.ts\ndist/ToolIterator.d.ts.map\ndist/Toolkit.d.ts\ndist/Toolkit.d.ts.map\ndist/chains\ndist/examples\ndist/index.d.ts\ndist/index.d.ts.map\ndist/index.js\ndist/lib\ndist/toolkit-iterate.d.ts\ndist/toolkit-iterate.d.ts.map\ndist/toolkit-iterate.js\ndist/tools\npackage.json\npnpm-lock.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "yarn add @heypal/toolkit-ai",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3649871428497775
+  },
+  {
+    "name": "toolkit-ai/src 模块",
+    "description": "[模块级] toolkit-ai 项目的 src 模块 (source)。来源: https://github.com/toolkit-ai/toolkit-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-537",
+      "github-toolkit-ai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 20\n\n包含文件:\n- src/ToolFormatter.ts\n- src/ToolIterator.ts\n- src/Toolkit.ts\n- src/chains\n- src/chains/BaseToolGenerationChain.ts\n- src/chains/ExecutorToolGenerationChain.ts\n- src/chains/IterativeToolGenerationChain.ts\n- src/chains/SimpleToolGenerationChain.ts\n- src/examples\n- src/examples/generate-tool.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/ToolFormatter.ts\nsrc/ToolIterator.ts\nsrc/Toolkit.ts\nsrc/chains\nsrc/chains/BaseToolGenerationChain.ts\nsrc/chains/ExecutorToolGenerationChain.ts\nsrc/chains/IterativeToolGenerationChain.ts\nsrc/chains/SimpleToolGenerationChain.ts\nsrc/examples\nsrc/examples/generate-tool.ts\nsrc/index.ts\nsrc/lib\nsrc/lib/npm-registry.ts\nsrc/lib/schemas.ts\nsrc/lib/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5919897142798223
+  },
+  {
+    "name": "toolkit-ai/templates 模块",
+    "description": "[模块级] toolkit-ai 项目的 templates 模块 (source)。来源: https://github.com/toolkit-ai/toolkit-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-537",
+      "github-toolkit-ai",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 5\n\n包含文件:\n- templates/executor-prompt.hbs\n- templates/generate-tool-prompt.hbs\n- templates/iterate-tool-prompt.hbs\n- templates/langchain-tool.hbs\n- templates/tool-spec.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/executor-prompt.hbs\ntemplates/generate-tool-prompt.hbs\ntemplates/iterate-tool-prompt.hbs\ntemplates/langchain-tool.hbs\ntemplates/tool-spec.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5919897142798223
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "responsible-ai (alexandrainst)",
+    "description": "[项目级] Responsible AI knowledge base。来源: https://github.com/alexandrainst/responsible-ai",
+    "domain": "devops",
+    "tags": [
+      "stars-111",
+      "github-alexandrainst",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "1. G. Vilone and L. Longo, \"Explainable Artificial Intelligence: a Systematic Review\",\n[arXiv:2006.00093](https://arxiv.org/abs/2006.00093) [cs.AI]\n2. U. Bhatt et al., \"[Explainable Machine Learning in Deployment](https://dl.acm.org/doi/abs/10.1145/3351095.3375624)\",\nFAT*20 648-657, 2020 - Survey about how XAI is used in practice.  The key results are:\n    1. XAI methods are mainly used by ML engineers / designers for debugging.\n    2. Limitations of the methods are often unclear to those using it.\n    3. The goal og why XAI is used in the first place is often unclear or not well defined, which could potentially lead to using the wrong method.\n3. L. H. Gilpin, \"[Explaining Explanations: An Overview of Interpretability of Machine Learning](https://doi.org/10.1109/DSAA.2018.00018)\",\nIEEE 5th",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.022661489393329
+  }
+]

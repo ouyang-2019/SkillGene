@@ -1,0 +1,123 @@
+[
+  {
+    "name": "awesome-skills (onurkanbakirci)",
+    "description": "[项目级] Browse, search and download AI agent skills。来源: https://github.com/onurkanbakirci/awesome-skills",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "ai",
+      "anthropic",
+      "python",
+      "stars-11",
+      "github-onurkanbakirci",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Browse, search and download AI agent skills\n\n来源: https://github.com/onurkanbakirci/awesome-skills\n语言: Python\nStars: 11",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfile\nREADME.md\napp\napp/api-docs\napp/api\napp/favicon.ico\napp/globals.css\napp/icon.svg\napp/layout.tsx\napp/page.tsx\napp/sitemap.ts\napp/skills\ncomponents.json\ncomponents\ncomponents/navbar.tsx\ncomponents/theme-provider.tsx\ncomponents/ui\ndata\ndata/skills.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5206963425791127
+  },
+  {
+    "name": "awesome-skills/app 模块",
+    "description": "[模块级] awesome-skills 项目的 app 模块 (source)。来源: https://github.com/onurkanbakirci/awesome-skills",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 22\n\n包含文件:\n- app/api-docs\n- app/api-docs/page.tsx\n- app/api\n- app/api/download\n- app/api/download/[id]\n- app/api/download/[id]/route.ts\n- app/api/recommend-skill\n- app/api/recommend-skill/route.ts\n- app/api/skills\n- app/api/skills/[id]",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/api-docs\napp/api-docs/page.tsx\napp/api\napp/api/download\napp/api/download/[id]\napp/api/download/[id]/route.ts\napp/api/recommend-skill\napp/api/recommend-skill/route.ts\napp/api/skills\napp/api/skills/[id]\napp/api/skills/[id]/files\napp/api/skills/[id]/files/route.ts\napp/api/skills/route.ts\napp/favicon.ico\napp/globals.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "awesome-skills/components 模块",
+    "description": "[模块级] awesome-skills 项目的 components 模块 (source)。来源: https://github.com/onurkanbakirci/awesome-skills",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 9\n\n包含文件:\n- components/navbar.tsx\n- components/theme-provider.tsx\n- components/ui\n- components/ui/card.tsx\n- components/ui/dialog.tsx\n- components/ui/input.tsx\n- components/ui/popover.tsx\n- components/ui/select.tsx\n- components/ui/skeleton.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/navbar.tsx\ncomponents/theme-provider.tsx\ncomponents/ui\ncomponents/ui/card.tsx\ncomponents/ui/dialog.tsx\ncomponents/ui/input.tsx\ncomponents/ui/popover.tsx\ncomponents/ui/select.tsx\ncomponents/ui/skeleton.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  },
+  {
+    "name": "awesome-skills/public 模块",
+    "description": "[模块级] awesome-skills 项目的 public 模块 (source)。来源: https://github.com/onurkanbakirci/awesome-skills",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 146\n\n包含文件:\n- public/favicon.svg\n- public/file.svg\n- public/globe.svg\n- public/icon.png\n- public/next.svg\n- public/og_card.png\n- public/robots.txt\n- public/skills\n- public/skills/.gitkeep\n- public/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/favicon.svg\npublic/file.svg\npublic/globe.svg\npublic/icon.png\npublic/next.svg\npublic/og_card.png\npublic/robots.txt\npublic/skills\npublic/skills/.gitkeep\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26/SKILL.md\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26/evaluations\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26/evaluations/README.md\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26/evaluations/conversation-to-wiki.json\npublic/skills/06f65bbf-3f3a-4a19-a3c2-46ec20d03f26/evaluations/decision-record.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.91655707406329
+  }
+]

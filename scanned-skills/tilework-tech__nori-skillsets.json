@@ -1,0 +1,127 @@
+[
+  {
+    "name": "nori-skillsets (tilework-tech)",
+    "description": "[项目级] System for managing collections of agent skills. Switch between skillsets seamlessly!。来源: https://github.com/tilework-tech/nori-skillsets",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "claude",
+      "coding-agent",
+      "typescript",
+      "stars-113",
+      "github-tilework-tech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "System for managing collections of agent skills. Switch between skillsets seamlessly!\n\n来源: https://github.com/tilework-tech/nori-skillsets\n语言: TypeScript\nStars: 113",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g nori-skillsets",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLACK_MIGRATION_INVENTORY.md\nCLAUDE.md\nConsole.png\nLICENSE\nREADME.md\nconfigs\nconfigs/eslint\nconfigs/index.cjs\nconfigs/prettier\nconfigs/typescript\ndocs.md\neslint.config.cjs\nlogo-256.png\nnori-tests\nnori-tests/setup-config-download-install-public-private.md\npackage-lock.json\npackage.json\nrelease-notes-update.md\nrelease-notes.txt\nscripts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.02653922174171
+  },
+  {
+    "name": "nori-skillsets/configs 模块",
+    "description": "[模块级] nori-skillsets 项目的 configs 模块 (config)。来源: https://github.com/tilework-tech/nori-skillsets",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "claude",
+      "coding-agent",
+      "typescript",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 19\n\n包含文件:\n- configs/eslint\n- configs/eslint/ignores.cjs\n- configs/eslint/importOrder.cjs\n- configs/eslint/index.cjs\n- configs/eslint/jsdoc.cjs\n- configs/eslint/jsx.cjs\n- configs/eslint/recommended\n- configs/eslint/recommended/index.cjs\n- configs/eslint/recommended/typescript.cjs\n- configs/eslint/soot.cjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/eslint\nconfigs/eslint/ignores.cjs\nconfigs/eslint/importOrder.cjs\nconfigs/eslint/index.cjs\nconfigs/eslint/jsdoc.cjs\nconfigs/eslint/jsx.cjs\nconfigs/eslint/recommended\nconfigs/eslint/recommended/index.cjs\nconfigs/eslint/recommended/typescript.cjs\nconfigs/eslint/soot.cjs\nconfigs/eslint/utils\nconfigs/eslint/utils/extensions.cjs\nconfigs/eslint/vue.cjs\nconfigs/index.cjs\nconfigs/prettier",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3212313773933677
+  },
+  {
+    "name": "nori-skillsets/scripts 模块",
+    "description": "[模块级] nori-skillsets 项目的 scripts 模块 (script)。来源: https://github.com/tilework-tech/nori-skillsets",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "claude",
+      "coding-agent",
+      "typescript",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/build.sh\n- scripts/cloud_agent_setup.sh\n- scripts/create_skillsets_release.py\n- scripts/package_skillsets.sh\n- scripts/prepublish.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build.sh\nscripts/cloud_agent_setup.sh\nscripts/create_skillsets_release.py\nscripts/package_skillsets.sh\nscripts/prepublish.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3212313773933677
+  },
+  {
+    "name": "nori-skillsets/src 模块",
+    "description": "[模块级] nori-skillsets 项目的 src 模块 (source)。来源: https://github.com/tilework-tech/nori-skillsets",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "claude",
+      "coding-agent",
+      "typescript",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 149\n\n包含文件:\n- src/api\n- src/api/analytics.test.ts\n- src/api/analytics.ts\n- src/api/base.test.ts\n- src/api/base.ts\n- src/api/docs.md\n- src/api/refreshToken.test.ts\n- src/api/refreshToken.ts\n- src/api/registrar.test.ts\n- src/api/registrar.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/api\nsrc/api/analytics.test.ts\nsrc/api/analytics.ts\nsrc/api/base.test.ts\nsrc/api/base.ts\nsrc/api/docs.md\nsrc/api/refreshToken.test.ts\nsrc/api/refreshToken.ts\nsrc/api/registrar.test.ts\nsrc/api/registrar.ts\nsrc/api/registryAuth.test.ts\nsrc/api/registryAuth.ts\nsrc/api/transcript.test.ts\nsrc/api/transcript.ts\nsrc/build.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3212313773933677
+  }
+]

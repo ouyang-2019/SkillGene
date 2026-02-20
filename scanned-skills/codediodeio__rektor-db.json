@@ -1,0 +1,27 @@
+[
+  {
+    "name": "rektor-db (codediodeio)",
+    "description": "[项目级] Rektor Vector Database。来源: https://github.com/codediodeio/rektor-db",
+    "domain": "general",
+    "tags": [
+      "stars-682",
+      "github-codediodeio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Rektor Vector Database\n\n来源: https://github.com/codediodeio/rektor-db\n语言: unknown\nStars: 682",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.416892187328239
+  }
+]

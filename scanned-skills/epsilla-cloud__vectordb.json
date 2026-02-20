@@ -1,0 +1,73 @@
+[
+  {
+    "name": "vectordb (epsilla-cloud)",
+    "description": "[项目级] Epsilla is a high performance Vector Database Management System。来源: https://github.com/epsilla-cloud/vectordb",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-science",
+      "database",
+      "c++",
+      "stars-871",
+      "github-epsilla-cloud",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Epsilla is a high performance Vector Database Management System\n\n来源: https://github.com/epsilla-cloud/vectordb\n语言: C++\nStars: 871",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker pull epsilla/vectordb\ndocker run --pull=always -d -p 8888:8888 -v /data:/data epsilla/vectordb",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nVERSION\nengine\nengine/.dockerignore\nengine/.gitignore\nengine/CMakeLists.txt\nengine/Dockerfile\nengine/Dockerfile.embed\nengine/bindings\nengine/build.sh\nengine/cmd\nengine/config\nengine/db\nengine/logger\nengine/query\nengine/scripts\nengine/server\nengine/services\nengine/test.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* High performance and production-scale similarity search for embedding vectors.\n\n* Full fledged database management system with familiar database, table, and field concepts. Vector is just another field type.\n\n* Metadata filtering.\n\n* Hybrid search with a fusion of dense and sparse vectors.\n\n* Built-in embedding support, with natural language in natural language out search experience.\n\n* Cloud native architecture with compute storage separation, serverless, and multi-tenancy.\n\n* Rich ecosystem integrations including LangChain and LlamaIndex.\n\n* Python/JavaScript/Ruby clients, and REST API int",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.470009077503832
+  },
+  {
+    "name": "vectordb/engine 模块",
+    "description": "[模块级] vectordb 项目的 engine 模块 (source)。来源: https://github.com/epsilla-cloud/vectordb",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "data",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "engine"
+    ],
+    "genes": [
+      {
+        "title": "engine 模块说明",
+        "content": "模块路径: engine/\n类型: source\n文件数: 183\n\n包含文件:\n- engine/.dockerignore\n- engine/.gitignore\n- engine/CMakeLists.txt\n- engine/Dockerfile\n- engine/Dockerfile.embed\n- engine/bindings\n- engine/bindings/python\n- engine/bindings/python/interface.cpp\n- engine/bindings/python/interface.h\n- engine/build.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "engine 文件结构",
+        "content": "engine/.dockerignore\nengine/.gitignore\nengine/CMakeLists.txt\nengine/Dockerfile\nengine/Dockerfile.embed\nengine/bindings\nengine/bindings/python\nengine/bindings/python/interface.cpp\nengine/bindings/python/interface.h\nengine/build.sh\nengine/cmd\nengine/cmd/server\nengine/cmd/server/main.cpp\nengine/config\nengine/config/config.hpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6760072620030657
+  }
+]

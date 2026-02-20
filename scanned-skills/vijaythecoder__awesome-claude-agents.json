@@ -1,0 +1,86 @@
+[
+  {
+    "name": "awesome-claude-agents (vijaythecoder)",
+    "description": "[项目级] An orchestrated sub agent dev team powered by claude code。来源: https://github.com/vijaythecoder/awesome-claude-agents",
+    "domain": "devops",
+    "tags": [
+      "stars-3848",
+      "github-vijaythecoder",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An orchestrated sub agent dev team powered by claude code\n\n来源: https://github.com/vijaythecoder/awesome-claude-agents\n语言: unknown\nStars: 3848",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nagents\nagents/core\nagents/orchestrators\nagents/specialized\nagents/universal\ndocs\ndocs/best-practices.md\ndocs/creating-agents.md\ndocs/dependencies.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.792617531682888
+  },
+  {
+    "name": "awesome-claude-agents/agents 模块",
+    "description": "[模块级] awesome-claude-agents 项目的 agents 模块 (source)。来源: https://github.com/vijaythecoder/awesome-claude-agents",
+    "domain": "devops",
+    "tags": [
+      "stars-3848",
+      "github-vijaythecoder",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "**Supercharge Claude Code with a team of specialized AI agents** that work together to build complete features, debug complex issues, and handle any technology stack with expert-level knowledge.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/core\nagents/core/code-archaeologist.md\nagents/core/code-reviewer.md\nagents/core/documentation-specialist.md\nagents/core/performance-optimizer.md\nagents/orchestrators\nagents/orchestrators/project-analyst.md\nagents/orchestrators/team-configurator.md\nagents/orchestrators/tech-lead-orchestrator.md\nagents/specialized\nagents/specialized/django\nagents/specialized/django/django-api-developer.md\nagents/specialized/django/django-backend-expert.md\nagents/specialized/django/django-orm-expert.md\nagents/specialized/laravel",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.93409402534631
+  },
+  {
+    "name": "awesome-claude-agents/docs 模块",
+    "description": "[模块级] awesome-claude-agents 项目的 docs 模块 (docs)。来源: https://github.com/vijaythecoder/awesome-claude-agents",
+    "domain": "documentation",
+    "tags": [
+      "stars-3848",
+      "github-vijaythecoder",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/best-practices.md\n- docs/creating-agents.md\n- docs/dependencies.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/best-practices.md\ndocs/creating-agents.md\ndocs/dependencies.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.93409402534631
+  }
+]

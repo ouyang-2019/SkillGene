@@ -1,0 +1,94 @@
+[
+  {
+    "name": "antigravity-skills (rmyndharis)",
+    "description": "[项目级] A curated collection of Agent Skills for Google Antigravity。来源: https://github.com/rmyndharis/antigravity-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-370",
+      "github-rmyndharis",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains **300+ specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Antigravity loads metadata (name + description) from every installed skill at session start. More skills means more token usage and a higher chance of irrelevant auto-activation. Prefer targeted installs via search, tags, or bundles. `install --all` is advanced and not recommended for most projects.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CATALOG.md\nLICENSE\nREADME.md\nSECURITY.md\naliases.json\nbin\nbin/cli.js\nbundles.json\ncatalog.json\nlib\nlib/skill-utils.js\npackage-lock.json\npackage.json\nscripts\nscripts/build-catalog.js\nscripts/normalize-frontmatter.js\nscripts/validate-skills.js\nskills\nskills/accessibility-compliance-accessibility-audit\nskills/agent-orchestration-improve-agent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "When a conversation starts, Antigravity loads the **metadata** (name & description) from all skills.\nANTIGRAVITY automatically activates a skill when your request matches its description.\n\n**Examples:**\n\n*   *\"Help me design a REST API for a user service\"* → Activates `api-design-principles` and `backend-architect`.\n*   *\"Scaffold a new FastAPI project\"* → Activates `python-development-python-scaffold`.\n*   *\"Review this PR for security issues\"* → Activates `security-scanning-security-hardening` or `security-auditor`.\n*   *\"Start a new feature track for login\"* → Activates `conductor-new-track",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2841008620334975
+  },
+  {
+    "name": "antigravity-skills/scripts 模块",
+    "description": "[模块级] antigravity-skills 项目的 scripts 模块 (script)。来源: https://github.com/rmyndharis/antigravity-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-370",
+      "github-rmyndharis",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/build-catalog.js\n- scripts/normalize-frontmatter.js\n- scripts/validate-skills.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build-catalog.js\nscripts/normalize-frontmatter.js\nscripts/validate-skills.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.527280689626798
+  },
+  {
+    "name": "antigravity-skills/skills 模块",
+    "description": "[模块级] antigravity-skills 项目的 skills 模块 (source)。来源: https://github.com/rmyndharis/antigravity-skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-370",
+      "github-rmyndharis",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "npx @rmyndharis/antigravity-skills installed",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/accessibility-compliance-accessibility-audit\nskills/accessibility-compliance-accessibility-audit/SKILL.md\nskills/accessibility-compliance-accessibility-audit/resources\nskills/accessibility-compliance-accessibility-audit/resources/implementation-playbook.md\nskills/agent-orchestration-improve-agent\nskills/agent-orchestration-improve-agent/SKILL.md\nskills/agent-orchestration-multi-agent-optimize\nskills/agent-orchestration-multi-agent-optimize/SKILL.md\nskills/ai-engineer\nskills/ai-engineer/SKILL.md\nskills/airflow-dag-patterns\nskills/airflow-dag-patterns/SKILL.md\nskills/airflow-dag-patterns/resources\nskills/airflow-dag-patterns/resources/implementation-playbook.md\nskills/angular-migration",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.527280689626798
+  }
+]

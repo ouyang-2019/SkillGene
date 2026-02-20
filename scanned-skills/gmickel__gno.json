@@ -1,0 +1,38 @@
+[
+  {
+    "name": "gno (gmickel)",
+    "description": "[项目级] Local AI-powered document search and editing with first-in-class hybrid retrieval, LLM answers, WebUI, REST API and MCP support for AI clients.。来源: https://github.com/gmickel/gno",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "bun",
+      "cli",
+      "code-search",
+      "document-search",
+      "typescript",
+      "stars-45",
+      "github-gmickel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Local AI-powered document search and editing with first-in-class hybrid retrieval, LLM answers, WebUI, REST API and MCP support for AI clients.\n\n来源: https://github.com/gmickel/gno\n语言: TypeScript\nStars: 45",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "gno init ~/notes --name notes    # Point at your docs\ngno index                        # Build search index\ngno query \"auth best practices\"  # Hybrid search\ngno ask \"summarize the API\" --answer  # AI answer with citations",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature              | Description                                                                    |\n| :------------------- | :----------------------------------------------------------------------------- |\n| **Hybrid Search**    | BM25 + vector + RRF fusion + cross-encoder reranking                           |\n| **Document Editor**  | Create, edit, delete docs with live markdown preview                           |\n| **Web UI**           | Visual dashboard for search, browse, edit, and AI Q&A                          |\n| **REST API**         | HTTP API for custom tools and integrations   ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.826606256887672
+  }
+]

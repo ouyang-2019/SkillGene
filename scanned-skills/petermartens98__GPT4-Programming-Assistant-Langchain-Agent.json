@@ -1,0 +1,247 @@
+[
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent (petermartens98)",
+    "description": "[项目级] Streamlit web app utilizing OpenAI (GPT-4) and LangChain LLM tools. Application includes an SQLite DB for login/authentication and message storage for later retrieval. Users can upload/embed their own PDF documents for chatbot reference. The user can then interact with a GPT-4 chatbot intended for the user's specified input, context, and scenario.。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "stars-34",
+      "github-petermartens98",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Streamlit web app utilizing OpenAI (GPT-4) and LangChain LLM tools. Application includes an SQLite DB for login/authentication and message storage for later retrieval. Users can upload/embed their own PDF documents for chatbot reference. The user can then interact with a GPT-4 chatbot intended for the user's specified input, context, and scenario.\n\n来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent\n语言: Python\nStars: 34",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AppV1\nAppV1/.env.example\nAppV1/main.py\nAppV2\nAppV2/.env\nAppV2/htmlTemplates.py\nAppV2/main.py\nAppV3\nAppV3/.env\nAppV3/htmlTemplates.py\nAppV3/main.py\nAppV3/prompts.py\nAppV3/trippyPattern.png\nAppV4\nAppV4/.env\nAppV4/htmlTemplates.py\nAppV4/main.py\nAppV4/prompts.py\nAppV4/trippyPattern.png\nAppV5",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "![image](https://github.com/petermartens98/GPT4-Programming-Assistant/assets/87671757/688eb70b-e84e-4dcc-9f68-a05ca414d665)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7657394585211277
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV1 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV1 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv1"
+    ],
+    "genes": [
+      {
+        "title": "AppV1 模块说明",
+        "content": "模块路径: AppV1/\n类型: source\n文件数: 2\n\n包含文件:\n- AppV1/.env.example\n- AppV1/main.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV1 文件结构",
+        "content": "AppV1/.env.example\nAppV1/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV2 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV2 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv2"
+    ],
+    "genes": [
+      {
+        "title": "AppV2 模块说明",
+        "content": "模块路径: AppV2/\n类型: source\n文件数: 3\n\n包含文件:\n- AppV2/.env\n- AppV2/htmlTemplates.py\n- AppV2/main.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV2 文件结构",
+        "content": "AppV2/.env\nAppV2/htmlTemplates.py\nAppV2/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV3 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV3 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv3"
+    ],
+    "genes": [
+      {
+        "title": "AppV3 模块说明",
+        "content": "模块路径: AppV3/\n类型: source\n文件数: 5\n\n包含文件:\n- AppV3/.env\n- AppV3/htmlTemplates.py\n- AppV3/main.py\n- AppV3/prompts.py\n- AppV3/trippyPattern.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV3 文件结构",
+        "content": "AppV3/.env\nAppV3/htmlTemplates.py\nAppV3/main.py\nAppV3/prompts.py\nAppV3/trippyPattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV4 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV4 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv4"
+    ],
+    "genes": [
+      {
+        "title": "AppV4 模块说明",
+        "content": "模块路径: AppV4/\n类型: source\n文件数: 5\n\n包含文件:\n- AppV4/.env\n- AppV4/htmlTemplates.py\n- AppV4/main.py\n- AppV4/prompts.py\n- AppV4/trippyPattern.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV4 文件结构",
+        "content": "AppV4/.env\nAppV4/htmlTemplates.py\nAppV4/main.py\nAppV4/prompts.py\nAppV4/trippyPattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV5 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV5 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv5"
+    ],
+    "genes": [
+      {
+        "title": "AppV5 模块说明",
+        "content": "模块路径: AppV5/\n类型: source\n文件数: 6\n\n包含文件:\n- AppV5/.env\n- AppV5/htmlTemplates.py\n- AppV5/main.py\n- AppV5/prompts.py\n- AppV5/requirements.txt\n- AppV5/trippyPattern.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV5 文件结构",
+        "content": "AppV5/.env\nAppV5/htmlTemplates.py\nAppV5/main.py\nAppV5/prompts.py\nAppV5/requirements.txt\nAppV5/trippyPattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV6 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV6 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv6"
+    ],
+    "genes": [
+      {
+        "title": "AppV6 模块说明",
+        "content": "模块路径: AppV6/\n类型: source\n文件数: 6\n\n包含文件:\n- AppV6/.env\n- AppV6/htmlTemplates.py\n- AppV6/main.py\n- AppV6/prompts.py\n- AppV6/requirements.txt\n- AppV6/trippyPattern.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV6 文件结构",
+        "content": "AppV6/.env\nAppV6/htmlTemplates.py\nAppV6/main.py\nAppV6/prompts.py\nAppV6/requirements.txt\nAppV6/trippyPattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  },
+  {
+    "name": "GPT4-Programming-Assistant-Langchain-Agent/AppV7 模块",
+    "description": "[模块级] GPT4-Programming-Assistant-Langchain-Agent 项目的 AppV7 模块 (source)。来源: https://github.com/petermartens98/GPT4-Programming-Assistant-Langchain-Agent",
+    "domain": "devops",
+    "tags": [
+      "gpt4",
+      "langchain",
+      "openai",
+      "python",
+      "sqlite3",
+      "module-level",
+      "source",
+      "appv7"
+    ],
+    "genes": [
+      {
+        "title": "AppV7 模块说明",
+        "content": "模块路径: AppV7/\n类型: source\n文件数: 7\n\n包含文件:\n- AppV7/.env\n- AppV7/db_functions.py\n- AppV7/htmlTemplates.py\n- AppV7/main.py\n- AppV7/prompts.py\n- AppV7/requirements.txt\n- AppV7/trippyPattern.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppV7 文件结构",
+        "content": "AppV7/.env\nAppV7/db_functions.py\nAppV7/htmlTemplates.py\nAppV7/main.py\nAppV7/prompts.py\nAppV7/requirements.txt\nAppV7/trippyPattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  }
+]

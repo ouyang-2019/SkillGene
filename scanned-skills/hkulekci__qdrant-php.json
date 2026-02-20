@@ -1,0 +1,96 @@
+[
+  {
+    "name": "qdrant-php (hkulekci)",
+    "description": "[项目级] Qdrant is a vector similarity engine & vector database. It deploys as an API service providing search for the nearest high-dimensional vectors. With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more!。来源: https://github.com/hkulekci/qdrant-php",
+    "domain": "devops",
+    "tags": [
+      "php",
+      "php-client",
+      "qdrant",
+      "qdrant-vector-database",
+      "stars-154",
+      "github-hkulekci",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Qdrant is a vector similarity engine & vector database. It deploys as an API service providing search for the nearest high-dimensional vectors. With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more!\n\n来源: https://github.com/hkulekci/qdrant-php\n语言: PHP\nStars: 154",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "composer require hkulekci/qdrant",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncomposer.json\nphpunit.xml\nsrc\nsrc/ClientInterface.php\nsrc/Config.php\nsrc/Domain\nsrc/Endpoints\nsrc/Exception\nsrc/Http\nsrc/Models\nsrc/Qdrant.php\nsrc/Response.php\ntests\ntests/Integration\ntests/Unit",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.093760360418232
+  },
+  {
+    "name": "qdrant-php/src 模块",
+    "description": "[模块级] qdrant-php 项目的 src 模块 (source)。来源: https://github.com/hkulekci/qdrant-php",
+    "domain": "devops",
+    "tags": [
+      "php",
+      "php-client",
+      "qdrant",
+      "qdrant-vector-database",
+      "stars-154",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 100\n\n包含文件:\n- src/ClientInterface.php\n- src/Config.php\n- src/Domain\n- src/Domain/Assert.php\n- src/Endpoints\n- src/Endpoints/AbstractEndpoint.php\n- src/Endpoints/Aliases.php\n- src/Endpoints/Cluster.php\n- src/Endpoints/Collections.php\n- src/Endpoints/Collections",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/ClientInterface.php\nsrc/Config.php\nsrc/Domain\nsrc/Domain/Assert.php\nsrc/Endpoints\nsrc/Endpoints/AbstractEndpoint.php\nsrc/Endpoints/Aliases.php\nsrc/Endpoints/Cluster.php\nsrc/Endpoints/Collections.php\nsrc/Endpoints/Collections\nsrc/Endpoints/Collections/Aliases.php\nsrc/Endpoints/Collections/Cluster.php\nsrc/Endpoints/Collections/Index.php\nsrc/Endpoints/Collections/Points.php\nsrc/Endpoints/Collections/Points",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3750082883345853
+  },
+  {
+    "name": "qdrant-php/tests 模块",
+    "description": "[模块级] qdrant-php 项目的 tests 模块 (test)。来源: https://github.com/hkulekci/qdrant-php",
+    "domain": "testing",
+    "tags": [
+      "php",
+      "php-client",
+      "qdrant",
+      "qdrant-vector-database",
+      "stars-154",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 84\n\n包含文件:\n- tests/Integration\n- tests/Integration/AbstractIntegration.php\n- tests/Integration/ClientTest.php\n- tests/Integration/Endpoints\n- tests/Integration/Endpoints/AliasesTest.php\n- tests/Integration/Endpoints/ClusterTest.php\n- tests/Integration/Endpoints/Collections\n- tests/Integration/Endpoints/Collections/AliasesTest.php\n- tests/Integration/Endpoints/Collections/ClusterTest.php\n- tests/Integration/Endpoints/Collections/IndexTest.php",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/Integration\ntests/Integration/AbstractIntegration.php\ntests/Integration/ClientTest.php\ntests/Integration/Endpoints\ntests/Integration/Endpoints/AliasesTest.php\ntests/Integration/Endpoints/ClusterTest.php\ntests/Integration/Endpoints/Collections\ntests/Integration/Endpoints/Collections/AliasesTest.php\ntests/Integration/Endpoints/Collections/ClusterTest.php\ntests/Integration/Endpoints/Collections/IndexTest.php\ntests/Integration/Endpoints/Collections/MultiVectorSearchTest.php\ntests/Integration/Endpoints/Collections/Points\ntests/Integration/Endpoints/Collections/Points/PayloadTest.php\ntests/Integration/Endpoints/Collections/Points/RecommendTest.php\ntests/Integration/Endpoints/Collections/PointsTest.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3750082883345853
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "name": "beeai-framework (i-am-bee)",
+    "description": "[项目级] Build production-ready AI agents in both Python and Typescript.。来源: https://github.com/i-am-bee/beeai-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent",
+      "beeai",
+      "framework",
+      "python",
+      "stars-3111",
+      "github-i-am-bee",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build production-ready AI agents in both Python and Typescript.\n\n来源: https://github.com/i-am-bee/beeai-framework\n语言: Python\nStars: 3111",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install beeai-framework",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCODE_OF_CONDUCT.md\nLICENSE\nMAINTAINERS.md\nREADME.md\nSECURITY.md\ndocs\ndocs/.editorconfig\ndocs/.gitattributes\ndocs/.gitignore\ndocs/.nojekyll\ndocs/.yarnrc.yml\ndocs/CONTRIBUTING.md\ndocs/community\ndocs/docs.json\ndocs/favicon.svg\ndocs/guides\ndocs/integrations\ndocs/introduction\ndocs/logo",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import asyncio\n\nfrom beeai_framework.agents.requirement import RequirementAgent\nfrom beeai_framework.agents.requirement.requirements.conditional import ConditionalRequirement\nfrom beeai_framework.backend import ChatModel\nfrom beeai_framework.errors import FrameworkError\nfrom beeai_framework.middleware.trajectory import GlobalTrajectoryMiddleware\nfrom beeai_framework.tools import Tool\nfrom beeai_framework.tools.handoff import HandoffTool\nfrom beeai_framework.tools.search.wikipedia import WikipediaTool\nfrom beeai_framework.tools.think import ThinkTool\nfrom beeai_framework.tools.weather import Op",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature                                                                   | Description                                                                                                                                                                    |\n| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| 🤖 [**Requirement Agent**](https://framework.beeai.dev/modules/agents)    | Create predi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.746450005554352
+  },
+  {
+    "name": "beeai-framework/docs 模块",
+    "description": "[模块级] beeai-framework 项目的 docs 模块 (docs)。来源: https://github.com/i-am-bee/beeai-framework",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent",
+      "beeai",
+      "framework",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 54\n\n包含文件:\n- docs/.editorconfig\n- docs/.gitattributes\n- docs/.gitignore\n- docs/.nojekyll\n- docs/.yarnrc.yml\n- docs/CONTRIBUTING.md\n- docs/community\n- docs/community/community-calls\n- docs/community/community-calls/15-07-2025.md\n- docs/community/community-calls/16-09-2025.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.editorconfig\ndocs/.gitattributes\ndocs/.gitignore\ndocs/.nojekyll\ndocs/.yarnrc.yml\ndocs/CONTRIBUTING.md\ndocs/community\ndocs/community/community-calls\ndocs/community/community-calls/15-07-2025.md\ndocs/community/community-calls/16-09-2025.md\ndocs/community/community-calls/18-11-2025.md\ndocs/community/community-calls/26-08-2025.md\ndocs/community/contribute.mdx\ndocs/docs.json\ndocs/favicon.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8971600044434815
+  },
+  {
+    "name": "beeai-framework/python 模块",
+    "description": "[模块级] beeai-framework 项目的 python 模块 (source)。来源: https://github.com/i-am-bee/beeai-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent",
+      "beeai",
+      "framework",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 116\n\n包含文件:\n- python/.env.example\n- python/.gitignore\n- python/CHANGELOG.md\n- python/CONTRIBUTING.md\n- python/LICENSE\n- python/README.md\n- python/SECURITY.md\n- python/beeai_framework\n- python/beeai_framework/__init__.py\n- python/beeai_framework/adapters",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/.env.example\npython/.gitignore\npython/CHANGELOG.md\npython/CONTRIBUTING.md\npython/LICENSE\npython/README.md\npython/SECURITY.md\npython/beeai_framework\npython/beeai_framework/__init__.py\npython/beeai_framework/adapters\npython/beeai_framework/adapters/__init__.py\npython/beeai_framework/adapters/a2a\npython/beeai_framework/adapters/a2a/__init__.py\npython/beeai_framework/adapters/a2a/agents\npython/beeai_framework/adapters/a2a/agents/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8971600044434815
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "name": "awesomeAgentskills (littleben)",
+    "description": "[项目级] A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "github-littleben",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of skills for Claude Code and other AI agents | 精选的 Claude Code 和其他 AI 智能体技能集合\n\n来源: https://github.com/littleben/awesomeAgentskills\n语言: JavaScript\nStars: 142",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Fork this repository\n2. Add your skill in a new directory\n3. Follow the [skill template structure](./CONTRIBUTING.md#skill-structure)\n4. Submit a pull request",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_CN.md\ndeploying-to-production\ndeploying-to-production/CHECKLIST.md\ndeploying-to-production/SKILL.md\ndeploying-to-production/TROUBLESHOOTING.md\ndeploying-to-production/scripts\ndoc-sync-tool\ndoc-sync-tool/.gitignore\ndoc-sync-tool/EXAMPLES.md\ndoc-sync-tool/INDEX.md\ndoc-sync-tool/QUICKSTART.md\ndoc-sync-tool/README.md\ndoc-sync-tool/SKILL.md\ndoc-sync-tool/package.json\ndoc-sync-tool/rename-quick.js\ndoc-sync-tool/rename-to-uppercase.sh\ndoc-sync-tool/run-sync.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.076144172191528
+  },
+  {
+    "name": "awesomeAgentskills/deploying-to-production 模块",
+    "description": "[模块级] awesomeAgentskills 项目的 deploying-to-production 模块 (source)。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "module-level",
+      "source",
+      "deploying-to-production"
+    ],
+    "genes": [
+      {
+        "title": "deploying-to-production 模块说明",
+        "content": "Automates GitHub repository creation and Vercel deployment for Next.js websites.\n\n**Use when:**\n- Deploying new websites to production\n- Setting up CI/CD pipelines\n- Configuring GitHub + Vercel integration\n- Going live with your application\n\n**Features:**\n- Automated GitHub repository creation\n- One-command Vercel deployment\n- Pre-deployment validation checklist\n- Post-deployment verification\n- Comprehensive troubleshooting guide\n\n**Tech Stack:** GitHub CLI, Vercel CLI, Next.js\n\n[View Skill →](.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploying-to-production 文件结构",
+        "content": "deploying-to-production/CHECKLIST.md\ndeploying-to-production/SKILL.md\ndeploying-to-production/TROUBLESHOOTING.md\ndeploying-to-production/scripts\ndeploying-to-production/scripts/create-github-repo.sh\ndeploying-to-production/scripts/deploy-to-vercel.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3609153377532226
+  },
+  {
+    "name": "awesomeAgentskills/doc-sync-tool 模块",
+    "description": "[模块级] awesomeAgentskills 项目的 doc-sync-tool 模块 (source)。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "module-level",
+      "source",
+      "doc-sync-tool"
+    ],
+    "genes": [
+      {
+        "title": "doc-sync-tool 模块说明",
+        "content": "模块路径: doc-sync-tool/\n类型: source\n文件数: 14\n\n包含文件:\n- doc-sync-tool/.gitignore\n- doc-sync-tool/EXAMPLES.md\n- doc-sync-tool/INDEX.md\n- doc-sync-tool/QUICKSTART.md\n- doc-sync-tool/README.md\n- doc-sync-tool/SKILL.md\n- doc-sync-tool/package.json\n- doc-sync-tool/rename-quick.js\n- doc-sync-tool/rename-to-uppercase.sh\n- doc-sync-tool/run-sync.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc-sync-tool 文件结构",
+        "content": "doc-sync-tool/.gitignore\ndoc-sync-tool/EXAMPLES.md\ndoc-sync-tool/INDEX.md\ndoc-sync-tool/QUICKSTART.md\ndoc-sync-tool/README.md\ndoc-sync-tool/SKILL.md\ndoc-sync-tool/package.json\ndoc-sync-tool/rename-quick.js\ndoc-sync-tool/rename-to-uppercase.sh\ndoc-sync-tool/run-sync.sh\ndoc-sync-tool/run-watch.sh\ndoc-sync-tool/sync.js\ndoc-sync-tool/test.sh\ndoc-sync-tool/watch.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3609153377532226
+  },
+  {
+    "name": "awesomeAgentskills/google-official-seo-guide 模块",
+    "description": "[模块级] awesomeAgentskills 项目的 google-official-seo-guide 模块 (source)。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "module-level",
+      "source",
+      "google-official-seo-guide"
+    ],
+    "genes": [
+      {
+        "title": "google-official-seo-guide 模块说明",
+        "content": "模块路径: google-official-seo-guide/\n类型: source\n文件数: 11\n\n包含文件:\n- google-official-seo-guide/SKILL.md\n- google-official-seo-guide/references\n- google-official-seo-guide/references/apis.md\n- google-official-seo-guide/references/appearance.md\n- google-official-seo-guide/references/crawling.md\n- google-official-seo-guide/references/fundamentals.md\n- google-official-seo-guide/references/guides.md\n- google-official-seo-guide/references/index.md\n- google-official-seo-guide/references/indexing.md\n- google-official-seo-guide/references/other.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "google-official-seo-guide 文件结构",
+        "content": "google-official-seo-guide/SKILL.md\ngoogle-official-seo-guide/references\ngoogle-official-seo-guide/references/apis.md\ngoogle-official-seo-guide/references/appearance.md\ngoogle-official-seo-guide/references/crawling.md\ngoogle-official-seo-guide/references/fundamentals.md\ngoogle-official-seo-guide/references/guides.md\ngoogle-official-seo-guide/references/index.md\ngoogle-official-seo-guide/references/indexing.md\ngoogle-official-seo-guide/references/other.md\ngoogle-official-seo-guide/references/specialty.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3609153377532226
+  },
+  {
+    "name": "awesomeAgentskills/internationalizing-websites 模块",
+    "description": "[模块级] awesomeAgentskills 项目的 internationalizing-websites 模块 (source)。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "module-level",
+      "source",
+      "internationalizing-websites"
+    ],
+    "genes": [
+      {
+        "title": "internationalizing-websites 模块说明",
+        "content": "Adds multi-language support to Next.js websites with proper SEO configuration.\n\n**Use when:**\n- Adding new language versions to existing website\n- Setting up i18n for new website\n- Configuring SEO for multiple languages\n- Optimizing for international markets\n\n**Features:**\n- Automated language file generation\n- SEO-optimized hreflang tags\n- Localized sitemaps\n- Language-specific content management\n- Support for 15+ languages\n\n**Tech Stack:** Next.js, next-intl\n\n[View Skill →](./internationalizin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internationalizing-websites 文件结构",
+        "content": "internationalizing-websites/SKILL.md\ninternationalizing-websites/WORKFLOW.md\ninternationalizing-websites/reference\ninternationalizing-websites/reference/hreflang-guide.md\ninternationalizing-websites/reference/locale-codes.md\ninternationalizing-websites/reference/seo-checklist.md\ninternationalizing-websites/scripts\ninternationalizing-websites/scripts/i18n-add-languages.mjs\ninternationalizing-websites/scripts/i18n-add-schema.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3609153377532226
+  },
+  {
+    "name": "awesomeAgentskills/shipany 模块",
+    "description": "[模块级] awesomeAgentskills 项目的 shipany 模块 (source)。来源: https://github.com/littleben/awesomeAgentskills",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "claude-code",
+      "skills",
+      "javascript",
+      "stars-142",
+      "module-level",
+      "source",
+      "shipany"
+    ],
+    "genes": [
+      {
+        "title": "shipany 模块说明",
+        "content": "Complete documentation reference for Shipany AI-powered SaaS boilerplate framework.\n\n**Use when:**\n- Building SaaS applications with Shipany template\n- Configuring Next.js 15 + Drizzle ORM + NextAuth\n- Integrating payment systems (Stripe/Creem)\n- Setting up multi-language SaaS applications\n- Implementing AI features in SaaS products\n\n**Features:**\n- 228 pages of comprehensive documentation\n- Database configuration with Drizzle ORM\n- Authentication system (Google/GitHub)\n- Payment integration (St",
+        "gene_type": "principle"
+      },
+      {
+        "title": "shipany 文件结构",
+        "content": "shipany/SKILL.md\nshipany/references\nshipany/references/api.md\nshipany/references/authentication.md\nshipany/references/components.md\nshipany/references/configuration.md\nshipany/references/database.md\nshipany/references/deployment.md\nshipany/references/features.md\nshipany/references/getting_started.md\nshipany/references/index.md\nshipany/references/internationalization.md\nshipany/references/other.md\nshipany/references/payment.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3609153377532226
+  }
+]

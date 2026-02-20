@@ -1,0 +1,61 @@
+[
+  {
+    "name": "libMultiRobotPlanning (whoenig)",
+    "description": "[项目级] Library with search algorithms for task and path planning for multi robot/agent systems。来源: https://github.com/whoenig/libMultiRobotPlanning",
+    "domain": "ai-llm",
+    "tags": [
+      "c++",
+      "stars-985",
+      "github-whoenig",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Library with search algorithms for task and path planning for multi robot/agent systems\n\n来源: https://github.com/whoenig/libMultiRobotPlanning\n语言: C++\nStars: 985",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nInstallPackagesUbuntu\nLICENSE\nREADME.md\n__init__.py\nbenchmark\nbenchmark/32x32_obst204",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.496718115248806
+  },
+  {
+    "name": "libMultiRobotPlanning/benchmark 模块",
+    "description": "[模块级] libMultiRobotPlanning 项目的 benchmark 模块 (source)。来源: https://github.com/whoenig/libMultiRobotPlanning",
+    "domain": "ai-llm",
+    "tags": [
+      "c++",
+      "stars-985",
+      "github-whoenig",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 188\n\n包含文件:\n- benchmark/32x32_obst204\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex0.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex1.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex10.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex11.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex12.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex13.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex14.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex15.yaml\n- benchmark/32x32_obst204/map_32by32_obst204_agents100_ex16.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/32x32_obst204\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex0.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex1.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex10.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex11.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex12.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex13.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex14.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex15.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex16.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex17.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex18.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex19.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex2.yaml\nbenchmark/32x32_obst204/map_32by32_obst204_agents100_ex20.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.697374492199045
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "the-startup (rsmdt)",
+    "description": "[项目级] The Agentic Startup - A collection of Claude Code commands, skills, and agents.。来源: https://github.com/rsmdt/the-startup",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-marketplace",
+      "claude-plugin",
+      "shell",
+      "stars-189",
+      "github-rsmdt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.\n\n来源: https://github.com/rsmdt/the-startup\n语言: Shell\nStars: 189",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "curl -fsSL https://raw.githubusercontent.com/rsmdt/the-startup/main/install.sh | sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nMIGRATION.md\nREADME.md\ndocs\ndocs/PHILOSOPHY.md\ndocs/PRINCIPLES.md\ndocs/patterns\ndocs/specs\ninstall.sh\nlogo.png\nplugins\nplugins/start\nplugins/team",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Capability | constitution | specify | implement | validate | test | review | document | analyze | refactor | debug |\n|------------|:------------:|:-------:|:---------:|:--------:|:----:|:------:|:--------:|:-------:|:--------:|:-----:|\n| **Creates specifications** | - | ✅ | - | - | - | - | - | - | - | - |\n| **Executes implementation plans** | - | - | ✅ | - | - | - | - | - | - | - |\n| **Runs tests** | - | - | ✅ | ✅ | ✅ | - | - | - | ✅ | ✅ |\n| **Creates git branches** | - | ✅ | ✅ | - | - | - | - | - | ✅ | - |\n| **Creates PRs** | - | ✅ | ✅ | - | - | - | - | - | - | - |\n| **Multi-agent parallel*",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.138230902086622
+  },
+  {
+    "name": "the-startup/docs 模块",
+    "description": "[模块级] the-startup 项目的 docs 模块 (docs)。来源: https://github.com/rsmdt/the-startup",
+    "domain": "documentation",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-marketplace",
+      "claude-plugin",
+      "shell",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/PHILOSOPHY.md\n- docs/PRINCIPLES.md\n- docs/patterns\n- docs/patterns/agent-delegation-patterns.md\n- docs/patterns/slim-agent-architecture.md\n- docs/specs\n- docs/specs/003-claude-code-skills-integration\n- docs/specs/003-claude-code-skills-integration/implementation-plan.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/PHILOSOPHY.md\ndocs/PRINCIPLES.md\ndocs/patterns\ndocs/patterns/agent-delegation-patterns.md\ndocs/patterns/slim-agent-architecture.md\ndocs/specs\ndocs/specs/003-claude-code-skills-integration\ndocs/specs/003-claude-code-skills-integration/implementation-plan.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4105847216692977
+  },
+  {
+    "name": "the-startup/plugins 模块",
+    "description": "[模块级] the-startup 项目的 plugins 模块 (source)。来源: https://github.com/rsmdt/the-startup",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-marketplace",
+      "claude-plugin",
+      "shell",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "The Agentic Startup is distributed as **Claude Code marketplace plugins**—native integration with zero manual configuration.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/start\nplugins/start/.claude-plugin\nplugins/start/.claude-plugin/plugin.json\nplugins/start/README.md\nplugins/start/output-styles\nplugins/start/output-styles/the-scaleup.md\nplugins/start/output-styles/the-startup.md\nplugins/start/skills\nplugins/start/skills/analyze\nplugins/start/skills/analyze/SKILL.md\nplugins/start/skills/constitution\nplugins/start/skills/constitution/SKILL.md\nplugins/start/skills/constitution/examples\nplugins/start/skills/constitution/examples/CONSTITUTION.md\nplugins/start/skills/constitution/reference",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4105847216692977
+  }
+]

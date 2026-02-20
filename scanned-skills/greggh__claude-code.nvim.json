@@ -1,0 +1,168 @@
+[
+  {
+    "name": "claude-code.nvim (greggh)",
+    "description": "[项目级] Seamless integration between Claude Code AI assistant and Neovim。来源: https://github.com/greggh/claude-code.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "neovim",
+      "lua",
+      "stars-1834",
+      "github-greggh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Seamless integration between Claude Code AI assistant and Neovim\n\n来源: https://github.com/greggh/claude-code.nvim\n语言: Lua\nStars: 1834",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDEVELOPMENT.md\nLICENSE\nMakefile\nREADME.md\nROADMAP.md\nSECURITY.md\nSUPPORT.md\nassets\nassets/claude-code.png\ndoc\ndoc/claude-code.txt\nlua\nlua/claude-code\nscripts\nscripts/markdown\nscripts/setup-hooks.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🚀 Toggle Claude Code in a terminal window with a single key press\n- 🧠 Support for command-line arguments like `--continue` and custom variants\n- 🔄 Automatically detect and reload files modified by Claude Code\n- ⚡ Real-time buffer updates when files are changed externally\n- 📱 Customizable window position and size (including floating windows)\n- 🤖 Integration with which-key (if available)\n- 📂 Automatically uses git project root as working directory (when available)\n- 🧩 Modular and maintainable code structure\n- 📋 Type annotations with LuaCATS for better IDE support\n- ✅ Configuration vali",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.631699665667001
+  },
+  {
+    "name": "claude-code.nvim/lua 模块",
+    "description": "[模块级] claude-code.nvim 项目的 lua 模块 (source)。来源: https://github.com/greggh/claude-code.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "neovim",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 9\n\n包含文件:\n- lua/claude-code\n- lua/claude-code/commands.lua\n- lua/claude-code/config.lua\n- lua/claude-code/file_refresh.lua\n- lua/claude-code/git.lua\n- lua/claude-code/init.lua\n- lua/claude-code/keymaps.lua\n- lua/claude-code/terminal.lua\n- lua/claude-code/version.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/claude-code\nlua/claude-code/commands.lua\nlua/claude-code/config.lua\nlua/claude-code/file_refresh.lua\nlua/claude-code/git.lua\nlua/claude-code/init.lua\nlua/claude-code/keymaps.lua\nlua/claude-code/terminal.lua\nlua/claude-code/version.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.805359732533601
+  },
+  {
+    "name": "claude-code.nvim/scripts 模块",
+    "description": "[模块级] claude-code.nvim 项目的 scripts 模块 (script)。来源: https://github.com/greggh/claude-code.nvim",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "neovim",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 10\n\n包含文件:\n- scripts/markdown\n- scripts/markdown/fix_heading_levels.sh\n- scripts/markdown/fix_list_numbering.sh\n- scripts/markdown/fix_markdown_comprehensive.sh\n- scripts/setup-hooks.sh\n- scripts/setup_markdown_tools.sh\n- scripts/test.sh\n- scripts/test_nvim_detection.sh\n- scripts/version_bump.lua\n- scripts/version_check.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/markdown\nscripts/markdown/fix_heading_levels.sh\nscripts/markdown/fix_list_numbering.sh\nscripts/markdown/fix_markdown_comprehensive.sh\nscripts/setup-hooks.sh\nscripts/setup_markdown_tools.sh\nscripts/test.sh\nscripts/test_nvim_detection.sh\nscripts/version_bump.lua\nscripts/version_check.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.805359732533601
+  },
+  {
+    "name": "claude-code.nvim/test 模块",
+    "description": "[模块级] claude-code.nvim 项目的 test 模块 (test)。来源: https://github.com/greggh/claude-code.nvim",
+    "domain": "testing",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "neovim",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "make test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/README.md\ntest/basic_test.vim\ntest/config_test.vim\ntest/minimal.vim",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.805359732533601
+  },
+  {
+    "name": "claude-code.nvim/tests 模块",
+    "description": "[模块级] claude-code.nvim 项目的 tests 模块 (test)。来源: https://github.com/greggh/claude-code.nvim",
+    "domain": "testing",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "neovim",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "make test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.md\ntests/minimal-init.lua\ntests/run_tests.lua\ntests/spec\ntests/spec/command_registration_spec.lua\ntests/spec/config_spec.lua\ntests/spec/config_validation_spec.lua\ntests/spec/core_integration_spec.lua\ntests/spec/file_refresh_spec.lua\ntests/spec/git_spec.lua\ntests/spec/keymaps_spec.lua\ntests/spec/terminal_spec.lua\ntests/spec/version_spec.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.805359732533601
+  }
+]

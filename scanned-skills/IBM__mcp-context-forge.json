@@ -1,0 +1,133 @@
+[
+  {
+    "name": "mcp-context-forge (IBM)",
+    "description": "[项目级] A Model Context Protocol (MCP) Gateway & Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).。来源: https://github.com/IBM/mcp-context-forge",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-gateway",
+      "asyncio",
+      "authentication-middleware",
+      "python",
+      "stars-3305",
+      "github-ibm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**ContextForge** is a gateway, registry, and proxy that sits in front of any [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server, A2A server or REST API-exposing a unified endpoint for all your AI clients. See the [project roadmap](https://ibm.github.io/mcp-context-forge/architecture/roadmap/) for more details.\n\nIt currently supports:\n\n* Federation across multiple MCP and REST services\n* **A2A (Agent-to-Agent) integration** for external AI agents (OpenAI, Anthropic, custom)\n* **gRPC-to-MCP translation** via automatic reflection-based service discovery\n* Virtualization of legacy APIs as MCP-compliant tools and servers\n* Transport over HTTP, JSON-RPC, WebSocket, SSE (with configurable keepalive), stdio and streamable-HTTP\n* An Admin UI for real-time management, configurati",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "ContextForge is published on [PyPI](https://pypi.org/project/mcp-contextforge-gateway/) as `mcp-contextforge-gateway`.\n\n---\n\n**TLDR;**:\n(single command using [uv](https://docs.astral.sh/uv/))\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nContainerfile\nContainerfile.lite\nContainerfile.scratch\nDCO.txt\nDEVELOPING.md\nLICENSE\nMANIFEST.in\nMIGRATION-0.7.0.md\nMULTIPLATFORM.md\nMakefile\nREADME.md\nSECURITY.md\nTESTING.md\na2a-agents\na2a-agents/go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp .env.example .env",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.759585731910829
+  },
+  {
+    "name": "mcp-context-forge/a2a-agents 模块",
+    "description": "[模块级] mcp-context-forge 项目的 a2a-agents 模块 (source)。来源: https://github.com/IBM/mcp-context-forge",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-gateway",
+      "asyncio",
+      "authentication-middleware",
+      "module-level",
+      "source",
+      "a2a-agents"
+    ],
+    "genes": [
+      {
+        "title": "a2a-agents 模块说明",
+        "content": "模块路径: a2a-agents/\n类型: source\n文件数: 8\n\n包含文件:\n- a2a-agents/go\n- a2a-agents/go/a2a-echo-agent\n- a2a-agents/go/a2a-echo-agent/Dockerfile\n- a2a-agents/go/a2a-echo-agent/README.md\n- a2a-agents/go/a2a-echo-agent/a2a-echo-agent\n- a2a-agents/go/a2a-echo-agent/go.mod\n- a2a-agents/go/a2a-echo-agent/go.sum\n- a2a-agents/go/a2a-echo-agent/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "a2a-agents 文件结构",
+        "content": "a2a-agents/go\na2a-agents/go/a2a-echo-agent\na2a-agents/go/a2a-echo-agent/Dockerfile\na2a-agents/go/a2a-echo-agent/README.md\na2a-agents/go/a2a-echo-agent/a2a-echo-agent\na2a-agents/go/a2a-echo-agent/go.mod\na2a-agents/go/a2a-echo-agent/go.sum\na2a-agents/go/a2a-echo-agent/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.907668585528664
+  },
+  {
+    "name": "mcp-context-forge/agent_runtimes 模块",
+    "description": "[模块级] mcp-context-forge 项目的 agent_runtimes 模块 (source)。来源: https://github.com/IBM/mcp-context-forge",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-gateway",
+      "asyncio",
+      "authentication-middleware",
+      "module-level",
+      "source",
+      "agent_runtimes"
+    ],
+    "genes": [
+      {
+        "title": "agent_runtimes 模块说明",
+        "content": "模块路径: agent_runtimes/\n类型: source\n文件数: 34\n\n包含文件:\n- agent_runtimes/langchain_agent\n- agent_runtimes/langchain_agent/.dockerignore\n- agent_runtimes/langchain_agent/.env.example\n- agent_runtimes/langchain_agent/.gitignore\n- agent_runtimes/langchain_agent/.pre-commit-config.yaml\n- agent_runtimes/langchain_agent/CHANGELOG.md\n- agent_runtimes/langchain_agent/Dockerfile\n- agent_runtimes/langchain_agent/Makefile\n- agent_runtimes/langchain_agent/PROVIDERS.md\n- agent_runtimes/langchain_agent/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent_runtimes 文件结构",
+        "content": "agent_runtimes/langchain_agent\nagent_runtimes/langchain_agent/.dockerignore\nagent_runtimes/langchain_agent/.env.example\nagent_runtimes/langchain_agent/.gitignore\nagent_runtimes/langchain_agent/.pre-commit-config.yaml\nagent_runtimes/langchain_agent/CHANGELOG.md\nagent_runtimes/langchain_agent/Dockerfile\nagent_runtimes/langchain_agent/Makefile\nagent_runtimes/langchain_agent/PROVIDERS.md\nagent_runtimes/langchain_agent/README.md\nagent_runtimes/langchain_agent/__init__.py\nagent_runtimes/langchain_agent/agent_langchain.py\nagent_runtimes/langchain_agent/app.py\nagent_runtimes/langchain_agent/config.py\nagent_runtimes/langchain_agent/demo.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.907668585528664
+  },
+  {
+    "name": "mcp-context-forge/charts 模块",
+    "description": "[模块级] mcp-context-forge 项目的 charts 模块 (source)。来源: https://github.com/IBM/mcp-context-forge",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-gateway",
+      "asyncio",
+      "authentication-middleware",
+      "module-level",
+      "source",
+      "charts"
+    ],
+    "genes": [
+      {
+        "title": "charts 模块说明",
+        "content": "模块路径: charts/\n类型: source\n文件数: 49\n\n包含文件:\n- charts/AGENTS.md\n- charts/README.md\n- charts/mcp-stack\n- charts/mcp-stack/.gitignore\n- charts/mcp-stack/.helmignore\n- charts/mcp-stack/CHANGELOG.md\n- charts/mcp-stack/CODEOWNERS\n- charts/mcp-stack/CONTRIBUTING.md\n- charts/mcp-stack/Chart.yaml\n- charts/mcp-stack/Makefile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "charts 文件结构",
+        "content": "charts/AGENTS.md\ncharts/README.md\ncharts/mcp-stack\ncharts/mcp-stack/.gitignore\ncharts/mcp-stack/.helmignore\ncharts/mcp-stack/CHANGELOG.md\ncharts/mcp-stack/CODEOWNERS\ncharts/mcp-stack/CONTRIBUTING.md\ncharts/mcp-stack/Chart.yaml\ncharts/mcp-stack/Makefile\ncharts/mcp-stack/README.md\ncharts/mcp-stack/templates\ncharts/mcp-stack/templates/NOTES.txt\ncharts/mcp-stack/templates/_helpers.tpl\ncharts/mcp-stack/templates/benchmark-stack.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.907668585528664
+  }
+]

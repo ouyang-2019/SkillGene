@@ -1,0 +1,128 @@
+[
+  {
+    "name": "pymilvus (milvus-io)",
+    "description": "[项目级] Python SDK for Milvus Vector Database。来源: https://github.com/milvus-io/pymilvus",
+    "domain": "tooling",
+    "tags": [
+      "anns",
+      "faiss",
+      "faiss-vector-database",
+      "milvus",
+      "milvus-lite",
+      "python",
+      "stars-1343",
+      "github-milvus-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python SDK for Milvus Vector Database\n\n来源: https://github.com/milvus-io/pymilvus\n语言: Python\nStars: 1343",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "$ pip3 install pymilvus\n$ pip3 install pymilvus[model] # for milvus-model\n$ pip3 install pymilvus[bulk_writer] # for bulk_writer",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCONTRIBUTING_CN.md\nDockerfile\nLICENSE\nMakefile\nOWNERS\nREADME.md\n_version_helper.py\ncheck_proto_product.sh\nci\nci/docker\nci/scripts\ncodecov.yml\ndocs\ndocs/Makefile\ndocs/README.md\ndocs/make.bat\ndocs/plans\ndocs/source\nexamples",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.564038006334358
+  },
+  {
+    "name": "pymilvus/ci 模块",
+    "description": "[模块级] pymilvus 项目的 ci 模块 (source)。来源: https://github.com/milvus-io/pymilvus",
+    "domain": "tooling",
+    "tags": [
+      "anns",
+      "faiss",
+      "faiss-vector-database",
+      "milvus",
+      "milvus-lite",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 5\n\n包含文件:\n- ci/docker\n- ci/docker/milvus\n- ci/docker/milvus/docker-compose.yml\n- ci/scripts\n- ci/scripts/docker_image_find_tag.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/docker\nci/docker/milvus\nci/docker/milvus/docker-compose.yml\nci/scripts\nci/scripts/docker_image_find_tag.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7512304050674863
+  },
+  {
+    "name": "pymilvus/docs 模块",
+    "description": "[模块级] pymilvus 项目的 docs 模块 (docs)。来源: https://github.com/milvus-io/pymilvus",
+    "domain": "documentation",
+    "tags": [
+      "anns",
+      "faiss",
+      "faiss-vector-database",
+      "milvus",
+      "milvus-lite",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 32\n\n包含文件:\n- docs/Makefile\n- docs/README.md\n- docs/make.bat\n- docs/plans\n- docs/plans/global-client-design.md\n- docs/source\n- docs/source/_templates\n- docs/source/_templates/autosummaryclass.rst\n- docs/source/_templates/layout.html\n- docs/source/about.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/README.md\ndocs/make.bat\ndocs/plans\ndocs/plans/global-client-design.md\ndocs/source\ndocs/source/_templates\ndocs/source/_templates/autosummaryclass.rst\ndocs/source/_templates/layout.html\ndocs/source/about.rst\ndocs/source/api\ndocs/source/api/api.rst\ndocs/source/api/collection.rst\ndocs/source/api/connections.rst\ndocs/source/api/future.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7512304050674863
+  },
+  {
+    "name": "pymilvus/examples 模块",
+    "description": "[模块级] pymilvus 项目的 examples 模块 (example)。来源: https://github.com/milvus-io/pymilvus",
+    "domain": "tooling",
+    "tags": [
+      "anns",
+      "faiss",
+      "faiss-vector-database",
+      "milvus",
+      "milvus-lite",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 127\n\n包含文件:\n- examples/README.md\n- examples/alias.py\n- examples/alter.py\n- examples/async_DDL_test.py\n- examples/async_optimize_example.py\n- examples/async_previledge_test.py\n- examples/bulk_import\n- examples/bulk_import/bulk_writer_all_types.py\n- examples/bulk_import/data_gengerator.py\n- examples/bulk_import/example_bulkinsert_json.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/alias.py\nexamples/alter.py\nexamples/async_DDL_test.py\nexamples/async_optimize_example.py\nexamples/async_previledge_test.py\nexamples/bulk_import\nexamples/bulk_import/bulk_writer_all_types.py\nexamples/bulk_import/data_gengerator.py\nexamples/bulk_import/example_bulkinsert_json.py\nexamples/bulk_import/example_bulkinsert_parquet.py\nexamples/bulk_import/example_bulkwriter_stage.py\nexamples/bulk_import/example_bulkwriter_volume.py\nexamples/bulk_import/example_volume_file_manager.py\nexamples/bulk_import/example_volume_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7512304050674863
+  }
+]

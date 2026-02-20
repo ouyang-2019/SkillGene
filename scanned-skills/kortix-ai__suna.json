@@ -1,0 +1,71 @@
+[
+  {
+    "name": "suna (kortix-ai)",
+    "description": "[项目级] Kortix – build, manage and train AI Agents.。来源: https://github.com/kortix-ai/suna",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "llm",
+      "typescript",
+      "stars-19378",
+      "github-kortix-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Kortix – build, manage and train AI Agents.\n\n来源: https://github.com/kortix-ai/suna\n语言: TypeScript\nStars: 19378",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get your Kortix platform running in minutes with our automated setup wizard:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\napps\napps/desktop\napps/frontend",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "suna/apps 模块",
+    "description": "[模块级] suna 项目的 apps 模块 (source)。来源: https://github.com/kortix-ai/suna",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "llm",
+      "typescript",
+      "stars-19378",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 167\n\n包含文件:\n- apps/desktop\n- apps/desktop/.env.example\n- apps/desktop/.gitignore\n- apps/desktop/README.md\n- apps/desktop/assets\n- apps/desktop/assets/AppIcon.png\n- apps/desktop/assets/icon.icns\n- apps/desktop/assets/icon.png\n- apps/desktop/build-signed.js\n- apps/desktop/entitlements.mac.plist",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/desktop\napps/desktop/.env.example\napps/desktop/.gitignore\napps/desktop/README.md\napps/desktop/assets\napps/desktop/assets/AppIcon.png\napps/desktop/assets/icon.icns\napps/desktop/assets/icon.png\napps/desktop/build-signed.js\napps/desktop/entitlements.mac.plist\napps/desktop/main.js\napps/desktop/notarize.js\napps/desktop/package-lock.json\napps/desktop/package.json\napps/frontend",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214923580627989
+  }
+]

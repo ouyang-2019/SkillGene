@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-generative-ai (filipecalegario)",
+    "description": "[项目级] A curated list of Generative AI tools, works, models, and references。来源: https://github.com/filipecalegario/awesome-generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-art",
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "dall-e",
+      "stars-3373",
+      "github-filipecalegario",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to our Awesome List of Generative AI resources! This repository is a curated collection of references in the dynamic field of Generative AI, equipped with various sources such as academic papers, technical articles, online courses, tutorials, and software.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "ARCHIVE.md\nAUXILIAR.md\nCITATION.bib\nLICENSE\nPREVIEW.md\nREADME.md\nSECURITY.md\nai-tasks.md\ncode-of-conduct.md\ncontributing.md\ninbox-gen-ai-dev.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7640081705946
+  }
+]

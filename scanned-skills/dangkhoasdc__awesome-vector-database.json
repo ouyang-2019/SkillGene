@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-vector-database (dangkhoasdc)",
+    "description": "[项目级] A curated list of awesome works related to high dimensional structure/vector search & database。来源: https://github.com/dangkhoasdc/awesome-vector-database",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "embedding-similarity",
+      "embeddings-similarity",
+      "nearest-neighbor-search",
+      "search-engine",
+      "stars-330",
+      "github-dangkhoasdc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome works related to high dimensional structure/vector search & database\n\n来源: https://github.com/dangkhoasdc/awesome-vector-database\n语言: unknown\nStars: 330",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259256969938944
+  }
+]

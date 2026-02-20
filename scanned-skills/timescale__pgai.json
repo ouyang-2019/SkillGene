@@ -1,0 +1,137 @@
+[
+  {
+    "name": "pgai (timescale)",
+    "description": "[项目级] A suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL。来源: https://github.com/timescale/pgai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "llm",
+      "postgresql",
+      "rag",
+      "plpgsql",
+      "stars-5754",
+      "github-timescale",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- [How to Automatically Create & Update Embeddings in PostgreSQL—With One SQL Query](https://www.timescale.com/blog/how-to-automatically-create-update-embeddings-in-postgresql/)\n- [video] [Auto Create and Sync Vector Embeddings in 1 Line of SQL](https://www.youtube.com/watch?v=ZoC2XYol6Zk)\n- [Which OpenAI Embedding Model Is Best for Your RAG App With Pgvector?](https://www.timescale.com/blog/which-openai-embedding-model-is-best/)\n- [Which RAG Chunking and Formatting Strategy Is Best for Your App With Pgvector](https://www.timescale.com/blog/which-rag-chunking-and-formatting-strategy-is-best/)\n- [Parsing All the Data With Open-Source Tools: Unstructured and Pgai](https://www.timescale.com/blog/parsing-all-the-data-with-open-source-tools-unstructured-and-pgai/)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install pgai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDEVELOPMENT.md\nLICENSE\nNOTICE\nREADME.md\nSECURITY.md\ncommitlint.config.mjs\ndocs\ndocs/README.md\ndocs/images\ndocs/semantic_catalog\ndocs/utils\ndocs/vectorizer-quick-start.md\ndocs/vectorizer\nexamples\nexamples/anonymize_entities.sql\nexamples/bg_worker_moderate.sql\nexamples/delayed_embed.sql\nexamples/discord_bot\nexamples/docker_compose_pgai",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [FastAPI + psycopg quickstart](/examples/simple_fastapi_app/README.md)\n- [Vectorizer overview](/docs/vectorizer/overview.md) and [worker documentation](/docs/vectorizer/worker.md)\n- [Vectorizer API reference](/docs/vectorizer/api-reference.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Our pgai Python library lets you work with embeddings generated from your data:\n\n* Automatically create and sync vector embeddings for your data using the [vectorizer](/docs/vectorizer/overview.md).\n* [Load data](/docs/vectorizer/api-reference.md#loading-configuration) from a column in your table or from a file, s3 bucket, etc.\n* Create multiple embeddings for the same data with different models and parameters for testing and experimentation.\n* [Customize](#a-configurable-vectorizer-pipeline) how your embedding pipeline parses, chunks, formats, and embeds your data.\n\nYou can use the vector emb",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.879984928777153
+  },
+  {
+    "name": "pgai/docs 模块",
+    "description": "[模块级] pgai 项目的 docs 模块 (docs)。来源: https://github.com/timescale/pgai",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "llm",
+      "postgresql",
+      "rag",
+      "plpgsql",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 35\n\n包含文件:\n- docs/README.md\n- docs/images\n- docs/images/azure_openai.png\n- docs/images/pgai_architecture.png\n- docs/images/pgai_logo.png\n- docs/images/pgai_white.png\n- docs/images/s3_sync\n- docs/images/s3_sync/create_lambda.png\n- docs/images/s3_sync/trigger_config.png\n- docs/images/timescale_new_ai_model_api_key.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/images\ndocs/images/azure_openai.png\ndocs/images/pgai_architecture.png\ndocs/images/pgai_logo.png\ndocs/images/pgai_white.png\ndocs/images/s3_sync\ndocs/images/s3_sync/create_lambda.png\ndocs/images/s3_sync/trigger_config.png\ndocs/images/timescale_new_ai_model_api_key.png\ndocs/images/timescale_project_settings.png\ndocs/semantic_catalog\ndocs/semantic_catalog/README.md\ndocs/semantic_catalog/cli.md\ndocs/semantic_catalog/more-questions.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.003987943021723
+  },
+  {
+    "name": "pgai/examples 模块",
+    "description": "[模块级] pgai 项目的 examples 模块 (example)。来源: https://github.com/timescale/pgai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "llm",
+      "postgresql",
+      "rag",
+      "plpgsql",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "- [FastAPI + psycopg quickstart](/examples/simple_fastapi_app/README.md)\n- [Vectorizer overview](/docs/vectorizer/overview.md) and [worker documentation](/docs/vectorizer/worker.md)\n- [Vectorizer API reference](/docs/vectorizer/api-reference.md)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/anonymize_entities.sql\nexamples/bg_worker_moderate.sql\nexamples/delayed_embed.sql\nexamples/discord_bot\nexamples/discord_bot/Dockerfile\nexamples/discord_bot/README.md\nexamples/discord_bot/alembic.ini\nexamples/discord_bot/docker-compose.yaml\nexamples/discord_bot/migrations\nexamples/discord_bot/migrations/README\nexamples/discord_bot/migrations/env.py\nexamples/discord_bot/migrations/script.py.mako\nexamples/discord_bot/migrations/versions\nexamples/discord_bot/migrations/versions/0001_create_documents_table.py\nexamples/discord_bot/migrations/versions/0002_create_documents_vectorizer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.003987943021723
+  },
+  {
+    "name": "pgai/projects 模块",
+    "description": "[模块级] pgai 项目的 projects 模块 (source)。来源: https://github.com/timescale/pgai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "llm",
+      "postgresql",
+      "rag",
+      "plpgsql",
+      "module-level",
+      "source",
+      "projects"
+    ],
+    "genes": [
+      {
+        "title": "projects 模块说明",
+        "content": "模块路径: projects/\n类型: source\n文件数: 62\n\n包含文件:\n- projects/extension\n- projects/extension/.dockerignore\n- projects/extension/DEVELOPMENT.md\n- projects/extension/Dockerfile\n- projects/extension/README.md\n- projects/extension/RELEASE_NOTES.md\n- projects/extension/ai\n- projects/extension/ai/__init__.py\n- projects/extension/ai/anthropic.py\n- projects/extension/ai/cohere.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "projects 文件结构",
+        "content": "projects/extension\nprojects/extension/.dockerignore\nprojects/extension/DEVELOPMENT.md\nprojects/extension/Dockerfile\nprojects/extension/README.md\nprojects/extension/RELEASE_NOTES.md\nprojects/extension/ai\nprojects/extension/ai/__init__.py\nprojects/extension/ai/anthropic.py\nprojects/extension/ai/cohere.py\nprojects/extension/ai/litellm.py\nprojects/extension/ai/load_dataset.py\nprojects/extension/ai/ollama.py\nprojects/extension/ai/openai.py\nprojects/extension/ai/secrets.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.003987943021723
+  }
+]

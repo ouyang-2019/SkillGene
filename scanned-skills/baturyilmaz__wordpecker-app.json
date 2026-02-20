@@ -1,0 +1,117 @@
+[
+  {
+    "name": "wordpecker-app (baturyilmaz)",
+    "description": "[项目级]  A personalized language-learning tool that combines Duolingo-style lessons with your own curated vocabulary lists. Seamlessly add words from books, articles, or videos, and revisit them through interactive quizzes and LLM-generated lessons. 。来源: https://github.com/baturyilmaz/wordpecker-app",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1939",
+      "github-baturyilmaz",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " A personalized language-learning tool that combines Duolingo-style lessons with your own curated vocabulary lists. Seamlessly add words from books, articles, or videos, and revisit them through interactive quizzes and LLM-generated lessons. \n\n来源: https://github.com/baturyilmaz/wordpecker-app\n语言: TypeScript\nStars: 1939",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- **🐳 Docker (Recommended):** [Quick Start with Docker](#quick-start-with-docker)\n- **💻 Local Development:** [Manual Installation](#installation)\n- **🗄️ MongoDB Only:** [Running Only MongoDB](#running-only-mongodb-with-docker)\n\n---\n\n![WordPecker App](./docs/assets/createlist-addword.gif)\n\n<p align=\"center\">\n  <img src=\"./docs/assets/wordpecker-moscot.png\" alt=\"WordPecker App\" width=\"600\" />\n  <br/>\n  <a href=\"https://www.youtube.com/watch?v=jS8r7J65fXY\">📹 Watch on YouTube</a>\n</p>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbackend\nbackend/.dockerignore\nbackend/.env.example\nbackend/.eslintrc.json\nbackend/Dockerfile\nbackend/data\nbackend/jest.config.js\nbackend/package-lock.json\nbackend/package.json\nbackend/src\nbackend/tsconfig.json\ndocker-compose.mongo.yml\ndocker-compose.yml\ndocs\ndocs/architecture\ndocs/assets\ndocs/idea.md\nfrontend",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.643788904539353
+  },
+  {
+    "name": "wordpecker-app/backend 模块",
+    "description": "[模块级] wordpecker-app 项目的 backend 模块 (source)。来源: https://github.com/baturyilmaz/wordpecker-app",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1939",
+      "github-baturyilmaz",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "cd backend\nnpm install",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.dockerignore\nbackend/.env.example\nbackend/.eslintrc.json\nbackend/Dockerfile\nbackend/data\nbackend/data/templates\nbackend/data/templates/academic-research.json\nbackend/data/templates/arts-creativity.json\nbackend/data/templates/business-finance.json\nbackend/data/templates/cooking-culinary.json\nbackend/data/templates/daily-conversation.json\nbackend/data/templates/environmental-science.json\nbackend/data/templates/game-of-thrones-vocabulary.json\nbackend/data/templates/harry-potter-vocabulary.json\nbackend/data/templates/legal-law.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8150311236314822
+  },
+  {
+    "name": "wordpecker-app/docs 模块",
+    "description": "[模块级] wordpecker-app 项目的 docs 模块 (docs)。来源: https://github.com/baturyilmaz/wordpecker-app",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-1939",
+      "github-baturyilmaz",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 19\n\n包含文件:\n- docs/architecture\n- docs/architecture/backend-architecture.puml\n- docs/architecture/docker-architecture.puml\n- docs/architecture/mongodb_database.uml\n- docs/architecture/project-structure.puml\n- docs/assets\n- docs/assets/createlist-addword.gif\n- docs/assets/get-new-words.png\n- docs/assets/learn.png\n- docs/assets/light-reading.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/architecture\ndocs/architecture/backend-architecture.puml\ndocs/architecture/docker-architecture.puml\ndocs/architecture/mongodb_database.uml\ndocs/architecture/project-structure.puml\ndocs/assets\ndocs/assets/createlist-addword.gif\ndocs/assets/get-new-words.png\ndocs/assets/learn.png\ndocs/assets/light-reading.png\ndocs/assets/settings-exercise_types.png\ndocs/assets/settings-language.png\ndocs/assets/vision-garden.png\ndocs/assets/voice-chat.png\ndocs/assets/word-detail.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8150311236314822
+  },
+  {
+    "name": "wordpecker-app/frontend 模块",
+    "description": "[模块级] wordpecker-app 项目的 frontend 模块 (source)。来源: https://github.com/baturyilmaz/wordpecker-app",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-1939",
+      "github-baturyilmaz",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "cd ../frontend\nnpm install\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.env.example\nfrontend/Dockerfile\nfrontend/eslint.config.js\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public\nfrontend/public/vite.svg\nfrontend/public/wordpecker-moscot.png\nfrontend/src\nfrontend/src/App.tsx\nfrontend/src/agents\nfrontend/src/agents/index.ts\nfrontend/src/agents/voice-agent",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8150311236314822
+  }
+]

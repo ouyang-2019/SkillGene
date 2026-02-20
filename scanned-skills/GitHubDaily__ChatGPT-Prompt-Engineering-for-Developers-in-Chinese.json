@@ -1,0 +1,153 @@
+[
+  {
+    "name": "ChatGPT-Prompt-Engineering-for-Developers-in-Chinese (GitHubDaily)",
+    "description": "[项目级] 《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕 Unofficial subtitles of \"ChatGPT Prompt Engineering for Developers\"。来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chinese-translation",
+      "prompt-engineering",
+      "prompt-learning",
+      "subtitles",
+      "jupyter notebook",
+      "stars-2064",
+      "github-githubdaily",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕 Unofficial subtitles of \"ChatGPT Prompt Engineering for Developers\"\n\n来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese\n语言: Jupyter Notebook\nStars: 2064",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nchinese_subtitles\nchinese_subtitles/prompt_eng_01_intro_chinese.srt\nchinese_subtitles/prompt_eng_02_guidelines_chinese.srt\nchinese_subtitles/prompt_eng_03_iterative_chinese.srt\nchinese_subtitles/prompt_eng_04_summarizing_chinese.srt\nchinese_subtitles/prompt_eng_05_inferring_chinese.srt\nchinese_subtitles/prompt_eng_06_transforming_chinese.srt\nchinese_subtitles/prompt_eng_07_expanding_chinese.srt\nchinese_subtitles/prompt_eng_08_chatbot_chinese.srt\nchinese_subtitles/prompt_eng_09_conclusion_chinese.srt\ncourse_notebooks\ncourse_notebooks/l2-guidelines.ipynb\ncourse_notebooks/l3-iterative-prompt-development.ipynb\ncourse_notebooks/l4-summarizing.ipynb\ncourse_notebooks/l5-inferring.ipynb\ncourse_notebooks/l6-transforming.ipynb\ncourse_notebooks/l7-expanding.ipynb\ncourse_notebooks/l8-chatbot.ipynb\nenglish_subtitles",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6573548464775865
+  },
+  {
+    "name": "ChatGPT-Prompt-Engineering-for-Developers-in-Chinese/chinese_subtitles 模块",
+    "description": "[模块级] ChatGPT-Prompt-Engineering-for-Developers-in-Chinese 项目的 chinese_subtitles 模块 (source)。来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chinese-translation",
+      "prompt-engineering",
+      "prompt-learning",
+      "subtitles",
+      "module-level",
+      "source",
+      "chinese_subtitles"
+    ],
+    "genes": [
+      {
+        "title": "chinese_subtitles 模块说明",
+        "content": "模块路径: chinese_subtitles/\n类型: source\n文件数: 9\n\n包含文件:\n- chinese_subtitles/prompt_eng_01_intro_chinese.srt\n- chinese_subtitles/prompt_eng_02_guidelines_chinese.srt\n- chinese_subtitles/prompt_eng_03_iterative_chinese.srt\n- chinese_subtitles/prompt_eng_04_summarizing_chinese.srt\n- chinese_subtitles/prompt_eng_05_inferring_chinese.srt\n- chinese_subtitles/prompt_eng_06_transforming_chinese.srt\n- chinese_subtitles/prompt_eng_07_expanding_chinese.srt\n- chinese_subtitles/prompt_eng_08_chatbot_chinese.srt\n- chinese_subtitles/prompt_eng_09_conclusion_chinese.srt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chinese_subtitles 文件结构",
+        "content": "chinese_subtitles/prompt_eng_01_intro_chinese.srt\nchinese_subtitles/prompt_eng_02_guidelines_chinese.srt\nchinese_subtitles/prompt_eng_03_iterative_chinese.srt\nchinese_subtitles/prompt_eng_04_summarizing_chinese.srt\nchinese_subtitles/prompt_eng_05_inferring_chinese.srt\nchinese_subtitles/prompt_eng_06_transforming_chinese.srt\nchinese_subtitles/prompt_eng_07_expanding_chinese.srt\nchinese_subtitles/prompt_eng_08_chatbot_chinese.srt\nchinese_subtitles/prompt_eng_09_conclusion_chinese.srt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8258838771820693
+  },
+  {
+    "name": "ChatGPT-Prompt-Engineering-for-Developers-in-Chinese/course_notebooks 模块",
+    "description": "[模块级] ChatGPT-Prompt-Engineering-for-Developers-in-Chinese 项目的 course_notebooks 模块 (source)。来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chinese-translation",
+      "prompt-engineering",
+      "prompt-learning",
+      "subtitles",
+      "module-level",
+      "source",
+      "course_notebooks"
+    ],
+    "genes": [
+      {
+        "title": "course_notebooks 模块说明",
+        "content": "模块路径: course_notebooks/\n类型: source\n文件数: 7\n\n包含文件:\n- course_notebooks/l2-guidelines.ipynb\n- course_notebooks/l3-iterative-prompt-development.ipynb\n- course_notebooks/l4-summarizing.ipynb\n- course_notebooks/l5-inferring.ipynb\n- course_notebooks/l6-transforming.ipynb\n- course_notebooks/l7-expanding.ipynb\n- course_notebooks/l8-chatbot.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "course_notebooks 文件结构",
+        "content": "course_notebooks/l2-guidelines.ipynb\ncourse_notebooks/l3-iterative-prompt-development.ipynb\ncourse_notebooks/l4-summarizing.ipynb\ncourse_notebooks/l5-inferring.ipynb\ncourse_notebooks/l6-transforming.ipynb\ncourse_notebooks/l7-expanding.ipynb\ncourse_notebooks/l8-chatbot.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8258838771820693
+  },
+  {
+    "name": "ChatGPT-Prompt-Engineering-for-Developers-in-Chinese/english_subtitles 模块",
+    "description": "[模块级] ChatGPT-Prompt-Engineering-for-Developers-in-Chinese 项目的 english_subtitles 模块 (source)。来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chinese-translation",
+      "prompt-engineering",
+      "prompt-learning",
+      "subtitles",
+      "module-level",
+      "source",
+      "english_subtitles"
+    ],
+    "genes": [
+      {
+        "title": "english_subtitles 模块说明",
+        "content": "模块路径: english_subtitles/\n类型: source\n文件数: 9\n\n包含文件:\n- english_subtitles/prompt_eng_01_intro_english.srt\n- english_subtitles/prompt_eng_02_guidelines_english.srt\n- english_subtitles/prompt_eng_03_iterative_english.srt\n- english_subtitles/prompt_eng_04_summarizing_english.srt\n- english_subtitles/prompt_eng_05_inferring_english.srt\n- english_subtitles/prompt_eng_06_transforming_english.srt\n- english_subtitles/prompt_eng_07_expanding_english.srt\n- english_subtitles/prompt_eng_08_chatbot_english.srt\n- english_subtitles/prompt_eng_09_conclusion_english.srt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "english_subtitles 文件结构",
+        "content": "english_subtitles/prompt_eng_01_intro_english.srt\nenglish_subtitles/prompt_eng_02_guidelines_english.srt\nenglish_subtitles/prompt_eng_03_iterative_english.srt\nenglish_subtitles/prompt_eng_04_summarizing_english.srt\nenglish_subtitles/prompt_eng_05_inferring_english.srt\nenglish_subtitles/prompt_eng_06_transforming_english.srt\nenglish_subtitles/prompt_eng_07_expanding_english.srt\nenglish_subtitles/prompt_eng_08_chatbot_english.srt\nenglish_subtitles/prompt_eng_09_conclusion_english.srt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8258838771820693
+  },
+  {
+    "name": "ChatGPT-Prompt-Engineering-for-Developers-in-Chinese/subtitles 模块",
+    "description": "[模块级] ChatGPT-Prompt-Engineering-for-Developers-in-Chinese 项目的 subtitles 模块 (source)。来源: https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chinese-translation",
+      "prompt-engineering",
+      "prompt-learning",
+      "subtitles",
+      "module-level",
+      "source",
+      "subtitles"
+    ],
+    "genes": [
+      {
+        "title": "subtitles 模块说明",
+        "content": "模块路径: subtitles/\n类型: source\n文件数: 20\n\n包含文件:\n- subtitles/raw\n- subtitles/raw/prompt_eng_01_intro.srt\n- subtitles/raw/prompt_eng_02_guidelines.srt\n- subtitles/raw/prompt_eng_03_iterative.srt\n- subtitles/raw/prompt_eng_04_summarizing.srt\n- subtitles/raw/prompt_eng_05_inferring.srt\n- subtitles/raw/prompt_eng_06_transforming.srt\n- subtitles/raw/prompt_eng_07_expanding.srt\n- subtitles/raw/prompt_eng_08_chatbot.srt\n- subtitles/raw/prompt_eng_09_conclusion.srt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "subtitles 文件结构",
+        "content": "subtitles/raw\nsubtitles/raw/prompt_eng_01_intro.srt\nsubtitles/raw/prompt_eng_02_guidelines.srt\nsubtitles/raw/prompt_eng_03_iterative.srt\nsubtitles/raw/prompt_eng_04_summarizing.srt\nsubtitles/raw/prompt_eng_05_inferring.srt\nsubtitles/raw/prompt_eng_06_transforming.srt\nsubtitles/raw/prompt_eng_07_expanding.srt\nsubtitles/raw/prompt_eng_08_chatbot.srt\nsubtitles/raw/prompt_eng_09_conclusion.srt\nsubtitles/styled\nsubtitles/styled/prompt_eng_01_intro.ass\nsubtitles/styled/prompt_eng_02_guidelines.ass\nsubtitles/styled/prompt_eng_03_iterative.ass\nsubtitles/styled/prompt_eng_04_summarizing.ass",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8258838771820693
+  }
+]

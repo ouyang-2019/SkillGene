@@ -1,0 +1,121 @@
+[
+  {
+    "name": "openai-plugin-fastapi (Azure-Samples)",
+    "description": "[项目级] A simple ChatGPT Plugin running in Codespaces for dev and Azure for production.。来源: https://github.com/Azure-Samples/openai-plugin-fastapi",
+    "domain": "backend",
+    "tags": [
+      "azd-templates",
+      "bicep",
+      "stars-433",
+      "github-azure-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A simple ChatGPT Plugin running in Codespaces for dev and Azure for production.\n\n来源: https://github.com/Azure-Samples/openai-plugin-fastapi\n语言: Bicep\nStars: 433",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **📤 One-click setup**: [Open a new Codespace](https://codespaces.new/azure-samples/openai-plugin-fastapi), giving you a fully configured cloud developer environment.\n2. **🪄 Make an API**: Add routes in `main.py`, done in a few minutes even without [FastAPI](https://fastapi.tiangolo.com/lo/tutorial/) experience, thanks to [GitHub Copilot](https://github.com/features/copilot/).\n3. **▶️ Run, one-click again**: Use VS Code's built-in *Run* command and open the forwarded port *8000* in your browser.\n4. **💬 Test in ChatGPT**: Copy the URL (make sure its public) and paste it in ChatGPT's [Devel",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nazure.yaml\ndata\ndata/products.json\ninfra\ninfra/abbreviations.json\ninfra/app\ninfra/core\ninfra/main.bicep\ninfra/main.parameters.json\nmain.py\nrequirements.txt\nrouters\nrouters/__init__.py\nrouters/wellknown.py\nscripts\nscripts/load_env.sh\nscripts/prompts.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.318243948176683
+  },
+  {
+    "name": "openai-plugin-fastapi/infra 模块",
+    "description": "[模块级] openai-plugin-fastapi 项目的 infra 模块 (source)。来源: https://github.com/Azure-Samples/openai-plugin-fastapi",
+    "domain": "backend",
+    "tags": [
+      "azd-templates",
+      "bicep",
+      "stars-433",
+      "github-azure-samples",
+      "module-level",
+      "source",
+      "infra"
+    ],
+    "genes": [
+      {
+        "title": "infra 模块说明",
+        "content": "模块路径: infra/\n类型: source\n文件数: 19\n\n包含文件:\n- infra/abbreviations.json\n- infra/app\n- infra/app/api.bicep\n- infra/core\n- infra/core/host\n- infra/core/host/container-app-upsert.bicep\n- infra/core/host/container-app.bicep\n- infra/core/host/container-apps-environment.bicep\n- infra/core/host/container-apps.bicep\n- infra/core/host/container-registry.bicep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infra 文件结构",
+        "content": "infra/abbreviations.json\ninfra/app\ninfra/app/api.bicep\ninfra/core\ninfra/core/host\ninfra/core/host/container-app-upsert.bicep\ninfra/core/host/container-app.bicep\ninfra/core/host/container-apps-environment.bicep\ninfra/core/host/container-apps.bicep\ninfra/core/host/container-registry.bicep\ninfra/core/monitor\ninfra/core/monitor/applicationinsights-dashboard.bicep\ninfra/core/monitor/applicationinsights.bicep\ninfra/core/monitor/loganalytics.bicep\ninfra/core/monitor/monitoring.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5545951585413462
+  },
+  {
+    "name": "openai-plugin-fastapi/routers 模块",
+    "description": "[模块级] openai-plugin-fastapi 项目的 routers 模块 (source)。来源: https://github.com/Azure-Samples/openai-plugin-fastapi",
+    "domain": "backend",
+    "tags": [
+      "azd-templates",
+      "bicep",
+      "stars-433",
+      "github-azure-samples",
+      "module-level",
+      "source",
+      "routers"
+    ],
+    "genes": [
+      {
+        "title": "routers 模块说明",
+        "content": "模块路径: routers/\n类型: source\n文件数: 2\n\n包含文件:\n- routers/__init__.py\n- routers/wellknown.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "routers 文件结构",
+        "content": "routers/__init__.py\nrouters/wellknown.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5545951585413462
+  },
+  {
+    "name": "openai-plugin-fastapi/scripts 模块",
+    "description": "[模块级] openai-plugin-fastapi 项目的 scripts 模块 (script)。来源: https://github.com/Azure-Samples/openai-plugin-fastapi",
+    "domain": "backend",
+    "tags": [
+      "azd-templates",
+      "bicep",
+      "stars-433",
+      "github-azure-samples",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/load_env.sh\n- scripts/prompts.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/load_env.sh\nscripts/prompts.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5545951585413462
+  }
+]

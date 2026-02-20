@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Prompt-Engineering-Techniques-Hub (KalyanKS-NLP)",
+    "description": "[项目级] This repo contains implementation of 25+ prompt engineering techniques. 。来源: https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub",
+    "domain": "general",
+    "tags": [
+      "stars-424",
+      "github-kalyanks-nlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repo contains implementation of 25+ prompt engineering techniques. \n\n来源: https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub\n语言: unknown\nStars: 424",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Advanced_Prompt_Engineering_Techniques\nAdvanced_Prompt_Engineering_Techniques/Analogical_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Draft_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Symbol_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Translation_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Verification_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Contrastive_CoT_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Cross_Lingual_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Faithful_Chain_of_Thought_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Few_Shot_Chain-of_Thought_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Least_to_Most_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Meta_Cognitive_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Meta_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Multi_Chain_Reasoning_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Plan_and_Solve_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Program_of_Thoughts_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Rephrase_and_Respond_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Self_Ask_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Self_Consistency_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Self_Refine_Prompting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.313682928296366
+  },
+  {
+    "name": "Prompt-Engineering-Techniques-Hub/Advanced_Prompt_Engineering_Techniques 模块",
+    "description": "[模块级] Prompt-Engineering-Techniques-Hub 项目的 Advanced_Prompt_Engineering_Techniques 模块 (source)。来源: https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub",
+    "domain": "general",
+    "tags": [
+      "stars-424",
+      "github-kalyanks-nlp",
+      "module-level",
+      "source",
+      "advanced_prompt_engineering_techniques"
+    ],
+    "genes": [
+      {
+        "title": "Advanced_Prompt_Engineering_Techniques 模块说明",
+        "content": "模块路径: Advanced_Prompt_Engineering_Techniques/\n类型: source\n文件数: 50\n\n包含文件:\n- Advanced_Prompt_Engineering_Techniques/Analogical_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Chain_of_Draft_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Chain_of_Symbol_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Chain_of_Translation_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Chain_of_Verification_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Contrastive_CoT_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Cross_Lingual_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Faithful_Chain_of_Thought_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Few_Shot_Chain-of_Thought_Prompting.md\n- Advanced_Prompt_Engineering_Techniques/Least_to_Most_Prompting.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Advanced_Prompt_Engineering_Techniques 文件结构",
+        "content": "Advanced_Prompt_Engineering_Techniques/Analogical_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Draft_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Symbol_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Translation_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Chain_of_Verification_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Contrastive_CoT_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Cross_Lingual_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Faithful_Chain_of_Thought_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Few_Shot_Chain-of_Thought_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Least_to_Most_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Meta_Cognitive_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Meta_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Multi_Chain_Reasoning_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Plan_and_Solve_Prompting.md\nAdvanced_Prompt_Engineering_Techniques/Program_of_Thoughts_Prompting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  },
+  {
+    "name": "Prompt-Engineering-Techniques-Hub/Basic_Prompt_Engineering_Techniques 模块",
+    "description": "[模块级] Prompt-Engineering-Techniques-Hub 项目的 Basic_Prompt_Engineering_Techniques 模块 (source)。来源: https://github.com/KalyanKS-NLP/Prompt-Engineering-Techniques-Hub",
+    "domain": "general",
+    "tags": [
+      "stars-424",
+      "github-kalyanks-nlp",
+      "module-level",
+      "source",
+      "basic_prompt_engineering_techniques"
+    ],
+    "genes": [
+      {
+        "title": "Basic_Prompt_Engineering_Techniques 模块说明",
+        "content": "模块路径: Basic_Prompt_Engineering_Techniques/\n类型: source\n文件数: 5\n\n包含文件:\n- Basic_Prompt_Engineering_Techniques/Batch_Prompting.md\n- Basic_Prompt_Engineering_Techniques/Emotion_Prompting.md\n- Basic_Prompt_Engineering_Techniques/Role_Prompting.md\n- Basic_Prompt_Engineering_Techniques/Zero_Shot_Prompting.md\n- Basic_Prompt_Engineering_Techniques/few_shot_prompting.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Basic_Prompt_Engineering_Techniques 文件结构",
+        "content": "Basic_Prompt_Engineering_Techniques/Batch_Prompting.md\nBasic_Prompt_Engineering_Techniques/Emotion_Prompting.md\nBasic_Prompt_Engineering_Techniques/Role_Prompting.md\nBasic_Prompt_Engineering_Techniques/Zero_Shot_Prompting.md\nBasic_Prompt_Engineering_Techniques/few_shot_prompting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  }
+]

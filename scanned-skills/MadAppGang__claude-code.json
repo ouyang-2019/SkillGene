@@ -1,0 +1,71 @@
+[
+  {
+    "name": "claude-code (MadAppGang)",
+    "description": "[项目级] claude code plugins marketplace。来源: https://github.com/MadAppGang/claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-232",
+      "github-madappgang",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Most developers are doing AI-assisted development wrong.**\n\nThey're copying prompts from Reddit. Following tutorials from people who've never shipped to production. Using workflows that optimize for demos, not delivery.\n\n**The cost?** Weeks of wasted time. Features that ship broken. AI bills that balloon. Teams that slow down instead of speed up.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Recommended Setup:** Add marketplace globally, enable plugins per-project.\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nRELEASES.md\nRELEASE_PROCESS.md\nai-docs\nai-docs/CACHE_ARCHITECTURE_DIAGRAM.md\nai-docs/CACHE_IMPLEMENTATION_STATUS.md\nai-docs/CACHE_IMPLEMENTATION_SUMMARY.md\nai-docs/CACHE_SYSTEM_COMPLETE_GUIDE.md\nai-docs/CLAUDE_CONTEXT_REPO_INTEGRATION.md\nai-docs/CLAUDISH_ENHANCEMENT_PROPOSAL.md\nai-docs/CLAUDISH_INTEGRATION_ARCHITECTURE.md\nai-docs/COMPLETE_PLUGIN_SUMMARY.md\nai-docs/DOCUMENTATION_RESTRUCTURING_PLAN.md\nai-docs/DYNAMIC_MCP_GUIDE.md\nai-docs/EXAMPLE_architect-xml.md\nai-docs/EXAMPLE_backend-developer-xml.md\nai-docs/FINAL_CLEANUP_REPORT.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Version:** 2.8.0 | **Category:** Development | **Model:** Sonnet | **[📖 Full Documentation](./docs/frontend.md)**\n\nProfessional toolkit for TypeScript/React development with intelligent workflow detection, CSS-aware design validation, orchestrated workflows, quality automation, and team collaboration features.\n\n**Highlights:**\n- **NEW in v2.8.0: Intelligent Workflow Detection** - Automatically detects API/UI/Mixed tasks and adapts execution for faster, more focused implementations\n- **13 Specialized Agents** - Including CSS Developer, Designer ecosystem (designer + designer-codex), UI Devel",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.18274399244545
+  },
+  {
+    "name": "claude-code/ai-docs 模块",
+    "description": "[模块级] claude-code 项目的 ai-docs 模块 (source)。来源: https://github.com/MadAppGang/claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-232",
+      "github-madappgang",
+      "module-level",
+      "source",
+      "ai-docs"
+    ],
+    "genes": [
+      {
+        "title": "ai-docs 模块说明",
+        "content": "模块路径: ai-docs/\n类型: source\n文件数: 175\n\n包含文件:\n- ai-docs/CACHE_ARCHITECTURE_DIAGRAM.md\n- ai-docs/CACHE_IMPLEMENTATION_STATUS.md\n- ai-docs/CACHE_IMPLEMENTATION_SUMMARY.md\n- ai-docs/CACHE_SYSTEM_COMPLETE_GUIDE.md\n- ai-docs/CLAUDE_CONTEXT_REPO_INTEGRATION.md\n- ai-docs/CLAUDISH_ENHANCEMENT_PROPOSAL.md\n- ai-docs/CLAUDISH_INTEGRATION_ARCHITECTURE.md\n- ai-docs/COMPLETE_PLUGIN_SUMMARY.md\n- ai-docs/DOCUMENTATION_RESTRUCTURING_PLAN.md\n- ai-docs/DYNAMIC_MCP_GUIDE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-docs 文件结构",
+        "content": "ai-docs/CACHE_ARCHITECTURE_DIAGRAM.md\nai-docs/CACHE_IMPLEMENTATION_STATUS.md\nai-docs/CACHE_IMPLEMENTATION_SUMMARY.md\nai-docs/CACHE_SYSTEM_COMPLETE_GUIDE.md\nai-docs/CLAUDE_CONTEXT_REPO_INTEGRATION.md\nai-docs/CLAUDISH_ENHANCEMENT_PROPOSAL.md\nai-docs/CLAUDISH_INTEGRATION_ARCHITECTURE.md\nai-docs/COMPLETE_PLUGIN_SUMMARY.md\nai-docs/DOCUMENTATION_RESTRUCTURING_PLAN.md\nai-docs/DYNAMIC_MCP_GUIDE.md\nai-docs/EXAMPLE_architect-xml.md\nai-docs/EXAMPLE_backend-developer-xml.md\nai-docs/FINAL_CLEANUP_REPORT.md\nai-docs/FINAL_SUMMARY.md\nai-docs/IMPROVEMENTS_SUMMARY.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4461951939563598
+  }
+]

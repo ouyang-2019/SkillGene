@@ -1,0 +1,157 @@
+[
+  {
+    "name": "jvector (datastax)",
+    "description": "[项目级] JVector: the most advanced embedded vector search engine。来源: https://github.com/datastax/jvector",
+    "domain": "general",
+    "tags": [
+      "ann",
+      "java",
+      "knn",
+      "machine-learning",
+      "search-engine",
+      "stars-1685",
+      "github-datastax",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Exact nearest neighbor search (k-nearest-neighbor or KNN) is prohibitively expensive at higher dimensions, because approaches to segment the search space that work in 2D or 3D like quadtree or k-d tree devolve to linear scans at higher dimensions.  This is one aspect of what is called “[the curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality).”\n\nWith larger datasets, it is almost always more useful to get an approximate answer in logarithmic time, than the exact answer in linear time.  This is abbreviated as ANN (approximate nearest neighbor) search.\n\nThere are two broad categories of ANN index:\n* Partition-based indexes, like [LSH or IVF](https://www.datastax.com/guides/what-is-a-vector-index) or [SCANN](https://github.com/google-research/google-research/tree/ma",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTIONS.md\nLICENSE.txt\nNOTICE.txt\nREADME.md\nUPGRADING.md\nbenchmarks-jmh\nbenchmarks-jmh/README.md\nbenchmarks-jmh/pom.xml\nbenchmarks-jmh/scripts\nbenchmarks-jmh/src\ncompare_benchmark_iterations.py\ndocs\ndocs/benchmarking.md\ndocs/tutorials\njvector-base\njvector-base/pom.xml\njvector-base/src\njvector-examples\njvector-examples/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Fused PQ is represented as a Feature that is supported during incremental index construction, like InlineVectors above.  [See the Grid class for sample code](https://github.com/jbellis/jvector/blob/main/jvector-examples/src/main/java/io/github/jbellis/jvector/example/Grid.java).\n* Anisotropic PQ is built into the ProductQuantization class and can improve recall, but nobody knows how to tune it (with the T/threshold parameter) except experimentally on a per-model basis, and choosing the wrong setting can make things worse.  From Figure 3 in the paper: \n![APQ performnce on Glove first improves",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.613299952603679
+  },
+  {
+    "name": "jvector/benchmarks-jmh 模块",
+    "description": "[模块级] jvector 项目的 benchmarks-jmh 模块 (source)。来源: https://github.com/datastax/jvector",
+    "domain": "general",
+    "tags": [
+      "ann",
+      "java",
+      "knn",
+      "machine-learning",
+      "search-engine",
+      "module-level",
+      "source",
+      "benchmarks-jmh"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks-jmh 模块说明",
+        "content": "模块路径: benchmarks-jmh/\n类型: source\n文件数: 23\n\n包含文件:\n- benchmarks-jmh/README.md\n- benchmarks-jmh/pom.xml\n- benchmarks-jmh/scripts\n- benchmarks-jmh/scripts/jmh_results_formatter.py\n- benchmarks-jmh/scripts/test_node_setup.sh\n- benchmarks-jmh/src\n- benchmarks-jmh/src/main\n- benchmarks-jmh/src/main/java\n- benchmarks-jmh/src/main/java/io\n- benchmarks-jmh/src/main/java/io/github",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks-jmh 文件结构",
+        "content": "benchmarks-jmh/README.md\nbenchmarks-jmh/pom.xml\nbenchmarks-jmh/scripts\nbenchmarks-jmh/scripts/jmh_results_formatter.py\nbenchmarks-jmh/scripts/test_node_setup.sh\nbenchmarks-jmh/src\nbenchmarks-jmh/src/main\nbenchmarks-jmh/src/main/java\nbenchmarks-jmh/src/main/java/io\nbenchmarks-jmh/src/main/java/io/github\nbenchmarks-jmh/src/main/java/io/github/jbellis\nbenchmarks-jmh/src/main/java/io/github/jbellis/jvector\nbenchmarks-jmh/src/main/java/io/github/jbellis/jvector/bench\nbenchmarks-jmh/src/main/java/io/github/jbellis/jvector/bench/IndexConstructionWithRandomSetBenchmark.java\nbenchmarks-jmh/src/main/java/io/github/jbellis/jvector/bench/IndexConstructionWithStaticSetBenchmark.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "jvector/docs 模块",
+    "description": "[模块级] jvector 项目的 docs 模块 (docs)。来源: https://github.com/datastax/jvector",
+    "domain": "documentation",
+    "tags": [
+      "ann",
+      "java",
+      "knn",
+      "machine-learning",
+      "search-engine",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/benchmarking.md\n- docs/tutorials\n- docs/tutorials/1-intro-tutorial.md\n- docs/tutorials/2-disk-tutorial.md\n- docs/tutorials/3-larger-than-memory-tutorial.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/benchmarking.md\ndocs/tutorials\ndocs/tutorials/1-intro-tutorial.md\ndocs/tutorials/2-disk-tutorial.md\ndocs/tutorials/3-larger-than-memory-tutorial.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "jvector/jvector-base 模块",
+    "description": "[模块级] jvector 项目的 jvector-base 模块 (source)。来源: https://github.com/datastax/jvector",
+    "domain": "general",
+    "tags": [
+      "ann",
+      "java",
+      "knn",
+      "machine-learning",
+      "search-engine",
+      "module-level",
+      "source",
+      "jvector-base"
+    ],
+    "genes": [
+      {
+        "title": "jvector-base 模块说明",
+        "content": "模块路径: jvector-base/\n类型: source\n文件数: 139\n\n包含文件:\n- jvector-base/pom.xml\n- jvector-base/src\n- jvector-base/src/main\n- jvector-base/src/main/java\n- jvector-base/src/main/java/io\n- jvector-base/src/main/java/io/github\n- jvector-base/src/main/java/io/github/jbellis\n- jvector-base/src/main/java/io/github/jbellis/jvector\n- jvector-base/src/main/java/io/github/jbellis/jvector/annotations\n- jvector-base/src/main/java/io/github/jbellis/jvector/annotations/Experimental.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jvector-base 文件结构",
+        "content": "jvector-base/pom.xml\njvector-base/src\njvector-base/src/main\njvector-base/src/main/java\njvector-base/src/main/java/io\njvector-base/src/main/java/io/github\njvector-base/src/main/java/io/github/jbellis\njvector-base/src/main/java/io/github/jbellis/jvector\njvector-base/src/main/java/io/github/jbellis/jvector/annotations\njvector-base/src/main/java/io/github/jbellis/jvector/annotations/Experimental.java\njvector-base/src/main/java/io/github/jbellis/jvector/annotations/VisibleForTesting.java\njvector-base/src/main/java/io/github/jbellis/jvector/disk\njvector-base/src/main/java/io/github/jbellis/jvector/disk/BufferedRandomAccessWriter.java\njvector-base/src/main/java/io/github/jbellis/jvector/disk/ByteBufferIndexWriter.java\njvector-base/src/main/java/io/github/jbellis/jvector/disk/ByteBufferReader.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "jvector/jvector-examples 模块",
+    "description": "[模块级] jvector 项目的 jvector-examples 模块 (source)。来源: https://github.com/datastax/jvector",
+    "domain": "general",
+    "tags": [
+      "ann",
+      "java",
+      "knn",
+      "machine-learning",
+      "search-engine",
+      "module-level",
+      "source",
+      "jvector-examples"
+    ],
+    "genes": [
+      {
+        "title": "jvector-examples 模块说明",
+        "content": "模块路径: jvector-examples/\n类型: source\n文件数: 8\n\n包含文件:\n- jvector-examples/README.md\n- jvector-examples/pom.xml\n- jvector-examples/src\n- jvector-examples/src/main\n- jvector-examples/src/main/java\n- jvector-examples/src/main/java/io\n- jvector-examples/src/main/java/io/github\n- jvector-examples/src/main/java/io/github/jbellis",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jvector-examples 文件结构",
+        "content": "jvector-examples/README.md\njvector-examples/pom.xml\njvector-examples/src\njvector-examples/src/main\njvector-examples/src/main/java\njvector-examples/src/main/java/io\njvector-examples/src/main/java/io/github\njvector-examples/src/main/java/io/github/jbellis",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  }
+]

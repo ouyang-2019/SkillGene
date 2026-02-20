@@ -1,0 +1,98 @@
+[
+  {
+    "name": "klavis (Klavis-AI)",
+    "description": "[项目级] Klavis AI (YC X25):  MCP integration platforms that let AI agents use tools reliably at any scale。来源: https://github.com/Klavis-AI/klavis",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "developer-tools",
+      "python",
+      "stars-5640",
+      "github-klavis-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Klavis AI (YC X25):  MCP integration platforms that let AI agents use tools reliably at any scale\n\n来源: https://github.com/Klavis-AI/klavis\n语言: Python\nStars: 5640",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nLLM.md\nMCP_SERVER_GUIDE.md\nREADME.md\n_oauth_support\n_oauth_support/README.md\n_oauth_support/docker\n_oauth_support/oauth_acquire.sh\n_oauth_support/server_name.json\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/ai-platform-integration\ndocs/api-reference",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8756395519916715
+  },
+  {
+    "name": "klavis/_oauth_support 模块",
+    "description": "[模块级] klavis 项目的 _oauth_support 模块 (source)。来源: https://github.com/Klavis-AI/klavis",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "developer-tools",
+      "module-level",
+      "source",
+      "_oauth_support"
+    ],
+    "genes": [
+      {
+        "title": "_oauth_support 模块说明",
+        "content": "模块路径: _oauth_support/\n类型: source\n文件数: 6\n\n包含文件:\n- _oauth_support/README.md\n- _oauth_support/docker\n- _oauth_support/docker/Dockerfile.template\n- _oauth_support/docker/entrypoint_wrapper.sh\n- _oauth_support/oauth_acquire.sh\n- _oauth_support/server_name.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_oauth_support 文件结构",
+        "content": "_oauth_support/README.md\n_oauth_support/docker\n_oauth_support/docker/Dockerfile.template\n_oauth_support/docker/entrypoint_wrapper.sh\n_oauth_support/oauth_acquire.sh\n_oauth_support/server_name.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000511641593337
+  },
+  {
+    "name": "klavis/docs 模块",
+    "description": "[模块级] klavis 项目的 docs 模块 (docs)。来源: https://github.com/Klavis-AI/klavis",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "developer-tools",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 174\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/ai-platform-integration\n- docs/ai-platform-integration/agno.mdx\n- docs/ai-platform-integration/claude.mdx\n- docs/ai-platform-integration/cohere.mdx\n- docs/ai-platform-integration/crewai.mdx\n- docs/ai-platform-integration/fireworks-ai.mdx\n- docs/ai-platform-integration/gemini.mdx\n- docs/ai-platform-integration/google-adk.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/ai-platform-integration\ndocs/ai-platform-integration/agno.mdx\ndocs/ai-platform-integration/claude.mdx\ndocs/ai-platform-integration/cohere.mdx\ndocs/ai-platform-integration/crewai.mdx\ndocs/ai-platform-integration/fireworks-ai.mdx\ndocs/ai-platform-integration/gemini.mdx\ndocs/ai-platform-integration/google-adk.mdx\ndocs/ai-platform-integration/langchain.mdx\ndocs/ai-platform-integration/llamaindex.mdx\ndocs/ai-platform-integration/mastra.mdx\ndocs/ai-platform-integration/mistral.mdx\ndocs/ai-platform-integration/openai.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000511641593337
+  }
+]

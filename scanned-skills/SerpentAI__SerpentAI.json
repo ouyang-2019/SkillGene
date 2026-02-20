@@ -1,0 +1,183 @@
+[
+  {
+    "name": "SerpentAI (SerpentAI)",
+    "description": "[项目级] Game Agent Framework. Helping you create AIs / Bots that learn to play any game you own!。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "python",
+      "stars-6978",
+      "github-serpentai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Game Agent Framework. Helping you create AIs / Bots that learn to play any game you own!\n\n来源: https://github.com/SerpentAI/SerpentAI\n语言: Python\nStars: 6978",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nISSUE_TEMPLATE.md\nLICENSE.md\nREADME.md\ncli.py\nconfig\nconfig/config.plugins.yml\nconfig/config.yml\ndashboard\ndashboard/Thumbs.db\ndashboard/database.sqlite\ndashboard/serpent.png\npyproject.toml\nserpent\nserpent/__init__.py\nserpent/analytics_client.py\nserpent/config.py\nserpent/config\nserpent/crossbar.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.921865482556046
+  },
+  {
+    "name": "SerpentAI/config 模块",
+    "description": "[模块级] SerpentAI 项目的 config 模块 (config)。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/config.plugins.yml\n- config/config.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.plugins.yml\nconfig/config.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.037492386044837
+  },
+  {
+    "name": "SerpentAI/dashboard 模块",
+    "description": "[模块级] SerpentAI 项目的 dashboard 模块 (source)。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "module-level",
+      "source",
+      "dashboard"
+    ],
+    "genes": [
+      {
+        "title": "dashboard 模块说明",
+        "content": "模块路径: dashboard/\n类型: source\n文件数: 3\n\n包含文件:\n- dashboard/Thumbs.db\n- dashboard/database.sqlite\n- dashboard/serpent.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dashboard 文件结构",
+        "content": "dashboard/Thumbs.db\ndashboard/database.sqlite\ndashboard/serpent.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.037492386044837
+  },
+  {
+    "name": "SerpentAI/serpent 模块",
+    "description": "[模块级] SerpentAI 项目的 serpent 模块 (source)。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "module-level",
+      "source",
+      "serpent"
+    ],
+    "genes": [
+      {
+        "title": "serpent 模块说明",
+        "content": "[![](https://img.shields.io/badge/project-website-brightgreen.svg?colorB=1bcc6f&longCache=true)](http://serpent.ai)\n[![](https://img.shields.io/badge/project-blog-brightgreen.svg?colorB=1bcc6f&longCache=true)](http://blog.serpent.ai)\n[![](https://img.shields.io/badge/project-wiki-brightgreen.svg?colorB=1bcc6f&longCache=true)](https://github.com/SerpentAI/SerpentAI/wiki)    \n[![](https://img.shields.io/badge/pypi-v2018.1.2-brightgreen.svg?colorB=007ec6&longCache=true)]()\n[![](https://img.shields.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "serpent 文件结构",
+        "content": "serpent/__init__.py\nserpent/analytics_client.py\nserpent/config.py\nserpent/config\nserpent/config/config.json\nserpent/config/config.plugins.yml\nserpent/config/config.yml\nserpent/config/config_sdk.json\nserpent/crossbar.json\nserpent/cv.py\nserpent/dashboard\nserpent/dashboard/__init__.py\nserpent/dashboard/cefbrowser\nserpent/dashboard/cefbrowser/__init__.py\nserpent/dashboard/cefbrowser/cefbrowser.kv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.037492386044837
+  },
+  {
+    "name": "SerpentAI/tests 模块",
+    "description": "[模块级] SerpentAI 项目的 tests 模块 (test)。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "testing",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 4\n\n包含文件:\n- tests/unit\n- tests/unit/test_agent.py\n- tests/unit/test_game_api.py\n- tests/unit/test_random_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/unit\ntests/unit/test_agent.py\ntests/unit/test_game_api.py\ntests/unit/test_random_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.037492386044837
+  },
+  {
+    "name": "SerpentAI/vendor 模块",
+    "description": "[模块级] SerpentAI 项目的 vendor 模块 (source)。来源: https://github.com/SerpentAI/SerpentAI",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "framework",
+      "machine-learning",
+      "module-level",
+      "source",
+      "vendor"
+    ],
+    "genes": [
+      {
+        "title": "vendor 模块说明",
+        "content": "模块路径: vendor/\n类型: source\n文件数: 4\n\n包含文件:\n- vendor/TEMPORARY\n- vendor/Twisted-20.3.0-cp38-cp38-win_amd64.whl\n- vendor/lmdb-0.98-cp38-cp38-win_amd64.whl\n- vendor/setproctitle-1.1.10-cp38-cp38-win_amd64.whl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vendor 文件结构",
+        "content": "vendor/TEMPORARY\nvendor/Twisted-20.3.0-cp38-cp38-win_amd64.whl\nvendor/lmdb-0.98-cp38-cp38-win_amd64.whl\nvendor/setproctitle-1.1.10-cp38-cp38-win_amd64.whl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.037492386044837
+  }
+]

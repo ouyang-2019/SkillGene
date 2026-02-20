@@ -1,0 +1,182 @@
+[
+  {
+    "name": "groonga (groonga)",
+    "description": "[项目级] An embeddable fulltext search engine. Groonga is the successor project to Senna.。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "stars-844",
+      "github-groonga",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An embeddable fulltext search engine. Groonga is the successor project to Senna.\n\n来源: https://github.com/groonga/groonga\n语言: C\nStars: 844",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Brewfile\nCMakeLists.txt\nCMakePresets.json\nCOPYING\nGemfile\nMakefile.am\nREADME.md\nRakefile\nautogen.sh\nbase_version\nbenchmark\nbenchmark/CMakeLists.txt\nbenchmark/Makefile.am\nbenchmark/bench-between-sequential.c\nbenchmark/bench-cache.c\nbenchmark/bench-ctx-create.c\nbenchmark/bench-distance.c\nbenchmark/bench-geo-distance.c\nbenchmark/bench-geo-select.c\nbenchmark/bench-geo-select.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.463171223312828
+  },
+  {
+    "name": "groonga/benchmark 模块",
+    "description": "[模块级] groonga 项目的 benchmark 模块 (source)。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 33\n\n包含文件:\n- benchmark/CMakeLists.txt\n- benchmark/Makefile.am\n- benchmark/bench-between-sequential.c\n- benchmark/bench-cache.c\n- benchmark/bench-ctx-create.c\n- benchmark/bench-distance.c\n- benchmark/bench-geo-distance.c\n- benchmark/bench-geo-select.c\n- benchmark/bench-geo-select.sh\n- benchmark/bench-nfkc.c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/CMakeLists.txt\nbenchmark/Makefile.am\nbenchmark/bench-between-sequential.c\nbenchmark/bench-cache.c\nbenchmark/bench-ctx-create.c\nbenchmark/bench-distance.c\nbenchmark/bench-geo-distance.c\nbenchmark/bench-geo-select.c\nbenchmark/bench-geo-select.sh\nbenchmark/bench-nfkc.c\nbenchmark/bench-query-optimizer-ddl.grn\nbenchmark/bench-query-optimizer.c\nbenchmark/bench-range-select.c\nbenchmark/bench-result-set-raw.c\nbenchmark/bench-result-set.c",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6705369786502624
+  },
+  {
+    "name": "groonga/bindings 模块",
+    "description": "[模块级] groonga 项目的 bindings 模块 (source)。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "module-level",
+      "source",
+      "bindings"
+    ],
+    "genes": [
+      {
+        "title": "bindings 模块说明",
+        "content": "模块路径: bindings/\n类型: source\n文件数: 12\n\n包含文件:\n- bindings/php\n- bindings/php/config.m4\n- bindings/php/config.w32\n- bindings/php/groonga.c\n- bindings/php/groonga.dsp\n- bindings/php/php_groonga.h\n- bindings/php/tests\n- bindings/php/tests/001.phpt\n- bindings/python\n- bindings/python/ql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bindings 文件结构",
+        "content": "bindings/php\nbindings/php/config.m4\nbindings/php/config.w32\nbindings/php/groonga.c\nbindings/php/groonga.dsp\nbindings/php/php_groonga.h\nbindings/php/tests\nbindings/php/tests/001.phpt\nbindings/python\nbindings/python/ql\nbindings/python/ql/groongaql.c\nbindings/python/ql/setup.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6705369786502624
+  },
+  {
+    "name": "groonga/ci 模块",
+    "description": "[模块级] groonga 项目的 ci 模块 (source)。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 6\n\n包含文件:\n- ci/arch-linux\n- ci/arch-linux/PKGBUILD\n- ci/arch-linux/build.sh\n- ci/msys2\n- ci/msys2/001-aarch64.patch\n- ci/msys2/PKGBUILD",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/arch-linux\nci/arch-linux/PKGBUILD\nci/arch-linux/build.sh\nci/msys2\nci/msys2/001-aarch64.patch\nci/msys2/PKGBUILD",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6705369786502624
+  },
+  {
+    "name": "groonga/cmake 模块",
+    "description": "[模块级] groonga 项目的 cmake 模块 (source)。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 9\n\n包含文件:\n- cmake/FindGroongaRapidJSON.cmake\n- cmake/FindGroongalibedit.cmake\n- cmake/FindGroongalibstemmer.cmake\n- cmake/FindGroongalz4.cmake\n- cmake/FindGroongamsgpackc.cmake\n- cmake/FindGroongaxxHash.cmake\n- cmake/FindGroongazstd.cmake\n- cmake/GroongaSphinx.cmake\n- cmake/Makefile.am",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/FindGroongaRapidJSON.cmake\ncmake/FindGroongalibedit.cmake\ncmake/FindGroongalibstemmer.cmake\ncmake/FindGroongalz4.cmake\ncmake/FindGroongamsgpackc.cmake\ncmake/FindGroongaxxHash.cmake\ncmake/FindGroongazstd.cmake\ncmake/GroongaSphinx.cmake\ncmake/Makefile.am",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6705369786502624
+  },
+  {
+    "name": "groonga/data 模块",
+    "description": "[模块级] groonga 项目的 data 模块 (source)。来源: https://github.com/groonga/groonga",
+    "domain": "general",
+    "tags": [
+      "c",
+      "full-text-search",
+      "groonga",
+      "mruby",
+      "nginx",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 69\n\n包含文件:\n- data/CMakeLists.txt\n- data/Makefile.am\n- data/account\n- data/account/appveyor.gpg.kou\n- data/account/conoha.gpg.kou\n- data/account/conoha.gpg.yuki\n- data/account/github-groonga-docker.gpg.hayashi\n- data/account/github-groonga-docker.gpg.kou\n- data/account/twitter.gpg.hayashi\n- data/account/twitter.gpg.kou",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/CMakeLists.txt\ndata/Makefile.am\ndata/account\ndata/account/appveyor.gpg.kou\ndata/account/conoha.gpg.kou\ndata/account/conoha.gpg.yuki\ndata/account/github-groonga-docker.gpg.hayashi\ndata/account/github-groonga-docker.gpg.kou\ndata/account/twitter.gpg.hayashi\ndata/account/twitter.gpg.kou\ndata/account/twitter.gpg.yuki\ndata/groonga.conf\ndata/html\ndata/html/CMakeLists.txt\ndata/html/Makefile.am",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6705369786502624
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "TradingAgents-CN (hsliuping)",
+    "description": "[项目级] 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版。来源: https://github.com/hsliuping/TradingAgents-CN",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-17517",
+      "github-hsliuping",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版\n\n来源: https://github.com/hsliuping/TradingAgents-CN\n语言: Python\nStars: 17517",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**三种部署方式，任选其一**：\n\n| 部署方式 | 适用场景 | 难度 | 文档链接 |\n|---------|---------|------|---------|\n| 🟢 **绿色版** | Windows 用户、快速体验 | ⭐ 简单 | [绿色版安装指南](https://mp.weixin.qq.com/s/eoo_HeIGxaQZVT76LBbRJQ) |\n| 🐳 **Docker版** | 生产环境、跨平台 | ⭐⭐ 中等 | [Docker 部署指南](https://mp.weixin.qq.com/s/JkA0cOu8xJnoY_3LC5oXNw) |\n| 💻 **本地代码版** | 开发者、定制需求 | ⭐⭐⭐ 较难 | [本地安装指南](https://mp.weixin.qq.com/s/cqUGf-sAzcBV19gdI4sYfA) |\n\n⚠️ **重要提醒**：在分析股票之前，请按相关文档要求，将股票数据同步完成，否则分析结果将会出现数据错误。",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ACKNOWLEDGMENTS.md\nCOMMERCIAL_LICENSE_TEMPLATE.md\nCONTRIBUTORS.md\nCOPYRIGHT.md\nDockerfile.backend\nDockerfile.frontend\nLICENSE\nLICENSING.md\nREADME.md\nVERSION\napp\napp/LICENSE\napp/__init__.py\napp/__main__.py\napp/constants\napp/core\napp/main.py\napp/middleware\napp/models\napp/routers",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "在使用前，建议先阅读详细的使用指南：\n- **[0、📘 TradingAgents-CN v1.0.0-preview 快速入门视频](https://www.bilibili.com/video/BV1i2CeBwEP7/?vd_source=5d790a5b8d2f46d2c10fd4e770be1594)**\n\n- **[1、📘 TradingAgents-CN v1.0.0-preview 使用指南](https://mp.weixin.qq.com/s/ppsYiBncynxlsfKFG8uEbw)**\n- **[2、📘 使用 Docker Compose 部署TradingAgents-CN v1.0.0-preview（完全版）](https://mp.weixin.qq.com/s/JkA0cOu8xJnoY_3LC5oXNw)**\n- **[3、📘 从 Docker Hub 更新 TradingAgents‑CN 镜像](https://mp.weixin.qq.com/s/WKYhW8J80Watpg8K6E_dSQ)**\n- **[4、📘 TradingAgents-CN v1.0.0-preview绿色版安装和升级指南](https://mp.weixin.qq.com/s/eoo_HeIGxaQZVT76LBbRJQ)**\n- **[5、📘 T",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "TradingAgents-CN/app 模块",
+    "description": "[模块级] TradingAgents-CN 项目的 app 模块 (source)。来源: https://github.com/hsliuping/TradingAgents-CN",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-17517",
+      "github-hsliuping",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 171\n\n包含文件:\n- app/LICENSE\n- app/__init__.py\n- app/__main__.py\n- app/constants\n- app/constants/model_capabilities.py\n- app/core\n- app/core/__init__.py\n- app/core/config.py\n- app/core/config_bridge.py\n- app/core/config_compat.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/LICENSE\napp/__init__.py\napp/__main__.py\napp/constants\napp/constants/model_capabilities.py\napp/core\napp/core/__init__.py\napp/core/config.py\napp/core/config_bridge.py\napp/core/config_compat.py\napp/core/database.py\napp/core/dev_config.py\napp/core/logging_config.py\napp/core/logging_context.py\napp/core/rate_limiter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.19738389198838
+  }
+]

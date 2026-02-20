@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Awesome-GraphRAG (DEEP-PolyU)",
+    "description": "[项目级] Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation. 。来源: https://github.com/DEEP-PolyU/Awesome-GraphRAG",
+    "domain": "general",
+    "tags": [
+      "graphrag",
+      "graphrag-paper",
+      "graphrag-survey",
+      "knowledge-graph",
+      "large-language-models",
+      "stars-2126",
+      "github-deep-polyu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome-GraphRAG: A curated list of resources (surveys, papers, benchmarks, and opensource projects) on graph-based retrieval-augmented generation. \n\n来源: https://github.com/DEEP-PolyU/Awesome-GraphRAG\n语言: unknown\nStars: 2126",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nfigs\nfigs/main_fig.png\nfigs/organization.png\nfigs/rag_vs_graphrag.png\nfigs/retrieval.png\nfigs/trend.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.663781630093639
+  },
+  {
+    "name": "Awesome-GraphRAG/figs 模块",
+    "description": "[模块级] Awesome-GraphRAG 项目的 figs 模块 (source)。来源: https://github.com/DEEP-PolyU/Awesome-GraphRAG",
+    "domain": "general",
+    "tags": [
+      "graphrag",
+      "graphrag-paper",
+      "graphrag-survey",
+      "knowledge-graph",
+      "large-language-models",
+      "module-level",
+      "source",
+      "figs"
+    ],
+    "genes": [
+      {
+        "title": "figs 模块说明",
+        "content": "模块路径: figs/\n类型: source\n文件数: 5\n\n包含文件:\n- figs/main_fig.png\n- figs/organization.png\n- figs/rag_vs_graphrag.png\n- figs/retrieval.png\n- figs/trend.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figs 文件结构",
+        "content": "figs/main_fig.png\nfigs/organization.png\nfigs/rag_vs_graphrag.png\nfigs/retrieval.png\nfigs/trend.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8310253040749114
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "name": "weaviate-examples (weaviate)",
+    "description": "[项目级] Weaviate vector database – examples。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "html",
+      "stars-326",
+      "github-weaviate",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Weaviate vector database – examples\n\n来源: https://github.com/weaviate/weaviate-examples\n语言: HTML\nStars: 326",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nattendance-system-example\nattendance-system-example/Faces\nattendance-system-example/Readme.md\nattendance-system-example/Squares\nattendance-system-example/app.py\nattendance-system-example/att1.png\nattendance-system-example/att2.png\nattendance-system-example/attendance_no_audio.mp4\nattendance-system-example/docker-compose.yml\nattendance-system-example/mark.py\nattendance-system-example/own_vec.py\nattendance-system-example/requirements.txt\nattendance-system-example/static\nattendance-system-example/student_add.py\nattendance-system-example/student_own_add.py\nattendance-system-example/student_test.py\nattendance-system-example/students\nattendance-system-example/templates",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "List of examples and tutorials of how to use the Vector Search Engine\nWeaviate for cool machine-learning related tasks.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.25660880003397
+  },
+  {
+    "name": "weaviate-examples/attendance-system-example 模块",
+    "description": "[模块级] weaviate-examples 项目的 attendance-system-example 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "attendance-system-example"
+    ],
+    "genes": [
+      {
+        "title": "attendance-system-example 模块说明",
+        "content": "模块路径: attendance-system-example/\n类型: source\n文件数: 61\n\n包含文件:\n- attendance-system-example/Faces\n- attendance-system-example/Faces/5050_faces.jpg\n- attendance-system-example/Faces/5151_faces.jpg\n- attendance-system-example/Faces/6363_faces.jpg\n- attendance-system-example/Faces/6969_faces.jpg\n- attendance-system-example/Faces/7777_faces.jpg\n- attendance-system-example/Readme.md\n- attendance-system-example/Squares\n- attendance-system-example/Squares/faces_detected.jpg\n- attendance-system-example/app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "attendance-system-example 文件结构",
+        "content": "attendance-system-example/Faces\nattendance-system-example/Faces/5050_faces.jpg\nattendance-system-example/Faces/5151_faces.jpg\nattendance-system-example/Faces/6363_faces.jpg\nattendance-system-example/Faces/6969_faces.jpg\nattendance-system-example/Faces/7777_faces.jpg\nattendance-system-example/Readme.md\nattendance-system-example/Squares\nattendance-system-example/Squares/faces_detected.jpg\nattendance-system-example/app.py\nattendance-system-example/att1.png\nattendance-system-example/att2.png\nattendance-system-example/attendance_no_audio.mp4\nattendance-system-example/docker-compose.yml\nattendance-system-example/mark.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/audio-genre-classification 模块",
+    "description": "[模块级] weaviate-examples 项目的 audio-genre-classification 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "audio-genre-classification"
+    ],
+    "genes": [
+      {
+        "title": "audio-genre-classification 模块说明",
+        "content": "模块路径: audio-genre-classification/\n类型: source\n文件数: 19\n\n包含文件:\n- audio-genre-classification/.gitattributes\n- audio-genre-classification/.gitignore\n- audio-genre-classification/Readme.md\n- audio-genre-classification/add_data.py\n- audio-genre-classification/app.py\n- audio-genre-classification/docker-compose.yml\n- audio-genre-classification/get_label.py\n- audio-genre-classification/requirements.txt\n- audio-genre-classification/sample test audios\n- audio-genre-classification/sample test audios/classical.00002.wav",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audio-genre-classification 文件结构",
+        "content": "audio-genre-classification/.gitattributes\naudio-genre-classification/.gitignore\naudio-genre-classification/Readme.md\naudio-genre-classification/add_data.py\naudio-genre-classification/app.py\naudio-genre-classification/docker-compose.yml\naudio-genre-classification/get_label.py\naudio-genre-classification/requirements.txt\naudio-genre-classification/sample test audios\naudio-genre-classification/sample test audios/classical.00002.wav\naudio-genre-classification/sample test audios/country.00011.wav\naudio-genre-classification/sample test audios/jazz.00004.wav\naudio-genre-classification/sample test audios/jazz_test.wav\naudio-genre-classification/sample test audios/metal.00014.wav\naudio-genre-classification/sample test audios/pop.00001.wav",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/bert-information-retrieval 模块",
+    "description": "[模块级] weaviate-examples 项目的 bert-information-retrieval 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "bert-information-retrieval"
+    ],
+    "genes": [
+      {
+        "title": "bert-information-retrieval 模块说明",
+        "content": "模块路径: bert-information-retrieval/\n类型: source\n文件数: 4\n\n包含文件:\n- bert-information-retrieval/.gitignore\n- bert-information-retrieval/bert-weaviate-information-retrieval.ipynb\n- bert-information-retrieval/download.sh\n- bert-information-retrieval/readme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bert-information-retrieval 文件结构",
+        "content": "bert-information-retrieval/.gitignore\nbert-information-retrieval/bert-weaviate-information-retrieval.ipynb\nbert-information-retrieval/download.sh\nbert-information-retrieval/readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/caption search 模块",
+    "description": "[模块级] weaviate-examples 项目的 caption search 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "caption search"
+    ],
+    "genes": [
+      {
+        "title": "caption search 模块说明",
+        "content": "模块路径: caption search/\n类型: source\n文件数: 13\n\n包含文件:\n- caption search/.gitignore\n- caption search/README.md\n- caption search/add_data.py\n- caption search/docker-compose.yml\n- caption search/index.js\n- caption search/package-lock.json\n- caption search/package.json\n- caption search/requirements.txt\n- caption search/views\n- caption search/views/CSS",
+        "gene_type": "principle"
+      },
+      {
+        "title": "caption search 文件结构",
+        "content": "caption search/.gitignore\ncaption search/README.md\ncaption search/add_data.py\ncaption search/docker-compose.yml\ncaption search/index.js\ncaption search/package-lock.json\ncaption search/package.json\ncaption search/requirements.txt\ncaption search/views\ncaption search/views/CSS\ncaption search/views/CSS/style.css\ncaption search/views/add_data.ejs\ncaption search/views/search.ejs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/clip-multi-modal-text-image-search 模块",
+    "description": "[模块级] weaviate-examples 项目的 clip-multi-modal-text-image-search 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "clip-multi-modal-text-image-search"
+    ],
+    "genes": [
+      {
+        "title": "clip-multi-modal-text-image-search 模块说明",
+        "content": "模块路径: clip-multi-modal-text-image-search/\n类型: source\n文件数: 42\n\n包含文件:\n- clip-multi-modal-text-image-search/.gitignore\n- clip-multi-modal-text-image-search/README.md\n- clip-multi-modal-text-image-search/docker-compose.yml\n- clip-multi-modal-text-image-search/frontend\n- clip-multi-modal-text-image-search/frontend/.gitignore\n- clip-multi-modal-text-image-search/frontend/package.json\n- clip-multi-modal-text-image-search/frontend/public\n- clip-multi-modal-text-image-search/frontend/public/favicon.ico\n- clip-multi-modal-text-image-search/frontend/public/index.html\n- clip-multi-modal-text-image-search/frontend/public/logo192.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clip-multi-modal-text-image-search 文件结构",
+        "content": "clip-multi-modal-text-image-search/.gitignore\nclip-multi-modal-text-image-search/README.md\nclip-multi-modal-text-image-search/docker-compose.yml\nclip-multi-modal-text-image-search/frontend\nclip-multi-modal-text-image-search/frontend/.gitignore\nclip-multi-modal-text-image-search/frontend/package.json\nclip-multi-modal-text-image-search/frontend/public\nclip-multi-modal-text-image-search/frontend/public/favicon.ico\nclip-multi-modal-text-image-search/frontend/public/index.html\nclip-multi-modal-text-image-search/frontend/public/logo192.png\nclip-multi-modal-text-image-search/frontend/public/logo512.png\nclip-multi-modal-text-image-search/frontend/public/manifest.json\nclip-multi-modal-text-image-search/frontend/public/robots.txt\nclip-multi-modal-text-image-search/frontend/src\nclip-multi-modal-text-image-search/frontend/src/App.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/cohere-multilingual-wikipedia-search 模块",
+    "description": "[模块级] weaviate-examples 项目的 cohere-multilingual-wikipedia-search 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "cohere-multilingual-wikipedia-search"
+    ],
+    "genes": [
+      {
+        "title": "cohere-multilingual-wikipedia-search 模块说明",
+        "content": "模块路径: cohere-multilingual-wikipedia-search/\n类型: source\n文件数: 33\n\n包含文件:\n- cohere-multilingual-wikipedia-search/frontend\n- cohere-multilingual-wikipedia-search/frontend/.gitignore\n- cohere-multilingual-wikipedia-search/frontend/README.md\n- cohere-multilingual-wikipedia-search/frontend/package-lock.json\n- cohere-multilingual-wikipedia-search/frontend/package.json\n- cohere-multilingual-wikipedia-search/frontend/public\n- cohere-multilingual-wikipedia-search/frontend/public/favicon.ico\n- cohere-multilingual-wikipedia-search/frontend/public/index.html\n- cohere-multilingual-wikipedia-search/frontend/public/logo192.png\n- cohere-multilingual-wikipedia-search/frontend/public/logo512.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cohere-multilingual-wikipedia-search 文件结构",
+        "content": "cohere-multilingual-wikipedia-search/frontend\ncohere-multilingual-wikipedia-search/frontend/.gitignore\ncohere-multilingual-wikipedia-search/frontend/README.md\ncohere-multilingual-wikipedia-search/frontend/package-lock.json\ncohere-multilingual-wikipedia-search/frontend/package.json\ncohere-multilingual-wikipedia-search/frontend/public\ncohere-multilingual-wikipedia-search/frontend/public/favicon.ico\ncohere-multilingual-wikipedia-search/frontend/public/index.html\ncohere-multilingual-wikipedia-search/frontend/public/logo192.png\ncohere-multilingual-wikipedia-search/frontend/public/logo512.png\ncohere-multilingual-wikipedia-search/frontend/public/manifest.json\ncohere-multilingual-wikipedia-search/frontend/public/robots.txt\ncohere-multilingual-wikipedia-search/frontend/src\ncohere-multilingual-wikipedia-search/frontend/src/App.css\ncohere-multilingual-wikipedia-search/frontend/src/App.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/example-with-NER-module 模块",
+    "description": "[模块级] weaviate-examples 项目的 example-with-NER-module 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "example-with-ner-module"
+    ],
+    "genes": [
+      {
+        "title": "example-with-NER-module 模块说明",
+        "content": "模块路径: example-with-NER-module/\n类型: source\n文件数: 7\n\n包含文件:\n- example-with-NER-module/Readme.md\n- example-with-NER-module/add.py\n- example-with-NER-module/data.py\n- example-with-NER-module/docker-compose.yml\n- example-with-NER-module/info.csv\n- example-with-NER-module/test.py\n- example-with-NER-module/testpy.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example-with-NER-module 文件结构",
+        "content": "example-with-NER-module/Readme.md\nexample-with-NER-module/add.py\nexample-with-NER-module/data.py\nexample-with-NER-module/docker-compose.yml\nexample-with-NER-module/info.csv\nexample-with-NER-module/test.py\nexample-with-NER-module/testpy.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  },
+  {
+    "name": "weaviate-examples/exploring-multi2vec-clip-with-Python-and-flask 模块",
+    "description": "[模块级] weaviate-examples 项目的 exploring-multi2vec-clip-with-Python-and-flask 模块 (source)。来源: https://github.com/weaviate/weaviate-examples",
+    "domain": "devops",
+    "tags": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "module-level",
+      "source",
+      "exploring-multi2vec-clip-with-python-and-flask"
+    ],
+    "genes": [
+      {
+        "title": "exploring-multi2vec-clip-with-Python-and-flask 模块说明",
+        "content": "模块路径: exploring-multi2vec-clip-with-Python-and-flask/\n类型: source\n文件数: 3\n\n包含文件:\n- exploring-multi2vec-clip-with-Python-and-flask/Readme.md\n- exploring-multi2vec-clip-with-Python-and-flask/app.py\n- exploring-multi2vec-clip-with-Python-and-flask/data.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "exploring-multi2vec-clip-with-Python-and-flask 文件结构",
+        "content": "exploring-multi2vec-clip-with-Python-and-flask/Readme.md\nexploring-multi2vec-clip-with-Python-and-flask/app.py\nexploring-multi2vec-clip-with-Python-and-flask/data.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5052870400271754
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "docetl (ucbepic)",
+    "description": "[项目级] A system for agentic LLM-powered data processing and ETL。来源: https://github.com/ucbepic/docetl",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "data",
+      "data-pipelines",
+      "document-analysis",
+      "document-processing",
+      "python",
+      "stars-3594",
+      "github-ucbepic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A system for agentic LLM-powered data processing and ETL\n\n来源: https://github.com/ucbepic/docetl\n语言: Python\nStars: 3594",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "There are two main ways to use DocETL:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME.md\ndocetl\ndocetl/__init__.py\ndocetl/api.py\ndocetl/apis\ndocetl/base_schemas.py\ndocetl/cli.py\ndocetl/config_wrapper.py\ndocetl/console.py\ndocetl/containers.py\ndocetl/dataset.py\ndocetl/moar\ndocetl/operations\ndocetl/optimizer.py\ndocetl/optimizers\ndocetl/parsing_tools.py\ndocetl/ratelimiter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.777789036386477
+  },
+  {
+    "name": "docetl/docetl 模块",
+    "description": "[模块级] docetl 项目的 docetl 模块 (source)。来源: https://github.com/ucbepic/docetl",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "data",
+      "data-pipelines",
+      "document-analysis",
+      "document-processing",
+      "module-level",
+      "source",
+      "docetl"
+    ],
+    "genes": [
+      {
+        "title": "docetl 模块说明",
+        "content": "[![Website](https://img.shields.io/badge/Website-docetl.org-blue)](https://docetl.org)\n[![Documentation](https://img.shields.io/badge/Documentation-docs-green)](https://ucbepic.github.io/docetl)\n[![Discord](https://img.shields.io/discord/1285485891095236608?label=Discord&logo=discord)](https://discord.gg/fHp7B2X3xx)\n[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2410.12189)\n\n![DocETL Figure](docs/assets/readmefig.png)\n\nDocETL is a tool for creating and executing d",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docetl 文件结构",
+        "content": "docetl/__init__.py\ndocetl/api.py\ndocetl/apis\ndocetl/apis/__init__.py\ndocetl/apis/pd_accessors.py\ndocetl/base_schemas.py\ndocetl/cli.py\ndocetl/config_wrapper.py\ndocetl/console.py\ndocetl/containers.py\ndocetl/dataset.py\ndocetl/moar\ndocetl/moar/MOARSearch.py\ndocetl/moar/Node.py\ndocetl/moar/ParetoFrontier.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9222312291091823
+  },
+  {
+    "name": "docetl/docs 模块",
+    "description": "[模块级] docetl 项目的 docs 模块 (docs)。来源: https://github.com/ucbepic/docetl",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "data",
+      "data-pipelines",
+      "document-analysis",
+      "document-processing",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 68\n\n包含文件:\n- docs/advanced\n- docs/advanced/custom-operators.md\n- docs/advanced/extending-agents.md\n- docs/advanced/performance-tuning.md\n- docs/api-reference\n- docs/api-reference/cli.md\n- docs/api-reference/docetl.md\n- docs/api-reference/operations.md\n- docs/api-reference/optimizers.md\n- docs/api-reference/python.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/advanced\ndocs/advanced/custom-operators.md\ndocs/advanced/extending-agents.md\ndocs/advanced/performance-tuning.md\ndocs/api-reference\ndocs/api-reference/cli.md\ndocs/api-reference/docetl.md\ndocs/api-reference/operations.md\ndocs/api-reference/optimizers.md\ndocs/api-reference/python.md\ndocs/assets\ndocs/assets/docetl-favicon-color.png\ndocs/assets/fatal.json\ndocs/assets/headerdiagram.png\ndocs/assets/medical_transcripts.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9222312291091823
+  }
+]

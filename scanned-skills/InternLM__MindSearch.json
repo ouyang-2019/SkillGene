@@ -1,0 +1,163 @@
+[
+  {
+    "name": "MindSearch (InternLM)",
+    "description": "[项目级] 🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)。来源: https://github.com/InternLM/MindSearch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-search-engine",
+      "gpt",
+      "llm",
+      "llms",
+      "multi-agent-systems",
+      "javascript",
+      "stars-6767",
+      "github-internlm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)\n\n来源: https://github.com/InternLM/MindSearch\n语言: JavaScript\nStars: 6767",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/InternLM/MindSearch\ncd MindSearch\npip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nREADME_zh-CN.md\nassets\nassets/logo-darkmode.svg\nassets/logo.svg\nassets/mindsearch_openset.png\nassets/teaser.gif\nbackend_example.py\ndocker\ndocker/README.md\ndocker/README_zh-CN.md\ndocker/msdl\ndocker/setup.py\nfrontend\nfrontend/React\nfrontend/css\nfrontend/gradio_agentchatbot\nfrontend/mindsearch_gradio.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.915198088241734
+  },
+  {
+    "name": "MindSearch/assets 模块",
+    "description": "[模块级] MindSearch 项目的 assets 模块 (source)。来源: https://github.com/InternLM/MindSearch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-search-engine",
+      "gpt",
+      "llm",
+      "llms",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 4\n\n包含文件:\n- assets/logo-darkmode.svg\n- assets/logo.svg\n- assets/mindsearch_openset.png\n- assets/teaser.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/logo-darkmode.svg\nassets/logo.svg\nassets/mindsearch_openset.png\nassets/teaser.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032158470593387
+  },
+  {
+    "name": "MindSearch/docker 模块",
+    "description": "[模块级] MindSearch 项目的 docker 模块 (source)。来源: https://github.com/InternLM/MindSearch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-search-engine",
+      "gpt",
+      "llm",
+      "llms",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 21\n\n包含文件:\n- docker/README.md\n- docker/README_zh-CN.md\n- docker/msdl\n- docker/msdl/__init__.py\n- docker/msdl/__main__.py\n- docker/msdl/config.py\n- docker/msdl/docker_manager.py\n- docker/msdl/i18n.py\n- docker/msdl/templates\n- docker/msdl/templates/backend",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/README.md\ndocker/README_zh-CN.md\ndocker/msdl\ndocker/msdl/__init__.py\ndocker/msdl/__main__.py\ndocker/msdl/config.py\ndocker/msdl/docker_manager.py\ndocker/msdl/i18n.py\ndocker/msdl/templates\ndocker/msdl/templates/backend\ndocker/msdl/templates/backend/cloud_llm.dockerfile\ndocker/msdl/templates/backend/local_llm.dockerfile\ndocker/msdl/templates/docker-compose.yaml\ndocker/msdl/templates/frontend\ndocker/msdl/templates/frontend/react.dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032158470593387
+  },
+  {
+    "name": "MindSearch/frontend 模块",
+    "description": "[模块级] MindSearch 项目的 frontend 模块 (source)。来源: https://github.com/InternLM/MindSearch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-search-engine",
+      "gpt",
+      "llm",
+      "llms",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "Providing following frontend interfaces,\n\n- React\n\nFirst configurate the backend URL for Vite proxy.\n\n```bash\nHOST=\"127.0.0.1\"  # modify as you need\nPORT=8002\nsed -i -r \"s/target:\\s*\\\"\\\"/target: \\\"${HOST}:${PORT}\\\"/\" frontend/React/vite.config.ts\n```\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/React\nfrontend/React/.gitignore\nfrontend/React/.prettierignore\nfrontend/React/.prettierrc.json\nfrontend/React/README.md\nfrontend/React/README_zh-CN.md\nfrontend/React/index.html\nfrontend/React/package-lock.json\nfrontend/React/package.json\nfrontend/React/src\nfrontend/React/src/App.module.less\nfrontend/React/src/App.tsx\nfrontend/React/src/assets\nfrontend/React/src/assets/background.png\nfrontend/React/src/assets/fold-icon.svg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "frontend 代码示例",
+        "content": "HOST=\"127.0.0.1\"  # modify as you need\nPORT=8002\nsed -i -r \"s/target:\\s*\\\"\\\"/target: \\\"${HOST}:${PORT}\\\"/\" frontend/React/vite.config.ts",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032158470593387
+  },
+  {
+    "name": "MindSearch/mindsearch 模块",
+    "description": "[模块级] MindSearch 项目的 mindsearch 模块 (source)。来源: https://github.com/InternLM/MindSearch",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-search-engine",
+      "gpt",
+      "llm",
+      "llms",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "mindsearch"
+    ],
+    "genes": [
+      {
+        "title": "mindsearch 模块说明",
+        "content": "模块路径: mindsearch/\n类型: source\n文件数: 10\n\n包含文件:\n- mindsearch/__init__.py\n- mindsearch/agent\n- mindsearch/agent/__init__.py\n- mindsearch/agent/graph.py\n- mindsearch/agent/mindsearch_agent.py\n- mindsearch/agent/mindsearch_prompt.py\n- mindsearch/agent/models.py\n- mindsearch/agent/streaming.py\n- mindsearch/app.py\n- mindsearch/terminal.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mindsearch 文件结构",
+        "content": "mindsearch/__init__.py\nmindsearch/agent\nmindsearch/agent/__init__.py\nmindsearch/agent/graph.py\nmindsearch/agent/mindsearch_agent.py\nmindsearch/agent/mindsearch_prompt.py\nmindsearch/agent/models.py\nmindsearch/agent/streaming.py\nmindsearch/app.py\nmindsearch/terminal.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.032158470593387
+  }
+]

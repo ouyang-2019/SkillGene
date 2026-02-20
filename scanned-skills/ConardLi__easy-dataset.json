@@ -1,0 +1,72 @@
+[
+  {
+    "name": "easy-dataset (ConardLi)",
+    "description": "[项目级] A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval。来源: https://github.com/ConardLi/easy-dataset",
+    "domain": "ai-llm",
+    "tags": [
+      "dataset",
+      "fine-tuning",
+      "javascript",
+      "llm",
+      "rag",
+      "stars-13387",
+      "github-conardli",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Easy Dataset is an application specifically designed for building large language model (LLM) datasets. It features an intuitive interface, along with built-in powerful document parsing tools, intelligent segmentation algorithms, data cleaning and augmentation capabilities. The application can convert domain-specific documents in various formats into high-quality structured datasets, which are applicable to scenarios such as model fine-tuning, retrieval-augmented generation (RAG), and model performance evaluation.\n\n![](./public/imgs/arc3.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/ConardLi/easy-dataset.git\n   cd easy-dataset",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nARCHITECTURE.md\nDockerfile\nLICENSE\nREADME.md\nREADME.tr.md\nREADME.zh-CN.md\napp\napp/api",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "easy-dataset/app 模块",
+    "description": "[模块级] easy-dataset 项目的 app 模块 (source)。来源: https://github.com/ConardLi/easy-dataset",
+    "domain": "ai-llm",
+    "tags": [
+      "dataset",
+      "fine-tuning",
+      "javascript",
+      "llm",
+      "rag",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 175\n\n包含文件:\n- app/api\n- app/api/check-update\n- app/api/check-update/route.js\n- app/api/llm\n- app/api/llm/fetch-models\n- app/api/llm/fetch-models/route.js\n- app/api/llm/model\n- app/api/llm/model/route.js\n- app/api/llm/ollama\n- app/api/llm/ollama/models",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/api\napp/api/check-update\napp/api/check-update/route.js\napp/api/llm\napp/api/llm/fetch-models\napp/api/llm/fetch-models/route.js\napp/api/llm/model\napp/api/llm/model/route.js\napp/api/llm/ollama\napp/api/llm/ollama/models\napp/api/llm/ollama/models/route.js\napp/api/llm/providers\napp/api/llm/providers/route.js\napp/api/monitoring\napp/api/monitoring/logs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1506733053553155
+  }
+]

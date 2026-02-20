@@ -1,0 +1,103 @@
+[
+  {
+    "name": "solace-agent-mesh (SolaceLabs)",
+    "description": "[项目级] An event-driven framework designed to build and orchestrate multi-agent AI systems. It enables seamless integration of AI agents with real-world data sources and systems, facilitating complex, multi-step workflows.。来源: https://github.com/SolaceLabs/solace-agent-mesh",
+    "domain": "devops",
+    "tags": [
+      "a2a",
+      "agentframework",
+      "agentic",
+      "agentic-ai",
+      "agentic-framework",
+      "python",
+      "stars-1859",
+      "github-solacelabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Solace Agent Mesh provides a \"Universal A2A Agent Host,\" a flexible and configurable runtime environment built by integrating Google's Agent Development Kit (ADK) with the Solace AI Connector (SAC) framework.\n\nThe system allows you to:\n\n- Host AI agents developed with Google ADK within the SAC framework\n- Define agent capabilities (LLM model, instructions, tools) primarily through SAC YAML configuration\n- Use Solace Platform as the transport for standard Agent-to-Agent (A2A) protocol communication\n- Enable dynamic discovery of peer agents running within the same ecosystem\n- Allow agents to delegate tasks to discovered peers via the A2A protocol over Solace\n- Manage file artifacts using built-in tools with automatic metadata injection\n- Perform data analysis using built-in SQL, JQ, and visu",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Set up Solace Agent Mesh in just a few steps.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\ncli\ncli/__init__.py\ncli/commands\ncli/main.py\ncli/utils.py\nclient\nclient/sam-rest-client\nclient/webui",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **[Multi-Agent Event-Driven Architecture](https://solacelabs.github.io/solace-agent-mesh/docs/documentation/getting-started/architecture)** – Agents communicate via the Solace Event Mesh for true scalability\n- **[Agent Orchestration](https://solacelabs.github.io/solace-agent-mesh/docs/documentation/components/agents)** – Complex tasks are automatically broken down and delegated by the [Orchestrator](https://solacelabs.github.io/solace-agent-mesh/docs/documentation/components/orchestrator) agent\n- **[Flexible Interfaces](https://solacelabs.github.io/solace-agent-mesh/docs/documentation/compon",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.63463969488595
+  },
+  {
+    "name": "solace-agent-mesh/cli 模块",
+    "description": "[模块级] solace-agent-mesh 项目的 cli 模块 (source)。来源: https://github.com/SolaceLabs/solace-agent-mesh",
+    "domain": "devops",
+    "tags": [
+      "a2a",
+      "agentframework",
+      "agentic",
+      "agentic-ai",
+      "agentic-framework",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 45\n\n包含文件:\n- cli/__init__.py\n- cli/commands\n- cli/commands/__init__.py\n- cli/commands/add_cmd\n- cli/commands/add_cmd/__init__.py\n- cli/commands/add_cmd/agent_cmd.py\n- cli/commands/add_cmd/gateway_cmd.py\n- cli/commands/add_cmd/proxy_cmd.py\n- cli/commands/add_cmd/web_add_agent_step.py\n- cli/commands/add_cmd/web_add_gateway_step.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/__init__.py\ncli/commands\ncli/commands/__init__.py\ncli/commands/add_cmd\ncli/commands/add_cmd/__init__.py\ncli/commands/add_cmd/agent_cmd.py\ncli/commands/add_cmd/gateway_cmd.py\ncli/commands/add_cmd/proxy_cmd.py\ncli/commands/add_cmd/web_add_agent_step.py\ncli/commands/add_cmd/web_add_gateway_step.py\ncli/commands/docs_cmd.py\ncli/commands/eval_cmd.py\ncli/commands/init_cmd\ncli/commands/init_cmd/__init__.py\ncli/commands/init_cmd/broker_step.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8077117559087594
+  },
+  {
+    "name": "solace-agent-mesh/client 模块",
+    "description": "[模块级] solace-agent-mesh 项目的 client 模块 (source)。来源: https://github.com/SolaceLabs/solace-agent-mesh",
+    "domain": "devops",
+    "tags": [
+      "a2a",
+      "agentframework",
+      "agentic",
+      "agentic-ai",
+      "agentic-framework",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 121\n\n包含文件:\n- client/sam-rest-client\n- client/sam-rest-client/README.md\n- client/sam-rest-client/pyproject.toml\n- client/sam-rest-client/src\n- client/sam-rest-client/src/sam_rest_client\n- client/sam-rest-client/src/sam_rest_client/__init__.py\n- client/sam-rest-client/src/sam_rest_client/cli.py\n- client/sam-rest-client/src/sam_rest_client/client.py\n- client/webui\n- client/webui/frontend",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/sam-rest-client\nclient/sam-rest-client/README.md\nclient/sam-rest-client/pyproject.toml\nclient/sam-rest-client/src\nclient/sam-rest-client/src/sam_rest_client\nclient/sam-rest-client/src/sam_rest_client/__init__.py\nclient/sam-rest-client/src/sam_rest_client/cli.py\nclient/sam-rest-client/src/sam_rest_client/client.py\nclient/webui\nclient/webui/frontend\nclient/webui/frontend/.gitignore\nclient/webui/frontend/.npmignore\nclient/webui/frontend/.npmrc\nclient/webui/frontend/.prettierrc\nclient/webui/frontend/.storybook",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8077117559087594
+  }
+]

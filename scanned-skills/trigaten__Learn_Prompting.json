@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Learn_Prompting (trigaten)",
+    "description": "[项目级] Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community。来源: https://github.com/trigaten/Learn_Prompting",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "deep-learning",
+      "gpt-3",
+      "gpt-4",
+      "mdx",
+      "stars-4651",
+      "github-trigaten",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt Engineering, Generative AI, and LLM Guide by Learn Prompting | Join our discord for the largest Prompt Engineering learning community\n\n来源: https://github.com/trigaten/Learn_Prompting\n语言: MDX\nStars: 4651",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "(docs)\n(docs)/ar",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.833773169755759
+  },
+  {
+    "name": "Learn_Prompting/(docs) 模块",
+    "description": "[模块级] Learn_Prompting 项目的 (docs) 模块 (source)。来源: https://github.com/trigaten/Learn_Prompting",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "deep-learning",
+      "gpt-3",
+      "gpt-4",
+      "module-level",
+      "source",
+      "(docs)"
+    ],
+    "genes": [
+      {
+        "title": "(docs) 模块说明",
+        "content": "模块路径: (docs)/\n类型: source\n文件数: 199\n\n包含文件:\n- (docs)/ar\n- (docs)/ar/docs\n- (docs)/ar/docs/additional\n- (docs)/ar/docs/additional/page.mdx\n- (docs)/ar/docs/advanced_applications\n- (docs)/ar/docs/advanced_applications/_category_.json\n- (docs)/ar/docs/advanced_applications/mrkl\n- (docs)/ar/docs/advanced_applications/mrkl/page.mdx\n- (docs)/ar/docs/advanced_applications/overview\n- (docs)/ar/docs/advanced_applications/overview/page.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "(docs) 文件结构",
+        "content": "(docs)/ar\n(docs)/ar/docs\n(docs)/ar/docs/additional\n(docs)/ar/docs/additional/page.mdx\n(docs)/ar/docs/advanced_applications\n(docs)/ar/docs/advanced_applications/_category_.json\n(docs)/ar/docs/advanced_applications/mrkl\n(docs)/ar/docs/advanced_applications/mrkl/page.mdx\n(docs)/ar/docs/advanced_applications/overview\n(docs)/ar/docs/advanced_applications/overview/page.mdx\n(docs)/ar/docs/advanced_applications/pal\n(docs)/ar/docs/advanced_applications/pal/page.mdx\n(docs)/ar/docs/advanced_applications/react\n(docs)/ar/docs/advanced_applications/react/page.mdx\n(docs)/ar/docs/applied_prompting",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9670185358046064
+  }
+]

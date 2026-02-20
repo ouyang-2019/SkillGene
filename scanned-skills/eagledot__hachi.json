@@ -1,0 +1,84 @@
+[
+  {
+    "name": "hachi (eagledot)",
+    "description": "[项目级] An end to end semantic and meta-data search engine for personal data.。来源: https://github.com/eagledot/hachi",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-318",
+      "github-eagledot",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An end to end semantic and meta-data search engine for personal data.\n\n来源: https://github.com/eagledot/hachi\n语言: Python\nStars: 318",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nONEDNN_LICENSE\ndocuments\ndocuments/Caddyfile\ndocuments/app.py\ndocuments/readme.md\ndocuments/static\nfunding.json\nimages\nimages/Caddyfile\nimages/__init__.py\nimages/assets\nimages/config.py\nimages/data\nimages/dnnl.dll\nimages/dnnl_v3.dll\nimages/fuzzy_search\nimages/geocoding\nimages/index\nimages/ml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.251213559992216
+  },
+  {
+    "name": "hachi/documents 模块",
+    "description": "[模块级] hachi 项目的 documents 模块 (source)。来源: https://github.com/eagledot/hachi",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-318",
+      "github-eagledot",
+      "module-level",
+      "source",
+      "documents"
+    ],
+    "genes": [
+      {
+        "title": "documents 模块说明",
+        "content": "模块路径: documents/\n类型: source\n文件数: 16\n\n包含文件:\n- documents/Caddyfile\n- documents/app.py\n- documents/readme.md\n- documents/static\n- documents/static/assets\n- documents/static/assets/Sidebar-BJ_7uFPt.js\n- documents/static/assets/Sidebar-CHf8JnbB.css\n- documents/static/assets/indexing-Drc7TEJQ.js\n- documents/static/assets/main-CAm_N4nX.js\n- documents/static/assets/search-gUjrS4Jl.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documents 文件结构",
+        "content": "documents/Caddyfile\ndocuments/app.py\ndocuments/readme.md\ndocuments/static\ndocuments/static/assets\ndocuments/static/assets/Sidebar-BJ_7uFPt.js\ndocuments/static/assets/Sidebar-CHf8JnbB.css\ndocuments/static/assets/indexing-Drc7TEJQ.js\ndocuments/static/assets/main-CAm_N4nX.js\ndocuments/static/assets/search-gUjrS4Jl.js\ndocuments/static/index.html\ndocuments/static/indexing\ndocuments/static/indexing/index.html\ndocuments/static/search\ndocuments/static/search/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.500970847993773
+  },
+  {
+    "name": "hachi/images 模块",
+    "description": "[模块级] hachi 项目的 images 模块 (source)。来源: https://github.com/eagledot/hachi",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-318",
+      "github-eagledot",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 178\n\n包含文件:\n- images/Caddyfile\n- images/__init__.py\n- images/assets\n- images/assets/hachi_demo.png\n- images/assets/screenshot_image_card.png\n- images/assets/screenshot_indexing.png\n- images/assets/screenshot_query.png\n- images/config.py\n- images/data\n- images/data/pipelineRetinafaceV2.bin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Caddyfile\nimages/__init__.py\nimages/assets\nimages/assets/hachi_demo.png\nimages/assets/screenshot_image_card.png\nimages/assets/screenshot_indexing.png\nimages/assets/screenshot_query.png\nimages/config.py\nimages/data\nimages/data/pipelineRetinafaceV2.bin\nimages/data/reference_eyes_alia.txt\nimages/data/reference_eyes_kk.txt\nimages/data/reference_eyes_pexels_1.txt\nimages/data/reference_eyes_pexels_2.txt\nimages/dnnl.dll",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.500970847993773
+  }
+]

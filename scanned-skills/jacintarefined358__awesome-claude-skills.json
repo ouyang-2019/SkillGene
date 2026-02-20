@@ -1,0 +1,47 @@
+[
+  {
+    "name": "awesome-claude-skills (jacintarefined358)",
+    "description": "[项目级] 🎯 Enhance your AI workflows with 50+ verified skills for Claude Code, Claude.ai, and API, designed to boost productivity and automate tasks.。来源: https://github.com/jacintarefined358/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "anthropic-claude",
+      "automation",
+      "awesome-claude",
+      "awesome-claude-prompts",
+      "stars-6",
+      "github-jacintarefined358",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🎯 Enhance your AI workflows with 50+ verified skills for Claude Code, Claude.ai, and API, designed to boost productivity and automate tasks.\n\n来源: https://github.com/jacintarefined358/awesome-claude-skills\n语言: unknown\nStars: 6",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Welcome to the **awesome-claude-skills** repository! This project offers over 50 verified skills designed to enhance your experience with Claude Code and Claude.ai. Our community-driven collection is actively maintained to help you boost productivity in various areas, including test-driven development, debugging, and document processing.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once you install the application, you can start exploring the skills available. \n\n1. Launch the application.\n2. Browse through the list of skills. Each entry provides a brief description.\n3. Select a skill to view detailed information and how to implement it into your projects.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Comprehensive Skills**: Access to 50+ verified skills that improve your productivity.\n- **User-Friendly Interface**: Enjoy a clean and simple interface designed for ease of use.\n- **Community Support**: Benefit from a community that is always updating and maintaining the collection.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.389075625191822
+  }
+]

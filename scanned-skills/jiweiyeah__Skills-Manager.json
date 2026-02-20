@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Skills-Manager (jiweiyeah)",
+    "description": "[项目级] A high-performance desktop application for managing skills across multiple AI coding assistants. Seamlessly organize, sync, and share skills for Claude Code、Codex、Opencode and other AI tools. Built with Tauri 2.0, React 19, and Rust.。来源: https://github.com/jiweiyeah/Skills-Manager",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-skills-manager",
+      "claude-code",
+      "claude-code-skills",
+      "codex",
+      "codex-skills",
+      "stars-261",
+      "github-jiweiyeah",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Skills Manager** is a modern desktop application designed to solve the fragmentation of AI assistant skills configurations. Instead of managing skills and prompts separately for different tools, Skills Manager provides a central hub.\n\nIt uses a powerful **symlink synchronization mechanism**, allowing you to write a skill once and instantly use it across supported AI tools like Claude Code, Codex, Opencode.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Install**: Run the installer for your platform.\n2. **Setup**: On first launch, the app will guide you to select your skills storage directory.\n3. **Sync**: The app automatically detects installed AI tools (like Claude Code) and links your skills.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPRIVACY.md\nPRIVACY_CN.md\nREADME.md\nREADME_CN.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🎯 Unified Management**: Centralize all your AI skills in one secure location.\n- **🔄 Smart Synchronization**: Automatic symlink management ensures your tools always have the latest version of your skills without file duplication.\n- **🎛️ Granular Control**: Enable or disable specific skills for individual tools without deleting the original files.\n- **⚡ High Performance**: Built with **Rust** and **Tauri 2.0** for a lightweight, blazing-fast experience.\n- **🛡️ Cross-Platform**: Native support for macOS, Windows, and Linux.\n- **🔌 Multi-Tool Support**: Out-of-the-box support for **Claude ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.20832025366914
+  }
+]

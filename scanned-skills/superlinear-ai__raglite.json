@@ -1,0 +1,108 @@
+[
+  {
+    "name": "raglite (superlinear-ai)",
+    "description": "[项目级] 🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL。来源: https://github.com/superlinear-ai/raglite",
+    "domain": "devops",
+    "tags": [
+      "chainlit",
+      "colbert",
+      "duckdb",
+      "evals",
+      "late-chunking",
+      "python",
+      "stars-1144",
+      "github-superlinear-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "1. [Configuring RAGLite](#1-configuring-raglite)\n2. [Inserting documents](#2-inserting-documents)\n3. [Retrieval-Augmented Generation (RAG)](#3-retrieval-augmented-generation-rag)\n4. [Computing and using an optimal query adapter](#4-computing-and-using-an-optimal-query-adapter)\n5. [Evaluation of retrieval and generation](#5-evaluation-of-retrieval-and-generation)\n6. [Running a Model Context Protocol (MCP) server](#6-running-a-model-context-protocol-mcp-server)\n7. [Serving a customizable ChatGPT-like frontend](#7-serving-a-customizable-chatgpt-like-frontend)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> # Configure which llama-cpp-python precompiled binary to install (⚠️ not every combination is available):\n> LLAMA_CPP_PYTHON_VERSION=0.3.9\n> PYTHON_VERSION=310|311|312\n> ACCELERATOR=metal|cu121|cu122|cu123|cu124\n> PLATFORM=macosx_11_0_arm64|linux_x86_64|win_amd64\n> \n> # Install llama-cpp-python:\n> pip install \"https://github.com/abetlen/llama-cpp-python/releases/download/v$LLAMA_CPP_PYTHON_VERSION-$ACCELERATOR/llama_cpp_python-$LLAMA_CPP_PYTHON_VERSION-cp$PYTHON_VERSION-cp$PYTHON_VERSION-$PLATFORM.whl\"\n>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nDockerfile\nLICENSE\nREADME.md\ndocker-compose.yml\npyproject.toml\nsrc\nsrc/raglite\ntests\ntests/NVIDIA-report.pdf\ntests/__init__.py\ntests/conftest.py\ntests/specrel.pdf\ntests/test_chatml_function_calling.py\ntests/test_database.py\ntests/test_delete.py\ntests/test_embed.py\ntests/test_extract.py\ntests/test_import.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "my_config = RAGLiteConfig(\n    db_url=\"postgresql://my_username:my_password@my_host:5432/my_database\",\n    llm=\"gpt-4o-mini\",  # Or any LLM supported by LiteLLM\n    embedder=\"text-embedding-3-large\",  # Or any embedder supported by LiteLLM\n)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "##### Configurable\n\n- 🧠 Choose any LLM provider with [LiteLLM](https://github.com/BerriAI/litellm), including local [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) models\n- 💾 Choose either [DuckDB](https://duckdb.org) or [PostgreSQL](https://github.com/postgres/postgres) as a keyword & vector search database\n- 🥇 Choose any reranker with [rerankers](https://github.com/AnswerDotAI/rerankers), including multilingual [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) as the default\n\n##### Fast and permissive\n\n- ❤️ Only lightweight and permissive open source dependenc",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.529213012228503
+  },
+  {
+    "name": "raglite/src 模块",
+    "description": "[模块级] raglite 项目的 src 模块 (source)。来源: https://github.com/superlinear-ai/raglite",
+    "domain": "devops",
+    "tags": [
+      "chainlit",
+      "colbert",
+      "duckdb",
+      "evals",
+      "late-chunking",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 26\n\n包含文件:\n- src/raglite\n- src/raglite/__init__.py\n- src/raglite/_bench.py\n- src/raglite/_chainlit.py\n- src/raglite/_chatml_function_calling.py\n- src/raglite/_cli.py\n- src/raglite/_config.py\n- src/raglite/_database.py\n- src/raglite/_delete.py\n- src/raglite/_embed.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/raglite\nsrc/raglite/__init__.py\nsrc/raglite/_bench.py\nsrc/raglite/_chainlit.py\nsrc/raglite/_chatml_function_calling.py\nsrc/raglite/_cli.py\nsrc/raglite/_config.py\nsrc/raglite/_database.py\nsrc/raglite/_delete.py\nsrc/raglite/_embed.py\nsrc/raglite/_eval.py\nsrc/raglite/_extract.py\nsrc/raglite/_insert.py\nsrc/raglite/_lazy_llama.py\nsrc/raglite/_litellm.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7233704097828024
+  },
+  {
+    "name": "raglite/tests 模块",
+    "description": "[模块级] raglite 项目的 tests 模块 (test)。来源: https://github.com/superlinear-ai/raglite",
+    "domain": "testing",
+    "tags": [
+      "chainlit",
+      "colbert",
+      "duckdb",
+      "evals",
+      "late-chunking",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 21\n\n包含文件:\n- tests/NVIDIA-report.pdf\n- tests/__init__.py\n- tests/conftest.py\n- tests/specrel.pdf\n- tests/test_chatml_function_calling.py\n- tests/test_database.py\n- tests/test_delete.py\n- tests/test_embed.py\n- tests/test_extract.py\n- tests/test_import.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/NVIDIA-report.pdf\ntests/__init__.py\ntests/conftest.py\ntests/specrel.pdf\ntests/test_chatml_function_calling.py\ntests/test_database.py\ntests/test_delete.py\ntests/test_embed.py\ntests/test_extract.py\ntests/test_import.py\ntests/test_insert.py\ntests/test_lazy_llama.py\ntests/test_markdown.py\ntests/test_mistral_ocr.py\ntests/test_query_adapter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7233704097828024
+  }
+]

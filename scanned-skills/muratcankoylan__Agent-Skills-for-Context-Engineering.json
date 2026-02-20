@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Agent-Skills-for-Context-Engineering (muratcankoylan)",
+    "description": "[项目级] A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.。来源: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8380",
+      "github-muratcankoylan",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.\n\n来源: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering\n语言: Python\nStars: 8380",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nSKILL.md\ndocs\ndocs/agentskills.md\ndocs/blogs.md\ndocs/claude_research.md\ndocs/compression.md\ndocs/gemini_research.md\ndocs/hncapsule.md\ndocs/netflix_context.md\ndocs/vercel_tool.md\nexamples\nexamples/book-sft-pipeline\nexamples/digital-brain-skill\nexamples/interleaved_thinking\nexamples/llm-as-judge-skills",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Scripts and examples demonstrate concepts using Python pseudocode that works across environments without requiring specific dependency installations.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.961622009315138
+  },
+  {
+    "name": "Agent-Skills-for-Context-Engineering/docs 模块",
+    "description": "[模块级] Agent-Skills-for-Context-Engineering 项目的 docs 模块 (docs)。来源: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-8380",
+      "github-muratcankoylan",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/agentskills.md\n- docs/blogs.md\n- docs/claude_research.md\n- docs/compression.md\n- docs/gemini_research.md\n- docs/hncapsule.md\n- docs/netflix_context.md\n- docs/vercel_tool.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agentskills.md\ndocs/blogs.md\ndocs/claude_research.md\ndocs/compression.md\ndocs/gemini_research.md\ndocs/hncapsule.md\ndocs/netflix_context.md\ndocs/vercel_tool.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0692976074521106
+  },
+  {
+    "name": "Agent-Skills-for-Context-Engineering/examples 模块",
+    "description": "[模块级] Agent-Skills-for-Context-Engineering 项目的 examples 模块 (example)。来源: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8380",
+      "github-muratcankoylan",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Scripts and examples demonstrate concepts using Python pseudocode that works across environments without requiring specific dependency installations.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/book-sft-pipeline\nexamples/book-sft-pipeline/README.md\nexamples/book-sft-pipeline/SKILL.md\nexamples/book-sft-pipeline/examples\nexamples/book-sft-pipeline/examples/gertrude-stein\nexamples/book-sft-pipeline/examples/gertrude-stein/README.md\nexamples/book-sft-pipeline/examples/gertrude-stein/dataset_sample.jsonl\nexamples/book-sft-pipeline/examples/gertrude-stein/pangram\nexamples/book-sft-pipeline/examples/gertrude-stein/pangram/Screenshot 2025-12-27 at 3.05.04 AM.png\nexamples/book-sft-pipeline/examples/gertrude-stein/pangram/Screenshot 2025-12-27 at 3.05.36 AM.png\nexamples/book-sft-pipeline/examples/gertrude-stein/pangram/Screenshot 2025-12-27 at 3.07.18 AM.png\nexamples/book-sft-pipeline/examples/gertrude-stein/sample_outputs.md\nexamples/book-sft-pipeline/examples/gertrude-stein/training_config.json\nexamples/book-sft-pipeline/references\nexamples/book-sft-pipeline/references/segmentation-strategies.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0692976074521106
+  }
+]

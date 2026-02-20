@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-llm-json (imaurer)",
+    "description": "[项目级] Resource list for generating JSON using LLMs via function calling, tools, CFG. Libraries, Models, Notebooks, etc.。来源: https://github.com/imaurer/awesome-llm-json",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-list",
+      "function-calling",
+      "gpt-actions",
+      "large-language-models",
+      "llm",
+      "stars-2164",
+      "github-imaurer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Resource list for generating JSON using LLMs via function calling, tools, CFG. Libraries, Models, Notebooks, etc.\n\n来源: https://github.com/imaurer/awesome-llm-json\n语言: unknown\nStars: 2164",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nawesome-decentralized-llms.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.667628628217265
+  }
+]

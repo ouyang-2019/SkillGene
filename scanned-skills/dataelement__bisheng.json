@@ -1,0 +1,103 @@
+[
+  {
+    "name": "bisheng (dataelement)",
+    "description": "[项目级] BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.。来源: https://github.com/dataelement/bisheng",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "chatbot",
+      "enterprise",
+      "finetune",
+      "typescript",
+      "stars-11107",
+      "github-dataelement",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.\n\n来源: https://github.com/dataelement/bisheng\n语言: TypeScript\nStars: 11107",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Please ensure the following conditions are met before installing BISHENG:\n- CPU >= 4 Virtual Cores\n- RAM >= 16 GB\n- Docker 19.03.9+\n- Docker Compose 1.25.1+\n> Recommended hardware condition: 18 virtual cores, 48G. In addition to installing BISHENG, we will also install the following third-party components by default: ES, Milvus, and Onlyoffice.\n\nDownload BISHENG\n```bash\ngit clone https://github.com/dataelement/bisheng.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nLICENSE\nREADME.md\nREADME_CN.md\nREADME_JPN.md\nSECURITY.md\ndocker\ndocker/bisheng-ft\ndocker/bisheng-uns\ndocker/bisheng\ndocker/docker-compose-ft.yml\ndocker/docker-compose-office.yml\ndocker/docker-compose-uns.yml\ndocker/docker-compose.yml\ndocker/mysql\ndocker/nginx\ndocker/office\ndocker/redis\npackage-lock.json\nsrc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **Lingsight, a general-purpose agent with expert-level taste**: Through the [AGL](https://github.com/dataelement/AgentGuidanceLanguage)(Agent Guidance Language) framework, we embed domain experts’ preferences, experience, and business logic into the AI, enabling the agent to exhibit “expert-level understanding” when handling tasks.  \n<p align=\"center\"><img src=\"https://dataelem.com/bs/Linsight.png\" alt=\"sence1\"></p>   \n\n2. **Unique [BISHENG Workflow](https://dataelem.feishu.cn/wiki/R7HZwH5ZGiJUDrkHZXicA9pInif)**\n   - 🧩 **Independent and comprehensive application orchestration framework**: ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "bisheng/docker 模块",
+    "description": "[模块级] bisheng 项目的 docker 模块 (source)。来源: https://github.com/dataelement/bisheng",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "chatbot",
+      "enterprise",
+      "finetune",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 29\n\n包含文件:\n- docker/bisheng-ft\n- docker/bisheng-ft/config.yaml\n- docker/bisheng-uns\n- docker/bisheng-uns/config.yaml\n- docker/bisheng\n- docker/bisheng/config\n- docker/bisheng/config/config.yaml\n- docker/bisheng/entrypoint.sh\n- docker/docker-compose-ft.yml\n- docker/docker-compose-office.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/bisheng-ft\ndocker/bisheng-ft/config.yaml\ndocker/bisheng-uns\ndocker/bisheng-uns/config.yaml\ndocker/bisheng\ndocker/bisheng/config\ndocker/bisheng/config/config.yaml\ndocker/bisheng/entrypoint.sh\ndocker/docker-compose-ft.yml\ndocker/docker-compose-office.yml\ndocker/docker-compose-uns.yml\ndocker/docker-compose.yml\ndocker/mysql\ndocker/mysql/conf\ndocker/mysql/conf/my.cnf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.118238708747032
+  },
+  {
+    "name": "bisheng/src 模块",
+    "description": "[模块级] bisheng 项目的 src 模块 (source)。来源: https://github.com/dataelement/bisheng",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "chatbot",
+      "enterprise",
+      "finetune",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 150\n\n包含文件:\n- src/backend\n- src/backend/Dockerfile\n- src/backend/README.md\n- src/backend/alembic.ini\n- src/backend/base.Dockerfile\n- src/backend/bisheng\n- src/backend/bisheng/.gitignore\n- src/backend/bisheng/__init__.py\n- src/backend/bisheng/api\n- src/backend/bisheng/api/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/backend\nsrc/backend/Dockerfile\nsrc/backend/README.md\nsrc/backend/alembic.ini\nsrc/backend/base.Dockerfile\nsrc/backend/bisheng\nsrc/backend/bisheng/.gitignore\nsrc/backend/bisheng/__init__.py\nsrc/backend/bisheng/api\nsrc/backend/bisheng/api/__init__.py\nsrc/backend/bisheng/api/router.py\nsrc/backend/bisheng/api/services\nsrc/backend/bisheng/api/services/__init__.py\nsrc/backend/bisheng/api/services/assistant.py\nsrc/backend/bisheng/api/services/assistant_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.118238708747032
+  }
+]

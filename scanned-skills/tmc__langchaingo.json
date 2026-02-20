@@ -1,0 +1,156 @@
+[
+  {
+    "name": "langchaingo (tmc)",
+    "description": "[项目级] LangChain for Go, the easiest way to write LLM-based programs in Go。来源: https://github.com/tmc/langchaingo",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "go",
+      "golang",
+      "langchain",
+      "stars-8675",
+      "github-tmc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LangChain for Go, the easiest way to write LLM-based programs in Go\n\n来源: https://github.com/tmc/langchaingo\n语言: Go\nStars: 8675",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nFIXES_SUMMARY.md\nLICENSE\nMakefile\nREADME.md\nagents\nagents/agents.go\nagents/conversational.go\nagents/conversational_test.go\nagents/doc.go\nagents/errors.go\nagents/executor.go\nagents/executor_test.go\nagents/initialize.go\nagents/markl_test.go\nagents/mrkl.go\nagents/mrkl_prompt.go\nagents/ollama_agent_guide.md\nagents/openai_functions_agent.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "package main\n\nimport (\n  \"context\"\n  \"fmt\"\n  \"log\"\n\n  \"github.com/tmc/langchaingo/llms\"\n  \"github.com/tmc/langchaingo/llms/openai\"\n)\n\nfunc main() {\n  ctx := context.Background()\n  llm, err := openai.New()\n  if err != nil {\n    log.Fatal(err)\n  }\n  prompt := \"What would be a good company name for a company that makes colorful socks?\"\n  completion, err := llms.GenerateFromSinglePrompt(ctx, llm, prompt)\n  if err != nil {\n    log.Fatal(err)\n  }\n  fmt.Println(completion)\n}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.969134741731455
+  },
+  {
+    "name": "langchaingo/agents 模块",
+    "description": "[模块级] langchaingo 项目的 agents 模块 (source)。来源: https://github.com/tmc/langchaingo",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "go",
+      "golang",
+      "langchain",
+      "stars-8675",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 25\n\n包含文件:\n- agents/agents.go\n- agents/conversational.go\n- agents/conversational_test.go\n- agents/doc.go\n- agents/errors.go\n- agents/executor.go\n- agents/executor_test.go\n- agents/initialize.go\n- agents/markl_test.go\n- agents/mrkl.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/agents.go\nagents/conversational.go\nagents/conversational_test.go\nagents/doc.go\nagents/errors.go\nagents/executor.go\nagents/executor_test.go\nagents/initialize.go\nagents/markl_test.go\nagents/mrkl.go\nagents/mrkl_prompt.go\nagents/ollama_agent_guide.md\nagents/openai_functions_agent.go\nagents/openai_functions_agent_test.go\nagents/options.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075307793385164
+  },
+  {
+    "name": "langchaingo/callbacks 模块",
+    "description": "[模块级] langchaingo 项目的 callbacks 模块 (source)。来源: https://github.com/tmc/langchaingo",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "go",
+      "golang",
+      "langchain",
+      "stars-8675",
+      "module-level",
+      "source",
+      "callbacks"
+    ],
+    "genes": [
+      {
+        "title": "callbacks 模块说明",
+        "content": "模块路径: callbacks/\n类型: source\n文件数: 9\n\n包含文件:\n- callbacks/agent_final_stream.go\n- callbacks/agent_final_stream_test.go\n- callbacks/callbacks.go\n- callbacks/callbacks_unit_test.go\n- callbacks/combining.go\n- callbacks/doc.go\n- callbacks/log.go\n- callbacks/log_stream.go\n- callbacks/simple.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "callbacks 文件结构",
+        "content": "callbacks/agent_final_stream.go\ncallbacks/agent_final_stream_test.go\ncallbacks/callbacks.go\ncallbacks/callbacks_unit_test.go\ncallbacks/combining.go\ncallbacks/doc.go\ncallbacks/log.go\ncallbacks/log_stream.go\ncallbacks/simple.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075307793385164
+  },
+  {
+    "name": "langchaingo/chains 模块",
+    "description": "[模块级] langchaingo 项目的 chains 模块 (source)。来源: https://github.com/tmc/langchaingo",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "go",
+      "golang",
+      "langchain",
+      "stars-8675",
+      "module-level",
+      "source",
+      "chains"
+    ],
+    "genes": [
+      {
+        "title": "chains 模块说明",
+        "content": "模块路径: chains/\n类型: source\n文件数: 69\n\n包含文件:\n- chains/api.go\n- chains/api_test.go\n- chains/chains.go\n- chains/chains_test.go\n- chains/chains_unit_test.go\n- chains/constitution\n- chains/constitution/constitutional.go\n- chains/constitution/constitutional_test.go\n- chains/constitution/principles.go\n- chains/constitution/prompts.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chains 文件结构",
+        "content": "chains/api.go\nchains/api_test.go\nchains/chains.go\nchains/chains_test.go\nchains/chains_unit_test.go\nchains/constitution\nchains/constitution/constitutional.go\nchains/constitution/constitutional_test.go\nchains/constitution/principles.go\nchains/constitution/prompts.go\nchains/constitution/testdata\nchains/constitution/testdata/TestConstitutionalChain.httprr\nchains/constitutional.go\nchains/constitutional_test.go\nchains/conversation.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075307793385164
+  },
+  {
+    "name": "langchaingo/docs 模块",
+    "description": "[模块级] langchaingo 项目的 docs 模块 (docs)。来源: https://github.com/tmc/langchaingo",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "go",
+      "golang",
+      "langchain",
+      "stars-8675",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 75\n\n包含文件:\n- docs/.eslintrc.js\n- docs/.gitignore\n- docs/.vale.ini\n- docs/Makefile\n- docs/README.md\n- docs/babel.config.js\n- docs/code-block-loader.js\n- docs/docs\n- docs/docs/concepts\n- docs/docs/concepts/architecture.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.eslintrc.js\ndocs/.gitignore\ndocs/.vale.ini\ndocs/Makefile\ndocs/README.md\ndocs/babel.config.js\ndocs/code-block-loader.js\ndocs/docs\ndocs/docs/concepts\ndocs/docs/concepts/architecture.md\ndocs/docs/concepts/index.md\ndocs/docs/contributing\ndocs/docs/contributing/documentation.md\ndocs/docs/contributing/index.md\ndocs/docs/getting-started",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.075307793385164
+  }
+]

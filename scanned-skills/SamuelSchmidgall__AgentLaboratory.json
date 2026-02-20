@@ -1,0 +1,117 @@
+[
+  {
+    "name": "AgentLaboratory (SamuelSchmidgall)",
+    "description": "[项目级] Agent Laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas。来源: https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-5297",
+      "github-samuelschmidgall",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- **Agent Laboratory** is an end-to-end autonomous research workflow meant to assist **you** as the human researcher toward **implementing your research ideas**. Agent Laboratory consists of specialized agents driven by large language models to support you through the entire research workflow—from conducting literature reviews and formulating plans to executing experiments and writing comprehensive reports. \n- This system is not designed to replace your creativity but to complement it, enabling you to focus on ideation and critical thinking while automating repetitive and time-intensive tasks like coding and documentation. By accommodating varying levels of computational resources and human involvement, Agent Laboratory aims to accelerate scientific discovery and optimize your research pro",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents.py\nai_lab_repo.py\napp.py\ncommon_imports.py\nexperiment_configs\nexperiment_configs/MATH_agentlab.yaml\nexperiment_configs/MATH_agentrxiv.yaml\ninference.py\nmedia\nmedia/AgentLab.png\nmedia/AgentLabLogo.png\nmedia/AgentLabWF.png\nmedia/agentrxiv.png\nmlesolver.py\npapersolver.py\nreadme\nreadme/README-arabic.md\nreadme/README-bengali.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.862014986467798
+  },
+  {
+    "name": "AgentLaboratory/experiment_configs 模块",
+    "description": "[模块级] AgentLaboratory 项目的 experiment_configs 模块 (source)。来源: https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-5297",
+      "github-samuelschmidgall",
+      "module-level",
+      "source",
+      "experiment_configs"
+    ],
+    "genes": [
+      {
+        "title": "experiment_configs 模块说明",
+        "content": "模块路径: experiment_configs/\n类型: source\n文件数: 2\n\n包含文件:\n- experiment_configs/MATH_agentlab.yaml\n- experiment_configs/MATH_agentrxiv.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "experiment_configs 文件结构",
+        "content": "experiment_configs/MATH_agentlab.yaml\nexperiment_configs/MATH_agentrxiv.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9896119891742394
+  },
+  {
+    "name": "AgentLaboratory/media 模块",
+    "description": "[模块级] AgentLaboratory 项目的 media 模块 (source)。来源: https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-5297",
+      "github-samuelschmidgall",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 4\n\n包含文件:\n- media/AgentLab.png\n- media/AgentLabLogo.png\n- media/AgentLabWF.png\n- media/agentrxiv.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/AgentLab.png\nmedia/AgentLabLogo.png\nmedia/AgentLabWF.png\nmedia/agentrxiv.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9896119891742394
+  },
+  {
+    "name": "AgentLaboratory/readme 模块",
+    "description": "[模块级] AgentLaboratory 项目的 readme 模块 (source)。来源: https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-5297",
+      "github-samuelschmidgall",
+      "module-level",
+      "source",
+      "readme"
+    ],
+    "genes": [
+      {
+        "title": "readme 模块说明",
+        "content": "模块路径: readme/\n类型: source\n文件数: 16\n\n包含文件:\n- readme/README-arabic.md\n- readme/README-bengali.md\n- readme/README-chinese.md\n- readme/README-farsi.md\n- readme/README-filipino.md\n- readme/README-french.md\n- readme/README-hindi.md\n- readme/README-italian.md\n- readme/README-japanese.md\n- readme/README-korean.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "readme 文件结构",
+        "content": "readme/README-arabic.md\nreadme/README-bengali.md\nreadme/README-chinese.md\nreadme/README-farsi.md\nreadme/README-filipino.md\nreadme/README-french.md\nreadme/README-hindi.md\nreadme/README-italian.md\nreadme/README-japanese.md\nreadme/README-korean.md\nreadme/README-portugues.md\nreadme/README-russian.md\nreadme/README-slovak.md\nreadme/README-spanish.md\nreadme/README-turkish.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9896119891742394
+  }
+]

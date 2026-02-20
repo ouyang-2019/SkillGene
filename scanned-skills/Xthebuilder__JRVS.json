@@ -1,0 +1,486 @@
+[
+  {
+    "name": "JRVS (Xthebuilder)",
+    "description": "[项目级] JRVS AI Agent with JARCORE autonomous coding engine - RAG knowledge base, web   scraping, calendar, code generation. Powered by whatever local AI you choose.。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "JRVS AI Agent with JARCORE autonomous coding engine - RAG knowledge base, web   scraping, calendar, code generation. Powered by whatever local AI you choose.\n\n来源: https://github.com/Xthebuilder/JRVS\n语言: Python\nStars: 233",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nDockerfile.mcp\nENTERPRISE.md\nMCP_BRANCHES_GUIDE.md\nMCP_BUILD_SUMMARY.md\nREADME.md\n__init__.py\nadd_event.py\napi\napi/__init__.py\napi/server.py\napp\napp/JRVS APP.tsx\napp/components\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/page.tsx\ncli\ncli/__init__.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.183677960513009
+  },
+  {
+    "name": "JRVS/api 模块",
+    "description": "[模块级] JRVS 项目的 api 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "The modular design allows easy integration:\n\n```python\nfrom rag.retriever import rag_retriever\nfrom llm.ollama_client import ollama_client",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/__init__.py\napi/server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/app 模块",
+    "description": "[模块级] JRVS 项目的 app 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 8\n\n包含文件:\n- app/JRVS APP.tsx\n- app/components\n- app/components/AISchedulingPlatform.tsx\n- app/components/WeekCalendar.tsx\n- app/favicon.ico\n- app/globals.css\n- app/layout.tsx\n- app/page.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/JRVS APP.tsx\napp/components\napp/components/AISchedulingPlatform.tsx\napp/components/WeekCalendar.tsx\napp/favicon.ico\napp/globals.css\napp/layout.tsx\napp/page.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/cli 模块",
+    "description": "[模块级] JRVS 项目的 cli 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "JRVS can now act as an **MCP Client**, connecting to MCP servers to access external tools like filesystems, databases, APIs, and more!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/__init__.py\ncli/commands.py\ncli/interface.py\ncli/themes.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/core 模块",
+    "description": "[模块级] JRVS 项目的 core 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 4\n\n包含文件:\n- core/__init__.py\n- core/calendar.py\n- core/database.py\n- core/lazy_loader.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/__init__.py\ncore/calendar.py\ncore/database.py\ncore/lazy_loader.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/data 模块",
+    "description": "[模块级] JRVS 项目的 data 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 3\n\n包含文件:\n- data/faiss_index.index\n- data/faiss_index.map\n- data/jarvis.db",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/faiss_index.index\ndata/faiss_index.map\ndata/jarvis.db",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/data_analysis 模块",
+    "description": "[模块级] JRVS 项目的 data_analysis 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "data_analysis"
+    ],
+    "genes": [
+      {
+        "title": "data_analysis 模块说明",
+        "content": "模块路径: data_analysis/\n类型: source\n文件数: 2\n\n包含文件:\n- data_analysis/__init__.py\n- data_analysis/analyzer.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data_analysis 文件结构",
+        "content": "data_analysis/__init__.py\ndata_analysis/analyzer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/docs 模块",
+    "description": "[模块级] JRVS 项目的 docs 模块 (docs)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/BRAVE_SEARCH_SETUP.md\n- docs/CODING_AGENT.md\n- docs/COMMANDS_FIXED.md\n- docs/INTELLIGENT_AGENT_GUIDE.md\n- docs/JARCORE_QUICKSTART.md\n- docs/JARCORE_UPDATE.md\n- docs/MCP_CLIENT_GUIDE.md\n- docs/MCP_IMPLEMENTATION_SUMMARY.md\n- docs/MCP_QUICKSTART.md\n- docs/MCP_SETUP.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BRAVE_SEARCH_SETUP.md\ndocs/CODING_AGENT.md\ndocs/COMMANDS_FIXED.md\ndocs/INTELLIGENT_AGENT_GUIDE.md\ndocs/JARCORE_QUICKSTART.md\ndocs/JARCORE_UPDATE.md\ndocs/MCP_CLIENT_GUIDE.md\ndocs/MCP_IMPLEMENTATION_SUMMARY.md\ndocs/MCP_QUICKSTART.md\ndocs/MCP_SETUP.md\ndocs/NEW_WEB_UI.md\ndocs/QUICKSTART.md\ndocs/README_FRONTEND.md\ndocs/SECURITY_HARDENING_SUMMARY.md\ndocs/SETUP_COMPLETE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/lib 模块",
+    "description": "[模块级] JRVS 项目的 lib 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 3\n\n包含文件:\n- lib/firebase-utils.ts\n- lib/firebase.ts\n- lib/jarvis-api.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/firebase-utils.ts\nlib/firebase.ts\nlib/jarvis-api.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/llm 模块",
+    "description": "[模块级] JRVS 项目的 llm 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "llm"
+    ],
+    "genes": [
+      {
+        "title": "llm 模块说明",
+        "content": "模块路径: llm/\n类型: source\n文件数: 3\n\n包含文件:\n- llm/__init__.py\n- llm/lmstudio_client.py\n- llm/ollama_client.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm 文件结构",
+        "content": "llm/__init__.py\nllm/lmstudio_client.py\nllm/ollama_client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/mcp 模块",
+    "description": "[模块级] JRVS 项目的 mcp 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "mcp"
+    ],
+    "genes": [
+      {
+        "title": "mcp 模块说明",
+        "content": "JRVS can now act as an **MCP Client**, connecting to MCP servers to access external tools like filesystems, databases, APIs, and more!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp 文件结构",
+        "content": "mcp/ARCHITECTURE.md\nmcp/README_ENHANCED.md\nmcp/auth.py\nmcp/cache.py\nmcp/config.json\nmcp/config_manager.py\nmcp/exceptions.py\nmcp/health.py\nmcp/logging_config.py\nmcp/metrics.py\nmcp/rate_limiter.py\nmcp/resilience.py\nmcp/server_enhanced.py\nmcp/shutdown.py\nmcp/tests",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/mcp_gateway 模块",
+    "description": "[模块级] JRVS 项目的 mcp_gateway 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "mcp_gateway"
+    ],
+    "genes": [
+      {
+        "title": "mcp_gateway 模块说明",
+        "content": "模块路径: mcp_gateway/\n类型: source\n文件数: 9\n\n包含文件:\n- mcp_gateway/README.md\n- mcp_gateway/__init__.py\n- mcp_gateway/agent.py\n- mcp_gateway/claude_config.json\n- mcp_gateway/client.py\n- mcp_gateway/client_config.json\n- mcp_gateway/coding_agent.py\n- mcp_gateway/server.py\n- mcp_gateway/test_server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp_gateway 文件结构",
+        "content": "mcp_gateway/README.md\nmcp_gateway/__init__.py\nmcp_gateway/agent.py\nmcp_gateway/claude_config.json\nmcp_gateway/client.py\nmcp_gateway/client_config.json\nmcp_gateway/coding_agent.py\nmcp_gateway/server.py\nmcp_gateway/test_server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/public 模块",
+    "description": "[模块级] JRVS 项目的 public 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 5\n\n包含文件:\n- public/file.svg\n- public/globe.svg\n- public/next.svg\n- public/vercel.svg\n- public/window.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/file.svg\npublic/globe.svg\npublic/next.svg\npublic/vercel.svg\npublic/window.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/rag 模块",
+    "description": "[模块级] JRVS 项目的 rag 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "rag"
+    ],
+    "genes": [
+      {
+        "title": "rag 模块说明",
+        "content": "1. **Document Ingestion**: Web pages are scraped and chunked into manageable pieces\n2. **Embedding Generation**: BERT creates vector embeddings for semantic search\n3. **Vector Storage**: FAISS provides fast similarity search across document chunks\n4. **Context Injection**: Relevant chunks are automatically added to your prompts\n5. **Enhanced Responses**: Ollama generates responses with enriched context",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rag 文件结构",
+        "content": "rag/__init__.py\nrag/embeddings.py\nrag/retriever.py\nrag/vector_store.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/scraper 模块",
+    "description": "[模块级] JRVS 项目的 scraper 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "scraper"
+    ],
+    "genes": [
+      {
+        "title": "scraper 模块说明",
+        "content": "模块路径: scraper/\n类型: source\n文件数: 2\n\n包含文件:\n- scraper/__init__.py\n- scraper/web_scraper.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scraper 文件结构",
+        "content": "scraper/__init__.py\nscraper/web_scraper.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/static 模块",
+    "description": "[模块级] JRVS 项目的 static 模块 (source)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 3\n\n包含文件:\n- static/index.html\n- static/script.js\n- static/style.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/index.html\nstatic/script.js\nstatic/style.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  },
+  {
+    "name": "JRVS/tests 模块",
+    "description": "[模块级] JRVS 项目的 tests 模块 (test)。来源: https://github.com/Xthebuilder/JRVS",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-233",
+      "github-xthebuilder",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 7\n\n包含文件:\n- tests/test_calendar_api.py\n- tests/test_coding_agent.py\n- tests/test_lmstudio_client.py\n- tests/test_mcp_client.py\n- tests/test_mcp_connection_cleanup.py\n- tests/test_security_features.py\n- tests/test_security_static_analysis.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test_calendar_api.py\ntests/test_coding_agent.py\ntests/test_lmstudio_client.py\ntests/test_mcp_client.py\ntests/test_mcp_connection_cleanup.py\ntests/test_security_features.py\ntests/test_security_static_analysis.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4469423684104075
+  }
+]

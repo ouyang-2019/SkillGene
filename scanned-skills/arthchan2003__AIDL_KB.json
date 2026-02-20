@@ -1,0 +1,93 @@
+[
+  {
+    "name": "AIDL_KB (arthchan2003)",
+    "description": "[项目级] A Knowledge Base for the FB Group Artificial Intelligence and Deep Learning (AIDL)。来源: https://github.com/arthchan2003/AIDL_KB",
+    "domain": "devops",
+    "tags": [
+      "aidl",
+      "artificial-intelligence",
+      "artificial-neural-networks",
+      "computer-vision",
+      "datasets",
+      "html",
+      "stars-231",
+      "github-arthchan2003",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Knowledge Base for the FB Group Artificial Intelligence and Deep Learning (AIDL)\n\n来源: https://github.com/arthchan2003/AIDL_KB\n语言: HTML\nStars: 231",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "BAS.md\nFB.md\nHOW.md\nKB\nKB/ASR.md\nKB/BLG.md\nKB/CV.md\nKB/DAT.md\nKB/DL.md\nKB/ML.md\nKB/NEU.md\nKB/NLP.md\nKB/PHI.md\nKB/PRE.md\nKB/SCI.md\nLICENSE\nREADME.md\nassets\nassets/gen",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.181805989946072
+  },
+  {
+    "name": "AIDL_KB/KB 模块",
+    "description": "[模块级] AIDL_KB 项目的 KB 模块 (source)。来源: https://github.com/arthchan2003/AIDL_KB",
+    "domain": "devops",
+    "tags": [
+      "aidl",
+      "artificial-intelligence",
+      "artificial-neural-networks",
+      "computer-vision",
+      "datasets",
+      "module-level",
+      "source",
+      "kb"
+    ],
+    "genes": [
+      {
+        "title": "KB 模块说明",
+        "content": "* Jan Šablatura\n* Arthur Chan\n* Amitā Kapoor\n* Adam Milton-Barker\n* Danielius Visockas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "KB 文件结构",
+        "content": "KB/ASR.md\nKB/BLG.md\nKB/CV.md\nKB/DAT.md\nKB/DL.md\nKB/ML.md\nKB/NEU.md\nKB/NLP.md\nKB/PHI.md\nKB/PRE.md\nKB/SCI.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4454447919568576
+  },
+  {
+    "name": "AIDL_KB/assets 模块",
+    "description": "[模块级] AIDL_KB 项目的 assets 模块 (source)。来源: https://github.com/arthchan2003/AIDL_KB",
+    "domain": "devops",
+    "tags": [
+      "aidl",
+      "artificial-intelligence",
+      "artificial-neural-networks",
+      "computer-vision",
+      "datasets",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/gen\n- assets/gen/SCI_RES.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/gen\nassets/gen/SCI_RES.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4454447919568576
+  }
+]

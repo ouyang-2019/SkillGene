@@ -1,0 +1,168 @@
+[
+  {
+    "name": "siiRL (sii-research)",
+    "description": "[项目级] siiRL: Shanghai Innovation Institute RL Framework for Advanced LLMs and Multi-Agent Systems。来源: https://github.com/sii-research/siiRL",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "siiRL is a fully distributed RL framework designed for scalability on large-scale clusters. siiRL employs a multi-controller paradigm that uniformly dispatches all computational and data flow across each GPU. siiRL consists of three main components: a DAG Planner, DAG Workers, and a Data Coordinator. \n\n<div align=\"center\">\n  <img src=\"asset/overview.png\" width=\"650px\" alt=\"Overview of siiRL\">\n  <p><i>Figure 1. Overview of siiRL.</i></p>\n</div>\n\nsiiRL solves this problem with a **fully distributed, multi-controller architecture**.\n\nKey components include:\n* **DAG Planner**: Translates a user-defined logical workflow (DAG) into a serialized, executable pipeline for each worker.\n* **DAG Workers**: The core execution units, with each worker bound to a single GPU, running its assigned tasks ind",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME-zh.md\nREADME.md\nasset\nasset/batch_size_total_throughput_final.png\nasset/code_explained\nasset/context_length_comparison_with_oom_label.png\nasset/cube.jpg\nasset/grpo_performance_comparison.png\nasset/logo-feishu.png\nasset/logo-wechat.png\nasset/overview.png\nasset/ppo_performance_comparison.png\nasset/reward_and_entropy_comparison_final.png\nasset/scaling_trend_new.png\nasset/sii.png\nasset/siiRL-feishu-group.png\nasset/siiRL-wechat-group.png\ndocker",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.267647060021385
+  },
+  {
+    "name": "siiRL/asset 模块",
+    "description": "[模块级] siiRL 项目的 asset 模块 (source)。来源: https://github.com/sii-research/siiRL",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "module-level",
+      "source",
+      "asset"
+    ],
+    "genes": [
+      {
+        "title": "asset 模块说明",
+        "content": "模块路径: asset/\n类型: source\n文件数: 25\n\n包含文件:\n- asset/batch_size_total_throughput_final.png\n- asset/code_explained\n- asset/code_explained/dag_init.png\n- asset/code_explained/dag_worker.png\n- asset/code_explained/data_buffer_loop.png\n- asset/code_explained/data_loader.png\n- asset/code_explained/dist_pg.png\n- asset/code_explained/overview_diagram.png\n- asset/code_explained/pipeline.png\n- asset/code_explained/ray_trainer.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "asset 文件结构",
+        "content": "asset/batch_size_total_throughput_final.png\nasset/code_explained\nasset/code_explained/dag_init.png\nasset/code_explained/dag_worker.png\nasset/code_explained/data_buffer_loop.png\nasset/code_explained/data_loader.png\nasset/code_explained/dist_pg.png\nasset/code_explained/overview_diagram.png\nasset/code_explained/pipeline.png\nasset/code_explained/ray_trainer.png\nasset/code_explained/siirl_arch.png\nasset/code_explained/taskgraph_sched.png\nasset/code_explained/train_init.png\nasset/context_length_comparison_with_oom_label.png\nasset/cube.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514117648017108
+  },
+  {
+    "name": "siiRL/docker 模块",
+    "description": "[模块级] siiRL 项目的 docker 模块 (source)。来源: https://github.com/sii-research/siiRL",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 2\n\n包含文件:\n- docker/Dockerfile.cu124\n- docker/Dockerfile.cu126",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.cu124\ndocker/Dockerfile.cu126",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514117648017108
+  },
+  {
+    "name": "siiRL/docs 模块",
+    "description": "[模块级] siiRL 项目的 docs 模块 (docs)。来源: https://github.com/sii-research/siiRL",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 33\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/cube.jpg\n- docs/conf.py\n- docs/examples\n- docs/examples/config.rst\n- docs/examples/cpgd_example.rst\n- docs/examples/deepscaler_example.rst\n- docs/examples/embodied_srpo_example.rst\n- docs/examples/megatron_backend_example.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/cube.jpg\ndocs/conf.py\ndocs/examples\ndocs/examples/config.rst\ndocs/examples/cpgd_example.rst\ndocs/examples/deepscaler_example.rst\ndocs/examples/embodied_srpo_example.rst\ndocs/examples/megatron_backend_example.rst\ndocs/examples/mm_eureka_example.rst\ndocs/hardware_tutorial\ndocs/hardware_tutorial/ascend_profiling_en.rst\ndocs/hardware_tutorial/ascend_quickstart.rst\ndocs/hardware_tutorial/metax_quickstart.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514117648017108
+  },
+  {
+    "name": "siiRL/examples 模块",
+    "description": "[模块级] siiRL 项目的 examples 模块 (example)。来源: https://github.com/sii-research/siiRL",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 69\n\n包含文件:\n- examples/cpgd_trainer\n- examples/cpgd_trainer/run_qwen2_5-7b.sh\n- examples/cpgd_trainer/run_qwen2_5_vl-72b.sh\n- examples/cpgd_trainer/run_qwen2_5_vl-7b.sh\n- examples/cpgd_trainer/run_qwen3-1.7b.sh\n- examples/cpgd_trainer/run_qwen3-8b.sh\n- examples/custom_pipeline_example\n- examples/custom_pipeline_example/custom_grpo.py\n- examples/custom_reward\n- examples/custom_reward/rewardfunc_gsm8k.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/cpgd_trainer\nexamples/cpgd_trainer/run_qwen2_5-7b.sh\nexamples/cpgd_trainer/run_qwen2_5_vl-72b.sh\nexamples/cpgd_trainer/run_qwen2_5_vl-7b.sh\nexamples/cpgd_trainer/run_qwen3-1.7b.sh\nexamples/cpgd_trainer/run_qwen3-8b.sh\nexamples/custom_pipeline_example\nexamples/custom_pipeline_example/custom_grpo.py\nexamples/custom_reward\nexamples/custom_reward/rewardfunc_gsm8k.py\nexamples/custom_reward/run_qwen2_5-7b-custom_reward.sh\nexamples/dapo_trainer\nexamples/dapo_trainer/run_qwen2_5-7b.sh\nexamples/dapo_trainer/run_qwen3-235b-megatron-gspo.sh\nexamples/dapo_trainer/run_qwen3-8b.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514117648017108
+  },
+  {
+    "name": "siiRL/siirl 模块",
+    "description": "[模块级] siiRL 项目的 siirl 模块 (source)。来源: https://github.com/sii-research/siiRL",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-343",
+      "github-sii-research",
+      "module-level",
+      "source",
+      "siirl"
+    ],
+    "genes": [
+      {
+        "title": "siirl 模块说明",
+        "content": "模块路径: siirl/\n类型: source\n文件数: 55\n\n包含文件:\n- siirl/__init__.py\n- siirl/dag_worker\n- siirl/dag_worker/__init__.py\n- siirl/dag_worker/checkpoint_manager.py\n- siirl/dag_worker/constants.py\n- siirl/dag_worker/core_algos.py\n- siirl/dag_worker/dag_utils.py\n- siirl/dag_worker/dagworker.py\n- siirl/dag_worker/data_structures.py\n- siirl/dag_worker/metric_aggregator.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "siirl 文件结构",
+        "content": "siirl/__init__.py\nsiirl/dag_worker\nsiirl/dag_worker/__init__.py\nsiirl/dag_worker/checkpoint_manager.py\nsiirl/dag_worker/constants.py\nsiirl/dag_worker/core_algos.py\nsiirl/dag_worker/dag_utils.py\nsiirl/dag_worker/dagworker.py\nsiirl/dag_worker/data_structures.py\nsiirl/dag_worker/metric_aggregator.py\nsiirl/dag_worker/metrics_collector.py\nsiirl/dag_worker/validator.py\nsiirl/data_coordinator\nsiirl/data_coordinator/__init__.py\nsiirl/data_coordinator/data_buffer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514117648017108
+  }
+]

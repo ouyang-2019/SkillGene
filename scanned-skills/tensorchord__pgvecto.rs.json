@@ -1,0 +1,68 @@
+[
+  {
+    "name": "pgvecto.rs (tensorchord)",
+    "description": "[项目级] Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.。来源: https://github.com/tensorchord/pgvecto.rs",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "faiss",
+      "gpt",
+      "hacktoberfest",
+      "llm",
+      "rust",
+      "stars-2156",
+      "github-tensorchord",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- Getting Started\n  - [Overview](https://docs.vectorchord.ai/getting-started/overview.html)\n  - [Installation](https://docs.vectorchord.ai/getting-started/installation.html)\n- Usage\n  - [Indexing](https://docs.vectorchord.ai/usage/indexing.html)\n  - [Search](https://docs.vectorchord.ai/usage/search.html)\n- Administration\n  - [Configuration](https://docs.vectorchord.ai/admin/configuration.html)\n  - [Upgrading from older versions](https://docs.vectorchord.ai/admin/upgrading.html)\n- Developers\n  - [Development Tutorial](https://docs.vectorchord.ai/developers/development.html)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- Getting Started\n  - [Overview](https://docs.vectorchord.ai/getting-started/overview.html)\n  - [Installation](https://docs.vectorchord.ai/getting-started/installation.html)\n- Usage\n  - [Indexing](https://docs.vectorchord.ai/usage/indexing.html)\n  - [Search](https://docs.vectorchord.ai/usage/search.html)\n- Administration\n  - [Configuration](https://docs.vectorchord.ai/admin/configuration.html)\n  - [Upgrading from older versions](https://docs.vectorchord.ai/admin/upgrading.html)\n- Developers\n  - [Development Tutorial](https://docs.vectorchord.ai/developers/development.html)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Cargo.lock\nCargo.toml\nLICENSE\nREADME.md\nbuild.envd\ncrates\ncrates/base\ncrates/base_macros\ncrates/cli\ncrates/common\ncrates/detect\ncrates/detect_macros\ncrates/embedding\ncrates/flat\ncrates/graph\ncrates/hnsw\ncrates/index\ncrates/indexing\ncrates/interprocess-atomic-wait\ncrates/ivf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.666824378257351
+  },
+  {
+    "name": "pgvecto.rs/crates 模块",
+    "description": "[模块级] pgvecto.rs 项目的 crates 模块 (source)。来源: https://github.com/tensorchord/pgvecto.rs",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "faiss",
+      "gpt",
+      "hacktoberfest",
+      "llm",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 173\n\n包含文件:\n- crates/base\n- crates/base/Cargo.toml\n- crates/base/src\n- crates/base/src/aligned.rs\n- crates/base/src/always_equal.rs\n- crates/base/src/distance.rs\n- crates/base/src/index.rs\n- crates/base/src/lib.rs\n- crates/base/src/operator\n- crates/base/src/operator/bvect_dot.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/base\ncrates/base/Cargo.toml\ncrates/base/src\ncrates/base/src/aligned.rs\ncrates/base/src/always_equal.rs\ncrates/base/src/distance.rs\ncrates/base/src/index.rs\ncrates/base/src/lib.rs\ncrates/base/src/operator\ncrates/base/src/operator/bvect_dot.rs\ncrates/base/src/operator/bvect_hamming.rs\ncrates/base/src/operator/bvect_jaccard.rs\ncrates/base/src/operator/mod.rs\ncrates/base/src/operator/svect_dot.rs\ncrates/base/src/operator/svect_l2.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.833459502605881
+  }
+]

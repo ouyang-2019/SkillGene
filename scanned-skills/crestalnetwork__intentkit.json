@@ -1,0 +1,158 @@
+[
+  {
+    "name": "intentkit (crestalnetwork)",
+    "description": "[项目级] An open and fair framework for everyone to build AI agents equipped with powerful skills. Launch your agent, improve the world, your wallet, or both!。来源: https://github.com/crestalnetwork/intentkit",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflow",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "python",
+      "stars-6486",
+      "github-crestalnetwork",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An open and fair framework for everyone to build AI agents equipped with powerful skills. Launch your agent, improve the world, your wallet, or both!\n\n来源: https://github.com/crestalnetwork/intentkit\n语言: Python\nStars: 6486",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nDEVELOPMENT.md\nDockerfile\nGEMINI.md\nLICENSE\nLLM.md\nREADME.md\nSECURITY.md\n__init__.py\nagent_docs\nagent_docs/ops_guide.md\nagent_docs/skill_development.md\nagent_docs/test.md\nanalyze_errors.py\napp\napp/__init__.py\napp/api.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🤖 Multiple Agent Support\n- 🔄 Autonomous Agent Management\n- 🔗 Blockchain Integration (EVM chains first)\n- 🐦 Social Media Integration (Twitter, Telegram, and more)\n- 🛠️ Extensible Skill System\n- 🔌 MCP (WIP)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.905988472168477
+  },
+  {
+    "name": "intentkit/agent_docs 模块",
+    "description": "[模块级] intentkit 项目的 agent_docs 模块 (source)。来源: https://github.com/crestalnetwork/intentkit",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflow",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "module-level",
+      "source",
+      "agent_docs"
+    ],
+    "genes": [
+      {
+        "title": "agent_docs 模块说明",
+        "content": "模块路径: agent_docs/\n类型: source\n文件数: 3\n\n包含文件:\n- agent_docs/ops_guide.md\n- agent_docs/skill_development.md\n- agent_docs/test.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent_docs 文件结构",
+        "content": "agent_docs/ops_guide.md\nagent_docs/skill_development.md\nagent_docs/test.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024790777734782
+  },
+  {
+    "name": "intentkit/app 模块",
+    "description": "[模块级] intentkit 项目的 app 模块 (source)。来源: https://github.com/crestalnetwork/intentkit",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflow",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 73\n\n包含文件:\n- app/__init__.py\n- app/api.py\n- app/autonomous.py\n- app/discord.py\n- app/entrypoints\n- app/entrypoints/agent_api.py\n- app/entrypoints/autonomous.py\n- app/entrypoints/discord.py\n- app/entrypoints/tg.py\n- app/local",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/api.py\napp/autonomous.py\napp/discord.py\napp/entrypoints\napp/entrypoints/agent_api.py\napp/entrypoints/autonomous.py\napp/entrypoints/discord.py\napp/entrypoints/tg.py\napp/local\napp/local/__init__.py\napp/local/agent.py\napp/local/autonomous.py\napp/local/chat.py\napp/local/content.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024790777734782
+  },
+  {
+    "name": "intentkit/docs 模块",
+    "description": "[模块级] intentkit 项目的 docs 模块 (docs)。来源: https://github.com/crestalnetwork/intentkit",
+    "domain": "documentation",
+    "tags": [
+      "agentic-workflow",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 51\n\n包含文件:\n- docs/.gitignore\n- docs/Dockerfile\n- docs/assets\n- docs/assets/css\n- docs/assets/css/custom.css\n- docs/content\n- docs/content/en\n- docs/content/en/_index.md\n- docs/content/en/docs\n- docs/content/en/docs/_index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/Dockerfile\ndocs/assets\ndocs/assets/css\ndocs/assets/css/custom.css\ndocs/content\ndocs/content/en\ndocs/content/en/_index.md\ndocs/content/en/docs\ndocs/content/en/docs/_index.md\ndocs/content/en/docs/installation\ndocs/content/en/docs/installation/_index.md\ndocs/content/en/docs/installation/docker-compose.md\ndocs/content/en/docs/installation/docker-swarm.md\ndocs/content/en/docs/introduction.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024790777734782
+  },
+  {
+    "name": "intentkit/frontend 模块",
+    "description": "[模块级] intentkit 项目的 frontend 模块 (source)。来源: https://github.com/crestalnetwork/intentkit",
+    "domain": "devops",
+    "tags": [
+      "agentic-workflow",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "blockchain",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 39\n\n包含文件:\n- frontend/.env.example\n- frontend/.gitignore\n- frontend/AGENTS.md\n- frontend/Dockerfile\n- frontend/components.json\n- frontend/eslint.config.mjs\n- frontend/next.config.ts\n- frontend/package-lock.json\n- frontend/package.json\n- frontend/postcss.config.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/.gitignore\nfrontend/AGENTS.md\nfrontend/Dockerfile\nfrontend/components.json\nfrontend/eslint.config.mjs\nfrontend/next.config.ts\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/postcss.config.mjs\nfrontend/src\nfrontend/src/app\nfrontend/src/app/agent\nfrontend/src/app/agent/[id]\nfrontend/src/app/agent/[id]/ClientPage.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024790777734782
+  }
+]

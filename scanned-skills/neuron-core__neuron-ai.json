@@ -1,0 +1,138 @@
+[
+  {
+    "name": "neuron-ai (neuron-core)",
+    "description": "[项目级] The PHP Agentic Framework to build production-ready AI driven applications. Connect components (LLMs, vector DBs, memory) to agents that can interact with your data. With its modular architecture it's best suited for building RAG, multi-agent workflows, or business process automations.。来源: https://github.com/neuron-core/neuron-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agents",
+      "ai",
+      "php",
+      "stars-1697",
+      "github-neuron-core",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The PHP Agentic Framework to build production-ready AI driven applications. Connect components (LLMs, vector DBs, memory) to agents that can interact with your data. With its modular architecture it's best suited for building RAG, multi-agent workflows, or business process automations.\n\n来源: https://github.com/neuron-core/neuron-ai\n语言: PHP\nStars: 1697",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "composer require neuron-core/neuron-ai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nagents.md\nbin\nbin/neuron\ncomposer.json\ndocs\ndocs/CNAME\ndocs/images\ndocs/index.html\nexamples\nexamples/workflow\npeck.json\nphpstan.neon\nphpunit.xml.dist\nrector.php\nsrc\nsrc/Agent.php",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [Install](#install)\n- [Create an Agent](#create)\n- [Talk to the Agent](#talk)\n- [Monitoring](#monitoring)\n- [Supported LLM Providers](#providers)\n- [Tools & Toolkits](#tools)\n- [MCP Connector](#mcp)\n- [Structured Output](#structured)\n- [RAG](#rag)\n- [Workflow](#workflow)\n- [AI Assisted Development](#agentic)\n- [Security Vulnerabilities](#security)\n- [Official Documentation](#documentation)\n\n<a name=\"install\">",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "[![Latest Stable Version](https://poser.pugx.org/inspector-apm/neuron-ai/v/stable)](https://packagist.org/packages/inspector-apm/neuron-ai)\n[![Total Downloads](http://poser.pugx.org/inspector-apm/neuron-ai/downloads)](https://packagist.org/packages/inspector-apm/neuron-ai)\n\n> [!IMPORTANT]\n> **Neuron v3 release scheduled for the end of February.** Start with it or read the upgrade guide to prepare your project.\n> [Upgrade Guide](https://docs.neuron-ai.dev/neuron-v3/overview/upgrade)\n\n> Before moving on, support the community giving a GitHub star ⭐️. Thank you!",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.614840921158838
+  },
+  {
+    "name": "neuron-ai/docs 模块",
+    "description": "[模块级] neuron-ai 项目的 docs 模块 (docs)。来源: https://github.com/neuron-core/neuron-ai",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agents",
+      "ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/CNAME\n- docs/images\n- docs/images/book-cover.png\n- docs/images/inspector.png\n- docs/images/logo-black.png\n- docs/images/workflow.avif\n- docs/images/youtube.png\n- docs/index.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CNAME\ndocs/images\ndocs/images/book-cover.png\ndocs/images/inspector.png\ndocs/images/logo-black.png\ndocs/images/workflow.avif\ndocs/images/youtube.png\ndocs/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79187273692707
+  },
+  {
+    "name": "neuron-ai/examples 模块",
+    "description": "[模块级] neuron-ai 项目的 examples 模块 (example)。来源: https://github.com/neuron-core/neuron-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agents",
+      "ai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 3\n\n包含文件:\n- examples/workflow\n- examples/workflow/workflow-interrupt.php\n- examples/workflow/workflow-stream.php",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/workflow\nexamples/workflow/workflow-interrupt.php\nexamples/workflow/workflow-stream.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79187273692707
+  },
+  {
+    "name": "neuron-ai/src 模块",
+    "description": "[模块级] neuron-ai 项目的 src 模块 (source)。来源: https://github.com/neuron-core/neuron-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 160\n\n包含文件:\n- src/Agent.php\n- src/AgentInterface.php\n- src/Chat\n- src/Chat/Attachments\n- src/Chat/Attachments/Attachment.php\n- src/Chat/Attachments/Document.php\n- src/Chat/Attachments/Image.php\n- src/Chat/Enums\n- src/Chat/Enums/AttachmentContentType.php\n- src/Chat/Enums/AttachmentType.php",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Agent.php\nsrc/AgentInterface.php\nsrc/Chat\nsrc/Chat/Attachments\nsrc/Chat/Attachments/Attachment.php\nsrc/Chat/Attachments/Document.php\nsrc/Chat/Attachments/Image.php\nsrc/Chat/Enums\nsrc/Chat/Enums/AttachmentContentType.php\nsrc/Chat/Enums/AttachmentType.php\nsrc/Chat/Enums/MessageRole.php\nsrc/Chat/History\nsrc/Chat/History/AbstractChatHistory.php\nsrc/Chat/History/ChatHistoryInterface.php\nsrc/Chat/History/EloquentChatHistory.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.79187273692707
+  }
+]

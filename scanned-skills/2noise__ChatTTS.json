@@ -1,0 +1,193 @@
+[
+  {
+    "name": "ChatTTS (2noise)",
+    "description": "[项目级] A generative speech model for daily dialogue.。来源: https://github.com/2noise/ChatTTS",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "python",
+      "stars-38731",
+      "github-2noise",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "> [!Note]\n> This repo contains the algorithm infrastructure and some simple examples.\n\n> [!Tip]\n> For the extended end-user products, please refer to the index repo [Awesome-ChatTTS](https://github.com/libukai/Awesome-ChatTTS/tree/en) maintained by the community.  \n> You can find a diagram visualization of the codebase [here](https://github.com/CodeBoarding/GeneratedOnBoardings/blob/main/ChatTTS/on_boarding.md).\n\nChatTTS is a text-to-speech model designed specifically for dialogue scenarios such as LLM assistant.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ChatTTS\nChatTTS/__init__.py\nChatTTS/config\nChatTTS/core.py\nChatTTS/model\nChatTTS/norm.py\nChatTTS/res\nChatTTS/utils\nLICENSE\nREADME.md\ndocs\ndocs/cn\ndocs/es\ndocs/fr\ndocs/jp\ndocs/kr\ndocs/ru\nexamples\nexamples/__init__.py\nexamples/api",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import ChatTTS\nimport torch\nimport torchaudio\n\nchat = ChatTTS.Chat()\nchat.load(compile=False) # Set to True for better performance\n\ntexts = [\"PUT YOUR 1st TEXT HERE\", \"PUT YOUR 2nd TEXT HERE\"]\n\nwavs = chat.infer(texts)\n\nfor i in range(len(wavs)):\n    \"\"\"\n    In some versions of torchaudio, the first line works but in other versions, so does the second line.\n    \"\"\"\n    try:\n        torchaudio.save(f\"basic_output{i}.wav\", torch.from_numpy(wavs[i]).unsqueeze(0), 24000)\n    except:\n        torchaudio.save(f\"basic_output{i}.wav\", torch.from_numpy(wavs[i]), 24000)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ChatTTS/ChatTTS 模块",
+    "description": "[模块级] ChatTTS 项目的 ChatTTS 模块 (source)。来源: https://github.com/2noise/ChatTTS",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "module-level",
+      "source",
+      "chattts"
+    ],
+    "genes": [
+      {
+        "title": "ChatTTS 模块说明",
+        "content": "A generative speech model for daily dialogue.\n\n[![Licence](https://img.shields.io/github/license/2noise/ChatTTS?style=for-the-badge)](https://github.com/2noise/ChatTTS/blob/main/LICENSE)\n[![PyPI](https://img.shields.io/pypi/v/ChatTTS.svg?style=for-the-badge&color=green)](https://pypi.org/project/ChatTTS)\n\n[![Huggingface](https://img.shields.io/badge/🤗%20-Models-yellow.svg?style=for-the-badge)](https://huggingface.co/2Noise/ChatTTS)\n[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?sty",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ChatTTS 文件结构",
+        "content": "ChatTTS/__init__.py\nChatTTS/config\nChatTTS/config/__init__.py\nChatTTS/config/config.py\nChatTTS/core.py\nChatTTS/model\nChatTTS/model/__init__.py\nChatTTS/model/cuda\nChatTTS/model/cuda/__init__.py\nChatTTS/model/cuda/patch.py\nChatTTS/model/cuda/te_llama.py\nChatTTS/model/dvae.py\nChatTTS/model/embed.py\nChatTTS/model/gpt.py\nChatTTS/model/processors.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3352234840913635
+  },
+  {
+    "name": "ChatTTS/docs 模块",
+    "description": "[模块级] ChatTTS 项目的 docs 模块 (docs)。来源: https://github.com/2noise/ChatTTS",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/cn\n- docs/cn/README.md\n- docs/es\n- docs/es/README.md\n- docs/fr\n- docs/fr/README.md\n- docs/jp\n- docs/jp/README.md\n- docs/kr\n- docs/kr/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/cn\ndocs/cn/README.md\ndocs/es\ndocs/es/README.md\ndocs/fr\ndocs/fr/README.md\ndocs/jp\ndocs/jp/README.md\ndocs/kr\ndocs/kr/README.md\ndocs/ru\ndocs/ru/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3352234840913635
+  },
+  {
+    "name": "ChatTTS/examples 模块",
+    "description": "[模块级] ChatTTS 项目的 examples 模块 (example)。来源: https://github.com/2noise/ChatTTS",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 24\n\n包含文件:\n- examples/__init__.py\n- examples/api\n- examples/api/README.md\n- examples/api/client.py\n- examples/api/main.py\n- examples/api/openai_api.py\n- examples/api/postScript.py\n- examples/api/requirements.txt\n- examples/cmd\n- examples/cmd/run.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/api\nexamples/api/README.md\nexamples/api/client.py\nexamples/api/main.py\nexamples/api/openai_api.py\nexamples/api/postScript.py\nexamples/api/requirements.txt\nexamples/cmd\nexamples/cmd/run.py\nexamples/cmd/stream.py\nexamples/ipynb\nexamples/ipynb/colab.ipynb\nexamples/ipynb/example.ipynb\nexamples/onnx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3352234840913635
+  },
+  {
+    "name": "ChatTTS/tests 模块",
+    "description": "[模块级] ChatTTS 项目的 tests 模块 (test)。来源: https://github.com/2noise/ChatTTS",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 4\n\n包含文件:\n- tests/#511.py\n- tests/#588.py\n- tests/#655.py\n- tests/testall.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/#511.py\ntests/#588.py\ntests/#655.py\ntests/testall.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3352234840913635
+  },
+  {
+    "name": "ChatTTS/tools 模块",
+    "description": "[模块级] ChatTTS 项目的 tools 模块 (script)。来源: https://github.com/2noise/ChatTTS",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "模块路径: tools/\n类型: script\n文件数: 23\n\n包含文件:\n- tools/__init__.py\n- tools/audio\n- tools/audio/__init__.py\n- tools/audio/av.py\n- tools/audio/ffmpeg.py\n- tools/audio/np.py\n- tools/audio/pcm.py\n- tools/checksum\n- tools/checksum/main.go\n- tools/checksum/tmpl.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/__init__.py\ntools/audio\ntools/audio/__init__.py\ntools/audio/av.py\ntools/audio/ffmpeg.py\ntools/audio/np.py\ntools/audio/pcm.py\ntools/checksum\ntools/checksum/main.go\ntools/checksum/tmpl.go\ntools/llm\ntools/llm/__init__.py\ntools/llm/llm.py\ntools/logger\ntools/logger/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3352234840913635
+  }
+]

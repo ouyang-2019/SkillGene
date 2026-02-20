@@ -1,0 +1,128 @@
+[
+  {
+    "name": "khoj (khoj-ai)",
+    "description": "[项目级] Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.。来源: https://github.com/khoj-ai/khoj",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "chat",
+      "chatgpt",
+      "python",
+      "stars-32538",
+      "github-khoj-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[Khoj](https://khoj.dev) is a personal AI app to extend your capabilities. It smoothly scales up from an on-device personal AI to a cloud-scale enterprise AI.\n\n- Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini, deepseek).\n- Get answers from the internet and your docs (including image, pdf, markdown, org-mode, word, notion files).\n- Access it from your Browser, Obsidian, Emacs, Desktop, Phone or Whatsapp.\n- Create agents with custom knowledge, persona, chat model and tools to take on any role.\n- Automate away repetitive research. Get personal newsletters and smart notifications delivered to your inbox.\n- Find relevant docs quickly and easily using our advanced semantic search.\n- Generate images, talk out loud, play your messages.\n- Khoj is open-sourc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\ncomputer.Dockerfile\ndocker-compose.yml\ndocumentation\ndocumentation/.gitignore\ndocumentation/README.md\ndocumentation/assets\ndocumentation/babel.config.js\ndocumentation/docs\ndocumentation/docusaurus.config.js\ndocumentation/package.json\ndocumentation/sidebars.js\ndocumentation/src\ndocumentation/yarn.lock\ngunicorn-config.py\nmanifest.json\nprod.Dockerfile\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "You can see the full feature list [here](https://docs.khoj.dev/category/features).",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "khoj/documentation 模块",
+    "description": "[模块级] khoj 项目的 documentation 模块 (docs)。来源: https://github.com/khoj-ai/khoj",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "chat",
+      "chatgpt",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "模块路径: documentation/\n类型: docs\n文件数: 113\n\n包含文件:\n- documentation/.gitignore\n- documentation/README.md\n- documentation/assets\n- documentation/assets/.nojekyll\n- documentation/assets/img\n- documentation/assets/img/admin_get_emali_login.png\n- documentation/assets/img/admin_successful_login_url.png\n- documentation/assets/img/agents_page_full.png\n- documentation/assets/img/chrome_pwa_alt.png\n- documentation/assets/img/dream_house.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/.gitignore\ndocumentation/README.md\ndocumentation/assets\ndocumentation/assets/.nojekyll\ndocumentation/assets/img\ndocumentation/assets/img/admin_get_emali_login.png\ndocumentation/assets/img/admin_successful_login_url.png\ndocumentation/assets/img/agents_page_full.png\ndocumentation/assets/img/chrome_pwa_alt.png\ndocumentation/assets/img/dream_house.png\ndocumentation/assets/img/example_chatmodel_option.png\ndocumentation/assets/img/example_openai_processor_config.png\ndocumentation/assets/img/example_search_model_admin_settings.png\ndocumentation/assets/img/favicon-128x128.ico\ndocumentation/assets/img/file_filters_conversation.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.30495634192764
+  },
+  {
+    "name": "khoj/scripts 模块",
+    "description": "[模块级] khoj 项目的 scripts 模块 (script)。来源: https://github.com/khoj-ai/khoj",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "chat",
+      "chatgpt",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/bump_version.sh\n- scripts/dev_setup.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/bump_version.sh\nscripts/dev_setup.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.30495634192764
+  },
+  {
+    "name": "khoj/src 模块",
+    "description": "[模块级] khoj 项目的 src 模块 (source)。来源: https://github.com/khoj-ai/khoj",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "chat",
+      "chatgpt",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 45\n\n包含文件:\n- src/interface\n- src/interface/android\n- src/interface/android/app\n- src/interface/android/app/build.gradle\n- src/interface/android/app/src\n- src/interface/android/app/src/main\n- src/interface/android/app/src/main/AndroidManifest.xml\n- src/interface/android/app/src/main/java\n- src/interface/android/app/src/main/java/dev\n- src/interface/android/app/src/main/java/dev/khoj",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/interface\nsrc/interface/android\nsrc/interface/android/app\nsrc/interface/android/app/build.gradle\nsrc/interface/android/app/src\nsrc/interface/android/app/src/main\nsrc/interface/android/app/src/main/AndroidManifest.xml\nsrc/interface/android/app/src/main/java\nsrc/interface/android/app/src/main/java/dev\nsrc/interface/android/app/src/main/java/dev/khoj\nsrc/interface/android/app/src/main/java/dev/khoj/app\nsrc/interface/android/app/src/main/java/dev/khoj/app/Application.java\nsrc/interface/android/app/src/main/java/dev/khoj/app/DelegationService.java\nsrc/interface/android/app/src/main/java/dev/khoj/app/LauncherActivity.java\nsrc/interface/android/app/src/main/res",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.30495634192764
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Raphtory (Pometry)",
+    "description": "[项目级] Scalable graph analytics database powered by a multithreaded, vectorized temporal engine, written in Rust。来源: https://github.com/Pometry/Raphtory",
+    "domain": "testing",
+    "tags": [
+      "analytics",
+      "database",
+      "embedded-database",
+      "graph",
+      "graph-database",
+      "rust",
+      "stars-568",
+      "github-pometry",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Scalable graph analytics database powered by a multithreaded, vectorized temporal engine, written in Rust\n\n来源: https://github.com/Pometry/Raphtory\n语言: Rust\nStars: 568",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install raphtory",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "API_REFERENCE_LINKS.yaml\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nDockerfile\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\ncodecov.yml\ndev\ndev/bootstrap.sh\ndev/hooks\ndev/readme.md\ndocs\ndocs/README.md\ndocs/assets\ndocs/data\ndocs/index.md\ndocs/overrides",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Below is a small example of how Raphtory looks and feels when using our Python APIs. If you like what you see, you can dive into a full tutorial [here](https://www.raphtory.com/user-guide/ingestion/1_creating-a-graph/).\n```python\nfrom raphtory import Graph\nfrom raphtory import algorithms as algo\nimport pandas as pd",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.377174167855509
+  },
+  {
+    "name": "Raphtory/dev 模块",
+    "description": "[模块级] Raphtory 项目的 dev 模块 (source)。来源: https://github.com/Pometry/Raphtory",
+    "domain": "testing",
+    "tags": [
+      "analytics",
+      "database",
+      "embedded-database",
+      "graph",
+      "graph-database",
+      "module-level",
+      "source",
+      "dev"
+    ],
+    "genes": [
+      {
+        "title": "dev 模块说明",
+        "content": "模块路径: dev/\n类型: source\n文件数: 4\n\n包含文件:\n- dev/bootstrap.sh\n- dev/hooks\n- dev/hooks/pre-commit\n- dev/readme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev 文件结构",
+        "content": "dev/bootstrap.sh\ndev/hooks\ndev/hooks/pre-commit\ndev/readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6017393342844075
+  },
+  {
+    "name": "Raphtory/docs 模块",
+    "description": "[模块级] Raphtory 项目的 docs 模块 (docs)。来源: https://github.com/Pometry/Raphtory",
+    "domain": "documentation",
+    "tags": [
+      "analytics",
+      "database",
+      "embedded-database",
+      "graph",
+      "graph-database",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 124\n\n包含文件:\n- docs/README.md\n- docs/assets\n- docs/assets/Geist-VariableFont_wght.ttf\n- docs/assets/GeistMono-VariableFont_wght.ttf\n- docs/assets/images\n- docs/assets/images/gandalf-importance.png\n- docs/assets/images/networkX-example.png\n- docs/assets/images/raphtory_com_detection_ui.png\n- docs/assets/images/raphtory_ui_graph_list.png\n- docs/assets/images/raphtory_ui_graph_view.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/assets\ndocs/assets/Geist-VariableFont_wght.ttf\ndocs/assets/GeistMono-VariableFont_wght.ttf\ndocs/assets/images\ndocs/assets/images/gandalf-importance.png\ndocs/assets/images/networkX-example.png\ndocs/assets/images/raphtory_com_detection_ui.png\ndocs/assets/images/raphtory_ui_graph_list.png\ndocs/assets/images/raphtory_ui_graph_view.png\ndocs/assets/images/raphtory_ui_graph_view_layout.png\ndocs/assets/images/raphtory_ui_graph_view_settings.png\ndocs/assets/images/raphtory_ui_graph_view_v0_16_4.png\ndocs/assets/images/raphtory_ui_graphiql_playground.png\ndocs/assets/images/raphtory_ui_graphiql_playground_query.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6017393342844075
+  },
+  {
+    "name": "Raphtory/examples 模块",
+    "description": "[模块级] Raphtory 项目的 examples 模块 (example)。来源: https://github.com/Pometry/Raphtory",
+    "domain": "testing",
+    "tags": [
+      "analytics",
+      "database",
+      "embedded-database",
+      "graph",
+      "graph-database",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 22\n\n包含文件:\n- examples/custom-gql-apis\n- examples/custom-gql-apis/Cargo.toml\n- examples/custom-gql-apis/build.rs\n- examples/custom-gql-apis/pyproject.toml\n- examples/custom-gql-apis/python\n- examples/custom-gql-apis/python/raphtory\n- examples/custom-gql-apis/python/raphtory/__init__.py\n- examples/custom-gql-apis/src\n- examples/custom-gql-apis/src/lib.rs\n- examples/custom-gql-apis/src/mutation.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/custom-gql-apis\nexamples/custom-gql-apis/Cargo.toml\nexamples/custom-gql-apis/build.rs\nexamples/custom-gql-apis/pyproject.toml\nexamples/custom-gql-apis/python\nexamples/custom-gql-apis/python/raphtory\nexamples/custom-gql-apis/python/raphtory/__init__.py\nexamples/custom-gql-apis/src\nexamples/custom-gql-apis/src/lib.rs\nexamples/custom-gql-apis/src/mutation.rs\nexamples/custom-gql-apis/src/python.rs\nexamples/custom-gql-apis/src/query.rs\nexamples/custom-gql-apis/test\nexamples/custom-gql-apis/test/test_hello_world.py\nexamples/docker",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6017393342844075
+  }
+]

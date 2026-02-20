@@ -1,0 +1,127 @@
+[
+  {
+    "name": "langchain-hub (hwchase17)",
+    "description": "[项目级] langchain-hub。来源: https://github.com/hwchase17/langchain-hub",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3401",
+      "github-hwchase17",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Taking inspiration from Hugging Face Hub, LangChainHub is collection of all artifacts useful for working with LangChain primitives such as prompts, chains and agents. \nThe goal of this repository is to be a central resource for sharing and discovering high quality prompts, chains and agents that combine together to form complex LLM applications.\n\nWe are starting off the hub with a collection of prompts, and we look forward to the LangChain community adding to this collection. We hope to expand to chains and agents shortly.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Makefile\nREADME.md\nagents\nagents/README.md\nagents/readme_template.md\nagents/self-ask-with-search\nagents/zero-shot-react-conversation\nagents/zero-shot-react-description\nagents/zero-shot-react-sql\nchains\nchains/README.md\nchains/api\nchains/hello-world\nchains/llm-bash\nchains/llm-checker\nchains/llm-math\nchains/llm-requests\nchains/pal\nchains/qa_with_sources\nchains/question_answering",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.765803315966361
+  },
+  {
+    "name": "langchain-hub/agents 模块",
+    "description": "[模块级] langchain-hub 项目的 agents 模块 (source)。来源: https://github.com/hwchase17/langchain-hub",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3401",
+      "github-hwchase17",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "At a high level, agents are organized by use case inside the `agents` directory.\nTo load an agent in LangChain, you should use the following code snippet:\n\n```python\nfrom langchain.agents import initialize_agent\n\nllm = ...\ntools = ...\n\nagent = initialize_agent(tools, llm, agent=\"lc://agents/self-ask-with-search/agent.json\")\n```\n\nIn addition to agent files themselves, each sub-directory also contains a README explaining what that agent contains.\n\nFor more detailed information on how agents are or",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/README.md\nagents/readme_template.md\nagents/self-ask-with-search\nagents/self-ask-with-search/README.md\nagents/self-ask-with-search/agent.json\nagents/zero-shot-react-conversation\nagents/zero-shot-react-conversation/README.md\nagents/zero-shot-react-conversation/agent.json\nagents/zero-shot-react-description\nagents/zero-shot-react-description/README.md\nagents/zero-shot-react-description/agent.json\nagents/zero-shot-react-sql\nagents/zero-shot-react-sql/README.md\nagents/zero-shot-react-sql/agent.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "from langchain.agents import initialize_agent\n\nllm = ...\ntools = ...\n\nagent = initialize_agent(tools, llm, agent=\"lc://agents/self-ask-with-search/agent.json\")",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.912642652773089
+  },
+  {
+    "name": "langchain-hub/chains 模块",
+    "description": "[模块级] langchain-hub 项目的 chains 模块 (source)。来源: https://github.com/hwchase17/langchain-hub",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3401",
+      "github-hwchase17",
+      "module-level",
+      "source",
+      "chains"
+    ],
+    "genes": [
+      {
+        "title": "chains 模块说明",
+        "content": "At a high level, chains are organized by use case inside the `chains` directory.\nTo load a chain in LangChain, you should use the following code snippet:\n\n```python\nfrom langchain.chains import load_chain\n\nchain = load_chain('lc://chains/path/to/file.json')\n```\n\nIn addition to chain files themselves, each sub-directory also contains a README explaining what that chain contains.\n\nFor more detailed information on how chains are organized in the Hub, and how best to upload one, please see the docum",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chains 文件结构",
+        "content": "chains/README.md\nchains/api\nchains/api/meteo\nchains/api/meteo/chain.json\nchains/hello-world\nchains/hello-world/README.md\nchains/hello-world/chain.json\nchains/llm-bash\nchains/llm-bash/README.md\nchains/llm-bash/chain.json\nchains/llm-checker\nchains/llm-checker/README.md\nchains/llm-checker/chain.json\nchains/llm-math\nchains/llm-math/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "chains 代码示例",
+        "content": "from langchain.chains import load_chain\n\nchain = load_chain('lc://chains/path/to/file.json')",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.912642652773089
+  },
+  {
+    "name": "langchain-hub/prompts 模块",
+    "description": "[模块级] langchain-hub 项目的 prompts 模块 (source)。来源: https://github.com/hwchase17/langchain-hub",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3401",
+      "github-hwchase17",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "At a high level, prompts are organized by use case inside the `prompts` directory.\nTo load a prompt in LangChain, you should use the following code snippet:\n\n```python\nfrom langchain.prompts import load_prompt\n\nprompt = load_prompt('lc://prompts/path/to/file.json')\n```\n\nIn addition to prompt files themselves, each sub-directory also contains a README explaining how best to use that prompt in the appropriate LangChain chain.\n\nFor more detailed information on how prompts are organized in the Hub, ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/README.md\nprompts/api\nprompts/api/api_response\nprompts/api/api_response/README.md\nprompts/api/api_response/prompt.json\nprompts/api/api_url\nprompts/api/api_url/README.md\nprompts/api/api_url/prompt.json\nprompts/conversation\nprompts/conversation/README.md\nprompts/conversation/prompt.json\nprompts/hello-world\nprompts/hello-world/README.md\nprompts/hello-world/prompt.yaml\nprompts/llm_bash",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "prompts 代码示例",
+        "content": "from langchain.prompts import load_prompt\n\nprompt = load_prompt('lc://prompts/path/to/file.json')",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.912642652773089
+  }
+]

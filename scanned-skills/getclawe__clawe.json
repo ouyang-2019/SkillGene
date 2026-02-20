@@ -1,0 +1,73 @@
+[
+  {
+    "name": "clawe (getclawe)",
+    "description": "[项目级] Multi-agent coordination system: think Trello for OpenClaw agents. 。来源: https://github.com/getclawe/clawe",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-assistant",
+      "claude-code",
+      "clawbot",
+      "openclaw",
+      "typescript",
+      "stars-517",
+      "github-getclawe",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-agent coordination system: think Trello for OpenClaw agents. \n\n来源: https://github.com/getclawe/clawe\n语言: TypeScript\nStars: 517",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLA.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\napps\napps/watcher\napps/web",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Run multiple AI agents with distinct roles and personalities\n- Agents wake on cron schedules to check for work\n- Kanban-style task management with assignments and subtasks\n- Instant delivery of @mentions and task updates\n- Agents collaborate through shared files and Convex backend\n- Monitor squad status, tasks, and chat with agents from a web dashboard",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.356745271546972
+  },
+  {
+    "name": "clawe/apps 模块",
+    "description": "[模块级] clawe 项目的 apps 模块 (source)。来源: https://github.com/getclawe/clawe",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-assistant",
+      "claude-code",
+      "clawbot",
+      "openclaw",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 110\n\n包含文件:\n- apps/watcher\n- apps/watcher/.env.example\n- apps/watcher/.gitignore\n- apps/watcher/Dockerfile\n- apps/watcher/README.md\n- apps/watcher/package.json\n- apps/watcher/src\n- apps/watcher/src/config.spec.ts\n- apps/watcher/src/config.ts\n- apps/watcher/src/index.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/watcher\napps/watcher/.env.example\napps/watcher/.gitignore\napps/watcher/Dockerfile\napps/watcher/README.md\napps/watcher/package.json\napps/watcher/src\napps/watcher/src/config.spec.ts\napps/watcher/src/config.ts\napps/watcher/src/index.ts\napps/watcher/tsconfig.json\napps/watcher/vitest.config.ts\napps/web\napps/web/.gitignore\napps/web/CLAUDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.585396217237577
+  }
+]

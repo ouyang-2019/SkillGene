@@ -5,14 +5,14 @@
     "domain": "devops",
     "tags": [
       "javascript",
-      "stars-5341",
+      "stars-5342",
       "github-chriswiles",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows\n\n来源: https://github.com/ChrisWiles/claude-code-showcase\n语言: JavaScript\nStars: 5341",
+        "content": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows\n\n来源: https://github.com/ChrisWiles/claude-code-showcase\n语言: JavaScript\nStars: 5342",
         "gene_type": "principle"
       },
       {
@@ -33,6 +33,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.863811288984569
+    "rating": 4.863851941842677
   }
 ]

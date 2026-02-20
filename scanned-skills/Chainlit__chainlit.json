@@ -1,0 +1,103 @@
+[
+  {
+    "name": "chainlit (Chainlit)",
+    "description": "[项目级] Build Conversational AI in minutes ⚡️。来源: https://github.com/Chainlit/chainlit",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "langchain",
+      "llm",
+      "openai",
+      "openai-chatgpt",
+      "python",
+      "stars-11597",
+      "github-chainlit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build Conversational AI in minutes ⚡️\n\n来源: https://github.com/Chainlit/chainlit\n语言: Python\nStars: 11597",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install chainlit\nchainlit hello",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nPRIVACY_POLICY.md\nREADME.md\nRELENG.md\nbackend\nbackend/README.md\nbackend/build.py\nbackend/chainlit\nbackend/pyproject.toml\nbackend/tests\nbackend/uv.lock\ncypress.config.ts\ncypress\ncypress/e2e",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can find various examples of Chainlit apps [here](https://github.com/Chainlit/cookbook) that leverage tools and services such as OpenAI, Anthropiс, LangChain, LlamaIndex, ChromaDB, Pinecone and more.\n\nTell us what you would like to see added in Chainlit using the Github issues or on [Discord](https://discord.gg/k73SQ3FyUh).",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "chainlit/backend 模块",
+    "description": "[模块级] chainlit 项目的 backend 模块 (source)。来源: https://github.com/Chainlit/chainlit",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "langchain",
+      "llm",
+      "openai",
+      "openai-chatgpt",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 152\n\n包含文件:\n- backend/README.md\n- backend/build.py\n- backend/chainlit\n- backend/chainlit/__init__.py\n- backend/chainlit/__main__.py\n- backend/chainlit/_utils.py\n- backend/chainlit/action.py\n- backend/chainlit/auth\n- backend/chainlit/auth/__init__.py\n- backend/chainlit/auth/cookie.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/README.md\nbackend/build.py\nbackend/chainlit\nbackend/chainlit/__init__.py\nbackend/chainlit/__main__.py\nbackend/chainlit/_utils.py\nbackend/chainlit/action.py\nbackend/chainlit/auth\nbackend/chainlit/auth/__init__.py\nbackend/chainlit/auth/cookie.py\nbackend/chainlit/auth/jwt.py\nbackend/chainlit/cache.py\nbackend/chainlit/callbacks.py\nbackend/chainlit/chat_context.py\nbackend/chainlit/chat_settings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125738262864869
+  },
+  {
+    "name": "chainlit/cypress 模块",
+    "description": "[模块级] chainlit 项目的 cypress 模块 (source)。来源: https://github.com/Chainlit/chainlit",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "langchain",
+      "llm",
+      "openai",
+      "openai-chatgpt",
+      "module-level",
+      "source",
+      "cypress"
+    ],
+    "genes": [
+      {
+        "title": "cypress 模块说明",
+        "content": "模块路径: cypress/\n类型: source\n文件数: 10\n\n包含文件:\n- cypress/e2e\n- cypress/e2e/action\n- cypress/e2e/action/main.py\n- cypress/e2e/action/spec.cy.ts\n- cypress/e2e/ask_custom_element\n- cypress/e2e/ask_custom_element/main.py\n- cypress/e2e/ask_custom_element/public\n- cypress/e2e/ask_custom_element/public/elements\n- cypress/e2e/ask_custom_element/public/elements/JiraTicket.jsx\n- cypress/e2e/ask_custom_element/spec.cy.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cypress 文件结构",
+        "content": "cypress/e2e\ncypress/e2e/action\ncypress/e2e/action/main.py\ncypress/e2e/action/spec.cy.ts\ncypress/e2e/ask_custom_element\ncypress/e2e/ask_custom_element/main.py\ncypress/e2e/ask_custom_element/public\ncypress/e2e/ask_custom_element/public/elements\ncypress/e2e/ask_custom_element/public/elements/JiraTicket.jsx\ncypress/e2e/ask_custom_element/spec.cy.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125738262864869
+  }
+]

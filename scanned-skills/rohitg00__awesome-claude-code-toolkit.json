@@ -5,14 +5,14 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-506",
+      "stars-507",
       "github-rohitg00",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+15,000 via SkillKit), 42 commands, 120 plugins, 19 hooks, 15 rules, 7 templates, 6 MCP configs, and more.\n\n来源: https://github.com/rohitg00/awesome-claude-code-toolkit\n语言: JavaScript\nStars: 506",
+        "content": "The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+15,000 via SkillKit), 42 commands, 120 plugins, 19 hooks, 15 rules, 7 templates, 6 MCP configs, and more.\n\n来源: https://github.com/rohitg00/awesome-claude-code-toolkit\n语言: JavaScript\nStars: 507",
         "gene_type": "principle"
       },
       {
@@ -33,7 +33,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.3520752584199
+    "rating": 4.352503979666668
   },
   {
     "name": "awesome-claude-code-toolkit/agents 模块",
@@ -41,7 +41,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-506",
+      "stars-507",
       "github-rohitg00",
       "module-level",
       "source",
@@ -61,7 +61,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.58166020673592
+    "rating": 3.5820031837333346
   },
   {
     "name": "awesome-claude-code-toolkit/commands 模块",
@@ -69,7 +69,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-506",
+      "stars-507",
       "github-rohitg00",
       "module-level",
       "source",
@@ -89,6 +89,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.58166020673592
+    "rating": 3.5820031837333346
   }
 ]

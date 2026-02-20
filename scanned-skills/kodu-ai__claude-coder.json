@@ -1,0 +1,98 @@
+[
+  {
+    "name": "claude-coder (kodu-ai)",
+    "description": "[项目级] Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents 。来源: https://github.com/kodu-ai/claude-coder",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "claude",
+      "coding-agents",
+      "llm",
+      "openai",
+      "typescript",
+      "stars-5287",
+      "github-kodu-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents \n\n来源: https://github.com/kodu-ai/claude-coder\n语言: TypeScript\nStars: 5287",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Install VS Code**: If you haven't already, [download it here](https://code.visualstudio.com/).\n2. **Add Claude Coder**:\n   - Open VS Code\n   - Click the puzzle piece icon on the left sidebar\n   - Search for [\"Claude Coder\"](https://www.kodu.ai/l/ext)\n   - Click \"Install\"\n3. **Start Coding**:\n   - Open a project or create a new file\n   - Describe what you want to build or get help with\n   - Let Claude Coder assist you in bringing your ideas to life!",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/icon.png\nassets/kodu-logo.svg\nassets/kodu.png\nbundler\nbundler/mac.sh\nextension-state-summary.md\nextension\nextension/.eslintrc.json\nextension/.gitignore\nextension/.nvmrc\nextension/.prettierignore\nextension/.prettierrc.json\nextension/.vscode-test.mjs\nextension/.vscodeignore\nextension/@libsql\nextension/CHANGELOG.md\nextension/LICENSE",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.861604655202556
+  },
+  {
+    "name": "claude-coder/assets 模块",
+    "description": "[模块级] claude-coder 项目的 assets 模块 (source)。来源: https://github.com/kodu-ai/claude-coder",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "claude",
+      "coding-agents",
+      "llm",
+      "openai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/icon.png\n- assets/kodu-logo.svg\n- assets/kodu.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/icon.png\nassets/kodu-logo.svg\nassets/kodu.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9892837241620445
+  },
+  {
+    "name": "claude-coder/extension 模块",
+    "description": "[模块级] claude-coder 项目的 extension 模块 (source)。来源: https://github.com/kodu-ai/claude-coder",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "claude",
+      "coding-agents",
+      "llm",
+      "openai",
+      "module-level",
+      "source",
+      "extension"
+    ],
+    "genes": [
+      {
+        "title": "extension 模块说明",
+        "content": "模块路径: extension/\n类型: source\n文件数: 184\n\n包含文件:\n- extension/.eslintrc.json\n- extension/.gitignore\n- extension/.nvmrc\n- extension/.prettierignore\n- extension/.prettierrc.json\n- extension/.vscode-test.mjs\n- extension/.vscodeignore\n- extension/@libsql\n- extension/@libsql/libsql-darwin-arm64-0.4.7.tgz\n- extension/@libsql/libsql-darwin-x64-0.4.7.tgz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extension 文件结构",
+        "content": "extension/.eslintrc.json\nextension/.gitignore\nextension/.nvmrc\nextension/.prettierignore\nextension/.prettierrc.json\nextension/.vscode-test.mjs\nextension/.vscodeignore\nextension/@libsql\nextension/@libsql/libsql-darwin-arm64-0.4.7.tgz\nextension/@libsql/libsql-darwin-x64-0.4.7.tgz\nextension/@libsql/libsql-linux-arm64-gnu-0.4.7.tgz\nextension/@libsql/libsql-linux-arm64-musl-0.4.7.tgz\nextension/@libsql/libsql-linux-x64-gnu-0.4.7.tgz\nextension/@libsql/libsql-linux-x64-musl-0.4.7.tgz\nextension/@libsql/libsql-win32-x64-msvc-0.4.7.tgz",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9892837241620445
+  }
+]

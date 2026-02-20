@@ -1,0 +1,86 @@
+[
+  {
+    "name": "forge (mgratzer)",
+    "description": "[项目级] A collection of agent skills for structured, GitHub-centric development.。来源: https://github.com/mgratzer/forge",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-44",
+      "github-mgratzer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agent skills for structured, GitHub-centric development.\n\n来源: https://github.com/mgratzer/forge\n语言: unknown\nStars: 44",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx skills add mgratzer/forge",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nREADME.md\ndocs\ndocs/architecture.md\ndocs/coding-guidelines.md\ndocs/development.md\ndocs/pr-workflow.md\ndocs/testing.md\nskills\nskills/forge-address-pr-feedback\nskills/forge-create-issue\nskills/forge-implement-issue\nskills/forge-reflect-pr\nskills/forge-setup-project\nskills/forge-update-changelog",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.821726338243094
+  },
+  {
+    "name": "forge/docs 模块",
+    "description": "[模块级] forge 项目的 docs 模块 (docs)。来源: https://github.com/mgratzer/forge",
+    "domain": "documentation",
+    "tags": [
+      "stars-44",
+      "github-mgratzer",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/architecture.md\n- docs/coding-guidelines.md\n- docs/development.md\n- docs/pr-workflow.md\n- docs/testing.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/architecture.md\ndocs/coding-guidelines.md\ndocs/development.md\ndocs/pr-workflow.md\ndocs/testing.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.157381070594475
+  },
+  {
+    "name": "forge/skills 模块",
+    "description": "[模块级] forge 项目的 skills 模块 (source)。来源: https://github.com/mgratzer/forge",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-44",
+      "github-mgratzer",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Forge skills follow the [Agent Skills](https://agentskills.io) open standard and work with any compatible agent.\n\n| Skill | Command | Purpose |\n|-------|---------|---------|\n| Setup Project | `/forge-setup-project` | Create CLAUDE.md, docs/, README, and other meta-structure |\n| Create Issue | `/forge-create-issue` | Collaboratively plan and create GitHub issues |\n| Implement Issue | `/forge-implement-issue <number>` | Implement a feature or fix from a GitHub issue |\n| Reflect on PR | `/forge-ref",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/forge-address-pr-feedback\nskills/forge-address-pr-feedback/SKILL.md\nskills/forge-create-issue\nskills/forge-create-issue/SKILL.md\nskills/forge-implement-issue\nskills/forge-implement-issue/SKILL.md\nskills/forge-reflect-pr\nskills/forge-reflect-pr/SKILL.md\nskills/forge-setup-project\nskills/forge-setup-project/SKILL.md\nskills/forge-update-changelog\nskills/forge-update-changelog/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.157381070594475
+  }
+]

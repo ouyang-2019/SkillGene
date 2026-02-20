@@ -1,0 +1,128 @@
+[
+  {
+    "name": "legal-document-assistant (lixx21)",
+    "description": "[项目级] A Retrieval-Augmented Generation (RAG) application for querying legal documents. It uses PostgreSQL, Elasticsearch, and LLM to provide summaries and suggestions based on user queries. Features data ingestion with Airflow, real-time monitoring with Grafana, and a Streamlit interface.。来源: https://github.com/lixx21/legal-document-assistant",
+    "domain": "devops",
+    "tags": [
+      "google-bert",
+      "grafana",
+      "llm",
+      "postgresql",
+      "python",
+      "jupyter notebook",
+      "stars-96",
+      "github-lixx21",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Retrieval-Augmented Generation (RAG) application for querying legal documents. It uses PostgreSQL, Elasticsearch, and LLM to provide summaries and suggestions based on user queries. Features data ingestion with Airflow, real-time monitoring with Grafana, and a Streamlit interface.\n\n来源: https://github.com/lixx21/legal-document-assistant\n语言: Jupyter Notebook\nStars: 96",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "docker-compose.yaml\nimages\nimages/airflow.png\nimages/dashboard.png\nimages/llm rag flow.png\nimages/llm.png\nllm-app\nllm-app/Dockerfile\nllm-app/dashboard.json\nllm-app/requirements.txt\nllm-app/streamlit\norchestration\norchestration/config\norchestration/dags\norchestration/dockerfile\norchestration/requirements.txt\nreadme.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. Get hugging face access token: Obtain a Hugging Face User Access Token by following the instructions on this page: [Hugging Face Security Tokens](https://huggingface.co/docs/hub/en/security-tokens).\r\n2. Fill in Hugging Face Key: Add your Hugging Face Access Token to the `docker-compose.yml` file under the environment variables section for the service requiring the key.\r\n```\r\n  app:\r\n    build: llm-app/.\r\n    container_name: llm_app\r\n    environment:\r\n      - HUGGINGFACE_KEY=<YOUR_API_KEY>\r\n    volumes:\r\n      - ./llm-app/:/app\r\n    networks:\r\n      - network\r\n    depends_on:\r\n      - elasti",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9911356165197844
+  },
+  {
+    "name": "legal-document-assistant/images 模块",
+    "description": "[模块级] legal-document-assistant 项目的 images 模块 (source)。来源: https://github.com/lixx21/legal-document-assistant",
+    "domain": "devops",
+    "tags": [
+      "google-bert",
+      "grafana",
+      "llm",
+      "postgresql",
+      "python",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/airflow.png\n- images/dashboard.png\n- images/llm rag flow.png\n- images/llm.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/airflow.png\nimages/dashboard.png\nimages/llm rag flow.png\nimages/llm.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2929084932158275
+  },
+  {
+    "name": "legal-document-assistant/llm-app 模块",
+    "description": "[模块级] legal-document-assistant 项目的 llm-app 模块 (source)。来源: https://github.com/lixx21/legal-document-assistant",
+    "domain": "devops",
+    "tags": [
+      "google-bert",
+      "grafana",
+      "llm",
+      "postgresql",
+      "python",
+      "module-level",
+      "source",
+      "llm-app"
+    ],
+    "genes": [
+      {
+        "title": "llm-app 模块说明",
+        "content": "模块路径: llm-app/\n类型: source\n文件数: 21\n\n包含文件:\n- llm-app/Dockerfile\n- llm-app/dashboard.json\n- llm-app/requirements.txt\n- llm-app/streamlit\n- llm-app/streamlit/app.py\n- llm-app/streamlit/src\n- llm-app/streamlit/src/__pycache__\n- llm-app/streamlit/src/__pycache__/connection.cpython-38.pyc\n- llm-app/streamlit/src/__pycache__/elasticSearch.cpython-38.pyc\n- llm-app/streamlit/src/__pycache__/evaluation.cpython-38.pyc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm-app 文件结构",
+        "content": "llm-app/Dockerfile\nllm-app/dashboard.json\nllm-app/requirements.txt\nllm-app/streamlit\nllm-app/streamlit/app.py\nllm-app/streamlit/src\nllm-app/streamlit/src/__pycache__\nllm-app/streamlit/src/__pycache__/connection.cpython-38.pyc\nllm-app/streamlit/src/__pycache__/elasticSearch.cpython-38.pyc\nllm-app/streamlit/src/__pycache__/evaluation.cpython-38.pyc\nllm-app/streamlit/src/__pycache__/getData.cpython-38.pyc\nllm-app/streamlit/src/__pycache__/llm.cpython-38.pyc\nllm-app/streamlit/src/connection.py\nllm-app/streamlit/src/elasticSearch.py\nllm-app/streamlit/src/evaluation.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2929084932158275
+  },
+  {
+    "name": "legal-document-assistant/orchestration 模块",
+    "description": "[模块级] legal-document-assistant 项目的 orchestration 模块 (source)。来源: https://github.com/lixx21/legal-document-assistant",
+    "domain": "devops",
+    "tags": [
+      "google-bert",
+      "grafana",
+      "llm",
+      "postgresql",
+      "python",
+      "module-level",
+      "source",
+      "orchestration"
+    ],
+    "genes": [
+      {
+        "title": "orchestration 模块说明",
+        "content": "模块路径: orchestration/\n类型: source\n文件数: 21\n\n包含文件:\n- orchestration/config\n- orchestration/config/airflow.cfg\n- orchestration/dags\n- orchestration/dags/__pycache__\n- orchestration/dags/__pycache__/pipeline.cpython-312.pyc\n- orchestration/dags/dataset\n- orchestration/dags/dataset/legal_text_classification.csv\n- orchestration/dags/dataset/qa.jsonl\n- orchestration/dags/pipeline.py\n- orchestration/dags/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "orchestration 文件结构",
+        "content": "orchestration/config\norchestration/config/airflow.cfg\norchestration/dags\norchestration/dags/__pycache__\norchestration/dags/__pycache__/pipeline.cpython-312.pyc\norchestration/dags/dataset\norchestration/dags/dataset/legal_text_classification.csv\norchestration/dags/dataset/qa.jsonl\norchestration/dags/pipeline.py\norchestration/dags/src\norchestration/dags/src/__pycache__\norchestration/dags/src/__pycache__/connection.cpython-312.pyc\norchestration/dags/src/__pycache__/connection.cpython-38.pyc\norchestration/dags/src/__pycache__/getData.cpython-312.pyc\norchestration/dags/src/__pycache__/insertData.cpython-312.pyc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2929084932158275
+  }
+]

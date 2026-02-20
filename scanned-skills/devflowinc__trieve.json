@@ -1,0 +1,103 @@
+[
+  {
+    "name": "trieve (devflowinc)",
+    "description": "[项目级] All-in-one platform for search, recommendations, RAG, and analytics offered via API。来源: https://github.com/devflowinc/trieve",
+    "domain": "web-frontend",
+    "tags": [
+      "actix",
+      "actix-web",
+      "ai",
+      "artificial-intelligence",
+      "diesel",
+      "rust",
+      "stars-2601",
+      "github-devflowinc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "All-in-one platform for search, recommendations, RAG, and analytics offered via API\n\n来源: https://github.com/devflowinc/trieve\n语言: Rust\nStars: 2601",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx -y @smithery/cli install trieve-mcp-server --client claude",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCHANGE_LOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCaddyfile\nLICENSE.txt\nMakefile\nREADME.md\nSECURITY.md\nbatch-etl\nbatch-etl/Cargo.lock\nbatch-etl/Cargo.toml\nbatch-etl/Dockerfile.check-completion-worker\nbatch-etl/Dockerfile.create-job-worker\nbatch-etl/Dockerfile.server\nbatch-etl/ch_migrations\nbatch-etl/docker-compose.yml\nbatch-etl/src\ncharts\ncharts/trieve",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🔒 Self-Hosting in your VPC or on-prem**: We have full self-hosting guides for AWS, GCP, Kubernetes generally, and docker compose available on our [documentation page here](https://docs.trieve.ai/self-hosting/docker-compose).\n- **🧠 Semantic Dense Vector Search**: Integrates with OpenAI or Jina embedding models and [Qdrant](https://qdrant.tech) to provide semantic vector search.\n- **🔍 Typo Tolerant Full-Text/Neural Search**: Every uploaded chunk is vector'ized with [naver/efficient-splade-VI-BT-large-query](https://huggingface.co/naver/efficient-splade-VI-BT-large-query) for typo tolerant",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.707570176097937
+  },
+  {
+    "name": "trieve/batch-etl 模块",
+    "description": "[模块级] trieve 项目的 batch-etl 模块 (source)。来源: https://github.com/devflowinc/trieve",
+    "domain": "web-frontend",
+    "tags": [
+      "actix",
+      "actix-web",
+      "ai",
+      "artificial-intelligence",
+      "diesel",
+      "module-level",
+      "source",
+      "batch-etl"
+    ],
+    "genes": [
+      {
+        "title": "batch-etl 模块说明",
+        "content": "模块路径: batch-etl/\n类型: source\n文件数: 32\n\n包含文件:\n- batch-etl/Cargo.lock\n- batch-etl/Cargo.toml\n- batch-etl/Dockerfile.check-completion-worker\n- batch-etl/Dockerfile.create-job-worker\n- batch-etl/Dockerfile.server\n- batch-etl/ch_migrations\n- batch-etl/ch_migrations/1734595053_initial_tables\n- batch-etl/ch_migrations/1734595053_initial_tables/down.sql\n- batch-etl/ch_migrations/1734595053_initial_tables/up.sql\n- batch-etl/ch_migrations/chm.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "batch-etl 文件结构",
+        "content": "batch-etl/Cargo.lock\nbatch-etl/Cargo.toml\nbatch-etl/Dockerfile.check-completion-worker\nbatch-etl/Dockerfile.create-job-worker\nbatch-etl/Dockerfile.server\nbatch-etl/ch_migrations\nbatch-etl/ch_migrations/1734595053_initial_tables\nbatch-etl/ch_migrations/1734595053_initial_tables/down.sql\nbatch-etl/ch_migrations/1734595053_initial_tables/up.sql\nbatch-etl/ch_migrations/chm.toml\nbatch-etl/docker-compose.yml\nbatch-etl/src\nbatch-etl/src/cron-jobs\nbatch-etl/src/cron-jobs/check-completion-worker.rs\nbatch-etl/src/errors.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8660561408783494
+  },
+  {
+    "name": "trieve/charts 模块",
+    "description": "[模块级] trieve 项目的 charts 模块 (source)。来源: https://github.com/devflowinc/trieve",
+    "domain": "web-frontend",
+    "tags": [
+      "actix",
+      "actix-web",
+      "ai",
+      "artificial-intelligence",
+      "diesel",
+      "module-level",
+      "source",
+      "charts"
+    ],
+    "genes": [
+      {
+        "title": "charts 模块说明",
+        "content": "模块路径: charts/\n类型: source\n文件数: 116\n\n包含文件:\n- charts/trieve\n- charts/trieve/.helmignore\n- charts/trieve/Chart.lock\n- charts/trieve/Chart.yaml\n- charts/trieve/charts\n- charts/trieve/charts/clickhouse\n- charts/trieve/charts/clickhouse/.helmignore\n- charts/trieve/charts/clickhouse/Chart.lock\n- charts/trieve/charts/clickhouse/Chart.yaml\n- charts/trieve/charts/clickhouse/charts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "charts 文件结构",
+        "content": "charts/trieve\ncharts/trieve/.helmignore\ncharts/trieve/Chart.lock\ncharts/trieve/Chart.yaml\ncharts/trieve/charts\ncharts/trieve/charts/clickhouse\ncharts/trieve/charts/clickhouse/.helmignore\ncharts/trieve/charts/clickhouse/Chart.lock\ncharts/trieve/charts/clickhouse/Chart.yaml\ncharts/trieve/charts/clickhouse/charts\ncharts/trieve/charts/clickhouse/charts/altinity-clickhouse-operator-0.24.4.tgz\ncharts/trieve/charts/clickhouse/templates\ncharts/trieve/charts/clickhouse/templates/clickhouse-installation.yaml\ncharts/trieve/charts/clickhouse/values.yaml\ncharts/trieve/charts/keycloak",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8660561408783494
+  }
+]

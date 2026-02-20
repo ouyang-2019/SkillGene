@@ -1,0 +1,183 @@
+[
+  {
+    "name": "ChatDev (OpenBMB)",
+    "description": "[项目级] ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatDev has evolved from a specialized software development multi-agent system into a comprehensive multi-agent orchestration platform.\n\n- <a href=\"https://github.com/OpenBMB/ChatDev/tree/main\">**ChatDev 2.0 (DevAll)**</a> is a **Zero-Code Multi-Agent Platform** for \"Developing Everything\". It empowers users to rapidly build and execute customized multi-agent systems through simple configuration. No coding is required—users can define agents, workflows, and tasks to orchestrate complex scenarios such as data visualization, 3D generation, and deep research.\n- <a href=\"https://github.com/OpenBMB/ChatDev/tree/chatdev1.0\">**ChatDev 1.0 (Legacy)**</a> operates as a **Virtual Software Company**. It utilizes various intelligent agents (e.g., CEO, CTO, Programmer) participating in specialized func",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME-zh.md\nREADME.md\nassets\nassets/CommandDash.png\nassets/Human_intro.png\nassets/agentverse.png\nassets/appcopilot.png\nassets/cases\nassets/docker.png\nassets/ebook.png\nassets/ecl.png\nassets/github.png\nassets/ier.png\nassets/increment.png\nassets/intro.png\nassets/launch.gif\nassets/macnet.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "We provide robust, out-of-the-box templates for common scenarios. All runnable workflow configs are located in `yaml_instance/`.\n*   **Demos**: Files named `demo_*.yaml` showcase specific features or modules.\n*   **Implementations**: Files named directly (e.g., `ChatDev_v1.yaml`) are full in-house or recreated workflows. As follows:",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ChatDev/assets 模块",
+    "description": "[模块级] ChatDev 项目的 assets 模块 (source)。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 32\n\n包含文件:\n- assets/CommandDash.png\n- assets/Human_intro.png\n- assets/agentverse.png\n- assets/appcopilot.png\n- assets/cases\n- assets/cases/3d_generation\n- assets/cases/3d_generation/3d.gif\n- assets/cases/data_analysis\n- assets/cases/data_analysis/data_analysis.gif\n- assets/cases/deep_research",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/CommandDash.png\nassets/Human_intro.png\nassets/agentverse.png\nassets/appcopilot.png\nassets/cases\nassets/cases/3d_generation\nassets/cases/3d_generation/3d.gif\nassets/cases/data_analysis\nassets/cases/data_analysis/data_analysis.gif\nassets/cases/deep_research\nassets/cases/deep_research/deep_research.gif\nassets/cases/game_development\nassets/cases/game_development/game.gif\nassets/cases/video_generation\nassets/cases/video_generation/video.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296791069905668
+  },
+  {
+    "name": "ChatDev/check 模块",
+    "description": "[模块级] ChatDev 项目的 check 模块 (source)。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "check"
+    ],
+    "genes": [
+      {
+        "title": "check 模块说明",
+        "content": "模块路径: check/\n类型: source\n文件数: 4\n\n包含文件:\n- check/__init__.py\n- check/check.py\n- check/check_workflow.py\n- check/check_yaml.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "check 文件结构",
+        "content": "check/__init__.py\ncheck/check.py\ncheck/check_workflow.py\ncheck/check_yaml.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296791069905668
+  },
+  {
+    "name": "ChatDev/docs 模块",
+    "description": "[模块级] ChatDev 项目的 docs 模块 (docs)。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 53\n\n包含文件:\n- docs/user_guide\n- docs/user_guide/en\n- docs/user_guide/en/attachments.md\n- docs/user_guide/en/config_schema_contract.md\n- docs/user_guide/en/dynamic_execution.md\n- docs/user_guide/en/execution_logic.md\n- docs/user_guide/en/field_specs.md\n- docs/user_guide/en/index.md\n- docs/user_guide/en/modules\n- docs/user_guide/en/modules/memory.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/user_guide\ndocs/user_guide/en\ndocs/user_guide/en/attachments.md\ndocs/user_guide/en/config_schema_contract.md\ndocs/user_guide/en/dynamic_execution.md\ndocs/user_guide/en/execution_logic.md\ndocs/user_guide/en/field_specs.md\ndocs/user_guide/en/index.md\ndocs/user_guide/en/modules\ndocs/user_guide/en/modules/memory.md\ndocs/user_guide/en/modules/thinking.md\ndocs/user_guide/en/modules/tooling\ndocs/user_guide/en/modules/tooling/README.md\ndocs/user_guide/en/modules/tooling/function.md\ndocs/user_guide/en/modules/tooling/function_catalog.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296791069905668
+  },
+  {
+    "name": "ChatDev/entity 模块",
+    "description": "[模块级] ChatDev 项目的 entity 模块 (source)。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "entity"
+    ],
+    "genes": [
+      {
+        "title": "entity 模块说明",
+        "content": "模块路径: entity/\n类型: source\n文件数: 32\n\n包含文件:\n- entity/__init__.py\n- entity/config_loader.py\n- entity/configs\n- entity/configs/__init__.py\n- entity/configs/base.py\n- entity/configs/dynamic_base.py\n- entity/configs/edge\n- entity/configs/edge/__init__.py\n- entity/configs/edge/dynamic_edge_config.py\n- entity/configs/edge/edge.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "entity 文件结构",
+        "content": "entity/__init__.py\nentity/config_loader.py\nentity/configs\nentity/configs/__init__.py\nentity/configs/base.py\nentity/configs/dynamic_base.py\nentity/configs/edge\nentity/configs/edge/__init__.py\nentity/configs/edge/dynamic_edge_config.py\nentity/configs/edge/edge.py\nentity/configs/edge/edge_condition.py\nentity/configs/edge/edge_processor.py\nentity/configs/graph.py\nentity/configs/node\nentity/configs/node/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296791069905668
+  },
+  {
+    "name": "ChatDev/frontend 模块",
+    "description": "[模块级] ChatDev 项目的 frontend 模块 (source)。来源: https://github.com/OpenBMB/ChatDev",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-31044",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 60\n\n包含文件:\n- frontend/.dockerignore\n- frontend/.gitignore\n- frontend/Dockerfile\n- frontend/eslint.config.js\n- frontend/index.html\n- frontend/package-lock.json\n- frontend/package.json\n- frontend/public\n- frontend/public/design_0.4.0.yaml\n- frontend/public/media",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.gitignore\nfrontend/Dockerfile\nfrontend/eslint.config.js\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public\nfrontend/public/design_0.4.0.yaml\nfrontend/public/media\nfrontend/public/media/agent_node_config.png\nfrontend/public/media/agent_toolig_config.png\nfrontend/public/media/agent_tooling_function_config.png\nfrontend/public/media/agent_tooling_mcp_local.png\nfrontend/public/media/agent_tooling_mcp_remote.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296791069905668
+  }
+]

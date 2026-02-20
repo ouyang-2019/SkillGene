@@ -1,0 +1,93 @@
+[
+  {
+    "name": "AITreasureBox (superiorlu)",
+    "description": "[项目级] 🤖 Collect practical AI repos, tools, websites, papers and tutorials on AI. 实用的AI百宝箱 💎 。来源: https://github.com/superiorlu/AITreasureBox",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "ai-gents",
+      "ai-prompts",
+      "ai-tools",
+      "ruby",
+      "stars-749",
+      "github-superiorlu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 Collect practical AI repos, tools, websites, papers and tutorials on AI. 实用的AI百宝箱 💎 \n\n来源: https://github.com/superiorlu/AITreasureBox\n语言: Ruby\nStars: 749",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.zh-CN.md\nimages\nimages/green-down-arrow.svg\nimages/green-up-arrow.svg\nimages/red-down-arrow.svg\nimages/red-up-arrow.svg\nimages/sponsors.jpg\nlib\nlib/add_repos.rb\nlib/trending.rb\nlib/update_readme.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.437240908849733
+  },
+  {
+    "name": "AITreasureBox/images 模块",
+    "description": "[模块级] AITreasureBox 项目的 images 模块 (source)。来源: https://github.com/superiorlu/AITreasureBox",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "ai-gents",
+      "ai-prompts",
+      "ai-tools",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/green-down-arrow.svg\n- images/green-up-arrow.svg\n- images/red-down-arrow.svg\n- images/red-up-arrow.svg\n- images/sponsors.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/green-down-arrow.svg\nimages/green-up-arrow.svg\nimages/red-down-arrow.svg\nimages/red-up-arrow.svg\nimages/sponsors.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6497927270797867
+  },
+  {
+    "name": "AITreasureBox/lib 模块",
+    "description": "[模块级] AITreasureBox 项目的 lib 模块 (source)。来源: https://github.com/superiorlu/AITreasureBox",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "ai-gents",
+      "ai-prompts",
+      "ai-tools",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 3\n\n包含文件:\n- lib/add_repos.rb\n- lib/trending.rb\n- lib/update_readme.rb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/add_repos.rb\nlib/trending.rb\nlib/update_readme.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6497927270797867
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "gnes (gnes-ai)",
+    "description": "[项目级] GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. 。来源: https://github.com/gnes-ai/gnes",
+    "domain": "devops",
+    "tags": [
+      "cloud-native",
+      "computer-vision",
+      "database",
+      "deep-learning",
+      "distributed-systems",
+      "python",
+      "stars-1267",
+      "github-gnes-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. \n\n来源: https://github.com/gnes-ai/gnes\n语言: Python\nStars: 1267",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install gnes",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nDockerfiles\nDockerfiles/alpine.Dockerfile\nDockerfiles/buster.Dockerfile\nDockerfiles/dind.Dockerfile\nDockerfiles/full.Dockerfile\nDockerfiles/ubuntu18.Dockerfile\nLICENSE\nMAINTAINERS\nMANIFEST.in\nREADME.md\nbenchmark-eval.sh\ndocker-build.sh\ndocker-push.sh\ndocs\ndocs/Makefile\ndocs/_static\ndocs/chapter\ndocs/conf.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.551388307441721
+  },
+  {
+    "name": "gnes/Dockerfiles 模块",
+    "description": "[模块级] gnes 项目的 Dockerfiles 模块 (source)。来源: https://github.com/gnes-ai/gnes",
+    "domain": "devops",
+    "tags": [
+      "cloud-native",
+      "computer-vision",
+      "database",
+      "deep-learning",
+      "distributed-systems",
+      "module-level",
+      "source",
+      "dockerfiles"
+    ],
+    "genes": [
+      {
+        "title": "Dockerfiles 模块说明",
+        "content": "模块路径: Dockerfiles/\n类型: source\n文件数: 5\n\n包含文件:\n- Dockerfiles/alpine.Dockerfile\n- Dockerfiles/buster.Dockerfile\n- Dockerfiles/dind.Dockerfile\n- Dockerfiles/full.Dockerfile\n- Dockerfiles/ubuntu18.Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Dockerfiles 文件结构",
+        "content": "Dockerfiles/alpine.Dockerfile\nDockerfiles/buster.Dockerfile\nDockerfiles/dind.Dockerfile\nDockerfiles/full.Dockerfile\nDockerfiles/ubuntu18.Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741110645953377
+  },
+  {
+    "name": "gnes/docs 模块",
+    "description": "[模块级] gnes 项目的 docs 模块 (docs)。来源: https://github.com/gnes-ai/gnes",
+    "domain": "documentation",
+    "tags": [
+      "cloud-native",
+      "computer-vision",
+      "database",
+      "deep-learning",
+      "distributed-systems",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 21\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/main.css\n- docs/chapter\n- docs/chapter/CHANGELOG.md\n- docs/chapter/CONTRIBUTING.md\n- docs/chapter/archive.md\n- docs/chapter/enviromentvars.md\n- docs/chapter/gnes-doc-overview-1.svg\n- docs/chapter/gnes-doc-overview-2.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/main.css\ndocs/chapter\ndocs/chapter/CHANGELOG.md\ndocs/chapter/CONTRIBUTING.md\ndocs/chapter/archive.md\ndocs/chapter/enviromentvars.md\ndocs/chapter/gnes-doc-overview-1.svg\ndocs/chapter/gnes-doc-overview-2.svg\ndocs/chapter/gnes-doc-overview-3.svg\ndocs/chapter/microservice.rst\ndocs/chapter/overview.md\ndocs/chapter/protobuf-dev.md\ndocs/chapter/swarm-tutorial.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741110645953377
+  },
+  {
+    "name": "gnes/gnes 模块",
+    "description": "[模块级] gnes 项目的 gnes 模块 (source)。来源: https://github.com/gnes-ai/gnes",
+    "domain": "devops",
+    "tags": [
+      "cloud-native",
+      "computer-vision",
+      "database",
+      "deep-learning",
+      "distributed-systems",
+      "module-level",
+      "source",
+      "gnes"
+    ],
+    "genes": [
+      {
+        "title": "gnes 模块说明",
+        "content": "<center>\n<table>\n  <tr>\n  <td width=\"33%\"><a href=\"https://github.com/gnes-ai/hub\">\n      <img src=\".github/gnes-hub-github.svg\" alt=\"component overview\">\n      </a></td>\n  <td>\n  <p><a href=\"https://github.com/gnes-ai/hub\">GNES Hub</a> ship AI/ML models as Docker containers and use Docker containers as plugins. It offers a clean and sustainable way to port external algorithms (with the dependencies) into the GNES framework. </p>\n  <p>GNES Hub is hosted on the Docker Hub.</p>\n</td>\n  </tr>\n</tab",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gnes 文件结构",
+        "content": "gnes/__init__.py\ngnes/base\ngnes/base/__init__.py\ngnes/cli\ngnes/cli/__init__.py\ngnes/cli/api.py\ngnes/cli/parser.py\ngnes/client\ngnes/client/__init__.py\ngnes/client/base.py\ngnes/client/cli.py\ngnes/client/http.py\ngnes/client/stream.py\ngnes/component.py\ngnes/composer",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741110645953377
+  }
+]

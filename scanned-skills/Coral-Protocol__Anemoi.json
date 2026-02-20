@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Anemoi (Coral-Protocol)",
+    "description": "[项目级] Anemoi: A Semi-Centralized Multi-agent Systems Based on Agent-to-Agent Communication MCP server from Coral Protocol。来源: https://github.com/Coral-Protocol/Anemoi",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-372",
+      "github-coral-protocol",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Anemoi: A Semi-Centralized Multi-agent Systems Based on Agent-to-Agent Communication MCP server from Coral Protocol\n\n来源: https://github.com/Coral-Protocol/Anemoi\n语言: Python\nStars: 372",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Anemoi\nAnemoi/agents\nAnemoi/data\nAnemoi/images\nAnemoi/requirements.txt\nAnemoi/utils",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Semi-Centralized Architecture**\n  Reduces dependency on a single planner agent, supporting adaptive plan updates.\n\n* **Direct Agent-to-Agent Collaboration**\n  Agents can monitor progress, assess results, identify bottlenecks, and propose refinements in real time.\n\n* **Efficient Context Management**\n  Minimizes redundant prompt concatenation and information loss, improving scalability and cost-efficiency.\n\n* **Benchmark Performance**\n  Achieved **52.73% accuracy** on the validation set of the GAIA benchmark, setting the **state-of-the-art** among small-LLM-based systems.\n\n  > Surpasses OWL ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.285271469940948
+  },
+  {
+    "name": "Anemoi/Anemoi 模块",
+    "description": "[模块级] Anemoi 项目的 Anemoi 模块 (source)。来源: https://github.com/Coral-Protocol/Anemoi",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-372",
+      "github-coral-protocol",
+      "module-level",
+      "source",
+      "anemoi"
+    ],
+    "genes": [
+      {
+        "title": "Anemoi 模块说明",
+        "content": "**Anemoi** is a semi-centralized multi-agent system (MAS) built on a **Agent-to-Agent (A2A) communication MCP server**.\nUnlike traditional **context-engineering + centralized** paradigms, Anemoi introduces **structured, direct inter-agent communication** — enabling agents to collaborate much like a real-world team.\n\n🌀 *Like winds connecting distant lands, Anemoi enables agents to communicate directly in a semi-centralized network, achieving scalable coordination and seamless information flow.*\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Anemoi 文件结构",
+        "content": "Anemoi/agents\nAnemoi/agents/__init__.py\nAnemoi/agents/answer_finding_agent.py\nAnemoi/agents/critique_agent.py\nAnemoi/agents/document_processing_agent.py\nAnemoi/agents/page_script.js\nAnemoi/agents/planning_agent.py\nAnemoi/agents/reasoning_coding_agent.py\nAnemoi/agents/utils\nAnemoi/agents/utils/SendAnswerTool.py\nAnemoi/agents/utils/__init__.py\nAnemoi/agents/utils/__pycache__\nAnemoi/agents/utils/__pycache__/SendAnswerTool.cpython-312.pyc\nAnemoi/agents/utils/__pycache__/__init__.cpython-312.pyc\nAnemoi/agents/utils/__pycache__/agent_factory.cpython-312.pyc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5282171759527587
+  }
+]

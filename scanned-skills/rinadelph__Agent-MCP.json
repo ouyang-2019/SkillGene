@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Agent-MCP (rinadelph)",
+    "description": "[项目级] Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.。来源: https://github.com/rinadelph/Agent-MCP",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1164",
+      "github-rinadelph",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.\n\n来源: https://github.com/rinadelph/Agent-MCP\n语言: TypeScript\nStars: 1164",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENT_MCP_COMPARISON_ANALYSIS.md\nCONTRIBUTING.md\nLICENSE\nLOCAL_EMBEDDINGS_GUIDE.md\nREADME.md\nTASK_CREATION_REQUIREMENTS_ANALYSIS.md\nTOOL_BY_TOOL_LOGIC_COMPARISON.md\nagent-mcp-node\nagent-mcp-node/.gitignore\nagent-mcp-node/BACKGROUND_AGENTS_SIMPLIFIED.md\nagent-mcp-node/CHANGELOG.md\nagent-mcp-node/CONFIGURATION.md\nagent-mcp-node/README-EMBEDDING-PROVIDERS.md\nagent-mcp-node/README.md\nagent-mcp-node/TOKEN_RESOURCES.md\nagent-mcp-node/TUI_IMPROVEMENTS.md\nagent-mcp-node/agent-mcp-tui.js\nagent-mcp-node/demo-api-key-tui.js\nagent-mcp-node/demo-interactive-tui.js\nagent-mcp-node/package-lock.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.532976490156935
+  },
+  {
+    "name": "Agent-MCP/agent-mcp-node 模块",
+    "description": "[模块级] Agent-MCP 项目的 agent-mcp-node 模块 (source)。来源: https://github.com/rinadelph/Agent-MCP",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1164",
+      "github-rinadelph",
+      "module-level",
+      "source",
+      "agent-mcp-node"
+    ],
+    "genes": [
+      {
+        "title": "agent-mcp-node 模块说明",
+        "content": "模块路径: agent-mcp-node/\n类型: source\n文件数: 104\n\n包含文件:\n- agent-mcp-node/.gitignore\n- agent-mcp-node/BACKGROUND_AGENTS_SIMPLIFIED.md\n- agent-mcp-node/CHANGELOG.md\n- agent-mcp-node/CONFIGURATION.md\n- agent-mcp-node/README-EMBEDDING-PROVIDERS.md\n- agent-mcp-node/README.md\n- agent-mcp-node/TOKEN_RESOURCES.md\n- agent-mcp-node/TUI_IMPROVEMENTS.md\n- agent-mcp-node/agent-mcp-tui.js\n- agent-mcp-node/demo-api-key-tui.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-mcp-node 文件结构",
+        "content": "agent-mcp-node/.gitignore\nagent-mcp-node/BACKGROUND_AGENTS_SIMPLIFIED.md\nagent-mcp-node/CHANGELOG.md\nagent-mcp-node/CONFIGURATION.md\nagent-mcp-node/README-EMBEDDING-PROVIDERS.md\nagent-mcp-node/README.md\nagent-mcp-node/TOKEN_RESOURCES.md\nagent-mcp-node/TUI_IMPROVEMENTS.md\nagent-mcp-node/agent-mcp-tui.js\nagent-mcp-node/demo-api-key-tui.js\nagent-mcp-node/demo-interactive-tui.js\nagent-mcp-node/package-lock.json\nagent-mcp-node/package.json\nagent-mcp-node/src\nagent-mcp-node/src/core",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7263811921255483
+  },
+  {
+    "name": "Agent-MCP/agent_mcp 模块",
+    "description": "[模块级] Agent-MCP 项目的 agent_mcp 模块 (source)。来源: https://github.com/rinadelph/Agent-MCP",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1164",
+      "github-rinadelph",
+      "module-level",
+      "source",
+      "agent_mcp"
+    ],
+    "genes": [
+      {
+        "title": "agent_mcp 模块说明",
+        "content": "模块路径: agent_mcp/\n类型: source\n文件数: 84\n\n包含文件:\n- agent_mcp/__init__.py\n- agent_mcp/__main__.py\n- agent_mcp/app\n- agent_mcp/app/__init__.py\n- agent_mcp/app/main_app.py\n- agent_mcp/app/routes.py\n- agent_mcp/app/server_lifecycle.py\n- agent_mcp/cli.py\n- agent_mcp/core\n- agent_mcp/core/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent_mcp 文件结构",
+        "content": "agent_mcp/__init__.py\nagent_mcp/__main__.py\nagent_mcp/app\nagent_mcp/app/__init__.py\nagent_mcp/app/main_app.py\nagent_mcp/app/routes.py\nagent_mcp/app/server_lifecycle.py\nagent_mcp/cli.py\nagent_mcp/core\nagent_mcp/core/__init__.py\nagent_mcp/core/auth.py\nagent_mcp/core/config.py\nagent_mcp/core/globals.py\nagent_mcp/dashboard\nagent_mcp/dashboard/.gitignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7263811921255483
+  }
+]

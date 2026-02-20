@@ -1,0 +1,27 @@
+[
+  {
+    "name": "awesome-claude-code (subinium)",
+    "description": "[项目级] Curated list of tools, skills, plugins, and MCP servers for Claude Code。来源: https://github.com/subinium/awesome-claude-code",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-54",
+      "github-subinium",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated list of tools, skills, plugins, and MCP servers for Claude Code\n\n来源: https://github.com/subinium/awesome-claude-code\n语言: unknown\nStars: 54",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8661968799114845
+  }
+]

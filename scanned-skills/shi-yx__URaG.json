@@ -1,0 +1,84 @@
+[
+  {
+    "name": "URaG (shi-yx)",
+    "description": "[项目级] Official implementation of URaG: Unified Retrieval and Generation in Multimodal LLMs for Efficient Long Document Understanding (AAAI 2026 Oral).。来源: https://github.com/shi-yx/URaG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-35",
+      "github-shi-yx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "While recent advances in multimodal large language models (MLLMs) have shown impressive performance on single-page documents, their effectiveness degrades significantly on long documents due to two fundamental challenges:\n\n1. Information interference caused by a large amount of irrelevant content.\n2. The quadratic computational cost of Transformer-based architectures, which makes long document processing computationally prohibitive.\n\nTo address these issues, we first conduct an empirical study and observe that MLLMs exhibit a human-like coarse-to-fine reasoning pattern: **early Transformer layers attend broadly across the document, while deeper layers focus attention on pages containing relevant evidence**. \n\n<div align=\"center\">\n  <img alt=\"layer study\" src=\"figures/layer_study.png\" width",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ncode\ncode/configuration_qwen2_5_vl.py\ncode/dataset\ncode/infer_URaG_demo.py\ncode/modeling_urag.py\ncode/scripts\ncode/src\ncode/tools\ncode/train_data\nfigures\nfigures/layer_study.png\nfigures/table_1.png\nfigures/table_2.png\nfigures/table_3.png\nfigures/urag_framework.jpg\nfigures/urag_framework.png\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.772034022175138
+  },
+  {
+    "name": "URaG/code 模块",
+    "description": "[模块级] URaG 项目的 code 模块 (source)。来源: https://github.com/shi-yx/URaG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-35",
+      "github-shi-yx",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 142\n\n包含文件:\n- code/configuration_qwen2_5_vl.py\n- code/dataset\n- code/dataset/SlideVQA\n- code/dataset/SlideVQA/annotations\n- code/dataset/SlideVQA/annotations/qa\n- code/dataset/SlideVQA/annotations/qa/dev.jsonl\n- code/dataset/SlideVQA/annotations/qa/test.jsonl\n- code/dataset/SlideVQA/annotations/qa/train.jsonl\n- code/dataset/SlideVQA/images\n- code/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/configuration_qwen2_5_vl.py\ncode/dataset\ncode/dataset/SlideVQA\ncode/dataset/SlideVQA/annotations\ncode/dataset/SlideVQA/annotations/qa\ncode/dataset/SlideVQA/annotations/qa/dev.jsonl\ncode/dataset/SlideVQA/annotations/qa/test.jsonl\ncode/dataset/SlideVQA/annotations/qa/train.jsonl\ncode/dataset/SlideVQA/images\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95/slide_10_1024.jpg\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95/slide_11_1024.jpg\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95/slide_12_1024.jpg\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95/slide_13_1024.jpg\ncode/dataset/SlideVQA/images/03jongregg-150624022045-lva1-app6892_95/slide_14_1024.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.11762721774011
+  },
+  {
+    "name": "URaG/figures 模块",
+    "description": "[模块级] URaG 项目的 figures 模块 (source)。来源: https://github.com/shi-yx/URaG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-35",
+      "github-shi-yx",
+      "module-level",
+      "source",
+      "figures"
+    ],
+    "genes": [
+      {
+        "title": "figures 模块说明",
+        "content": "模块路径: figures/\n类型: source\n文件数: 6\n\n包含文件:\n- figures/layer_study.png\n- figures/table_1.png\n- figures/table_2.png\n- figures/table_3.png\n- figures/urag_framework.jpg\n- figures/urag_framework.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figures 文件结构",
+        "content": "figures/layer_study.png\nfigures/table_1.png\nfigures/table_2.png\nfigures/table_3.png\nfigures/urag_framework.jpg\nfigures/urag_framework.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.11762721774011
+  }
+]

@@ -10,14 +10,14 @@
       "clawdbot",
       "cli",
       "go",
-      "stars-562",
+      "stars-563",
       "github-runkids",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Claude Code, OpenClaw, OpenCode & more\n\n来源: https://github.com/runkids/skillshare\n语言: Go\nStars: 562",
+        "content": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Claude Code, OpenClaw, OpenCode & more\n\n来源: https://github.com/runkids/skillshare\n语言: Go\nStars: 563",
         "gene_type": "principle"
       },
       {
@@ -33,7 +33,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.3748681577845305
+    "rating": 4.375254197425673
   },
   {
     "name": "skillshare/cmd 模块",
@@ -63,7 +63,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5998945262276245
+    "rating": 3.6002033579405386
   },
   {
     "name": "skillshare/docker 模块",
@@ -93,7 +93,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5998945262276245
+    "rating": 3.6002033579405386
   },
   {
     "name": "skillshare/internal 模块",
@@ -123,6 +123,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5998945262276245
+    "rating": 3.6002033579405386
   }
 ]

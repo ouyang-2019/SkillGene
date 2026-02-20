@@ -1,0 +1,117 @@
+[
+  {
+    "name": "document-ai (coderabbit214)",
+    "description": "[项目级] go基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)。来源: https://github.com/coderabbit214/document-ai",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-176",
+      "github-coderabbit214",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "go基于向量数据库与GPT3.5的通用本地知识库方案(A universal local knowledge base solution based on vector database and GPT3.5)\n\n来源: https://github.com/coderabbit214/document-ai\n语言: Go\nStars: 176",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\ncmd\ncmd/server\nconfig\nconfig/config.yaml.example\ndocker-compose.yaml\nexample\nexample/doctor\ngo.mod\ngo.sum\npkg\npkg/api\npkg/common\npkg/openai\npkg/qdrant\ntemplates\ntemplates/index.html",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.122756333907075
+  },
+  {
+    "name": "document-ai/cmd 模块",
+    "description": "[模块级] document-ai 项目的 cmd 模块 (source)。来源: https://github.com/coderabbit214/document-ai",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-176",
+      "github-coderabbit214",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 2\n\n包含文件:\n- cmd/server\n- cmd/server/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/server\ncmd/server/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "document-ai/example 模块",
+    "description": "[模块级] document-ai 项目的 example 模块 (example)。来源: https://github.com/coderabbit214/document-ai",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-176",
+      "github-coderabbit214",
+      "module-level",
+      "example",
+      "example"
+    ],
+    "genes": [
+      {
+        "title": "example 模块说明",
+        "content": "模块路径: example/\n类型: example\n文件数: 2\n\n包含文件:\n- example/doctor\n- example/doctor/data.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example 文件结构",
+        "content": "example/doctor\nexample/doctor/data.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "document-ai/pkg 模块",
+    "description": "[模块级] document-ai 项目的 pkg 模块 (source)。来源: https://github.com/coderabbit214/document-ai",
+    "domain": "devops",
+    "tags": [
+      "go",
+      "stars-176",
+      "github-coderabbit214",
+      "module-level",
+      "source",
+      "pkg"
+    ],
+    "genes": [
+      {
+        "title": "pkg 模块说明",
+        "content": "模块路径: pkg/\n类型: source\n文件数: 21\n\n包含文件:\n- pkg/api\n- pkg/api/chat.go\n- pkg/api/data.go\n- pkg/api/healthy.go\n- pkg/api/routers.go\n- pkg/common\n- pkg/common/config.go\n- pkg/common/log.go\n- pkg/common/result.go\n- pkg/common/uuid.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pkg 文件结构",
+        "content": "pkg/api\npkg/api/chat.go\npkg/api/data.go\npkg/api/healthy.go\npkg/api/routers.go\npkg/common\npkg/common/config.go\npkg/common/log.go\npkg/common/result.go\npkg/common/uuid.go\npkg/openai\npkg/openai/chat.go\npkg/openai/chat_test.go\npkg/openai/common.go\npkg/openai/embeddings.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "headless-vector-search (supabase)",
+    "description": "[项目级] Supabase Toolkit to perform vector similarity search on your knowledge base embeddings.。来源: https://github.com/supabase/headless-vector-search",
+    "domain": "ai-llm",
+    "tags": [
+      "embeddings",
+      "openai",
+      "postgres",
+      "postgresql",
+      "supabase",
+      "typescript",
+      "stars-189",
+      "github-supabase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Supabase Toolkit to perform vector similarity search on your knowledge base embeddings.\n\n来源: https://github.com/supabase/headless-vector-search\n语言: TypeScript\nStars: 189",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nsupabase\nsupabase/.gitignore\nsupabase/config.toml\nsupabase/functions\nsupabase/migrations\nsupabase/seed.sql",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "curl -i --location --request GET 'https://your-project-ref.functions.supabase.co/vector-search?query=What%27s+Supabase%3F'",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.138230902086622
+  },
+  {
+    "name": "headless-vector-search/supabase 模块",
+    "description": "[模块级] headless-vector-search 项目的 supabase 模块 (source)。来源: https://github.com/supabase/headless-vector-search",
+    "domain": "ai-llm",
+    "tags": [
+      "embeddings",
+      "openai",
+      "postgres",
+      "postgresql",
+      "supabase",
+      "module-level",
+      "source",
+      "supabase"
+    ],
+    "genes": [
+      {
+        "title": "supabase 模块说明",
+        "content": "模块路径: supabase/\n类型: source\n文件数: 12\n\n包含文件:\n- supabase/.gitignore\n- supabase/config.toml\n- supabase/functions\n- supabase/functions/_utils\n- supabase/functions/_utils/env.ts\n- supabase/functions/_utils/errors.ts\n- supabase/functions/import_map.json\n- supabase/functions/vector-search\n- supabase/functions/vector-search/index.ts\n- supabase/migrations",
+        "gene_type": "principle"
+      },
+      {
+        "title": "supabase 文件结构",
+        "content": "supabase/.gitignore\nsupabase/config.toml\nsupabase/functions\nsupabase/functions/_utils\nsupabase/functions/_utils/env.ts\nsupabase/functions/_utils/errors.ts\nsupabase/functions/import_map.json\nsupabase/functions/vector-search\nsupabase/functions/vector-search/index.ts\nsupabase/migrations\nsupabase/migrations/20230525043454_init.sql\nsupabase/seed.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4105847216692977
+  }
+]

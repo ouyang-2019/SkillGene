@@ -1,0 +1,103 @@
+[
+  {
+    "name": "osaurus (dinoki-ai)",
+    "description": "[项目级] AI edge infrastructure for macOS. Run local or cloud models, share tools across apps via MCP, and power AI workflows with a native, always-on runtime.。来源: https://github.com/dinoki-ai/osaurus",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "apple-foundation-models",
+      "apple-intelligence",
+      "apple-neural-engine",
+      "llm",
+      "swift",
+      "stars-3534",
+      "github-dinoki-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI edge infrastructure for macOS. Run local or cloud models, share tools across apps via MCP, and power AI workflows with a native, always-on runtime.\n\n来源: https://github.com/dinoki-ai/osaurus\n语言: Swift\nStars: 3534",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "brew install --cask osaurus",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "App\nApp/osaurus.xcodeproj\nApp/osaurus\nApp/osaurusUITests\nLICENSE\nMakefile\nPackages\nPackages/OsaurusCLI\nPackages/OsaurusCore",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.774133272585373
+  },
+  {
+    "name": "osaurus/App 模块",
+    "description": "[模块级] osaurus 项目的 App 模块 (source)。来源: https://github.com/dinoki-ai/osaurus",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "apple-foundation-models",
+      "apple-intelligence",
+      "apple-neural-engine",
+      "llm",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "App 模块说明",
+        "content": "模块路径: App/\n类型: source\n文件数: 38\n\n包含文件:\n- App/osaurus.xcodeproj\n- App/osaurus.xcodeproj/project.pbxproj\n- App/osaurus.xcodeproj/project.xcworkspace\n- App/osaurus.xcodeproj/project.xcworkspace/contents.xcworkspacedata\n- App/osaurus.xcodeproj/project.xcworkspace/xcshareddata\n- App/osaurus.xcodeproj/project.xcworkspace/xcshareddata/swiftpm\n- App/osaurus.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved\n- App/osaurus.xcodeproj/xcshareddata\n- App/osaurus.xcodeproj/xcshareddata/xcschemes\n- App/osaurus.xcodeproj/xcshareddata/xcschemes/osaurus.xcscheme",
+        "gene_type": "principle"
+      },
+      {
+        "title": "App 文件结构",
+        "content": "App/osaurus.xcodeproj\nApp/osaurus.xcodeproj/project.pbxproj\nApp/osaurus.xcodeproj/project.xcworkspace\nApp/osaurus.xcodeproj/project.xcworkspace/contents.xcworkspacedata\nApp/osaurus.xcodeproj/project.xcworkspace/xcshareddata\nApp/osaurus.xcodeproj/project.xcworkspace/xcshareddata/swiftpm\nApp/osaurus.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved\nApp/osaurus.xcodeproj/xcshareddata\nApp/osaurus.xcodeproj/xcshareddata/xcschemes\nApp/osaurus.xcodeproj/xcshareddata/xcschemes/osaurus.xcscheme\nApp/osaurus\nApp/osaurus/Acknowledgements.json\nApp/osaurus/Assets.xcassets\nApp/osaurus/Assets.xcassets/AccentColor.colorset\nApp/osaurus/Assets.xcassets/AccentColor.colorset/Contents.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9193066180682985
+  },
+  {
+    "name": "osaurus/Packages 模块",
+    "description": "[模块级] osaurus 项目的 Packages 模块 (source)。来源: https://github.com/dinoki-ai/osaurus",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "apple-foundation-models",
+      "apple-intelligence",
+      "apple-neural-engine",
+      "llm",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "Packages 模块说明",
+        "content": "模块路径: Packages/\n类型: source\n文件数: 142\n\n包含文件:\n- Packages/OsaurusCLI\n- Packages/OsaurusCLI/Package.swift\n- Packages/OsaurusCLI/Sources\n- Packages/OsaurusCLI/Sources/OsaurusCLI\n- Packages/OsaurusCLI/Sources/OsaurusCLI/OsaurusCLI.swift\n- Packages/OsaurusCLI/Sources/OsaurusCLICore\n- Packages/OsaurusCLI/Sources/OsaurusCLICore/Commands\n- Packages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Command.swift\n- Packages/OsaurusCLI/Sources/OsaurusCLICore/Commands/List.swift\n- Packages/OsaurusCLI/Sources/OsaurusCLICore/Commands/MCPCommand.swift",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Packages 文件结构",
+        "content": "Packages/OsaurusCLI\nPackages/OsaurusCLI/Package.swift\nPackages/OsaurusCLI/Sources\nPackages/OsaurusCLI/Sources/OsaurusCLI\nPackages/OsaurusCLI/Sources/OsaurusCLI/OsaurusCLI.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Command.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/List.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/MCPCommand.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Manifest\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Manifest/ManifestCommand.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Manifest/ManifestExtract.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Run.swift\nPackages/OsaurusCLI/Sources/OsaurusCLICore/Commands/Serve.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9193066180682985
+  }
+]

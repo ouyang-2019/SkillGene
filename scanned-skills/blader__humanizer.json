@@ -4,7 +4,7 @@
     "description": "[项目级] Claude Code skill that removes signs of AI-generated writing from text。来源: https://github.com/blader/humanizer",
     "domain": "ai-llm",
     "tags": [
-      "stars-5232",
+      "stars-5271",
       "github-blader",
       "project-level"
     ],
@@ -32,6 +32,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.859333867658106
+    "rating": 4.860946508107479
   }
 ]

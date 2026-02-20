@@ -1,0 +1,97 @@
+[
+  {
+    "name": "claude-code-templates (davila7)",
+    "description": "[项目级] CLI tool for configuring and monitoring Claude Code。来源: https://github.com/davila7/claude-code-templates",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-code",
+      "python",
+      "stars-20970",
+      "github-davila7",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "CLI tool for configuring and monitoring Claude Code\n\n来源: https://github.com/davila7/claude-code-templates\n语言: Python\nStars: 20970",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**[Browse All Templates](https://aitmpl.com)** - Interactive web interface to explore and install 100+ agents, commands, settings, hooks, and MCPs.\n\n<img width=\"1049\" height=\"855\" alt=\"Screenshot 2025-08-19 at 08 09 24\" src=\"https://github.com/user-attachments/assets/e3617410-9b1c-4731-87b7-a3858800b737\" />",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNEON_INTEGRATION_PLAN.md\nREADME.md\nSECURITY.md\napi\napi/README.md\napi/__tests__\napi/_parser-claude.js\napi/claude-code-check.js\napi/claude-code-monitor\napi/discord\napi/health-check.js\napi/index.html\napi/jest.config.cjs\napi/package-lock.json\napi/package.json\napi/track-command-usage.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "claude-code-templates/api 模块",
+    "description": "[模块级] claude-code-templates 项目的 api 模块 (source)。来源: https://github.com/davila7/claude-code-templates",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-code",
+      "python",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 22\n\n包含文件:\n- api/README.md\n- api/__tests__\n- api/__tests__/endpoints.test.js\n- api/_parser-claude.js\n- api/claude-code-check.js\n- api/claude-code-monitor\n- api/claude-code-monitor/README.md\n- api/claude-code-monitor/check-version.js\n- api/claude-code-monitor/discord-notifier.js\n- api/claude-code-monitor/parser.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/README.md\napi/__tests__\napi/__tests__/endpoints.test.js\napi/_parser-claude.js\napi/claude-code-check.js\napi/claude-code-monitor\napi/claude-code-monitor/README.md\napi/claude-code-monitor/check-version.js\napi/claude-code-monitor/discord-notifier.js\napi/claude-code-monitor/parser.js\napi/claude-code-monitor/webhook.js\napi/discord\napi/discord/interactions.js\napi/health-check.js\napi/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.228639372186137
+  },
+  {
+    "name": "claude-code-templates/cli-tool 模块",
+    "description": "[模块级] claude-code-templates 项目的 cli-tool 模块 (source)。来源: https://github.com/davila7/claude-code-templates",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-code",
+      "python",
+      "module-level",
+      "source",
+      "cli-tool"
+    ],
+    "genes": [
+      {
+        "title": "cli-tool 模块说明",
+        "content": "模块路径: cli-tool/\n类型: source\n文件数: 128\n\n包含文件:\n- cli-tool/.claude\n- cli-tool/.claude/sandbox\n- cli-tool/.claude/sandbox/cloudflare\n- cli-tool/.claude/sandbox/cloudflare/.dev.vars.example\n- cli-tool/.claude/sandbox/cloudflare/.gitignore\n- cli-tool/.claude/sandbox/cloudflare/IMPLEMENTATION_SUMMARY.md\n- cli-tool/.claude/sandbox/cloudflare/QUICKSTART.md\n- cli-tool/.claude/sandbox/cloudflare/README.md\n- cli-tool/.claude/sandbox/cloudflare/SANDBOX_DEBUGGING.md\n- cli-tool/.claude/sandbox/cloudflare/claude-code-sandbox.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli-tool 文件结构",
+        "content": "cli-tool/.claude\ncli-tool/.claude/sandbox\ncli-tool/.claude/sandbox/cloudflare\ncli-tool/.claude/sandbox/cloudflare/.dev.vars.example\ncli-tool/.claude/sandbox/cloudflare/.gitignore\ncli-tool/.claude/sandbox/cloudflare/IMPLEMENTATION_SUMMARY.md\ncli-tool/.claude/sandbox/cloudflare/QUICKSTART.md\ncli-tool/.claude/sandbox/cloudflare/README.md\ncli-tool/.claude/sandbox/cloudflare/SANDBOX_DEBUGGING.md\ncli-tool/.claude/sandbox/cloudflare/claude-code-sandbox.md\ncli-tool/.claude/sandbox/cloudflare/launcher.ts\ncli-tool/.claude/sandbox/cloudflare/monitor.ts\ncli-tool/.claude/sandbox/cloudflare/package.json\ncli-tool/.claude/sandbox/cloudflare/src\ncli-tool/.claude/sandbox/cloudflare/src/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.228639372186137
+  }
+]

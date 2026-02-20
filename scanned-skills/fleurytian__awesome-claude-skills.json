@@ -1,0 +1,99 @@
+[
+  {
+    "name": "awesome-claude-skills (fleurytian)",
+    "description": "[项目级] Claude Skills developed for brain-workers. Dev by Fleury, an Ex-McKinsey and now AI product manager. 小红书/RedNote@如宝｜AI&Anlalytics. Email me @fleurytian@gmail.com。来源: https://github.com/fleurytian/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-163",
+      "github-fleurytian",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Skills developed for brain-workers. Dev by Fleury, an Ex-McKinsey and now AI product manager. 小红书/RedNote@如宝｜AI&Anlalytics. Email me @fleurytian@gmail.com\n\n来源: https://github.com/fleurytian/awesome-claude-skills\n语言: Python\nStars: 163",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "这些Skills需要在支持Skills功能的Claude环境中使用,官方教学:https://www.anthropic.com/news/skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nUS Government Shutdown Tracker - 安装指南.md\nmckinsey-consultant-11\nmckinsey-consultant-11/LICENSE\nmckinsey-consultant-11/README.md\nmckinsey-consultant-11/SKILL.md\nmckinsey-consultant-11/references\nmckinsey-sample-PPT.pptx\nmimeng-sample.md\nmimeng-writing\nmimeng-writing/SKILL.md\nsample-shutdown_2025_analysis.png\nsample-us-shutdown-tracker.md\nus-gov-shutdown-tracker\nus-gov-shutdown-tracker/SKILL.md\nus-gov-shutdown-tracker/references\nus-gov-shutdown-tracker/scripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**✅ 自动化数据追踪**\n- TGA (财政部一般账户)\n- 银行准备金\n- EFFR (联邦基金利率)  \n- SOFR (担保隔夜融资利率)\n\n**✅ 智能状态判断**\n- 压力缓解: TGA释放,准备金回升\n- 压力加剧: TGA积累,准备金下降\n- 相对稳定: 指标变化不大\n- 复杂信号: 需持续监控\n\n**✅ 历史对比分析**\n- 2013年停摆 (QE时代,无影响)\n- 2018-19年停摆 (QT,SOFR溢价75bps)\n- 2025年停摆 (后QT,SOFR溢价36bps)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.106093802201979
+  },
+  {
+    "name": "awesome-claude-skills/mckinsey-consultant-11 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 mckinsey-consultant-11 模块 (source)。来源: https://github.com/fleurytian/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-163",
+      "github-fleurytian",
+      "module-level",
+      "source",
+      "mckinsey-consultant-11"
+    ],
+    "genes": [
+      {
+        "title": "mckinsey-consultant-11 模块说明",
+        "content": "模块路径: mckinsey-consultant-11/\n类型: source\n文件数: 15\n\n包含文件:\n- mckinsey-consultant-11/LICENSE\n- mckinsey-consultant-11/README.md\n- mckinsey-consultant-11/SKILL.md\n- mckinsey-consultant-11/references\n- mckinsey-consultant-11/references/V2_vs_V3_comparison.md\n- mckinsey-consultant-11/references/delivery-summary.md\n- mckinsey-consultant-11/references/design-specs.md\n- mckinsey-consultant-11/references/examples.md\n- mckinsey-consultant-11/references/excel-data-spec.md\n- mckinsey-consultant-11/references/layouts.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mckinsey-consultant-11 文件结构",
+        "content": "mckinsey-consultant-11/LICENSE\nmckinsey-consultant-11/README.md\nmckinsey-consultant-11/SKILL.md\nmckinsey-consultant-11/references\nmckinsey-consultant-11/references/V2_vs_V3_comparison.md\nmckinsey-consultant-11/references/delivery-summary.md\nmckinsey-consultant-11/references/design-specs.md\nmckinsey-consultant-11/references/examples.md\nmckinsey-consultant-11/references/excel-data-spec.md\nmckinsey-consultant-11/references/layouts.md\nmckinsey-consultant-11/references/methodology.md\nmckinsey-consultant-11/references/page-dependencies.md\nmckinsey-consultant-11/references/quick-guide.md\nmckinsey-consultant-11/references/troubleshooting.md\nmckinsey-consultant-11/references/workflow.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  },
+  {
+    "name": "awesome-claude-skills/us-gov-shutdown-tracker 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 us-gov-shutdown-tracker 模块 (source)。来源: https://github.com/fleurytian/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-163",
+      "github-fleurytian",
+      "module-level",
+      "source",
+      "us-gov-shutdown-tracker"
+    ],
+    "genes": [
+      {
+        "title": "us-gov-shutdown-tracker 模块说明",
+        "content": "模块路径: us-gov-shutdown-tracker/\n类型: source\n文件数: 7\n\n包含文件:\n- us-gov-shutdown-tracker/SKILL.md\n- us-gov-shutdown-tracker/references\n- us-gov-shutdown-tracker/references/data_sources.md\n- us-gov-shutdown-tracker/references/historical_cases.md\n- us-gov-shutdown-tracker/scripts\n- us-gov-shutdown-tracker/scripts/analyze_shutdown.py\n- us-gov-shutdown-tracker/scripts/visualize.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "us-gov-shutdown-tracker 文件结构",
+        "content": "us-gov-shutdown-tracker/SKILL.md\nus-gov-shutdown-tracker/references\nus-gov-shutdown-tracker/references/data_sources.md\nus-gov-shutdown-tracker/references/historical_cases.md\nus-gov-shutdown-tracker/scripts\nus-gov-shutdown-tracker/scripts/analyze_shutdown.py\nus-gov-shutdown-tracker/scripts/visualize.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  }
+]

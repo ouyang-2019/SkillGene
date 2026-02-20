@@ -1,0 +1,102 @@
+[
+  {
+    "name": "bolt (dblalock)",
+    "description": "[项目级] 10x faster matrix and vector operations。来源: https://github.com/dblalock/bolt",
+    "domain": "general",
+    "tags": [
+      "compression",
+      "data-mining",
+      "database",
+      "machine-learning",
+      "c++",
+      "stars-2518",
+      "github-dblalock",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "10x faster matrix and vector operations\n\n来源: https://github.com/dblalock/bolt\n语言: C++\nStars: 2518",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BUILD.md\nLICENSE.md\nREADME.md\nassets\nassets/blalock-maddness-poster.png\nassets/bolt-slides.pdf\nassets/bolt-theory.pdf\nassets/bolt.jpg\nassets/snn-maddness.pdf\nbuild.sh\nclean.sh\ncpp\ncpp/.gitignore\ncpp/BUILD\ncpp/CMakeLists.txt\ncpp/WORKSPACE\ncpp/quantize\ncpp/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nX, queries = some N x D array, some iterable of length D arrays",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.700527862885922
+  },
+  {
+    "name": "bolt/assets 模块",
+    "description": "[模块级] bolt 项目的 assets 模块 (source)。来源: https://github.com/dblalock/bolt",
+    "domain": "general",
+    "tags": [
+      "compression",
+      "data-mining",
+      "database",
+      "machine-learning",
+      "c++",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/blalock-maddness-poster.png\n- assets/bolt-slides.pdf\n- assets/bolt-theory.pdf\n- assets/bolt.jpg\n- assets/snn-maddness.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/blalock-maddness-poster.png\nassets/bolt-slides.pdf\nassets/bolt-theory.pdf\nassets/bolt.jpg\nassets/snn-maddness.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8604222903087377
+  },
+  {
+    "name": "bolt/cpp 模块",
+    "description": "[模块级] bolt 项目的 cpp 模块 (source)。来源: https://github.com/dblalock/bolt",
+    "domain": "general",
+    "tags": [
+      "compression",
+      "data-mining",
+      "database",
+      "machine-learning",
+      "c++",
+      "module-level",
+      "source",
+      "cpp"
+    ],
+    "genes": [
+      {
+        "title": "cpp 模块说明",
+        "content": "模块路径: cpp/\n类型: source\n文件数: 185\n\n包含文件:\n- cpp/.gitignore\n- cpp/BUILD\n- cpp/CMakeLists.txt\n- cpp/WORKSPACE\n- cpp/quantize\n- cpp/quantize/catch.hpp\n- cpp/quantize/profile_bolt.cpp\n- cpp/quantize/profile_multicodebook.cpp\n- cpp/quantize/profile_pq.cpp\n- cpp/quantize/test_bolt.cpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cpp 文件结构",
+        "content": "cpp/.gitignore\ncpp/BUILD\ncpp/CMakeLists.txt\ncpp/WORKSPACE\ncpp/quantize\ncpp/quantize/catch.hpp\ncpp/quantize/profile_bolt.cpp\ncpp/quantize/profile_multicodebook.cpp\ncpp/quantize/profile_pq.cpp\ncpp/quantize/test_bolt.cpp\ncpp/quantize/test_bolt.hpp\ncpp/quantize/test_multicodebook.cpp\ncpp/src\ncpp/src/external\ncpp/src/external/eigen-trimmed",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8604222903087377
+  }
+]

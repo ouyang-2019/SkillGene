@@ -1,0 +1,162 @@
+[
+  {
+    "name": "codequestion (neuml)",
+    "description": "[项目级] 🔎 Semantic search for developers。来源: https://github.com/neuml/codequestion",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "stars-541",
+      "github-neuml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The following is an overview covering how this project works.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install codequestion",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nconfig\nconfig/index.v1.yml\nconfig/index.yml\ndemo.gif\nimages\nimages/architecture-dark.png\nimages/architecture.excalidraw\nimages/architecture.png\nimages/topics.gif\nimages/vscode.png\nlogo.png\nsetup.py\nsrc\nsrc/python\ntest\ntest/python\ntest/stackexchange",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.366598632553284
+  },
+  {
+    "name": "codequestion/config 模块",
+    "description": "[模块级] codequestion 项目的 config 模块 (config)。来源: https://github.com/neuml/codequestion",
+    "domain": "devops",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/index.v1.yml\n- config/index.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/index.v1.yml\nconfig/index.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "codequestion/images 模块",
+    "description": "[模块级] codequestion 项目的 images 模块 (source)。来源: https://github.com/neuml/codequestion",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/architecture-dark.png\n- images/architecture.excalidraw\n- images/architecture.png\n- images/topics.gif\n- images/vscode.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/architecture-dark.png\nimages/architecture.excalidraw\nimages/architecture.png\nimages/topics.gif\nimages/vscode.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "codequestion/src 模块",
+    "description": "[模块级] codequestion 项目的 src 模块 (source)。来源: https://github.com/neuml/codequestion",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 22\n\n包含文件:\n- src/python\n- src/python/codequestion\n- src/python/codequestion/__init__.py\n- src/python/codequestion/console.py\n- src/python/codequestion/download.py\n- src/python/codequestion/etl\n- src/python/codequestion/etl/__init__.py\n- src/python/codequestion/etl/stackexchange\n- src/python/codequestion/etl/stackexchange/__init__.py\n- src/python/codequestion/etl/stackexchange/db2qa.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/python\nsrc/python/codequestion\nsrc/python/codequestion/__init__.py\nsrc/python/codequestion/console.py\nsrc/python/codequestion/download.py\nsrc/python/codequestion/etl\nsrc/python/codequestion/etl/__init__.py\nsrc/python/codequestion/etl/stackexchange\nsrc/python/codequestion/etl/stackexchange/__init__.py\nsrc/python/codequestion/etl/stackexchange/db2qa.py\nsrc/python/codequestion/etl/stackexchange/decompress.py\nsrc/python/codequestion/etl/stackexchange/execute.py\nsrc/python/codequestion/etl/stackexchange/sift.py\nsrc/python/codequestion/etl/stackexchange/xml2db.py\nsrc/python/codequestion/evaluate.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "codequestion/test 模块",
+    "description": "[模块级] codequestion 项目的 test 模块 (test)。来源: https://github.com/neuml/codequestion",
+    "domain": "testing",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "curl \"http://127.0.0.1:8000/search?query=python+query+sqlite&limit=1\"\n```\n\nOutputs:\n```json\n[{\n    \"id\":\"616429\",\n    \"text\":\"How to fetch data from sqlite using python? stackoverflow python sqlite\",\n    \"score\":0.8401689529418945\n}]\n```\n\nAdditional metadata fields can be pulled back with SQL statements.\n\n```\ncurl\n    --get\n    --data-urlencode \"query=select id, date, tags, question, score from txtai where similar('python query sqlite')\"\n    --data-urlencode \"limit=1\"\n    \"http://127.0.0.1:8000/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/python\ntest/python/testconsole.py\ntest/python/testdownload.py\ntest/python/testindex.py\ntest/python/utils.py\ntest/stackexchange\ntest/stackexchange/query.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "test 代码示例",
+        "content": "Additional metadata fields can be pulled back with SQL statements.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  }
+]

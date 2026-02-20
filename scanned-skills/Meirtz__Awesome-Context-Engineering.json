@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Awesome-Context-Engineering (Meirtz)",
+    "description": "[项目级]  🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of papers, frameworks, and  implementation guides for LLMs and AI agents.。来源: https://github.com/Meirtz/Awesome-Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agi",
+      "awesome-list",
+      "cognitive-science",
+      "stars-2909",
+      "github-meirtz",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "In the era of Large Language Models (LLMs), the limitations of static prompting have become increasingly apparent. **Context Engineering** represents the natural evolution to address LLM uncertainty and achieve production-grade AI deployment. Unlike traditional prompt engineering, context engineering encompasses the complete information payload provided to LLMs at inference time, including all structured informational components necessary for plausible task completion.\n\nThis repository serves as a comprehensive survey of context engineering techniques, methodologies, and applications.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/wechat_group.png\ncover.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.73187186062353
+  }
+]

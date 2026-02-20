@@ -1,0 +1,94 @@
+[
+  {
+    "name": "ruby-agent-skills (DmitryPogrebnoy)",
+    "description": "[项目级] A collection of Agent Skills designed for efficient work with Ruby type signatures, including RBS, Sorbet, and other typing systems。来源: https://github.com/DmitryPogrebnoy/ruby-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-21",
+      "github-dmitrypogrebnoy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This plugin provides four **model-invoked skills** and one **agent** for working with Ruby type signatures.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Gemfile\nLICENSE\nREADME.md\nRakefile\nTHIRD_PARTY_LICENSES.md\nlib\nlib/generate_plugins.rb\nlib/http_client.rb\nlib/rbs_comments_stripper.rb\nlib/rbs_examples_downloader.rb\nlib/rbs_inline_examples_downloader.rb\nlib/sorbet_examples_downloader.rb\nlib/sorbet_rbi_examples_downloader.rb\nplugins\nplugins/ruby-type-signature-skills",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Generate RBS signatures for lib/user.rb\nAdd inline Sorbet signatures to app/models/\nUpdate type signatures for changed files",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6611096473669598
+  },
+  {
+    "name": "ruby-agent-skills/lib 模块",
+    "description": "[模块级] ruby-agent-skills 项目的 lib 模块 (source)。来源: https://github.com/DmitryPogrebnoy/ruby-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-21",
+      "github-dmitrypogrebnoy",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 7\n\n包含文件:\n- lib/generate_plugins.rb\n- lib/http_client.rb\n- lib/rbs_comments_stripper.rb\n- lib/rbs_examples_downloader.rb\n- lib/rbs_inline_examples_downloader.rb\n- lib/sorbet_examples_downloader.rb\n- lib/sorbet_rbi_examples_downloader.rb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/generate_plugins.rb\nlib/http_client.rb\nlib/rbs_comments_stripper.rb\nlib/rbs_examples_downloader.rb\nlib/rbs_inline_examples_downloader.rb\nlib/sorbet_examples_downloader.rb\nlib/sorbet_rbi_examples_downloader.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.028887717893568
+  },
+  {
+    "name": "ruby-agent-skills/plugins 模块",
+    "description": "[模块级] ruby-agent-skills 项目的 plugins 模块 (source)。来源: https://github.com/DmitryPogrebnoy/ruby-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-21",
+      "github-dmitrypogrebnoy",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 180\n\n包含文件:\n- plugins/ruby-type-signature-skills\n- plugins/ruby-type-signature-skills/.claude-plugin\n- plugins/ruby-type-signature-skills/.claude-plugin/plugin.json\n- plugins/ruby-type-signature-skills/agents\n- plugins/ruby-type-signature-skills/agents/update-signatures.md\n- plugins/ruby-type-signature-skills/skills\n- plugins/ruby-type-signature-skills/skills/generating-rbs-inline\n- plugins/ruby-type-signature-skills/skills/generating-rbs-inline/SKILL.md\n- plugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference\n- plugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/data-struct-support.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ruby-type-signature-skills\nplugins/ruby-type-signature-skills/.claude-plugin\nplugins/ruby-type-signature-skills/.claude-plugin/plugin.json\nplugins/ruby-type-signature-skills/agents\nplugins/ruby-type-signature-skills/agents/update-signatures.md\nplugins/ruby-type-signature-skills/skills\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/SKILL.md\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/data-struct-support.md\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/rbs_inline_examples\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/rbs_inline_examples/STRUCTURE.md\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/rbs_inline_examples/zeitwerk\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/rbs_inline_examples/zeitwerk/zeitwerk.rb\nplugins/ruby-type-signature-skills/skills/generating-rbs-inline/reference/rbs_inline_examples/zeitwerk/zeitwerk",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.028887717893568
+  }
+]

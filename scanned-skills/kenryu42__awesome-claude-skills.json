@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-claude-skills (kenryu42)",
+    "description": "[项目级] Awesome list for Claude Skills — a reusable, filesystem-based resources that provide Claude with domain-specific expertise developed by Anthropic。来源: https://github.com/kenryu42/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "awesome",
+      "awesome-lists",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "stars-30",
+      "github-kenryu42",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome list for Claude Skills — a reusable, filesystem-based resources that provide Claude with domain-specific expertise developed by Anthropic\n\n来源: https://github.com/kenryu42/awesome-claude-skills\n语言: unknown\nStars: 30",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Skills are available for all paid subscription plan.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.md\nmedia\nmedia/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7385606273598313
+  }
+]

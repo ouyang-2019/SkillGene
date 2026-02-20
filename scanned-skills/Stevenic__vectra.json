@@ -1,0 +1,94 @@
+[
+  {
+    "name": "vectra (Stevenic)",
+    "description": "[项目级] Vectra is a local vector database for Node.js with features similar to pinecone but built using local files.。来源: https://github.com/Stevenic/vectra",
+    "domain": "database",
+    "tags": [
+      "typescript",
+      "stars-585",
+      "github-stevenic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Vectra is a file‑backed, in‑memory vector database for Node.js. It works like a local [Pinecone](https://www.pinecone.io/)  [Qdrant](https://qdrant.tech/): each index is just a folder on disk with an `index.json` file containing vectors and any metadata fields you choose to index; all other metadata is stored per‑item as separate JSON files. Queries use a Pinecone‑compatible subset of [MongoDB‑style operators](https://www.mongodb.com/docs/manual/reference/operator/query/) for filtering, then rank matches by cosine similarity. Because the entire index is loaded into memory, lookups are extremely fast (often <1 ms for small indexes, commonly 1–2 ms for larger local sets). It’s ideal when you want simple, zero‑infrastructure retrieval over a small, mostly static corpus. Pinecone‑style namespa",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- npm: `npm install vectra`\n- yarn: `yarn add vectra`\n\nCLI usage\n- Run without installing globally: `npx vectra --help`\n- Optional global install: `npm install -g vectra` (then use `vectra --help`)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\napi-extractor.json\nbin\nbin/vectra.js\npackage.json\nsamples\nsamples/README.md\nsamples/wikipedia\nsrc\nsrc/FileFetcher.spec.ts\nsrc/FileFetcher.ts\nsrc/GPT3Tokenizer.spec.ts\nsrc/GPT3Tokenizer.ts\nsrc/ItemSelector.spec.ts\nsrc/ItemSelector.ts\nsrc/LocalDocument.spec.ts\nsrc/LocalDocument.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import path from 'node:path';\nimport os from 'node:os';\nimport { LocalIndex } from 'vectra';\n\nconst folderPath = process.env.PERSISTENT_INDEX_DIR\n  ? process.env.PERSISTENT_INDEX_DIR\n  : path.join(os.tmpdir(), 'vectra-ephemeral');\n\nconst index = new LocalIndex(folderPath);\nawait index.createIndex({\n  version: 1,\n  deleteIfExists: !process.env.PERSISTENT_INDEX_DIR, // reset if ephemeral\n  metadata_config: { indexed: ['category'] },\n});",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3835779330410904
+  },
+  {
+    "name": "vectra/samples 模块",
+    "description": "[模块级] vectra 项目的 samples 模块 (source)。来源: https://github.com/Stevenic/vectra",
+    "domain": "database",
+    "tags": [
+      "typescript",
+      "stars-585",
+      "github-stevenic",
+      "module-level",
+      "source",
+      "samples"
+    ],
+    "genes": [
+      {
+        "title": "samples 模块说明",
+        "content": "模块路径: samples/\n类型: source\n文件数: 6\n\n包含文件:\n- samples/README.md\n- samples/wikipedia\n- samples/wikipedia/.gitignore\n- samples/wikipedia/README.md\n- samples/wikipedia/vectra.keys.example\n- samples/wikipedia/wikipedia.links",
+        "gene_type": "principle"
+      },
+      {
+        "title": "samples 文件结构",
+        "content": "samples/README.md\nsamples/wikipedia\nsamples/wikipedia/.gitignore\nsamples/wikipedia/README.md\nsamples/wikipedia/vectra.keys.example\nsamples/wikipedia/wikipedia.links",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.606862346432872
+  },
+  {
+    "name": "vectra/src 模块",
+    "description": "[模块级] vectra 项目的 src 模块 (source)。来源: https://github.com/Stevenic/vectra",
+    "domain": "database",
+    "tags": [
+      "typescript",
+      "stars-585",
+      "github-stevenic",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 40\n\n包含文件:\n- src/FileFetcher.spec.ts\n- src/FileFetcher.ts\n- src/GPT3Tokenizer.spec.ts\n- src/GPT3Tokenizer.ts\n- src/ItemSelector.spec.ts\n- src/ItemSelector.ts\n- src/LocalDocument.spec.ts\n- src/LocalDocument.ts\n- src/LocalDocumentIndex.spec.ts\n- src/LocalDocumentIndex.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/FileFetcher.spec.ts\nsrc/FileFetcher.ts\nsrc/GPT3Tokenizer.spec.ts\nsrc/GPT3Tokenizer.ts\nsrc/ItemSelector.spec.ts\nsrc/ItemSelector.ts\nsrc/LocalDocument.spec.ts\nsrc/LocalDocument.ts\nsrc/LocalDocumentIndex.spec.ts\nsrc/LocalDocumentIndex.ts\nsrc/LocalDocumentResult.spec.ts\nsrc/LocalDocumentResult.ts\nsrc/LocalIndex.spec.ts\nsrc/LocalIndex.ts\nsrc/OpenAIEmbeddings.spec.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.606862346432872
+  }
+]

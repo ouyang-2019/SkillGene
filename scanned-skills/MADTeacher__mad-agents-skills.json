@@ -1,0 +1,366 @@
+[
+  {
+    "name": "mad-agents-skills (MADTeacher)",
+    "description": "[项目级] Collection of agent skills for AI assistants working with Dart and Flutter projects。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "github-madteacher",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains a set of specialized skills for Dart and Flutter development, organized according to the open [**Agent Skills**](https://agentskills.io/home) standard.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.ru.md\nagents-md-generator\nagents-md-generator/SKILL.md\nagents-md-generator/references\ndart-drift\ndart-drift/SKILL.md\ndart-drift/references\nflutter-adaptive-ui\nflutter-adaptive-ui/SKILL.md\nflutter-adaptive-ui/assets\nflutter-adaptive-ui/references\nflutter-animations\nflutter-animations/SKILL.md\nflutter-animations/assets\nflutter-animations/references\nflutter-architecture\nflutter-architecture/SKILL.md\nflutter-architecture/assets",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This repository follows the open [Agent Skills](https://agentskills.io/home) format — a standard for giving AI agents new capabilities and expertise. Agent Skills are folders with instructions, scripts, and resources that agents can discover and use to complete tasks more accurately and efficiently.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8537850880489684
+  },
+  {
+    "name": "mad-agents-skills/agents-md-generator 模块",
+    "description": "[模块级] mad-agents-skills 项目的 agents-md-generator 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "agents-md-generator"
+    ],
+    "genes": [
+      {
+        "title": "agents-md-generator 模块说明",
+        "content": "模块路径: agents-md-generator/\n类型: source\n文件数: 4\n\n包含文件:\n- agents-md-generator/SKILL.md\n- agents-md-generator/references\n- agents-md-generator/references/AGENTS_TEMPLATE_MODULE.md\n- agents-md-generator/references/AGENTS_TEMPLATE_ROOT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents-md-generator 文件结构",
+        "content": "agents-md-generator/SKILL.md\nagents-md-generator/references\nagents-md-generator/references/AGENTS_TEMPLATE_MODULE.md\nagents-md-generator/references/AGENTS_TEMPLATE_ROOT.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/dart-drift 模块",
+    "description": "[模块级] mad-agents-skills 项目的 dart-drift 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "dart-drift"
+    ],
+    "genes": [
+      {
+        "title": "dart-drift 模块说明",
+        "content": "模块路径: dart-drift/\n类型: source\n文件数: 9\n\n包含文件:\n- dart-drift/SKILL.md\n- dart-drift/references\n- dart-drift/references/migrations.md\n- dart-drift/references/postgres.md\n- dart-drift/references/queries.md\n- dart-drift/references/setup.md\n- dart-drift/references/streams.md\n- dart-drift/references/tables.md\n- dart-drift/references/writes.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dart-drift 文件结构",
+        "content": "dart-drift/SKILL.md\ndart-drift/references\ndart-drift/references/migrations.md\ndart-drift/references/postgres.md\ndart-drift/references/queries.md\ndart-drift/references/setup.md\ndart-drift/references/streams.md\ndart-drift/references/tables.md\ndart-drift/references/writes.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-adaptive-ui 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-adaptive-ui 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-adaptive-ui"
+    ],
+    "genes": [
+      {
+        "title": "flutter-adaptive-ui 模块说明",
+        "content": "模块路径: flutter-adaptive-ui/\n类型: source\n文件数: 11\n\n包含文件:\n- flutter-adaptive-ui/SKILL.md\n- flutter-adaptive-ui/assets\n- flutter-adaptive-ui/assets/capability_policy_example.dart\n- flutter-adaptive-ui/assets/responsive_navigation.dart\n- flutter-adaptive-ui/references\n- flutter-adaptive-ui/references/adaptive-best-practices.md\n- flutter-adaptive-ui/references/adaptive-capabilities.md\n- flutter-adaptive-ui/references/adaptive-workflow.md\n- flutter-adaptive-ui/references/layout-basics.md\n- flutter-adaptive-ui/references/layout-common-widgets.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-adaptive-ui 文件结构",
+        "content": "flutter-adaptive-ui/SKILL.md\nflutter-adaptive-ui/assets\nflutter-adaptive-ui/assets/capability_policy_example.dart\nflutter-adaptive-ui/assets/responsive_navigation.dart\nflutter-adaptive-ui/references\nflutter-adaptive-ui/references/adaptive-best-practices.md\nflutter-adaptive-ui/references/adaptive-capabilities.md\nflutter-adaptive-ui/references/adaptive-workflow.md\nflutter-adaptive-ui/references/layout-basics.md\nflutter-adaptive-ui/references/layout-common-widgets.md\nflutter-adaptive-ui/references/layout-constraints.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-animations 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-animations 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-animations"
+    ],
+    "genes": [
+      {
+        "title": "flutter-animations 模块说明",
+        "content": "模块路径: flutter-animations/\n类型: source\n文件数: 14\n\n包含文件:\n- flutter-animations/SKILL.md\n- flutter-animations/assets\n- flutter-animations/assets/templates\n- flutter-animations/assets/templates/explicit_animation.dart\n- flutter-animations/assets/templates/hero_transition.dart\n- flutter-animations/assets/templates/implicit_animation.dart\n- flutter-animations/assets/templates/staggered_animation.dart\n- flutter-animations/references\n- flutter-animations/references/curves.md\n- flutter-animations/references/explicit.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-animations 文件结构",
+        "content": "flutter-animations/SKILL.md\nflutter-animations/assets\nflutter-animations/assets/templates\nflutter-animations/assets/templates/explicit_animation.dart\nflutter-animations/assets/templates/hero_transition.dart\nflutter-animations/assets/templates/implicit_animation.dart\nflutter-animations/assets/templates/staggered_animation.dart\nflutter-animations/references\nflutter-animations/references/curves.md\nflutter-animations/references/explicit.md\nflutter-animations/references/hero.md\nflutter-animations/references/implicit.md\nflutter-animations/references/physics.md\nflutter-animations/references/staggered.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-architecture 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-architecture 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-architecture"
+    ],
+    "genes": [
+      {
+        "title": "flutter-architecture 模块说明",
+        "content": "模块路径: flutter-architecture/\n类型: source\n文件数: 12\n\n包含文件:\n- flutter-architecture/SKILL.md\n- flutter-architecture/assets\n- flutter-architecture/assets/command.dart\n- flutter-architecture/assets/examples\n- flutter-architecture/assets/examples/README.md\n- flutter-architecture/assets/result.dart\n- flutter-architecture/references\n- flutter-architecture/references/concepts.md\n- flutter-architecture/references/design-patterns.md\n- flutter-architecture/references/feature-first.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-architecture 文件结构",
+        "content": "flutter-architecture/SKILL.md\nflutter-architecture/assets\nflutter-architecture/assets/command.dart\nflutter-architecture/assets/examples\nflutter-architecture/assets/examples/README.md\nflutter-architecture/assets/result.dart\nflutter-architecture/references\nflutter-architecture/references/concepts.md\nflutter-architecture/references/design-patterns.md\nflutter-architecture/references/feature-first.md\nflutter-architecture/references/layers.md\nflutter-architecture/references/mvvm.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-drift 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-drift 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-drift"
+    ],
+    "genes": [
+      {
+        "title": "flutter-drift 模块说明",
+        "content": "模块路径: flutter-drift/\n类型: source\n文件数: 9\n\n包含文件:\n- flutter-drift/SKILL.md\n- flutter-drift/references\n- flutter-drift/references/flutter-ui.md\n- flutter-drift/references/migrations.md\n- flutter-drift/references/queries.md\n- flutter-drift/references/setup.md\n- flutter-drift/references/streams.md\n- flutter-drift/references/tables.md\n- flutter-drift/references/writes.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-drift 文件结构",
+        "content": "flutter-drift/SKILL.md\nflutter-drift/references\nflutter-drift/references/flutter-ui.md\nflutter-drift/references/migrations.md\nflutter-drift/references/queries.md\nflutter-drift/references/setup.md\nflutter-drift/references/streams.md\nflutter-drift/references/tables.md\nflutter-drift/references/writes.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-duit-bdui 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-duit-bdui 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-duit-bdui"
+    ],
+    "genes": [
+      {
+        "title": "flutter-duit-bdui 模块说明",
+        "content": "模块路径: flutter-duit-bdui/\n类型: source\n文件数: 6\n\n包含文件:\n- flutter-duit-bdui/SKILL.md\n- flutter-duit-bdui/references\n- flutter-duit-bdui/references/capabiliteis.md\n- flutter-duit-bdui/references/environment_vars.md\n- flutter-duit-bdui/references/public_api.md\n- flutter-duit-bdui/references/troubleshooting.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-duit-bdui 文件结构",
+        "content": "flutter-duit-bdui/SKILL.md\nflutter-duit-bdui/references\nflutter-duit-bdui/references/capabiliteis.md\nflutter-duit-bdui/references/environment_vars.md\nflutter-duit-bdui/references/public_api.md\nflutter-duit-bdui/references/troubleshooting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-internationalization 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-internationalization 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-internationalization"
+    ],
+    "genes": [
+      {
+        "title": "flutter-internationalization 模块说明",
+        "content": "模块路径: flutter-internationalization/\n类型: source\n文件数: 8\n\n包含文件:\n- flutter-internationalization/SKILL.md\n- flutter-internationalization/assets\n- flutter-internationalization/assets/app_en.arb\n- flutter-internationalization/assets/l10n.yaml\n- flutter-internationalization/references\n- flutter-internationalization/references/arb-format.md\n- flutter-internationalization/references/l10n-config.md\n- flutter-internationalization/references/number-date-formats.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-internationalization 文件结构",
+        "content": "flutter-internationalization/SKILL.md\nflutter-internationalization/assets\nflutter-internationalization/assets/app_en.arb\nflutter-internationalization/assets/l10n.yaml\nflutter-internationalization/references\nflutter-internationalization/references/arb-format.md\nflutter-internationalization/references/l10n-config.md\nflutter-internationalization/references/number-date-formats.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-navigation 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-navigation 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-navigation"
+    ],
+    "genes": [
+      {
+        "title": "flutter-navigation 模块说明",
+        "content": "模块路径: flutter-navigation/\n类型: source\n文件数: 11\n\n包含文件:\n- flutter-navigation/SKILL.md\n- flutter-navigation/assets\n- flutter-navigation/assets/go_router_basic.dart\n- flutter-navigation/assets/navigator_basic.dart\n- flutter-navigation/assets/passing_data.dart\n- flutter-navigation/assets/returning_data.dart\n- flutter-navigation/references\n- flutter-navigation/references/deep-linking.md\n- flutter-navigation/references/go_router-guide.md\n- flutter-navigation/references/navigation-patterns.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-navigation 文件结构",
+        "content": "flutter-navigation/SKILL.md\nflutter-navigation/assets\nflutter-navigation/assets/go_router_basic.dart\nflutter-navigation/assets/navigator_basic.dart\nflutter-navigation/assets/passing_data.dart\nflutter-navigation/assets/returning_data.dart\nflutter-navigation/references\nflutter-navigation/references/deep-linking.md\nflutter-navigation/references/go_router-guide.md\nflutter-navigation/references/navigation-patterns.md\nflutter-navigation/references/web-navigation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-networking 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-networking 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-networking"
+    ],
+    "genes": [
+      {
+        "title": "flutter-networking 模块说明",
+        "content": "模块路径: flutter-networking/\n类型: source\n文件数: 17\n\n包含文件:\n- flutter-networking/SKILL.md\n- flutter-networking/assets\n- flutter-networking/assets/code-templates\n- flutter-networking/assets/code-templates/http_service.dart\n- flutter-networking/assets/code-templates/repository_template.dart\n- flutter-networking/assets/examples\n- flutter-networking/assets/examples/auth_example.dart\n- flutter-networking/assets/examples/background_parsing.dart\n- flutter-networking/assets/examples/fetch_example.dart\n- flutter-networking/assets/examples/post_example.dart",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-networking 文件结构",
+        "content": "flutter-networking/SKILL.md\nflutter-networking/assets\nflutter-networking/assets/code-templates\nflutter-networking/assets/code-templates/http_service.dart\nflutter-networking/assets/code-templates/repository_template.dart\nflutter-networking/assets/examples\nflutter-networking/assets/examples/auth_example.dart\nflutter-networking/assets/examples/background_parsing.dart\nflutter-networking/assets/examples/fetch_example.dart\nflutter-networking/assets/examples/post_example.dart\nflutter-networking/assets/examples/websocket_example.dart\nflutter-networking/references\nflutter-networking/references/authentication.md\nflutter-networking/references/error-handling.md\nflutter-networking/references/http-basics.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "mad-agents-skills/flutter-testing 模块",
+    "description": "[模块级] mad-agents-skills 项目的 flutter-testing 模块 (source)。来源: https://github.com/MADTeacher/mad-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "dart",
+      "flutter",
+      "skills",
+      "stars-51",
+      "module-level",
+      "source",
+      "flutter-testing"
+    ],
+    "genes": [
+      {
+        "title": "flutter-testing 模块说明",
+        "content": "模块路径: flutter-testing/\n类型: source\n文件数: 8\n\n包含文件:\n- flutter-testing/SKILL.md\n- flutter-testing/references\n- flutter-testing/references/common-errors.md\n- flutter-testing/references/integration-testing.md\n- flutter-testing/references/mocking.md\n- flutter-testing/references/plugin-testing.md\n- flutter-testing/references/unit-testing.md\n- flutter-testing/references/widget-testing.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flutter-testing 文件结构",
+        "content": "flutter-testing/SKILL.md\nflutter-testing/references\nflutter-testing/references/common-errors.md\nflutter-testing/references/integration-testing.md\nflutter-testing/references/mocking.md\nflutter-testing/references/plugin-testing.md\nflutter-testing/references/unit-testing.md\nflutter-testing/references/widget-testing.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  }
+]

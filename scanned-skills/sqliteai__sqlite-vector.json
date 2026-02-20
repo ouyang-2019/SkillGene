@@ -1,0 +1,155 @@
+[
+  {
+    "name": "sqlite-vector (sqliteai)",
+    "description": "[项目级] SQLite-Vector is a cross-platform, ultra-efficient SQLite extension that brings vector search capabilities to your embedded database.。来源: https://github.com/sqliteai/sqlite-vector",
+    "domain": "devops",
+    "tags": [
+      "c",
+      "stars-675",
+      "github-sqliteai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SQLite-Vector is a cross-platform, ultra-efficient SQLite extension that brings vector search capabilities to your embedded database.\n\n来源: https://github.com/sqliteai/sqlite-vector\n语言: C\nStars: 675",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "API.md\nLICENSE.md\nMakefile\nPackage.swift\nQUANTIZATION.md\nREADME.md\nexamples\nexamples/semantic_search\nflake.lock\nflake.nix\njitpack.yml\nlibs\nlibs/fp16\nlibs/sqlite3.c\nlibs/sqlite3.h\nlibs/sqlite3ext.h\npackages\npackages/android\npackages/flutter\npackages/node",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "-- Create a regular SQLite table\nCREATE TABLE images (\n  id INTEGER PRIMARY KEY,\n  embedding BLOB, -- store Float32/UInt8/etc.\n  label TEXT\n);\n\n-- Insert a BLOB vector (Float32, 384 dimensions) using bindings\nINSERT INTO images (embedding, label) VALUES (?, 'cat');\n\n-- Insert a JSON vector (Float32, 384 dimensions)\nINSERT INTO images (embedding, label) VALUES (vector_as_f32('[0.3, 1.0, 0.9, 3.2, 1.4,...]'), 'dog');\n\n-- Initialize the vector. By default, the distance function is L2.\n-- To use a different metric, specify one of the following options:\n-- distance=L1, distance=COSINE, distance=DOT",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.414651886415513
+  },
+  {
+    "name": "sqlite-vector/examples 模块",
+    "description": "[模块级] sqlite-vector 项目的 examples 模块 (example)。来源: https://github.com/sqliteai/sqlite-vector",
+    "domain": "devops",
+    "tags": [
+      "c",
+      "stars-675",
+      "github-sqliteai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 26\n\n包含文件:\n- examples/semantic_search\n- examples/semantic_search/README.md\n- examples/semantic_search/requirements.txt\n- examples/semantic_search/samples\n- examples/semantic_search/samples/sample-1.md\n- examples/semantic_search/samples/sample-10.md\n- examples/semantic_search/samples/sample-11.md\n- examples/semantic_search/samples/sample-12.md\n- examples/semantic_search/samples/sample-13.md\n- examples/semantic_search/samples/sample-14.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/semantic_search\nexamples/semantic_search/README.md\nexamples/semantic_search/requirements.txt\nexamples/semantic_search/samples\nexamples/semantic_search/samples/sample-1.md\nexamples/semantic_search/samples/sample-10.md\nexamples/semantic_search/samples/sample-11.md\nexamples/semantic_search/samples/sample-12.md\nexamples/semantic_search/samples/sample-13.md\nexamples/semantic_search/samples/sample-14.md\nexamples/semantic_search/samples/sample-15.md\nexamples/semantic_search/samples/sample-16.md\nexamples/semantic_search/samples/sample-17.md\nexamples/semantic_search/samples/sample-18.md\nexamples/semantic_search/samples/sample-19.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6317215091324098
+  },
+  {
+    "name": "sqlite-vector/libs 模块",
+    "description": "[模块级] sqlite-vector 项目的 libs 模块 (source)。来源: https://github.com/sqliteai/sqlite-vector",
+    "domain": "devops",
+    "tags": [
+      "c",
+      "stars-675",
+      "github-sqliteai",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 7\n\n包含文件:\n- libs/fp16\n- libs/fp16/bitcasts.h\n- libs/fp16/fp16.h\n- libs/fp16/macros.h\n- libs/sqlite3.c\n- libs/sqlite3.h\n- libs/sqlite3ext.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/fp16\nlibs/fp16/bitcasts.h\nlibs/fp16/fp16.h\nlibs/fp16/macros.h\nlibs/sqlite3.c\nlibs/sqlite3.h\nlibs/sqlite3ext.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6317215091324098
+  },
+  {
+    "name": "sqlite-vector/packages 模块",
+    "description": "[模块级] sqlite-vector 项目的 packages 模块 (source)。来源: https://github.com/sqliteai/sqlite-vector",
+    "domain": "devops",
+    "tags": [
+      "c",
+      "stars-675",
+      "github-sqliteai",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 54\n\n包含文件:\n- packages/android\n- packages/android/build.gradle\n- packages/android/gradle.properties\n- packages/android/gradle\n- packages/android/gradle/wrapper\n- packages/android/gradle/wrapper/gradle-wrapper.jar\n- packages/android/gradle/wrapper/gradle-wrapper.properties\n- packages/android/gradlew\n- packages/android/gradlew.bat\n- packages/android/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/android\npackages/android/build.gradle\npackages/android/gradle.properties\npackages/android/gradle\npackages/android/gradle/wrapper\npackages/android/gradle/wrapper/gradle-wrapper.jar\npackages/android/gradle/wrapper/gradle-wrapper.properties\npackages/android/gradlew\npackages/android/gradlew.bat\npackages/android/src\npackages/android/src/main\npackages/android/src/main/AndroidManifest.xml\npackages/flutter\npackages/flutter/.pubignore\npackages/flutter/CHANGELOG.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6317215091324098
+  },
+  {
+    "name": "sqlite-vector/src 模块",
+    "description": "[模块级] sqlite-vector 项目的 src 模块 (source)。来源: https://github.com/sqliteai/sqlite-vector",
+    "domain": "devops",
+    "tags": [
+      "c",
+      "stars-675",
+      "github-sqliteai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 12\n\n包含文件:\n- src/distance-avx2.c\n- src/distance-avx2.h\n- src/distance-avx512.c\n- src/distance-avx512.h\n- src/distance-cpu.c\n- src/distance-cpu.h\n- src/distance-neon.c\n- src/distance-neon.h\n- src/distance-sse2.c\n- src/distance-sse2.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/distance-avx2.c\nsrc/distance-avx2.h\nsrc/distance-avx512.c\nsrc/distance-avx512.h\nsrc/distance-cpu.c\nsrc/distance-cpu.h\nsrc/distance-neon.c\nsrc/distance-neon.h\nsrc/distance-sse2.c\nsrc/distance-sse2.h\nsrc/sqlite-vector.c\nsrc/sqlite-vector.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6317215091324098
+  }
+]

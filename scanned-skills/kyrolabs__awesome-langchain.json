@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-langchain (kyrolabs)",
+    "description": "[项目级] 😎 Awesome list of tools and projects with the awesome LangChain framework。来源: https://github.com/kyrolabs/awesome-langchain",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome",
+      "awesome-list",
+      "langchain",
+      "llm",
+      "stars-9175",
+      "github-kyrolabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "😎 Awesome list of tools and projects with the awesome LangChain framework\n\n来源: https://github.com/kyrolabs/awesome-langchain\n语言: unknown\nStars: 9175",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncontributing.md\npackage.json\npnpm-lock.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.981303036462063
+  }
+]

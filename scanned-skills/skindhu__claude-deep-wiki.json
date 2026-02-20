@@ -1,0 +1,66 @@
+[
+  {
+    "name": "claude-deep-wiki (skindhu)",
+    "description": "[项目级] 🚀 基于 Claude Agent SDK 的智能代码分析工具 | AI-powered code analyzer that generates business-oriented knowledge base and PRD docs. Supports 165+ languages.。来源: https://github.com/skindhu/claude-deep-wiki",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-71",
+      "github-skindhu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- 业务价值\n- 核心能力\n- 技术架构概览",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nrequirements.txt\nsrc\nsrc/agents\nsrc/config.py\nsrc/main.py\nsrc/mcp_servers\nsrc/mcp_tools\nsrc/utils",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9256291743595377
+  },
+  {
+    "name": "claude-deep-wiki/src 模块",
+    "description": "[模块级] claude-deep-wiki 项目的 src 模块 (source)。来源: https://github.com/skindhu/claude-deep-wiki",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-71",
+      "github-skindhu",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 30\n\n包含文件:\n- src/agents\n- src/agents/__init__.py\n- src/agents/doc_generator_agent.py\n- src/agents/semantic_analyzer_agent.py\n- src/agents/structure_scanner_agent.py\n- src/config.py\n- src/main.py\n- src/mcp_servers\n- src/mcp_servers/code_analysis_server.py\n- src/mcp_tools",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/__init__.py\nsrc/agents/doc_generator_agent.py\nsrc/agents/semantic_analyzer_agent.py\nsrc/agents/structure_scanner_agent.py\nsrc/config.py\nsrc/main.py\nsrc/mcp_servers\nsrc/mcp_servers/code_analysis_server.py\nsrc/mcp_tools\nsrc/mcp_tools/__init__.py\nsrc/mcp_tools/dart_analyzer.py\nsrc/mcp_tools/dependency_analyzer.py\nsrc/mcp_tools/file_filter.py\nsrc/mcp_tools/language_detector.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  }
+]

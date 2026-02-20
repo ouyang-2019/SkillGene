@@ -1,0 +1,73 @@
+[
+  {
+    "name": "remix-knowledge-base (AlexandroMtzG)",
+    "description": "[项目级] Knowledge Base starter kit with WYSIWYG, Markdown, GPT, and Multi-language support. Built with Remix, Tailwind CSS and Prisma.。来源: https://github.com/AlexandroMtzG/remix-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "gpt",
+      "knowledge",
+      "knowledge-base",
+      "markdown",
+      "typescript",
+      "stars-84",
+      "github-alexandromtzg",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Knowledge Base starter kit with WYSIWYG, Markdown, GPT, and Multi-language support. Built with Remix, Tailwind CSS and Prisma.\n\n来源: https://github.com/AlexandroMtzG/remix-knowledge-base\n语言: TypeScript\nStars: 84",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napp\napp/application\napp/assets\napp/components\napp/entry.client.tsx\napp/entry.server.tsx\napp/helpers\napp/lib\napp/modules",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **WYSIWYG** editor: [Tiptap](https://tiptap.dev/) editor with AI-powered suggestions (thanks to [Novel.sh](https://novel.sh/?ref=saasrock-kb))\n- **Markdown** editor: [Monaco](https://github.com/suren-atoyan/monaco-react) editor with markdown support.\n- **Multi-knowlege-base** support: Create multiple knowledge bases for different purposes.\n- **Multi-language** support: Add categories and articles in multiple languages.\n- **Simple Analytics**: Views, Upvotes, and Downvotes tracking.\n- **Image storage** with Supabase: Upload article images to [Supabase](https://supabase.io) Storage.\n- **SEO**:",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.962139643030941
+  },
+  {
+    "name": "remix-knowledge-base/app 模块",
+    "description": "[模块级] remix-knowledge-base 项目的 app 模块 (source)。来源: https://github.com/AlexandroMtzG/remix-knowledge-base",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "gpt",
+      "knowledge",
+      "knowledge-base",
+      "markdown",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 190\n\n包含文件:\n- app/application\n- app/application/Constants.ts\n- app/application/dtos\n- app/application/dtos/data\n- app/application/dtos/data/ColumnDto.ts\n- app/application/dtos/data/FilterablePropertyDto.ts\n- app/application/dtos/data/FiltersDto.ts\n- app/application/dtos/data/PaginationDto.ts\n- app/application/dtos/data/RowHeaderDisplayDto.ts\n- app/application/dtos/data/SortedByDto.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/application\napp/application/Constants.ts\napp/application/dtos\napp/application/dtos/data\napp/application/dtos/data/ColumnDto.ts\napp/application/dtos/data/FilterablePropertyDto.ts\napp/application/dtos/data/FiltersDto.ts\napp/application/dtos/data/PaginationDto.ts\napp/application/dtos/data/RowHeaderDisplayDto.ts\napp/application/dtos/data/SortedByDto.ts\napp/application/dtos/seo\napp/application/dtos/seo/MetaTagsDto.ts\napp/application/enums\napp/application/enums/shared\napp/application/enums/shared/Colors.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2697117144247527
+  }
+]

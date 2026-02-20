@@ -5,14 +5,14 @@
     "domain": "ai-llm",
     "tags": [
       "shell",
-      "stars-8952",
+      "stars-8953",
       "github-diet103",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents\n\n来源: https://github.com/diet103/claude-code-infrastructure-showcase\n语言: Shell\nStars: 8952",
+        "content": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents\n\n来源: https://github.com/diet103/claude-code-infrastructure-showcase\n语言: Shell\nStars: 8953",
         "gene_type": "principle"
       },
       {
@@ -33,6 +33,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.975960036760147
+    "rating": 4.975984292246455
   }
 ]

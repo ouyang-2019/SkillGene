@@ -1,0 +1,78 @@
+[
+  {
+    "name": "gp.nvim (Robitx)",
+    "description": "[项目级] Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..]。来源: https://github.com/Robitx/gp.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "codeium",
+      "copilot",
+      "gemini",
+      "gpt-4o",
+      "lua",
+      "stars-1305",
+      "github-robitx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..]\n\n来源: https://github.com/Robitx/gp.nvim\n语言: Lua\nStars: 1305",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ndoc\ndoc/gp.nvim.txt\nlua\nlua/gp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "The goal is to extend Neovim with the **power of GPT models in a simple unobtrusive extensible way.**  \nTrying to keep things as native as possible - reusing and integrating well with the natural features of (Neo)vim.\n\n- **Streaming responses**\n  - no spinner wheel and waiting for the full answer\n  - response generation can be canceled half way through\n  - properly working undo (response can be undone with a single `u`)\n- **Infinitely extensible** via hook functions specified as part of the config\n  - hooks have access to everything in the plugin and are automatically registered as commands\n  ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.55780525583715
+  },
+  {
+    "name": "gp.nvim/lua 模块",
+    "description": "[模块级] gp.nvim 项目的 lua 模块 (source)。来源: https://github.com/Robitx/gp.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "codeium",
+      "copilot",
+      "gemini",
+      "gpt-4o",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 15\n\n包含文件:\n- lua/gp\n- lua/gp/config.lua\n- lua/gp/defaults.lua\n- lua/gp/deprecator.lua\n- lua/gp/dispatcher.lua\n- lua/gp/health.lua\n- lua/gp/helper.lua\n- lua/gp/imager.lua\n- lua/gp/init.lua\n- lua/gp/logger.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/gp\nlua/gp/config.lua\nlua/gp/defaults.lua\nlua/gp/deprecator.lua\nlua/gp/dispatcher.lua\nlua/gp/health.lua\nlua/gp/helper.lua\nlua/gp/imager.lua\nlua/gp/init.lua\nlua/gp/logger.lua\nlua/gp/render.lua\nlua/gp/spinner.lua\nlua/gp/tasker.lua\nlua/gp/vault.lua\nlua/gp/whisper.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.74624420466972
+  }
+]

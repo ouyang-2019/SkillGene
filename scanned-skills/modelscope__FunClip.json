@@ -1,0 +1,98 @@
+[
+  {
+    "name": "FunClip (modelscope)",
+    "description": "[项目级] Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.。来源: https://github.com/modelscope/FunClip",
+    "domain": "ai-llm",
+    "tags": [
+      "gradio",
+      "gradio-python-llm",
+      "llm",
+      "speech-recognition",
+      "speech-to-text",
+      "python",
+      "stars-5347",
+      "github-modelscope",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.\n\n来源: https://github.com/modelscope/FunClip\n语言: Python\nStars: 5347",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_zh.md\ndocs\ndocs/images\nfont\nfont/STHeitiMedium.ttc\nfunclip\nfunclip/__init__.py\nfunclip/introduction.py\nfunclip/launch.py\nfunclip/llm\nfunclip/test\nfunclip/utils\nfunclip/videoclipper.py\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.864055092050171
+  },
+  {
+    "name": "FunClip/docs 模块",
+    "description": "[模块级] FunClip 项目的 docs 模块 (docs)。来源: https://github.com/modelscope/FunClip",
+    "domain": "documentation",
+    "tags": [
+      "gradio",
+      "gradio-python-llm",
+      "llm",
+      "speech-recognition",
+      "speech-to-text",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/images\n- docs/images/LLM_guide.png\n- docs/images/demo.png\n- docs/images/demo_en.png\n- docs/images/dingding.png\n- docs/images/guide.jpg\n- docs/images/interface.jpg\n- docs/images/wechat.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/LLM_guide.png\ndocs/images/demo.png\ndocs/images/demo_en.png\ndocs/images/dingding.png\ndocs/images/guide.jpg\ndocs/images/interface.jpg\ndocs/images/wechat.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9912440736401367
+  },
+  {
+    "name": "FunClip/funclip 模块",
+    "description": "[模块级] FunClip 项目的 funclip 模块 (source)。来源: https://github.com/modelscope/FunClip",
+    "domain": "ai-llm",
+    "tags": [
+      "gradio",
+      "gradio-python-llm",
+      "llm",
+      "speech-recognition",
+      "speech-to-text",
+      "module-level",
+      "source",
+      "funclip"
+    ],
+    "genes": [
+      {
+        "title": "funclip 模块说明",
+        "content": "git clone https://github.com/alibaba-damo-academy/FunClip.git\ncd FunClip",
+        "gene_type": "principle"
+      },
+      {
+        "title": "funclip 文件结构",
+        "content": "funclip/__init__.py\nfunclip/introduction.py\nfunclip/launch.py\nfunclip/llm\nfunclip/llm/demo_prompt.py\nfunclip/llm/g4f_openai_api.py\nfunclip/llm/openai_api.py\nfunclip/llm/qwen_api.py\nfunclip/test\nfunclip/test/imagemagick_test.py\nfunclip/test/test.sh\nfunclip/utils\nfunclip/utils/argparse_tools.py\nfunclip/utils/subtitle_utils.py\nfunclip/utils/theme.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9912440736401367
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "prompt-engineering-for-generative-ai-examples (BrightPool)",
+    "description": "[项目级] prompt-engineering-for-generative-ai-examples。来源: https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-407",
+      "github-brightpool",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples\n语言: Jupyter Notebook\nStars: 407",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ncontent\ncontent/__init__.py\ncontent/chapter_1\ncontent/chapter_10\ncontent/chapter_3\ncontent/chapter_4\ncontent/chapter_5\ncontent/chapter_6\ncontent/chapter_9\nimages\nimages/OnePager-Images.png\nimages/OnePager-Text.png\nimages/logo.png\npytest.ini\nrequirements.in\nrequirements.txt\ntests\ntests/__init__.py\ntests/chapter_3",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- _Practical Examples_: Illustrative real-world examples to showcase prompt engineering techniques.\n- _In-depth Analysis_: Comprehensive coverage of each topic, offering foundational knowledge and advanced insights.\n- _Expert Guidance_: Insights from leading experts in AI and prompt engineering.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.30479720461261
+  },
+  {
+    "name": "prompt-engineering-for-generative-ai-examples/content 模块",
+    "description": "[模块级] prompt-engineering-for-generative-ai-examples 项目的 content 模块 (source)。来源: https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-407",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "content"
+    ],
+    "genes": [
+      {
+        "title": "content 模块说明",
+        "content": "Access all of the jupyter notebooks and python files within the [content](content) folder.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "content 文件结构",
+        "content": "content/__init__.py\ncontent/chapter_1\ncontent/chapter_1/ab-testing.ipynb\ncontent/chapter_1/responses.csv\ncontent/chapter_1/results.csv\ncontent/chapter_1/test.txt\ncontent/chapter_10\ncontent/chapter_10/ai_content_writing_research.ipynb\ncontent/chapter_10/article_generation.py\ncontent/chapter_10/article_outline_generation.py\ncontent/chapter_10/content_collection.py\ncontent/chapter_10/custom_summarize_chain.py\ncontent/chapter_10/expert_interview_chain.py\ncontent/chapter_10/gradio_code_example.py\ncontent/chapter_10/image_generation_chain.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.543837763690088
+  },
+  {
+    "name": "prompt-engineering-for-generative-ai-examples/images 模块",
+    "description": "[模块级] prompt-engineering-for-generative-ai-examples 项目的 images 模块 (source)。来源: https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-407",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/OnePager-Images.png\n- images/OnePager-Text.png\n- images/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/OnePager-Images.png\nimages/OnePager-Text.png\nimages/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.543837763690088
+  },
+  {
+    "name": "prompt-engineering-for-generative-ai-examples/tests 模块",
+    "description": "[模块级] prompt-engineering-for-generative-ai-examples 项目的 tests 模块 (test)。来源: https://github.com/BrightPool/prompt-engineering-for-generative-ai-examples",
+    "domain": "testing",
+    "tags": [
+      "jupyter notebook",
+      "stars-407",
+      "github-brightpool",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 4\n\n包含文件:\n- tests/__init__.py\n- tests/chapter_3\n- tests/chapter_3/__init__.py\n- tests/chapter_3/test_1_hierarchical_list_generation.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/chapter_3\ntests/chapter_3/__init__.py\ntests/chapter_3/test_1_hierarchical_list_generation.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.543837763690088
+  }
+]

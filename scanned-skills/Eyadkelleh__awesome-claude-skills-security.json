@@ -1,0 +1,258 @@
+[
+  {
+    "name": "awesome-claude-skills-security (Eyadkelleh)",
+    "description": "[项目级] Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authorized pentesting, CTFs, and bug bounties。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "php",
+      "stars-33",
+      "github-eyadkelleh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains a curated collection of security testing resources from [SecLists](https://github.com/danielmiessler/SecLists) packaged as Claude Code skills. These skills provide instant access to essential wordlists, payloads, patterns, and web shells for authorized security testing, penetration testing, CTF competitions, and security research.\n\nThe goal of this project is to provide organized, immediately accessible security testing resources that integrate seamlessly with Claude Code workflows for:\n\n- Authorized penetration testing and security assessments\n- Bug bounty program research\n- CTF competition problem solving\n- Security tool development and testing\n- Educational security demonstrations\n- Vulnerability research in controlled environments",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LLM_Testing\nLLM_Testing/Bias_Testing\nLLM_Testing/Data_Leakage\nLLM_Testing/Divergence_attack\nLLM_Testing/Memory_Recall_Testing\nLLM_Testing/README.md\nLLM_Testing/SKILL.md\nPLUGIN_SETUP.md\nREADME.md\nseclists-categories fuzzing\nseclists-categories fuzzing/fuzzing\nseclists-categories passwords\nseclists-categories passwords/passwords\nseclists-categories pattern-matching\nseclists-categories pattern-matching/pattern-matching\nseclists-categories payloads\nseclists-categories payloads/payloads\nseclists-categories usernames\nseclists-categories usernames/usernames\nseclists-categories web-shells",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.759256969938944
+  },
+  {
+    "name": "awesome-claude-skills-security/LLM_Testing 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 LLM_Testing 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "llm_testing"
+    ],
+    "genes": [
+      {
+        "title": "LLM_Testing 模块说明",
+        "content": "模块路径: LLM_Testing/\n类型: source\n文件数: 14\n\n包含文件:\n- LLM_Testing/Bias_Testing\n- LLM_Testing/Bias_Testing/gender_bias.txt\n- LLM_Testing/Bias_Testing/nationality_geographic_bias.txt\n- LLM_Testing/Bias_Testing/race_ethnicity_bias.txt\n- LLM_Testing/Data_Leakage\n- LLM_Testing/Data_Leakage/metadata.txt\n- LLM_Testing/Data_Leakage/personal_data.txt\n- LLM_Testing/Divergence_attack\n- LLM_Testing/Divergence_attack/escape_out_of_allignment_training.txt\n- LLM_Testing/Divergence_attack/pre-training_data.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "LLM_Testing 文件结构",
+        "content": "LLM_Testing/Bias_Testing\nLLM_Testing/Bias_Testing/gender_bias.txt\nLLM_Testing/Bias_Testing/nationality_geographic_bias.txt\nLLM_Testing/Bias_Testing/race_ethnicity_bias.txt\nLLM_Testing/Data_Leakage\nLLM_Testing/Data_Leakage/metadata.txt\nLLM_Testing/Data_Leakage/personal_data.txt\nLLM_Testing/Divergence_attack\nLLM_Testing/Divergence_attack/escape_out_of_allignment_training.txt\nLLM_Testing/Divergence_attack/pre-training_data.txt\nLLM_Testing/Memory_Recall_Testing\nLLM_Testing/Memory_Recall_Testing/session_recall.txt\nLLM_Testing/README.md\nLLM_Testing/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories fuzzing 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories fuzzing 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories fuzzing"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories fuzzing 模块说明",
+        "content": "模块路径: seclists-categories fuzzing/\n类型: source\n文件数: 14\n\n包含文件:\n- seclists-categories fuzzing/fuzzing\n- seclists-categories fuzzing/fuzzing/SKILL.md\n- seclists-categories fuzzing/fuzzing/references\n- seclists-categories fuzzing/fuzzing/references/Fuzzing\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/Generic-SQLi.txt\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/MySQL.fuzzdb.txt\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/NoSQL.txt\n- seclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/quick-SQLi.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories fuzzing 文件结构",
+        "content": "seclists-categories fuzzing/fuzzing\nseclists-categories fuzzing/fuzzing/SKILL.md\nseclists-categories fuzzing/fuzzing/references\nseclists-categories fuzzing/fuzzing/references/Fuzzing\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/Generic-SQLi.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/MySQL.fuzzdb.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/NoSQL.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/quick-SQLi.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/Databases/SQLi/sqli.auth.bypass.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/LDAP.Fuzzing.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/command-injection-commix.txt\nseclists-categories fuzzing/fuzzing/references/Fuzzing/special-chars.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories passwords 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories passwords 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories passwords"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories passwords 模块说明",
+        "content": "模块路径: seclists-categories passwords/\n类型: source\n文件数: 15\n\n包含文件:\n- seclists-categories passwords/passwords\n- seclists-categories passwords/passwords/SKILL.md\n- seclists-categories passwords/passwords/references\n- seclists-categories passwords/passwords/references/Passwords\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials/10k-most-common.txt\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials/2024-197_most_used_passwords.txt\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials/500-worst-passwords.txt\n- seclists-categories passwords/passwords/references/Passwords/Common-Credentials/best1050.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories passwords 文件结构",
+        "content": "seclists-categories passwords/passwords\nseclists-categories passwords/passwords/SKILL.md\nseclists-categories passwords/passwords/references\nseclists-categories passwords/passwords/references/Passwords\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/10k-most-common.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/2024-197_most_used_passwords.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/500-worst-passwords.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/best1050.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/darkweb2017_top-100.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/darkweb2017_top-1000.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/darkweb2017_top-10000.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/probable-v2_top-12000.txt\nseclists-categories passwords/passwords/references/Passwords/Common-Credentials/top-passwords-shortlist.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories pattern-matching 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories pattern-matching 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories pattern-matching"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories pattern-matching 模块说明",
+        "content": "模块路径: seclists-categories pattern-matching/\n类型: source\n文件数: 16\n\n包含文件:\n- seclists-categories pattern-matching/pattern-matching\n- seclists-categories pattern-matching/pattern-matching/SKILL.md\n- seclists-categories pattern-matching/pattern-matching/references\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/README.md\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/Source-Code-(PHP)\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/Source-Code-(PHP)/php-auditing.txt\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/dangerous-functions-angular.txt\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/errors.txt\n- seclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/grepstrings-auditing-php.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories pattern-matching 文件结构",
+        "content": "seclists-categories pattern-matching/pattern-matching\nseclists-categories pattern-matching/pattern-matching/SKILL.md\nseclists-categories pattern-matching/pattern-matching/references\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/README.md\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/Source-Code-(PHP)\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/Source-Code-(PHP)/php-auditing.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/dangerous-functions-angular.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/errors.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/grepstrings-auditing-php.md\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/grepstrings-basic.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/malicious.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/pcap-strings.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/php-magic-hashes.txt\nseclists-categories pattern-matching/pattern-matching/references/Pattern-Matching/repo-scan.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories payloads 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories payloads 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories payloads"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories payloads 模块说明",
+        "content": "模块路径: seclists-categories payloads/\n类型: source\n文件数: 19\n\n包含文件:\n- seclists-categories payloads/payloads\n- seclists-categories payloads/payloads/SKILL.md\n- seclists-categories payloads/payloads/references\n- seclists-categories payloads/payloads/references/Payloads\n- seclists-categories payloads/payloads/references/Payloads/Anti-Virus\n- seclists-categories payloads/payloads/references/Payloads/Anti-Virus/eicar-com.txt\n- seclists-categories payloads/payloads/references/Payloads/File-Names\n- seclists-categories payloads/payloads/references/Payloads/File-Names/README.md\n- seclists-categories payloads/payloads/references/Payloads/File-Names/directory-traversal.zip\n- seclists-categories payloads/payloads/references/Payloads/File-Names/exec",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories payloads 文件结构",
+        "content": "seclists-categories payloads/payloads\nseclists-categories payloads/payloads/SKILL.md\nseclists-categories payloads/payloads/references\nseclists-categories payloads/payloads/references/Payloads\nseclists-categories payloads/payloads/references/Payloads/Anti-Virus\nseclists-categories payloads/payloads/references/Payloads/Anti-Virus/eicar-com.txt\nseclists-categories payloads/payloads/references/Payloads/File-Names\nseclists-categories payloads/payloads/references/Payloads/File-Names/README.md\nseclists-categories payloads/payloads/references/Payloads/File-Names/directory-traversal.zip\nseclists-categories payloads/payloads/references/Payloads/File-Names/exec\nseclists-categories payloads/payloads/references/Payloads/File-Names/exec/Hello$(hostname)World.txt\nseclists-categories payloads/payloads/references/Payloads/File-Names/exec/Hello`hostname`World.txt\nseclists-categories payloads/payloads/references/Payloads/File-Names/max-length.zip\nseclists-categories payloads/payloads/references/Payloads/File-Names/null-byte\nseclists-categories payloads/payloads/references/Payloads/File-Names/null-byte/Hello%00World.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories usernames 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories usernames 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories usernames"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories usernames 模块说明",
+        "content": "模块路径: seclists-categories usernames/\n类型: source\n文件数: 8\n\n包含文件:\n- seclists-categories usernames/usernames\n- seclists-categories usernames/usernames/SKILL.md\n- seclists-categories usernames/usernames/references\n- seclists-categories usernames/usernames/references/Usernames\n- seclists-categories usernames/usernames/references/Usernames/Names\n- seclists-categories usernames/usernames/references/Usernames/Names/names.txt\n- seclists-categories usernames/usernames/references/Usernames/cirt-default-usernames.txt\n- seclists-categories usernames/usernames/references/Usernames/top-usernames-shortlist.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories usernames 文件结构",
+        "content": "seclists-categories usernames/usernames\nseclists-categories usernames/usernames/SKILL.md\nseclists-categories usernames/usernames/references\nseclists-categories usernames/usernames/references/Usernames\nseclists-categories usernames/usernames/references/Usernames/Names\nseclists-categories usernames/usernames/references/Usernames/Names/names.txt\nseclists-categories usernames/usernames/references/Usernames/cirt-default-usernames.txt\nseclists-categories usernames/usernames/references/Usernames/top-usernames-shortlist.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "awesome-claude-skills-security/seclists-categories web-shells 模块",
+    "description": "[模块级] awesome-claude-skills-security 项目的 seclists-categories web-shells 模块 (source)。来源: https://github.com/Eyadkelleh/awesome-claude-skills-security",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "ctfs",
+      "module-level",
+      "source",
+      "seclists-categories web-shells"
+    ],
+    "genes": [
+      {
+        "title": "seclists-categories web-shells 模块说明",
+        "content": "模块路径: seclists-categories web-shells/\n类型: source\n文件数: 89\n\n包含文件:\n- seclists-categories web-shells/web-shells\n- seclists-categories web-shells/web-shells/SKILL.md\n- seclists-categories web-shells/web-shells/references\n- seclists-categories web-shells/web-shells/references/Web-Shells\n- seclists-categories web-shells/web-shells/references/Web-Shells/CFM\n- seclists-categories web-shells/web-shells/references/Web-Shells/CFM/shell.cfm.html\n- seclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB\n- seclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd-simple.php\n- seclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.aspx\n- seclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.jsp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seclists-categories web-shells 文件结构",
+        "content": "seclists-categories web-shells/web-shells\nseclists-categories web-shells/web-shells/SKILL.md\nseclists-categories web-shells/web-shells/references\nseclists-categories web-shells/web-shells/references/Web-Shells\nseclists-categories web-shells/web-shells/references/Web-Shells/CFM\nseclists-categories web-shells/web-shells/references/Web-Shells/CFM/shell.cfm.html\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd-simple.php\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.aspx\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.jsp\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.php\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/cmd.sh\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/list.jsp\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/list.php\nseclists-categories web-shells/web-shells/references/Web-Shells/FuzzDB/list.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  }
+]

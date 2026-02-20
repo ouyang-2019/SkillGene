@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Prompt_Engineering (NirDiamant)",
+    "description": "[项目级] This repository offers a comprehensive collection of tutorials and implementations for Prompt Engineering techniques, ranging from fundamental concepts to advanced strategies. It serves as an essential resource for mastering the art of effectively communicating with and leveraging large language models in AI applications.。来源: https://github.com/NirDiamant/Prompt_Engineering",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "genai",
+      "llm",
+      "llms",
+      "opeani",
+      "jupyter notebook",
+      "stars-7152",
+      "github-nirdiamant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt engineering is at the forefront of artificial intelligence, revolutionizing the way we interact with and leverage AI technologies. This repository is designed to guide you through the development journey, from basic prompt structures to advanced, cutting-edge techniques.\n\nOur goal is to provide a valuable resource for everyone - from beginners taking their first steps in AI to seasoned practitioners pushing the boundaries of what's possible. By offering a range of examples from foundational to complex, we aim to facilitate learning, experimentation, and innovation in the rapidly evolving field of prompt engineering.\n\nFurthermore, this repository serves as a platform for showcasing innovative prompt engineering techniques. Whether you've developed a novel approach or found an innovat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/NirDiamant/Prompt_Engineering.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nall_prompt_engineering_techniques\nall_prompt_engineering_techniques/ambiguity-clarity.ipynb\nall_prompt_engineering_techniques/basic-prompt-structures.ipynb\nall_prompt_engineering_techniques/constrained-guided-generation.ipynb\nall_prompt_engineering_techniques/cot-prompting.ipynb\nall_prompt_engineering_techniques/ethical-prompt-engineering.ipynb\nall_prompt_engineering_techniques/evaluating-prompt-effectiveness.ipynb\nall_prompt_engineering_techniques/few-shot-learning.ipynb\nall_prompt_engineering_techniques/instruction-engineering-notebook.ipynb\nall_prompt_engineering_techniques/intro-prompt-engineering-lesson.ipynb\nall_prompt_engineering_techniques/multilingual-prompting.ipynb\nall_prompt_engineering_techniques/negative-prompting.ipynb\nall_prompt_engineering_techniques/prompt-chaining-sequencing.ipynb\nall_prompt_engineering_techniques/prompt-formatting-structure.ipynb\nall_prompt_engineering_techniques/prompt-length-complexity-management.ipynb\nall_prompt_engineering_techniques/prompt-optimization-techniques.ipynb\nall_prompt_engineering_techniques/prompt-security-and-safety.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎓 Learn prompt engineering techniques from beginner to advanced levels\n- 🧠 Explore a wide range of prompt structures and applications\n- 📚 Step-by-step tutorials and comprehensive documentation\n- 🛠️ Practical, ready-to-use prompt implementations\n- 🌟 Regular updates with the latest advancements in prompt engineering\n- 🤝 Share your own prompt engineering creations with the community",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.92721375289393
+  },
+  {
+    "name": "Prompt_Engineering/all_prompt_engineering_techniques 模块",
+    "description": "[模块级] Prompt_Engineering 项目的 all_prompt_engineering_techniques 模块 (source)。来源: https://github.com/NirDiamant/Prompt_Engineering",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "genai",
+      "llm",
+      "llms",
+      "opeani",
+      "module-level",
+      "source",
+      "all_prompt_engineering_techniques"
+    ],
+    "genes": [
+      {
+        "title": "all_prompt_engineering_techniques 模块说明",
+        "content": "模块路径: all_prompt_engineering_techniques/\n类型: source\n文件数: 22\n\n包含文件:\n- all_prompt_engineering_techniques/ambiguity-clarity.ipynb\n- all_prompt_engineering_techniques/basic-prompt-structures.ipynb\n- all_prompt_engineering_techniques/constrained-guided-generation.ipynb\n- all_prompt_engineering_techniques/cot-prompting.ipynb\n- all_prompt_engineering_techniques/ethical-prompt-engineering.ipynb\n- all_prompt_engineering_techniques/evaluating-prompt-effectiveness.ipynb\n- all_prompt_engineering_techniques/few-shot-learning.ipynb\n- all_prompt_engineering_techniques/instruction-engineering-notebook.ipynb\n- all_prompt_engineering_techniques/intro-prompt-engineering-lesson.ipynb\n- all_prompt_engineering_techniques/multilingual-prompting.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "all_prompt_engineering_techniques 文件结构",
+        "content": "all_prompt_engineering_techniques/ambiguity-clarity.ipynb\nall_prompt_engineering_techniques/basic-prompt-structures.ipynb\nall_prompt_engineering_techniques/constrained-guided-generation.ipynb\nall_prompt_engineering_techniques/cot-prompting.ipynb\nall_prompt_engineering_techniques/ethical-prompt-engineering.ipynb\nall_prompt_engineering_techniques/evaluating-prompt-effectiveness.ipynb\nall_prompt_engineering_techniques/few-shot-learning.ipynb\nall_prompt_engineering_techniques/instruction-engineering-notebook.ipynb\nall_prompt_engineering_techniques/intro-prompt-engineering-lesson.ipynb\nall_prompt_engineering_techniques/multilingual-prompting.ipynb\nall_prompt_engineering_techniques/negative-prompting.ipynb\nall_prompt_engineering_techniques/prompt-chaining-sequencing.ipynb\nall_prompt_engineering_techniques/prompt-formatting-structure.ipynb\nall_prompt_engineering_techniques/prompt-length-complexity-management.ipynb\nall_prompt_engineering_techniques/prompt-optimization-techniques.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.041771002315144
+  },
+  {
+    "name": "Prompt_Engineering/images 模块",
+    "description": "[模块级] Prompt_Engineering 项目的 images 模块 (source)。来源: https://github.com/NirDiamant/Prompt_Engineering",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "genai",
+      "llm",
+      "llms",
+      "opeani",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/book_image.jpeg\n- images/coderabbit_Dark_Type_Mark.png\n- images/coderabbit_Light_Type_Mark_Orange.png\n- images/iGPT-logo-Black.png\n- images/iGPT-logo-white.png\n- images/subscribe-button.svg\n- images/substack_image.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/book_image.jpeg\nimages/coderabbit_Dark_Type_Mark.png\nimages/coderabbit_Light_Type_Mark_Orange.png\nimages/iGPT-logo-Black.png\nimages/iGPT-logo-white.png\nimages/subscribe-button.svg\nimages/substack_image.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.041771002315144
+  }
+]

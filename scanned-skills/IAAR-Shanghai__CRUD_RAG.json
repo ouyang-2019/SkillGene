@@ -1,0 +1,96 @@
+[
+  {
+    "name": "CRUD_RAG (IAAR-Shanghai)",
+    "description": "[项目级] CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models。来源: https://github.com/IAAR-Shanghai/CRUD_RAG",
+    "domain": "general",
+    "tags": [
+      "benchmark",
+      "large-language-models",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-361",
+      "github-iaar-shanghai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains the official code of CRUD-RAG, a novel benchmark for evaluting the RAG systems. It includes the datasets we created for evaluating RAG systems, and a tutorial on how to run the experiments on our benchmark.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME.zh_CN.md\ndata\ndata/80000_docs\ndata/crud\ndata/crud_split\nevaluator.py\nquick_start.py\nrequirements.txt\nsrc\nsrc/.cache\nsrc/configs\nsrc/datasets\nsrc/embeddings\nsrc/llms\nsrc/metric\nsrc/prompts\nsrc/quest_eval\nsrc/retrievers\nsrc/tasks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.278753600952829
+  },
+  {
+    "name": "CRUD_RAG/data 模块",
+    "description": "[模块级] CRUD_RAG 项目的 data 模块 (source)。来源: https://github.com/IAAR-Shanghai/CRUD_RAG",
+    "domain": "general",
+    "tags": [
+      "benchmark",
+      "large-language-models",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-361",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 54\n\n包含文件:\n- data/80000_docs\n- data/80000_docs/documents_dup_part_10_part_1\n- data/80000_docs/documents_dup_part_10_part_2\n- data/80000_docs/documents_dup_part_10_part_3\n- data/80000_docs/documents_dup_part_11_part_1\n- data/80000_docs/documents_dup_part_11_part_2\n- data/80000_docs/documents_dup_part_11_part_3\n- data/80000_docs/documents_dup_part_12_part_1\n- data/80000_docs/documents_dup_part_12_part_2\n- data/80000_docs/documents_dup_part_12_part_3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/80000_docs\ndata/80000_docs/documents_dup_part_10_part_1\ndata/80000_docs/documents_dup_part_10_part_2\ndata/80000_docs/documents_dup_part_10_part_3\ndata/80000_docs/documents_dup_part_11_part_1\ndata/80000_docs/documents_dup_part_11_part_2\ndata/80000_docs/documents_dup_part_11_part_3\ndata/80000_docs/documents_dup_part_12_part_1\ndata/80000_docs/documents_dup_part_12_part_2\ndata/80000_docs/documents_dup_part_12_part_3\ndata/80000_docs/documents_dup_part_13_part_1\ndata/80000_docs/documents_dup_part_13_part_2\ndata/80000_docs/documents_dup_part_13_part_3\ndata/80000_docs/documents_dup_part_14_part_1\ndata/80000_docs/documents_dup_part_14_part_2",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523002880762263
+  },
+  {
+    "name": "CRUD_RAG/src 模块",
+    "description": "[模块级] CRUD_RAG 项目的 src 模块 (source)。来源: https://github.com/IAAR-Shanghai/CRUD_RAG",
+    "domain": "general",
+    "tags": [
+      "benchmark",
+      "large-language-models",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-361",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 51\n\n包含文件:\n- src/.cache\n- src/.cache/huggingface\n- src/.cache/huggingface/bleu\n- src/.cache/huggingface/bleu/README.md\n- src/.cache/huggingface/bleu/bleu.py\n- src/.cache/huggingface/bleu/nmt_bleu.py\n- src/.cache/huggingface/bleu/tokenizer_13a.py\n- src/.cache/huggingface/rouge\n- src/.cache/huggingface/rouge/rouge.py\n- src/configs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/.cache\nsrc/.cache/huggingface\nsrc/.cache/huggingface/bleu\nsrc/.cache/huggingface/bleu/README.md\nsrc/.cache/huggingface/bleu/bleu.py\nsrc/.cache/huggingface/bleu/nmt_bleu.py\nsrc/.cache/huggingface/bleu/tokenizer_13a.py\nsrc/.cache/huggingface/rouge\nsrc/.cache/huggingface/rouge/rouge.py\nsrc/configs\nsrc/configs/config.py\nsrc/datasets\nsrc/datasets/base.py\nsrc/datasets/xinhua.py\nsrc/embeddings",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523002880762263
+  }
+]

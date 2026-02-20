@@ -1,0 +1,117 @@
+[
+  {
+    "name": "dbt-agent-skills (dbt-labs)",
+    "description": "[项目级] A curated collection of Agent Skills for working with dbt, to help AI agents understand and execute dbt workflows more effectively.。来源: https://github.com/dbt-labs/dbt-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-171",
+      "github-dbt-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of Agent Skills for working with dbt, to help AI agents understand and execute dbt workflows more effectively.\n\n来源: https://github.com/dbt-labs/dbt-agent-skills\n语言: Python\nStars: 171",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nevals\nevals/.gitignore\nevals/AGENTS.md\nevals/CLAUDE.md\nevals/README.md\nevals/pyproject.toml\nevals/runs\nevals/scenarios\nevals/src\nevals/tests\nevals/uv.lock\npyproject.toml\nscripts\nscripts/README.md\nscripts/dbt-skills-install",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.116498055196077
+  },
+  {
+    "name": "dbt-agent-skills/evals 模块",
+    "description": "[模块级] dbt-agent-skills 项目的 evals 模块 (source)。来源: https://github.com/dbt-labs/dbt-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-171",
+      "github-dbt-labs",
+      "module-level",
+      "source",
+      "evals"
+    ],
+    "genes": [
+      {
+        "title": "evals 模块说明",
+        "content": "模块路径: evals/\n类型: source\n文件数: 52\n\n包含文件:\n- evals/.gitignore\n- evals/AGENTS.md\n- evals/CLAUDE.md\n- evals/README.md\n- evals/pyproject.toml\n- evals/runs\n- evals/runs/.gitignore\n- evals/scenarios\n- evals/scenarios/.gitignore\n- evals/scenarios/dbt-docs-arguments",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evals 文件结构",
+        "content": "evals/.gitignore\nevals/AGENTS.md\nevals/CLAUDE.md\nevals/README.md\nevals/pyproject.toml\nevals/runs\nevals/runs/.gitignore\nevals/scenarios\nevals/scenarios/.gitignore\nevals/scenarios/dbt-docs-arguments\nevals/scenarios/dbt-docs-arguments/prompt.txt\nevals/scenarios/dbt-docs-arguments/scenario.md\nevals/scenarios/dbt-docs-arguments/skill-sets.yaml\nevals/scenarios/dbt-docs-unit-test-fixtures\nevals/scenarios/dbt-docs-unit-test-fixtures/prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3931984441568614
+  },
+  {
+    "name": "dbt-agent-skills/scripts 模块",
+    "description": "[模块级] dbt-agent-skills 项目的 scripts 模块 (script)。来源: https://github.com/dbt-labs/dbt-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-171",
+      "github-dbt-labs",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/README.md\n- scripts/dbt-skills-install",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/README.md\nscripts/dbt-skills-install",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3931984441568614
+  },
+  {
+    "name": "dbt-agent-skills/skills 模块",
+    "description": "[模块级] dbt-agent-skills 项目的 skills 模块 (source)。来源: https://github.com/dbt-labs/dbt-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-171",
+      "github-dbt-labs",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A curated collection of [Agent Skills](https://agentskills.io/home) for working with dbt. These skills help AI agents understand and execute dbt workflows more effectively.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/dbt-migration\nskills/dbt-migration/.claude-plugin\nskills/dbt-migration/.claude-plugin/plugin.json\nskills/dbt-migration/skills\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/SKILL.md\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/references\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/references/README.md\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/references/custom_configuration.md\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/references/dynamic_sql.md\nskills/dbt-migration/skills/migrating-dbt-core-to-fusion/references/misspelled_config_keys.md\nskills/dbt-migration/skills/migrating-dbt-project-across-platforms\nskills/dbt-migration/skills/migrating-dbt-project-across-platforms/SKILL.md\nskills/dbt-migration/skills/migrating-dbt-project-across-platforms/references\nskills/dbt-migration/skills/migrating-dbt-project-across-platforms/references/generating-unit-tests.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3931984441568614
+  }
+]

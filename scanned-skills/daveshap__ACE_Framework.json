@@ -1,0 +1,84 @@
+[
+  {
+    "name": "ACE_Framework (daveshap)",
+    "description": "[项目级] ACE (Autonomous Cognitive Entities) - 100% local and open source autonomous agents。来源: https://github.com/daveshap/ACE_Framework",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1499",
+      "github-daveshap",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ACE (Autonomous Cognitive Entities) - 100% local and open source autonomous agents\n\n来源: https://github.com/daveshap/ACE_Framework\n语言: Python\nStars: 1499",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "ACE_Framework.md\nACE_PRIME\nACE_PRIME/HelloAF\nACE_PRIME/README.md\nCORE_DEMOS\nCORE_DEMOS/.DS_Store\nCORE_DEMOS/AceAF\nCORE_DEMOS/Glossary.md\nCORE_DEMOS/README.md\nCORE_DEMOS/__init__.py\nCORE_DEMOS/hello-layers",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.58790081642414
+  },
+  {
+    "name": "ACE_Framework/ACE_PRIME 模块",
+    "description": "[模块级] ACE_Framework 项目的 ACE_PRIME 模块 (source)。来源: https://github.com/daveshap/ACE_Framework",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1499",
+      "github-daveshap",
+      "module-level",
+      "source",
+      "ace_prime"
+    ],
+    "genes": [
+      {
+        "title": "ACE_PRIME 模块说明",
+        "content": "模块路径: ACE_PRIME/\n类型: source\n文件数: 92\n\n包含文件:\n- ACE_PRIME/HelloAF\n- ACE_PRIME/HelloAF/Dockerfile\n- ACE_PRIME/HelloAF/README.md\n- ACE_PRIME/HelloAF/dev.sh\n- ACE_PRIME/HelloAF/docker-compose-amqp-test.yaml\n- ACE_PRIME/HelloAF/docker-compose.dev.yaml\n- ACE_PRIME/HelloAF/docker-compose.yaml\n- ACE_PRIME/HelloAF/requirements.txt\n- ACE_PRIME/HelloAF/resource_manager.py\n- ACE_PRIME/HelloAF/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ACE_PRIME 文件结构",
+        "content": "ACE_PRIME/HelloAF\nACE_PRIME/HelloAF/Dockerfile\nACE_PRIME/HelloAF/README.md\nACE_PRIME/HelloAF/dev.sh\nACE_PRIME/HelloAF/docker-compose-amqp-test.yaml\nACE_PRIME/HelloAF/docker-compose.dev.yaml\nACE_PRIME/HelloAF/docker-compose.yaml\nACE_PRIME/HelloAF/requirements.txt\nACE_PRIME/HelloAF/resource_manager.py\nACE_PRIME/HelloAF/src\nACE_PRIME/HelloAF/src/ace\nACE_PRIME/HelloAF/src/ace/__init__.py\nACE_PRIME/HelloAF/src/ace/amqp\nACE_PRIME/HelloAF/src/ace/amqp/README.md\nACE_PRIME/HelloAF/src/ace/amqp/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.770320653139312
+  },
+  {
+    "name": "ACE_Framework/CORE_DEMOS 模块",
+    "description": "[模块级] ACE_Framework 项目的 CORE_DEMOS 模块 (source)。来源: https://github.com/daveshap/ACE_Framework",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1499",
+      "github-daveshap",
+      "module-level",
+      "source",
+      "core_demos"
+    ],
+    "genes": [
+      {
+        "title": "CORE_DEMOS 模块说明",
+        "content": "模块路径: CORE_DEMOS/\n类型: source\n文件数: 103\n\n包含文件:\n- CORE_DEMOS/.DS_Store\n- CORE_DEMOS/AceAF\n- CORE_DEMOS/AceAF/.agentforge\n- CORE_DEMOS/AceAF/.agentforge/actions\n- CORE_DEMOS/AceAF/.agentforge/actions/CreateFile.yaml\n- CORE_DEMOS/AceAF/.agentforge/actions/WebSearch.yaml\n- CORE_DEMOS/AceAF/.agentforge/agents\n- CORE_DEMOS/AceAF/.agentforge/agents/ChatAgents\n- CORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/GenerateAgent.yaml\n- CORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/ReflectAgent.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "CORE_DEMOS 文件结构",
+        "content": "CORE_DEMOS/.DS_Store\nCORE_DEMOS/AceAF\nCORE_DEMOS/AceAF/.agentforge\nCORE_DEMOS/AceAF/.agentforge/actions\nCORE_DEMOS/AceAF/.agentforge/actions/CreateFile.yaml\nCORE_DEMOS/AceAF/.agentforge/actions/WebSearch.yaml\nCORE_DEMOS/AceAF/.agentforge/agents\nCORE_DEMOS/AceAF/.agentforge/agents/ChatAgents\nCORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/GenerateAgent.yaml\nCORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/ReflectAgent.yaml\nCORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/TheoryAgent.yaml\nCORE_DEMOS/AceAF/.agentforge/agents/ChatAgents/ThoughtAgent.yaml\nCORE_DEMOS/AceAF/.agentforge/agents/Layers\nCORE_DEMOS/AceAF/.agentforge/agents/Layers/Aspirational.yaml\nCORE_DEMOS/AceAF/.agentforge/agents/Layers/CognitiveControl.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.770320653139312
+  }
+]

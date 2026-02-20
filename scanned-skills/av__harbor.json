@@ -1,0 +1,68 @@
+[
+  {
+    "name": "harbor (av)",
+    "description": "[项目级] One command brings a complete pre-wired LLM stack with hundreds of services to explore.。来源: https://github.com/av/harbor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "bash",
+      "cli",
+      "container",
+      "typescript",
+      "stars-2439",
+      "github-av",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "harbor opint\nharbor aider\nharbor aichat\nharbor cmdh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.md\nRELEASE.md\napp\napp/.editorconfig\napp/.gitignore\napp/README.md\napp/app-icon.png\napp/bun.lockb\napp/index.html\napp/package.json\napp/postcss.config.js\napp/public\napp/src-tauri\napp/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.693605900156865
+  },
+  {
+    "name": "harbor/app 模块",
+    "description": "[模块级] harbor 项目的 app 模块 (source)。来源: https://github.com/av/harbor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "bash",
+      "cli",
+      "container",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "https://github.com/user-attachments/assets/a5cd2ef1-3208-400a-8866-7abd85808503\n\nIn the demo, Harbor App is used to launch a default stack with [Ollama](./2.2.1-Backend:-Ollama) and [Open WebUI](./2.1.1-Frontend:-Open-WebUI) services. Later, [SearXNG](./2.3.1-Satellite:-SearXNG) is also started, and WebUI can connect to it for the Web RAG right out of the box. After that, [Harbor Boost](./5.2.-Harbor-Boost) is also started and connected to the WebUI automatically to induce more creative outputs.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.editorconfig\napp/.gitignore\napp/README.md\napp/app-icon.png\napp/bun.lockb\napp/index.html\napp/package.json\napp/postcss.config.js\napp/public\napp/public/tauri.svg\napp/public/vite.svg\napp/src-tauri\napp/src-tauri/.gitignore\napp/src-tauri/Cargo.lock\napp/src-tauri/Cargo.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8548847201254923
+  }
+]

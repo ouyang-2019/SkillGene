@@ -1,0 +1,168 @@
+[
+  {
+    "name": "5ire (nanbingxyz)",
+    "description": "[项目级] 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers .。来源: https://github.com/nanbingxyz/5ire",
+    "domain": "ai-llm",
+    "tags": [
+      "knowledge-base",
+      "llms",
+      "mcp",
+      "mcp-client",
+      "model-context-protocol",
+      "typescript",
+      "stars-5029",
+      "github-nanbingxyz",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers,  supports local knowledge base and  tools via model context protocol servers .\n\n来源: https://github.com/nanbingxyz/5ire\n语言: TypeScript\nStars: 5029",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- Python\n- Node.js\n- uv (Python package manager)\n\nThese components are required as they constitute the runtime environment for the MCP Server. If you don't anticipate using the tools feature immediately, you may choose to skip this installation step and complete it later when the need arises.\n\nFor detailed installation instructions, please see our [Installation Guide](INSTALLATION.md).\n\n<br/>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nDEVELOPMENT.md\nINSTALLATION.md\nLICENSE\nREADME.md\nbiome.json\nbuild\nbuild/dockicon.png\nbuild/entitlements.mac.inherit.plist\nbuild/entitlements.mac.plist\nbuild/icon.icns\nbuild/icon.ico\nbuild/icon.png\nbuild/icons\nbuild/installer.nsh\nbuild/release-notes.md\ndocs\ndocs/ARCHITECTURE.md\ndrizzle.config.ts\ndrizzle",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "By keeping track of your API usage and spending, you can gain a better understanding of how much you're spending on the API and make informed decisions to optimize your use of the service.\n\n![Usage Analytics Screenshot](https://5ire.app/analytics.png)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Python\n- Node.js\n- uv (Python package manager)\n\nThese components are required as they constitute the runtime environment for the MCP Server. If you don't anticipate using the tools feature immediately, you may choose to skip this installation step and complete it later when the need arises.\n\nFor detailed installation instructions, please see our [Installation Guide](INSTALLATION.md).\n\n<br/>",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.850740817810464
+  },
+  {
+    "name": "5ire/drizzle 模块",
+    "description": "[模块级] 5ire 项目的 drizzle 模块 (source)。来源: https://github.com/nanbingxyz/5ire",
+    "domain": "ai-llm",
+    "tags": [
+      "knowledge-base",
+      "llms",
+      "mcp",
+      "mcp-client",
+      "model-context-protocol",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 27\n\n包含文件:\n- drizzle/migrations\n- drizzle/migrations/0000_fast_nightmare.sql\n- drizzle/migrations/0001_rare_hercules.sql\n- drizzle/migrations/0002_easy_jimmy_woo.sql\n- drizzle/migrations/0003_careless_thunderbolt_ross.sql\n- drizzle/migrations/0004_broken_senator_kelly.sql\n- drizzle/migrations/0005_concerned_risque.sql\n- drizzle/migrations/0006_huge_omega_sentinel.sql\n- drizzle/migrations/0007_numerous_owl.sql\n- drizzle/migrations/0008_familiar_retro_girl.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/migrations\ndrizzle/migrations/0000_fast_nightmare.sql\ndrizzle/migrations/0001_rare_hercules.sql\ndrizzle/migrations/0002_easy_jimmy_woo.sql\ndrizzle/migrations/0003_careless_thunderbolt_ross.sql\ndrizzle/migrations/0004_broken_senator_kelly.sql\ndrizzle/migrations/0005_concerned_risque.sql\ndrizzle/migrations/0006_huge_omega_sentinel.sql\ndrizzle/migrations/0007_numerous_owl.sql\ndrizzle/migrations/0008_familiar_retro_girl.sql\ndrizzle/migrations/0009_luxuriant_talon.sql\ndrizzle/migrations/0010_hot_professor_monster.sql\ndrizzle/migrations/0011_swift_eddie_brock.sql\ndrizzle/migrations/meta\ndrizzle/migrations/meta/0000_snapshot.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9805926542483707
+  },
+  {
+    "name": "5ire/public 模块",
+    "description": "[模块级] 5ire 项目的 public 模块 (source)。来源: https://github.com/nanbingxyz/5ire",
+    "domain": "ai-llm",
+    "tags": [
+      "knowledge-base",
+      "llms",
+      "mcp",
+      "mcp-client",
+      "model-context-protocol",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 15\n\n包含文件:\n- public/locales\n- public/locales/de\n- public/locales/de/translation.json\n- public/locales/en\n- public/locales/en/translation.json\n- public/locales/es\n- public/locales/es/translation.json\n- public/locales/fr\n- public/locales/fr/translation.json\n- public/locales/ru",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/locales\npublic/locales/de\npublic/locales/de/translation.json\npublic/locales/en\npublic/locales/en/translation.json\npublic/locales/es\npublic/locales/es/translation.json\npublic/locales/fr\npublic/locales/fr/translation.json\npublic/locales/ru\npublic/locales/ru/translation.json\npublic/locales/zh-tw\npublic/locales/zh-tw/translation.json\npublic/locales/zh\npublic/locales/zh/translation.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9805926542483707
+  },
+  {
+    "name": "5ire/scripts 模块",
+    "description": "[模块级] 5ire 项目的 scripts 模块 (script)。来源: https://github.com/nanbingxyz/5ire",
+    "domain": "ai-llm",
+    "tags": [
+      "knowledge-base",
+      "llms",
+      "mcp",
+      "mcp-client",
+      "model-context-protocol",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/build\n- scripts/build/production-dependencies-installer.ts\n- scripts/daily-summary.ts\n- scripts/package\n- scripts/package/index.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build\nscripts/build/production-dependencies-installer.ts\nscripts/daily-summary.ts\nscripts/package\nscripts/package/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9805926542483707
+  },
+  {
+    "name": "5ire/src 模块",
+    "description": "[模块级] 5ire 项目的 src 模块 (source)。来源: https://github.com/nanbingxyz/5ire",
+    "domain": "ai-llm",
+    "tags": [
+      "knowledge-base",
+      "llms",
+      "mcp",
+      "mcp-client",
+      "model-context-protocol",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 101\n\n包含文件:\n- src/assets\n- src/assets/css\n- src/assets/css/fonts\n- src/assets/css/fonts/KaTeX_AMS-Regular.ttf\n- src/assets/css/fonts/KaTeX_AMS-Regular.woff\n- src/assets/css/fonts/KaTeX_AMS-Regular.woff2\n- src/assets/css/fonts/KaTeX_Caligraphic-Bold.ttf\n- src/assets/css/fonts/KaTeX_Caligraphic-Bold.woff\n- src/assets/css/fonts/KaTeX_Caligraphic-Bold.woff2\n- src/assets/css/fonts/KaTeX_Caligraphic-Regular.ttf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/assets\nsrc/assets/css\nsrc/assets/css/fonts\nsrc/assets/css/fonts/KaTeX_AMS-Regular.ttf\nsrc/assets/css/fonts/KaTeX_AMS-Regular.woff\nsrc/assets/css/fonts/KaTeX_AMS-Regular.woff2\nsrc/assets/css/fonts/KaTeX_Caligraphic-Bold.ttf\nsrc/assets/css/fonts/KaTeX_Caligraphic-Bold.woff\nsrc/assets/css/fonts/KaTeX_Caligraphic-Bold.woff2\nsrc/assets/css/fonts/KaTeX_Caligraphic-Regular.ttf\nsrc/assets/css/fonts/KaTeX_Caligraphic-Regular.woff\nsrc/assets/css/fonts/KaTeX_Caligraphic-Regular.woff2\nsrc/assets/css/fonts/KaTeX_Fraktur-Bold.ttf\nsrc/assets/css/fonts/KaTeX_Fraktur-Bold.woff\nsrc/assets/css/fonts/KaTeX_Fraktur-Bold.woff2",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9805926542483707
+  }
+]

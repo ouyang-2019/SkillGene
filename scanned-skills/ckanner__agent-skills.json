@@ -1,0 +1,103 @@
+[
+  {
+    "name": "agent-skills (ckanner)",
+    "description": "[项目级] A curated collection of Claude Agent Skills designed to enhance AI workflows with specialized capabilities.。来源: https://github.com/ckanner/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "shell",
+      "stars-20",
+      "github-ckanner",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of Claude Agent Skills designed to enhance AI workflows with specialized capabilities.\n\n来源: https://github.com/ckanner/agent-skills\n语言: Shell\nStars: 20",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_CN.md\njta\njta/.gitignore\njta/LICENSE.txt\njta/SKILL.md\njta/examples\njta/scripts\nprompt-optimizer\nprompt-optimizer/LICENSE.txt\nprompt-optimizer/SKILL.md\nprompt-optimizer/references",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "For API users, upload skills to your workspace:\n\n```python\nfrom anthropic import Anthropic\n\nclient = Anthropic()",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6505149978319906
+  },
+  {
+    "name": "agent-skills/jta 模块",
+    "description": "[模块级] agent-skills 项目的 jta 模块 (source)。来源: https://github.com/ckanner/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "jta"
+    ],
+    "genes": [
+      {
+        "title": "jta 模块说明",
+        "content": "AI-powered JSON internationalization file translator with agentic reflection mechanism for high-quality multilingual content.\n\n> **Source:** This skill is based on the open-source [Jta project](https://github.com/hikanner/jta)  \n> **Requirements:** Requires the `jta` CLI tool to be installed (the skill can auto-install it)\n\n**Key Features:**\n- **Agentic Translation**: AI translates, evaluates, and improves its own work (3x API calls per batch)\n- **Smart Terminology**: Automatically detects and m",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jta 文件结构",
+        "content": "jta/.gitignore\njta/LICENSE.txt\njta/SKILL.md\njta/examples\njta/examples/basic-translation.md\njta/examples/ci-cd-integration.md\njta/examples/incremental-mode.md\njta/scripts\njta/scripts/install.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0204119982655926
+  },
+  {
+    "name": "agent-skills/prompt-optimizer 模块",
+    "description": "[模块级] agent-skills 项目的 prompt-optimizer 模块 (source)。来源: https://github.com/ckanner/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "module-level",
+      "source",
+      "prompt-optimizer"
+    ],
+    "genes": [
+      {
+        "title": "prompt-optimizer 模块说明",
+        "content": "模块路径: prompt-optimizer/\n类型: source\n文件数: 5\n\n包含文件:\n- prompt-optimizer/LICENSE.txt\n- prompt-optimizer/SKILL.md\n- prompt-optimizer/references\n- prompt-optimizer/references/examples.md\n- prompt-optimizer/references/prompt-best-practices.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt-optimizer 文件结构",
+        "content": "prompt-optimizer/LICENSE.txt\nprompt-optimizer/SKILL.md\nprompt-optimizer/references\nprompt-optimizer/references/examples.md\nprompt-optimizer/references/prompt-best-practices.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0204119982655926
+  }
+]

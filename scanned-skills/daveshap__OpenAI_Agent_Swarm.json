@@ -1,0 +1,161 @@
+[
+  {
+    "name": "OpenAI_Agent_Swarm (daveshap)",
+    "description": "[项目级] HAAS = Hierarchical Autonomous Agent Swarm - \"Resistance is futile!\"。来源: https://github.com/daveshap/OpenAI_Agent_Swarm",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "autonomous",
+      "swarm",
+      "python",
+      "stars-3092",
+      "github-daveshap",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Hierarchical Autonomous Agent Swarm (HAAS) is a groundbreaking initiative that leverages OpenAI's latest advancements in agent-based APIs to create a self-organizing and ethically governed ecosystem of AI agents. Drawing inspiration from the ACE Framework, HAAS introduces a novel approach to AI governance and operation, where a hierarchy of specialized agents, each with distinct roles and capabilities, collaborate to solve complex problems and perform a wide array of tasks.\n\nThe HAAS is designed to be a self-expanding system where a core set of agents, governed by a Supreme Oversight Board (SOB), can design, provision, and manage an arbitrary number of sub-agents tailored to specific needs. This document serves as a comprehensive guide to the theoretical underpinnings, architectural de",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "source .env",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/agent_builder\nagents/gpts\nagents/manual_assistants\nagents/tool_maker\ncode_of_conduct.md\ncontributing.md\ndocumentation\ndocumentation/HAAS_Documentation.md\ndocumentation/OpenAI_Documentation.md\ndocumentation/SOB.png\nglobal_context\nglobal_context/HAAS_Documentation.md\nglobal_context/OpenAI_Documentation.md\nmission.md\nrequirements.txt\nshared\nshared/agent_connector",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.745119742623144
+  },
+  {
+    "name": "OpenAI_Agent_Swarm/agents 模块",
+    "description": "[模块级] OpenAI_Agent_Swarm 项目的 agents 模块 (source)。来源: https://github.com/daveshap/OpenAI_Agent_Swarm",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "autonomous",
+      "swarm",
+      "python",
+      "stars-3092",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Below the SOB are the Executive Agents, akin to the executive leadership in a corporation. These agents are tasked with:\n\n- Translating the SOB's directives into actionable plans and strategies.\n- Overseeing specific operational domains such as resource allocation, process optimization, and task execution.\n- Coordinating with one another to ensure the smooth operation of the agent swarm.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/agent_builder\nagents/agent_builder/README.md\nagents/agent_builder/agent_definition.md\nagents/agent_builder/agents\nagents/agent_builder/agents/Autonomous Swarm Agent Builder\nagents/agent_builder/agents/Autonomous Swarm Agent Builder/files\nagents/agent_builder/agents/Autonomous Swarm Agent Builder/files/HAAS_Documentation.md\nagents/agent_builder/agents/Autonomous Swarm Agent Builder/files/OpenAI_Documentation.md\nagents/agent_builder/agents/Autonomous Swarm Agent Builder/instructions.md\nagents/agent_builder/agents/Autonomous Swarm Agent Builder/settings.json\nagents/agent_builder/agents/temporary_function_writer\nagents/agent_builder/agents/temporary_function_writer/instructions.md\nagents/agent_builder/agents/temporary_function_writer/settings.json\nagents/agent_builder/agents/tool_creator\nagents/agent_builder/agents/tool_creator/instructions.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.896095794098515
+  },
+  {
+    "name": "OpenAI_Agent_Swarm/documentation 模块",
+    "description": "[模块级] OpenAI_Agent_Swarm 项目的 documentation 模块 (docs)。来源: https://github.com/daveshap/OpenAI_Agent_Swarm",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "autonomous",
+      "swarm",
+      "python",
+      "stars-3092",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "模块路径: documentation/\n类型: docs\n文件数: 3\n\n包含文件:\n- documentation/HAAS_Documentation.md\n- documentation/OpenAI_Documentation.md\n- documentation/SOB.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/HAAS_Documentation.md\ndocumentation/OpenAI_Documentation.md\ndocumentation/SOB.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.896095794098515
+  },
+  {
+    "name": "OpenAI_Agent_Swarm/global_context 模块",
+    "description": "[模块级] OpenAI_Agent_Swarm 项目的 global_context 模块 (source)。来源: https://github.com/daveshap/OpenAI_Agent_Swarm",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "autonomous",
+      "swarm",
+      "python",
+      "stars-3092",
+      "module-level",
+      "source",
+      "global_context"
+    ],
+    "genes": [
+      {
+        "title": "global_context 模块说明",
+        "content": "模块路径: global_context/\n类型: source\n文件数: 2\n\n包含文件:\n- global_context/HAAS_Documentation.md\n- global_context/OpenAI_Documentation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "global_context 文件结构",
+        "content": "global_context/HAAS_Documentation.md\nglobal_context/OpenAI_Documentation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.896095794098515
+  },
+  {
+    "name": "OpenAI_Agent_Swarm/shared 模块",
+    "description": "[模块级] OpenAI_Agent_Swarm 项目的 shared 模块 (source)。来源: https://github.com/daveshap/OpenAI_Agent_Swarm",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "autonomous",
+      "swarm",
+      "python",
+      "stars-3092",
+      "module-level",
+      "source",
+      "shared"
+    ],
+    "genes": [
+      {
+        "title": "shared 模块说明",
+        "content": "模块路径: shared/\n类型: source\n文件数: 16\n\n包含文件:\n- shared/agent_connector\n- shared/agent_connector/README.md\n- shared/agent_connector/agents.yaml\n- shared/agent_connector/connect.py\n- shared/discord_comms\n- shared/discord_comms/README.md\n- shared/discord_comms/discord_comms.py\n- shared/discord_comms/discord_comms_example.py\n- shared/discord_comms/discord_comms_settings.py\n- shared/github_communication",
+        "gene_type": "principle"
+      },
+      {
+        "title": "shared 文件结构",
+        "content": "shared/agent_connector\nshared/agent_connector/README.md\nshared/agent_connector/agents.yaml\nshared/agent_connector/connect.py\nshared/discord_comms\nshared/discord_comms/README.md\nshared/discord_comms/discord_comms.py\nshared/discord_comms/discord_comms_example.py\nshared/discord_comms/discord_comms_settings.py\nshared/github_communication\nshared/github_communication/README.md\nshared/github_communication/github_api_test_area.ipynb\nshared/github_communication/github_api_wrapper.py\nshared/openai_config.py\nshared/settings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.896095794098515
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "langchain-mcp-adapters (langchain-ai)",
+    "description": "[项目级] LangChain 🔌 MCP。来源: https://github.com/langchain-ai/langchain-mcp-adapters",
+    "domain": "ai-llm",
+    "tags": [
+      "langchain",
+      "langgraph",
+      "mcp",
+      "python",
+      "tools",
+      "stars-3361",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LangChain 🔌 MCP\n\n来源: https://github.com/langchain-ai/langchain-mcp-adapters\n语言: Python\nStars: 3361",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install langchain-mcp-adapters",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nSECURITY.md\nexamples\nexamples/servers\nlangchain_mcp_adapters\nlangchain_mcp_adapters/__init__.py\nlangchain_mcp_adapters/callbacks.py\nlangchain_mcp_adapters/client.py\nlangchain_mcp_adapters/interceptors.py\nlangchain_mcp_adapters/prompts.py\nlangchain_mcp_adapters/py.typed\nlangchain_mcp_adapters/resources.py\nlangchain_mcp_adapters/sessions.py\nlangchain_mcp_adapters/tools.py\npyproject.toml\nstatic\nstatic/img\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Use it with `MultiServerMCPClient`:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🛠️ Convert MCP tools into [LangChain tools](https://python.langchain.com/docs/concepts/tools/) that can be used with [LangGraph](https://github.com/langchain-ai/langgraph) agents\n- 📦 A client implementation that allows you to connect to multiple MCP servers and load tools from them",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.763234256234739
+  },
+  {
+    "name": "langchain-mcp-adapters/examples 模块",
+    "description": "[模块级] langchain-mcp-adapters 项目的 examples 模块 (example)。来源: https://github.com/langchain-ai/langchain-mcp-adapters",
+    "domain": "ai-llm",
+    "tags": [
+      "langchain",
+      "langgraph",
+      "mcp",
+      "python",
+      "tools",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "from mcp import ClientSession\nfrom mcp.client.streamable_http import streamablehttp_client\n\nfrom langchain.agents import create_agent\nfrom langchain_mcp_adapters.tools import load_mcp_tools\n\nasync with streamablehttp_client(\"http://localhost:3000/mcp\") as (read, write, _):\n    async with ClientSession(read, write) as session:\n        # Initialize the connection\n        await session.initialize()\n\n        # Get tools\n        tools = await load_mcp_tools(session)\n        agent = create_agent(\"open",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/servers\nexamples/servers/streamable-http-stateless\nexamples/servers/streamable-http-stateless/README.md\nexamples/servers/streamable-http-stateless/mcp_simple_streamablehttp_stateless\nexamples/servers/streamable-http-stateless/mcp_simple_streamablehttp_stateless/__init__.py\nexamples/servers/streamable-http-stateless/mcp_simple_streamablehttp_stateless/__main__.py\nexamples/servers/streamable-http-stateless/mcp_simple_streamablehttp_stateless/server.py\nexamples/servers/streamable-http-stateless/pyproject.toml\nexamples/servers/streamable-http-stateless/uv.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "examples 代码示例",
+        "content": "Use it with `MultiServerMCPClient`:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9105874049877913
+  },
+  {
+    "name": "langchain-mcp-adapters/langchain_mcp_adapters 模块",
+    "description": "[模块级] langchain-mcp-adapters 项目的 langchain_mcp_adapters 模块 (source)。来源: https://github.com/langchain-ai/langchain-mcp-adapters",
+    "domain": "ai-llm",
+    "tags": [
+      "langchain",
+      "langgraph",
+      "mcp",
+      "python",
+      "tools",
+      "module-level",
+      "source",
+      "langchain_mcp_adapters"
+    ],
+    "genes": [
+      {
+        "title": "langchain_mcp_adapters 模块说明",
+        "content": "模块路径: langchain_mcp_adapters/\n类型: source\n文件数: 9\n\n包含文件:\n- langchain_mcp_adapters/__init__.py\n- langchain_mcp_adapters/callbacks.py\n- langchain_mcp_adapters/client.py\n- langchain_mcp_adapters/interceptors.py\n- langchain_mcp_adapters/prompts.py\n- langchain_mcp_adapters/py.typed\n- langchain_mcp_adapters/resources.py\n- langchain_mcp_adapters/sessions.py\n- langchain_mcp_adapters/tools.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "langchain_mcp_adapters 文件结构",
+        "content": "langchain_mcp_adapters/__init__.py\nlangchain_mcp_adapters/callbacks.py\nlangchain_mcp_adapters/client.py\nlangchain_mcp_adapters/interceptors.py\nlangchain_mcp_adapters/prompts.py\nlangchain_mcp_adapters/py.typed\nlangchain_mcp_adapters/resources.py\nlangchain_mcp_adapters/sessions.py\nlangchain_mcp_adapters/tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9105874049877913
+  },
+  {
+    "name": "langchain-mcp-adapters/static 模块",
+    "description": "[模块级] langchain-mcp-adapters 项目的 static 模块 (source)。来源: https://github.com/langchain-ai/langchain-mcp-adapters",
+    "domain": "ai-llm",
+    "tags": [
+      "langchain",
+      "langgraph",
+      "mcp",
+      "python",
+      "tools",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 2\n\n包含文件:\n- static/img\n- static/img/mcp.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/img\nstatic/img/mcp.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9105874049877913
+  },
+  {
+    "name": "langchain-mcp-adapters/tests 模块",
+    "description": "[模块级] langchain-mcp-adapters 项目的 tests 模块 (test)。来源: https://github.com/langchain-ai/langchain-mcp-adapters",
+    "domain": "testing",
+    "tags": [
+      "langchain",
+      "langgraph",
+      "mcp",
+      "python",
+      "tools",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 16\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/servers\n- tests/servers/__init__.py\n- tests/servers/math_server.py\n- tests/servers/time_server.py\n- tests/servers/weather_server.py\n- tests/test_callbacks.py\n- tests/test_client.py\n- tests/test_elicitation.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/servers\ntests/servers/__init__.py\ntests/servers/math_server.py\ntests/servers/time_server.py\ntests/servers/weather_server.py\ntests/test_callbacks.py\ntests/test_client.py\ntests/test_elicitation.py\ntests/test_import.py\ntests/test_interceptors.py\ntests/test_prompts.py\ntests/test_resources.py\ntests/test_tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9105874049877913
+  }
+]

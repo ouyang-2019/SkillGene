@@ -1,0 +1,103 @@
+[
+  {
+    "name": "mcp-agent (lastmile-ai)",
+    "description": "[项目级] Build effective agents using Model Context Protocol and simple workflow patterns。来源: https://github.com/lastmile-ai/mcp-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "llm",
+      "llms",
+      "python",
+      "stars-8037",
+      "github-lastmile-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**`mcp-agent`** is a simple, composable framework to build effective agents using [Model Context Protocol](https://modelcontextprotocol.io/introduction).\n\n> [!Note]\n> mcp-agent's vision is that _MCP is all you need to build agents, and that simple patterns are more robust than complex architectures for shipping high-quality agents_.\n\n`mcp-agent` gives you the following:\n\n1. **Full MCP support**: It _fully_ implements MCP, and handles the pesky business of managing the lifecycle of MCP server connections so you don't have to.\n2. **Effective agent patterns**: It implements every pattern described in Anthropic's [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) in a _composable_ way, allowing you to chain these patterns together.\n3. **Durable agents*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nLLMS.txt\nMakefile\nREADME.md\nSECURITY.md\ndocs\ndocs/README.md\ndocs/advanced\ndocs/cloud\ndocs/concepts\ndocs/configuration.mdx\ndocs/css\ndocs/docs.json\ndocs/favicon.png\ndocs/get-started\ndocs/images\ndocs/logo\ndocs/mcp-agent-sdk\ndocs/mcp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Browse [gallery.md](gallery.md) for runnable examples, demo videos, and community projects grouped by concept. Every entry cites the docs page and command you need to run it locally.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.952546984163936
+  },
+  {
+    "name": "mcp-agent/docs 模块",
+    "description": "[模块级] mcp-agent 项目的 docs 模块 (docs)。来源: https://github.com/lastmile-ai/mcp-agent",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "llm",
+      "llms",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/advanced\ndocs/advanced/composition.mdx\ndocs/advanced/monitoring.mdx\ndocs/advanced/temporal.mdx\ndocs/cloud\ndocs/cloud/authentication\ndocs/cloud/authentication/deployment-auth.mdx\ndocs/cloud/authentication/external-mcp-auth.mdx\ndocs/cloud/authentication/overview.mdx\ndocs/cloud/deployment-quickstart.mdx\ndocs/cloud/mcp-agent-cloud\ndocs/cloud/mcp-agent-cloud/deploy-mcp-server.mdx\ndocs/cloud/mcp-agent-cloud/long-running-tools.mdx\ndocs/cloud/mcp-agent-cloud/manage-secrets.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.062037587331148
+  },
+  {
+    "name": "mcp-agent/examples 模块",
+    "description": "[模块级] mcp-agent 项目的 examples 模块 (example)。来源: https://github.com/lastmile-ai/mcp-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "llm",
+      "llms",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Browse [gallery.md](gallery.md) for runnable examples, demo videos, and community projects grouped by concept. Every entry cites the docs page and command you need to run it locally.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/basic\nexamples/basic/agent_factory\nexamples/basic/agent_factory/README.md\nexamples/basic/agent_factory/agents.yaml\nexamples/basic/agent_factory/auto_loaded_subagents.py\nexamples/basic/agent_factory/load_and_route.py\nexamples/basic/agent_factory/main.py\nexamples/basic/agent_factory/mcp_agent.config.yaml\nexamples/basic/agent_factory/mcp_agent.secrets.yaml.example\nexamples/basic/agent_factory/orchestrator_demo.py\nexamples/basic/agent_factory/parallel_demo.py\nexamples/basic/agent_factory/requirements.txt\nexamples/basic/agent_factory/run_worker.py\nexamples/basic/functions\nexamples/basic/functions/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.062037587331148
+  }
+]

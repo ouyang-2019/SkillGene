@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-nanobanana-pro (ZeroLu)",
+    "description": "[项目级] 🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) AI image model.。来源: https://github.com/ZeroLu/awesome-nanobanana-pro",
+    "domain": "general",
+    "tags": [
+      "gemini",
+      "nanobanana",
+      "nanobanana-pro",
+      "nanobanana2",
+      "nanobananapro",
+      "stars-8950",
+      "github-zerolu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 An awesome list of curated Nano Banana pro prompts and examples. Your go-to resource for mastering prompt engineering and exploring the creative potential of the Nano banana pro(Nano banana 2) AI image model.\n\n来源: https://github.com/ZeroLu/awesome-nanobanana-pro\n语言: unknown\nStars: 8950",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.975911517657956
+  }
+]

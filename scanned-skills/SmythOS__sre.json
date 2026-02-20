@@ -1,0 +1,78 @@
+[
+  {
+    "name": "sre (SmythOS)",
+    "description": "[项目级] The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across local, cloud, and edge environments.。来源: https://github.com/SmythOS/sre",
+    "domain": "devops",
+    "tags": [
+      "agent-framework",
+      "agents",
+      "agi",
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-1233",
+      "github-smythos",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across local, cloud, and edge environments.\n\n来源: https://github.com/SmythOS/sre\n语言: TypeScript\nStars: 1233",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "We made a great tutorial that's really worth watching:\n\n[![Watch Video](https://img.youtube.com/vi/TRETl7AG-Gc/maxresdefault.jpg)](https://www.youtube.com/watch?v=TRETl7AG-Gc)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE.md\nREADME.md\nSECURITY.md\ndocs\ndocs/.nojekyll\ndocs/_build\ndocs/cli\ndocs/core\ndocs/images\ndocs/index.html\ndocs/sdk",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The SDK allows you to build agents with code or load and run a .smyth file.\n.smyth is the extension of agents built with our SmythOS builder.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature               | Description                                            |\n| --------------------- | ------------------------------------------------------ |\n| **Agent-Centric**     | Built specifically for AI agent workloads and patterns |\n| **Secure by Default** | Enterprise-grade security with data isolation          |\n| **High Performance**  | Optimized for high-throughput AI operations            |\n| **Modular**           | Swap any component without breaking your system        |\n| **Observable**        | Built-in monitoring, logging, and debugging tools      |\n| **Cloud-Native** ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5454815382978655
+  },
+  {
+    "name": "sre/docs 模块",
+    "description": "[模块级] sre 项目的 docs 模块 (docs)。来源: https://github.com/SmythOS/sre",
+    "domain": "documentation",
+    "tags": [
+      "agent-framework",
+      "agents",
+      "agi",
+      "ai",
+      "ai-agents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 174\n\n包含文件:\n- docs/.nojekyll\n- docs/_build\n- docs/_build/assets\n- docs/_build/assets/custom.css\n- docs/_build/assets/custom.js\n- docs/_build/scripts\n- docs/_build/scripts/typedoc-theme-plugin.cjs\n- docs/cli\n- docs/cli/.nojekyll\n- docs/cli/assets",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.nojekyll\ndocs/_build\ndocs/_build/assets\ndocs/_build/assets/custom.css\ndocs/_build/assets/custom.js\ndocs/_build/scripts\ndocs/_build/scripts/typedoc-theme-plugin.cjs\ndocs/cli\ndocs/cli/.nojekyll\ndocs/cli/assets\ndocs/cli/assets/custom.css\ndocs/cli/assets/custom.js\ndocs/cli/assets/hierarchy.js\ndocs/cli/assets/highlight.css\ndocs/cli/assets/icons.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7363852306382928
+  }
+]

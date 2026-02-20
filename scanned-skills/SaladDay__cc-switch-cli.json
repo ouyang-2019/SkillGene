@@ -1,0 +1,122 @@
+[
+  {
+    "name": "cc-switch-cli (SaladDay)",
+    "description": "[项目级] ⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex & Gemini CLI.。来源: https://github.com/SaladDay/cc-switch-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-616",
+      "github-saladday",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This project is a **CLI fork** of [CC-Switch](https://github.com/farion1231/cc-switch).\n\n\n**Credits:** Original architecture and core functionality from [farion1231/cc-switch](https://github.com/farion1231/cc-switch)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Interactive Mode (Recommended)**\n```bash\ncc-switch\n```\n🤩 Follow on-screen menus to explore features.\n\n**Command-Line Mode**\n```bash\ncc-switch provider list              # List providers\ncc-switch provider switch <id>       # Switch provider\ncc-switch mcp sync                   # Sync MCP servers",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nLICENSE\nREADME.md\nREADME_ZH.md\nREADME_i18n.md\nassets\nassets/partners\nassets/screenshots\ndocs\ndocs/BACKEND_REFACTOR_PLAN.md\ndocs/CODEX_MCP_RAW_TOML_PLAN.md\ndocs/REFACTORING_CHECKLIST.md\ndocs/REFACTORING_MASTER_PLAN.md\ndocs/REFACTORING_REFERENCE.md\ndocs/TEST_DEVELOPMENT_PLAN.md\ndocs/plans\ndocs/release-note-v3.6.0-en.md\ndocs/release-note-v3.6.0-zh.md\ndocs/release-note-v3.6.1-en.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.394790356082213
+  },
+  {
+    "name": "cc-switch-cli/assets 模块",
+    "description": "[模块级] cc-switch-cli 项目的 assets 模块 (source)。来源: https://github.com/SaladDay/cc-switch-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-616",
+      "github-saladday",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 19\n\n包含文件:\n- assets/partners\n- assets/partners/banners\n- assets/partners/banners/glm-en.jpg\n- assets/partners/banners/glm-zh.jpg\n- assets/partners/logos\n- assets/partners/logos/packycode.png\n- assets/partners/logos/sds-en.png\n- assets/partners/logos/sds-zh.png\n- assets/screenshots\n- assets/screenshots/add-ch.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/partners\nassets/partners/banners\nassets/partners/banners/glm-en.jpg\nassets/partners/banners/glm-zh.jpg\nassets/partners/logos\nassets/partners/logos/packycode.png\nassets/partners/logos/sds-en.png\nassets/partners/logos/sds-zh.png\nassets/screenshots\nassets/screenshots/add-ch.png\nassets/screenshots/add-en.png\nassets/screenshots/home-en.png\nassets/screenshots/home-zh.png\nassets/screenshots/main-ch.png\nassets/screenshots/main-en.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6158322848657702
+  },
+  {
+    "name": "cc-switch-cli/docs 模块",
+    "description": "[模块级] cc-switch-cli 项目的 docs 模块 (docs)。来源: https://github.com/SaladDay/cc-switch-cli",
+    "domain": "documentation",
+    "tags": [
+      "rust",
+      "stars-616",
+      "github-saladday",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 23\n\n包含文件:\n- docs/BACKEND_REFACTOR_PLAN.md\n- docs/CODEX_MCP_RAW_TOML_PLAN.md\n- docs/REFACTORING_CHECKLIST.md\n- docs/REFACTORING_MASTER_PLAN.md\n- docs/REFACTORING_REFERENCE.md\n- docs/TEST_DEVELOPMENT_PLAN.md\n- docs/plans\n- docs/plans/2026-01-29-phase1-mcp-provider-correctness-plan.md\n- docs/plans/2026-01-29-upstream-backend-alignment.md\n- docs/plans/2026-01-30-ratatui-tui-refactor.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BACKEND_REFACTOR_PLAN.md\ndocs/CODEX_MCP_RAW_TOML_PLAN.md\ndocs/REFACTORING_CHECKLIST.md\ndocs/REFACTORING_MASTER_PLAN.md\ndocs/REFACTORING_REFERENCE.md\ndocs/TEST_DEVELOPMENT_PLAN.md\ndocs/plans\ndocs/plans/2026-01-29-phase1-mcp-provider-correctness-plan.md\ndocs/plans/2026-01-29-upstream-backend-alignment.md\ndocs/plans/2026-01-30-ratatui-tui-refactor.md\ndocs/plans/2026-02-01-tui-add-forms.md\ndocs/plans/2026-02-05-v4.6.2-sponsor-ui-cleanup.md\ndocs/plans/2026-02-06-jianguoyun-one-click-setup-plan.md\ndocs/release-note-v3.6.0-en.md\ndocs/release-note-v3.6.0-zh.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6158322848657702
+  },
+  {
+    "name": "cc-switch-cli/src-tauri 模块",
+    "description": "[模块级] cc-switch-cli 项目的 src-tauri 模块 (source)。来源: https://github.com/SaladDay/cc-switch-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-616",
+      "github-saladday",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 144\n\n包含文件:\n- src-tauri/.gitignore\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/Info.plist\n- src-tauri/icons\n- src-tauri/icons/128x128.png\n- src-tauri/icons/128x128@2x.png\n- src-tauri/icons/32x32.png\n- src-tauri/icons/64x64.png\n- src-tauri/icons/Square107x107Logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.gitignore\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/Info.plist\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/64x64.png\nsrc-tauri/icons/Square107x107Logo.png\nsrc-tauri/icons/Square142x142Logo.png\nsrc-tauri/icons/Square150x150Logo.png\nsrc-tauri/icons/Square284x284Logo.png\nsrc-tauri/icons/Square30x30Logo.png\nsrc-tauri/icons/Square310x310Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6158322848657702
+  }
+]

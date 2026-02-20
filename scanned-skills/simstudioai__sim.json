@@ -1,0 +1,68 @@
+[
+  {
+    "name": "sim (simstudioai)",
+    "description": "[项目级] Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.。来源: https://github.com/simstudioai/sim",
+    "domain": "web-frontend",
+    "tags": [
+      "agent-workflow",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "aiagents",
+      "typescript",
+      "stars-26492",
+      "github-simstudioai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.\n\n来源: https://github.com/simstudioai/sim\n语言: TypeScript\nStars: 26492",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/simstudioai/sim.git\ncd sim\nbun install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nNOTICE\nREADME.md\napps\napps/docs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "sim/apps 模块",
+    "description": "[模块级] sim 项目的 apps 模块 (source)。来源: https://github.com/simstudioai/sim",
+    "domain": "web-frontend",
+    "tags": [
+      "agent-workflow",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "aiagents",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 129\n\n包含文件:\n- apps/docs\n- apps/docs/.gitignore\n- apps/docs/README.md\n- apps/docs/app\n- apps/docs/app/[lang]\n- apps/docs/app/[lang]/[[...slug]]\n- apps/docs/app/[lang]/[[...slug]]/page.tsx\n- apps/docs/app/[lang]/layout.tsx\n- apps/docs/app/[lang]/not-found.tsx\n- apps/docs/app/api",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/docs\napps/docs/.gitignore\napps/docs/README.md\napps/docs/app\napps/docs/app/[lang]\napps/docs/app/[lang]/[[...slug]]\napps/docs/app/[lang]/[[...slug]]/page.tsx\napps/docs/app/[lang]/layout.tsx\napps/docs/app/[lang]/not-found.tsx\napps/docs/app/api\napps/docs/app/api/og\napps/docs/app/api/og/route.tsx\napps/docs/app/api/search\napps/docs/app/api/search/route.ts\napps/docs/app/global.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.26924589854994
+  }
+]

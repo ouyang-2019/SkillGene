@@ -1,0 +1,68 @@
+[
+  {
+    "name": "potpie (potpie-ai)",
+    "description": "[项目级] Prompt-To-Agent : Create custom engineering agents for your codebase。来源: https://github.com/potpie-ai/potpie",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "artificial-intelligence",
+      "developer-tools",
+      "python",
+      "stars-5160",
+      "github-potpie-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt-To-Agent : Create custom engineering agents for your codebase\n\n来源: https://github.com/potpie-ai/potpie\n语言: Python\nStars: 5160",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nalembic.ini\napp\napp/alembic\napp/api\napp/celery\napp/core\napp/main.py\napp/modules",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.856324850813605
+  },
+  {
+    "name": "potpie/app 模块",
+    "description": "[模块级] potpie 项目的 app 模块 (source)。来源: https://github.com/potpie-ai/potpie",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "artificial-intelligence",
+      "developer-tools",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 181\n\n包含文件:\n- app/alembic\n- app/alembic/README\n- app/alembic/env.py\n- app/alembic/script.py.mako\n- app/alembic/versions\n- app/alembic/versions/20240812184546_6d16b920a3ec_initial_migration.py\n- app/alembic/versions/20240812190934_5ceb460ac3ef_adding_support_for_projects.py\n- app/alembic/versions/20240812211350_bcc569077106_utc_timestamps_and_indexing.py\n- app/alembic/versions/20240813145447_56e7763c7d20_add_on_delete_cascade_to_message_.py\n- app/alembic/versions/20240820182032_d3f532773223_changes_for_implementation_of_.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/alembic\napp/alembic/README\napp/alembic/env.py\napp/alembic/script.py.mako\napp/alembic/versions\napp/alembic/versions/20240812184546_6d16b920a3ec_initial_migration.py\napp/alembic/versions/20240812190934_5ceb460ac3ef_adding_support_for_projects.py\napp/alembic/versions/20240812211350_bcc569077106_utc_timestamps_and_indexing.py\napp/alembic/versions/20240813145447_56e7763c7d20_add_on_delete_cascade_to_message_.py\napp/alembic/versions/20240820182032_d3f532773223_changes_for_implementation_of_.py\napp/alembic/versions/20240823164559_05069444feee_project_id_to_string_anddelete_col.py\napp/alembic/versions/20240826215938_3c7be0985b17_search_index.py\napp/alembic/versions/20240828094302_48240c0ce09e_add_agent_id_support_in_conversation_.py\napp/alembic/versions/20240902105155_6b44dc81d95d_prompt_tables.py\napp/alembic/versions/20240905144257_342902c88262_add_user_preferences_table.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9850598806508843
+  }
+]

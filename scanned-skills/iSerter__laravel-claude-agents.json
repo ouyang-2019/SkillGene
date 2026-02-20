@@ -1,0 +1,71 @@
+[
+  {
+    "name": "laravel-claude-agents (iSerter)",
+    "description": "[项目级] Awesome Claude Code Subagents and Skills for Laravel.。来源: https://github.com/iSerter/laravel-claude-agents",
+    "domain": "devops",
+    "tags": [
+      "php",
+      "stars-18",
+      "github-iserter",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome Claude Code Subagents and Skills for Laravel.\n\n来源: https://github.com/iSerter/laravel-claude-agents\n语言: PHP\nStars: 18",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "composer require iserter/laravel-claude-agents",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nEXAMPLES.md\nIMPLEMENTATION_SUMMARY.md\nLICENSE\nREADME.md\nSTATS.md\ncomposer.json\ncomposer.lock\nsrc\nsrc/Commands\nsrc/LaravelClaudeAgentsServiceProvider.php",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "php artisan claude-agents:publish",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6276362525516532
+  },
+  {
+    "name": "laravel-claude-agents/src 模块",
+    "description": "[模块级] laravel-claude-agents 项目的 src 模块 (source)。来源: https://github.com/iSerter/laravel-claude-agents",
+    "domain": "devops",
+    "tags": [
+      "php",
+      "stars-18",
+      "github-iserter",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 3\n\n包含文件:\n- src/Commands\n- src/Commands/PublishCommand.php\n- src/LaravelClaudeAgentsServiceProvider.php",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Commands\nsrc/Commands/PublishCommand.php\nsrc/LaravelClaudeAgentsServiceProvider.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0021090020413226
+  }
+]

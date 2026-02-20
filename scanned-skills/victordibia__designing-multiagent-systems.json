@@ -1,0 +1,168 @@
+[
+  {
+    "name": "designing-multiagent-systems (victordibia)",
+    "description": "[项目级] Building LLM-Enabled Multi Agent Applications from Scratch。来源: https://github.com/victordibia/designing-multiagent-systems",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems",
+      "python",
+      "stars-365",
+      "github-victordibia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Building LLM-Enabled Multi Agent Applications from Scratch\n\n来源: https://github.com/victordibia/designing-multiagent-systems\n语言: Python\nStars: 365",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Citation.cff\nLICENSE\nREADME.md\ncode_along\ncode_along/README.md\ncode_along/ch04_v1_agent.py\ncode_along/ch04_v2_tools.py\ncode_along/ch04_v3_memory.py\ncode_along/ch04_v4_streaming.py\ncode_along/test_compatibility.py\ncourse\ncourse/generate_meta.py\ncourse/generate_results.py\ncourse/requirements.txt\ncourse/samples\ndocs\ndocs/images\nexamples\nexamples/README.md\nexamples/agents",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Examples are now at the root level for easy access:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "pip install -e \".[web]\"           # Web UI and API server\npip install -e \".[computer-use]\"  # Browser automation\npip install -e \".[examples]\"      # Run example scripts\npip install -e \".[all]\"           # Everything",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281146432228237
+  },
+  {
+    "name": "designing-multiagent-systems/code_along 模块",
+    "description": "[模块级] designing-multiagent-systems 项目的 code_along 模块 (source)。来源: https://github.com/victordibia/designing-multiagent-systems",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems",
+      "module-level",
+      "source",
+      "code_along"
+    ],
+    "genes": [
+      {
+        "title": "code_along 模块说明",
+        "content": "模块路径: code_along/\n类型: source\n文件数: 6\n\n包含文件:\n- code_along/README.md\n- code_along/ch04_v1_agent.py\n- code_along/ch04_v2_tools.py\n- code_along/ch04_v3_memory.py\n- code_along/ch04_v4_streaming.py\n- code_along/test_compatibility.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code_along 文件结构",
+        "content": "code_along/README.md\ncode_along/ch04_v1_agent.py\ncode_along/ch04_v2_tools.py\ncode_along/ch04_v3_memory.py\ncode_along/ch04_v4_streaming.py\ncode_along/test_compatibility.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52491714578259
+  },
+  {
+    "name": "designing-multiagent-systems/course 模块",
+    "description": "[模块级] designing-multiagent-systems 项目的 course 模块 (source)。来源: https://github.com/victordibia/designing-multiagent-systems",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems",
+      "module-level",
+      "source",
+      "course"
+    ],
+    "genes": [
+      {
+        "title": "course 模块说明",
+        "content": "模块路径: course/\n类型: source\n文件数: 146\n\n包含文件:\n- course/generate_meta.py\n- course/generate_results.py\n- course/requirements.txt\n- course/samples\n- course/samples/async_agents\n- course/samples/async_agents/agent_framework\n- course/samples/async_agents/agent_framework/agent.py\n- course/samples/book_generator\n- course/samples/book_generator/agent_framework\n- course/samples/book_generator/agent_framework/workflow.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "course 文件结构",
+        "content": "course/generate_meta.py\ncourse/generate_results.py\ncourse/requirements.txt\ncourse/samples\ncourse/samples/async_agents\ncourse/samples/async_agents/agent_framework\ncourse/samples/async_agents/agent_framework/agent.py\ncourse/samples/book_generator\ncourse/samples/book_generator/agent_framework\ncourse/samples/book_generator/agent_framework/workflow.py\ncourse/samples/book_generator/autogen_core\ncourse/samples/book_generator/autogen_core/app.py\ncourse/samples/book_generator/autogen_core/metadata.json\ncourse/samples/book_generator/autogen_core/results.json\ncourse/samples/book_generator/autogen_core/tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52491714578259
+  },
+  {
+    "name": "designing-multiagent-systems/docs 模块",
+    "description": "[模块级] designing-multiagent-systems 项目的 docs 模块 (docs)。来源: https://github.com/victordibia/designing-multiagent-systems",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/images\n- docs/images/agent.png\n- docs/images/bookcover.png\n- docs/images/dashboard.png\n- docs/images/multiagent.png\n- docs/images/picoagents_screenshot.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/agent.png\ndocs/images/bookcover.png\ndocs/images/dashboard.png\ndocs/images/multiagent.png\ndocs/images/picoagents_screenshot.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52491714578259
+  },
+  {
+    "name": "designing-multiagent-systems/examples 模块",
+    "description": "[模块级] designing-multiagent-systems 项目的 examples 模块 (example)。来源: https://github.com/victordibia/designing-multiagent-systems",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "autogen",
+      "generative-ai",
+      "large-language-models",
+      "multiagent-systems",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Examples are now at the root level for easy access:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/agents\nexamples/agents/agent_anthropic.py\nexamples/agents/agent_as_tool.py\nexamples/agents/agent_githubmodels.py\nexamples/agents/basic-agent.py\nexamples/agents/computer_use.py\nexamples/agents/memory.py\nexamples/agents/middleware.py\nexamples/agents/middleware_custom.py\nexamples/agents/serialization.py\nexamples/agents/software_engineer_agent.py\nexamples/agents/structured-output.py\nexamples/agents/swe_agent\nexamples/agents/swe_agent/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52491714578259
+  }
+]

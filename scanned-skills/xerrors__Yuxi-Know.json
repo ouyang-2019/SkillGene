@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Yuxi-Know (xerrors)",
+    "description": "[项目级] 结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "web-frontend",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "python",
+      "stars-4351",
+      "github-xerrors",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.\n\n来源: https://github.com/xerrors/Yuxi-Know\n语言: Python\nStars: 4351",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "克隆代码，并初始化\n\n```\ngit clone --branch v0.4.4 --depth 1 https://github.com/xerrors/Yuxi-Know.git\ncd Yuxi-Know",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nMakefile\nREADME.md\ndocker-compose.prod.yml\ndocker-compose.yml\ndocker\ndocker/PP-StructureV3.yaml\ndocker/api.Dockerfile\ndocker/mineru.Dockerfile\ndocker/nginx\ndocker/paddlex.Dockerfile\ndocker/pull_image.ps1\ndocker/pull_image.sh\ndocker/save_docker_images.ps1\ndocker/save_docker_images.sh\ndocker/web.Dockerfile\ndocs\ndocs/.vitepress",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **智能体开发**：基于 LangGraph v1 的多智能体架构，支持子智能体、工具调用与中间件机制\n- **知识库（RAG）**：多格式文档上传，支持 Embedding / Rerank 配置及知识库评估\n- **知识图谱**：基于 LightRAG 的图谱构建与可视化，支持属性图谱并参与智能体推理\n- **平台与工程化**：Vue + FastAPI 架构，支持暗黑模式、Docker 与生产级部署",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.819294541646358
+  },
+  {
+    "name": "Yuxi-Know/docker 模块",
+    "description": "[模块级] Yuxi-Know 项目的 docker 模块 (source)。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "web-frontend",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 12\n\n包含文件:\n- docker/PP-StructureV3.yaml\n- docker/api.Dockerfile\n- docker/mineru.Dockerfile\n- docker/nginx\n- docker/nginx/default.conf\n- docker/nginx/nginx.conf\n- docker/paddlex.Dockerfile\n- docker/pull_image.ps1\n- docker/pull_image.sh\n- docker/save_docker_images.ps1",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/PP-StructureV3.yaml\ndocker/api.Dockerfile\ndocker/mineru.Dockerfile\ndocker/nginx\ndocker/nginx/default.conf\ndocker/nginx/nginx.conf\ndocker/paddlex.Dockerfile\ndocker/pull_image.ps1\ndocker/pull_image.sh\ndocker/save_docker_images.ps1\ndocker/save_docker_images.sh\ndocker/web.Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955435633317087
+  },
+  {
+    "name": "Yuxi-Know/docs 模块",
+    "description": "[模块级] Yuxi-Know 项目的 docs 模块 (docs)。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "documentation",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 45\n\n包含文件:\n- docs/.vitepress\n- docs/.vitepress/config.mts\n- docs/.vitepress/theme\n- docs/.vitepress/theme/custom.css\n- docs/.vitepress/theme/index.ts\n- docs/index.md\n- docs/latest\n- docs/latest/advanced\n- docs/latest/advanced/agents-config.md\n- docs/latest/advanced/branding.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.vitepress\ndocs/.vitepress/config.mts\ndocs/.vitepress/theme\ndocs/.vitepress/theme/custom.css\ndocs/.vitepress/theme/index.ts\ndocs/index.md\ndocs/latest\ndocs/latest/advanced\ndocs/latest/advanced/agents-config.md\ndocs/latest/advanced/branding.md\ndocs/latest/advanced/configuration.md\ndocs/latest/advanced/deployment.md\ndocs/latest/advanced/document-processing.md\ndocs/latest/advanced/misc.md\ndocs/latest/changelog",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955435633317087
+  },
+  {
+    "name": "Yuxi-Know/scripts 模块",
+    "description": "[模块级] Yuxi-Know 项目的 scripts 模块 (script)。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "web-frontend",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 14\n\n包含文件:\n- scripts/batch_upload.py\n- scripts/init.ps1\n- scripts/init.sh\n- scripts/migrate_all.py\n- scripts/migrate_business_from_sqlite.py\n- scripts/migrate_kb_metadata_to_db.py\n- scripts/preprocessors\n- scripts/preprocessors/split_data_to_subfiles.py\n- scripts/rename_milvus_collections.py\n- scripts/test_agent_configs.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/batch_upload.py\nscripts/init.ps1\nscripts/init.sh\nscripts/migrate_all.py\nscripts/migrate_business_from_sqlite.py\nscripts/migrate_kb_metadata_to_db.py\nscripts/preprocessors\nscripts/preprocessors/split_data_to_subfiles.py\nscripts/rename_milvus_collections.py\nscripts/test_agent_configs.py\nscripts/vllm\nscripts/vllm/main.py\nscripts/vllm/run.sh\nscripts/vllm/test_vllm.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955435633317087
+  },
+  {
+    "name": "Yuxi-Know/server 模块",
+    "description": "[模块级] Yuxi-Know 项目的 server 模块 (source)。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "web-frontend",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "模块路径: server/\n类型: source\n文件数: 24\n\n包含文件:\n- server/main.py\n- server/routers\n- server/routers/__init__.py\n- server/routers/auth_router.py\n- server/routers/chat_router.py\n- server/routers/dashboard_router.py\n- server/routers/department_router.py\n- server/routers/evaluation_router.py\n- server/routers/graph_router.py\n- server/routers/knowledge_router.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/main.py\nserver/routers\nserver/routers/__init__.py\nserver/routers/auth_router.py\nserver/routers/chat_router.py\nserver/routers/dashboard_router.py\nserver/routers/department_router.py\nserver/routers/evaluation_router.py\nserver/routers/graph_router.py\nserver/routers/knowledge_router.py\nserver/routers/mcp_router.py\nserver/routers/mindmap_router.py\nserver/routers/system_router.py\nserver/routers/task_router.py\nserver/utils",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955435633317087
+  },
+  {
+    "name": "Yuxi-Know/src 模块",
+    "description": "[模块级] Yuxi-Know 项目的 src 模块 (source)。来源: https://github.com/xerrors/Yuxi-Know",
+    "domain": "web-frontend",
+    "tags": [
+      "docker",
+      "fastapi",
+      "kbqa",
+      "kgqa",
+      "llms",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 75\n\n包含文件:\n- src/__init__.py\n- src/agents\n- src/agents/__init__.py\n- src/agents/chatbot\n- src/agents/chatbot/__init__.py\n- src/agents/chatbot/graph.py\n- src/agents/chatbot/metadata.toml\n- src/agents/common\n- src/agents/common/__init__.py\n- src/agents/common/base.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/agents\nsrc/agents/__init__.py\nsrc/agents/chatbot\nsrc/agents/chatbot/__init__.py\nsrc/agents/chatbot/graph.py\nsrc/agents/chatbot/metadata.toml\nsrc/agents/common\nsrc/agents/common/__init__.py\nsrc/agents/common/base.py\nsrc/agents/common/context.py\nsrc/agents/common/middlewares\nsrc/agents/common/middlewares/__init__.py\nsrc/agents/common/middlewares/attachment_middleware.py\nsrc/agents/common/middlewares/context_middlewares.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955435633317087
+  }
+]

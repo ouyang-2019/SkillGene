@@ -1,0 +1,78 @@
+[
+  {
+    "name": "superset (superset-sh)",
+    "description": "[项目级] The command center for coding agents - Run a team of Claude Code, OpenCode, Codex, or any other agents on your machine。来源: https://github.com/superset-sh/superset",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "typescript",
+      "stars-1851",
+      "github-superset-sh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The command center for coding agents - Run a team of Claude Code, OpenCode, Codex, or any other agents on your machine\n\n来源: https://github.com/superset-sh/superset\n语言: TypeScript\nStars: 1851",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.md\nWARP.md\napps\napps/admin\napps/api",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash\n#!/bin/bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Description |\n|:--------|:------------|\n| **Parallel Execution** | Run 10+ coding agents simultaneously on your machine |\n| **Worktree Isolation** | Each task gets its own branch and working directory |\n| **Agent Monitoring** | Track agent status and get notified when changes are ready |\n| **Built-in Diff Viewer** | Inspect and edit agent changes without leaving the app |\n| **Workspace Presets** | Automate env setup, dependency installation, and more |\n| **Universal Compatibility** | Works with any CLI agent that runs in a terminal |\n| **Quick Context Switching** | Jump between tas",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.633703209376452
+  },
+  {
+    "name": "superset/apps 模块",
+    "description": "[模块级] superset 项目的 apps 模块 (source)。来源: https://github.com/superset-sh/superset",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 129\n\n包含文件:\n- apps/admin\n- apps/admin/next.config.ts\n- apps/admin/package.json\n- apps/admin/postcss.config.mjs\n- apps/admin/public\n- apps/admin/public/favicon-192.png\n- apps/admin/public/icon.png\n- apps/admin/public/yc-logo.png\n- apps/admin/sentry.edge.config.ts\n- apps/admin/sentry.server.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/admin\napps/admin/next.config.ts\napps/admin/package.json\napps/admin/postcss.config.mjs\napps/admin/public\napps/admin/public/favicon-192.png\napps/admin/public/icon.png\napps/admin/public/yc-logo.png\napps/admin/sentry.edge.config.ts\napps/admin/sentry.server.config.ts\napps/admin/src\napps/admin/src/app\napps/admin/src/app/(dashboard)\napps/admin/src/app/(dashboard)/components\napps/admin/src/app/(dashboard)/components/AppSidebar",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.806962567501162
+  }
+]

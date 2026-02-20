@@ -1,0 +1,223 @@
+[
+  {
+    "name": "paperdebugger (PaperDebugger)",
+    "description": "[项目级] A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "typescript",
+      "stars-1333",
+      "github-paperdebugger",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The PaperDebugger backend is built with modern technologies:\n\n<div align=\"center\">\n  <img src=\"docs/imgs/stacks.png\" alt=\"Stacks\" style=\"max-height: 200px; border-radius: 16px;\" />\n</div>\n\n- **Language**: Go 1.24+\n- **Framework**: Gin (HTTP) + gRPC (API)\n- **Database**: MongoDB\n- **AI Integration**: OpenAI API\n- **Architecture**: Microservices with Protocol Buffers\n- **Authentication**: JWT-based with OAuth support",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nMakefile.old.full\nREADME.md\nbuf.gen.yaml\nbuf.lock\nbuf.webapp.gen.yaml\nbuf.yaml\ncmd\ncmd/main.go\ncmd/main_test.go\ndemo\ndemo/analytics\ndemo/pics\ndemo/readme.md\ndemo/xtramcp\ndocs\ndocs/DEVELOPMENT.md\ndocs/imgs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "PaperDebugger never modifies your project, it only reads and provides suggestions.\n\n- **🤖 AI-Powered Chat**: Intelligent conversations about your Overleaf project\n- **⚡ Instant Insert**: One-click insertion of AI responses into your project\n- **💬 Comment System**: Automatically generate and insert comments into your project\n- **📚 Prompt Library**: Custom prompt templates for different use cases\n- **🔒 Privacy First**: Your content stays secure - we only read, never modify\n- **🧠 Multi-Agent Orchestration** – [XtraMCP](demo/xtramcp/readme.md) support for literature-grounded research, AI-Conf",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.56241507470693
+  },
+  {
+    "name": "paperdebugger/cmd 模块",
+    "description": "[模块级] paperdebugger 项目的 cmd 模块 (source)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 2\n\n包含文件:\n- cmd/main.go\n- cmd/main_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/main.go\ncmd/main_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  },
+  {
+    "name": "paperdebugger/demo 模块",
+    "description": "[模块级] paperdebugger 项目的 demo 模块 (example)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "example",
+      "demo"
+    ],
+    "genes": [
+      {
+        "title": "demo 模块说明",
+        "content": "模块路径: demo/\n类型: example\n文件数: 15\n\n包含文件:\n- demo/analytics\n- demo/analytics/analytics_Events_Event_name_since_may.pdf\n- demo/analytics/analytics_Reports_snapshot.pdf\n- demo/analytics/analytics_active_users_Demographic_details_Language.pdf\n- demo/analytics/analytics_general_Events_Event_name_full.pdf\n- demo/analytics/analytics_text_patch_Events_Event_name.pdf\n- demo/analytics/extension_active_users_Demographic_details_Country.pdf\n- demo/analytics/readme.md\n- demo/pics\n- demo/pics/ga.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo 文件结构",
+        "content": "demo/analytics\ndemo/analytics/analytics_Events_Event_name_since_may.pdf\ndemo/analytics/analytics_Reports_snapshot.pdf\ndemo/analytics/analytics_active_users_Demographic_details_Language.pdf\ndemo/analytics/analytics_general_Events_Event_name_full.pdf\ndemo/analytics/analytics_text_patch_Events_Event_name.pdf\ndemo/analytics/extension_active_users_Demographic_details_Country.pdf\ndemo/analytics/readme.md\ndemo/pics\ndemo/pics/ga.png\ndemo/pics/private-deploy-demo.png\ndemo/pics/private-deploy.png\ndemo/readme.md\ndemo/xtramcp\ndemo/xtramcp/readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  },
+  {
+    "name": "paperdebugger/docs 模块",
+    "description": "[模块级] paperdebugger 项目的 docs 模块 (docs)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/DEVELOPMENT.md\n- docs/imgs\n- docs/imgs/branding.png\n- docs/imgs/custom endpoint.png\n- docs/imgs/discord.png\n- docs/imgs/preview1.png\n- docs/imgs/preview2.png\n- docs/imgs/preview3.png\n- docs/imgs/run.png\n- docs/imgs/stacks.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/DEVELOPMENT.md\ndocs/imgs\ndocs/imgs/branding.png\ndocs/imgs/custom endpoint.png\ndocs/imgs/discord.png\ndocs/imgs/preview1.png\ndocs/imgs/preview2.png\ndocs/imgs/preview3.png\ndocs/imgs/run.png\ndocs/imgs/stacks.png\ndocs/imgs/wechat.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  },
+  {
+    "name": "paperdebugger/hack 模块",
+    "description": "[模块级] paperdebugger 项目的 hack 模块 (source)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "source",
+      "hack"
+    ],
+    "genes": [
+      {
+        "title": "hack 模块说明",
+        "content": "模块路径: hack/\n类型: source\n文件数: 10\n\n包含文件:\n- hack/dev-apply.sh\n- hack/dev-diff.sh\n- hack/dev-down.sh\n- hack/dev-up.sh\n- hack/dev.sh\n- hack/prd.sh\n- hack/stg.sh\n- hack/values-dev.yaml\n- hack/values-prd.yaml\n- hack/values-stg.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hack 文件结构",
+        "content": "hack/dev-apply.sh\nhack/dev-diff.sh\nhack/dev-down.sh\nhack/dev-up.sh\nhack/dev.sh\nhack/prd.sh\nhack/stg.sh\nhack/values-dev.yaml\nhack/values-prd.yaml\nhack/values-stg.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  },
+  {
+    "name": "paperdebugger/helm-chart 模块",
+    "description": "[模块级] paperdebugger 项目的 helm-chart 模块 (source)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "source",
+      "helm-chart"
+    ],
+    "genes": [
+      {
+        "title": "helm-chart 模块说明",
+        "content": "模块路径: helm-chart/\n类型: source\n文件数: 11\n\n包含文件:\n- helm-chart/.helmignore\n- helm-chart/Chart.yaml\n- helm-chart/templates\n- helm-chart/templates/cloudflare.yaml\n- helm-chart/templates/mongo.yaml\n- helm-chart/templates/namespace.yaml\n- helm-chart/templates/paperdebugger-mcp.yaml\n- helm-chart/templates/paperdebugger-xtramcp-server.yaml\n- helm-chart/templates/paperdebugger.yaml\n- helm-chart/templates/secret.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helm-chart 文件结构",
+        "content": "helm-chart/.helmignore\nhelm-chart/Chart.yaml\nhelm-chart/templates\nhelm-chart/templates/cloudflare.yaml\nhelm-chart/templates/mongo.yaml\nhelm-chart/templates/namespace.yaml\nhelm-chart/templates/paperdebugger-mcp.yaml\nhelm-chart/templates/paperdebugger-xtramcp-server.yaml\nhelm-chart/templates/paperdebugger.yaml\nhelm-chart/templates/secret.yaml\nhelm-chart/values.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  },
+  {
+    "name": "paperdebugger/internal 模块",
+    "description": "[模块级] paperdebugger 项目的 internal 模块 (source)。来源: https://github.com/PaperDebugger/paperdebugger",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai-agent",
+      "ai-agents-framework",
+      "chatgpt",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 110\n\n包含文件:\n- internal/accesscontrol\n- internal/accesscontrol/actor.go\n- internal/api\n- internal/api/actor.go\n- internal/api/auth\n- internal/api/auth/auth_test.go\n- internal/api/auth/login_by_google.go\n- internal/api/auth/login_by_overleaf.go\n- internal/api/auth/logout.go\n- internal/api/auth/oauth.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/accesscontrol\ninternal/accesscontrol/actor.go\ninternal/api\ninternal/api/actor.go\ninternal/api/auth\ninternal/api/auth/auth_test.go\ninternal/api/auth/login_by_google.go\ninternal/api/auth/login_by_overleaf.go\ninternal/api/auth/logout.go\ninternal/api/auth/oauth.go\ninternal/api/auth/refresh_token.go\ninternal/api/auth/server.go\ninternal/api/auth/static\ninternal/api/auth/static/oauth_landing.html\ninternal/api/chat",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749932059765544
+  }
+]

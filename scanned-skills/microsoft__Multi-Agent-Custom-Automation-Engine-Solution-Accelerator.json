@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Multi-Agent-Custom-Automation-Engine-Solution-Accelerator (microsoft)",
+    "description": "[项目级] The Multi-Agent Custom Automation Engine Solution Accelerator is an AI-driven system that manages a group of AI agents to accomplish tasks based on user input. Powered by Microsoft Agent Framework, Azure Foundry, Azure Cosmos DB, and infrastructure services, it provides a reference application, allowing you to hit the ground running.。来源: https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+    "domain": "devops",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "python",
+      "stars-711",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Multi-Agent Custom Automation Engine Solution Accelerator is an AI-driven system that manages a group of AI agents to accomplish tasks based on user input. Powered by Microsoft Agent Framework, Azure Foundry, Azure Cosmos DB, and infrastructure services, it provides a reference application, allowing you to hit the ground running.\n\n来源: https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator\n语言: Python\nStars: 711",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Follow the quick deploy steps on the deployment guide to deploy this solution to your own Azure subscription.\n\n> **Note:** This solution accelerator requires **Azure Developer CLI (azd) version 1.18.0 or higher**. Please ensure you have the latest version installed before proceeding with deployment. [Download azd here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd).\n\n[Click here to launch the deployment guide](./docs/DeploymentGuide.md)\n<br/><br/>\n\n| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/Mult",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMulti-Agent-Custom-Automation-Engine-Solution-Accelerator.code-workspace\nREADME.md\nSECURITY.md\nSUPPORT.md\nTRANSPARENCY_FAQS.md\n__azurite_db_queue__.json\n__azurite_db_queue_extent__.json\nazure.yaml\nazure_custom.yaml\nconftest.py\ndata\ndata/agent_teams\ndata/datasets\ndocs\ndocs/ACRBuildAndPushGuide.md\ndocs/AVMPostDeploymentGuide.md\ndocs/AzureAccountSetUp.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Follow the quick deploy steps on the deployment guide to deploy this solution to your own Azure subscription.\n\n> **Note:** This solution accelerator requires **Azure Developer CLI (azd) version 1.18.0 or higher**. Please ensure you have the latest version installed before proceeding with deployment. [Download azd here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd).\n\n[Click here to launch the deployment guide](./docs/DeploymentGuide.md)\n<br/><br/>\n\n| [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/Mult",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details open>\n  <summary>Click to learn more about the key features this solution enables</summary>\n\n  - **Allows people to focus on what matters** <br/>\n  By doing the heavy lifting involved with coordinating activities across an organization, people's time is freed up to focus on their specializations.\n  \n  - **Enabling GenAI to scale** <br/>\n  By not needing to build one application after another, organizations are able to reduce the friction of adopting GenAI across their entire organization. One capability can unlock almost unlimited use cases.\n\n  - **Applicable to most industries** <br/",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4259348003648835
+  },
+  {
+    "name": "Multi-Agent-Custom-Automation-Engine-Solution-Accelerator/data 模块",
+    "description": "[模块级] Multi-Agent-Custom-Automation-Engine-Solution-Accelerator 项目的 data 模块 (source)。来源: https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+    "domain": "devops",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "python",
+      "stars-711",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 62\n\n包含文件:\n- data/agent_teams\n- data/agent_teams/contract_compliance_team.json\n- data/agent_teams/hr.json\n- data/agent_teams/marketing.json\n- data/agent_teams/retail.json\n- data/agent_teams/rfp_analysis_team.json\n- data/datasets\n- data/datasets/competitor_pricing_analysis.csv\n- data/datasets/contract_compliance\n- data/datasets/contract_compliance/compliance",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/agent_teams\ndata/agent_teams/contract_compliance_team.json\ndata/agent_teams/hr.json\ndata/agent_teams/marketing.json\ndata/agent_teams/retail.json\ndata/agent_teams/rfp_analysis_team.json\ndata/datasets\ndata/datasets/competitor_pricing_analysis.csv\ndata/datasets/contract_compliance\ndata/datasets/contract_compliance/compliance\ndata/datasets/contract_compliance/compliance/Compliance_file.docx\ndata/datasets/contract_compliance/compliance/NDA_file.docx\ndata/datasets/contract_compliance/risk\ndata/datasets/contract_compliance/risk/NDA_file.docx\ndata/datasets/contract_compliance/risk/Risks_file.docx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6407478402919065
+  },
+  {
+    "name": "Multi-Agent-Custom-Automation-Engine-Solution-Accelerator/docs 模块",
+    "description": "[模块级] Multi-Agent-Custom-Automation-Engine-Solution-Accelerator 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+    "domain": "documentation",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "python",
+      "stars-711",
+      "github-microsoft",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 78\n\n包含文件:\n- docs/ACRBuildAndPushGuide.md\n- docs/AVMPostDeploymentGuide.md\n- docs/AzureAccountSetUp.md\n- docs/AzureGPTQuotaSettings.md\n- docs/CustomizingAzdParameters.md\n- docs/DeleteResourceGroup.md\n- docs/DeploymentGuide.md\n- docs/LocalDevelopmentSetup.md\n- docs/LogAnalyticsReplicationDisable.md\n- docs/ManualAzureDeployment.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ACRBuildAndPushGuide.md\ndocs/AVMPostDeploymentGuide.md\ndocs/AzureAccountSetUp.md\ndocs/AzureGPTQuotaSettings.md\ndocs/CustomizingAzdParameters.md\ndocs/DeleteResourceGroup.md\ndocs/DeploymentGuide.md\ndocs/LocalDevelopmentSetup.md\ndocs/LogAnalyticsReplicationDisable.md\ndocs/ManualAzureDeployment.md\ndocs/NON_DEVCONTAINER_SETUP.md\ndocs/SampleQuestions.md\ndocs/SetUpGroundingWithBingSearch.md\ndocs/TRANSPARENCY_FAQ.md\ndocs/TroubleShootingSteps.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6407478402919065
+  }
+]

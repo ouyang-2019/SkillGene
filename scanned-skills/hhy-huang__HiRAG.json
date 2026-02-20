@@ -1,0 +1,158 @@
+[
+  {
+    "name": "HiRAG (hhy-huang)",
+    "description": "[项目级] [EMNLP'25 findings] This is the official repo for the paper, HiRAG: Retrieval-Augmented Generation with Hierarchical Knowledge.。来源: https://github.com/hhy-huang/HiRAG",
+    "domain": "devops",
+    "tags": [
+      "clustering",
+      "graphrag",
+      "large-language-models",
+      "nlp",
+      "rag",
+      "python",
+      "stars-515",
+      "github-hhy-huang",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[EMNLP'25 findings] This is the official repo for the paper, HiRAG: Retrieval-Augmented Generation with Hierarchical Knowledge.\n\n来源: https://github.com/hhy-huang/HiRAG\n语言: Python\nStars: 515",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\ncase\ncase/cluster_sparsity.py\ncase/cluster_sparsity_ratio.py\ncase/connect_case.py\ncase/graph_sparsity.py\ncase/graphml_visualize.py\nconfig.yaml\ndocs\ndocs/notes_of_codes.md\neval\neval/batch_eval.py\neval/cal_time.py\neval/cal_tokens.py\neval/datasets\neval/eval_mhqa.py\neval/extract_context.py\neval/extract_query.py\neval/insert_context_deepseek.py\neval/insert_context_glm.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.355903614520596
+  },
+  {
+    "name": "HiRAG/case 模块",
+    "description": "[模块级] HiRAG 项目的 case 模块 (source)。来源: https://github.com/hhy-huang/HiRAG",
+    "domain": "devops",
+    "tags": [
+      "clustering",
+      "graphrag",
+      "large-language-models",
+      "nlp",
+      "rag",
+      "module-level",
+      "source",
+      "case"
+    ],
+    "genes": [
+      {
+        "title": "case 模块说明",
+        "content": "模块路径: case/\n类型: source\n文件数: 5\n\n包含文件:\n- case/cluster_sparsity.py\n- case/cluster_sparsity_ratio.py\n- case/connect_case.py\n- case/graph_sparsity.py\n- case/graphml_visualize.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "case 文件结构",
+        "content": "case/cluster_sparsity.py\ncase/cluster_sparsity_ratio.py\ncase/connect_case.py\ncase/graph_sparsity.py\ncase/graphml_visualize.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584722891616477
+  },
+  {
+    "name": "HiRAG/eval 模块",
+    "description": "[模块级] HiRAG 项目的 eval 模块 (source)。来源: https://github.com/hhy-huang/HiRAG",
+    "domain": "devops",
+    "tags": [
+      "clustering",
+      "graphrag",
+      "large-language-models",
+      "nlp",
+      "rag",
+      "module-level",
+      "source",
+      "eval"
+    ],
+    "genes": [
+      {
+        "title": "eval 模块说明",
+        "content": "<p align=\"center\">\n    <img src=\"./imgs/icon.jpg\" width=\"20%\" style=\"max-width: 80;\">\n</p>\n\n[<img align=\"center\" src=\"https://img.shields.io/badge/arXiv-2503.10150 HiRAG -b31b1b\" />](https://arxiv.org/abs/2503.10150)\n[<img align=\"center\" src=\"https://img.shields.io/badge/Dataset-TommyChien/UltraDomain -yellow\" />](https://huggingface.co/datasets/TommyChien/UltraDomain)\n[<img align=\"center\" src=\"https://deepwiki.com/badge.svg\" />](https://deepwiki.com/hhy-huang/HiRAG)\n\n</div>\n\n\n\n- This is the rep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "eval 文件结构",
+        "content": "eval/batch_eval.py\neval/cal_time.py\neval/cal_tokens.py\neval/datasets\neval/datasets/agriculture\neval/datasets/agriculture/agriculture_eval_hi_fastgraphrag_result_openai.jsonl\neval/datasets/agriculture/agriculture_eval_hi_graphrag_result_openai.jsonl\neval/datasets/agriculture/agriculture_eval_hi_kag_result_openai.jsonl\neval/datasets/agriculture/agriculture_eval_hi_lightrag_result_openai.jsonl\neval/datasets/agriculture/agriculture_eval_hi_naive_result_openai.jsonl\neval/datasets/agriculture/agriculture_fastGraphrag_result_deepseek.jsonl\neval/datasets/agriculture/agriculture_graphrag_result_deepseek.jsonl\neval/datasets/agriculture/agriculture_hi_result_deepseek.jsonl\neval/datasets/agriculture/agriculture_kag_result_deepseek.jsonl\neval/datasets/agriculture/agriculture_lightrag_result_deepseek.jsonl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584722891616477
+  },
+  {
+    "name": "HiRAG/hirag 模块",
+    "description": "[模块级] HiRAG 项目的 hirag 模块 (source)。来源: https://github.com/hhy-huang/HiRAG",
+    "domain": "devops",
+    "tags": [
+      "clustering",
+      "graphrag",
+      "large-language-models",
+      "nlp",
+      "rag",
+      "module-level",
+      "source",
+      "hirag"
+    ],
+    "genes": [
+      {
+        "title": "hirag 模块说明",
+        "content": "<p align=\"center\">\n    <img src=\"./imgs/icon.jpg\" width=\"20%\" style=\"max-width: 80;\">\n</p>\n\n[<img align=\"center\" src=\"https://img.shields.io/badge/arXiv-2503.10150 HiRAG -b31b1b\" />](https://arxiv.org/abs/2503.10150)\n[<img align=\"center\" src=\"https://img.shields.io/badge/Dataset-TommyChien/UltraDomain -yellow\" />](https://huggingface.co/datasets/TommyChien/UltraDomain)\n[<img align=\"center\" src=\"https://deepwiki.com/badge.svg\" />](https://deepwiki.com/hhy-huang/HiRAG)\n\n</div>\n\n\n\n- This is the rep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hirag 文件结构",
+        "content": "hirag/__init__.py\nhirag/_cluster_utils.py\nhirag/_llm.py\nhirag/_op.py\nhirag/_splitter.py\nhirag/_storage\nhirag/_storage/__init__.py\nhirag/_storage/gdb_neo4j.py\nhirag/_storage/gdb_networkx.py\nhirag/_storage/kv_json.py\nhirag/_storage/vdb_nanovectordb.py\nhirag/_utils.py\nhirag/base.py\nhirag/hirag.py\nhirag/prompt.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584722891616477
+  },
+  {
+    "name": "HiRAG/imgs 模块",
+    "description": "[模块级] HiRAG 项目的 imgs 模块 (source)。来源: https://github.com/hhy-huang/HiRAG",
+    "domain": "devops",
+    "tags": [
+      "clustering",
+      "graphrag",
+      "large-language-models",
+      "nlp",
+      "rag",
+      "module-level",
+      "source",
+      "imgs"
+    ],
+    "genes": [
+      {
+        "title": "imgs 模块说明",
+        "content": "模块路径: imgs/\n类型: source\n文件数: 5\n\n包含文件:\n- imgs/hirag_ds.drawio.png\n- imgs/hirag_ds_trans.drawio.png\n- imgs/hirag_icon.png\n- imgs/hirag_image.png\n- imgs/icon.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "imgs 文件结构",
+        "content": "imgs/hirag_ds.drawio.png\nimgs/hirag_ds_trans.drawio.png\nimgs/hirag_icon.png\nimgs/hirag_image.png\nimgs/icon.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584722891616477
+  }
+]

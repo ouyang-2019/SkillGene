@@ -1,0 +1,198 @@
+[
+  {
+    "name": "infinite-image-browsing (zanllp)",
+    "description": "[项目级] A full-featured image/video management app with AI-powered organization and semantic search. Supports metadata from  SD-webui, ComfyUI, Fooocus, NovelAI, StableSwarmUI, and more. Available as standalone app, SD-webui extension, or library.。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "web-frontend",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "vue",
+      "stars-1254",
+      "github-zanllp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "| Software               | Support          | Provided by |\n| ---------------------- | ---------------- |  ----------- |\n| Stable Diffusion web UI| Supported        |  Built-in    |\n| Stable Diffusion web UI (Stealth)| Supported  ([default: disabled](https://github.com/zanllp/sd-webui-infinite-image-browsing/blob/main/.env.example#L49))      |  Built-in    |\n| ComfyUI                | Partially supported |  Built-in    |\n| Fooocus                | Supported        |  Built-in    |\n| NovelAI                | Supported    |  Built-in    |\n| StableSwarmUI          | Supported    |  Built-in    |\n| Invoke.AI          | Supported    |  Built-in    |\n| Pixiv                  | Supported        |  [pixiv_iib_plugin](https://github.com/zanllp/pixiv_iib_plugin) |\n\nIf you would like to support more ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME-zh.md\nREADME.md\napp.py\nchange.log.md\ndocs\ndocs/imgs\ninstall.py\njavascript\njavascript/index.js\nmigrate.py\nplugins\nplugins/.gitkeep\npyinstaller_hooks\npyinstaller_hooks/hook-av.py\npyinstaller_hooks/hook-imageio.py\npyinstaller_hooks/hook-imageio_ffmpeg.py\npyinstaller_hooks/hook-pillow_avif.py\nrequirements.txt\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- You can install it as an extension on SD-webui.\n- You can run it independently using Python.\n- The desktop app version is also available.\n- Supports multiple popular AI software.\n- **NEW**: Use with AI agents (Claude Code, Cursor, OpenClaw, etc.) via Agent Skills.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.549148768247349
+  },
+  {
+    "name": "infinite-image-browsing/docs 模块",
+    "description": "[模块级] infinite-image-browsing 项目的 docs 模块 (docs)。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "documentation",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/imgs\n- docs/imgs/smart-organize-config-modal.png\n- docs/imgs/smart-organize-generate-title.png\n- docs/imgs/smart-organize-preview-list.png\n- docs/imgs/smart-organize-preview.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/imgs\ndocs/imgs/smart-organize-config-modal.png\ndocs/imgs/smart-organize-generate-title.png\ndocs/imgs/smart-organize-preview-list.png\ndocs/imgs/smart-organize-preview.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "infinite-image-browsing/pyinstaller_hooks 模块",
+    "description": "[模块级] infinite-image-browsing 项目的 pyinstaller_hooks 模块 (source)。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "web-frontend",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "module-level",
+      "source",
+      "pyinstaller_hooks"
+    ],
+    "genes": [
+      {
+        "title": "pyinstaller_hooks 模块说明",
+        "content": "模块路径: pyinstaller_hooks/\n类型: source\n文件数: 4\n\n包含文件:\n- pyinstaller_hooks/hook-av.py\n- pyinstaller_hooks/hook-imageio.py\n- pyinstaller_hooks/hook-imageio_ffmpeg.py\n- pyinstaller_hooks/hook-pillow_avif.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pyinstaller_hooks 文件结构",
+        "content": "pyinstaller_hooks/hook-av.py\npyinstaller_hooks/hook-imageio.py\npyinstaller_hooks/hook-imageio_ffmpeg.py\npyinstaller_hooks/hook-pillow_avif.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "infinite-image-browsing/scripts 模块",
+    "description": "[模块级] infinite-image-browsing 项目的 scripts 模块 (script)。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "web-frontend",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 28\n\n包含文件:\n- scripts/iib\n- scripts/iib/api.py\n- scripts/iib/auto_tag.py\n- scripts/iib/db\n- scripts/iib/db/datamodel.py\n- scripts/iib/db/update_image_data.py\n- scripts/iib/dir_cover_cache.py\n- scripts/iib/fastapi_video.py\n- scripts/iib/img_cache_gen.py\n- scripts/iib/logger.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/iib\nscripts/iib/api.py\nscripts/iib/auto_tag.py\nscripts/iib/db\nscripts/iib/db/datamodel.py\nscripts/iib/db/update_image_data.py\nscripts/iib/dir_cover_cache.py\nscripts/iib/fastapi_video.py\nscripts/iib/img_cache_gen.py\nscripts/iib/logger.py\nscripts/iib/organize_files.py\nscripts/iib/parsers\nscripts/iib/parsers/comfyui.py\nscripts/iib/parsers/fooocus.py\nscripts/iib/parsers/index.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "infinite-image-browsing/skills 模块",
+    "description": "[模块级] infinite-image-browsing 项目的 skills 模块 (source)。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "web-frontend",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 5\n\n包含文件:\n- skills/iib\n- skills/iib/SKILL.md\n- skills/iib/agent-guide.md\n- skills/iib/references\n- skills/iib/references/api-reference.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/iib\nskills/iib/SKILL.md\nskills/iib/agent-guide.md\nskills/iib/references\nskills/iib/references/api-reference.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "infinite-image-browsing/vue 模块",
+    "description": "[模块级] infinite-image-browsing 项目的 vue 模块 (source)。来源: https://github.com/zanllp/infinite-image-browsing",
+    "domain": "web-frontend",
+    "tags": [
+      "audio",
+      "comfyui",
+      "extension",
+      "file-explorer",
+      "file-server",
+      "module-level",
+      "source",
+      "vue"
+    ],
+    "genes": [
+      {
+        "title": "vue 模块说明",
+        "content": "模块路径: vue/\n类型: source\n文件数: 129\n\n包含文件:\n- vue/.eslintrc.cjs\n- vue/.gitignore\n- vue/.prettierrc.json\n- vue/.vscode\n- vue/.vscode/extensions.json\n- vue/README.md\n- vue/build.ts\n- vue/components.d.ts\n- vue/dist\n- vue/dist/assets",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vue 文件结构",
+        "content": "vue/.eslintrc.cjs\nvue/.gitignore\nvue/.prettierrc.json\nvue/.vscode\nvue/.vscode/extensions.json\nvue/README.md\nvue/build.ts\nvue/components.d.ts\nvue/dist\nvue/dist/assets\nvue/dist/assets/FileItem-1c8f6c40.js\nvue/dist/assets/FileItem-353a3123.css\nvue/dist/assets/ImgSliPagePane-5f5e28b7.css\nvue/dist/assets/ImgSliPagePane-d52b0584.js\nvue/dist/assets/MatchedImageGrid-01e88655.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  }
+]

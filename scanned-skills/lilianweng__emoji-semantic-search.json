@@ -1,0 +1,84 @@
+[
+  {
+    "name": "emoji-semantic-search (lilianweng)",
+    "description": "[项目级] Search the most relevant emojis given a natural language query。来源: https://github.com/lilianweng/emoji-semantic-search",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-295",
+      "github-lilianweng",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Search the most relevant emojis given a natural language query\n\n来源: https://github.com/lilianweng/emoji-semantic-search\n语言: Python\nStars: 295",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nclient\nclient/package-lock.json\nclient/package.json\nclient/public\nclient/src\nclient/tsconfig.json\nserver\nserver/app.py\nserver/data\nserver/emoji-embeddings.jsonl.gz\nserver/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.234911007989082
+  },
+  {
+    "name": "emoji-semantic-search/client 模块",
+    "description": "[模块级] emoji-semantic-search 项目的 client 模块 (source)。来源: https://github.com/lilianweng/emoji-semantic-search",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-295",
+      "github-lilianweng",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 13\n\n包含文件:\n- client/package-lock.json\n- client/package.json\n- client/public\n- client/public/favicon.ico\n- client/public/index.html\n- client/public/main.css\n- client/public/manifest.json\n- client/public/robots.txt\n- client/src\n- client/src/App.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/package-lock.json\nclient/package.json\nclient/public\nclient/public/favicon.ico\nclient/public/index.html\nclient/public/main.css\nclient/public/manifest.json\nclient/public/robots.txt\nclient/src\nclient/src/App.tsx\nclient/src/Result.tsx\nclient/src/index.tsx\nclient/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.487928806391265
+  },
+  {
+    "name": "emoji-semantic-search/server 模块",
+    "description": "[模块级] emoji-semantic-search 项目的 server 模块 (source)。来源: https://github.com/lilianweng/emoji-semantic-search",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-295",
+      "github-lilianweng",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "模块路径: server/\n类型: source\n文件数: 7\n\n包含文件:\n- server/app.py\n- server/data\n- server/data/build.py\n- server/data/emoji-data.txt\n- server/data/emoji-embeddings.jsonl.gz\n- server/emoji-embeddings.jsonl.gz\n- server/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/app.py\nserver/data\nserver/data/build.py\nserver/data/emoji-data.txt\nserver/data/emoji-embeddings.jsonl.gz\nserver/emoji-embeddings.jsonl.gz\nserver/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.487928806391265
+  }
+]

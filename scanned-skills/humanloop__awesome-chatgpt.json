@@ -1,0 +1,36 @@
+[
+  {
+    "name": "awesome-chatgpt (humanloop)",
+    "description": "[项目级] Curated list of awesome tools, demos, docs for ChatGPT and GPT-3。来源: https://github.com/humanloop/awesome-chatgpt",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "gpt-3",
+      "gpt3",
+      "openai",
+      "stars-8236",
+      "github-humanloop",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated list of awesome tools, demos, docs for ChatGPT and GPT-3\n\n来源: https://github.com/humanloop/awesome-chatgpt\n语言: unknown\nStars: 8236",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nchatgpt-header.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [Awesome ChatGPT prompts](https://github.com/f/awesome-chatgpt-prompts)\n... just follow [@goodside](https://twitter.com/goodside)\n\n\n\n\n---",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.957858168972997
+  }
+]

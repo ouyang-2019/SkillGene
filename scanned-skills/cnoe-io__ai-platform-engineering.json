@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ai-platform-engineering (cnoe-io)",
+    "description": "[项目级] CAIPE: Community AI Platform Engineering Multi-Agent Systems。来源: https://github.com/cnoe-io/ai-platform-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "caipe",
+      "multi-agent-systems",
+      "platform-engineering",
+      "python",
+      "stars-308",
+      "github-cnoe-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "CAIPE: Community AI Platform Engineering Multi-Agent Systems\n\n来源: https://github.com/cnoe-io/ai-platform-engineering\n语言: Python\nStars: 308",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMAINTAINERS.md\nMakefile\nPR_DESCRIPTION.md\nREADME.md\nSECURITY.md\nai_platform_engineering\nai_platform_engineering/__init__.py\nai_platform_engineering/agents",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**AI Platform Engineer** can handle a wide range of operational requests. Here are some sample prompts you can try:\n\n* 🚨 *Acknowledge the PagerDuty incident with ID 12345*\n* 🚨 *List all on-call schedules for the DevOps team*\n* 🐙 *Create a new GitHub repository named 'my-repo'*\n* 🐙 *Merge the pull request #42 in the ‘backend’ repository*\n* 🗂️ *Create a new Jira ticket for the ‘AI Project’*\n* 🗂️ *Assign ticket 'PE-456' to user 'john.doe'*\n* 💬 *Send a message to the ‘devops’ Slack channel*\n* 💬 *Create a new Slack channel named ‘project-updates’*\n* 🚀 *Sync the ‘production’ ArgoCD applicat",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.244275358250222
+  },
+  {
+    "name": "ai-platform-engineering/ai_platform_engineering 模块",
+    "description": "[模块级] ai-platform-engineering 项目的 ai_platform_engineering 模块 (source)。来源: https://github.com/cnoe-io/ai-platform-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "caipe",
+      "multi-agent-systems",
+      "platform-engineering",
+      "module-level",
+      "source",
+      "ai_platform_engineering"
+    ],
+    "genes": [
+      {
+        "title": "ai_platform_engineering 模块说明",
+        "content": "模块路径: ai_platform_engineering/\n类型: source\n文件数: 109\n\n包含文件:\n- ai_platform_engineering/__init__.py\n- ai_platform_engineering/agents\n- ai_platform_engineering/agents/README.md\n- ai_platform_engineering/agents/argocd\n- ai_platform_engineering/agents/argocd/.dockerignore\n- ai_platform_engineering/agents/argocd/.env.example\n- ai_platform_engineering/agents/argocd/.gitignore\n- ai_platform_engineering/agents/argocd/CHANGELOG.md\n- ai_platform_engineering/agents/argocd/Makefile\n- ai_platform_engineering/agents/argocd/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_platform_engineering 文件结构",
+        "content": "ai_platform_engineering/__init__.py\nai_platform_engineering/agents\nai_platform_engineering/agents/README.md\nai_platform_engineering/agents/argocd\nai_platform_engineering/agents/argocd/.dockerignore\nai_platform_engineering/agents/argocd/.env.example\nai_platform_engineering/agents/argocd/.gitignore\nai_platform_engineering/agents/argocd/CHANGELOG.md\nai_platform_engineering/agents/argocd/Makefile\nai_platform_engineering/agents/argocd/README.md\nai_platform_engineering/agents/argocd/__init__.py\nai_platform_engineering/agents/argocd/agent_argocd\nai_platform_engineering/agents/argocd/agent_argocd/__init__.py\nai_platform_engineering/agents/argocd/agent_argocd/__main__.py\nai_platform_engineering/agents/argocd/agent_argocd/agentcard.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4954202866001776
+  }
+]

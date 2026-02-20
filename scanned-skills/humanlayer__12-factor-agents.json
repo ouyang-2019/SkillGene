@@ -1,0 +1,213 @@
+[
+  {
+    "name": "12-factor-agents (humanlayer)",
+    "description": "[项目级] What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "typescript",
+      "stars-18267",
+      "github-humanlayer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?\n\n来源: https://github.com/humanlayer/12-factor-agents\n语言: TypeScript\nStars: 18267",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nMakefile\nREADME.md\ncontent\ncontent/appendix-13-pre-fetch.md\ncontent/brief-history-of-software.md\ncontent/factor-01-natural-language-to-tool-calls.md\ncontent/factor-02-own-your-prompts.md\ncontent/factor-03-own-your-context-window.md\ncontent/factor-04-tools-are-structured-outputs.md\ncontent/factor-05-unify-execution-state.md\ncontent/factor-06-launch-pause-resume.md\ncontent/factor-07-contact-humans-with-tools.md\ncontent/factor-08-own-your-control-flow.md\ncontent/factor-09-compact-errors.md\ncontent/factor-1-natural-language-to-tool-calls.md\ncontent/factor-10-small-focused-agents.md\ncontent/factor-11-trigger-from-anywhere.md\ncontent/factor-12-stateless-reducer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "12-factor-agents/content 模块",
+    "description": "[模块级] 12-factor-agents 项目的 content 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "content"
+    ],
+    "genes": [
+      {
+        "title": "content 模块说明",
+        "content": "模块路径: content/\n类型: source\n文件数: 23\n\n包含文件:\n- content/appendix-13-pre-fetch.md\n- content/brief-history-of-software.md\n- content/factor-01-natural-language-to-tool-calls.md\n- content/factor-02-own-your-prompts.md\n- content/factor-03-own-your-context-window.md\n- content/factor-04-tools-are-structured-outputs.md\n- content/factor-05-unify-execution-state.md\n- content/factor-06-launch-pause-resume.md\n- content/factor-07-contact-humans-with-tools.md\n- content/factor-08-own-your-control-flow.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "content 文件结构",
+        "content": "content/appendix-13-pre-fetch.md\ncontent/brief-history-of-software.md\ncontent/factor-01-natural-language-to-tool-calls.md\ncontent/factor-02-own-your-prompts.md\ncontent/factor-03-own-your-context-window.md\ncontent/factor-04-tools-are-structured-outputs.md\ncontent/factor-05-unify-execution-state.md\ncontent/factor-06-launch-pause-resume.md\ncontent/factor-07-contact-humans-with-tools.md\ncontent/factor-08-own-your-control-flow.md\ncontent/factor-09-compact-errors.md\ncontent/factor-1-natural-language-to-tool-calls.md\ncontent/factor-10-small-focused-agents.md\ncontent/factor-11-trigger-from-anywhere.md\ncontent/factor-12-stateless-reducer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  },
+  {
+    "name": "12-factor-agents/drafts 模块",
+    "description": "[模块级] 12-factor-agents 项目的 drafts 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "drafts"
+    ],
+    "genes": [
+      {
+        "title": "drafts 模块说明",
+        "content": "模块路径: drafts/\n类型: source\n文件数: 2\n\n包含文件:\n- drafts/a2h-spec.md\n- drafts/ah2-openapi.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drafts 文件结构",
+        "content": "drafts/a2h-spec.md\ndrafts/ah2-openapi.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  },
+  {
+    "name": "12-factor-agents/hack 模块",
+    "description": "[模块级] 12-factor-agents 项目的 hack 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "hack"
+    ],
+    "genes": [
+      {
+        "title": "hack 模块说明",
+        "content": "模块路径: hack/\n类型: source\n文件数: 6\n\n包含文件:\n- hack/contributors_markdown\n- hack/contributors_markdown/.python-version\n- hack/contributors_markdown/README.md\n- hack/contributors_markdown/contributors_markdown.py\n- hack/contributors_markdown/pyproject.toml\n- hack/contributors_markdown/uv.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hack 文件结构",
+        "content": "hack/contributors_markdown\nhack/contributors_markdown/.python-version\nhack/contributors_markdown/README.md\nhack/contributors_markdown/contributors_markdown.py\nhack/contributors_markdown/pyproject.toml\nhack/contributors_markdown/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  },
+  {
+    "name": "12-factor-agents/img 模块",
+    "description": "[模块级] 12-factor-agents 项目的 img 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 40\n\n包含文件:\n- img/010-software-dag.png\n- img/015-dag-orchestrators.png\n- img/020-dags-with-ml.png\n- img/025-agent-dag.png\n- img/026-agent-dag-lines.png\n- img/027-agent-loop-animation.gif\n- img/027-agent-loop-animation.mp4\n- img/027-agent-loop-dag.png\n- img/027-agent-loop.png\n- img/028-micro-agent-dag.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/010-software-dag.png\nimg/015-dag-orchestrators.png\nimg/020-dags-with-ml.png\nimg/025-agent-dag.png\nimg/026-agent-dag-lines.png\nimg/027-agent-loop-animation.gif\nimg/027-agent-loop-animation.mp4\nimg/027-agent-loop-dag.png\nimg/027-agent-loop.png\nimg/028-micro-agent-dag.png\nimg/029-deploybot-high-level.png\nimg/030-deploybot-animation.gif\nimg/030-deploybot-animation.mp4\nimg/031-deploybot-animation-5.gif\nimg/031-deploybot-animation-5.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  },
+  {
+    "name": "12-factor-agents/packages 模块",
+    "description": "[模块级] 12-factor-agents 项目的 packages 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 49\n\n包含文件:\n- packages/create-12-factor-agent\n- packages/create-12-factor-agent/template\n- packages/create-12-factor-agent/template/.gitignore\n- packages/create-12-factor-agent/template/README.md\n- packages/create-12-factor-agent/template/baml_src\n- packages/create-12-factor-agent/template/baml_src/agent.baml\n- packages/create-12-factor-agent/template/baml_src/clients.baml\n- packages/create-12-factor-agent/template/baml_src/generators.baml\n- packages/create-12-factor-agent/template/baml_src/tool_calculator.baml\n- packages/create-12-factor-agent/template/package-lock.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/create-12-factor-agent\npackages/create-12-factor-agent/template\npackages/create-12-factor-agent/template/.gitignore\npackages/create-12-factor-agent/template/README.md\npackages/create-12-factor-agent/template/baml_src\npackages/create-12-factor-agent/template/baml_src/agent.baml\npackages/create-12-factor-agent/template/baml_src/clients.baml\npackages/create-12-factor-agent/template/baml_src/generators.baml\npackages/create-12-factor-agent/template/baml_src/tool_calculator.baml\npackages/create-12-factor-agent/template/package-lock.json\npackages/create-12-factor-agent/template/package.json\npackages/create-12-factor-agent/template/src\npackages/create-12-factor-agent/template/src/a2h.ts\npackages/create-12-factor-agent/template/src/agent.ts\npackages/create-12-factor-agent/template/src/cli.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  },
+  {
+    "name": "12-factor-agents/workshops 模块",
+    "description": "[模块级] 12-factor-agents 项目的 workshops 模块 (source)。来源: https://github.com/humanlayer/12-factor-agents",
+    "domain": "devops",
+    "tags": [
+      "12-factor",
+      "12-factor-agents",
+      "agents",
+      "ai",
+      "context-window",
+      "module-level",
+      "source",
+      "workshops"
+    ],
+    "genes": [
+      {
+        "title": "workshops 模块说明",
+        "content": "模块路径: workshops/\n类型: source\n文件数: 69\n\n包含文件:\n- workshops/.gitignore\n- workshops/.python-version\n- workshops/2025-05-17\n- workshops/2025-05-17/.gitignore\n- workshops/2025-05-17/package-lock.json\n- workshops/2025-05-17/package.json\n- workshops/2025-05-17/sections\n- workshops/2025-05-17/sections/00-hello-world\n- workshops/2025-05-17/sections/00-hello-world/README.md\n- workshops/2025-05-17/sections/00-hello-world/walkthrough",
+        "gene_type": "principle"
+      },
+      {
+        "title": "workshops 文件结构",
+        "content": "workshops/.gitignore\nworkshops/.python-version\nworkshops/2025-05-17\nworkshops/2025-05-17/.gitignore\nworkshops/2025-05-17/package-lock.json\nworkshops/2025-05-17/package.json\nworkshops/2025-05-17/sections\nworkshops/2025-05-17/sections/00-hello-world\nworkshops/2025-05-17/sections/00-hello-world/README.md\nworkshops/2025-05-17/sections/00-hello-world/walkthrough\nworkshops/2025-05-17/sections/00-hello-world/walkthrough/00-.gitignore\nworkshops/2025-05-17/sections/00-hello-world/walkthrough/00-index.ts\nworkshops/2025-05-17/sections/00-hello-world/walkthrough/00-package.json\nworkshops/2025-05-17/sections/00-hello-world/walkthrough/00-tsconfig.json\nworkshops/2025-05-17/sections/01-cli-and-agent",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204666891509674
+  }
+]

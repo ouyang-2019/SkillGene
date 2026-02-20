@@ -1,0 +1,161 @@
+[
+  {
+    "name": "ai-sdk-preview-rag (vercel-labs)",
+    "description": "[项目级] Retrieval-augmented generation (RAG) template powered by the AI SDK.。来源: https://github.com/vercel-labs/ai-sdk-preview-rag",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-sdk",
+      "nextjs",
+      "rag",
+      "typescript",
+      "stars-397",
+      "github-vercel-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-augmented generation (RAG) template powered by the AI SDK.\n\n来源: https://github.com/vercel-labs/ai-sdk-preview-rag\n语言: TypeScript\nStars: 397",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napp\napp/(preview)\napp/favicon.ico\ncomponents.json\ncomponents\ncomponents/icons.tsx\ncomponents/project-overview.tsx\ncomponents/ui\ndrizzle.config.ts\nlib\nlib/actions\nlib/ai\nlib/db\nlib/env.mjs\nlib/utils.ts\nnext.config.mjs\npackage.json\npnpm-lock.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Information retrieval and addition through tool calls using the [`streamText`](https://ai-sdk.dev/docs/reference/ai-sdk-core/stream-text) function\n- Real-time streaming of model responses to the frontend using the [`useChat`](https://ai-sdk.dev/docs/reference/ai-sdk-ui/use-chat) hook\n- Vector embedding storage with [DrizzleORM](https://orm.drizzle.team/) and [PostgreSQL](https://www.postgresql.org/)\n- Animated UI with [Framer Motion](https://www.framer.com/motion/)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.299395253381558
+  },
+  {
+    "name": "ai-sdk-preview-rag/app 模块",
+    "description": "[模块级] ai-sdk-preview-rag 项目的 app 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-rag",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-sdk",
+      "nextjs",
+      "rag",
+      "typescript",
+      "stars-397",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 10\n\n包含文件:\n- app/(preview)\n- app/(preview)/api\n- app/(preview)/api/chat\n- app/(preview)/api/chat/route.ts\n- app/(preview)/globals.css\n- app/(preview)/layout.tsx\n- app/(preview)/opengraph-image.png\n- app/(preview)/page.tsx\n- app/(preview)/uncut-sans.woff2\n- app/favicon.ico",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/(preview)\napp/(preview)/api\napp/(preview)/api/chat\napp/(preview)/api/chat/route.ts\napp/(preview)/globals.css\napp/(preview)/layout.tsx\napp/(preview)/opengraph-image.png\napp/(preview)/page.tsx\napp/(preview)/uncut-sans.woff2\napp/favicon.ico",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "ai-sdk-preview-rag/components 模块",
+    "description": "[模块级] ai-sdk-preview-rag 项目的 components 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-rag",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-sdk",
+      "nextjs",
+      "rag",
+      "typescript",
+      "stars-397",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 6\n\n包含文件:\n- components/icons.tsx\n- components/project-overview.tsx\n- components/ui\n- components/ui/button.tsx\n- components/ui/input.tsx\n- components/ui/label.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/icons.tsx\ncomponents/project-overview.tsx\ncomponents/ui\ncomponents/ui/button.tsx\ncomponents/ui/input.tsx\ncomponents/ui/label.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "ai-sdk-preview-rag/lib 模块",
+    "description": "[模块级] ai-sdk-preview-rag 项目的 lib 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-rag",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-sdk",
+      "nextjs",
+      "rag",
+      "typescript",
+      "stars-397",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 17\n\n包含文件:\n- lib/actions\n- lib/actions/resources.ts\n- lib/ai\n- lib/ai/embedding.ts\n- lib/db\n- lib/db/index.ts\n- lib/db/migrate.ts\n- lib/db/migrations\n- lib/db/migrations/0000_yielding_bloodaxe.sql\n- lib/db/migrations/meta",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/actions\nlib/actions/resources.ts\nlib/ai\nlib/ai/embedding.ts\nlib/db\nlib/db/index.ts\nlib/db/migrate.ts\nlib/db/migrations\nlib/db/migrations/0000_yielding_bloodaxe.sql\nlib/db/migrations/meta\nlib/db/migrations/meta/0000_snapshot.json\nlib/db/migrations/meta/_journal.json\nlib/db/schema\nlib/db/schema/embeddings.ts\nlib/db/schema/resources.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "ai-sdk-preview-rag/public 模块",
+    "description": "[模块级] ai-sdk-preview-rag 项目的 public 模块 (source)。来源: https://github.com/vercel-labs/ai-sdk-preview-rag",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-sdk",
+      "nextjs",
+      "rag",
+      "typescript",
+      "stars-397",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 2\n\n包含文件:\n- public/next.svg\n- public/vercel.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/next.svg\npublic/vercel.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  }
+]

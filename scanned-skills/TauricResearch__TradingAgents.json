@@ -1,0 +1,133 @@
+[
+  {
+    "name": "TradingAgents (TauricResearch)",
+    "description": "[项目级] TradingAgents: Multi-Agents LLM Financial Trading Framework。来源: https://github.com/TauricResearch/TradingAgents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "finance",
+      "llm",
+      "multiagent",
+      "trading",
+      "python",
+      "stars-30239",
+      "github-tauricresearch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "TradingAgents: Multi-Agents LLM Financial Trading Framework\n\n来源: https://github.com/TauricResearch/TradingAgents\n语言: Python\nStars: 30239",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/TauricResearch.png\nassets/analyst.png\nassets/cli\nassets/researcher.png\nassets/risk.png\nassets/schema.png\nassets/trader.png\nassets/wechat.png\ncli\ncli/__init__.py\ncli/announcements.py\ncli/config.py\ncli/main.py\ncli/models.py\ncli/static\ncli/stats_handler.py\ncli/utils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "python -m cli.main",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "TradingAgents/assets 模块",
+    "description": "[模块级] TradingAgents 项目的 assets 模块 (source)。来源: https://github.com/TauricResearch/TradingAgents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "finance",
+      "llm",
+      "multiagent",
+      "trading",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/TauricResearch.png\n- assets/analyst.png\n- assets/cli\n- assets/cli/cli_init.png\n- assets/cli/cli_news.png\n- assets/cli/cli_technical.png\n- assets/cli/cli_transaction.png\n- assets/researcher.png\n- assets/risk.png\n- assets/schema.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/TauricResearch.png\nassets/analyst.png\nassets/cli\nassets/cli/cli_init.png\nassets/cli/cli_news.png\nassets/cli/cli_technical.png\nassets/cli/cli_transaction.png\nassets/researcher.png\nassets/risk.png\nassets/schema.png\nassets/trader.png\nassets/wechat.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292226970000677
+  },
+  {
+    "name": "TradingAgents/cli 模块",
+    "description": "[模块级] TradingAgents 项目的 cli 模块 (source)。来源: https://github.com/TauricResearch/TradingAgents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "finance",
+      "llm",
+      "multiagent",
+      "trading",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 9\n\n包含文件:\n- cli/__init__.py\n- cli/announcements.py\n- cli/config.py\n- cli/main.py\n- cli/models.py\n- cli/static\n- cli/static/welcome.txt\n- cli/stats_handler.py\n- cli/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/__init__.py\ncli/announcements.py\ncli/config.py\ncli/main.py\ncli/models.py\ncli/static\ncli/static/welcome.txt\ncli/stats_handler.py\ncli/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292226970000677
+  },
+  {
+    "name": "TradingAgents/tradingagents 模块",
+    "description": "[模块级] TradingAgents 项目的 tradingagents 模块 (source)。来源: https://github.com/TauricResearch/TradingAgents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "finance",
+      "llm",
+      "multiagent",
+      "trading",
+      "module-level",
+      "source",
+      "tradingagents"
+    ],
+    "genes": [
+      {
+        "title": "tradingagents 模块说明",
+        "content": "模块路径: tradingagents/\n类型: source\n文件数: 59\n\n包含文件:\n- tradingagents/agents\n- tradingagents/agents/__init__.py\n- tradingagents/agents/analysts\n- tradingagents/agents/analysts/fundamentals_analyst.py\n- tradingagents/agents/analysts/market_analyst.py\n- tradingagents/agents/analysts/news_analyst.py\n- tradingagents/agents/analysts/social_media_analyst.py\n- tradingagents/agents/managers\n- tradingagents/agents/managers/research_manager.py\n- tradingagents/agents/managers/risk_manager.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tradingagents 文件结构",
+        "content": "tradingagents/agents\ntradingagents/agents/__init__.py\ntradingagents/agents/analysts\ntradingagents/agents/analysts/fundamentals_analyst.py\ntradingagents/agents/analysts/market_analyst.py\ntradingagents/agents/analysts/news_analyst.py\ntradingagents/agents/analysts/social_media_analyst.py\ntradingagents/agents/managers\ntradingagents/agents/managers/research_manager.py\ntradingagents/agents/managers/risk_manager.py\ntradingagents/agents/researchers\ntradingagents/agents/researchers/bear_researcher.py\ntradingagents/agents/researchers/bull_researcher.py\ntradingagents/agents/risk_mgmt\ntradingagents/agents/risk_mgmt/aggressive_debator.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292226970000677
+  }
+]

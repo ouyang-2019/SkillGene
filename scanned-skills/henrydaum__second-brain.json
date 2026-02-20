@@ -1,0 +1,44 @@
+[
+  {
+    "name": "second-brain (henrydaum)",
+    "description": "[项目级] Second Brain is a desktop application that acts as a personal knowledge base, using retrieval-augmented generation (RAG), multimodal AI models, and a hybrid lexical/semantic search algorithm to interact with local text files and images.。来源: https://github.com/henrydaum/second-brain",
+    "domain": "devops",
+    "tags": [
+      "rag",
+      "python",
+      "stars-411",
+      "github-henrydaum",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Second Brain is a desktop application that acts as a personal knowledge base, using retrieval-augmented generation (RAG), multimodal AI models, and a hybrid lexical/semantic search algorithm to interact with local text files and images.\n\n来源: https://github.com/henrydaum/second-brain\n语言: Python\nStars: 411",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSecondBrainBackend.py\nSecondBrainFrontend.py\nSecondBrainHotkey.ahk\nicon.ico\nimage_labels.csv",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Semantic search: searches based on deep semantic meaning.\n- Lexical search: finds a needle in a haystack using keywords.\n- Supported files: .txt, .pdf, .docx, .gdoc, .png, .jpg, .jpeg, .gif, .webp  \n- Multimodal in three ways:\n  * Can embed and search for both text and images.\n  * Can attach text documents and images, and use them to search.\n  * Can use AI language models with vision.\n- Optional AI Mode:\n  * **LLM Integration**: Supports local models via LM Studio and cloud models, like GPT-5, via OpenAI.  \n  * **Retrieval-Augmented Generation (RAG)**: Uses search results to provide high-qua",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.306920910938034
+  }
+]

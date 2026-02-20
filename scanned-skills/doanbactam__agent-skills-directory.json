@@ -1,0 +1,193 @@
+[
+  {
+    "name": "agent-skills-directory (doanbactam)",
+    "description": "[项目级] Browse SKILL.md files for Claude, Cursor, Windsurf and other AI tools。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "typescript",
+      "stars-14",
+      "github-doanbactam",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Browse SKILL.md files for Claude, Cursor, Windsurf and other AI tools\n\n来源: https://github.com/doanbactam/agent-skills-directory\n语言: TypeScript\nStars: 14",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.md\napp\napp/(auth)\napp/[owner]\napp/about\napp/admin\napp/agent-skills\napp/api\napp/atom.xml\napp/categories\napp/cookies\napp/error.tsx\napp/favicon.ico\napp/feed.xml\napp/globals.css\napp/layout.tsx\napp/not-found.tsx\napp/opengraph-image.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Skills** - Browse SKILL.md files from GitHub\n- **Categories** - Filter by development, testing, documentation, DevOps, and more\n- **Favorites** - Save skills for quick access\n- **Install Commands** - Copy install commands for supported tools\n- **Sync** - Periodic discovery of new skills from GitHub\n- **Rankings** - Sort by stars, forks, and skill count",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.573064017839119
+  },
+  {
+    "name": "agent-skills-directory/app 模块",
+    "description": "[模块级] agent-skills-directory 项目的 app 模块 (source)。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 99\n\n包含文件:\n- app/(auth)\n- app/(auth)/layout.tsx\n- app/(auth)/sign-in\n- app/(auth)/sign-in/[[...sign-in]]\n- app/(auth)/sign-in/[[...sign-in]]/page.tsx\n- app/(auth)/sign-up\n- app/(auth)/sign-up/[[...sign-up]]\n- app/(auth)/sign-up/[[...sign-up]]/page.tsx\n- app/[owner]\n- app/[owner]/owner-skills-filter.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/(auth)\napp/(auth)/layout.tsx\napp/(auth)/sign-in\napp/(auth)/sign-in/[[...sign-in]]\napp/(auth)/sign-in/[[...sign-in]]/page.tsx\napp/(auth)/sign-up\napp/(auth)/sign-up/[[...sign-up]]\napp/(auth)/sign-up/[[...sign-up]]/page.tsx\napp/[owner]\napp/[owner]/owner-skills-filter.tsx\napp/[owner]/page.tsx\napp/[owner]/skills\napp/[owner]/skills/[name]\napp/[owner]/skills/[name]/opengraph-image.tsx\napp/[owner]/skills/[name]/page.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.958451214271295
+  },
+  {
+    "name": "agent-skills-directory/components 模块",
+    "description": "[模块级] agent-skills-directory 项目的 components 模块 (source)。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 48\n\n包含文件:\n- components/analytics\n- components/analytics/analytics-wrapper.tsx\n- components/analytics/lazy-analytics.tsx\n- components/error-boundary.tsx\n- components/faq\n- components/faq/skills-faq-loader.tsx\n- components/faq/skills-faq.tsx\n- components/layouts\n- components/layouts/container.tsx\n- components/layouts/footer.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/analytics\ncomponents/analytics/analytics-wrapper.tsx\ncomponents/analytics/lazy-analytics.tsx\ncomponents/error-boundary.tsx\ncomponents/faq\ncomponents/faq/skills-faq-loader.tsx\ncomponents/faq/skills-faq.tsx\ncomponents/layouts\ncomponents/layouts/container.tsx\ncomponents/layouts/footer.tsx\ncomponents/layouts/header-auth.tsx\ncomponents/layouts/header.tsx\ncomponents/layouts/mobile-nav.tsx\ncomponents/layouts/section.tsx\ncomponents/seo",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.958451214271295
+  },
+  {
+    "name": "agent-skills-directory/config 模块",
+    "description": "[模块级] agent-skills-directory 项目的 config 模块 (config)。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/image-hosts.ts\n- config/site.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/image-hosts.ts\nconfig/site.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.958451214271295
+  },
+  {
+    "name": "agent-skills-directory/drizzle 模块",
+    "description": "[模块级] agent-skills-directory 项目的 drizzle 模块 (source)。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 12\n\n包含文件:\n- drizzle/0000_striped_supernaut.sql\n- drizzle/0001_careful_hellfire_club.sql\n- drizzle/0002_greedy_zemo.sql\n- drizzle/0003_free_thor.sql\n- drizzle/0004_puzzling_william_stryker.sql\n- drizzle/meta\n- drizzle/meta/0000_snapshot.json\n- drizzle/meta/0001_snapshot.json\n- drizzle/meta/0002_snapshot.json\n- drizzle/meta/0003_snapshot.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_striped_supernaut.sql\ndrizzle/0001_careful_hellfire_club.sql\ndrizzle/0002_greedy_zemo.sql\ndrizzle/0003_free_thor.sql\ndrizzle/0004_puzzling_william_stryker.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/0001_snapshot.json\ndrizzle/meta/0002_snapshot.json\ndrizzle/meta/0003_snapshot.json\ndrizzle/meta/0004_snapshot.json\ndrizzle/meta/_journal.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.958451214271295
+  },
+  {
+    "name": "agent-skills-directory/features 模块",
+    "description": "[模块级] agent-skills-directory 项目的 features 模块 (source)。来源: https://github.com/doanbactam/agent-skills-directory",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agentskills",
+      "ai",
+      "antigravity",
+      "claude",
+      "module-level",
+      "source",
+      "features"
+    ],
+    "genes": [
+      {
+        "title": "features 模块说明",
+        "content": "- **Skills** - Browse SKILL.md files from GitHub\n- **Categories** - Filter by development, testing, documentation, DevOps, and more\n- **Favorites** - Save skills for quick access\n- **Install Commands** - Copy install commands for supported tools\n- **Sync** - Periodic discovery of new skills from GitHub\n- **Rankings** - Sort by stars, forks, and skill count",
+        "gene_type": "principle"
+      },
+      {
+        "title": "features 文件结构",
+        "content": "features/marketing\nfeatures/marketing/cookie-banner.tsx\nfeatures/marketing/hero.tsx\nfeatures/marketing/home-client.tsx\nfeatures/marketing/stats.tsx\nfeatures/skills\nfeatures/skills/badge-snippet.tsx\nfeatures/skills/copy-button.tsx\nfeatures/skills/featured-skills.tsx\nfeatures/skills/install-command.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.958451214271295
+  }
+]

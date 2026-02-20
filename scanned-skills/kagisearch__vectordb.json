@@ -1,0 +1,103 @@
+[
+  {
+    "name": "vectordb (kagisearch)",
+    "description": "[项目级] A minimal Python package for storing and retrieving text using chunking, embeddings, and vector search.。来源: https://github.com/kagisearch/vectordb",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "llm",
+      "llms",
+      "machine-learning",
+      "python",
+      "stars-782",
+      "github-kagisearch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A minimal Python package for storing and retrieving text using chunking, embeddings, and vector search.\n\n来源: https://github.com/kagisearch/vectordb\n语言: Python\nStars: 782",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install vectordb2",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nimages\nimages/.init\nimages/comparison.png\nimages/latency.png\nimages/quality.png\nimages/scatter.png\nimages/speed_cpu.png\nimages/speed_gpu.png\nsetup.py\nvectordb\nvectordb/__init__.py\nvectordb/chunking.py\nvectordb/embedding.py\nvectordb/memory.py\nvectordb/storage.py\nvectordb/vector_search.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Quick example that loads data into memory, and runs retrieval. All data will be handled locally, including embeddings and vector search, completely trasparent for the user with maximum possible performance. \n\n```python\nfrom vectordb import Memory",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.446603376529924
+  },
+  {
+    "name": "vectordb/images 模块",
+    "description": "[模块级] vectordb 项目的 images 模块 (source)。来源: https://github.com/kagisearch/vectordb",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "llm",
+      "llms",
+      "machine-learning",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/.init\n- images/comparison.png\n- images/latency.png\n- images/quality.png\n- images/scatter.png\n- images/speed_cpu.png\n- images/speed_gpu.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/.init\nimages/comparison.png\nimages/latency.png\nimages/quality.png\nimages/scatter.png\nimages/speed_cpu.png\nimages/speed_gpu.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6572827012239393
+  },
+  {
+    "name": "vectordb/vectordb 模块",
+    "description": "[模块级] vectordb 项目的 vectordb 模块 (source)。来源: https://github.com/kagisearch/vectordb",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "llm",
+      "llms",
+      "machine-learning",
+      "module-level",
+      "source",
+      "vectordb"
+    ],
+    "genes": [
+      {
+        "title": "vectordb 模块说明",
+        "content": "VectorDB is a simple, lightweight, fully local, end-to-end solution for using embeddings-based text retrieval.\n\nThanks to its low latency and small memory footprint, VectorDB is used to power AI features inside [Kagi Search](https://kagi.com).\n\nCheck an [example Colab notebook](https://colab.research.google.com/drive/1pecKGCCru_Jvx7v0WRNrW441EBlcS5qS#scrollTo=Eh6o8m7d8eOk) where this is used to filter the content of [Kagi Small Web](https://kagi.com/smallweb) RSS feed based on stated user intere",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vectordb 文件结构",
+        "content": "vectordb/__init__.py\nvectordb/chunking.py\nvectordb/embedding.py\nvectordb/memory.py\nvectordb/storage.py\nvectordb/vector_search.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6572827012239393
+  }
+]

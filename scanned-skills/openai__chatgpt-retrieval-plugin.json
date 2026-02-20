@@ -1,0 +1,280 @@
+[
+  {
+    "name": "chatgpt-retrieval-plugin (openai)",
+    "description": "[项目级] The ChatGPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language.。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The ChatGPT Retrieval Plugin repository provides a flexible solution for semantic search and retrieval of personal or organizational documents using natural language queries. It is a standalone retrieval backend, and can be used with [ChatGPT custom GPTs](https://chat.openai.com/gpts/discovery), [function calling](https://platform.openai.com/docs/guides/function-calling) with the [chat completions](https://platform.openai.com/docs/guides/text-generation) or [assistants APIs](https://platform.openai.com/docs/assistants/overview), or with the [ChatGPT plugins model (deprecated)](https://chat.openai.com/?model=gpt-4-plugins). ChatGPT and the Assistants API both natively support retrieval from uploaded files, so you should use the Retrieval Plugin as a backend only if you want more granular co",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/openai/chatgpt-retrieval-plugin.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME.md\nassets\nassets/example.png\ndatastore\ndatastore/__init__.py\ndatastore/datastore.py\ndatastore/factory.py\ndatastore/providers\ndocs\ndocs/deployment\ndocs/deprecated\ndocs/providers\nexamples\nexamples/authentication-methods\nexamples/docker\nexamples/function-calling\nexamples/memory",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "A notable feature of the Retrieval Plugin is its capacity to provide ChatGPT with memory. By using the plugin's upsert endpoint, ChatGPT can save snippets from the conversation to the vector database for later reference (only when prompted to do so by the user). This functionality contributes to a more context-aware chat experience by allowing ChatGPT to remember and retrieve information from previous conversations. Learn how to configure the Retrieval Plugin with memory [here](/examples/memory).",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/datastore 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 datastore 模块 (source)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "source",
+      "datastore"
+    ],
+    "genes": [
+      {
+        "title": "datastore 模块说明",
+        "content": "模块路径: datastore/\n类型: source\n文件数: 21\n\n包含文件:\n- datastore/__init__.py\n- datastore/datastore.py\n- datastore/factory.py\n- datastore/providers\n- datastore/providers/__init__.py\n- datastore/providers/analyticdb_datastore.py\n- datastore/providers/azurecosmosdb_datastore.py\n- datastore/providers/azuresearch_datastore.py\n- datastore/providers/chroma_datastore.py\n- datastore/providers/elasticsearch_datastore.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datastore 文件结构",
+        "content": "datastore/__init__.py\ndatastore/datastore.py\ndatastore/factory.py\ndatastore/providers\ndatastore/providers/__init__.py\ndatastore/providers/analyticdb_datastore.py\ndatastore/providers/azurecosmosdb_datastore.py\ndatastore/providers/azuresearch_datastore.py\ndatastore/providers/chroma_datastore.py\ndatastore/providers/elasticsearch_datastore.py\ndatastore/providers/llama_datastore.py\ndatastore/providers/milvus_datastore.py\ndatastore/providers/mongodb_atlas_datastore.py\ndatastore/providers/pgvector_datastore.py\ndatastore/providers/pinecone_datastore.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/docs 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 docs 模块 (docs)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 40\n\n包含文件:\n- docs/deployment\n- docs/deployment/flyio.md\n- docs/deployment/heroku.md\n- docs/deployment/other-options.md\n- docs/deployment/removing-unused-dependencies.md\n- docs/deployment/render-thumbnail.png\n- docs/deployment/render.md\n- docs/deprecated\n- docs/deprecated/plugins.md\n- docs/providers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/deployment\ndocs/deployment/flyio.md\ndocs/deployment/heroku.md\ndocs/deployment/other-options.md\ndocs/deployment/removing-unused-dependencies.md\ndocs/deployment/render-thumbnail.png\ndocs/deployment/render.md\ndocs/deprecated\ndocs/deprecated/plugins.md\ndocs/providers\ndocs/providers/analyticdb\ndocs/providers/analyticdb/setup.md\ndocs/providers/azurecosmosdb\ndocs/providers/azurecosmosdb/setup.md\ndocs/providers/azuresearch",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/examples 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 examples 模块 (example)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 47\n\n包含文件:\n- examples/authentication-methods\n- examples/authentication-methods/no-auth\n- examples/authentication-methods/no-auth/ai-plugin.json\n- examples/authentication-methods/no-auth/main.py\n- examples/authentication-methods/oauth\n- examples/authentication-methods/oauth/ai-plugin.json\n- examples/authentication-methods/service-http\n- examples/authentication-methods/service-http/ai-plugin.json\n- examples/authentication-methods/user-http\n- examples/authentication-methods/user-http/ai-plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/authentication-methods\nexamples/authentication-methods/no-auth\nexamples/authentication-methods/no-auth/ai-plugin.json\nexamples/authentication-methods/no-auth/main.py\nexamples/authentication-methods/oauth\nexamples/authentication-methods/oauth/ai-plugin.json\nexamples/authentication-methods/service-http\nexamples/authentication-methods/service-http/ai-plugin.json\nexamples/authentication-methods/user-http\nexamples/authentication-methods/user-http/ai-plugin.json\nexamples/docker\nexamples/docker/elasticsearch\nexamples/docker/elasticsearch/README.md\nexamples/docker/elasticsearch/docker-compose.yaml\nexamples/docker/milvus",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/local_server 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 local_server 模块 (source)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "source",
+      "local_server"
+    ],
+    "genes": [
+      {
+        "title": "local_server 模块说明",
+        "content": "模块路径: local_server/\n类型: source\n文件数: 4\n\n包含文件:\n- local_server/ai-plugin.json\n- local_server/logo.png\n- local_server/main.py\n- local_server/openapi.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "local_server 文件结构",
+        "content": "local_server/ai-plugin.json\nlocal_server/logo.png\nlocal_server/main.py\nlocal_server/openapi.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/models 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 models 模块 (source)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "source",
+      "models"
+    ],
+    "genes": [
+      {
+        "title": "models 模块说明",
+        "content": "模块路径: models/\n类型: source\n文件数: 2\n\n包含文件:\n- models/api.py\n- models/models.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "models 文件结构",
+        "content": "models/api.py\nmodels/models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/scripts 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 scripts 模块 (script)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "The `scripts` folder contains scripts to batch upsert or process text documents from different data sources, such as a zip file, JSON file, or JSONL file. These scripts use the plugin's upsert utility functions to upload the documents and their metadata to the vector database, after converting them to plain text and splitting them into chunks. Each script folder has a README file that explains how to use it and what parameters it requires. You can also optionally screen the documents for persona",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/process_json\nscripts/process_json/README.md\nscripts/process_json/example.json\nscripts/process_json/process_json.py\nscripts/process_jsonl\nscripts/process_jsonl/README.md\nscripts/process_jsonl/example.jsonl\nscripts/process_jsonl/process_jsonl.py\nscripts/process_zip\nscripts/process_zip/README.md\nscripts/process_zip/example.zip\nscripts/process_zip/process_zip.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/services 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 services 模块 (source)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "source",
+      "services"
+    ],
+    "genes": [
+      {
+        "title": "services 模块说明",
+        "content": "模块路径: services/\n类型: source\n文件数: 6\n\n包含文件:\n- services/chunks.py\n- services/date.py\n- services/extract_metadata.py\n- services/file.py\n- services/openai.py\n- services/pii_detection.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "services 文件结构",
+        "content": "services/chunks.py\nservices/date.py\nservices/extract_metadata.py\nservices/file.py\nservices/openai.py\nservices/pii_detection.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  },
+  {
+    "name": "chatgpt-retrieval-plugin/tests 模块",
+    "description": "[模块级] chatgpt-retrieval-plugin 项目的 tests 模块 (test)。来源: https://github.com/openai/chatgpt-retrieval-plugin",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "python",
+      "stars-21219",
+      "github-openai",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 33\n\n包含文件:\n- tests/__init__.py\n- tests/datastore\n- tests/datastore/providers\n- tests/datastore/providers/analyticdb\n- tests/datastore/providers/analyticdb/test_analyticdb_datastore.py\n- tests/datastore/providers/azurecosmosdb\n- tests/datastore/providers/azurecosmosdb/test_azurecosmosdb_datastore.py\n- tests/datastore/providers/azuresearch\n- tests/datastore/providers/azuresearch/test_azuresearch_datastore.py\n- tests/datastore/providers/chroma",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/datastore\ntests/datastore/providers\ntests/datastore/providers/analyticdb\ntests/datastore/providers/analyticdb/test_analyticdb_datastore.py\ntests/datastore/providers/azurecosmosdb\ntests/datastore/providers/azurecosmosdb/test_azurecosmosdb_datastore.py\ntests/datastore/providers/azuresearch\ntests/datastore/providers/azuresearch/test_azuresearch_datastore.py\ntests/datastore/providers/chroma\ntests/datastore/providers/chroma/test_chroma_datastore.py\ntests/datastore/providers/elasticsearch\ntests/datastore/providers/elasticsearch/test_elasticsearch_datastore.py\ntests/datastore/providers/llama\ntests/datastore/providers/llama/test_llama_datastore.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230689965120844
+  }
+]

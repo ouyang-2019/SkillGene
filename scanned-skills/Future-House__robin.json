@@ -1,0 +1,66 @@
+[
+  {
+    "name": "robin (Future-House)",
+    "description": "[项目级] Robin: A multi-agent system for automating scientific discovery。来源: https://github.com/Future-House/robin",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-281",
+      "github-future-house",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The `examples` folder provides practical usage demonstrations of pre-generated output directories from complete Robin runs for 10 diseases:\n\n- Age-Related Hearing Loss\n- Celiac Disease\n- Charcot-Marie-Tooth Disease\n- Chronic Kidney Disease\n- Friedreich's Ataxia\n- Glaucoma\n- Idiopathic Pulmonary Fibrosis\n- Non-alcoholic Steatohepatitis\n- Polycystic Ovary Syndrome\n- Sarcopenia\n\nEach disease-specific subfolder mirrors the exact file and directory structure a user would obtain in their own `robin_output/` directory after a run:\n\n- `experimental_assay_detailed_hypotheses/`: Text files containing detailed reports for each proposed experimental assay.\n- `experimental_assay_literature_reviews/`: Text files of literature reviews generated from queries related to assay development.\n- `experimental_a",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/Future-House/robin.git\n    cd robin",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nREADME.md\nexamples\nexamples/example_outputs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The `examples` folder provides practical usage demonstrations of pre-generated output directories from complete Robin runs for 10 diseases:\n\n- Age-Related Hearing Loss\n- Celiac Disease\n- Charcot-Marie-Tooth Disease\n- Chronic Kidney Disease\n- Friedreich's Ataxia\n- Glaucoma\n- Idiopathic Pulmonary Fibrosis\n- Non-alcoholic Steatohepatitis\n- Polycystic Ovary Syndrome\n- Sarcopenia\n\nEach disease-specific subfolder mirrors the exact file and directory structure a user would obtain in their own `robin_output/` directory after a run:\n\n- `experimental_assay_detailed_hypotheses/`: Text files containing de",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.22435315995254
+  },
+  {
+    "name": "robin/examples 模块",
+    "description": "[模块级] robin 项目的 examples 模块 (example)。来源: https://github.com/Future-House/robin",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-281",
+      "github-future-house",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "The `examples` folder provides practical usage demonstrations of pre-generated output directories from complete Robin runs for 10 diseases:\n\n- Age-Related Hearing Loss\n- Celiac Disease\n- Charcot-Marie-Tooth Disease\n- Chronic Kidney Disease\n- Friedreich's Ataxia\n- Glaucoma\n- Idiopathic Pulmonary Fibrosis\n- Non-alcoholic Steatohepatitis\n- Polycystic Ovary Syndrome\n- Sarcopenia\n\nEach disease-specific subfolder mirrors the exact file and directory structure a user would obtain in their own `robin_ou",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/example_outputs\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_10_high.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_1_oxidative.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_2_mitochondrial.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_3_apoptosis.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_4_inflammatory.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_5_dna.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_6_synaptic.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_7_mechanotransduction.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_8_cytokine.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_detailed_hypotheses/assay_hypothesis_9_metabolic.txt\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_literature_reviews\nexamples/example_outputs/Age-Related_Hearing_Loss_2025-05-15_13-27/experimental_assay_literature_reviews/query_1_identify.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.479482527962032
+  }
+]

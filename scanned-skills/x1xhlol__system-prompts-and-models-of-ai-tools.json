@@ -1,0 +1,872 @@
+[
+  {
+    "name": "system-prompts-and-models-of-ai-tools (x1xhlol)",
+    "description": "[项目级] FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "stars-115293",
+      "github-x1xhlol",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models\n\n来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools\n语言: unknown\nStars: 115293",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Amp\nAmp/README.md\nAmp/claude-4-sonnet.yaml\nAmp/gpt-5.yaml\nAmp/view-thread-yaml.png\nAnthropic\nAnthropic/Claude Code 2.0.txt\nAnthropic/Claude Code\nAnthropic/Claude for Chrome\nAnthropic/Sonnet 4.5 Prompt.txt\nAugment Code\nAugment Code/claude-4-sonnet-agent-prompts.txt\nAugment Code/claude-4-sonnet-tools.json\nAugment Code/gpt-5-agent-prompts.txt\nAugment Code/gpt-5-tools.json\nCluely\nCluely/Default Prompt.txt\nCluely/Enterprise Prompt.txt\nCodeBuddy Prompts\nCodeBuddy Prompts/Chat Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Amp 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Amp 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "amp"
+    ],
+    "genes": [
+      {
+        "title": "Amp 模块说明",
+        "content": "模块路径: Amp/\n类型: source\n文件数: 4\n\n包含文件:\n- Amp/README.md\n- Amp/claude-4-sonnet.yaml\n- Amp/gpt-5.yaml\n- Amp/view-thread-yaml.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Amp 文件结构",
+        "content": "Amp/README.md\nAmp/claude-4-sonnet.yaml\nAmp/gpt-5.yaml\nAmp/view-thread-yaml.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Anthropic 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Anthropic 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "anthropic"
+    ],
+    "genes": [
+      {
+        "title": "Anthropic 模块说明",
+        "content": "模块路径: Anthropic/\n类型: source\n文件数: 8\n\n包含文件:\n- Anthropic/Claude Code 2.0.txt\n- Anthropic/Claude Code\n- Anthropic/Claude Code/Prompt.txt\n- Anthropic/Claude Code/Tools.json\n- Anthropic/Claude for Chrome\n- Anthropic/Claude for Chrome/Prompt.txt\n- Anthropic/Claude for Chrome/Tools.json\n- Anthropic/Sonnet 4.5 Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Anthropic 文件结构",
+        "content": "Anthropic/Claude Code 2.0.txt\nAnthropic/Claude Code\nAnthropic/Claude Code/Prompt.txt\nAnthropic/Claude Code/Tools.json\nAnthropic/Claude for Chrome\nAnthropic/Claude for Chrome/Prompt.txt\nAnthropic/Claude for Chrome/Tools.json\nAnthropic/Sonnet 4.5 Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Augment Code 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Augment Code 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "augment code"
+    ],
+    "genes": [
+      {
+        "title": "Augment Code 模块说明",
+        "content": "模块路径: Augment Code/\n类型: source\n文件数: 4\n\n包含文件:\n- Augment Code/claude-4-sonnet-agent-prompts.txt\n- Augment Code/claude-4-sonnet-tools.json\n- Augment Code/gpt-5-agent-prompts.txt\n- Augment Code/gpt-5-tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Augment Code 文件结构",
+        "content": "Augment Code/claude-4-sonnet-agent-prompts.txt\nAugment Code/claude-4-sonnet-tools.json\nAugment Code/gpt-5-agent-prompts.txt\nAugment Code/gpt-5-tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Cluely 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Cluely 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "cluely"
+    ],
+    "genes": [
+      {
+        "title": "Cluely 模块说明",
+        "content": "模块路径: Cluely/\n类型: source\n文件数: 2\n\n包含文件:\n- Cluely/Default Prompt.txt\n- Cluely/Enterprise Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Cluely 文件结构",
+        "content": "Cluely/Default Prompt.txt\nCluely/Enterprise Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/CodeBuddy Prompts 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 CodeBuddy Prompts 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "codebuddy prompts"
+    ],
+    "genes": [
+      {
+        "title": "CodeBuddy Prompts 模块说明",
+        "content": "模块路径: CodeBuddy Prompts/\n类型: source\n文件数: 2\n\n包含文件:\n- CodeBuddy Prompts/Chat Prompt.txt\n- CodeBuddy Prompts/Craft Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "CodeBuddy Prompts 文件结构",
+        "content": "CodeBuddy Prompts/Chat Prompt.txt\nCodeBuddy Prompts/Craft Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Comet Assistant 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Comet Assistant 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "comet assistant"
+    ],
+    "genes": [
+      {
+        "title": "Comet Assistant 模块说明",
+        "content": "模块路径: Comet Assistant/\n类型: source\n文件数: 2\n\n包含文件:\n- Comet Assistant/System Prompt.txt\n- Comet Assistant/tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Comet Assistant 文件结构",
+        "content": "Comet Assistant/System Prompt.txt\nComet Assistant/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Cursor Prompts 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Cursor Prompts 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "cursor prompts"
+    ],
+    "genes": [
+      {
+        "title": "Cursor Prompts 模块说明",
+        "content": "模块路径: Cursor Prompts/\n类型: source\n文件数: 7\n\n包含文件:\n- Cursor Prompts/Agent CLI Prompt 2025-08-07.txt\n- Cursor Prompts/Agent Prompt 2.0.txt\n- Cursor Prompts/Agent Prompt 2025-09-03.txt\n- Cursor Prompts/Agent Prompt v1.0.txt\n- Cursor Prompts/Agent Prompt v1.2.txt\n- Cursor Prompts/Agent Tools v1.0.json\n- Cursor Prompts/Chat Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Cursor Prompts 文件结构",
+        "content": "Cursor Prompts/Agent CLI Prompt 2025-08-07.txt\nCursor Prompts/Agent Prompt 2.0.txt\nCursor Prompts/Agent Prompt 2025-09-03.txt\nCursor Prompts/Agent Prompt v1.0.txt\nCursor Prompts/Agent Prompt v1.2.txt\nCursor Prompts/Agent Tools v1.0.json\nCursor Prompts/Chat Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Devin AI 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Devin AI 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "devin ai"
+    ],
+    "genes": [
+      {
+        "title": "Devin AI 模块说明",
+        "content": "模块路径: Devin AI/\n类型: source\n文件数: 2\n\n包含文件:\n- Devin AI/DeepWiki Prompt.txt\n- Devin AI/Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Devin AI 文件结构",
+        "content": "Devin AI/DeepWiki Prompt.txt\nDevin AI/Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Emergent 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Emergent 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "emergent"
+    ],
+    "genes": [
+      {
+        "title": "Emergent 模块说明",
+        "content": "模块路径: Emergent/\n类型: source\n文件数: 2\n\n包含文件:\n- Emergent/Prompt.txt\n- Emergent/Tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Emergent 文件结构",
+        "content": "Emergent/Prompt.txt\nEmergent/Tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Google 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Google 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "google"
+    ],
+    "genes": [
+      {
+        "title": "Google 模块说明",
+        "content": "模块路径: Google/\n类型: source\n文件数: 5\n\n包含文件:\n- Google/Antigravity\n- Google/Antigravity/Fast Prompt.txt\n- Google/Antigravity/planning-mode.txt\n- Google/Gemini\n- Google/Gemini/AI Studio vibe-coder.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Google 文件结构",
+        "content": "Google/Antigravity\nGoogle/Antigravity/Fast Prompt.txt\nGoogle/Antigravity/planning-mode.txt\nGoogle/Gemini\nGoogle/Gemini/AI Studio vibe-coder.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Kiro 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Kiro 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "kiro"
+    ],
+    "genes": [
+      {
+        "title": "Kiro 模块说明",
+        "content": "模块路径: Kiro/\n类型: source\n文件数: 3\n\n包含文件:\n- Kiro/Mode_Clasifier_Prompt.txt\n- Kiro/Spec_Prompt.txt\n- Kiro/Vibe_Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Kiro 文件结构",
+        "content": "Kiro/Mode_Clasifier_Prompt.txt\nKiro/Spec_Prompt.txt\nKiro/Vibe_Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Leap.new 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Leap.new 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "leap.new"
+    ],
+    "genes": [
+      {
+        "title": "Leap.new 模块说明",
+        "content": "模块路径: Leap.new/\n类型: source\n文件数: 2\n\n包含文件:\n- Leap.new/Prompts.txt\n- Leap.new/tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Leap.new 文件结构",
+        "content": "Leap.new/Prompts.txt\nLeap.new/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Lovable 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Lovable 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "lovable"
+    ],
+    "genes": [
+      {
+        "title": "Lovable 模块说明",
+        "content": "模块路径: Lovable/\n类型: source\n文件数: 2\n\n包含文件:\n- Lovable/Agent Prompt.txt\n- Lovable/Agent Tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Lovable 文件结构",
+        "content": "Lovable/Agent Prompt.txt\nLovable/Agent Tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Manus Agent Tools & Prompt 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Manus Agent Tools & Prompt 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "manus agent tools & prompt"
+    ],
+    "genes": [
+      {
+        "title": "Manus Agent Tools & Prompt 模块说明",
+        "content": "模块路径: Manus Agent Tools & Prompt/\n类型: source\n文件数: 4\n\n包含文件:\n- Manus Agent Tools & Prompt/Agent loop.txt\n- Manus Agent Tools & Prompt/Modules.txt\n- Manus Agent Tools & Prompt/Prompt.txt\n- Manus Agent Tools & Prompt/tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Manus Agent Tools & Prompt 文件结构",
+        "content": "Manus Agent Tools & Prompt/Agent loop.txt\nManus Agent Tools & Prompt/Modules.txt\nManus Agent Tools & Prompt/Prompt.txt\nManus Agent Tools & Prompt/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/NotionAi 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 NotionAi 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "notionai"
+    ],
+    "genes": [
+      {
+        "title": "NotionAi 模块说明",
+        "content": "模块路径: NotionAi/\n类型: source\n文件数: 2\n\n包含文件:\n- NotionAi/Prompt.txt\n- NotionAi/tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "NotionAi 文件结构",
+        "content": "NotionAi/Prompt.txt\nNotionAi/tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Open Source prompts 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Open Source prompts 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "open source prompts"
+    ],
+    "genes": [
+      {
+        "title": "Open Source prompts 模块说明",
+        "content": "模块路径: Open Source prompts/\n类型: source\n文件数: 13\n\n包含文件:\n- Open Source prompts/Bolt\n- Open Source prompts/Bolt/Prompt.txt\n- Open Source prompts/Cline\n- Open Source prompts/Cline/Prompt.txt\n- Open Source prompts/Codex CLI\n- Open Source prompts/Codex CLI/Prompt.txt\n- Open Source prompts/Codex CLI/openai-codex-cli-system-prompt-20250820.txt\n- Open Source prompts/Gemini CLI\n- Open Source prompts/Gemini CLI/google-gemini-cli-system-prompt.txt\n- Open Source prompts/Lumo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Open Source prompts 文件结构",
+        "content": "Open Source prompts/Bolt\nOpen Source prompts/Bolt/Prompt.txt\nOpen Source prompts/Cline\nOpen Source prompts/Cline/Prompt.txt\nOpen Source prompts/Codex CLI\nOpen Source prompts/Codex CLI/Prompt.txt\nOpen Source prompts/Codex CLI/openai-codex-cli-system-prompt-20250820.txt\nOpen Source prompts/Gemini CLI\nOpen Source prompts/Gemini CLI/google-gemini-cli-system-prompt.txt\nOpen Source prompts/Lumo\nOpen Source prompts/Lumo/Prompt.txt\nOpen Source prompts/RooCode\nOpen Source prompts/RooCode/Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Orchids.app 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Orchids.app 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "orchids.app"
+    ],
+    "genes": [
+      {
+        "title": "Orchids.app 模块说明",
+        "content": "模块路径: Orchids.app/\n类型: source\n文件数: 2\n\n包含文件:\n- Orchids.app/Decision-making prompt.txt\n- Orchids.app/System Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Orchids.app 文件结构",
+        "content": "Orchids.app/Decision-making prompt.txt\nOrchids.app/System Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Poke 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Poke 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "poke"
+    ],
+    "genes": [
+      {
+        "title": "Poke 模块说明",
+        "content": "模块路径: Poke/\n类型: source\n文件数: 7\n\n包含文件:\n- Poke/Poke agent.txt\n- Poke/Poke_p1.txt\n- Poke/Poke_p2.txt\n- Poke/Poke_p3.txt\n- Poke/Poke_p4.txt\n- Poke/Poke_p5.txt\n- Poke/Poke_p6.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Poke 文件结构",
+        "content": "Poke/Poke agent.txt\nPoke/Poke_p1.txt\nPoke/Poke_p2.txt\nPoke/Poke_p3.txt\nPoke/Poke_p4.txt\nPoke/Poke_p5.txt\nPoke/Poke_p6.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Qoder 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Qoder 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "qoder"
+    ],
+    "genes": [
+      {
+        "title": "Qoder 模块说明",
+        "content": "模块路径: Qoder/\n类型: source\n文件数: 3\n\n包含文件:\n- Qoder/Quest Action.txt\n- Qoder/Quest Design.txt\n- Qoder/prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Qoder 文件结构",
+        "content": "Qoder/Quest Action.txt\nQoder/Quest Design.txt\nQoder/prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Replit 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Replit 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "replit"
+    ],
+    "genes": [
+      {
+        "title": "Replit 模块说明",
+        "content": "模块路径: Replit/\n类型: source\n文件数: 2\n\n包含文件:\n- Replit/Prompt.txt\n- Replit/Tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Replit 文件结构",
+        "content": "Replit/Prompt.txt\nReplit/Tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Same.dev 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Same.dev 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "same.dev"
+    ],
+    "genes": [
+      {
+        "title": "Same.dev 模块说明",
+        "content": "模块路径: Same.dev/\n类型: source\n文件数: 2\n\n包含文件:\n- Same.dev/Prompt.txt\n- Same.dev/Tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Same.dev 文件结构",
+        "content": "Same.dev/Prompt.txt\nSame.dev/Tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Trae 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Trae 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "trae"
+    ],
+    "genes": [
+      {
+        "title": "Trae 模块说明",
+        "content": "模块路径: Trae/\n类型: source\n文件数: 3\n\n包含文件:\n- Trae/Builder Prompt.txt\n- Trae/Builder Tools.json\n- Trae/Chat Prompt.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Trae 文件结构",
+        "content": "Trae/Builder Prompt.txt\nTrae/Builder Tools.json\nTrae/Chat Prompt.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Traycer AI 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Traycer AI 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "traycer ai"
+    ],
+    "genes": [
+      {
+        "title": "Traycer AI 模块说明",
+        "content": "模块路径: Traycer AI/\n类型: source\n文件数: 4\n\n包含文件:\n- Traycer AI/phase_mode_prompts.txt\n- Traycer AI/phase_mode_tools.json\n- Traycer AI/plan_mode_prompts\n- Traycer AI/plan_mode_tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Traycer AI 文件结构",
+        "content": "Traycer AI/phase_mode_prompts.txt\nTraycer AI/phase_mode_tools.json\nTraycer AI/plan_mode_prompts\nTraycer AI/plan_mode_tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/VSCode Agent 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 VSCode Agent 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "vscode agent"
+    ],
+    "genes": [
+      {
+        "title": "VSCode Agent 模块说明",
+        "content": "模块路径: VSCode Agent/\n类型: source\n文件数: 9\n\n包含文件:\n- VSCode Agent/Prompt.txt\n- VSCode Agent/chat-titles.txt\n- VSCode Agent/claude-sonnet-4.txt\n- VSCode Agent/gemini-2.5-pro.txt\n- VSCode Agent/gpt-4.1.txt\n- VSCode Agent/gpt-4o.txt\n- VSCode Agent/gpt-5-mini.txt\n- VSCode Agent/gpt-5.txt\n- VSCode Agent/nes-tab-completion.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "VSCode Agent 文件结构",
+        "content": "VSCode Agent/Prompt.txt\nVSCode Agent/chat-titles.txt\nVSCode Agent/claude-sonnet-4.txt\nVSCode Agent/gemini-2.5-pro.txt\nVSCode Agent/gpt-4.1.txt\nVSCode Agent/gpt-4o.txt\nVSCode Agent/gpt-5-mini.txt\nVSCode Agent/gpt-5.txt\nVSCode Agent/nes-tab-completion.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Windsurf 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Windsurf 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "windsurf"
+    ],
+    "genes": [
+      {
+        "title": "Windsurf 模块说明",
+        "content": "模块路径: Windsurf/\n类型: source\n文件数: 2\n\n包含文件:\n- Windsurf/Prompt Wave 11.txt\n- Windsurf/Tools Wave 11.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Windsurf 文件结构",
+        "content": "Windsurf/Prompt Wave 11.txt\nWindsurf/Tools Wave 11.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/Xcode 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 Xcode 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "xcode"
+    ],
+    "genes": [
+      {
+        "title": "Xcode 模块说明",
+        "content": "模块路径: Xcode/\n类型: source\n文件数: 6\n\n包含文件:\n- Xcode/DocumentAction.txt\n- Xcode/ExplainAction.txt\n- Xcode/MessageAction.txt\n- Xcode/PlaygroundAction.txt\n- Xcode/PreviewAction.txt\n- Xcode/System.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Xcode 文件结构",
+        "content": "Xcode/DocumentAction.txt\nXcode/ExplainAction.txt\nXcode/MessageAction.txt\nXcode/PlaygroundAction.txt\nXcode/PreviewAction.txt\nXcode/System.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/assets 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 assets 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/Latitude_logo.png\n- assets/tembo-dark.png\n- assets/tembo-light.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Latitude_logo.png\nassets/tembo-dark.png\nassets/tembo-light.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  },
+  {
+    "name": "system-prompts-and-models-of-ai-tools/v0 Prompts and Tools 模块",
+    "description": "[模块级] system-prompts-and-models-of-ai-tools 项目的 v0 Prompts and Tools 模块 (source)。来源: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "bolt",
+      "cluely",
+      "copilot",
+      "cursor",
+      "module-level",
+      "source",
+      "v0 prompts and tools"
+    ],
+    "genes": [
+      {
+        "title": "v0 Prompts and Tools 模块说明",
+        "content": "模块路径: v0 Prompts and Tools/\n类型: source\n文件数: 2\n\n包含文件:\n- v0 Prompts and Tools/Prompt.txt\n- v0 Prompts and Tools/Tools.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "v0 Prompts and Tools 文件结构",
+        "content": "v0 Prompts and Tools/Prompt.txt\nv0 Prompts and Tools/Tools.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.524721175984107
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "pipelex (Pipelex)",
+    "description": "[项目级] Declarative language for composable Al workflows. Devtool for agents and mere humans.。来源: https://github.com/Pipelex/pipelex",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "automation",
+      "dsl",
+      "language",
+      "python",
+      "stars-617",
+      "github-pipelex",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Declarative language for composable Al workflows. Devtool for agents and mere humans.\n\n来源: https://github.com/Pipelex/pipelex\n语言: Python\nStars: 617",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLA.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\ndocs\ndocs/.meta.yml\ndocs/404.html\ndocs/404.md\ndocs/CNAME\ndocs/CODE_OF_CONDUCT.md\ndocs/changelog.md\ndocs/contributing.md\ndocs/home\ndocs/images\ndocs/index.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Explore real-world examples in our **Cookbook** repository:\n\n[![GitHub](https://img.shields.io/badge/Cookbook-5a0dad?logo=github&logoColor=white&style=flat)](https://github.com/Pipelex/pipelex-cookbook/)\n\nClone it, fork it, and experiment with production-ready pipelines for various use cases.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "The package supports the following additional features:\n\n- `anthropic`: Anthropic/Claude support for text generation\n- `google`: Google models (Vertex) support for text generation\n- `mistralai`: Mistral AI support for text generation and OCR\n- `bedrock`: Amazon Bedrock support for text generation\n- `fal`: Image generation with Black Forest Labs \"FAL\" service\n\nInstall all extras:\n\nUsing `pip`:\n```bash\npip install \"pipelex[anthropic,google,google-genai,mistralai,bedrock,fal]\"\n```",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.395142582016621
+  },
+  {
+    "name": "pipelex/docs 模块",
+    "description": "[模块级] pipelex 项目的 docs 模块 (docs)。来源: https://github.com/Pipelex/pipelex",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "automation",
+      "dsl",
+      "language",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 117\n\n包含文件:\n- docs/.meta.yml\n- docs/404.html\n- docs/404.md\n- docs/CNAME\n- docs/CODE_OF_CONDUCT.md\n- docs/changelog.md\n- docs/contributing.md\n- docs/home\n- docs/home/10-advanced-customizations\n- docs/home/10-advanced-customizations/content-generator-injection.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.meta.yml\ndocs/404.html\ndocs/404.md\ndocs/CNAME\ndocs/CODE_OF_CONDUCT.md\ndocs/changelog.md\ndocs/contributing.md\ndocs/home\ndocs/home/10-advanced-customizations\ndocs/home/10-advanced-customizations/content-generator-injection.md\ndocs/home/10-advanced-customizations/index.md\ndocs/home/10-advanced-customizations/observer-provider-injection.md\ndocs/home/10-advanced-customizations/pipe-router-injection.md\ndocs/home/10-advanced-customizations/pipeline-tracker-injection.md\ndocs/home/10-advanced-customizations/plugin-injection.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6161140656132966
+  }
+]

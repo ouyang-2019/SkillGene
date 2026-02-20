@@ -1,0 +1,103 @@
+[
+  {
+    "name": "tonic_validate (TonicAI)",
+    "description": "[项目级] Metrics to evaluate the quality of responses of your Retrieval Augmented Generation (RAG) applications.。来源: https://github.com/TonicAI/tonic_validate",
+    "domain": "ai-llm",
+    "tags": [
+      "evaluation-framework",
+      "evaluation-metrics",
+      "large-language-models",
+      "llm",
+      "llmops",
+      "python",
+      "stars-324",
+      "github-tonicai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tonic Validate is a framework for the evaluation of LLM outputs, such as Retrieval Augmented Generation (RAG) pipelines. Validate makes it easy to evaluate, track, and monitor your LLM and RAG applications. Validate allows you to evaluate your LLM outputs through the use of our provided metrics which measure everything from answer correctness to LLM hallucination. Additionally, Validate has an optional UI to visualize your evaluation results for easy tracking and monitoring.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install tonic-validate",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/Makefile\ndocs/make.bat\ndocs/source\nexamples\nexamples/chatbees_vs_openai\nexamples/customgpt_vs_openai\nexamples/llamaindex_webinar\nexamples/openai_vs_vertex\nexamples/paul_graham_essays",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2552725051033065
+  },
+  {
+    "name": "tonic_validate/docs 模块",
+    "description": "[模块级] tonic_validate 项目的 docs 模块 (docs)。来源: https://github.com/TonicAI/tonic_validate",
+    "domain": "documentation",
+    "tags": [
+      "evaluation-framework",
+      "evaluation-metrics",
+      "large-language-models",
+      "llm",
+      "llmops",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 16\n\n包含文件:\n- docs/Makefile\n- docs/make.bat\n- docs/source\n- docs/source/_static\n- docs/source/_static/custom.css\n- docs/source/_static/tonic-validate-icon.svg\n- docs/source/api_reference\n- docs/source/api_reference/classes.rst\n- docs/source/api_reference/index.rst\n- docs/source/api_reference/metrics.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/make.bat\ndocs/source\ndocs/source/_static\ndocs/source/_static/custom.css\ndocs/source/_static/tonic-validate-icon.svg\ndocs/source/api_reference\ndocs/source/api_reference/classes.rst\ndocs/source/api_reference/index.rst\ndocs/source/api_reference/metrics.rst\ndocs/source/api_reference/services.rst\ndocs/source/api_reference/utils.rst\ndocs/source/api_reference/validate_api.rst\ndocs/source/api_reference/validate_scorer.rst\ndocs/source/conf.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.504218004082645
+  },
+  {
+    "name": "tonic_validate/examples 模块",
+    "description": "[模块级] tonic_validate 项目的 examples 模块 (example)。来源: https://github.com/TonicAI/tonic_validate",
+    "domain": "ai-llm",
+    "tags": [
+      "evaluation-framework",
+      "evaluation-metrics",
+      "large-language-models",
+      "llm",
+      "llmops",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 172\n\n包含文件:\n- examples/chatbees_vs_openai\n- examples/chatbees_vs_openai/all_essays_in_single_file.txt\n- examples/chatbees_vs_openai/cb_run.csv\n- examples/chatbees_vs_openai/chatbees_rag_vs_openai_rag.ipynb\n- examples/chatbees_vs_openai/openai_run.csv\n- examples/chatbees_vs_openai/openai_v_chatbees.png\n- examples/chatbees_vs_openai/qa_pairs.json\n- examples/customgpt_vs_openai\n- examples/customgpt_vs_openai/all_essays_in_single_file.txt\n- examples/customgpt_vs_openai/customgpt_rag_vs_openai_rag.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/chatbees_vs_openai\nexamples/chatbees_vs_openai/all_essays_in_single_file.txt\nexamples/chatbees_vs_openai/cb_run.csv\nexamples/chatbees_vs_openai/chatbees_rag_vs_openai_rag.ipynb\nexamples/chatbees_vs_openai/openai_run.csv\nexamples/chatbees_vs_openai/openai_v_chatbees.png\nexamples/chatbees_vs_openai/qa_pairs.json\nexamples/customgpt_vs_openai\nexamples/customgpt_vs_openai/all_essays_in_single_file.txt\nexamples/customgpt_vs_openai/customgpt_rag_vs_openai_rag.ipynb\nexamples/customgpt_vs_openai/customgpt_run.csv\nexamples/customgpt_vs_openai/openai_run.csv\nexamples/customgpt_vs_openai/openai_v_customgpt.png\nexamples/customgpt_vs_openai/qa_pairs.json\nexamples/llamaindex_webinar",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.504218004082645
+  }
+]

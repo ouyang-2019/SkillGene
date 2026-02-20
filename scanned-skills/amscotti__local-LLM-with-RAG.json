@@ -1,0 +1,158 @@
+[
+  {
+    "name": "local-LLM-with-RAG (amscotti)",
+    "description": "[项目级] Running local Language Language Models (LLM) to perform Retrieval-Augmented Generation (RAG)。来源: https://github.com/amscotti/local-LLM-with-RAG",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-rag",
+      "chatbot",
+      "embeddings",
+      "python",
+      "stars-271",
+      "github-amscotti",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Running local Language Language Models (LLM) to perform Retrieval-Augmented Generation (RAG)\n\n来源: https://github.com/amscotti/local-LLM-with-RAG\n语言: Python\nStars: 271",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Clone this repository to your local machine.\n2. Install UV using instructions from the Astral site, [Installation](https://docs.astral.sh/uv/#installation)\n3. Create a virtual environment and install required Python packages by running `uv sync`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nResearch\nResearch/2304.03442v1.pdf\nResearch/2305.14325.pdf\nResearch/2308.10848.pdf\nResearch/2309.14391.pdf\ncore\ncore/__init__.py\ncore/agent.py\ncore/document_loader.py\ncore/models.py\nimages\nimages/streamlit_ui.png\nimages/wizard_experimenting.jpg\ninterfaces\ninterfaces/__init__.py\ninterfaces/streamlit_app.py\nmise.toml\npyproject.toml\nreadme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.216484645437203
+  },
+  {
+    "name": "local-LLM-with-RAG/Research 模块",
+    "description": "[模块级] local-LLM-with-RAG 项目的 Research 模块 (source)。来源: https://github.com/amscotti/local-LLM-with-RAG",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-rag",
+      "chatbot",
+      "embeddings",
+      "module-level",
+      "source",
+      "research"
+    ],
+    "genes": [
+      {
+        "title": "Research 模块说明",
+        "content": "模块路径: Research/\n类型: source\n文件数: 4\n\n包含文件:\n- Research/2304.03442v1.pdf\n- Research/2305.14325.pdf\n- Research/2308.10848.pdf\n- Research/2309.14391.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Research 文件结构",
+        "content": "Research/2304.03442v1.pdf\nResearch/2305.14325.pdf\nResearch/2308.10848.pdf\nResearch/2309.14391.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4731877163497624
+  },
+  {
+    "name": "local-LLM-with-RAG/core 模块",
+    "description": "[模块级] local-LLM-with-RAG 项目的 core 模块 (source)。来源: https://github.com/amscotti/local-LLM-with-RAG",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-rag",
+      "chatbot",
+      "embeddings",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 4\n\n包含文件:\n- core/__init__.py\n- core/agent.py\n- core/document_loader.py\n- core/models.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/__init__.py\ncore/agent.py\ncore/document_loader.py\ncore/models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4731877163497624
+  },
+  {
+    "name": "local-LLM-with-RAG/images 模块",
+    "description": "[模块级] local-LLM-with-RAG 项目的 images 模块 (source)。来源: https://github.com/amscotti/local-LLM-with-RAG",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-rag",
+      "chatbot",
+      "embeddings",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 2\n\n包含文件:\n- images/streamlit_ui.png\n- images/wizard_experimenting.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/streamlit_ui.png\nimages/wizard_experimenting.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4731877163497624
+  },
+  {
+    "name": "local-LLM-with-RAG/interfaces 模块",
+    "description": "[模块级] local-LLM-with-RAG 项目的 interfaces 模块 (source)。来源: https://github.com/amscotti/local-LLM-with-RAG",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-rag",
+      "chatbot",
+      "embeddings",
+      "module-level",
+      "source",
+      "interfaces"
+    ],
+    "genes": [
+      {
+        "title": "interfaces 模块说明",
+        "content": "模块路径: interfaces/\n类型: source\n文件数: 2\n\n包含文件:\n- interfaces/__init__.py\n- interfaces/streamlit_app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "interfaces 文件结构",
+        "content": "interfaces/__init__.py\ninterfaces/streamlit_app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4731877163497624
+  }
+]

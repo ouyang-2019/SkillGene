@@ -1,0 +1,195 @@
+[
+  {
+    "name": "nonebot_plugin_naturel_gpt (KroMiose)",
+    "description": "[项目级] 一个基于NoneBot框架的Ai聊天插件，对接OpenAi文本生成接口，实现了机器人的人格 自定义/切换，聊天记忆等功能。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "一个基于NoneBot框架的Ai聊天插件，对接OpenAi文本生成接口，实现了机器人的人格 自定义/切换，聊天记忆等功能\n\n来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt\n语言: Python\nStars: 513",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "请在 Bot 目录下执行此命令\r\n\r\n```bash\r\nnb plugin install nonebot-plugin-naturel-gpt\r\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbackups\nbackups/Document.md\nbackups/ext_forget.py\nbackups/ext_remember.py\nbackups/使用指南\ndocs\ndocs/.nojekyll\ndocs/README.md\ndocs/_coverpage.md\ndocs/_sidebar.md\ndocs/archived_extensions.md\ndocs/assets\ndocs/commands.md\ndocs/configuation.md\ndocs/extension_list.md\ndocs/extensions.md\ndocs/index.html\ndocs/minecraft.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "> 以下未勾选功能仅表示未来可能开发的方向，不代表实际规划进度，具体开发事项可能随时变动\r\n> 勾选: 已实现功能；未勾选: 正在开发 / 计划开发 / 待定设计\r\n\r\n- [x] 自动切换 api_key: 支持同时使用多个 openai_api_key，失效时自动切换\r\n- [x] 自定义人格预设: 可自定义的人格预设，打造属于你的个性化的 TA\r\n- [x] 聊天基本上下文关联: 群聊场景短期记忆上下文关联，尽力避免聊天出戏\r\n- [x] 聊天记录总结记忆: 自动总结聊天记忆，具有一定程度的长期记忆能力\r\n- [x] 用户印象记忆: 每个人格对每个用户单独记忆印象，让 TA 能够记住你\r\n- [x] 数据持久化存储: 重启后 TA 也不会忘记你（使用 pickle 保存文件）\r\n- [x] 人格切换: 可随时切换不同人格，更多不一样的 TA\r\n- [x] 新增/编辑人格: 使用指令随时编辑 TA 的性格\r\n- [x] 自定义触发词: 希望 TA 更主动一点？或者更有目标一点？\r\n- [x] 自定义屏蔽词: 不想让 TA 学坏？需要更安全一点？\r\n- [x] 随机参与聊天: 希望 TA 主动一些？TA 会偶然在你的群组中冒泡……\r\n- [x] 异步支持：赋予 TA 更强大的消息处理能力！\r\n- [x] 可扩展功能: 厌倦了单调的问答 AI？为 TA 解锁超能力吧！TA 能够根据",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.355058682555908
+  },
+  {
+    "name": "nonebot_plugin_naturel_gpt/backups 模块",
+    "description": "[模块级] nonebot_plugin_naturel_gpt 项目的 backups 模块 (source)。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "module-level",
+      "source",
+      "backups"
+    ],
+    "genes": [
+      {
+        "title": "backups 模块说明",
+        "content": "模块路径: backups/\n类型: source\n文件数: 93\n\n包含文件:\n- backups/Document.md\n- backups/ext_forget.py\n- backups/ext_remember.py\n- backups/使用指南\n- backups/使用指南/Naturel_GPT 入门指南\n- backups/使用指南/Naturel_GPT 入门指南/0abf5f29e6259c94e0cab3c7f7024d1b.png\n- backups/使用指南/Naturel_GPT 入门指南/0b60ae947a6cd3f1cbdbebdebec1f342.png\n- backups/使用指南/Naturel_GPT 入门指南/0fab2c5466a2e7af9ae3504fea70f70f.png\n- backups/使用指南/Naturel_GPT 入门指南/21264667604d26ff348ecf526e191f92.png\n- backups/使用指南/Naturel_GPT 入门指南/22d36ae3a04b6a8a9fd16331ad910ebf.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backups 文件结构",
+        "content": "backups/Document.md\nbackups/ext_forget.py\nbackups/ext_remember.py\nbackups/使用指南\nbackups/使用指南/Naturel_GPT 入门指南\nbackups/使用指南/Naturel_GPT 入门指南/0abf5f29e6259c94e0cab3c7f7024d1b.png\nbackups/使用指南/Naturel_GPT 入门指南/0b60ae947a6cd3f1cbdbebdebec1f342.png\nbackups/使用指南/Naturel_GPT 入门指南/0fab2c5466a2e7af9ae3504fea70f70f.png\nbackups/使用指南/Naturel_GPT 入门指南/21264667604d26ff348ecf526e191f92.png\nbackups/使用指南/Naturel_GPT 入门指南/22d36ae3a04b6a8a9fd16331ad910ebf.png\nbackups/使用指南/Naturel_GPT 入门指南/23f3cce8d833f10b345024ef0c358e88.png\nbackups/使用指南/Naturel_GPT 入门指南/26ff4c8f7521c0e58d90aaf433dbc29d.png\nbackups/使用指南/Naturel_GPT 入门指南/3859a1fde2be4b4c239efb3df32305c5.png\nbackups/使用指南/Naturel_GPT 入门指南/386dd269c5ed2910605e274f6318614e.png\nbackups/使用指南/Naturel_GPT 入门指南/41f73c78c80f994ae32c85c87229e90d.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584046946044727
+  },
+  {
+    "name": "nonebot_plugin_naturel_gpt/docs 模块",
+    "description": "[模块级] nonebot_plugin_naturel_gpt 项目的 docs 模块 (docs)。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 15\n\n包含文件:\n- docs/.nojekyll\n- docs/README.md\n- docs/_coverpage.md\n- docs/_sidebar.md\n- docs/archived_extensions.md\n- docs/assets\n- docs/assets/no-preview.png\n- docs/assets/preview.png\n- docs/commands.md\n- docs/configuation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.nojekyll\ndocs/README.md\ndocs/_coverpage.md\ndocs/_sidebar.md\ndocs/archived_extensions.md\ndocs/assets\ndocs/assets/no-preview.png\ndocs/assets/preview.png\ndocs/commands.md\ndocs/configuation.md\ndocs/extension_list.md\ndocs/extensions.md\ndocs/index.html\ndocs/minecraft.md\ndocs/q_and_a.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584046946044727
+  },
+  {
+    "name": "nonebot_plugin_naturel_gpt/extensions 模块",
+    "description": "[模块级] nonebot_plugin_naturel_gpt 项目的 extensions 模块 (source)。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "module-level",
+      "source",
+      "extensions"
+    ],
+    "genes": [
+      {
+        "title": "extensions 模块说明",
+        "content": "模块路径: extensions/\n类型: source\n文件数: 26\n\n包含文件:\n- extensions/Extension.py\n- extensions/ext_VOICEVOX.py\n- extensions/ext_analyzeimage.py\n- extensions/ext_bing_chat.py\n- extensions/ext_dalle_draw.py\n- extensions/ext_email.py\n- extensions/ext_emoticon.py\n- extensions/ext_emoticon_v2.py\n- extensions/ext_evolution.py\n- extensions/ext_google_search.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extensions 文件结构",
+        "content": "extensions/Extension.py\nextensions/ext_VOICEVOX.py\nextensions/ext_analyzeimage.py\nextensions/ext_bing_chat.py\nextensions/ext_dalle_draw.py\nextensions/ext_email.py\nextensions/ext_emoticon.py\nextensions/ext_emoticon_v2.py\nextensions/ext_evolution.py\nextensions/ext_google_search.py\nextensions/ext_local_files.py\nextensions/ext_lolicon_pic.py\nextensions/ext_lolicon_search.py\nextensions/ext_makemidi.py\nextensions/ext_mc_command.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584046946044727
+  },
+  {
+    "name": "nonebot_plugin_naturel_gpt/image 模块",
+    "description": "[模块级] nonebot_plugin_naturel_gpt 项目的 image 模块 (source)。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "module-level",
+      "source",
+      "image"
+    ],
+    "genes": [
+      {
+        "title": "image 模块说明",
+        "content": "模块路径: image/\n类型: source\n文件数: 3\n\n包含文件:\n- image/README\n- image/README/NoneBotPlugin.svg\n- image/README/nbp_logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "image 文件结构",
+        "content": "image/README\nimage/README/NoneBotPlugin.svg\nimage/README/nbp_logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584046946044727
+  },
+  {
+    "name": "nonebot_plugin_naturel_gpt/nonebot_plugin_naturel_gpt 模块",
+    "description": "[模块级] nonebot_plugin_naturel_gpt 项目的 nonebot_plugin_naturel_gpt 模块 (source)。来源: https://github.com/KroMiose/nonebot_plugin_naturel_gpt",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "openai",
+      "python",
+      "stars-513",
+      "github-kromiose",
+      "module-level",
+      "source",
+      "nonebot_plugin_naturel_gpt"
+    ],
+    "genes": [
+      {
+        "title": "nonebot_plugin_naturel_gpt 模块说明",
+        "content": "模块路径: nonebot_plugin_naturel_gpt/\n类型: source\n文件数: 23\n\n包含文件:\n- nonebot_plugin_naturel_gpt/Extension.py\n- nonebot_plugin_naturel_gpt/MCrcon\n- nonebot_plugin_naturel_gpt/MCrcon/COPING.txt\n- nonebot_plugin_naturel_gpt/MCrcon/mcrcon.py\n- nonebot_plugin_naturel_gpt/__init__.py\n- nonebot_plugin_naturel_gpt/chat.py\n- nonebot_plugin_naturel_gpt/chat_manager.py\n- nonebot_plugin_naturel_gpt/command_func.py\n- nonebot_plugin_naturel_gpt/config.py\n- nonebot_plugin_naturel_gpt/logger.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nonebot_plugin_naturel_gpt 文件结构",
+        "content": "nonebot_plugin_naturel_gpt/Extension.py\nnonebot_plugin_naturel_gpt/MCrcon\nnonebot_plugin_naturel_gpt/MCrcon/COPING.txt\nnonebot_plugin_naturel_gpt/MCrcon/mcrcon.py\nnonebot_plugin_naturel_gpt/__init__.py\nnonebot_plugin_naturel_gpt/chat.py\nnonebot_plugin_naturel_gpt/chat_manager.py\nnonebot_plugin_naturel_gpt/command_func.py\nnonebot_plugin_naturel_gpt/config.py\nnonebot_plugin_naturel_gpt/logger.py\nnonebot_plugin_naturel_gpt/matcher.py\nnonebot_plugin_naturel_gpt/matcher_MCRcon.py\nnonebot_plugin_naturel_gpt/openai_func.py\nnonebot_plugin_naturel_gpt/persistent_data_manager.py\nnonebot_plugin_naturel_gpt/preset_hub_funcs.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.584046946044727
+  }
+]

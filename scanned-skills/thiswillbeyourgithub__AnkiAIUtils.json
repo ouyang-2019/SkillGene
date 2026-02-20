@@ -1,0 +1,138 @@
+[
+  {
+    "name": "AnkiAIUtils (thiswillbeyourgithub)",
+    "description": "[项目级] AI-powered tools to enhance Anki flashcards with explanations, mnemonics, illustrations, and adaptive learning for medical school and beyond。来源: https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+    "domain": "ai-llm",
+    "tags": [
+      "anki",
+      "dalle-2",
+      "dalle-3",
+      "illustrations",
+      "learning",
+      "python",
+      "stars-835",
+      "github-thiswillbeyourgithub",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "While hallucinations are a valid concern when using LLMs as search engines or relying on their compressed inner knowledge, these tools take a different approach that minimizes this risk:\n\n1. **Few-shot Learning**: By providing carefully crafted examples, we guide the LLM to follow specific patterns and formats, reducing the chance of inventing information.\n\n2. **Structured Output**: The tools enforce strict output formats that make hallucinations easier to detect and correct.\n\n3. **Preservation of Source Material**: Rather than generating new facts, the tools focus on reformulating and enhancing existing content from your cards.\n\n4. **Model Agnosticism**: As new, more reliable models emerge, you can easily switch to them without changing your workflow.\n\n\n5. **Specialization**: By focusing ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<details>\n<summary>\nClick to read more\n</summary>\n\nTo get started using those scripts (and until someone comes along to help me turn it into an addon!), the steps are roughly:\n0. **Note: if you don't understand those steps, I recommend self teaching you using LLMs. The steps always differ slightly depending on if you are on macos/linux/windows but the idea is always the same**\n1. Make sure you have python installed in your console. The recommended python version is 3.12.7 or 3.11.something because that's what I used at the time. If you try to use more recent versions you will probably encounte",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nanchors_to_anki.py\nexamples\nexamples/anchors.json\nexamples/anki_ai_utils_tmux_launcher.sh\nexamples/explainer_dataset.txt\nexamples/illustrator_dataset.txt\nexamples/illustrator_sanitize_dataset.txt\nexamples/mnemonics_dataset.txt\nexamples/reformulator_dataset.txt\nexamples/string_formatting.py\nexplainer.py\nillustrator.py\nmnemonics_creator.py\nmnemonics_helper.py\nreformulator.py\nrequirements.txt\nscreenshots\nscreenshots/illustrator_fever.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Those scripts make it so that every failed note will automatically have new fields containing explanations, mnemonics, and illustrations.** This is done in a way that respects **your own mnemonics**, can even use the [major system](https://en.wikipedia.org/wiki/Mnemonic_major_system), and has **many** more features.\n\nAn example of the kind of workflow that AnkiIllustrator facilitates, watch [pixorise's youtube channel](https://www.youtube.com/watch?v=QzxHpjryJHg0) which is full of great image mnmemonics, particularly appropriate for mental palace types of learning.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Adaptive Learning**: Uses [semantic similarity](https://en.wikipedia.org/wiki/Semantic_similarity) to dynamically match your cards with the most relevant examples from your training datasets. The more examples you add, the better it gets!\n\n- **Personalized Memory Hooks**: Reuses consistent mnemonics from your custom collection, building a personalized memory system. Includes a dedicated tool to help create and manage your mnemonic library.\n\n- **Automation Ready**: Run programmatically - for example, use cron to automatically enhance cards you struggled with yesterday, making them easier to",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.460843237741801
+  },
+  {
+    "name": "AnkiAIUtils/examples 模块",
+    "description": "[模块级] AnkiAIUtils 项目的 examples 模块 (example)。来源: https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+    "domain": "ai-llm",
+    "tags": [
+      "anki",
+      "dalle-2",
+      "dalle-3",
+      "illustrations",
+      "learning",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 8\n\n包含文件:\n- examples/anchors.json\n- examples/anki_ai_utils_tmux_launcher.sh\n- examples/explainer_dataset.txt\n- examples/illustrator_dataset.txt\n- examples/illustrator_sanitize_dataset.txt\n- examples/mnemonics_dataset.txt\n- examples/reformulator_dataset.txt\n- examples/string_formatting.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/anchors.json\nexamples/anki_ai_utils_tmux_launcher.sh\nexamples/explainer_dataset.txt\nexamples/illustrator_dataset.txt\nexamples/illustrator_sanitize_dataset.txt\nexamples/mnemonics_dataset.txt\nexamples/reformulator_dataset.txt\nexamples/string_formatting.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.668674590193441
+  },
+  {
+    "name": "AnkiAIUtils/screenshots 模块",
+    "description": "[模块级] AnkiAIUtils 项目的 screenshots 模块 (source)。来源: https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+    "domain": "ai-llm",
+    "tags": [
+      "anki",
+      "dalle-2",
+      "dalle-3",
+      "illustrations",
+      "learning",
+      "module-level",
+      "source",
+      "screenshots"
+    ],
+    "genes": [
+      {
+        "title": "screenshots 模块说明",
+        "content": "模块路径: screenshots/\n类型: source\n文件数: 2\n\n包含文件:\n- screenshots/illustrator_fever.png\n- screenshots/illustrator_fever_generated.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "screenshots 文件结构",
+        "content": "screenshots/illustrator_fever.png\nscreenshots/illustrator_fever_generated.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.668674590193441
+  },
+  {
+    "name": "AnkiAIUtils/utils 模块",
+    "description": "[模块级] AnkiAIUtils 项目的 utils 模块 (source)。来源: https://github.com/thiswillbeyourgithub/AnkiAIUtils",
+    "domain": "ai-llm",
+    "tags": [
+      "anki",
+      "dalle-2",
+      "dalle-3",
+      "illustrations",
+      "learning",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "A powerful suite of AI-powered tools to enhance your [Anki](https://en.wikipedia.org/wiki/Anki_(software)) flashcard learning experience by automatically improving cards you struggle with, tested through medical school. For example think of it like this: every time you fail a card you get a ChatGPT explanation, a Dall-E illustration, mnemonics, etc but supporting your own mnemonics.\n\n**Check out my other Anki and AI related projects on my [GitHub profile](https://github.com/thiswillbeyourgithub)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/anki.py\nutils/cloze_utils.py\nutils/datasets.py\nutils/llm.py\nutils/logger.py\nutils/misc.py\nutils/shared.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.668674590193441
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "obsidian-mcp-tools (jacksteamdev)",
+    "description": "[项目级] Add Obsidian integrations like semantic search and custom Templater prompts to Claude or any MCP client.。来源: https://github.com/jacksteamdev/obsidian-mcp-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "typescript",
+      "stars-590",
+      "github-jacksteamdev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Add Obsidian integrations like semantic search and custom Templater prompts to Claude or any MCP client.\n\n来源: https://github.com/jacksteamdev/obsidian-mcp-tools\n语言: TypeScript\nStars: 590",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> [!Important]\n> This plugin requires a secure server component that runs locally on your computer. The server is distributed as a signed executable, with its complete source code available in `packages/mcp-server/`. For details about our security measures and code signing process, see the [Security](#security) section.\n\n1. Install the plugin from Obsidian's Community Plugins\n2. Enable the plugin in Obsidian settings\n3. Open the plugin settings\n4. Click \"Install Server\" to download and configure the MCP server\n\nClicking the install button will:\n\n- Download the appropriate MCP server binary for",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nbun.lock\ndocs\ndocs/features\ndocs/migration-plan.md\ndocs/project-architecture.md\nmanifest.json\nmise.toml\npackage.json\npackages\npackages/mcp-server\npackages/obsidian-plugin\npackages/shared\npackages/test-site\npatches\npatches/svelte@5.16.0.patch\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "When connected to an MCP client like Claude Desktop, this plugin enables:\n\n- **Vault Access**: Allows AI assistants to read and reference your notes while maintaining your vault's security [^4]\n- **Semantic Search**: AI assistants can search your vault based on meaning and context, not just keywords [^5]\n- **Template Integration**: Execute Obsidian templates through AI interactions, with dynamic parameters and content generation [^6]\n\nAll features require an MCP-compatible client like Claude Desktop, as this plugin provides the server component that enables these integrations. The plugin does ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.385426005821072
+  },
+  {
+    "name": "obsidian-mcp-tools/docs 模块",
+    "description": "[模块级] obsidian-mcp-tools 项目的 docs 模块 (docs)。来源: https://github.com/jacksteamdev/obsidian-mcp-tools",
+    "domain": "documentation",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "typescript",
+      "stars-590",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/features\n- docs/features/mcp-server-install.md\n- docs/features/prompt-requirements.md\n- docs/migration-plan.md\n- docs/project-architecture.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/features\ndocs/features/mcp-server-install.md\ndocs/features/prompt-requirements.md\ndocs/migration-plan.md\ndocs/project-architecture.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6083408046568577
+  },
+  {
+    "name": "obsidian-mcp-tools/packages 模块",
+    "description": "[模块级] obsidian-mcp-tools 项目的 packages 模块 (source)。来源: https://github.com/jacksteamdev/obsidian-mcp-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "typescript",
+      "stars-590",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 123\n\n包含文件:\n- packages/mcp-server\n- packages/mcp-server/.gitignore\n- packages/mcp-server/README.md\n- packages/mcp-server/package.json\n- packages/mcp-server/scripts\n- packages/mcp-server/scripts/install.ts\n- packages/mcp-server/src\n- packages/mcp-server/src/features\n- packages/mcp-server/src/features/core\n- packages/mcp-server/src/features/core/index.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/mcp-server\npackages/mcp-server/.gitignore\npackages/mcp-server/README.md\npackages/mcp-server/package.json\npackages/mcp-server/scripts\npackages/mcp-server/scripts/install.ts\npackages/mcp-server/src\npackages/mcp-server/src/features\npackages/mcp-server/src/features/core\npackages/mcp-server/src/features/core/index.ts\npackages/mcp-server/src/features/fetch\npackages/mcp-server/src/features/fetch/constants.ts\npackages/mcp-server/src/features/fetch/index.ts\npackages/mcp-server/src/features/fetch/services\npackages/mcp-server/src/features/fetch/services/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6083408046568577
+  }
+]

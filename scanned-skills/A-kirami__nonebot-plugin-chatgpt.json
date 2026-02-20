@@ -1,0 +1,71 @@
+[
+  {
+    "name": "nonebot-plugin-chatgpt (A-kirami)",
+    "description": "[项目级] nonebot-plugin-chatgpt。来源: https://github.com/A-kirami/nonebot-plugin-chatgpt",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "python",
+      "stars-315",
+      "github-a-kirami",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/A-kirami/nonebot-plugin-chatgpt\n语言: Python\nStars: 315",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<details>\n<summary>使用 nb-cli 安装</summary>\n在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装\n\n    nb plugin install nonebot-plugin-chatgpt\n\n</details>\n\n<details>\n<summary>使用包管理器安装</summary>\n在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令\n\n<details>\n<summary>pip</summary>\n\n    pip install nonebot-plugin-chatgpt\n</details>\n<details>\n<summary>pdm</summary>\n\n    pdm add nonebot-plugin-chatgpt\n</details>\n<details>\n<summary>poetry</summary>\n\n    poetry add nonebot-plugin-chatgpt\n</details>\n<details>\n<summary>conda</summary>\n\n    conda install nonebot-plugin-chatgpt\n</details>\n\n打开 nonebot2 项目的 `bot.py` 文件, 在其中写入\n",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nnonebot_plugin_chatgpt\nnonebot_plugin_chatgpt/__init__.py\nnonebot_plugin_chatgpt/chatgpt.py\nnonebot_plugin_chatgpt/config.py\nnonebot_plugin_chatgpt/data.py\nnonebot_plugin_chatgpt/utils.py\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "默认配置下，@机器人加任意文本即可。\n\n如果需要修改插件的触发方式，自定义 `CHATGPT_COMMAND` 和 `CHATGPT_TO_ME` 配置项即可。\n\n| 指令 | 需要@ | 范围 | 说明 |\n|:-----:|:----:|:----:|:----:|\n| 刷新会话/刷新对话 | 是 | 群聊/私聊 | 重置会话记录，开始新的对话 |\n| 导出会话/导出对话 | 是 | 群聊/私聊 | 导出当前会话记录 |\n| 导入会话/导入对话 + 会话ID + 父消息ID(可选) | 是 | 群聊/私聊 | 将会话记录导入，这会替换当前的会话 |\n| 保存会话/保存对话 + 会话名称 | 是 | 群聊/私聊 | 将当前会话保存 |\n| 查看会话/查看对话 | 是 | 群聊/私聊 | 查看已保存的所有会话 |\n| 切换会话/切换对话 + 会话名称 | 是 | 群聊/私聊 | 切换到指定的会话 |\n| 回滚会话/回滚对话 | 是 | 群聊/私聊 | 返回到之前的会话，输入数字可以返回多个会话，但不可以超过最大支持数量 |",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2491552768948
+  },
+  {
+    "name": "nonebot-plugin-chatgpt/nonebot_plugin_chatgpt 模块",
+    "description": "[模块级] nonebot-plugin-chatgpt 项目的 nonebot_plugin_chatgpt 模块 (source)。来源: https://github.com/A-kirami/nonebot-plugin-chatgpt",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "python",
+      "stars-315",
+      "module-level",
+      "source",
+      "nonebot_plugin_chatgpt"
+    ],
+    "genes": [
+      {
+        "title": "nonebot_plugin_chatgpt 模块说明",
+        "content": "模块路径: nonebot_plugin_chatgpt/\n类型: source\n文件数: 5\n\n包含文件:\n- nonebot_plugin_chatgpt/__init__.py\n- nonebot_plugin_chatgpt/chatgpt.py\n- nonebot_plugin_chatgpt/config.py\n- nonebot_plugin_chatgpt/data.py\n- nonebot_plugin_chatgpt/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nonebot_plugin_chatgpt 文件结构",
+        "content": "nonebot_plugin_chatgpt/__init__.py\nnonebot_plugin_chatgpt/chatgpt.py\nnonebot_plugin_chatgpt/config.py\nnonebot_plugin_chatgpt/data.py\nnonebot_plugin_chatgpt/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.49932422151584
+  }
+]

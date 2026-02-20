@@ -1,0 +1,72 @@
+[
+  {
+    "name": "awesome-pm-skills (menkesu)",
+    "description": "[项目级] 28 AI-powered PM skills from Lenny's Podcast. Transform Claude Code & Cursor into world-class product partners.。来源: https://github.com/menkesu/awesome-pm-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "claude",
+      "cursor",
+      "lenny-rachitsky",
+      "stars-176",
+      "github-menkesu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**[Udi Menkes](https://linkedin.com/in/udimenkes)** | AI Product Leader at Intuit  \n🌐 [genaipm.com](https://genaipm.com) | 𝕏 [@menkesu](https://x.com/menkesu)\n\nUdi Menkes is an AI Product Leader at Intuit, working on innovative AI products and Intuit's financial Language models. He also runs [genaipm.com](https://genaipm.com) - an AI Product Management Agent that curates insights and use cases for AI Product Managers from X, LinkedIn, YouTube, Websites, Arxiv and more and shares a daily/weekly brief with 5000+ product managers across 3000+ companies including all the largest and AI-first companies in the world.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nQUICKSTART.md\nREADME.md\nSKILLS-INDEX.md\nai-product-patterns\nai-product-patterns/SKILL.md\nai-startup-building\nai-startup-building/SKILL.md\ncareer-growth\ncareer-growth/SKILL.md\nconfident-speaking\nconfident-speaking/SKILL.md\ncontinuous-discovery\ncontinuous-discovery/SKILL.md\nculture-craft\nculture-craft/SKILL.md\ndecision-frameworks\ndecision-frameworks/SKILL.md\ndesign-first-dev",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.122756333907075
+  },
+  {
+    "name": "awesome-pm-skills/images 模块",
+    "description": "[模块级] awesome-pm-skills 项目的 images 模块 (source)。来源: https://github.com/menkesu/awesome-pm-skills",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "awesome-list",
+      "claude",
+      "cursor",
+      "lenny-rachitsky",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 30\n\n包含文件:\n- images/README.md\n- images/ai-product-patterns.png\n- images/ai-startup-building.png\n- images/awesome-pm-skills.jpg\n- images/career-growth.png\n- images/confident-speaking.png\n- images/continuous-discovery.png\n- images/culture-craft.png\n- images/decision-frameworks.png\n- images/design-first-dev.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/README.md\nimages/ai-product-patterns.png\nimages/ai-startup-building.png\nimages/awesome-pm-skills.jpg\nimages/career-growth.png\nimages/confident-speaking.png\nimages/continuous-discovery.png\nimages/culture-craft.png\nimages/decision-frameworks.png\nimages/design-first-dev.png\nimages/exec-comms.png\nimages/exp-driven-dev.png\nimages/growth-embedded.png\nimages/influence-craft.png\nimages/jtbd-building.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique (ORDINAND)",
+    "description": "[项目级] ChatGPT提问技巧。来源: https://github.com/ORDINAND/The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique",
+    "domain": "general",
+    "tags": [
+      "stars-1004",
+      "github-ordinand",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "什么是 Prompt 工程？ \n\nPrompt 工程是创建提示或指导像 ChatGPT 这样的语言模型输出的过程。它允许用户控制模型的输出并生成符合其特定需求的文本。 \n\nChatGPT 是一种先进的语言模型，能够生成类似于人类的文本。它建立在 Transformer 架构上，可以处理大量数据并生成高质量的文本。 \n\n然而，为了从 ChatGPT 中获得最佳结果，重要的是要了解如何正确地提示模型。 提示可以让用户控制模型的输出并生成相关、准确和高质量的文本。 在使用 ChatGPT 时，了解它的能力和限制非常重要。\n\n该模型能够生成类似于人类的文本，但如果没有适当的指导，它可能无法始终产生期望的输出。 \n\n这就是 Prompt 工程的作用，通过提供清晰而具体的指令，您可以引导模型的输出并确保其相关。\n\n**Prompt 公式是提示的特定格式，通常由三个主要元素组成：** \n\n- 任务：对提示要求模型生成的内容进行清晰而简洁的陈述。 \n\n- 指令：在生成文本时模型应遵循的指令。 \n\n- 角色：模型在生成文本时应扮演的角色。 \n\n在本书中，我们将探讨可用于 ChatGPT 的各种 Prompt 工程技术。我们将讨论不同类型的提示，以及如何使用它们实现您想要的特定目标。\n\n<div style=\"page-break-after:always;\"></div>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nThe Art of Asking ChatGPT for High-Quality Answ... (Z-Library).pdf\n如何向 ChatGPT 提问以获得高质量答案：提示技巧工程完全指南.md\n如何向 ChatGPT 提问以获得高质量答案：提示技巧工程完全指南.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5008668564045005
+  }
+]

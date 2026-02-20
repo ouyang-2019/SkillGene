@@ -1,0 +1,150 @@
+[
+  {
+    "name": "DevOpsGPT (kuafuai)",
+    "description": "[项目级] Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software. Supports any development language and extends the existing code.。来源: https://github.com/kuafuai/DevOpsGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "html",
+      "stars-5965",
+      "github-kuafuai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to the AI Driven Software Development Automation Solution, abbreviated as DevOpsGPT. We combine LLM (Large Language Model) with DevOps tools to convert natural language requirements into working software. This innovative feature greatly improves development efficiency, shortens development cycles, and reduces communication costs, resulting in higher-quality software delivery.\n\n<img src=\"docs/files/intro-flow-simple.png\"></a>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run -it \\\n        -v$PWD/workspace:/app/workspace \\\n        -v$PWD/env.yaml:/app/env.yaml \\\n        -p8080:8080 -p8081:8081 kuafuai/devopsgpt:latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nbackend\nbackend/app.db\nbackend/app\nbackend/config.py\nbackend/run.py\nbackend/test.py\nbuild.sh\ndb\ndb/database.db\ndb/script.py.mako\ndocs\ndocs/CONFIG_CHANGE.md\ndocs/CONTACT.md\ndocs/CONTRIBUTING.md\ndocs/DOCUMENT.md\ndocs/DOCUMENT_CN.md\ndocs/README_CN.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Improved development efficiency: No need for tedious requirement document writing and explanations. Users can interact directly with DevOpsGPT to quickly convert requirements into functional software.\n- Shortened development cycles: The automated software development process significantly reduces delivery time, accelerating software deployment and iterations.\n- Reduced communication costs: By accurately understanding user requirements, DevOpsGPT minimizes the risk of communication errors and misunderstandings, enhancing collaboration efficiency between development and business teams.\n- High-",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.887805224003181
+  },
+  {
+    "name": "DevOpsGPT/backend 模块",
+    "description": "[模块级] DevOpsGPT 项目的 backend 模块 (source)。来源: https://github.com/kuafuai/DevOpsGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "html",
+      "stars-5965",
+      "github-kuafuai",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 105\n\n包含文件:\n- backend/app.db\n- backend/app\n- backend/app/controllers\n- backend/app/controllers/__init__.py\n- backend/app/controllers/app.py\n- backend/app/controllers/common.py\n- backend/app/controllers/pay_pro.py\n- backend/app/controllers/plugine_api.py\n- backend/app/controllers/requirement.py\n- backend/app/controllers/setting.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/app.db\nbackend/app\nbackend/app/controllers\nbackend/app/controllers/__init__.py\nbackend/app/controllers/app.py\nbackend/app/controllers/common.py\nbackend/app/controllers/pay_pro.py\nbackend/app/controllers/plugine_api.py\nbackend/app/controllers/requirement.py\nbackend/app/controllers/setting.py\nbackend/app/controllers/step_api.py\nbackend/app/controllers/step_code.py\nbackend/app/controllers/step_devops.py\nbackend/app/controllers/step_requirement.py\nbackend/app/controllers/step_subtask.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0102441792025445
+  },
+  {
+    "name": "DevOpsGPT/db 模块",
+    "description": "[模块级] DevOpsGPT 项目的 db 模块 (source)。来源: https://github.com/kuafuai/DevOpsGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "html",
+      "stars-5965",
+      "github-kuafuai",
+      "module-level",
+      "source",
+      "db"
+    ],
+    "genes": [
+      {
+        "title": "db 模块说明",
+        "content": "模块路径: db/\n类型: source\n文件数: 2\n\n包含文件:\n- db/database.db\n- db/script.py.mako",
+        "gene_type": "principle"
+      },
+      {
+        "title": "db 文件结构",
+        "content": "db/database.db\ndb/script.py.mako",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0102441792025445
+  },
+  {
+    "name": "DevOpsGPT/docs 模块",
+    "description": "[模块级] DevOpsGPT 项目的 docs 模块 (docs)。来源: https://github.com/kuafuai/DevOpsGPT",
+    "domain": "documentation",
+    "tags": [
+      "html",
+      "stars-5965",
+      "github-kuafuai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 23\n\n包含文件:\n- docs/CONFIG_CHANGE.md\n- docs/CONTACT.md\n- docs/CONTRIBUTING.md\n- docs/DOCUMENT.md\n- docs/DOCUMENT_CN.md\n- docs/README_CN.md\n- docs/README_JA.md\n- docs/files\n- docs/files/WeChat-zhushou.png\n- docs/files/WeChat-微信-green.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CONFIG_CHANGE.md\ndocs/CONTACT.md\ndocs/CONTRIBUTING.md\ndocs/DOCUMENT.md\ndocs/DOCUMENT_CN.md\ndocs/README_CN.md\ndocs/README_JA.md\ndocs/files\ndocs/files/WeChat-zhushou.png\ndocs/files/WeChat-微信-green.svg\ndocs/files/WeChat.jpg\ndocs/files/ci.png\ndocs/files/demo-adduser-en.jpeg\ndocs/files/demo-adduser.jpeg\ndocs/files/demo-gptmeeting.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0102441792025445
+  },
+  {
+    "name": "DevOpsGPT/frontend 模块",
+    "description": "[模块级] DevOpsGPT 项目的 frontend 模块 (source)。来源: https://github.com/kuafuai/DevOpsGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "html",
+      "stars-5965",
+      "github-kuafuai",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 55\n\n包含文件:\n- frontend/Semantic UI_files\n- frontend/Semantic UI_files/analytics.js\n- frontend/Semantic UI_files/book.png\n- frontend/Semantic UI_files/button.e7f9415a2e000feaab02c86dd5802747.js\n- frontend/Semantic UI_files/button.less\n- frontend/Semantic UI_files/devices.png\n- frontend/Semantic UI_files/docs.css\n- frontend/Semantic UI_files/docs.js\n- frontend/Semantic UI_files/easing.min.js\n- frontend/Semantic UI_files/elyse.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/Semantic UI_files\nfrontend/Semantic UI_files/analytics.js\nfrontend/Semantic UI_files/book.png\nfrontend/Semantic UI_files/button.e7f9415a2e000feaab02c86dd5802747.js\nfrontend/Semantic UI_files/button.less\nfrontend/Semantic UI_files/devices.png\nfrontend/Semantic UI_files/docs.css\nfrontend/Semantic UI_files/docs.js\nfrontend/Semantic UI_files/easing.min.js\nfrontend/Semantic UI_files/elyse.png\nfrontend/Semantic UI_files/eve.png\nfrontend/Semantic UI_files/github-btn(1).html\nfrontend/Semantic UI_files/github-btn.html\nfrontend/Semantic UI_files/heart.png\nfrontend/Semantic UI_files/highlight.min.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0102441792025445
+  }
+]

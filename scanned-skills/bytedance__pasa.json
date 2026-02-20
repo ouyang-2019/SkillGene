@@ -1,0 +1,63 @@
+[
+  {
+    "name": "pasa (bytedance)",
+    "description": "[项目级] PaSa -- an advanced paper search agent powered by large language models. It can autonomously make a series of decisions, including invoking search tools, reading papers, and selecting relevant references, to ultimately obtain comprehensive and accurate results for complex scholarly queries.。来源: https://github.com/bytedance/pasa",
+    "domain": "devops",
+    "tags": [
+      "research",
+      "python",
+      "stars-1509",
+      "github-bytedance",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "We introduce PaSa, an advanced **Pa**per **S**e**a**rch agent powered by large language models. PaSa can autonomously make a series of decisions, including invoking search tools, reading papers, and selecting relevant references, to ultimately obtain comprehensive and accurate results for complex scholarly queries. We optimize PaSa using reinforcement learning with a synthetic dataset, AutoScholarQuery, which includes 35k fine-grained academic queries and corresponding papers sourced from top-tier AI conference publications. Additionally, we develop RealScholarQuery, a benchmark collecting real-world academic queries to assess PaSa performance in more realistic scenarios. Despite being trained on synthetic data, PaSa significantly outperforms existing baselines on RealScholarQuery, includi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can prepare a detailed description of your academic search needs, and search for papers on [https://pasa-agent.ai](https://pasa-agent.ai)\n\n[![Watch the video](src/cover.png)](https://www.youtube.com/watch?v=LhXCKZyriNs)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagent_prompt.json\nmetrics.py\nmodels.py\npaper_agent.py\npaper_node.py\nrequirements.txt\nrun_paper_agent.py\nsrc\nsrc/architecture.png\nsrc/autos.png\nsrc/cover.png\nsrc/pasa.png\nsrc/reals.png\nsrc/results.png\nutils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.589344619887795
+  },
+  {
+    "name": "pasa/src 模块",
+    "description": "[模块级] pasa 项目的 src 模块 (source)。来源: https://github.com/bytedance/pasa",
+    "domain": "devops",
+    "tags": [
+      "research",
+      "python",
+      "stars-1509",
+      "github-bytedance",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 6\n\n包含文件:\n- src/architecture.png\n- src/autos.png\n- src/cover.png\n- src/pasa.png\n- src/reals.png\n- src/results.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/architecture.png\nsrc/autos.png\nsrc/cover.png\nsrc/pasa.png\nsrc/reals.png\nsrc/results.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.771475695910236
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "name": "codel (semanser)",
+    "description": "[项目级] ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.。来源: https://github.com/semanser/codel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "autonomous-agents",
+      "bot",
+      "devin",
+      "typescript",
+      "stars-2439",
+      "github-semanser",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.\n\n来源: https://github.com/semanser/codel\n语言: TypeScript\nStars: 2439",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run \\\n  -e OPEN_AI_KEY=your_open_ai_key \\\n  -e OPEN_AI_MODEL=gpt-4-0125-preview \\\n  -e OLLAMA_MODEL=llama2 \\\n  -p 3000:8080 \\\n  -v /var/run/docker.sock:/var/run/docker.sock \\\n  ghcr.io/semanser/codel:latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "DEVELOPMENT.md\nDockerfile\nLICENSE\nREADME.md\nbackend\nbackend/.env.example\nbackend/.gitignore\nbackend/assets\nbackend/config\nbackend/database\nbackend/executor\nbackend/go.mod\nbackend/go.sum\nbackend/gqlgen.yml\nbackend/graph\nbackend/main.go\nbackend/migrations\nbackend/models\nbackend/providers\nbackend/router",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🔓 Secure. Everything is running in a sandboxed Docker environment.\n- 🤖 Autonomous. Automatically detects the next step and performs it.\n- 🔍 Built-in browser. Fetches latest information from the web (tutorials, docs, etc.) if needed.\n- 📙 Built-in text editor. View all the modified files right in your browser.\n- 🧠 All the history commands and outputs are saved in the PostgreSQL database.\n- 📦 Automatic Docker-image picker based on the user task.\n- 🤳 Self-hosted\n- 💅 Modern UI",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.693605900156865
+  },
+  {
+    "name": "codel/backend 模块",
+    "description": "[模块级] codel 项目的 backend 模块 (source)。来源: https://github.com/semanser/codel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "autonomous-agents",
+      "bot",
+      "devin",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 68\n\n包含文件:\n- backend/.env.example\n- backend/.gitignore\n- backend/assets\n- backend/assets/assets.go\n- backend/config\n- backend/config/config.go\n- backend/database\n- backend/database/containers.sql.go\n- backend/database/database.go\n- backend/database/db.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.env.example\nbackend/.gitignore\nbackend/assets\nbackend/assets/assets.go\nbackend/config\nbackend/config/config.go\nbackend/database\nbackend/database/containers.sql.go\nbackend/database/database.go\nbackend/database/db.go\nbackend/database/flows.sql.go\nbackend/database/logs.sql.go\nbackend/database/models.go\nbackend/database/tasks.sql.go\nbackend/executor",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8548847201254923
+  },
+  {
+    "name": "codel/frontend 模块",
+    "description": "[模块级] codel 项目的 frontend 模块 (source)。来源: https://github.com/semanser/codel",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "autonomous-agents",
+      "bot",
+      "devin",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 101\n\n包含文件:\n- frontend/.env.example\n- frontend/.eslintrc.cjs\n- frontend/.gitignore\n- frontend/.prettierignore\n- frontend/.prettierrc\n- frontend/README.md\n- frontend/codegen.yml\n- frontend/generated\n- frontend/generated/graphql.schema.json\n- frontend/generated/graphql.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/.eslintrc.cjs\nfrontend/.gitignore\nfrontend/.prettierignore\nfrontend/.prettierrc\nfrontend/README.md\nfrontend/codegen.yml\nfrontend/generated\nfrontend/generated/graphql.schema.json\nfrontend/generated/graphql.ts\nfrontend/index.html\nfrontend/package.json\nfrontend/public\nfrontend/public/Inter-roman.var.woff2\nfrontend/public/android-chrome-192x192.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8548847201254923
+  }
+]

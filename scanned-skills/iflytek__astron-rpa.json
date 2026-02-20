@@ -1,0 +1,68 @@
+[
+  {
+    "name": "astron-rpa (iflytek)",
+    "description": "[项目级] Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.。来源: https://github.com/iflytek/astron-rpa",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "astron",
+      "automation",
+      "enterprise",
+      "java",
+      "stars-6722",
+      "github-iflytek",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AstronRPA is an enterprise-grade Robotic Process Automation (RPA) desktop application. Through a visual designer, it supports low-code/no-code development, enabling users to rapidly build workflows and automate desktop software and web pages.\n\n[Astron Agent](https://github.com/iflytek/astron-agent) is the native Agent platform supported by this project. Users can directly call RPA workflow nodes in Astron Agent, and also use Agent workflows in AstronRPA, achieving efficient collaboration between automation processes and intelligent agent systems, empowering broader business automation scenarios.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BUILD_GUIDE.md\nBUILD_GUIDE.zh.md\nFAQ.md\nFAQ.zh.md\nLICENSE\nMakefile\nNOTICE\nREADME.md\nREADME.zh.md\nbackend\nbackend/ai-service\nbackend/openapi-service\nbackend/resource-service",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.91374925406673
+  },
+  {
+    "name": "astron-rpa/backend 模块",
+    "description": "[模块级] astron-rpa 项目的 backend 模块 (source)。来源: https://github.com/iflytek/astron-rpa",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "astron",
+      "automation",
+      "enterprise",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 172\n\n包含文件:\n- backend/ai-service\n- backend/ai-service/.dockerignore\n- backend/ai-service/.python-version\n- backend/ai-service/Dockerfile\n- backend/ai-service/README.md\n- backend/ai-service/README.zh.md\n- backend/ai-service/app\n- backend/ai-service/app/__init__.py\n- backend/ai-service/app/config.py\n- backend/ai-service/app/database.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/ai-service\nbackend/ai-service/.dockerignore\nbackend/ai-service/.python-version\nbackend/ai-service/Dockerfile\nbackend/ai-service/README.md\nbackend/ai-service/README.zh.md\nbackend/ai-service/app\nbackend/ai-service/app/__init__.py\nbackend/ai-service/app/config.py\nbackend/ai-service/app/database.py\nbackend/ai-service/app/dependencies\nbackend/ai-service/app/dependencies/__init__.py\nbackend/ai-service/app/dependencies/points.py\nbackend/ai-service/app/internal\nbackend/ai-service/app/internal/admin.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.030999403253384
+  }
+]

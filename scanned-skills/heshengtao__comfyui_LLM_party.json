@@ -1,0 +1,308 @@
+[
+  {
+    "name": "comfyui_LLM_party (heshengtao)",
+    "description": "[项目级] LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "python",
+      "stars-2106",
+      "github-heshengtao",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ComfyUI LLM Party, from the most basic LLM multi-tool call, role setting to quickly build your own exclusive AI assistant, to the industry-specific word vector RAG and GraphRAG to localize the management of the industry knowledge base; from a single agent pipeline, to the construction of complex agent-agent radial interaction mode and ring interaction mode; from the access to their own social APP (QQ, Feishu, Discord) required by individual users, to the one-stop LLM + TTS + ComfyUI workflow required by streaming media workers; from the simple start of the first LLM application required by ordinary students, to the various parameter debugging interfaces commonly used by scientific researchers, model adaptation. All of this, you can find the answer in ComfyUI LLM Party.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "0. If you have never used ComfyUI and encounter some dependency issues while installing the LLM party in ComfyUI, please click [here](https://drive.google.com/file/d/1T9C7gEbd-w_zf9GqZO1VeI3z8ek8clpX/view?usp=sharing) to download the **Windows** portable package that includes the LLM party. Please note that this portable package contains only the party and manager plugins, and is exclusively compatible with the Windows operating system.(If you need to install LLM party into an existing comfyui, this step can be skipped.) \r\n1. Drag the following workflows into your comfyui, then use [comfyui-Ma",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nKG\nKG/test.csv\nKG/test.json\nKG/test.json.example\nKG/麦洛薇.json\nLICENSE\nREADME.md\nREADME_AR.md\nREADME_DE.md\nREADME_ES.md\nREADME_FR.md\nREADME_JA.md\nREADME_KO.md\nREADME_PT.md\nREADME_RU.md\nREADME_ZH.md\nSECURITY.md\n__init__.py\napi.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.661729183424734
+  },
+  {
+    "name": "comfyui_LLM_party/KG 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 KG 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "kg"
+    ],
+    "genes": [
+      {
+        "title": "KG 模块说明",
+        "content": "模块路径: KG/\n类型: source\n文件数: 4\n\n包含文件:\n- KG/test.csv\n- KG/test.json\n- KG/test.json.example\n- KG/麦洛薇.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "KG 文件结构",
+        "content": "KG/test.csv\nKG/test.json\nKG/test.json.example\nKG/麦洛薇.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/custom_tool 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 custom_tool 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "custom_tool"
+    ],
+    "genes": [
+      {
+        "title": "custom_tool 模块说明",
+        "content": "模块路径: custom_tool/\n类型: source\n文件数: 64\n\n包含文件:\n- custom_tool/GOT-OCR2.py\n- custom_tool/Moderation.py\n- custom_tool/RSS.py\n- custom_tool/SQL.py\n- custom_tool/WeChat_Official.py\n- custom_tool/__init__.py\n- custom_tool/amap.py\n- custom_tool/amap_decode.py\n- custom_tool/amap_encode.py\n- custom_tool/arxiv.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "custom_tool 文件结构",
+        "content": "custom_tool/GOT-OCR2.py\ncustom_tool/Moderation.py\ncustom_tool/RSS.py\ncustom_tool/SQL.py\ncustom_tool/WeChat_Official.py\ncustom_tool/__init__.py\ncustom_tool/amap.py\ncustom_tool/amap_decode.py\ncustom_tool/amap_encode.py\ncustom_tool/arxiv.py\ncustom_tool/browser.py\ncustom_tool/custom_format.py\ncustom_tool/dall_e.py\ncustom_tool/discord_bot.py\ncustom_tool/discord_monitor.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/file 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 file 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "file"
+    ],
+    "genes": [
+      {
+        "title": "file 模块说明",
+        "content": "模块路径: file/\n类型: source\n文件数: 10\n\n包含文件:\n- file/README.md\n- file/README_ZH.md\n- file/how_to_use_nodes_ZH.txt\n- file/party_iisue.md\n- file/story.json\n- file/test.csv\n- file/test.txt\n- file/test.xls\n- file/test.xlsx\n- file/量子永生教.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "file 文件结构",
+        "content": "file/README.md\nfile/README_ZH.md\nfile/how_to_use_nodes_ZH.txt\nfile/party_iisue.md\nfile/story.json\nfile/test.csv\nfile/test.txt\nfile/test.xls\nfile/test.xlsx\nfile/量子永生教.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/img 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 img 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 29\n\n包含文件:\n- img/AI办公室.png\n- img/B.png\n- img/GPT4o.png\n- img/OMOST.png\n- img/Q群.jpg\n- img/YT.png\n- img/demo.png\n- img/feishuapi.png\n- img/graphRAG修改.png\n- img/graphRAG查询.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/AI办公室.png\nimg/B.png\nimg/GPT4o.png\nimg/OMOST.png\nimg/Q群.jpg\nimg/YT.png\nimg/demo.png\nimg/feishuapi.png\nimg/graphRAG修改.png\nimg/graphRAG查询.png\nimg/json_get_value.png\nimg/json_parser.png\nimg/put_img_here.txt\nimg/txt2json.png\nimg/txt2json2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/janus 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 janus 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "janus"
+    ],
+    "genes": [
+      {
+        "title": "janus 模块说明",
+        "content": "模块路径: janus/\n类型: source\n文件数: 14\n\n包含文件:\n- janus/__init__.py\n- janus/models\n- janus/models/__init__.py\n- janus/models/clip_encoder.py\n- janus/models/image_processing_vlm.py\n- janus/models/modeling_vlm.py\n- janus/models/processing_vlm.py\n- janus/models/projector.py\n- janus/models/siglip_vit.py\n- janus/models/vq_model.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "janus 文件结构",
+        "content": "janus/__init__.py\njanus/models\njanus/models/__init__.py\njanus/models/clip_encoder.py\njanus/models/image_processing_vlm.py\njanus/models/modeling_vlm.py\njanus/models/processing_vlm.py\njanus/models/projector.py\njanus/models/siglip_vit.py\njanus/models/vq_model.py\njanus/utils\njanus/utils/__init__.py\njanus/utils/conversation.py\njanus/utils/io.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/lib_omost 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 lib_omost 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "lib_omost"
+    ],
+    "genes": [
+      {
+        "title": "lib_omost 模块说明",
+        "content": "模块路径: lib_omost/\n类型: source\n文件数: 3\n\n包含文件:\n- lib_omost/canvas.py\n- lib_omost/memory_management.py\n- lib_omost/pipeline.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib_omost 文件结构",
+        "content": "lib_omost/canvas.py\nlib_omost/memory_management.py\nlib_omost/pipeline.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/model 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 model 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "model"
+    ],
+    "genes": [
+      {
+        "title": "model 模块说明",
+        "content": "1. Support all API calls in openai format(Combined with [oneapi](https://github.com/songquanpeng/one-api) can call almost all LLM APIs, also supports all transit APIs), base_url selection reference [config.ini.example](config.ini.example), which has been tested so far:\r\n* [openai](https://platform.openai.com/docs/api-reference/chat/create) (Perfectly compatible with all OpenAI models, including the 4o and o1 series!)\r\n* [ollama](https://github.com/ollama/ollama) (Recommended! If you are calling ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "model 文件结构",
+        "content": "model/LLM-GGUF\nmodel/LLM-GGUF/put_LLM-GGUF_in_here.txt\nmodel/LLM\nmodel/LLM/put_LLM_in_here.txt\nmodel/LORA\nmodel/LORA/put_LORA_in_here.txt\nmodel/VLM-GGUF\nmodel/VLM-GGUF/put_VLM-GGUF_in_here.txt\nmodel/VLM\nmodel/VLM/put_VLM_in_here.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/party-plugin 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 party-plugin 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "party-plugin"
+    ],
+    "genes": [
+      {
+        "title": "party-plugin 模块说明",
+        "content": "模块路径: party-plugin/\n类型: source\n文件数: 11\n\n包含文件:\n- party-plugin/background.js\n- party-plugin/content.js\n- party-plugin/icon.png\n- party-plugin/libs\n- party-plugin/libs/bg1.png\n- party-plugin/libs/bootstrap.min.css\n- party-plugin/libs/marked.min.js\n- party-plugin/manifest.json\n- party-plugin/popup.html\n- party-plugin/popup.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "party-plugin 文件结构",
+        "content": "party-plugin/background.js\nparty-plugin/content.js\nparty-plugin/icon.png\nparty-plugin/libs\nparty-plugin/libs/bg1.png\nparty-plugin/libs/bootstrap.min.css\nparty-plugin/libs/marked.min.js\nparty-plugin/manifest.json\nparty-plugin/popup.html\nparty-plugin/popup.js\nparty-plugin/styles.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  },
+  {
+    "name": "comfyui_LLM_party/persona 模块",
+    "description": "[模块级] comfyui_LLM_party 项目的 persona 模块 (source)。来源: https://github.com/heshengtao/comfyui_LLM_party",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "module-level",
+      "source",
+      "persona"
+    ],
+    "genes": [
+      {
+        "title": "persona 模块说明",
+        "content": "模块路径: persona/\n类型: source\n文件数: 11\n\n包含文件:\n- persona/FLUX提示词生成器.txt\n- persona/GPT_DAN.txt\n- persona/GPT_DAN_ZH.txt\n- persona/HTML2IMG.txt\n- persona/LLM工具制造机.txt\n- persona/canvas.txt\n- persona/o1草莓系统.json\n- persona/omost.txt\n- persona/put_persona_here\n- persona/stone.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "persona 文件结构",
+        "content": "persona/FLUX提示词生成器.txt\npersona/GPT_DAN.txt\npersona/GPT_DAN_ZH.txt\npersona/HTML2IMG.txt\npersona/LLM工具制造机.txt\npersona/canvas.txt\npersona/o1草莓系统.json\npersona/omost.txt\npersona/put_persona_here\npersona/stone.txt\npersona/互动小说.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.829383346739787
+  }
+]

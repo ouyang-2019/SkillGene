@@ -1,0 +1,61 @@
+[
+  {
+    "name": "skills (expo)",
+    "description": "[项目级] A collection of AI agent skills for working with Expo projects and Expo Application Services。来源: https://github.com/expo/skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-1098",
+      "github-expo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of AI agent skills for working with Expo projects and Expo Application Services\n\n来源: https://github.com/expo/skills\n语言: JavaScript\nStars: 1098",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "We primarily use [Claude Code](https://claude.com/claude-code) at Expo, skills are fine-tuned for Opus models. But you can use these skills with any AI agent.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nplugins\nplugins/expo-app-design\nplugins/expo-deployment\nplugins/upgrading-expo",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.520301170057037
+  },
+  {
+    "name": "skills/plugins 模块",
+    "description": "[模块级] skills 项目的 plugins 模块 (source)。来源: https://github.com/expo/skills",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-1098",
+      "github-expo",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 65\n\n包含文件:\n- plugins/expo-app-design\n- plugins/expo-app-design/.claude-plugin\n- plugins/expo-app-design/.claude-plugin/plugin.json\n- plugins/expo-app-design/README.md\n- plugins/expo-app-design/skills\n- plugins/expo-app-design/skills/building-native-ui\n- plugins/expo-app-design/skills/building-native-ui/SKILL.md\n- plugins/expo-app-design/skills/building-native-ui/references\n- plugins/expo-app-design/skills/building-native-ui/references/animations.md\n- plugins/expo-app-design/skills/building-native-ui/references/controls.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/expo-app-design\nplugins/expo-app-design/.claude-plugin\nplugins/expo-app-design/.claude-plugin/plugin.json\nplugins/expo-app-design/README.md\nplugins/expo-app-design/skills\nplugins/expo-app-design/skills/building-native-ui\nplugins/expo-app-design/skills/building-native-ui/SKILL.md\nplugins/expo-app-design/skills/building-native-ui/references\nplugins/expo-app-design/skills/building-native-ui/references/animations.md\nplugins/expo-app-design/skills/building-native-ui/references/controls.md\nplugins/expo-app-design/skills/building-native-ui/references/form-sheet.md\nplugins/expo-app-design/skills/building-native-ui/references/gradients.md\nplugins/expo-app-design/skills/building-native-ui/references/icons.md\nplugins/expo-app-design/skills/building-native-ui/references/media.md\nplugins/expo-app-design/skills/building-native-ui/references/route-structure.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7162409360456294
+  }
+]

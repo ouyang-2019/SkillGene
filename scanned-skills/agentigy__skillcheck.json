@@ -1,0 +1,99 @@
+[
+  {
+    "name": "skillcheck (agentigy)",
+    "description": "[项目级] Security scanner for Claude SKILL.md files. Detects vulnerabilities before they reach production.。来源: https://github.com/agentigy/skillcheck",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-8",
+      "github-agentigy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Security scanner for Claude SKILL.md files. Detects vulnerabilities before they reach production.\n\n来源: https://github.com/agentigy/skillcheck\n语言: TypeScript\nStars: 8",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install @agentigy/skillcheck",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPROJECT_SUMMARY.md\nREADME.md\npackage-lock.json\npackage.json\nsrc\nsrc/cli.ts\nsrc/discovery.ts\nsrc/parser.ts\nsrc/reporters\nsrc/rules\nsrc/scanner.ts\nsrc/types.ts\ntest-results.sarif\ntests\ntests/command-injection.test.ts\ntests/fixtures\ntests/information-disclosure.test.ts\ntests/parser.test.ts\ntests/path-traversal.test.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Hardcoded Secrets Detection** - Finds API keys, tokens, passwords, and credentials\n- **Command Injection Detection** - Identifies unsafe shell command execution\n- **Path Traversal Detection** - Catches directory traversal vulnerabilities\n- **Smart False Positive Reduction** - Context-aware analysis and placeholder detection\n- **Beautiful CLI Output** - Color-coded, actionable security reports",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.451544993495972
+  },
+  {
+    "name": "skillcheck/src 模块",
+    "description": "[模块级] skillcheck 项目的 src 模块 (source)。来源: https://github.com/agentigy/skillcheck",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-8",
+      "github-agentigy",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 15\n\n包含文件:\n- src/cli.ts\n- src/discovery.ts\n- src/parser.ts\n- src/reporters\n- src/reporters/console.ts\n- src/reporters/sarif.ts\n- src/rules\n- src/rules/command-injection.ts\n- src/rules/index.ts\n- src/rules/information-disclosure.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cli.ts\nsrc/discovery.ts\nsrc/parser.ts\nsrc/reporters\nsrc/reporters/console.ts\nsrc/reporters/sarif.ts\nsrc/rules\nsrc/rules/command-injection.ts\nsrc/rules/index.ts\nsrc/rules/information-disclosure.ts\nsrc/rules/path-traversal.ts\nsrc/rules/privilege-escalation.ts\nsrc/rules/secrets.ts\nsrc/scanner.ts\nsrc/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8612359947967776
+  },
+  {
+    "name": "skillcheck/tests 模块",
+    "description": "[模块级] skillcheck 项目的 tests 模块 (test)。来源: https://github.com/agentigy/skillcheck",
+    "domain": "testing",
+    "tags": [
+      "typescript",
+      "stars-8",
+      "github-agentigy",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "```bash\nnpm test\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/command-injection.test.ts\ntests/fixtures\ntests/fixtures/example-skill.md\ntests/fixtures/secure-command-validation.md\ntests/fixtures/secure-path-validation.md\ntests/fixtures/secure-placeholders.md\ntests/fixtures/vulnerable-command-injection.md\ntests/fixtures/vulnerable-information-disclosure.md\ntests/fixtures/vulnerable-path-traversal.md\ntests/fixtures/vulnerable-privilege-escalation.md\ntests/fixtures/vulnerable-secrets.md\ntests/information-disclosure.test.ts\ntests/parser.test.ts\ntests/path-traversal.test.ts\ntests/privilege-escalation.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8612359947967776
+  }
+]

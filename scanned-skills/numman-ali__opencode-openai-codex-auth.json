@@ -1,0 +1,211 @@
+[
+  {
+    "name": "opencode-openai-codex-auth (numman-ali)",
+    "description": "[项目级] OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method\n\n来源: https://github.com/numman-ali/opencode-openai-codex-auth\n语言: TypeScript\nStars: 1713",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx -y opencode-openai-codex-auth@latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/opencode-logo-ornate-dark.svg\nassets/readme-hero.svg\nconfig\nconfig/README.md\nconfig/minimal-opencode.json\nconfig/opencode-legacy.json\nconfig/opencode-modern.json\ndocs\ndocs/DOCUMENTATION.md\ndocs/README.md\ndocs/_config.yml\ndocs/configuration.md\ndocs/development",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This plugin is for **personal development use** with your own ChatGPT Plus/Pro subscription.\nFor production or multi‑user applications, use the OpenAI Platform API.\n\n**Built for developers who value simplicity.**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ChatGPT Plus/Pro OAuth authentication (official flow)\n- 22 model presets across GPT‑5.2 / GPT‑5.2 Codex / GPT‑5.1 families\n- Variant system support (v1.0.210+) + legacy presets\n- Multimodal input enabled for all models\n- Usage‑aware errors + automatic token refresh\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.616878681482755
+  },
+  {
+    "name": "opencode-openai-codex-auth/assets 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 assets 模块 (source)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/opencode-logo-ornate-dark.svg\n- assets/readme-hero.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/opencode-logo-ornate-dark.svg\nassets/readme-hero.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  },
+  {
+    "name": "opencode-openai-codex-auth/config 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 config 模块 (config)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "- Modern (OpenCode v1.0.210+): `config/opencode-modern.json`\n- Legacy (OpenCode v1.0.209 and below): `config/opencode-legacy.json`\n\nMinimal configs are not supported for GPT‑5.x; use the full configs above.\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/README.md\nconfig/minimal-opencode.json\nconfig/opencode-legacy.json\nconfig/opencode-modern.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  },
+  {
+    "name": "opencode-openai-codex-auth/docs 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 docs 模块 (docs)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "- Getting Started: `docs/getting-started.md`\n- Configuration: `docs/configuration.md`\n- Troubleshooting: `docs/troubleshooting.md`\n- Architecture: `docs/development/ARCHITECTURE.md`\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/DOCUMENTATION.md\ndocs/README.md\ndocs/_config.yml\ndocs/configuration.md\ndocs/development\ndocs/development/ARCHITECTURE.md\ndocs/development/CONFIG_FIELDS.md\ndocs/development/CONFIG_FLOW.md\ndocs/development/TESTING.md\ndocs/getting-started.md\ndocs/index.md\ndocs/privacy.md\ndocs/troubleshooting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  },
+  {
+    "name": "opencode-openai-codex-auth/lib 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 lib 模块 (source)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 20\n\n包含文件:\n- lib/auth\n- lib/auth/auth.ts\n- lib/auth/browser.ts\n- lib/auth/server.ts\n- lib/config.ts\n- lib/constants.ts\n- lib/logger.ts\n- lib/oauth-success.html\n- lib/prompts\n- lib/prompts/codex-opencode-bridge.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/auth\nlib/auth/auth.ts\nlib/auth/browser.ts\nlib/auth/server.ts\nlib/config.ts\nlib/constants.ts\nlib/logger.ts\nlib/oauth-success.html\nlib/prompts\nlib/prompts/codex-opencode-bridge.ts\nlib/prompts/codex.ts\nlib/prompts/opencode-codex.ts\nlib/request\nlib/request/fetch-helpers.ts\nlib/request/helpers",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  },
+  {
+    "name": "opencode-openai-codex-auth/scripts 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 scripts 模块 (script)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/install-opencode-codex-auth.js\n- scripts/test-all-models.sh\n- scripts/validate-model-map.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/install-opencode-codex-auth.js\nscripts/test-all-models.sh\nscripts/validate-model-map.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  },
+  {
+    "name": "opencode-openai-codex-auth/test 模块",
+    "description": "[模块级] opencode-openai-codex-auth 项目的 test 模块 (test)。来源: https://github.com/numman-ali/opencode-openai-codex-auth",
+    "domain": "testing",
+    "tags": [
+      "typescript",
+      "stars-1713",
+      "github-numman-ali",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 11\n\n包含文件:\n- test/README.md\n- test/auth.test.ts\n- test/browser.test.ts\n- test/codex.test.ts\n- test/config.test.ts\n- test/fetch-helpers.test.ts\n- test/install-script.test.ts\n- test/logger.test.ts\n- test/plugin-config.test.ts\n- test/request-transformer.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/README.md\ntest/auth.test.ts\ntest/browser.test.ts\ntest/codex.test.ts\ntest/config.test.ts\ntest/fetch-helpers.test.ts\ntest/install-script.test.ts\ntest/logger.test.ts\ntest/plugin-config.test.ts\ntest/request-transformer.test.ts\ntest/response-handler.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.793502945186204
+  }
+]

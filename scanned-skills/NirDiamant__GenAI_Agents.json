@@ -1,0 +1,163 @@
+[
+  {
+    "name": "GenAI_Agents (NirDiamant)",
+    "description": "[项目级] This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.。来源: https://github.com/NirDiamant/GenAI_Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "genai",
+      "langchain",
+      "langgraph",
+      "jupyter notebook",
+      "stars-20058",
+      "github-nirdiamant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Generative AI agents are at the forefront of artificial intelligence, revolutionizing the way we interact with and leverage AI technologies. This repository is designed to guide you through the development journey, from basic agent implementations to advanced, cutting-edge systems.\n\n<div align=\"center\">\n<table>\n<tr>\n<td>\n<h3>📚 Learn to Build Your First AI Agent</h3>\n<p><strong><a href=\"https://diamantai.substack.com/p/your-first-ai-agent-simpler-than\">Your First AI Agent: Simpler Than You Think</a></strong></p>\n<p>This detailed blog post complements the repository by providing a complete A-Z walkthrough with in-depth explanations of core concepts, step-by-step implementation, and the theory behind AI agents. It's designed to be incredibly simple to follow while covering everything you nee",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/NirDiamant/GenAI_Agents.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nall_agents_tutorials\nall_agents_tutorials/.DS_Store\nall_agents_tutorials/Academic_Task_Learning_Agent_LangGraph.ipynb\nall_agents_tutorials/ClauseAI.ipynb\nall_agents_tutorials/ContentIntelligence.ipynb\nall_agents_tutorials/EU_Green_Compliance_FAQ_Bot.ipynb\nall_agents_tutorials/ShopGenie.ipynb\nall_agents_tutorials/Weather_Disaster_Management_AI_AGENT.ipynb\nall_agents_tutorials/agent_hackathon_genAI_career_assistant.ipynb\nall_agents_tutorials/ainsight_langgraph.ipynb\nall_agents_tutorials/blog_writer_swarm.ipynb\nall_agents_tutorials/business_meme_generator.ipynb\nall_agents_tutorials/car_buyer_agent_langgraph.ipynb\nall_agents_tutorials/chiron_learning_agent_langgraph.ipynb\nall_agents_tutorials/customer_support_agent_langgraph.ipynb\nall_agents_tutorials/data\nall_agents_tutorials/database_discovery_fleet.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎓 Learn to build GenAI agents from beginner to advanced levels\n- 🧠 Explore a wide range of agent architectures and applications\n- 📚 Step-by-step tutorials and comprehensive documentation\n- 🛠️ Practical, ready-to-use agent implementations\n- 🌟 Regular updates with the latest advancements in GenAI\n- 🤝 Share your own agent creations with the community",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "GenAI_Agents/all_agents_tutorials 模块",
+    "description": "[模块级] GenAI_Agents 项目的 all_agents_tutorials 模块 (source)。来源: https://github.com/NirDiamant/GenAI_Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "all_agents_tutorials"
+    ],
+    "genes": [
+      {
+        "title": "all_agents_tutorials 模块说明",
+        "content": "模块路径: all_agents_tutorials/\n类型: source\n文件数: 51\n\n包含文件:\n- all_agents_tutorials/.DS_Store\n- all_agents_tutorials/Academic_Task_Learning_Agent_LangGraph.ipynb\n- all_agents_tutorials/ClauseAI.ipynb\n- all_agents_tutorials/ContentIntelligence.ipynb\n- all_agents_tutorials/EU_Green_Compliance_FAQ_Bot.ipynb\n- all_agents_tutorials/ShopGenie.ipynb\n- all_agents_tutorials/Weather_Disaster_Management_AI_AGENT.ipynb\n- all_agents_tutorials/agent_hackathon_genAI_career_assistant.ipynb\n- all_agents_tutorials/ainsight_langgraph.ipynb\n- all_agents_tutorials/blog_writer_swarm.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "all_agents_tutorials 文件结构",
+        "content": "all_agents_tutorials/.DS_Store\nall_agents_tutorials/Academic_Task_Learning_Agent_LangGraph.ipynb\nall_agents_tutorials/ClauseAI.ipynb\nall_agents_tutorials/ContentIntelligence.ipynb\nall_agents_tutorials/EU_Green_Compliance_FAQ_Bot.ipynb\nall_agents_tutorials/ShopGenie.ipynb\nall_agents_tutorials/Weather_Disaster_Management_AI_AGENT.ipynb\nall_agents_tutorials/agent_hackathon_genAI_career_assistant.ipynb\nall_agents_tutorials/ainsight_langgraph.ipynb\nall_agents_tutorials/blog_writer_swarm.ipynb\nall_agents_tutorials/business_meme_generator.ipynb\nall_agents_tutorials/car_buyer_agent_langgraph.ipynb\nall_agents_tutorials/chiron_learning_agent_langgraph.ipynb\nall_agents_tutorials/customer_support_agent_langgraph.ipynb\nall_agents_tutorials/data",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2209150507904845
+  },
+  {
+    "name": "GenAI_Agents/audio 模块",
+    "description": "[模块级] GenAI_Agents 项目的 audio 模块 (source)。来源: https://github.com/NirDiamant/GenAI_Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "audio"
+    ],
+    "genes": [
+      {
+        "title": "audio 模块说明",
+        "content": "模块路径: audio/\n类型: source\n文件数: 4\n\n包含文件:\n- audio/general_the_quick_brown_fox_.mp3\n- audio/joke_why_dont_scientists_.mp3\n- audio/news_breaking_news_scient.mp3\n- audio/poem_roses_are_red_violet.mp3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audio 文件结构",
+        "content": "audio/general_the_quick_brown_fox_.mp3\naudio/joke_why_dont_scientists_.mp3\naudio/news_breaking_news_scient.mp3\naudio/poem_roses_are_red_violet.mp3",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2209150507904845
+  },
+  {
+    "name": "GenAI_Agents/data 模块",
+    "description": "[模块级] GenAI_Agents 项目的 data 模块 (source)。来源: https://github.com/NirDiamant/GenAI_Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 55\n\n包含文件:\n- data/1855.txt\n- data/ATLAS_data\n- data/ATLAS_data/calendar_events.json\n- data/ATLAS_data/profile.json\n- data/ATLAS_data/task.json\n- data/ArticleAnalysis.md\n- data/CBAM_Questions and Answers.txt\n- data/CELEX_02003L0087-20230605_EN_TXT.md\n- data/CELEX_02018R2066-20210101_EN_TXT.txt\n- data/CELEX_02018R2067-20210101_EN_TXT.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/1855.txt\ndata/ATLAS_data\ndata/ATLAS_data/calendar_events.json\ndata/ATLAS_data/profile.json\ndata/ATLAS_data/task.json\ndata/ArticleAnalysis.md\ndata/CBAM_Questions and Answers.txt\ndata/CELEX_02003L0087-20230605_EN_TXT.md\ndata/CELEX_02018R2066-20210101_EN_TXT.txt\ndata/CELEX_02018R2067-20210101_EN_TXT.txt\ndata/CELEX_32011D0753_EN_TXT.txt\ndata/CELEX_32013R0525_EN_TXT.txt\ndata/CELEX_32014D0955_EN_TXT.txt\ndata/CELEX_32014R0666_EN_TXT.txt\ndata/CELEX_32014R0749_EN_TXT.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2209150507904845
+  },
+  {
+    "name": "GenAI_Agents/images 模块",
+    "description": "[模块级] GenAI_Agents 项目的 images 模块 (source)。来源: https://github.com/NirDiamant/GenAI_Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "genai",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 38\n\n包含文件:\n- images/.DS_Store\n- images/Claude_Desktop_with_MCP.png\n- images/ClauseAI_graph.jpeg\n- images/ClauseAI_logo.jpeg\n- images/ainsight_langgraph.svg\n- images/atlas_agent_design.png\n- images/atlas_agent_workflow.png\n- images/banner_new.png\n- images/car_buyer_agent_langgraph.png\n- images/chiron.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/.DS_Store\nimages/Claude_Desktop_with_MCP.png\nimages/ClauseAI_graph.jpeg\nimages/ClauseAI_logo.jpeg\nimages/ainsight_langgraph.svg\nimages/atlas_agent_design.png\nimages/atlas_agent_workflow.png\nimages/banner_new.png\nimages/car_buyer_agent_langgraph.png\nimages/chiron.svg\nimages/chiron_widget.png\nimages/coderabbit_Dark_Type_Mark.png\nimages/coderabbit_Light_Type_Mark_Orange.png\nimages/contentIntelli.svg\nimages/customized_mcp_host.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2209150507904845
+  }
+]

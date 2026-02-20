@@ -1,0 +1,73 @@
+[
+  {
+    "name": "claude-codex-settings (fcakyon)",
+    "description": "[项目级] My personal Claude Code and OpenAI Codex setup with battle-tested skills, commands, hooks, agents and MCP servers that I use daily.。来源: https://github.com/fcakyon/claude-codex-settings",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "python",
+      "stars-430",
+      "github-fcakyon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "My personal Claude Code and OpenAI Codex setup with battle-tested skills, commands, hooks, agents and MCP servers that I use daily.\n\n来源: https://github.com/fcakyon/claude-codex-settings\n语言: Python\nStars: 430",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> **Prerequisites:** Before installing, ensure you have Claude Code and required tools installed. See [INSTALL.md](INSTALL.md) for complete prerequisites.\n\nInstall agents, commands, hooks, skills, and MCP servers via [Claude Code Plugins](https://docs.claude.com/en/docs/claude-code/plugins) system:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nINSTALL.md\nLICENSE\nREADME.md\ncontext7.json\nplugins\nplugins/azure-tools\nplugins/ccproxy-tools\nplugins/claude-tools\nplugins/gcloud-tools\nplugins/general-dev\nplugins/github-dev\nplugins/linear-tools\nplugins/mongodb-tools\nplugins/notification-tools\nplugins/paper-search-tools\nplugins/playwright-tools\nplugins/plugin-dev",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3167342277897935
+  },
+  {
+    "name": "claude-codex-settings/plugins 模块",
+    "description": "[模块级] claude-codex-settings 项目的 plugins 模块 (source)。来源: https://github.com/fcakyon/claude-codex-settings",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "/plugin install azure-tools@claude-settings        # Azure MCP & Skills (40+ services)\n/plugin install ccproxy-tools@claude-settings      # Use any LLM via ccproxy/LiteLLM\n/plugin install claude-tools@claude-settings       # Sync CLAUDE.md + allowlist\n/plugin install gcloud-tools@claude-settings       # GCloud MCP & Skills\n/plugin install general-dev@claude-settings        # Code simplifier + utilities\n/plugin install github-dev@claude-settings         # Git workflow + GitHub MCP\n/plugin install",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/azure-tools\nplugins/azure-tools/.claude-plugin\nplugins/azure-tools/.claude-plugin/plugin.json\nplugins/azure-tools/.mcp.json\nplugins/azure-tools/commands\nplugins/azure-tools/commands/setup.md\nplugins/azure-tools/skills\nplugins/azure-tools/skills/azure-usage\nplugins/azure-tools/skills/azure-usage/SKILL.md\nplugins/azure-tools/skills/setup\nplugins/azure-tools/skills/setup/SKILL.md\nplugins/ccproxy-tools\nplugins/ccproxy-tools/.claude-plugin\nplugins/ccproxy-tools/.claude-plugin/plugin.json\nplugins/ccproxy-tools/commands",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "plugins 代码示例",
+        "content": "After installing MCP plugins, run `/plugin-name:setup` for configuration (e.g., `/slack-tools:setup`).\n\nThen create symlink for cross-tool compatibility:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5533873822318345
+  }
+]

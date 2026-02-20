@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Claude-Code-Workflow (catlog22)",
+    "description": "[项目级]  JSON-driven multi-agent development framework with   intelligent CLI orchestration (Gemini/Qwen/Codex),   context-first architecture, and automated workflow   execution。来源: https://github.com/catlog22/Claude-Code-Workflow",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cli-tools",
+      "codex",
+      "context-management",
+      "typescript",
+      "stars-1309",
+      "github-catlog22",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " JSON-driven multi-agent development framework with   intelligent CLI orchestration (Gemini/Qwen/Codex),   context-first architecture, and automated workflow   execution\n\n来源: https://github.com/catlog22/Claude-Code-Workflow\n语言: TypeScript\nStars: 1309",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<div align=\"center\">\n<table>\n<tr>\n<td width=\"50%\">",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.558469823275378
+  }
+]

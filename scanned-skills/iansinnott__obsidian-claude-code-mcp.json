@@ -1,0 +1,117 @@
+[
+  {
+    "name": "obsidian-claude-code-mcp (iansinnott)",
+    "description": "[项目级] Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP)。来源: https://github.com/iansinnott/obsidian-claude-code-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-163",
+      "github-iansinnott",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP)\n\n来源: https://github.com/iansinnott/obsidian-claude-code-mcp\n语言: TypeScript\nStars: 163",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nassets\nassets/claude-logo.png\nassets/claude-logo.png.d.ts\nbun.lock\ndevlog\ndevlog/2025-06-23.md\ndocs\ndocs/AUTOMATED_PATCH_RELEASE.md\ndocs/COMMUNITY_SUBMISSION.md\ndocs/PROTOCOL.md\ndocs/RELEASE_CHECKLIST.md\nesbuild.config.mjs\ninstall.sh\nmain.ts\nmanifest.json\npackage-lock.json\npackage.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "-   **Dual Transport MCP Server**: Supports both WebSocket (for Claude Code) and HTTP/SSE (for Claude Desktop)\n-   **Auto-Discovery**: Claude Code automatically finds and connects to your vault\n-   **File Operations**: Read and write vault files through MCP protocol\n-   **Workspace Context**: Provides current active file and vault structure to Claude\n-   **Multiple Client Support**: Connect both Claude Code and Claude Desktop simultaneously\n-   **Configurable Ports**: Avoid conflicts when running multiple vaults",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.106093802201979
+  },
+  {
+    "name": "obsidian-claude-code-mcp/assets 模块",
+    "description": "[模块级] obsidian-claude-code-mcp 项目的 assets 模块 (source)。来源: https://github.com/iansinnott/obsidian-claude-code-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-163",
+      "github-iansinnott",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/claude-logo.png\n- assets/claude-logo.png.d.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/claude-logo.png\nassets/claude-logo.png.d.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  },
+  {
+    "name": "obsidian-claude-code-mcp/docs 模块",
+    "description": "[模块级] obsidian-claude-code-mcp 项目的 docs 模块 (docs)。来源: https://github.com/iansinnott/obsidian-claude-code-mcp",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-163",
+      "github-iansinnott",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/AUTOMATED_PATCH_RELEASE.md\n- docs/COMMUNITY_SUBMISSION.md\n- docs/PROTOCOL.md\n- docs/RELEASE_CHECKLIST.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/AUTOMATED_PATCH_RELEASE.md\ndocs/COMMUNITY_SUBMISSION.md\ndocs/PROTOCOL.md\ndocs/RELEASE_CHECKLIST.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  },
+  {
+    "name": "obsidian-claude-code-mcp/src 模块",
+    "description": "[模块级] obsidian-claude-code-mcp 项目的 src 模块 (source)。来源: https://github.com/iansinnott/obsidian-claude-code-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-163",
+      "github-iansinnott",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 27\n\n包含文件:\n- src/claude-config.ts\n- src/ide\n- src/ide/ide-handler.ts\n- src/ide/ide-tools.ts\n- src/mcp\n- src/mcp/dual-server.ts\n- src/mcp/handlers.ts\n- src/mcp/http-server.ts\n- src/mcp/server.ts\n- src/mcp/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/claude-config.ts\nsrc/ide\nsrc/ide/ide-handler.ts\nsrc/ide/ide-tools.ts\nsrc/mcp\nsrc/mcp/dual-server.ts\nsrc/mcp/handlers.ts\nsrc/mcp/http-server.ts\nsrc/mcp/server.ts\nsrc/mcp/types.ts\nsrc/obsidian\nsrc/obsidian/utils.ts\nsrc/obsidian/workspace-manager.ts\nsrc/settings.ts\nsrc/shared",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  }
+]

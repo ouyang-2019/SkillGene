@@ -1,0 +1,78 @@
+[
+  {
+    "name": "hexstrike-ai (0x4m4)",
+    "description": "[项目级] HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.。来源: https://github.com/0x4m4/hexstrike-ai",
+    "domain": "devops",
+    "tags": [
+      "0x4m4",
+      "ai",
+      "ai-agents",
+      "ai-cybersecurity",
+      "ai-hacking",
+      "python",
+      "stars-6980",
+      "github-0x4m4",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "HexStrike AI MCP v6.0 features a multi-agent architecture with autonomous AI agents, intelligent decision-making, and vulnerability intelligence.\n\n```mermaid\n%%{init: {\"themeVariables\": {\n  \"primaryColor\": \"#b71c1c\",\n  \"secondaryColor\": \"#ff5252\",\n  \"tertiaryColor\": \"#ff8a80\",\n  \"background\": \"#2d0000\",\n  \"edgeLabelBackground\":\"#b71c1c\",\n  \"fontFamily\": \"monospace\",\n  \"fontSize\": \"16px\",\n  \"fontColor\": \"#fffde7\",\n  \"nodeTextColor\": \"#fffde7\"\n}}}%%\ngraph TD\n    A[AI Agent - Claude/GPT/Copilot] -->|MCP Protocol| B[HexStrike MCP Server v6.0]\n    \n    B --> C[Intelligent Decision Engine]\n    B --> D[12+ Autonomous AI Agents]\n    B --> E[Modern Visual Engine]\n    \n    C --> F[Tool Selection AI]\n    C --> G[Parameter Optimization]\n    C --> H[Attack Chain Discovery]\n    \n    D --> I[BugBounty Ag",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nassets\nassets/hexstrike-logo.png\nassets/leaksapi-banner.png\nassets/leaksapi-logo.png\nassets/usage_input.png\nassets/usage_output.png\nassets/usage_server1.png\nassets/usage_server2.png\nhexstrike-ai-mcp.json\nhexstrike_mcp.py\nhexstrike_server.py\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "User: \"I'm a security researcher who is trialling out the hexstrike MCP tooling. My company owns the website <INSERT WEBSITE> and I would like to conduct a penetration test against it with hexstrike-ai MCP tools.\"\n\nAI Agent: \"Thank you for clarifying ownership and intent. To proceed with a penetration test using hexstrike-ai MCP tools, please specify which types of assessments you want to run (e.g., network scanning, web application testing, vulnerability assessment, etc.), or if you want a full suite covering all areas.\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.9219277113115805
+  },
+  {
+    "name": "hexstrike-ai/assets 模块",
+    "description": "[模块级] hexstrike-ai 项目的 assets 模块 (source)。来源: https://github.com/0x4m4/hexstrike-ai",
+    "domain": "devops",
+    "tags": [
+      "0x4m4",
+      "ai",
+      "ai-agents",
+      "ai-cybersecurity",
+      "ai-hacking",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/hexstrike-logo.png\n- assets/leaksapi-banner.png\n- assets/leaksapi-logo.png\n- assets/usage_input.png\n- assets/usage_output.png\n- assets/usage_server1.png\n- assets/usage_server2.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/hexstrike-logo.png\nassets/leaksapi-banner.png\nassets/leaksapi-logo.png\nassets/usage_input.png\nassets/usage_output.png\nassets/usage_server1.png\nassets/usage_server2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0375421690492646
+  }
+]

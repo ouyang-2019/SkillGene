@@ -1,0 +1,78 @@
+[
+  {
+    "name": "vector-storage (nitaiaharoni1)",
+    "description": "[项目级] Vector Storage is a vector database that enables semantic similarity searches on text documents in the browser's local storage. It uses OpenAI embeddings to convert documents into vectors and allows searching for similar documents based on cosine similarity.。来源: https://github.com/nitaiaharoni1/vector-storage",
+    "domain": "devops",
+    "tags": [
+      "cosine-similarity",
+      "embedding-vectors",
+      "javascript",
+      "local-storage",
+      "localstorage",
+      "typescript",
+      "stars-244",
+      "github-nitaiaharoni1",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Vector Storage is a vector database that enables semantic similarity searches on text documents in the browser's local storage. It uses OpenAI embeddings to convert documents into vectors and allows searching for similar documents based on cosine similarity.\n\n来源: https://github.com/nitaiaharoni1/vector-storage\n语言: TypeScript\nStars: 244",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm i vector-storage",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\npackage-lock.json\npackage.json\nsrc\nsrc/VectorStorage.ts\nsrc/common\nsrc/index.ts\nsrc/types\ntsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import { VectorStorage } from \"vector-storage\";\n\n// Create an instance of VectorStorage\nconst vectorStore = new VectorStorage({ openAIApiKey: \"your-openai-api-key\" });\n\n// Add a text document to the store\nawait vectorStore.addText(\"The quick brown fox jumps over the lazy dog.\", {\n  category: \"example\",\n});\n\n// Perform a similarity search\nconst results = await vectorStore.similaritySearch({\n  query: \"A fast fox leaps over a sleepy hound.\",\n});\n\n// Display the search results\nconsole.log(results);",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Store and manage document vectors in IndexedDB\n- Perform similarity searches on text documents\n- Filter search results based on metadata or text content\n- Automatically manage storage size and remove least recently used documents when space limit is reached",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.193694913169365
+  },
+  {
+    "name": "vector-storage/src 模块",
+    "description": "[模块级] vector-storage 项目的 src 模块 (source)。来源: https://github.com/nitaiaharoni1/vector-storage",
+    "domain": "devops",
+    "tags": [
+      "cosine-similarity",
+      "embedding-vectors",
+      "javascript",
+      "local-storage",
+      "localstorage",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 11\n\n包含文件:\n- src/VectorStorage.ts\n- src/common\n- src/common/constants.ts\n- src/common/helpers.ts\n- src/index.ts\n- src/types\n- src/types/ICreateEmbeddingResponse.ts\n- src/types/IVSDocument.ts\n- src/types/IVSFilterOptions.ts\n- src/types/IVSOptions.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/VectorStorage.ts\nsrc/common\nsrc/common/constants.ts\nsrc/common/helpers.ts\nsrc/index.ts\nsrc/types\nsrc/types/ICreateEmbeddingResponse.ts\nsrc/types/IVSDocument.ts\nsrc/types/IVSFilterOptions.ts\nsrc/types/IVSOptions.ts\nsrc/types/IVSSimilaritySearchParams.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4549559305354918
+  }
+]

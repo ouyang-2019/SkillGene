@@ -1,0 +1,495 @@
+[
+  {
+    "name": "Awesome-AI-Pedia (qdleader)",
+    "description": "[项目级] 🔥🔥🔥 A Comprehensive Collection of AI/ML Knowledge, Papers, Courses, and Tools. (AI 知识大全，包含skills、claude code、cursor工具和学习路径)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Awesome AI Pedia** 是一个现代化 AI 知识库，旨在为开发者提供全面的 AI 工具使用指南、最佳实践和实战经验分享。",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nanime-video\nanime-video/README.md\nanime-video/package.json\nanime-video/remotion.config.ts\nanime-video/src\nanime-video/tsconfig.json\nanime-video/项目总结.md\nantigravity\nantigravity/antigravity Skills 全局安装与配置.md\nantigravity/antigravity Skills 项目级安装与配置.md\nantigravity/antigravity-如何自动accept.md\nantigravity/antigravity-自动切换账号.md\nantigravity/index.md\nclaudeCode\nclaudeCode/Claude-Code-bypass-模式.md\nclaudeCode/Claude-Code-切换账号.md\nclaudeCode/Claude-Code-常用命令.md\nclaudeCode/Claude-Code-自动提醒配置.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "AI 工具使用技巧与经验分享\n- 高效使用方法\n- 常见问题解决\n- 最佳实践总结",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **📚 11个AI分类** - 涵盖 Claude Code、Cursor、MCP、Prompt、Rules、Skills 等全方位 AI 知识\n- **💡 实战导向** - 从实际项目出发，提供可落地的解决方案\n- **🔍 智能搜索** - 内置全文搜索，快速定位所需内容\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8537850880489684
+  },
+  {
+    "name": "Awesome-AI-Pedia/anime-video 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 anime-video 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "anime-video"
+    ],
+    "genes": [
+      {
+        "title": "anime-video 模块说明",
+        "content": "模块路径: anime-video/\n类型: source\n文件数: 15\n\n包含文件:\n- anime-video/README.md\n- anime-video/package.json\n- anime-video/remotion.config.ts\n- anime-video/src\n- anime-video/src/Root.tsx\n- anime-video/src/components\n- anime-video/src/components/ActionScene.tsx\n- anime-video/src/components/CharacterScene.tsx\n- anime-video/src/components/EndingScene.tsx\n- anime-video/src/components/TitleScene.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "anime-video 文件结构",
+        "content": "anime-video/README.md\nanime-video/package.json\nanime-video/remotion.config.ts\nanime-video/src\nanime-video/src/Root.tsx\nanime-video/src/components\nanime-video/src/components/ActionScene.tsx\nanime-video/src/components/CharacterScene.tsx\nanime-video/src/components/EndingScene.tsx\nanime-video/src/components/TitleScene.tsx\nanime-video/src/compositions\nanime-video/src/compositions/AnimeVideo.tsx\nanime-video/src/index.ts\nanime-video/tsconfig.json\nanime-video/项目总结.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/antigravity 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 antigravity 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "antigravity"
+    ],
+    "genes": [
+      {
+        "title": "antigravity 模块说明",
+        "content": "模块路径: antigravity/\n类型: source\n文件数: 5\n\n包含文件:\n- antigravity/antigravity Skills 全局安装与配置.md\n- antigravity/antigravity Skills 项目级安装与配置.md\n- antigravity/antigravity-如何自动accept.md\n- antigravity/antigravity-自动切换账号.md\n- antigravity/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "antigravity 文件结构",
+        "content": "antigravity/antigravity Skills 全局安装与配置.md\nantigravity/antigravity Skills 项目级安装与配置.md\nantigravity/antigravity-如何自动accept.md\nantigravity/antigravity-自动切换账号.md\nantigravity/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/claudeCode 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 claudeCode 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "claudecode"
+    ],
+    "genes": [
+      {
+        "title": "claudeCode 模块说明",
+        "content": "模块路径: claudeCode/\n类型: source\n文件数: 18\n\n包含文件:\n- claudeCode/Claude-Code-bypass-模式.md\n- claudeCode/Claude-Code-切换账号.md\n- claudeCode/Claude-Code-常用命令.md\n- claudeCode/Claude-Code-自动提醒配置.md\n- claudeCode/Claude-Code安装.md\n- claudeCode/Claude-使用browser.md\n- claudeCode/Claude-设置中文.md\n- claudeCode/hooks\n- claudeCode/hooks/hooks 自动格式化代码.md\n- claudeCode/hooks/hooks 配置实战之配置自动提醒.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claudeCode 文件结构",
+        "content": "claudeCode/Claude-Code-bypass-模式.md\nclaudeCode/Claude-Code-切换账号.md\nclaudeCode/Claude-Code-常用命令.md\nclaudeCode/Claude-Code-自动提醒配置.md\nclaudeCode/Claude-Code安装.md\nclaudeCode/Claude-使用browser.md\nclaudeCode/Claude-设置中文.md\nclaudeCode/hooks\nclaudeCode/hooks/hooks 自动格式化代码.md\nclaudeCode/hooks/hooks 配置实战之配置自动提醒.md\nclaudeCode/hooks/hooks配置方式.md\nclaudeCode/hooks/什么是 Hooks.md\nclaudeCode/hooks/拦截危险操作的hook.md\nclaudeCode/index.md\nclaudeCode/plugins",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/cursor 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 cursor 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "cursor"
+    ],
+    "genes": [
+      {
+        "title": "cursor 模块说明",
+        "content": "Cursor AI 编辑器的使用方法和最佳实践\n- 常用功能详解\n- 中文对话设置\n- 区域限制解决方案\n- 菜单栏自定义\n- 版本管理",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cursor 文件结构",
+        "content": "cursor/Cursor-对话回答如何设置成中文.md\ncursor/cursor-卸载.md\ncursor/cursor-常用的功能.md\ncursor/cursor-所有版本.md\ncursor/cursor-提示不支持本地区.md\ncursor/cursor-设置菜单栏在左侧.md\ncursor/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/docs 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 docs 模块 (docs)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 34\n\n包含文件:\n- docs/.vitepress\n- docs/.vitepress/components\n- docs/.vitepress/components/BlogMeta.vue\n- docs/.vitepress/components/FeatureCards.vue\n- docs/.vitepress/components/FreshDecorations.vue\n- docs/.vitepress/components/LobsterAnimation.vue\n- docs/.vitepress/components/NavigationCards.vue\n- docs/.vitepress/components/PandaPeekaboo.vue\n- docs/.vitepress/components/WaveDivider.vue\n- docs/.vitepress/config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.vitepress\ndocs/.vitepress/components\ndocs/.vitepress/components/BlogMeta.vue\ndocs/.vitepress/components/FeatureCards.vue\ndocs/.vitepress/components/FreshDecorations.vue\ndocs/.vitepress/components/LobsterAnimation.vue\ndocs/.vitepress/components/NavigationCards.vue\ndocs/.vitepress/components/PandaPeekaboo.vue\ndocs/.vitepress/components/WaveDivider.vue\ndocs/.vitepress/config.ts\ndocs/.vitepress/custom.css\ndocs/.vitepress/styles\ndocs/.vitepress/styles/home.css\ndocs/.vitepress/theme.ts\ndocs/.vitepress/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/mcp 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 mcp 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "mcp"
+    ],
+    "genes": [
+      {
+        "title": "mcp 模块说明",
+        "content": "模型上下文协议相关资源与实践\n- Figma MCP 集成\n- 蓝湖 MCP 使用\n- 飞书 MCP 配置\n- Playwright MCP 自动化\n- Context7 MCP\n- Chrome DevTools MCP\n- 天气预报 MCP 实战\n- 网页发布 MCP",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp 文件结构",
+        "content": "mcp/Context7-mcp.md\nmcp/MCP-大全.md\nmcp/Mastergo-MCP.md\nmcp/Playwright-MCP.md\nmcp/chrome-dev-tools-mcp.md\nmcp/figma-mcp.md\nmcp/index.md\nmcp/发布网页的mcp.md\nmcp/常用mcp.md\nmcp/搭建天气预报mcp.md\nmcp/蓝湖mcp.md\nmcp/飞书mcp.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/openclaw 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 openclaw 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "openclaw"
+    ],
+    "genes": [
+      {
+        "title": "openclaw 模块说明",
+        "content": "模块路径: openclaw/\n类型: source\n文件数: 5\n\n包含文件:\n- openclaw/index.md\n- openclaw/openclaw 安装失败常见问题.md\n- openclaw/openclaw 常用指令.md\n- openclaw/openclaw-介绍.md\n- openclaw/openclaw-安装.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "openclaw 文件结构",
+        "content": "openclaw/index.md\nopenclaw/openclaw 安装失败常见问题.md\nopenclaw/openclaw 常用指令.md\nopenclaw/openclaw-介绍.md\nopenclaw/openclaw-安装.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/prompt 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 prompt 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "prompt"
+    ],
+    "genes": [
+      {
+        "title": "prompt 模块说明",
+        "content": "提示词工程和优化技巧\n- React + UI 设计师 Prompt\n- SVG 海报设计专家 Prompt\n- 提示词优化网站推荐\n- 提示词最佳实践",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt 文件结构",
+        "content": "prompt/React+UI设计师Prompt.md\nprompt/SVG海报设计专家Prompt.md\nprompt/index.md\nprompt/图片\nprompt/图片/生成ppt图片.md\nprompt/常用类提示词\nprompt/常用类提示词/小红书风格.md\nprompt/开发类提示词\nprompt/开发类提示词/React-程序员提示词.md\nprompt/开发类提示词/UI设计+html+js提示词.md\nprompt/开发类提示词/cursor-提示词.md\nprompt/开发类提示词/cursor生成提示词小技巧.md\nprompt/开发类提示词/react18-提示词.md\nprompt/开发类提示词/ui+html专家.md\nprompt/开发类提示词/ui+vue提示词.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/rules 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 rules 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "rules"
+    ],
+    "genes": [
+      {
+        "title": "rules 模块说明",
+        "content": "各种 AI 编码规则和最佳实践\n- Next.js + React + TypeScript Rules\n- Vue.js + TypeScript Rules\n- NuxtJS Rules\n- Flutter Rules\n- Expo React Native Rules\n- Spring Boot Rules\n- HTML & CSS Best Practices\n- Claude + Cursor 高级提示词",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rules 文件结构",
+        "content": "rules/AI协作式·需求到代码生成.md\nrules/Claude Code 最火爆提示词.md\nrules/Claude+Cursor高级提示词.md\nrules/Expo-React-Native-TypeScript-Cursor-Rules.md\nrules/Flutter-Cursor-Rules.md\nrules/HTML-and-CSS-Best-Practices.md\nrules/Next.js-React-TypeScript-Cursor-Rules.md\nrules/NuxtJS-Vue-TypeScript-Development-Rules.md\nrules/Vue.js-TypeScript-Best-Practices.md\nrules/cursor-rules.md\nrules/index.md\nrules/springboot.md\nrules/如何使用rules.md\nrules/资深架构师·多阶段代码体检.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/scripts 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 scripts 模块 (script)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/generate-index.ts\n- scripts/generate-indexes.cjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/generate-index.ts\nscripts/generate-indexes.cjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/skills 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 skills 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "AI 技能集合和实用工具\n- Skills 概念与使用\n- MCP 与 Skills 的区别\n- Skills 安装指南\n- 自定义 Skills 开发",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/MCP与skills的区别.md\nskills/front-end\nskills/front-end/vercel-react-best-practices.md\nskills/front-end/web-design-guidelines.md\nskills/index.md\nskills/my-skill-brand.md\nskills/什么是skills.md\nskills/如何编写自己的skills.md\nskills/安装skills.md\nskills/工具类\nskills/工具类/agent-browser.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/不可不知的Ai知识 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 不可不知的Ai知识 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "不可不知的ai知识"
+    ],
+    "genes": [
+      {
+        "title": "不可不知的Ai知识 模块说明",
+        "content": "模块路径: 不可不知的Ai知识/\n类型: source\n文件数: 2\n\n包含文件:\n- 不可不知的Ai知识/FOMO.md\n- 不可不知的Ai知识/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "不可不知的Ai知识 文件结构",
+        "content": "不可不知的Ai知识/FOMO.md\n不可不知的Ai知识/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/使用ai技巧 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 使用ai技巧 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "使用ai技巧"
+    ],
+    "genes": [
+      {
+        "title": "使用ai技巧 模块说明",
+        "content": "模块路径: 使用ai技巧/\n类型: source\n文件数: 2\n\n包含文件:\n- 使用ai技巧/index.md\n- 使用ai技巧/有趣的问题.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "使用ai技巧 文件结构",
+        "content": "使用ai技巧/index.md\n使用ai技巧/有趣的问题.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/好的rules 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 好的rules 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "好的rules"
+    ],
+    "genes": [
+      {
+        "title": "好的rules 模块说明",
+        "content": "模块路径: 好的rules/\n类型: source\n文件数: 6\n\n包含文件:\n- 好的rules/index.md\n- 好的rules/互动沟通.md\n- 好的rules/代码修改.md\n- 好的rules/常用rules.md\n- 好的rules/编码标准与实践.md\n- 好的rules/项目管理.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "好的rules 文件结构",
+        "content": "好的rules/index.md\n好的rules/互动沟通.md\n好的rules/代码修改.md\n好的rules/常用rules.md\n好的rules/编码标准与实践.md\n好的rules/项目管理.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  },
+  {
+    "name": "Awesome-AI-Pedia/常用skills 模块",
+    "description": "[模块级] Awesome-AI-Pedia 项目的 常用skills 模块 (source)。来源: https://github.com/qdleader/Awesome-AI-Pedia",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "typescript",
+      "stars-51",
+      "github-qdleader",
+      "module-level",
+      "source",
+      "常用skills"
+    ],
+    "genes": [
+      {
+        "title": "常用skills 模块说明",
+        "content": "模块路径: 常用skills/\n类型: source\n文件数: 9\n\n包含文件:\n- 常用skills/Superpowers.md\n- 常用skills/Superpowers安装及使用.md\n- 常用skills/code-simplifier-插件安装.md\n- 常用skills/code-simplifier的提示词.md\n- 常用skills/dev-browser.md\n- 常用skills/index.md\n- 常用skills/my-skill-brand.md\n- 常用skills/remotions-skills.md\n- 常用skills/ui-ux-pro-max.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "常用skills 文件结构",
+        "content": "常用skills/Superpowers.md\n常用skills/Superpowers安装及使用.md\n常用skills/code-simplifier-插件安装.md\n常用skills/code-simplifier的提示词.md\n常用skills/dev-browser.md\n常用skills/index.md\n常用skills/my-skill-brand.md\n常用skills/remotions-skills.md\n常用skills/ui-ux-pro-max.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1830280704391747
+  }
+]

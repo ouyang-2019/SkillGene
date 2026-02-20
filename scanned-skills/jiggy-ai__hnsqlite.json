@@ -1,0 +1,89 @@
+[
+  {
+    "name": "hnsqlite (jiggy-ai)",
+    "description": "[项目级] hnsqlite integrates hnswlib and sqlite for simple text embedding search。来源: https://github.com/jiggy-ai/hnsqlite",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-159",
+      "github-jiggy-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "hnsqlite integrates hnswlib and sqlite for simple text embedding search\n\n来源: https://github.com/jiggy-ai/hnsqlite\n语言: Python\nStars: 159",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nhnsqlite\nhnsqlite/__init__.py\nhnsqlite/collection.py\nhnsqlite/filter.py\nhnsqlite/util.py\npyproject.toml\ntest\ntest/hnsqlite.sqlite\ntest/test_collection.py\ntest/test_collection_filter.py\ntest/test_filter.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "To use `hnsqlite`, you can create a new collection, add items to it, and perform search operations. Here's an example:\n\n\n```python\nfrom hnsqlite import Collection\nimport numpy as np",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.100698562160225
+  },
+  {
+    "name": "hnsqlite/hnsqlite 模块",
+    "description": "[模块级] hnsqlite 项目的 hnsqlite 模块 (source)。来源: https://github.com/jiggy-ai/hnsqlite",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-159",
+      "github-jiggy-ai",
+      "module-level",
+      "source",
+      "hnsqlite"
+    ],
+    "genes": [
+      {
+        "title": "hnsqlite 模块说明",
+        "content": "`hnsqlite` is a text-centric integration of SQLite and [Hnswlib](https://github.com/nmslib/hnswlib) to provide a persistent collection of embeddings (strings, vectors, and metadata) and search time filtering based on the metadata.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hnsqlite 文件结构",
+        "content": "hnsqlite/__init__.py\nhnsqlite/collection.py\nhnsqlite/filter.py\nhnsqlite/util.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3805588497281804
+  },
+  {
+    "name": "hnsqlite/test 模块",
+    "description": "[模块级] hnsqlite 项目的 test 模块 (test)。来源: https://github.com/jiggy-ai/hnsqlite",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-159",
+      "github-jiggy-ai",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 4\n\n包含文件:\n- test/hnsqlite.sqlite\n- test/test_collection.py\n- test/test_collection_filter.py\n- test/test_filter.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/hnsqlite.sqlite\ntest/test_collection.py\ntest/test_collection_filter.py\ntest/test_filter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3805588497281804
+  }
+]

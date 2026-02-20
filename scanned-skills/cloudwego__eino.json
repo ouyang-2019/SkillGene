@@ -1,0 +1,163 @@
+[
+  {
+    "name": "eino (cloudwego)",
+    "description": "[项目级] The ultimate LLM/AI application development framework in Go.。来源: https://github.com/cloudwego/eino",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-application",
+      "ai-framework",
+      "langchain",
+      "langchain-for-go",
+      "go",
+      "stars-9676",
+      "github-cloudwego",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Eino['aino]** is an LLM application development framework in Golang. It draws from LangChain, Google ADK, and other open-source frameworks, and is designed to follow Golang conventions.\n\nEino provides:\n- **[Components](https://github.com/cloudwego/eino-ext)**: reusable building blocks like `ChatModel`, `Tool`, `Retriever`, and `ChatTemplate`, with official implementations for OpenAI, Ollama, and more.\n- **Agent Development Kit (ADK)**: build AI agents with tool use, multi-agent coordination, context management, interrupt/resume for human-in-the-loop, and ready-to-use agent patterns.\n- **Composition**: connect components into graphs and workflows that can run standalone or be exposed as tools for agents.\n- **[Examples](https://github.com/cloudwego/eino-examples)**: working code for common",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE-APACHE\nREADME.md\nREADME.zh_CN.md\n_typos.toml\nadk\nadk/agent_tool.go\nadk/agent_tool_test.go\nadk/call_option.go\nadk/call_option_test.go\nadk/chatmodel.go\nadk/chatmodel_retry_test.go\nadk/chatmodel_test.go\nadk/deterministic_transfer.go\nadk/deterministic_transfer_test.go\nadk/filesystem\nadk/flow.go\nadk/flow_test.go\nadk/instruction.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.992847929844921
+  },
+  {
+    "name": "eino/adk 模块",
+    "description": "[模块级] eino 项目的 adk 模块 (source)。来源: https://github.com/cloudwego/eino",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-application",
+      "ai-framework",
+      "langchain",
+      "langchain-for-go",
+      "module-level",
+      "source",
+      "adk"
+    ],
+    "genes": [
+      {
+        "title": "adk 模块说明",
+        "content": "模块路径: adk/\n类型: source\n文件数: 66\n\n包含文件:\n- adk/agent_tool.go\n- adk/agent_tool_test.go\n- adk/call_option.go\n- adk/call_option_test.go\n- adk/chatmodel.go\n- adk/chatmodel_retry_test.go\n- adk/chatmodel_test.go\n- adk/deterministic_transfer.go\n- adk/deterministic_transfer_test.go\n- adk/filesystem",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adk 文件结构",
+        "content": "adk/agent_tool.go\nadk/agent_tool_test.go\nadk/call_option.go\nadk/call_option_test.go\nadk/chatmodel.go\nadk/chatmodel_retry_test.go\nadk/chatmodel_test.go\nadk/deterministic_transfer.go\nadk/deterministic_transfer_test.go\nadk/filesystem\nadk/filesystem/backend.go\nadk/filesystem/backend_inmemory.go\nadk/filesystem/backend_inmemory_test.go\nadk/flow.go\nadk/flow_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.094278343875937
+  },
+  {
+    "name": "eino/callbacks 模块",
+    "description": "[模块级] eino 项目的 callbacks 模块 (source)。来源: https://github.com/cloudwego/eino",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-application",
+      "ai-framework",
+      "langchain",
+      "langchain-for-go",
+      "module-level",
+      "source",
+      "callbacks"
+    ],
+    "genes": [
+      {
+        "title": "callbacks 模块说明",
+        "content": "模块路径: callbacks/\n类型: source\n文件数: 6\n\n包含文件:\n- callbacks/aspect_inject.go\n- callbacks/aspect_inject_test.go\n- callbacks/doc.go\n- callbacks/handler_builder.go\n- callbacks/interface.go\n- callbacks/interface_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "callbacks 文件结构",
+        "content": "callbacks/aspect_inject.go\ncallbacks/aspect_inject_test.go\ncallbacks/doc.go\ncallbacks/handler_builder.go\ncallbacks/interface.go\ncallbacks/interface_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.094278343875937
+  },
+  {
+    "name": "eino/components 模块",
+    "description": "[模块级] eino 项目的 components 模块 (source)。来源: https://github.com/cloudwego/eino",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-application",
+      "ai-framework",
+      "langchain",
+      "langchain-for-go",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 74\n\n包含文件:\n- components/document\n- components/document/callback_extra_loader.go\n- components/document/callback_extra_transformer.go\n- components/document/doc.go\n- components/document/interface.go\n- components/document/option.go\n- components/document/option_test.go\n- components/document/parser\n- components/document/parser/ext_parser.go\n- components/document/parser/interface.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/document\ncomponents/document/callback_extra_loader.go\ncomponents/document/callback_extra_transformer.go\ncomponents/document/doc.go\ncomponents/document/interface.go\ncomponents/document/option.go\ncomponents/document/option_test.go\ncomponents/document/parser\ncomponents/document/parser/ext_parser.go\ncomponents/document/parser/interface.go\ncomponents/document/parser/option.go\ncomponents/document/parser/option_test.go\ncomponents/document/parser/parser_test.go\ncomponents/document/parser/testdata\ncomponents/document/parser/testdata/test.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.094278343875937
+  },
+  {
+    "name": "eino/compose 模块",
+    "description": "[模块级] eino 项目的 compose 模块 (source)。来源: https://github.com/cloudwego/eino",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-application",
+      "ai-framework",
+      "langchain",
+      "langchain-for-go",
+      "module-level",
+      "source",
+      "compose"
+    ],
+    "genes": [
+      {
+        "title": "compose 模块说明",
+        "content": "模块路径: compose/\n类型: source\n文件数: 10\n\n包含文件:\n- compose/branch.go\n- compose/branch_test.go\n- compose/chain.go\n- compose/chain_branch.go\n- compose/chain_branch_test.go\n- compose/chain_parallel.go\n- compose/chain_test.go\n- compose/checkpoint.go\n- compose/checkpoint_test.go\n- compose/component_to_graph_node.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "compose 文件结构",
+        "content": "compose/branch.go\ncompose/branch_test.go\ncompose/chain.go\ncompose/chain_branch.go\ncompose/chain_branch_test.go\ncompose/chain_parallel.go\ncompose/chain_test.go\ncompose/checkpoint.go\ncompose/checkpoint_test.go\ncompose/component_to_graph_node.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.094278343875937
+  }
+]

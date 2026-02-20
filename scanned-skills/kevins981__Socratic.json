@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Socratic (kevins981)",
+    "description": "[项目级] Socratic is a framework for building reliable vertical AI agents by letting human experts teach agents interactively, turning tacit domain knowledge into a continuously improving knowledge base.。来源: https://github.com/kevins981/Socratic",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "domain-specific-knowledge",
+      "human-in-the-loop",
+      "llm-agent",
+      "javascript",
+      "stars-70",
+      "github-kevins981",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "High-quality domain knowledge is *critical* for building high-value agents.  \n\nToday, most teams rely on \"document dump\" workflows (e.g., RAG): give the agent all the files and hope it interprets them correctly.  \nBut this fails for the same reason it would with a human - you wouldn't onboard a new hire by handing them a folder of docs and saying \"good luck.\"\n\n| Traditional Document Dumps (e.g., RAG)       | Socratic (KnowledgeOps)                     |\n|-----------------------------------------|----------------------------------------------|\n| ❌ \"Hope-based\" knowledge retrieval       | ✅ Expert-controlled curation                |\n| ❌ Agent misinterprets raw docs          | ✅ Guided, human-in-the-loop knowledge distillation      |\n| ❌ Opaque, “black box” knowledge         | ✅ Clear, audit",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Linux kernel >= 5.15 is required. \n\n```bash\ngit clone https://github.com/kevins981/Socratic.git\ncd socratic",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/001_high_level_design_goals.md\ndocs/002_synth_subcommand.md\ndocs/003_core_terminology.md\ndocs/004_agent_execution_model.md\ndocs/005_knowledge_base_storage.md\ndocs/README.md\nexamples\nexamples/repos\npackage.json\npyproject.toml\nsocratic\nsocratic/__init__.py\nsocratic/__main__.py\nsocratic/ask.py\nsocratic/cli.py\nsocratic/constants.py\nsocratic/create.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9225490200071285
+  },
+  {
+    "name": "Socratic/docs 模块",
+    "description": "[模块级] Socratic 项目的 docs 模块 (docs)。来源: https://github.com/kevins981/Socratic",
+    "domain": "documentation",
+    "tags": [
+      "ai-agents",
+      "domain-specific-knowledge",
+      "human-in-the-loop",
+      "llm-agent",
+      "javascript",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/001_high_level_design_goals.md\n- docs/002_synth_subcommand.md\n- docs/003_core_terminology.md\n- docs/004_agent_execution_model.md\n- docs/005_knowledge_base_storage.md\n- docs/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/001_high_level_design_goals.md\ndocs/002_synth_subcommand.md\ndocs/003_core_terminology.md\ndocs/004_agent_execution_model.md\ndocs/005_knowledge_base_storage.md\ndocs/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2380392160057028
+  },
+  {
+    "name": "Socratic/examples 模块",
+    "description": "[模块级] Socratic 项目的 examples 模块 (example)。来源: https://github.com/kevins981/Socratic",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "domain-specific-knowledge",
+      "human-in-the-loop",
+      "llm-agent",
+      "javascript",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 23\n\n包含文件:\n- examples/repos\n- examples/repos/Google_Analytics_SQL\n- examples/repos/Google_Analytics_SQL/EVENTS_20201101.json\n- examples/repos/Google_Analytics_SQL/EVENTS_20201231.json\n- examples/repos/Google_Analytics_SQL/EVENTS_20210111.json\n- examples/repos/Google_Analytics_SQL/EVENTS_20210131.json\n- examples/repos/tau_airline\n- examples/repos/tau_airline/flights_sample.json\n- examples/repos/tau_airline/reservations_sample.json\n- examples/repos/tau_airline/tool_book_reservation.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/repos\nexamples/repos/Google_Analytics_SQL\nexamples/repos/Google_Analytics_SQL/EVENTS_20201101.json\nexamples/repos/Google_Analytics_SQL/EVENTS_20201231.json\nexamples/repos/Google_Analytics_SQL/EVENTS_20210111.json\nexamples/repos/Google_Analytics_SQL/EVENTS_20210131.json\nexamples/repos/tau_airline\nexamples/repos/tau_airline/flights_sample.json\nexamples/repos/tau_airline/reservations_sample.json\nexamples/repos/tau_airline/tool_book_reservation.txt\nexamples/repos/tau_airline/tool_cancel_reservation.txt\nexamples/repos/tau_airline/tool_get_reservation_details.txt\nexamples/repos/tau_airline/tool_get_user_details.txt\nexamples/repos/tau_airline/tool_list_all_airports.txt\nexamples/repos/tau_airline/tool_search_direct_flight.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2380392160057028
+  },
+  {
+    "name": "Socratic/socratic 模块",
+    "description": "[模块级] Socratic 项目的 socratic 模块 (source)。来源: https://github.com/kevins981/Socratic",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "domain-specific-knowledge",
+      "human-in-the-loop",
+      "llm-agent",
+      "javascript",
+      "module-level",
+      "source",
+      "socratic"
+    ],
+    "genes": [
+      {
+        "title": "socratic 模块说明",
+        "content": "Socratic is a KnowledgeOps platform that helps teams build expert-level knowledge base for vertical, domain-specific agents.\nYou point Socratic at your existing domain docs, and Socratic collaborates with you to build a curated and reliable knowledge base that you actually trust.\n\nSocratic is a **KnowledgeOps platform** that helps teams build *expert-level*, trustworthy knowledge bases for vertical, domain-specific agents.  \nPoint Socratic at your existing docs, and collaborate with Socratic to ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "socratic 文件结构",
+        "content": "socratic/__init__.py\nsocratic/__main__.py\nsocratic/ask.py\nsocratic/cli.py\nsocratic/constants.py\nsocratic/create.py\nsocratic/digest.py\nsocratic/export.py\nsocratic/io_utils.py\nsocratic/llm_config.py\nsocratic/synth.py\nsocratic/triage.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2380392160057028
+  },
+  {
+    "name": "Socratic/web 模块",
+    "description": "[模块级] Socratic 项目的 web 模块 (source)。来源: https://github.com/kevins981/Socratic",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "domain-specific-knowledge",
+      "human-in-the-loop",
+      "llm-agent",
+      "javascript",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "cd web\nnpm run dev:project -- --project airline_demo\n```\n\nCommand line interface:\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/app\nweb/app/api\nweb/app/api/dir-files\nweb/app/api/dir-files/route.js\nweb/app/api/dir\nweb/app/api/dir/route.js\nweb/app/api/file\nweb/app/api/file/route.js\nweb/app/api/files\nweb/app/api/files/route.js\nweb/app/api/kb-accept-file\nweb/app/api/kb-accept-file/route.js\nweb/app/api/kb-diff\nweb/app/api/kb-diff/route.js\nweb/app/api/kb-export",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "web 代码示例",
+        "content": "Command line interface:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2380392160057028
+  }
+]

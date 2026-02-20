@@ -1,0 +1,157 @@
+[
+  {
+    "name": "claude-delegator (jarrodwatts)",
+    "description": "[项目级] Delegate tasks to Codex GPT 5.2 directly from within Claude Code.。来源: https://github.com/jarrodwatts/claude-delegator",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "gpt",
+      "stars-823",
+      "github-jarrodwatts",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Delegate tasks to Codex GPT 5.2 directly from within Claude Code.\n\n来源: https://github.com/jarrodwatts/claude-delegator\n语言: unknown\nStars: 823",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add jarrodwatts/claude-delegator",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nclaude-delegator.png\ncommands\ncommands/setup.md\ncommands/uninstall.md\nconfig\nconfig/mcp-servers.example.json\nconfig/providers.json\nprompts\nprompts/architect.md\nprompts/code-reviewer.md\nprompts/plan-reviewer.md\nprompts/scope-analyst.md\nprompts/security-analyst.md\nrules\nrules/delegation-format.md\nrules/model-selection.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.457699917606135
+  },
+  {
+    "name": "claude-delegator/commands 模块",
+    "description": "[模块级] claude-delegator 项目的 commands 模块 (source)。来源: https://github.com/jarrodwatts/claude-delegator",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "gpt",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "| Command | Description |\n|---------|-------------|\n| `/claude-delegator:setup` | Configure MCP server and install rules |\n| `/claude-delegator:uninstall` | Remove MCP config and rules |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/setup.md\ncommands/uninstall.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.666159934084908
+  },
+  {
+    "name": "claude-delegator/config 模块",
+    "description": "[模块级] claude-delegator 项目的 config 模块 (config)。来源: https://github.com/jarrodwatts/claude-delegator",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "gpt",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/mcp-servers.example.json\n- config/providers.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/mcp-servers.example.json\nconfig/providers.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.666159934084908
+  },
+  {
+    "name": "claude-delegator/prompts 模块",
+    "description": "[模块级] claude-delegator 项目的 prompts 模块 (source)。来源: https://github.com/jarrodwatts/claude-delegator",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "gpt",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "Expert prompts live in `prompts/`. Each follows the same structure:\n- Role definition and context\n- Advisory vs Implementation modes\n- Response format guidelines\n- When to invoke / when NOT to invoke\n\nEdit these to customize expert behavior for your workflow.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/architect.md\nprompts/code-reviewer.md\nprompts/plan-reviewer.md\nprompts/scope-analyst.md\nprompts/security-analyst.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.666159934084908
+  },
+  {
+    "name": "claude-delegator/rules 模块",
+    "description": "[模块级] claude-delegator 项目的 rules 模块 (source)。来源: https://github.com/jarrodwatts/claude-delegator",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "codex",
+      "gpt",
+      "module-level",
+      "source",
+      "rules"
+    ],
+    "genes": [
+      {
+        "title": "rules 模块说明",
+        "content": "模块路径: rules/\n类型: source\n文件数: 4\n\n包含文件:\n- rules/delegation-format.md\n- rules/model-selection.md\n- rules/orchestration.md\n- rules/triggers.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rules 文件结构",
+        "content": "rules/delegation-format.md\nrules/model-selection.md\nrules/orchestration.md\nrules/triggers.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.666159934084908
+  }
+]

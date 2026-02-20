@@ -1,0 +1,103 @@
+[
+  {
+    "name": "promptr (ferrislucas)",
+    "description": "[项目级] Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation.。来源: https://github.com/ferrislucas/promptr",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "cli",
+      "codegen",
+      "coding-assistant",
+      "javascript",
+      "stars-945",
+      "github-ferrislucas",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Promptr is a CLI tool that applies plain language instructions to the filesystem. Instructions can utilize a liquidjs based templating system. Use cases include refactoring, code generation, and experimentation.\n\n来源: https://github.com/ferrislucas/promptr\n语言: JavaScript\nStars: 945",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\nbin\nbin/index.js\nbuild.json\npackage.json\nsrc\nsrc/CliState.js\nsrc/Main.js\nsrc/services\ntest\ntest/AutoContext.test.js\ntest/ExtractOperationsService.test.js\ntest/FileService.test.js\ntest/Main.test.js\ntest/OpenAiGptService.test.js\ntest/PromptContext.test.js\ntest/PromptrService_call.test.js\ntest/PromptrService_executeMode.test.js\ntest/PromptrService_shouldRefactor.test.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "`promptr [options] -p \"your instructions\" <file1> <file2> <file3> ...`\n<br />\n\nI've found this to be a good workflow:\n- Commit any changes, so you have a clean working area.\n- Author your prompt in a file. The prompt should be specific clear instructions. \n- Make sure your prompt contains the relative paths of any files that are relevant to your instructions. \n- Use Promptr to execute your prompt. Provide the path to your prompt file using the `-p` option: \n`promptr -p my_prompt.txt` \n\nPromptr will apply the model's code directly to your files. Use your favorite git UI to inspect the results. ",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.487715904254632
+  },
+  {
+    "name": "promptr/src 模块",
+    "description": "[模块级] promptr 项目的 src 模块 (source)。来源: https://github.com/ferrislucas/promptr",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "cli",
+      "codegen",
+      "coding-assistant",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 13\n\n包含文件:\n- src/CliState.js\n- src/Main.js\n- src/services\n- src/services/AutoContext.js\n- src/services/ConfigService.js\n- src/services/ExtractOperationsService.js\n- src/services/FileService.js\n- src/services/OpenAiGptService.js\n- src/services/PromptContext.js\n- src/services/PromptrService.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/CliState.js\nsrc/Main.js\nsrc/services\nsrc/services/AutoContext.js\nsrc/services/ConfigService.js\nsrc/services/ExtractOperationsService.js\nsrc/services/FileService.js\nsrc/services/OpenAiGptService.js\nsrc/services/PromptContext.js\nsrc/services/PromptrService.js\nsrc/services/RefactorResultProcessor.js\nsrc/services/SystemMessage.js\nsrc/services/TemplateLoader.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6901727234037054
+  },
+  {
+    "name": "promptr/test 模块",
+    "description": "[模块级] promptr 项目的 test 模块 (test)。来源: https://github.com/ferrislucas/promptr",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "cli",
+      "codegen",
+      "coding-assistant",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 12\n\n包含文件:\n- test/AutoContext.test.js\n- test/ExtractOperationsService.test.js\n- test/FileService.test.js\n- test/Main.test.js\n- test/OpenAiGptService.test.js\n- test/PromptContext.test.js\n- test/PromptrService_call.test.js\n- test/PromptrService_executeMode.test.js\n- test/PromptrService_shouldRefactor.test.js\n- test/cliState.test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/AutoContext.test.js\ntest/ExtractOperationsService.test.js\ntest/FileService.test.js\ntest/Main.test.js\ntest/OpenAiGptService.test.js\ntest/PromptContext.test.js\ntest/PromptrService_call.test.js\ntest/PromptrService_executeMode.test.js\ntest/PromptrService_shouldRefactor.test.js\ntest/cliState.test.js\ntest/refactorResultProcessor.test.js\ntest/templateLoader.test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6901727234037054
+  }
+]

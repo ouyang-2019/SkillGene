@@ -1,0 +1,132 @@
+[
+  {
+    "name": "chatgpt-plugin-ts (transitive-bullshit)",
+    "description": "[项目级] Everything you need to start building ChatGPT Plugins in JS/TS 🔥。来源: https://github.com/transitive-bullshit/chatgpt-plugin-ts",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "examples",
+      "openai",
+      "typescript",
+      "stars-539",
+      "github-transitive-bullshit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Everything you need to start building ChatGPT Plugins in JS/TS 🔥\n\n来源: https://github.com/transitive-bullshit/chatgpt-plugin-ts\n语言: TypeScript\nStars: 539",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\nnpm install chatgpt-plugin",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "examples\nexamples/anime-adventure\nexamples/ascii-art\nexamples/dexa-lex-fridman\nexamples/dexa-mfm\nexamples/talk-to-books\nlerna.json\nlicense\nmedia\nmedia/advice-for-youth-opt.jpg\nmedia/elon-musk-philosophy-on-life-opt.jpg\nmedia/love-opt.jpg\nmedia/plugin-ascii-art-demo-opt.jpg\nmedia/poker-and-physics-opt.jpg\nmedia/social.png\npackage.json\npackages\npackages/chatgpt-plugin\npnpm-lock.yaml\npnpm-workspace.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "TS code for all example plugins can be found in the [examples](/examples) directory.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.36579438259337
+  },
+  {
+    "name": "chatgpt-plugin-ts/examples 模块",
+    "description": "[模块级] chatgpt-plugin-ts 项目的 examples 模块 (example)。来源: https://github.com/transitive-bullshit/chatgpt-plugin-ts",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "examples",
+      "openai",
+      "typescript",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 54\n\n包含文件:\n- examples/anime-adventure\n- examples/anime-adventure/.gitignore\n- examples/anime-adventure/package.json\n- examples/anime-adventure/readme.md\n- examples/anime-adventure/src\n- examples/anime-adventure/src/actions.ts\n- examples/anime-adventure/src/index.ts\n- examples/anime-adventure/src/routes.ts\n- examples/anime-adventure/src/sessions.ts\n- examples/anime-adventure/src/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/anime-adventure\nexamples/anime-adventure/.gitignore\nexamples/anime-adventure/package.json\nexamples/anime-adventure/readme.md\nexamples/anime-adventure/src\nexamples/anime-adventure/src/actions.ts\nexamples/anime-adventure/src/index.ts\nexamples/anime-adventure/src/routes.ts\nexamples/anime-adventure/src/sessions.ts\nexamples/anime-adventure/src/types.ts\nexamples/anime-adventure/src/utils.ts\nexamples/anime-adventure/tsconfig.json\nexamples/anime-adventure/wrangler.example.toml\nexamples/ascii-art\nexamples/ascii-art/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5926355060746955
+  },
+  {
+    "name": "chatgpt-plugin-ts/media 模块",
+    "description": "[模块级] chatgpt-plugin-ts 项目的 media 模块 (source)。来源: https://github.com/transitive-bullshit/chatgpt-plugin-ts",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "examples",
+      "openai",
+      "typescript",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 6\n\n包含文件:\n- media/advice-for-youth-opt.jpg\n- media/elon-musk-philosophy-on-life-opt.jpg\n- media/love-opt.jpg\n- media/plugin-ascii-art-demo-opt.jpg\n- media/poker-and-physics-opt.jpg\n- media/social.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/advice-for-youth-opt.jpg\nmedia/elon-musk-philosophy-on-life-opt.jpg\nmedia/love-opt.jpg\nmedia/plugin-ascii-art-demo-opt.jpg\nmedia/poker-and-physics-opt.jpg\nmedia/social.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5926355060746955
+  },
+  {
+    "name": "chatgpt-plugin-ts/packages 模块",
+    "description": "[模块级] chatgpt-plugin-ts 项目的 packages 模块 (source)。来源: https://github.com/transitive-bullshit/chatgpt-plugin-ts",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "chatgpt-plugins",
+      "examples",
+      "openai",
+      "typescript",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 10\n\n包含文件:\n- packages/chatgpt-plugin\n- packages/chatgpt-plugin/package.json\n- packages/chatgpt-plugin/readme.md\n- packages/chatgpt-plugin/src\n- packages/chatgpt-plugin/src/ai-plugin.ts\n- packages/chatgpt-plugin/src/index.ts\n- packages/chatgpt-plugin/src/types.ts\n- packages/chatgpt-plugin/src/utils.ts\n- packages/chatgpt-plugin/tsconfig.json\n- packages/chatgpt-plugin/tsup.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/chatgpt-plugin\npackages/chatgpt-plugin/package.json\npackages/chatgpt-plugin/readme.md\npackages/chatgpt-plugin/src\npackages/chatgpt-plugin/src/ai-plugin.ts\npackages/chatgpt-plugin/src/index.ts\npackages/chatgpt-plugin/src/types.ts\npackages/chatgpt-plugin/src/utils.ts\npackages/chatgpt-plugin/tsconfig.json\npackages/chatgpt-plugin/tsup.config.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5926355060746955
+  }
+]

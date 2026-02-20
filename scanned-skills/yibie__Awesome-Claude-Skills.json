@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Awesome-Claude-Skills (yibie)",
+    "description": "[项目级] Great claude skills of everyone.。来源: https://github.com/yibie/Awesome-Claude-Skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-36",
+      "github-yibie",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Great claude skills of everyone.\n\n来源: https://github.com/yibie/Awesome-Claude-Skills\n语言: unknown\nStars: 36",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.778151250383644
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "ten-framework (TEN-framework)",
+    "description": "[项目级]  Open-source framework for conversational voice AI agents。来源: https://github.com/TEN-framework/ten-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "multi-modal",
+      "real-time",
+      "video",
+      "voice",
+      "python",
+      "stars-10047",
+      "github-ten-framework",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " Open-source framework for conversational voice AI agents\n\n来源: https://github.com/TEN-framework/ten-framework\n语言: Python\nStars: 10047",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BUILD.gn\nCLA.md\nLICENSE\nREADME.md\nTaskfile.yml\nai_agents\nai_agents/.dockerignore\nai_agents/.env.example\nai_agents/AGENTS.md\nai_agents/CLAUDE.md\nai_agents/Dockerfile\nai_agents/LICENSE\nai_agents/Taskfile.yml\nai_agents/agents",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<br>\n\n![Image][voice-assistant-image]\n\n<strong>Multi-Purpose Voice Assistant</strong> — This low-latency, high-quality real-time assistant supports both RTC and [WebSocket][websocket-example] connections, and you can extend it with [Memory][memory-example], [VAD][voice-assistant-vad-example], [Turn Detection][voice-assistant-turn-detection-example], and other extensions.\n\nSee the [Example code][voice-assistant-example] for more details.\n\n<br>\n\n![divider][divider-light]\n![divider][divider-dark]\n\n<br>\n\n\n![Image][doodler-image]\n\n<strong>Doodler</strong> — A doodle board that turns spoken or typed",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ten-framework/ai_agents 模块",
+    "description": "[模块级] ten-framework 项目的 ai_agents 模块 (source)。来源: https://github.com/TEN-framework/ten-framework",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "multi-modal",
+      "real-time",
+      "video",
+      "voice",
+      "module-level",
+      "source",
+      "ai_agents"
+    ],
+    "genes": [
+      {
+        "title": "ai_agents 模块说明",
+        "content": "模块路径: ai_agents/\n类型: source\n文件数: 140\n\n包含文件:\n- ai_agents/.dockerignore\n- ai_agents/.env.example\n- ai_agents/AGENTS.md\n- ai_agents/CLAUDE.md\n- ai_agents/Dockerfile\n- ai_agents/LICENSE\n- ai_agents/Taskfile.yml\n- ai_agents/agents\n- ai_agents/agents/.clang-format\n- ai_agents/agents/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_agents 文件结构",
+        "content": "ai_agents/.dockerignore\nai_agents/.env.example\nai_agents/AGENTS.md\nai_agents/CLAUDE.md\nai_agents/Dockerfile\nai_agents/LICENSE\nai_agents/Taskfile.yml\nai_agents/agents\nai_agents/agents/.clang-format\nai_agents/agents/.gitignore\nai_agents/agents/examples\nai_agents/agents/examples/.gitignore\nai_agents/agents/examples/demo\nai_agents/agents/examples/demo/Dockerfile\nai_agents/agents/examples/demo/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.100814560903812
+  }
+]

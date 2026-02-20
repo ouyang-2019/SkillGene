@@ -1,0 +1,108 @@
+[
+  {
+    "name": "AIaW (NitroRCr)",
+    "description": "[项目级] AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support multiple workspaces, plugin system, cross-platform, local first + real-time cloud sync, Artifacts, MCP | 更好的 AI 客户端。来源: https://github.com/NitroRCr/AIaW",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cross-platform",
+      "docker",
+      "typescript",
+      "stars-1750",
+      "github-nitrorcr",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support multiple workspaces, plugin system, cross-platform, local first + real-time cloud sync, Artifacts, MCP | 更好的 AI 客户端\n\n来源: https://github.com/NitroRCr/AIaW\n语言: TypeScript\nStars: 1750",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\npnpm i\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nREADME.zh-CN.md\nandroid\nandroid/.gitignore\nandroid/app\nandroid/build.gradle\nandroid/capacitor.settings.gradle\nandroid/gradle.properties\nandroid/gradle\nandroid/gradlew\nandroid/gradlew.bat\nandroid/settings.gradle\nandroid/variables.gradle\ncapacitor.config.ts\ndocs\ndocs/.vitepress\ndocs/index.md\ndocs/privacy-policy",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Support for MCP Tools, Prompts, Resources\n- STDIO and HTTP connection methods\n- Install MCP-type plugins from the plugin marketplace or manually add MCP servers",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.621519024343147
+  },
+  {
+    "name": "AIaW/android 模块",
+    "description": "[模块级] AIaW 项目的 android 模块 (source)。来源: https://github.com/NitroRCr/AIaW",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cross-platform",
+      "docker",
+      "module-level",
+      "source",
+      "android"
+    ],
+    "genes": [
+      {
+        "title": "android 模块说明",
+        "content": "模块路径: android/\n类型: source\n文件数: 134\n\n包含文件:\n- android/.gitignore\n- android/app\n- android/app/.gitignore\n- android/app/build.gradle\n- android/app/capacitor.build.gradle\n- android/app/proguard-rules.pro\n- android/app/src\n- android/app/src/androidTest\n- android/app/src/androidTest/java\n- android/app/src/androidTest/java/com",
+        "gene_type": "principle"
+      },
+      {
+        "title": "android 文件结构",
+        "content": "android/.gitignore\nandroid/app\nandroid/app/.gitignore\nandroid/app/build.gradle\nandroid/app/capacitor.build.gradle\nandroid/app/proguard-rules.pro\nandroid/app/src\nandroid/app/src/androidTest\nandroid/app/src/androidTest/java\nandroid/app/src/androidTest/java/com\nandroid/app/src/androidTest/java/com/getcapacitor\nandroid/app/src/androidTest/java/com/getcapacitor/myapp\nandroid/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java\nandroid/app/src/main\nandroid/app/src/main/AndroidManifest.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.797215219474518
+  },
+  {
+    "name": "AIaW/docs 模块",
+    "description": "[模块级] AIaW 项目的 docs 模块 (docs)。来源: https://github.com/NitroRCr/AIaW",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "claude",
+      "cross-platform",
+      "docker",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "- Support for MCP Tools, Prompts, Resources\n- STDIO and HTTP connection methods\n- Install MCP-type plugins from the plugin marketplace or manually add MCP servers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.vitepress\ndocs/.vitepress/config.ts\ndocs/.vitepress/theme\ndocs/.vitepress/theme/custom.css\ndocs/.vitepress/theme/index.ts\ndocs/index.md\ndocs/privacy-policy\ndocs/privacy-policy/index.md\ndocs/public\ndocs/public/combine.en.webp\ndocs/public/combine.webp\ndocs/public/icon-256x256.png\ndocs/public/lighthouse_score_desktop.png\ndocs/public/lighthouse_score_mobile.png\ndocs/public/plugin-market.en.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.797215219474518
+  }
+]

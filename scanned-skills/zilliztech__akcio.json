@@ -1,0 +1,153 @@
+[
+  {
+    "name": "akcio (zilliztech)",
+    "description": "[项目级] Akcio is a demonstration project for Retrieval Augmented Generation (RAG). It leverages the power of LLM to generate responses and uses vector databases to fetch relevant documents to enhance the quality and relevance of the output.。来源: https://github.com/zilliztech/akcio",
+    "domain": "backend",
+    "tags": [
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "dolly",
+      "embeddings",
+      "python",
+      "stars-259",
+      "github-zilliztech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<p align=\"center\" width=\"100%\">\n    <img width=\"60%\" src=\"./pics/architecture.png\">\n</p>\n\nAkcio allows you to create a ChatGPT-like system with added intelligence obtained through semantic search of customized knowledge base.\nInstead of sending the user query directly to LLM service, our system firstly retrieves relevant information from stores by semantic search or keyword match. Then it feeds both user needs and helpful information into LLM. This allows LLM to better tailor its response to the user's needs and provide more accurate and helpful information.\n\nYou can find more details and instructions at our [documentation](https://github.com/zilliztech/akcio/wiki).\n\nAkcio offers two AI platforms to choose from: [Towhee](https://towhee.io) or [LangChain](https://langchain.com).\nIt also sup",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Contributing.md\nLICENSE\nOWNERS\nREADME.md\nconfig.py\ndocker\ndocker/Dockerfile\ngradio_demo.py\nmain.py\nmoniter.py\noffline_tools\noffline_tools/README.md\noffline_tools/generator_questions\noffline_tools/insert.py\noffline_tools/utils\npics\npics/architecture.png\npics/fastapi.png\npics/osschat.png\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.206649882040626
+  },
+  {
+    "name": "akcio/offline_tools 模块",
+    "description": "[模块级] akcio 项目的 offline_tools 模块 (source)。来源: https://github.com/zilliztech/akcio",
+    "domain": "backend",
+    "tags": [
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "dolly",
+      "embeddings",
+      "module-level",
+      "source",
+      "offline_tools"
+    ],
+    "genes": [
+      {
+        "title": "offline_tools 模块说明",
+        "content": "模块路径: offline_tools/\n类型: source\n文件数: 8\n\n包含文件:\n- offline_tools/README.md\n- offline_tools/generator_questions\n- offline_tools/generator_questions/__init__.py\n- offline_tools/generator_questions/question_generator.py\n- offline_tools/insert.py\n- offline_tools/utils\n- offline_tools/utils/load_npy.py\n- offline_tools/utils/stackoverflow_json2csv.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "offline_tools 文件结构",
+        "content": "offline_tools/README.md\noffline_tools/generator_questions\noffline_tools/generator_questions/__init__.py\noffline_tools/generator_questions/question_generator.py\noffline_tools/insert.py\noffline_tools/utils\noffline_tools/utils/load_npy.py\noffline_tools/utils/stackoverflow_json2csv.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4653199056325006
+  },
+  {
+    "name": "akcio/pics 模块",
+    "description": "[模块级] akcio 项目的 pics 模块 (source)。来源: https://github.com/zilliztech/akcio",
+    "domain": "backend",
+    "tags": [
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "dolly",
+      "embeddings",
+      "module-level",
+      "source",
+      "pics"
+    ],
+    "genes": [
+      {
+        "title": "pics 模块说明",
+        "content": "模块路径: pics/\n类型: source\n文件数: 3\n\n包含文件:\n- pics/architecture.png\n- pics/fastapi.png\n- pics/osschat.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pics 文件结构",
+        "content": "pics/architecture.png\npics/fastapi.png\npics/osschat.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4653199056325006
+  },
+  {
+    "name": "akcio/src 模块",
+    "description": "[模块级] akcio 项目的 src 模块 (source)。来源: https://github.com/zilliztech/akcio",
+    "domain": "backend",
+    "tags": [
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "dolly",
+      "embeddings",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 63\n\n包含文件:\n- src/__init__.py\n- src/langchain\n- src/langchain/__init__.py\n- src/langchain/agent\n- src/langchain/agent/README.md\n- src/langchain/agent/__init__.py\n- src/langchain/agent/chat_agent.py\n- src/langchain/agent/output_parser.py\n- src/langchain/agent/prompt.py\n- src/langchain/data_loader",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/langchain\nsrc/langchain/__init__.py\nsrc/langchain/agent\nsrc/langchain/agent/README.md\nsrc/langchain/agent/__init__.py\nsrc/langchain/agent/chat_agent.py\nsrc/langchain/agent/output_parser.py\nsrc/langchain/agent/prompt.py\nsrc/langchain/data_loader\nsrc/langchain/data_loader/README.md\nsrc/langchain/data_loader/__init__.py\nsrc/langchain/data_loader/data_parser.py\nsrc/langchain/data_loader/data_splitter.py\nsrc/langchain/embedding",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4653199056325006
+  },
+  {
+    "name": "akcio/tests 模块",
+    "description": "[模块级] akcio 项目的 tests 模块 (test)。来源: https://github.com/zilliztech/akcio",
+    "domain": "testing",
+    "tags": [
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "dolly",
+      "embeddings",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 35\n\n包含文件:\n- tests/__init__.py\n- tests/requirements.txt\n- tests/unit_tests\n- tests/unit_tests/__init__.py\n- tests/unit_tests/src\n- tests/unit_tests/src/__init__.py\n- tests/unit_tests/src/langchain\n- tests/unit_tests/src/langchain/__init__.py\n- tests/unit_tests/src/langchain/agent\n- tests/unit_tests/src/langchain/agent/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/requirements.txt\ntests/unit_tests\ntests/unit_tests/__init__.py\ntests/unit_tests/src\ntests/unit_tests/src/__init__.py\ntests/unit_tests/src/langchain\ntests/unit_tests/src/langchain/__init__.py\ntests/unit_tests/src/langchain/agent\ntests/unit_tests/src/langchain/agent/__init__.py\ntests/unit_tests/src/langchain/agent/test_agent.py\ntests/unit_tests/src/langchain/agent/test_output_parser.py\ntests/unit_tests/src/langchain/data_loader\ntests/unit_tests/src/langchain/data_loader/__init__.py\ntests/unit_tests/src/langchain/data_loader/test_data_parser.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4653199056325006
+  }
+]

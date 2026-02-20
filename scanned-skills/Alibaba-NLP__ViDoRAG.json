@@ -1,0 +1,206 @@
+[
+  {
+    "name": "ViDoRAG (Alibaba-NLP)",
+    "description": "[项目级] [EMNLP 2025] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- We introduce **ViDoSeek**, a benchmark specifically designed for visually rich document retrieval-reason-answer, fully suited for evaluation of RAG within large document corpus.\n- We propose **ViDoRAG**, a novel RAG framework that utilizes a multi-agent, actor-critic paradigm for iterative reasoning, enhancing the noise robustness of generation models. \n- We introduce a GMM-based multi-modal hybrid retrieval strategy to effectively integrate visual and textual pipelines.\n- Extensive experiments demonstrate the effectiveness of our method. ViDoRAG significantly outperforms strong baselines, achieving over 10% improvement, thus establishing a new state-of-the-art on ViDoSeek.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Or you can use `uv` to install the dependencies:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagent\nagent/agent_prompt.py\nagent/map_dict.py\nassets\nassets/dataset.jpg\nassets/pipeline.jpg\ndata\ndata/ExampleDataset\neval.py\ningestion.py\nllms\nllms/__init__.py\nllms/evaluator.py\nllms/llm.py\nllms/vl_embedding.py\npyproject.toml\nrequirements.txt\nscripts\nscripts/ViDoSeek_down.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.399670274726791
+  },
+  {
+    "name": "ViDoRAG/agent 模块",
+    "description": "[模块级] ViDoRAG 项目的 agent 模块 (source)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "<div align=\"center\">\n<a href='https://huggingface.co/datasets/autumncc/ViDoSeek'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-green'></a>\n<a href='https://arxiv.org/abs/2502.18017'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>\n</div>\n\n<!-- <p align=\"center\">•\n <a href=\"#-Overview\"> 🚀Overview </a> •\n <a href=\"#-visrag-pipeline\">✨ VisRAG Pipeline</a> •\n <a href=\"#%EF%B8%8F-setup\">⚙️ Setup</a> •\n <a href=\"#%EF%B8%8F-training\">⚡️ Training</a> \n</p> --",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/agent_prompt.py\nagent/map_dict.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  },
+  {
+    "name": "ViDoRAG/assets 模块",
+    "description": "[模块级] ViDoRAG 项目的 assets 模块 (source)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/dataset.jpg\n- assets/pipeline.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/dataset.jpg\nassets/pipeline.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  },
+  {
+    "name": "ViDoRAG/data 模块",
+    "description": "[模块级] ViDoRAG 项目的 data 模块 (source)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "We release our ViDoSeek dataset which designed for visually rich document retrieval-reason-answer. In ViDoSeek, each query has a unique answer and specific reference pages.\n\nThe provided JSON structure includes a unique identifier (uid) to distinguish queries, the query content (query), a reference answer (reference_answer), and metadata (meta_info) containing the original file name (file_name), reference page numbers (reference_page), data source type (source_type), and query type (query_type):",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/ExampleDataset\ndata/ExampleDataset/bge_ingestion\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_1.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_10.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_11.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_12.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_13.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_14.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_15.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_16.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_17.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_18.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_19.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_2.node\ndata/ExampleDataset/bge_ingestion/00a76e3a9a36255616e2dc14a6eb5dde598b321f_20.node",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "data 代码示例",
+        "content": "{\n    \"uid\": \"04d8bb0db929110f204723c56e5386c1d8d21587_2\",\n    \"query\": \"What is the temperature of Steam explosion of Pretreatment for Switchgrass and Sugarcane bagasse preparation?\", \n    \"reference_answer\": \"195-205 Centigrade\", \n    \"meta_info\": {\n        \"file_name\": \"Pretreatment_of_Switchgrass.pdf\", \n        \"reference_page\": [10, 11], \n        \"source_type\": \"Text\", \n        \"query_type\": \"Multi-Hop\" \n    }\n}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  },
+  {
+    "name": "ViDoRAG/llms 模块",
+    "description": "[模块级] ViDoRAG 项目的 llms 模块 (source)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "source",
+      "llms"
+    ],
+    "genes": [
+      {
+        "title": "llms 模块说明",
+        "content": "模块路径: llms/\n类型: source\n文件数: 4\n\n包含文件:\n- llms/__init__.py\n- llms/evaluator.py\n- llms/llm.py\n- llms/vl_embedding.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llms 文件结构",
+        "content": "llms/__init__.py\nllms/evaluator.py\nllms/llm.py\nllms/vl_embedding.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  },
+  {
+    "name": "ViDoRAG/scripts 模块",
+    "description": "[模块级] ViDoRAG 项目的 scripts 模块 (script)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/ViDoSeek_down.sh\n- scripts/ocr_triditional.py\n- scripts/ocr_vlms.py\n- scripts/pdf2images.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/ViDoSeek_down.sh\nscripts/ocr_triditional.py\nscripts/ocr_vlms.py\nscripts/pdf2images.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  },
+  {
+    "name": "ViDoRAG/utils 模块",
+    "description": "[模块级] ViDoRAG 项目的 utils 模块 (source)。来源: https://github.com/Alibaba-NLP/ViDoRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-630",
+      "github-alibaba-nlp",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 5\n\n包含文件:\n- utils/__init__.py\n- utils/format_converter.py\n- utils/image_preprosser.py\n- utils/overall_evaluator.py\n- utils/parse_tool.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/format_converter.py\nutils/image_preprosser.py\nutils/overall_evaluator.py\nutils/parse_tool.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6197362197814327
+  }
+]

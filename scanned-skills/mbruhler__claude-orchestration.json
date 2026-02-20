@@ -1,0 +1,231 @@
+[
+  {
+    "name": "claude-orchestration (mbruhler)",
+    "description": "[项目级] Multi-agent workflow orchestration plugin for Claude Code。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-agent workflow orchestration plugin for Claude Code\n\n来源: https://github.com/mbruhler/claude-orchestration\n语言: unknown\nStars: 197",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/registry.json\nagents/workflow-socratic-designer.md\nagents/workflow-syntax-designer.md\ncommands\ncommands/create.md\ncommands/examples.md\ncommands/explain.md\ncommands/help.md\ncommands/init.md\ncommands/menu.md\ncommands/orchestrate.md\ncommands/run.md\ncommands/template.md\ndocs\ndocs/core\ndocs/features\ndocs/plans",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.147233113080796
+  },
+  {
+    "name": "claude-orchestration/agents 模块",
+    "description": "[模块级] claude-orchestration 项目的 agents 模块 (source)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/registry.json\nagents/workflow-socratic-designer.md\nagents/workflow-syntax-designer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/commands 模块",
+    "description": "[模块级] claude-orchestration 项目的 commands 模块 (source)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 9\n\n包含文件:\n- commands/create.md\n- commands/examples.md\n- commands/explain.md\n- commands/help.md\n- commands/init.md\n- commands/menu.md\n- commands/orchestrate.md\n- commands/run.md\n- commands/template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/create.md\ncommands/examples.md\ncommands/explain.md\ncommands/help.md\ncommands/init.md\ncommands/menu.md\ncommands/orchestrate.md\ncommands/run.md\ncommands/template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/docs 模块",
+    "description": "[模块级] claude-orchestration 项目的 docs 模块 (docs)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "documentation",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 35\n\n包含文件:\n- docs/core\n- docs/core/executor.md\n- docs/core/parser.md\n- docs/core/steering.md\n- docs/core/visualizer.md\n- docs/features\n- docs/features/agent-promotion.md\n- docs/features/custom-definitions.md\n- docs/features/defined-agents.md\n- docs/features/error-handling.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/core\ndocs/core/executor.md\ndocs/core/parser.md\ndocs/core/steering.md\ndocs/core/visualizer.md\ndocs/features\ndocs/features/agent-promotion.md\ndocs/features/custom-definitions.md\ndocs/features/defined-agents.md\ndocs/features/error-handling.md\ndocs/features/natural-language.md\ndocs/features/templates.md\ndocs/features/temporary-agents.md\ndocs/plans\ndocs/plans/2025-01-08-agent-system-design.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/examples 模块",
+    "description": "[模块级] claude-orchestration 项目的 examples 模块 (example)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 19\n\n包含文件:\n- examples/MARKETING-CAMPAIGN-GUIDE.md\n- examples/README.md\n- examples/agent-system-demo.flow\n- examples/ai-automation-outreach.flow\n- examples/debug-and-fix.flow\n- examples/fix-context-references.flow\n- examples/i18n-fix-hardcoded-strings-enhanced.flow\n- examples/i18n-fix-hardcoded-strings.flow\n- examples/news-data-merge.flow\n- examples/plugin-testing.flow",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/MARKETING-CAMPAIGN-GUIDE.md\nexamples/README.md\nexamples/agent-system-demo.flow\nexamples/ai-automation-outreach.flow\nexamples/debug-and-fix.flow\nexamples/fix-context-references.flow\nexamples/i18n-fix-hardcoded-strings-enhanced.flow\nexamples/i18n-fix-hardcoded-strings.flow\nexamples/news-data-merge.flow\nexamples/plugin-testing.flow\nexamples/polish-news-aggregation.flow\nexamples/reddit-startup-analyzer.flow\nexamples/tdd-implementation.flow\nexamples/temp-agents-parallel-analysis.md\nexamples/temp-agents-security-scan.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/library 模块",
+    "description": "[模块级] claude-orchestration 项目的 library 模块 (source)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "source",
+      "library"
+    ],
+    "genes": [
+      {
+        "title": "library 模块说明",
+        "content": "模块路径: library/\n类型: source\n文件数: 27\n\n包含文件:\n- library/syntax\n- library/syntax/actions\n- library/syntax/actions/README.md\n- library/syntax/actions/find-jsx-strings.md\n- library/syntax/actions/generate-i18n-key.md\n- library/syntax/actions/plugin-deep-explore.md\n- library/syntax/actions/update-translation-files.md\n- library/syntax/aggregators\n- library/syntax/aggregators/README.md\n- library/syntax/checkpoints",
+        "gene_type": "principle"
+      },
+      {
+        "title": "library 文件结构",
+        "content": "library/syntax\nlibrary/syntax/actions\nlibrary/syntax/actions/README.md\nlibrary/syntax/actions/find-jsx-strings.md\nlibrary/syntax/actions/generate-i18n-key.md\nlibrary/syntax/actions/plugin-deep-explore.md\nlibrary/syntax/actions/update-translation-files.md\nlibrary/syntax/aggregators\nlibrary/syntax/aggregators/README.md\nlibrary/syntax/checkpoints\nlibrary/syntax/checkpoints/README.md\nlibrary/syntax/checkpoints/security-gate.md\nlibrary/syntax/conditions\nlibrary/syntax/conditions/README.md\nlibrary/syntax/conditions/critical-issues.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/skills 模块",
+    "description": "[模块级] claude-orchestration 项目的 skills 模块 (source)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 37\n\n包含文件:\n- skills/creating-workflows-from-description\n- skills/creating-workflows-from-description/SKILL.md\n- skills/creating-workflows\n- skills/creating-workflows/SKILL.md\n- skills/creating-workflows/custom-syntax.md\n- skills/creating-workflows/examples.md\n- skills/creating-workflows/patterns.md\n- skills/creating-workflows/socratic-method.md\n- skills/creating-workflows/temp-agents.md\n- skills/debugging-workflows",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/creating-workflows-from-description\nskills/creating-workflows-from-description/SKILL.md\nskills/creating-workflows\nskills/creating-workflows/SKILL.md\nskills/creating-workflows/custom-syntax.md\nskills/creating-workflows/examples.md\nskills/creating-workflows/patterns.md\nskills/creating-workflows/socratic-method.md\nskills/creating-workflows/temp-agents.md\nskills/debugging-workflows\nskills/debugging-workflows/SKILL.md\nskills/designing-syntax\nskills/designing-syntax/SKILL.md\nskills/executing-workflows\nskills/executing-workflows/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  },
+  {
+    "name": "claude-orchestration/tests 模块",
+    "description": "[模块级] claude-orchestration 项目的 tests 模块 (test)。来源: https://github.com/mbruhler/claude-orchestration",
+    "domain": "testing",
+    "tags": [
+      "stars-197",
+      "github-mbruhler",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/TESTING.md\n- tests/workflows\n- tests/workflows/test-nl-deployment.md\n- tests/workflows/test-nl-security-audit.md\n- tests/workflows/test-nl-simple-tdd.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/TESTING.md\ntests/workflows\ntests/workflows/test-nl-deployment.md\ntests/workflows/test-nl-security-audit.md\ntests/workflows/test-nl-simple-tdd.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4177864904646373
+  }
+]

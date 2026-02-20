@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Knowledge-Base (Open-Prompting)",
+    "description": "[项目级] Открытая база знаний о нейросетях。来源: https://github.com/Open-Prompting/Knowledge-Base",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "bard-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "stars-58",
+      "github-open-prompting",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Открытая база знаний о нейросетях\n\n来源: https://github.com/Open-Prompting/Knowledge-Base\n语言: unknown\nStars: 58",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "content\ncontent/articles\ncontent/readme.md\ncontent/recipes\ncontent/shared-media\nlicence.md\nreadme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8817139967814684
+  },
+  {
+    "name": "Knowledge-Base/content 模块",
+    "description": "[模块级] Knowledge-Base 项目的 content 模块 (source)。来源: https://github.com/Open-Prompting/Knowledge-Base",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "bard-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "content"
+    ],
+    "genes": [
+      {
+        "title": "content 模块说明",
+        "content": "模块路径: content/\n类型: source\n文件数: 73\n\n包含文件:\n- content/articles\n- content/articles/contributing\n- content/articles/contributing/readme.md\n- content/articles/policy\n- content/articles/policy/readme.md\n- content/articles/pull-request\n- content/articles/pull-request/readme.md\n- content/articles/readme.md\n- content/articles/ruchatgpt\n- content/articles/ruchatgpt/readme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "content 文件结构",
+        "content": "content/articles\ncontent/articles/contributing\ncontent/articles/contributing/readme.md\ncontent/articles/policy\ncontent/articles/policy/readme.md\ncontent/articles/pull-request\ncontent/articles/pull-request/readme.md\ncontent/articles/readme.md\ncontent/articles/ruchatgpt\ncontent/articles/ruchatgpt/readme.md\ncontent/readme.md\ncontent/recipes\ncontent/recipes/article-annotation\ncontent/recipes/article-annotation/media\ncontent/recipes/article-annotation/media/article-annotation-light.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.205371197425175
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "anything-llm (Mintplex-Labs)",
+    "description": "[项目级] The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.。来源: https://github.com/Mintplex-Labs/anything-llm",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "custom-ai-agents",
+      "deepseek",
+      "kimi",
+      "llama3",
+      "javascript",
+      "stars-54772",
+      "github-mintplex-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AnythingLLM is a full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.\n\nAnythingLLM divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- `yarn setup` To fill in the required `.env` files you'll need in each of the application sections (from root of repo).\n  - Go fill those out before proceeding. Ensure `server/.env.development` is filled or else things won't work right.\n- `yarn dev:server` To boot the server locally (from root of repo).\n- `yarn dev:frontend` To boot the frontend locally (from root of repo).\n- `yarn dev:collector` To then run the document collector (from root of repo).\n\n[Learn about documents](./server/storage/documents/DOCUMENTS.md)\n\n[Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BARE_METAL.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nbrowser-extension\ncloud-deployments\ncloud-deployments/aws\ncloud-deployments/digitalocean\ncloud-deployments/gcp\ncloud-deployments/helm\ncloud-deployments/huggingface-spaces\ncloud-deployments/k8\ncollector\ncollector/.env.example\ncollector/.gitignore\ncollector/.nvmrc\ncollector/__tests__\ncollector/extensions\ncollector/hotdir",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- `yarn setup` To fill in the required `.env` files you'll need in each of the application sections (from root of repo).\n  - Go fill those out before proceeding. Ensure `server/.env.development` is filled or else things won't work right.\n- `yarn dev:server` To boot the server locally (from root of repo).\n- `yarn dev:frontend` To boot the frontend locally (from root of repo).\n- `yarn dev:collector` To then run the document collector (from root of repo).\n\n[Learn about documents](./server/storage/documents/DOCUMENTS.md)\n\n[Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🆕 [**Full MCP-compatibility**](https://docs.anythingllm.com/mcp-compatibility/overview)\n- 🆕 [**No-code AI Agent builder**](https://docs.anythingllm.com/agent-flows/overview)\n- 🖼️ **Multi-modal support (both closed and open-source LLMs!)**\n- [**Custom AI Agents**](https://docs.anythingllm.com/agent/custom/introduction)\n- 👤 Multi-user instance support and permissioning _Docker version only_\n- 🦾 Agents inside your workspace (browse the web, etc)\n- 💬 [Custom Embeddable Chat widget for your website](https://github.com/Mintplex-Labs/anythingllm-embed/blob/main/README.md) _Docker version only",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "anything-llm/cloud-deployments 模块",
+    "description": "[模块级] anything-llm 项目的 cloud-deployments 模块 (source)。来源: https://github.com/Mintplex-Labs/anything-llm",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "custom-ai-agents",
+      "deepseek",
+      "kimi",
+      "llama3",
+      "module-level",
+      "source",
+      "cloud-deployments"
+    ],
+    "genes": [
+      {
+        "title": "cloud-deployments 模块说明",
+        "content": "模块路径: cloud-deployments/\n类型: source\n文件数: 39\n\n包含文件:\n- cloud-deployments/aws\n- cloud-deployments/aws/cloudformation\n- cloud-deployments/aws/cloudformation/DEPLOY.md\n- cloud-deployments/aws/cloudformation/aws_https_instructions.md\n- cloud-deployments/aws/cloudformation/cloudformation_create_anythingllm.json\n- cloud-deployments/digitalocean\n- cloud-deployments/digitalocean/terraform\n- cloud-deployments/digitalocean/terraform/DEPLOY.md\n- cloud-deployments/digitalocean/terraform/main.tf\n- cloud-deployments/digitalocean/terraform/outputs.tf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cloud-deployments 文件结构",
+        "content": "cloud-deployments/aws\ncloud-deployments/aws/cloudformation\ncloud-deployments/aws/cloudformation/DEPLOY.md\ncloud-deployments/aws/cloudformation/aws_https_instructions.md\ncloud-deployments/aws/cloudformation/cloudformation_create_anythingllm.json\ncloud-deployments/digitalocean\ncloud-deployments/digitalocean/terraform\ncloud-deployments/digitalocean/terraform/DEPLOY.md\ncloud-deployments/digitalocean/terraform/main.tf\ncloud-deployments/digitalocean/terraform/outputs.tf\ncloud-deployments/digitalocean/terraform/user_data.tp1\ncloud-deployments/gcp\ncloud-deployments/gcp/deployment\ncloud-deployments/gcp/deployment/DEPLOY.md\ncloud-deployments/gcp/deployment/gcp_deploy_anything_llm.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3954234397938645
+  },
+  {
+    "name": "anything-llm/collector 模块",
+    "description": "[模块级] anything-llm 项目的 collector 模块 (source)。来源: https://github.com/Mintplex-Labs/anything-llm",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "custom-ai-agents",
+      "deepseek",
+      "kimi",
+      "llama3",
+      "module-level",
+      "source",
+      "collector"
+    ],
+    "genes": [
+      {
+        "title": "collector 模块说明",
+        "content": "模块路径: collector/\n类型: source\n文件数: 113\n\n包含文件:\n- collector/.env.example\n- collector/.gitignore\n- collector/.nvmrc\n- collector/__tests__\n- collector/__tests__/utils\n- collector/__tests__/utils/WhisperProviders\n- collector/__tests__/utils/WhisperProviders/ffmpeg\n- collector/__tests__/utils/WhisperProviders/ffmpeg/index.test.js\n- collector/__tests__/utils/url\n- collector/__tests__/utils/url/index.test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "collector 文件结构",
+        "content": "collector/.env.example\ncollector/.gitignore\ncollector/.nvmrc\ncollector/__tests__\ncollector/__tests__/utils\ncollector/__tests__/utils/WhisperProviders\ncollector/__tests__/utils/WhisperProviders/ffmpeg\ncollector/__tests__/utils/WhisperProviders/ffmpeg/index.test.js\ncollector/__tests__/utils/url\ncollector/__tests__/utils/url/index.test.js\ncollector/extensions\ncollector/extensions/index.js\ncollector/extensions/resync\ncollector/extensions/resync/index.js\ncollector/hotdir",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3954234397938645
+  },
+  {
+    "name": "anything-llm/docker 模块",
+    "description": "[模块级] anything-llm 项目的 docker 模块 (source)。来源: https://github.com/Mintplex-Labs/anything-llm",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "custom-ai-agents",
+      "deepseek",
+      "kimi",
+      "llama3",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 6\n\n包含文件:\n- docker/.env.example\n- docker/Dockerfile\n- docker/HOW_TO_USE_DOCKER.md\n- docker/docker-compose.yml\n- docker/docker-entrypoint.sh\n- docker/docker-healthcheck.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env.example\ndocker/Dockerfile\ndocker/HOW_TO_USE_DOCKER.md\ndocker/docker-compose.yml\ndocker/docker-entrypoint.sh\ndocker/docker-healthcheck.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3954234397938645
+  }
+]

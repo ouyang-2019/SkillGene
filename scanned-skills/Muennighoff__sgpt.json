@@ -1,0 +1,63 @@
+[
+  {
+    "name": "sgpt (Muennighoff)",
+    "description": "[项目级] SGPT: GPT Sentence Embeddings for Semantic Search。来源: https://github.com/Muennighoff/sgpt",
+    "domain": "general",
+    "tags": [
+      "gpt",
+      "information-retrieval",
+      "language-model",
+      "large-language-models",
+      "neural-search",
+      "jupyter notebook",
+      "stars-873",
+      "github-muennighoff",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "We present SGPT-BE and SGPT-CE for applying GPT models as Bi-Encoders or Cross-Encoders to symmetric or asymmetric search. SGPT-BE produces semantically meaningful sentence embeddings by contrastive fine-tuning of only bias tensors and position-weighted mean pooling. SGPT-CE uses log probabilities from GPT models without any fine-tuning. An illustration of the methods follows.\n\n![](other/sgpt_graphic.png)\n\nFeel free to open an issue should you have any questions~",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.bib\nLICENSE\nREADME.md\nbiencoder\nbiencoder/beir\nbiencoder/nli_msmarco",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.470507121852785
+  },
+  {
+    "name": "sgpt/biencoder 模块",
+    "description": "[模块级] sgpt 项目的 biencoder 模块 (source)。来源: https://github.com/Muennighoff/sgpt",
+    "domain": "general",
+    "tags": [
+      "gpt",
+      "information-retrieval",
+      "language-model",
+      "large-language-models",
+      "neural-search",
+      "module-level",
+      "source",
+      "biencoder"
+    ],
+    "genes": [
+      {
+        "title": "biencoder 模块说明",
+        "content": "模块路径: biencoder/\n类型: source\n文件数: 195\n\n包含文件:\n- biencoder/beir\n- biencoder/beir/.gitignore\n- biencoder/beir/README.md\n- biencoder/beir/beir_dense_retriever.py\n- biencoder/beir/beir_openai_embeddings_batched_parallel.py\n- biencoder/beir/custommodels\n- biencoder/beir/custommodels/__init__.py\n- biencoder/beir/custommodels/exact_search.py\n- biencoder/beir/custommodels/sentence_bert_asym.py\n- biencoder/beir/io_utils",
+        "gene_type": "principle"
+      },
+      {
+        "title": "biencoder 文件结构",
+        "content": "biencoder/beir\nbiencoder/beir/.gitignore\nbiencoder/beir/README.md\nbiencoder/beir/beir_dense_retriever.py\nbiencoder/beir/beir_openai_embeddings_batched_parallel.py\nbiencoder/beir/custommodels\nbiencoder/beir/custommodels/__init__.py\nbiencoder/beir/custommodels/exact_search.py\nbiencoder/beir/custommodels/sentence_bert_asym.py\nbiencoder/beir/io_utils\nbiencoder/beir/io_utils/README.md\nbiencoder/beir/io_utils/__init__.py\nbiencoder/beir/io_utils/plugin_io_utils.py\nbiencoder/beir/parallelizer\nbiencoder/beir/parallelizer/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.676405697482228
+  }
+]

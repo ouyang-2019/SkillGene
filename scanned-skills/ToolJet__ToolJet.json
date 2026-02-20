@@ -1,0 +1,103 @@
+[
+  {
+    "name": "ToolJet (ToolJet)",
+    "description": "[项目级] ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀。来源: https://github.com/ToolJet/ToolJet",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-app-builder",
+      "docker",
+      "hacktoberfest",
+      "internal-applications",
+      "internal-project",
+      "javascript",
+      "stars-37448",
+      "github-tooljet",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀\n\n来源: https://github.com/ToolJet/ToolJet\n语言: JavaScript\nStars: 37448",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\ncli\ncli/.eslintrc.js\ncli/.gitignore\ncli/README.md\ncli/bin\ncli/package-lock.json\ncli/package.json\ncli/src\ncli/tsconfig.json\ncypress-tests\ncypress-tests/.gitignore\ncypress-tests/cypress-app-builder.config.js\ncypress-tests/cypress-ee-platform.config.js\ncypress-tests/cypress-marketplace.config.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Time Tracker Application](https://docs.tooljet.com/docs/#quickstart-guide)<br>\n[Build your own CMS using low-code](https://blog.tooljet.com/build-cms-using-lowcode-and-mongodb/)<br>\n[AWS S3 Browser](https://blog.tooljet.com/build-an-aws-s3-broswer-with-tooljet/)<br>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ToolJet/cli 模块",
+    "description": "[模块级] ToolJet 项目的 cli 模块 (source)。来源: https://github.com/ToolJet/ToolJet",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-app-builder",
+      "docker",
+      "hacktoberfest",
+      "internal-applications",
+      "internal-project",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 18\n\n包含文件:\n- cli/.eslintrc.js\n- cli/.gitignore\n- cli/README.md\n- cli/bin\n- cli/bin/dev\n- cli/bin/dev.cmd\n- cli/bin/run\n- cli/bin/run.cmd\n- cli/package-lock.json\n- cli/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/.eslintrc.js\ncli/.gitignore\ncli/README.md\ncli/bin\ncli/bin/dev\ncli/bin/dev.cmd\ncli/bin/run\ncli/bin/run.cmd\ncli/package-lock.json\ncli/package.json\ncli/src\ncli/src/commands\ncli/src/commands/info.ts\ncli/src/commands/plugin\ncli/src/commands/plugin/create.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.329371451247754
+  },
+  {
+    "name": "ToolJet/cypress-tests 模块",
+    "description": "[模块级] ToolJet 项目的 cypress-tests 模块 (source)。来源: https://github.com/ToolJet/ToolJet",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-app-builder",
+      "docker",
+      "hacktoberfest",
+      "internal-applications",
+      "internal-project",
+      "module-level",
+      "source",
+      "cypress-tests"
+    ],
+    "genes": [
+      {
+        "title": "cypress-tests 模块说明",
+        "content": "模块路径: cypress-tests/\n类型: source\n文件数: 119\n\n包含文件:\n- cypress-tests/.gitignore\n- cypress-tests/cypress-app-builder.config.js\n- cypress-tests/cypress-ee-platform.config.js\n- cypress-tests/cypress-marketplace.config.js\n- cypress-tests/cypress-platform.config.js\n- cypress-tests/cypress-run.config.js\n- cypress-tests/cypress.Dockerfile\n- cypress-tests/cypress.config.js\n- cypress-tests/cypress.env.example\n- cypress-tests/cypress",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cypress-tests 文件结构",
+        "content": "cypress-tests/.gitignore\ncypress-tests/cypress-app-builder.config.js\ncypress-tests/cypress-ee-platform.config.js\ncypress-tests/cypress-marketplace.config.js\ncypress-tests/cypress-platform.config.js\ncypress-tests/cypress-run.config.js\ncypress-tests/cypress.Dockerfile\ncypress-tests/cypress.config.js\ncypress-tests/cypress.env.example\ncypress-tests/cypress\ncypress-tests/cypress/commands\ncypress-tests/cypress/commands/apiCommands.js\ncypress-tests/cypress/commands/commands.js\ncypress-tests/cypress/constants\ncypress-tests/cypress/constants/selectors",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.329371451247754
+  }
+]

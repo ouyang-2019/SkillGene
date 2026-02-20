@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ask-neon (neondatabase)",
+    "description": "[项目级] Chatbot: Search your own knowledge base by semantic similarity。来源: https://github.com/neondatabase/ask-neon",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "chatbot",
+      "embeddings",
+      "openai",
+      "postgres",
+      "typescript",
+      "stars-60",
+      "github-neondatabase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Chatbot: Search your own knowledge base by semantic similarity\n\n来源: https://github.com/neondatabase/ask-neon\n语言: TypeScript\nStars: 60",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/neondatabase/postgres-qa.git\ncd ask-postgres",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\napp\napp/.eslintrc.json\napp/.gitignore\napp/README.md\napp/next.config.js\napp/package-lock.json\napp/package.json\napp/pages\napp/postcss.config.js\napp/public\napp/styles\napp/tailwind.config.js\napp/tsconfig.json\napp/yarn.lock\ndata\ndata/database.sql\ndata/main.py\ndata/requirements.txt\ndata/text",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.889075625191822
+  },
+  {
+    "name": "ask-neon/app 模块",
+    "description": "[模块级] ask-neon 项目的 app 模块 (source)。来源: https://github.com/neondatabase/ask-neon",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "chatbot",
+      "embeddings",
+      "openai",
+      "postgres",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 21\n\n包含文件:\n- app/.eslintrc.json\n- app/.gitignore\n- app/README.md\n- app/next.config.js\n- app/package-lock.json\n- app/package.json\n- app/pages\n- app/pages/_app.tsx\n- app/pages/api\n- app/pages/api/askme.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.eslintrc.json\napp/.gitignore\napp/README.md\napp/next.config.js\napp/package-lock.json\napp/package.json\napp/pages\napp/pages/_app.tsx\napp/pages/api\napp/pages/api/askme.ts\napp/pages/index.tsx\napp/postcss.config.js\napp/public\napp/public/favicon.ico\napp/public/vercel.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  },
+  {
+    "name": "ask-neon/data 模块",
+    "description": "[模块级] ask-neon 项目的 data 模块 (source)。来源: https://github.com/neondatabase/ask-neon",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "chatbot",
+      "embeddings",
+      "openai",
+      "postgres",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 176\n\n包含文件:\n- data/database.sql\n- data/main.py\n- data/requirements.txt\n- data/text\n- data/text/www.postgresql.org\n- data/text/www.postgresql.org/www.postgresql.org_docs_15_.txt\n- data/text/www.postgresql.org/www.postgresql.org_docs_15_acronyms.html.txt\n- data/text/www.postgresql.org/www.postgresql.org_docs_15_admin.html.txt\n- data/text/www.postgresql.org/www.postgresql.org_docs_15_adminpack.html.txt\n- data/text/www.postgresql.org/www.postgresql.org_docs_15_amcheck.html.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/database.sql\ndata/main.py\ndata/requirements.txt\ndata/text\ndata/text/www.postgresql.org\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_acronyms.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_admin.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_adminpack.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_amcheck.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_app-clusterdb.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_app-createdb.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_app-createuser.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_app-dropdb.html.txt\ndata/text/www.postgresql.org/www.postgresql.org_docs_15_app-dropuser.html.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  }
+]

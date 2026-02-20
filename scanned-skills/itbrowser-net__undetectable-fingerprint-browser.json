@@ -1,0 +1,97 @@
+[
+  {
+    "name": "undetectable-fingerprint-browser (itbrowser-net)",
+    "description": "[项目级] Free open-source Multilogin/Incogniton/Kameleo alternative for fingerprint spoofing (Canvas/WebGL/User-Agent). Perfect for Selenium/Playwright/Puppeteer automation, web scraping, social media bots, ads verification, and multi-accounting based on chromium. Avoid bans, bypass anti-bot systems, and prevent tracking with customizable stealth browsing。来源: https://github.com/itbrowser-net/undetectable-fingerprint-browser",
+    "domain": "devops",
+    "tags": [
+      "adspower-free",
+      "anti-bot-detection",
+      "anti-detect-browser",
+      "anti-detect-browser-free",
+      "fingerprinting",
+      "stars-448",
+      "github-itbrowser-net",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Free open-source Multilogin/Incogniton/Kameleo alternative for fingerprint spoofing (Canvas/WebGL/User-Agent). Perfect for Selenium/Playwright/Puppeteer automation, web scraping, social media bots, ads verification, and multi-accounting based on chromium. Avoid bans, bypass anti-bot systems, and prevent tracking with customizable stealth browsing\n\n来源: https://github.com/itbrowser-net/undetectable-fingerprint-browser\n语言: unknown\nStars: 448",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_zh.md\nfingerprints\nfingerprints/fingerprints.db.xz\nfingerprints/user-agents.json\nfingerprints/webgl.json\nusage\nusage/fingerprints_editor_en.png\nusage/fingerprints_editor_zh.png\nusage/fingerprints_en.png\nusage/fingerprints_zh.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.325639006999072
+  },
+  {
+    "name": "undetectable-fingerprint-browser/fingerprints 模块",
+    "description": "[模块级] undetectable-fingerprint-browser 项目的 fingerprints 模块 (source)。来源: https://github.com/itbrowser-net/undetectable-fingerprint-browser",
+    "domain": "devops",
+    "tags": [
+      "adspower-free",
+      "anti-bot-detection",
+      "anti-detect-browser",
+      "anti-detect-browser-free",
+      "fingerprinting",
+      "module-level",
+      "source",
+      "fingerprints"
+    ],
+    "genes": [
+      {
+        "title": "fingerprints 模块说明",
+        "content": "模块路径: fingerprints/\n类型: source\n文件数: 3\n\n包含文件:\n- fingerprints/fingerprints.db.xz\n- fingerprints/user-agents.json\n- fingerprints/webgl.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fingerprints 文件结构",
+        "content": "fingerprints/fingerprints.db.xz\nfingerprints/user-agents.json\nfingerprints/webgl.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5605112055992576
+  },
+  {
+    "name": "undetectable-fingerprint-browser/usage 模块",
+    "description": "[模块级] undetectable-fingerprint-browser 项目的 usage 模块 (source)。来源: https://github.com/itbrowser-net/undetectable-fingerprint-browser",
+    "domain": "devops",
+    "tags": [
+      "adspower-free",
+      "anti-bot-detection",
+      "anti-detect-browser",
+      "anti-detect-browser-free",
+      "fingerprinting",
+      "module-level",
+      "source",
+      "usage"
+    ],
+    "genes": [
+      {
+        "title": "usage 模块说明",
+        "content": "模块路径: usage/\n类型: source\n文件数: 4\n\n包含文件:\n- usage/fingerprints_editor_en.png\n- usage/fingerprints_editor_zh.png\n- usage/fingerprints_en.png\n- usage/fingerprints_zh.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "usage 文件结构",
+        "content": "usage/fingerprints_editor_en.png\nusage/fingerprints_editor_zh.png\nusage/fingerprints_en.png\nusage/fingerprints_zh.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5605112055992576
+  }
+]

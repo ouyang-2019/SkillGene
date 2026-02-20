@@ -1,0 +1,61 @@
+[
+  {
+    "name": "SearchAnything (kaijiezhu11)",
+    "description": "[项目级] A semantic local search engine powered by AI models.。来源: https://github.com/kaijiezhu11/SearchAnything",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-309",
+      "github-kaijiezhu11",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A semantic local search engine powered by AI models.\n\n来源: https://github.com/kaijiezhu11/SearchAnything\n语言: Python\nStars: 309",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "conda env create -f env.yaml\nconda activate anything",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nanything.py\napp.py\nasr.py\nconfig.py\ndatabase.py\nenv.yaml\nindex.py\nmonitor.py\nprocess\nprocess/__init__.py\nprocess/docparser.py\nprocess/imgparser.py\nprocess/mdparser.py\nprocess/parser_base.py\nprocess/pdfparser.py\nprocess/pptparser.py\nprocess/txtparser.py\ntest.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.244979239712418
+  },
+  {
+    "name": "SearchAnything/process 模块",
+    "description": "[模块级] SearchAnything 项目的 process 模块 (source)。来源: https://github.com/kaijiezhu11/SearchAnything",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-309",
+      "github-kaijiezhu11",
+      "module-level",
+      "source",
+      "process"
+    ],
+    "genes": [
+      {
+        "title": "process 模块说明",
+        "content": "模块路径: process/\n类型: source\n文件数: 8\n\n包含文件:\n- process/__init__.py\n- process/docparser.py\n- process/imgparser.py\n- process/mdparser.py\n- process/parser_base.py\n- process/pdfparser.py\n- process/pptparser.py\n- process/txtparser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "process 文件结构",
+        "content": "process/__init__.py\nprocess/docparser.py\nprocess/imgparser.py\nprocess/mdparser.py\nprocess/parser_base.py\nprocess/pdfparser.py\nprocess/pptparser.py\nprocess/txtparser.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4959833917699337
+  }
+]

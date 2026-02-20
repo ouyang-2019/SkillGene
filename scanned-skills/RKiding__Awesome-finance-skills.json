@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Awesome-finance-skills (RKiding)",
+    "description": "[项目级] A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills。来源: https://github.com/RKiding/Awesome-finance-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "finances",
+      "fintech",
+      "python",
+      "stars-21",
+      "github-rkiding",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills\n\n来源: https://github.com/RKiding/Awesome-finance-skills\n语言: Python\nStars: 21",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nfigs\nfigs/logic.png\nfigs/news.png\nfigs/predict.png\nskills\nskills/alphaear-logic-visualizer\nskills/alphaear-news\nskills/alphaear-predictor\nskills/alphaear-reporter\nskills/alphaear-search\nskills/alphaear-sentiment\nskills/alphaear-signal-tracker",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp -r Awesome-finance-skills/skills/* ~/.config/opencode/skills/\n```\n\n**That's it!** Your agent now understands finance. Try asking:\n\n> *\"分析贵金属跳水对A股的影响\"*  \n> *\"Analyze how the gold crash affects A-shares\"*\n\n🔗 **Live Demo**: [See it in action →](https://opncd.ai/share/wOp37QIs)\n\n---",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6611096473669598
+  },
+  {
+    "name": "Awesome-finance-skills/figs 模块",
+    "description": "[模块级] Awesome-finance-skills 项目的 figs 模块 (source)。来源: https://github.com/RKiding/Awesome-finance-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "finances",
+      "fintech",
+      "python",
+      "module-level",
+      "source",
+      "figs"
+    ],
+    "genes": [
+      {
+        "title": "figs 模块说明",
+        "content": "模块路径: figs/\n类型: source\n文件数: 3\n\n包含文件:\n- figs/logic.png\n- figs/news.png\n- figs/predict.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figs 文件结构",
+        "content": "figs/logic.png\nfigs/news.png\nfigs/predict.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.028887717893568
+  },
+  {
+    "name": "Awesome-finance-skills/skills 模块",
+    "description": "[模块级] Awesome-finance-skills 项目的 skills 模块 (source)。来源: https://github.com/RKiding/Awesome-finance-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "finances",
+      "fintech",
+      "python",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "> **Transform your AI agent into a Wall Street analyst in seconds.**\n>\n> A plug-and-play skill collection that empowers LLMs with **real-time news**, **stock data**, **sentiment analysis**, **logic visualization**, and **market prediction** capabilities.\n\n[English](#english) | [中文](#中文)\n\n---\n\n<a name=\"english\"></a>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/alphaear-logic-visualizer\nskills/alphaear-logic-visualizer/SKILL.md\nskills/alphaear-logic-visualizer/references\nskills/alphaear-logic-visualizer/references/PROMPTS.md\nskills/alphaear-logic-visualizer/scripts\nskills/alphaear-logic-visualizer/scripts/__init__.py\nskills/alphaear-logic-visualizer/scripts/visualizer.py\nskills/alphaear-logic-visualizer/scripts/visualizer_prompt.py\nskills/alphaear-logic-visualizer/tests\nskills/alphaear-logic-visualizer/tests/test_visualizer.py\nskills/alphaear-news\nskills/alphaear-news/SKILL.md\nskills/alphaear-news/references\nskills/alphaear-news/references/sources.md\nskills/alphaear-news/scripts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.028887717893568
+  }
+]

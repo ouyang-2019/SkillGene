@@ -1,0 +1,406 @@
+[
+  {
+    "name": "ck (BeaconBay)",
+    "description": "[项目级] Local first semantic and hybrid BM25 grep / search tool for use by AI and humans! 。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "github-beaconbay",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Local first semantic and hybrid BM25 grep / search tool for use by AI and humans! \n\n来源: https://github.com/BeaconBay/ck\n语言: Rust\nStars: 1453",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCargo.lock\nCargo.toml\nEXAMPLES.md\nLICENSE-APACHE\nLICENSE-MIT\nPRD.txt\nREADME.md\nTUI.md\nUNEXPECTED.md\nbenchmarks\nbenchmarks/.gitignore\nbenchmarks/README.md\nbenchmarks/swe-bench\nck-ann\nck-ann/Cargo.toml\nck-ann/src\nck-chunk\nck-chunk/Cargo.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.581132807149011
+  },
+  {
+    "name": "ck/benchmarks 模块",
+    "description": "[模块级] ck 项目的 benchmarks 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 11\n\n包含文件:\n- benchmarks/.gitignore\n- benchmarks/README.md\n- benchmarks/swe-bench\n- benchmarks/swe-bench/README.md\n- benchmarks/swe-bench/data\n- benchmarks/swe-bench/data/.gitkeep\n- benchmarks/swe-bench/requirements.txt\n- benchmarks/swe-bench/results\n- benchmarks/swe-bench/results/.gitkeep\n- benchmarks/swe-bench/results/summary.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/.gitignore\nbenchmarks/README.md\nbenchmarks/swe-bench\nbenchmarks/swe-bench/README.md\nbenchmarks/swe-bench/data\nbenchmarks/swe-bench/data/.gitkeep\nbenchmarks/swe-bench/requirements.txt\nbenchmarks/swe-bench/results\nbenchmarks/swe-bench/results/.gitkeep\nbenchmarks/swe-bench/results/summary.md\nbenchmarks/swe-bench/run.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-ann 模块",
+    "description": "[模块级] ck 项目的 ck-ann 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-ann"
+    ],
+    "genes": [
+      {
+        "title": "ck-ann 模块说明",
+        "content": "模块路径: ck-ann/\n类型: source\n文件数: 3\n\n包含文件:\n- ck-ann/Cargo.toml\n- ck-ann/src\n- ck-ann/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-ann 文件结构",
+        "content": "ck-ann/Cargo.toml\nck-ann/src\nck-ann/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-chunk 模块",
+    "description": "[模块级] ck 项目的 ck-chunk 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-chunk"
+    ],
+    "genes": [
+      {
+        "title": "ck-chunk 模块说明",
+        "content": "模块路径: ck-chunk/\n类型: source\n文件数: 29\n\n包含文件:\n- ck-chunk/Cargo.toml\n- ck-chunk/examples\n- ck-chunk/examples/debug_chunks.rs\n- ck-chunk/queries\n- ck-chunk/queries/csharp\n- ck-chunk/queries/csharp/tags.scm\n- ck-chunk/queries/dart\n- ck-chunk/queries/dart/tags.scm\n- ck-chunk/queries/elixir\n- ck-chunk/queries/elixir/tags.scm",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-chunk 文件结构",
+        "content": "ck-chunk/Cargo.toml\nck-chunk/examples\nck-chunk/examples/debug_chunks.rs\nck-chunk/queries\nck-chunk/queries/csharp\nck-chunk/queries/csharp/tags.scm\nck-chunk/queries/dart\nck-chunk/queries/dart/tags.scm\nck-chunk/queries/elixir\nck-chunk/queries/elixir/tags.scm\nck-chunk/queries/go\nck-chunk/queries/go/tags.scm\nck-chunk/queries/haskell\nck-chunk/queries/haskell/tags.scm\nck-chunk/queries/javascript",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-cli 模块",
+    "description": "[模块级] ck 项目的 ck-cli 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-cli"
+    ],
+    "genes": [
+      {
+        "title": "ck-cli 模块说明",
+        "content": "模块路径: ck-cli/\n类型: source\n文件数: 18\n\n包含文件:\n- ck-cli/Cargo.toml\n- ck-cli/src\n- ck-cli/src/lib.rs\n- ck-cli/src/main.rs\n- ck-cli/src/mcp\n- ck-cli/src/mcp/cache.rs\n- ck-cli/src/mcp/context.rs\n- ck-cli/src/mcp/errors.rs\n- ck-cli/src/mcp/mod.rs\n- ck-cli/src/mcp/session.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-cli 文件结构",
+        "content": "ck-cli/Cargo.toml\nck-cli/src\nck-cli/src/lib.rs\nck-cli/src/main.rs\nck-cli/src/mcp\nck-cli/src/mcp/cache.rs\nck-cli/src/mcp/context.rs\nck-cli/src/mcp/errors.rs\nck-cli/src/mcp/mod.rs\nck-cli/src/mcp/session.rs\nck-cli/src/mcp/tools\nck-cli/src/mcp/tools/mod.rs\nck-cli/src/mcp_server.rs\nck-cli/src/path_utils.rs\nck-cli/src/progress.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-core 模块",
+    "description": "[模块级] ck 项目的 ck-core 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-core"
+    ],
+    "genes": [
+      {
+        "title": "ck-core 模块说明",
+        "content": "模块路径: ck-core/\n类型: source\n文件数: 4\n\n包含文件:\n- ck-core/Cargo.toml\n- ck-core/src\n- ck-core/src/heatmap.rs\n- ck-core/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-core 文件结构",
+        "content": "ck-core/Cargo.toml\nck-core/src\nck-core/src/heatmap.rs\nck-core/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-embed 模块",
+    "description": "[模块级] ck 项目的 ck-embed 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-embed"
+    ],
+    "genes": [
+      {
+        "title": "ck-embed 模块说明",
+        "content": "模块路径: ck-embed/\n类型: source\n文件数: 11\n\n包含文件:\n- ck-embed/Cargo.toml\n- ck-embed/examples\n- ck-embed/examples/list_models.rs\n- ck-embed/examples/test_mixedbread.rs\n- ck-embed/examples/test_nomic.rs\n- ck-embed/examples/test_reranking.rs\n- ck-embed/src\n- ck-embed/src/lib.rs\n- ck-embed/src/mixedbread.rs\n- ck-embed/src/reranker.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-embed 文件结构",
+        "content": "ck-embed/Cargo.toml\nck-embed/examples\nck-embed/examples/list_models.rs\nck-embed/examples/test_mixedbread.rs\nck-embed/examples/test_nomic.rs\nck-embed/examples/test_reranking.rs\nck-embed/src\nck-embed/src/lib.rs\nck-embed/src/mixedbread.rs\nck-embed/src/reranker.rs\nck-embed/src/tokenizer.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-engine 模块",
+    "description": "[模块级] ck 项目的 ck-engine 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-engine"
+    ],
+    "genes": [
+      {
+        "title": "ck-engine 模块说明",
+        "content": "模块路径: ck-engine/\n类型: source\n文件数: 4\n\n包含文件:\n- ck-engine/Cargo.toml\n- ck-engine/src\n- ck-engine/src/lib.rs\n- ck-engine/src/semantic_v3.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-engine 文件结构",
+        "content": "ck-engine/Cargo.toml\nck-engine/src\nck-engine/src/lib.rs\nck-engine/src/semantic_v3.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-index 模块",
+    "description": "[模块级] ck 项目的 ck-index 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-index"
+    ],
+    "genes": [
+      {
+        "title": "ck-index 模块说明",
+        "content": "模块路径: ck-index/\n类型: source\n文件数: 3\n\n包含文件:\n- ck-index/Cargo.toml\n- ck-index/src\n- ck-index/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-index 文件结构",
+        "content": "ck-index/Cargo.toml\nck-index/src\nck-index/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-models 模块",
+    "description": "[模块级] ck 项目的 ck-models 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-models"
+    ],
+    "genes": [
+      {
+        "title": "ck-models 模块说明",
+        "content": "模块路径: ck-models/\n类型: source\n文件数: 3\n\n包含文件:\n- ck-models/Cargo.toml\n- ck-models/src\n- ck-models/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-models 文件结构",
+        "content": "ck-models/Cargo.toml\nck-models/src\nck-models/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-tui 模块",
+    "description": "[模块级] ck 项目的 ck-tui 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-tui"
+    ],
+    "genes": [
+      {
+        "title": "ck-tui 模块说明",
+        "content": "模块路径: ck-tui/\n类型: source\n文件数: 13\n\n包含文件:\n- ck-tui/Cargo.toml\n- ck-tui/src\n- ck-tui/src/app.rs\n- ck-tui/src/chunks.rs\n- ck-tui/src/colors.rs\n- ck-tui/src/commands.rs\n- ck-tui/src/config.rs\n- ck-tui/src/events.rs\n- ck-tui/src/lib.rs\n- ck-tui/src/preview.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-tui 文件结构",
+        "content": "ck-tui/Cargo.toml\nck-tui/src\nck-tui/src/app.rs\nck-tui/src/chunks.rs\nck-tui/src/colors.rs\nck-tui/src/commands.rs\nck-tui/src/config.rs\nck-tui/src/events.rs\nck-tui/src/lib.rs\nck-tui/src/preview.rs\nck-tui/src/rendering.rs\nck-tui/src/state.rs\nck-tui/src/utils.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/ck-vscode 模块",
+    "description": "[模块级] ck 项目的 ck-vscode 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "ck-vscode"
+    ],
+    "genes": [
+      {
+        "title": "ck-vscode 模块说明",
+        "content": "模块路径: ck-vscode/\n类型: source\n文件数: 22\n\n包含文件:\n- ck-vscode/.gitignore\n- ck-vscode/.vscodeignore\n- ck-vscode/GETTING_STARTED.md\n- ck-vscode/LICENSE\n- ck-vscode/LICENSE-APACHE\n- ck-vscode/LICENSE-MIT\n- ck-vscode/README.md\n- ck-vscode/install-cursor.sh\n- ck-vscode/package-lock.json\n- ck-vscode/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ck-vscode 文件结构",
+        "content": "ck-vscode/.gitignore\nck-vscode/.vscodeignore\nck-vscode/GETTING_STARTED.md\nck-vscode/LICENSE\nck-vscode/LICENSE-APACHE\nck-vscode/LICENSE-MIT\nck-vscode/README.md\nck-vscode/install-cursor.sh\nck-vscode/package-lock.json\nck-vscode/package.json\nck-vscode/resources\nck-vscode/resources/ck-icon.svg\nck-vscode/src\nck-vscode/src/cliAdapter.ts\nck-vscode/src/extension.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  },
+  {
+    "name": "ck/docs-site 模块",
+    "description": "[模块级] ck 项目的 docs-site 模块 (source)。来源: https://github.com/BeaconBay/ck",
+    "domain": "devops",
+    "tags": [
+      "grep",
+      "grep-like",
+      "rust",
+      "semantic",
+      "stars-1453",
+      "module-level",
+      "source",
+      "docs-site"
+    ],
+    "genes": [
+      {
+        "title": "docs-site 模块说明",
+        "content": "模块路径: docs-site/\n类型: source\n文件数: 50\n\n包含文件:\n- docs-site/.claude\n- docs-site/.claude/settings.local.json\n- docs-site/.gitignore\n- docs-site/.vitepress\n- docs-site/.vitepress/config.ts\n- docs-site/.vitepress/theme\n- docs-site/.vitepress/theme/custom.css\n- docs-site/.vitepress/theme/index.ts\n- docs-site/README.md\n- docs-site/contributing",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-site 文件结构",
+        "content": "docs-site/.claude\ndocs-site/.claude/settings.local.json\ndocs-site/.gitignore\ndocs-site/.vitepress\ndocs-site/.vitepress/config.ts\ndocs-site/.vitepress/theme\ndocs-site/.vitepress/theme/custom.css\ndocs-site/.vitepress/theme/index.ts\ndocs-site/README.md\ndocs-site/contributing\ndocs-site/contributing/development.md\ndocs-site/contributing/release-process.md\ndocs-site/contributing/testing.md\ndocs-site/features\ndocs-site/features/editor-integration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7649062457192084
+  }
+]

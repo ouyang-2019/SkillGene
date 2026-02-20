@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ChatDKG (OriginTrail)",
+    "description": "[项目级] ChatDKG is an open framework for efficient search, access, and utilization of trusted knowledge with AI, based on OriginTrail Decentralized Knowledge Graph (DKG) and Knowledge Assets. The ChatDKG framework is designed as an open community project to explore a diverse range of possible applications.。来源: https://github.com/OriginTrail/ChatDKG",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "decentralized-knowledge-graph",
+      "knowledge-assets",
+      "knowledge-graph",
+      "origintrail",
+      "stars-53",
+      "github-origintrail",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatDKG is an open framework for efficient search, access, and utilization of trusted knowledge with AI, based on OriginTrail Decentralized Knowledge Graph (DKG) and Knowledge Assets. The ChatDKG framework is designed as an open community project to explore a diverse range of possible applications.\n\n来源: https://github.com/OriginTrail/ChatDKG\n语言: unknown\nStars: 53",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nexamples\nexamples/google-gemini\nexamples/google-vertex-ai\nexamples/langchain\nexamples/milvus\nexamples/utils",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8621379348003946
+  },
+  {
+    "name": "ChatDKG/examples 模块",
+    "description": "[模块级] ChatDKG 项目的 examples 模块 (example)。来源: https://github.com/OriginTrail/ChatDKG",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "decentralized-knowledge-graph",
+      "knowledge-assets",
+      "knowledge-graph",
+      "origintrail",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 29\n\n包含文件:\n- examples/google-gemini\n- examples/google-gemini/.env.example\n- examples/google-gemini/README.md\n- examples/google-gemini/amsterdam_google_demo.ipynb\n- examples/google-vertex-ai\n- examples/google-vertex-ai/.env.example\n- examples/google-vertex-ai/MatchingEngine.ipynb\n- examples/google-vertex-ai/README.md\n- examples/google-vertex-ai/create-knowledge-asset-embeddings.js\n- examples/google-vertex-ai/package-lock.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/google-gemini\nexamples/google-gemini/.env.example\nexamples/google-gemini/README.md\nexamples/google-gemini/amsterdam_google_demo.ipynb\nexamples/google-vertex-ai\nexamples/google-vertex-ai/.env.example\nexamples/google-vertex-ai/MatchingEngine.ipynb\nexamples/google-vertex-ai/README.md\nexamples/google-vertex-ai/create-knowledge-asset-embeddings.js\nexamples/google-vertex-ai/package-lock.json\nexamples/google-vertex-ai/package.json\nexamples/google-vertex-ai/search.js\nexamples/google-vertex-ai/vertex-ai-helper.js\nexamples/langchain\nexamples/langchain/.env.example",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  }
+]

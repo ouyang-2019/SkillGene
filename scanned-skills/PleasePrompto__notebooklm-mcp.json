@@ -1,0 +1,99 @@
+[
+  {
+    "name": "notebooklm-mcp (PleasePrompto)",
+    "description": "[项目级] MCP server for NotebookLM - Let your AI agents (Claude Code, Codex) research documentation directly with grounded, citation-backed answers from Gemini. Persistent auth, library management, cross-client sharing. Zero hallucinations, just your knowledge base.。来源: https://github.com/PleasePrompto/notebooklm-mcp",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-954",
+      "github-pleaseprompto",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MCP server for NotebookLM - Let your AI agents (Claude Code, Codex) research documentation directly with grounded, citation-backed answers from Gemini. Persistent auth, library management, cross-client sharing. Zero hallucinations, just your knowledge base.\n\n来源: https://github.com/PleasePrompto/notebooklm-mcp\n语言: TypeScript\nStars: 954",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ndocs\ndocs/configuration.md\ndocs/tools.md\ndocs/troubleshooting.md\ndocs/usage-guide.md\npackage-lock.json\npackage.json\nsrc\nsrc/auth\nsrc/config.ts\nsrc/errors.ts\nsrc/index.ts\nsrc/library\nsrc/resources\nsrc/session\nsrc/tools\nsrc/types.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.489774187352047
+  },
+  {
+    "name": "notebooklm-mcp/docs 模块",
+    "description": "[模块级] notebooklm-mcp 项目的 docs 模块 (docs)。来源: https://github.com/PleasePrompto/notebooklm-mcp",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-954",
+      "github-pleaseprompto",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "- **You**: Download docs → Claude: \"search through these files\"\n- **Problem**: Claude reads thousands of files → massive token usage, often misses connections\n- **NotebookLM**: Pre-indexed by Gemini, semantic understanding across all docs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/configuration.md\ndocs/tools.md\ndocs/troubleshooting.md\ndocs/usage-guide.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.691819349881638
+  },
+  {
+    "name": "notebooklm-mcp/src 模块",
+    "description": "[模块级] notebooklm-mcp 项目的 src 模块 (source)。来源: https://github.com/PleasePrompto/notebooklm-mcp",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-954",
+      "github-pleaseprompto",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 31\n\n包含文件:\n- src/auth\n- src/auth/auth-manager.ts\n- src/config.ts\n- src/errors.ts\n- src/index.ts\n- src/library\n- src/library/notebook-library.ts\n- src/library/types.ts\n- src/resources\n- src/resources/resource-handlers.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/auth\nsrc/auth/auth-manager.ts\nsrc/config.ts\nsrc/errors.ts\nsrc/index.ts\nsrc/library\nsrc/library/notebook-library.ts\nsrc/library/types.ts\nsrc/resources\nsrc/resources/resource-handlers.ts\nsrc/session\nsrc/session/browser-session.ts\nsrc/session/session-manager.ts\nsrc/session/shared-context-manager.ts\nsrc/tools",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.691819349881638
+  }
+]

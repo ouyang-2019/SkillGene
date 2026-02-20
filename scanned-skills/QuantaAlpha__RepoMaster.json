@@ -1,0 +1,128 @@
+[
+  {
+    "name": "RepoMaster (QuantaAlpha)",
+    "description": "[项目级] RepoMaster: The open-source AI agent that masters GitHub. It turns any code repository into a powerful tool, achieving a new level of autonomous task-solving. An open alternative to Claude-Code.。来源: https://github.com/QuantaAlpha/RepoMaster",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "code-agent",
+      "gittaskbench",
+      "mle-bench",
+      "openhands",
+      "python",
+      "stars-497",
+      "github-quantaalpha",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<div align=\"center\">\n  <h3>🎯 Discover · Understand · Execute - Make Open Source Work for You</h3>\n  \n  <p style=\"font-size: 16px; color: #666; max-width: 800px; margin: 0 auto; line-height: 1.6;\">\n    RepoMaster transforms how you solve coding tasks by <strong>automatically finding the right GitHub tools</strong> and making them work together seamlessly. Just describe what you want, and watch as open source repositories become your intelligent assistants.\n  </p>\n  \n  <p style=\"font-size: 16px; color: #2196F3; max-width: 800px; margin: 15px auto; line-height: 1.6; font-weight: 600;\">\n    💬 Describe Task → 🧠 AI Analysis → 🔍 Auto Discovery → ⚡ Smart Execution → ✅ Perfect Results\n  </p>\n</div>\n\n<br/>\n\n\n<img src=\"docs/assets/images/performance_01.jpg\" alt=\"RepoMaster performance\" style=\"bac",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_CN.md\nUSAGE.md\nconfigs\nconfigs/docker_src\nconfigs/env.example\nconfigs/mode_config.py\nconfigs/oai_config.py\nconfigs/oai_config_exmaple.py\ndocs\ndocs/assets\nexample\nexample/pdf_parse.md\nlauncher.py\nrequirements.txt\nrun.sh\nsrc\nsrc/__init__.py\nsrc/core\nsrc/frontend",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.348178194366666
+  },
+  {
+    "name": "RepoMaster/configs 模块",
+    "description": "[模块级] RepoMaster 项目的 configs 模块 (config)。来源: https://github.com/QuantaAlpha/RepoMaster",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "code-agent",
+      "gittaskbench",
+      "mle-bench",
+      "openhands",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 7\n\n包含文件:\n- configs/docker_src\n- configs/docker_src/llm_requirements.txt\n- configs/docker_src/requirements.txt\n- configs/env.example\n- configs/mode_config.py\n- configs/oai_config.py\n- configs/oai_config_exmaple.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/docker_src\nconfigs/docker_src/llm_requirements.txt\nconfigs/docker_src/requirements.txt\nconfigs/env.example\nconfigs/mode_config.py\nconfigs/oai_config.py\nconfigs/oai_config_exmaple.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  },
+  {
+    "name": "RepoMaster/docs 模块",
+    "description": "[模块级] RepoMaster 项目的 docs 模块 (docs)。来源: https://github.com/QuantaAlpha/RepoMaster",
+    "domain": "documentation",
+    "tags": [
+      "claude-code",
+      "code-agent",
+      "gittaskbench",
+      "mle-bench",
+      "openhands",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 10\n\n包含文件:\n- docs/assets\n- docs/assets/images\n- docs/assets/images/RepoMaster.logo.png\n- docs/assets/images/RepoMaster.png\n- docs/assets/images/demo_ultra_hq.gif\n- docs/assets/images/origin.jpg\n- docs/assets/images/overview.png\n- docs/assets/images/performance_01.jpg\n- docs/assets/images/style.jpg\n- docs/assets/images/transfer.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/images\ndocs/assets/images/RepoMaster.logo.png\ndocs/assets/images/RepoMaster.png\ndocs/assets/images/demo_ultra_hq.gif\ndocs/assets/images/origin.jpg\ndocs/assets/images/overview.png\ndocs/assets/images/performance_01.jpg\ndocs/assets/images/style.jpg\ndocs/assets/images/transfer.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  },
+  {
+    "name": "RepoMaster/src 模块",
+    "description": "[模块级] RepoMaster 项目的 src 模块 (source)。来源: https://github.com/QuantaAlpha/RepoMaster",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "code-agent",
+      "gittaskbench",
+      "mle-bench",
+      "openhands",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 65\n\n包含文件:\n- src/__init__.py\n- src/core\n- src/core/__init__.py\n- src/core/agent_code_explore.py\n- src/core/agent_docker_executor.py\n- src/core/agent_scheduler.py\n- src/core/base_code_explorer.py\n- src/core/code_utils.py\n- src/core/conversation_manager.py\n- src/core/git_task.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/core\nsrc/core/__init__.py\nsrc/core/agent_code_explore.py\nsrc/core/agent_docker_executor.py\nsrc/core/agent_scheduler.py\nsrc/core/base_code_explorer.py\nsrc/core/code_utils.py\nsrc/core/conversation_manager.py\nsrc/core/git_task.py\nsrc/core/importance_analyzer.py\nsrc/core/prompt.py\nsrc/core/repo_summary.py\nsrc/core/tool_code_explorer.py\nsrc/core/tree_code.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5785425554933328
+  }
+]

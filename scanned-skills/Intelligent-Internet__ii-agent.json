@@ -1,0 +1,163 @@
+[
+  {
+    "name": "ii-agent (Intelligent-Internet)",
+    "description": "[项目级] II-Agent: a new open-source framework to build and deploy intelligent agents。来源: https://github.com/Intelligent-Internet/ii-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "python",
+      "stars-3161",
+      "github-intelligent-internet",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<https://github.com/user-attachments/assets/02ef0612-1696-4311-9002-14f36842ff3e>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "For the latest installation and deployment instructions, please refer to our [official guide](https://intelligent-internet.github.io/ii-agent-prod/)\n\n[![Installation Guide](https://img.youtube.com/vi/wPpeJMbdGi4/maxresdefault.jpg)](https://www.youtube.com/watch?v=wPpeJMbdGi4)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/gaia.jpg\nassets/ii.png\ndata\ndata/.gitkeep\ndocker\ndocker/.dummy-credentials.json\ndocker/.stack.env.example\ndocker/backend\ndocker/docker-compose.stack.yaml\ndocker/frontend\ndocker/postgres-init\ndocker/sandbox\ndocker_obfuscate.py\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/docs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Full-Stack Development: Complete web app scaffolding and iterative development. From initial setup to deployment, II-Agent handles the entire development lifecycle with intelligent code generation and optimization.\n* Slide Creation: Transform short briefs into polished presentations. Create professional slides and decks with intelligent content structuring, design suggestions, and automated formatting.\n* Deep Research: Comprehensive research capabilities through tight integration with II-Researcher. Conduct thorough investigations, analyze data, and generate detailed reports with our special",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.74991224791979
+  },
+  {
+    "name": "ii-agent/assets 模块",
+    "description": "[模块级] ii-agent 项目的 assets 模块 (source)。来源: https://github.com/Intelligent-Internet/ii-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/gaia.jpg\n- assets/ii.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/gaia.jpg\nassets/ii.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8999297983358323
+  },
+  {
+    "name": "ii-agent/docker 模块",
+    "description": "[模块级] ii-agent 项目的 docker 模块 (source)。来源: https://github.com/Intelligent-Internet/ii-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 17\n\n包含文件:\n- docker/.dummy-credentials.json\n- docker/.stack.env.example\n- docker/backend\n- docker/backend/Dockerfile\n- docker/docker-compose.stack.yaml\n- docker/frontend\n- docker/frontend/Dockerfile\n- docker/postgres-init\n- docker/postgres-init/create-databases.sh\n- docker/sandbox",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.dummy-credentials.json\ndocker/.stack.env.example\ndocker/backend\ndocker/backend/Dockerfile\ndocker/docker-compose.stack.yaml\ndocker/frontend\ndocker/frontend/Dockerfile\ndocker/postgres-init\ndocker/postgres-init/create-databases.sh\ndocker/sandbox\ndocker/sandbox/.bashrc\ndocker/sandbox/claude_template.json\ndocker/sandbox/codex_config.toml\ndocker/sandbox/codex_context.md\ndocker/sandbox/entrypoint.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8999297983358323
+  },
+  {
+    "name": "ii-agent/docs 模块",
+    "description": "[模块级] ii-agent 项目的 docs 模块 (docs)。来源: https://github.com/Intelligent-Internet/ii-agent",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 52\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/docs\n- docs/docs/core-infrastructure.md\n- docs/docs/getting-started.md\n- docs/docs/installation.md\n- docs/docs/optional-environment-variables\n- docs/docs/optional-environment-variables/database-neon.md\n- docs/docs/optional-environment-variables/image-search.md\n- docs/docs/optional-environment-variables/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/docs\ndocs/docs/core-infrastructure.md\ndocs/docs/getting-started.md\ndocs/docs/installation.md\ndocs/docs/optional-environment-variables\ndocs/docs/optional-environment-variables/database-neon.md\ndocs/docs/optional-environment-variables/image-search.md\ndocs/docs/optional-environment-variables/index.md\ndocs/docs/optional-environment-variables/media-generation.md\ndocs/docs/optional-environment-variables/payment.md\ndocs/docs/optional-environment-variables/researcher-config-tool.md\ndocs/docs/optional-environment-variables/researcher-config.md\ndocs/docs/optional-environment-variables/tool-server-llm.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8999297983358323
+  },
+  {
+    "name": "ii-agent/frontend 模块",
+    "description": "[模块级] ii-agent 项目的 frontend 模块 (source)。来源: https://github.com/Intelligent-Internet/ii-agent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-agent",
+      "ai-agent-framework",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 7\n\n包含文件:\n- frontend/.gitignore\n- frontend/.husky\n- frontend/.husky/pre-commit\n- frontend/.prettierignore\n- frontend/LICENSE\n- frontend/README.md\n- frontend/bun.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.gitignore\nfrontend/.husky\nfrontend/.husky/pre-commit\nfrontend/.prettierignore\nfrontend/LICENSE\nfrontend/README.md\nfrontend/bun.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8999297983358323
+  }
+]

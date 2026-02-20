@@ -1,0 +1,47 @@
+[
+  {
+    "name": "awesome-claude-skills (karanb192)",
+    "description": "[项目级] 🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Community-driven, actively maintained.。来源: https://github.com/karanb192/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "anthropic",
+      "anthropic-claude",
+      "artifical-intelligence",
+      "stars-118",
+      "github-karanb192",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Code, Claude.ai, and API. Boost productivity with TDD, debugging, git workflows, document processing, and more. Community-driven, actively maintained.\n\n来源: https://github.com/karanb192/awesome-claude-skills\n语言: unknown\nStars: 118",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Get your first skill running in 30 seconds:**\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Start with these top 10 essential skills:**\n\n| Skill | Why You Need It | Category | Verified |\n|-------|----------------|----------|----------|\n| [test-driven-development](https://github.com/obra/superpowers) | Write bulletproof code with RED-GREEN-REFACTOR workflow | 🧪 Testing | ✅ |\n| [systematic-debugging](https://github.com/obra/superpowers) | Find bugs 10x faster with 4-phase root cause analysis | 🐛 Debugging | ✅ |\n| [using-git-worktrees](https://github.com/obra/superpowers) | Work on multiple features simultaneously without context switching | 🤝 Workflow | ✅ |\n| [mcp-builder](https:/",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.035941003653063
+  }
+]

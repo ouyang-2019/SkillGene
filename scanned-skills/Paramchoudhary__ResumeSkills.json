@@ -1,0 +1,64 @@
+[
+  {
+    "name": "ResumeSkills (Paramchoudhary)",
+    "description": "[项目级] A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.。来源: https://github.com/Paramchoudhary/ResumeSkills",
+    "domain": "devops",
+    "tags": [
+      "stars-63",
+      "github-paramchoudhary",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Resume skills for Claude Code. ATS optimization, bullet writing, job matching, interview prep, and career development.\n\n**Keywords:** resume, CV, ATS, job search, career, interview, cover letter, LinkedIn, salary negotiation, job application\n\n---\n\n*Built with care for job seekers everywhere. Good luck with your search!*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nskills\nskills/academic-cv-builder\nskills/career-changer-translator\nskills/cover-letter-generator\nskills/creative-portfolio-resume\nskills/executive-resume-writer\nskills/interview-prep-generator\nskills/job-description-analyzer\nskills/linkedin-profile-optimizer\nskills/offer-comparison-analyzer\nskills/portfolio-case-study-writer\nskills/reference-list-builder\nskills/resume-ats-optimizer\nskills/resume-bullet-writer\nskills/resume-formatter\nskills/resume-quantifier\nskills/resume-section-builder",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"Optimize my resume for ATS\"\n→ Uses resume-ats-optimizer skill\n\n\"Improve my resume bullets\"\n→ Uses resume-bullet-writer skill\n\n\"Should I apply to this job?\" + paste job description\n→ Uses job-description-analyzer skill\n\n\"Write me a cover letter for this role\"\n→ Uses cover-letter-generator skill\n\n\"Prep me for an interview at Google\"\n→ Uses interview-prep-generator skill",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.899670274726791
+  },
+  {
+    "name": "ResumeSkills/skills 模块",
+    "description": "[模块级] ResumeSkills 项目的 skills 模块 (source)。来源: https://github.com/Paramchoudhary/ResumeSkills",
+    "domain": "devops",
+    "tags": [
+      "stars-63",
+      "github-paramchoudhary",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of AI agent skills focused on resume optimization, job applications, and career development. Built for job seekers, career changers, and professionals who want Claude Code to help with resume writing, ATS optimization, interview prep, and strategic job search.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/academic-cv-builder\nskills/academic-cv-builder/SKILL.md\nskills/career-changer-translator\nskills/career-changer-translator/SKILL.md\nskills/cover-letter-generator\nskills/cover-letter-generator/SKILL.md\nskills/creative-portfolio-resume\nskills/creative-portfolio-resume/SKILL.md\nskills/executive-resume-writer\nskills/executive-resume-writer/SKILL.md\nskills/interview-prep-generator\nskills/interview-prep-generator/SKILL.md\nskills/job-description-analyzer\nskills/job-description-analyzer/SKILL.md\nskills/linkedin-profile-optimizer",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2197362197814328
+  }
+]

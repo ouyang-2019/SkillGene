@@ -1,0 +1,158 @@
+[
+  {
+    "name": "AgentGPT (reworkd)",
+    "description": "[项目级] 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.。来源: https://github.com/reworkd/AgentGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentgpt",
+      "agents",
+      "agi",
+      "ai",
+      "typescript",
+      "stars-35716",
+      "github-reworkd",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.\n\n来源: https://github.com/reworkd/AgentGPT\n语言: TypeScript\nStars: 35716",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The easiest way to get started with AgentGPT is automatic setup CLI bundled with the project.\nThe cli sets up the following for AgentGPT:\n- 🔐 [Environment variables](https://github.com/reworkd/AgentGPT/blob/main/.env.example) (and API Keys)\n- 🗂️ [Database](https://github.com/reworkd/AgentGPT/tree/main/db) (Mysql)\n- 🤖 [Backend](https://github.com/reworkd/AgentGPT/tree/main/platform) (FastAPI)\n- 🎨 [Frontend](https://github.com/reworkd/AgentGPT/tree/main/next) (Nextjs)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncli\ncli/.gitignore\ncli/README.md\ncli/package-lock.json\ncli/package.json\ncli/src\ncli/tsconfig.json\ndb\ndb/Dockerfile\ndb/setup.sql\ndocker-compose.yml\ndocs\ndocs/README.hu-Cs4K1Sr4C.md\ndocs/README.md\ndocs/README.zh-HANS.md\ndocs/developers\ndocs/docs.json\ndocs/favicon.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "AgentGPT/cli 模块",
+    "description": "[模块级] AgentGPT 项目的 cli 模块 (source)。来源: https://github.com/reworkd/AgentGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentgpt",
+      "agents",
+      "agi",
+      "ai",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 13\n\n包含文件:\n- cli/.gitignore\n- cli/README.md\n- cli/package-lock.json\n- cli/package.json\n- cli/src\n- cli/src/envGenerator.js\n- cli/src/helpers.js\n- cli/src/index.js\n- cli/src/questions\n- cli/src/questions/existingEnvQuestions.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/.gitignore\ncli/README.md\ncli/package-lock.json\ncli/package.json\ncli/src\ncli/src/envGenerator.js\ncli/src/helpers.js\ncli/src/index.js\ncli/src/questions\ncli/src/questions/existingEnvQuestions.js\ncli/src/questions/newEnvQuestions.js\ncli/src/questions/sharedQuestions.js\ncli/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321145125717049
+  },
+  {
+    "name": "AgentGPT/db 模块",
+    "description": "[模块级] AgentGPT 项目的 db 模块 (source)。来源: https://github.com/reworkd/AgentGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentgpt",
+      "agents",
+      "agi",
+      "ai",
+      "module-level",
+      "source",
+      "db"
+    ],
+    "genes": [
+      {
+        "title": "db 模块说明",
+        "content": "模块路径: db/\n类型: source\n文件数: 2\n\n包含文件:\n- db/Dockerfile\n- db/setup.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "db 文件结构",
+        "content": "db/Dockerfile\ndb/setup.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321145125717049
+  },
+  {
+    "name": "AgentGPT/docs 模块",
+    "description": "[模块级] AgentGPT 项目的 docs 模块 (docs)。来源: https://github.com/reworkd/AgentGPT",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentgpt",
+      "agents",
+      "agi",
+      "ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 26\n\n包含文件:\n- docs/README.hu-Cs4K1Sr4C.md\n- docs/README.md\n- docs/README.zh-HANS.md\n- docs/developers\n- docs/developers/api-keys.mdx\n- docs/developers/file-downloads.mdx\n- docs/developers/sdk.mdx\n- docs/docs.json\n- docs/favicon.png\n- docs/features",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.hu-Cs4K1Sr4C.md\ndocs/README.md\ndocs/README.zh-HANS.md\ndocs/developers\ndocs/developers/api-keys.mdx\ndocs/developers/file-downloads.mdx\ndocs/developers/sdk.mdx\ndocs/docs.json\ndocs/favicon.png\ndocs/features\ndocs/features/deduplication.mdx\ndocs/features/exports\ndocs/features/exports/api-exports.mdx\ndocs/features/exports/bulk-exports.mdx\ndocs/features/exports/overview.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321145125717049
+  },
+  {
+    "name": "AgentGPT/next 模块",
+    "description": "[模块级] AgentGPT 项目的 next 模块 (source)。来源: https://github.com/reworkd/AgentGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentgpt",
+      "agents",
+      "agi",
+      "ai",
+      "module-level",
+      "source",
+      "next"
+    ],
+    "genes": [
+      {
+        "title": "next 模块说明",
+        "content": "模块路径: next/\n类型: source\n文件数: 129\n\n包含文件:\n- next/.dockerignore\n- next/.eslintrc.json\n- next/.gitignore\n- next/.husky\n- next/.husky/.gitignore\n- next/.husky/pre-commit\n- next/Dockerfile\n- next/__mocks__\n- next/__mocks__/matchMedia.mock.ts\n- next/__tests__",
+        "gene_type": "principle"
+      },
+      {
+        "title": "next 文件结构",
+        "content": "next/.dockerignore\nnext/.eslintrc.json\nnext/.gitignore\nnext/.husky\nnext/.husky/.gitignore\nnext/.husky/pre-commit\nnext/Dockerfile\nnext/__mocks__\nnext/__mocks__/matchMedia.mock.ts\nnext/__tests__\nnext/__tests__/message-service.test.ts\nnext/__tests__/stripe.sh\nnext/__tests__/whitespace.test.ts\nnext/__tests__/with-retries.test.ts\nnext/entrypoint.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321145125717049
+  }
+]

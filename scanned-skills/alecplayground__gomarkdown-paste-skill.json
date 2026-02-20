@@ -1,0 +1,67 @@
+[
+  {
+    "name": "gomarkdown-paste-skill (alecplayground)",
+    "description": "[项目级] Agent skill for creating markdown pastes on gomarkdown.online. Compatible with Claude Code, Codex CLI, and other SKILL.md agents.。来源: https://github.com/alecplayground/gomarkdown-paste-skill",
+    "domain": "devops",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "stars-3",
+      "github-alecplayground",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent skill for creating markdown pastes on gomarkdown.online. Compatible with Claude Code, Codex CLI, and other SKILL.md agents.\n\n来源: https://github.com/alecplayground/gomarkdown-paste-skill\n语言: unknown\nStars: 3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nskills\nskills/creating-gomarkdown-paste",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2385606273598313
+  },
+  {
+    "name": "gomarkdown-paste-skill/skills 模块",
+    "description": "[模块级] gomarkdown-paste-skill 项目的 skills 模块 (source)。来源: https://github.com/alecplayground/gomarkdown-paste-skill",
+    "domain": "devops",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 2\n\n包含文件:\n- skills/creating-gomarkdown-paste\n- skills/creating-gomarkdown-paste/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/creating-gomarkdown-paste\nskills/creating-gomarkdown-paste/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  }
+]

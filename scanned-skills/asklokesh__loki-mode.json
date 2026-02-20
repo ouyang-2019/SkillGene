@@ -1,0 +1,233 @@
+[
+  {
+    "name": "loki-mode (asklokesh)",
+    "description": "[项目级] Multi-agent provider agnostic Autonomous system & framework that WORKS..!。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "python",
+      "stars-637",
+      "github-asklokesh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build a todo app with AI-powered task suggestions and deadline predictions.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "404.html\nCHANGELOG.md\nCLAUDE.md\nCODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDOCKER_README.md\nDockerfile\nDockerfile.sandbox\nLICENSE\nREADME.md\nSKILL.md\nVERSION\naction.yml\nagent-skills\nagent-skills/README.md\nagent-skills/checkpoint-mode\nagent-skills/prompt-optimization\napi-examples\napi-examples/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "loki start --provider claude ./my-prd.md",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.402069716167675
+  },
+  {
+    "name": "loki-mode/agent-skills 模块",
+    "description": "[模块级] loki-mode 项目的 agent-skills 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "agent-skills"
+    ],
+    "genes": [
+      {
+        "title": "agent-skills 模块说明",
+        "content": "模块路径: agent-skills/\n类型: source\n文件数: 5\n\n包含文件:\n- agent-skills/README.md\n- agent-skills/checkpoint-mode\n- agent-skills/checkpoint-mode/SKILL.md\n- agent-skills/prompt-optimization\n- agent-skills/prompt-optimization/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-skills 文件结构",
+        "content": "agent-skills/README.md\nagent-skills/checkpoint-mode\nagent-skills/checkpoint-mode/SKILL.md\nagent-skills/prompt-optimization\nagent-skills/prompt-optimization/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  },
+  {
+    "name": "loki-mode/api-examples 模块",
+    "description": "[模块级] loki-mode 项目的 api-examples 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "api-examples"
+    ],
+    "genes": [
+      {
+        "title": "api-examples 模块说明",
+        "content": "模块路径: api-examples/\n类型: source\n文件数: 5\n\n包含文件:\n- api-examples/README.md\n- api-examples/bash-api.sh\n- api-examples/deno-api.ts\n- api-examples/node-api.js\n- api-examples/python-api.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api-examples 文件结构",
+        "content": "api-examples/README.md\napi-examples/bash-api.sh\napi-examples/deno-api.ts\napi-examples/node-api.js\napi-examples/python-api.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  },
+  {
+    "name": "loki-mode/api 模块",
+    "description": "[模块级] loki-mode 项目的 api 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 32\n\n包含文件:\n- api/README.md\n- api/client.ts\n- api/middleware\n- api/middleware/auth.ts\n- api/middleware/cors.ts\n- api/middleware/error.ts\n- api/middleware/timing.ts\n- api/mod.ts\n- api/openapi.yaml\n- api/routes",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/README.md\napi/client.ts\napi/middleware\napi/middleware/auth.ts\napi/middleware/cors.ts\napi/middleware/error.ts\napi/middleware/timing.ts\napi/mod.ts\napi/openapi.yaml\napi/routes\napi/routes/events.ts\napi/routes/health.ts\napi/routes/learning.ts\napi/routes/learning_test.ts\napi/routes/memory.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  },
+  {
+    "name": "loki-mode/assets 模块",
+    "description": "[模块级] loki-mode 项目的 assets 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/lokesh_brand_full.png\n- assets/publisher-icon-128.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/lokesh_brand_full.png\nassets/publisher-icon-128.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  },
+  {
+    "name": "loki-mode/autonomy 模块",
+    "description": "[模块级] loki-mode 项目的 autonomy 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "autonomy"
+    ],
+    "genes": [
+      {
+        "title": "autonomy 模块说明",
+        "content": "Customize the autonomous runner with environment variables:\n\n```bash\nLOKI_MAX_RETRIES=100 \\\nLOKI_BASE_WAIT=120 \\\nLOKI_MAX_WAIT=7200 \\\n./autonomy/run.sh ./docs/requirements.md\n```\n\n| Variable | Default | Description |\n|----------|---------|-------------|\n| `LOKI_PROVIDER` | claude | AI provider: claude, codex, gemini |\n| `LOKI_MAX_RETRIES` | 50 | Maximum retry attempts before giving up |\n| `LOKI_BASE_WAIT` | 60 | Base wait time in seconds |\n| `LOKI_MAX_WAIT` | 3600 | Maximum wait time (1 hour) |\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autonomy 文件结构",
+        "content": "autonomy/CONSTITUTION.md\nautonomy/NOTIFY_INTEGRATION.md\nautonomy/README.md\nautonomy/api-server.js\nautonomy/app-runner.sh\nautonomy/checklist-verify.py\nautonomy/completion-council.sh\nautonomy/config.example.yaml\nautonomy/context-tracker.py\nautonomy/hooks\nautonomy/hooks/quality-gate.sh\nautonomy/hooks/session-init.sh\nautonomy/hooks/store-episode.sh\nautonomy/hooks/track-metrics.sh\nautonomy/hooks/validate-bash.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "autonomy 代码示例",
+        "content": "LOKI_MAX_RETRIES=100 \\\nLOKI_BASE_WAIT=120 \\\nLOKI_MAX_WAIT=7200 \\\n./autonomy/run.sh ./docs/requirements.md",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  },
+  {
+    "name": "loki-mode/benchmarks 模块",
+    "description": "[模块级] loki-mode 项目的 benchmarks 模块 (source)。来源: https://github.com/asklokesh/loki-mode",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "autonomous",
+      "ci-cd",
+      "claude",
+      "code-review",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 90\n\n包含文件:\n- benchmarks/datasets\n- benchmarks/datasets/humaneval.jsonl\n- benchmarks/datasets/swebench-lite.json\n- benchmarks/embedding-benchmark.py\n- benchmarks/prepare-submission.sh\n- benchmarks/results\n- benchmarks/results/2026-01-05-00-23-56\n- benchmarks/results/2026-01-05-00-23-56/SUMMARY.md\n- benchmarks/results/2026-01-05-00-23-56/humaneval-results.json\n- benchmarks/results/2026-01-05-00-23-56/swebench-results.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/datasets\nbenchmarks/datasets/humaneval.jsonl\nbenchmarks/datasets/swebench-lite.json\nbenchmarks/embedding-benchmark.py\nbenchmarks/prepare-submission.sh\nbenchmarks/results\nbenchmarks/results/2026-01-05-00-23-56\nbenchmarks/results/2026-01-05-00-23-56/SUMMARY.md\nbenchmarks/results/2026-01-05-00-23-56/humaneval-results.json\nbenchmarks/results/2026-01-05-00-23-56/swebench-results.json\nbenchmarks/results/2026-01-05-00-49-17\nbenchmarks/results/2026-01-05-00-49-17/SUMMARY.md\nbenchmarks/results/2026-01-05-00-49-17/humaneval-results.json\nbenchmarks/results/2026-01-05-00-49-17/humaneval-solutions\nbenchmarks/results/2026-01-05-00-49-17/humaneval-solutions/0.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6216557729341403
+  }
+]

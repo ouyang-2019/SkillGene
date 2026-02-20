@@ -1,0 +1,133 @@
+[
+  {
+    "name": "tuui (AI-QL)",
+    "description": "[项目级] A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration.。来源: https://github.com/AI-QL/tuui",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-playground",
+      "anthropic",
+      "typescript",
+      "stars-1126",
+      "github-ai-ql",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[![](https://camo.githubusercontent.com/077907eb137aa9b2d46ca4af30b77714cb69225eb8be49ad89f3e0ae668c90ca/68747470733a2f2f62616467652e6d6370782e6465763f747970653d636c69656e74)](https://modelcontextprotocol.io/clients#aiql-tuui) [![](https://img.shields.io/badge/Vue3-brightgreen.svg)](https://vuejs.org) [![](https://img.shields.io/badge/Vuetify-blue.svg)](https://vuetifyjs.com) [![LICENSE](https://img.shields.io/github/license/AI-QL/tuui)](https://github.com/AI-QL/tuui/blob/main/LICENSE) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AI-QL/tuui)\n\nThis repository is essentially an **LLM chat desktop application based on MCP**. It also represents a bold experiment in **creating a complete project using AI**. Many components within the project have been directly converte",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can quickly get started with the project through a variety of options tailored to your role and needs:\n\n- To `explore` the project, visit the wiki page: [TUUI.com](https://www.tuui.com)\n\n- To `download` and use the application directly, go to the releases page: [Releases](https://github.com/AI-QL/tuui/releases/latest)\n\n- For `developer` setup, refer to the installation guide: [Getting Started (English)](docs/src/en/installation-and-build/getting-started.md) | [快速入门 (中文)](docs/src/zhHans/installation-and-build/getting-started.md)\n\n- To `ask the AI` directly about the project, visit: [TUUI@D",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nbuildAssets\nbuildAssets/builder\nbuildAssets/icons\ndocs\ndocs/.gitignore\ndocs/.nvmrc\ndocs/package-lock.json\ndocs/package.json\ndocs/src\ndocs/tsconfig.json\neslint.config.mjs\nnpmrc.template\npackage-lock.json\npackage.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Status | Feature | Category | Note |\n| --- | --- | --- | --- |\n| ✅ | [Tools](https://modelcontextprotocol.io/specification/latest/server/tools) | Server |  |\n| ✅ | [Prompts](https://modelcontextprotocol.io/specification/latest/server/prompts) | Server |  |\n| ✅ | [Resources](https://modelcontextprotocol.io/specification/latest/server/resources) | Server |  |\n| 🔲 | [Roots](https://modelcontextprotocol.io/specification/latest/client/roots) | Client | This is generally only used for the Vibe Coding IDE and can typically be configured through server environment variables. |\n| ✅ | [Sampling](http",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.525769195257664
+  },
+  {
+    "name": "tuui/buildAssets 模块",
+    "description": "[模块级] tuui 项目的 buildAssets 模块 (source)。来源: https://github.com/AI-QL/tuui",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-playground",
+      "anthropic",
+      "module-level",
+      "source",
+      "buildassets"
+    ],
+    "genes": [
+      {
+        "title": "buildAssets 模块说明",
+        "content": "模块路径: buildAssets/\n类型: source\n文件数: 6\n\n包含文件:\n- buildAssets/builder\n- buildAssets/builder/config.js\n- buildAssets/icons\n- buildAssets/icons/icon.icns\n- buildAssets/icons/icon.ico\n- buildAssets/icons/icon.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "buildAssets 文件结构",
+        "content": "buildAssets/builder\nbuildAssets/builder/config.js\nbuildAssets/icons\nbuildAssets/icons/icon.icns\nbuildAssets/icons/icon.ico\nbuildAssets/icons/icon.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.720615356206131
+  },
+  {
+    "name": "tuui/docs 模块",
+    "description": "[模块级] tuui 项目的 docs 模块 (docs)。来源: https://github.com/AI-QL/tuui",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-playground",
+      "anthropic",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 48\n\n包含文件:\n- docs/.gitignore\n- docs/.nvmrc\n- docs/package-lock.json\n- docs/package.json\n- docs/src\n- docs/src/.vitepress\n- docs/src/.vitepress/config.mts\n- docs/src/en\n- docs/src/en/electron-how-to\n- docs/src/en/electron-how-to/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.nvmrc\ndocs/package-lock.json\ndocs/package.json\ndocs/src\ndocs/src/.vitepress\ndocs/src/.vitepress/config.mts\ndocs/src/en\ndocs/src/en/electron-how-to\ndocs/src/en/electron-how-to/index.md\ndocs/src/en/electron-how-to/main-and-renderer-process.md\ndocs/src/en/electron-how-to/preload-script.md\ndocs/src/en/index.md\ndocs/src/en/installation-and-build\ndocs/src/en/installation-and-build/automated-testing.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.720615356206131
+  },
+  {
+    "name": "tuui/src 模块",
+    "description": "[模块级] tuui 项目的 src 模块 (source)。来源: https://github.com/AI-QL/tuui",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "ai-playground",
+      "anthropic",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 112\n\n包含文件:\n- src/main\n- src/main/IPCs.ts\n- src/main/MainRunner.ts\n- src/main/aid\n- src/main/aid/automation.ts\n- src/main/aid/automator.ts\n- src/main/aid/commander.ts\n- src/main/aid/commands.ts\n- src/main/aid/config.ts\n- src/main/aid/index.d.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/IPCs.ts\nsrc/main/MainRunner.ts\nsrc/main/aid\nsrc/main/aid/automation.ts\nsrc/main/aid/automator.ts\nsrc/main/aid/commander.ts\nsrc/main/aid/commands.ts\nsrc/main/aid/config.ts\nsrc/main/aid/index.d.ts\nsrc/main/aid/index.ts\nsrc/main/aid/macos.ts\nsrc/main/aid/nut.ts\nsrc/main/aid/shortcuts.ts\nsrc/main/aid/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.720615356206131
+  }
+]

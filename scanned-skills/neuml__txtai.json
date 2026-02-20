@@ -1,0 +1,128 @@
+[
+  {
+    "name": "txtai (neuml)",
+    "description": "[项目级] 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows。来源: https://github.com/neuml/txtai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "embeddings",
+      "information-retrieval",
+      "python",
+      "stars-12175",
+      "github-neuml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows\n\n来源: https://github.com/neuml/txtai\n语言: Python\nStars: 12175",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install txtai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nMakefile\nREADME.md\napps.jpg\ndemo.gif\ndocker\ndocker/api\ndocker/aws\ndocker/base\ndocker/schedule\ndocker/workflow\ndocs\ndocs/agent\ndocs/api\ndocs/cloud.md\ndocs/embeddings\ndocs/examples.md\ndocs/faq.md\ndocs/further.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "txtai/docker 模块",
+    "description": "[模块级] txtai 项目的 docker 模块 (source)。来源: https://github.com/neuml/txtai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "embeddings",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 12\n\n包含文件:\n- docker/api\n- docker/api/Dockerfile\n- docker/aws\n- docker/aws/Dockerfile\n- docker/aws/api.py\n- docker/aws/workflow.py\n- docker/base\n- docker/base/Dockerfile\n- docker/schedule\n- docker/schedule/Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/api\ndocker/api/Dockerfile\ndocker/aws\ndocker/aws/Dockerfile\ndocker/aws/api.py\ndocker/aws/workflow.py\ndocker/base\ndocker/base/Dockerfile\ndocker/schedule\ndocker/schedule/Dockerfile\ndocker/workflow\ndocker/workflow/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.134187587954669
+  },
+  {
+    "name": "txtai/docs 模块",
+    "description": "[模块级] txtai 项目的 docs 模块 (docs)。来源: https://github.com/neuml/txtai",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "embeddings",
+      "information-retrieval",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 155\n\n包含文件:\n- docs/agent\n- docs/agent/configuration.md\n- docs/agent/index.md\n- docs/agent/methods.md\n- docs/api\n- docs/api/cluster.md\n- docs/api/configuration.md\n- docs/api/customization.md\n- docs/api/index.md\n- docs/api/mcp.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent\ndocs/agent/configuration.md\ndocs/agent/index.md\ndocs/agent/methods.md\ndocs/api\ndocs/api/cluster.md\ndocs/api/configuration.md\ndocs/api/customization.md\ndocs/api/index.md\ndocs/api/mcp.md\ndocs/api/methods.md\ndocs/api/openai.md\ndocs/api/security.md\ndocs/cloud.md\ndocs/embeddings",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.134187587954669
+  },
+  {
+    "name": "txtai/examples 模块",
+    "description": "[模块级] txtai 项目的 examples 模块 (example)。来源: https://github.com/neuml/txtai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "embeddings",
+      "information-retrieval",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 15\n\n包含文件:\n- examples/01_Introducing_txtai.ipynb\n- examples/02_Build_an_Embeddings_index_with_Hugging_Face_Datasets.ipynb\n- examples/03_Build_an_Embeddings_index_from_a_data_source.ipynb\n- examples/04_Add_semantic_search_to_Elasticsearch.ipynb\n- examples/05_Extractive_QA_with_txtai.ipynb\n- examples/06_Extractive_QA_with_Elasticsearch.ipynb\n- examples/07_Apply_labels_with_zero_shot_classification.ipynb\n- examples/08_API_Gallery.ipynb\n- examples/09_Building_abstractive_text_summaries.ipynb\n- examples/10_Extract_text_from_documents.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/01_Introducing_txtai.ipynb\nexamples/02_Build_an_Embeddings_index_with_Hugging_Face_Datasets.ipynb\nexamples/03_Build_an_Embeddings_index_from_a_data_source.ipynb\nexamples/04_Add_semantic_search_to_Elasticsearch.ipynb\nexamples/05_Extractive_QA_with_txtai.ipynb\nexamples/06_Extractive_QA_with_Elasticsearch.ipynb\nexamples/07_Apply_labels_with_zero_shot_classification.ipynb\nexamples/08_API_Gallery.ipynb\nexamples/09_Building_abstractive_text_summaries.ipynb\nexamples/10_Extract_text_from_documents.ipynb\nexamples/11_Transcribe_audio_to_text.ipynb\nexamples/12_Translate_text_between_languages.ipynb\nexamples/13_Similarity_search_with_images.ipynb\nexamples/14_Run_pipeline_workflows.ipynb\nexamples/15_Distributed_embeddings_cluster.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.134187587954669
+  }
+]

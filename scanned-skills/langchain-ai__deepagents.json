@@ -1,0 +1,92 @@
+[
+  {
+    "name": "deepagents (langchain-ai)",
+    "description": "[项目级] Deep Agents is an agent harness built on langchain and langgraph. Deep Agents are equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - making them well-equipped to handle complex agentic tasks.。来源: https://github.com/langchain-ai/deepagents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "deepagents",
+      "langchain",
+      "langgraph",
+      "python",
+      "stars-9438",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Deep Agents is an agent harness built on langchain and langgraph. Deep Agents are equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - making them well-equipped to handle complex agentic tasks.\n\n来源: https://github.com/langchain-ai/deepagents\n语言: Python\nStars: 9438",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nMakefile\nREADME.md\nexamples\nexamples/README.md\nexamples/content-builder-agent\nexamples/da-examples-cover.png\nexamples/deep_research\nexamples/downloading_agents\nexamples/ralph_mode\nexamples/text-to-sql-agent\nlibs\nlibs/acp\nlibs/cli",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.987439986503466
+  },
+  {
+    "name": "deepagents/examples 模块",
+    "description": "[模块级] deepagents 项目的 examples 模块 (example)。来源: https://github.com/langchain-ai/deepagents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "deepagents",
+      "langchain",
+      "langgraph",
+      "python",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 49\n\n包含文件:\n- examples/README.md\n- examples/content-builder-agent\n- examples/content-builder-agent/.gitignore\n- examples/content-builder-agent/AGENTS.md\n- examples/content-builder-agent/README.md\n- examples/content-builder-agent/content_writer.py\n- examples/content-builder-agent/pyproject.toml\n- examples/content-builder-agent/skills\n- examples/content-builder-agent/skills/blog-post\n- examples/content-builder-agent/skills/blog-post/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/content-builder-agent\nexamples/content-builder-agent/.gitignore\nexamples/content-builder-agent/AGENTS.md\nexamples/content-builder-agent/README.md\nexamples/content-builder-agent/content_writer.py\nexamples/content-builder-agent/pyproject.toml\nexamples/content-builder-agent/skills\nexamples/content-builder-agent/skills/blog-post\nexamples/content-builder-agent/skills/blog-post/SKILL.md\nexamples/content-builder-agent/skills/social-media\nexamples/content-builder-agent/skills/social-media/SKILL.md\nexamples/content-builder-agent/subagents.yaml\nexamples/content-builder-agent/uv.lock\nexamples/da-examples-cover.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.089951989202772
+  },
+  {
+    "name": "deepagents/libs 模块",
+    "description": "[模块级] deepagents 项目的 libs 模块 (source)。来源: https://github.com/langchain-ai/deepagents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "deepagents",
+      "langchain",
+      "langgraph",
+      "python",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 102\n\n包含文件:\n- libs/acp\n- libs/acp/.env.example\n- libs/acp/Makefile\n- libs/acp/README.md\n- libs/acp/deepagents_acp\n- libs/acp/deepagents_acp/__init__.py\n- libs/acp/deepagents_acp/__main__.py\n- libs/acp/deepagents_acp/py.typed.py\n- libs/acp/deepagents_acp/server.py\n- libs/acp/deepagents_acp/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/acp\nlibs/acp/.env.example\nlibs/acp/Makefile\nlibs/acp/README.md\nlibs/acp/deepagents_acp\nlibs/acp/deepagents_acp/__init__.py\nlibs/acp/deepagents_acp/__main__.py\nlibs/acp/deepagents_acp/py.typed.py\nlibs/acp/deepagents_acp/server.py\nlibs/acp/deepagents_acp/utils.py\nlibs/acp/examples\nlibs/acp/examples/demo_agent.py\nlibs/acp/pyproject.toml\nlibs/acp/run_demo_agent.sh\nlibs/acp/static",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.089951989202772
+  }
+]

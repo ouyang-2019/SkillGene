@@ -1,0 +1,103 @@
+[
+  {
+    "name": "oceanbase (oceanbase)",
+    "description": "[项目级] The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads.。来源: https://github.com/oceanbase/oceanbase",
+    "domain": "database",
+    "tags": [
+      "analytics",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "fulltext",
+      "c++",
+      "stars-9979",
+      "github-oceanbase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads.\n\n来源: https://github.com/oceanbase/oceanbase\n语言: C++\nStars: 9979",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "See also [Quick experience](https://en.oceanbase.com/docs/community-observer-en-10000000000829647) or [Quick Start (Simplified Chinese)](https://open.oceanbase.com/quickStart) for more details.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\nREADME_CN.md\nREADME_JA.md\nasan_ignore_list.txt\nbuild.sh\ncmake\ncmake/DEB.cmake\ncmake/Env.cmake\ncmake/Err.cmake\ncmake/Pack.cmake\ncmake/RPM.cmake\ncmake/Utils.cmake\ncmake/script\ndeps\ndeps/easy",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Vector Search**: Supports vector indexing and efficient queries, making it ideal for AI applications, recommendation systems, and semantic search, providing high throughput and low-latency vector search capabilities.\n- **Transparent Scalability**: 1,500 nodes, PB data and a trillion rows of records in one cluster.\n- **Ultra-fast Performance**: TPC-C 707 million tmpC and TPC-H 15.26 million QphH @30000GB.\n- **Cost Efficiency**: saves 70%–90% of storage costs.\n- **Real-time Analytics**: supports HTAP without additional cost. \n- **Continuous Availability**: RPO = 0(zero data loss) and RTO < 8",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.999543511312944
+  },
+  {
+    "name": "oceanbase/cmake 模块",
+    "description": "[模块级] oceanbase 项目的 cmake 模块 (source)。来源: https://github.com/oceanbase/oceanbase",
+    "domain": "database",
+    "tags": [
+      "analytics",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "fulltext",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 9\n\n包含文件:\n- cmake/DEB.cmake\n- cmake/Env.cmake\n- cmake/Err.cmake\n- cmake/Pack.cmake\n- cmake/RPM.cmake\n- cmake/Utils.cmake\n- cmake/script\n- cmake/script/bitcode_to_elfobj\n- cmake/script/merge_extra",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/DEB.cmake\ncmake/Env.cmake\ncmake/Err.cmake\ncmake/Pack.cmake\ncmake/RPM.cmake\ncmake/Utils.cmake\ncmake/script\ncmake/script/bitcode_to_elfobj\ncmake/script/merge_extra",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099634809050356
+  },
+  {
+    "name": "oceanbase/deps 模块",
+    "description": "[模块级] oceanbase 项目的 deps 模块 (source)。来源: https://github.com/oceanbase/oceanbase",
+    "domain": "database",
+    "tags": [
+      "analytics",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "fulltext",
+      "module-level",
+      "source",
+      "deps"
+    ],
+    "genes": [
+      {
+        "title": "deps 模块说明",
+        "content": "模块路径: deps/\n类型: source\n文件数: 154\n\n包含文件:\n- deps/easy\n- deps/easy/CMakeLists.txt\n- deps/easy/doc\n- deps/easy/doc/README.txt\n- deps/easy/src\n- deps/easy/src/CMakeLists.txt\n- deps/easy/src/include\n- deps/easy/src/include/easy_atomic.h\n- deps/easy/src/include/easy_define.h\n- deps/easy/src/include/easy_list.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deps 文件结构",
+        "content": "deps/easy\ndeps/easy/CMakeLists.txt\ndeps/easy/doc\ndeps/easy/doc/README.txt\ndeps/easy/src\ndeps/easy/src/CMakeLists.txt\ndeps/easy/src/include\ndeps/easy/src/include/easy_atomic.h\ndeps/easy/src/include/easy_define.h\ndeps/easy/src/include/easy_list.h\ndeps/easy/src/io\ndeps/easy/src/io/CMakeLists.txt\ndeps/easy/src/io/easy_baseth_pool.c\ndeps/easy/src/io/easy_baseth_pool.h\ndeps/easy/src/io/easy_client.c",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099634809050356
+  }
+]

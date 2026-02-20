@@ -1,0 +1,168 @@
+[
+  {
+    "name": "MARM-Systems (Lyellr88)",
+    "description": "[项目级] Turn AI into a persistent, memory-powered collaborator. Universal MCP Server (supports HTTP, STDIO, and WebSocket) enabling cross-platform AI memory, multi-agent coordination, and context sharing. Built with MARM protocol for structured reasoning that evolves with your work.。来源: https://github.com/Lyellr88/MARM-Systems",
+    "domain": "backend",
+    "tags": [
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "docker-image",
+      "embeddings",
+      "python",
+      "stars-249",
+      "github-lyellr88",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Turn AI into a persistent, memory-powered collaborator. Universal MCP Server (supports HTTP, STDIO, and WebSocket) enabling cross-platform AI memory, multi-agent coordination, and context sharing. Built with MARM protocol for structured reasoning that evolves with your work.\n\n来源: https://github.com/Lyellr88/MARM-Systems\n语言: Python\nStars: 249",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<https://github.com/user-attachments/assets/c7c6a162-5408-4eda-a461-610b7e713dfe>\n\nThis demo video walks through a Docker pull of MARM MCP and connecting it to Claude using the claude add mcp transport command and then shows multiple AI agents (Claude, Gemini, Qwen) instantly sharing logs and notebook entries via MARM’s persistent, universal memory proving seamless cross-agent recall and “absolute truth” notebooks in action.\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMARM-HANDBOOK.md\nMCP-HANDBOOK.md\nPROTOCOL.md\nREADME.md\ndocs\ndocs/CHANGELOG.md\ndocs/CHATBOT-SETUP.md\ndocs/CONTRIBUTING.md\ndocs/DESCRIPTION.md\ndocs/FAQ.md\ndocs/INSTALL-DOCKER.md\ndocs/INSTALL-LINUX.md\ndocs/INSTALL-PLATFORMS.md\ndocs/INSTALL-WINDOWS.md\ndocs/ROADMAP.md\nmarm-mcp-server\nmarm-mcp-server/.gitignore\nmarm-mcp-server/Dockerfile\nmarm-mcp-server/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This project is licensed under the MIT License. Forks and derivative works are permitted.  \n\nHowever, use of the **MARM name** and **version numbering** is reserved for releases from the [official MARM repository](https://github.com/Lyellr88/MARM-Systems).\n\nDerivatives should clearly indicate they are unofficial or experimental.\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Real-time communication** - Full-duplex WebSocket protocol support\n- **JSON-RPC 2.0 compliance** - All 19 MCP methods supported\n- **Same tool coverage** - Access all MARM memory and session tools\n- **Beta status** - Tested but not actively used; feedback welcome",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.198099673547868
+  },
+  {
+    "name": "MARM-Systems/docs 模块",
+    "description": "[模块级] MARM-Systems 项目的 docs 模块 (docs)。来源: https://github.com/Lyellr88/MARM-Systems",
+    "domain": "documentation",
+    "tags": [
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "docker-image",
+      "embeddings",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 10\n\n包含文件:\n- docs/CHANGELOG.md\n- docs/CHATBOT-SETUP.md\n- docs/CONTRIBUTING.md\n- docs/DESCRIPTION.md\n- docs/FAQ.md\n- docs/INSTALL-DOCKER.md\n- docs/INSTALL-LINUX.md\n- docs/INSTALL-PLATFORMS.md\n- docs/INSTALL-WINDOWS.md\n- docs/ROADMAP.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CHANGELOG.md\ndocs/CHATBOT-SETUP.md\ndocs/CONTRIBUTING.md\ndocs/DESCRIPTION.md\ndocs/FAQ.md\ndocs/INSTALL-DOCKER.md\ndocs/INSTALL-LINUX.md\ndocs/INSTALL-PLATFORMS.md\ndocs/INSTALL-WINDOWS.md\ndocs/ROADMAP.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4584797388382946
+  },
+  {
+    "name": "MARM-Systems/marm-mcp-server 模块",
+    "description": "[模块级] MARM-Systems 项目的 marm-mcp-server 模块 (source)。来源: https://github.com/Lyellr88/MARM-Systems",
+    "domain": "backend",
+    "tags": [
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "docker-image",
+      "embeddings",
+      "module-level",
+      "source",
+      "marm-mcp-server"
+    ],
+    "genes": [
+      {
+        "title": "marm-mcp-server 模块说明",
+        "content": "模块路径: marm-mcp-server/\n类型: source\n文件数: 112\n\n包含文件:\n- marm-mcp-server/.gitignore\n- marm-mcp-server/Dockerfile\n- marm-mcp-server/README.md\n- marm-mcp-server/__init__.py\n- marm-mcp-server/config\n- marm-mcp-server/config/__init__.py\n- marm-mcp-server/config/settings.py\n- marm-mcp-server/core\n- marm-mcp-server/core/__init__.py\n- marm-mcp-server/core/events.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "marm-mcp-server 文件结构",
+        "content": "marm-mcp-server/.gitignore\nmarm-mcp-server/Dockerfile\nmarm-mcp-server/README.md\nmarm-mcp-server/__init__.py\nmarm-mcp-server/config\nmarm-mcp-server/config/__init__.py\nmarm-mcp-server/config/settings.py\nmarm-mcp-server/core\nmarm-mcp-server/core/__init__.py\nmarm-mcp-server/core/events.py\nmarm-mcp-server/core/memory.py\nmarm-mcp-server/core/models.py\nmarm-mcp-server/core/rate_limiter.py\nmarm-mcp-server/core/response_limiter.py\nmarm-mcp-server/core/shutdown_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4584797388382946
+  },
+  {
+    "name": "MARM-Systems/media 模块",
+    "description": "[模块级] MARM-Systems 项目的 media 模块 (source)。来源: https://github.com/Lyellr88/MARM-Systems",
+    "domain": "backend",
+    "tags": [
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "docker-image",
+      "embeddings",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 13\n\n包含文件:\n- media/Reddit Community Feedback 1.jpg\n- media/Reddit Community Feedback 2.jpg\n- media/chatbot-dark.png\n- media/chatbot-light.png\n- media/feature-showcase.svg\n- media/google-overview.png\n- media/installation-flow.svg\n- media/marm-difference.png\n- media/marm-features.png\n- media/marm-flowchart.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/Reddit Community Feedback 1.jpg\nmedia/Reddit Community Feedback 2.jpg\nmedia/chatbot-dark.png\nmedia/chatbot-light.png\nmedia/feature-showcase.svg\nmedia/google-overview.png\nmedia/installation-flow.svg\nmedia/marm-difference.png\nmedia/marm-features.png\nmedia/marm-flowchart.png\nmedia/marm-logo.svg\nmedia/marm-main.jpg\nmedia/memory-intelligence.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4584797388382946
+  },
+  {
+    "name": "MARM-Systems/webchat 模块",
+    "description": "[模块级] MARM-Systems 项目的 webchat 模块 (source)。来源: https://github.com/Lyellr88/MARM-Systems",
+    "domain": "backend",
+    "tags": [
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "docker-image",
+      "embeddings",
+      "module-level",
+      "source",
+      "webchat"
+    ],
+    "genes": [
+      {
+        "title": "webchat 模块说明",
+        "content": "模块路径: webchat/\n类型: source\n文件数: 52\n\n包含文件:\n- webchat/.github\n- webchat/.github/workflows\n- webchat/.gitignore\n- webchat/babel.config.js\n- webchat/data\n- webchat/data/chatbotreadme.md\n- webchat/data/description.md\n- webchat/data/faq.md\n- webchat/data/handbook.md\n- webchat/data/marmreadme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "webchat 文件结构",
+        "content": "webchat/.github\nwebchat/.github/workflows\nwebchat/.gitignore\nwebchat/babel.config.js\nwebchat/data\nwebchat/data/chatbotreadme.md\nwebchat/data/description.md\nwebchat/data/faq.md\nwebchat/data/handbook.md\nwebchat/data/marmreadme.md\nwebchat/data/roadmap.md\nwebchat/index.html\nwebchat/jest.setup.js\nwebchat/package-lock.json\nwebchat/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4584797388382946
+  }
+]

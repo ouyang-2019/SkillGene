@@ -1,0 +1,108 @@
+[
+  {
+    "name": "agent-squad (awslabs)",
+    "description": "[项目级] Flexible and powerful framework for managing multiple AI agents and handling complex conversations。来源: https://github.com/awslabs/agent-squad",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "anthropic",
+      "python",
+      "stars-7448",
+      "github-awslabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations\n\n来源: https://github.com/awslabs/agent-squad\n语言: Python\nStars: 7448",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get hands-on experience with the Agent Squad through our diverse set of examples:\n\n- **Demo Applications**:\n  - [Streamlit Global Demo](https://github.com/awslabs/agent-squad/tree/main/examples/python): A single Streamlit application showcasing multiple demos, including:\n    - AI Movie Production Studio\n    - AI Travel Planner\n  - [Chat Demo App](https://awslabs.github.io/agent-squad/cookbook/examples/chat-demo-app/):\n    - Explore multiple specialized agents handling various domains like travel, weather, math, and health\n  - [E-commerce Support Simulator](https://awslabs.github.io/agent-squad",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/astro.config.mjs\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/src\ndocs/tsconfig.json\nexamples\nexamples/bedrock-flows\nexamples/bedrock-inline-agents\nexamples/bedrock-prompt-routing\nexamples/chat-chainlit-app\nexamples/chat-demo-app",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Get hands-on experience with the Agent Squad through our diverse set of examples:\n\n- **Demo Applications**:\n  - [Streamlit Global Demo](https://github.com/awslabs/agent-squad/tree/main/examples/python): A single Streamlit application showcasing multiple demos, including:\n    - AI Movie Production Studio\n    - AI Travel Planner\n  - [Chat Demo App](https://awslabs.github.io/agent-squad/cookbook/examples/chat-demo-app/):\n    - Explore multiple specialized agents handling various domains like travel, weather, math, and health\n  - [E-commerce Support Simulator](https://awslabs.github.io/agent-squad",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🧠 **Intelligent intent classification** — Dynamically route queries to the most suitable agent based on context and content.\n- 🔤 **Dual language support** — Fully implemented in both **Python** and **TypeScript**.\n- 🌊 **Flexible agent responses** — Support for both streaming and non-streaming responses from different agents.\n- 📚 **Context management** — Maintain and utilize conversation context across multiple agents for coherent interactions.\n- 🔧 **Extensible architecture** — Easily integrate new agents or customize existing ones to fit your specific needs.\n- 🌐 **Universal deployment*",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.936019833986643
+  },
+  {
+    "name": "agent-squad/docs 模块",
+    "description": "[模块级] agent-squad 项目的 docs 模块 (docs)。来源: https://github.com/awslabs/agent-squad",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "anthropic",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 103\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/astro.config.mjs\n- docs/package-lock.json\n- docs/package.json\n- docs/public\n- docs/public/ai-powered_e-commerce_support_simulator.png\n- docs/public/ai_e-commerce_support_system.jpg\n- docs/public/chat-demo-app.png\n- docs/public/chat_mode.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/astro.config.mjs\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/public/ai-powered_e-commerce_support_simulator.png\ndocs/public/ai_e-commerce_support_system.jpg\ndocs/public/chat-demo-app.png\ndocs/public/chat_mode.png\ndocs/public/demo-app.gif\ndocs/public/email_mode.png\ndocs/public/flow-supervisor-direct.jpg\ndocs/public/flow-supervisor-orchestrator.jpg\ndocs/public/flow-supervisor.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.048815867189314
+  },
+  {
+    "name": "agent-squad/examples 模块",
+    "description": "[模块级] agent-squad 项目的 examples 模块 (example)。来源: https://github.com/awslabs/agent-squad",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "anthropic",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Get hands-on experience with the Agent Squad through our diverse set of examples:\n\n- **Demo Applications**:\n  - [Streamlit Global Demo](https://github.com/awslabs/agent-squad/tree/main/examples/python): A single Streamlit application showcasing multiple demos, including:\n    - AI Movie Production Studio\n    - AI Travel Planner\n  - [Chat Demo App](https://awslabs.github.io/agent-squad/cookbook/examples/chat-demo-app/):\n    - Explore multiple specialized agents handling various domains like travel",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/bedrock-flows\nexamples/bedrock-flows/prompt-config.png\nexamples/bedrock-flows/python\nexamples/bedrock-flows/python/main.py\nexamples/bedrock-flows/readme.md\nexamples/bedrock-flows/tech-agent-flow.png\nexamples/bedrock-flows/typescript\nexamples/bedrock-flows/typescript/main.ts\nexamples/bedrock-inline-agents\nexamples/bedrock-inline-agents/python\nexamples/bedrock-inline-agents/python/main.py\nexamples/bedrock-inline-agents/typescript\nexamples/bedrock-inline-agents/typescript/main.ts\nexamples/bedrock-prompt-routing\nexamples/bedrock-prompt-routing/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.048815867189314
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "name": "rs-graph-llm (a-agmon)",
+    "description": "[项目级] High-performance framework for building interactive multi-agent workflow systems in Rust。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "stars-245",
+      "github-a-agmon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "High-performance framework for building interactive multi-agent workflow systems in Rust\n\n来源: https://github.com/a-agmon/rs-graph-llm\n语言: Rust\nStars: 245",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "cargo add graph-flow",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCargo.toml\nLICENSE\nREADME.md\nexamples\nexamples/Cargo.toml\nexamples/complex_example.rs\nexamples/fanout_basic.rs\nexamples/recommendation_flow.rs\nexamples/simple_example.rs\nexamples/terminal_client.rs\ngraph-flow\ngraph-flow/Cargo.toml\ngraph-flow/README.md\ngraph-flow/src\nicon-llm-smaller.png\nimage.png\ninsurance-claims-service\ninsurance-claims-service/Cargo.toml\ninsurance-claims-service/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Real-world implementations showing how to build production systems:\n\n- **[`insurance-claims-service/`](insurance-claims-service/)** - Complete insurance workflow with:\n  - Multi-step claim processing with conditional routing\n  - LLM-driven natural language interactions  \n  - Human-in-the-loop approval for high-value claims\n  - Business rule validation and automated decision-making\n\n- **[`recommendation-service/`](recommendation-service/)** - RAG-based recommendation system featuring:\n  - Vector search integration for semantic matching\n  - Multi-step reasoning and context accumulation\n  - Struc",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.194583042182266
+  },
+  {
+    "name": "rs-graph-llm/examples 模块",
+    "description": "[模块级] rs-graph-llm 项目的 examples 模块 (example)。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Real-world implementations showing how to build production systems:\n\n- **[`insurance-claims-service/`](insurance-claims-service/)** - Complete insurance workflow with:\n  - Multi-step claim processing with conditional routing\n  - LLM-driven natural language interactions  \n  - Human-in-the-loop approval for high-value claims\n  - Business rule validation and automated decision-making\n\n- **[`recommendation-service/`](recommendation-service/)** - RAG-based recommendation system featuring:\n  - Vector ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/Cargo.toml\nexamples/complex_example.rs\nexamples/fanout_basic.rs\nexamples/recommendation_flow.rs\nexamples/simple_example.rs\nexamples/terminal_client.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.455666433745813
+  },
+  {
+    "name": "rs-graph-llm/graph-flow 模块",
+    "description": "[模块级] rs-graph-llm 项目的 graph-flow 模块 (source)。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "module-level",
+      "source",
+      "graph-flow"
+    ],
+    "genes": [
+      {
+        "title": "graph-flow 模块说明",
+        "content": "The beauty of **LangGraph** lies in its elegant combination of two powerful concepts:\n- **Graph execution library** - for orchestrating complex, stateful workflows\n- **LLM ecosystem integration** (via LangChain) - for seamless AI agent capabilities\n\nThis framework follows the same philosophy, but built from the ground up in Rust:\n- **[`graph-flow`](graph-flow/)** - Core graph execution library for stateful task orchestration\n- **[Rig crate](https://github.com/0xPlaygrounds/rig)** - Rust-native L",
+        "gene_type": "principle"
+      },
+      {
+        "title": "graph-flow 文件结构",
+        "content": "graph-flow/Cargo.toml\ngraph-flow/README.md\ngraph-flow/src\ngraph-flow/src/context.rs\ngraph-flow/src/error.rs\ngraph-flow/src/fanout.rs\ngraph-flow/src/graph.rs\ngraph-flow/src/lib.rs\ngraph-flow/src/runner.rs\ngraph-flow/src/storage.rs\ngraph-flow/src/storage_postgres.rs\ngraph-flow/src/task.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.455666433745813
+  },
+  {
+    "name": "rs-graph-llm/insurance-claims-service 模块",
+    "description": "[模块级] rs-graph-llm 项目的 insurance-claims-service 模块 (source)。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "module-level",
+      "source",
+      "insurance-claims-service"
+    ],
+    "genes": [
+      {
+        "title": "insurance-claims-service 模块说明",
+        "content": "- Welcomes users and gathers basic claim information\n- Uses LLM to have natural conversations\n- Extracts structured data from free-form input",
+        "gene_type": "principle"
+      },
+      {
+        "title": "insurance-claims-service 文件结构",
+        "content": "insurance-claims-service/Cargo.toml\ninsurance-claims-service/src\ninsurance-claims-service/src/main.rs\ninsurance-claims-service/src/tasks\ninsurance-claims-service/src/tasks/README.md\ninsurance-claims-service/src/tasks/apartment_insurance_details.rs\ninsurance-claims-service/src/tasks/car_insurance_details.rs\ninsurance-claims-service/src/tasks/final_summary.rs\ninsurance-claims-service/src/tasks/initial_claim_query.rs\ninsurance-claims-service/src/tasks/insurance_type_classifier.rs\ninsurance-claims-service/src/tasks/mod.rs\ninsurance-claims-service/src/tasks/smart_claim_validator.rs\ninsurance-claims-service/src/tasks/types.rs\ninsurance-claims-service/src/tasks/utils.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.455666433745813
+  },
+  {
+    "name": "rs-graph-llm/medical-document-service 模块",
+    "description": "[模块级] rs-graph-llm 项目的 medical-document-service 模块 (source)。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "module-level",
+      "source",
+      "medical-document-service"
+    ],
+    "genes": [
+      {
+        "title": "medical-document-service 模块说明",
+        "content": "模块路径: medical-document-service/\n类型: source\n文件数: 18\n\n包含文件:\n- medical-document-service/Cargo.toml\n- medical-document-service/README.md\n- medical-document-service/src\n- medical-document-service/src/bin\n- medical-document-service/src/bin/test_pdf_ocr.rs\n- medical-document-service/src/bin/test_research_search.rs\n- medical-document-service/src/lib.rs\n- medical-document-service/src/main.rs\n- medical-document-service/src/models.rs\n- medical-document-service/src/service.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "medical-document-service 文件结构",
+        "content": "medical-document-service/Cargo.toml\nmedical-document-service/README.md\nmedical-document-service/src\nmedical-document-service/src/bin\nmedical-document-service/src/bin/test_pdf_ocr.rs\nmedical-document-service/src/bin/test_research_search.rs\nmedical-document-service/src/lib.rs\nmedical-document-service/src/main.rs\nmedical-document-service/src/models.rs\nmedical-document-service/src/service.rs\nmedical-document-service/src/tasks\nmedical-document-service/src/tasks/human_review.rs\nmedical-document-service/src/tasks/mod.rs\nmedical-document-service/src/tasks/pdf_extract.rs\nmedical-document-service/src/tasks/research_search.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.455666433745813
+  },
+  {
+    "name": "rs-graph-llm/recommendation-service 模块",
+    "description": "[模块级] rs-graph-llm 项目的 recommendation-service 模块 (source)。来源: https://github.com/a-agmon/rs-graph-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "graph",
+      "langgraph",
+      "llm",
+      "rust",
+      "module-level",
+      "source",
+      "recommendation-service"
+    ],
+    "genes": [
+      {
+        "title": "recommendation-service 模块说明",
+        "content": "模块路径: recommendation-service/\n类型: source\n文件数: 13\n\n包含文件:\n- recommendation-service/Cargo.toml\n- recommendation-service/README.md\n- recommendation-service/src\n- recommendation-service/src/main.rs\n- recommendation-service/src/tasks\n- recommendation-service/src/tasks/answer_generation.rs\n- recommendation-service/src/tasks/delivery.rs\n- recommendation-service/src/tasks/mod.rs\n- recommendation-service/src/tasks/query_refinement.rs\n- recommendation-service/src/tasks/types.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "recommendation-service 文件结构",
+        "content": "recommendation-service/Cargo.toml\nrecommendation-service/README.md\nrecommendation-service/src\nrecommendation-service/src/main.rs\nrecommendation-service/src/tasks\nrecommendation-service/src/tasks/answer_generation.rs\nrecommendation-service/src/tasks/delivery.rs\nrecommendation-service/src/tasks/mod.rs\nrecommendation-service/src/tasks/query_refinement.rs\nrecommendation-service/src/tasks/types.rs\nrecommendation-service/src/tasks/utils.rs\nrecommendation-service/src/tasks/validation.rs\nrecommendation-service/src/tasks/vector_search.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.455666433745813
+  }
+]

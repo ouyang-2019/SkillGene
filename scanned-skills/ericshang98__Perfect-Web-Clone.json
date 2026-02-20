@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Perfect-Web-Clone (ericshang98)",
+    "description": "[项目级] A true AI agent for pixel-perfect web cloning. Multi-agent architecture built on Claude Agent SDK with 40+ specialized tools. Clones from CSS & structured blocks—not screenshots—enabling perfect reproduction where single-model tools like Cursor/Claude Code fail.。来源: https://github.com/ericshang98/Perfect-Web-Clone",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-agent",
+      "automation",
+      "claude-sdk",
+      "multi-agent",
+      "nextjs",
+      "python",
+      "stars-323",
+      "github-ericshang98",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A true AI agent for pixel-perfect web cloning. Multi-agent architecture built on Claude Agent SDK with 40+ specialized tools. Clones from CSS & structured blocks—not screenshots—enabling perfect reproduction where single-model tools like Cursor/Claude Code fail.\n\n来源: https://github.com/ericshang98/Perfect-Web-Clone\n语言: Python\nStars: 323",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nbackend\nbackend/.env.example\nbackend/agent\nbackend/boxlite\nbackend/cache\nbackend/checkpoint\nbackend/code_gen_config.py\nbackend/data\nbackend/extractor\nbackend/image_downloader\nbackend/image_proxy\nbackend/json_storage\nbackend/main.py\nbackend/pytest.ini\nbackend/requirements.txt\nbackend/scripts\nbackend/sources\nbackend/start.bat\nbackend/start.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2546012611655515
+  },
+  {
+    "name": "Perfect-Web-Clone/backend 模块",
+    "description": "[模块级] Perfect-Web-Clone 项目的 backend 模块 (source)。来源: https://github.com/ericshang98/Perfect-Web-Clone",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-agent",
+      "automation",
+      "claude-sdk",
+      "multi-agent",
+      "nextjs",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 122\n\n包含文件:\n- backend/.env.example\n- backend/agent\n- backend/agent/__init__.py\n- backend/agent/agent_protocol.py\n- backend/agent/claude_agent.py\n- backend/agent/core\n- backend/agent/core/__init__.py\n- backend/agent/core/compressor.py\n- backend/agent/core/concurrency_scheduler.py\n- backend/agent/core/constants.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.env.example\nbackend/agent\nbackend/agent/__init__.py\nbackend/agent/agent_protocol.py\nbackend/agent/claude_agent.py\nbackend/agent/core\nbackend/agent/core/__init__.py\nbackend/agent/core/compressor.py\nbackend/agent/core/concurrency_scheduler.py\nbackend/agent/core/constants.py\nbackend/agent/core/conversation_pipeline.py\nbackend/agent/core/message_queue.py\nbackend/agent/core/orchestrator.py\nbackend/agent/core/prompt_generator.py\nbackend/agent/core/stream_generator.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5036810089324413
+  },
+  {
+    "name": "Perfect-Web-Clone/docs 模块",
+    "description": "[模块级] Perfect-Web-Clone 项目的 docs 模块 (docs)。来源: https://github.com/ericshang98/Perfect-Web-Clone",
+    "domain": "documentation",
+    "tags": [
+      "ai-agent",
+      "automation",
+      "claude-sdk",
+      "multi-agent",
+      "nextjs",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 22\n\n包含文件:\n- docs/assets\n- docs/assets/examples\n- docs/assets/examples/cake-equity-original.png\n- docs/assets/examples/cake-equity-replica.png\n- docs/assets/nexting_show_1.mp4\n- docs/assets/nexting_show_1_compressed.mp4\n- docs/cn\n- docs/cn/README_CN.md\n- docs/de\n- docs/de/README_DE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/examples\ndocs/assets/examples/cake-equity-original.png\ndocs/assets/examples/cake-equity-replica.png\ndocs/assets/nexting_show_1.mp4\ndocs/assets/nexting_show_1_compressed.mp4\ndocs/cn\ndocs/cn/README_CN.md\ndocs/de\ndocs/de/README_DE.md\ndocs/es\ndocs/es/README_ES.md\ndocs/fr\ndocs/fr/README_FR.md\ndocs/ja",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5036810089324413
+  },
+  {
+    "name": "Perfect-Web-Clone/frontend 模块",
+    "description": "[模块级] Perfect-Web-Clone 项目的 frontend 模块 (source)。来源: https://github.com/ericshang98/Perfect-Web-Clone",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-agent",
+      "automation",
+      "claude-sdk",
+      "multi-agent",
+      "nextjs",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 50\n\n包含文件:\n- frontend/.env.local.example\n- frontend/middleware.ts\n- frontend/next-env.d.ts\n- frontend/next.config.ts\n- frontend/package-lock.json\n- frontend/package.json\n- frontend/postcss.config.mjs\n- frontend/public\n- frontend/public/demo.mp4\n- frontend/public/eric-photo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.local.example\nfrontend/middleware.ts\nfrontend/next-env.d.ts\nfrontend/next.config.ts\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/postcss.config.mjs\nfrontend/public\nfrontend/public/demo.mp4\nfrontend/public/eric-photo.png\nfrontend/public/logo-dark.svg\nfrontend/public/logo-for-dark.svg\nfrontend/public/logo-for-light.svg\nfrontend/public/logo-light.svg\nfrontend/public/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5036810089324413
+  }
+]

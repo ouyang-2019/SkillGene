@@ -1,0 +1,133 @@
+[
+  {
+    "name": "voltagent (VoltAgent)",
+    "description": "[项目级] AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework。来源: https://github.com/VoltAgent/voltagent",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "aiagentframework",
+      "typescript",
+      "stars-6024",
+      "github-voltagent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework\n\n来源: https://github.com/VoltAgent/voltagent\n语言: TypeScript\nStars: 6024",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm create voltagent-app@latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONSOLE.md\nCONTRIBUTING.md\nLICENCE\nPRERELEASE.md\nREADME.md\nSECURITY.md\nannouncements.json\narchive\narchive/deprecated-providers\nbiome.json\nchangelog.sh\ncommitlint.config.js\ndocs\ndocs/linting.md\ndocs/structure.md\ndocs/testing.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "For more examples, visit our [examples repository](https://github.com/VoltAgent/voltagent/tree/main/examples).\n\n- **[Airtable Agent](https://voltagent.dev/examples/guides/airtable-agent)** - React to new records and write updates back into Airtable with VoltOps actions.\n- **[Slack Agent](https://voltagent.dev/examples/guides/slack-agent)** - Respond to channel messages and reply via VoltOps Slack actions.\n- **[ChatGPT App With VoltAgent](https://voltagent.dev/examples/agents/chatgpt-app)** - Deploy VoltAgent over MCP and connect to ChatGPT Apps.\n- **[WhatsApp Order Agent](https://voltagent.dev",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.889942481596322
+  },
+  {
+    "name": "voltagent/archive 模块",
+    "description": "[模块级] voltagent 项目的 archive 模块 (source)。来源: https://github.com/VoltAgent/voltagent",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "aiagentframework",
+      "module-level",
+      "source",
+      "archive"
+    ],
+    "genes": [
+      {
+        "title": "archive 模块说明",
+        "content": "模块路径: archive/\n类型: source\n文件数: 90\n\n包含文件:\n- archive/deprecated-providers\n- archive/deprecated-providers/README.md\n- archive/deprecated-providers/anthropic-ai\n- archive/deprecated-providers/anthropic-ai/CHANGELOG.md\n- archive/deprecated-providers/anthropic-ai/README.md\n- archive/deprecated-providers/anthropic-ai/package.json\n- archive/deprecated-providers/anthropic-ai/src\n- archive/deprecated-providers/anthropic-ai/src/index.spec.ts\n- archive/deprecated-providers/anthropic-ai/src/index.ts\n- archive/deprecated-providers/anthropic-ai/src/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "archive 文件结构",
+        "content": "archive/deprecated-providers\narchive/deprecated-providers/README.md\narchive/deprecated-providers/anthropic-ai\narchive/deprecated-providers/anthropic-ai/CHANGELOG.md\narchive/deprecated-providers/anthropic-ai/README.md\narchive/deprecated-providers/anthropic-ai/package.json\narchive/deprecated-providers/anthropic-ai/src\narchive/deprecated-providers/anthropic-ai/src/index.spec.ts\narchive/deprecated-providers/anthropic-ai/src/index.ts\narchive/deprecated-providers/anthropic-ai/src/types.ts\narchive/deprecated-providers/anthropic-ai/src/utils\narchive/deprecated-providers/anthropic-ai/src/utils/index.ts\narchive/deprecated-providers/anthropic-ai/tsconfig.json\narchive/deprecated-providers/anthropic-ai/tsup.config.ts\narchive/deprecated-providers/anthropic-ai/vitest.config.mts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.011953985277058
+  },
+  {
+    "name": "voltagent/docs 模块",
+    "description": "[模块级] voltagent 项目的 docs 模块 (docs)。来源: https://github.com/VoltAgent/voltagent",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "aiagentframework",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "You can use the MCP server `@voltagent/mcp-docs-server` to teach your LLM how to use VoltAgent for AI-powered coding assistants like Claude, Cursor, or Windsurf. This allows AI assistants to access VoltAgent documentation, examples, and changelogs directly while you code.\n\n📖 [How to setup MCP docs server](https://voltagent.dev/docs/getting-started/mcp-docs-server/)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/linting.md\ndocs/structure.md\ndocs/testing.md\ndocs/tooling.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.011953985277058
+  },
+  {
+    "name": "voltagent/examples 模块",
+    "description": "[模块级] voltagent 项目的 examples 模块 (example)。来源: https://github.com/VoltAgent/voltagent",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "aiagentframework",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "For more examples, visit our [examples repository](https://github.com/VoltAgent/voltagent/tree/main/examples).\n\n- **[Airtable Agent](https://voltagent.dev/examples/guides/airtable-agent)** - React to new records and write updates back into Airtable with VoltOps actions.\n- **[Slack Agent](https://voltagent.dev/examples/guides/slack-agent)** - Respond to channel messages and reply via VoltOps Slack actions.\n- **[ChatGPT App With VoltAgent](https://voltagent.dev/examples/agents/chatgpt-app)** - Dep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/base\nexamples/base/.env.example\nexamples/base/.gitignore\nexamples/base/README.md\nexamples/base/package.json\nexamples/base/src\nexamples/base/src/index.ts\nexamples/base/tsconfig.json\nexamples/biome.json\nexamples/github-repo-analyzer\nexamples/github-repo-analyzer/.env.example\nexamples/github-repo-analyzer/.gitignore\nexamples/github-repo-analyzer/README.md\nexamples/github-repo-analyzer/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.011953985277058
+  }
+]

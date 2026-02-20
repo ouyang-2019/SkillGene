@@ -1,0 +1,138 @@
+[
+  {
+    "name": "WritingTools (theJayTea)",
+    "description": "[项目级] The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more.。来源: https://github.com/theJayTea/WritingTools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "gemini",
+      "grammar-checker",
+      "largelanguagemodel",
+      "swift",
+      "stars-2126",
+      "github-thejaytea",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The world's smartest system-wide grammar assistant; a better version of the Apple Intelligence Writing Tools. Works on Windows, Linux, & macOS, with the free Gemini API, local LLMs, & more.\n\n来源: https://github.com/theJayTea/WritingTools\n语言: Swift\nStars: 2126",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMedia Coverage.md\nREADME's Linked Content\nREADME's Linked Content/Demo - Summaries.mp4\nREADME's Linked Content/Demo.mp4\nREADME's Linked Content/To Compile the Application Yourself.md\nREADME's Linked Content/To Run Writing Tools Directly from the Source Code.md\nREADME.md\nWindows_and_Linux\nWindows_and_Linux/Latest_Version_for_Update_Check.txt\nWindows_and_Linux/WritingToolApp.py\nWindows_and_Linux/aiprovider.py\nWindows_and_Linux/background.png\nWindows_and_Linux/background_dark.png\nWindows_and_Linux/background_popup.png\nWindows_and_Linux/background_popup_dark.png\nWindows_and_Linux/create_translation.sh\nWindows_and_Linux/icons\nWindows_and_Linux/locales\nWindows_and_Linux/main.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "P.S.: Word's rich-text formatting (bold, italics, underline, colours...) will be lost on using Writing Tools. A Markdown editor such as [Obsidian](https://obsidian.md/) has no such issue.\n\nhttps://github.com/user-attachments/assets/42a3d8c7-18ac-4282-9478-16aab935f35e",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Command editor**: Create reusable buttons for your own prompts and assign shortcuts.\n- **Model flexibility**: Bring your own API keys. Switch providers per task.\n- **Document-friendly**: RTF-preserving **Proofread** keeps your formatting intact.\n- **Localization**: UI in **EN/DE/FR/ES**; commands happily work with many languages.\n- **Theming**: Choose from multiple themes, including dark mode.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.663781630093639
+  },
+  {
+    "name": "WritingTools/README's Linked Content 模块",
+    "description": "[模块级] WritingTools 项目的 README's Linked Content 模块 (source)。来源: https://github.com/theJayTea/WritingTools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "gemini",
+      "grammar-checker",
+      "largelanguagemodel",
+      "module-level",
+      "source",
+      "readme's linked content"
+    ],
+    "genes": [
+      {
+        "title": "README's Linked Content 模块说明",
+        "content": "模块路径: README's Linked Content/\n类型: source\n文件数: 4\n\n包含文件:\n- README's Linked Content/Demo - Summaries.mp4\n- README's Linked Content/Demo.mp4\n- README's Linked Content/To Compile the Application Yourself.md\n- README's Linked Content/To Run Writing Tools Directly from the Source Code.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "README's Linked Content 文件结构",
+        "content": "README's Linked Content/Demo - Summaries.mp4\nREADME's Linked Content/Demo.mp4\nREADME's Linked Content/To Compile the Application Yourself.md\nREADME's Linked Content/To Run Writing Tools Directly from the Source Code.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8310253040749114
+  },
+  {
+    "name": "WritingTools/Windows_and_Linux 模块",
+    "description": "[模块级] WritingTools 项目的 Windows_and_Linux 模块 (source)。来源: https://github.com/theJayTea/WritingTools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "gemini",
+      "grammar-checker",
+      "largelanguagemodel",
+      "module-level",
+      "source",
+      "windows_and_linux"
+    ],
+    "genes": [
+      {
+        "title": "Windows_and_Linux 模块说明",
+        "content": "模块路径: Windows_and_Linux/\n类型: source\n文件数: 88\n\n包含文件:\n- Windows_and_Linux/Latest_Version_for_Update_Check.txt\n- Windows_and_Linux/WritingToolApp.py\n- Windows_and_Linux/aiprovider.py\n- Windows_and_Linux/background.png\n- Windows_and_Linux/background_dark.png\n- Windows_and_Linux/background_popup.png\n- Windows_and_Linux/background_popup_dark.png\n- Windows_and_Linux/create_translation.sh\n- Windows_and_Linux/icons\n- Windows_and_Linux/icons/app_icon.ico",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Windows_and_Linux 文件结构",
+        "content": "Windows_and_Linux/Latest_Version_for_Update_Check.txt\nWindows_and_Linux/WritingToolApp.py\nWindows_and_Linux/aiprovider.py\nWindows_and_Linux/background.png\nWindows_and_Linux/background_dark.png\nWindows_and_Linux/background_popup.png\nWindows_and_Linux/background_popup_dark.png\nWindows_and_Linux/create_translation.sh\nWindows_and_Linux/icons\nWindows_and_Linux/icons/app_icon.ico\nWindows_and_Linux/icons/app_icon.png\nWindows_and_Linux/icons/briefcase_dark.png\nWindows_and_Linux/icons/briefcase_light.png\nWindows_and_Linux/icons/check_dark.png\nWindows_and_Linux/icons/check_light.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8310253040749114
+  },
+  {
+    "name": "WritingTools/macOS 模块",
+    "description": "[模块级] WritingTools 项目的 macOS 模块 (source)。来源: https://github.com/theJayTea/WritingTools",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "gemini",
+      "grammar-checker",
+      "largelanguagemodel",
+      "module-level",
+      "source",
+      "macos"
+    ],
+    "genes": [
+      {
+        "title": "macOS 模块说明",
+        "content": "The macOS version is a **native Swift port**, developed by [Arya Mirsepasi](https://github.com/Aryamirsepasi). View the [README inside the macOS folder](https://github.com/theJayTea/WritingTools/tree/main/macOS) to learn more.\n\nTo install it:\n1. Go to the [Releases](https://github.com/theJayTea/WritingTools/releases) page and download the latest macOS `.dmg` file.\n2. Open the `.dmg` file, also open a Finder Window, and drag the `writing-tools.app` into the Applications folder. That's it!\n\n**Note",
+        "gene_type": "principle"
+      },
+      {
+        "title": "macOS 文件结构",
+        "content": "macOS/.gitignore\nmacOS/Latest_Version_for_Update_Check.txt\nmacOS/README.md\nmacOS/WritingTools.xcodeproj\nmacOS/WritingTools.xcodeproj/project.pbxproj\nmacOS/WritingTools.xcodeproj/project.xcworkspace\nmacOS/WritingTools.xcodeproj/project.xcworkspace/contents.xcworkspacedata\nmacOS/WritingTools.xcodeproj/xcshareddata\nmacOS/WritingTools.xcodeproj/xcshareddata/xcschemes\nmacOS/WritingTools.xcodeproj/xcshareddata/xcschemes/WritingTools.xcscheme\nmacOS/WritingTools\nmacOS/WritingTools/App\nmacOS/WritingTools/App/AppDelegate.swift\nmacOS/WritingTools/App/AppSettings.swift\nmacOS/WritingTools/App/AppState.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8310253040749114
+  }
+]

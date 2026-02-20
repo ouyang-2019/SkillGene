@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Awesome-RAG (liunian-Jay)",
+    "description": "[项目级] 💡 Awesome RAG: A resource of Retrieval-Augmented Generation (RAG) for LLMs, focusing on the development of technology.。来源: https://github.com/liunian-Jay/Awesome-RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "large-langage-models",
+      "llm",
+      "rag",
+      "retrieval-augmented-generation",
+      "stars-428",
+      "github-liunian-jay",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "💡 Awesome RAG: A resource of Retrieval-Augmented Generation (RAG) for LLMs, focusing on the development of technology.\n\n来源: https://github.com/liunian-Jay/Awesome-RAG\n语言: unknown\nStars: 428",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.315721884506586
+  }
+]

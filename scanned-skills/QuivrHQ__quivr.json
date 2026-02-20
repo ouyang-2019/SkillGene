@@ -1,0 +1,133 @@
+[
+  {
+    "name": "quivr (QuivrHQ)",
+    "description": "[项目级] Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. 。来源: https://github.com/QuivrHQ/quivr",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "api",
+      "chatbot",
+      "chatgpt",
+      "database",
+      "python",
+      "stars-38940",
+      "github-quivrhq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. \n\n来源: https://github.com/QuivrHQ/quivr\n语言: Python\nStars: 38940",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can find everything on the [documentation](https://core.quivr.com/).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ncore\ncore/.flake8\ncore/.gitignore\ncore/.python-version\ncore/CHANGELOG.md\ncore/Dockerfile.test\ncore/README.md\ncore/example_workflows\ncore/pyproject.toml\ncore/quivr_core\ncore/requirements-dev.lock\ncore/requirements.lock\ncore/scripts\ncore/tests\ncore/tox.ini\ndocs\ndocs/.gitignore",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Opiniated RAG**: We created a RAG that is opinionated, fast and efficient so you can focus on your product\n- **LLMs**: Quivr works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.\n- **Any File**: Quivr works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.\n- **Customize your RAG**: Quivr allows you to customize your RAG, add internet search, add tools, etc.\n- **Integrations with Megaparse**: Quivr works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG with Qu",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "quivr/core 模块",
+    "description": "[模块级] quivr 项目的 core 模块 (source)。来源: https://github.com/QuivrHQ/quivr",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "api",
+      "chatbot",
+      "chatgpt",
+      "database",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 112\n\n包含文件:\n- core/.flake8\n- core/.gitignore\n- core/.python-version\n- core/CHANGELOG.md\n- core/Dockerfile.test\n- core/README.md\n- core/example_workflows\n- core/example_workflows/talk_to_file_rag_config_workflow.yaml\n- core/pyproject.toml\n- core/quivr_core",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/.flake8\ncore/.gitignore\ncore/.python-version\ncore/CHANGELOG.md\ncore/Dockerfile.test\ncore/README.md\ncore/example_workflows\ncore/example_workflows/talk_to_file_rag_config_workflow.yaml\ncore/pyproject.toml\ncore/quivr_core\ncore/quivr_core/__init__.py\ncore/quivr_core/base_config.py\ncore/quivr_core/brain\ncore/quivr_core/brain/__init__.py\ncore/quivr_core/brain/brain.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.336158378873606
+  },
+  {
+    "name": "quivr/docs 模块",
+    "description": "[模块级] quivr 项目的 docs 模块 (docs)。来源: https://github.com/QuivrHQ/quivr",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "api",
+      "chatbot",
+      "chatgpt",
+      "database",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 54\n\n包含文件:\n- docs/.gitignore\n- docs/.python-version\n- docs/README.md\n- docs/docs\n- docs/docs/brain\n- docs/docs/brain/brain.md\n- docs/docs/brain/chat.md\n- docs/docs/brain/index.md\n- docs/docs/config\n- docs/docs/config/base_config.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.python-version\ndocs/README.md\ndocs/docs\ndocs/docs/brain\ndocs/docs/brain/brain.md\ndocs/docs/brain/chat.md\ndocs/docs/brain/index.md\ndocs/docs/config\ndocs/docs/config/base_config.md\ndocs/docs/config/config.md\ndocs/docs/config/index.md\ndocs/docs/css\ndocs/docs/css/style.css\ndocs/docs/examples",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.336158378873606
+  },
+  {
+    "name": "quivr/examples 模块",
+    "description": "[模块级] quivr 项目的 examples 模块 (example)。来源: https://github.com/QuivrHQ/quivr",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "api",
+      "chatbot",
+      "chatgpt",
+      "database",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 4\n\n包含文件:\n- examples/chatbot\n- examples/chatbot/.chainlit\n- examples/chatbot/.chainlit/config.toml\n- examples/chatbot/.chainlit/translations",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/chatbot\nexamples/chatbot/.chainlit\nexamples/chatbot/.chainlit/config.toml\nexamples/chatbot/.chainlit/translations",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.336158378873606
+  }
+]

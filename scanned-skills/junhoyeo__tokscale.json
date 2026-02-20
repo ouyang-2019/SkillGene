@@ -1,0 +1,78 @@
+[
+  {
+    "name": "tokscale (junhoyeo)",
+    "description": "[项目级] 🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini CLI, Cursor IDE, AmpCode, Factory Droid, and Kimi Code CLI • 🏅Global Leaderboard + 2D/3D Contributions Graph。来源: https://github.com/junhoyeo/tokscale",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ampcode",
+      "claude",
+      "claude-code",
+      "typescript",
+      "stars-810",
+      "github-junhoyeo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Tokscale** helps you monitor and analyze your token consumption from:\n\n| Logo | Client | Data Location | Supported |\n|------|----------|---------------|-----------|\n| <img width=\"48px\" src=\".github/assets/client-opencode.png\" alt=\"OpenCode\" /> | [OpenCode](https://github.com/sst/opencode) | `~/.local/share/opencode/opencode.db` (1.2+) or/and `~/.local/share/opencode/storage/message/` (legacy/unmigrated) | ✅ Yes |\n| <img width=\"48px\" src=\".github/assets/client-claude.jpg\" alt=\"Claude\" /> | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `~/.claude/projects/` | ✅ Yes |\n| <img width=\"48px\" src=\".github/assets/client-openclaw.jpg\" alt=\"OpenClaw\" /> | [OpenClaw](https://openclaw.ai/) | `~/.openclaw/agents/` (+ legacy: `.clawdbot`, `.moltbot`, `.moldbot`) | ✅ Yes |\n| <img width",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.ja.md\nREADME.ko.md\nREADME.md\nREADME.zh-cn.md\nbun.lock\npackage.json\npackages\npackages/benchmarks\npackages/cli\npackages/core\npackages/frontend",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Interactive TUI Mode** - Beautiful terminal UI powered by OpenTUI (default mode)\n  - 4 interactive views: Overview, Models, Daily, Stats\n  - Keyboard & mouse navigation\n  - GitHub-style contribution graph with 9 color themes\n  - Real-time filtering and sorting\n  - Zero flicker rendering (native Zig engine)\n- **Multi-platform support** - Track usage across OpenCode, Claude Code, Codex CLI, Cursor IDE, Gemini CLI, Amp, Droid, OpenClaw, Pi, and Kimi CLI\n- **Real-time pricing** - Fetches current pricing from LiteLLM with 1-hour disk cache; automatic OpenRouter fallback and Cursor model pricing",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.454242509439325
+  },
+  {
+    "name": "tokscale/packages 模块",
+    "description": "[模块级] tokscale 项目的 packages 模块 (source)。来源: https://github.com/junhoyeo/tokscale",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ampcode",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 161\n\n包含文件:\n- packages/benchmarks\n- packages/benchmarks/README.md\n- packages/benchmarks/generate.ts\n- packages/benchmarks/package.json\n- packages/benchmarks/results\n- packages/benchmarks/results/.gitkeep\n- packages/benchmarks/runner.ts\n- packages/cli\n- packages/cli/bunfig.toml\n- packages/cli/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/benchmarks\npackages/benchmarks/README.md\npackages/benchmarks/generate.ts\npackages/benchmarks/package.json\npackages/benchmarks/results\npackages/benchmarks/results/.gitkeep\npackages/benchmarks/runner.ts\npackages/cli\npackages/cli/bunfig.toml\npackages/cli/package.json\npackages/cli/src\npackages/cli/src/auth.ts\npackages/cli/src/cli.ts\npackages/cli/src/credentials.ts\npackages/cli/src/cursor.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.66339400755146
+  }
+]

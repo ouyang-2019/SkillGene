@@ -1,0 +1,137 @@
+[
+  {
+    "name": "claude-equity-research (quant-sentiment-ai)",
+    "description": "[项目级] 🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.。来源: https://github.com/quant-sentiment-ai/claude-equity-research",
+    "domain": "devops",
+    "tags": [
+      "ai-powered",
+      "claude-code",
+      "claude-code-plugin",
+      "equity-research",
+      "finance",
+      "stars-300",
+      "github-quant-sentiment-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔌 Claude Code Plugin for institutional-grade equity research.   Install with /plugin marketplace add. Generates professional   buy/sell recommendations with comprehensive fundamental   analysis, technical indicators, and risk assessment. Educational    use only - not financial advice.\n\n来源: https://github.com/quant-sentiment-ai/claude-equity-research\n语言: unknown\nStars: 300",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPLUGIN.md\nREADME.md\nSECURITY.md\ncommands\ncommands/README.md\ncommands/trading-ideas.md\nconfig\nconfig/config.example.json\ndocs\ndocs/customization.md\ndocs/installation.md\ndocs/methodology.md\nexamples\nexamples/sample_reports",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.238560627359831
+  },
+  {
+    "name": "claude-equity-research/commands 模块",
+    "description": "[模块级] claude-equity-research 项目的 commands 模块 (source)。来源: https://github.com/quant-sentiment-ai/claude-equity-research",
+    "domain": "devops",
+    "tags": [
+      "ai-powered",
+      "claude-code",
+      "claude-code-plugin",
+      "equity-research",
+      "finance",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 2\n\n包含文件:\n- commands/README.md\n- commands/trading-ideas.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/README.md\ncommands/trading-ideas.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  },
+  {
+    "name": "claude-equity-research/docs 模块",
+    "description": "[模块级] claude-equity-research 项目的 docs 模块 (docs)。来源: https://github.com/quant-sentiment-ai/claude-equity-research",
+    "domain": "documentation",
+    "tags": [
+      "ai-powered",
+      "claude-code",
+      "claude-code-plugin",
+      "equity-research",
+      "finance",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/customization.md\n- docs/installation.md\n- docs/methodology.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/customization.md\ndocs/installation.md\ndocs/methodology.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  },
+  {
+    "name": "claude-equity-research/examples 模块",
+    "description": "[模块级] claude-equity-research 项目的 examples 模块 (example)。来源: https://github.com/quant-sentiment-ai/claude-equity-research",
+    "domain": "devops",
+    "tags": [
+      "ai-powered",
+      "claude-code",
+      "claude-code-plugin",
+      "equity-research",
+      "finance",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 3\n\n包含文件:\n- examples/sample_reports\n- examples/sample_reports/AAPL_analysis.md\n- examples/sample_reports/HOOD_analysis.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/sample_reports\nexamples/sample_reports/AAPL_analysis.md\nexamples/sample_reports/HOOD_analysis.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  }
+]

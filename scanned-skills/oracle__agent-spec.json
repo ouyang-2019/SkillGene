@@ -1,0 +1,61 @@
+[
+  {
+    "name": "agent-spec (oracle)",
+    "description": "[项目级] Open Agent Spec (Agent Spec) is a framework-agnostic declarative language for defining agentic systems. It defines building blocks for standalone agents and structured agentic workflows as well as common ways of composing them into multi-agent systems.。来源: https://github.com/oracle/agent-spec",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-217",
+      "github-oracle",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open Agent Spec (Agent Spec) is a framework-agnostic declarative language for defining agentic systems. It defines building blocks for standalone agents and structured agentic workflows as well as common ways of composing them into multi-agent systems.\n\n来源: https://github.com/oracle/agent-spec\n语言: Python\nStars: 217",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE-APACHE.txt\nLICENSE-UPL.txt\nREADME.md\nSECURITY.md\nTHIRD_PARTY_LICENSES.txt\nVERSION\n_installation_tools.sh\nallowlist.txt\nbandit.yaml\nclean-install-dev.sh\ndocs\ndocs/pyagentspec",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from pyagentspec.agent import Agent\nfrom pyagentspec.property import Property\n\nexpertise_property = Property(json_schema={\"title\": \"domain_of_expertise\", \"type\": \"string\"})\nsystem_prompt = \"\"\"\nYou are an expert in {{domain_of_expertise}}.\nPlease help the users with their requests.\n\"\"\"\nagent = Agent(\n    name=\"Adaptive expert agent\",\n    system_prompt=system_prompt,\n    llm_config=llm_config,\n    inputs=[expertise_property],\n)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.168229866924265
+  },
+  {
+    "name": "agent-spec/docs 模块",
+    "description": "[模块级] agent-spec 项目的 docs 模块 (docs)。来源: https://github.com/oracle/agent-spec",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-217",
+      "github-oracle",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 181\n\n包含文件:\n- docs/pyagentspec\n- docs/pyagentspec/Makefile\n- docs/pyagentspec/README\n- docs/pyagentspec/agentspec_technical_report.pdf\n- docs/pyagentspec/make.bat\n- docs/pyagentspec/requirements-docs.txt\n- docs/pyagentspec/run_all_code_examples.sh\n- docs/pyagentspec/source\n- docs/pyagentspec/source/_components\n- docs/pyagentspec/source/_components/all_components.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/pyagentspec\ndocs/pyagentspec/Makefile\ndocs/pyagentspec/README\ndocs/pyagentspec/agentspec_technical_report.pdf\ndocs/pyagentspec/make.bat\ndocs/pyagentspec/requirements-docs.txt\ndocs/pyagentspec/run_all_code_examples.sh\ndocs/pyagentspec/source\ndocs/pyagentspec/source/_components\ndocs/pyagentspec/source/_components/all_components.json\ndocs/pyagentspec/source/_components/llm_config_tabs.rst\ndocs/pyagentspec/source/_ext\ndocs/pyagentspec/source/_ext/copy_sidebar_ext.py\ndocs/pyagentspec/source/_ext/docstring_role_ext.py\ndocs/pyagentspec/source/_ext/generate_api_table_ext.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4345838935394117
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "agent-skills (vercel-labs)",
+    "description": "[项目级] Vercel's official collection of agent skills。来源: https://github.com/vercel-labs/agent-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "javascript",
+      "stars-20813",
+      "github-vercel-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Vercel's official collection of agent skills\n\n来源: https://github.com/vercel-labs/agent-skills\n语言: JavaScript\nStars: 20813",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx skills add vercel-labs/agent-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nREADME.md\npackages\npackages/react-best-practices-build\nskills\nskills/claude.ai\nskills/composition-patterns\nskills/react-best-practices\nskills/react-native-skills\nskills/web-design-guidelines.zip\nskills/web-design-guidelines",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Deploy my app",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agent-skills/packages 模块",
+    "description": "[模块级] agent-skills 项目的 packages 模块 (source)。来源: https://github.com/vercel-labs/agent-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "javascript",
+      "stars-20813",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 14\n\n包含文件:\n- packages/react-best-practices-build\n- packages/react-best-practices-build/.gitignore\n- packages/react-best-practices-build/package.json\n- packages/react-best-practices-build/pnpm-lock.yaml\n- packages/react-best-practices-build/src\n- packages/react-best-practices-build/src/build.ts\n- packages/react-best-practices-build/src/config.ts\n- packages/react-best-practices-build/src/extract-tests.ts\n- packages/react-best-practices-build/src/migrate.ts\n- packages/react-best-practices-build/src/parser.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/react-best-practices-build\npackages/react-best-practices-build/.gitignore\npackages/react-best-practices-build/package.json\npackages/react-best-practices-build/pnpm-lock.yaml\npackages/react-best-practices-build/src\npackages/react-best-practices-build/src/build.ts\npackages/react-best-practices-build/src/config.ts\npackages/react-best-practices-build/src/extract-tests.ts\npackages/react-best-practices-build/src/migrate.ts\npackages/react-best-practices-build/src/parser.ts\npackages/react-best-practices-build/src/types.ts\npackages/react-best-practices-build/src/validate.ts\npackages/react-best-practices-build/test-cases.json\npackages/react-best-practices-build/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.227333873690455
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/vercel-labs/agent-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "javascript",
+      "stars-20813",
+      "github-vercel-labs",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of skills for AI coding agents. Skills are packaged instructions and scripts that extend agent capabilities.\n\nSkills follow the [Agent Skills](https://agentskills.io/) format.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/claude.ai\nskills/claude.ai/vercel-deploy-claimable.zip\nskills/claude.ai/vercel-deploy-claimable\nskills/claude.ai/vercel-deploy-claimable/SKILL.md\nskills/claude.ai/vercel-deploy-claimable/scripts\nskills/claude.ai/vercel-deploy-claimable/scripts/deploy.sh\nskills/composition-patterns\nskills/composition-patterns/AGENTS.md\nskills/composition-patterns/README.md\nskills/composition-patterns/SKILL.md\nskills/composition-patterns/metadata.json\nskills/composition-patterns/rules\nskills/composition-patterns/rules/_sections.md\nskills/composition-patterns/rules/_template.md\nskills/composition-patterns/rules/architecture-avoid-boolean-props.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.227333873690455
+  }
+]

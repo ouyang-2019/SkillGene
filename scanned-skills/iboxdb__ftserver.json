@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ftserver (iboxdb)",
+    "description": "[项目级] Full Text Search Engine Server for Java, Lightweight embeddable,  powered by iBoxDB.。来源: https://github.com/iboxdb/ftserver",
+    "domain": "general",
+    "tags": [
+      "database",
+      "document-database",
+      "fts",
+      "full-text-search",
+      "iboxdb",
+      "java",
+      "stars-254",
+      "github-iboxdb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Full Text Search Engine Server for Java, Lightweight embeddable,  powered by iBoxDB.\n\n来源: https://github.com/iboxdb/ftserver\n语言: Java\nStars: 254",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "$ cd FTServer\n$ mvn package cargo:run",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "FTServer\nFTServer/.mvn\nFTServer/README.md\nFTServer/libs\nFTServer/nb-configuration.xml\nFTServer/nbactions.xml\nFTServer/pom.xml\nFTServer/src\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.202416858309969
+  },
+  {
+    "name": "ftserver/FTServer 模块",
+    "description": "[模块级] ftserver 项目的 FTServer 模块 (source)。来源: https://github.com/iboxdb/ftserver",
+    "domain": "general",
+    "tags": [
+      "database",
+      "document-database",
+      "fts",
+      "full-text-search",
+      "iboxdb",
+      "module-level",
+      "source",
+      "ftserver"
+    ],
+    "genes": [
+      {
+        "title": "FTServer 模块说明",
+        "content": "模块路径: FTServer/\n类型: source\n文件数: 80\n\n包含文件:\n- FTServer/.mvn\n- FTServer/.mvn/jvm.config\n- FTServer/README.md\n- FTServer/libs\n- FTServer/libs/repository\n- FTServer/libs/repository/deploy.txt\n- FTServer/libs/repository/iboxdb\n- FTServer/libs/repository/iboxdb/iboxdb\n- FTServer/libs/repository/iboxdb/iboxdb/3.9.2\n- FTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.jar",
+        "gene_type": "principle"
+      },
+      {
+        "title": "FTServer 文件结构",
+        "content": "FTServer/.mvn\nFTServer/.mvn/jvm.config\nFTServer/README.md\nFTServer/libs\nFTServer/libs/repository\nFTServer/libs/repository/deploy.txt\nFTServer/libs/repository/iboxdb\nFTServer/libs/repository/iboxdb/iboxdb\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.jar\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.jar.md5\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.jar.sha1\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.pom\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.pom.md5\nFTServer/libs/repository/iboxdb/iboxdb/3.9.2/iboxdb-3.9.2.pom.sha1",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "name": "RAGLight (Bessouat40)",
+    "description": "[项目级] RAGLight is a modular framework for Retrieval-Augmented Generation (RAG). It makes it easy to plug in different LLMs, embeddings, and vector stores, and now includes seamless MCP integration to connect external tools and data sources.。来源: https://github.com/Bessouat40/RAGLight",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "agentic-workflow",
+      "artificial-intelligence",
+      "data-science",
+      "python",
+      "stars-638",
+      "github-bessouat40",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAGLight is a modular framework for Retrieval-Augmented Generation (RAG). It makes it easy to plug in different LLMs, embeddings, and vector stores, and now includes seamless MCP integration to connect external tools and data sources.\n\n来源: https://github.com/Bessouat40/RAGLight\n语言: Python\nStars: 638",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nexamples\nexamples/Dockerfile.example\nexamples/agentic_rag_with_mcp.py\nexamples/discussion_example.py\nexamples/gemini_example_uses.py\nexamples/ingestion_example.py\nexamples/rag_example.py\nexamples/requirements.txt\nexamples/simple_agentic_rag_example.py\nexamples/simple_rag_api_example.py\nexamples/vlm_ingestion.py\nmedia\nmedia/cli.png\nmedia/llmchat.jpg\nmedia/llmchat2.png\nmedia/raglight.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "custom_ignore_folders = [\n    \".venv\",\n    \"venv\",\n    \"node_modules\",\n    \"__pycache__\",\n    \".git\",\n    \"build\",\n    \"dist\",\n    \"temp_files\",  # Your custom folders\n    \"cache\"\n]",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Embeddings Model Integration**: Plug in your preferred embedding models (e.g., HuggingFace **all-MiniLM-L6-v2**) for compact and efficient vector embeddings.\n- **LLM Agnostic**: Seamlessly integrates with different LLMs from different providers (Ollama and LMStudio supported).\n- **RAG Pipeline**: Combines document retrieval and language generation in a unified workflow.\n- **Agentic RAG Pipeline**: Use Agent to improve your RAG performances.\n- 🔌 **MCP Integration**: Add external tool capabilities (e.g. code execution, database access) via MCP servers.\n- **Flexible Document Support**: Inges",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.402410339360581
+  },
+  {
+    "name": "RAGLight/examples 模块",
+    "description": "[模块级] RAGLight 项目的 examples 模块 (example)。来源: https://github.com/Bessouat40/RAGLight",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "agentic-workflow",
+      "artificial-intelligence",
+      "data-science",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 10\n\n包含文件:\n- examples/Dockerfile.example\n- examples/agentic_rag_with_mcp.py\n- examples/discussion_example.py\n- examples/gemini_example_uses.py\n- examples/ingestion_example.py\n- examples/rag_example.py\n- examples/requirements.txt\n- examples/simple_agentic_rag_example.py\n- examples/simple_rag_api_example.py\n- examples/vlm_ingestion.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/Dockerfile.example\nexamples/agentic_rag_with_mcp.py\nexamples/discussion_example.py\nexamples/gemini_example_uses.py\nexamples/ingestion_example.py\nexamples/rag_example.py\nexamples/requirements.txt\nexamples/simple_agentic_rag_example.py\nexamples/simple_rag_api_example.py\nexamples/vlm_ingestion.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.621928271488465
+  },
+  {
+    "name": "RAGLight/media 模块",
+    "description": "[模块级] RAGLight 项目的 media 模块 (source)。来源: https://github.com/Bessouat40/RAGLight",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "agentic-workflow",
+      "artificial-intelligence",
+      "data-science",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 4\n\n包含文件:\n- media/cli.png\n- media/llmchat.jpg\n- media/llmchat2.png\n- media/raglight.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/cli.png\nmedia/llmchat.jpg\nmedia/llmchat2.png\nmedia/raglight.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.621928271488465
+  },
+  {
+    "name": "RAGLight/src 模块",
+    "description": "[模块级] RAGLight 项目的 src 模块 (source)。来源: https://github.com/Bessouat40/RAGLight",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "agentic-workflow",
+      "artificial-intelligence",
+      "data-science",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 59\n\n包含文件:\n- src/__init__.py\n- src/raglight\n- src/raglight/__init__.py\n- src/raglight/cli\n- src/raglight/cli/__init__.py\n- src/raglight/cli/main.py\n- src/raglight/cli/nltk_management.py\n- src/raglight/config\n- src/raglight/config/__init__.py\n- src/raglight/config/agentic_rag_config.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/raglight\nsrc/raglight/__init__.py\nsrc/raglight/cli\nsrc/raglight/cli/__init__.py\nsrc/raglight/cli/main.py\nsrc/raglight/cli/nltk_management.py\nsrc/raglight/config\nsrc/raglight/config/__init__.py\nsrc/raglight/config/agentic_rag_config.py\nsrc/raglight/config/rag_config.py\nsrc/raglight/config/settings.py\nsrc/raglight/config/vector_store_config.py\nsrc/raglight/cross_encoder\nsrc/raglight/cross_encoder/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.621928271488465
+  },
+  {
+    "name": "RAGLight/tests 模块",
+    "description": "[模块级] RAGLight 项目的 tests 模块 (test)。来源: https://github.com/Bessouat40/RAGLight",
+    "domain": "testing",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "agentic-workflow",
+      "artificial-intelligence",
+      "data-science",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 22\n\n包含文件:\n- tests/__init__.py\n- tests/prompts\n- tests/prompts/prompt.txt\n- tests/test_config.py\n- tests/tests_embeddings\n- tests/tests_embeddings/__init__.py\n- tests/tests_embeddings/test_gemini_embeddings.py\n- tests/tests_embeddings/test_huggingface_embeddings.py\n- tests/tests_embeddings/test_ollama_embeddings.py\n- tests/tests_embeddings/test_openai_embeddings.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/prompts\ntests/prompts/prompt.txt\ntests/test_config.py\ntests/tests_embeddings\ntests/tests_embeddings/__init__.py\ntests/tests_embeddings/test_gemini_embeddings.py\ntests/tests_embeddings/test_huggingface_embeddings.py\ntests/tests_embeddings/test_ollama_embeddings.py\ntests/tests_embeddings/test_openai_embeddings.py\ntests/tests_llm\ntests/tests_llm/__init__.py\ntests/tests_llm/test_gemini_model.py\ntests/tests_llm/test_ollama_model.py\ntests/tests_rag",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.621928271488465
+  }
+]

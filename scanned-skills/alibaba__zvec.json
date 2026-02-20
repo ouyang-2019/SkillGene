@@ -1,0 +1,203 @@
+[
+  {
+    "name": "zvec (alibaba)",
+    "description": "[项目级] A lightweight, lightning-fast, in-process vector database。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "c++",
+      "stars-5258",
+      "github-alibaba",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A lightweight, lightning-fast, in-process vector database\n\n来源: https://github.com/alibaba/zvec\n语言: C++\nStars: 5258",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ncmake\ncmake/bazel.cmake\ncmake/option.cmake\ncmake/utils.cmake\nexamples\nexamples/c++\npyproject.toml\npython\npython/tests\npython/zvec\nscripts\nscripts/README.md\nscripts/gcov.sh\nsrc\nsrc/CMakeLists.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nimport zvec",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Blazing Fast**: Searches billions of vectors in milliseconds.\n- **Simple, Just Works**: [Install](#-installation) and start searching in seconds. No servers, no config, no fuss.\n- **Dense + Sparse Vectors**: Work with both dense and sparse embeddings, with native support for multi-vector queries in a single call.\n- **Hybrid Search**: Combine semantic similarity with structured filters for precise results.\n- **Runs Anywhere**: As an in-process library, Zvec runs wherever your code runs — notebooks, servers, CLI tools, or even edge devices.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.860410290885172
+  },
+  {
+    "name": "zvec/cmake 模块",
+    "description": "[模块级] zvec 项目的 cmake 模块 (source)。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 3\n\n包含文件:\n- cmake/bazel.cmake\n- cmake/option.cmake\n- cmake/utils.cmake",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/bazel.cmake\ncmake/option.cmake\ncmake/utils.cmake",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9883282327081377
+  },
+  {
+    "name": "zvec/examples 模块",
+    "description": "[模块级] zvec 项目的 examples 模块 (example)。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 8\n\n包含文件:\n- examples/c++\n- examples/c++/CMakeLists.txt\n- examples/c++/ailego\n- examples/c++/ailego/main.cc\n- examples/c++/core\n- examples/c++/core/main.cc\n- examples/c++/db\n- examples/c++/db/main.cc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/c++\nexamples/c++/CMakeLists.txt\nexamples/c++/ailego\nexamples/c++/ailego/main.cc\nexamples/c++/core\nexamples/c++/core/main.cc\nexamples/c++/db\nexamples/c++/db/main.cc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9883282327081377
+  },
+  {
+    "name": "zvec/python 模块",
+    "description": "[模块级] zvec 项目的 python 模块 (source)。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "**Requirements**: Python 3.10 - 3.12\n\n```bash\npip install zvec\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/tests\npython/tests/detail\npython/tests/detail/distance_helper.py\npython/tests/detail/doc_helper.py\npython/tests/detail/fixture_helper.py\npython/tests/detail/params_helper.py\npython/tests/detail/support_helper.py\npython/tests/detail/test_collection_concurrency.py\npython/tests/detail/test_collection_create_and_open.py\npython/tests/detail/test_collection_ddl.py\npython/tests/detail/test_collection_dml.py\npython/tests/detail/test_collection_dql.py\npython/tests/detail/test_collection_exception.py\npython/tests/detail/test_collection_open.py\npython/tests/detail/test_db_config.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "python 代码示例",
+        "content": "pip install zvec",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9883282327081377
+  },
+  {
+    "name": "zvec/scripts 模块",
+    "description": "[模块级] zvec 项目的 scripts 模块 (script)。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/README.md\n- scripts/gcov.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/README.md\nscripts/gcov.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9883282327081377
+  },
+  {
+    "name": "zvec/src 模块",
+    "description": "[模块级] zvec 项目的 src 模块 (source)。来源: https://github.com/alibaba/zvec",
+    "domain": "devops",
+    "tags": [
+      "ann-search",
+      "embedded-database",
+      "rag",
+      "vector-search",
+      "vectordb",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 82\n\n包含文件:\n- src/CMakeLists.txt\n- src/ailego\n- src/ailego/CMakeLists.txt\n- src/ailego/algorithm\n- src/ailego/algorithm/binary_quantizer.cc\n- src/ailego/algorithm/binary_quantizer.h\n- src/ailego/algorithm/integer_quantizer.cc\n- src/ailego/algorithm/integer_quantizer.h\n- src/ailego/algorithm/kmeans.h\n- src/ailego/algorithm/lloyd_cluster.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/CMakeLists.txt\nsrc/ailego\nsrc/ailego/CMakeLists.txt\nsrc/ailego/algorithm\nsrc/ailego/algorithm/binary_quantizer.cc\nsrc/ailego/algorithm/binary_quantizer.h\nsrc/ailego/algorithm/integer_quantizer.cc\nsrc/ailego/algorithm/integer_quantizer.h\nsrc/ailego/algorithm/kmeans.h\nsrc/ailego/algorithm/lloyd_cluster.h\nsrc/ailego/buffer\nsrc/ailego/buffer/buffer_manager.cc\nsrc/ailego/container\nsrc/ailego/container/bitmap.cc\nsrc/ailego/container/bitmap.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9883282327081377
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "name": "open-agent-builder (firecrawl)",
+    "description": "[项目级] 🔥 Visual workflow builder for AI agents powered by Firecrawl - drag-and-drop web scraping pipelines with real-time execution。来源: https://github.com/firecrawl/open-agent-builder",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2096",
+      "github-firecrawl",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥 Visual workflow builder for AI agents powered by Firecrawl - drag-and-drop web scraping pipelines with real-time execution\n\n来源: https://github.com/firecrawl/open-agent-builder\n语言: TypeScript\nStars: 2096",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\napp\napp/api\napp/layout.tsx\napp/page.tsx\napp/sign-in\napp/sign-up\napp/workflows\natoms\natoms/sheets.ts\ncolors.json\ncomponents\ncomponents/FirecrawlIcon\ncomponents/app\ncomponents/hooks\ncomponents/icons\ncomponents/providers\ncomponents/shared",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.660695639155844
+  },
+  {
+    "name": "open-agent-builder/app 模块",
+    "description": "[模块级] open-agent-builder 项目的 app 模块 (source)。来源: https://github.com/firecrawl/open-agent-builder",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2096",
+      "github-firecrawl",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 66\n\n包含文件:\n- app/api\n- app/api/approval\n- app/api/approval/[approvalId]\n- app/api/approval/[approvalId]/resume\n- app/api/approval/[approvalId]/resume/route.ts\n- app/api/approval/[approvalId]/route.ts\n- app/api/approval/route.ts\n- app/api/config\n- app/api/config/route.ts\n- app/api/execute-agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/api\napp/api/approval\napp/api/approval/[approvalId]\napp/api/approval/[approvalId]/resume\napp/api/approval/[approvalId]/resume/route.ts\napp/api/approval/[approvalId]/route.ts\napp/api/approval/route.ts\napp/api/config\napp/api/config/route.ts\napp/api/execute-agent\napp/api/execute-agent/route.ts\napp/api/execute-extract\napp/api/execute-extract/route.ts\napp/api/execute-firecrawl\napp/api/execute-firecrawl/route.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.828556511324676
+  },
+  {
+    "name": "open-agent-builder/components 模块",
+    "description": "[模块级] open-agent-builder 项目的 components 模块 (source)。来源: https://github.com/firecrawl/open-agent-builder",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-2096",
+      "github-firecrawl",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 125\n\n包含文件:\n- components/FirecrawlIcon\n- components/FirecrawlIcon/FirecrawlIcon.tsx\n- components/app\n- components/app/(home)\n- components/app/(home)/sections\n- components/app/(home)/sections/endpoints\n- components/app/(home)/sections/endpoints/EndpointsCrawl\n- components/app/(home)/sections/endpoints/EndpointsCrawl/EndpointsCrawl.tsx\n- components/app/(home)/sections/endpoints/EndpointsExtract\n- components/app/(home)/sections/endpoints/EndpointsExtract/EndpointsExtract.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/FirecrawlIcon\ncomponents/FirecrawlIcon/FirecrawlIcon.tsx\ncomponents/app\ncomponents/app/(home)\ncomponents/app/(home)/sections\ncomponents/app/(home)/sections/endpoints\ncomponents/app/(home)/sections/endpoints/EndpointsCrawl\ncomponents/app/(home)/sections/endpoints/EndpointsCrawl/EndpointsCrawl.tsx\ncomponents/app/(home)/sections/endpoints/EndpointsExtract\ncomponents/app/(home)/sections/endpoints/EndpointsExtract/EndpointsExtract.tsx\ncomponents/app/(home)/sections/endpoints/EndpointsMap\ncomponents/app/(home)/sections/endpoints/EndpointsMap/EndpointsMap.tsx\ncomponents/app/(home)/sections/endpoints/EndpointsScrape\ncomponents/app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape.tsx\ncomponents/app/(home)/sections/endpoints/EndpointsSearch",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.828556511324676
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "write-you-a-vector-db (skyzh)",
+    "description": "[项目级] A Vector Database Tutorial (over CMU-DB's BusTub system)。来源: https://github.com/skyzh/write-you-a-vector-db",
+    "domain": "general",
+    "tags": [
+      "bustub",
+      "database",
+      "tutorial",
+      "vector-database",
+      "c++",
+      "stars-747",
+      "github-skyzh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Vector Database Tutorial (over CMU-DB's BusTub system)\n\n来源: https://github.com/skyzh/write-you-a-vector-db\n语言: C++\nStars: 747",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nbustub-vectordb-solution\nbustub-vectordb-starter\nlinguist\nlinguist/vector_index_scan_executor.cpp\nsitemap.sh\ntutorial\ntutorial/.gitignore\ntutorial/book.toml\ntutorial/custom.css\ntutorial/src\ntutorial/theme",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4366603009076995
+  },
+  {
+    "name": "write-you-a-vector-db/tutorial 模块",
+    "description": "[模块级] write-you-a-vector-db 项目的 tutorial 模块 (source)。来源: https://github.com/skyzh/write-you-a-vector-db",
+    "domain": "general",
+    "tags": [
+      "bustub",
+      "database",
+      "tutorial",
+      "vector-database",
+      "c++",
+      "module-level",
+      "source",
+      "tutorial"
+    ],
+    "genes": [
+      {
+        "title": "tutorial 模块说明",
+        "content": "模块路径: tutorial/\n类型: source\n文件数: 58\n\n包含文件:\n- tutorial/.gitignore\n- tutorial/book.toml\n- tutorial/custom.css\n- tutorial/src\n- tutorial/src/00-introduction.md\n- tutorial/src/10-epilogue.md\n- tutorial/src/SUMMARY.md\n- tutorial/src/copyright.md\n- tutorial/src/cpp-01-overview.md\n- tutorial/src/cpp-02-setup.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tutorial 文件结构",
+        "content": "tutorial/.gitignore\ntutorial/book.toml\ntutorial/custom.css\ntutorial/src\ntutorial/src/00-introduction.md\ntutorial/src/10-epilogue.md\ntutorial/src/SUMMARY.md\ntutorial/src/copyright.md\ntutorial/src/cpp-01-overview.md\ntutorial/src/cpp-02-setup.md\ntutorial/src/cpp-03-knn.md\ntutorial/src/cpp-04-optimizer.md\ntutorial/src/cpp-05-ivfflat.md\ntutorial/src/cpp-06-01-nsw.md\ntutorial/src/cpp-06-02-hnsw.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6493282407261596
+  }
+]

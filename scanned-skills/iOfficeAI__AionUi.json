@@ -10,14 +10,14 @@
       "chat",
       "chatbot",
       "typescript",
-      "stars-16690",
+      "stars-16696",
       "github-iofficeai",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!\n\n来源: https://github.com/iOfficeAI/AionUi\n语言: TypeScript\nStars: 16690",
+        "content": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!\n\n来源: https://github.com/iOfficeAI/AionUi\n语言: TypeScript\nStars: 16696",
         "gene_type": "principle"
       },
       {
@@ -63,7 +63,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.188982534671698
+    "rating": 4.189044974422959
   },
   {
     "name": "AionUi/config 模块",
@@ -93,7 +93,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.188982534671698
+    "rating": 4.189044974422959
   },
   {
     "name": "AionUi/docs 模块",
@@ -123,7 +123,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.188982534671698
+    "rating": 4.189044974422959
   },
   {
     "name": "AionUi/resources 模块",
@@ -153,6 +153,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.188982534671698
+    "rating": 4.189044974422959
   }
 ]

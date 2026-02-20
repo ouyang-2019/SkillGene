@@ -1,0 +1,153 @@
+[
+  {
+    "name": "chatgpt-prompt-engineering-for-developers (Kevin-free)",
+    "description": "[项目级] 吴恩达《ChatGPT Prompt Engineering for Developers》课程中英版。来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "deep-learning",
+      "language-model",
+      "openai",
+      "prompt-engineering",
+      "jupyter notebook",
+      "stars-290",
+      "github-kevin-free",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "吴恩达《ChatGPT Prompt Engineering for Developers》课程中英版\n\n来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers\n语言: Jupyter Notebook\nStars: 290",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nimages\nimages/Prompt Engineering Xmind.png\nimages/Prompt-Engineering-Xmind-min.png\nimages/banner-en.png\nimages/banner-zh.png\nimages/wesub-qrcode.png\nnotebooks-en\nnotebooks-en/l2-guidelines.ipynb\nnotebooks-en/l3-iterative-prompt-development.ipynb\nnotebooks-en/l4-summarizing.ipynb\nnotebooks-en/l5-inferring.ipynb\nnotebooks-en/l6-transforming.ipynb\nnotebooks-en/l7-expanding.ipynb\nnotebooks-en/l8-chatbot.ipynb\nnotebooks-zh\nnotebooks-zh/1. 引言.md\nnotebooks-zh/2. 指南 Guidelines.ipynb\nnotebooks-zh/3. 迭代 Iterative.ipynb\nnotebooks-zh/4. 摘要 Summarizing.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.231198998949478
+  },
+  {
+    "name": "chatgpt-prompt-engineering-for-developers/images 模块",
+    "description": "[模块级] chatgpt-prompt-engineering-for-developers 项目的 images 模块 (source)。来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "deep-learning",
+      "language-model",
+      "openai",
+      "prompt-engineering",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/Prompt Engineering Xmind.png\n- images/Prompt-Engineering-Xmind-min.png\n- images/banner-en.png\n- images/banner-zh.png\n- images/wesub-qrcode.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Prompt Engineering Xmind.png\nimages/Prompt-Engineering-Xmind-min.png\nimages/banner-en.png\nimages/banner-zh.png\nimages/wesub-qrcode.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  },
+  {
+    "name": "chatgpt-prompt-engineering-for-developers/notebooks-en 模块",
+    "description": "[模块级] chatgpt-prompt-engineering-for-developers 项目的 notebooks-en 模块 (source)。来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "deep-learning",
+      "language-model",
+      "openai",
+      "prompt-engineering",
+      "module-level",
+      "source",
+      "notebooks-en"
+    ],
+    "genes": [
+      {
+        "title": "notebooks-en 模块说明",
+        "content": "模块路径: notebooks-en/\n类型: source\n文件数: 7\n\n包含文件:\n- notebooks-en/l2-guidelines.ipynb\n- notebooks-en/l3-iterative-prompt-development.ipynb\n- notebooks-en/l4-summarizing.ipynb\n- notebooks-en/l5-inferring.ipynb\n- notebooks-en/l6-transforming.ipynb\n- notebooks-en/l7-expanding.ipynb\n- notebooks-en/l8-chatbot.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks-en 文件结构",
+        "content": "notebooks-en/l2-guidelines.ipynb\nnotebooks-en/l3-iterative-prompt-development.ipynb\nnotebooks-en/l4-summarizing.ipynb\nnotebooks-en/l5-inferring.ipynb\nnotebooks-en/l6-transforming.ipynb\nnotebooks-en/l7-expanding.ipynb\nnotebooks-en/l8-chatbot.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  },
+  {
+    "name": "chatgpt-prompt-engineering-for-developers/notebooks-zh 模块",
+    "description": "[模块级] chatgpt-prompt-engineering-for-developers 项目的 notebooks-zh 模块 (source)。来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "deep-learning",
+      "language-model",
+      "openai",
+      "prompt-engineering",
+      "module-level",
+      "source",
+      "notebooks-zh"
+    ],
+    "genes": [
+      {
+        "title": "notebooks-zh 模块说明",
+        "content": "模块路径: notebooks-zh/\n类型: source\n文件数: 9\n\n包含文件:\n- notebooks-zh/1. 引言.md\n- notebooks-zh/2. 指南 Guidelines.ipynb\n- notebooks-zh/3. 迭代 Iterative.ipynb\n- notebooks-zh/4. 摘要 Summarizing.ipynb\n- notebooks-zh/5. 推断 Inferring.ipynb\n- notebooks-zh/6. 转换 Transforming.ipynb\n- notebooks-zh/7. 扩展 Expanding.ipynb\n- notebooks-zh/8. 聊天机器人 Chatbot.ipynb\n- notebooks-zh/9. 总结.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks-zh 文件结构",
+        "content": "notebooks-zh/1. 引言.md\nnotebooks-zh/2. 指南 Guidelines.ipynb\nnotebooks-zh/3. 迭代 Iterative.ipynb\nnotebooks-zh/4. 摘要 Summarizing.ipynb\nnotebooks-zh/5. 推断 Inferring.ipynb\nnotebooks-zh/6. 转换 Transforming.ipynb\nnotebooks-zh/7. 扩展 Expanding.ipynb\nnotebooks-zh/8. 聊天机器人 Chatbot.ipynb\nnotebooks-zh/9. 总结.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  },
+  {
+    "name": "chatgpt-prompt-engineering-for-developers/notes 模块",
+    "description": "[模块级] chatgpt-prompt-engineering-for-developers 项目的 notes 模块 (source)。来源: https://github.com/Kevin-free/chatgpt-prompt-engineering-for-developers",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "deep-learning",
+      "language-model",
+      "openai",
+      "prompt-engineering",
+      "module-level",
+      "source",
+      "notes"
+    ],
+    "genes": [
+      {
+        "title": "notes 模块说明",
+        "content": "模块路径: notes/\n类型: source\n文件数: 3\n\n包含文件:\n- notes/Prompt Engineering 提示工程 @Kevin的学堂.pdf\n- notes/Prompt Engineering 提示工程 @Kevin的学堂.png\n- notes/Prompt Engineering 提示工程 @Kevin的学堂.xmind",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notes 文件结构",
+        "content": "notes/Prompt Engineering 提示工程 @Kevin的学堂.pdf\nnotes/Prompt Engineering 提示工程 @Kevin的学堂.png\nnotes/Prompt Engineering 提示工程 @Kevin的学堂.xmind",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  }
+]

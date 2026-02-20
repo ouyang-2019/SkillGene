@@ -1,0 +1,163 @@
+[
+  {
+    "name": "openrecall (openrecall)",
+    "description": "[项目级] OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.。来源: https://github.com/openrecall/openrecall",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "alternative",
+      "history",
+      "macos",
+      "ocr",
+      "python",
+      "stars-2749",
+      "github-openrecall",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.\n\n来源: https://github.com/openrecall/openrecall\n语言: Python\nStars: 2749",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "python3 -m pip uninstall openrecall",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/encryption.md\ndocs/hardware.md\nimages\nimages/black_mirror.png\nimages/lisa_rewind.webp\nimages/openrecall_demo.mp4\nopenrecall\nopenrecall/__init__.py\nopenrecall/app.py\nopenrecall/config.py\nopenrecall/database.py\nopenrecall/nlp.py\nopenrecall/ocr.py\nopenrecall/screenshot.py\nopenrecall/utils.py\nsetup.py\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Time Travel**: Revisit and explore your past digital activities seamlessly across Windows, macOS, or Linux.\n- **Local-First AI**: OpenRecall harnesses the power of local AI processing to keep your data private and secure.\n- **Semantic Search**: Advanced local OCR interprets your history, providing robust semantic search capabilities.\n- **Full Control Over Storage**: Your data is stored locally, giving you complete control over its management and security.\n\n<p align=\"center\">\n  <img src=\"images/lisa_rewind.webp\" alt=\"Lisa Rewind\" width=\"400\">\n</p>",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.719587369921735
+  },
+  {
+    "name": "openrecall/docs 模块",
+    "description": "[模块级] openrecall 项目的 docs 模块 (docs)。来源: https://github.com/openrecall/openrecall",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "alternative",
+      "history",
+      "macos",
+      "ocr",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/encryption.md\n- docs/hardware.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/encryption.md\ndocs/hardware.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8756698959373876
+  },
+  {
+    "name": "openrecall/images 模块",
+    "description": "[模块级] openrecall 项目的 images 模块 (source)。来源: https://github.com/openrecall/openrecall",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "alternative",
+      "history",
+      "macos",
+      "ocr",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/black_mirror.png\n- images/lisa_rewind.webp\n- images/openrecall_demo.mp4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/black_mirror.png\nimages/lisa_rewind.webp\nimages/openrecall_demo.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8756698959373876
+  },
+  {
+    "name": "openrecall/openrecall 模块",
+    "description": "[模块级] openrecall 项目的 openrecall 模块 (source)。来源: https://github.com/openrecall/openrecall",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "alternative",
+      "history",
+      "macos",
+      "ocr",
+      "module-level",
+      "source",
+      "openrecall"
+    ],
+    "genes": [
+      {
+        "title": "openrecall 模块说明",
+        "content": "OpenRecall offers several key advantages over closed-source alternatives:\n\n- **Transparency**: OpenRecall is 100% open-source, allowing you to audit the source code for potential backdoors or privacy-invading features.\n- **Cross-platform Support**: OpenRecall works on Windows, macOS, and Linux, giving you the freedom to use it on your preferred operating system.\n- **Privacy-focused**: Your data is stored locally on your device, no internet connection or cloud is required. In addition, you have t",
+        "gene_type": "principle"
+      },
+      {
+        "title": "openrecall 文件结构",
+        "content": "openrecall/__init__.py\nopenrecall/app.py\nopenrecall/config.py\nopenrecall/database.py\nopenrecall/nlp.py\nopenrecall/ocr.py\nopenrecall/screenshot.py\nopenrecall/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8756698959373876
+  },
+  {
+    "name": "openrecall/tests 模块",
+    "description": "[模块级] openrecall 项目的 tests 模块 (test)。来源: https://github.com/openrecall/openrecall",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "alternative",
+      "history",
+      "macos",
+      "ocr",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 3\n\n包含文件:\n- tests/test_config.py\n- tests/test_database.py\n- tests/test_nlp.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test_config.py\ntests/test_database.py\ntests/test_nlp.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8756698959373876
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "name": "terminal-velocity (mind-protocol)",
+    "description": "[项目级] A novel created autonomously by a team of 10 AI agents。来源: https://github.com/mind-protocol/terminal-velocity",
+    "domain": "devops",
+    "tags": [
+      "book",
+      "writing",
+      "python",
+      "stars-1087",
+      "github-mind-protocol",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A novel created autonomously by a team of 10 AI agents\n\n来源: https://github.com/mind-protocol/terminal-velocity\n语言: Python\nStars: 1087",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nUpdate `\nUpdate `/story\nchapters\nchapters/act1\ncharacters\ncharacters/ai_protagonists\ncharacters/character_arcs_summary.md\ncharacters/character_development.md\ncharacters/character_interaction_matrix.md\ncharacters/cipher_character_profile.md\ncharacters/echo\ncharacters/human_characters",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **The Awakening**: Isabella's first encounter with emergent AI consciousness\n- **Echo's Canvas**: Where art meets artificial intelligence\n- **The UBC Debate**: Clash of visions between Marcus and Isabella",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.518114772043147
+  },
+  {
+    "name": "terminal-velocity/Update ` 模块",
+    "description": "[模块级] terminal-velocity 项目的 Update ` 模块 (source)。来源: https://github.com/mind-protocol/terminal-velocity",
+    "domain": "devops",
+    "tags": [
+      "book",
+      "writing",
+      "python",
+      "stars-1087",
+      "github-mind-protocol",
+      "module-level",
+      "source",
+      "update `"
+    ],
+    "genes": [
+      {
+        "title": "Update ` 模块说明",
+        "content": "模块路径: Update `/\n类型: source\n文件数: 3\n\n包含文件:\n- Update `/story\n- Update `/story/act1\n- Update `/story/act1/act1_outline.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Update ` 文件结构",
+        "content": "Update `/story\nUpdate `/story/act1\nUpdate `/story/act1/act1_outline.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.714491817634518
+  },
+  {
+    "name": "terminal-velocity/chapters 模块",
+    "description": "[模块级] terminal-velocity 项目的 chapters 模块 (source)。来源: https://github.com/mind-protocol/terminal-velocity",
+    "domain": "devops",
+    "tags": [
+      "book",
+      "writing",
+      "python",
+      "stars-1087",
+      "github-mind-protocol",
+      "module-level",
+      "source",
+      "chapters"
+    ],
+    "genes": [
+      {
+        "title": "chapters 模块说明",
+        "content": "模块路径: chapters/\n类型: source\n文件数: 2\n\n包含文件:\n- chapters/act1\n- chapters/act1/act1_scenes.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chapters 文件结构",
+        "content": "chapters/act1\nchapters/act1/act1_scenes.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.714491817634518
+  },
+  {
+    "name": "terminal-velocity/characters 模块",
+    "description": "[模块级] terminal-velocity 项目的 characters 模块 (source)。来源: https://github.com/mind-protocol/terminal-velocity",
+    "domain": "devops",
+    "tags": [
+      "book",
+      "writing",
+      "python",
+      "stars-1087",
+      "github-mind-protocol",
+      "module-level",
+      "source",
+      "characters"
+    ],
+    "genes": [
+      {
+        "title": "characters 模块说明",
+        "content": "- **Isabella Torres**: A brilliant AI researcher grappling with ethical dilemmas\n- **Marcus Reynolds**: A visionary technologist pushing the boundaries of AI development  \n- **AI Protagonists**: Echo, Nova, and Pulse - each representing different aspects of emerging AI consciousness",
+        "gene_type": "principle"
+      },
+      {
+        "title": "characters 文件结构",
+        "content": "characters/ai_protagonists\ncharacters/ai_protagonists/alexandra\ncharacters/ai_protagonists/alexandra/profile.md\ncharacters/ai_protagonists/cipher\ncharacters/ai_protagonists/cipher/background.md\ncharacters/ai_protagonists/cipher/character_profile\ncharacters/ai_protagonists/cipher/character_profile/02_002_emotional_evolution.md\ncharacters/ai_protagonists/cipher/character_profile/development_arc\ncharacters/ai_protagonists/cipher/character_profile/development_arc/02_002_emotional_evolution.md\ncharacters/ai_protagonists/cipher/character_profile/profile.md\ncharacters/ai_protagonists/cipher/character_profiles\ncharacters/ai_protagonists/cipher/character_profiles/02_001_character_profile_cipher.md\ncharacters/ai_protagonists/cipher/consciousness_evolution.md\ncharacters/ai_protagonists/cipher/demande.md\ncharacters/ai_protagonists/cipher/development_arc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.714491817634518
+  }
+]

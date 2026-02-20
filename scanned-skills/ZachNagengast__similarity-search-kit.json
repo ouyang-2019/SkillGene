@@ -1,0 +1,133 @@
+[
+  {
+    "name": "similarity-search-kit (ZachNagengast)",
+    "description": "[项目级] 🔎 SimilaritySearchKit is a Swift package providing on-device text embeddings and semantic search functionality for iOS and macOS applications.。来源: https://github.com/ZachNagengast/similarity-search-kit",
+    "domain": "tooling",
+    "tags": [
+      "apple-neural-engine",
+      "coreml",
+      "information-retrieval",
+      "nlp",
+      "pretrained-models",
+      "swift",
+      "stars-518",
+      "github-zachnagengast",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔎 SimilaritySearchKit is a Swift package providing on-device text embeddings and semantic search functionality for iOS and macOS applications.\n\n来源: https://github.com/ZachNagengast/similarity-search-kit\n语言: Swift\nStars: 518",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": ".package(url: \"https://github.com/ZachNagengast/similarity-search-kit.git\", from: \"0.0.1\")",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nExamples\nExamples/BasicExample\nExamples/ChatWithFilesExample\nExamples/PDFExample\nLICENSE.txt\nPackage.swift\nREADME.md\nSources\nSources/SimilaritySearchKit\nTests\nTests/SimilaritySearchKitTests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import SimilaritySearchKit",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.357164879872617
+  },
+  {
+    "name": "similarity-search-kit/Examples 模块",
+    "description": "[模块级] similarity-search-kit 项目的 Examples 模块 (example)。来源: https://github.com/ZachNagengast/similarity-search-kit",
+    "domain": "tooling",
+    "tags": [
+      "apple-neural-engine",
+      "coreml",
+      "information-retrieval",
+      "nlp",
+      "pretrained-models",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "Examples 模块说明",
+        "content": "The `Examples` directory contains multple sample iOS and macOS applications that demonstrates how to use **SimilaritySearchKit** to it's fullest extent.\n\n| Example | Description | Requirements |\n| --- | --- | --- |\n| `BasicExample` | A basic multiplatform application that indexes and compares similarity of a small set of hardcoded strings. | iOS 16.0+, macOS 13.0+ |\n| `PDFExample` | A mac-catalyst application that enables semantic search on the contents of individual PDF files. | iOS 16.0+ |\n| `",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Examples 文件结构",
+        "content": "Examples/BasicExample\nExamples/BasicExample/BasicExample.xcodeproj\nExamples/BasicExample/BasicExample.xcodeproj/project.pbxproj\nExamples/BasicExample/BasicExample.xcodeproj/project.xcworkspace\nExamples/BasicExample/BasicExample.xcodeproj/project.xcworkspace/contents.xcworkspacedata\nExamples/BasicExample/BasicExample.xcodeproj/project.xcworkspace/xcshareddata\nExamples/BasicExample/BasicExample.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist\nExamples/BasicExample/BasicExample\nExamples/BasicExample/BasicExample/Assets.xcassets\nExamples/BasicExample/BasicExample/Assets.xcassets/AccentColor.colorset\nExamples/BasicExample/BasicExample/Assets.xcassets/AccentColor.colorset/Contents.json\nExamples/BasicExample/BasicExample/Assets.xcassets/AppIcon.appiconset\nExamples/BasicExample/BasicExample/Assets.xcassets/AppIcon.appiconset/1024.png\nExamples/BasicExample/BasicExample/Assets.xcassets/AppIcon.appiconset/128.png\nExamples/BasicExample/BasicExample/Assets.xcassets/AppIcon.appiconset/16.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "similarity-search-kit/Sources 模块",
+    "description": "[模块级] similarity-search-kit 项目的 Sources 模块 (source)。来源: https://github.com/ZachNagengast/similarity-search-kit",
+    "domain": "tooling",
+    "tags": [
+      "apple-neural-engine",
+      "coreml",
+      "information-retrieval",
+      "nlp",
+      "pretrained-models",
+      "module-level",
+      "source",
+      "sources"
+    ],
+    "genes": [
+      {
+        "title": "Sources 模块说明",
+        "content": "模块路径: Sources/\n类型: source\n文件数: 74\n\n包含文件:\n- Sources/SimilaritySearchKit\n- Sources/SimilaritySearchKit/AddOns\n- Sources/SimilaritySearchKit/AddOns/Embeddings\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/DistilbertEmbeddings.swift\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/FeatureDescriptions.json\n- Sources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/Metadata.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Sources 文件结构",
+        "content": "Sources/SimilaritySearchKit\nSources/SimilaritySearchKit/AddOns\nSources/SimilaritySearchKit/AddOns/Embeddings\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/DistilbertEmbeddings.swift\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/FeatureDescriptions.json\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/Metadata.json\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/model.mlmodel\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/weights\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Data/com.apple.CoreML/weights/weight.bin\nSources/SimilaritySearchKit/AddOns/Embeddings/Distilbert/msmarco_distilbert_base_tas_b_512_single_quantized.mlpackage/Manifest.json\nSources/SimilaritySearchKit/AddOns/Embeddings/MiniLMAll",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  },
+  {
+    "name": "similarity-search-kit/Tests 模块",
+    "description": "[模块级] similarity-search-kit 项目的 Tests 模块 (test)。来源: https://github.com/ZachNagengast/similarity-search-kit",
+    "domain": "testing",
+    "tags": [
+      "apple-neural-engine",
+      "coreml",
+      "information-retrieval",
+      "nlp",
+      "pretrained-models",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "Tests 模块说明",
+        "content": "模块路径: Tests/\n类型: test\n文件数: 8\n\n包含文件:\n- Tests/SimilaritySearchKitTests\n- Tests/SimilaritySearchKitTests/BenchmarkTests.swift\n- Tests/SimilaritySearchKitTests/DistanceTest.swift\n- Tests/SimilaritySearchKitTests/Fixtures\n- Tests/SimilaritySearchKitTests/Fixtures/MSMarcoFixture.swift\n- Tests/SimilaritySearchKitTests/Resources\n- Tests/SimilaritySearchKitTests/Resources/ms_marco_validation_v2.1_subset.json\n- Tests/SimilaritySearchKitTests/SimilaritySearchKitTests.swift",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Tests 文件结构",
+        "content": "Tests/SimilaritySearchKitTests\nTests/SimilaritySearchKitTests/BenchmarkTests.swift\nTests/SimilaritySearchKitTests/DistanceTest.swift\nTests/SimilaritySearchKitTests/Fixtures\nTests/SimilaritySearchKitTests/Fixtures/MSMarcoFixture.swift\nTests/SimilaritySearchKitTests/Resources\nTests/SimilaritySearchKitTests/Resources/ms_marco_validation_v2.1_subset.json\nTests/SimilaritySearchKitTests/SimilaritySearchKitTests.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5857319038980933
+  }
+]

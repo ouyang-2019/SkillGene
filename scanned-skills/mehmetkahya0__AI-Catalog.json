@@ -1,0 +1,68 @@
+[
+  {
+    "name": "AI-Catalog (mehmetkahya0)",
+    "description": "[项目级] Huge AI models catalog. A curated list of AI tools, platforms, and resources across various domains.。来源: https://github.com/mehmetkahya0/AI-Catalog",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "artificial-intelligence-algorithms",
+      "awesome",
+      "shell",
+      "stars-478",
+      "github-mehmetkahya0",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Huge AI models catalog. A curated list of AI tools, platforms, and resources across various domains.\n\n来源: https://github.com/mehmetkahya0/AI-Catalog\n语言: Shell\nStars: 478",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Welcome to the most comprehensive AI tools catalog! This repository contains **500+ carefully curated AI tools** across **30+ categories**. Each tool is tested and verified to ensure quality and relevance.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AWESOME_LIST_CHECKLIST.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nIMPROVEMENTS_SUMMARY.md\nLICENSE\nREADME.md\nROADMAP.md\nscripts\nscripts/README.md\nscripts/add-tool.sh\nscripts/stats.sh\nscripts/validate.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.339713948306059
+  },
+  {
+    "name": "AI-Catalog/scripts 模块",
+    "description": "[模块级] AI-Catalog 项目的 scripts 模块 (script)。来源: https://github.com/mehmetkahya0/AI-Catalog",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "artificial-intelligence-algorithms",
+      "awesome",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/README.md\n- scripts/add-tool.sh\n- scripts/stats.sh\n- scripts/validate.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/README.md\nscripts/add-tool.sh\nscripts/stats.sh\nscripts/validate.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5717711586448475
+  }
+]

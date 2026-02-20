@@ -1,0 +1,233 @@
+[
+  {
+    "name": "py-gpt (szczyglis-dev)",
+    "description": "[项目级] Desktop AI Assistant powered by GPT-5, GPT-4, o1, o3, Gemini, Claude, Ollama, DeepSeek, Perplexity, Grok, Bielik, chat, vision, voice, RAG, image and video generation, agents, tools, MCP, plugins, speech synthesis and recognition, web search, memory, presets, assistants,and more. Linux, Windows, Mac。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "python",
+      "stars-1617",
+      "github-szczyglis-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**PyGPT** is **all-in-one** Desktop AI Assistant that provides direct interaction with OpenAI language models, including `GPT-5`, `GPT-4`, `o1`, `o3` and more, through the `OpenAI API`. By utilizing other SDKs and `LlamaIndex`, the application also supports alternative LLMs, like those available on `HuggingFace`, locally available models via `Ollama` (like `gpt-oss`, `Llama 3`,`Mistral`, `DeepSeek V3/R1` or `Bielik`), and other models like `Google Gemini`, `Anthropic Claude`, `Perplexity / Sonar`, and `xAI Grok`.\n\nThis assistant offers multiple modes of operation such as chat, assistants, agents, completions, and image-related tasks like image generation and image analysis. **PyGPT** has filesystem capabilities for file I/O, can generate and run Python code, execute system commands, execut",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AppImageBuilder.yml\nCHANGELOG.md\nCONTRIBUTING.md\nINSTALL.md\nLICENSE\nPyGPT_Linux_PAD_File.xml\nPyGPT_Windows_PAD_File.xml\nREADME.md\nSECURITY.md\nbin\nbin/Product.wxs\nbin/build.bat\nbin/build.sh\nbin/build_all.bat\nbin/build_appimage.sh\nbin/build_installer.bat\nbin/build_installer_store.bat\nbin/clean.sh\nbin/minify.py\nbin/minify.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The application includes several sample presets that help you become acquainted with the mechanism of their use.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Desktop AI Assistant for `Linux`, `Windows` and `Mac`, written in Python.\n- Works similarly to `ChatGPT`, but locally (on a desktop computer).\n- 11 modes of operation: Chat, Chat with Files, Realtime + audio, Research (Perplexity), Completion, Image and Video generation, Assistants, Experts, Computer use, Agents and Autonomous Mode.\n- Supports multiple models like `OpenAI GPT-5`, `GPT-4`, `o1`, `o3`, `o4`, `Google Gemini`, `Anthropic Claude`, `xAI Grok`, `DeepSeek V3/R1`, `Perplexity / Sonar`, and any model accessible through `LlamaIndex` and `Ollama` such as `DeepSeek`, `gpt-oss`, `Llama 3`",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.604355009953201
+  },
+  {
+    "name": "py-gpt/bin 模块",
+    "description": "[模块级] py-gpt 项目的 bin 模块 (script)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "You can download compiled binary versions for `Linux` and `Windows` (10/11). \n\n**PyGPT** binaries require a PC with Windows 10, 11, or Linux. Simply download the installer or the archive with the appropriate version from the download page at https://pygpt.net, extract it, or install it, and then run the application. A binary version for Mac is not available, so you must run PyGPT from PyPi or from the source code on Mac. Currently, only 64-bit binaries are available.\n\nLinux version requires `GLI",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/Product.wxs\nbin/build.bat\nbin/build.sh\nbin/build_all.bat\nbin/build_appimage.sh\nbin/build_installer.bat\nbin/build_installer_store.bat\nbin/clean.sh\nbin/minify.py\nbin/minify.sh\nbin/missing_locale.sh\nbin/resources.py\nbin/resources.sh\nbin/sort_locale.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  },
+  {
+    "name": "py-gpt/data 模块",
+    "description": "[模块级] py-gpt 项目的 data 模块 (source)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "**Configuring data loaders**\n\nIn the `Settings -> LlamaIndex -> Data loaders` section you can define the additional keyword arguments to pass into data loader instance.\n\nIn most cases, an internal LlamaIndex loaders are used internally. \nYou can check these base loaders e.g. here:\n\nFile: https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers/llama-index-readers-file/llama_index/readers/file\n\nWeb: https://github.com/run-llama/llama_index/tree/main/llama-index-integrat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/icons\ndata/icons/io.github.szczyglis_dev.py-gpt.png\ndata/io.github.szczyglis_dev.py-gpt.desktop",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  },
+  {
+    "name": "py-gpt/docs 模块",
+    "description": "[模块级] py-gpt 项目的 docs 模块 (docs)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "The plugin integrates with various Google services, enabling features such as email management, calendar events, contact handling, and document manipulation through Google APIs.\n\n- **Gmail**\n  - Listing recent emails from Gmail.\n  - Listing all emails from Gmail.\n  - Searching emails in Gmail.\n  - Retrieving email details by ID in Gmail.\n  - Sending an email via Gmail.\n  \n- **Google Calendar**\n  - Listing recent calendar events.\n  - Listing today's calendar events.\n  - Listing tomorrow's calenda",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/build-en.sh\ndocs/build-pl.sh\ndocs/install.txt\ndocs/make.bat\ndocs/material.qss.template\ndocs/rebuild-lang.sh\ndocs/requirements.txt\ndocs/rst_to_md.sh\ndocs/source\ndocs/source/accessibility.rst\ndocs/source/attachments.rst\ndocs/source/conf.py\ndocs/source/configuration.rst\ndocs/source/context.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  },
+  {
+    "name": "py-gpt/examples 模块",
+    "description": "[模块级] py-gpt 项目的 examples 模块 (example)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 10\n\n包含文件:\n- examples/README.md\n- examples/custom_launcher.py\n- examples/example_audio_input.py\n- examples/example_audio_output.py\n- examples/example_data_loader.py\n- examples/example_llm.py\n- examples/example_plugin.py\n- examples/example_tool.py\n- examples/example_vector_store.py\n- examples/example_web_search.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/custom_launcher.py\nexamples/example_audio_input.py\nexamples/example_audio_output.py\nexamples/example_data_loader.py\nexamples/example_llm.py\nexamples/example_plugin.py\nexamples/example_tool.py\nexamples/example_vector_store.py\nexamples/example_web_search.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  },
+  {
+    "name": "py-gpt/snap 模块",
+    "description": "[模块级] py-gpt 项目的 snap 模块 (source)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "source",
+      "snap"
+    ],
+    "genes": [
+      {
+        "title": "snap 模块说明",
+        "content": "You can install **PyGPT** directly from Snap Store:\n\n```commandline\nsudo snap install pygpt\n```\n\nTo manage future updates use:\n\n```commandline\nsudo snap refresh pygpt\n```\n\n[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pygpt)\n\n**Using camera:** to use camera in Snap version you must connect the camera with:\n\n```commandline\nsudo snap connect pygpt:camera\n```\n\n**Using microphone:** to use microphone in Snap version you must c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "snap 文件结构",
+        "content": "snap/gui\nsnap/gui/pygpt.desktop\nsnap/gui/pygpt.png\nsnap/snapcraft.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "snap 代码示例",
+        "content": "sudo snap install pygpt",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  },
+  {
+    "name": "py-gpt/src 模块",
+    "description": "[模块级] py-gpt 项目的 src 模块 (source)。来源: https://github.com/szczyglis-dev/py-gpt",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-assistant",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "chatbot",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 44\n\n包含文件:\n- src/__init__.py\n- src/pygpt_net\n- src/pygpt_net/CHANGELOG.txt\n- src/pygpt_net/LICENSE\n- src/pygpt_net/__init__.py\n- src/pygpt_net/app.py\n- src/pygpt_net/app_core.py\n- src/pygpt_net/config.py\n- src/pygpt_net/controller\n- src/pygpt_net/controller/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/pygpt_net\nsrc/pygpt_net/CHANGELOG.txt\nsrc/pygpt_net/LICENSE\nsrc/pygpt_net/__init__.py\nsrc/pygpt_net/app.py\nsrc/pygpt_net/app_core.py\nsrc/pygpt_net/config.py\nsrc/pygpt_net/controller\nsrc/pygpt_net/controller/__init__.py\nsrc/pygpt_net/controller/access\nsrc/pygpt_net/controller/access/__init__.py\nsrc/pygpt_net/controller/access/access.py\nsrc/pygpt_net/controller/access/control.py\nsrc/pygpt_net/controller/access/voice.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7834840079625605
+  }
+]

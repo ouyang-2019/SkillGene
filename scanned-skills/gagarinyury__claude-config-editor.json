@@ -1,0 +1,73 @@
+[
+  {
+    "name": "claude-config-editor (gagarinyury)",
+    "description": "[项目级] Claude Config Editor is a lightweight web tool that helps you clean and optimize your Claude Code/Desktop config files (.claude.json). Analyze project sizes, bulk delete chat histories, export data for backup, manage servers visually, and speed up Claude—all locally, with auto-backup, no dependencies, and cross-platform support.。来源: https://github.com/gagarinyury/claude-config-editor",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-desktop",
+      "cross-platform",
+      "html",
+      "stars-219",
+      "github-gagarinyury",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "![Overview](screenshots/overview.png)\n*Quick stats and health analysis at a glance*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/gagarinyury/claude-config-editor.git\ncd claude-config-editor\npython3 server.py",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREDDIT_POST.md\nindex.html\nscreenshots\nscreenshots/mcp-servers.png\nscreenshots/overview.png\nscreenshots/project-history.png\nserver.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.170222057420059
+  },
+  {
+    "name": "claude-config-editor/screenshots 模块",
+    "description": "[模块级] claude-config-editor 项目的 screenshots 模块 (source)。来源: https://github.com/gagarinyury/claude-config-editor",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-desktop",
+      "cross-platform",
+      "module-level",
+      "source",
+      "screenshots"
+    ],
+    "genes": [
+      {
+        "title": "screenshots 模块说明",
+        "content": "模块路径: screenshots/\n类型: source\n文件数: 3\n\n包含文件:\n- screenshots/mcp-servers.png\n- screenshots/overview.png\n- screenshots/project-history.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "screenshots 文件结构",
+        "content": "screenshots/mcp-servers.png\nscreenshots/overview.png\nscreenshots/project-history.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4361776459360476
+  }
+]

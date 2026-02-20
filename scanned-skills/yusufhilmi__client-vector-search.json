@@ -1,0 +1,73 @@
+[
+  {
+    "name": "client-vector-search (yusufhilmi)",
+    "description": "[项目级] A client side vector search library that can embed, store, search, and cache vectors. Works on the browser and node. It outperforms OpenAI's text-embedding-ada-002 and is way faster than Pinecone and other VectorDBs.。来源: https://github.com/yusufhilmi/client-vector-search",
+    "domain": "ai-llm",
+    "tags": [
+      "embedding-models",
+      "embedding-vectors",
+      "embeddings",
+      "openai",
+      "search",
+      "typescript",
+      "stars-227",
+      "github-yusufhilmi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A client side vector search library that can embed, store, search, and cache vectors. Works on the browser and node. It outperforms OpenAI's text-embedding-ada-002 and is way faster than Pinecone and other VectorDBs.\n\n来源: https://github.com/yusufhilmi/client-vector-search\n语言: TypeScript\nStars: 227",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm i client-vector-search",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\npackage-lock.json\npackage.json\nsrc\nsrc/cache.ts\nsrc/hnsw.ts\nsrc/index.ts\nsrc/indexedDB.ts\nsrc/utils.ts\ntsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This guide provides a step-by-step walkthrough of the library's main features. It covers everything from generating embeddings for a string to performing operations on the index such as adding, updating, and removing objects. It also includes instructions on how to save the index to a database and perform search operations within it.\n\nUntil we have a reference documentation, you can find all the methods and their usage in this guide. Each step is accompanied by a code snippet to illustrate the usage of the method in question. Make sure to follow along and try out the examples in your own envir",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.178012928596561
+  },
+  {
+    "name": "client-vector-search/src 模块",
+    "description": "[模块级] client-vector-search 项目的 src 模块 (source)。来源: https://github.com/yusufhilmi/client-vector-search",
+    "domain": "ai-llm",
+    "tags": [
+      "embedding-models",
+      "embedding-vectors",
+      "embeddings",
+      "openai",
+      "search",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 5\n\n包含文件:\n- src/cache.ts\n- src/hnsw.ts\n- src/index.ts\n- src/indexedDB.ts\n- src/utils.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cache.ts\nsrc/hnsw.ts\nsrc/index.ts\nsrc/indexedDB.ts\nsrc/utils.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.442410342877249
+  }
+]

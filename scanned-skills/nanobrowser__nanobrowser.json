@@ -1,0 +1,103 @@
+[
+  {
+    "name": "nanobrowser (nanobrowser)",
+    "description": "[项目级] Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.。来源: https://github.com/nanobrowser/nanobrowser",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "typescript",
+      "stars-12261",
+      "github-nanobrowser",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.\n\n来源: https://github.com/nanobrowser/nanobrowser\n语言: TypeScript\nStars: 12261",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Install from Chrome Web Store** (Stable Version):\n   * Visit the [Nanobrowser Chrome Web Store page](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal)\n   * Click \"Add to Chrome\" button\n   * Confirm the installation when prompted\n\n> **Important Note**: For latest features, install from [\"Manually Install Latest Version\"](#-manually-install-latest-version) below, as Chrome Web Store version may be delayed due to review process.\n\n2. **Configure Agent Models**:\n   * Click the Nanobrowser icon in your toolbar to open the sidebar\n   * Click the `Settings` ic",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nPRIVACY.md\nREADME-es.md\nREADME-tr.md\nREADME-zh-Hant.md\nREADME.md\nSECURITY.md\nUPDATE-PACKAGE-VERSIONS.md\nchrome-extension\nchrome-extension/manifest.js\nchrome-extension/package.json\nchrome-extension/public\nchrome-extension/src\nchrome-extension/tsconfig.json\nchrome-extension/utils\nchrome-extension/vite.config.mts\npackage.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-agent System**: Specialized AI agents collaborate to accomplish complex web workflows\n- **Interactive Side Panel**: Intuitive chat interface with real-time status updates\n- **Task Automation**: Seamlessly automate repetitive web automation tasks across websites\n- **Follow-up Questions**: Ask contextual follow-up questions about completed tasks\n- **Conversation History**: Easily access and manage your AI agent interaction history\n- **Multiple LLM Support**: Connect your preferred LLM providers and assign different models to different agents",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "nanobrowser/chrome-extension 模块",
+    "description": "[模块级] nanobrowser 项目的 chrome-extension 模块 (source)。来源: https://github.com/nanobrowser/nanobrowser",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "module-level",
+      "source",
+      "chrome-extension"
+    ],
+    "genes": [
+      {
+        "title": "chrome-extension 模块说明",
+        "content": "模块路径: chrome-extension/\n类型: source\n文件数: 75\n\n包含文件:\n- chrome-extension/manifest.js\n- chrome-extension/package.json\n- chrome-extension/public\n- chrome-extension/public/bg.jpg\n- chrome-extension/public/buildDomTree.js\n- chrome-extension/public/icon-128.png\n- chrome-extension/public/icon-32.png\n- chrome-extension/public/permission\n- chrome-extension/public/permission/index.html\n- chrome-extension/public/permission/permission.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chrome-extension 文件结构",
+        "content": "chrome-extension/manifest.js\nchrome-extension/package.json\nchrome-extension/public\nchrome-extension/public/bg.jpg\nchrome-extension/public/buildDomTree.js\nchrome-extension/public/icon-128.png\nchrome-extension/public/icon-32.png\nchrome-extension/public/permission\nchrome-extension/public/permission/index.html\nchrome-extension/public/permission/permission.js\nchrome-extension/src\nchrome-extension/src/background\nchrome-extension/src/background/agent\nchrome-extension/src/background/agent/actions\nchrome-extension/src/background/agent/actions/builder.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1354103569725025
+  },
+  {
+    "name": "nanobrowser/packages 模块",
+    "description": "[模块级] nanobrowser 项目的 packages 模块 (source)。来源: https://github.com/nanobrowser/nanobrowser",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 92\n\n包含文件:\n- packages/dev-utils\n- packages/dev-utils/.eslintignore\n- packages/dev-utils/index.ts\n- packages/dev-utils/lib\n- packages/dev-utils/lib/logger.ts\n- packages/dev-utils/lib/manifest-parser\n- packages/dev-utils/lib/manifest-parser/impl.ts\n- packages/dev-utils/lib/manifest-parser/index.ts\n- packages/dev-utils/lib/manifest-parser/type.ts\n- packages/dev-utils/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/dev-utils\npackages/dev-utils/.eslintignore\npackages/dev-utils/index.ts\npackages/dev-utils/lib\npackages/dev-utils/lib/logger.ts\npackages/dev-utils/lib/manifest-parser\npackages/dev-utils/lib/manifest-parser/impl.ts\npackages/dev-utils/lib/manifest-parser/index.ts\npackages/dev-utils/lib/manifest-parser/type.ts\npackages/dev-utils/package.json\npackages/dev-utils/tsconfig.json\npackages/hmr\npackages/hmr/index.ts\npackages/hmr/lib\npackages/hmr/lib/constant.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1354103569725025
+  }
+]

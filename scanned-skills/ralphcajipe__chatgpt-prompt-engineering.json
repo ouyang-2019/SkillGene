@@ -1,0 +1,33 @@
+[
+  {
+    "name": "chatgpt-prompt-engineering (ralphcajipe)",
+    "description": "[项目级] Jupyter code notebooks of \"ChatGPT Prompt Engineering for Developers\" by DeepLearning.AI and OpenAI.。来源: https://github.com/ralphcajipe/chatgpt-prompt-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "expanding",
+      "inferring",
+      "large-language-models",
+      "summarizing",
+      "jupyter notebook",
+      "stars-398",
+      "github-ralphcajipe",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Jupyter code notebooks of \"ChatGPT Prompt Engineering for Developers\" by DeepLearning.AI and OpenAI.\n\n来源: https://github.com/ralphcajipe/chatgpt-prompt-engineering\n语言: Jupyter Notebook\nStars: 398",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "1-guidelines.ipynb\n2-iterative.ipynb\n3-summarizing.ipynb\n4-inferring.ipynb\n5-transforming.ipynb\n6-expanding.ipynb\n7-chatbot.ipynb\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.299941536036844
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "claude-flow (ruvnet)",
+    "description": "[项目级] 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code support via MCP protocol. Ranked #1 in agent-based frameworks.。来源: https://github.com/ruvnet/claude-flow",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "agentic-engineering",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow",
+      "typescript",
+      "stars-14268",
+      "github-ruvnet",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "`@claude-flow/guidance` turns `CLAUDE.md` into a runtime governance system with enforcement gates, cryptographic proofs, and feedback loops. Agents that normally drift after 30 minutes can now operate for days — rules are enforced mechanically at every step, not remembered by the model.\n\n**7-phase pipeline:** Compile → Retrieve → Enforce → Trust → Prove → Defend → Evolve\n\n| Capability | Description |\n|-----------|-------------|\n| **Compile** | Parses `CLAUDE.md` into typed policy bundles (constitution + task-scoped shards) |\n| **Retrieve** | Intent-classified shard retrieval with semantic similarity and risk filters |\n| **Enforce** | 4 gates the model cannot bypass (destructive ops, tool allowlist, diff size, secrets) |\n| **Trust** | Per-agent trust accumulation with privilege tiers and co",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx ruvector",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "npx ruflo-codex dual run --template feature --task \"Add user auth\"",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  }
+]

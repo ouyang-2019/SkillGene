@@ -1,0 +1,123 @@
+[
+  {
+    "name": "local-rag (jonfairbanks)",
+    "description": "[项目级] Ingest files for retrieval augmented generation (RAG) with open-source Large Language Models (LLMs), all without 3rd parties or sensitive data leaving your network.。来源: https://github.com/jonfairbanks/local-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "large-language-models",
+      "llm",
+      "ollama",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-730",
+      "github-jonfairbanks",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ingest files for retrieval augmented generation (RAG) with open-source Large Language Models (LLMs), all without 3rd parties or sensitive data leaving your network.\n\n来源: https://github.com/jonfairbanks/local-rag\n语言: Python\nStars: 730",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nPipfile\nPipfile.lock\nREADME.md\ncomponents\ncomponents/chatbox.py\ncomponents/header.py\ncomponents/page_config.py\ncomponents/page_state.py\ncomponents/sidebar.py\ncomponents/tabs\ndemo.gif\ndocker-compose.yml\ndocker-compose.yml-rocm\ndocs\ndocs/contributing.md\ndocs/pipeline.md\ndocs/resources.md\ndocs/setup.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4316614300602275
+  },
+  {
+    "name": "local-rag/components 模块",
+    "description": "[模块级] local-rag 项目的 components 模块 (source)。来源: https://github.com/jonfairbanks/local-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "large-language-models",
+      "llm",
+      "ollama",
+      "rag",
+      "retrieval-augmented-generation",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 12\n\n包含文件:\n- components/chatbox.py\n- components/header.py\n- components/page_config.py\n- components/page_state.py\n- components/sidebar.py\n- components/tabs\n- components/tabs/about.py\n- components/tabs/github_repo.py\n- components/tabs/local_files.py\n- components/tabs/settings.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/chatbox.py\ncomponents/header.py\ncomponents/page_config.py\ncomponents/page_state.py\ncomponents/sidebar.py\ncomponents/tabs\ncomponents/tabs/about.py\ncomponents/tabs/github_repo.py\ncomponents/tabs/local_files.py\ncomponents/tabs/settings.py\ncomponents/tabs/sources.py\ncomponents/tabs/website.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6453291440481825
+  },
+  {
+    "name": "local-rag/docs 模块",
+    "description": "[模块级] local-rag 项目的 docs 模块 (docs)。来源: https://github.com/jonfairbanks/local-rag",
+    "domain": "documentation",
+    "tags": [
+      "large-language-models",
+      "llm",
+      "ollama",
+      "rag",
+      "retrieval-augmented-generation",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/contributing.md\n- docs/pipeline.md\n- docs/resources.md\n- docs/setup.md\n- docs/todo.md\n- docs/troubleshooting.md\n- docs/usage.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/contributing.md\ndocs/pipeline.md\ndocs/resources.md\ndocs/setup.md\ndocs/todo.md\ndocs/troubleshooting.md\ndocs/usage.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6453291440481825
+  },
+  {
+    "name": "local-rag/utils 模块",
+    "description": "[模块级] local-rag 项目的 utils 模块 (source)。来源: https://github.com/jonfairbanks/local-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "large-language-models",
+      "llm",
+      "ollama",
+      "rag",
+      "retrieval-augmented-generation",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 5\n\n包含文件:\n- utils/helpers.py\n- utils/llama_index.py\n- utils/logs.py\n- utils/ollama.py\n- utils/rag_pipeline.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/helpers.py\nutils/llama_index.py\nutils/logs.py\nutils/ollama.py\nutils/rag_pipeline.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6453291440481825
+  }
+]

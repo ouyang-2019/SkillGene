@@ -1,0 +1,133 @@
+[
+  {
+    "name": "yek (mohsen1)",
+    "description": "[项目级] A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption。来源: https://github.com/mohsen1/yek",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "large-language-models",
+      "llm",
+      "rust-lang",
+      "rust",
+      "stars-2426",
+      "github-mohsen1",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption\n\n来源: https://github.com/mohsen1/yek\n语言: Rust\nStars: 2426",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Choose the installation method for your platform:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ARCHITECTURE.md\nCHANGELOG.md\nCargo.lock\nCargo.toml\nFormula\nFormula/yek.rb\nLICENSE\nMakefile\nREADME.md\nbench.toml\nbenches\nbenches/serialization.rs\ncliff.toml\nscripts\nscripts/ailoop.ts\nscripts/install_yek.ps1\nscripts/install_yek.sh\nscripts/make-release.sh\nsrc\nsrc/category.rs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "`yek` has sensible defaults, you can simply run `yek` in a directory to serialize the entire repository. It will serialize all files in the repository and write them into a temporary file. The path to the file will be printed to the console.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.692445398265277
+  },
+  {
+    "name": "yek/scripts 模块",
+    "description": "[模块级] yek 项目的 scripts 模块 (script)。来源: https://github.com/mohsen1/yek",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "large-language-models",
+      "llm",
+      "rust-lang",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/ailoop.ts\n- scripts/install_yek.ps1\n- scripts/install_yek.sh\n- scripts/make-release.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/ailoop.ts\nscripts/install_yek.ps1\nscripts/install_yek.sh\nscripts/make-release.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.853956318612222
+  },
+  {
+    "name": "yek/src 模块",
+    "description": "[模块级] yek 项目的 src 模块 (source)。来源: https://github.com/mohsen1/yek",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "large-language-models",
+      "llm",
+      "rust-lang",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 12\n\n包含文件:\n- src/category.rs\n- src/config.rs\n- src/defaults.rs\n- src/error.rs\n- src/lib.rs\n- src/main.rs\n- src/models.rs\n- src/parallel.rs\n- src/pipeline.rs\n- src/priority.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/category.rs\nsrc/config.rs\nsrc/defaults.rs\nsrc/error.rs\nsrc/lib.rs\nsrc/main.rs\nsrc/models.rs\nsrc/parallel.rs\nsrc/pipeline.rs\nsrc/priority.rs\nsrc/repository.rs\nsrc/tree.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.853956318612222
+  },
+  {
+    "name": "yek/tests 模块",
+    "description": "[模块级] yek 项目的 tests 模块 (test)。来源: https://github.com/mohsen1/yek",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "large-language-models",
+      "llm",
+      "rust-lang",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 22\n\n包含文件:\n- tests/category_test.rs\n- tests/config_test.rs\n- tests/config_unignore_test.rs\n- tests/e2e_test.rs\n- tests/error_test.rs\n- tests/extra_tests.rs\n- tests/integration_tests.rs\n- tests/lib_test.rs\n- tests/line_numbers_test.rs\n- tests/main_test.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/category_test.rs\ntests/config_test.rs\ntests/config_unignore_test.rs\ntests/e2e_test.rs\ntests/error_test.rs\ntests/extra_tests.rs\ntests/integration_tests.rs\ntests/lib_test.rs\ntests/line_numbers_test.rs\ntests/main_test.rs\ntests/misc_test.rs\ntests/models_test.rs\ntests/parallel_test.rs\ntests/pipeline_test.rs\ntests/priority_test.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.853956318612222
+  }
+]

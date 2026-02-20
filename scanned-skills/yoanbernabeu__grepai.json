@@ -1,0 +1,283 @@
+[
+  {
+    "name": "grepai (yoanbernabeu)",
+    "description": "[项目级] Semantic Search & Call Graphs for AI Agents (100% Local)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "go",
+      "stars-1269",
+      "github-yoanbernabeu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic Search & Call Graphs for AI Agents (100% Local)\n\n来源: https://github.com/yoanbernabeu/grepai\n语言: Go\nStars: 1269",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "brew install yoanbernabeu/tap/grepai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\ncli\ncli/agent_setup.go\ncli/agent_setup_test.go\ncli/init.go\ncli/mcp_serve.go\ncli/mcp_serve_test.go\ncli/root.go\ncli/search.go\ncli/search_test.go\ncli/status.go\ncli/trace.go\ncli/trace_test.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Search by intent** — Ask \"authentication logic\" and find `handleUserSession`\n- **Trace call graphs** — Know who calls a function before you change it\n- **100% local** — Your code never leaves your machine\n- **Always up-to-date** — File watcher keeps the index fresh automatically\n- **AI agent ready** — Works with Claude Code, Cursor, Windsurf out of the box\n- **MCP server** — Your AI agent can call grepai directly as a tool",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.551730811047353
+  },
+  {
+    "name": "grepai/cli 模块",
+    "description": "[模块级] grepai 项目的 cli 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 22\n\n包含文件:\n- cli/agent_setup.go\n- cli/agent_setup_test.go\n- cli/init.go\n- cli/mcp_serve.go\n- cli/mcp_serve_test.go\n- cli/root.go\n- cli/search.go\n- cli/search_test.go\n- cli/status.go\n- cli/trace.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/agent_setup.go\ncli/agent_setup_test.go\ncli/init.go\ncli/mcp_serve.go\ncli/mcp_serve_test.go\ncli/root.go\ncli/search.go\ncli/search_test.go\ncli/status.go\ncli/trace.go\ncli/trace_test.go\ncli/update.go\ncli/watch.go\ncli/watch_initialscan_test.go\ncli/watch_multiworktree_rpg_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/cmd 模块",
+    "description": "[模块级] grepai 项目的 cmd 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 4\n\n包含文件:\n- cmd/gendocs\n- cmd/gendocs/main.go\n- cmd/grepai\n- cmd/grepai/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/gendocs\ncmd/gendocs/main.go\ncmd/grepai\ncmd/grepai/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/config 模块",
+    "description": "[模块级] grepai 项目的 config 模块 (config)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 5\n\n包含文件:\n- config/config.go\n- config/config_test.go\n- config/config_worktree_test.go\n- config/workspace.go\n- config/workspace_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.go\nconfig/config_test.go\nconfig/config_worktree_test.go\nconfig/workspace.go\nconfig/workspace_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/daemon 模块",
+    "description": "[模块级] grepai 项目的 daemon 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "daemon"
+    ],
+    "genes": [
+      {
+        "title": "daemon 模块说明",
+        "content": "模块路径: daemon/\n类型: source\n文件数: 9\n\n包含文件:\n- daemon/daemon.go\n- daemon/daemon_test.go\n- daemon/daemon_unix.go\n- daemon/daemon_unix_test.go\n- daemon/daemon_windows.go\n- daemon/daemon_windows_test.go\n- daemon/example_test.go\n- daemon/workspace.go\n- daemon/workspace_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "daemon 文件结构",
+        "content": "daemon/daemon.go\ndaemon/daemon_test.go\ndaemon/daemon_unix.go\ndaemon/daemon_unix_test.go\ndaemon/daemon_windows.go\ndaemon/daemon_windows_test.go\ndaemon/example_test.go\ndaemon/workspace.go\ndaemon/workspace_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/docs 模块",
+    "description": "[模块级] grepai 项目的 docs 模块 (docs)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 82\n\n包含文件:\n- docs/astro.config.mjs\n- docs/package-lock.json\n- docs/package.json\n- docs/public\n- docs/public/favicon.svg\n- docs/src\n- docs/src/components\n- docs/src/components/content\n- docs/src/components/content/Badge.astro\n- docs/src/components/content/Callout.astro",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/astro.config.mjs\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/public/favicon.svg\ndocs/src\ndocs/src/components\ndocs/src/components/content\ndocs/src/components/content/Badge.astro\ndocs/src/components/content/Callout.astro\ndocs/src/components/content/Card.astro\ndocs/src/components/content/CardGrid.astro\ndocs/src/components/content/CodeBlock.astro\ndocs/src/components/content/LinkCard.astro\ndocs/src/components/content/Steps.astro",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/embedder 模块",
+    "description": "[模块级] grepai 项目的 embedder 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "embedder"
+    ],
+    "genes": [
+      {
+        "title": "embedder 模块说明",
+        "content": "模块路径: embedder/\n类型: source\n文件数: 22\n\n包含文件:\n- embedder/batch.go\n- embedder/batch_test.go\n- embedder/embedder.go\n- embedder/embedder_test.go\n- embedder/errors.go\n- embedder/errors_test.go\n- embedder/factory.go\n- embedder/factory_test.go\n- embedder/lmstudio.go\n- embedder/ollama.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embedder 文件结构",
+        "content": "embedder/batch.go\nembedder/batch_test.go\nembedder/embedder.go\nembedder/embedder_test.go\nembedder/errors.go\nembedder/errors_test.go\nembedder/factory.go\nembedder/factory_test.go\nembedder/lmstudio.go\nembedder/ollama.go\nembedder/openai.go\nembedder/openai_batch_test.go\nembedder/openai_helpers_test.go\nembedder/openai_rate_limit_test.go\nembedder/openrouter.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/git 模块",
+    "description": "[模块级] grepai 项目的 git 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "git"
+    ],
+    "genes": [
+      {
+        "title": "git 模块说明",
+        "content": "模块路径: git/\n类型: source\n文件数: 2\n\n包含文件:\n- git/git.go\n- git/git_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "git 文件结构",
+        "content": "git/git.go\ngit/git_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  },
+  {
+    "name": "grepai/indexer 模块",
+    "description": "[模块级] grepai 项目的 indexer 模块 (source)。来源: https://github.com/yoanbernabeu/grepai",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "code-search",
+      "cursor",
+      "module-level",
+      "source",
+      "indexer"
+    ],
+    "genes": [
+      {
+        "title": "indexer 模块说明",
+        "content": "模块路径: indexer/\n类型: source\n文件数: 7\n\n包含文件:\n- indexer/chunker.go\n- indexer/chunker_test.go\n- indexer/gitignore.go\n- indexer/gitignore_test.go\n- indexer/indexer.go\n- indexer/indexer_branchswitch_test.go\n- indexer/indexer_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "indexer 文件结构",
+        "content": "indexer/chunker.go\nindexer/chunker_test.go\nindexer/gitignore.go\nindexer/gitignore_test.go\nindexer/indexer.go\nindexer/indexer_branchswitch_test.go\nindexer/indexer_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.741384648837882
+  }
+]

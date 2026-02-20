@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Langchain-Chatchat (chatchat-space)",
+    "description": "[项目级] Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain 。来源: https://github.com/chatchat-space/Langchain-Chatchat",
+    "domain": "ai-llm",
+    "tags": [
+      "chatbot",
+      "chatchat",
+      "chatglm",
+      "chatgpt",
+      "embedding",
+      "python",
+      "stars-37299",
+      "github-chatchat-space",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖️ 一种利用 [langchain](https://github.com/langchain-ai/langchain)\n思想实现的基于本地知识库的问答应用，目标期望建立一套对中文场景与开源模型支持友好、可离线运行的知识库问答解决方案。\n\n💡 受 [GanymedeNil](https://github.com/GanymedeNil) 的项目 [document.ai](https://github.com/GanymedeNil/document.ai)\n和 [AlexZhangji](https://github.com/AlexZhangji)\n创建的 [ChatGLM-6B Pull Request](https://github.com/THUDM/ChatGLM-6B/pull/216)\n启发，建立了全流程可使用开源模型实现的本地知识库问答应用。本项目的最新版本中可使用 [Xinference](https://github.com/xorbitsai/inference)、[Ollama](https://github.com/ollama/ollama)\n等框架接入 [GLM-4-Chat](https://github.com/THUDM/GLM-4)、 [Qwen2-Instruct](https://github.com/QwenLM/Qwen2)、 [Llama3](https://github.com/meta-llama/llama3)\n等模型，依托于 [langchain](https://github.com/langchain-ai/langchain)\n框架支持通过基于 [FastAPI](https://github.com/tiangolo/fastapi) 提供的 API\n调用服务，或使用基于 [Streamlit](ht",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_en.md\ndocker\ndocker/.dockerignore\ndocker/Dockerfile\ndocker/data.tar.gz\ndocker/docker-compose.yaml\ndocs\ndocs/contributing\ndocs/img\ndocs/install\nlibs\nlibs/chatchat-server",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "Langchain-Chatchat/docker 模块",
+    "description": "[模块级] Langchain-Chatchat 项目的 docker 模块 (source)。来源: https://github.com/chatchat-space/Langchain-Chatchat",
+    "domain": "ai-llm",
+    "tags": [
+      "chatbot",
+      "chatchat",
+      "chatglm",
+      "chatgpt",
+      "embedding",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "```shell\ndocker pull chatimage/chatchat:0.3.1.3-93e2c87-20240829\n\ndocker pull ccr.ccs.tencentyun.com/langchain-chatchat/chatchat:0.3.1.3-93e2c87-20240829 # 国内镜像\n```\n\n> [!important]\n> 强烈建议: 使用 docker-compose 部署, 具体参考 [README_docker](docs/install/README_docker.md)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.dockerignore\ndocker/Dockerfile\ndocker/data.tar.gz\ndocker/docker-compose.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "docker pull chatimage/chatchat:0.3.1.3-93e2c87-20240829\n\ndocker pull ccr.ccs.tencentyun.com/langchain-chatchat/chatchat:0.3.1.3-93e2c87-20240829 # 国内镜像",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.328678875347565
+  },
+  {
+    "name": "Langchain-Chatchat/docs 模块",
+    "description": "[模块级] Langchain-Chatchat 项目的 docs 模块 (docs)。来源: https://github.com/chatchat-space/Langchain-Chatchat",
+    "domain": "documentation",
+    "tags": [
+      "chatbot",
+      "chatchat",
+      "chatglm",
+      "chatgpt",
+      "embedding",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 47\n\n包含文件:\n- docs/contributing\n- docs/contributing/README.md\n- docs/contributing/README_dev.md\n- docs/contributing/agent.md\n- docs/contributing/api.md\n- docs/contributing/code.md\n- docs/contributing/repo_structure.md\n- docs/contributing/settings.md\n- docs/img\n- docs/img/LLM_success.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/contributing\ndocs/contributing/README.md\ndocs/contributing/README_dev.md\ndocs/contributing/agent.md\ndocs/contributing/api.md\ndocs/contributing/code.md\ndocs/contributing/repo_structure.md\ndocs/contributing/settings.md\ndocs/img\ndocs/img/LLM_success.png\ndocs/img/agent_continue.png\ndocs/img/agent_success.png\ndocs/img/chatchat-qrcode.jpg\ndocs/img/chatchat_icon_blue_square_v2.png\ndocs/img/docker_logs.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.328678875347565
+  },
+  {
+    "name": "Langchain-Chatchat/libs 模块",
+    "description": "[模块级] Langchain-Chatchat 项目的 libs 模块 (source)。来源: https://github.com/chatchat-space/Langchain-Chatchat",
+    "domain": "ai-llm",
+    "tags": [
+      "chatbot",
+      "chatchat",
+      "chatglm",
+      "chatgpt",
+      "embedding",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 126\n\n包含文件:\n- libs/chatchat-server\n- libs/chatchat-server/.env\n- libs/chatchat-server/Makefile\n- libs/chatchat-server/README.md\n- libs/chatchat-server/README_en.md\n- libs/chatchat-server/chatchat\n- libs/chatchat-server/chatchat/__init__.py\n- libs/chatchat-server/chatchat/cli.py\n- libs/chatchat-server/chatchat/data\n- libs/chatchat-server/chatchat/data/knowledge_base",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/chatchat-server\nlibs/chatchat-server/.env\nlibs/chatchat-server/Makefile\nlibs/chatchat-server/README.md\nlibs/chatchat-server/README_en.md\nlibs/chatchat-server/chatchat\nlibs/chatchat-server/chatchat/__init__.py\nlibs/chatchat-server/chatchat/cli.py\nlibs/chatchat-server/chatchat/data\nlibs/chatchat-server/chatchat/data/knowledge_base\nlibs/chatchat-server/chatchat/data/knowledge_base/samples\nlibs/chatchat-server/chatchat/data/knowledge_base/samples/content\nlibs/chatchat-server/chatchat/data/knowledge_base/samples/content/test_files\nlibs/chatchat-server/chatchat/data/knowledge_base/samples/content/test_files/langchain-ChatGLM_closed.csv\nlibs/chatchat-server/chatchat/data/knowledge_base/samples/content/test_files/langchain-ChatGLM_closed.xlsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.328678875347565
+  }
+]

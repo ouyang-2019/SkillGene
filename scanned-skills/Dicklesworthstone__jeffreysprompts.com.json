@@ -1,0 +1,73 @@
+[
+  {
+    "name": "jeffreysprompts.com (Dicklesworthstone)",
+    "description": "[项目级] A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills。来源: https://github.com/Dicklesworthstone/jeffreysprompts.com",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "claude",
+      "prompts",
+      "skills",
+      "website",
+      "typescript",
+      "stars-72",
+      "github-dicklesworthstone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of battle-tested prompts for agentic coding - Browse, copy, and install as Claude Code skills\n\n来源: https://github.com/Dicklesworthstone/jeffreysprompts.com\n语言: TypeScript\nStars: 72",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCargo.lock\nCargo.toml\nEXISTING_JFP_STRUCTURE.md\nFEATURE_PARITY.md\nLICENSE\nPLAN_TO_MAKE_JEFFREYSPROMPTS_WEBAPP_AND_CLI_TOOL.md\nPLAN_TO_PORT_JFP_TO_RUST.md\nPROPOSED_ARCHITECTURE.md\nREADME.md\nRECOVERY_RUNBOOK.md\nSYNC_STRATEGY.md\nTEST_AUDIT.md\nUPGRADE_LOG.md\napps\napps/web",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9286662482156345
+  },
+  {
+    "name": "jeffreysprompts.com/apps 模块",
+    "description": "[模块级] jeffreysprompts.com 项目的 apps 模块 (source)。来源: https://github.com/Dicklesworthstone/jeffreysprompts.com",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "claude",
+      "prompts",
+      "skills",
+      "website",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 168\n\n包含文件:\n- apps/web\n- apps/web/.gitignore\n- apps/web/.size-limit.json\n- apps/web/README.md\n- apps/web/eslint.config.mjs\n- apps/web/messages\n- apps/web/messages/de.json\n- apps/web/messages/en.json\n- apps/web/messages/es.json\n- apps/web/messages/fr.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/web\napps/web/.gitignore\napps/web/.size-limit.json\napps/web/README.md\napps/web/eslint.config.mjs\napps/web/messages\napps/web/messages/de.json\napps/web/messages/en.json\napps/web/messages/es.json\napps/web/messages/fr.json\napps/web/messages/ja.json\napps/web/messages/zh.json\napps/web/next.config.ts\napps/web/package.json\napps/web/postcss.config.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2429329985725075
+  }
+]

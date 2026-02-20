@@ -1,0 +1,278 @@
+[
+  {
+    "name": "claude-code-tools (pchalasani)",
+    "description": "[项目级] Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "python",
+      "stars-1464",
+      "github-pchalasani",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.\n\n来源: https://github.com/pchalasani/claude-code-tools\n语言: Python\nStars: 1464",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nPROPOSAL-exit-code-extraction.md\nREADME.md\nassets\nassets/card-aichat.svg\nassets/card-alt.svg\nassets/card-dev.svg\nassets/card-env-safe.svg\nassets/card-gdocs.svg\nassets/card-gsheets.svg\nassets/card-license.svg\nassets/card-lmsh.svg\nassets/card-plugins.svg\nassets/card-quickstart.svg\nassets/card-safety.svg\nassets/card-session-repair.svg\nassets/card-statusline.svg\nassets/card-tmux.svg\nassets/card-vault.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.582770538361187
+  },
+  {
+    "name": "claude-code-tools/assets 模块",
+    "description": "[模块级] claude-code-tools 项目的 assets 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 18\n\n包含文件:\n- assets/card-aichat.svg\n- assets/card-alt.svg\n- assets/card-dev.svg\n- assets/card-env-safe.svg\n- assets/card-gdocs.svg\n- assets/card-gsheets.svg\n- assets/card-license.svg\n- assets/card-lmsh.svg\n- assets/card-plugins.svg\n- assets/card-quickstart.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/card-aichat.svg\nassets/card-alt.svg\nassets/card-dev.svg\nassets/card-env-safe.svg\nassets/card-gdocs.svg\nassets/card-gsheets.svg\nassets/card-license.svg\nassets/card-lmsh.svg\nassets/card-plugins.svg\nassets/card-quickstart.svg\nassets/card-safety.svg\nassets/card-session-repair.svg\nassets/card-statusline.svg\nassets/card-tmux.svg\nassets/card-vault.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/claude_code_tools 模块",
+    "description": "[模块级] claude-code-tools 项目的 claude_code_tools 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "claude_code_tools"
+    ],
+    "genes": [
+      {
+        "title": "claude_code_tools 模块说明",
+        "content": "模块路径: claude_code_tools/\n类型: source\n文件数: 37\n\n包含文件:\n- claude_code_tools/__init__.py\n- claude_code_tools/action_rpc.py\n- claude_code_tools/aichat.py\n- claude_code_tools/claude_continue.py\n- claude_code_tools/codex_continue.py\n- claude_code_tools/config.py\n- claude_code_tools/csv2gsheet.py\n- claude_code_tools/delete_session.py\n- claude_code_tools/dotenv_vault.py\n- claude_code_tools/env_safe.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude_code_tools 文件结构",
+        "content": "claude_code_tools/__init__.py\nclaude_code_tools/action_rpc.py\nclaude_code_tools/aichat.py\nclaude_code_tools/claude_continue.py\nclaude_code_tools/codex_continue.py\nclaude_code_tools/config.py\nclaude_code_tools/csv2gsheet.py\nclaude_code_tools/delete_session.py\nclaude_code_tools/dotenv_vault.py\nclaude_code_tools/env_safe.py\nclaude_code_tools/export_all.py\nclaude_code_tools/export_claude_session.py\nclaude_code_tools/export_codex_session.py\nclaude_code_tools/export_session.py\nclaude_code_tools/find_claude_session.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/demos 模块",
+    "description": "[模块级] claude-code-tools 项目的 demos 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "demos"
+    ],
+    "genes": [
+      {
+        "title": "demos 模块说明",
+        "content": "模块路径: demos/\n类型: source\n文件数: 18\n\n包含文件:\n- demos/README.md\n- demos/aichat-search-asciinema.gif\n- demos/find-claude-session.png\n- demos/find-codex-session.png\n- demos/resume-trigger-small.mp4\n- demos/rollover-types.png\n- demos/rollover_diagram.drawio\n- demos/rollover_diagram_v3.drawio\n- demos/smart-trim.png\n- demos/smart_trim_diagram.drawio",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demos 文件结构",
+        "content": "demos/README.md\ndemos/aichat-search-asciinema.gif\ndemos/find-claude-session.png\ndemos/find-codex-session.png\ndemos/resume-trigger-small.mp4\ndemos/rollover-types.png\ndemos/rollover_diagram.drawio\ndemos/rollover_diagram_v3.drawio\ndemos/smart-trim.png\ndemos/smart_trim_diagram.drawio\ndemos/statusline-green.png\ndemos/statusline-orange.png\ndemos/statusline-red.png\ndemos/statusline-yellow.png\ndemos/tmux-cli-demo-short.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/docs-site 模块",
+    "description": "[模块级] claude-code-tools 项目的 docs-site 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "docs-site"
+    ],
+    "genes": [
+      {
+        "title": "docs-site 模块说明",
+        "content": "模块路径: docs-site/\n类型: source\n文件数: 76\n\n包含文件:\n- docs-site/astro.config.mjs\n- docs-site/package-lock.json\n- docs-site/package.json\n- docs-site/public\n- docs-site/public/assets\n- docs-site/public/assets/aichat-search-asciinema.gif\n- docs-site/public/assets/card-aichat.svg\n- docs-site/public/assets/card-alt.svg\n- docs-site/public/assets/card-dev.svg\n- docs-site/public/assets/card-env-safe.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-site 文件结构",
+        "content": "docs-site/astro.config.mjs\ndocs-site/package-lock.json\ndocs-site/package.json\ndocs-site/public\ndocs-site/public/assets\ndocs-site/public/assets/aichat-search-asciinema.gif\ndocs-site/public/assets/card-aichat.svg\ndocs-site/public/assets/card-alt.svg\ndocs-site/public/assets/card-dev.svg\ndocs-site/public/assets/card-env-safe.svg\ndocs-site/public/assets/card-gdocs.svg\ndocs-site/public/assets/card-gsheets.svg\ndocs-site/public/assets/card-license.svg\ndocs-site/public/assets/card-lmsh.svg\ndocs-site/public/assets/card-plugins.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/docs 模块",
+    "description": "[模块级] claude-code-tools 项目的 docs 模块 (docs)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "documentation",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "uv tool install \"claude-code-tools[gdocs]\"",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/claude-code-tmux-tutorials.md\ndocs/dot-zshrc.md\ndocs/fcs.png\ndocs/find-claude-session.md\ndocs/lmsh.md\ndocs/local-llm-setup.md\ndocs/tmux-cli-instructions.md\ndocs/vault-documentation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/lmsh 模块",
+    "description": "[模块级] claude-code-tools 项目的 lmsh 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "lmsh"
+    ],
+    "genes": [
+      {
+        "title": "lmsh 模块说明",
+        "content": "模块路径: lmsh/\n类型: source\n文件数: 6\n\n包含文件:\n- lmsh/.gitignore\n- lmsh/Cargo.lock\n- lmsh/Cargo.toml\n- lmsh/src\n- lmsh/src/main.rs\n- lmsh/src/shell.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lmsh 文件结构",
+        "content": "lmsh/.gitignore\nlmsh/Cargo.lock\nlmsh/Cargo.toml\nlmsh/src\nlmsh/src/main.rs\nlmsh/src/shell.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/node_ui 模块",
+    "description": "[模块级] claude-code-tools 项目的 node_ui 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "node_ui"
+    ],
+    "genes": [
+      {
+        "title": "node_ui 模块说明",
+        "content": "模块路径: node_ui/\n类型: source\n文件数: 3\n\n包含文件:\n- node_ui/action_config.js\n- node_ui/menu.js\n- node_ui/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "node_ui 文件结构",
+        "content": "node_ui/action_config.js\nnode_ui/menu.js\nnode_ui/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  },
+  {
+    "name": "claude-code-tools/plugins 模块",
+    "description": "[模块级] claude-code-tools 项目的 plugins 模块 (source)。来源: https://github.com/pchalasani/claude-code-tools",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "cli",
+      "cli-agent",
+      "code-agent",
+      "codex",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 14\n\n包含文件:\n- plugins/CHANGELOG.md\n- plugins/aichat\n- plugins/aichat/.claude-plugin\n- plugins/aichat/.claude-plugin/plugin.json\n- plugins/aichat/README.md\n- plugins/aichat/agents\n- plugins/aichat/agents/session-searcher.md\n- plugins/aichat/commands\n- plugins/aichat/commands/recover-context.md\n- plugins/aichat/hooks",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/CHANGELOG.md\nplugins/aichat\nplugins/aichat/.claude-plugin\nplugins/aichat/.claude-plugin/plugin.json\nplugins/aichat/README.md\nplugins/aichat/agents\nplugins/aichat/agents/session-searcher.md\nplugins/aichat/commands\nplugins/aichat/commands/recover-context.md\nplugins/aichat/hooks\nplugins/aichat/hooks/aichat_resume_hook.py\nplugins/aichat/hooks/hooks.json\nplugins/aichat/skills\nplugins/aichat/skills/recover-context",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7662164306889494
+  }
+]

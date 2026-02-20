@@ -1,0 +1,64 @@
+[
+  {
+    "name": "dot-claude (Sawyer-Middeleer)",
+    "description": "[项目级] A collection of actually useful skills and subagents for Claude Agent for non-coding use cases。来源: https://github.com/Sawyer-Middeleer/dot-claude",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-22",
+      "github-sawyer-middeleer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of actually useful skills and subagents for Claude Agent for non-coding use cases\n\n来源: https://github.com/Sawyer-Middeleer/dot-claude\n语言: unknown\nStars: 22",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add Sawyer-Middeleer/dot-claude",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nplugins\nplugins/dot-claude",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```claude\n/deep-research distributed systems scaling patterns",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6712113404111033
+  },
+  {
+    "name": "dot-claude/plugins 模块",
+    "description": "[模块级] dot-claude 项目的 plugins 模块 (source)。来源: https://github.com/Sawyer-Middeleer/dot-claude",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-22",
+      "github-sawyer-middeleer",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 23\n\n包含文件:\n- plugins/dot-claude\n- plugins/dot-claude/.claude-plugin\n- plugins/dot-claude/.claude-plugin/plugin.json\n- plugins/dot-claude/agents\n- plugins/dot-claude/agents/research-analyst.md\n- plugins/dot-claude/commands\n- plugins/dot-claude/commands/deep-research.md\n- plugins/dot-claude/commands/templates\n- plugins/dot-claude/commands/templates/article-summary.md\n- plugins/dot-claude/commands/templates/research-plan.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/dot-claude\nplugins/dot-claude/.claude-plugin\nplugins/dot-claude/.claude-plugin/plugin.json\nplugins/dot-claude/agents\nplugins/dot-claude/agents/research-analyst.md\nplugins/dot-claude/commands\nplugins/dot-claude/commands/deep-research.md\nplugins/dot-claude/commands/templates\nplugins/dot-claude/commands/templates/article-summary.md\nplugins/dot-claude/commands/templates/research-plan.md\nplugins/dot-claude/commands/templates/research-synthesis.md\nplugins/dot-claude/skills\nplugins/dot-claude/skills/analyzing-source\nplugins/dot-claude/skills/analyzing-source/SKILL.md\nplugins/dot-claude/skills/analyzing-source/templates",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  }
+]

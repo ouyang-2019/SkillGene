@@ -1,0 +1,132 @@
+[
+  {
+    "name": "ccc (ooiyeefei)",
+    "description": "[项目级] Claude Code Custom Plugins - Custom plugins for Claude Code CLI。来源: https://github.com/ooiyeefei/ccc",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-238",
+      "github-ooiyeefei",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Custom Plugins - Custom plugins for Claude Code CLI\n\n来源: https://github.com/ooiyeefei/ccc\n语言: Python\nStars: 238",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME.md\ncommands\ncommands/streak-insights.md\ncommands/streak-list.md\ncommands/streak-new.md\ncommands/streak-stats.md\ncommands/streak-switch.md\ncommands/streak.md\nplugins\nplugins/deckling\nplugins/mvp-launch\nplugins/product-management\nskills\nskills/README.md\nskills/excalidraw\nskills/streak\nskills/uat-testing",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- 30 Days of Coding\n- Read 12 Books This Year\n- Morning Meditation Habit\n- Daily Sketching Practice\n\nSee [skills/streak/README.md](./skills/streak/README.md) for quick start guide.\nSee [skills/streak/SKILL.md](./skills/streak/SKILL.md) for full documentation.\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Universal**: Works for any challenge type (learning, habits, building, fitness, creative, custom)\n- **Flexible Cadence**: Daily, weekly, or custom N-day intervals per challenge\n- **AI-Powered Insights**: Auto-detects compound learning and semantic connections\n- **Achievements**: Streak badges and milestone rewards\n- **Calendar Export**: Optional .ics file for calendar reminders\n- **Zero Config**: Works locally with no external dependencies",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.188288478528256
+  },
+  {
+    "name": "ccc/commands 模块",
+    "description": "[模块级] ccc 项目的 commands 模块 (source)。来源: https://github.com/ooiyeefei/ccc",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-238",
+      "github-ooiyeefei",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "After installing ccc-skills, use these commands for **reliable, deterministic** triggering:\n\n```bash\n/streak              # Check in to active challenge\n/streak-new          # Create a new challenge (guided)\n/streak-list         # List all challenges\n/streak-switch NAME  # Switch active challenge\n/streak-stats        # View progress and achievements\n/streak-insights     # Cross-challenge insights\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/streak-insights.md\ncommands/streak-list.md\ncommands/streak-new.md\ncommands/streak-stats.md\ncommands/streak-switch.md\ncommands/streak.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "commands 代码示例",
+        "content": "/streak              # Check in to active challenge\n/streak-new          # Create a new challenge (guided)\n/streak-list         # List all challenges\n/streak-switch NAME  # Switch active challenge\n/streak-stats        # View progress and achievements\n/streak-insights     # Cross-challenge insights",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.450630782822605
+  },
+  {
+    "name": "ccc/plugins 模块",
+    "description": "[模块级] ccc 项目的 plugins 模块 (source)。来源: https://github.com/ooiyeefei/ccc",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-238",
+      "github-ooiyeefei",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "Custom plugins and skills for [Claude Code](https://github.com/anthropics/claude-code).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/deckling\nplugins/deckling/.gitignore\nplugins/deckling/README.md\nplugins/deckling/commands\nplugins/deckling/commands/deckling.md\nplugins/deckling/plugin.json\nplugins/deckling/requirements.txt\nplugins/deckling/scripts\nplugins/deckling/scripts/deckling_worker.py\nplugins/deckling/skills\nplugins/deckling/skills/deckling-pptx.md\nplugins/mvp-launch\nplugins/mvp-launch/.claude-plugin\nplugins/mvp-launch/.claude-plugin/plugin.json\nplugins/mvp-launch/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.450630782822605
+  },
+  {
+    "name": "ccc/skills 模块",
+    "description": "[模块级] ccc 项目的 skills 模块 (source)。来源: https://github.com/ooiyeefei/ccc",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-238",
+      "github-ooiyeefei",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Custom plugins and skills for [Claude Code](https://github.com/anthropics/claude-code).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/README.md\nskills/excalidraw\nskills/excalidraw/README.md\nskills/excalidraw/SKILL.md\nskills/excalidraw/references\nskills/excalidraw/references/arrows.md\nskills/excalidraw/references/colors.md\nskills/excalidraw/references/examples.md\nskills/excalidraw/references/export.md\nskills/excalidraw/references/json-format.md\nskills/excalidraw/references/validation.md\nskills/streak\nskills/streak/README.md\nskills/streak/SKILL.md\nskills/streak/references",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.450630782822605
+  }
+]

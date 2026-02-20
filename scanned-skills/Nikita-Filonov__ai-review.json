@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ai-review (Nikita-Filonov)",
+    "description": "[项目级] 🚀 AI-powered code review tool for GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps and Gitea — built with LLMs like OpenAI, Claude, Gemini, Ollama, Bedrock, OpenRouter and Azure OpenAI。来源: https://github.com/Nikita-Filonov/ai-review",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-code-review",
+      "ai-code-reviewer",
+      "ai-review",
+      "bitbucket",
+      "python",
+      "stars-266",
+      "github-nikita-filonov",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**AI Review** is a developer tool that brings **AI-powered code review** directly into your workflow. It helps teams\nimprove code quality, enforce consistency, and speed up the review process.\n\n✨ Key features:\n\n- **Multiple LLM providers** — choose between **OpenAI**, **Claude**, **Gemini**, **Ollama**, **Bedrock**,\n  **OpenRouter**, or **Azure OpenAI** and switch anytime.\n- **VCS integration** — works out of the box with **GitLab**, **GitHub**, **Bitbucket Cloud**, **Bitbucket Server**,\n  **Azure DevOps**, and **Gitea**.\n- **Customizable prompts** — adapt inline, context, and summary reviews to match your team’s coding guidelines.\n- **Reply modes** — AI can now **participate in existing review threads**, adding follow-up replies in both inline and\n  summary discussions.\n- **Flexible confi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install xai-review",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\naction.yml\nai_review\nai_review/__init__.py\nai_review/cli\nai_review/clients\nai_review/config.py\nai_review/libs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2124408183155335
+  },
+  {
+    "name": "ai-review/ai_review 模块",
+    "description": "[模块级] ai-review 项目的 ai_review 模块 (source)。来源: https://github.com/Nikita-Filonov/ai-review",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-code-review",
+      "ai-code-reviewer",
+      "ai-review",
+      "bitbucket",
+      "module-level",
+      "source",
+      "ai_review"
+    ],
+    "genes": [
+      {
+        "title": "ai_review 模块说明",
+        "content": "模块路径: ai_review/\n类型: source\n文件数: 182\n\n包含文件:\n- ai_review/__init__.py\n- ai_review/cli\n- ai_review/cli/__init__.py\n- ai_review/cli/commands\n- ai_review/cli/commands/__init__.py\n- ai_review/cli/commands/run_clear_inline_review.py\n- ai_review/cli/commands/run_clear_summary_review.py\n- ai_review/cli/commands/run_context_review.py\n- ai_review/cli/commands/run_inline_reply_review.py\n- ai_review/cli/commands/run_inline_review.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_review 文件结构",
+        "content": "ai_review/__init__.py\nai_review/cli\nai_review/cli/__init__.py\nai_review/cli/commands\nai_review/cli/commands/__init__.py\nai_review/cli/commands/run_clear_inline_review.py\nai_review/cli/commands/run_clear_summary_review.py\nai_review/cli/commands/run_context_review.py\nai_review/cli/commands/run_inline_reply_review.py\nai_review/cli/commands/run_inline_review.py\nai_review/cli/commands/run_review.py\nai_review/cli/commands/run_summary_reply_review.py\nai_review/cli/commands/run_summary_review.py\nai_review/cli/main.py\nai_review/clients",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4699526546524266
+  }
+]

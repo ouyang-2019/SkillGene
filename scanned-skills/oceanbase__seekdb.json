@@ -1,0 +1,108 @@
+[
+  {
+    "name": "seekdb (oceanbase)",
+    "description": "[项目级] The AI-Native Search Database. Unifies vector, text, structured and semi-structured data in a single engine, enabling hybrid search and in-database AI workflows.。来源: https://github.com/oceanbase/seekdb",
+    "domain": "database",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "column-storage",
+      "cpp",
+      "database",
+      "c++",
+      "stars-2392",
+      "github-oceanbase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The AI-Native Search Database. Unifies vector, text, structured and semi-structured data in a single engine, enabling hybrid search and in-database AI workflows.\n\n来源: https://github.com/oceanbase/seekdb\n语言: C++\nStars: 2392",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\nREADME_CN.md\nbuild.sh\ncmake\ncmake/DEB.cmake\ncmake/Env.cmake\ncmake/Err.cmake\ncmake/Pack.cmake\ncmake/RPM.cmake\ncmake/TGZ.cmake\ncmake/Utils.cmake\ncmake/script\ndeps\ndeps/easy\ndeps/init",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Build a semantic search system in 5 minutes:\n\n<details>\n<summary><b>🗄️ 🐍 Python SDK</b></summary>\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.689380587658187
+  },
+  {
+    "name": "seekdb/cmake 模块",
+    "description": "[模块级] seekdb 项目的 cmake 模块 (source)。来源: https://github.com/oceanbase/seekdb",
+    "domain": "database",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "column-storage",
+      "cpp",
+      "database",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 10\n\n包含文件:\n- cmake/DEB.cmake\n- cmake/Env.cmake\n- cmake/Err.cmake\n- cmake/Pack.cmake\n- cmake/RPM.cmake\n- cmake/TGZ.cmake\n- cmake/Utils.cmake\n- cmake/script\n- cmake/script/bitcode_to_elfobj\n- cmake/script/merge_extra",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/DEB.cmake\ncmake/Env.cmake\ncmake/Err.cmake\ncmake/Pack.cmake\ncmake/RPM.cmake\ncmake/TGZ.cmake\ncmake/Utils.cmake\ncmake/script\ncmake/script/bitcode_to_elfobj\ncmake/script/merge_extra",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8515044701265495
+  },
+  {
+    "name": "seekdb/deps 模块",
+    "description": "[模块级] seekdb 项目的 deps 模块 (source)。来源: https://github.com/oceanbase/seekdb",
+    "domain": "database",
+    "tags": [
+      "ai-search",
+      "ai-search-engine",
+      "column-storage",
+      "cpp",
+      "database",
+      "module-level",
+      "source",
+      "deps"
+    ],
+    "genes": [
+      {
+        "title": "deps 模块说明",
+        "content": "模块路径: deps/\n类型: source\n文件数: 159\n\n包含文件:\n- deps/easy\n- deps/easy/src\n- deps/easy/src/include\n- deps/easy/src/include/easy_atomic.h\n- deps/easy/src/include/easy_define.h\n- deps/easy/src/include/easy_list.h\n- deps/easy/src/io\n- deps/easy/src/io/easy_baseth_pool.h\n- deps/easy/src/io/easy_io.h\n- deps/easy/src/io/easy_io_struct.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deps 文件结构",
+        "content": "deps/easy\ndeps/easy/src\ndeps/easy/src/include\ndeps/easy/src/include/easy_atomic.h\ndeps/easy/src/include/easy_define.h\ndeps/easy/src/include/easy_list.h\ndeps/easy/src/io\ndeps/easy/src/io/easy_baseth_pool.h\ndeps/easy/src/io/easy_io.h\ndeps/easy/src/io/easy_io_struct.h\ndeps/easy/src/io/easy_log.h\ndeps/easy/src/io/easy_summary.h\ndeps/easy/src/io/ev.h\ndeps/easy/src/thread\ndeps/easy/src/thread/easy_uthread.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8515044701265495
+  }
+]

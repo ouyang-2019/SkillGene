@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Promptify (promptslab)",
+    "description": "[项目级] Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "jupyter notebook",
+      "stars-4565",
+      "github-promptslab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research\n\n来源: https://github.com/promptslab/Promptify\n语言: Jupyter Notebook\nStars: 4565",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMANIFEST.in\nREADME.md\nassets\nassets/dark.png\nassets/logo-removebg.png\nassets/logo.png\nassets/multilabel.png\nassets/ner.png\nassets/qa_gen.png\nassets/theme.png\nbenchmarks\nbenchmarks/README.md\nbenchmarks/__init__.py\ncontribute.md\ndocs\ndocs/Makefile\ndocs/conf.py\ndocs/index.rst\ndocs/make.bat",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.829720390935159
+  },
+  {
+    "name": "Promptify/assets 模块",
+    "description": "[模块级] Promptify 项目的 assets 模块 (source)。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/dark.png\n- assets/logo-removebg.png\n- assets/logo.png\n- assets/multilabel.png\n- assets/ner.png\n- assets/qa_gen.png\n- assets/theme.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/dark.png\nassets/logo-removebg.png\nassets/logo.png\nassets/multilabel.png\nassets/ner.png\nassets/qa_gen.png\nassets/theme.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/benchmarks 模块",
+    "description": "[模块级] Promptify 项目的 benchmarks 模块 (source)。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 2\n\n包含文件:\n- benchmarks/README.md\n- benchmarks/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/README.md\nbenchmarks/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/docs 模块",
+    "description": "[模块级] Promptify 项目的 docs 模块 (docs)。来源: https://github.com/promptslab/Promptify",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "[Promptify Docs](https://promptify.readthedocs.io/)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/conf.py\ndocs/index.rst\ndocs/make.bat\ndocs/source\ndocs/source/getting_started\ndocs/source/getting_started/installation.rst\ndocs/source/getting_started/starter_tutorial.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/examples 模块",
+    "description": "[模块级] Promptify 项目的 examples 模块 (example)。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/__init__.py\n- examples/medical_ner.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/medical_ner.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/notebooks 模块",
+    "description": "[模块级] Promptify 项目的 notebooks 模块 (source)。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 7\n\n包含文件:\n- notebooks/Example1.ipynb\n- notebooks/Relation_extraction.ipynb\n- notebooks/classification.ipynb\n- notebooks/examples.ipynb\n- notebooks/huggingface.ipynb\n- notebooks/sql.ipynb\n- notebooks/tabular.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/Example1.ipynb\nnotebooks/Relation_extraction.ipynb\nnotebooks/classification.ipynb\nnotebooks/examples.ipynb\nnotebooks/huggingface.ipynb\nnotebooks/sql.ipynb\nnotebooks/tabular.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/promptify 模块",
+    "description": "[模块级] Promptify 项目的 promptify 模块 (source)。来源: https://github.com/promptslab/Promptify",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "source",
+      "promptify"
+    ],
+    "genes": [
+      {
+        "title": "promptify 模块说明",
+        "content": "模块路径: promptify/\n类型: source\n文件数: 118\n\n包含文件:\n- promptify/VERSION\n- promptify/__init__.py\n- promptify/data\n- promptify/data/__init__.py\n- promptify/data/text2text\n- promptify/data/text2text/__init__.py\n- promptify/data/text2text/en\n- promptify/data/text2text/en/__init__.py\n- promptify/data/text2text/en/binary.json\n- promptify/data/text2text/en/multiclass.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "promptify 文件结构",
+        "content": "promptify/VERSION\npromptify/__init__.py\npromptify/data\npromptify/data/__init__.py\npromptify/data/text2text\npromptify/data/text2text/__init__.py\npromptify/data/text2text/en\npromptify/data/text2text/en/__init__.py\npromptify/data/text2text/en/binary.json\npromptify/data/text2text/en/multiclass.json\npromptify/data/text2text/en/optimized_multilabel.json\npromptify/data/text2text/en/optimized_ner.json\npromptify/data/text2text/en/paragraph.json\npromptify/data/text2text/en/qa.json\npromptify/data/text2text/en/relation_extraction.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  },
+  {
+    "name": "Promptify/tests 模块",
+    "description": "[模块级] Promptify 项目的 tests 模块 (test)。来源: https://github.com/promptslab/Promptify",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "chatgpt-python",
+      "gpt-3",
+      "gpt-3-prompts",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 14\n\n包含文件:\n- tests/__init__.py\n- tests/unit_tests\n- tests/unit_tests/__init__.py\n- tests/unit_tests/models\n- tests/unit_tests/models/__init__.py\n- tests/unit_tests/models/test_base_model.py\n- tests/unit_tests/models/test_hf_model.py\n- tests/unit_tests/models/test_openai_model.py\n- tests/unit_tests/parser\n- tests/unit_tests/parser/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/unit_tests\ntests/unit_tests/__init__.py\ntests/unit_tests/models\ntests/unit_tests/models/__init__.py\ntests/unit_tests/models/test_base_model.py\ntests/unit_tests/models/test_hf_model.py\ntests/unit_tests/models/test_openai_model.py\ntests/unit_tests/parser\ntests/unit_tests/parser/__init__.py\ntests/unit_tests/parser/test_parser.py\ntests/unit_tests/prompter\ntests/unit_tests/prompter/__init__.py\ntests/unit_tests/prompter/test_prompter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.963776312748127
+  }
+]

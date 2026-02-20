@@ -1,0 +1,138 @@
+[
+  {
+    "name": "YT-Navigator (wassim249)",
+    "description": "[项目级] YT Navigator: AI-powered YouTube content explorer that lets you search and chat with channel videos using AI agents. Extract insights from hours of content in seconds with semantic search and precise timestamps.。来源: https://github.com/wassim249/YT-Navigator",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "ai",
+      "django",
+      "langchain",
+      "python",
+      "stars-577",
+      "github-wassim249",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "YT Navigator is an AI-powered application that helps you navigate and search through YouTube channel content efficiently. Instead of manually watching hours of videos to find specific information, YT Navigator allows you to:\n\n1. **🔍 Search through a channel's videos** using natural language queries\n2. **💬 Chat with a channel's content** to get answers based on video transcripts\n3. **⏱️ Discover relevant video segments** with precise timestamps\n\nPerfect for researchers, students, content creators, or anyone who needs to extract information from YouTube channels quickly.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\napp\napp/__init__.py\napp/admin.py\napp/apps.py\napp/context_processors.py\napp/forms\napp/helpers.py\napp/migrations\napp/models\napp/schemas\napp/services\napp/static\napp/templates\napp/urls.py\napp/views",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🔐 Authentication**: Secure login and independent sessions\n- **📺 Channel Management**: Scan up to 100 videos per channel and get a summary of the channel\n- **🔍 Search**: Find relevant video segments using Semantic Search\n- **💬 Chat**: Have conversations with an AI that has knowledge of the channel's content",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3805879065778655
+  },
+  {
+    "name": "YT-Navigator/app 模块",
+    "description": "[模块级] YT-Navigator 项目的 app 模块 (source)。来源: https://github.com/wassim249/YT-Navigator",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "ai",
+      "django",
+      "langchain",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 77\n\n包含文件:\n- app/__init__.py\n- app/admin.py\n- app/apps.py\n- app/context_processors.py\n- app/forms\n- app/forms/__init__.py\n- app/forms/registration.py\n- app/helpers.py\n- app/migrations\n- app/migrations/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/admin.py\napp/apps.py\napp/context_processors.py\napp/forms\napp/forms/__init__.py\napp/forms/registration.py\napp/helpers.py\napp/migrations\napp/migrations/__init__.py\napp/models\napp/models/__init__.py\napp/models/channel.py\napp/models/user.py\napp/models/video.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "YT-Navigator/images 模块",
+    "description": "[模块级] YT-Navigator 项目的 images 模块 (source)。来源: https://github.com/wassim249/YT-Navigator",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "ai",
+      "django",
+      "langchain",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 6\n\n包含文件:\n- images/agent_workflow.jpg\n- images/chat.png\n- images/home.png\n- images/main_graph.png\n- images/query.png\n- images/scan.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/agent_workflow.jpg\nimages/chat.png\nimages/home.png\nimages/main_graph.png\nimages/query.png\nimages/scan.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "YT-Navigator/yt_navigator 模块",
+    "description": "[模块级] YT-Navigator 项目的 yt_navigator 模块 (source)。来源: https://github.com/wassim249/YT-Navigator",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "agentic-rag",
+      "ai",
+      "django",
+      "langchain",
+      "module-level",
+      "source",
+      "yt_navigator"
+    ],
+    "genes": [
+      {
+        "title": "yt_navigator 模块说明",
+        "content": "模块路径: yt_navigator/\n类型: source\n文件数: 12\n\n包含文件:\n- yt_navigator/__init__.py\n- yt_navigator/asgi.py\n- yt_navigator/middlewares\n- yt_navigator/middlewares/__init__.py\n- yt_navigator/middlewares/request_logging_middleware.py\n- yt_navigator/settings.py\n- yt_navigator/urls.py\n- yt_navigator/utils\n- yt_navigator/utils/__init__.py\n- yt_navigator/utils/logging.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "yt_navigator 文件结构",
+        "content": "yt_navigator/__init__.py\nyt_navigator/asgi.py\nyt_navigator/middlewares\nyt_navigator/middlewares/__init__.py\nyt_navigator/middlewares/request_logging_middleware.py\nyt_navigator/settings.py\nyt_navigator/urls.py\nyt_navigator/utils\nyt_navigator/utils/__init__.py\nyt_navigator/utils/logging.py\nyt_navigator/views.py\nyt_navigator/wsgi.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  }
+]

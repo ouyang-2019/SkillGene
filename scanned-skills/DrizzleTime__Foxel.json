@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Foxel (DrizzleTime)",
+    "description": "[项目级] A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered semantic search.。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "python",
+      "stars-1005",
+      "github-drizzletime",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered semantic search.\n\n来源: https://github.com/DrizzleTime/Foxel\n语言: Python\nStars: 1005",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Using Docker Compose is the most recommended way to start Foxel.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCONTRIBUTING_zh.md\nDockerfile\nLICENSE\nREADME.md\nREADME_zh.md\napi\napi/response.py\napi/routers.py\ncompose.yaml\ndb\ndb/__init__.py\ndb/session.py\ndomain\ndomain/__init__.py\ndomain/adapters\ndomain/agent\ndomain/ai\ndomain/audit\ndomain/auth",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "We welcome contributions from the community! Whether it's submitting bugs, suggesting new features, or contributing code directly.\n\nBefore you start, please read our [`CONTRIBUTING.md`](CONTRIBUTING.md) file, which explains the development environment and submission process. A Simplified Chinese translation is available in [`CONTRIBUTING_zh.md`](CONTRIBUTING_zh.md).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.501083030878254
+  },
+  {
+    "name": "Foxel/api 模块",
+    "description": "[模块级] Foxel 项目的 api 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 2\n\n包含文件:\n- api/response.py\n- api/routers.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/response.py\napi/routers.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/db 模块",
+    "description": "[模块级] Foxel 项目的 db 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "db"
+    ],
+    "genes": [
+      {
+        "title": "db 模块说明",
+        "content": "模块路径: db/\n类型: source\n文件数: 2\n\n包含文件:\n- db/__init__.py\n- db/session.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "db 文件结构",
+        "content": "db/__init__.py\ndb/session.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/domain 模块",
+    "description": "[模块级] Foxel 项目的 domain 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "domain"
+    ],
+    "genes": [
+      {
+        "title": "domain 模块说明",
+        "content": "模块路径: domain/\n类型: source\n文件数: 148\n\n包含文件:\n- domain/__init__.py\n- domain/adapters\n- domain/adapters/__init__.py\n- domain/adapters/api.py\n- domain/adapters/providers\n- domain/adapters/providers/__init__.py\n- domain/adapters/providers/alist.py\n- domain/adapters/providers/base.py\n- domain/adapters/providers/dropbox.py\n- domain/adapters/providers/foxel.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "domain 文件结构",
+        "content": "domain/__init__.py\ndomain/adapters\ndomain/adapters/__init__.py\ndomain/adapters/api.py\ndomain/adapters/providers\ndomain/adapters/providers/__init__.py\ndomain/adapters/providers/alist.py\ndomain/adapters/providers/base.py\ndomain/adapters/providers/dropbox.py\ndomain/adapters/providers/foxel.py\ndomain/adapters/providers/ftp.py\ndomain/adapters/providers/googledrive.py\ndomain/adapters/providers/local.py\ndomain/adapters/providers/onedrive.py\ndomain/adapters/providers/quark.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/middleware 模块",
+    "description": "[模块级] Foxel 项目的 middleware 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "middleware"
+    ],
+    "genes": [
+      {
+        "title": "middleware 模块说明",
+        "content": "模块路径: middleware/\n类型: source\n文件数: 2\n\n包含文件:\n- middleware/__init__.py\n- middleware/exception_handler.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "middleware 文件结构",
+        "content": "middleware/__init__.py\nmiddleware/exception_handler.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/models 模块",
+    "description": "[模块级] Foxel 项目的 models 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "models"
+    ],
+    "genes": [
+      {
+        "title": "models 模块说明",
+        "content": "模块路径: models/\n类型: source\n文件数: 2\n\n包含文件:\n- models/__init__.py\n- models/database.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "models 文件结构",
+        "content": "models/__init__.py\nmodels/database.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/setup 模块",
+    "description": "[模块级] Foxel 项目的 setup 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "setup"
+    ],
+    "genes": [
+      {
+        "title": "setup 模块说明",
+        "content": "模块路径: setup/\n类型: source\n文件数: 2\n\n包含文件:\n- setup/foxel.sh\n- setup/foxel_cli.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "setup 文件结构",
+        "content": "setup/foxel.sh\nsetup/foxel_cli.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/templates 模块",
+    "description": "[模块级] Foxel 项目的 templates 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 3\n\n包含文件:\n- templates/email\n- templates/email/password_reset.html\n- templates/email/test.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/email\ntemplates/email/password_reset.html\ntemplates/email/test.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  },
+  {
+    "name": "Foxel/web 模块",
+    "description": "[模块级] Foxel 项目的 web 模块 (source)。来源: https://github.com/DrizzleTime/Foxel",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "filesystem",
+      "image",
+      "photo-gallery",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "模块路径: web/\n类型: source\n文件数: 7\n\n包含文件:\n- web/bun.lock\n- web/eslint.config.js\n- web/index.html\n- web/package.json\n- web/plugin-frame.html\n- web/public\n- web/public/icon",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/bun.lock\nweb/eslint.config.js\nweb/index.html\nweb/package.json\nweb/plugin-frame.html\nweb/public\nweb/public/icon",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7008664247026033
+  }
+]

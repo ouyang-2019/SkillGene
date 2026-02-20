@@ -1,0 +1,61 @@
+[
+  {
+    "name": "claude-code-system-prompts (Piebald-AI)",
+    "description": "[项目级] All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.。来源: https://github.com/Piebald-AI/claude-code-system-prompts",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-system-prompts",
+      "system-prompts",
+      "javascript",
+      "stars-4697",
+      "github-piebald-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.\n\n来源: https://github.com/Piebald-AI/claude-code-system-prompts\n语言: JavaScript\nStars: 4697",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nsystem-prompts\nsystem-prompts/agent-prompt-agent-creation-architect.md\nsystem-prompts/agent-prompt-agent-hook.md\nsystem-prompts/agent-prompt-bash-command-description-writer.md\nsystem-prompts/agent-prompt-bash-command-file-path-extraction.md\nsystem-prompts/agent-prompt-bash-command-prefix-detection.md\nsystem-prompts/agent-prompt-claude-guide-agent.md\nsystem-prompts/agent-prompt-claudemd-creation.md\nsystem-prompts/agent-prompt-command-execution-specialist.md\nsystem-prompts/agent-prompt-conversation-summarization.md\nsystem-prompts/agent-prompt-explore.md\nsystem-prompts/agent-prompt-hook-condition-evaluator.md\nsystem-prompts/agent-prompt-plan-mode-enhanced.md\nsystem-prompts/agent-prompt-pr-comments-slash-command.md\nsystem-prompts/agent-prompt-prompt-suggestion-generator-v2.md\nsystem-prompts/agent-prompt-recent-message-summarization.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.835910280091625
+  },
+  {
+    "name": "claude-code-system-prompts/system-prompts 模块",
+    "description": "[模块级] claude-code-system-prompts 项目的 system-prompts 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-system-prompts",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-system-prompts",
+      "system-prompts",
+      "javascript",
+      "stars-4697",
+      "module-level",
+      "source",
+      "system-prompts"
+    ],
+    "genes": [
+      {
+        "title": "system-prompts 模块说明",
+        "content": "模块路径: system-prompts/\n类型: source\n文件数: 156\n\n包含文件:\n- system-prompts/agent-prompt-agent-creation-architect.md\n- system-prompts/agent-prompt-agent-hook.md\n- system-prompts/agent-prompt-bash-command-description-writer.md\n- system-prompts/agent-prompt-bash-command-file-path-extraction.md\n- system-prompts/agent-prompt-bash-command-prefix-detection.md\n- system-prompts/agent-prompt-claude-guide-agent.md\n- system-prompts/agent-prompt-claudemd-creation.md\n- system-prompts/agent-prompt-command-execution-specialist.md\n- system-prompts/agent-prompt-conversation-summarization.md\n- system-prompts/agent-prompt-explore.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "system-prompts 文件结构",
+        "content": "system-prompts/agent-prompt-agent-creation-architect.md\nsystem-prompts/agent-prompt-agent-hook.md\nsystem-prompts/agent-prompt-bash-command-description-writer.md\nsystem-prompts/agent-prompt-bash-command-file-path-extraction.md\nsystem-prompts/agent-prompt-bash-command-prefix-detection.md\nsystem-prompts/agent-prompt-claude-guide-agent.md\nsystem-prompts/agent-prompt-claudemd-creation.md\nsystem-prompts/agent-prompt-command-execution-specialist.md\nsystem-prompts/agent-prompt-conversation-summarization.md\nsystem-prompts/agent-prompt-explore.md\nsystem-prompts/agent-prompt-hook-condition-evaluator.md\nsystem-prompts/agent-prompt-plan-mode-enhanced.md\nsystem-prompts/agent-prompt-pr-comments-slash-command.md\nsystem-prompts/agent-prompt-prompt-suggestion-generator-v2.md\nsystem-prompts/agent-prompt-recent-message-summarization.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9687282240733
+  }
+]

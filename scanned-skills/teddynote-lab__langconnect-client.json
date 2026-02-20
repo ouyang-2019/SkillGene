@@ -1,0 +1,192 @@
+[
+  {
+    "name": "langconnect-client (teddynote-lab)",
+    "description": "[项目级] A Modern GUI Interface for Vector Database Management(Supports MCP integration)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "stars-320",
+      "github-teddynote-lab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LangConnect Client is a modern, Next.js-based GUI interface for managing vector databases powered by PostgreSQL with pgvector extension. It provides an intuitive web interface for document management, vector search capabilities, and seamless integration with AI assistants through the Model Context Protocol (MCP).\n\nThis project was inspired by [langchain-ai/langconnect](https://github.com/langchain-ai/langconnect).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Auth.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nREADME_ko.md\nassets\nassets/frontend-kr.png\nassets/frontend.png\nassets/structure.png\ndocker-compose.yml\ninit-scripts\ninit-scripts/01-init-extensions.sql\ninstall.sh\nlangconnect\nlangconnect/__init__.py\nlangconnect/__main__.py\nlangconnect/api\nlangconnect/auth.py\nlangconnect/config.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.252574989159953
+  },
+  {
+    "name": "langconnect-client/assets 模块",
+    "description": "[模块级] langconnect-client 项目的 assets 模块 (source)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/frontend-kr.png\n- assets/frontend.png\n- assets/structure.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/frontend-kr.png\nassets/frontend.png\nassets/structure.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5020599913279624
+  },
+  {
+    "name": "langconnect-client/langconnect 模块",
+    "description": "[模块级] langconnect-client 项目的 langconnect 模块 (source)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "module-level",
+      "source",
+      "langconnect"
+    ],
+    "genes": [
+      {
+        "title": "langconnect 模块说明",
+        "content": "<div align=\"center\">\n\n[English README](./README.md) | [한국어 README](./README_ko.md)\n\n</div>\n\n<div align=\"center\">\n\n![Next.js](https://img.shields.io/badge/Next.js-15.3.4-black?style=for-the-badge&logo=next.js)\n![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react)\n![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)\n![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python)\n![FastA",
+        "gene_type": "principle"
+      },
+      {
+        "title": "langconnect 文件结构",
+        "content": "langconnect/__init__.py\nlangconnect/__main__.py\nlangconnect/api\nlangconnect/api/__init__.py\nlangconnect/api/auth.py\nlangconnect/api/collections.py\nlangconnect/api/documents.py\nlangconnect/auth.py\nlangconnect/config.py\nlangconnect/database\nlangconnect/database/__init__.py\nlangconnect/database/collections.py\nlangconnect/database/connection.py\nlangconnect/models\nlangconnect/models/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5020599913279624
+  },
+  {
+    "name": "langconnect-client/mcpserver 模块",
+    "description": "[模块级] langconnect-client 项目的 mcpserver 模块 (source)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "module-level",
+      "source",
+      "mcpserver"
+    ],
+    "genes": [
+      {
+        "title": "mcpserver 模块说明",
+        "content": "模块路径: mcpserver/\n类型: source\n文件数: 7\n\n包含文件:\n- mcpserver/README.md\n- mcpserver/__init__.py\n- mcpserver/create_mcp_json.py\n- mcpserver/get_access_token.py\n- mcpserver/mcp_config.json\n- mcpserver/mcp_server.py\n- mcpserver/mcp_sse_server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcpserver 文件结构",
+        "content": "mcpserver/README.md\nmcpserver/__init__.py\nmcpserver/create_mcp_json.py\nmcpserver/get_access_token.py\nmcpserver/mcp_config.json\nmcpserver/mcp_server.py\nmcpserver/mcp_sse_server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5020599913279624
+  },
+  {
+    "name": "langconnect-client/next-connect-ui 模块",
+    "description": "[模块级] langconnect-client 项目的 next-connect-ui 模块 (source)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "module-level",
+      "source",
+      "next-connect-ui"
+    ],
+    "genes": [
+      {
+        "title": "next-connect-ui 模块说明",
+        "content": "模块路径: next-connect-ui/\n类型: source\n文件数: 126\n\n包含文件:\n- next-connect-ui/.dockerignore\n- next-connect-ui/.gitignore\n- next-connect-ui/Dockerfile\n- next-connect-ui/assets\n- next-connect-ui/assets/api-tester.png\n- next-connect-ui/assets/collection.png\n- next-connect-ui/assets/documents-chunk.png\n- next-connect-ui/assets/documents-list.png\n- next-connect-ui/assets/main.png\n- next-connect-ui/assets/search.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "next-connect-ui 文件结构",
+        "content": "next-connect-ui/.dockerignore\nnext-connect-ui/.gitignore\nnext-connect-ui/Dockerfile\nnext-connect-ui/assets\nnext-connect-ui/assets/api-tester.png\nnext-connect-ui/assets/collection.png\nnext-connect-ui/assets/documents-chunk.png\nnext-connect-ui/assets/documents-list.png\nnext-connect-ui/assets/main.png\nnext-connect-ui/assets/search.png\nnext-connect-ui/components.json\nnext-connect-ui/eslint.config.mjs\nnext-connect-ui/jest.config.js\nnext-connect-ui/jest.setup.js\nnext-connect-ui/next-auth.d.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5020599913279624
+  },
+  {
+    "name": "langconnect-client/tests 模块",
+    "description": "[模块级] langconnect-client 项目的 tests 模块 (test)。来源: https://github.com/teddynote-lab/langconnect-client",
+    "domain": "testing",
+    "tags": [
+      "langchain",
+      "mcp",
+      "postgresql",
+      "vector-database",
+      "typescript",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 13\n\n包含文件:\n- tests/conftest.py\n- tests/test_mcp_server.py\n- tests/unit_tests\n- tests/unit_tests/__init__.py\n- tests/unit_tests/conftest.py\n- tests/unit_tests/fixtures.py\n- tests/unit_tests/test_chunk_parameters.py\n- tests/unit_tests/test_chunk_params_simple.py\n- tests/unit_tests/test_collections_api.py\n- tests/unit_tests/test_document_processor.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/test_mcp_server.py\ntests/unit_tests\ntests/unit_tests/__init__.py\ntests/unit_tests/conftest.py\ntests/unit_tests/fixtures.py\ntests/unit_tests/test_chunk_parameters.py\ntests/unit_tests/test_chunk_params_simple.py\ntests/unit_tests/test_collections_api.py\ntests/unit_tests/test_document_processor.py\ntests/unit_tests/test_documents_api.py\ntests/unit_tests/test_imports.py\ntests/unit_tests/test_pdf_parser_import.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5020599913279624
+  }
+]

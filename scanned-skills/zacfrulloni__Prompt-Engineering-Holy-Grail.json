@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Prompt-Engineering-Holy-Grail (zacfrulloni)",
+    "description": "[项目级] setup openclaw: https://remoteopenclaw.com/。来源: https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-prompt-engineer",
+      "ai-prompt-engineering",
+      "artificial-intelligence",
+      "generative-ai",
+      "html",
+      "stars-644",
+      "github-zacfrulloni",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to the **Prompt Engineering Hub**! This repository is a curated resource for all things related to prompt engineering, from beginner fundamentals to advanced techniques.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Ads.txt\nCNAME\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nGemfile\nLICENSE\nREADME.md\n_config.yml\n_data\n_data/_data\n_data/example_menu.yml\n_data/home_callouts.yml\n_data/navigation.yml\n_includes\n_includes/navbar-brand.html\n_includes/page-hero.html\n_layouts\n_layouts/default.html\nassets\nassets/css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.404442933679906
+  },
+  {
+    "name": "Prompt-Engineering-Holy-Grail/_data 模块",
+    "description": "[模块级] Prompt-Engineering-Holy-Grail 项目的 _data 模块 (source)。来源: https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-prompt-engineer",
+      "ai-prompt-engineering",
+      "artificial-intelligence",
+      "generative-ai",
+      "module-level",
+      "source",
+      "_data"
+    ],
+    "genes": [
+      {
+        "title": "_data 模块说明",
+        "content": "模块路径: _data/\n类型: source\n文件数: 5\n\n包含文件:\n- _data/_data\n- _data/_data/example_footer_menu.yml\n- _data/example_menu.yml\n- _data/home_callouts.yml\n- _data/navigation.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_data 文件结构",
+        "content": "_data/_data\n_data/_data/example_footer_menu.yml\n_data/example_menu.yml\n_data/home_callouts.yml\n_data/navigation.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6235543469439246
+  },
+  {
+    "name": "Prompt-Engineering-Holy-Grail/_includes 模块",
+    "description": "[模块级] Prompt-Engineering-Holy-Grail 项目的 _includes 模块 (source)。来源: https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-prompt-engineer",
+      "ai-prompt-engineering",
+      "artificial-intelligence",
+      "generative-ai",
+      "module-level",
+      "source",
+      "_includes"
+    ],
+    "genes": [
+      {
+        "title": "_includes 模块说明",
+        "content": "模块路径: _includes/\n类型: source\n文件数: 2\n\n包含文件:\n- _includes/navbar-brand.html\n- _includes/page-hero.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_includes 文件结构",
+        "content": "_includes/navbar-brand.html\n_includes/page-hero.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6235543469439246
+  },
+  {
+    "name": "Prompt-Engineering-Holy-Grail/assets 模块",
+    "description": "[模块级] Prompt-Engineering-Holy-Grail 项目的 assets 模块 (source)。来源: https://github.com/zacfrulloni/Prompt-Engineering-Holy-Grail",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-prompt-engineer",
+      "ai-prompt-engineering",
+      "artificial-intelligence",
+      "generative-ai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/css\n- assets/css/app.scss",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/css\nassets/css/app.scss",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6235543469439246
+  }
+]

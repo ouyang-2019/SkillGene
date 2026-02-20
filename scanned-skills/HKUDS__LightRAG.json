@@ -1,0 +1,223 @@
+[
+  {
+    "name": "LightRAG (HKUDS)",
+    "description": "[项目级] [EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "python",
+      "stars-28466",
+      "github-hkuds",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LightRAG allows you to export your knowledge graph data in various formats for analysis, sharing, and backup purposes. The system supports exporting entities, relations, and relationship data.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> **💡 Using uv for Package Management**: This project uses [uv](https://docs.astral.sh/uv/) for fast and reliable Python package management.\n> Install uv first: `curl -LsSf https://astral.sh/uv/install.sh | sh` (Unix/macOS) or `powershell -c \"irm https://astral.sh/uv/install.ps1 | iex\"` (Windows)\n>\n> **Note**: You can also use pip if you prefer, but uv is recommended for better performance and more reliable dependency management.\n>\n> **📦 Offline Deployment**: For offline or air-gapped environments, see the [Offline Deployment Guide](./docs/OfflineDeployment.md) for instructions on pre-instal",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nDockerfile\nDockerfile.lite\nLICENSE\nMANIFEST.in\nREADME-zh.md\nREADME.assets\nREADME.assets/b2aaf634151b4706892693ffb43d9093.png\nREADME.assets/iShot_2025-03-23_12.40.08.png\nREADME.md\nSECURITY.md\nassets\nassets/LiteWrite.png\nassets/logo.png\nconfig.ini.example\ndocker-build-push.sh\ndocker-compose.yml\ndocs\ndocs/Algorithm.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "LightRAG/README.assets 模块",
+    "description": "[模块级] LightRAG 项目的 README.assets 模块 (source)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "source",
+      "readme.assets"
+    ],
+    "genes": [
+      {
+        "title": "README.assets 模块说明",
+        "content": "模块路径: README.assets/\n类型: source\n文件数: 2\n\n包含文件:\n- README.assets/b2aaf634151b4706892693ffb43d9093.png\n- README.assets/iShot_2025-03-23_12.40.08.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "README.assets 文件结构",
+        "content": "README.assets/b2aaf634151b4706892693ffb43d9093.png\nREADME.assets/iShot_2025-03-23_12.40.08.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  },
+  {
+    "name": "LightRAG/assets 模块",
+    "description": "[模块级] LightRAG 项目的 assets 模块 (source)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/LiteWrite.png\n- assets/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/LiteWrite.png\nassets/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  },
+  {
+    "name": "LightRAG/docs 模块",
+    "description": "[模块级] LightRAG 项目的 docs 模块 (docs)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "documentation",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/Algorithm.md\n- docs/DockerDeployment.md\n- docs/FrontendBuildGuide.md\n- docs/LightRAG_concurrent_explain.md\n- docs/OfflineDeployment.md\n- docs/UV_LOCK_GUIDE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Algorithm.md\ndocs/DockerDeployment.md\ndocs/FrontendBuildGuide.md\ndocs/LightRAG_concurrent_explain.md\ndocs/OfflineDeployment.md\ndocs/UV_LOCK_GUIDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  },
+  {
+    "name": "LightRAG/examples 模块",
+    "description": "[模块级] LightRAG 项目的 examples 模块 (example)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "You can refer to these examples for implementing token tracking:\n- `examples/lightrag_gemini_track_token_demo.py`: Token tracking example using Google Gemini model\n- `examples/lightrag_siliconcloud_track_token_demo.py`: Token tracking example using SiliconCloud model\n\nThese examples demonstrate how to effectively use the TokenTracker feature with different models and scenarios.\n\n</details>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/generate_query.py\nexamples/graph_visual_with_html.py\nexamples/graph_visual_with_neo4j.py\nexamples/insert_custom_kg.py\nexamples/lightrag_azure_openai_demo.py\nexamples/lightrag_gemini_demo.py\nexamples/lightrag_gemini_postgres_demo.py\nexamples/lightrag_gemini_workspace_demo.py\nexamples/lightrag_ollama_demo.py\nexamples/lightrag_openai_compatible_demo.py\nexamples/lightrag_openai_demo.py\nexamples/lightrag_openai_mongodb_graph_demo.py\nexamples/lightrag_vllm_demo.py\nexamples/modalprocessors_example.py\nexamples/raganything_example.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  },
+  {
+    "name": "LightRAG/k8s-deploy 模块",
+    "description": "[模块级] LightRAG 项目的 k8s-deploy 模块 (source)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "source",
+      "k8s-deploy"
+    ],
+    "genes": [
+      {
+        "title": "k8s-deploy 模块说明",
+        "content": "模块路径: k8s-deploy/\n类型: source\n文件数: 40\n\n包含文件:\n- k8s-deploy/README-zh.md\n- k8s-deploy/README.md\n- k8s-deploy/databases\n- k8s-deploy/databases/00-config.sh\n- k8s-deploy/databases/01-prepare.sh\n- k8s-deploy/databases/02-install-database.sh\n- k8s-deploy/databases/03-uninstall-database.sh\n- k8s-deploy/databases/04-cleanup.sh\n- k8s-deploy/databases/README.md\n- k8s-deploy/databases/elasticsearch",
+        "gene_type": "principle"
+      },
+      {
+        "title": "k8s-deploy 文件结构",
+        "content": "k8s-deploy/README-zh.md\nk8s-deploy/README.md\nk8s-deploy/databases\nk8s-deploy/databases/00-config.sh\nk8s-deploy/databases/01-prepare.sh\nk8s-deploy/databases/02-install-database.sh\nk8s-deploy/databases/03-uninstall-database.sh\nk8s-deploy/databases/04-cleanup.sh\nk8s-deploy/databases/README.md\nk8s-deploy/databases/elasticsearch\nk8s-deploy/databases/elasticsearch/values.yaml\nk8s-deploy/databases/install-kubeblocks.sh\nk8s-deploy/databases/mongodb\nk8s-deploy/databases/mongodb/values.yaml\nk8s-deploy/databases/neo4j",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  },
+  {
+    "name": "LightRAG/lightrag 模块",
+    "description": "[模块级] LightRAG 项目的 lightrag 模块 (source)。来源: https://github.com/HKUDS/LightRAG",
+    "domain": "ai-llm",
+    "tags": [
+      "genai",
+      "gpt",
+      "gpt-4",
+      "graphrag",
+      "knowledge-graph",
+      "module-level",
+      "source",
+      "lightrag"
+    ],
+    "genes": [
+      {
+        "title": "lightrag 模块说明",
+        "content": "<div align=\"center\">\n    <a href=\"https://trendshift.io/repositories/13043\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/13043\" alt=\"HKUDS%2FLightRAG | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n\n<div align=\"center\">\n  <div style=\"width: 100%; height: 2px; margin: 20px 0; background: linear-gradient(90deg, transparent, #00d9ff, transparent);\"></div>\n</div>\n\n<div align=\"center\">\n  <div style=\"background: linear-gradient(135deg, #",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lightrag 文件结构",
+        "content": "lightrag/__init__.py\nlightrag/api\nlightrag/api/.env.aoi.example\nlightrag/api/.gitignore\nlightrag/api/README-zh.md\nlightrag/api/README.assets\nlightrag/api/README.assets/image-20250323122538997.png\nlightrag/api/README.assets/image-20250323122754387.png\nlightrag/api/README.assets/image-20250323123011220.png\nlightrag/api/README.assets/image-20250323194750379.png\nlightrag/api/README.md\nlightrag/api/__init__.py\nlightrag/api/auth.py\nlightrag/api/config.py\nlightrag/api/gunicorn_config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.281730578007714
+  }
+]

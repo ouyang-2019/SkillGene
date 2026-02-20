@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-claude-skills (sandipan1)",
+    "description": "[项目级] Curated list of claude skills 。来源: https://github.com/sandipan1/awesome-claude-skills",
+    "domain": "devops",
+    "tags": [
+      "awesome-claude",
+      "awesome-claude-code",
+      "awesome-claude-prompts",
+      "awesome-claude-skills",
+      "awesome-list",
+      "stars-15",
+      "github-sandipan1",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated list of claude skills \n\n来源: https://github.com/sandipan1/awesome-claude-skills\n语言: unknown\nStars: 15",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5880456295278407
+  }
+]

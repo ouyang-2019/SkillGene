@@ -1,0 +1,150 @@
+[
+  {
+    "name": "zero-skills (zeromicro)",
+    "description": "[项目级] AI-optimized knowledge base for building applications with go-zero。来源: https://github.com/zeromicro/zero-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-43",
+      "github-zeromicro",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI-optimized knowledge base for building applications with go-zero\n\n来源: https://github.com/zeromicro/zero-skills\n语言: unknown\nStars: 43",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Install zero-skills from https://github.com/zeromicro/zero-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_CN.md\nSKILL.md\nbest-practices\nbest-practices/overview.md\nexamples\nexamples/README.md\nexamples/demo-project\nexamples/verify-tutorial.sh\ngetting-started\ngetting-started/README.md\ngetting-started/claude-code-guide.md\ngetting-started/copilot-guide.md\ngetting-started/cursor-guide.md\ngetting-started/windsurf-guide.md\nreferences\nreferences/database-patterns.md\nreferences/resilience-patterns.md\nreferences/rest-api-patterns.md\nreferences/rpc-patterns.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- **Automatic**: Claude loads the skill when you work with go-zero files (`.api`, `.proto`, `go.mod` with go-zero)\n- **Manual**: Type `/zero-skills` to invoke directly for go-zero guidance\n- **With arguments**: `/zero-skills Create a user management API` for specific tasks\n- **Check availability**: Ask \"What skills are available?\" to see if it's loaded",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Dynamic context**: Skills can execute shell commands to gather live project data\n- **Subagents**: Use `context: fork` for isolated analysis or planning tasks\n- **Tool restrictions**: `allowed-tools` ensures safe, read-only operations\n- See [skill-patterns/](skill-patterns/) for advanced patterns and templates",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8167342277897935
+  },
+  {
+    "name": "zero-skills/examples 模块",
+    "description": "[模块级] zero-skills 项目的 examples 模块 (example)。来源: https://github.com/zeromicro/zero-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-43",
+      "github-zeromicro",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 5\n\n包含文件:\n- examples/README.md\n- examples/demo-project\n- examples/demo-project/README.md\n- examples/demo-project/setup-demo.sh\n- examples/verify-tutorial.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/demo-project\nexamples/demo-project/README.md\nexamples/demo-project/setup-demo.sh\nexamples/verify-tutorial.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "zero-skills/getting-started 模块",
+    "description": "[模块级] zero-skills 项目的 getting-started 模块 (source)。来源: https://github.com/zeromicro/zero-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-43",
+      "github-zeromicro",
+      "module-level",
+      "source",
+      "getting-started"
+    ],
+    "genes": [
+      {
+        "title": "getting-started 模块说明",
+        "content": "模块路径: getting-started/\n类型: source\n文件数: 5\n\n包含文件:\n- getting-started/README.md\n- getting-started/claude-code-guide.md\n- getting-started/copilot-guide.md\n- getting-started/cursor-guide.md\n- getting-started/windsurf-guide.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "getting-started 文件结构",
+        "content": "getting-started/README.md\ngetting-started/claude-code-guide.md\ngetting-started/copilot-guide.md\ngetting-started/cursor-guide.md\ngetting-started/windsurf-guide.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "zero-skills/references 模块",
+    "description": "[模块级] zero-skills 项目的 references 模块 (source)。来源: https://github.com/zeromicro/zero-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-43",
+      "github-zeromicro",
+      "module-level",
+      "source",
+      "references"
+    ],
+    "genes": [
+      {
+        "title": "references 模块说明",
+        "content": "模块路径: references/\n类型: source\n文件数: 4\n\n包含文件:\n- references/database-patterns.md\n- references/resilience-patterns.md\n- references/rest-api-patterns.md\n- references/rpc-patterns.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "references 文件结构",
+        "content": "references/database-patterns.md\nreferences/resilience-patterns.md\nreferences/rest-api-patterns.md\nreferences/rpc-patterns.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "zero-skills/skill-patterns 模块",
+    "description": "[模块级] zero-skills 项目的 skill-patterns 模块 (source)。来源: https://github.com/zeromicro/zero-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-43",
+      "github-zeromicro",
+      "module-level",
+      "source",
+      "skill-patterns"
+    ],
+    "genes": [
+      {
+        "title": "skill-patterns 模块说明",
+        "content": "模块路径: skill-patterns/\n类型: source\n文件数: 4\n\n包含文件:\n- skill-patterns/README.md\n- skill-patterns/analyze-project.md\n- skill-patterns/generate-service.md\n- skill-patterns/plan-architecture.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skill-patterns 文件结构",
+        "content": "skill-patterns/README.md\nskill-patterns/analyze-project.md\nskill-patterns/generate-service.md\nskill-patterns/plan-architecture.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "awesome-claude-code-plugins (ccplugins)",
+    "description": "[项目级] Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code。来源: https://github.com/ccplugins/awesome-claude-code-plugins",
+    "domain": "devops",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-list",
+      "awesome-plugins",
+      "awesome-resources",
+      "claude-code",
+      "python",
+      "stars-485",
+      "github-ccplugins",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code\n\n来源: https://github.com/ccplugins/awesome-claude-code-plugins\n语言: Python\nStars: 485",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME-zh.md\nREADME.md\nplugins\nplugins/agent-sdk-dev\nplugins/ai-engineer\nplugins/ai-ethics-governance-specialist\nplugins/analytics-reporter\nplugins/analyze-codebase\nplugins/analyze-issue\nplugins/angelos-symbo\nplugins/api-integration-specialist\nplugins/api-tester\nplugins/app-store-optimizer\nplugins/audit\nplugins/b2b-project-shipper\nplugins/backend-architect\nplugins/brand-guardian\nplugins/bug-detective\nplugins/bug-fix",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.342870869301132
+  },
+  {
+    "name": "awesome-claude-code-plugins/plugins 模块",
+    "description": "[模块级] awesome-claude-code-plugins 项目的 plugins 模块 (source)。来源: https://github.com/ccplugins/awesome-claude-code-plugins",
+    "domain": "devops",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-list",
+      "awesome-plugins",
+      "awesome-resources",
+      "claude-code",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "[![English](https://img.shields.io/badge/English-Click-yellow)](README.md)\n[![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README-zh.md)\n\nAwesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code\n\n* [What is Claude Code Plugin?](#what-is-claude-code-plugin)\n* [Use Cases](#use-cases)\n* [Plugins](#plugins)\n    - [Official Claude Code Plugins](#official-claude-code-plugins)\n    - [Workflow Orchestration](#workflow-orchestration)\n    -",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/agent-sdk-dev\nplugins/agent-sdk-dev/.claude-plugin\nplugins/agent-sdk-dev/.claude-plugin/plugin.json\nplugins/agent-sdk-dev/agents\nplugins/agent-sdk-dev/agents/agent-sdk-verifier-py.md\nplugins/agent-sdk-dev/agents/agent-sdk-verifier-ts.md\nplugins/agent-sdk-dev/commands\nplugins/agent-sdk-dev/commands/new-sdk-app.md\nplugins/ai-engineer\nplugins/ai-engineer/.claude-plugin\nplugins/ai-engineer/.claude-plugin/plugin.json\nplugins/ai-engineer/agents\nplugins/ai-engineer/agents/ai-engineer.md\nplugins/ai-ethics-governance-specialist\nplugins/ai-ethics-governance-specialist/.claude-plugin",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5742966954409052
+  }
+]

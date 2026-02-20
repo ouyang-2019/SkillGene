@@ -1,0 +1,91 @@
+[
+  {
+    "name": "ai-agents-skills (hoodini)",
+    "description": "[项目级] 🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.。来源: https://github.com/hoodini/ai-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-98",
+      "github-hoodini",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🧠 AI Agent Skills Repository - A curated collection of specialized skills for AI coding agents (Claude Code, GitHub Copilot, Cursor, Windsurf). Created by Yuval Avidani using GitHub Copilot via VS Code Insiders.\n\n来源: https://github.com/hoodini/ai-agents-skills\n语言: unknown\nStars: 98",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nhero-skills.jpg\nskills\nskills/analytics-metrics\nskills/aws-account-management\nskills/aws-agentcore\nskills/aws-strands\nskills/bun\nskills/cloudflare\nskills/copilot-docs\nskills/copilot-sdk\nskills/fal-ai\nskills/figma\nskills/github-trending\nskills/honest-agent\nskills/langchain\nskills/local-llm-router\nskills/mermaid-diagrams\nskills/mobile-responsiveness\nskills/mongodb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Here's what a simple `SKILL.md` looks like:\n\n```markdown\n---\nname: github-actions-debugging\ndescription: Guide for debugging failing GitHub Actions workflows. Use this when asked to debug CI/CD failures or workflow issues.\n---",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9956130378462476
+  },
+  {
+    "name": "ai-agents-skills/skills 模块",
+    "description": "[模块级] ai-agents-skills 项目的 skills 模块 (source)。来源: https://github.com/hoodini/ai-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-98",
+      "github-hoodini",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Agent skills are **specialized knowledge modules** that enhance AI coding agents with domain-specific expertise. They provide:\n\n- 🎯 **Focused Knowledge** — Only what the AI doesn't already know\n- 📝 **Production-Ready Code** — Working examples, not abstract concepts  \n- ⚡ **Quick Activation** — Trigger keywords for instant context\n- 🔄 **Reusable Patterns** — Copy once, use everywhere\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/analytics-metrics\nskills/analytics-metrics/SKILL.md\nskills/aws-account-management\nskills/aws-account-management/SKILL.md\nskills/aws-agentcore\nskills/aws-agentcore/SKILL.md\nskills/aws-strands\nskills/aws-strands/SKILL.md\nskills/bun\nskills/bun/SKILL.md\nskills/cloudflare\nskills/cloudflare/SKILL.md\nskills/copilot-docs\nskills/copilot-docs/SKILL.md\nskills/copilot-sdk",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.296490430276998
+  },
+  {
+    "name": "ai-agents-skills/templates 模块",
+    "description": "[模块级] ai-agents-skills 项目的 templates 模块 (source)。来源: https://github.com/hoodini/ai-agents-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-98",
+      "github-hoodini",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 2\n\n包含文件:\n- templates/skill-template\n- templates/skill-template/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/skill-template\ntemplates/skill-template/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.296490430276998
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "awesome-llm-apps (Shubhamsaboo)",
+    "description": "[项目级] Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.。来源: https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llms",
+      "python",
+      "rag",
+      "stars-96234",
+      "github-shubhamsaboo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.\n\n来源: https://github.com/Shubhamsaboo/awesome-llm-apps\n语言: Python\nStars: 96234",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "2. **Navigate to the desired project directory**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nadvanced_ai_agents\nadvanced_ai_agents/autonomous_game_playing_agent_apps\nadvanced_ai_agents/multi_agent_apps",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "awesome-llm-apps/advanced_ai_agents 模块",
+    "description": "[模块级] awesome-llm-apps 项目的 advanced_ai_agents 模块 (source)。来源: https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llms",
+      "python",
+      "rag",
+      "stars-96234",
+      "module-level",
+      "source",
+      "advanced_ai_agents"
+    ],
+    "genes": [
+      {
+        "title": "advanced_ai_agents 模块说明",
+        "content": "模块路径: advanced_ai_agents/\n类型: source\n文件数: 194\n\n包含文件:\n- advanced_ai_agents/autonomous_game_playing_agent_apps\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/ai_3dpygame_r1.py\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/requirements.txt\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/ai_chess_agent.py\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/requirements.txt\n- advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "advanced_ai_agents 文件结构",
+        "content": "advanced_ai_agents/autonomous_game_playing_agent_apps\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/ai_3dpygame_r1.py\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/requirements.txt\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/ai_chess_agent.py\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/requirements.txt\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/README.md\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/agents.py\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/app.py\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/requirements.txt\nadvanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.493331415108767
+  }
+]

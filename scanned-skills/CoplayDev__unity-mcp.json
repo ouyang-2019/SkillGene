@@ -1,0 +1,103 @@
+[
+  {
+    "name": "unity-mcp (CoplayDev)",
+    "description": "[项目级] Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.。来源: https://github.com/CoplayDev/unity-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-integration",
+      "anthropic",
+      "claude",
+      "copilot",
+      "c#",
+      "stars-6083",
+      "github-coplaydev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Unity MCP acts as a bridge, allowing AI assistants (like Claude, Cursor) to interact directly with your Unity Editor via a local MCP (Model Context Protocol) Client. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.\n\n来源: https://github.com/CoplayDev/unity-mcp\n语言: C#\nStars: 6083",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCustomTools\nCustomTools/RoslynRuntimeCompilation\nLICENSE\nMCPForUnity\nMCPForUnity/Editor.meta\nMCPForUnity/Editor",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Natural Language Control** — Instruct your LLM to perform Unity tasks\n* **Powerful Tools** — Manage assets, scenes, materials, scripts, and editor functions\n* **Automation** — Automate repetitive Unity workflows\n* **Extensible** — Works with various MCP Clients",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.892058908231462
+  },
+  {
+    "name": "unity-mcp/CustomTools 模块",
+    "description": "[模块级] unity-mcp 项目的 CustomTools 模块 (source)。来源: https://github.com/CoplayDev/unity-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-integration",
+      "anthropic",
+      "claude",
+      "copilot",
+      "module-level",
+      "source",
+      "customtools"
+    ],
+    "genes": [
+      {
+        "title": "CustomTools 模块说明",
+        "content": "模块路径: CustomTools/\n类型: source\n文件数: 5\n\n包含文件:\n- CustomTools/RoslynRuntimeCompilation\n- CustomTools/RoslynRuntimeCompilation/ManageRuntimeCompilation.cs\n- CustomTools/RoslynRuntimeCompilation/ManageRuntimeCompilation.cs.meta\n- CustomTools/RoslynRuntimeCompilation/RoslynRuntimeCompiler.cs\n- CustomTools/RoslynRuntimeCompilation/RoslynRuntimeCompiler.cs.meta",
+        "gene_type": "principle"
+      },
+      {
+        "title": "CustomTools 文件结构",
+        "content": "CustomTools/RoslynRuntimeCompilation\nCustomTools/RoslynRuntimeCompilation/ManageRuntimeCompilation.cs\nCustomTools/RoslynRuntimeCompilation/ManageRuntimeCompilation.cs.meta\nCustomTools/RoslynRuntimeCompilation/RoslynRuntimeCompiler.cs\nCustomTools/RoslynRuntimeCompilation/RoslynRuntimeCompiler.cs.meta",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01364712658517
+  },
+  {
+    "name": "unity-mcp/MCPForUnity 模块",
+    "description": "[模块级] unity-mcp 项目的 MCPForUnity 模块 (source)。来源: https://github.com/CoplayDev/unity-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-integration",
+      "anthropic",
+      "claude",
+      "copilot",
+      "module-level",
+      "source",
+      "mcpforunity"
+    ],
+    "genes": [
+      {
+        "title": "MCPForUnity 模块说明",
+        "content": "模块路径: MCPForUnity/\n类型: source\n文件数: 157\n\n包含文件:\n- MCPForUnity/Editor.meta\n- MCPForUnity/Editor\n- MCPForUnity/Editor/AssemblyInfo.cs\n- MCPForUnity/Editor/AssemblyInfo.cs.meta\n- MCPForUnity/Editor/Clients.meta\n- MCPForUnity/Editor/Clients\n- MCPForUnity/Editor/Clients/Configurators.meta\n- MCPForUnity/Editor/Clients/Configurators\n- MCPForUnity/Editor/Clients/Configurators/AntigravityConfigurator.cs\n- MCPForUnity/Editor/Clients/Configurators/AntigravityConfigurator.cs.meta",
+        "gene_type": "principle"
+      },
+      {
+        "title": "MCPForUnity 文件结构",
+        "content": "MCPForUnity/Editor.meta\nMCPForUnity/Editor\nMCPForUnity/Editor/AssemblyInfo.cs\nMCPForUnity/Editor/AssemblyInfo.cs.meta\nMCPForUnity/Editor/Clients.meta\nMCPForUnity/Editor/Clients\nMCPForUnity/Editor/Clients/Configurators.meta\nMCPForUnity/Editor/Clients/Configurators\nMCPForUnity/Editor/Clients/Configurators/AntigravityConfigurator.cs\nMCPForUnity/Editor/Clients/Configurators/AntigravityConfigurator.cs.meta\nMCPForUnity/Editor/Clients/Configurators/CherryStudioConfigurator.cs\nMCPForUnity/Editor/Clients/Configurators/CherryStudioConfigurator.cs.meta\nMCPForUnity/Editor/Clients/Configurators/ClaudeCodeConfigurator.cs\nMCPForUnity/Editor/Clients/Configurators/ClaudeCodeConfigurator.cs.meta\nMCPForUnity/Editor/Clients/Configurators/ClaudeDesktopConfigurator.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01364712658517
+  }
+]

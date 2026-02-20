@@ -1,0 +1,433 @@
+[
+  {
+    "name": "USearch (unum-cloud)",
+    "description": "[项目级] Fast Open-Source Search & Clustering engine × for Vectors & Arbitrary Objects × in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram 🔍。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "c++",
+      "stars-3888",
+      "github-unum-cloud",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Fast Open-Source Search & Clustering engine × for Vectors & Arbitrary Objects × in C++, C, Python, JavaScript, Rust, Java, Objective-C, Swift, C#, GoLang, and Wolfram 🔍\n\n来源: https://github.com/unum-cloud/USearch\n语言: C++\nStars: 3888",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "More settings are always available, and the API is designed to be as flexible as possible.\nThe default storage/quantization level is hardware-dependant for efficiency, but `bf16` is recommended for most modern CPUs.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BENCHMARKS.md\nCITATION.cff\nCMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nDockerfile\nLICENSE\nMANIFEST.in\nPackage.swift\nREADME.md\nVERSION\nassets\nassets/unum.png\nassets/usearch-approaches-transparent.png\nassets/usearch-approaches-white.png\nassets/usearch-neighbor-types.png\nbinding.gyp\nbuild.gradle",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.794863128127119
+  },
+  {
+    "name": "USearch/assets 模块",
+    "description": "[模块级] USearch 项目的 assets 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 4\n\n包含文件:\n- assets/unum.png\n- assets/usearch-approaches-transparent.png\n- assets/usearch-approaches-white.png\n- assets/usearch-neighbor-types.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/unum.png\nassets/usearch-approaches-transparent.png\nassets/usearch-approaches-white.png\nassets/usearch-neighbor-types.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/c 模块",
+    "description": "[模块级] USearch 项目的 c 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "c"
+    ],
+    "genes": [
+      {
+        "title": "c 模块说明",
+        "content": "FAISS is a widely recognized standard for high-performance vector search engines.\nUSearch and FAISS both employ the same HNSW algorithm, but they differ significantly in their design principles.\nUSearch is compact and broadly compatible without sacrificing performance, primarily focusing on user-defined metrics and fewer dependencies.\n\n|                                              |                   FAISS |                  USearch |             Improvement |\n| :-------------------------------",
+        "gene_type": "principle"
+      },
+      {
+        "title": "c 文件结构",
+        "content": "c/CMakeLists.txt\nc/README.md\nc/lib.cpp\nc/module.modulemap\nc/test.c\nc/usearch.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/cmake 模块",
+    "description": "[模块级] USearch 项目的 cmake 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 6\n\n包含文件:\n- cmake/clipp.cmake\n- cmake/config.cmake.in\n- cmake/emscripten.cmake\n- cmake/jemalloc.cmake\n- cmake/pkg-config.pc.in\n- cmake/usearchConfigVersion.cmake.in",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/clipp.cmake\ncmake/config.cmake.in\ncmake/emscripten.cmake\ncmake/jemalloc.cmake\ncmake/pkg-config.pc.in\ncmake/usearchConfigVersion.cmake.in",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/cpp 模块",
+    "description": "[模块级] USearch 项目的 cpp 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "cpp"
+    ],
+    "genes": [
+      {
+        "title": "cpp 模块说明",
+        "content": "模块路径: cpp/\n类型: source\n文件数: 4\n\n包含文件:\n- cpp/CMakeLists.txt\n- cpp/README.md\n- cpp/bench.cpp\n- cpp/test.cpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cpp 文件结构",
+        "content": "cpp/CMakeLists.txt\ncpp/README.md\ncpp/bench.cpp\ncpp/test.cpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/csharp 模块",
+    "description": "[模块级] USearch 项目的 csharp 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "csharp"
+    ],
+    "genes": [
+      {
+        "title": "csharp 模块说明",
+        "content": "模块路径: csharp/\n类型: source\n文件数: 17\n\n包含文件:\n- csharp/.editorconfig\n- csharp/Cloud.Unum.USearch.sln\n- csharp/Directory.Build.props\n- csharp/README.md\n- csharp/nuget\n- csharp/nuget/nuget-package.props\n- csharp/src\n- csharp/src/Cloud.Unum.USearch.Tests\n- csharp/src/Cloud.Unum.USearch.Tests/Cloud.Unum.USearch.Tests.csproj\n- csharp/src/Cloud.Unum.USearch.Tests/USearchIndexTests.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "csharp 文件结构",
+        "content": "csharp/.editorconfig\ncsharp/Cloud.Unum.USearch.sln\ncsharp/Directory.Build.props\ncsharp/README.md\ncsharp/nuget\ncsharp/nuget/nuget-package.props\ncsharp/src\ncsharp/src/Cloud.Unum.USearch.Tests\ncsharp/src/Cloud.Unum.USearch.Tests/Cloud.Unum.USearch.Tests.csproj\ncsharp/src/Cloud.Unum.USearch.Tests/USearchIndexTests.cs\ncsharp/src/Cloud.Unum.USearch.Tests/Usings.cs\ncsharp/src/Cloud.Unum.USearch\ncsharp/src/Cloud.Unum.USearch/Cloud.Unum.USearch.csproj\ncsharp/src/Cloud.Unum.USearch/NativeMethods.cs\ncsharp/src/Cloud.Unum.USearch/USearchException.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/docs 模块",
+    "description": "[模块级] USearch 项目的 docs 模块 (docs)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "documentation",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 43\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/custom.css\n- docs/_static/custom.js\n- docs/benchmarks.rst\n- docs/c\n- docs/c/index.rst\n- docs/c/reference.rst\n- docs/conf.dox\n- docs/conf.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/custom.css\ndocs/_static/custom.js\ndocs/benchmarks.rst\ndocs/c\ndocs/c/index.rst\ndocs/c/reference.rst\ndocs/conf.dox\ndocs/conf.py\ndocs/contributing.rst\ndocs/cpp\ndocs/cpp/index.rst\ndocs/cpp/reference.rst\ndocs/csharp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/golang 模块",
+    "description": "[模块级] USearch 项目的 golang 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "golang"
+    ],
+    "genes": [
+      {
+        "title": "golang 模块说明",
+        "content": "模块路径: golang/\n类型: source\n文件数: 4\n\n包含文件:\n- golang/README.md\n- golang/go.mod\n- golang/lib.go\n- golang/lib_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "golang 文件结构",
+        "content": "golang/README.md\ngolang/go.mod\ngolang/lib.go\ngolang/lib_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/include 模块",
+    "description": "[模块级] USearch 项目的 include 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "include"
+    ],
+    "genes": [
+      {
+        "title": "include 模块说明",
+        "content": "模块路径: include/\n类型: source\n文件数: 4\n\n包含文件:\n- include/usearch\n- include/usearch/index.hpp\n- include/usearch/index_dense.hpp\n- include/usearch/index_plugins.hpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "include 文件结构",
+        "content": "include/usearch\ninclude/usearch/index.hpp\ninclude/usearch/index_dense.hpp\ninclude/usearch/index_plugins.hpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/java 模块",
+    "description": "[模块级] USearch 项目的 java 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "java"
+    ],
+    "genes": [
+      {
+        "title": "java 模块说明",
+        "content": "模块路径: java/\n类型: source\n文件数: 11\n\n包含文件:\n- java/CMakeLists.txt\n- java/README.md\n- java/cloud\n- java/cloud/unum\n- java/cloud/unum/usearch\n- java/cloud/unum/usearch/Index.java\n- java/cloud/unum/usearch/NativeUtils.java\n- java/cloud/unum/usearch/cloud_unum_usearch_Index.cpp\n- java/cloud/unum/usearch/cloud_unum_usearch_Index.h\n- java/test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "java 文件结构",
+        "content": "java/CMakeLists.txt\njava/README.md\njava/cloud\njava/cloud/unum\njava/cloud/unum/usearch\njava/cloud/unum/usearch/Index.java\njava/cloud/unum/usearch/NativeUtils.java\njava/cloud/unum/usearch/cloud_unum_usearch_Index.cpp\njava/cloud/unum/usearch/cloud_unum_usearch_Index.h\njava/test\njava/test/IndexTest.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/javascript 模块",
+    "description": "[模块级] USearch 项目的 javascript 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "javascript"
+    ],
+    "genes": [
+      {
+        "title": "javascript 模块说明",
+        "content": "模块路径: javascript/\n类型: source\n文件数: 10\n\n包含文件:\n- javascript/README.md\n- javascript/dist-package-cjs.json\n- javascript/dist-package-esm.json\n- javascript/lib.cpp\n- javascript/node-gyp-build.d.ts\n- javascript/tsconfig-base.json\n- javascript/tsconfig-cjs.json\n- javascript/tsconfig-esm.json\n- javascript/usearch.test.js\n- javascript/usearch.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "javascript 文件结构",
+        "content": "javascript/README.md\njavascript/dist-package-cjs.json\njavascript/dist-package-esm.json\njavascript/lib.cpp\njavascript/node-gyp-build.d.ts\njavascript/tsconfig-base.json\njavascript/tsconfig-cjs.json\njavascript/tsconfig-esm.json\njavascript/usearch.test.js\njavascript/usearch.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/objc 模块",
+    "description": "[模块级] USearch 项目的 objc 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "objc"
+    ],
+    "genes": [
+      {
+        "title": "objc 模块说明",
+        "content": "模块路径: objc/\n类型: source\n文件数: 4\n\n包含文件:\n- objc/README.md\n- objc/USearchObjective.mm\n- objc/include\n- objc/include/USearchObjective.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "objc 文件结构",
+        "content": "objc/README.md\nobjc/USearchObjective.mm\nobjc/include\nobjc/include/USearchObjective.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/python 模块",
+    "description": "[模块级] USearch 项目的 python 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 25\n\n包含文件:\n- python/README.md\n- python/lib.cpp\n- python/scripts\n- python/scripts/bench.ipynb\n- python/scripts/bench.py\n- python/scripts/bench_cluster.py\n- python/scripts/bench_exact.py\n- python/scripts/cluster.ipynb\n- python/scripts/index_faiss.py\n- python/scripts/join.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/README.md\npython/lib.cpp\npython/scripts\npython/scripts/bench.ipynb\npython/scripts/bench.py\npython/scripts/bench_cluster.py\npython/scripts/bench_exact.py\npython/scripts/cluster.ipynb\npython/scripts/index_faiss.py\npython/scripts/join.py\npython/scripts/test_distances.py\npython/scripts/test_index.py\npython/scripts/test_jit.py\npython/scripts/test_sparse.py\npython/scripts/test_sqlite.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  },
+  {
+    "name": "USearch/rust 模块",
+    "description": "[模块级] USearch 项目的 rust 模块 (source)。来源: https://github.com/unum-cloud/USearch",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "clustering",
+      "database",
+      "faiss",
+      "full-text-search",
+      "module-level",
+      "source",
+      "rust"
+    ],
+    "genes": [
+      {
+        "title": "rust 模块说明",
+        "content": "模块路径: rust/\n类型: source\n文件数: 3\n\n包含文件:\n- rust/README.md\n- rust/lib.cpp\n- rust/lib.hpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rust 文件结构",
+        "content": "rust/README.md\nrust/lib.cpp\nrust/lib.hpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.935890502501695
+  }
+]

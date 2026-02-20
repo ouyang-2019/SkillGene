@@ -1,0 +1,203 @@
+[
+  {
+    "name": "LlamaFactory (hiyouga)",
+    "description": "[项目级] Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "python",
+      "stars-67402",
+      "github-hiyouga",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)\n\n来源: https://github.com/hiyouga/LlamaFactory\n语言: Python\nStars: 67402",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nREADME_zh.md\nassets\nassets/logo.png\nassets/sponsors\nassets/thirdparty\ndata\ndata/README.md\ndata/README_zh.md\ndata/alpaca_en_demo.json\ndata/alpaca_zh_demo.json\ndata/c4_demo.jsonl\ndata/dataset_info.json\ndata/dpo_en_demo.json\ndata/dpo_zh_demo.json\ndata/glaive_toolcall_en_demo.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Various models**: LLaMA, LLaVA, Mistral, Mixtral-MoE, Qwen3, Qwen3-VL, DeepSeek, Gemma, GLM, Phi, etc.\n- **Integrated methods**: (Continuous) pre-training, (multimodal) supervised fine-tuning, reward modeling, PPO, DPO, KTO, ORPO, etc.\n- **Scalable resources**: 16-bit full-tuning, freeze-tuning, LoRA and 2/3/4/5/6/8-bit QLoRA via AQLM/AWQ/GPTQ/LLM.int8/HQQ/EETQ.\n- **Advanced algorithms**: [GaLore](https://github.com/jiaweizzhao/GaLore), [BAdam](https://github.com/Ledzy/BAdam), [APOLLO](https://github.com/zhuhanqing/APOLLO), [Adam-mini](https://github.com/zyushun/Adam-mini), [Muon](https://",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "LlamaFactory/assets 模块",
+    "description": "[模块级] LlamaFactory 项目的 assets 模块 (source)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 10\n\n包含文件:\n- assets/logo.png\n- assets/sponsors\n- assets/sponsors/serpapi.svg\n- assets/sponsors/warp.jpg\n- assets/thirdparty\n- assets/thirdparty/colab.svg\n- assets/thirdparty/discord.svg\n- assets/thirdparty/dsw.svg\n- assets/thirdparty/lab4ai.svg\n- assets/thirdparty/online.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/logo.png\nassets/sponsors\nassets/sponsors/serpapi.svg\nassets/sponsors/warp.jpg\nassets/thirdparty\nassets/thirdparty/colab.svg\nassets/thirdparty/discord.svg\nassets/thirdparty/dsw.svg\nassets/thirdparty/lab4ai.svg\nassets/thirdparty/online.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.431469113368294
+  },
+  {
+    "name": "LlamaFactory/data 模块",
+    "description": "[模块级] LlamaFactory 项目的 data 模块 (source)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "<details><summary>Pre-training datasets</summary>\n\n- [Wiki Demo (en)](data/wiki_demo.txt)\n- [RefinedWeb (en)](https://huggingface.co/datasets/tiiuae/falcon-refinedweb)\n- [RedPajama V2 (en)](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)\n- [Wikipedia (en)](https://huggingface.co/datasets/olm/olm-wikipedia-20221220)\n- [Wikipedia (zh)](https://huggingface.co/datasets/pleisto/wikipedia-cn-20230720-filtered)\n- [Pile (en)](https://huggingface.co/datasets/EleutherAI/pile)\n- [SkyPil",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/README.md\ndata/README_zh.md\ndata/alpaca_en_demo.json\ndata/alpaca_zh_demo.json\ndata/c4_demo.jsonl\ndata/dataset_info.json\ndata/dpo_en_demo.json\ndata/dpo_zh_demo.json\ndata/glaive_toolcall_en_demo.json\ndata/glaive_toolcall_zh_demo.json\ndata/identity.json\ndata/kto_en_demo.json\ndata/mllm_audio_demo.json\ndata/mllm_demo.json\ndata/mllm_demo_data",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "data 代码示例",
+        "content": "pip install \"huggingface_hub<1.0.0\"\nhuggingface-cli login",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.431469113368294
+  },
+  {
+    "name": "LlamaFactory/docker 模块",
+    "description": "[模块级] LlamaFactory 项目的 docker 模块 (source)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "```bash\ndocker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest\n```\n\nThis image is built on Ubuntu 22.04 (x86\\_64), CUDA 12.4, Python 3.11, PyTorch 2.6.0, and Flash-attn 2.7.4.\n\nFind the pre-built images: https://hub.docker.com/r/hiyouga/llamafactory/tags\n\nPlease refer to [build docker](#build-docker) to build the image yourself.\n\n<details><summary>Setting up a virtual environment with <b>uv</b></summary>\n\nCreate an isolated Python environment with [uv](https://github.com/astral-sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/docker-cuda\ndocker/docker-cuda/Dockerfile\ndocker/docker-cuda/Dockerfile.base\ndocker/docker-cuda/Dockerfile.megatron\ndocker/docker-cuda/README.md\ndocker/docker-cuda/docker-compose.yml\ndocker/docker-npu\ndocker/docker-npu/Dockerfile\ndocker/docker-npu/docker-compose.yml\ndocker/docker-rocm\ndocker/docker-rocm/Dockerfile\ndocker/docker-rocm/docker-compose.yml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.431469113368294
+  },
+  {
+    "name": "LlamaFactory/docs 模块",
+    "description": "[模块级] LlamaFactory 项目的 docs 模块 (docs)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 91\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/css\n- docs/_static/css/lang-switcher.css\n- docs/_static/js\n- docs/_static/js/switcher.js\n- docs/conf.py\n- docs/en\n- docs/en/advanced\n- docs/en/advanced/custom-kernels",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/css\ndocs/_static/css/lang-switcher.css\ndocs/_static/js\ndocs/_static/js/switcher.js\ndocs/conf.py\ndocs/en\ndocs/en/advanced\ndocs/en/advanced/custom-kernels\ndocs/en/advanced/custom-kernels/custom-kernels.md\ndocs/en/advanced/custom-kernels/fused-operators.md\ndocs/en/advanced/custom-kernels/triton.md\ndocs/en/advanced/distributed\ndocs/en/advanced/distributed/deepspeed.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.431469113368294
+  },
+  {
+    "name": "LlamaFactory/examples 模块",
+    "description": "[模块级] LlamaFactory 项目的 examples 模块 (example)。来源: https://github.com/hiyouga/LlamaFactory",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 17\n\n包含文件:\n- examples/README.md\n- examples/README_zh.md\n- examples/accelerate\n- examples/accelerate/fsdp2_config.yaml\n- examples/accelerate/fsdp_config.yaml\n- examples/accelerate/fsdp_config_multiple_nodes.yaml\n- examples/accelerate/fsdp_config_offload.yaml\n- examples/ascend\n- examples/ascend/qwen3_full_sft_fsdp2.yaml\n- examples/ascend/qwen3moe_full_sft_fsdp.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/README_zh.md\nexamples/accelerate\nexamples/accelerate/fsdp2_config.yaml\nexamples/accelerate/fsdp_config.yaml\nexamples/accelerate/fsdp_config_multiple_nodes.yaml\nexamples/accelerate/fsdp_config_offload.yaml\nexamples/ascend\nexamples/ascend/qwen3_full_sft_fsdp2.yaml\nexamples/ascend/qwen3moe_full_sft_fsdp.yaml\nexamples/ascend/qwen3vlmoe_full_sft_fsdp2.yaml\nexamples/ascend/qwen3vlmoe_lora_sft_fsdp.yaml\nexamples/deepspeed\nexamples/deepspeed/ds_z0_config.json\nexamples/deepspeed/ds_z2_autotp_config.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.431469113368294
+  }
+]

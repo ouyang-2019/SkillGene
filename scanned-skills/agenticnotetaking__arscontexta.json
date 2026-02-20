@@ -1,0 +1,128 @@
+[
+  {
+    "name": "arscontexta (agenticnotetaking)",
+    "description": "[项目级] Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.。来源: https://github.com/agenticnotetaking/arscontexta",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "knowledge-base",
+      "knowledge-management",
+      "markdown",
+      "shell",
+      "stars-1147",
+      "github-agenticnotetaking",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.\n\n来源: https://github.com/agenticnotetaking/arscontexta\n语言: Shell\nStars: 1147",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add agenticnotetaking/arscontexta",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/knowledge-guide.md\ngenerators\ngenerators/claude-md.md\ngenerators/features\nhooks\nhooks/hooks.json\nhooks/scripts\nmethodology\nmethodology/AI shifts knowledge systems from externalizing memory to externalizing attention.md\nmethodology/BM25 retrieval fails on full-length descriptions because query term dilution reduces match scores.md\nmethodology/IBIS framework maps claim-based architecture to structured argumentation.md\nmethodology/LLM attention degrades as context fills.md\nmethodology/MOC construction forces synthesis that automated generation from metadata cannot replicate.md\nmethodology/MOC maintenance investment compounds because orientation savings multiply across every future session.md\nmethodology/MOCs are attention management devices not just organizational tools.md\nmethodology/PKM failure follows a predictable cycle.md\nmethodology/ThreadMode to DocumentMode transformation is the core value creation step.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.529781708950634
+  },
+  {
+    "name": "arscontexta/generators 模块",
+    "description": "[模块级] arscontexta 项目的 generators 模块 (source)。来源: https://github.com/agenticnotetaking/arscontexta",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "knowledge-base",
+      "knowledge-management",
+      "markdown",
+      "module-level",
+      "source",
+      "generators"
+    ],
+    "genes": [
+      {
+        "title": "generators 模块说明",
+        "content": "模块路径: generators/\n类型: source\n文件数: 19\n\n包含文件:\n- generators/claude-md.md\n- generators/features\n- generators/features/atomic-notes.md\n- generators/features/ethical-guardrails.md\n- generators/features/graph-analysis.md\n- generators/features/helper-functions.md\n- generators/features/maintenance.md\n- generators/features/methodology-knowledge.md\n- generators/features/mocs.md\n- generators/features/multi-domain.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "generators 文件结构",
+        "content": "generators/claude-md.md\ngenerators/features\ngenerators/features/atomic-notes.md\ngenerators/features/ethical-guardrails.md\ngenerators/features/graph-analysis.md\ngenerators/features/helper-functions.md\ngenerators/features/maintenance.md\ngenerators/features/methodology-knowledge.md\ngenerators/features/mocs.md\ngenerators/features/multi-domain.md\ngenerators/features/personality.md\ngenerators/features/processing-pipeline.md\ngenerators/features/schema.md\ngenerators/features/self-evolution.md\ngenerators/features/self-space.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.723825367160507
+  },
+  {
+    "name": "arscontexta/hooks 模块",
+    "description": "[模块级] arscontexta 项目的 hooks 模块 (source)。来源: https://github.com/agenticnotetaking/arscontexta",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "knowledge-base",
+      "knowledge-management",
+      "markdown",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "Four hooks automate quality enforcement:\n\n| Hook | Event | What It Does |\n|------|-------|-------------|\n| **Session Orient** | `SessionStart` | Injects workspace tree, loads identity, surfaces maintenance signals |\n| **Write Validate** | `PostToolUse` (Write) | Schema enforcement on every note write |\n| **Auto Commit** | `PostToolUse` (Write, async) | Git auto-commit, non-blocking |\n| **Session Capture** | `Stop` | Persists session state to `ops/sessions/` |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/hooks.json\nhooks/scripts\nhooks/scripts/auto-commit.sh\nhooks/scripts/read_config.sh\nhooks/scripts/session-orient.sh\nhooks/scripts/vaultguard.sh\nhooks/scripts/write-validate.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.723825367160507
+  },
+  {
+    "name": "arscontexta/methodology 模块",
+    "description": "[模块级] arscontexta 项目的 methodology 模块 (source)。来源: https://github.com/agenticnotetaking/arscontexta",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "knowledge-base",
+      "knowledge-management",
+      "markdown",
+      "module-level",
+      "source",
+      "methodology"
+    ],
+    "genes": [
+      {
+        "title": "methodology 模块说明",
+        "content": "模块路径: methodology/\n类型: source\n文件数: 163\n\n包含文件:\n- methodology/AI shifts knowledge systems from externalizing memory to externalizing attention.md\n- methodology/BM25 retrieval fails on full-length descriptions because query term dilution reduces match scores.md\n- methodology/IBIS framework maps claim-based architecture to structured argumentation.md\n- methodology/LLM attention degrades as context fills.md\n- methodology/MOC construction forces synthesis that automated generation from metadata cannot replicate.md\n- methodology/MOC maintenance investment compounds because orientation savings multiply across every future session.md\n- methodology/MOCs are attention management devices not just organizational tools.md\n- methodology/PKM failure follows a predictable cycle.md\n- methodology/ThreadMode to DocumentMode transformation is the core value creation step.md\n- methodology/WIP limits force processing over accumulation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "methodology 文件结构",
+        "content": "methodology/AI shifts knowledge systems from externalizing memory to externalizing attention.md\nmethodology/BM25 retrieval fails on full-length descriptions because query term dilution reduces match scores.md\nmethodology/IBIS framework maps claim-based architecture to structured argumentation.md\nmethodology/LLM attention degrades as context fills.md\nmethodology/MOC construction forces synthesis that automated generation from metadata cannot replicate.md\nmethodology/MOC maintenance investment compounds because orientation savings multiply across every future session.md\nmethodology/MOCs are attention management devices not just organizational tools.md\nmethodology/PKM failure follows a predictable cycle.md\nmethodology/ThreadMode to DocumentMode transformation is the core value creation step.md\nmethodology/WIP limits force processing over accumulation.md\nmethodology/Zeigarnik effect validates capture-first philosophy because open loops drain attention.md\nmethodology/academic research uses structured extraction with cross-source synthesis.md\nmethodology/adapt the four-phase processing pipeline to domain-specific throughput needs.md\nmethodology/agent notes externalize navigation intuition that search cannot discover and traversal cannot reconstruct.md\nmethodology/agent self-memory should be architecturally separate from user knowledge systems.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.723825367160507
+  }
+]

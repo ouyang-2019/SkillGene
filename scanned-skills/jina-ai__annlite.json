@@ -1,0 +1,278 @@
+[
+  {
+    "name": "annlite (jina-ai)",
+    "description": "[项目级] ⚡ A fast embedded library for approximate nearest neighbor search。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "python",
+      "stars-236",
+      "github-jina-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⚡ A fast embedded library for approximate nearest neighbor search\n\n来源: https://github.com/jina-ai/annlite\n语言: Python\nStars: 236",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -U annlite",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nannlite\nannlite/__init__.py\nannlite/container.py\nannlite/core\nannlite/enums.py\nannlite/executor.py\nannlite/filter.py\nannlite/helper.py\nannlite/hubble_tools.py\nannlite/index.py\nannlite/math.py\nannlite/profile.py\nannlite/storage\nannlite/utils.py\nbenchmarks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186456001485054
+  },
+  {
+    "name": "annlite/annlite 模块",
+    "description": "[模块级] annlite 项目的 annlite 模块 (source)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "annlite"
+    ],
+    "genes": [
+      {
+        "title": "annlite 模块说明",
+        "content": "`AnnLite` is a *lightweight* and *embeddable* library for **fast** and **filterable** *approximate nearest neighbor search* (ANNS).\nIt allows to search for nearest neighbors in a dataset of millions of points with a Pythonic API.\n\n\n**Highlighted features:**\n\n- 🐥 **Easy-to-use**: a simple API is designed to be used with Python. It is easy to use and intuitive to set up to production.\n\n- 🐎 **Fast**: the library uses a highly optimized approximate nearest neighbor search algorithm (*HNSW*) to sea",
+        "gene_type": "principle"
+      },
+      {
+        "title": "annlite 文件结构",
+        "content": "annlite/__init__.py\nannlite/container.py\nannlite/core\nannlite/core/__init__.py\nannlite/core/codec\nannlite/core/codec/__init__.py\nannlite/core/codec/base.py\nannlite/core/codec/pq.py\nannlite/core/codec/projector.py\nannlite/core/codec/vq.py\nannlite/core/index\nannlite/core/index/__init__.py\nannlite/core/index/base.py\nannlite/core/index/flat_index.py\nannlite/core/index/hnsw",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/benchmarks 模块",
+    "description": "[模块级] annlite 项目的 benchmarks 模块 (source)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 2\n\n包含文件:\n- benchmarks/filtering_bench.py\n- benchmarks/hnsw_bench.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/filtering_bench.py\nbenchmarks/hnsw_bench.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/bindings 模块",
+    "description": "[模块级] annlite 项目的 bindings 模块 (source)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "bindings"
+    ],
+    "genes": [
+      {
+        "title": "bindings 模块说明",
+        "content": "模块路径: bindings/\n类型: source\n文件数: 2\n\n包含文件:\n- bindings/hnsw_bindings.cpp\n- bindings/pq_bindings.pyx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bindings 文件结构",
+        "content": "bindings/hnsw_bindings.cpp\nbindings/pq_bindings.pyx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/examples 模块",
+    "description": "[模块级] annlite 项目的 examples 模块 (example)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 6\n\n包含文件:\n- examples/annlite_vs_simpleindexer.py\n- examples/filter_example.py\n- examples/hnsw_example.py\n- examples/pq_benchmark.py\n- examples/pqlinearscann_benchmark_with_filtering.py\n- examples/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/annlite_vs_simpleindexer.py\nexamples/filter_example.py\nexamples/hnsw_example.py\nexamples/pq_benchmark.py\nexamples/pqlinearscann_benchmark_with_filtering.py\nexamples/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/executor 模块",
+    "description": "[模块级] annlite 项目的 executor 模块 (source)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "executor"
+    ],
+    "genes": [
+      {
+        "title": "executor 模块说明",
+        "content": "模块路径: executor/\n类型: source\n文件数: 6\n\n包含文件:\n- executor/Dockerfile\n- executor/README.md\n- executor/benchmark.py\n- executor/config.yml\n- executor/executor.py\n- executor/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "executor 文件结构",
+        "content": "executor/Dockerfile\nexecutor/README.md\nexecutor/benchmark.py\nexecutor/config.yml\nexecutor/executor.py\nexecutor/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/include 模块",
+    "description": "[模块级] annlite 项目的 include 模块 (source)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "source",
+      "include"
+    ],
+    "genes": [
+      {
+        "title": "include 模块说明",
+        "content": "模块路径: include/\n类型: source\n文件数: 9\n\n包含文件:\n- include/hnswlib\n- include/hnswlib/bruteforce.h\n- include/hnswlib/fusefilter.h\n- include/hnswlib/hnswalg.h\n- include/hnswlib/hnswlib.h\n- include/hnswlib/space_ip.h\n- include/hnswlib/space_l2.h\n- include/hnswlib/space_pq.h\n- include/hnswlib/visited_list_pool.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "include 文件结构",
+        "content": "include/hnswlib\ninclude/hnswlib/bruteforce.h\ninclude/hnswlib/fusefilter.h\ninclude/hnswlib/hnswalg.h\ninclude/hnswlib/hnswlib.h\ninclude/hnswlib/space_ip.h\ninclude/hnswlib/space_l2.h\ninclude/hnswlib/space_pq.h\ninclude/hnswlib/visited_list_pool.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/scripts 模块",
+    "description": "[模块级] annlite 项目的 scripts 模块 (script)。来源: https://github.com/jina-ai/annlite",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/black.sh\n- scripts/get-all-test-paths.sh\n- scripts/get-last-release-note.py\n- scripts/release.sh\n- scripts/update-version.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/black.sh\nscripts/get-all-test-paths.sh\nscripts/get-last-release-note.py\nscripts/release.sh\nscripts/update-version.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "annlite/tests 模块",
+    "description": "[模块级] annlite 项目的 tests 模块 (test)。来源: https://github.com/jina-ai/annlite",
+    "domain": "testing",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "cython",
+      "hnsw",
+      "image-search",
+      "information-retrieval",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 25\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/docarray\n- tests/docarray/__init__.py\n- tests/docarray/test_add.py\n- tests/docarray/test_del.py\n- tests/docarray/test_find.py\n- tests/docarray/test_get.py\n- tests/docarray/test_save_load.py\n- tests/executor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/docarray\ntests/docarray/__init__.py\ntests/docarray/test_add.py\ntests/docarray/test_del.py\ntests/docarray/test_find.py\ntests/docarray/test_get.py\ntests/docarray/test_save_load.py\ntests/executor\ntests/executor/__init__.py\ntests/executor/test_executor.py\ntests/test_codec.py\ntests/test_crud.py\ntests/test_dump.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  }
+]

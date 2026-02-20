@@ -1,0 +1,187 @@
+[
+  {
+    "name": "get-shit-done (gsd-build)",
+    "description": "[项目级] A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "stars-16487",
+      "github-gsd-build",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and OpenCode.\n\n来源: https://github.com/gsd-build/get-shit-done\n语言: JavaScript\nStars: 16487",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx get-shit-done-cc@latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nSECURITY.md\nagents\nagents/gsd-codebase-mapper.md\nagents/gsd-debugger.md\nagents/gsd-executor.md\nagents/gsd-integration-checker.md\nagents/gsd-phase-researcher.md\nagents/gsd-plan-checker.md\nagents/gsd-planner.md\nagents/gsd-project-researcher.md\nagents/gsd-research-synthesizer.md\nagents/gsd-roadmapper.md\nagents/gsd-verifier.md\nassets\nassets/gsd-logo-2000-transparent.png\nassets/gsd-logo-2000-transparent.svg\nassets/gsd-logo-2000.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "get-shit-done/agents 模块",
+    "description": "[模块级] get-shit-done 项目的 agents 模块 (source)。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "These spawn additional agents during planning/execution. They improve quality but add tokens and time.\n\n| Setting | Default | What it does |\n|---------|---------|--------------|\n| `workflow.research` | `true` | Researches domain before planning each phase |\n| `workflow.plan_check` | `true` | Verifies plans achieve phase goals before execution |\n| `workflow.verifier` | `true` | Confirms must-haves were delivered after execution |\n| `workflow.auto_advance` | `false` | Auto-chain discuss → plan → e",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/gsd-codebase-mapper.md\nagents/gsd-debugger.md\nagents/gsd-executor.md\nagents/gsd-integration-checker.md\nagents/gsd-phase-researcher.md\nagents/gsd-plan-checker.md\nagents/gsd-planner.md\nagents/gsd-project-researcher.md\nagents/gsd-research-synthesizer.md\nagents/gsd-roadmapper.md\nagents/gsd-verifier.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186856655175312
+  },
+  {
+    "name": "get-shit-done/assets 模块",
+    "description": "[模块级] get-shit-done 项目的 assets 模块 (source)。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/gsd-logo-2000-transparent.png\n- assets/gsd-logo-2000-transparent.svg\n- assets/gsd-logo-2000.png\n- assets/gsd-logo-2000.svg\n- assets/terminal.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/gsd-logo-2000-transparent.png\nassets/gsd-logo-2000-transparent.svg\nassets/gsd-logo-2000.png\nassets/gsd-logo-2000.svg\nassets/terminal.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186856655175312
+  },
+  {
+    "name": "get-shit-done/commands 模块",
+    "description": "[模块级] get-shit-done 项目的 commands 模块 (source)。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 32\n\n包含文件:\n- commands/gsd\n- commands/gsd/add-phase.md\n- commands/gsd/add-todo.md\n- commands/gsd/audit-milestone.md\n- commands/gsd/check-todos.md\n- commands/gsd/cleanup.md\n- commands/gsd/complete-milestone.md\n- commands/gsd/debug.md\n- commands/gsd/discuss-phase.md\n- commands/gsd/execute-phase.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/gsd\ncommands/gsd/add-phase.md\ncommands/gsd/add-todo.md\ncommands/gsd/audit-milestone.md\ncommands/gsd/check-todos.md\ncommands/gsd/cleanup.md\ncommands/gsd/complete-milestone.md\ncommands/gsd/debug.md\ncommands/gsd/discuss-phase.md\ncommands/gsd/execute-phase.md\ncommands/gsd/health.md\ncommands/gsd/help.md\ncommands/gsd/insert-phase.md\ncommands/gsd/join-discord.md\ncommands/gsd/list-phase-assumptions.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186856655175312
+  },
+  {
+    "name": "get-shit-done/get-shit-done 模块",
+    "description": "[模块级] get-shit-done 项目的 get-shit-done 模块 (source)。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "module-level",
+      "source",
+      "get-shit-done"
+    ],
+    "genes": [
+      {
+        "title": "get-shit-done 模块说明",
+        "content": "模块路径: get-shit-done/\n类型: source\n文件数: 87\n\n包含文件:\n- get-shit-done/bin\n- get-shit-done/bin/gsd-tools.cjs\n- get-shit-done/bin/gsd-tools.test.cjs\n- get-shit-done/references\n- get-shit-done/references/checkpoints.md\n- get-shit-done/references/continuation-format.md\n- get-shit-done/references/decimal-phase-calculation.md\n- get-shit-done/references/git-integration.md\n- get-shit-done/references/git-planning-commit.md\n- get-shit-done/references/model-profile-resolution.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "get-shit-done 文件结构",
+        "content": "get-shit-done/bin\nget-shit-done/bin/gsd-tools.cjs\nget-shit-done/bin/gsd-tools.test.cjs\nget-shit-done/references\nget-shit-done/references/checkpoints.md\nget-shit-done/references/continuation-format.md\nget-shit-done/references/decimal-phase-calculation.md\nget-shit-done/references/git-integration.md\nget-shit-done/references/git-planning-commit.md\nget-shit-done/references/model-profile-resolution.md\nget-shit-done/references/model-profiles.md\nget-shit-done/references/phase-argument-parsing.md\nget-shit-done/references/planning-config.md\nget-shit-done/references/questioning.md\nget-shit-done/references/tdd.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186856655175312
+  },
+  {
+    "name": "get-shit-done/hooks 模块",
+    "description": "[模块级] get-shit-done 项目的 hooks 模块 (source)。来源: https://github.com/gsd-build/get-shit-done",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "context-engineering",
+      "meta-prompting",
+      "spec-driven-development",
+      "javascript",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 2\n\n包含文件:\n- hooks/gsd-check-update.js\n- hooks/gsd-statusline.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/gsd-check-update.js\nhooks/gsd-statusline.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186856655175312
+  }
+]

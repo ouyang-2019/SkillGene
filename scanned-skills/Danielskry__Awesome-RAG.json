@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Awesome-RAG (Danielskry)",
+    "description": "[项目级] 😎 Awesome list of Retrieval-Augmented Generation (RAG) applications in Generative AI.。来源: https://github.com/Danielskry/Awesome-RAG",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "generative-ai",
+      "large-language-models",
+      "machine-learning",
+      "retrieval-augmented-generation",
+      "stars-1022",
+      "github-danielskry",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Retrieval-Augmented Generation (RAG)** is a sophisticated technique in Generative AI that enhances Large Language Models (LLMs) by dynamically retrieving and incorporating relevant context from external knowledge sources during the generation process. Unlike traditional LLMs that rely solely on pre-trained knowledge, RAG systems enable models to access up-to-date, domain-specific, or proprietary information, significantly improving accuracy, reducing hallucinations, and enabling real-time knowledge integration.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/python-ecosystem.md\ndocs/supabase-integration.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Complete basic [RAG implementation in Python](https://github.com/Danielskry/LangChain-Chroma-RAG-demo-2024): Full-stack RAG example with LangChain and Chroma\n- [LangChain RAG Tutorial](https://python.langchain.com/docs/use_cases/question_answering/): Comprehensive guide to building RAG applications\n- [LlamaIndex RAG Tutorial](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/): Getting started with LlamaIndex for RAG\n- [Haystack RAG Pipeline](https://docs.haystack.deepset.ai/docs/retrieval-augmented-generation): Building RAG pipelines with Haystack",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.504725447899347
+  },
+  {
+    "name": "Awesome-RAG/docs 模块",
+    "description": "[模块级] Awesome-RAG 项目的 docs 模块 (docs)。来源: https://github.com/Danielskry/Awesome-RAG",
+    "domain": "documentation",
+    "tags": [
+      "artificial-intelligence",
+      "generative-ai",
+      "large-language-models",
+      "machine-learning",
+      "retrieval-augmented-generation",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/python-ecosystem.md\n- docs/supabase-integration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/python-ecosystem.md\ndocs/supabase-integration.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7037803583194777
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "name": "t-rex (t-rex-tileserver)",
+    "description": "[项目级] t-rex is a vector tile server specialized on publishing MVT tiles from your own data。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "rust",
+      "stars-577",
+      "github-t-rex-tileserver",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "t-rex is a vector tile server specialized on publishing MVT tiles from your own data\n\n来源: https://github.com/t-rex-tileserver/t-rex\n语言: Rust\nStars: 577",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\ndata\ndata/.gitignore\ndata/Dockerfile\ndata/Makefile\ndata/avch.gpkg\ndata/g1k18.cpg\ndata/g1k18.dbf\ndata/g1k18.prj\ndata/g1k18.shp\ndata/g1k18.shx\ndata/natural_earth.gpkg\ndata/setup-db.sh\ndoc\ndoc/lv95grid.jpg\ndoc/t_rex_generate.gif",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "* [basemap.de](https://basemap.de/web-vektor/)\n* Swiss Ornithological Institute, [Birds of Switzerland](https://www.vogelwarte.ch/en/birds/birds-of-switzerland/)\n\n\nUsage\n-----\n\n* [Setup](https://t-rex.tileserver.ch/doc/setup/)\n* [Serving vector tiles](https://t-rex.tileserver.ch/doc/serve/)\n* [Generating vector tiles](https://t-rex.tileserver.ch/doc/generate/)\n* [Configuration](https://t-rex.tileserver.ch/doc/configuration/)\n\n\nQuick tour\n----------\n\n    t_rex serve --dbconn postgresql://user:pass@localhost/osm2vectortiles\n\nTiles are then served at `http://localhost:6767/{layer}/{z}/{x}/{y}.pbf",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3805879065778655
+  },
+  {
+    "name": "t-rex/data 模块",
+    "description": "[模块级] t-rex 项目的 data 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "Unit tests which need a PostgreSQL connection are ignored by default.\n\nStart Test DB:\n\n    docker run -p 127.0.0.1:5439:5432 -d --name trextestdb --rm sourcepole/trextestdb\n\nTo run the database tests, declare the connection in an environment variable `DBCONN`:\n\n    export DBCONN=postgresql://t_rex:t_rex@127.0.0.1:5439/t_rex_tests\n\nRun the tests with\n\n    cargo test --all -- --ignored\n\nCreating test database locally:\n\n    # Set Postgresql environment variables when needed: PGHOST, PGPORT, PGUSER,",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/.gitignore\ndata/Dockerfile\ndata/Makefile\ndata/avch.gpkg\ndata/g1k18.cpg\ndata/g1k18.dbf\ndata/g1k18.prj\ndata/g1k18.shp\ndata/g1k18.shx\ndata/natural_earth.gpkg\ndata/setup-db.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/doc 模块",
+    "description": "[模块级] t-rex 项目的 doc 模块 (docs)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "documentation",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "模块路径: doc/\n类型: docs\n文件数: 2\n\n包含文件:\n- doc/lv95grid.jpg\n- doc/t_rex_generate.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/lv95grid.jpg\ndoc/t_rex_generate.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/examples 模块",
+    "description": "[模块级] t-rex 项目的 examples 模块 (example)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "* [basemap.de](https://basemap.de/web-vektor/)\n* Swiss Ornithological Institute, [Birds of Switzerland](https://www.vogelwarte.ch/en/birds/birds-of-switzerland/)\n\n\nUsage\n-----\n\n* [Setup](https://t-rex.tileserver.ch/doc/setup/)\n* [Serving vector tiles](https://t-rex.tileserver.ch/doc/serve/)\n* [Generating vector tiles](https://t-rex.tileserver.ch/doc/generate/)\n* [Configuration](https://t-rex.tileserver.ch/doc/configuration/)\n\n\nQuick tour\n----------\n\n    t_rex serve --dbconn postgresql://user:pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/multiple-ds.toml\nexamples/natural_earth.qgs\nexamples/natural_earth.toml\nexamples/openmaptiles.toml\nexamples/s3.toml\nexamples/templated.toml\nexamples/usergrid.html\nexamples/usergrid.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/packaging 模块",
+    "description": "[模块级] t-rex 项目的 packaging 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "packaging"
+    ],
+    "genes": [
+      {
+        "title": "packaging 模块说明",
+        "content": "模块路径: packaging/\n类型: source\n文件数: 7\n\n包含文件:\n- packaging/docker\n- packaging/docker/Dockerfile\n- packaging/docker/Makefile\n- packaging/rpm\n- packaging/rpm/t-rex.spec\n- packaging/windows\n- packaging/windows/t-rex.wxs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packaging 文件结构",
+        "content": "packaging/docker\npackaging/docker/Dockerfile\npackaging/docker/Makefile\npackaging/rpm\npackaging/rpm/t-rex.spec\npackaging/windows\npackaging/windows/t-rex.wxs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/t-rex-core 模块",
+    "description": "[模块级] t-rex 项目的 t-rex-core 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "t-rex-core"
+    ],
+    "genes": [
+      {
+        "title": "t-rex-core 模块说明",
+        "content": "模块路径: t-rex-core/\n类型: source\n文件数: 43\n\n包含文件:\n- t-rex-core/Cargo.toml\n- t-rex-core/build.rs\n- t-rex-core/src\n- t-rex-core/src/cache\n- t-rex-core/src/cache/cache.rs\n- t-rex-core/src/cache/filecache.rs\n- t-rex-core/src/cache/filecache_test.rs\n- t-rex-core/src/cache/mod.rs\n- t-rex-core/src/cache/s3cache.rs\n- t-rex-core/src/cache/s3cache_test.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "t-rex-core 文件结构",
+        "content": "t-rex-core/Cargo.toml\nt-rex-core/build.rs\nt-rex-core/src\nt-rex-core/src/cache\nt-rex-core/src/cache/cache.rs\nt-rex-core/src/cache/filecache.rs\nt-rex-core/src/cache/filecache_test.rs\nt-rex-core/src/cache/mod.rs\nt-rex-core/src/cache/s3cache.rs\nt-rex-core/src/cache/s3cache_test.rs\nt-rex-core/src/core\nt-rex-core/src/core/config.rs\nt-rex-core/src/core/config_test.rs\nt-rex-core/src/core/feature.rs\nt-rex-core/src/core/geom.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/t-rex-gdal 模块",
+    "description": "[模块级] t-rex 项目的 t-rex-gdal 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "t-rex-gdal"
+    ],
+    "genes": [
+      {
+        "title": "t-rex-gdal 模块说明",
+        "content": "模块路径: t-rex-gdal/\n类型: source\n文件数: 6\n\n包含文件:\n- t-rex-gdal/Cargo.toml\n- t-rex-gdal/src\n- t-rex-gdal/src/gdal_ds.rs\n- t-rex-gdal/src/gdal_ds_test.rs\n- t-rex-gdal/src/gdal_fields.rs\n- t-rex-gdal/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "t-rex-gdal 文件结构",
+        "content": "t-rex-gdal/Cargo.toml\nt-rex-gdal/src\nt-rex-gdal/src/gdal_ds.rs\nt-rex-gdal/src/gdal_ds_test.rs\nt-rex-gdal/src/gdal_fields.rs\nt-rex-gdal/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/t-rex-service 模块",
+    "description": "[模块级] t-rex 项目的 t-rex-service 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "t-rex-service"
+    ],
+    "genes": [
+      {
+        "title": "t-rex-service 模块说明",
+        "content": "模块路径: t-rex-service/\n类型: source\n文件数: 11\n\n包含文件:\n- t-rex-service/Cargo.toml\n- t-rex-service/src\n- t-rex-service/src/datasources.rs\n- t-rex-service/src/lib.rs\n- t-rex-service/src/metadata.rs\n- t-rex-service/src/mvt_service.rs\n- t-rex-service/src/mvt_service_test.rs\n- t-rex-service/src/qgs_reader.rs\n- t-rex-service/src/test\n- t-rex-service/src/test/example.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "t-rex-service 文件结构",
+        "content": "t-rex-service/Cargo.toml\nt-rex-service/src\nt-rex-service/src/datasources.rs\nt-rex-service/src/lib.rs\nt-rex-service/src/metadata.rs\nt-rex-service/src/mvt_service.rs\nt-rex-service/src/mvt_service_test.rs\nt-rex-service/src/qgs_reader.rs\nt-rex-service/src/test\nt-rex-service/src/test/example.toml\nt-rex-service/src/test/tile.pbf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  },
+  {
+    "name": "t-rex/t-rex-webserver 模块",
+    "description": "[模块级] t-rex 项目的 t-rex-webserver 模块 (source)。来源: https://github.com/t-rex-tileserver/t-rex",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "mapbox-gl-js",
+      "openlayers",
+      "tile-cache",
+      "vector-tiles",
+      "module-level",
+      "source",
+      "t-rex-webserver"
+    ],
+    "genes": [
+      {
+        "title": "t-rex-webserver 模块说明",
+        "content": "模块路径: t-rex-webserver/\n类型: source\n文件数: 91\n\n包含文件:\n- t-rex-webserver/Cargo.toml\n- t-rex-webserver/Makefile\n- t-rex-webserver/build.rs\n- t-rex-webserver/src\n- t-rex-webserver/src/lib.rs\n- t-rex-webserver/src/runtime_config.rs\n- t-rex-webserver/src/server.rs\n- t-rex-webserver/src/static\n- t-rex-webserver/src/static/favicon.ico\n- t-rex-webserver/src/static/fonts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "t-rex-webserver 文件结构",
+        "content": "t-rex-webserver/Cargo.toml\nt-rex-webserver/Makefile\nt-rex-webserver/build.rs\nt-rex-webserver/src\nt-rex-webserver/src/lib.rs\nt-rex-webserver/src/runtime_config.rs\nt-rex-webserver/src/server.rs\nt-rex-webserver/src/static\nt-rex-webserver/src/static/favicon.ico\nt-rex-webserver/src/static/fonts\nt-rex-webserver/src/static/fonts/Roboto Medium\nt-rex-webserver/src/static/fonts/Roboto Medium/0-255.pbf\nt-rex-webserver/src/static/fonts/Roboto Medium/1024-1279.pbf\nt-rex-webserver/src/static/fonts/Roboto Medium/10240-10495.pbf\nt-rex-webserver/src/static/fonts/Roboto Medium/10496-10751.pbf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6044703252622927
+  }
+]

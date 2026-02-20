@@ -1,0 +1,98 @@
+[
+  {
+    "name": "octocode-mcp (bgauryy)",
+    "description": "[项目级] MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codebase/s into AI-optimized knowledge on simple and complex flows | Find real implementations and live docs from anywhere。来源: https://github.com/bgauryy/octocode-mcp",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "typescript",
+      "stars-730",
+      "github-bgauryy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MCP server for semantic code research and context generation on real-time using LLM patterns | Search naturally across public & private repos based on your permissions | Transform any accessible codebase/s into AI-optimized knowledge on simple and complex flows | Find real implementations and live docs from anywhere\n\n来源: https://github.com/bgauryy/octocode-mcp\n语言: TypeScript\nStars: 730",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- [**Installation Guide**](./README.md#installation-guide) - Get started quickly. (See previous README sections below)\n- [**Octocode CLI**](./packages/octocode-cli/README.md) - The easiest way to install and manage skills.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nMANIFEST.md\nPRIVACY.md\nREADME.md\nTERMS.md\nassets\nassets/logo.png\ndocs\ndocs/CONFIGURATION_REFERENCE.md\ndocs/DEVELOPMENT_GUIDE.md\ndocs/README.md\ndocs/TROUBLESHOOTING.md\neslint.config.js\nglama.json\npackage.json\npackages\npackages/octocode-cli\npackages/octocode-mcp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4316614300602275
+  },
+  {
+    "name": "octocode-mcp/docs 模块",
+    "description": "[模块级] octocode-mcp 项目的 docs 模块 (docs)。来源: https://github.com/bgauryy/octocode-mcp",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/CONFIGURATION_REFERENCE.md\n- docs/DEVELOPMENT_GUIDE.md\n- docs/README.md\n- docs/TROUBLESHOOTING.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CONFIGURATION_REFERENCE.md\ndocs/DEVELOPMENT_GUIDE.md\ndocs/README.md\ndocs/TROUBLESHOOTING.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6453291440481825
+  },
+  {
+    "name": "octocode-mcp/packages 模块",
+    "description": "[模块级] octocode-mcp 项目的 packages 模块 (source)。来源: https://github.com/bgauryy/octocode-mcp",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "- **[octocode-mcp](./packages/octocode-mcp)**: The core MCP server for GitHub, Local FS, and LSP.\n- **[octocode-cli](./packages/octocode-cli)**: The command-line interface for managing Octocode.\n- **[octocode-vscode](./packages/octocode-vscode)**: VS Code extension for authentication.\n- **[octocode-shared](./packages/octocode-shared)**: Shared utilities and types.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/octocode-cli\npackages/octocode-cli/AGENTS.md\npackages/octocode-cli/LICENSE\npackages/octocode-cli/README.md\npackages/octocode-cli/assets\npackages/octocode-cli/assets/example.png\npackages/octocode-cli/docs\npackages/octocode-cli/docs/ARCHITECTURE.md\npackages/octocode-cli/docs/CLI_REFERENCE.md\npackages/octocode-cli/docs/MENU_FLOW.md\npackages/octocode-cli/docs/SKILLS_GUIDE.md\npackages/octocode-cli/package.json\npackages/octocode-cli/scripts\npackages/octocode-cli/scripts/validate-mcp-registry.ts\npackages/octocode-cli/scripts/validate-skills-marketplace.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6453291440481825
+  }
+]

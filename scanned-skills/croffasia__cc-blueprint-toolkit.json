@@ -1,0 +1,132 @@
+[
+  {
+    "name": "cc-blueprint-toolkit (croffasia)",
+    "description": "[项目级] 🏗️  Claude Code Plugin for smart blueprint-driven development。来源: https://github.com/croffasia/cc-blueprint-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-development",
+      "ai-development-tools",
+      "automation",
+      "autonomous-development",
+      "autopilot",
+      "stars-181",
+      "github-croffasia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🏗️  Claude Code Plugin for smart blueprint-driven development\n\n来源: https://github.com/croffasia/cc-blueprint-toolkit\n语言: unknown\nStars: 181",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/bp:brainstorm Add user authentication with OAuth2",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nclaude\nclaude/agents\nclaude/commands\ndocs\ndocs/templates\ndocs/vibe-coding-guide.md\npublic\npublic/vibecodekit-banner-youtube.png\npublic/vibecodekit-banner.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "/bp:generate-prp @docs/brainstorming/2025-08-22-user-auth.md",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.128839287434593
+  },
+  {
+    "name": "cc-blueprint-toolkit/claude 模块",
+    "description": "[模块级] cc-blueprint-toolkit 项目的 claude 模块 (source)。来源: https://github.com/croffasia/cc-blueprint-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-development",
+      "ai-development-tools",
+      "automation",
+      "autonomous-development",
+      "autopilot",
+      "module-level",
+      "source",
+      "claude"
+    ],
+    "genes": [
+      {
+        "title": "claude 模块说明",
+        "content": "> **Claude Code Plugin for smart blueprint-driven development**\n>\n> AI analyzes patterns, creates solid implementation plans, delivers working code in 15 minutes\n\n[![GitHub stars](https://img.shields.io/github/stars/croffasia/cc-blueprint-toolkit?style=social)](https://github.com/croffasia/cc-blueprint-toolkit)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude-Code-blue)](https://claude.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude 文件结构",
+        "content": "claude/agents\nclaude/agents/codebase-research.md\nclaude/agents/preflight-prp.md\nclaude/agents/research-agent.md\nclaude/agents/team-lead-task-breakdown.md\nclaude/commands\nclaude/commands/brainstorm.md\nclaude/commands/execute-prp.md\nclaude/commands/execute-task.md\nclaude/commands/generate-prp.md\nclaude/commands/init.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4030714299476736
+  },
+  {
+    "name": "cc-blueprint-toolkit/docs 模块",
+    "description": "[模块级] cc-blueprint-toolkit 项目的 docs 模块 (docs)。来源: https://github.com/croffasia/cc-blueprint-toolkit",
+    "domain": "documentation",
+    "tags": [
+      "ai-development",
+      "ai-development-tools",
+      "automation",
+      "autonomous-development",
+      "autopilot",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "/bp:brainstorm Add user authentication with OAuth2",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/templates\ndocs/templates/brainstorming_session_template.md\ndocs/templates/prp_document_template.md\ndocs/templates/technical-task-template.md\ndocs/vibe-coding-guide.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4030714299476736
+  },
+  {
+    "name": "cc-blueprint-toolkit/public 模块",
+    "description": "[模块级] cc-blueprint-toolkit 项目的 public 模块 (source)。来源: https://github.com/croffasia/cc-blueprint-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-development",
+      "ai-development-tools",
+      "automation",
+      "autonomous-development",
+      "autopilot",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 2\n\n包含文件:\n- public/vibecodekit-banner-youtube.png\n- public/vibecodekit-banner.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/vibecodekit-banner-youtube.png\npublic/vibecodekit-banner.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4030714299476736
+  }
+]

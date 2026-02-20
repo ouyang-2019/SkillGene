@@ -1,0 +1,72 @@
+[
+  {
+    "name": "fastagent-plugins (armanzeroeight)",
+    "description": "[项目级] 🚀 A collection of Claude subagents, skills, rules, guides, and blueprints for Developers, Engineers, and Creators. | Covering programming languages, DevOps, Cloud, and beyond.。来源: https://github.com/armanzeroeight/fastagent-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "ai-agents",
+      "automation",
+      "stars-23",
+      "github-armanzeroeight",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 A collection of Claude subagents, skills, rules, guides, and blueprints for Developers, Engineers, and Creators. | Covering programming languages, DevOps, Cloud, and beyond.\n\n来源: https://github.com/armanzeroeight/fastagent-plugins\n语言: unknown\nStars: 23",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.png\nplugins\nplugins/ansible-toolkit\nplugins/api-toolkit\nplugins/aws-toolkit\nplugins/azure-toolkit\nplugins/backend-developer\nplugins/cloudformation-toolkit\nplugins/code-quality-toolkit\nplugins/data-engineer\nplugins/database-toolkit\nplugins/dbt-toolkit\nplugins/developer-toolkit\nplugins/devops-engineer\nplugins/docker-toolkit\nplugins/documentation-toolkit\nplugins/frontend-developer\nplugins/gcp-toolkit",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6808639180087965
+  },
+  {
+    "name": "fastagent-plugins/plugins 模块",
+    "description": "[模块级] fastagent-plugins 项目的 plugins 模块 (source)。来源: https://github.com/armanzeroeight/fastagent-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "ai-agents",
+      "automation",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "**Professional AI Agents & Skills for Claude Code** | Covering Development, DevOps, Cloud, and Beyond\n\n> [!IMPORTANT]\n> 🌟 **This project will be part of a bigger ecosystem! STAY TUNED**\n> \n> 🥇 Your contributions will be recognized and featured with your name and GitHub profile.\n> \n> 🙌 Join our community of developers making AI coding better for everyone!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ansible-toolkit\nplugins/ansible-toolkit/agents\nplugins/ansible-toolkit/agents/playbook-architect.md\nplugins/ansible-toolkit/commands\nplugins/ansible-toolkit/commands/lint-playbook.md\nplugins/ansible-toolkit/skills\nplugins/ansible-toolkit/skills/inventory-manager\nplugins/ansible-toolkit/skills/inventory-manager/SKILL.md\nplugins/ansible-toolkit/skills/role-builder\nplugins/ansible-toolkit/skills/role-builder/SKILL.md\nplugins/ansible-toolkit/skills/role-builder/reference\nplugins/ansible-toolkit/skills/role-builder/reference/handlers.md\nplugins/ansible-toolkit/skills/role-builder/reference/role-structure.md\nplugins/ansible-toolkit/skills/role-builder/reference/variables.md\nplugins/api-toolkit",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0446911344070373
+  }
+]

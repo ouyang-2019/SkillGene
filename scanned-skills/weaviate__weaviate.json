@@ -1,0 +1,73 @@
+[
+  {
+    "name": "weaviate (weaviate)",
+    "description": "[项目级] Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.。来源: https://github.com/weaviate/weaviate",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "generative-search",
+      "grpc",
+      "hnsw",
+      "hybrid-search",
+      "go",
+      "stars-15618",
+      "github-weaviate",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.\n\n来源: https://github.com/weaviate/weaviate\n语言: Go\nStars: 15618",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Weaviate offers multiple installation and deployment options:\n\n- [Docker](https://docs.weaviate.io/deploy/installation-guides/docker-installation)\n- [Kubernetes](https://docs.weaviate.io/deploy/installation-guides/k8s-installation)\n- [Weaviate Cloud](https://console.weaviate.cloud)\n\nSee the [installation docs](https://docs.weaviate.io/deploy) for more deployment options, such as [AWS](https://docs.weaviate.io/deploy/installation-guides/aws-marketplace) and [GCP](https://docs.weaviate.io/deploy/installation-guides/gcp-marketplace).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nadapters\nadapters/clients\nadapters/handlers",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "These features enable you to build AI-powered applications:\n\n- **⚡ Fast Search Performance**: Perform complex semantic [searches](https://docs.weaviate.io/weaviate/search/similarity) over billions of vectors in milliseconds. Weaviate's architecture is built in Go for speed and reliability, ensuring your AI applications are highly responsive even under heavy load. See our [ANN benchmarks](https://docs.weaviate.io/weaviate/benchmarks/ann) for more info.\n\n- **🔌 Flexible Vectorization**: Seamlessly vectorize data at import time with [integrated vectorizers](https://docs.weaviate.io/weaviate/model",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "weaviate/adapters 模块",
+    "description": "[模块级] weaviate 项目的 adapters 模块 (source)。来源: https://github.com/weaviate/weaviate",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "generative-search",
+      "grpc",
+      "hnsw",
+      "hybrid-search",
+      "module-level",
+      "source",
+      "adapters"
+    ],
+    "genes": [
+      {
+        "title": "adapters 模块说明",
+        "content": "模块路径: adapters/\n类型: source\n文件数: 162\n\n包含文件:\n- adapters/clients\n- adapters/clients/client.go\n- adapters/clients/client_test.go\n- adapters/clients/cluster_backups.go\n- adapters/clients/cluster_classifications.go\n- adapters/clients/cluster_node.go\n- adapters/clients/db_users.go\n- adapters/clients/remote_index.go\n- adapters/clients/remote_index_test.go\n- adapters/clients/replication.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adapters 文件结构",
+        "content": "adapters/clients\nadapters/clients/client.go\nadapters/clients/client_test.go\nadapters/clients/cluster_backups.go\nadapters/clients/cluster_classifications.go\nadapters/clients/cluster_node.go\nadapters/clients/db_users.go\nadapters/clients/remote_index.go\nadapters/clients/remote_index_test.go\nadapters/clients/replication.go\nadapters/clients/replication_test.go\nadapters/handlers\nadapters/handlers/graphql\nadapters/handlers/graphql/common\nadapters/handlers/graphql/common/fetch",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.177450167397152
+  }
+]

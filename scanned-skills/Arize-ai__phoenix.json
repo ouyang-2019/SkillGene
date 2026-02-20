@@ -1,0 +1,68 @@
+[
+  {
+    "name": "phoenix (Arize-ai)",
+    "description": "[项目级] AI Observability & Evaluation。来源: https://github.com/Arize-ai/phoenix",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-monitoring",
+      "ai-observability",
+      "aiengineering",
+      "anthropic",
+      "jupyter notebook",
+      "stars-8607",
+      "github-arize-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Observability & Evaluation\n\n来源: https://github.com/Arize-ai/phoenix\n语言: Jupyter Notebook\nStars: 8607",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install arize-phoenix",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLA.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDEVELOPMENT.md\nDockerfile\nIP_NOTICE\nLICENSE\nMIGRATION.md\nMakefile\nREADME.md\nSECURITY.md\napi_reference\napi_reference/.gitignore\napi_reference/Makefile\napi_reference/README.md\napi_reference/make.bat\napi_reference/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.96742590148283
+  },
+  {
+    "name": "phoenix/api_reference 模块",
+    "description": "[模块级] phoenix 项目的 api_reference 模块 (source)。来源: https://github.com/Arize-ai/phoenix",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-monitoring",
+      "ai-observability",
+      "aiengineering",
+      "anthropic",
+      "module-level",
+      "source",
+      "api_reference"
+    ],
+    "genes": [
+      {
+        "title": "api_reference 模块说明",
+        "content": "模块路径: api_reference/\n类型: source\n文件数: 12\n\n包含文件:\n- api_reference/.gitignore\n- api_reference/Makefile\n- api_reference/README.md\n- api_reference/make.bat\n- api_reference/requirements.txt\n- api_reference/source\n- api_reference/source/_static\n- api_reference/source/_static/custom.css\n- api_reference/source/_static/logo.png\n- api_reference/source/_static/switcher.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api_reference 文件结构",
+        "content": "api_reference/.gitignore\napi_reference/Makefile\napi_reference/README.md\napi_reference/make.bat\napi_reference/requirements.txt\napi_reference/source\napi_reference/source/_static\napi_reference/source/_static/custom.css\napi_reference/source/_static/logo.png\napi_reference/source/_static/switcher.json\napi_reference/source/_templates\napi_reference/source/_templates/custom_sidebar.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.073940721186265
+  }
+]

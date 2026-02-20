@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Prompt-Engineering-Guide-Chinese (wangxuqi)",
+    "description": "[项目级] Prompt工程师指南，源自英文版，但增加了AIGC的prompt部分，为了降低同学们的学习门槛，翻译更新。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "stars-1298",
+      "github-wangxuqi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompt工程师指南，源自英文版，但增加了AIGC的prompt部分，为了降低同学们的学习门槛，翻译更新\n\n来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese\n语言: MDX\nStars: 1298",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\ncomponents\ncomponents/counters.module.css\ncomponents/counters.tsx\ncomponents/screenshot\nguides\nguides/README.md\nguides/prompts-advanced-usage.md\nguides/prompts-adversarial.md\nguides/prompts-applications.md\nguides/prompts-basic-usage.md\nguides/prompts-chatgpt.md\nguides/prompts-intro.md\nguides/prompts-midjourney.md\nguides/prompts-miscellaneous.md\nguides/prompts-reliability.md\nguides/prompts-stable_diffusion.md\nimg\nimg/APE.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.556637346232176
+  },
+  {
+    "name": "Prompt-Engineering-Guide-Chinese/components 模块",
+    "description": "[模块级] Prompt-Engineering-Guide-Chinese 项目的 components 模块 (source)。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 4\n\n包含文件:\n- components/counters.module.css\n- components/counters.tsx\n- components/screenshot\n- components/screenshot/index.jsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/counters.module.css\ncomponents/counters.tsx\ncomponents/screenshot\ncomponents/screenshot/index.jsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7453098769857402
+  },
+  {
+    "name": "Prompt-Engineering-Guide-Chinese/guides 模块",
+    "description": "[模块级] Prompt-Engineering-Guide-Chinese 项目的 guides 模块 (source)。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "module-level",
+      "source",
+      "guides"
+    ],
+    "genes": [
+      {
+        "title": "guides 模块说明",
+        "content": "模块路径: guides/\n类型: source\n文件数: 11\n\n包含文件:\n- guides/README.md\n- guides/prompts-advanced-usage.md\n- guides/prompts-adversarial.md\n- guides/prompts-applications.md\n- guides/prompts-basic-usage.md\n- guides/prompts-chatgpt.md\n- guides/prompts-intro.md\n- guides/prompts-midjourney.md\n- guides/prompts-miscellaneous.md\n- guides/prompts-reliability.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guides 文件结构",
+        "content": "guides/README.md\nguides/prompts-advanced-usage.md\nguides/prompts-adversarial.md\nguides/prompts-applications.md\nguides/prompts-basic-usage.md\nguides/prompts-chatgpt.md\nguides/prompts-intro.md\nguides/prompts-midjourney.md\nguides/prompts-miscellaneous.md\nguides/prompts-reliability.md\nguides/prompts-stable_diffusion.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7453098769857402
+  },
+  {
+    "name": "Prompt-Engineering-Guide-Chinese/img 模块",
+    "description": "[模块级] Prompt-Engineering-Guide-Chinese 项目的 img 模块 (source)。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 35\n\n包含文件:\n- img/APE.png\n- img/active-prompt.png\n- img/ape-zero-shot-cot.png\n- img/chatgpt-1.png\n- img/chatgpt-classic.png\n- img/cot.png\n- img/dan-1.png\n- img/dsp.jpeg\n- img/flan-1.png\n- img/flan-10.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/APE.png\nimg/active-prompt.png\nimg/ape-zero-shot-cot.png\nimg/chatgpt-1.png\nimg/chatgpt-classic.png\nimg/cot.png\nimg/dan-1.png\nimg/dsp.jpeg\nimg/flan-1.png\nimg/flan-10.png\nimg/flan-11.png\nimg/flan-2.png\nimg/flan-3.png\nimg/flan-4.png\nimg/flan-5.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7453098769857402
+  },
+  {
+    "name": "Prompt-Engineering-Guide-Chinese/notebooks 模块",
+    "description": "[模块级] Prompt-Engineering-Guide-Chinese 项目的 notebooks 模块 (source)。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 5\n\n包含文件:\n- notebooks/pe-chatgpt-adversarial.ipynb\n- notebooks/pe-chatgpt-intro.ipynb\n- notebooks/pe-chatgpt-langchain.ipynb\n- notebooks/pe-lecture.ipynb\n- notebooks/pe-pal.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/pe-chatgpt-adversarial.ipynb\nnotebooks/pe-chatgpt-intro.ipynb\nnotebooks/pe-chatgpt-langchain.ipynb\nnotebooks/pe-lecture.ipynb\nnotebooks/pe-pal.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7453098769857402
+  },
+  {
+    "name": "Prompt-Engineering-Guide-Chinese/pages 模块",
+    "description": "[模块级] Prompt-Engineering-Guide-Chinese 项目的 pages 模块 (source)。来源: https://github.com/wangxuqi/Prompt-Engineering-Guide-Chinese",
+    "domain": "ai-llm",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-guide",
+      "prompt-toolkit",
+      "mdx",
+      "module-level",
+      "source",
+      "pages"
+    ],
+    "genes": [
+      {
+        "title": "pages 模块说明",
+        "content": "模块路径: pages/\n类型: source\n文件数: 48\n\n包含文件:\n- pages/_app.tsx\n- pages/_meta.json\n- pages/about.mdx\n- pages/applications.mdx\n- pages/applications\n- pages/applications/_meta.json\n- pages/applications/generating.mdx\n- pages/applications/pal.mdx\n- pages/datasets.mdx\n- pages/index.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pages 文件结构",
+        "content": "pages/_app.tsx\npages/_meta.json\npages/about.mdx\npages/applications.mdx\npages/applications\npages/applications/_meta.json\npages/applications/generating.mdx\npages/applications/pal.mdx\npages/datasets.mdx\npages/index.mdx\npages/introduction.mdx\npages/introduction\npages/introduction/_meta.json\npages/introduction/basics.mdx\npages/introduction/elements.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7453098769857402
+  }
+]

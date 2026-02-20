@@ -1,0 +1,68 @@
+[
+  {
+    "name": "agentops (AgentOps-AI)",
+    "description": "[项目级] Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI。来源: https://github.com/AgentOps-AI/agentops",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentops",
+      "agents-sdk",
+      "ai",
+      "anthropic",
+      "python",
+      "stars-5294",
+      "github-agentops-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI\n\n来源: https://github.com/AgentOps-AI/agentops\n语言: Python\nStars: 5294",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install agentops",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nTOS.md\nagentops\nagentops/__init__.py\nagentops/client\nagentops/config.py\nagentops/enums.py\nagentops/exceptions.py\nagentops/helpers\nagentops/instrumentation\nagentops/integration",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.861891968482665
+  },
+  {
+    "name": "agentops/agentops 模块",
+    "description": "[模块级] agentops 项目的 agentops 模块 (source)。来源: https://github.com/AgentOps-AI/agentops",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentops",
+      "agents-sdk",
+      "ai",
+      "anthropic",
+      "module-level",
+      "source",
+      "agentops"
+    ],
+    "genes": [
+      {
+        "title": "agentops 模块说明",
+        "content": "agentops.init(os.getenv(\"AGENTOPS_API_KEY\"), tags=[\"CAMEL Example\"])",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentops 文件结构",
+        "content": "agentops/__init__.py\nagentops/client\nagentops/client/__init__.py\nagentops/client/api\nagentops/client/api/__init__.py\nagentops/client/api/base.py\nagentops/client/api/types.py\nagentops/client/api/versions\nagentops/client/api/versions/__init__.py\nagentops/client/api/versions/v3.py\nagentops/client/api/versions/v4.py\nagentops/client/client.py\nagentops/client/http\nagentops/client/http/README.md\nagentops/client/http/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.989513574786132
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "rag-conversational-agent (enricollen)",
+    "description": "[项目级] A simple local Retrieval-Augmented Generation (RAG) chatbot that can answer to questions by acquiring information from personal PDF documents.。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "python",
+      "stars-43",
+      "github-enricollen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A simple local Retrieval-Augmented Generation (RAG) chatbot that can answer to questions by acquiring information from personal PDF documents.\n\n来源: https://github.com/enricollen/rag-conversational-agent\n语言: Python\nStars: 43",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Choose Your Setup**:\n   - You have three different options for setting up the LLMs:\n     1. Local setup using Ollama.\n     2. Using the OpenAI API for GPT models.\n     3. Using the Anthropic API for Claude models.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\napp.py\ndata\ndata/alpha_society.pdf\ndata/beta_society.pdf\ndata/gamma_society.pdf\nembeddings\nembeddings/embeddings.py\nembeddings/openai_embeddings.py\nllm\nllm/llm.py\nllm/llm_factory.py\npopulate_database.py\nrequirements.txt\nretrieval\nretrieval/rag_retriever.py\nstatic\nstatic/admin_settings.js\nstatic/demo_img\nstatic/styles.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8167342277897935
+  },
+  {
+    "name": "rag-conversational-agent/data 模块",
+    "description": "[模块级] rag-conversational-agent 项目的 data 模块 (source)。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 3\n\n包含文件:\n- data/alpha_society.pdf\n- data/beta_society.pdf\n- data/gamma_society.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/alpha_society.pdf\ndata/beta_society.pdf\ndata/gamma_society.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "rag-conversational-agent/embeddings 模块",
+    "description": "[模块级] rag-conversational-agent 项目的 embeddings 模块 (source)。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "embeddings"
+    ],
+    "genes": [
+      {
+        "title": "embeddings 模块说明",
+        "content": "模块路径: embeddings/\n类型: source\n文件数: 2\n\n包含文件:\n- embeddings/embeddings.py\n- embeddings/openai_embeddings.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embeddings 文件结构",
+        "content": "embeddings/embeddings.py\nembeddings/openai_embeddings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "rag-conversational-agent/llm 模块",
+    "description": "[模块级] rag-conversational-agent 项目的 llm 模块 (source)。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "llm"
+    ],
+    "genes": [
+      {
+        "title": "llm 模块说明",
+        "content": "模块路径: llm/\n类型: source\n文件数: 2\n\n包含文件:\n- llm/llm.py\n- llm/llm_factory.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm 文件结构",
+        "content": "llm/llm.py\nllm/llm_factory.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "rag-conversational-agent/static 模块",
+    "description": "[模块级] rag-conversational-agent 项目的 static 模块 (source)。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 8\n\n包含文件:\n- static/admin_settings.js\n- static/demo_img\n- static/demo_img/rag_demo.mp4\n- static/demo_img/screenshot_1.jpg\n- static/demo_img/screenshot_2.jpg\n- static/demo_img/screenshot_3.jpg\n- static/demo_img/screenshot_4.jpg\n- static/styles.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/admin_settings.js\nstatic/demo_img\nstatic/demo_img/rag_demo.mp4\nstatic/demo_img/screenshot_1.jpg\nstatic/demo_img/screenshot_2.jpg\nstatic/demo_img/screenshot_3.jpg\nstatic/demo_img/screenshot_4.jpg\nstatic/styles.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  },
+  {
+    "name": "rag-conversational-agent/templates 模块",
+    "description": "[模块级] rag-conversational-agent 项目的 templates 模块 (source)。来源: https://github.com/enricollen/rag-conversational-agent",
+    "domain": "backend",
+    "tags": [
+      "chatbot",
+      "flask",
+      "langchain",
+      "llm",
+      "llms",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 2\n\n包含文件:\n- templates/admin.html\n- templates/index.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/admin.html\ntemplates/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1533873822318346
+  }
+]

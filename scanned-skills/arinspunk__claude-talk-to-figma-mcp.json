@@ -1,0 +1,218 @@
+[
+  {
+    "name": "claude-talk-to-figma-mcp (arinspunk)",
+    "description": "[项目级] A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "javascript",
+      "stars-404",
+      "github-arinspunk",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs\n\n来源: https://github.com/arinspunk/claude-talk-to-figma-mcp\n语言: JavaScript\nStars: 404",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Setup:** 5 minutes | **First automation:** 2 minutes",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCOMMANDS.md\nCONTRIBUTING.md\nDockerfile\nINSTALLATION.md\nLICENSE\nTESTING.md\nTROUBLESHOOTING.md\nbun.lock\ncontext\ncontext/01-prompt.md\ncontext/01\ncontext/02-analisis.md\ncontext/02\ncontext/99-notas.md\ncontext/pr-14\ncontext/pr-17\nimages\nimages/claude-talk-to-figma.png\nimages/cursor-config-1.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.303190682555303
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/context 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 context 模块 (source)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "source",
+      "context"
+    ],
+    "genes": [
+      {
+        "title": "context 模块说明",
+        "content": "模块路径: context/\n类型: source\n文件数: 25\n\n包含文件:\n- context/01-prompt.md\n- context/01\n- context/01/00-analisis.md\n- context/01/01-tools-refactor.md\n- context/01/02-tools-refactor-backlog.md\n- context/01/03-tools-refactor-test.md\n- context/01/04-tools-refactor-channel-error.md\n- context/01/04-tools-refactor-test-backlog.md\n- context/01/05-tools-refactor-four-tools-error.md\n- context/01/06-tools-refactor-four-tools-error-backlog.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "context 文件结构",
+        "content": "context/01-prompt.md\ncontext/01\ncontext/01/00-analisis.md\ncontext/01/01-tools-refactor.md\ncontext/01/02-tools-refactor-backlog.md\ncontext/01/03-tools-refactor-test.md\ncontext/01/04-tools-refactor-channel-error.md\ncontext/01/04-tools-refactor-test-backlog.md\ncontext/01/05-tools-refactor-four-tools-error.md\ncontext/01/06-tools-refactor-four-tools-error-backlog.md\ncontext/01/prompt-dev-nodejs-bun.md\ncontext/02-analisis.md\ncontext/02\ncontext/02/00-analisis.md\ncontext/02/01-plan.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/images 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 images 模块 (source)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/claude-talk-to-figma.png\n- images/cursor-config-1.png\n- images/cursor-config-2.png\n- images/mcp-figma-plugin-configuration.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/claude-talk-to-figma.png\nimages/cursor-config-1.png\nimages/cursor-config-2.png\nimages/mcp-figma-plugin-configuration.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/prompts 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 prompts 模块 (source)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 5\n\n包含文件:\n- prompts/prompt-ux-ui-especialista-es.md\n- prompts/prompt-ux-ui-especialista-gal.md\n- prompts/prompt-ux-ui-especialista-pt.md\n- prompts/prompt-ux-ui-specialist-ko.md\n- prompts/prompt-ux-ui-specialist.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/prompt-ux-ui-especialista-es.md\nprompts/prompt-ux-ui-especialista-gal.md\nprompts/prompt-ux-ui-especialista-pt.md\nprompts/prompt-ux-ui-specialist-ko.md\nprompts/prompt-ux-ui-specialist.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/scripts 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 scripts 模块 (script)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/configure-claude.js\n- scripts/launcher.js\n- scripts/setup.sh\n- scripts/test-integration.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/configure-claude.js\nscripts/launcher.js\nscripts/setup.sh\nscripts/test-integration.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/src 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 src 模块 (source)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 32\n\n包含文件:\n- src/claude_mcp_plugin\n- src/claude_mcp_plugin/code.js\n- src/claude_mcp_plugin/manifest.json\n- src/claude_mcp_plugin/setcharacters.js\n- src/claude_mcp_plugin/ui.html\n- src/socket.ts\n- src/talk_to_figma_mcp\n- src/talk_to_figma_mcp/bun.lock\n- src/talk_to_figma_mcp/config\n- src/talk_to_figma_mcp/config/config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/claude_mcp_plugin\nsrc/claude_mcp_plugin/code.js\nsrc/claude_mcp_plugin/manifest.json\nsrc/claude_mcp_plugin/setcharacters.js\nsrc/claude_mcp_plugin/ui.html\nsrc/socket.ts\nsrc/talk_to_figma_mcp\nsrc/talk_to_figma_mcp/bun.lock\nsrc/talk_to_figma_mcp/config\nsrc/talk_to_figma_mcp/config/config.ts\nsrc/talk_to_figma_mcp/package.json\nsrc/talk_to_figma_mcp/prompts\nsrc/talk_to_figma_mcp/prompts/index.ts\nsrc/talk_to_figma_mcp/server.ts\nsrc/talk_to_figma_mcp/tools",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  },
+  {
+    "name": "claude-talk-to-figma-mcp/tests 模块",
+    "description": "[模块级] claude-talk-to-figma-mcp 项目的 tests 模块 (test)。来源: https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "domain": "testing",
+    "tags": [
+      "antigravity",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cursor",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/fixtures\n- tests/fixtures/test-data.ts\n- tests/integration\n- tests/integration/set-fill-color.test.ts\n- tests/integration/set-stroke-color.test.ts\n- tests/setup.ts\n- tests/unit\n- tests/unit/utils\n- tests/unit/utils/defaults.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/fixtures\ntests/fixtures/test-data.ts\ntests/integration\ntests/integration/set-fill-color.test.ts\ntests/integration/set-stroke-color.test.ts\ntests/setup.ts\ntests/unit\ntests/unit/utils\ntests/unit/utils/defaults.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5425525460442424
+  }
+]

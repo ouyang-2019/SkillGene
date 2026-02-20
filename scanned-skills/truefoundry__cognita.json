@@ -1,0 +1,158 @@
+[
+  {
+    "name": "cognita (truefoundry)",
+    "description": "[项目级] RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry 。来源: https://github.com/truefoundry/cognita",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "application",
+      "data",
+      "deep-learning",
+      "python",
+      "stars-4316",
+      "github-truefoundry",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Cognita is an open-source framework to organize your RAG codebase along with a frontend to play around with different RAG customizations. It provides a simple way to organize your codebase so that it becomes easy to test it locally while also being able to deploy it in a production ready environment. The key issues that arise while productionizing RAG system from a Jupyter Notebook are:\n\n1. **Chunking and Embedding Job**: The chunking and embedding code usually needs to be abstracted out and deployed as a job. Sometimes the job will need to run on a schedule or be triggered via an event to keep the data updated.\n2. **Query Service**: The code that generates the answer from the query needs to be wrapped up in a api server like FastAPI and should be deployed as a service. This service should",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\n__init__.py\nbackend\nbackend/Dockerfile\nbackend/__init__.py\nbackend/constants.py\nbackend/database\nbackend/indexer\nbackend/logger.py\nbackend/migration\nbackend/modules\nbackend/requirements.txt\nbackend/server\nbackend/settings.py\nbackend/types.py\nbackend/utils.py\nbackend/vectordb.requirements.txt\ncompose.env",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. Support for multiple document retrievers that use `Similarity Search`, `Query Decompostion`, `Document Reranking`, etc\n1. Support for SOTA OpenSource embeddings and reranking from `mixedbread-ai`\n1. Support for using LLMs using `ollama`\n1. Support for incremental indexing that ingests entire documents in batches (reduces compute burden), keeps track of already indexed documents and prevents re-indexing of those docs.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.817540718005437
+  },
+  {
+    "name": "cognita/backend 模块",
+    "description": "[模块级] cognita 项目的 backend 模块 (source)。来源: https://github.com/truefoundry/cognita",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "application",
+      "data",
+      "deep-learning",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 81\n\n包含文件:\n- backend/Dockerfile\n- backend/__init__.py\n- backend/constants.py\n- backend/database\n- backend/database/schema.prisma\n- backend/indexer\n- backend/indexer/__init__.py\n- backend/indexer/argument_parser.py\n- backend/indexer/indexer.py\n- backend/indexer/main.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/__init__.py\nbackend/constants.py\nbackend/database\nbackend/database/schema.prisma\nbackend/indexer\nbackend/indexer/__init__.py\nbackend/indexer/argument_parser.py\nbackend/indexer/indexer.py\nbackend/indexer/main.py\nbackend/indexer/types.py\nbackend/logger.py\nbackend/migration\nbackend/migration/__init__.py\nbackend/migration/qdrant_migration.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9540325744043496
+  },
+  {
+    "name": "cognita/deployment 模块",
+    "description": "[模块级] cognita 项目的 deployment 模块 (source)。来源: https://github.com/truefoundry/cognita",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "application",
+      "data",
+      "deep-learning",
+      "module-level",
+      "source",
+      "deployment"
+    ],
+    "genes": [
+      {
+        "title": "deployment 模块说明",
+        "content": "To be able to **Query** on your own documents, follow the steps below:\n\n1.  Register at TrueFoundry, follow [here](https://www.truefoundry.com/register)\n\n    - Fill up the form and register as an organization (let's say <org_name>)\n    - On `Submit`, you will be redirected to your dashboard endpoint ie https://<org_name>.truefoundry.cloud\n    - Complete your email verification\n    - Login to the platform at your dashboard endpoint ie. https://<org_name>.truefoundry.cloud\n\n    `Note: Keep your da",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deployment 文件结构",
+        "content": "deployment/__init__.py\ndeployment/audio.py\ndeployment/backend.py\ndeployment/config.py\ndeployment/deploy.py\ndeployment/frontend.py\ndeployment/indexer.py\ndeployment/infinity.py\ndeployment/postgres_database.py\ndeployment/qdrant.py\ndeployment/qdrant_ui.py\ndeployment/unstructured_io.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9540325744043496
+  },
+  {
+    "name": "cognita/docs 模块",
+    "description": "[模块级] cognita 项目的 docs 模块 (docs)。来源: https://github.com/truefoundry/cognita",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "application",
+      "data",
+      "deep-learning",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 13\n\n包含文件:\n- docs/assets\n- docs/assets/architecture.drawio\n- docs/images\n- docs/images/RAG-TF.gif\n- docs/images/adding-collection.png\n- docs/images/dataingestion-complete.png\n- docs/images/dataingestion-started.png\n- docs/images/datasource.png\n- docs/images/list-datasources-in-collection.png\n- docs/images/rag_arch.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/architecture.drawio\ndocs/images\ndocs/images/RAG-TF.gif\ndocs/images/adding-collection.png\ndocs/images/dataingestion-complete.png\ndocs/images/dataingestion-started.png\ndocs/images/datasource.png\ndocs/images/list-datasources-in-collection.png\ndocs/images/rag_arch.png\ndocs/images/readme-banner.png\ndocs/images/response-generation.png\ndocs/images/webinar-banner.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9540325744043496
+  },
+  {
+    "name": "cognita/frontend 模块",
+    "description": "[模块级] cognita 项目的 frontend 模块 (source)。来源: https://github.com/truefoundry/cognita",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "application",
+      "data",
+      "deep-learning",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 76\n\n包含文件:\n- frontend/.dockerignore\n- frontend/.editorconfig\n- frontend/.eslintrc\n- frontend/.github\n- frontend/.github/workflows\n- frontend/.github/workflows/docs-qa-release.yaml\n- frontend/.gitignore\n- frontend/.prettierignore\n- frontend/.prettierrc\n- frontend/Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.editorconfig\nfrontend/.eslintrc\nfrontend/.github\nfrontend/.github/workflows\nfrontend/.github/workflows/docs-qa-release.yaml\nfrontend/.gitignore\nfrontend/.prettierignore\nfrontend/.prettierrc\nfrontend/Dockerfile\nfrontend/Dockerfile.dev\nfrontend/README.md\nfrontend/env.d.ts\nfrontend/index.html\nfrontend/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9540325744043496
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "name": "ralph (snarktank)",
+    "description": "[项目级] Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. 。来源: https://github.com/snarktank/ralph",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-10702",
+      "github-snarktank",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. \n\n来源: https://github.com/snarktank/ralph\n语言: TypeScript\nStars: 10702",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\nflowchart\nflowchart/.gitignore\nflowchart/README.md\nflowchart/eslint.config.js\nflowchart/index.html\nflowchart/package-lock.json\nflowchart/package.json\nflowchart/public\nflowchart/src\nflowchart/tsconfig.app.json\nflowchart/tsconfig.json\nflowchart/tsconfig.node.json\nflowchart/vite.config.ts\nprd.json.example\nprompt.md\nralph-flowchart.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ralph/flowchart 模块",
+    "description": "[模块级] ralph 项目的 flowchart 模块 (source)。来源: https://github.com/snarktank/ralph",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-10702",
+      "github-snarktank",
+      "module-level",
+      "source",
+      "flowchart"
+    ],
+    "genes": [
+      {
+        "title": "flowchart 模块说明",
+        "content": "[![Ralph Flowchart](ralph-flowchart.png)](https://snarktank.github.io/ralph/)\n\n**[View Interactive Flowchart](https://snarktank.github.io/ralph/)** - Click through to see each step with animations.\n\nThe `flowchart/` directory contains the source code. To run locally:\n\n```bash\ncd flowchart\nnpm install\nnpm run dev\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "flowchart 文件结构",
+        "content": "flowchart/.gitignore\nflowchart/README.md\nflowchart/eslint.config.js\nflowchart/index.html\nflowchart/package-lock.json\nflowchart/package.json\nflowchart/public\nflowchart/public/vite.svg\nflowchart/src\nflowchart/src/App.css\nflowchart/src/App.tsx\nflowchart/src/assets\nflowchart/src/assets/react.svg\nflowchart/src/index.css\nflowchart/src/main.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "flowchart 代码示例",
+        "content": "cd flowchart\nnpm install\nnpm run dev",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.111785978655295
+  },
+  {
+    "name": "ralph/skills 模块",
+    "description": "[模块级] ralph 项目的 skills 模块 (source)。来源: https://github.com/snarktank/ralph",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-10702",
+      "github-snarktank",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Copy the skills to your Amp or Claude config for use across all projects:\n\nFor AMP\n```bash\ncp -r skills/prd ~/.config/amp/skills/\ncp -r skills/ralph ~/.config/amp/skills/\n```\n\nFor Claude Code (manual)\n```bash\ncp -r skills/prd ~/.claude/skills/\ncp -r skills/ralph ~/.claude/skills/\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/prd\nskills/prd/SKILL.md\nskills/ralph\nskills/ralph/SKILL.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "skills 代码示例",
+        "content": "cp -r skills/prd ~/.config/amp/skills/\ncp -r skills/ralph ~/.config/amp/skills/",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.111785978655295
+  }
+]

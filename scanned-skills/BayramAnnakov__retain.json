@@ -1,0 +1,178 @@
+[
+  {
+    "name": "retain (BayramAnnakov)",
+    "description": "[项目级] Retain is a native macOS application that aggregates AI conversations from multiple platforms into a unified, searchable knowledge base with intelligent learning extraction.。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "ai-llm",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retain is a native macOS application that aggregates AI conversations from multiple platforms into a unified, searchable knowledge base with intelligent learning extraction.\n\n来源: https://github.com/BayramAnnakov/retain\n语言: Swift\nStars: 149",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nPRIVACY.md\nPackage.swift\nREADME.md\nResources\nResources/AppIcon.icns\nResources/Info.plist\nResources/Retain.entitlements\nRetain.entitlements\nRetain.xctestplan\nSECURITY.md\nSources\nSources/Retain\nTests\nTests/RetainTests\nTests/RetainUITests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-source sync**: Auto-sync from CLI tools (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, GitHub Copilot CLI), manual sync from claude.ai and ChatGPT (cookie-based)\n- **Instant search**: Full-text search across 10k+ conversations with FTS5\n- **Learning extraction**: Automatic detection of corrections (\"no, use X instead\") and preferences\n- **CLAUDE.md export**: Export approved learnings so Claude remembers your preferences\n- **Auto-updates**: Automatic update notifications via Sparkle framework\n- **Local-first**: All data stored locally. Optional cloud features (web sync, AI analysi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.086593134206137
+  },
+  {
+    "name": "retain/Resources 模块",
+    "description": "[模块级] retain 项目的 Resources 模块 (source)。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "ai-llm",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "Resources 模块说明",
+        "content": "模块路径: Resources/\n类型: source\n文件数: 3\n\n包含文件:\n- Resources/AppIcon.icns\n- Resources/Info.plist\n- Resources/Retain.entitlements",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Resources 文件结构",
+        "content": "Resources/AppIcon.icns\nResources/Info.plist\nResources/Retain.entitlements",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3692745073649095
+  },
+  {
+    "name": "retain/Sources 模块",
+    "description": "[模块级] retain 项目的 Sources 模块 (source)。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "ai-llm",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "module-level",
+      "source",
+      "sources"
+    ],
+    "genes": [
+      {
+        "title": "Sources 模块说明",
+        "content": "| Source | Type | Sync Method | Status |\n|--------|------|-------------|--------|\n| Claude Code | CLI | Auto (file watching) | ✅ Stable |\n| Codex CLI | CLI | Auto (file watching) | ✅ Stable |\n| Cursor | IDE | Auto (file watching) | ✅ Stable |\n| Gemini CLI | CLI | Auto (file watching) | ✅ Stable |\n| OpenCode | CLI | Auto (file watching) | ✅ Stable |\n| GitHub Copilot CLI | CLI | Auto (file watching) | ✅ Stable |\n| claude.ai | Web | Cookie import from Safari/Chrome/Firefox | ✅ Works, sessions expir",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Sources 文件结构",
+        "content": "Sources/Retain\nSources/Retain/App\nSources/Retain/App/AppState.swift\nSources/Retain/App/ContentView.swift\nSources/Retain/App/KeyboardShortcuts.swift\nSources/Retain/App/RetainApp.swift\nSources/Retain/Components\nSources/Retain/Components/DesignSystem.swift\nSources/Retain/Components/ProviderBadge.swift\nSources/Retain/Components/SyncOverlay.swift\nSources/Retain/Components/UnifiedEmptyState.swift\nSources/Retain/Data\nSources/Retain/Data/Models\nSources/Retain/Data/Models/AnalysisQueue.swift\nSources/Retain/Data/Models/Conversation.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3692745073649095
+  },
+  {
+    "name": "retain/Tests 模块",
+    "description": "[模块级] retain 项目的 Tests 模块 (test)。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "testing",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "Tests 模块说明",
+        "content": "模块路径: Tests/\n类型: test\n文件数: 44\n\n包含文件:\n- Tests/RetainTests\n- Tests/RetainTests/AppleEmbeddingServiceTests.swift\n- Tests/RetainTests/CLILLMServiceTests.swift\n- Tests/RetainTests/ClaudeCodeParserTests.swift\n- Tests/RetainTests/ConversationRepositoryTests.swift\n- Tests/RetainTests/CorrectionDetectorTests.swift\n- Tests/RetainTests/DatabaseTests.swift\n- Tests/RetainTests/GeminiTests\n- Tests/RetainTests/GeminiTests/GeminiClientTests.swift\n- Tests/RetainTests/GeminiTests/GeminiLearningExtractorTests.swift",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Tests 文件结构",
+        "content": "Tests/RetainTests\nTests/RetainTests/AppleEmbeddingServiceTests.swift\nTests/RetainTests/CLILLMServiceTests.swift\nTests/RetainTests/ClaudeCodeParserTests.swift\nTests/RetainTests/ConversationRepositoryTests.swift\nTests/RetainTests/CorrectionDetectorTests.swift\nTests/RetainTests/DatabaseTests.swift\nTests/RetainTests/GeminiTests\nTests/RetainTests/GeminiTests/GeminiClientTests.swift\nTests/RetainTests/GeminiTests/GeminiLearningExtractorTests.swift\nTests/RetainTests/GeminiTests/GeminiWorkflowSignatureExtractorTests.swift\nTests/RetainTests/GeminiTests/MockGeminiURLProtocol.swift\nTests/RetainTests/IntegrationTests\nTests/RetainTests/IntegrationTests/ClaudeCodeIntegrationTests.swift\nTests/RetainTests/IntegrationTests/CodexIntegrationTests.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3692745073649095
+  },
+  {
+    "name": "retain/docs 模块",
+    "description": "[模块级] retain 项目的 docs 模块 (docs)。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "documentation",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/PHASED_VISION.md\n- docs/README.md\n- docs/screenshots\n- docs/screenshots/analytics.png\n- docs/screenshots/conversations.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/PHASED_VISION.md\ndocs/README.md\ndocs/screenshots\ndocs/screenshots/analytics.png\ndocs/screenshots/conversations.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3692745073649095
+  },
+  {
+    "name": "retain/scripts 模块",
+    "description": "[模块级] retain 项目的 scripts 模块 (script)。来源: https://github.com/BayramAnnakov/retain",
+    "domain": "ai-llm",
+    "tags": [
+      "swift",
+      "stars-149",
+      "github-bayramannakov",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/build-release.sh\n- scripts/create-dmg.sh\n- scripts/generate-appcast.sh\n- scripts/generate-icon.swift\n- scripts/sign-and-notarize.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build-release.sh\nscripts/create-dmg.sh\nscripts/generate-appcast.sh\nscripts/generate-icon.swift\nscripts/sign-and-notarize.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3692745073649095
+  }
+]

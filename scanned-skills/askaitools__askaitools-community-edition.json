@@ -1,0 +1,103 @@
+[
+  {
+    "name": "askaitools-community-edition (askaitools)",
+    "description": "[项目级] A cutting-edge search engine project tailored specifically for the AI product。来源: https://github.com/askaitools/askaitools-community-edition",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "embedding",
+      "enterprise-search",
+      "full-text-search",
+      "hybrid-search",
+      "typescript",
+      "stars-358",
+      "github-askaitools",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AskAITools (https://askaitools.ai) is a cutting-edge search engine project tailored specifically for the AI product domain. Our mission is to revolutionize the way users discover AI products by providing the most accurate, comprehensive, lightning-fast, and intelligent search experience. With AskAITools, finding the perfect AI solution has never been easier.\n\n**AskAITools Desktop Web Screenshot:**\n\n[![AskAITools Desktop Web Screenshot](https://public-files.askaitools.ai/MainScreenshot.png)](https://askaitools.ai)\n\n**AskAITools Mobile Web Screenshot:**\n\n[![AskAITools Mobile Web Screenshot](https://public-files.askaitools.ai/MobileScreenshot.png)](https://askaitools.ai)\n\nThis project comes in two flavors: a feature-rich commercial edition and a community edition. The community edition offers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Gather and structure your niche data. Refer to [our data table schema](./supabase/migrations/20240506_init.sql) for guidance on the required fields.\n2. Modify the `item` table schema as needed. Create the table and import the data into Supabase.\n3. Duplicate the environment variable template `.env.local.example` and rename it to `.env.local`. Fill in your Supabase and OpenAI configuration details. If needed, provide proxy information.\n4. Tailor the search parameters and strategies in `./app/pages/index.tsx`, `./app/pages/api/embedding_search.ts`, and `./supabase/migrations/20240506_init.sql",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nNOTICE.txt\nREADME.md\nREADME_CN.md\napp\napp/.env.local.example\napp/.gitignore\napp/components\napp/lib\napp/next-env.d.ts\napp/next.config.js\napp/package.json\napp/pages\napp/postcss.config.js\napp/prettier.config.js\napp/public\napp/styles\napp/tailwind.config.js\napp/tsconfig.json\napp/types",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. All projects that are derivatives of this project must prominently acknowledge AskAITools by displaying its name and open-source address on the user interface homepage or documentation homepage. The easiest way to comply with this requirement is to keep the \"Powered by AskAITools\" component intact in the footer.\n2. When deploying projects derived from this open-source project, please avoid using the AskAITools brand name as your product/project name. This restriction does not apply to the [\"AskAITools Commercial Edition\"](https://askaitools.ai) (https://askaitools.ai).\n3. If you want to dev",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.276941513321937
+  },
+  {
+    "name": "askaitools-community-edition/app 模块",
+    "description": "[模块级] askaitools-community-edition 项目的 app 模块 (source)。来源: https://github.com/askaitools/askaitools-community-edition",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "embedding",
+      "enterprise-search",
+      "full-text-search",
+      "hybrid-search",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 40\n\n包含文件:\n- app/.env.local.example\n- app/.gitignore\n- app/components\n- app/components/Footer.tsx\n- app/components/ItemsTileGrid.tsx\n- app/components/Layout.tsx\n- app/components/LogoImage.tsx\n- app/components/Nav.tsx\n- app/components/SectionContainer.tsx\n- app/lib",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.env.local.example\napp/.gitignore\napp/components\napp/components/Footer.tsx\napp/components/ItemsTileGrid.tsx\napp/components/Layout.tsx\napp/components/LogoImage.tsx\napp/components/Nav.tsx\napp/components/SectionContainer.tsx\napp/lib\napp/lib/supabase.ts\napp/lib/theme.tsx\napp/next-env.d.ts\napp/next.config.js\napp/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52155321065755
+  },
+  {
+    "name": "askaitools-community-edition/supabase 模块",
+    "description": "[模块级] askaitools-community-edition 项目的 supabase 模块 (source)。来源: https://github.com/askaitools/askaitools-community-edition",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "embedding",
+      "enterprise-search",
+      "full-text-search",
+      "hybrid-search",
+      "module-level",
+      "source",
+      "supabase"
+    ],
+    "genes": [
+      {
+        "title": "supabase 模块说明",
+        "content": "模块路径: supabase/\n类型: source\n文件数: 2\n\n包含文件:\n- supabase/migrations\n- supabase/migrations/20240506_init.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "supabase 文件结构",
+        "content": "supabase/migrations\nsupabase/migrations/20240506_init.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.52155321065755
+  }
+]

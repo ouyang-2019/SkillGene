@@ -1,0 +1,78 @@
+[
+  {
+    "name": "eliza (elizaOS)",
+    "description": "[项目级] Autonomous agents for everyone。来源: https://github.com/elizaOS/eliza",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "autonomous",
+      "chatbot",
+      "typescript",
+      "stars-17554",
+      "github-elizaos",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Eliza is a monorepo that contains all the packages needed to run the entire platform.\n\n```\n/\n├── packages/\n│   ├── typescript/     # Core package (@elizaos/core) - agent runtime, bootstrap plugin\n│   ├── python/         # Python implementation of the core API\n│   ├── rust/           # Rust implementation (native + WASM)\n│   └── ...             # Other packages and utilities\n├── plugins/            # Official plugins (discord, telegram, openai, etc.)\n├── examples/           # Example agents and usage patterns\n└── ...\n```\n\n- **`@elizaos/core`**: The core package that provides `AgentRuntime`, the bootstrap plugin, message processing, and basic agent actions.\n- **`@elizaos/plugin-sql`**: Database integration (Postgres, PGLite).\n- **`plugins/`**: Official plugins for Discord, Telegram, OpenAI, ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get your first AI agent running in just a few steps.\n\n**Prerequisites:**\n\n- [Node.js](https://nodejs.org/) (v23+)\n- [bun](https://bun.sh/docs/installation)\n\n> **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbiome.json\nbuild-utils.ts\nbun.lock\nbunfig.toml\nknip.json\nlerna.json\npackage.json\npackages\npackages/computeruse",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🔌 **Rich Connectivity**: Out-of-the-box connectors for Discord, Telegram, Farcaster, and more.\n- 🧠 **Model Agnostic**: Supports all major models, including OpenAI, Gemini, Anthropic, Llama, and Grok.\n- 🖥️ **Modern Web UI**: A professional dashboard for managing agents, groups, and conversations in real-time.\n- 🤖 **Multi-Agent Architecture**: Designed from the ground up for creating and orchestrating groups of specialized agents.\n- 📄 **Document Ingestion**: Easily ingest documents and allow agents to retrieve information and answer questions from your data (RAG).\n- 🛠️ **Highly Extensibl",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "eliza/packages 模块",
+    "description": "[模块级] eliza 项目的 packages 模块 (source)。来源: https://github.com/elizaOS/eliza",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "autonomous",
+      "chatbot",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 155\n\n包含文件:\n- packages/computeruse\n- packages/computeruse/.cargo\n- packages/computeruse/.cargo/config.toml\n- packages/computeruse/.editorconfig\n- packages/computeruse/.gitattributes\n- packages/computeruse/.github\n- packages/computeruse/.github/scripts\n- packages/computeruse/.github/scripts/test-extension-bridge.js\n- packages/computeruse/.github/workflows\n- packages/computeruse/.github/workflows/ci-wheels.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/computeruse\npackages/computeruse/.cargo\npackages/computeruse/.cargo/config.toml\npackages/computeruse/.editorconfig\npackages/computeruse/.gitattributes\npackages/computeruse/.github\npackages/computeruse/.github/scripts\npackages/computeruse/.github/scripts/test-extension-bridge.js\npackages/computeruse/.github/workflows\npackages/computeruse/.github/workflows/ci-wheels.yml\npackages/computeruse/.github/workflows/ci.yml\npackages/computeruse/.github/workflows/publish-browser-extension.yml\npackages/computeruse/.github/workflows/publish-cli.yml\npackages/computeruse/.github/workflows/publish-kv.yml\npackages/computeruse/.github/workflows/publish-mcp.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.197750437608229
+  }
+]

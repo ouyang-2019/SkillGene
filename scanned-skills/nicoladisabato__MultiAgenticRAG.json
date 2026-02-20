@@ -1,0 +1,145 @@
+[
+  {
+    "name": "MultiAgenticRAG (nicoladisabato)",
+    "description": "[项目级] How to build a Multi-Agentic Systems for RAG using LangGraph - Full project。来源: https://github.com/nicoladisabato/MultiAgenticRAG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-205",
+      "github-nicoladisabato",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "How to build a Multi-Agentic Systems for RAG using LangGraph - Full project\n\n来源: https://github.com/nicoladisabato/MultiAgenticRAG\n语言: Python\nStars: 205",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/nicoladisabato/MultiAgenticRAG.git\ncd MultiAgenticRAG",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\napp.py\nconfig.yaml\nmain_graph\nmain_graph/__pycache__\nmain_graph/graph_builder.py\nmain_graph/graph_states.py\nrequirements.txt\nretriever\nretriever/google-2024-environmental-report.pdf\nretriever/retriever.py\nsubgraph\nsubgraph/__init__.py\nsubgraph/__pycache__\nsubgraph/graph_builder.py\nsubgraph/graph_states.py\nutils\nutils/__init__.py\nutils/__pycache__\nutils/prompt.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.155876930527877
+  },
+  {
+    "name": "MultiAgenticRAG/main_graph 模块",
+    "description": "[模块级] MultiAgenticRAG 项目的 main_graph 模块 (source)。来源: https://github.com/nicoladisabato/MultiAgenticRAG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-205",
+      "github-nicoladisabato",
+      "module-level",
+      "source",
+      "main_graph"
+    ],
+    "genes": [
+      {
+        "title": "main_graph 模块说明",
+        "content": "模块路径: main_graph/\n类型: source\n文件数: 4\n\n包含文件:\n- main_graph/__pycache__\n- main_graph/__pycache__/graph_states.cpython-310.pyc\n- main_graph/graph_builder.py\n- main_graph/graph_states.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "main_graph 文件结构",
+        "content": "main_graph/__pycache__\nmain_graph/__pycache__/graph_states.cpython-310.pyc\nmain_graph/graph_builder.py\nmain_graph/graph_states.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4247015444223017
+  },
+  {
+    "name": "MultiAgenticRAG/retriever 模块",
+    "description": "[模块级] MultiAgenticRAG 项目的 retriever 模块 (source)。来源: https://github.com/nicoladisabato/MultiAgenticRAG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-205",
+      "github-nicoladisabato",
+      "module-level",
+      "source",
+      "retriever"
+    ],
+    "genes": [
+      {
+        "title": "retriever 模块说明",
+        "content": "模块路径: retriever/\n类型: source\n文件数: 2\n\n包含文件:\n- retriever/google-2024-environmental-report.pdf\n- retriever/retriever.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "retriever 文件结构",
+        "content": "retriever/google-2024-environmental-report.pdf\nretriever/retriever.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4247015444223017
+  },
+  {
+    "name": "MultiAgenticRAG/subgraph 模块",
+    "description": "[模块级] MultiAgenticRAG 项目的 subgraph 模块 (source)。来源: https://github.com/nicoladisabato/MultiAgenticRAG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-205",
+      "github-nicoladisabato",
+      "module-level",
+      "source",
+      "subgraph"
+    ],
+    "genes": [
+      {
+        "title": "subgraph 模块说明",
+        "content": "模块路径: subgraph/\n类型: source\n文件数: 6\n\n包含文件:\n- subgraph/__init__.py\n- subgraph/__pycache__\n- subgraph/__pycache__/__init__.cpython-310.pyc\n- subgraph/__pycache__/graph_states.cpython-310.pyc\n- subgraph/graph_builder.py\n- subgraph/graph_states.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "subgraph 文件结构",
+        "content": "subgraph/__init__.py\nsubgraph/__pycache__\nsubgraph/__pycache__/__init__.cpython-310.pyc\nsubgraph/__pycache__/graph_states.cpython-310.pyc\nsubgraph/graph_builder.py\nsubgraph/graph_states.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4247015444223017
+  },
+  {
+    "name": "MultiAgenticRAG/utils 模块",
+    "description": "[模块级] MultiAgenticRAG 项目的 utils 模块 (source)。来源: https://github.com/nicoladisabato/MultiAgenticRAG",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-205",
+      "github-nicoladisabato",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 6\n\n包含文件:\n- utils/__init__.py\n- utils/__pycache__\n- utils/__pycache__/__init__.cpython-310.pyc\n- utils/__pycache__/utils.cpython-310.pyc\n- utils/prompt.py\n- utils/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/__pycache__\nutils/__pycache__/__init__.cpython-310.pyc\nutils/__pycache__/utils.cpython-310.pyc\nutils/prompt.py\nutils/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4247015444223017
+  }
+]

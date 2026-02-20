@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Memary (kingjulio8238)",
+    "description": "[项目级] The Open Source Memory Layer For Autonomous Agents。来源: https://github.com/kingjulio8238/Memary",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "knowledge-graph",
+      "memory",
+      "multiagent-systems",
+      "rag",
+      "jupyter notebook",
+      "stars-2568",
+      "github-kingjulio8238",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Open Source Memory Layer For Autonomous Agents\n\n来源: https://github.com/kingjulio8238/Memary\n语言: Jupyter Notebook\nStars: 2568",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install memary",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndev\ndev/KG_memory_stream\ndev/legacy_routing_agent\ndev/query_decomposition\ndev/recursive_retrieval\ndev/reranking\ndiagrams\ndiagrams/context_window.png\ndiagrams/final.png\ndiagrams/kg.png\ndiagrams/memary-1000-stars-video.mp4\ndiagrams/memary-aitx-1.png\ndiagrams/memary-aitx-2.png\ndiagrams/memary-logo-latest.png\ndiagrams/memary-logo-new.png\ndiagrams/memary-logo-transparent.png\ndiagrams/memary_logo.png\ndiagrams/memary_logo_bw.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from memary.agent.chat_agent import ChatAgent\n\nsystem_persona_txt = \"data/system_persona.txt\"\nuser_persona_txt = \"data/user_persona.txt\"\npast_chat_json = \"data/past_chat.json\"\nmemory_stream_json = \"data/memory_stream.json\"\nentity_knowledge_store_json = \"data/entity_knowledge_store.json\"\nchat_agent = ChatAgent(\n    \"Personal Agent\",\n    memory_stream_json,\n    entity_knowledge_store_json,\n    system_persona_txt,\n    user_persona_txt,\n    past_chat_json,\n)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.704797509698408
+  },
+  {
+    "name": "Memary/dev 模块",
+    "description": "[模块级] Memary 项目的 dev 模块 (source)。来源: https://github.com/kingjulio8238/Memary",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "knowledge-graph",
+      "memory",
+      "multiagent-systems",
+      "rag",
+      "module-level",
+      "source",
+      "dev"
+    ],
+    "genes": [
+      {
+        "title": "dev 模块说明",
+        "content": "模块路径: dev/\n类型: source\n文件数: 91\n\n包含文件:\n- dev/KG_memory_stream\n- dev/KG_memory_stream/data\n- dev/KG_memory_stream/data/chapter\n- dev/KG_memory_stream/data/chapter/1.txt\n- dev/KG_memory_stream/data/chapter/2.txt\n- dev/KG_memory_stream/data/chapter/3.txt\n- dev/KG_memory_stream/data/chapter/4.txt\n- dev/KG_memory_stream/data/chapter/5.txt\n- dev/KG_memory_stream/data/past_chat.json\n- dev/KG_memory_stream/data/system_persona.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev 文件结构",
+        "content": "dev/KG_memory_stream\ndev/KG_memory_stream/data\ndev/KG_memory_stream/data/chapter\ndev/KG_memory_stream/data/chapter/1.txt\ndev/KG_memory_stream/data/chapter/2.txt\ndev/KG_memory_stream/data/chapter/3.txt\ndev/KG_memory_stream/data/chapter/4.txt\ndev/KG_memory_stream/data/chapter/5.txt\ndev/KG_memory_stream/data/past_chat.json\ndev/KG_memory_stream/data/system_persona.txt\ndev/KG_memory_stream/data/user_persona.txt\ndev/KG_memory_stream/docs\ndev/KG_memory_stream/docs/src\ndev/KG_memory_stream/docs/src/0225_chapter1and2.png\ndev/KG_memory_stream/docs/src/0225_update_with_chapter3.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8638380077587264
+  },
+  {
+    "name": "Memary/diagrams 模块",
+    "description": "[模块级] Memary 项目的 diagrams 模块 (source)。来源: https://github.com/kingjulio8238/Memary",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "knowledge-graph",
+      "memory",
+      "multiagent-systems",
+      "rag",
+      "module-level",
+      "source",
+      "diagrams"
+    ],
+    "genes": [
+      {
+        "title": "diagrams 模块说明",
+        "content": "模块路径: diagrams/\n类型: source\n文件数: 18\n\n包含文件:\n- diagrams/context_window.png\n- diagrams/final.png\n- diagrams/kg.png\n- diagrams/memary-1000-stars-video.mp4\n- diagrams/memary-aitx-1.png\n- diagrams/memary-aitx-2.png\n- diagrams/memary-logo-latest.png\n- diagrams/memary-logo-new.png\n- diagrams/memary-logo-transparent.png\n- diagrams/memary_logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "diagrams 文件结构",
+        "content": "diagrams/context_window.png\ndiagrams/final.png\ndiagrams/kg.png\ndiagrams/memary-1000-stars-video.mp4\ndiagrams/memary-aitx-1.png\ndiagrams/memary-aitx-2.png\ndiagrams/memary-logo-latest.png\ndiagrams/memary-logo-new.png\ndiagrams/memary-logo-transparent.png\ndiagrams/memary_logo.png\ndiagrams/memary_logo_bw.png\ndiagrams/memory.png\ndiagrams/memory_compression.png\ndiagrams/memory_module.png\ndiagrams/query_decomposition.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8638380077587264
+  },
+  {
+    "name": "Memary/src 模块",
+    "description": "[模块级] Memary 项目的 src 模块 (source)。来源: https://github.com/kingjulio8238/Memary",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "knowledge-graph",
+      "memory",
+      "multiagent-systems",
+      "rag",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 19\n\n包含文件:\n- src/memary\n- src/memary/__init__.py\n- src/memary/agent\n- src/memary/agent/__init__.py\n- src/memary/agent/base_agent.py\n- src/memary/agent/chat_agent.py\n- src/memary/agent/data_types.py\n- src/memary/agent/llm_api\n- src/memary/agent/llm_api/tools.py\n- src/memary/memory",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/memary\nsrc/memary/__init__.py\nsrc/memary/agent\nsrc/memary/agent/__init__.py\nsrc/memary/agent/base_agent.py\nsrc/memary/agent/chat_agent.py\nsrc/memary/agent/data_types.py\nsrc/memary/agent/llm_api\nsrc/memary/agent/llm_api/tools.py\nsrc/memary/memory\nsrc/memary/memory/__init__.py\nsrc/memary/memory/base_memory.py\nsrc/memary/memory/entity_knowledge_store.py\nsrc/memary/memory/memory_stream.py\nsrc/memary/memory/types.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8638380077587264
+  },
+  {
+    "name": "Memary/streamlit_app 模块",
+    "description": "[模块级] Memary 项目的 streamlit_app 模块 (source)。来源: https://github.com/kingjulio8238/Memary",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "knowledge-graph",
+      "memory",
+      "multiagent-systems",
+      "rag",
+      "module-level",
+      "source",
+      "streamlit_app"
+    ],
+    "genes": [
+      {
+        "title": "streamlit_app 模块说明",
+        "content": "模块路径: streamlit_app/\n类型: source\n文件数: 10\n\n包含文件:\n- streamlit_app/app.py\n- streamlit_app/data\n- streamlit_app/data/entity_knowledge_store.json\n- streamlit_app/data/external_response.txt\n- streamlit_app/data/memory_stream.json\n- streamlit_app/data/past_chat.json\n- streamlit_app/data/routing_response.txt\n- streamlit_app/data/system_persona.txt\n- streamlit_app/data/user_persona.txt\n- streamlit_app/data/user_persona_template.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "streamlit_app 文件结构",
+        "content": "streamlit_app/app.py\nstreamlit_app/data\nstreamlit_app/data/entity_knowledge_store.json\nstreamlit_app/data/external_response.txt\nstreamlit_app/data/memory_stream.json\nstreamlit_app/data/past_chat.json\nstreamlit_app/data/routing_response.txt\nstreamlit_app/data/system_persona.txt\nstreamlit_app/data/user_persona.txt\nstreamlit_app/data/user_persona_template.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8638380077587264
+  }
+]

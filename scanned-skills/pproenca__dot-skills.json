@@ -1,0 +1,117 @@
+[
+  {
+    "name": "dot-skills (pproenca)",
+    "description": "[项目级] A collection of AI agent skills following the Agent Skills open format。来源: https://github.com/pproenca/dot-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "python",
+      "stars-41",
+      "github-pproenca",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of AI agent skills following the Agent Skills open format\n\n来源: https://github.com/pproenca/dot-skills\n语言: Python\nStars: 41",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Install skills using Vercel's [add-skill](https://github.com/vercel-labs/add-skill) CLI:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nopenspec\nopenspec/AGENTS.md\nopenspec/changes\nopenspec/project.md\nscripts\nscripts/generate-readme-tables\nscripts/skills-ref\nscripts/update-versions.mjs\nskills\nskills/.curated",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8063919283598677
+  },
+  {
+    "name": "dot-skills/openspec 模块",
+    "description": "[模块级] dot-skills 项目的 openspec 模块 (source)。来源: https://github.com/pproenca/dot-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "python",
+      "stars-41",
+      "github-pproenca",
+      "module-level",
+      "source",
+      "openspec"
+    ],
+    "genes": [
+      {
+        "title": "openspec 模块说明",
+        "content": "模块路径: openspec/\n类型: source\n文件数: 9\n\n包含文件:\n- openspec/AGENTS.md\n- openspec/changes\n- openspec/changes/setup-multi-skill-repo\n- openspec/changes/setup-multi-skill-repo/proposal.md\n- openspec/changes/setup-multi-skill-repo/specs\n- openspec/changes/setup-multi-skill-repo/specs/skill-repository\n- openspec/changes/setup-multi-skill-repo/specs/skill-repository/spec.md\n- openspec/changes/setup-multi-skill-repo/tasks.md\n- openspec/project.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "openspec 文件结构",
+        "content": "openspec/AGENTS.md\nopenspec/changes\nopenspec/changes/setup-multi-skill-repo\nopenspec/changes/setup-multi-skill-repo/proposal.md\nopenspec/changes/setup-multi-skill-repo/specs\nopenspec/changes/setup-multi-skill-repo/specs/skill-repository\nopenspec/changes/setup-multi-skill-repo/specs/skill-repository/spec.md\nopenspec/changes/setup-multi-skill-repo/tasks.md\nopenspec/project.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.145113542687894
+  },
+  {
+    "name": "dot-skills/scripts 模块",
+    "description": "[模块级] dot-skills 项目的 scripts 模块 (script)。来源: https://github.com/pproenca/dot-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "python",
+      "stars-41",
+      "github-pproenca",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/generate-readme-tables\n- scripts/skills-ref\n- scripts/update-versions.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/generate-readme-tables\nscripts/skills-ref\nscripts/update-versions.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.145113542687894
+  },
+  {
+    "name": "dot-skills/skills 模块",
+    "description": "[模块级] dot-skills 项目的 skills 模块 (source)。来源: https://github.com/pproenca/dot-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "python",
+      "stars-41",
+      "github-pproenca",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of AI agent skills following the [Agent Skills](https://agentskills.io) open format. These skills extend AI coding agents with specialized capabilities and domain knowledge.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/.curated\nskills/.curated/.gitkeep\nskills/.curated/debug\nskills/.curated/debug/AGENTS.md\nskills/.curated/debug/README.md\nskills/.curated/debug/SKILL.md\nskills/.curated/debug/assets\nskills/.curated/debug/assets/templates\nskills/.curated/debug/assets/templates/_template.md\nskills/.curated/debug/metadata.json\nskills/.curated/debug/references\nskills/.curated/debug/references/_sections.md\nskills/.curated/debug/references/anti-blame-tool.md\nskills/.curated/debug/references/anti-debug-fatigue.md\nskills/.curated/debug/references/anti-quick-patch.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.145113542687894
+  }
+]

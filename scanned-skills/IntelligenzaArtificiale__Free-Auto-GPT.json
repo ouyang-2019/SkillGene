@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Free-Auto-GPT (IntelligenzaArtificiale)",
+    "description": "[项目级] Free Auto GPT with NO paids API is a repository that offers a simple version of Auto GPT, an autonomous AI agent capable of performing tasks independently. Unlike other versions, our implementation does not rely on any paid OpenAI API, making it accessible to anyone. 。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "python",
+      "stars-2535",
+      "github-intelligenzaartificiale",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Free Auto GPT with NO paids API is a repository that offers a simple version of Auto GPT, an autonomous AI agent capable of performing tasks independently. Unlike other versions, our implementation does not rely on any paid OpenAI API, making it accessible to anyone. \n\n来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT\n语言: Python\nStars: 2535",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "</summary>\nOpen the file called `.env` . \nIf you dont see the file, open your file manger and check for **`Show hidden file`** .\n\nNow add you Cookie and Token in `.env` file .\n\n</details>\n\n\n\n-----\n<br>\n\n<details>\n  <summary>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTOGPT.py\nBABYAGI.py\nBabyAgi\nBabyAgi/BabyAGIMod.py\nBabyAgi/task_creation.py\nBabyAgi/task_execution.py\nBabyAgi/task_prioritization.py\nCamel.py\nEmbedding\nEmbedding/HuggingFaceEmbedding.py\nFreeLLM\nFreeLLM/BardChatAPI.py\nFreeLLM/BingChatAPI.py\nFreeLLM/ChatGPTAPI.py\nFreeLLM/HuggingChatAPI.py\nLICENSE\nMetaPrompt.py\nOtherAgent\nOtherAgent/FreeLLM\nOtherAgent/Tool",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "</summary>\n\n\n<details>\n  <summary>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.701988981834678
+  },
+  {
+    "name": "Free-Auto-GPT/BabyAgi 模块",
+    "description": "[模块级] Free-Auto-GPT 项目的 BabyAgi 模块 (source)。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "module-level",
+      "source",
+      "babyagi"
+    ],
+    "genes": [
+      {
+        "title": "BabyAgi 模块说明",
+        "content": "Tired of paying for OPENAI, PINECONE, GOOGLESEARCH APIs to try out the latest developments in the AI field?\nPerfect, **this is the repository for you! 🎁**\n\nFor any problem open an ISSUE 🚬, the project is very simple so any help is welcome💸.\n\n**Are you bored reading😴? Do you want to try our project now⏳? Open the notebook on Colab everything is ready!** \n\n**RUN NOW ON COLAB😮** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive",
+        "gene_type": "principle"
+      },
+      {
+        "title": "BabyAgi 文件结构",
+        "content": "BabyAgi/BabyAGIMod.py\nBabyAgi/task_creation.py\nBabyAgi/task_execution.py\nBabyAgi/task_prioritization.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8615911854677423
+  },
+  {
+    "name": "Free-Auto-GPT/FreeLLM 模块",
+    "description": "[模块级] Free-Auto-GPT 项目的 FreeLLM 模块 (source)。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "module-level",
+      "source",
+      "freellm"
+    ],
+    "genes": [
+      {
+        "title": "FreeLLM 模块说明",
+        "content": "模块路径: FreeLLM/\n类型: source\n文件数: 4\n\n包含文件:\n- FreeLLM/BardChatAPI.py\n- FreeLLM/BingChatAPI.py\n- FreeLLM/ChatGPTAPI.py\n- FreeLLM/HuggingChatAPI.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "FreeLLM 文件结构",
+        "content": "FreeLLM/BardChatAPI.py\nFreeLLM/BingChatAPI.py\nFreeLLM/ChatGPTAPI.py\nFreeLLM/HuggingChatAPI.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8615911854677423
+  },
+  {
+    "name": "Free-Auto-GPT/OtherAgent 模块",
+    "description": "[模块级] Free-Auto-GPT 项目的 OtherAgent 模块 (source)。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "module-level",
+      "source",
+      "otheragent"
+    ],
+    "genes": [
+      {
+        "title": "OtherAgent 模块说明",
+        "content": "模块路径: OtherAgent/\n类型: source\n文件数: 11\n\n包含文件:\n- OtherAgent/FreeLLM\n- OtherAgent/FreeLLM/BardChatAPI.py\n- OtherAgent/FreeLLM/BingChatAPI.py\n- OtherAgent/FreeLLM/ChatGPTAPI.py\n- OtherAgent/FreeLLM/HuggingChatAPI.py\n- OtherAgent/Tool\n- OtherAgent/Tool/browserQA.py\n- OtherAgent/csvAgent.py\n- OtherAgent/customAgent.py\n- OtherAgent/pythonAgent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "OtherAgent 文件结构",
+        "content": "OtherAgent/FreeLLM\nOtherAgent/FreeLLM/BardChatAPI.py\nOtherAgent/FreeLLM/BingChatAPI.py\nOtherAgent/FreeLLM/ChatGPTAPI.py\nOtherAgent/FreeLLM/HuggingChatAPI.py\nOtherAgent/Tool\nOtherAgent/Tool/browserQA.py\nOtherAgent/csvAgent.py\nOtherAgent/customAgent.py\nOtherAgent/pythonAgent.py\nOtherAgent/startup.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8615911854677423
+  },
+  {
+    "name": "Free-Auto-GPT/PlugAndPlayStart 模块",
+    "description": "[模块级] Free-Auto-GPT 项目的 PlugAndPlayStart 模块 (source)。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "module-level",
+      "source",
+      "plugandplaystart"
+    ],
+    "genes": [
+      {
+        "title": "PlugAndPlayStart 模块说明",
+        "content": "模块路径: PlugAndPlayStart/\n类型: source\n文件数: 2\n\n包含文件:\n- PlugAndPlayStart/FREE_AUTOGPT.ipynb\n- PlugAndPlayStart/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "PlugAndPlayStart 文件结构",
+        "content": "PlugAndPlayStart/FREE_AUTOGPT.ipynb\nPlugAndPlayStart/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8615911854677423
+  },
+  {
+    "name": "Free-Auto-GPT/hfAgent 模块",
+    "description": "[模块级] Free-Auto-GPT 项目的 hfAgent 模块 (source)。来源: https://github.com/IntelligenzaArtificiale/Free-Auto-GPT",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "auto-gpt",
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "module-level",
+      "source",
+      "hfagent"
+    ],
+    "genes": [
+      {
+        "title": "hfAgent 模块说明",
+        "content": "模块路径: hfAgent/\n类型: source\n文件数: 7\n\n包含文件:\n- hfAgent/FreeLLM\n- hfAgent/FreeLLM/BardChatAPI.py\n- hfAgent/FreeLLM/BingChatAPI.py\n- hfAgent/FreeLLM/ChatGPTAPI.py\n- hfAgent/FreeLLM/HuggingChatAPI.py\n- hfAgent/FreeLLM/thanks.txt\n- hfAgent/agents.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hfAgent 文件结构",
+        "content": "hfAgent/FreeLLM\nhfAgent/FreeLLM/BardChatAPI.py\nhfAgent/FreeLLM/BingChatAPI.py\nhfAgent/FreeLLM/ChatGPTAPI.py\nhfAgent/FreeLLM/HuggingChatAPI.py\nhfAgent/FreeLLM/thanks.txt\nhfAgent/agents.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8615911854677423
+  }
+]

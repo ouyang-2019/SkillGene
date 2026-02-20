@@ -1,0 +1,54 @@
+[
+  {
+    "name": "advanced-prompt-engineering-techniques-3817061 (LinkedInLearning)",
+    "description": "[项目级] This repo is for LinkedIn Learning course: Advanced Prompt Engineering Techniques。来源: https://github.com/LinkedInLearning/advanced-prompt-engineering-techniques-3817061",
+    "domain": "general",
+    "tags": [
+      "stars-534",
+      "github-linkedinlearning",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repo is for LinkedIn Learning course: Advanced Prompt Engineering Techniques\n\n来源: https://github.com/LinkedInLearning/advanced-prompt-engineering-techniques-3817061\n语言: unknown\nStars: 534",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\nlinks.md\nprompts\nprompts/01_02_few-shot.txt\nprompts/01_02_zero-shot.txt\nprompts/01_03_few-shot-chain-of-thought.txt\nprompts/01_03_zero-plus-few-shot-chain-of-thought.txt\nprompts/01_03_zero-shot_chain-of-thought.txt\nprompts/01_04_deep-breath.txt\nprompts/01_05_generated_knowledge.txt\nprompts/01_06_tree-of-thought.txt\nprompts/01_07_directional-stimulus.txt\nprompts/01_08_chain-of-density.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.363770628514278
+  },
+  {
+    "name": "advanced-prompt-engineering-techniques-3817061/prompts 模块",
+    "description": "[模块级] advanced-prompt-engineering-techniques-3817061 项目的 prompts 模块 (source)。来源: https://github.com/LinkedInLearning/advanced-prompt-engineering-techniques-3817061",
+    "domain": "general",
+    "tags": [
+      "stars-534",
+      "github-linkedinlearning",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 10\n\n包含文件:\n- prompts/01_02_few-shot.txt\n- prompts/01_02_zero-shot.txt\n- prompts/01_03_few-shot-chain-of-thought.txt\n- prompts/01_03_zero-plus-few-shot-chain-of-thought.txt\n- prompts/01_03_zero-shot_chain-of-thought.txt\n- prompts/01_04_deep-breath.txt\n- prompts/01_05_generated_knowledge.txt\n- prompts/01_06_tree-of-thought.txt\n- prompts/01_07_directional-stimulus.txt\n- prompts/01_08_chain-of-density.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/01_02_few-shot.txt\nprompts/01_02_zero-shot.txt\nprompts/01_03_few-shot-chain-of-thought.txt\nprompts/01_03_zero-plus-few-shot-chain-of-thought.txt\nprompts/01_03_zero-shot_chain-of-thought.txt\nprompts/01_04_deep-breath.txt\nprompts/01_05_generated_knowledge.txt\nprompts/01_06_tree-of-thought.txt\nprompts/01_07_directional-stimulus.txt\nprompts/01_08_chain-of-density.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5910165028114225
+  }
+]

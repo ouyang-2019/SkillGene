@@ -1,0 +1,228 @@
+[
+  {
+    "name": "ollama_pdf_rag (tonykipkemboi)",
+    "description": "[项目级] A full-stack demo showcasing a local RAG (Retrieval Augmented Generation) pipeline to chat with your PDFs.。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "typescript",
+      "stars-489",
+      "github-tonykipkemboi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A full-stack demo showcasing a local RAG (Retrieval Augmented Generation) pipeline to chat with your PDFs.\n\n来源: https://github.com/tonykipkemboi/ollama_pdf_rag\n语言: TypeScript\nStars: 489",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ndata\ndata/pdfs\ndocs\ndocs/api\ndocs/assets\ndocs/development\ndocs/getting-started\ndocs/index.md\ndocs/user-guide\nmkdocs.yml\nnextjs_ui.png\nnotebooks\nnotebooks/experiments\nrequirements.txt\nrun.py\nrun_api.py\nsrc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🔒 **100% Local** - All processing happens on your machine, no data leaves\n- 📄 **Multi-PDF Support** - Upload and query across multiple documents\n- 🧠 **Multi-Query RAG** - Intelligent retrieval with source citations\n- 🎯 **Advanced RAG** - LangChain-powered pipeline with ChromaDB\n- 🖥️ **Two Modern UIs** - Next.js (primary) and Streamlit interfaces\n- 🔌 **REST API** - FastAPI backend for programmatic access\n- 📓 **Jupyter Notebooks** - For experimentation and learning",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.34465442956181
+  },
+  {
+    "name": "ollama_pdf_rag/data 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 data 模块 (source)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 5\n\n包含文件:\n- data/pdfs\n- data/pdfs/sample\n- data/pdfs/sample/LLMs.pdf\n- data/pdfs/sample/WEF_The_Global_Cooperation_Barometer_2024.pdf\n- data/pdfs/sample/scammer-agent.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/pdfs\ndata/pdfs/sample\ndata/pdfs/sample/LLMs.pdf\ndata/pdfs/sample/WEF_The_Global_Cooperation_Barometer_2024.pdf\ndata/pdfs/sample/scammer-agent.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  },
+  {
+    "name": "ollama_pdf_rag/docs 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 docs 模块 (docs)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "documentation",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 25\n\n包含文件:\n- docs/api\n- docs/api/document.md\n- docs/api/embeddings.md\n- docs/api/llm.md\n- docs/api/rag.md\n- docs/api/rest-api.md\n- docs/assets\n- docs/assets/github-actions-failure.png\n- docs/assets/github-actions-tests.png\n- docs/assets/nextjs-chat-ui.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/api\ndocs/api/document.md\ndocs/api/embeddings.md\ndocs/api/llm.md\ndocs/api/rag.md\ndocs/api/rest-api.md\ndocs/assets\ndocs/assets/github-actions-failure.png\ndocs/assets/github-actions-tests.png\ndocs/assets/nextjs-chat-ui.png\ndocs/assets/nextjs_ui.png\ndocs/assets/pdf-chat-response.png\ndocs/assets/st_app_ui.png\ndocs/development\ndocs/development/changelog.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  },
+  {
+    "name": "ollama_pdf_rag/notebooks 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 notebooks 模块 (source)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 3\n\n包含文件:\n- notebooks/experiments\n- notebooks/experiments/local_ollama_rag.ipynb\n- notebooks/experiments/updated_rag_notebook.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/experiments\nnotebooks/experiments/local_ollama_rag.ipynb\nnotebooks/experiments/updated_rag_notebook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  },
+  {
+    "name": "ollama_pdf_rag/src 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 src 模块 (source)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 32\n\n包含文件:\n- src/__init__.py\n- src/api\n- src/api/__init__.py\n- src/api/config.py\n- src/api/database.py\n- src/api/dependencies.py\n- src/api/main.py\n- src/api/models.py\n- src/api/routers\n- src/api/routers/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/api\nsrc/api/__init__.py\nsrc/api/config.py\nsrc/api/database.py\nsrc/api/dependencies.py\nsrc/api/main.py\nsrc/api/models.py\nsrc/api/routers\nsrc/api/routers/__init__.py\nsrc/api/routers/health.py\nsrc/api/routers/models.py\nsrc/api/routers/pdfs.py\nsrc/api/routers/query.py\nsrc/api/services",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  },
+  {
+    "name": "ollama_pdf_rag/tests 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 tests 模块 (test)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "testing",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "python -m pytest tests/ -v",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_document.py\ntests/test_models.py\ntests/test_rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  },
+  {
+    "name": "ollama_pdf_rag/web-ui 模块",
+    "description": "[模块级] ollama_pdf_rag 项目的 web-ui 模块 (source)。来源: https://github.com/tonykipkemboi/ollama_pdf_rag",
+    "domain": "web-frontend",
+    "tags": [
+      "langchain",
+      "nextjs",
+      "ollama",
+      "pdf",
+      "rag",
+      "module-level",
+      "source",
+      "web-ui"
+    ],
+    "genes": [
+      {
+        "title": "web-ui 模块说明",
+        "content": "模块路径: web-ui/\n类型: source\n文件数: 104\n\n包含文件:\n- web-ui/.cursor\n- web-ui/.cursor/rules\n- web-ui/.cursor/rules/ultracite.mdc\n- web-ui/.env.example\n- web-ui/.github\n- web-ui/.github/workflows\n- web-ui/.github/workflows/lint.yml\n- web-ui/.github/workflows/playwright.yml\n- web-ui/.gitignore\n- web-ui/LICENSE",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web-ui 文件结构",
+        "content": "web-ui/.cursor\nweb-ui/.cursor/rules\nweb-ui/.cursor/rules/ultracite.mdc\nweb-ui/.env.example\nweb-ui/.github\nweb-ui/.github/workflows\nweb-ui/.github/workflows/lint.yml\nweb-ui/.github/workflows/playwright.yml\nweb-ui/.gitignore\nweb-ui/LICENSE\nweb-ui/README.md\nweb-ui/app\nweb-ui/app/(auth)\nweb-ui/app/(auth)/actions.ts\nweb-ui/app/(auth)/api",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  }
+]

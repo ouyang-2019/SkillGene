@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Autonomous-Agents (tmgthb)",
+    "description": "[项目级] Autonomous Agents (LLMs) research papers. Updated Daily.。来源: https://github.com/tmgthb/Autonomous-Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "stars-1148",
+      "github-tmgthb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Autonomous Agents (LLMs) research papers. Updated Daily.\n\n来源: https://github.com/tmgthb/Autonomous-Agents\n语言: unknown\nStars: 1148",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nresources\nresources/Autonomous_Agents_Research_Papers_2023.md\nresources/Autonomous_Agents_Research_Papers_2024.md\nresources/Autonomous_Agents_Research_Papers_2025_01.md\nresources/Autonomous_Agents_Research_Papers_2025_2.md\nresources/Autonomous_Agents_Research_Papers_2025_3.md\nresources/Autonomous_Agents_Research_Papers_2025_4.md\nresources/Autonomous_Agents_Research_Papers_2026_1.md\nresources/Autonomous_Agents_Research_Papers_Earlier.md\nresources/Autonomous_Agents_Resources.md\nresources/Autonomous_agent_logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.529970944030977
+  },
+  {
+    "name": "Autonomous-Agents/resources 模块",
+    "description": "[模块级] Autonomous-Agents 项目的 resources 模块 (source)。来源: https://github.com/tmgthb/Autonomous-Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 10\n\n包含文件:\n- resources/Autonomous_Agents_Research_Papers_2023.md\n- resources/Autonomous_Agents_Research_Papers_2024.md\n- resources/Autonomous_Agents_Research_Papers_2025_01.md\n- resources/Autonomous_Agents_Research_Papers_2025_2.md\n- resources/Autonomous_Agents_Research_Papers_2025_3.md\n- resources/Autonomous_Agents_Research_Papers_2025_4.md\n- resources/Autonomous_Agents_Research_Papers_2026_1.md\n- resources/Autonomous_Agents_Research_Papers_Earlier.md\n- resources/Autonomous_Agents_Resources.md\n- resources/Autonomous_agent_logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/Autonomous_Agents_Research_Papers_2023.md\nresources/Autonomous_Agents_Research_Papers_2024.md\nresources/Autonomous_Agents_Research_Papers_2025_01.md\nresources/Autonomous_Agents_Research_Papers_2025_2.md\nresources/Autonomous_Agents_Research_Papers_2025_3.md\nresources/Autonomous_Agents_Research_Papers_2025_4.md\nresources/Autonomous_Agents_Research_Papers_2026_1.md\nresources/Autonomous_Agents_Research_Papers_Earlier.md\nresources/Autonomous_Agents_Resources.md\nresources/Autonomous_agent_logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7239767552247818
+  }
+]

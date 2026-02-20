@@ -1,0 +1,257 @@
+[
+  {
+    "name": "KRAGEN (EpistasisLab)",
+    "description": "[项目级] Software to implement GoT with a weviate vectorized database。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Software to implement GoT with a weviate vectorized database\n\n来源: https://github.com/EpistasisLab/KRAGEN\n语言: Python\nStars: 683",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Alzkb_Q_A_Embedding\nAlzkb_Q_A_Embedding/.env.sample\nAlzkb_Q_A_Embedding/.gitignore\nAlzkb_Q_A_Embedding/readme.md\nAlzkb_Q_A_Embedding/requirements.txt\nAlzkb_Q_A_Embedding/test_data.json\nBenchmark_Comparison_and_Setup.md\nKRAGEN_Dashboard\nKRAGEN_Dashboard/Backend\nKRAGEN_Dashboard/Frontend\nKRAGEN_Dashboard/readme.md\nLICENSE\nconfig\nconfig/class.json\nconfig/kragen.env\nconversion.md\ndev_guide.md\ndocker-compose-flask.yml\ndocker-compose-gui.yml\ndocker-compose-kragen.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.417210351840766
+  },
+  {
+    "name": "KRAGEN/Alzkb_Q_A_Embedding 模块",
+    "description": "[模块级] KRAGEN 项目的 Alzkb_Q_A_Embedding 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "alzkb_q_a_embedding"
+    ],
+    "genes": [
+      {
+        "title": "Alzkb_Q_A_Embedding 模块说明",
+        "content": "模块路径: Alzkb_Q_A_Embedding/\n类型: source\n文件数: 5\n\n包含文件:\n- Alzkb_Q_A_Embedding/.env.sample\n- Alzkb_Q_A_Embedding/.gitignore\n- Alzkb_Q_A_Embedding/readme.md\n- Alzkb_Q_A_Embedding/requirements.txt\n- Alzkb_Q_A_Embedding/test_data.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Alzkb_Q_A_Embedding 文件结构",
+        "content": "Alzkb_Q_A_Embedding/.env.sample\nAlzkb_Q_A_Embedding/.gitignore\nAlzkb_Q_A_Embedding/readme.md\nAlzkb_Q_A_Embedding/requirements.txt\nAlzkb_Q_A_Embedding/test_data.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/KRAGEN_Dashboard 模块",
+    "description": "[模块级] KRAGEN 项目的 KRAGEN_Dashboard 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "kragen_dashboard"
+    ],
+    "genes": [
+      {
+        "title": "KRAGEN_Dashboard 模块说明",
+        "content": "模块路径: KRAGEN_Dashboard/\n类型: source\n文件数: 139\n\n包含文件:\n- KRAGEN_Dashboard/Backend\n- KRAGEN_Dashboard/Backend/.env.sample.notused\n- KRAGEN_Dashboard/Backend/Dockerfile\n- KRAGEN_Dashboard/Backend/ExecGPTServer\n- KRAGEN_Dashboard/Backend/ExecGPTServer/__init__.py\n- KRAGEN_Dashboard/Backend/ExecGPTServer/api\n- KRAGEN_Dashboard/Backend/ExecGPTServer/api/__init__.py\n- KRAGEN_Dashboard/Backend/ExecGPTServer/api/api.py\n- KRAGEN_Dashboard/Backend/ExecGPTServer/api/chatapi.py\n- KRAGEN_Dashboard/Backend/ExecGPTServer/api/execapi.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "KRAGEN_Dashboard 文件结构",
+        "content": "KRAGEN_Dashboard/Backend\nKRAGEN_Dashboard/Backend/.env.sample.notused\nKRAGEN_Dashboard/Backend/Dockerfile\nKRAGEN_Dashboard/Backend/ExecGPTServer\nKRAGEN_Dashboard/Backend/ExecGPTServer/__init__.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/api\nKRAGEN_Dashboard/Backend/ExecGPTServer/api/__init__.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/api/api.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/api/chatapi.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/api/execapi.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/api/openai.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/db\nKRAGEN_Dashboard/Backend/ExecGPTServer/db/__init__.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/db/db.py\nKRAGEN_Dashboard/Backend/ExecGPTServer/notused",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/config 模块",
+    "description": "[模块级] KRAGEN 项目的 config 模块 (config)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "Once all the **Installation** steps are performed, KRAGEN is fully configured. However, if you update any configuration variables in your `.env` or `config/kragen.env` file, you will need to run a command to update KRAGEN's Backend configuration. Make sure KRAGEN is [stopped](#stopping-kragen) and then run:  \n`docker compose run kragen config_backend`  \nand then boot up KRAGEN:  \n`docker compose up gui`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/class.json\nconfig/kragen.env",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/docker 模块",
+    "description": "[模块级] KRAGEN 项目的 docker 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 3\n\n包含文件:\n- docker/Dockerfile\n- docker/prod.Dockerfile\n- docker/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile\ndocker/prod.Dockerfile\ndocker/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/images 模块",
+    "description": "[模块级] KRAGEN 项目的 images 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/KG2Diagram.png\n- images/KG2VectorDB_Process.png\n- images/OIG4.jpeg\n- images/radar_chart_kragen.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/KG2Diagram.png\nimages/KG2VectorDB_Process.png\nimages/OIG4.jpeg\nimages/radar_chart_kragen.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/release 模块",
+    "description": "[模块级] KRAGEN 项目的 release 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "release"
+    ],
+    "genes": [
+      {
+        "title": "release 模块说明",
+        "content": "模块路径: release/\n类型: source\n文件数: 3\n\n包含文件:\n- release/deploy_production_release.sh\n- release/generate_production_release.sh\n- release/readme.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "release 文件结构",
+        "content": "release/deploy_production_release.sh\nrelease/generate_production_release.sh\nrelease/readme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/src 模块",
+    "description": "[模块级] KRAGEN 项目的 src 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 10\n\n包含文件:\n- src/__init__.py\n- src/addTokenInfo.py\n- src/config.py\n- src/convert.py\n- src/extract_data.ipynb\n- src/k_setup.py\n- src/kragen.py\n- src/make_vector.py\n- src/parse.py\n- src/upload.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/addTokenInfo.py\nsrc/config.py\nsrc/convert.py\nsrc/extract_data.ipynb\nsrc/k_setup.py\nsrc/kragen.py\nsrc/make_vector.py\nsrc/parse.py\nsrc/upload.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  },
+  {
+    "name": "KRAGEN/test_data 模块",
+    "description": "[模块级] KRAGEN 项目的 test_data 模块 (source)。来源: https://github.com/EpistasisLab/KRAGEN",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-683",
+      "github-epistasislab",
+      "module-level",
+      "source",
+      "test_data"
+    ],
+    "genes": [
+      {
+        "title": "test_data 模块说明",
+        "content": "模块路径: test_data/\n类型: source\n文件数: 8\n\n包含文件:\n- test_data/MCQ_1hop.json\n- test_data/MCQ_2hop.json\n- test_data/MCQ_genes.json\n- test_data/OpenEnded_1hop.json\n- test_data/OpenEnded_2hop.json\n- test_data/OpenEnded_genes.json\n- test_data/True_or_False_1hop.json\n- test_data/True_or_False_2hop.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test_data 文件结构",
+        "content": "test_data/MCQ_1hop.json\ntest_data/MCQ_2hop.json\ntest_data/MCQ_genes.json\ntest_data/OpenEnded_1hop.json\ntest_data/OpenEnded_2hop.json\ntest_data/OpenEnded_genes.json\ntest_data/True_or_False_1hop.json\ntest_data/True_or_False_2hop.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.633768281472613
+  }
+]

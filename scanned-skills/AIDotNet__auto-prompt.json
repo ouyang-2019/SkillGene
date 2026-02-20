@@ -1,0 +1,135 @@
+[
+  {
+    "name": "auto-prompt (AIDotNet)",
+    "description": "[项目级] AI Prompt Optimization Platform is a professional prompt engineering tool designed to help users optimize AI model prompts, enhancing the effectiveness and accuracy of AI interactions. The platform integrates intelligent optimization algorithms, deep reasoning analysis, visualization debugging tools, and community sharing features, providing compre。来源: https://github.com/AIDotNet/auto-prompt",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "prompt",
+      "typescript",
+      "stars-636",
+      "github-aidotnet",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The AI Prompt Optimization Platform is a professional tool designed to help users optimize prompts for AI models, enhancing AI conversation effectiveness and response accuracy. The platform integrates intelligent optimization algorithms, deep inference analysis, visualization debugging tools, and community sharing features, providing comprehensive prompt optimization solutions for AI application developers and content creators.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Console.sln\nDEPLOYMENT.md\nLICENSE\nREADME.md\nREADME.zh-CN.md\ndeploy.sh\ndocker-compose-deepseek.yaml\ndocker-compose-google.yaml\ndocker-compose-ollama.yaml\ndocker-compose-volcengine.yaml\ndocker-compose.yaml\ndocs\ndocs/PromptService-API.md\ndocs/PromptService-Quick-Reference.md\ndocs/README.md\nimg\nimg/wechat.jpg\nsrc\nsrc/Console.Core\nsrc/Console.Service",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.401728557824207
+  },
+  {
+    "name": "auto-prompt/docs 模块",
+    "description": "[模块级] auto-prompt 项目的 docs 模块 (docs)。来源: https://github.com/AIDotNet/auto-prompt",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "prompt",
+      "typescript",
+      "stars-636",
+      "github-aidotnet",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/PromptService-API.md\n- docs/PromptService-Quick-Reference.md\n- docs/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/PromptService-API.md\ndocs/PromptService-Quick-Reference.md\ndocs/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6213828462593654
+  },
+  {
+    "name": "auto-prompt/src 模块",
+    "description": "[模块级] auto-prompt 项目的 src 模块 (source)。来源: https://github.com/AIDotNet/auto-prompt",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "prompt",
+      "typescript",
+      "stars-636",
+      "github-aidotnet",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 139\n\n包含文件:\n- src/Console.Core\n- src/Console.Core/Console.Core.csproj\n- src/Console.Core/ConsoleDbContext.cs\n- src/Console.Core/Entities\n- src/Console.Core/Entities/ApiKey.cs\n- src/Console.Core/Entities/EvaluationRecord.cs\n- src/Console.Core/Entities/GeneratedImage.cs\n- src/Console.Core/Entities/PromptComment.cs\n- src/Console.Core/Entities/PromptHistory.cs\n- src/Console.Core/Entities/PromptTemplate.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Console.Core\nsrc/Console.Core/Console.Core.csproj\nsrc/Console.Core/ConsoleDbContext.cs\nsrc/Console.Core/Entities\nsrc/Console.Core/Entities/ApiKey.cs\nsrc/Console.Core/Entities/EvaluationRecord.cs\nsrc/Console.Core/Entities/GeneratedImage.cs\nsrc/Console.Core/Entities/PromptComment.cs\nsrc/Console.Core/Entities/PromptHistory.cs\nsrc/Console.Core/Entities/PromptTemplate.cs\nsrc/Console.Core/Entities/User.cs\nsrc/Console.Core/Entities/UserFavorite.cs\nsrc/Console.Core/Entities/UserLike.cs\nsrc/Console.Core/IDbContext.cs\nsrc/Console.Service",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6213828462593654
+  },
+  {
+    "name": "auto-prompt/web 模块",
+    "description": "[模块级] auto-prompt 项目的 web 模块 (source)。来源: https://github.com/AIDotNet/auto-prompt",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "prompt",
+      "typescript",
+      "stars-636",
+      "github-aidotnet",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "模块路径: web/\n类型: source\n文件数: 35\n\n包含文件:\n- web/.cursor\n- web/.cursor/rules\n- web/.cursor/rules/all.mdc\n- web/.vscode\n- web/.vscode/settings.json\n- web/bun.lock\n- web/eslint.config.js\n- web/index.html\n- web/package-lock.json\n- web/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/.cursor\nweb/.cursor/rules\nweb/.cursor/rules/all.mdc\nweb/.vscode\nweb/.vscode/settings.json\nweb/bun.lock\nweb/eslint.config.js\nweb/index.html\nweb/package-lock.json\nweb/package.json\nweb/public\nweb/public/favicon.ico\nweb/public/manifest.json\nweb/public/robots.txt\nweb/public/score.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6213828462593654
+  }
+]

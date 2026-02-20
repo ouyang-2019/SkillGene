@@ -1,0 +1,78 @@
+[
+  {
+    "name": "duckdb-embedding-search (patricktrainer)",
+    "description": "[项目级] Fast similarity search using DuckDB。来源: https://github.com/patricktrainer/duckdb-embedding-search",
+    "domain": "devops",
+    "tags": [
+      "cosine-similarity",
+      "duckdb",
+      "embeddings",
+      "gpt-4",
+      "llm",
+      "python",
+      "stars-146",
+      "github-patricktrainer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains a Python application that utilizes DuckDB as a backend to store and retrieve embedding vectors. The novel use of DuckDB allows for efficient similarity searches among large datasets. In this example, we've loaded comments from Hacker News and implemented functionality to find the 10 most similar comments to a given comment.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndata\ndata/embeddings_cache.pkl\nload_comments.py\nmain.py\nrequirements.txt\nsrc\nsrc/__init__.py\nsrc/connection.py\nsrc/embedding.py\nsrc/openai_client.py\nsrc/operations.py\nsrc/rag.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "To use the application, follow these steps:\n\n1. **Set up your OpenAI API key**: Ensure you have your OpenAI API key set in your environment variables.\n2. **Load the Comments**: Use `load_comments.py` to load comments into the DuckDB database. The comments and their corresponding embedding vectors will be stored in the `embeddings` table of the `hn_embeddings.db` database.\n3. **Run the Similarity Search**: Execute the main script (e.g., `main.py`) and provide a Hacker News comment. The script will return the 10 most similar comments from the database.\n\n> **Note** - The `get_similarity` function",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **DuckDB Backend**: Utilizes DuckDB for efficient storage and retrieval of embedding vectors.\n- **Embedding Vectors**: Embedding vectors are generated using OpenAI's models, ensuring high-quality semantic understanding.\n- **Similarity Search**: Finds the most similar comments from a large dataset based on embedding comparisons.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.082176427892218
+  },
+  {
+    "name": "duckdb-embedding-search/src 模块",
+    "description": "[模块级] duckdb-embedding-search 项目的 src 模块 (source)。来源: https://github.com/patricktrainer/duckdb-embedding-search",
+    "domain": "devops",
+    "tags": [
+      "cosine-similarity",
+      "duckdb",
+      "embeddings",
+      "gpt-4",
+      "llm",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 6\n\n包含文件:\n- src/__init__.py\n- src/connection.py\n- src/embedding.py\n- src/openai_client.py\n- src/operations.py\n- src/rag.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/connection.py\nsrc/embedding.py\nsrc/openai_client.py\nsrc/operations.py\nsrc/rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.365741142313775
+  }
+]

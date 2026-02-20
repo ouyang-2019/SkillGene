@@ -1,0 +1,66 @@
+[
+  {
+    "name": "cartographer (kingbootoshi)",
+    "description": "[项目级] Claude Code plugin that maps and documents codebases of any size using parallel AI subagents。来源: https://github.com/kingbootoshi/cartographer",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-482",
+      "github-kingbootoshi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code plugin that maps and documents codebases of any size using parallel AI subagents\n\n来源: https://github.com/kingbootoshi/cartographer\n语言: Python\nStars: 482",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add kingbootoshi/cartographer",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nplugins\nplugins/cartographer",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "⚠️ **NOTE:** This skill spawns Sonnet subagents for accurate, reliable analysis. Depending on codebase size, this can use significant tokens. Be mindful of your usage.\n\nYou can ask Claude to use Haiku subagents instead for a cheaper run, but accuracy may suffer on complex codebases.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.341523519119425
+  },
+  {
+    "name": "cartographer/plugins 模块",
+    "description": "[模块级] cartographer 项目的 plugins 模块 (source)。来源: https://github.com/kingbootoshi/cartographer",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-482",
+      "github-kingbootoshi",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 10\n\n包含文件:\n- plugins/cartographer\n- plugins/cartographer/.claude-plugin\n- plugins/cartographer/.claude-plugin/plugin.json\n- plugins/cartographer/LICENSE\n- plugins/cartographer/README.md\n- plugins/cartographer/skills\n- plugins/cartographer/skills/cartographer\n- plugins/cartographer/skills/cartographer/SKILL.md\n- plugins/cartographer/skills/cartographer/scripts\n- plugins/cartographer/skills/cartographer/scripts/scan-codebase.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/cartographer\nplugins/cartographer/.claude-plugin\nplugins/cartographer/.claude-plugin/plugin.json\nplugins/cartographer/LICENSE\nplugins/cartographer/README.md\nplugins/cartographer/skills\nplugins/cartographer/skills/cartographer\nplugins/cartographer/skills/cartographer/SKILL.md\nplugins/cartographer/skills/cartographer/scripts\nplugins/cartographer/skills/cartographer/scripts/scan-codebase.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.57321881529554
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "arcadedb (ArcadeData)",
+    "description": "[项目级] ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.。来源: https://github.com/ArcadeData/arcadedb",
+    "domain": "devops",
+    "tags": [
+      "arcadedb",
+      "database",
+      "dbms",
+      "distributed",
+      "docker",
+      "java",
+      "stars-704",
+      "github-arcadedata",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ArcadeDB Multi-Model Database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis. ArcadeDB is a conceptual fork of OrientDB, the first Multi-Model DBMS. ArcadeDB supports Vector Embeddings.\n\n来源: https://github.com/ArcadeData/arcadedb\n语言: Java\nStars: 704",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run --rm -p 2480:2480 -p 2424:2424 \\\n           -e JAVA_OPTS=\"-Darcadedb.server.rootPassword=playwithdata -Darcadedb.server.defaultDatabases=Imported[root]{import:https://github.com/ArcadeData/arcadedb-datasets/raw/main/orientdb/OpenBeer.gz}\" \\\n           arcadedata/arcadedb:latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ATTRIBUTIONS.md\nCITATION.cff\nCLAUDE.md\nCONTRIBUTING.md\nJenkinsfile\nLICENSE\nLICENSES\nLICENSES/Apache-2.0.txt\nNOTICE\nPLUGINS.md\nREADME.md\nREUSE.toml\nSECURITY.md\nbindings\nbindings/python\nbolt\nbolt/pom.xml\nbolt/src\nconsole\nconsole/pom.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.423786329571056
+  },
+  {
+    "name": "arcadedb/bindings 模块",
+    "description": "[模块级] arcadedb 项目的 bindings 模块 (source)。来源: https://github.com/ArcadeData/arcadedb",
+    "domain": "devops",
+    "tags": [
+      "arcadedb",
+      "database",
+      "dbms",
+      "distributed",
+      "docker",
+      "module-level",
+      "source",
+      "bindings"
+    ],
+    "genes": [
+      {
+        "title": "bindings 模块说明",
+        "content": "模块路径: bindings/\n类型: source\n文件数: 65\n\n包含文件:\n- bindings/python\n- bindings/python/.gitignore\n- bindings/python/Dockerfile.build\n- bindings/python/README.md\n- bindings/python/build-native.sh\n- bindings/python/build.sh\n- bindings/python/ensure-build-tools.sh\n- bindings/python/examples\n- bindings/python/examples/.gitignore\n- bindings/python/examples/01_simple_document_store.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bindings 文件结构",
+        "content": "bindings/python\nbindings/python/.gitignore\nbindings/python/Dockerfile.build\nbindings/python/README.md\nbindings/python/build-native.sh\nbindings/python/build.sh\nbindings/python/ensure-build-tools.sh\nbindings/python/examples\nbindings/python/examples/.gitignore\nbindings/python/examples/01_simple_document_store.py\nbindings/python/examples/02_social_network_graph.py\nbindings/python/examples/03_vector_search.py\nbindings/python/examples/04_csv_import_documents.py\nbindings/python/examples/05_csv_import_graph.py\nbindings/python/examples/06_vector_search_recommendations.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "arcadedb/bolt 模块",
+    "description": "[模块级] arcadedb 项目的 bolt 模块 (source)。来源: https://github.com/ArcadeData/arcadedb",
+    "domain": "devops",
+    "tags": [
+      "arcadedb",
+      "database",
+      "dbms",
+      "distributed",
+      "docker",
+      "module-level",
+      "source",
+      "bolt"
+    ],
+    "genes": [
+      {
+        "title": "bolt 模块说明",
+        "content": "模块路径: bolt/\n类型: source\n文件数: 62\n\n包含文件:\n- bolt/pom.xml\n- bolt/src\n- bolt/src/main\n- bolt/src/main/java\n- bolt/src/main/java/com\n- bolt/src/main/java/com/arcadedb\n- bolt/src/main/java/com/arcadedb/bolt\n- bolt/src/main/java/com/arcadedb/bolt/BoltChunkedInput.java\n- bolt/src/main/java/com/arcadedb/bolt/BoltChunkedOutput.java\n- bolt/src/main/java/com/arcadedb/bolt/BoltErrorCodes.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bolt 文件结构",
+        "content": "bolt/pom.xml\nbolt/src\nbolt/src/main\nbolt/src/main/java\nbolt/src/main/java/com\nbolt/src/main/java/com/arcadedb\nbolt/src/main/java/com/arcadedb/bolt\nbolt/src/main/java/com/arcadedb/bolt/BoltChunkedInput.java\nbolt/src/main/java/com/arcadedb/bolt/BoltChunkedOutput.java\nbolt/src/main/java/com/arcadedb/bolt/BoltErrorCodes.java\nbolt/src/main/java/com/arcadedb/bolt/BoltException.java\nbolt/src/main/java/com/arcadedb/bolt/BoltNetworkExecutor.java\nbolt/src/main/java/com/arcadedb/bolt/BoltNetworkListener.java\nbolt/src/main/java/com/arcadedb/bolt/BoltProtocolPlugin.java\nbolt/src/main/java/com/arcadedb/bolt/BoltWebSocketInputStream.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "arcadedb/console 模块",
+    "description": "[模块级] arcadedb 项目的 console 模块 (source)。来源: https://github.com/ArcadeData/arcadedb",
+    "domain": "devops",
+    "tags": [
+      "arcadedb",
+      "database",
+      "dbms",
+      "distributed",
+      "docker",
+      "module-level",
+      "source",
+      "console"
+    ],
+    "genes": [
+      {
+        "title": "console 模块说明",
+        "content": "模块路径: console/\n类型: source\n文件数: 30\n\n包含文件:\n- console/pom.xml\n- console/src\n- console/src/main\n- console/src/main/java\n- console/src/main/java/com\n- console/src/main/java/com/arcadedb\n- console/src/main/java/com/arcadedb/console\n- console/src/main/java/com/arcadedb/console/Console.java\n- console/src/main/java/com/arcadedb/console/ConsoleException.java\n- console/src/main/java/com/arcadedb/console/ConsoleOutput.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "console 文件结构",
+        "content": "console/pom.xml\nconsole/src\nconsole/src/main\nconsole/src/main/java\nconsole/src/main/java/com\nconsole/src/main/java/com/arcadedb\nconsole/src/main/java/com/arcadedb/console\nconsole/src/main/java/com/arcadedb/console/Console.java\nconsole/src/main/java/com/arcadedb/console/ConsoleException.java\nconsole/src/main/java/com/arcadedb/console/ConsoleOutput.java\nconsole/src/main/java/com/arcadedb/console/TerminalParser.java\nconsole/src/test\nconsole/src/test/java\nconsole/src/test/java/com\nconsole/src/test/java/com/arcadedb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  }
+]

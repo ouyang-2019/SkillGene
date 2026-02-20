@@ -1,0 +1,173 @@
+[
+  {
+    "name": "masked-ai (cado-security)",
+    "description": "[项目级] Masked Python SDK wrapper for OpenAI API. Use public LLM APIs securely.。来源: https://github.com/cado-security/masked-ai",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Masked Python SDK wrapper for OpenAI API. Use public LLM APIs securely.\n\n来源: https://github.com/cado-security/masked-ai\n语言: Python\nStars: 120",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nci\nci/flake8.cfg\nci/mypy.cfg\ndocs\ndocs/actions_screenshot.png\ndocs/flow.svg\ndocs/flow2.png\ndocs/screenshot1.png\ndocs/screenshot2.png\nmasked_ai\nmasked_ai/__init__.py\nmasked_ai/core\nmasked_ai/masker.py\nrelease\nrelease/generate_linux_binary.sh\nrelease/generate_osx_binary.sh\nrelease/generate_windows_binary.bat\nrelease/upload_pip.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can deploy Masked-AI straight from pip (\"pip3 install masked-ai\") or from our GitHub repo (\"python3 setup.py install\"). It can be used as both a python library or over the CLI.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0395906230238126
+  },
+  {
+    "name": "masked-ai/ci 模块",
+    "description": "[模块级] masked-ai 项目的 ci 模块 (source)。来源: https://github.com/cado-security/masked-ai",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 2\n\n包含文件:\n- ci/flake8.cfg\n- ci/mypy.cfg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/flake8.cfg\nci/mypy.cfg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  },
+  {
+    "name": "masked-ai/docs 模块",
+    "description": "[模块级] masked-ai 项目的 docs 模块 (docs)。来源: https://github.com/cado-security/masked-ai",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/actions_screenshot.png\n- docs/flow.svg\n- docs/flow2.png\n- docs/screenshot1.png\n- docs/screenshot2.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/actions_screenshot.png\ndocs/flow.svg\ndocs/flow2.png\ndocs/screenshot1.png\ndocs/screenshot2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  },
+  {
+    "name": "masked-ai/masked_ai 模块",
+    "description": "[模块级] masked-ai 项目的 masked_ai 模块 (source)。来源: https://github.com/cado-security/masked-ai",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "module-level",
+      "source",
+      "masked_ai"
+    ],
+    "genes": [
+      {
+        "title": "masked_ai 模块说明",
+        "content": "模块路径: masked_ai/\n类型: source\n文件数: 5\n\n包含文件:\n- masked_ai/__init__.py\n- masked_ai/core\n- masked_ai/core/__init__.py\n- masked_ai/core/masks.py\n- masked_ai/masker.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "masked_ai 文件结构",
+        "content": "masked_ai/__init__.py\nmasked_ai/core\nmasked_ai/core/__init__.py\nmasked_ai/core/masks.py\nmasked_ai/masker.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  },
+  {
+    "name": "masked-ai/release 模块",
+    "description": "[模块级] masked-ai 项目的 release 模块 (source)。来源: https://github.com/cado-security/masked-ai",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "module-level",
+      "source",
+      "release"
+    ],
+    "genes": [
+      {
+        "title": "release 模块说明",
+        "content": "1. Go to the Repo's Releases page (https://github.com/cado-security/masked-ai/releases) - and click \"Draft a new release\"\n2. Make the tag and the name of the release follow the following format: [Major].[Minor].[Patch] (i.e. 1.0.0)\n3. Add release notes to the description and click \"Publish Release\"\n4. This will kick off a GitHub Action Workflow named `publish.yml` with 4 steps: Linux, Windows, MacOS and Pypi\n5. The PyPi stage will automatically upload package, but for the CLI tools you'd need to",
+        "gene_type": "principle"
+      },
+      {
+        "title": "release 文件结构",
+        "content": "release/generate_linux_binary.sh\nrelease/generate_osx_binary.sh\nrelease/generate_windows_binary.bat\nrelease/upload_pip.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  },
+  {
+    "name": "masked-ai/tests 模块",
+    "description": "[模块级] masked-ai 项目的 tests 模块 (test)。来源: https://github.com/cado-security/masked-ai",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-120",
+      "github-cado-security",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/__init__.py\n- tests/test_core\n- tests/test_core/__init__.py\n- tests/test_core/test_masks.py\n- tests/test_masker.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_core\ntests/test_core/__init__.py\ntests/test_core/test_masks.py\ntests/test_masker.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  }
+]

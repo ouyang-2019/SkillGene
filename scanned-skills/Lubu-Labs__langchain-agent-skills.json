@@ -1,0 +1,61 @@
+[
+  {
+    "name": "langchain-agent-skills (Lubu-Labs)",
+    "description": "[项目级] A collection of agent-optimized LangChain, LangGraph and LangSmith skills for AI coding assistants.。来源: https://github.com/Lubu-Labs/langchain-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-63",
+      "github-lubu-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agent-optimized LangChain, LangGraph and LangSmith skills for AI coding assistants.\n\n来源: https://github.com/Lubu-Labs/langchain-agent-skills\n语言: Python\nStars: 63",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "uv venv --python=3.12\nuv sync",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\nskills\nskills/deepagents-planning-todos\nskills/deepagents-setup-configuration\nskills/langgraph-agent-patterns\nskills/langgraph-error-handling\nskills/langgraph-project-setup\nskills/langgraph-state-management\nskills/langgraph-testing-evaluation\nskills/langsmith-deployment\nskills/langsmith-trace-analyzer",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.899670274726791
+  },
+  {
+    "name": "langchain-agent-skills/skills 模块",
+    "description": "[模块级] langchain-agent-skills 项目的 skills 模块 (source)。来源: https://github.com/Lubu-Labs/langchain-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-63",
+      "github-lubu-labs",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A comprehensive collection of agent-optimized skills for AI coding assistants working in the LangChain ecosystem. These skills cover the complete development lifecycle from project setup to production deployment, monitoring, debugging, and Deep Agents setup/configuration.\n\nEach skill is a self-contained package with a `SKILL.md` entry point plus optional scripts, references, and templates.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/deepagents-planning-todos\nskills/deepagents-planning-todos/SKILL.md\nskills/deepagents-planning-todos/assets\nskills/deepagents-planning-todos/assets/examples\nskills/deepagents-planning-todos/assets/examples/todo-driven-agent\nskills/deepagents-planning-todos/assets/examples/todo-driven-agent/.env.example\nskills/deepagents-planning-todos/assets/examples/todo-driven-agent/README.md\nskills/deepagents-planning-todos/assets/examples/todo-driven-agent/agent.py\nskills/deepagents-planning-todos/assets/examples/todo-driven-agent/pyproject.toml\nskills/deepagents-planning-todos/assets/todo-structures\nskills/deepagents-planning-todos/assets/todo-structures/coding-todos.json\nskills/deepagents-planning-todos/assets/todo-structures/research-todos.json\nskills/deepagents-planning-todos/references\nskills/deepagents-planning-todos/references/todo-patterns.md\nskills/deepagents-planning-todos/scripts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2197362197814328
+  }
+]

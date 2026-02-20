@@ -1,0 +1,68 @@
+[
+  {
+    "name": "yao (YaoApp)",
+    "description": "[项目级] ✨ Yao is an open-source engine for autonomous agents — event-driven, proactive, and self-scheduling.。来源: https://github.com/YaoApp/yao",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-applications",
+      "go",
+      "stars-7499",
+      "github-yaoapp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "✨ Yao is an open-source engine for autonomous agents — event-driven, proactive, and self-scheduling.\n\n来源: https://github.com/YaoApp/yao\n语言: Go\nStars: 7499",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "COMMERCIAL_LICENSE.md\nCOMMERCIAL_LICENSE.zh-CN.md\nLICENSE\nMakefile\nREADME.md\nREADME.zh-CN.md\nagent\nagent/README.md\nagent/agent_test.go\nagent/assistant\nagent/caller\nagent/content\nagent/context\nagent/docs\nagent/i18n\nagent/llm",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.937501676800021
+  },
+  {
+    "name": "yao/agent 模块",
+    "description": "[模块级] yao 项目的 agent 模块 (source)。来源: https://github.com/YaoApp/yao",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-applications",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "Yao is an open-source engine for autonomous agents — event-driven, proactive, and self-scheduling.\n\n![Mission Control](docs/mission-control.png)\n\n**Quick Links:**\n\n**🏠 Homepage:** [https://yaoapps.com](https://yaoapps.com)\n\n**🚀 Quick Start:** [https://yaoapps.com/docs/documentation/en-us/getting-started](https://yaoapps.com/docs/documentation/en-us/getting-started#quickstart)\n\n**📚 Documentation:** [https://yaoapps.com/docs](https://yaoapps.com/docs)\n\n**✨ Why Yao?** [https://yaoapps.com/docs/w",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/README.md\nagent/agent_test.go\nagent/assistant\nagent/assistant/agent.go\nagent/assistant/agent_interrupt_test.go\nagent/assistant/agent_next_test.go\nagent/assistant/assistant.go\nagent/assistant/build.go\nagent/assistant/build_content.go\nagent/assistant/build_mcp_test.go\nagent/assistant/build_prompts_test.go\nagent/assistant/build_test.go\nagent/assistant/cache.go\nagent/assistant/cache_test.go\nagent/assistant/chat.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.050001341440017
+  }
+]

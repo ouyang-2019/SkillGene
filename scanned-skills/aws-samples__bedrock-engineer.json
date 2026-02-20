@@ -1,0 +1,133 @@
+[
+  {
+    "name": "bedrock-engineer (aws-samples)",
+    "description": "[项目级] Universal AI Agent using Amazon Bedrock, capable of customize to create/edit files, execute commands, search the web, use knowledge base, use multi-agents, generative images and more.。来源: https://github.com/aws-samples/bedrock-engineer",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aws",
+      "bedrock",
+      "claude",
+      "typescript",
+      "stars-461",
+      "github-aws-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Universal AI Agent using Amazon Bedrock, capable of customize to create/edit files, execute commands, search the web, use knowledge base, use multi-agents, generative images and more.\n\n来源: https://github.com/aws-samples/bedrock-engineer\n语言: TypeScript\nStars: 461",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Bedrock Engineer is a native app, you can download the app or build the source code to use it.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME-ja.md\nREADME.md\nassets\nassets/agent-chat-diagram.png\nassets/agent-chat-search.png\nassets/agent-directory.png\nassets/background-agent.png\nassets/custom-agents.png\nassets/custom-tools.png\nassets/diagram-generator.png\nassets/macos-security-warning-pkg-privacy-setting.png\nassets/macos-security-warning-pkg.png\nassets/select-agents.png\nassets/select-tools.png\nassets/step-functions-generator.png\nassets/voice-chat-page.png\nassets/website-generator-data-visualization.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🕒 **Scheduled Execution**: Automate tasks using cron expressions (hourly, daily, weekly, etc.)\n- 🔄 **Session Continuity**: Maintain conversation context across task executions\n- ⚡ **Manual Execution**: Run tasks immediately when needed\n- 📊 **Execution Tracking**: Monitor task history and performance\n- 🔔 **Real-time Notifications**: Get instant feedback on task results",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.331850462694824
+  },
+  {
+    "name": "bedrock-engineer/assets 模块",
+    "description": "[模块级] bedrock-engineer 项目的 assets 模块 (source)。来源: https://github.com/aws-samples/bedrock-engineer",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aws",
+      "bedrock",
+      "claude",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 16\n\n包含文件:\n- assets/agent-chat-diagram.png\n- assets/agent-chat-search.png\n- assets/agent-directory.png\n- assets/background-agent.png\n- assets/custom-agents.png\n- assets/custom-tools.png\n- assets/diagram-generator.png\n- assets/macos-security-warning-pkg-privacy-setting.png\n- assets/macos-security-warning-pkg.png\n- assets/select-agents.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agent-chat-diagram.png\nassets/agent-chat-search.png\nassets/agent-directory.png\nassets/background-agent.png\nassets/custom-agents.png\nassets/custom-tools.png\nassets/diagram-generator.png\nassets/macos-security-warning-pkg-privacy-setting.png\nassets/macos-security-warning-pkg.png\nassets/select-agents.png\nassets/select-tools.png\nassets/step-functions-generator.png\nassets/voice-chat-page.png\nassets/website-generator-data-visualization.png\nassets/website-generator-healthcare.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  },
+  {
+    "name": "bedrock-engineer/docs 模块",
+    "description": "[模块级] bedrock-engineer 项目的 docs 模块 (docs)。来源: https://github.com/aws-samples/bedrock-engineer",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "aws",
+      "bedrock",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 25\n\n包含文件:\n- docs/agent-directory-organization\n- docs/agent-directory-organization/README-ja.md\n- docs/agent-directory-organization/README.md\n- docs/agent-directory-organization/images\n- docs/agent-directory-organization/images/01-organization-selector.png\n- docs/agent-directory-organization/images/02-add-organization-modal.png\n- docs/agent-directory-organization/images/03-s3-settings.png\n- docs/agent-directory-organization/images/04-select-custom-agent.png\n- docs/agent-directory-organization/images/05-share-to-organization.png\n- docs/agent-directory-organization/images/06-agent-detail-modal.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent-directory-organization\ndocs/agent-directory-organization/README-ja.md\ndocs/agent-directory-organization/README.md\ndocs/agent-directory-organization/images\ndocs/agent-directory-organization/images/01-organization-selector.png\ndocs/agent-directory-organization/images/02-add-organization-modal.png\ndocs/agent-directory-organization/images/03-s3-settings.png\ndocs/agent-directory-organization/images/04-select-custom-agent.png\ndocs/agent-directory-organization/images/05-share-to-organization.png\ndocs/agent-directory-organization/images/06-agent-detail-modal.png\ndocs/agent-directory-organization/images/07-add-to-my-agents.png\ndocs/custom-model-import\ndocs/custom-model-import/README-ja.md\ndocs/custom-model-import/README.md\ndocs/inference-profile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  },
+  {
+    "name": "bedrock-engineer/src 模块",
+    "description": "[模块级] bedrock-engineer 项目的 src 模块 (source)。来源: https://github.com/aws-samples/bedrock-engineer",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aws",
+      "bedrock",
+      "claude",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 101\n\n包含文件:\n- src/common\n- src/common/agents\n- src/common/agents/toolDescriptionProvider.ts\n- src/common/agents/toolRuleGenerator.ts\n- src/common/logger\n- src/common/logger/config.ts\n- src/common/logger/formatters.ts\n- src/common/logger/index.ts\n- src/common/logger/transports\n- src/common/logger/transports/console.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/common\nsrc/common/agents\nsrc/common/agents/toolDescriptionProvider.ts\nsrc/common/agents/toolRuleGenerator.ts\nsrc/common/logger\nsrc/common/logger/config.ts\nsrc/common/logger/formatters.ts\nsrc/common/logger/index.ts\nsrc/common/logger/transports\nsrc/common/logger/transports/console.ts\nsrc/common/logger/transports/file.ts\nsrc/common/mcp\nsrc/common/mcp/schemas.ts\nsrc/common/mcp/utils.ts\nsrc/common/models",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  }
+]

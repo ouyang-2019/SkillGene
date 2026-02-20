@@ -1,0 +1,68 @@
+[
+  {
+    "name": "kuzu (kuzudb)",
+    "description": "[项目级] Embedded property graph database built for speed. Vector search and full-text search built in. Implements Cypher.。来源: https://github.com/kuzudb/kuzu",
+    "domain": "general",
+    "tags": [
+      "cypher",
+      "database",
+      "embeddable",
+      "embedded",
+      "graph",
+      "c++",
+      "stars-3672",
+      "github-kuzudb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Embedded property graph database built for speed. Vector search and full-text search built in. Implements Cypher.\n\n来源: https://github.com/kuzudb/kuzu\n语言: C++\nStars: 3672",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Refer to our [Getting Started](https://kuzudb.github.io/docs/get-started/) page for your first example.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLA.md\nCMakeLists.txt\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nbenchmark\nbenchmark/benchmark_runner.py\nbenchmark/click\nbenchmark/lsqb\nbenchmark/queries",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.782451336264602
+  },
+  {
+    "name": "kuzu/benchmark 模块",
+    "description": "[模块级] kuzu 项目的 benchmark 模块 (source)。来源: https://github.com/kuzudb/kuzu",
+    "domain": "general",
+    "tags": [
+      "cypher",
+      "database",
+      "embeddable",
+      "embedded",
+      "graph",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 145\n\n包含文件:\n- benchmark/benchmark_runner.py\n- benchmark/click\n- benchmark/click/LICENSE.txt\n- benchmark/click/README.md\n- benchmark/click/benchmark.sh\n- benchmark/click/create.cypher\n- benchmark/click/load.py\n- benchmark/click/queries.cypher\n- benchmark/click/query.py\n- benchmark/click/run.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/benchmark_runner.py\nbenchmark/click\nbenchmark/click/LICENSE.txt\nbenchmark/click/README.md\nbenchmark/click/benchmark.sh\nbenchmark/click/create.cypher\nbenchmark/click/load.py\nbenchmark/click/queries.cypher\nbenchmark/click/query.py\nbenchmark/click/run.sh\nbenchmark/lsqb\nbenchmark/lsqb/README.md\nbenchmark/lsqb/benchmark_runner.py\nbenchmark/lsqb/queries\nbenchmark/lsqb/queries/q1.cypher",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9259610690116817
+  }
+]

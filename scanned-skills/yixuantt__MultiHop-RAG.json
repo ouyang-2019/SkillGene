@@ -1,0 +1,84 @@
+[
+  {
+    "name": "MultiHop-RAG (yixuantt)",
+    "description": "[项目级] Repository for \"MultiHop-RAG: A Dataset for Evaluating Retrieval-Augmented Generation Across Documents\" (COLM 2024)。来源: https://github.com/yixuantt/MultiHop-RAG",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-424",
+      "github-yixuantt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**MultiHop-RAG**: a QA dataset to evaluate retrieval and reasoning across documents with metadata in the RAG pipelines. It contains 2556 queries, with evidence for each query distributed across 2 to 4 documents. The queries also involve document metadata, reflecting complex scenarios commonly found in real-world RAG applications.  \n\n📄 Paper Link **(Accepted by COLM 2024)**: [MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries](https://arxiv.org/pdf/2401.15391.pdf)  \n🤗 [Hugging Face dataloader](https://huggingface.co/datasets/yixuantt/MultiHopRAG)\n\n![rag.png](resource/rag.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ndataset\ndataset/MultiHopRAG.json\ndataset/corpus.json\npipeline\npipeline/collect_news_api.py\npipeline/datasource\npipeline/fact_or_opinion.py\npipeline/filter_news_dupicate.py\npipeline/filter_news_token.py\npipeline/filter_same_fact.py\npipeline/generate_entity.py\npipeline/generate_key.py\npipeline/group_by_key.py\npipeline/news_crawler.py\npipeline/prepare_claims.py\npipeline/readme.md\npipeline/util.py\nqa_evaluate.py\nqa_llama.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.313682928296366
+  },
+  {
+    "name": "MultiHop-RAG/dataset 模块",
+    "description": "[模块级] MultiHop-RAG 项目的 dataset 模块 (source)。来源: https://github.com/yixuantt/MultiHop-RAG",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-424",
+      "github-yixuantt",
+      "module-level",
+      "source",
+      "dataset"
+    ],
+    "genes": [
+      {
+        "title": "dataset 模块说明",
+        "content": "模块路径: dataset/\n类型: source\n文件数: 2\n\n包含文件:\n- dataset/MultiHopRAG.json\n- dataset/corpus.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dataset 文件结构",
+        "content": "dataset/MultiHopRAG.json\ndataset/corpus.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  },
+  {
+    "name": "MultiHop-RAG/pipeline 模块",
+    "description": "[模块级] MultiHop-RAG 项目的 pipeline 模块 (source)。来源: https://github.com/yixuantt/MultiHop-RAG",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-424",
+      "github-yixuantt",
+      "module-level",
+      "source",
+      "pipeline"
+    ],
+    "genes": [
+      {
+        "title": "pipeline 模块说明",
+        "content": "For research purposes, we open-sourced part of the code to construct the dataset. However, the current structure of the code is not very tidy. We will organize it in the future.\n\n💡 Just For Reference: pipeline/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pipeline 文件结构",
+        "content": "pipeline/collect_news_api.py\npipeline/datasource\npipeline/datasource/api\npipeline/datasource/api/news_api.json\npipeline/fact_or_opinion.py\npipeline/filter_news_dupicate.py\npipeline/filter_news_token.py\npipeline/filter_same_fact.py\npipeline/generate_entity.py\npipeline/generate_key.py\npipeline/group_by_key.py\npipeline/news_crawler.py\npipeline/prepare_claims.py\npipeline/readme.md\npipeline/util.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  }
+]

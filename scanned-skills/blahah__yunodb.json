@@ -1,0 +1,96 @@
+[
+  {
+    "name": "yunodb (blahah)",
+    "description": "[项目级] A portable, persistent, electron-embeddable fulltext search + document store database for node.js。来源: https://github.com/blahah/yunodb",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "electron",
+      "fulltext-search",
+      "javascript",
+      "stars-254",
+      "github-blahah",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A portable, persistent, electron-embeddable fulltext search + document store database for node.js\n\n来源: https://github.com/blahah/yunodb\n语言: JavaScript\nStars: 254",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install --save yunodb",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncli.js\ncursor.js\nindex.js\npackage.json\npreprocess\npreprocess/preprocess.js\npreprocess/tagger\npreprocess/vector.js\ntest\ntest/add.js\ntest/create.js\ntest/del.js\ntest/preprocess.js\ntest/reuters-000.json\ntest/search.js\nyuno.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.202416858309969
+  },
+  {
+    "name": "yunodb/preprocess 模块",
+    "description": "[模块级] yunodb 项目的 preprocess 模块 (source)。来源: https://github.com/blahah/yunodb",
+    "domain": "devops",
+    "tags": [
+      "database",
+      "electron",
+      "fulltext-search",
+      "javascript",
+      "stars-254",
+      "module-level",
+      "source",
+      "preprocess"
+    ],
+    "genes": [
+      {
+        "title": "preprocess 模块说明",
+        "content": "模块路径: preprocess/\n类型: source\n文件数: 6\n\n包含文件:\n- preprocess/preprocess.js\n- preprocess/tagger\n- preprocess/tagger/lexicon_from_posjs.json\n- preprocess/tagger/tr_from_brill_paper.txt\n- preprocess/tagger/tr_from_posjs.txt\n- preprocess/vector.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "preprocess 文件结构",
+        "content": "preprocess/preprocess.js\npreprocess/tagger\npreprocess/tagger/lexicon_from_posjs.json\npreprocess/tagger/tr_from_brill_paper.txt\npreprocess/tagger/tr_from_posjs.txt\npreprocess/vector.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "yunodb/test 模块",
+    "description": "[模块级] yunodb 项目的 test 模块 (test)。来源: https://github.com/blahah/yunodb",
+    "domain": "testing",
+    "tags": [
+      "database",
+      "electron",
+      "fulltext-search",
+      "javascript",
+      "stars-254",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 6\n\n包含文件:\n- test/add.js\n- test/create.js\n- test/del.js\n- test/preprocess.js\n- test/reuters-000.json\n- test/search.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/add.js\ntest/create.js\ntest/del.js\ntest/preprocess.js\ntest/reuters-000.json\ntest/search.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  }
+]

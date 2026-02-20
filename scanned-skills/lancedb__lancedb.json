@@ -1,0 +1,108 @@
+[
+  {
+    "name": "lancedb (lancedb)",
+    "description": "[项目级] Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.。来源: https://github.com/lancedb/lancedb",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "image-search",
+      "nearest-neighbor-search",
+      "recommender-system",
+      "search-engine",
+      "html",
+      "stars-9015",
+      "github-lancedb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.\n\n来源: https://github.com/lancedb/lancedb\n语言: HTML\nStars: 9015",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Follow the [Quickstart](https://lancedb.com/docs/quickstart/) doc to set up LanceDB locally. \n\n**API & SDK:** We also support Python, Typescript and Rust SDKs\n\n| Interface | Documentation |\n|-----------|---------------|\n| Python SDK | https://lancedb.github.io/lancedb/python/python/ |\n| Typescript SDK | https://lancedb.github.io/lancedb/js/globals/ |\n| Rust SDK | https://docs.rs/lancedb/latest/lancedb/index.html |\n| REST API | https://docs.lancedb.com/api-reference/rest |",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nLICENSE\nMakefile\nREADME.md\nRUST_THIRD_PARTY_LICENSES.html\nabout.hbs\nabout.toml\nci\nci/bump_version.sh\nci/check_breaking_changes.py\nci/check_lance_release.py\nci/create_lancedb_test_connection.sh\nci/mock_openai.py\nci/parse_requirements.py\nci/run_with_docker_compose.sh\nci/run_with_test_connection.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Follow the [Quickstart](https://lancedb.com/docs/quickstart/) doc to set up LanceDB locally. \n\n**API & SDK:** We also support Python, Typescript and Rust SDKs\n\n| Interface | Documentation |\n|-----------|---------------|\n| Python SDK | https://lancedb.github.io/lancedb/python/python/ |\n| Typescript SDK | https://lancedb.github.io/lancedb/js/globals/ |\n| Rust SDK | https://docs.rs/lancedb/latest/lancedb/index.html |\n| REST API | https://docs.lancedb.com/api-reference/rest |",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Fast Vector Search**: Search billions of vectors in milliseconds with state-of-the-art indexing.\n- **Comprehensive Search**: Support for vector similarity search, full-text search and SQL.\n- **Multimodal Support**: Store, query and filter vectors, metadata and multimodal data (text, images, videos, point clouds, and more).\n- **Advanced Features**: Zero-copy, automatic versioning, manage versions of your data without needing extra infrastructure. GPU support in building vector index.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.97748286552921
+  },
+  {
+    "name": "lancedb/ci 模块",
+    "description": "[模块级] lancedb 项目的 ci 模块 (source)。来源: https://github.com/lancedb/lancedb",
+    "domain": "general",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "image-search",
+      "nearest-neighbor-search",
+      "recommender-system",
+      "search-engine",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 14\n\n包含文件:\n- ci/bump_version.sh\n- ci/check_breaking_changes.py\n- ci/check_lance_release.py\n- ci/create_lancedb_test_connection.sh\n- ci/mock_openai.py\n- ci/parse_requirements.py\n- ci/run_with_docker_compose.sh\n- ci/run_with_test_connection.sh\n- ci/semver_sort.py\n- ci/set_lance_version.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/bump_version.sh\nci/check_breaking_changes.py\nci/check_lance_release.py\nci/create_lancedb_test_connection.sh\nci/mock_openai.py\nci/parse_requirements.py\nci/run_with_docker_compose.sh\nci/run_with_test_connection.sh\nci/semver_sort.py\nci/set_lance_version.py\nci/sysroot-aarch64-pc-windows-msvc.sh\nci/sysroot-x86_64-pc-windows-msvc.sh\nci/update_lockfiles.sh\nci/validate_stable_lance.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.081986292423369
+  },
+  {
+    "name": "lancedb/docs 模块",
+    "description": "[模块级] lancedb 项目的 docs 模块 (docs)。来源: https://github.com/lancedb/lancedb",
+    "domain": "documentation",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "image-search",
+      "nearest-neighbor-search",
+      "recommender-system",
+      "search-engine",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 125\n\n包含文件:\n- docs/README.md\n- docs/mkdocs.yml\n- docs/openapi.yml\n- docs/package-lock.json\n- docs/package.json\n- docs/requirements.txt\n- docs/robots.txt\n- docs/src\n- docs/src/assets\n- docs/src/assets/colab.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/mkdocs.yml\ndocs/openapi.yml\ndocs/package-lock.json\ndocs/package.json\ndocs/requirements.txt\ndocs/robots.txt\ndocs/src\ndocs/src/assets\ndocs/src/assets/colab.svg\ndocs/src/assets/dog_clip_output.png\ndocs/src/assets/ecosystem-illustration.png\ndocs/src/assets/embedding_intro.png\ndocs/src/assets/embeddings_api.png\ndocs/src/assets/favicon.ico",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.081986292423369
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "swarm (openai)",
+    "description": "[项目级] Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.。来源: https://github.com/openai/swarm",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-20983",
+      "github-openai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Swarm focuses on making agent **coordination** and **execution** lightweight, highly controllable, and easily testable.\n\nIt accomplishes this through two primitive abstractions: `Agent`s and **handoffs**. An `Agent` encompasses `instructions` and `tools`, and can at any point choose to hand off a conversation to another `Agent`.\n\nThese primitives are powerful enough to express rich dynamics between tools and networks of agents, allowing you to build scalable, real-world solutions while avoiding a steep learning curve.\n\n> [!NOTE]\n> Swarm Agents are not related to Assistants in the Assistants API. They are named similarly for convenience, but are otherwise completely unrelated. Swarm is entirely powered by the Chat Completions API and is hence stateless between calls.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install git+ssh://git@github.com/openai/swarm.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSECURITY.md\nassets\nassets/diagram.png\nassets/logo.png\nassets/swarm_diagram.png\nexamples\nexamples/__init__.py\nexamples/airline\nexamples/basic\nexamples/customer_service\nexamples/customer_service_lite\nexamples/customer_service_streaming\nexamples/personal_shopper\nexamples/support_bot",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from swarm import Swarm, Agent\n\nclient = Swarm()\n\ndef transfer_to_agent_b():\n    return agent_b\n\n\nagent_a = Agent(\n    name=\"Agent A\",\n    instructions=\"You are a helpful agent.\",\n    functions=[transfer_to_agent_b],\n)\n\nagent_b = Agent(\n    name=\"Agent B\",\n    instructions=\"Only speak in Haikus.\",\n)\n\nresponse = client.run(\n    agent=agent_a,\n    messages=[{\"role\": \"user\", \"content\": \"I want to talk to agent B.\"}],\n)\n\nprint(response.messages[-1][\"content\"])",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "swarm/assets 模块",
+    "description": "[模块级] swarm 项目的 assets 模块 (source)。来源: https://github.com/openai/swarm",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-20983",
+      "github-openai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/diagram.png\n- assets/logo.png\n- assets/swarm_diagram.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/diagram.png\nassets/logo.png\nassets/swarm_diagram.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.228747032252315
+  },
+  {
+    "name": "swarm/examples 模块",
+    "description": "[模块级] swarm 项目的 examples 模块 (example)。来源: https://github.com/openai/swarm",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-20983",
+      "github-openai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Check out `/examples` for inspiration! Learn more about each one in its README.\n\n- [`basic`](examples/basic): Simple examples of fundamentals like setup, function calling, handoffs, and context variables\n- [`triage_agent`](examples/triage_agent): Simple example of setting up a basic triage step to hand off to the right agent\n- [`weather_agent`](examples/weather_agent): Simple example of function calling\n- [`airline`](examples/airline): A multi-agent setup for handling different customer service ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/airline\nexamples/airline/README.md\nexamples/airline/__init__.py\nexamples/airline/configs\nexamples/airline/configs/__init__.py\nexamples/airline/configs/agents.py\nexamples/airline/configs/tools.py\nexamples/airline/data\nexamples/airline/data/routines\nexamples/airline/data/routines/baggage\nexamples/airline/data/routines/baggage/policies.py\nexamples/airline/data/routines/flight_modification\nexamples/airline/data/routines/flight_modification/policies.py\nexamples/airline/data/routines/prompts.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.228747032252315
+  }
+]

@@ -9,14 +9,14 @@
       "ai-development",
       "anthropic",
       "automation",
-      "stars-2299",
+      "stars-2300",
       "github-heilcheng",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Copilot, VS Code)\n\n来源: https://github.com/heilcheng/awesome-agent-skills\n语言: unknown\nStars: 2299",
+        "content": "A curated list of skills, tools, tutorials, and capabilities for AI coding agents (Claude, Codex, Copilot, VS Code)\n\n来源: https://github.com/heilcheng/awesome-agent-skills\n语言: unknown\nStars: 2300",
         "gene_type": "principle"
       },
       {
@@ -32,6 +32,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.68076948563464
+    "rating": 4.6808639180087965
   }
 ]

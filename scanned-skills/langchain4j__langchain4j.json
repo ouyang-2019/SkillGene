@@ -1,0 +1,108 @@
+[
+  {
+    "name": "langchain4j (langchain4j)",
+    "description": "[项目级] LangChain4j is an open-source Java library that simplifies the integration of LLMs into Java applications through a unified API, providing access to popular LLMs and vector databases. It makes implementing RAG, tool calling (including support for MCP), and agents easy. LangChain4j integrates seamlessly with various enterprise Java frameworks.。来源: https://github.com/langchain4j/langchain4j",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "chroma",
+      "embeddings",
+      "gemini",
+      "java",
+      "stars-10790",
+      "github-langchain4j",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome!\n\nThe goal of LangChain4j is to simplify integrating LLMs into Java applications.\n\nHere's how:\n1. **Unified APIs:**\n   LLM providers (like OpenAI or Google Vertex AI) and embedding (vector) stores (such as Pinecone or Milvus)\n   use proprietary APIs. LangChain4j offers a unified API to avoid the need for learning and implementing specific APIs for each of them.\n   To experiment with different LLMs or embedding stores, you can easily switch between them without the need to rewrite your code.\n   LangChain4j currently supports [20+ popular LLM providers](https://docs.langchain4j.dev/integrations/language-models/)\n   and [30+ embedding stores](https://docs.langchain4j.dev/integrations/embedding-stores/).\n2. **Comprehensive Toolbox:**\n   Since early 2023, the community has been building",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Getting started guide can be found [here](https://docs.langchain4j.dev/get-started).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nLOGO_LICENSE.md\nMakefile\nREADME.md\nSECURITY.md\ncheck-split-packages.sh\ncode-execution-engines\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads\ncode-execution-engines/langchain4j-code-execution-engine-graalvm-polyglot\ncode-execution-engines/langchain4j-code-execution-engine-judge0\ndetekt.yml\ndocs\ndocs/.gitignore\ndocs/.nvmrc\ndocs/Makefile\ndocs/README.md\ndocs/babel.config.js\ndocs/build.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Please see examples of how LangChain4j can be used in [langchain4j-examples](https://github.com/langchain4j/langchain4j-examples) repo:\n- [Examples in plain Java](https://github.com/langchain4j/langchain4j-examples/tree/main/other-examples/src/main/java)\n- [Examples with Quarkus](https://github.com/quarkiverse/quarkus-langchain4j/tree/main/samples) (uses [quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j) dependency)\n- [Example with Spring Boot](https://github.com/langchain4j/langchain4j-examples/tree/main/spring-boot-example/src/main/java/dev/langchain4j/example)\n- [Exam",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Please let us know what features you need by [opening an issue](https://github.com/langchain4j/langchain4j/issues/new/choose).",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "langchain4j/code-execution-engines 模块",
+    "description": "[模块级] langchain4j 项目的 code-execution-engines 模块 (source)。来源: https://github.com/langchain4j/langchain4j",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "chroma",
+      "embeddings",
+      "gemini",
+      "module-level",
+      "source",
+      "code-execution-engines"
+    ],
+    "genes": [
+      {
+        "title": "code-execution-engines 模块说明",
+        "content": "模块路径: code-execution-engines/\n类型: source\n文件数: 69\n\n包含文件:\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/pom.xml\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code/azure\n- code-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code/azure/acads",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code-execution-engines 文件结构",
+        "content": "code-execution-engines/langchain4j-code-execution-engine-azure-acads\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/pom.xml\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code/azure\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code/azure/acads\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/main/java/dev/langchain4j/code/azure/acads/SessionsREPLTool.java\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/test\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/test/java\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/test/java/dev\ncode-execution-engines/langchain4j-code-execution-engine-azure-acads/src/test/java/dev/langchain4j",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.113208577873165
+  },
+  {
+    "name": "langchain4j/docs 模块",
+    "description": "[模块级] langchain4j 项目的 docs 模块 (docs)。来源: https://github.com/langchain4j/langchain4j",
+    "domain": "documentation",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "chroma",
+      "embeddings",
+      "gemini",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 82\n\n包含文件:\n- docs/.gitignore\n- docs/.nvmrc\n- docs/Makefile\n- docs/README.md\n- docs/babel.config.js\n- docs/build.sh\n- docs/docs\n- docs/docs/get-started.md\n- docs/docs/integrations\n- docs/docs/integrations/_category_.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.nvmrc\ndocs/Makefile\ndocs/README.md\ndocs/babel.config.js\ndocs/build.sh\ndocs/docs\ndocs/docs/get-started.md\ndocs/docs/integrations\ndocs/docs/integrations/_category_.json\ndocs/docs/integrations/chat-memory-stores\ndocs/docs/integrations/chat-memory-stores/_category_.json\ndocs/docs/integrations/chat-memory-stores/index.md\ndocs/docs/integrations/code-execution-engines\ndocs/docs/integrations/code-execution-engines/_category_.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.113208577873165
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Awesome-Prompt-Engineering (promptslab)",
+    "description": "[项目级] This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc 。来源: https://github.com/promptslab/Awesome-Prompt-Engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "deep-learning",
+      "few-shot-learning",
+      "gpt",
+      "python",
+      "stars-5397",
+      "github-promptslab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc \n\n来源: https://github.com/promptslab/Awesome-Prompt-Engineering\n语言: Python\nStars: 5397",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n_source\n_source/data_format.py\n_source/papers.json\n_source/prompt.png\ncode-of-conduct.md\ncontributing.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "We welcome contributions to this list! Before contributing, please take a moment to review our [contribution guidelines](contributing.md). These guidelines will help ensure that your contributions align with our objectives and meet our standards for quality and relevance.\n\n**What we're looking for:**\n- New high-quality papers, tools, or resources with a brief description of why they matter\n- Updates to existing entries (broken links, outdated information)\n- Corrections to star counts, pricing, or model details\n- Translations and accessibility improvements\n\n**Quality standards:**\n- All tools sh",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.866076209032607
+  },
+  {
+    "name": "Awesome-Prompt-Engineering/_source 模块",
+    "description": "[模块级] Awesome-Prompt-Engineering 项目的 _source 模块 (source)。来源: https://github.com/promptslab/Awesome-Prompt-Engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "deep-learning",
+      "few-shot-learning",
+      "gpt",
+      "module-level",
+      "source",
+      "_source"
+    ],
+    "genes": [
+      {
+        "title": "_source 模块说明",
+        "content": "模块路径: _source/\n类型: source\n文件数: 3\n\n包含文件:\n- _source/data_format.py\n- _source/papers.json\n- _source/prompt.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_source 文件结构",
+        "content": "_source/data_format.py\n_source/papers.json\n_source/prompt.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9928609672260853
+  }
+]

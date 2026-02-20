@@ -1,0 +1,145 @@
+[
+  {
+    "name": "everything-antigravity (krishnakanthb13)",
+    "description": "[项目级] Welcome to the central repository for the **Antigravity** ecosystem. This project houses a collection of AI Agents, Task Skills, and Coding Rules designed to enhance autonomous coding workflows.。来源: https://github.com/krishnakanthb13/everything-antigravity",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-25",
+      "github-krishnakanthb13",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Everything Antigravity provides a standardized framework for building and maintaining software using AI agents. It bridges the gap between high-level architectural decisions and low-level coding implementation.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "There are two ways to install the components from this repository:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_DOCUMENTATION.md\nCONTRIBUTING.md\nDESIGN_PHILOSOPHY.md\nLICENSE\nREADME.md\nRELEASE_NOTES.md\nSOCIAL_MEDIA.md\nagents\nagents/architect.md\nagents/build-error-resolver.md\nagents/code-reviewer.md\nagents/database-reviewer.md\nagents/doc-updater.md\nagents/e2e-runner.md\nagents/go-build-resolver.md\nagents/go-reviewer.md\nagents/planner.md\nagents/python-reviewer.md\nagents/refactor-cleaner.md\nagents/security-reviewer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6989700043360187
+  },
+  {
+    "name": "everything-antigravity/agents 模块",
+    "description": "[模块级] everything-antigravity 项目的 agents 模块 (source)。来源: https://github.com/krishnakanthb13/everything-antigravity",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-25",
+      "github-krishnakanthb13",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Specialized personas designed to handle specific stages of the software development lifecycle.\n- **Architect**: System design and scalability.\n- **Code Reviewer**: Quality assurance and security.\n- **Planner**: Task decomposition and roadmapping.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/architect.md\nagents/build-error-resolver.md\nagents/code-reviewer.md\nagents/database-reviewer.md\nagents/doc-updater.md\nagents/e2e-runner.md\nagents/go-build-resolver.md\nagents/go-reviewer.md\nagents/planner.md\nagents/python-reviewer.md\nagents/refactor-cleaner.md\nagents/security-reviewer.md\nagents/tdd-guide.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "everything-antigravity/assets 模块",
+    "description": "[模块级] everything-antigravity 项目的 assets 模块 (source)。来源: https://github.com/krishnakanthb13/everything-antigravity",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-25",
+      "github-krishnakanthb13",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/release_v1_0_01.png\n- assets/release_v1_0_02.png\n- assets/release_v1_0_03.png\n- assets/release_v1_0_04.png\n- assets/release_v1_0_05.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/release_v1_0_01.png\nassets/release_v1_0_02.png\nassets/release_v1_0_03.png\nassets/release_v1_0_04.png\nassets/release_v1_0_05.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "everything-antigravity/docs 模块",
+    "description": "[模块级] everything-antigravity 项目的 docs 模块 (docs)。来源: https://github.com/krishnakanthb13/everything-antigravity",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-25",
+      "github-krishnakanthb13",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 32\n\n包含文件:\n- docs/rules\n- docs/rules/README.md\n- docs/rules/common\n- docs/rules/common/agents.md\n- docs/rules/common/coding-style.md\n- docs/rules/common/git-workflow.md\n- docs/rules/common/hooks.md\n- docs/rules/common/patterns.md\n- docs/rules/common/performance.md\n- docs/rules/common/security.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/rules\ndocs/rules/README.md\ndocs/rules/common\ndocs/rules/common/agents.md\ndocs/rules/common/coding-style.md\ndocs/rules/common/git-workflow.md\ndocs/rules/common/hooks.md\ndocs/rules/common/patterns.md\ndocs/rules/common/performance.md\ndocs/rules/common/security.md\ndocs/rules/common/testing.md\ndocs/rules/golang\ndocs/rules/golang/coding-style.md\ndocs/rules/golang/hooks.md\ndocs/rules/golang/patterns.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "everything-antigravity/skills 模块",
+    "description": "[模块级] everything-antigravity 项目的 skills 模块 (source)。来源: https://github.com/krishnakanthb13/everything-antigravity",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-25",
+      "github-krishnakanthb13",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Executable knowledge modules that provide agents with the \"How-To\" for complex operations.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/backend-patterns\nskills/backend-patterns/SKILL.md\nskills/clickhouse-io\nskills/clickhouse-io/SKILL.md\nskills/coding-standards\nskills/coding-standards/SKILL.md\nskills/configure-ecc\nskills/configure-ecc/SKILL.md\nskills/continuous-learning-v2\nskills/continuous-learning-v2/SKILL.md\nskills/continuous-learning-v2/agents\nskills/continuous-learning-v2/agents/observer.md\nskills/continuous-learning-v2/agents/start-observer.sh\nskills/continuous-learning-v2/hooks\nskills/continuous-learning-v2/hooks/observe.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "name": "deeprl_network (cts198859)",
+    "description": "[项目级] multi-agent deep reinforcement learning for networked system control.。来源: https://github.com/cts198859/deeprl_network",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-440",
+      "github-cts198859",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "multi-agent deep reinforcement learning for networked system control.\n\n来源: https://github.com/cts198859/deeprl_network\n语言: Python\nStars: 440",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\n__init__.py\nagents\nagents/__init__.py\nagents/models.py\nagents/policies.py\nagents/utils.py\nconfig\nconfig/config_greedy.ini\nconfig/config_ia2c_catchup.ini\nconfig/config_ia2c_cu_catchup.ini\nconfig/config_ia2c_cu_grid.ini\nconfig/config_ia2c_cu_net.ini\nconfig/config_ia2c_cu_slowdown.ini\nconfig/config_ia2c_fp_catchup.ini\nconfig/config_ia2c_fp_grid.ini\nconfig/config_ia2c_fp_net.ini\nconfig/config_ia2c_fp_slowdown.ini\nconfig/config_ia2c_grid.ini\nconfig/config_ia2c_net.ini",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "First define all hyperparameters (including algorithm and DNN structure) in a config file under `[config_dir]` ([examples](./config)), and create the base directory of each experiement `[base_dir]`. For ATSC Grid, please call [`build_file.py`](./envs/large_grid_data) to generate SUMO network files before training.\n\n1. To train a new agent, run\n~~~\npython3 main.py --base-dir [base_dir] train --config-dir [config_dir]\n~~~\nTraining config/data and the trained model will be output to `[base_dir]/data` and `[base_dir]/model`, respectively.\n\n2. To access tensorboard during training, run\n~~~\ntensorbo",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.321726338243094
+  },
+  {
+    "name": "deeprl_network/agents 模块",
+    "description": "[模块级] deeprl_network 项目的 agents 模块 (source)。来源: https://github.com/cts198859/deeprl_network",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-440",
+      "github-cts198859",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 4\n\n包含文件:\n- agents/__init__.py\n- agents/models.py\n- agents/policies.py\n- agents/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/__init__.py\nagents/models.py\nagents/policies.py\nagents/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "deeprl_network/config 模块",
+    "description": "[模块级] deeprl_network 项目的 config 模块 (config)。来源: https://github.com/cts198859/deeprl_network",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-440",
+      "github-cts198859",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 25\n\n包含文件:\n- config/config_greedy.ini\n- config/config_ia2c_catchup.ini\n- config/config_ia2c_cu_catchup.ini\n- config/config_ia2c_cu_grid.ini\n- config/config_ia2c_cu_net.ini\n- config/config_ia2c_cu_slowdown.ini\n- config/config_ia2c_fp_catchup.ini\n- config/config_ia2c_fp_grid.ini\n- config/config_ia2c_fp_net.ini\n- config/config_ia2c_fp_slowdown.ini",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config_greedy.ini\nconfig/config_ia2c_catchup.ini\nconfig/config_ia2c_cu_catchup.ini\nconfig/config_ia2c_cu_grid.ini\nconfig/config_ia2c_cu_net.ini\nconfig/config_ia2c_cu_slowdown.ini\nconfig/config_ia2c_fp_catchup.ini\nconfig/config_ia2c_fp_grid.ini\nconfig/config_ia2c_fp_net.ini\nconfig/config_ia2c_fp_slowdown.ini\nconfig/config_ia2c_grid.ini\nconfig/config_ia2c_net.ini\nconfig/config_ia2c_slowdown.ini\nconfig/config_ma2c_cnet_catchup.ini\nconfig/config_ma2c_cnet_grid.ini",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "deeprl_network/envs 模块",
+    "description": "[模块级] deeprl_network 项目的 envs 模块 (source)。来源: https://github.com/cts198859/deeprl_network",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-440",
+      "github-cts198859",
+      "module-level",
+      "source",
+      "envs"
+    ],
+    "genes": [
+      {
+        "title": "envs 模块说明",
+        "content": "模块路径: envs/\n类型: source\n文件数: 26\n\n包含文件:\n- envs/__init__.py\n- envs/atsc_env.py\n- envs/cacc_env.py\n- envs/large_grid_data\n- envs/large_grid_data/__init__.py\n- envs/large_grid_data/build_file.py\n- envs/large_grid_data/intersection.pdf\n- envs/large_grid_data/network.pdf\n- envs/large_grid_data/view.xml\n- envs/large_grid_env.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "envs 文件结构",
+        "content": "envs/__init__.py\nenvs/atsc_env.py\nenvs/cacc_env.py\nenvs/large_grid_data\nenvs/large_grid_data/__init__.py\nenvs/large_grid_data/build_file.py\nenvs/large_grid_data/intersection.pdf\nenvs/large_grid_data/network.pdf\nenvs/large_grid_data/view.xml\nenvs/large_grid_env.py\nenvs/real_net_data\nenvs/real_net_data/__init__.py\nenvs/real_net_data/build_file.py\nenvs/real_net_data/in\nenvs/real_net_data/in/.DS_Store",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  },
+  {
+    "name": "deeprl_network/figs 模块",
+    "description": "[模块级] deeprl_network 项目的 figs 模块 (source)。来源: https://github.com/cts198859/deeprl_network",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-440",
+      "github-cts198859",
+      "module-level",
+      "source",
+      "figs"
+    ],
+    "genes": [
+      {
+        "title": "figs 模块说明",
+        "content": "模块路径: figs/\n类型: source\n文件数: 2\n\n包含文件:\n- figs/grid_train.png\n- figs/net_train.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figs 文件结构",
+        "content": "figs/grid_train.png\nfigs/net_train.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.557381070594475
+  }
+]

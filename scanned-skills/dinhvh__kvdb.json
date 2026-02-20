@@ -1,0 +1,112 @@
+[
+  {
+    "name": "kvdb (dinhvh)",
+    "description": "[项目级] A embeddable Key-Value Database and Full Text Search。来源: https://github.com/dinhvh/kvdb",
+    "domain": "tooling",
+    "tags": [
+      "c",
+      "stars-139",
+      "github-dinhvh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A embeddable Key-Value Database and Full Text Search\n\n来源: https://github.com/dinhvh/kvdb\n语言: C\nStars: 139",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nEXAMPLES.md\nEXAMPLES.objc.md\nLICENSE\nREADME.md\nbuild-mac\nbuild-mac/kvdb.xcodeproj\nbuild-mac/kvdbtest\nobjc\nobjc/KVDatabase.h\nobjc/KVDatabase.m\nobjc/KVIndexer.h\nobjc/KVIndexer.m\nobjc/KVOrderedDatabase.h\nobjc/KVOrderedDatabase.m\nsrc\nsrc/CMakeLists.txt\nsrc/ConvertUTF.c\nsrc/ConvertUTF.h\nsrc/ConvertUTFNamespace.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0715074001270475
+  },
+  {
+    "name": "kvdb/build-mac 模块",
+    "description": "[模块级] kvdb 项目的 build-mac 模块 (source)。来源: https://github.com/dinhvh/kvdb",
+    "domain": "tooling",
+    "tags": [
+      "c",
+      "stars-139",
+      "github-dinhvh",
+      "module-level",
+      "source",
+      "build-mac"
+    ],
+    "genes": [
+      {
+        "title": "build-mac 模块说明",
+        "content": "模块路径: build-mac/\n类型: source\n文件数: 4\n\n包含文件:\n- build-mac/kvdb.xcodeproj\n- build-mac/kvdb.xcodeproj/project.pbxproj\n- build-mac/kvdbtest\n- build-mac/kvdbtest/main.c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "build-mac 文件结构",
+        "content": "build-mac/kvdb.xcodeproj\nbuild-mac/kvdb.xcodeproj/project.pbxproj\nbuild-mac/kvdbtest\nbuild-mac/kvdbtest/main.c",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.357205920101638
+  },
+  {
+    "name": "kvdb/objc 模块",
+    "description": "[模块级] kvdb 项目的 objc 模块 (source)。来源: https://github.com/dinhvh/kvdb",
+    "domain": "tooling",
+    "tags": [
+      "c",
+      "stars-139",
+      "github-dinhvh",
+      "module-level",
+      "source",
+      "objc"
+    ],
+    "genes": [
+      {
+        "title": "objc 模块说明",
+        "content": "模块路径: objc/\n类型: source\n文件数: 6\n\n包含文件:\n- objc/KVDatabase.h\n- objc/KVDatabase.m\n- objc/KVIndexer.h\n- objc/KVIndexer.m\n- objc/KVOrderedDatabase.h\n- objc/KVOrderedDatabase.m",
+        "gene_type": "principle"
+      },
+      {
+        "title": "objc 文件结构",
+        "content": "objc/KVDatabase.h\nobjc/KVDatabase.m\nobjc/KVIndexer.h\nobjc/KVIndexer.m\nobjc/KVOrderedDatabase.h\nobjc/KVOrderedDatabase.m",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.357205920101638
+  },
+  {
+    "name": "kvdb/src 模块",
+    "description": "[模块级] kvdb 项目的 src 模块 (source)。来源: https://github.com/dinhvh/kvdb",
+    "domain": "tooling",
+    "tags": [
+      "c",
+      "stars-139",
+      "github-dinhvh",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 27\n\n包含文件:\n- src/CMakeLists.txt\n- src/ConvertUTF.c\n- src/ConvertUTF.h\n- src/ConvertUTFNamespace.h\n- src/kvassert.c\n- src/kvassert.h\n- src/kvblock.c\n- src/kvblock.h\n- src/kvbloom.h\n- src/kvdb.c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/CMakeLists.txt\nsrc/ConvertUTF.c\nsrc/ConvertUTF.h\nsrc/ConvertUTFNamespace.h\nsrc/kvassert.c\nsrc/kvassert.h\nsrc/kvblock.c\nsrc/kvblock.h\nsrc/kvbloom.h\nsrc/kvdb.c\nsrc/kvdb.h\nsrc/kvdbo.cpp\nsrc/kvdbo.h\nsrc/kvendian.h\nsrc/kvmurmurhash.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.357205920101638
+  }
+]

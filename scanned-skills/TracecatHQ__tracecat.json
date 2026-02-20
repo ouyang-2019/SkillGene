@@ -1,0 +1,98 @@
+[
+  {
+    "name": "tracecat (TracecatHQ)",
+    "description": "[项目级] All-in-one AI automation platform (workflows, agents, cases, tables) for security, IT, and infra teams.。来源: https://github.com/TracecatHQ/tracecat",
+    "domain": "web-frontend",
+    "tags": [
+      "automation",
+      "event-driven",
+      "fastapi",
+      "llm",
+      "low-code",
+      "python",
+      "stars-3474",
+      "github-tracecathq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "All-in-one AI automation platform (workflows, agents, cases, tables) for security, IT, and infra teams.\n\n来源: https://github.com/TracecatHQ/tracecat\n语言: Python\nStars: 3474",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> [!IMPORTANT]\n> Tracecat is in active development. Expect breaking changes with releases. Review the release [changelog](https://github.com/TracecatHQ/tracecat/releases) before updating.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCaddyfile\nDockerfile\nLICENSE\nREADME.md\nSECURITY.md\nalembic.ini\nalembic\nalembic/README\nalembic/env.py\nalembic/script.py.mako\nalembic/versions\ndeployments\ndeployments/fargate",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.77041490705554
+  },
+  {
+    "name": "tracecat/alembic 模块",
+    "description": "[模块级] tracecat 项目的 alembic 模块 (source)。来源: https://github.com/TracecatHQ/tracecat",
+    "domain": "web-frontend",
+    "tags": [
+      "automation",
+      "event-driven",
+      "fastapi",
+      "llm",
+      "low-code",
+      "module-level",
+      "source",
+      "alembic"
+    ],
+    "genes": [
+      {
+        "title": "alembic 模块说明",
+        "content": "模块路径: alembic/\n类型: source\n文件数: 134\n\n包含文件:\n- alembic/README\n- alembic/env.py\n- alembic/script.py.mako\n- alembic/versions\n- alembic/versions/045d54f6247c_scope_org_unique_constraints.py\n- alembic/versions/046d417c113f_add_org_secrets.py\n- alembic/versions/054e842cb078_remove_cases.py\n- alembic/versions/0a85ea95e68c_add_schedule_timeout.py\n- alembic/versions/0aef095985d4_replace_provider_config_with_endpoint_.py\n- alembic/versions/0b9bf4cd7276_add_case_assignee.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "alembic 文件结构",
+        "content": "alembic/README\nalembic/env.py\nalembic/script.py.mako\nalembic/versions\nalembic/versions/045d54f6247c_scope_org_unique_constraints.py\nalembic/versions/046d417c113f_add_org_secrets.py\nalembic/versions/054e842cb078_remove_cases.py\nalembic/versions/0a85ea95e68c_add_schedule_timeout.py\nalembic/versions/0aef095985d4_replace_provider_config_with_endpoint_.py\nalembic/versions/0b9bf4cd7276_add_case_assignee.py\nalembic/versions/0c09410efaac_remove_static_inputs_column_from_.py\nalembic/versions/0fd1f09cd98b_make_workspace_id_non_nullable_for_.py\nalembic/versions/0fd54220f319_add_casecomment_schema.py\nalembic/versions/103eb05cde37_add_organization_domains_table.py\nalembic/versions/13022d1ff78d_add_case_cursor_pagination_index.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9163319256444318
+  },
+  {
+    "name": "tracecat/deployments 模块",
+    "description": "[模块级] tracecat 项目的 deployments 模块 (source)。来源: https://github.com/TracecatHQ/tracecat",
+    "domain": "web-frontend",
+    "tags": [
+      "automation",
+      "event-driven",
+      "fastapi",
+      "llm",
+      "low-code",
+      "module-level",
+      "source",
+      "deployments"
+    ],
+    "genes": [
+      {
+        "title": "deployments 模块说明",
+        "content": "模块路径: deployments/\n类型: source\n文件数: 11\n\n包含文件:\n- deployments/fargate\n- deployments/fargate/.gitignore\n- deployments/fargate/README.md\n- deployments/fargate/main.tf\n- deployments/fargate/modules\n- deployments/fargate/modules/ecs\n- deployments/fargate/modules/ecs/alb.tf\n- deployments/fargate/modules/ecs/cloudwatch.tf\n- deployments/fargate/modules/ecs/dns.tf\n- deployments/fargate/modules/ecs/ecs-agent-executor.tf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deployments 文件结构",
+        "content": "deployments/fargate\ndeployments/fargate/.gitignore\ndeployments/fargate/README.md\ndeployments/fargate/main.tf\ndeployments/fargate/modules\ndeployments/fargate/modules/ecs\ndeployments/fargate/modules/ecs/alb.tf\ndeployments/fargate/modules/ecs/cloudwatch.tf\ndeployments/fargate/modules/ecs/dns.tf\ndeployments/fargate/modules/ecs/ecs-agent-executor.tf\ndeployments/fargate/modules/ecs/ecs-api.tf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9163319256444318
+  }
+]

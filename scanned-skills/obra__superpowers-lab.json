@@ -1,0 +1,61 @@
+[
+  {
+    "name": "superpowers-lab (obra)",
+    "description": "[项目级] Experimental skills for Claude Code Superpowers - new techniques and tools。来源: https://github.com/obra/superpowers-lab",
+    "domain": "ai-llm",
+    "tags": [
+      "shell",
+      "stars-185",
+      "github-obra",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Experimental skills for Claude Code Superpowers - new techniques and tools\n\n来源: https://github.com/obra/superpowers-lab\n语言: Shell\nStars: 185",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nskills\nskills/finding-duplicate-functions\nskills/mcp-cli\nskills/slack-messaging\nskills/using-tmux-for-interactive-commands",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.133585864201507
+  },
+  {
+    "name": "superpowers-lab/skills 模块",
+    "description": "[模块级] superpowers-lab 项目的 skills 模块 (source)。来源: https://github.com/obra/superpowers-lab",
+    "domain": "ai-llm",
+    "tags": [
+      "shell",
+      "stars-185",
+      "github-obra",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 17\n\n包含文件:\n- skills/finding-duplicate-functions\n- skills/finding-duplicate-functions/SKILL.md\n- skills/finding-duplicate-functions/scripts\n- skills/finding-duplicate-functions/scripts/categorize-prompt.md\n- skills/finding-duplicate-functions/scripts/extract-functions.sh\n- skills/finding-duplicate-functions/scripts/find-duplicates-prompt.md\n- skills/finding-duplicate-functions/scripts/generate-report.sh\n- skills/finding-duplicate-functions/scripts/prepare-category-analysis.sh\n- skills/mcp-cli\n- skills/mcp-cli/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/finding-duplicate-functions\nskills/finding-duplicate-functions/SKILL.md\nskills/finding-duplicate-functions/scripts\nskills/finding-duplicate-functions/scripts/categorize-prompt.md\nskills/finding-duplicate-functions/scripts/extract-functions.sh\nskills/finding-duplicate-functions/scripts/find-duplicates-prompt.md\nskills/finding-duplicate-functions/scripts/generate-report.sh\nskills/finding-duplicate-functions/scripts/prepare-category-analysis.sh\nskills/mcp-cli\nskills/mcp-cli/SKILL.md\nskills/slack-messaging\nskills/slack-messaging/SKILL.md\nskills/slack-messaging/scripts\nskills/slack-messaging/scripts/extract-tokens\nskills/using-tmux-for-interactive-commands",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4068686913612054
+  }
+]

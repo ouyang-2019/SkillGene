@@ -1,0 +1,217 @@
+[
+  {
+    "name": "rag (NVIDIA-AI-Blueprints)",
+    "description": "[项目级] This NVIDIA RAG blueprint serves as a reference solution for a foundational Retrieval Augmented Generation (RAG) pipeline.。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "stars-481",
+      "github-nvidia-ai-blueprints",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The NVIDIA RAG Blueprint is a reference solution and foundational starting point\nfor building Retrieval-Augmented Generation (RAG) pipelines with NVIDIA NIM microservices.\nIt enables enterprises to deliver natural language question answering grounded in their own data,\nwhile meeting governance, latency, and scalability requirements.\nDesigned to be decomposable and configurable, the blueprint integrates GPU-accelerated components with NeMo Retriever models, Multimodal and Vision Language Models, and guardrailing services,\nto provide an enterprise-ready framework.\nWith a pre-built reference UI, open-source code, and multiple deployment options — including local docker (with and without NVIDIA Hosted endpoints) and Kubernetes —\nit serves as a flexible starting point that developers can adapt ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nLICENSE-3rd-party.txt\nLINTING.md\nREADME.md\nSECURITY.md\nci\nci/README.md\nci/check_markdown_links.py\nci/get_version.sh\nci/publish_wheel.sh\ndata\ndata/LICENSE.DATA\ndata/dataset.zip\ndata/multimodal\ndeploy\ndeploy/compose\ndeploy/config\ndeploy/helm",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details>\n    <summary>Data Ingestion</summary>\n    <ul>\n        <li>Multimodal content extraction - Documents with text, tables, charts, infographics, and audio. For the full list of supported file types, see [NeMo Retriever Extraction Overview](https://docs.nvidia.com/nemo/retriever/latest/extraction/overview/).</li>\n        <li>Custom metadata support</li>\n    </ul>\n</details>\n<details>\n    <summary>Search and Retrieval</summary>\n    <ul>\n        <li>Multi-collection searchability</li>\n        <li>Hybrid search with dense and sparse search</li>\n        <li>Reranking to further improve accur",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.341072538186916
+  },
+  {
+    "name": "rag/ci 模块",
+    "description": "[模块级] rag 项目的 ci 模块 (source)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 4\n\n包含文件:\n- ci/README.md\n- ci/check_markdown_links.py\n- ci/get_version.sh\n- ci/publish_wheel.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/README.md\nci/check_markdown_links.py\nci/get_version.sh\nci/publish_wheel.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  },
+  {
+    "name": "rag/data 模块",
+    "description": "[模块级] rag 项目的 data 模块 (source)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 11\n\n包含文件:\n- data/LICENSE.DATA\n- data/dataset.zip\n- data/multimodal\n- data/multimodal/Creme_clutch_purse1-small.jpg\n- data/multimodal/embedded_table.pdf\n- data/multimodal/functional_validation.pdf\n- data/multimodal/multimodal_test.pdf\n- data/multimodal/product_catalog.pdf\n- data/multimodal/table_test.pdf\n- data/multimodal/woods_frost.docx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/LICENSE.DATA\ndata/dataset.zip\ndata/multimodal\ndata/multimodal/Creme_clutch_purse1-small.jpg\ndata/multimodal/embedded_table.pdf\ndata/multimodal/functional_validation.pdf\ndata/multimodal/multimodal_test.pdf\ndata/multimodal/product_catalog.pdf\ndata/multimodal/table_test.pdf\ndata/multimodal/woods_frost.docx\ndata/multimodal/woods_frost.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  },
+  {
+    "name": "rag/deploy 模块",
+    "description": "[模块级] rag 项目的 deploy 模块 (source)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 59\n\n包含文件:\n- deploy/compose\n- deploy/compose/.env\n- deploy/compose/accuracy_profile.env\n- deploy/compose/docker-compose-ingestor-server.yaml\n- deploy/compose/docker-compose-nemo-guardrails.yaml\n- deploy/compose/docker-compose-rag-server.yaml\n- deploy/compose/nemoguardrails\n- deploy/compose/nemoguardrails/config-store\n- deploy/compose/nemoguardrails/config-store/config.yaml\n- deploy/compose/nemoguardrails/config-store/nemoguard",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/compose\ndeploy/compose/.env\ndeploy/compose/accuracy_profile.env\ndeploy/compose/docker-compose-ingestor-server.yaml\ndeploy/compose/docker-compose-nemo-guardrails.yaml\ndeploy/compose/docker-compose-rag-server.yaml\ndeploy/compose/nemoguardrails\ndeploy/compose/nemoguardrails/config-store\ndeploy/compose/nemoguardrails/config-store/config.yaml\ndeploy/compose/nemoguardrails/config-store/nemoguard\ndeploy/compose/nemoguardrails/config-store/nemoguard/config.yml\ndeploy/compose/nemoguardrails/config-store/nemoguard/prompts.yml\ndeploy/compose/nemoguardrails/config-store/nemoguard_cloud\ndeploy/compose/nemoguardrails/config-store/nemoguard_cloud/config.yml\ndeploy/compose/nemoguardrails/config-store/nemoguard_cloud/prompts.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  },
+  {
+    "name": "rag/docs 模块",
+    "description": "[模块级] rag 项目的 docs 模块 (docs)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "documentation",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 75\n\n包含文件:\n- docs/accuracy_perf.md\n- docs/api-ingestor.md\n- docs/api-key.md\n- docs/api-rag.md\n- docs/api_reference\n- docs/api_reference/openapi_schema_ingestor_server.json\n- docs/api_reference/openapi_schema_rag_server.json\n- docs/assets\n- docs/assets/arch_diagram.png\n- docs/assets/outline-button.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/accuracy_perf.md\ndocs/api-ingestor.md\ndocs/api-key.md\ndocs/api-rag.md\ndocs/api_reference\ndocs/api_reference/openapi_schema_ingestor_server.json\ndocs/api_reference/openapi_schema_rag_server.json\ndocs/assets\ndocs/assets/arch_diagram.png\ndocs/assets/outline-button.png\ndocs/assets/query_decomposition.jpeg\ndocs/assets/summarization_flow_diagram.png\ndocs/assets/toggle_nemo_guardrails.png\ndocs/assets/ui-citations.png\ndocs/assets/ui-collection-drawer.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  },
+  {
+    "name": "rag/examples 模块",
+    "description": "[模块级] rag 项目的 examples 模块 (example)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 16\n\n包含文件:\n- examples/README.md\n- examples/nvidia_rag_mcp\n- examples/nvidia_rag_mcp/__init__.py\n- examples/nvidia_rag_mcp/mcp_client.py\n- examples/nvidia_rag_mcp/mcp_server.py\n- examples/nvidia_rag_mcp/requirements.txt\n- examples/rag_react_agent\n- examples/rag_react_agent/README.md\n- examples/rag_react_agent/pyproject.toml\n- examples/rag_react_agent/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/nvidia_rag_mcp\nexamples/nvidia_rag_mcp/__init__.py\nexamples/nvidia_rag_mcp/mcp_client.py\nexamples/nvidia_rag_mcp/mcp_server.py\nexamples/nvidia_rag_mcp/requirements.txt\nexamples/rag_react_agent\nexamples/rag_react_agent/README.md\nexamples/rag_react_agent/pyproject.toml\nexamples/rag_react_agent/src\nexamples/rag_react_agent/src/rag_react_agent\nexamples/rag_react_agent/src/rag_react_agent/__init__.py\nexamples/rag_react_agent/src/rag_react_agent/configs\nexamples/rag_react_agent/src/rag_react_agent/configs/config.yml\nexamples/rag_react_agent/src/rag_react_agent/register.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  },
+  {
+    "name": "rag/frontend 模块",
+    "description": "[模块级] rag 项目的 frontend 模块 (source)。来源: https://github.com/NVIDIA-AI-Blueprints/rag",
+    "domain": "devops",
+    "tags": [
+      "blueprint",
+      "nim",
+      "rag",
+      "retrieval-augmented-generation",
+      "python",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 3\n\n包含文件:\n- frontend/.dockerignore\n- frontend/.gitignore\n- frontend/Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.gitignore\nfrontend/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5728580305495328
+  }
+]

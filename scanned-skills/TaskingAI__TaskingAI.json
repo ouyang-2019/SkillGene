@@ -1,0 +1,73 @@
+[
+  {
+    "name": "TaskingAI (TaskingAI)",
+    "description": "[项目级] The open source platform for AI-native application development.。来源: https://github.com/TaskingAI/TaskingAI",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-native",
+      "function-call",
+      "generative-ai",
+      "python",
+      "stars-5368",
+      "github-taskingai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The open source platform for AI-native application development.\n\n来源: https://github.com/TaskingAI/TaskingAI\n语言: Python\nStars: 5368",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/taskingai/taskingai.git\ncd taskingai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDEVELOPERS.md\nLICENSE\nREADME.md\nbackend\nbackend/.dockerignore\nbackend/.env.example\nbackend/.gitignore\nbackend/Dockerfile\nbackend/app",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **All-In-One LLM Platform**: Access hundreds of AI models with unified APIs.\n2. **Abundant enhancement**: Enhance LLM agent performance with hundreds of customizable built-in **tools** and advanced **Retrieval-Augmented Generation** (RAG) system\n3. **BaaS-Inspired Workflow**: Separate AI logic (server-side) from product development (client-side), offering a clear pathway from console-based prototyping to scalable solutions using RESTful APIs and client SDKs.\n4. **One-Click to Production**: Deploy your AI agents with a single click to production stage, and scale them with ease. Let TaskingAI",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.864906253580468
+  },
+  {
+    "name": "TaskingAI/backend 模块",
+    "description": "[模块级] TaskingAI 项目的 backend 模块 (source)。来源: https://github.com/TaskingAI/TaskingAI",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-native",
+      "function-call",
+      "generative-ai",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 172\n\n包含文件:\n- backend/.dockerignore\n- backend/.env.example\n- backend/.gitignore\n- backend/Dockerfile\n- backend/app\n- backend/app/__init__.py\n- backend/app/config.py\n- backend/app/database\n- backend/app/database/__init__.py\n- backend/app/database/connection.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.dockerignore\nbackend/.env.example\nbackend/.gitignore\nbackend/Dockerfile\nbackend/app\nbackend/app/__init__.py\nbackend/app/config.py\nbackend/app/database\nbackend/app/database/__init__.py\nbackend/app/database/connection.py\nbackend/app/database/pg_scripts\nbackend/app/database/pg_scripts/postgres_0001.sql\nbackend/app/database/pg_scripts/postgres_0002.sql\nbackend/app/database/pg_scripts/postgres_0003.sql\nbackend/app/database/pg_scripts/postgres_0004.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9919250028643747
+  }
+]

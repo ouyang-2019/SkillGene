@@ -1,0 +1,133 @@
+[
+  {
+    "name": "opensync (waynesutton)",
+    "description": "[项目级] Cloud-synced dashboards for OpenCode and Claude Code. Track sessions, search with semantic lookup, export eval datasets.。来源: https://github.com/waynesutton/opensync",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "convex",
+      "dasbhoard",
+      "evals",
+      "open-source",
+      "typescript",
+      "stars-300",
+      "github-waynesutton",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Cloud-synced dashboards for OpenCode and Claude Code. Track sessions, search with semantic lookup, export eval datasets.\n\n来源: https://github.com/waynesutton/opensync\n语言: TypeScript\nStars: 300",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md.md\nLICENSE\nONE-CLICK-DEPLOY.md\nREADME.md\nchangelog.md\nconvex\nconvex/README.md\nconvex/_generated\nconvex/analytics.ts\nconvex/api.ts\nconvex/auth.config.ts\nconvex/convex.config.ts\nconvex/crons.ts\nconvex/embeddings.ts\nconvex/evals.ts\nconvex/http.ts\nconvex/messages.ts\nconvex/rag.ts\nconvex/schema.ts\nconvex/search.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature                                                 | Description                                    |\n| ------------------------------------------------------- | ---------------------------------------------- |\n| [Sync](https://www.opensync.dev/docs#hosted-features)   | Sessions sync in real time as you work         |\n| [Search](https://www.opensync.dev/docs#search)          | Full text, semantic, and hybrid search         |\n| [Private](https://www.opensync.dev/docs#auth)           | Your data stays in your account                |\n| [Tag](https://www.opensync.dev/docs#dashboard-evals) ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.238560627359831
+  },
+  {
+    "name": "opensync/convex 模块",
+    "description": "[模块级] opensync 项目的 convex 模块 (source)。来源: https://github.com/waynesutton/opensync",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "convex",
+      "dasbhoard",
+      "evals",
+      "open-source",
+      "module-level",
+      "source",
+      "convex"
+    ],
+    "genes": [
+      {
+        "title": "convex 模块说明",
+        "content": "模块路径: convex/\n类型: source\n文件数: 24\n\n包含文件:\n- convex/README.md\n- convex/_generated\n- convex/_generated/api.d.ts\n- convex/_generated/api.js\n- convex/_generated/dataModel.d.ts\n- convex/_generated/server.d.ts\n- convex/_generated/server.js\n- convex/analytics.ts\n- convex/api.ts\n- convex/auth.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "convex 文件结构",
+        "content": "convex/README.md\nconvex/_generated\nconvex/_generated/api.d.ts\nconvex/_generated/api.js\nconvex/_generated/dataModel.d.ts\nconvex/_generated/server.d.ts\nconvex/_generated/server.js\nconvex/analytics.ts\nconvex/api.ts\nconvex/auth.config.ts\nconvex/convex.config.ts\nconvex/crons.ts\nconvex/embeddings.ts\nconvex/evals.ts\nconvex/http.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  },
+  {
+    "name": "opensync/public 模块",
+    "description": "[模块级] opensync 项目的 public 模块 (source)。来源: https://github.com/waynesutton/opensync",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "convex",
+      "dasbhoard",
+      "evals",
+      "open-source",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 12\n\n包含文件:\n- public/_redirects\n- public/claude.svg\n- public/convex.svg\n- public/factory-droid.svg\n- public/favicon.png\n- public/favicon.svg\n- public/llms.txt\n- public/netlify-logo.svg\n- public/og-image.png\n- public/opencode-dark.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/_redirects\npublic/claude.svg\npublic/convex.svg\npublic/factory-droid.svg\npublic/favicon.png\npublic/favicon.svg\npublic/llms.txt\npublic/netlify-logo.svg\npublic/og-image.png\npublic/opencode-dark.svg\npublic/opencode-light.svg\npublic/workos.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  },
+  {
+    "name": "opensync/src 模块",
+    "description": "[模块级] opensync 项目的 src 模块 (source)。来源: https://github.com/waynesutton/opensync",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "convex",
+      "dasbhoard",
+      "evals",
+      "open-source",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 29\n\n包含文件:\n- src/App.tsx\n- src/components\n- src/components/Charts.tsx\n- src/components/ConfirmModal.tsx\n- src/components/Header.tsx\n- src/components/LegalModal.tsx\n- src/components/SessionViewer.tsx\n- src/components/SetupIncompleteBanner.tsx\n- src/components/Sidebar.tsx\n- src/components/WrappedTemplates.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.tsx\nsrc/components\nsrc/components/Charts.tsx\nsrc/components/ConfirmModal.tsx\nsrc/components/Header.tsx\nsrc/components/LegalModal.tsx\nsrc/components/SessionViewer.tsx\nsrc/components/SetupIncompleteBanner.tsx\nsrc/components/Sidebar.tsx\nsrc/components/WrappedTemplates.tsx\nsrc/components/WrappedView.tsx\nsrc/index.css\nsrc/lib\nsrc/lib/auth.tsx\nsrc/lib/source.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490848501887865
+  }
+]

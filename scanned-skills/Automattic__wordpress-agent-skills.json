@@ -1,0 +1,117 @@
+[
+  {
+    "name": "wordpress-agent-skills (Automattic)",
+    "description": "[项目级] A collection of agent skills that can be used to create WordPress themes and sites。来源: https://github.com/Automattic/wordpress-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-22",
+      "github-automattic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agent skills that can be used to create WordPress themes and sites\n\n来源: https://github.com/Automattic/wordpress-agent-skills\n语言: TypeScript\nStars: 22",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nclaude-cowork\nclaude-cowork/wp-site-creator\ndocs\ndocs/images\nstudio-mcp\nstudio-mcp/.gitignore\nstudio-mcp/README.md\nstudio-mcp/dist\nstudio-mcp/package-lock.json\nstudio-mcp/package.json\nstudio-mcp/src\nstudio-mcp/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6712113404111033
+  },
+  {
+    "name": "wordpress-agent-skills/claude-cowork 模块",
+    "description": "[模块级] wordpress-agent-skills 项目的 claude-cowork 模块 (source)。来源: https://github.com/Automattic/wordpress-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-22",
+      "github-automattic",
+      "module-level",
+      "source",
+      "claude-cowork"
+    ],
+    "genes": [
+      {
+        "title": "claude-cowork 模块说明",
+        "content": "模块路径: claude-cowork/\n类型: source\n文件数: 15\n\n包含文件:\n- claude-cowork/wp-site-creator\n- claude-cowork/wp-site-creator/.claude-plugin\n- claude-cowork/wp-site-creator/.claude-plugin/plugin.json\n- claude-cowork/wp-site-creator/CONNECTORS.md\n- claude-cowork/wp-site-creator/README.md\n- claude-cowork/wp-site-creator/commands\n- claude-cowork/wp-site-creator/commands/create-site.md\n- claude-cowork/wp-site-creator/commands/preview-designs.md\n- claude-cowork/wp-site-creator/skills\n- claude-cowork/wp-site-creator/skills/design-systems",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-cowork 文件结构",
+        "content": "claude-cowork/wp-site-creator\nclaude-cowork/wp-site-creator/.claude-plugin\nclaude-cowork/wp-site-creator/.claude-plugin/plugin.json\nclaude-cowork/wp-site-creator/CONNECTORS.md\nclaude-cowork/wp-site-creator/README.md\nclaude-cowork/wp-site-creator/commands\nclaude-cowork/wp-site-creator/commands/create-site.md\nclaude-cowork/wp-site-creator/commands/preview-designs.md\nclaude-cowork/wp-site-creator/skills\nclaude-cowork/wp-site-creator/skills/design-systems\nclaude-cowork/wp-site-creator/skills/design-systems/SKILL.md\nclaude-cowork/wp-site-creator/skills/site-specification\nclaude-cowork/wp-site-creator/skills/site-specification/SKILL.md\nclaude-cowork/wp-site-creator/skills/wordpress-block-theming\nclaude-cowork/wp-site-creator/skills/wordpress-block-theming/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "wordpress-agent-skills/docs 模块",
+    "description": "[模块级] wordpress-agent-skills 项目的 docs 模块 (docs)。来源: https://github.com/Automattic/wordpress-agent-skills",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-22",
+      "github-automattic",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/images\n- docs/images/add-link.png\n- docs/images/add-to-marketplace.png\n- docs/images/create-site.png\n- docs/images/install-plugin.png\n- docs/images/plugins-menu.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/add-link.png\ndocs/images/add-to-marketplace.png\ndocs/images/create-site.png\ndocs/images/install-plugin.png\ndocs/images/plugins-menu.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "wordpress-agent-skills/studio-mcp 模块",
+    "description": "[模块级] wordpress-agent-skills 项目的 studio-mcp 模块 (source)。来源: https://github.com/Automattic/wordpress-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-22",
+      "github-automattic",
+      "module-level",
+      "source",
+      "studio-mcp"
+    ],
+    "genes": [
+      {
+        "title": "studio-mcp 模块说明",
+        "content": "模块路径: studio-mcp/\n类型: source\n文件数: 31\n\n包含文件:\n- studio-mcp/.gitignore\n- studio-mcp/README.md\n- studio-mcp/dist\n- studio-mcp/dist/index.js\n- studio-mcp/package-lock.json\n- studio-mcp/package.json\n- studio-mcp/src\n- studio-mcp/src/index.ts\n- studio-mcp/src/lib\n- studio-mcp/src/lib/appdata.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "studio-mcp 文件结构",
+        "content": "studio-mcp/.gitignore\nstudio-mcp/README.md\nstudio-mcp/dist\nstudio-mcp/dist/index.js\nstudio-mcp/package-lock.json\nstudio-mcp/package.json\nstudio-mcp/src\nstudio-mcp/src/index.ts\nstudio-mcp/src/lib\nstudio-mcp/src/lib/appdata.ts\nstudio-mcp/src/lib/block-fixer\nstudio-mcp/src/lib/block-fixer/block-fixer.ts\nstudio-mcp/src/lib/block-fixer/index.ts\nstudio-mcp/src/lib/block-fixer/paragraph-fixer.ts\nstudio-mcp/src/lib/fs-utils.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  }
+]

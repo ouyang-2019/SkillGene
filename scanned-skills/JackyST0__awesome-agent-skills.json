@@ -1,0 +1,133 @@
+[
+  {
+    "name": "awesome-agent-skills (JackyST0)",
+    "description": "[项目级] 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具。来源: https://github.com/JackyST0/awesome-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "shell",
+      "stars-222",
+      "github-jackyst0",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具\n\n来源: https://github.com/JackyST0/awesome-agent-skills\n语言: Shell\nStars: 222",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_ZH.md\nassets\nassets/README.md\nassets/banner.svg\nassets/logo.svg\nassets/social-preview.html\ndocs\ndocs/how-to-create.md\ndocs/how-to-use.md\ndocs/index.html\ndocs/skill-spec.md\nexamples\nexamples/README.md\nexamples/api-doc-generator\nexamples/code-review\nexamples/debug-helper\nexamples/git-commit",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "git clone https://github.com/JackyST0/awesome-agent-skills.git\ncp -r awesome-agent-skills/examples/code-review ~/.cursor/skills/",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.173176487225319
+  },
+  {
+    "name": "awesome-agent-skills/assets 模块",
+    "description": "[模块级] awesome-agent-skills 项目的 assets 模块 (source)。来源: https://github.com/JackyST0/awesome-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 4\n\n包含文件:\n- assets/README.md\n- assets/banner.svg\n- assets/logo.svg\n- assets/social-preview.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/README.md\nassets/banner.svg\nassets/logo.svg\nassets/social-preview.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4385411897802554
+  },
+  {
+    "name": "awesome-agent-skills/docs 模块",
+    "description": "[模块级] awesome-agent-skills 项目的 docs 模块 (docs)。来源: https://github.com/JackyST0/awesome-agent-skills",
+    "domain": "documentation",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/how-to-create.md\n- docs/how-to-use.md\n- docs/index.html\n- docs/skill-spec.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/how-to-create.md\ndocs/how-to-use.md\ndocs/index.html\ndocs/skill-spec.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4385411897802554
+  },
+  {
+    "name": "awesome-agent-skills/examples 模块",
+    "description": "[模块级] awesome-agent-skills 项目的 examples 模块 (example)。来源: https://github.com/JackyST0/awesome-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skills",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "git clone https://github.com/JackyST0/awesome-agent-skills.git\ncp -r awesome-agent-skills/examples/code-review ~/.cursor/skills/",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/api-doc-generator\nexamples/api-doc-generator/SKILL.md\nexamples/api-doc-generator/templates\nexamples/api-doc-generator/templates/api-doc.md\nexamples/code-review\nexamples/code-review/SKILL.md\nexamples/debug-helper\nexamples/debug-helper/SKILL.md\nexamples/debug-helper/templates\nexamples/debug-helper/templates/debug-report.md\nexamples/git-commit\nexamples/git-commit/SKILL.md\nexamples/unit-test-generator\nexamples/unit-test-generator/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4385411897802554
+  }
+]

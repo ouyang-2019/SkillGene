@@ -1,0 +1,73 @@
+[
+  {
+    "name": "KnowNote (MrSibe)",
+    "description": "[项目级] A local-first AI knowledge base & NotebookLM alternative built with Electron. More convenient, more lightweight, and understands you better!。来源: https://github.com/MrSibe/KnowNote",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "deep-learning",
+      "deepseek",
+      "dl",
+      "electron",
+      "typescript",
+      "stars-923",
+      "github-mrsibe",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A local-first AI knowledge base & NotebookLM alternative built with Electron. More convenient, more lightweight, and understands you better!\n\n来源: https://github.com/MrSibe/KnowNote\n语言: TypeScript\nStars: 923",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_CN.md\nbuild\nbuild/entitlements.mac.plist\nbuild/icon.icns\nbuild/icon.ico\nbuild/icon.png\ncomponents.json\ndev-app-update.yml\ndrizzle.config.ts\nelectron-builder.yml\nelectron.vite.config.ts\neslint.config.mjs\npackage.json\npnpm-lock.yaml\nresources\nresources/icon.png\nsrc\nsrc/main",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.482600850512956
+  },
+  {
+    "name": "KnowNote/src 模块",
+    "description": "[模块级] KnowNote 项目的 src 模块 (source)。来源: https://github.com/MrSibe/KnowNote",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "deep-learning",
+      "deepseek",
+      "dl",
+      "electron",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 166\n\n包含文件:\n- src/main\n- src/main/config\n- src/main/config/ProviderConfigManager.ts\n- src/main/config/defaults.ts\n- src/main/config/index.ts\n- src/main/config/secureStorage.ts\n- src/main/config/settingsManager.ts\n- src/main/config/store.ts\n- src/main/config/types.ts\n- src/main/db",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/config\nsrc/main/config/ProviderConfigManager.ts\nsrc/main/config/defaults.ts\nsrc/main/config/index.ts\nsrc/main/config/secureStorage.ts\nsrc/main/config/settingsManager.ts\nsrc/main/config/store.ts\nsrc/main/config/types.ts\nsrc/main/db\nsrc/main/db/index.ts\nsrc/main/db/migrations\nsrc/main/db/migrations/0000_vengeful_gressill.sql\nsrc/main/db/migrations/0001_boring_valkyrie.sql\nsrc/main/db/migrations/0002_ambitious_blink.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.686080680410365
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "beikeshop (beikeshop)",
+    "description": "[项目级] 🔥🔥🔥 Free open source and easy-to-use laravel eCommerce platform, Base on the Laravel . It supports multiple languages and currencies, integrates ChatGPT OpenAI. The platform features customizable visual design and a rich plugins on marketplace.。来源: https://github.com/beikeshop/beikeshop",
+    "domain": "devops",
+    "tags": [
+      "beikeshop",
+      "chatgpt",
+      "ecommerce",
+      "ecommerce-framework",
+      "ecommerce-platform",
+      "php",
+      "stars-1844",
+      "github-beikeshop",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥🔥🔥 Free open source and easy-to-use laravel eCommerce platform, Base on the Laravel . It supports multiple languages and currencies, integrates ChatGPT OpenAI. The platform features customizable visual design and a rich plugins on marketplace.\n\n来源: https://github.com/beikeshop/beikeshop\n语言: PHP\nStars: 1844",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "BeikeShop can be installed via **package distribution**, **source code**, or **Docker**.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME-zh-CN.md\nREADME.md\napp\napp/Aspect\napp/Console\napp/Exceptions\napp/Http\napp/Providers\napp/Rewrite\napp/Tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Open Source:** 100% open-source with full ownership of source code and data.\n\n- **Easy to Use:** Designed for rapid deployment, allowing you to go from installation to a live store in minutes.\n\n- **Laravel Framework:** Built on Laravel 10+, adhering to standard MVC architecture and industry best practices.\n\n- **Modern UI:** Clean, high-conversion storefront and an intuitive admin dashboard for a seamless user experience.\n\n- **Complete Workflow:** Out-of-the-box support for products, cart, checkout, payments, shipping, and customer management.\n\n- **Global Commerce:** Native multi-language a",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.632880458358805
+  },
+  {
+    "name": "beikeshop/app 模块",
+    "description": "[模块级] beikeshop 项目的 app 模块 (source)。来源: https://github.com/beikeshop/beikeshop",
+    "domain": "devops",
+    "tags": [
+      "beikeshop",
+      "chatgpt",
+      "ecommerce",
+      "ecommerce-framework",
+      "ecommerce-platform",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 190\n\n包含文件:\n- app/Aspect\n- app/Aspect/Html.php\n- app/Console\n- app/Console/Kernel.php\n- app/Exceptions\n- app/Exceptions/Handler.php\n- app/Exceptions/RegisterAdminErrorViewPaths.php\n- app/Http\n- app/Http/Controllers\n- app/Http/Controllers/Controller.php",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/Aspect\napp/Aspect/Html.php\napp/Console\napp/Console/Kernel.php\napp/Exceptions\napp/Exceptions/Handler.php\napp/Exceptions/RegisterAdminErrorViewPaths.php\napp/Http\napp/Http/Controllers\napp/Http/Controllers/Controller.php\napp/Http/Kernel.php\napp/Http/Middleware\napp/Http/Middleware/AdminApiAuthenticate.php\napp/Http/Middleware/Authenticate.php\napp/Http/Middleware/CheckCustomerSessionValid.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.806304366687044
+  }
+]

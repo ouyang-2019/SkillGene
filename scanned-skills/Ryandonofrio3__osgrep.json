@@ -1,0 +1,217 @@
+[
+  {
+    "name": "osgrep (Ryandonofrio3)",
+    "description": "[项目级] Open Source Semantic Search for your AI Agent。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "stars-1050",
+      "github-ryandonofrio3",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open Source Semantic Search for your AI Agent\n\n来源: https://github.com/Ryandonofrio3/osgrep\n语言: TypeScript\nStars: 1050",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g osgrep",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nNOTICE\nREADME.md\nbenchmark\nbenchmark/benchmark_opencode.csv\nbenchmark/output\nbenchmark/plot.ts\nbenchmark/raw_responses\nbenchmark/results\nbiome.json\nexperiments\nexperiments/mrr-sweep.ts\nexperiments/quick_check.ts\nexperiments/ranking-test.ts\nexperiments/verify-fix.ts\npackage.json\nplugins\nplugins/osgrep\npnpm-lock.yaml\npublic",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.510594649534969
+  },
+  {
+    "name": "osgrep/benchmark 模块",
+    "description": "[模块级] osgrep 项目的 benchmark 模块 (source)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 29\n\n包含文件:\n- benchmark/benchmark_opencode.csv\n- benchmark/output\n- benchmark/output/benchmark-results.html\n- benchmark/plot.ts\n- benchmark/raw_responses\n- benchmark/raw_responses/baseline\n- benchmark/raw_responses/baseline/1.txt\n- benchmark/raw_responses/baseline/10.txt\n- benchmark/raw_responses/baseline/2.txt\n- benchmark/raw_responses/baseline/3.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/benchmark_opencode.csv\nbenchmark/output\nbenchmark/output/benchmark-results.html\nbenchmark/plot.ts\nbenchmark/raw_responses\nbenchmark/raw_responses/baseline\nbenchmark/raw_responses/baseline/1.txt\nbenchmark/raw_responses/baseline/10.txt\nbenchmark/raw_responses/baseline/2.txt\nbenchmark/raw_responses/baseline/3.txt\nbenchmark/raw_responses/baseline/4.txt\nbenchmark/raw_responses/baseline/5.txt\nbenchmark/raw_responses/baseline/6.txt\nbenchmark/raw_responses/baseline/7.txt\nbenchmark/raw_responses/baseline/8.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  },
+  {
+    "name": "osgrep/experiments 模块",
+    "description": "[模块级] osgrep 项目的 experiments 模块 (source)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "source",
+      "experiments"
+    ],
+    "genes": [
+      {
+        "title": "experiments 模块说明",
+        "content": "模块路径: experiments/\n类型: source\n文件数: 4\n\n包含文件:\n- experiments/mrr-sweep.ts\n- experiments/quick_check.ts\n- experiments/ranking-test.ts\n- experiments/verify-fix.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "experiments 文件结构",
+        "content": "experiments/mrr-sweep.ts\nexperiments/quick_check.ts\nexperiments/ranking-test.ts\nexperiments/verify-fix.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  },
+  {
+    "name": "osgrep/plugins 模块",
+    "description": "[模块级] osgrep 项目的 plugins 模块 (source)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 10\n\n包含文件:\n- plugins/osgrep\n- plugins/osgrep/.claude-plugin\n- plugins/osgrep/.claude-plugin/plugin.json\n- plugins/osgrep/hooks.json\n- plugins/osgrep/hooks\n- plugins/osgrep/hooks/start.js\n- plugins/osgrep/hooks/stop.js\n- plugins/osgrep/skills\n- plugins/osgrep/skills/osgrep\n- plugins/osgrep/skills/osgrep/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/osgrep\nplugins/osgrep/.claude-plugin\nplugins/osgrep/.claude-plugin/plugin.json\nplugins/osgrep/hooks.json\nplugins/osgrep/hooks\nplugins/osgrep/hooks/start.js\nplugins/osgrep/hooks/stop.js\nplugins/osgrep/skills\nplugins/osgrep/skills/osgrep\nplugins/osgrep/skills/osgrep/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  },
+  {
+    "name": "osgrep/scripts 模块",
+    "description": "[模块级] osgrep 项目的 scripts 模块 (script)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/compare-engines.ts\n- scripts/index-bench.sh\n- scripts/sync-eval-cases.ts\n- scripts/verify_skeleton.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/compare-engines.ts\nscripts/index-bench.sh\nscripts/sync-eval-cases.ts\nscripts/verify_skeleton.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  },
+  {
+    "name": "osgrep/src 模块",
+    "description": "[模块级] osgrep 项目的 src 模块 (source)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "ai-llm",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 71\n\n包含文件:\n- src/commands\n- src/commands/claude-code.ts\n- src/commands/codex.ts\n- src/commands/doctor.ts\n- src/commands/droid.ts\n- src/commands/index.ts\n- src/commands/list.ts\n- src/commands/mcp.ts\n- src/commands/opencode.ts\n- src/commands/search.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/commands\nsrc/commands/claude-code.ts\nsrc/commands/codex.ts\nsrc/commands/doctor.ts\nsrc/commands/droid.ts\nsrc/commands/index.ts\nsrc/commands/list.ts\nsrc/commands/mcp.ts\nsrc/commands/opencode.ts\nsrc/commands/search.ts\nsrc/commands/serve.ts\nsrc/commands/setup.ts\nsrc/commands/skeleton.ts\nsrc/commands/symbols.ts\nsrc/commands/trace.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  },
+  {
+    "name": "osgrep/tests 模块",
+    "description": "[模块级] osgrep 项目的 tests 模块 (test)。来源: https://github.com/Ryandonofrio3/osgrep",
+    "domain": "testing",
+    "tags": [
+      "colbert",
+      "embeddings",
+      "grep",
+      "grep-search",
+      "typescript",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/chunking.large_json.test.ts\n- tests/chunking.test.ts\n- tests/index-command.test.ts\n- tests/search-command.test.ts\n- tests/serve-command.test.ts\n- tests/setup.ts\n- tests/test-graph.ts\n- tests/test-structural-boosting.ts\n- tests/watcher-ignore.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/chunking.large_json.test.ts\ntests/chunking.test.ts\ntests/index-command.test.ts\ntests/search-command.test.ts\ntests/serve-command.test.ts\ntests/setup.ts\ntests/test-graph.ts\ntests/test-structural-boosting.ts\ntests/watcher-ignore.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7084757196279754
+  }
+]

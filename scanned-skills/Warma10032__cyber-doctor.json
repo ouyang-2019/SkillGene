@@ -1,0 +1,338 @@
+[
+  {
+    "name": "cyber-doctor (Warma10032)",
+    "description": "[项目级] 赛博医生项目——”赛博华佗“，基于多模态大模型的多功能智能体，一键搭建本地多模态大模型。接入医疗健康相关的知识图谱和知识库后可以进行疾病初诊，病历分析，专业知识问答等功能，成为你的私人医生。赛博华佗项目能帮助实现医疗资源的跨地域传播，让更多人借助大模型改善健康水平。\"Cyber ​​Huatuo\" - Easy to build a personal doctor agent based on LLM and Knowledge Graph/Knowledge Database.。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "python",
+      "stars-344",
+      "github-warma10032",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "赛博医生项目——”赛博华佗“，基于多模态大模型的多功能智能体，一键搭建本地多模态大模型。接入医疗健康相关的知识图谱和知识库后可以进行疾病初诊，病历分析，专业知识问答等功能，成为你的私人医生。赛博华佗项目能帮助实现医疗资源的跨地域传播，让更多人借助大模型改善健康水平。\"Cyber ​​Huatuo\" - Easy to build a personal doctor agent based on LLM and Knowledge Graph/Knowledge Database.\n\n来源: https://github.com/Warma10032/cyber-doctor\n语言: Python\nStars: 344",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Internet\nInternet/Internet_chain.py\nInternet/Internet_prompt.py\nInternet/__init__.py\nInternet/retrieve_Internet.py\nLICENSE\nREADME.md\nREADME\nREADME/Functions.png\nREADME/License-GPLv3-blue.svg\nREADME/PPT&Word展示.png\nREADME/PPT&Word生成.png\nREADME/bot.jpg\nREADME/功能模块.png\nREADME/文本交流界面.png\nREADME/病历识别.png\nREADME/知识图谱检索.png\nREADME/联网搜索.png\nREADME/语音对话界面.png\nREADME_en.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **多功能多模态整合，借助AI智能体判断任务的种类，将多个模型整合工作，解决复杂问题。**\n- **单独的语音对话模块，语音输入语音输出，只需要会说话就能使用，降低大模型学习成本。**",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2682792212857645
+  },
+  {
+    "name": "cyber-doctor/Internet 模块",
+    "description": "[模块级] cyber-doctor 项目的 Internet 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "internet"
+    ],
+    "genes": [
+      {
+        "title": "Internet 模块说明",
+        "content": "模块路径: Internet/\n类型: source\n文件数: 4\n\n包含文件:\n- Internet/Internet_chain.py\n- Internet/Internet_prompt.py\n- Internet/__init__.py\n- Internet/retrieve_Internet.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Internet 文件结构",
+        "content": "Internet/Internet_chain.py\nInternet/Internet_prompt.py\nInternet/__init__.py\nInternet/retrieve_Internet.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/README 模块",
+    "description": "[模块级] cyber-doctor 项目的 README 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "readme"
+    ],
+    "genes": [
+      {
+        "title": "README 模块说明",
+        "content": "模块路径: README/\n类型: source\n文件数: 11\n\n包含文件:\n- README/Functions.png\n- README/License-GPLv3-blue.svg\n- README/PPT&Word展示.png\n- README/PPT&Word生成.png\n- README/bot.jpg\n- README/功能模块.png\n- README/文本交流界面.png\n- README/病历识别.png\n- README/知识图谱检索.png\n- README/联网搜索.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "README 文件结构",
+        "content": "README/Functions.png\nREADME/License-GPLv3-blue.svg\nREADME/PPT&Word展示.png\nREADME/PPT&Word生成.png\nREADME/bot.jpg\nREADME/功能模块.png\nREADME/文本交流界面.png\nREADME/病历识别.png\nREADME/知识图谱检索.png\nREADME/联网搜索.png\nREADME/语音对话界面.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/audio 模块",
+    "description": "[模块级] cyber-doctor 项目的 audio 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "audio"
+    ],
+    "genes": [
+      {
+        "title": "audio 模块说明",
+        "content": "模块路径: audio/\n类型: source\n文件数: 3\n\n包含文件:\n- audio/__init__.py\n- audio/audio_extract.py\n- audio/audio_generate.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audio 文件结构",
+        "content": "audio/__init__.py\naudio/audio_extract.py\naudio/audio_generate.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/client 模块",
+    "description": "[模块级] cyber-doctor 项目的 client 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 10\n\n包含文件:\n- client/LLMclientbase.py\n- client/LLMclientgeneric.py\n- client/__init__.py\n- client/clientfactory.py\n- client/ourAPI\n- client/ourAPI/__init__.py\n- client/ourAPI/client.py\n- client/zhipuAPI\n- client/zhipuAPI/__init__.py\n- client/zhipuAPI/client.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/LLMclientbase.py\nclient/LLMclientgeneric.py\nclient/__init__.py\nclient/clientfactory.py\nclient/ourAPI\nclient/ourAPI/__init__.py\nclient/ourAPI/client.py\nclient/zhipuAPI\nclient/zhipuAPI/__init__.py\nclient/zhipuAPI/client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/config 模块",
+    "description": "[模块级] cyber-doctor 项目的 config 模块 (config)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 3\n\n包含文件:\n- config/__init__.py\n- config/config-web.yaml\n- config/config.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/__init__.py\nconfig/config-web.yaml\nconfig/config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/model 模块",
+    "description": "[模块级] cyber-doctor 项目的 model 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "model"
+    ],
+    "genes": [
+      {
+        "title": "model 模块说明",
+        "content": "模块路径: model/\n类型: source\n文件数: 15\n\n包含文件:\n- model/Internet\n- model/Internet/Internet_model.py\n- model/Internet/Internet_service.py\n- model/Internet/__init__.py\n- model/KG\n- model/KG/__init__.py\n- model/KG/data_utils.py\n- model/KG/search_model.py\n- model/KG/search_service.py\n- model/RAG",
+        "gene_type": "principle"
+      },
+      {
+        "title": "model 文件结构",
+        "content": "model/Internet\nmodel/Internet/Internet_model.py\nmodel/Internet/Internet_service.py\nmodel/Internet/__init__.py\nmodel/KG\nmodel/KG/__init__.py\nmodel/KG/data_utils.py\nmodel/KG/search_model.py\nmodel/KG/search_service.py\nmodel/RAG\nmodel/RAG/__init__.py\nmodel/RAG/retrieve_model.py\nmodel/RAG/retrieve_service.py\nmodel/__init__.py\nmodel/model_base.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/ppt_docx 模块",
+    "description": "[模块级] cyber-doctor 项目的 ppt_docx 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "ppt_docx"
+    ],
+    "genes": [
+      {
+        "title": "ppt_docx 模块说明",
+        "content": "模块路径: ppt_docx/\n类型: source\n文件数: 4\n\n包含文件:\n- ppt_docx/docx_content.py\n- ppt_docx/docx_generation.py\n- ppt_docx/ppt_content.py\n- ppt_docx/ppt_generation.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ppt_docx 文件结构",
+        "content": "ppt_docx/docx_content.py\nppt_docx/docx_generation.py\nppt_docx/ppt_content.py\nppt_docx/ppt_generation.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/qa 模块",
+    "description": "[模块级] cyber-doctor 项目的 qa 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "qa"
+    ],
+    "genes": [
+      {
+        "title": "qa 模块说明",
+        "content": "模块路径: qa/\n类型: source\n文件数: 6\n\n包含文件:\n- qa/__init__.py\n- qa/answer.py\n- qa/function_tool.py\n- qa/prompt_templates.py\n- qa/purpose_type.py\n- qa/question_parser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "qa 文件结构",
+        "content": "qa/__init__.py\nqa/answer.py\nqa/function_tool.py\nqa/prompt_templates.py\nqa/purpose_type.py\nqa/question_parser.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/rag 模块",
+    "description": "[模块级] cyber-doctor 项目的 rag 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "rag"
+    ],
+    "genes": [
+      {
+        "title": "rag 模块说明",
+        "content": "模块路径: rag/\n类型: source\n文件数: 5\n\n包含文件:\n- rag/__init__.py\n- rag/rag_chain.py\n- rag/retrieve\n- rag/retrieve/__init__.py\n- rag/retrieve/retrieve_document.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rag 文件结构",
+        "content": "rag/__init__.py\nrag/rag_chain.py\nrag/retrieve\nrag/retrieve/__init__.py\nrag/retrieve/retrieve_document.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  },
+  {
+    "name": "cyber-doctor/resource 模块",
+    "description": "[模块级] cyber-doctor 项目的 resource 模块 (source)。来源: https://github.com/Warma10032/cyber-doctor",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "chatbot",
+      "kag",
+      "llm",
+      "module-level",
+      "source",
+      "resource"
+    ],
+    "genes": [
+      {
+        "title": "resource 模块说明",
+        "content": "模块路径: resource/\n类型: source\n文件数: 2\n\n包含文件:\n- resource/bot.jpg\n- resource/user.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resource 文件结构",
+        "content": "resource/bot.jpg\nresource/user.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.514623377028612
+  }
+]

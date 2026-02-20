@@ -1,0 +1,59 @@
+[
+  {
+    "name": "agent-skills (streamlit)",
+    "description": "[项目级] A collection of agent skills for development of Streamlit apps.。来源: https://github.com/streamlit/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-74",
+      "github-streamlit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agent skills for development of Streamlit apps.\n\n来源: https://github.com/streamlit/agent-skills\n语言: unknown\nStars: 74",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndeveloping-with-streamlit\ndeveloping-with-streamlit/SKILL.md\ndeveloping-with-streamlit/skills\ntemplate\ntemplate/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.934615859865488
+  },
+  {
+    "name": "agent-skills/developing-with-streamlit 模块",
+    "description": "[模块级] agent-skills 项目的 developing-with-streamlit 模块 (source)。来源: https://github.com/streamlit/agent-skills",
+    "domain": "devops",
+    "tags": [
+      "stars-74",
+      "github-streamlit",
+      "module-level",
+      "source",
+      "developing-with-streamlit"
+    ],
+    "genes": [
+      {
+        "title": "developing-with-streamlit 模块说明",
+        "content": "模块路径: developing-with-streamlit/\n类型: source\n文件数: 41\n\n包含文件:\n- developing-with-streamlit/SKILL.md\n- developing-with-streamlit/skills\n- developing-with-streamlit/skills/building-streamlit-chat-ui\n- developing-with-streamlit/skills/building-streamlit-chat-ui/SKILL.md\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2/SKILL.md\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2/references\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2/references/packaged-components.md\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2/references/state-sync.md\n- developing-with-streamlit/skills/building-streamlit-custom-components-v2/references/theme-css-variables.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "developing-with-streamlit 文件结构",
+        "content": "developing-with-streamlit/SKILL.md\ndeveloping-with-streamlit/skills\ndeveloping-with-streamlit/skills/building-streamlit-chat-ui\ndeveloping-with-streamlit/skills/building-streamlit-chat-ui/SKILL.md\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/SKILL.md\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/references\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/references/packaged-components.md\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/references/state-sync.md\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/references/theme-css-variables.md\ndeveloping-with-streamlit/skills/building-streamlit-custom-components-v2/references/troubleshooting.md\ndeveloping-with-streamlit/skills/building-streamlit-dashboards\ndeveloping-with-streamlit/skills/building-streamlit-dashboards/SKILL.md\ndeveloping-with-streamlit/skills/building-streamlit-multipage-apps\ndeveloping-with-streamlit/skills/building-streamlit-multipage-apps/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2476926878923904
+  }
+]

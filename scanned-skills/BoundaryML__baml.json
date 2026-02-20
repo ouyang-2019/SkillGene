@@ -1,0 +1,123 @@
+[
+  {
+    "name": "baml (BoundaryML)",
+    "description": "[项目级] The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)。来源: https://github.com/BoundaryML/baml",
+    "domain": "backend",
+    "tags": [
+      "baml",
+      "boundaryml",
+      "guardrails",
+      "llm",
+      "llm-playground",
+      "rust",
+      "stars-7623",
+      "github-boundaryml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)\n\n来源: https://github.com/BoundaryML/baml\n语言: Rust\nStars: 7623",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCITATION.cff\nCONTRIBUTING.md\nLICENSE\nREADME-DEV.md\nREADME.md\nbaml-cli\nbaml-cli/.gitignore\nbaml-cli/README.md\nbaml-cli/main.go\nbaml\nbaml/.gitignore\nbaml/README.md\nbaml/main.go\nbaml_language\nbaml_language/.cargo\nbaml_language/.ci\nbaml_language/.gitignore\nbaml_language/.markdown-whitelist\nbaml_language/.vscode",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.941062959885016
+  },
+  {
+    "name": "baml/baml-cli 模块",
+    "description": "[模块级] baml 项目的 baml-cli 模块 (source)。来源: https://github.com/BoundaryML/baml",
+    "domain": "backend",
+    "tags": [
+      "baml",
+      "boundaryml",
+      "guardrails",
+      "llm",
+      "llm-playground",
+      "module-level",
+      "source",
+      "baml-cli"
+    ],
+    "genes": [
+      {
+        "title": "baml-cli 模块说明",
+        "content": "模块路径: baml-cli/\n类型: source\n文件数: 3\n\n包含文件:\n- baml-cli/.gitignore\n- baml-cli/README.md\n- baml-cli/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "baml-cli 文件结构",
+        "content": "baml-cli/.gitignore\nbaml-cli/README.md\nbaml-cli/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052850367908013
+  },
+  {
+    "name": "baml/baml 模块",
+    "description": "[模块级] baml 项目的 baml 模块 (source)。来源: https://github.com/BoundaryML/baml",
+    "domain": "backend",
+    "tags": [
+      "baml",
+      "boundaryml",
+      "guardrails",
+      "llm",
+      "llm-playground",
+      "module-level",
+      "source",
+      "baml"
+    ],
+    "genes": [
+      {
+        "title": "baml 模块说明",
+        "content": "<h4>\n\n[Homepage](https://www.boundaryml.com/) | [Docs](https://docs.boundaryml.com) | [BAML AI Chat](https://www.boundaryml.com/chat) | [Discord](https://discord.gg/BTNBeXGuaS)\n\n\n\n</h4>\n\n\n</div>\n\nBAML is a simple prompting language for building reliable **AI workflows and agents**.\n\nBAML makes prompt engineering easy by turning it into _schema engineering_ -- where you mostly focus on the models of your prompt -- to get more reliable outputs. \nYou don't need to write your whole app in BAML, only",
+        "gene_type": "principle"
+      },
+      {
+        "title": "baml 文件结构",
+        "content": "baml/.gitignore\nbaml/README.md\nbaml/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052850367908013
+  },
+  {
+    "name": "baml/baml_language 模块",
+    "description": "[模块级] baml 项目的 baml_language 模块 (source)。来源: https://github.com/BoundaryML/baml",
+    "domain": "backend",
+    "tags": [
+      "baml",
+      "boundaryml",
+      "guardrails",
+      "llm",
+      "llm-playground",
+      "module-level",
+      "source",
+      "baml_language"
+    ],
+    "genes": [
+      {
+        "title": "baml_language 模块说明",
+        "content": "模块路径: baml_language/\n类型: source\n文件数: 112\n\n包含文件:\n- baml_language/.cargo\n- baml_language/.cargo/size-gate.toml\n- baml_language/.ci\n- baml_language/.ci/size-gate\n- baml_language/.ci/size-gate/aarch64-apple-darwin.toml\n- baml_language/.ci/size-gate/wasm32-unknown-unknown.toml\n- baml_language/.ci/size-gate/x86_64-pc-windows-msvc.toml\n- baml_language/.ci/size-gate/x86_64-unknown-linux-gnu.toml\n- baml_language/.gitignore\n- baml_language/.markdown-whitelist",
+        "gene_type": "principle"
+      },
+      {
+        "title": "baml_language 文件结构",
+        "content": "baml_language/.cargo\nbaml_language/.cargo/size-gate.toml\nbaml_language/.ci\nbaml_language/.ci/size-gate\nbaml_language/.ci/size-gate/aarch64-apple-darwin.toml\nbaml_language/.ci/size-gate/wasm32-unknown-unknown.toml\nbaml_language/.ci/size-gate/x86_64-pc-windows-msvc.toml\nbaml_language/.ci/size-gate/x86_64-unknown-linux-gnu.toml\nbaml_language/.gitignore\nbaml_language/.markdown-whitelist\nbaml_language/.vscode\nbaml_language/.vscode/settings.json\nbaml_language/Cargo.lock\nbaml_language/Cargo.toml\nbaml_language/TEST_INSTRUCTIONS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052850367908013
+  }
+]

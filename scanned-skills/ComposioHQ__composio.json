@@ -1,0 +1,68 @@
+[
+  {
+    "name": "composio (ComposioHQ)",
+    "description": "[项目级] Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.。来源: https://github.com/ComposioHQ/composio",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "aiagents",
+      "typescript",
+      "stars-26946",
+      "github-composiohq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.\n\n来源: https://github.com/ComposioHQ/composio\n语言: TypeScript\nStars: 26946",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nDockerfile\nINSTALL.md\nLICENSE\nREADME.md\ncontext7.json\ndocs\ndocs/.claude\ndocs/.env.example\ndocs/.gitignore\ndocs/CLAUDE.md\ndocs/README.md\ndocs/app\ndocs/bun.lock\ndocs/bunfig.toml\ndocs/components.json\ndocs/components",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "composio/docs 模块",
+    "description": "[模块级] composio 项目的 docs 模块 (docs)。来源: https://github.com/ComposioHQ/composio",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "aiagents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 92\n\n包含文件:\n- docs/.claude\n- docs/.claude/agents\n- docs/.claude/agents/changelog-docs-updater.md\n- docs/.claude/agents/docs-reviewer.md\n- docs/.claude/context\n- docs/.claude/context/api-reference.md\n- docs/.claude/context/fumadocs.md\n- docs/.claude/context/sdk-reference.md\n- docs/.claude/context/twoslash.md\n- docs/.claude/decisions",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.claude\ndocs/.claude/agents\ndocs/.claude/agents/changelog-docs-updater.md\ndocs/.claude/agents/docs-reviewer.md\ndocs/.claude/context\ndocs/.claude/context/api-reference.md\ndocs/.claude/context/fumadocs.md\ndocs/.claude/context/sdk-reference.md\ndocs/.claude/context/twoslash.md\ndocs/.claude/decisions\ndocs/.claude/decisions/examples.md\ndocs/.claude/decisions/feedback.md\ndocs/.claude/decisions/llm-guardrails.md\ndocs/.claude/decisions/toolkits.md\ndocs/.claude/guides",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.272197722178543
+  }
+]

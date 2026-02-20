@@ -1,0 +1,145 @@
+[
+  {
+    "name": "companion (The-Vibe-Company)",
+    "description": "[项目级] Web & Mobile UI for Claude Code & Codex . Launch sessions, stream responses, approve tools.  All from your browser / mobile。来源: https://github.com/The-Vibe-Company/companion",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-2013",
+      "github-the-vibe-company",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Web & Mobile UI for Claude Code & Codex . Launch sessions, stream responses, approve tools.  All from your browser / mobile\n\n来源: https://github.com/The-Vibe-Company/companion\n语言: TypeScript\nStars: 2013",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "bunx the-companion",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nMakefile\nREADME.md\nWEBSOCKET_PROTOCOL_REVERSED.md\nbun.lock\ndocs\ndocs/screenshots\nlanding\nlanding/docs\nlanding/index.html\nlanding/package.json\nlanding/public\nlanding/src\nlanding/tsconfig.json\nlanding/vite.config.ts\npackage.json\nrelease-please-config.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6519218874443276
+  },
+  {
+    "name": "companion/docs 模块",
+    "description": "[模块级] companion 项目的 docs 模块 (docs)。来源: https://github.com/The-Vibe-Company/companion",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-2013",
+      "github-the-vibe-company",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "- Protocol reverse engineering: [`WEBSOCKET_PROTOCOL_REVERSED.md`](WEBSOCKET_PROTOCOL_REVERSED.md)\n- Contributor and architecture guide: [`CLAUDE.md`](CLAUDE.md)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/screenshots\ndocs/screenshots/readme-landing.png\ndocs/screenshots/readme-main-workspace.png\ndocs/screenshots/readme-permissions.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.821537509955462
+  },
+  {
+    "name": "companion/landing 模块",
+    "description": "[模块级] companion 项目的 landing 模块 (source)。来源: https://github.com/The-Vibe-Company/companion",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-2013",
+      "github-the-vibe-company",
+      "module-level",
+      "source",
+      "landing"
+    ],
+    "genes": [
+      {
+        "title": "landing 模块说明",
+        "content": "模块路径: landing/\n类型: source\n文件数: 31\n\n包含文件:\n- landing/docs\n- landing/docs/screenshots\n- landing/docs/screenshots/landing-refocus-desktop.png\n- landing/docs/screenshots/landing-refocus-mobile.png\n- landing/index.html\n- landing/package.json\n- landing/public\n- landing/public/favicon.svg\n- landing/public/logos\n- landing/public/logos/anthropic.ico",
+        "gene_type": "principle"
+      },
+      {
+        "title": "landing 文件结构",
+        "content": "landing/docs\nlanding/docs/screenshots\nlanding/docs/screenshots/landing-refocus-desktop.png\nlanding/docs/screenshots/landing-refocus-mobile.png\nlanding/index.html\nlanding/package.json\nlanding/public\nlanding/public/favicon.svg\nlanding/public/logos\nlanding/public/logos/anthropic.ico\nlanding/public/logos/codex.svg\nlanding/public/logos/tailscale.svg\nlanding/public/screenshot.png\nlanding/src\nlanding/src/App.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.821537509955462
+  },
+  {
+    "name": "companion/scripts 模块",
+    "description": "[模块级] companion 项目的 scripts 模块 (script)。来源: https://github.com/The-Vibe-Company/companion",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-2013",
+      "github-the-vibe-company",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/audit-recordings.ts\n- scripts/dev-start.sh\n- scripts/landing-start.sh\n- scripts/sync-codex-protocol.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/audit-recordings.ts\nscripts/dev-start.sh\nscripts/landing-start.sh\nscripts/sync-codex-protocol.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.821537509955462
+  },
+  {
+    "name": "companion/web 模块",
+    "description": "[模块级] companion 项目的 web 模块 (source)。来源: https://github.com/The-Vibe-Company/companion",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-2013",
+      "github-the-vibe-company",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "模块路径: web/\n类型: source\n文件数: 129\n\n包含文件:\n- web/.env.example\n- web/CHANGELOG.md\n- web/CODEX_MAPPING.md\n- web/bin\n- web/bin/cli.ts\n- web/bin/ctl.ts\n- web/dev.ts\n- web/docker\n- web/docker/Dockerfile.the-companion\n- web/docs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/.env.example\nweb/CHANGELOG.md\nweb/CODEX_MAPPING.md\nweb/bin\nweb/bin/cli.ts\nweb/bin/ctl.ts\nweb/dev.ts\nweb/docker\nweb/docker/Dockerfile.the-companion\nweb/docs\nweb/docs/screenshots\nweb/docs/screenshots/notification-section.png\nweb/index.html\nweb/package.json\nweb/public",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.821537509955462
+  }
+]

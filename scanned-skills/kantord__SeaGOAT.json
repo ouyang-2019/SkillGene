@@ -1,0 +1,223 @@
+[
+  {
+    "name": "SeaGOAT (kantord)",
+    "description": "[项目级] local-first semantic code search engine。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "python",
+      "stars-1265",
+      "github-kantord",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "local-first semantic code search engine\n\n来源: https://github.com/kantord/SeaGOAT\n语言: Python\nStars: 1265",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nasciinema\nasciinema/describe_what_you_are_looking_for.cast\nasciinema/explain_what_you_want.cast\nasciinema/export_gifs.sh\nasciinema/incorporate_regex.cast\nassets\nassets/demo-slideshow.gif\nassets/describe_what_you_are_looking_for.gif\nassets/explain_what_you_want.gif\nassets/github-social-image.png\nassets/github-social-image.xcf\nassets/incorporate_regex.gif\nassets/logo-small.png\nassets/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.551045262755919
+  },
+  {
+    "name": "SeaGOAT/asciinema 模块",
+    "description": "[模块级] SeaGOAT 项目的 asciinema 模块 (source)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "source",
+      "asciinema"
+    ],
+    "genes": [
+      {
+        "title": "asciinema 模块说明",
+        "content": "模块路径: asciinema/\n类型: source\n文件数: 4\n\n包含文件:\n- asciinema/describe_what_you_are_looking_for.cast\n- asciinema/explain_what_you_want.cast\n- asciinema/export_gifs.sh\n- asciinema/incorporate_regex.cast",
+        "gene_type": "principle"
+      },
+      {
+        "title": "asciinema 文件结构",
+        "content": "asciinema/describe_what_you_are_looking_for.cast\nasciinema/explain_what_you_want.cast\nasciinema/export_gifs.sh\nasciinema/incorporate_regex.cast",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  },
+  {
+    "name": "SeaGOAT/assets 模块",
+    "description": "[模块级] SeaGOAT 项目的 assets 模块 (source)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 10\n\n包含文件:\n- assets/demo-slideshow.gif\n- assets/describe_what_you_are_looking_for.gif\n- assets/explain_what_you_want.gif\n- assets/github-social-image.png\n- assets/github-social-image.xcf\n- assets/incorporate_regex.gif\n- assets/logo-small.png\n- assets/logo.png\n- assets/logo.svg\n- assets/logo.webp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/demo-slideshow.gif\nassets/describe_what_you_are_looking_for.gif\nassets/explain_what_you_want.gif\nassets/github-social-image.png\nassets/github-social-image.xcf\nassets/incorporate_regex.gif\nassets/logo-small.png\nassets/logo.png\nassets/logo.svg\nassets/logo.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  },
+  {
+    "name": "SeaGOAT/docs 模块",
+    "description": "[模块级] SeaGOAT 项目的 docs 模块 (docs)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 23\n\n包含文件:\n- docs/assets\n- docs/assets/demo-slideshow.gif\n- docs/assets/demo.gif\n- docs/assets/describe_what_you_are_looking_for.gif\n- docs/assets/explain_what_you_want.gif\n- docs/assets/images\n- docs/assets/images/favicon.ico\n- docs/assets/images/favicon.png\n- docs/assets/incorporate_regex.gif\n- docs/assets/logo-small.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/demo-slideshow.gif\ndocs/assets/demo.gif\ndocs/assets/describe_what_you_are_looking_for.gif\ndocs/assets/explain_what_you_want.gif\ndocs/assets/images\ndocs/assets/images/favicon.ico\ndocs/assets/images/favicon.png\ndocs/assets/incorporate_regex.gif\ndocs/assets/logo-small.png\ndocs/assets/logo.png\ndocs/configuration.md\ndocs/demo-slideshow.gif\ndocs/demo.gif\ndocs/describe_what_you_are_looking_for.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  },
+  {
+    "name": "SeaGOAT/seagoat 模块",
+    "description": "[模块级] SeaGOAT 项目的 seagoat 模块 (source)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "source",
+      "seagoat"
+    ],
+    "genes": [
+      {
+        "title": "seagoat 模块说明",
+        "content": "In order to install SeaGOAT, you need to have the following\ndependencies already installed on your computer:\n\n- Python 3.11 or newer\n- ripgrep\n- [bat](https://github.com/sharkdp/bat) (**optional**, highly recommended)\n\nWhen `bat` is [installed](https://github.com/sharkdp/bat#on-ubuntu-using-apt),\nit is used to display results as long as color is enabled. When SeaGOAT is\nused as part of a pipeline, a grep-line output format is used. When color is\nenabled, but `bat` is not installed, SeaGOAT will ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "seagoat 文件结构",
+        "content": "seagoat/__init__.py\nseagoat/cache.py\nseagoat/cli.py\nseagoat/engine.py\nseagoat/gitfile.py\nseagoat/queue\nseagoat/queue/base_queue.py\nseagoat/queue/task_queue.py\nseagoat/repository.py\nseagoat/result.py\nseagoat/server.py\nseagoat/sources\nseagoat/sources/chroma.py\nseagoat/sources/ripgrep.py\nseagoat/utils",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "seagoat 代码示例",
+        "content": "pipx install seagoat",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  },
+  {
+    "name": "SeaGOAT/tests 模块",
+    "description": "[模块级] SeaGOAT 项目的 tests 模块 (test)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 23\n\n包含文件:\n- tests/__init__.py\n- tests/__snapshots__\n- tests/__snapshots__/test_chroma.ambr\n- tests/__snapshots__/test_cli.ambr\n- tests/__snapshots__/test_file.ambr\n- tests/__snapshots__/test_server.ambr\n- tests/__snapshots__/test_snapshot.ambr\n- tests/conftest.py\n- tests/test_chroma.py\n- tests/test_cli.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/__snapshots__\ntests/__snapshots__/test_chroma.ambr\ntests/__snapshots__/test_cli.ambr\ntests/__snapshots__/test_file.ambr\ntests/__snapshots__/test_server.ambr\ntests/__snapshots__/test_snapshot.ambr\ntests/conftest.py\ntests/test_chroma.py\ntests/test_cli.py\ntests/test_config.py\ntests/test_file.py\ntests/test_file_reader.py\ntests/test_json_serialization.py\ntests/test_queue.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  },
+  {
+    "name": "SeaGOAT/typings 模块",
+    "description": "[模块级] SeaGOAT 项目的 typings 模块 (source)。来源: https://github.com/kantord/SeaGOAT",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "ai-project",
+      "code-search",
+      "code-search-engine",
+      "embeddings",
+      "module-level",
+      "source",
+      "typings"
+    ],
+    "genes": [
+      {
+        "title": "typings 模块说明",
+        "content": "模块路径: typings/\n类型: source\n文件数: 43\n\n包含文件:\n- typings/git\n- typings/git/__init__.pyi\n- typings/git/cmd.pyi\n- typings/git/compat.pyi\n- typings/git/config.pyi\n- typings/git/db.pyi\n- typings/git/diff.pyi\n- typings/git/exc.pyi\n- typings/git/index\n- typings/git/index/__init__.pyi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "typings 文件结构",
+        "content": "typings/git\ntypings/git/__init__.pyi\ntypings/git/cmd.pyi\ntypings/git/compat.pyi\ntypings/git/config.pyi\ntypings/git/db.pyi\ntypings/git/diff.pyi\ntypings/git/exc.pyi\ntypings/git/index\ntypings/git/index/__init__.pyi\ntypings/git/index/base.pyi\ntypings/git/index/fun.pyi\ntypings/git/index/typ.pyi\ntypings/git/index/util.pyi\ntypings/git/objects",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.740836210204735
+  }
+]

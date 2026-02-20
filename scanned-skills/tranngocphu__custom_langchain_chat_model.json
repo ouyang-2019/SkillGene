@@ -1,0 +1,66 @@
+[
+  {
+    "name": "custom_langchain_chat_model (tranngocphu)",
+    "description": "[项目级] LangChain-Compatible Wrapper for Any Private LLM APIs。来源: https://github.com/tranngocphu/custom_langchain_chat_model",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-77",
+      "github-tranngocphu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<pre style=\"white-space: pre; overflow-x: auto;\">\n|─ custom_langchain_model/  #\n|   ├─ core/\n|   │  ├─ __init__.py\n|   │  ├─ config.py         #  load env variables from .env to settings object\n|   │  ├─ logging.py        #  configurate logging for callback handlers\n|   │  └─ security.py       #  get and globally store private LLM API access token\n|   ├─ llms/\n|   │  ├─ __init__.py\n|   │  ├─ callbacks.py      #  define callback handlers\n|   │  ├─ contexts.py       #  define LangGraph context schema (pydantic object)\n|   │  ├─ graphs.py         #  define LangGraph chat flow \n|   │  ├─ models.py         #  define custom LangChain chat mode wrapping private LLM API\n|   │  ├─ states.py         #  define LangGaph state schema (pydandic object)\n|   │  └─ tools.py          #  define tools used wi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/tranngocphu/custom_langchain_chat_model.git\ncd custom_langchain_chat_model\npython -m venv .venv\nsource .venv/bin/activate\npython -m pip install --upgrade pip\npip install -e .",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncustom_langchain_model\ncustom_langchain_model/__init__.py\ncustom_langchain_model/core\ncustom_langchain_model/llms\nfull_example.py\nmain.py\npyproject.toml\ntutorial.md\nuv.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "python full_example.py",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.943245362586241
+  },
+  {
+    "name": "custom_langchain_chat_model/custom_langchain_model 模块",
+    "description": "[模块级] custom_langchain_chat_model 项目的 custom_langchain_model 模块 (source)。来源: https://github.com/tranngocphu/custom_langchain_chat_model",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-77",
+      "github-tranngocphu",
+      "module-level",
+      "source",
+      "custom_langchain_model"
+    ],
+    "genes": [
+      {
+        "title": "custom_langchain_model 模块说明",
+        "content": "模块路径: custom_langchain_model/\n类型: source\n文件数: 14\n\n包含文件:\n- custom_langchain_model/__init__.py\n- custom_langchain_model/core\n- custom_langchain_model/core/__init__.py\n- custom_langchain_model/core/config.py\n- custom_langchain_model/core/logging.py\n- custom_langchain_model/core/security.py\n- custom_langchain_model/llms\n- custom_langchain_model/llms/__init__.py\n- custom_langchain_model/llms/callbacks.py\n- custom_langchain_model/llms/contexts.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "custom_langchain_model 文件结构",
+        "content": "custom_langchain_model/__init__.py\ncustom_langchain_model/core\ncustom_langchain_model/core/__init__.py\ncustom_langchain_model/core/config.py\ncustom_langchain_model/core/logging.py\ncustom_langchain_model/core/security.py\ncustom_langchain_model/llms\ncustom_langchain_model/llms/__init__.py\ncustom_langchain_model/llms/callbacks.py\ncustom_langchain_model/llms/contexts.py\ncustom_langchain_model/llms/graphs.py\ncustom_langchain_model/llms/models.py\ncustom_langchain_model/llms/states.py\ncustom_langchain_model/llms/tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2545962900689926
+  }
+]

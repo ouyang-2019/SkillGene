@@ -1,0 +1,56 @@
+[
+  {
+    "name": "is-my-problem-new (fjzzq2002)",
+    "description": "[项目级] Semantic search for competitive programming problems。来源: https://github.com/fjzzq2002/is-my-problem-new",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-321",
+      "github-fjzzq2002",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic search for competitive programming problems\n\n来源: https://github.com/fjzzq2002/is-my-problem-new\n语言: Python\nStars: 321",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nlogo.gif\nproblems.txt\nproblems\nproblems/1000.json\nsettings_sample.json\nsrc\nsrc/build_locale.py\nsrc/build_summary.py\nsrc/custom_about.py\nsrc/embedder.py\nsrc/requirements.txt\nsrc/ui.py\nsrc/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.253252516202436
+  },
+  {
+    "name": "is-my-problem-new/src 模块",
+    "description": "[模块级] is-my-problem-new 项目的 src 模块 (source)。来源: https://github.com/fjzzq2002/is-my-problem-new",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-321",
+      "github-fjzzq2002",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/build_locale.py\n- src/build_summary.py\n- src/custom_about.py\n- src/embedder.py\n- src/requirements.txt\n- src/ui.py\n- src/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/build_locale.py\nsrc/build_summary.py\nsrc/custom_about.py\nsrc/embedder.py\nsrc/requirements.txt\nsrc/ui.py\nsrc/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.502602012961949
+  }
+]

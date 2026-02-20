@@ -1,0 +1,123 @@
+[
+  {
+    "name": "DBreeze (hhblaze)",
+    "description": "[项目级] C# .NET NOSQL ( key value, object store embedded TextSearch SemanticSearch Vector layer ) ACID multi-paradigm database management system.。来源: https://github.com/hhblaze/DBreeze",
+    "domain": "devops",
+    "tags": [
+      "acid",
+      "android",
+      "c-sharp",
+      "clustering",
+      "database",
+      "c#",
+      "stars-571",
+      "github-hhblaze",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "C# .NET NOSQL ( key value, object store embedded TextSearch SemanticSearch Vector layer ) ACID multi-paradigm database management system.\n\n来源: https://github.com/hhblaze/DBreeze\n语言: C#\nStars: 571",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "DBreeze.Net5\nDBreeze.Net5/DBreeze.Net5.csproj\nDBreeze.Net5/DBreeze.Net5.csproj.user\nDBreeze.Net5/DBreeze.Net5.sln\nDBreeze.Net5/DBreeze.code-workspace\nDBreeze.Net5/DataStructures\nDBreeze.Net5/DataTypes\nDBreeze.Net5/Diagnostic\nDBreeze.Net5/Engine\nDBreeze.Net5/Exceptions\nDBreeze.Net5/LianaTrie\nDBreeze.Net5/Objects\nDBreeze.Net5/SchemeInternal\nDBreeze.Net5/Storage\nDBreeze.Net5/TextSearch\nDBreeze.Net5/Transactions\nDBreeze.Net5/Tries\nDBreeze.Net5/Utils\nDBreeze.Net5/VectorLayer\nDBreeze.NetCoreApp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.378318054122924
+  },
+  {
+    "name": "DBreeze/DBreeze.Net5 模块",
+    "description": "[模块级] DBreeze 项目的 DBreeze.Net5 模块 (source)。来源: https://github.com/hhblaze/DBreeze",
+    "domain": "devops",
+    "tags": [
+      "acid",
+      "android",
+      "c-sharp",
+      "clustering",
+      "database",
+      "module-level",
+      "source",
+      "dbreeze.net5"
+    ],
+    "genes": [
+      {
+        "title": "DBreeze.Net5 模块说明",
+        "content": "模块路径: DBreeze.Net5/\n类型: source\n文件数: 79\n\n包含文件:\n- DBreeze.Net5/DBreeze.Net5.csproj\n- DBreeze.Net5/DBreeze.Net5.csproj.user\n- DBreeze.Net5/DBreeze.Net5.sln\n- DBreeze.Net5/DBreeze.code-workspace\n- DBreeze.Net5/DataStructures\n- DBreeze.Net5/DataStructures/DataAsTree.cs\n- DBreeze.Net5/DataTypes\n- DBreeze.Net5/DataTypes/DataTypesConvertor.cs\n- DBreeze.Net5/DataTypes/DbAscii.cs\n- DBreeze.Net5/DataTypes/DbCustomSerializer.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "DBreeze.Net5 文件结构",
+        "content": "DBreeze.Net5/DBreeze.Net5.csproj\nDBreeze.Net5/DBreeze.Net5.csproj.user\nDBreeze.Net5/DBreeze.Net5.sln\nDBreeze.Net5/DBreeze.code-workspace\nDBreeze.Net5/DataStructures\nDBreeze.Net5/DataStructures/DataAsTree.cs\nDBreeze.Net5/DataTypes\nDBreeze.Net5/DataTypes/DataTypesConvertor.cs\nDBreeze.Net5/DataTypes/DbAscii.cs\nDBreeze.Net5/DataTypes/DbCustomSerializer.cs\nDBreeze.Net5/DataTypes/DbMJSON.cs\nDBreeze.Net5/DataTypes/DbUTF8.cs\nDBreeze.Net5/DataTypes/DbUnicode.cs\nDBreeze.Net5/DataTypes/DbXML.cs\nDBreeze.Net5/DataTypes/IDBConvertable.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "DBreeze/DBreeze.NetCoreApp 模块",
+    "description": "[模块级] DBreeze 项目的 DBreeze.NetCoreApp 模块 (source)。来源: https://github.com/hhblaze/DBreeze",
+    "domain": "devops",
+    "tags": [
+      "acid",
+      "android",
+      "c-sharp",
+      "clustering",
+      "database",
+      "module-level",
+      "source",
+      "dbreeze.netcoreapp"
+    ],
+    "genes": [
+      {
+        "title": "DBreeze.NetCoreApp 模块说明",
+        "content": "模块路径: DBreeze.NetCoreApp/\n类型: source\n文件数: 75\n\n包含文件:\n- DBreeze.NetCoreApp/DBreeze.NetCoreApp.csproj\n- DBreeze.NetCoreApp/DBreeze.NetCoreApp.csproj.user\n- DBreeze.NetCoreApp/DBreezeTMP.csproj\n- DBreeze.NetCoreApp/DataStructures\n- DBreeze.NetCoreApp/DataStructures/DataAsTree.cs\n- DBreeze.NetCoreApp/DataTypes\n- DBreeze.NetCoreApp/DataTypes/DataTypesConvertor.cs\n- DBreeze.NetCoreApp/DataTypes/DbAscii.cs\n- DBreeze.NetCoreApp/DataTypes/DbCustomSerializer.cs\n- DBreeze.NetCoreApp/DataTypes/DbUTF8.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "DBreeze.NetCoreApp 文件结构",
+        "content": "DBreeze.NetCoreApp/DBreeze.NetCoreApp.csproj\nDBreeze.NetCoreApp/DBreeze.NetCoreApp.csproj.user\nDBreeze.NetCoreApp/DBreezeTMP.csproj\nDBreeze.NetCoreApp/DataStructures\nDBreeze.NetCoreApp/DataStructures/DataAsTree.cs\nDBreeze.NetCoreApp/DataTypes\nDBreeze.NetCoreApp/DataTypes/DataTypesConvertor.cs\nDBreeze.NetCoreApp/DataTypes/DbAscii.cs\nDBreeze.NetCoreApp/DataTypes/DbCustomSerializer.cs\nDBreeze.NetCoreApp/DataTypes/DbUTF8.cs\nDBreeze.NetCoreApp/DataTypes/DbUnicode.cs\nDBreeze.NetCoreApp/DataTypes/DbXML.cs\nDBreeze.NetCoreApp/DataTypes/IDBConvertable.cs\nDBreeze.NetCoreApp/Diagnostic\nDBreeze.NetCoreApp/Diagnostic/SpeedStatistic.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "DBreeze/DBreeze.NetStandard 模块",
+    "description": "[模块级] DBreeze 项目的 DBreeze.NetStandard 模块 (source)。来源: https://github.com/hhblaze/DBreeze",
+    "domain": "devops",
+    "tags": [
+      "acid",
+      "android",
+      "c-sharp",
+      "clustering",
+      "database",
+      "module-level",
+      "source",
+      "dbreeze.netstandard"
+    ],
+    "genes": [
+      {
+        "title": "DBreeze.NetStandard 模块说明",
+        "content": "模块路径: DBreeze.NetStandard/\n类型: source\n文件数: 39\n\n包含文件:\n- DBreeze.NetStandard/DBreeze.NetStandard.csproj\n- DBreeze.NetStandard/DBreeze.NetStandard.csproj.user\n- DBreeze.NetStandard/DataStructures\n- DBreeze.NetStandard/DataStructures/DataAsTree.cs\n- DBreeze.NetStandard/DataTypes\n- DBreeze.NetStandard/DataTypes/DataTypesConvertor.cs\n- DBreeze.NetStandard/DataTypes/DbAscii.cs\n- DBreeze.NetStandard/DataTypes/DbCustomSerializer.cs\n- DBreeze.NetStandard/DataTypes/DbUTF8.cs\n- DBreeze.NetStandard/DataTypes/DbUnicode.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "DBreeze.NetStandard 文件结构",
+        "content": "DBreeze.NetStandard/DBreeze.NetStandard.csproj\nDBreeze.NetStandard/DBreeze.NetStandard.csproj.user\nDBreeze.NetStandard/DataStructures\nDBreeze.NetStandard/DataStructures/DataAsTree.cs\nDBreeze.NetStandard/DataTypes\nDBreeze.NetStandard/DataTypes/DataTypesConvertor.cs\nDBreeze.NetStandard/DataTypes/DbAscii.cs\nDBreeze.NetStandard/DataTypes/DbCustomSerializer.cs\nDBreeze.NetStandard/DataTypes/DbUTF8.cs\nDBreeze.NetStandard/DataTypes/DbUnicode.cs\nDBreeze.NetStandard/DataTypes/IDBConvertable.cs\nDBreeze.NetStandard/Diagnostic\nDBreeze.NetStandard/Diagnostic/SpeedStatistic.cs\nDBreeze.NetStandard/Engine\nDBreeze.NetStandard/Engine/DBreezeEngine.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  }
+]

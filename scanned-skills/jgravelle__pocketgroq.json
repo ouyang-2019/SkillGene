@@ -1,0 +1,158 @@
+[
+  {
+    "name": "pocketgroq (jgravelle)",
+    "description": "[项目级] PocketGroq is a powerful Python library that simplifies integration with the Groq API, offering advanced features for natural language processing, web scraping, and autonomous agent capabilities. Key Features  Seamless integration with Groq API for text generation and completion Chain of Thought (CoT) reasoning for complex problem-solving and more.。来源: https://github.com/jgravelle/pocketgroq",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "autonomous-agent",
+      "chatbot",
+      "google",
+      "python",
+      "stars-214",
+      "github-jgravelle",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "messages = [\n    {\n        \"role\": \"user\",\n        \"content\": [\n            {\n                \"type\": \"text\",\n                \"text\": \"What do you see in this image?\"\n            },\n            {\n                \"type\": \"image_url\",\n                \"image_url\": {\"url\": \"https://example.com/image.jpg\"}\n            }\n        ]\n    }\n]\n\nresponse1 = groq.process_image_conversation(messages=messages)\nprint(f\"First response: {response1}\")",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nfaiss_index.pkl\nfaiss_persistent_index.pkl\npocketgroq.egg-info\npocketgroq.egg-info/PKG-INFO\npocketgroq.egg-info/SOURCES.txt\npocketgroq.egg-info/dependency_links.txt\npocketgroq.egg-info/requires.txt\npocketgroq.egg-info/top_level.txt\npocketgroq\npocketgroq/__init__.py\npocketgroq/autonomous_agent.py\npocketgroq/chain_of_thought\npocketgroq/config.py\npocketgroq/enhanced_web_tool.py\npocketgroq/exceptions.py\npocketgroq/groq_provider.py\npocketgroq/rag_manager.py\npocketgroq/speech.py\npocketgroq/utils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- `process_request(request: str, max_sources: int = None, verify: bool = False) -> str`: Processes a request autonomously.\n- `_select_best_response(verified_sources: List[tuple], verify: bool) -> str`: Selects the best response from verified sources.\n- `_generate_search_query(request: str) -> str`: Generates an optimized search query.\n- `_evaluate_response(request: str, response: str) -> bool`: Evaluates response quality.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1652068866745955
+  },
+  {
+    "name": "pocketgroq/pocketgroq.egg-info 模块",
+    "description": "[模块级] pocketgroq 项目的 pocketgroq.egg-info 模块 (source)。来源: https://github.com/jgravelle/pocketgroq",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "autonomous-agent",
+      "chatbot",
+      "google",
+      "module-level",
+      "source",
+      "pocketgroq.egg-info"
+    ],
+    "genes": [
+      {
+        "title": "pocketgroq.egg-info 模块说明",
+        "content": "模块路径: pocketgroq.egg-info/\n类型: source\n文件数: 5\n\n包含文件:\n- pocketgroq.egg-info/PKG-INFO\n- pocketgroq.egg-info/SOURCES.txt\n- pocketgroq.egg-info/dependency_links.txt\n- pocketgroq.egg-info/requires.txt\n- pocketgroq.egg-info/top_level.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pocketgroq.egg-info 文件结构",
+        "content": "pocketgroq.egg-info/PKG-INFO\npocketgroq.egg-info/SOURCES.txt\npocketgroq.egg-info/dependency_links.txt\npocketgroq.egg-info/requires.txt\npocketgroq.egg-info/top_level.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4321655093396766
+  },
+  {
+    "name": "pocketgroq/pocketgroq 模块",
+    "description": "[模块级] pocketgroq 项目的 pocketgroq 模块 (source)。来源: https://github.com/jgravelle/pocketgroq",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "autonomous-agent",
+      "chatbot",
+      "google",
+      "module-level",
+      "source",
+      "pocketgroq"
+    ],
+    "genes": [
+      {
+        "title": "pocketgroq 模块说明",
+        "content": "![PocketGroq Logo](https://github.com/user-attachments/assets/d06b6aaf-400e-40db-bdaf-626aaa1040ef)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pocketgroq 文件结构",
+        "content": "pocketgroq/__init__.py\npocketgroq/autonomous_agent.py\npocketgroq/chain_of_thought\npocketgroq/chain_of_thought/__init__.py\npocketgroq/chain_of_thought/cot_manager.py\npocketgroq/chain_of_thought/llm_interface.py\npocketgroq/chain_of_thought/utils.py\npocketgroq/config.py\npocketgroq/enhanced_web_tool.py\npocketgroq/exceptions.py\npocketgroq/groq_provider.py\npocketgroq/rag_manager.py\npocketgroq/speech.py\npocketgroq/utils.py\npocketgroq/vision.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4321655093396766
+  },
+  {
+    "name": "pocketgroq/src 模块",
+    "description": "[模块级] pocketgroq 项目的 src 模块 (source)。来源: https://github.com/jgravelle/pocketgroq",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "autonomous-agent",
+      "chatbot",
+      "google",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/custom_instructions.txt\n- src/pocketgroq.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/custom_instructions.txt\nsrc/pocketgroq.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4321655093396766
+  },
+  {
+    "name": "pocketgroq/tests 模块",
+    "description": "[模块级] pocketgroq 项目的 tests 模块 (test)。来源: https://github.com/jgravelle/pocketgroq",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "api",
+      "autonomous-agent",
+      "chatbot",
+      "google",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 6\n\n包含文件:\n- tests/sample_audio.wav\n- tests/sample_french.wav\n- tests/test_groq_provider.py\n- tests/test_narrate_screen.py\n- tests/test_speech.py\n- tests/test_vision.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/sample_audio.wav\ntests/sample_french.wav\ntests/test_groq_provider.py\ntests/test_narrate_screen.py\ntests/test_speech.py\ntests/test_vision.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4321655093396766
+  }
+]

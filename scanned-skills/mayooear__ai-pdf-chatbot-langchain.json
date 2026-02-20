@@ -1,0 +1,118 @@
+[
+  {
+    "name": "ai-pdf-chatbot-langchain (mayooear)",
+    "description": "[项目级] AI PDF chatbot agent built with LangChain & LangGraph 。来源: https://github.com/mayooear/ai-pdf-chatbot-langchain",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "chatbot",
+      "langchain",
+      "langgraph",
+      "typescript",
+      "stars-16355",
+      "github-mayooear",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "```ascii\n┌─────────────────────┐    1. Upload PDFs    ┌───────────────────────────┐\n│Frontend (Next.js)   │ ────────────────────> │Backend (LangGraph)       │\n│ - React UI w/ chat  │                      │ - Ingestion Graph         │\n│ - Upload .pdf files │ <────────────────────┤   + Vector embedding via  │\n└─────────────────────┘    2. Confirmation   │     SupabaseVectorStore   │\n(storing embeddings in DB)\n\n┌─────────────────────┐    3. Ask questions  ┌───────────────────────────┐\n│Frontend (Next.js)   │ ────────────────────> │Backend (LangGraph)       │\n│ - Chat + SSE stream │                      │ - Retrieval Graph         │\n│ - Display sources   │ <────────────────────┤   + Chat model (OpenAI)   │\n└─────────────────────┘ 4. Streamed answers  └───────────────────────────┘\n\n```\n- **Supa",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/mayooear/ai-pdf-chatbot-langchain.git\n   cd ai-pdf-chatbot-langchain",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbackend\nbackend/.env.example\nbackend/.gitignore\nbackend/__tests__\nbackend/demo.ts\nbackend/ingest-demo.ipynb\nbackend/jest.config.js\nbackend/langgraph.json\nbackend/package.json\nbackend/src\nbackend/test_docs\nbackend/tsconfig.json\nfrontend\nfrontend/.env.example\nfrontend/.gitignore\nfrontend/__tests__\nfrontend/app\nfrontend/components.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once both services are running:\n\n1. Use langgraph studio UI to interact with the LangGraph server and ensure the workflow is working as expected.\n\n2. Navigate to http://localhost:3000 to use the chatbot UI.\n\n3. Upload a small PDF document via the file upload button at the bottom of the page. This will trigger the ingestion graph to extract the text and store the embeddings in Supabase via the frontend `app/api/ingest` route.\n\t\n4. After the ingestion is complete, ask questions in the chat input.\n\n5. The chatbot will trigger the retrieval graph via the `app/api/chat` route to retrieve the most r",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Document Ingestion Graph**: Upload and parse PDFs into `Document` objects, then store vector embeddings into a vector database (we use Supabase in this example).\n- **Retrieval Graph**: Handle user questions, decide whether to retrieve documents or give a direct answer, then generate concise responses with references to the retrieved documents.\n- **Streaming Responses**: Real-time streaming of partial responses from the server to the client UI.\n- **LangGraph Integration**: Built using LangGraph’s state machine approach to orchestrate ingestion and retrieval, visualise your agentic workflow,",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ai-pdf-chatbot-langchain/backend 模块",
+    "description": "[模块级] ai-pdf-chatbot-langchain 项目的 backend 模块 (source)。来源: https://github.com/mayooear/ai-pdf-chatbot-langchain",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "chatbot",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "Create a .env file in backend:\n\n`cp backend/.env.example backend/.env`\n\n```\n    OPENAI_API_KEY=your-openai-api-key-here\n    SUPABASE_URL=your-supabase-url-here\n    SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key-here\n\n    LANGCHAIN_TRACING_V2=true # Optional: Enable LangSmith tracing\n\n    LANGCHAIN_PROJECT=\"pdf-chatbot\" # Optional: LangSmith project name\n```\n\n**Explanation of Environment Variables:**\n\n-   `NEXT_PUBLIC_LANGGRAPH_API_URL`: The URL where your LangGraph backend server is ru",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.env.example\nbackend/.gitignore\nbackend/__tests__\nbackend/__tests__/ingestion_graph\nbackend/__tests__/ingestion_graph/state.test.ts\nbackend/__tests__/retrieval_graph\nbackend/__tests__/retrieval_graph/integration.test.ts\nbackend/__tests__/retrieval_graph/promptTemplate.test.ts\nbackend/demo.ts\nbackend/ingest-demo.ipynb\nbackend/jest.config.js\nbackend/langgraph.json\nbackend/package.json\nbackend/src\nbackend/src/ingestion_graph",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "backend 代码示例",
+        "content": "OPENAI_API_KEY=your-openai-api-key-here\n    SUPABASE_URL=your-supabase-url-here\n    SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key-here\n\n    LANGCHAIN_TRACING_V2=true # Optional: Enable LangSmith tracing\n\n    LANGCHAIN_PROJECT=\"pdf-chatbot\" # Optional: LangSmith project name",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1854602193844
+  },
+  {
+    "name": "ai-pdf-chatbot-langchain/frontend 模块",
+    "description": "[模块级] ai-pdf-chatbot-langchain 项目的 frontend 模块 (source)。来源: https://github.com/mayooear/ai-pdf-chatbot-langchain",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "ai",
+      "chatbot",
+      "langchain",
+      "langgraph",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "Create a .env file in frontend:\n\n`cp frontend/.env.example frontend/.env`\n\n```\n    NEXT_PUBLIC_LANGGRAPH_API_URL=http://localhost:2024\n    LANGCHAIN_API_KEY=your-langsmith-api-key-here # Optional: LangSmith API key\n    LANGGRAPH_INGESTION_ASSISTANT_ID=ingestion_graph\n    LANGGRAPH_RETRIEVAL_ASSISTANT_ID=retrieval_graph\n\n    LANGCHAIN_TRACING_V2=true # Optional: Enable LangSmith tracing\n\n    LANGCHAIN_PROJECT=\"pdf-chatbot\" # Optional: LangSmith project name\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/.gitignore\nfrontend/__tests__\nfrontend/__tests__/api\nfrontend/__tests__/api/ingest\nfrontend/__tests__/api/ingest/route.integration.test.ts\nfrontend/app\nfrontend/app/api\nfrontend/app/api/chat\nfrontend/app/api/chat/route.ts\nfrontend/app/api/ingest\nfrontend/app/api/ingest/route.ts\nfrontend/app/globals.css\nfrontend/app/layout.tsx\nfrontend/app/page.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "frontend 代码示例",
+        "content": "NEXT_PUBLIC_LANGGRAPH_API_URL=http://localhost:2024\n    LANGCHAIN_API_KEY=your-langsmith-api-key-here # Optional: LangSmith API key\n    LANGGRAPH_INGESTION_ASSISTANT_ID=ingestion_graph\n    LANGGRAPH_RETRIEVAL_ASSISTANT_ID=retrieval_graph\n\n    LANGCHAIN_TRACING_V2=true # Optional: Enable LangSmith tracing\n\n    LANGCHAIN_PROJECT=\"pdf-chatbot\" # Optional: LangSmith project name",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1854602193844
+  }
+]

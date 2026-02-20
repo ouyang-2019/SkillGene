@@ -1,0 +1,198 @@
+[
+  {
+    "name": "neural (dense-analysis)",
+    "description": "[项目级] AI Vim/Neovim code generation plugin (OpenAI, ChatGPT, and more)。来源: https://github.com/dense-analysis/neural",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "vim script",
+      "stars-510",
+      "github-dense-analysis",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Vim/Neovim code generation plugin (OpenAI, ChatGPT, and more)\n\n来源: https://github.com/dense-analysis/neural\n语言: Vim Script\nStars: 510",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "packloadall | silent! helptags ALL",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE.md\nREADME.md\nautoload\nautoload/neural.vim\nautoload/neural\ndoc\ndoc/neural-development.txt\ndoc/neural.txt\nftplugin\nftplugin/neuralbuf.vim\nlua\nlua/.luacheckrc\nlua/neural.lua\nlua/neural\nplugin\nplugin/neural.vim\npyproject.toml\nrun-tests\nsrc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "-- Configure Neural like so in Lua\nrequire('neural').setup({\n    providers = {\n        {\n            openai = {\n                api_key = vim.env.OPENAI_API_KEY,\n            },\n        },\n    },\n})",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Generate text easily `:Neural write a story`\n* Support for multiple machine learning models\n* Focused on privacy and avoiding leaking data to third parties\n* Easily ask AI to explain code or paragraphs `:NeuralExplain`\n* Compatible with Vim 8.0+ & Neovim 0.8+\n* Supported on Linux, Mac OSX, and Windows\n* Only dependency is Python 3.10+ (required for security and libraries)\n\nExperience lightning-fast code generation and completion with asynchronous\nstreaming.\n\nEdit any kind of text document. It can be used to generate Python docstrings,\nfix comments spelling/grammar mistakes, generate ideas an",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.353785088048968
+  },
+  {
+    "name": "neural/autoload 模块",
+    "description": "[模块级] neural 项目的 autoload 模块 (source)。来源: https://github.com/dense-analysis/neural",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "module-level",
+      "source",
+      "autoload"
+    ],
+    "genes": [
+      {
+        "title": "autoload 模块说明",
+        "content": "模块路径: autoload/\n类型: source\n文件数: 23\n\n包含文件:\n- autoload/neural.vim\n- autoload/neural\n- autoload/neural/buffer.vim\n- autoload/neural/config.vim\n- autoload/neural/explain.vim\n- autoload/neural/job.vim\n- autoload/neural/pre_process\n- autoload/neural/pre_process/cmake.vim\n- autoload/neural/pre_process/cpp.vim\n- autoload/neural/pre_process/css.vim",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autoload 文件结构",
+        "content": "autoload/neural.vim\nautoload/neural\nautoload/neural/buffer.vim\nautoload/neural/config.vim\nautoload/neural/explain.vim\nautoload/neural/job.vim\nautoload/neural/pre_process\nautoload/neural/pre_process/cmake.vim\nautoload/neural/pre_process/cpp.vim\nautoload/neural/pre_process/css.vim\nautoload/neural/pre_process/go.vim\nautoload/neural/pre_process/json.vim\nautoload/neural/pre_process/lua.vim\nautoload/neural/pre_process/markdown.vim\nautoload/neural/pre_process/python.vim",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  },
+  {
+    "name": "neural/doc 模块",
+    "description": "[模块级] neural 项目的 doc 模块 (docs)。来源: https://github.com/dense-analysis/neural",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "模块路径: doc/\n类型: docs\n文件数: 2\n\n包含文件:\n- doc/neural-development.txt\n- doc/neural.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/neural-development.txt\ndoc/neural.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  },
+  {
+    "name": "neural/lua 模块",
+    "description": "[模块级] neural 项目的 lua 模块 (source)。来源: https://github.com/dense-analysis/neural",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 4\n\n包含文件:\n- lua/.luacheckrc\n- lua/neural.lua\n- lua/neural\n- lua/neural/ui.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/.luacheckrc\nlua/neural.lua\nlua/neural\nlua/neural/ui.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  },
+  {
+    "name": "neural/src 模块",
+    "description": "[模块级] neural 项目的 src 模块 (source)。来源: https://github.com/dense-analysis/neural",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 5\n\n包含文件:\n- src/neural\n- src/neural/__init__.py\n- src/neural/provider\n- src/neural/provider/__init__.py\n- src/neural/provider/openai.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/neural\nsrc/neural/__init__.py\nsrc/neural/provider\nsrc/neural/provider/__init__.py\nsrc/neural/provider/openai.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  },
+  {
+    "name": "neural/test 模块",
+    "description": "[模块级] neural 项目的 test 模块 (test)。来源: https://github.com/dense-analysis/neural",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "code-generation",
+      "gpt-3",
+      "linux",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 38\n\n包含文件:\n- test/python\n- test/python/conftest.py\n- test/python/provider\n- test/python/provider/test_openai.py\n- test/script\n- test/script/block-padding-checker\n- test/script/check-duplicate-tags\n- test/script/check-tag-alignment\n- test/script/check-tag-references\n- test/script/check-toc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/python\ntest/python/conftest.py\ntest/python/provider\ntest/python/provider/test_openai.py\ntest/script\ntest/script/block-padding-checker\ntest/script/check-duplicate-tags\ntest/script/check-tag-alignment\ntest/script/check-tag-references\ntest/script/check-toc\ntest/script/custom-linting-rules\ntest/script/run-custom-checks\ntest/script/run-python\ntest/script/run-vader-tests\ntest/script/run-vint",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5830280704391746
+  }
+]

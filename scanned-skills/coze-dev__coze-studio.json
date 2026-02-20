@@ -1,0 +1,68 @@
+[
+  {
+    "name": "coze-studio (coze-dev)",
+    "description": "[项目级] An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.。来源: https://github.com/coze-dev/coze-studio",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-platform",
+      "ai-plugins",
+      "chatbot",
+      "chatbot-framework",
+      "typescript",
+      "stars-19890",
+      "github-coze-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.\n\n来源: https://github.com/coze-dev/coze-studio\n语言: TypeScript\nStars: 19890",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTHORS\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE-APACHE\nMakefile\nREADME.md\nREADME.zh_CN.md\nbackend\nbackend/.gitignore\nbackend/.hz\nbackend/Dockerfile\nbackend/README.md\nbackend/api\nbackend/application",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| **Module** | **Feature** |\n| --- | --- |\n| Model service | Manage the model list, integrate services such as OpenAI and Volcengine |\n| Build agent | * Build, publish, and manage agent <br> * Support configuring workflows, knowledge bases, and other resources |\n| Build apps | * Create and publish apps <br> * Build business logic through workflows |\n| Build a workflow | Create, modify, publish, and delete workflows |\n| Develop resources | Support creating and managing the following resources: <br> * Plugins <br> * Knowledge bases <br> * Databases <br> * Prompts |\n| API and SDK | * Create conve",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "coze-studio/backend 模块",
+    "description": "[模块级] coze-studio 项目的 backend 模块 (source)。来源: https://github.com/coze-dev/coze-studio",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-platform",
+      "ai-plugins",
+      "chatbot",
+      "chatbot-framework",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 161\n\n包含文件:\n- backend/.gitignore\n- backend/.hz\n- backend/Dockerfile\n- backend/README.md\n- backend/api\n- backend/api/handler\n- backend/api/handler/coze\n- backend/api/handler/coze/agent_run_service.go\n- backend/api/handler/coze/base.go\n- backend/api/handler/coze/bot_open_api_service.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.gitignore\nbackend/.hz\nbackend/Dockerfile\nbackend/README.md\nbackend/api\nbackend/api/handler\nbackend/api/handler/coze\nbackend/api/handler/coze/agent_run_service.go\nbackend/api/handler/coze/base.go\nbackend/api/handler/coze/bot_open_api_service.go\nbackend/api/handler/coze/config_service.go\nbackend/api/handler/coze/conversation_service.go\nbackend/api/handler/coze/database_service.go\nbackend/api/handler/coze/developer_api_service.go\nbackend/api/handler/coze/intelligence_service.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.219453913249774
+  }
+]

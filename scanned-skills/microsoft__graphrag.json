@@ -1,0 +1,63 @@
+[
+  {
+    "name": "graphrag (microsoft)",
+    "description": "[项目级] A modular graph-based Retrieval-Augmented Generation (RAG) system。来源: https://github.com/microsoft/graphrag",
+    "domain": "ai-llm",
+    "tags": [
+      "gpt",
+      "gpt-4",
+      "gpt4",
+      "graphrag",
+      "llm",
+      "python",
+      "stars-30996",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.\n\nTo learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the <a href=\"https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/\" target=\"_blank\">Microsoft Research Blog Post.</a>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDEVELOPING.md\nLICENSE\nRAI_TRANSPARENCY.md\nREADME.md\nRELEASE.md\nSECURITY.md\nSUPPORT.md\nbreaking-changes.md\ncspell.config.yaml\ndictionary.txt\ndocs\ndocs/blog_posts.md\ndocs/cli.md\ndocs/config\ndocs/data\ndocs/developing.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "graphrag/docs 模块",
+    "description": "[模块级] graphrag 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/graphrag",
+    "domain": "documentation",
+    "tags": [
+      "gpt",
+      "gpt-4",
+      "gpt4",
+      "graphrag",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 117\n\n包含文件:\n- docs/blog_posts.md\n- docs/cli.md\n- docs/config\n- docs/config/init.md\n- docs/config/models.md\n- docs/config/overview.md\n- docs/config/yaml.md\n- docs/data\n- docs/data/operation_dulce\n- docs/data/operation_dulce/ABOUT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/blog_posts.md\ndocs/cli.md\ndocs/config\ndocs/config/init.md\ndocs/config/models.md\ndocs/config/overview.md\ndocs/config/yaml.md\ndocs/data\ndocs/data/operation_dulce\ndocs/data/operation_dulce/ABOUT.md\ndocs/data/operation_dulce/Operation Dulce v2 1 1.md\ndocs/data/operation_dulce/dataset.zip\ndocs/developing.md\ndocs/examples_notebooks\ndocs/examples_notebooks/api_overview.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296522260888377
+  }
+]

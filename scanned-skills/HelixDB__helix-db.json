@@ -1,0 +1,163 @@
+[
+  {
+    "name": "helix-db (HelixDB)",
+    "description": "[项目级] HelixDB is an open-source graph-vector database built from scratch in Rust.。来源: https://github.com/HelixDB/helix-db",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "database",
+      "databases",
+      "graph-database",
+      "rust",
+      "stars-3829",
+      "github-helixdb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "HelixDB is an open-source graph-vector database built from scratch in Rust.\n\n来源: https://github.com/HelixDB/helix-db\n语言: Rust\nStars: 3829",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTORS.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\nassets\nassets/full_logo.png\nassets/readmeinit.gif\nclippy_check.sh\nhelix-cli\nhelix-cli/.gitignore\nhelix-cli/Cargo.lock\nhelix-cli/Cargo.toml\nhelix-cli/README.md\nhelix-cli/TESTING.md\nhelix-cli/build.sh\nhelix-cli/install.sh\nhelix-cli/src\nhelix-container",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "|                         |                                                                                                                                        |\n| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |\n| **Built-in MCP tools**  | Helix has built-in MCP support to allow your agents to discover data and walk the graph rather than generating human readable queries. |\n| **Built-in Embeddings** | No need to embed your data before sending it to Helix, just use the `Embed` f",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.791542683173844
+  },
+  {
+    "name": "helix-db/assets 模块",
+    "description": "[模块级] helix-db 项目的 assets 模块 (source)。来源: https://github.com/HelixDB/helix-db",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "database",
+      "databases",
+      "graph-database",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/full_logo.png\n- assets/readmeinit.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/full_logo.png\nassets/readmeinit.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.933234146539075
+  },
+  {
+    "name": "helix-db/helix-cli 模块",
+    "description": "[模块级] helix-db 项目的 helix-cli 模块 (source)。来源: https://github.com/HelixDB/helix-db",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "database",
+      "databases",
+      "graph-database",
+      "module-level",
+      "source",
+      "helix-cli"
+    ],
+    "genes": [
+      {
+        "title": "helix-cli 模块说明",
+        "content": "模块路径: helix-cli/\n类型: source\n文件数: 68\n\n包含文件:\n- helix-cli/.gitignore\n- helix-cli/Cargo.lock\n- helix-cli/Cargo.toml\n- helix-cli/README.md\n- helix-cli/TESTING.md\n- helix-cli/build.sh\n- helix-cli/install.sh\n- helix-cli/src\n- helix-cli/src/cleanup.rs\n- helix-cli/src/commands",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helix-cli 文件结构",
+        "content": "helix-cli/.gitignore\nhelix-cli/Cargo.lock\nhelix-cli/Cargo.toml\nhelix-cli/README.md\nhelix-cli/TESTING.md\nhelix-cli/build.sh\nhelix-cli/install.sh\nhelix-cli/src\nhelix-cli/src/cleanup.rs\nhelix-cli/src/commands\nhelix-cli/src/commands/add.rs\nhelix-cli/src/commands/auth.rs\nhelix-cli/src/commands/backup.rs\nhelix-cli/src/commands/build.rs\nhelix-cli/src/commands/check.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.933234146539075
+  },
+  {
+    "name": "helix-db/helix-container 模块",
+    "description": "[模块级] helix-db 项目的 helix-container 模块 (source)。来源: https://github.com/HelixDB/helix-db",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "database",
+      "databases",
+      "graph-database",
+      "module-level",
+      "source",
+      "helix-container"
+    ],
+    "genes": [
+      {
+        "title": "helix-container 模块说明",
+        "content": "模块路径: helix-container/\n类型: source\n文件数: 5\n\n包含文件:\n- helix-container/Cargo.lock\n- helix-container/Cargo.toml\n- helix-container/src\n- helix-container/src/main.rs\n- helix-container/src/queries.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helix-container 文件结构",
+        "content": "helix-container/Cargo.lock\nhelix-container/Cargo.toml\nhelix-container/src\nhelix-container/src/main.rs\nhelix-container/src/queries.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.933234146539075
+  },
+  {
+    "name": "helix-db/helix-db 模块",
+    "description": "[模块级] helix-db 项目的 helix-db 模块 (source)。来源: https://github.com/HelixDB/helix-db",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "cli",
+      "database",
+      "databases",
+      "graph-database",
+      "module-level",
+      "source",
+      "helix-db"
+    ],
+    "genes": [
+      {
+        "title": "helix-db 模块说明",
+        "content": "模块路径: helix-db/\n类型: source\n文件数: 94\n\n包含文件:\n- helix-db/.dockerignore\n- helix-db/Cargo.toml\n- helix-db/Dockerfile\n- helix-db/benches\n- helix-db/benches/bm25_benches.rs\n- helix-db/benches/capacity_optimization_benches.rs\n- helix-db/benches/hnsw_benches.rs\n- helix-db/src\n- helix-db/src/grammar.pest\n- helix-db/src/helix_engine",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helix-db 文件结构",
+        "content": "helix-db/.dockerignore\nhelix-db/Cargo.toml\nhelix-db/Dockerfile\nhelix-db/benches\nhelix-db/benches/bm25_benches.rs\nhelix-db/benches/capacity_optimization_benches.rs\nhelix-db/benches/hnsw_benches.rs\nhelix-db/src\nhelix-db/src/grammar.pest\nhelix-db/src/helix_engine\nhelix-db/src/helix_engine/bm25\nhelix-db/src/helix_engine/bm25/bm25.rs\nhelix-db/src/helix_engine/bm25/bm25_tests.rs\nhelix-db/src/helix_engine/bm25/mod.rs\nhelix-db/src/helix_engine/macros.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.933234146539075
+  }
+]

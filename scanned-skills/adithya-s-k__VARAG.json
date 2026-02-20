@@ -1,0 +1,161 @@
+[
+  {
+    "name": "VARAG (adithya-s-k)",
+    "description": "[项目级]  Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine。来源: https://github.com/adithya-s-k/VARAG",
+    "domain": "devops",
+    "tags": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag",
+      "python",
+      "stars-495",
+      "github-adithya-s-k",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine\n\n来源: https://github.com/adithya-s-k/VARAG\n语言: Python\nStars: 495",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Follow these steps to set up VARAG:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\narchives\narchives/README.md\narchives/ToDo.md\narchives/app1.py\narchives/application\narchives/dataset\narchives/evaluation\narchives/tdl_app.py\ndemo.py\ndocs\ndocs/assets\ndocs/colpaliRAG.ipynb\ndocs/demo.ipynb\ndocs/hybridColpaliRAG.ipynb\ndocs/index.md\ndocs/simpleRAG.ipynb\ndocs/visionRAG.ipynb\nexamples\nexamples/base_implementation",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **GPU Acceleration**: Automatic L4 GPU provisioning\n- **Model Caching**: Persistent volume for fast model loading\n- **Memory Optimization**: Configured for T4/L4 GPU constraints\n- **Auto-scaling**: Pay-per-use with automatic scaling to zero\n- **Public Access**: Generates shareable Gradio URLs",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.347302599466785
+  },
+  {
+    "name": "VARAG/archives 模块",
+    "description": "[模块级] VARAG 项目的 archives 模块 (source)。来源: https://github.com/adithya-s-k/VARAG",
+    "domain": "devops",
+    "tags": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag",
+      "python",
+      "stars-495",
+      "module-level",
+      "source",
+      "archives"
+    ],
+    "genes": [
+      {
+        "title": "archives 模块说明",
+        "content": "模块路径: archives/\n类型: source\n文件数: 10\n\n包含文件:\n- archives/README.md\n- archives/ToDo.md\n- archives/app1.py\n- archives/application\n- archives/application/app.py\n- archives/dataset\n- archives/dataset/synthetic_dataset_prep.ipynb\n- archives/evaluation\n- archives/evaluation/eval.py\n- archives/tdl_app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "archives 文件结构",
+        "content": "archives/README.md\narchives/ToDo.md\narchives/app1.py\narchives/application\narchives/application/app.py\narchives/dataset\narchives/dataset/synthetic_dataset_prep.ipynb\narchives/evaluation\narchives/evaluation/eval.py\narchives/tdl_app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  },
+  {
+    "name": "VARAG/docs 模块",
+    "description": "[模块级] VARAG 项目的 docs 模块 (docs)。来源: https://github.com/adithya-s-k/VARAG",
+    "domain": "documentation",
+    "tags": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag",
+      "python",
+      "stars-495",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/assets\n- docs/assets/llama.png\n- docs/colpaliRAG.ipynb\n- docs/demo.ipynb\n- docs/hybridColpaliRAG.ipynb\n- docs/index.md\n- docs/simpleRAG.ipynb\n- docs/visionRAG.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/llama.png\ndocs/colpaliRAG.ipynb\ndocs/demo.ipynb\ndocs/hybridColpaliRAG.ipynb\ndocs/index.md\ndocs/simpleRAG.ipynb\ndocs/visionRAG.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  },
+  {
+    "name": "VARAG/examples 模块",
+    "description": "[模块级] VARAG 项目的 examples 模块 (example)。来源: https://github.com/adithya-s-k/VARAG",
+    "domain": "devops",
+    "tags": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag",
+      "python",
+      "stars-495",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 17\n\n包含文件:\n- examples/base_implementation\n- examples/base_implementation/clip_embed.py\n- examples/base_implementation/colpali_embed.py\n- examples/base_implementation/colpali_simple.py\n- examples/base_implementation/hybrid_colpali_embed.py\n- examples/base_implementation/jina_clip_embed.py\n- examples/base_implementation/text_embed.py\n- examples/colpaliDemo.py\n- examples/data\n- examples/data/colpali.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/base_implementation\nexamples/base_implementation/clip_embed.py\nexamples/base_implementation/colpali_embed.py\nexamples/base_implementation/colpali_simple.py\nexamples/base_implementation/hybrid_colpali_embed.py\nexamples/base_implementation/jina_clip_embed.py\nexamples/base_implementation/text_embed.py\nexamples/colpaliDemo.py\nexamples/data\nexamples/data/colpali.md\nexamples/data/colpali.pdf\nexamples/hybridColpaliDemo.py\nexamples/inference_colpali\nexamples/inference_colpali/demo_with_heatmaps.py\nexamples/inference_colpali/modal_demo_heatmaps_comparing_colpali_models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  },
+  {
+    "name": "VARAG/varag 模块",
+    "description": "[模块级] VARAG 项目的 varag 模块 (source)。来源: https://github.com/adithya-s-k/VARAG",
+    "domain": "devops",
+    "tags": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag",
+      "python",
+      "stars-495",
+      "module-level",
+      "source",
+      "varag"
+    ],
+    "genes": [
+      {
+        "title": "varag 模块说明",
+        "content": "Vision Augmented Retrieval and Generation\n\n\n| ![VARAG](./docs/assets/llama.png)| VARAG (Vision-Augmented Retrieval and Generation) is a vision-first RAG engine that emphasizes vision-based retrieval techniques. It enhances traditional Retrieval-Augmented Generation (RAG) systems by integrating both visual and textual data through Vision-Language models. |\n|:--:|:--|\n\n[![GitHub Stars](https://img.shields.io/github/stars/adithya-s-k/VARAG?style=social)](https://github.com/adithya-s-k/VARAG/stargaz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "varag 文件结构",
+        "content": "varag/__init__.py\nvarag/chunking\nvarag/chunking/__init__.py\nvarag/config.yml\nvarag/llms\nvarag/llms/__init__.py\nvarag/llms/base.py\nvarag/llms/provider\nvarag/llms/provider/litellm.py\nvarag/llms/provider/openai.py\nvarag/models\nvarag/models/schema.py\nvarag/rag\nvarag/rag/__init__.py\nvarag/rag/_colpaliRAG.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5778420795734274
+  }
+]

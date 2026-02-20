@@ -1,0 +1,193 @@
+[
+  {
+    "name": "oh-my-opencode (code-yeongyu)",
+    "description": "[项目级] the best agent harness。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "typescript",
+      "stars-32510",
+      "github-code-yeongyu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "the best agent harness\n\n来源: https://github.com/code-yeongyu/oh-my-opencode\n语言: TypeScript\nStars: 32510",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can learn a lot from [overview page](docs/guide/overview.md), but following is like the example workflow.\n\nJust by installing this, you make your agents to work like:\n\n1. Sisyphus doesn't waste time hunting for files himself; he keeps the main agent's context lean. Instead, he fires off background tasks to faster, cheaper models in parallel to map the territory for him.\n1. Sisyphus leverages LSP for refactoring; it's more deterministic, safer, and surgical.\n1. When the heavy lifting requires a UI touch, Sisyphus delegates frontend tasks directly to Gemini 3 Pro.\n1. If Sisyphus gets stuck i",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLA.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.ja.md\nREADME.ko.md\nREADME.md\nREADME.zh-cn.md\nassets\nassets/oh-my-opencode.schema.json\nbin\nbin/oh-my-opencode.js\nbin/platform.js\nbin/platform.test.ts\nbun.lock\nbunfig.toml\ndocs\ndocs/category-skill-guide.md\ndocs/cli-guide.md\ndocs/configurations.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "We have lots of features that you'll think should obviously exist, and once you experience them, you'll never be able to go back to how things were before.\nSee the full [Features Documentation](docs/features.md) for detailed information.\n\n**Quick Overview:**\n- **Agents**: Sisyphus (the main agent), Prometheus (planner), Oracle (architecture/debugging), Librarian (docs/code search), Explore (fast codebase grep), Multimodal Looker\n- **Background Agents**: Run multiple agents in parallel like a real dev team\n- **LSP & AST Tools**: Refactoring, rename, diagnostics, AST-aware code search\n- **Hash-a",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "oh-my-opencode/bin 模块",
+    "description": "[模块级] oh-my-opencode 项目的 bin 模块 (script)。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 3\n\n包含文件:\n- bin/oh-my-opencode.js\n- bin/platform.js\n- bin/platform.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/oh-my-opencode.js\nbin/platform.js\nbin/platform.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.304806787798451
+  },
+  {
+    "name": "oh-my-opencode/docs 模块",
+    "description": "[模块级] oh-my-opencode 项目的 docs 模块 (docs)。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 14\n\n包含文件:\n- docs/category-skill-guide.md\n- docs/cli-guide.md\n- docs/configurations.md\n- docs/features.md\n- docs/guide\n- docs/guide/agent-model-matching.md\n- docs/guide/installation.md\n- docs/guide/overview.md\n- docs/guide/understanding-orchestration-system.md\n- docs/orchestration-guide.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/category-skill-guide.md\ndocs/cli-guide.md\ndocs/configurations.md\ndocs/features.md\ndocs/guide\ndocs/guide/agent-model-matching.md\ndocs/guide/installation.md\ndocs/guide/overview.md\ndocs/guide/understanding-orchestration-system.md\ndocs/orchestration-guide.md\ndocs/task-system.md\ndocs/troubleshooting\ndocs/troubleshooting/ollama-streaming-issue.md\ndocs/ultrawork-manifesto.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.304806787798451
+  },
+  {
+    "name": "oh-my-opencode/packages 模块",
+    "description": "[模块级] oh-my-opencode 项目的 packages 模块 (source)。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 36\n\n包含文件:\n- packages/darwin-arm64\n- packages/darwin-arm64/bin\n- packages/darwin-arm64/bin/.gitkeep\n- packages/darwin-arm64/package.json\n- packages/darwin-x64-baseline\n- packages/darwin-x64-baseline/package.json\n- packages/darwin-x64\n- packages/darwin-x64/bin\n- packages/darwin-x64/bin/.gitkeep\n- packages/darwin-x64/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/darwin-arm64\npackages/darwin-arm64/bin\npackages/darwin-arm64/bin/.gitkeep\npackages/darwin-arm64/package.json\npackages/darwin-x64-baseline\npackages/darwin-x64-baseline/package.json\npackages/darwin-x64\npackages/darwin-x64/bin\npackages/darwin-x64/bin/.gitkeep\npackages/darwin-x64/package.json\npackages/linux-arm64-musl\npackages/linux-arm64-musl/bin\npackages/linux-arm64-musl/bin/.gitkeep\npackages/linux-arm64-musl/package.json\npackages/linux-arm64",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.304806787798451
+  },
+  {
+    "name": "oh-my-opencode/script 模块",
+    "description": "[模块级] oh-my-opencode 项目的 script 模块 (source)。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "source",
+      "script"
+    ],
+    "genes": [
+      {
+        "title": "script 模块说明",
+        "content": "模块路径: script/\n类型: source\n文件数: 7\n\n包含文件:\n- script/build-binaries.test.ts\n- script/build-binaries.ts\n- script/build-schema-document.ts\n- script/build-schema.test.ts\n- script/build-schema.ts\n- script/generate-changelog.ts\n- script/publish.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "script 文件结构",
+        "content": "script/build-binaries.test.ts\nscript/build-binaries.ts\nscript/build-schema-document.ts\nscript/build-schema.test.ts\nscript/build-schema.ts\nscript/generate-changelog.ts\nscript/publish.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.304806787798451
+  },
+  {
+    "name": "oh-my-opencode/src 模块",
+    "description": "[模块级] oh-my-opencode 项目的 src 模块 (source)。来源: https://github.com/code-yeongyu/oh-my-opencode",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "amp",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 75\n\n包含文件:\n- src/AGENTS.md\n- src/agents\n- src/agents/AGENTS.md\n- src/agents/agent-builder.ts\n- src/agents/atlas\n- src/agents/atlas/agent.ts\n- src/agents/atlas/default.ts\n- src/agents/atlas/gpt.ts\n- src/agents/atlas/index.ts\n- src/agents/atlas/prompt-section-builder.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/AGENTS.md\nsrc/agents\nsrc/agents/AGENTS.md\nsrc/agents/agent-builder.ts\nsrc/agents/atlas\nsrc/agents/atlas/agent.ts\nsrc/agents/atlas/default.ts\nsrc/agents/atlas/gpt.ts\nsrc/agents/atlas/index.ts\nsrc/agents/atlas/prompt-section-builder.ts\nsrc/agents/builtin-agents.ts\nsrc/agents/builtin-agents\nsrc/agents/builtin-agents/agent-overrides.ts\nsrc/agents/builtin-agents/atlas-agent.ts\nsrc/agents/builtin-agents/available-skills.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.304806787798451
+  }
+]

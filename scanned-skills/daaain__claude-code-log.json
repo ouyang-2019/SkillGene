@@ -1,0 +1,99 @@
+[
+  {
+    "name": "claude-code-log (daaain)",
+    "description": "[项目级] A Python CLI tool that converts Claude Code transcript JSONL files into readable HTML format.。来源: https://github.com/daaain/claude-code-log",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-740",
+      "github-daaain",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📋 **[View Changelog](CHANGELOG.md)** - See what's new in each release\n\nThis tool generates clean, minimalist HTML pages showing user prompts and assistant responses chronologically. It's designed to create a readable log of your Claude Code interactions with support for both individual files and entire project hierarchies.\n\n📄 **[View Example HTML Output](https://github.com/daaain/claude-code-log/releases/latest/download/claude-code-log-transcript.html)** - Download a real example generated from this project's development (large file, ~100 MB)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install claude-code-log",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nclaude_code_log\nclaude_code_log/__init__.py\nclaude_code_log/cache.py\nclaude_code_log/cli.py\nclaude_code_log/converter.py\nclaude_code_log/factories\nclaude_code_log/html\nclaude_code_log/image_export.py\nclaude_code_log/markdown\nclaude_code_log/migrations\nclaude_code_log/models.py\nclaude_code_log/parser.py\nclaude_code_log/py.typed\nclaude_code_log/renderer.py\nclaude_code_log/renderer_timings.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Interactive TUI (Terminal User Interface)**: Browse and manage Claude Code sessions with real-time navigation, summaries, and quick actions for HTML export and session resuming\n- **Project Hierarchy Processing**: Process entire `~/.claude/projects/` directory with linked index page\n- **Individual Session Files**: Generate separate HTML files for each session with navigation links\n- **Single File or Directory Processing**: Convert individual JSONL files or specific directories\n- **Session Navigation**: Interactive table of contents with session summaries and quick navigation\n- **Token Usage",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.434615859865488
+  },
+  {
+    "name": "claude-code-log/claude_code_log 模块",
+    "description": "[模块级] claude-code-log 项目的 claude_code_log 模块 (source)。来源: https://github.com/daaain/claude-code-log",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-740",
+      "github-daaain",
+      "module-level",
+      "source",
+      "claude_code_log"
+    ],
+    "genes": [
+      {
+        "title": "claude_code_log 模块说明",
+        "content": "模块路径: claude_code_log/\n类型: source\n文件数: 61\n\n包含文件:\n- claude_code_log/__init__.py\n- claude_code_log/cache.py\n- claude_code_log/cli.py\n- claude_code_log/converter.py\n- claude_code_log/factories\n- claude_code_log/factories/__init__.py\n- claude_code_log/factories/assistant_factory.py\n- claude_code_log/factories/meta_factory.py\n- claude_code_log/factories/system_factory.py\n- claude_code_log/factories/tool_factory.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude_code_log 文件结构",
+        "content": "claude_code_log/__init__.py\nclaude_code_log/cache.py\nclaude_code_log/cli.py\nclaude_code_log/converter.py\nclaude_code_log/factories\nclaude_code_log/factories/__init__.py\nclaude_code_log/factories/assistant_factory.py\nclaude_code_log/factories/meta_factory.py\nclaude_code_log/factories/system_factory.py\nclaude_code_log/factories/tool_factory.py\nclaude_code_log/factories/transcript_factory.py\nclaude_code_log/factories/user_factory.py\nclaude_code_log/html\nclaude_code_log/html/__init__.py\nclaude_code_log/html/ansi_colors.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6476926878923903
+  },
+  {
+    "name": "claude-code-log/dev-docs 模块",
+    "description": "[模块级] claude-code-log 项目的 dev-docs 模块 (source)。来源: https://github.com/daaain/claude-code-log",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-740",
+      "github-daaain",
+      "module-level",
+      "source",
+      "dev-docs"
+    ],
+    "genes": [
+      {
+        "title": "dev-docs 模块说明",
+        "content": "模块路径: dev-docs/\n类型: source\n文件数: 120\n\n包含文件:\n- dev-docs/FOLD_STATE_DIAGRAM.md\n- dev-docs/css-classes.md\n- dev-docs/implementing-a-tool-renderer.md\n- dev-docs/messages.md\n- dev-docs/messages\n- dev-docs/messages/assistant\n- dev-docs/messages/assistant/assistant.json\n- dev-docs/messages/assistant/assistant.jsonl\n- dev-docs/messages/assistant/assistant_sidechain.json\n- dev-docs/messages/assistant/assistant_sidechain.jsonl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev-docs 文件结构",
+        "content": "dev-docs/FOLD_STATE_DIAGRAM.md\ndev-docs/css-classes.md\ndev-docs/implementing-a-tool-renderer.md\ndev-docs/messages.md\ndev-docs/messages\ndev-docs/messages/assistant\ndev-docs/messages/assistant/assistant.json\ndev-docs/messages/assistant/assistant.jsonl\ndev-docs/messages/assistant/assistant_sidechain.json\ndev-docs/messages/assistant/assistant_sidechain.jsonl\ndev-docs/messages/assistant/thinking.json\ndev-docs/messages/assistant/thinking.jsonl\ndev-docs/messages/system\ndev-docs/messages/system/file_history_snapshot.json\ndev-docs/messages/system/file_history_snapshot.jsonl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6476926878923903
+  }
+]

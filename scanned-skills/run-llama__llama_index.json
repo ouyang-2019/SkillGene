@@ -1,0 +1,68 @@
+[
+  {
+    "name": "llama_index (run-llama)",
+    "description": "[项目级] LlamaIndex is the leading document agent and OCR platform。来源: https://github.com/run-llama/llama_index",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "application",
+      "data",
+      "fine-tuning",
+      "framework",
+      "python",
+      "stars-47086",
+      "github-run-llama",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**NOTE**: This README is not updated as frequently as the documentation. Please check out the documentation above for the latest updates!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nRELEASE_HEAD.md\nSECURITY.md\nSTALE.md\ndocs\ndocs/.gitignore\ndocs/DOCS_README.md\ndocs/api_reference",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from llama_index.core.llms import LLM\nfrom llama_index.llms.openai import OpenAI\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "llama_index/docs 模块",
+    "description": "[模块级] llama_index 项目的 docs 模块 (docs)。来源: https://github.com/run-llama/llama_index",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "application",
+      "data",
+      "fine-tuning",
+      "framework",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 163\n\n包含文件:\n- docs/.gitignore\n- docs/DOCS_README.md\n- docs/api_reference\n- docs/api_reference/api_reference\n- docs/api_reference/api_reference/_static\n- docs/api_reference/api_reference/_static/assets\n- docs/api_reference/api_reference/_static/assets/LlamaLogoBrowserTab.png\n- docs/api_reference/api_reference/_static/assets/LlamaSquareBlack.svg\n- docs/api_reference/api_reference/agent\n- docs/api_reference/api_reference/agent/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/DOCS_README.md\ndocs/api_reference\ndocs/api_reference/api_reference\ndocs/api_reference/api_reference/_static\ndocs/api_reference/api_reference/_static/assets\ndocs/api_reference/api_reference/_static/assets/LlamaLogoBrowserTab.png\ndocs/api_reference/api_reference/_static/assets/LlamaSquareBlack.svg\ndocs/api_reference/api_reference/agent\ndocs/api_reference/api_reference/agent/index.md\ndocs/api_reference/api_reference/callbacks\ndocs/api_reference/api_reference/callbacks/agentops.md\ndocs/api_reference/api_reference/callbacks/aim.md\ndocs/api_reference/api_reference/callbacks/argilla.md\ndocs/api_reference/api_reference/callbacks/arize_phoenix.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.369156719313951
+  }
+]

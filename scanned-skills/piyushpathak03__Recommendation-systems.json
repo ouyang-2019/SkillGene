@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Recommendation-systems (piyushpathak03)",
+    "description": "[项目级] Recommendation Systems This is a workshop on using Machine Learning and Deep Learning Techniques to build Recommendation Systesm  Theory: ML & DL Formulation, Prediction vs. Ranking, Similiarity, Biased vs. Unbiased Paradigms: Content-based, Collaborative filtering, Knowledge-based, Hybrid and Ensembles Data: Tabular, Images, Text (Sequences) Models: (Deep) Matrix Factorisation, Auto-Encoders, Wide & Deep, Rank-Learning, Sequence Modelling Methods: Explicit vs. implicit feedback, User-Item matrix, Embeddings, Convolution, Recurrent, Domain Signals: location, time, context, social, Process: Setup, Encode & Embed, Design, Train & Select, Serve & Scale, Measure, Test & Improve Tools: python-data-stack: numpy, pandas, scikit-learn, keras, spacy, implicit, lightfm Notes & Slides Basics: Deep Learning AI Conference 2019: WhiteBoard Notes | In-Class Notebooks Notebooks Movies - Movielens  01-Acquire 02-Augment 03-Refine 04-Transform 05-Evaluation 06-Model-Baseline 07-Feature-extractor 08-Model-Matrix-Factorization 09-Model-Matrix-Factorization-with-Bias 10-Model-MF-NNMF 11-Model-Deep-Matrix-Factorization 12-Model-Neural-Collaborative-Filtering 13-Model-Implicit-Matrix-Factorization 14-Features-Image 15-Features-NLP Ecommerce - YooChoose  01-Data-Preparation 02-Models News - Hackernews  Product - Groceries  Python Libraries Deep Recommender Libraries  Tensorrec - Built on Tensorflow Spotlight - Built on PyTorch TFranking - Built on TensorFlow (Learning to Rank) Matrix Factorisation Based Libraries  Implicit - Implicit Matrix Factorisation QMF - Implicit Matrix Factorisation Lightfm - For Hybrid Recommedations Surprise - Scikit-learn type api for traditional alogrithms Similarity Search Libraries  Annoy - Approximate Nearest Neighbour NMSLib - kNN methods FAISS - Similarity search and clustering Learning Resources Reference Slides Deep Learning in RecSys by Balázs Hidasi Lessons from Industry RecSys by Xavier Amatriain Architecting Recommendation Systems by James Kirk Recommendation Systems Overview by Raimon and Basilico Benchmarks MovieLens Benchmarks for Traditional Setup Microsoft Tutorial on Recommendation System at KDD 2019 Algorithms & Approaches Collaborative Filtering for Implicit Feedback Datasets Bayesian Personalised Ranking for Implicit Data Logistic Matrix Factorisation Neural Network Matrix Factorisation Neural Collaborative Filtering Variational Autoencoders for Collaborative Filtering Evaluations Evaluating Recommendation Systems。来源: https://github.com/piyushpathak03/Recommendation-systems",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-211",
+      "github-piyushpathak03",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Piyush Pathak**\n\n[**PORTFOLIO**](https://anirudhrapathak3.wixsite.com/piyush)\n\n[**GITHUB**](https://github.com/piyushpathak03)\n\n[**BLOG**](https://medium.com/@piyushpathak03)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Collaborative Filtering.ipynb\nLICENSE\nMarket Basket Analysis.ipynb\nREADME.md\nRecomendation system end to end\nRecomendation system end to end/1) Introduction.ipynb\nRecomendation system end to end/2) Framing.ipynb\nRecomendation system end to end/3) Data Wrangling.ipynb\nRecomendation system end to end/4) Feature Creation.ipynb\nRecomendation system end to end/5) Model - Distance-Based.ipynb\nRecomendation system end to end/6) Market Basket Analysis.ipynb\nRecomendation system end to end/7) Model - Matrix Factorization.ipynb\nRecomendation system end to end/8) Model - Learning to Rank.ipynb\nRecomendation system end to end/9) AB Testing.ipynb\nRecomendation system end to end/data\nRecomendation system end to end/img\nRecommendation Engine\nRecommendation Engine/Average Weighted Recommendation Engines.ipynb\nRecommendation Engine/Books Recommendation using KNN\nRecommendation Engine/Content Based Recommendation Engines .ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1621412276488465
+  },
+  {
+    "name": "Recommendation-systems/Recomendation system end to end 模块",
+    "description": "[模块级] Recommendation-systems 项目的 Recomendation system end to end 模块 (source)。来源: https://github.com/piyushpathak03/Recommendation-systems",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-211",
+      "github-piyushpathak03",
+      "module-level",
+      "source",
+      "recomendation system end to end"
+    ],
+    "genes": [
+      {
+        "title": "Recomendation system end to end 模块说明",
+        "content": "模块路径: Recomendation system end to end/\n类型: source\n文件数: 65\n\n包含文件:\n- Recomendation system end to end/1) Introduction.ipynb\n- Recomendation system end to end/2) Framing.ipynb\n- Recomendation system end to end/3) Data Wrangling.ipynb\n- Recomendation system end to end/4) Feature Creation.ipynb\n- Recomendation system end to end/5) Model - Distance-Based.ipynb\n- Recomendation system end to end/6) Market Basket Analysis.ipynb\n- Recomendation system end to end/7) Model - Matrix Factorization.ipynb\n- Recomendation system end to end/8) Model - Learning to Rank.ipynb\n- Recomendation system end to end/9) AB Testing.ipynb\n- Recomendation system end to end/data",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Recomendation system end to end 文件结构",
+        "content": "Recomendation system end to end/1) Introduction.ipynb\nRecomendation system end to end/2) Framing.ipynb\nRecomendation system end to end/3) Data Wrangling.ipynb\nRecomendation system end to end/4) Feature Creation.ipynb\nRecomendation system end to end/5) Model - Distance-Based.ipynb\nRecomendation system end to end/6) Market Basket Analysis.ipynb\nRecomendation system end to end/7) Model - Matrix Factorization.ipynb\nRecomendation system end to end/8) Model - Learning to Rank.ipynb\nRecomendation system end to end/9) AB Testing.ipynb\nRecomendation system end to end/data\nRecomendation system end to end/data/abtest.csv\nRecomendation system end to end/data/lastfm-matrix-germany.csv\nRecomendation system end to end/data/stories.csv\nRecomendation system end to end/data/story_user_comment.csv\nRecomendation system end to end/data/users.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.429712982119077
+  },
+  {
+    "name": "Recommendation-systems/Recommendation Engine 模块",
+    "description": "[模块级] Recommendation-systems 项目的 Recommendation Engine 模块 (source)。来源: https://github.com/piyushpathak03/Recommendation-systems",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-211",
+      "github-piyushpathak03",
+      "module-level",
+      "source",
+      "recommendation engine"
+    ],
+    "genes": [
+      {
+        "title": "Recommendation Engine 模块说明",
+        "content": "模块路径: Recommendation Engine/\n类型: source\n文件数: 13\n\n包含文件:\n- Recommendation Engine/Average Weighted Recommendation Engines.ipynb\n- Recommendation Engine/Books Recommendation using KNN\n- Recommendation Engine/Books Recommendation using KNN/BooksRecommendation using KNN.ipynb\n- Recommendation Engine/Books Recommendation using KNN/BooksRecommendation.ipynb\n- Recommendation Engine/Content Based Recommendation Engines .ipynb\n- Recommendation Engine/Movie Recommendation Engine\n- Recommendation Engine/Movie Recommendation Engine/Movie Recommendation Systems .ipynb\n- Recommendation Engine/Movie Recommendation Engine/Movie_Id_Titles\n- Recommendation Engine/Movie Recommendation Engine/u.data\n- Recommendation Engine/Movie Recommendation using KNN",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Recommendation Engine 文件结构",
+        "content": "Recommendation Engine/Average Weighted Recommendation Engines.ipynb\nRecommendation Engine/Books Recommendation using KNN\nRecommendation Engine/Books Recommendation using KNN/BooksRecommendation using KNN.ipynb\nRecommendation Engine/Books Recommendation using KNN/BooksRecommendation.ipynb\nRecommendation Engine/Content Based Recommendation Engines .ipynb\nRecommendation Engine/Movie Recommendation Engine\nRecommendation Engine/Movie Recommendation Engine/Movie Recommendation Systems .ipynb\nRecommendation Engine/Movie Recommendation Engine/Movie_Id_Titles\nRecommendation Engine/Movie Recommendation Engine/u.data\nRecommendation Engine/Movie Recommendation using KNN\nRecommendation Engine/Movie Recommendation using KNN/KNNRecommendation.ipynb\nRecommendation Engine/Movie Recommendation using KNN/movies.csv\nRecommendation Engine/Movie Recommendation using KNN/ratings.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.429712982119077
+  },
+  {
+    "name": "Recommendation-systems/data 模块",
+    "description": "[模块级] Recommendation-systems 项目的 data 模块 (source)。来源: https://github.com/piyushpathak03/Recommendation-systems",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-211",
+      "github-piyushpathak03",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 2\n\n包含文件:\n- data/groceries.csv\n- data/groceries_mba.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/groceries.csv\ndata/groceries_mba.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.429712982119077
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Claude-Code-Everything-You-Need-to-Know (wesammustafa)",
+    "description": "[项目级] The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to MCP servers, tools, and the BMAD method—packed with step-by-step tutorials, real-world examples, and expert strategies to make this the global go-to repo for Claude mastery.。来源: https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-938",
+      "github-wesammustafa",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engineering, commands, hooks, workflows, automation, and integrations, to MCP servers, tools, and the BMAD method—packed with step-by-step tutorials, real-world examples, and expert strategies to make this the global go-to repo for Claude mastery.\n\n来源: https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know\n语言: Python\nStars: 938",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "[![Anthropic](Images/Anthropic.png)](https://www.anthropic.com)\n\n[![Claude Installation](Images/claude-installation.png)](https://docs.anthropic.com/en/docs/claude-code/overview)\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Images\nImages/Agents\nImages/Anthropic.png\nImages/Icons\nImages/MCP\nImages/Orchestration.png\nImages/Subagents.png\nImages/accept-edit-mode.png\nImages/agent-creation-workflow.png\nImages/agents-prompt.png\nImages/claude-installation.png\nImages/claude-sessions.png\nImages/hooks-workflow.png\nImages/plan-mode.png\nImages/sdlc.png\nImages/skill-workflow.png\nImages/subagents-prompt.png\nImages/what-is-sdlc.png\nImages/work-trees.png\nLICENSE",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "git commit -m \"Add auth middleware\"",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4861014191895325
+  },
+  {
+    "name": "Claude-Code-Everything-You-Need-to-Know/Images 模块",
+    "description": "[模块级] Claude-Code-Everything-You-Need-to-Know 项目的 Images 模块 (source)。来源: https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-938",
+      "github-wesammustafa",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "Images 模块说明",
+        "content": "模块路径: Images/\n类型: source\n文件数: 49\n\n包含文件:\n- Images/Agents\n- Images/Agents/agent-1.png\n- Images/Agents/agent-10.png\n- Images/Agents/agent-11.png\n- Images/Agents/agent-12.png\n- Images/Agents/agent-13.png\n- Images/Agents/agent-14.png\n- Images/Agents/agent-15.png\n- Images/Agents/agent-16.png\n- Images/Agents/agent-17.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Images 文件结构",
+        "content": "Images/Agents\nImages/Agents/agent-1.png\nImages/Agents/agent-10.png\nImages/Agents/agent-11.png\nImages/Agents/agent-12.png\nImages/Agents/agent-13.png\nImages/Agents/agent-14.png\nImages/Agents/agent-15.png\nImages/Agents/agent-16.png\nImages/Agents/agent-17.png\nImages/Agents/agent-2.png\nImages/Agents/agent-3.png\nImages/Agents/agent-4.png\nImages/Agents/agent-5.png\nImages/Agents/agent-6.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688881135351626
+  },
+  {
+    "name": "Claude-Code-Everything-You-Need-to-Know/mcp-servers 模块",
+    "description": "[模块级] Claude-Code-Everything-You-Need-to-Know 项目的 mcp-servers 模块 (source)。来源: https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-938",
+      "github-wesammustafa",
+      "module-level",
+      "source",
+      "mcp-servers"
+    ],
+    "genes": [
+      {
+        "title": "mcp-servers 模块说明",
+        "content": "模块路径: mcp-servers/\n类型: source\n文件数: 5\n\n包含文件:\n- mcp-servers/README.md\n- mcp-servers/memory.md\n- mcp-servers/playwright.md\n- mcp-servers/sequential-thinking.md\n- mcp-servers/serena.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp-servers 文件结构",
+        "content": "mcp-servers/README.md\nmcp-servers/memory.md\nmcp-servers/playwright.md\nmcp-servers/sequential-thinking.md\nmcp-servers/serena.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688881135351626
+  },
+  {
+    "name": "Claude-Code-Everything-You-Need-to-Know/specialized-agents 模块",
+    "description": "[模块级] Claude-Code-Everything-You-Need-to-Know 项目的 specialized-agents 模块 (source)。来源: https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-938",
+      "github-wesammustafa",
+      "module-level",
+      "source",
+      "specialized-agents"
+    ],
+    "genes": [
+      {
+        "title": "specialized-agents 模块说明",
+        "content": "模块路径: specialized-agents/\n类型: source\n文件数: 23\n\n包含文件:\n- specialized-agents/Descriptions\n- specialized-agents/Descriptions/backend-engineer-description.md\n- specialized-agents/Descriptions/business-analyst-description.md\n- specialized-agents/Descriptions/code-reviewer-description.md\n- specialized-agents/Descriptions/database-engineer-description.md\n- specialized-agents/Descriptions/frontend-engineer-description.md\n- specialized-agents/Descriptions/project-manager-description.md\n- specialized-agents/Descriptions/security-reviewer-description.md\n- specialized-agents/Descriptions/tech-lead-description.md\n- specialized-agents/Descriptions/ux-engineer-description.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "specialized-agents 文件结构",
+        "content": "specialized-agents/Descriptions\nspecialized-agents/Descriptions/backend-engineer-description.md\nspecialized-agents/Descriptions/business-analyst-description.md\nspecialized-agents/Descriptions/code-reviewer-description.md\nspecialized-agents/Descriptions/database-engineer-description.md\nspecialized-agents/Descriptions/frontend-engineer-description.md\nspecialized-agents/Descriptions/project-manager-description.md\nspecialized-agents/Descriptions/security-reviewer-description.md\nspecialized-agents/Descriptions/tech-lead-description.md\nspecialized-agents/Descriptions/ux-engineer-description.md\nspecialized-agents/agent-creation-workflow.canvas\nspecialized-agents/agent-orchestration-workflow.canvas\nspecialized-agents/system-prompts\nspecialized-agents/system-prompts/backend-engineer-prompt.md\nspecialized-agents/system-prompts/business-analyst-prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688881135351626
+  }
+]

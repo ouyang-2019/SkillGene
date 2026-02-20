@@ -10,14 +10,14 @@
       "agents",
       "antigravity",
       "python",
-      "stars-14166",
+      "stars-14168",
       "github-othmanadi",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.\n\n来源: https://github.com/OthmanAdi/planning-with-files\n语言: Python\nStars: 14166",
+        "content": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.\n\n来源: https://github.com/OthmanAdi/planning-with-files\n语言: Python\nStars: 14168",
         "gene_type": "principle"
       },
       {

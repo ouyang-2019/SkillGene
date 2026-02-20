@@ -1,0 +1,168 @@
+[
+  {
+    "name": "vllm-mlx (waybarrios)",
+    "description": "[项目级] OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s. Works with Claude Code.。来源: https://github.com/waybarrios/vllm-mlx",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "apple-silicon",
+      "audio-processing",
+      "claude-code",
+      "computer-vision",
+      "python",
+      "stars-397",
+      "github-waybarrios",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "vllm-mlx brings native Apple Silicon GPU acceleration to vLLM by integrating:\n\n- **[MLX](https://github.com/ml-explore/mlx)**: Apple's ML framework with unified memory and Metal kernels\n- **[mlx-lm](https://github.com/ml-explore/mlx-lm)**: Optimized LLM inference with KV cache and quantization\n- **[mlx-vlm](https://github.com/Blaizzy/mlx-vlm)**: Vision-language models for multimodal inference\n- **[mlx-audio](https://github.com/Blaizzy/mlx-audio)**: Speech-to-Text and Text-to-Speech with native voices\n- **[mlx-embeddings](https://github.com/Blaizzy/mlx-embeddings)**: Text embeddings for semantic search and RAG",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ndocs\ndocs/benchmarks\ndocs/development\ndocs/getting-started\ndocs/guides\ndocs/index.md\ndocs/reference\nexamples\nexamples/assistant_bank_en.wav\nexamples/assistant_callcenter_fr.wav\nexamples/assistant_service_es.wav\nexamples/assistant_support_zh.wav\nexamples/audio_separation_example.py\nexamples/benchmark_all_models.py\nexamples/benchmark_audio.py\nexamples/benchmark_detokenizer.py\nexamples/closed_captions.py\nexamples/demo_curl_image.sh\nexamples/demo_curl_text.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multimodal** - Text, Image, Video & Audio in one platform\n- **Native GPU acceleration** on Apple Silicon (M1, M2, M3, M4)\n- **Native TTS voices** - Spanish, French, Chinese, Japanese + 5 more languages\n- **OpenAI API compatible** - drop-in replacement for OpenAI client\n- **Anthropic Messages API** - native `/v1/messages` endpoint for Claude Code and OpenCode\n- **Embeddings** - OpenAI-compatible `/v1/embeddings` endpoint with mlx-embeddings\n- **Reasoning Models** - extract thinking process from Qwen3, DeepSeek-R1\n- **MCP Tool Calling** - integrate external tools via Model Context Protocol\n-",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.299395253381558
+  },
+  {
+    "name": "vllm-mlx/docs 模块",
+    "description": "[模块级] vllm-mlx 项目的 docs 模块 (docs)。来源: https://github.com/waybarrios/vllm-mlx",
+    "domain": "documentation",
+    "tags": [
+      "anthropic",
+      "apple-silicon",
+      "audio-processing",
+      "claude-code",
+      "computer-vision",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 27\n\n包含文件:\n- docs/benchmarks\n- docs/benchmarks/README.md\n- docs/benchmarks/audio.md\n- docs/benchmarks/image.md\n- docs/benchmarks/llm.md\n- docs/benchmarks/video.md\n- docs/development\n- docs/development/architecture.md\n- docs/development/contributing.md\n- docs/getting-started",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/benchmarks\ndocs/benchmarks/README.md\ndocs/benchmarks/audio.md\ndocs/benchmarks/image.md\ndocs/benchmarks/llm.md\ndocs/benchmarks/video.md\ndocs/development\ndocs/development/architecture.md\ndocs/development/contributing.md\ndocs/getting-started\ndocs/getting-started/installation.md\ndocs/getting-started/quickstart.md\ndocs/guides\ndocs/guides/audio.md\ndocs/guides/continuous-batching.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "vllm-mlx/examples 模块",
+    "description": "[模块级] vllm-mlx 项目的 examples 模块 (example)。来源: https://github.com/waybarrios/vllm-mlx",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "apple-silicon",
+      "audio-processing",
+      "claude-code",
+      "computer-vision",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 33\n\n包含文件:\n- examples/assistant_bank_en.wav\n- examples/assistant_callcenter_fr.wav\n- examples/assistant_service_es.wav\n- examples/assistant_support_zh.wav\n- examples/audio_separation_example.py\n- examples/benchmark_all_models.py\n- examples/benchmark_audio.py\n- examples/benchmark_detokenizer.py\n- examples/closed_captions.py\n- examples/demo_curl_image.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/assistant_bank_en.wav\nexamples/assistant_callcenter_fr.wav\nexamples/assistant_service_es.wav\nexamples/assistant_support_zh.wav\nexamples/audio_separation_example.py\nexamples/benchmark_all_models.py\nexamples/benchmark_audio.py\nexamples/benchmark_detokenizer.py\nexamples/closed_captions.py\nexamples/demo_curl_image.sh\nexamples/demo_curl_text.sh\nexamples/demo_curl_video.sh\nexamples/demo_openai_image.py\nexamples/demo_openai_text.py\nexamples/demo_openai_video.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "vllm-mlx/tests 模块",
+    "description": "[模块级] vllm-mlx 项目的 tests 模块 (test)。来源: https://github.com/waybarrios/vllm-mlx",
+    "domain": "testing",
+    "tags": [
+      "anthropic",
+      "apple-silicon",
+      "audio-processing",
+      "claude-code",
+      "computer-vision",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 41\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/evals\n- tests/evals/gsm8k\n- tests/evals/gsm8k/gsm8k_eval.py\n- tests/test_anthropic_adapter.py\n- tests/test_anthropic_models.py\n- tests/test_api_models.py\n- tests/test_api_utils.py\n- tests/test_audio.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/evals\ntests/evals/gsm8k\ntests/evals/gsm8k/gsm8k_eval.py\ntests/test_anthropic_adapter.py\ntests/test_anthropic_models.py\ntests/test_api_models.py\ntests/test_api_utils.py\ntests/test_audio.py\ntests/test_batching.py\ntests/test_batching_deterministic.py\ntests/test_continuous_batching.py\ntests/test_embeddings.py\ntests/test_harmony_parsers.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  },
+  {
+    "name": "vllm-mlx/vllm_mlx 模块",
+    "description": "[模块级] vllm-mlx 项目的 vllm_mlx 模块 (source)。来源: https://github.com/waybarrios/vllm-mlx",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "apple-silicon",
+      "audio-processing",
+      "claude-code",
+      "computer-vision",
+      "module-level",
+      "source",
+      "vllm_mlx"
+    ],
+    "genes": [
+      {
+        "title": "vllm_mlx 模块说明",
+        "content": "模块路径: vllm_mlx/\n类型: source\n文件数: 82\n\n包含文件:\n- vllm_mlx/__init__.py\n- vllm_mlx/api\n- vllm_mlx/api/__init__.py\n- vllm_mlx/api/anthropic_adapter.py\n- vllm_mlx/api/anthropic_models.py\n- vllm_mlx/api/harmony_tools.py\n- vllm_mlx/api/models.py\n- vllm_mlx/api/streaming.py\n- vllm_mlx/api/tool_calling.py\n- vllm_mlx/api/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vllm_mlx 文件结构",
+        "content": "vllm_mlx/__init__.py\nvllm_mlx/api\nvllm_mlx/api/__init__.py\nvllm_mlx/api/anthropic_adapter.py\nvllm_mlx/api/anthropic_models.py\nvllm_mlx/api/harmony_tools.py\nvllm_mlx/api/models.py\nvllm_mlx/api/streaming.py\nvllm_mlx/api/tool_calling.py\nvllm_mlx/api/utils.py\nvllm_mlx/attention.py\nvllm_mlx/audio\nvllm_mlx/audio/__init__.py\nvllm_mlx/audio/processor.py\nvllm_mlx/audio/stt.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395162027052463
+  }
+]

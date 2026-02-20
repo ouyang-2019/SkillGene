@@ -1,0 +1,108 @@
+[
+  {
+    "name": "agents (livekit)",
+    "description": "[项目级] A framework for building realtime voice AI agents 🤖🎙️📹 。来源: https://github.com/livekit/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "openai",
+      "real-time",
+      "video",
+      "python",
+      "stars-9368",
+      "github-livekit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A framework for building realtime voice AI agents 🤖🎙️📹 \n\n来源: https://github.com/livekit/agents\n语言: Python\nStars: 9368",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install \"livekit-agents[openai,silero,deepgram,cartesia,turn-detector]~=1.0\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\nexamples\nexamples/.env.example\nexamples/.gitignore\nexamples/Dockerfile-example\nexamples/README.md\nexamples/avatar_agents\nexamples/bank-ivr\nexamples/browser_agent.py\nexamples/drive-thru\nexamples/dtmf\nexamples/frontdesk\nexamples/minimal_worker.py\nexamples/other",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Flexible integrations**: A comprehensive ecosystem to mix and match the right STT, LLM, TTS, and Realtime API to suit your use case.\n- **Integrated job scheduling**: Built-in task scheduling and distribution with [dispatch APIs](https://docs.livekit.io/agents/build/dispatch/) to connect end users to agents.\n- **Extensive WebRTC clients**: Build client applications using LiveKit's open-source SDK ecosystem, supporting all major platforms.\n- **Telephony integration**: Works seamlessly with LiveKit's [telephony stack](https://docs.livekit.io/sip/), allowing your agent to make calls to or rece",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.985823441032153
+  },
+  {
+    "name": "agents/examples 模块",
+    "description": "[模块级] agents 项目的 examples 模块 (example)。来源: https://github.com/livekit/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "openai",
+      "real-time",
+      "video",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "<table>\n<tr>\n<td width=\"50%\">\n<h3>🎙️ Starter Agent</h3>\n<p>A starter agent optimized for voice conversations.</p>\n<p>\n<a href=\"examples/voice_agents/basic_agent.py\">Code</a>\n</p>\n</td>\n<td width=\"50%\">\n<h3>🔄 Multi-user push to talk</h3>\n<p>Responds to multiple users in the room via push-to-talk.</p>\n<p>\n<a href=\"examples/voice_agents/push_to_talk.py\">Code</a>\n</p>\n</td>\n</tr>\n\n<tr>\n<td width=\"50%\">\n<h3>🎵 Background audio</h3>\n<p>Background ambient and thinking audio to improve realism.</p>\n<p",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/.env.example\nexamples/.gitignore\nexamples/Dockerfile-example\nexamples/README.md\nexamples/avatar_agents\nexamples/avatar_agents/README.md\nexamples/avatar_agents/anam\nexamples/avatar_agents/anam/README.md\nexamples/avatar_agents/anam/agent_worker.py\nexamples/avatar_agents/audio_wave\nexamples/avatar_agents/audio_wave/README.md\nexamples/avatar_agents/audio_wave/agent_worker.py\nexamples/avatar_agents/audio_wave/avatar_runner.py\nexamples/avatar_agents/audio_wave/dispatcher.py\nexamples/avatar_agents/audio_wave/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088658752825722
+  },
+  {
+    "name": "agents/livekit-agents 模块",
+    "description": "[模块级] agents 项目的 livekit-agents 模块 (source)。来源: https://github.com/livekit/agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "openai",
+      "real-time",
+      "video",
+      "module-level",
+      "source",
+      "livekit-agents"
+    ],
+    "genes": [
+      {
+        "title": "livekit-agents 模块说明",
+        "content": "模块路径: livekit-agents/\n类型: source\n文件数: 10\n\n包含文件:\n- livekit-agents/README.md\n- livekit-agents/livekit\n- livekit-agents/livekit/agents\n- livekit-agents/livekit/agents/__init__.py\n- livekit-agents/livekit/agents/_exceptions.py\n- livekit-agents/livekit/agents/beta\n- livekit-agents/livekit/agents/beta/__init__.py\n- livekit-agents/livekit/agents/beta/tools\n- livekit-agents/livekit/agents/beta/tools/__init__.py\n- livekit-agents/livekit/agents/beta/tools/end_call.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "livekit-agents 文件结构",
+        "content": "livekit-agents/README.md\nlivekit-agents/livekit\nlivekit-agents/livekit/agents\nlivekit-agents/livekit/agents/__init__.py\nlivekit-agents/livekit/agents/_exceptions.py\nlivekit-agents/livekit/agents/beta\nlivekit-agents/livekit/agents/beta/__init__.py\nlivekit-agents/livekit/agents/beta/tools\nlivekit-agents/livekit/agents/beta/tools/__init__.py\nlivekit-agents/livekit/agents/beta/tools/end_call.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.088658752825722
+  }
+]

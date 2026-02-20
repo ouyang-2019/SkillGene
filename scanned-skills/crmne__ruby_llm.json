@@ -1,0 +1,163 @@
+[
+  {
+    "name": "ruby_llm (crmne)",
+    "description": "[项目级] One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity, Mistral, xAI, GPUStack & OpenAI compatible APIs. Chat, Vision, Audio, PDF, Images, Embeddings, Tools, Streaming & Rails integration.。来源: https://github.com/crmne/ruby_llm",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "ruby",
+      "stars-3569",
+      "github-crmne",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity, Mistral, xAI, GPUStack & OpenAI compatible APIs. Chat, Vision, Audio, PDF, Images, Embeddings, Tools, Streaming & Rails integration.\n\n来源: https://github.com/crmne/ruby_llm\n语言: Ruby\nStars: 3569",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "gem 'ruby_llm'",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Appraisals\nCONTRIBUTING.md\nGemfile\nLICENSE\nREADME.md\nRakefile\nbin\nbin/console\nbin/setup\ncodecov.yml\ndocs\ndocs/.gitignore\ndocs/Gemfile\ndocs/_advanced\ndocs/_config.yml\ndocs/_core_features\ndocs/_getting_started\ndocs/_includes\ndocs/_layouts\ndocs/_reference",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Chat:** Conversational AI with `RubyLLM.chat`\n* **Vision:** Analyze images and videos\n* **Audio:** Transcribe and understand speech with `RubyLLM.transcribe`\n* **Documents:** Extract from PDFs, CSVs, JSON, any file type\n* **Image generation:** Create images with `RubyLLM.paint`\n* **Embeddings:** Generate embeddings with `RubyLLM.embed`\n* **Moderation:** Content safety with `RubyLLM.moderate`\n* **Tools:** Let AI call your Ruby methods\n* **Agents:** Reusable assistants with `RubyLLM::Agent`\n* **Structured output:** JSON schemas that just work\n* **Streaming:** Real-time responses with blocks\n",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.77627327397783
+  },
+  {
+    "name": "ruby_llm/bin 模块",
+    "description": "[模块级] ruby_llm 项目的 bin 模块 (script)。来源: https://github.com/crmne/ruby_llm",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 2\n\n包含文件:\n- bin/console\n- bin/setup",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/console\nbin/setup",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9210186191822642
+  },
+  {
+    "name": "ruby_llm/docs 模块",
+    "description": "[模块级] ruby_llm 项目的 docs 模块 (docs)。来源: https://github.com/crmne/ruby_llm",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 53\n\n包含文件:\n- docs/.gitignore\n- docs/Gemfile\n- docs/_advanced\n- docs/_advanced/agentic-workflows.md\n- docs/_advanced/async.md\n- docs/_advanced/error-handling.md\n- docs/_advanced/models.md\n- docs/_advanced/rails.md\n- docs/_advanced/upgrading.md\n- docs/_config.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/Gemfile\ndocs/_advanced\ndocs/_advanced/agentic-workflows.md\ndocs/_advanced/async.md\ndocs/_advanced/error-handling.md\ndocs/_advanced/models.md\ndocs/_advanced/rails.md\ndocs/_advanced/upgrading.md\ndocs/_config.yml\ndocs/_core_features\ndocs/_core_features/agents.md\ndocs/_core_features/audio-transcription.md\ndocs/_core_features/chat.md\ndocs/_core_features/embeddings.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9210186191822642
+  },
+  {
+    "name": "ruby_llm/gemfiles 模块",
+    "description": "[模块级] ruby_llm 项目的 gemfiles 模块 (source)。来源: https://github.com/crmne/ruby_llm",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "module-level",
+      "source",
+      "gemfiles"
+    ],
+    "genes": [
+      {
+        "title": "gemfiles 模块说明",
+        "content": "模块路径: gemfiles/\n类型: source\n文件数: 6\n\n包含文件:\n- gemfiles/.bundle\n- gemfiles/.bundle/config\n- gemfiles/rails_7.1.gemfile\n- gemfiles/rails_7.2.gemfile\n- gemfiles/rails_8.0.gemfile\n- gemfiles/rails_8.1.gemfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gemfiles 文件结构",
+        "content": "gemfiles/.bundle\ngemfiles/.bundle/config\ngemfiles/rails_7.1.gemfile\ngemfiles/rails_7.2.gemfile\ngemfiles/rails_8.0.gemfile\ngemfiles/rails_8.1.gemfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9210186191822642
+  },
+  {
+    "name": "ruby_llm/lib 模块",
+    "description": "[模块级] ruby_llm 项目的 lib 模块 (source)。来源: https://github.com/crmne/ruby_llm",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "deepseek",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 112\n\n包含文件:\n- lib/generators\n- lib/generators/ruby_llm\n- lib/generators/ruby_llm/chat_ui\n- lib/generators/ruby_llm/chat_ui/chat_ui_generator.rb\n- lib/generators/ruby_llm/chat_ui/templates\n- lib/generators/ruby_llm/chat_ui/templates/controllers\n- lib/generators/ruby_llm/chat_ui/templates/controllers/chats_controller.rb.tt\n- lib/generators/ruby_llm/chat_ui/templates/controllers/messages_controller.rb.tt\n- lib/generators/ruby_llm/chat_ui/templates/controllers/models_controller.rb.tt\n- lib/generators/ruby_llm/chat_ui/templates/jobs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/generators\nlib/generators/ruby_llm\nlib/generators/ruby_llm/chat_ui\nlib/generators/ruby_llm/chat_ui/chat_ui_generator.rb\nlib/generators/ruby_llm/chat_ui/templates\nlib/generators/ruby_llm/chat_ui/templates/controllers\nlib/generators/ruby_llm/chat_ui/templates/controllers/chats_controller.rb.tt\nlib/generators/ruby_llm/chat_ui/templates/controllers/messages_controller.rb.tt\nlib/generators/ruby_llm/chat_ui/templates/controllers/models_controller.rb.tt\nlib/generators/ruby_llm/chat_ui/templates/jobs\nlib/generators/ruby_llm/chat_ui/templates/jobs/chat_response_job.rb.tt\nlib/generators/ruby_llm/chat_ui/templates/views\nlib/generators/ruby_llm/chat_ui/templates/views/chats\nlib/generators/ruby_llm/chat_ui/templates/views/chats/_chat.html.erb.tt\nlib/generators/ruby_llm/chat_ui/templates/views/chats/_form.html.erb.tt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9210186191822642
+  }
+]

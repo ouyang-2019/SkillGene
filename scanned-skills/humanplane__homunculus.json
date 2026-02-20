@@ -1,0 +1,133 @@
+[
+  {
+    "name": "homunculus (humanplane)",
+    "description": "[项目级] A Claude Code plugin that watches how you work, learns your patterns, and evolves itself to help you better.。来源: https://github.com/humanplane/homunculus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "shell",
+      "stars-265",
+      "github-humanplane",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code plugin that watches how you work, learns your patterns, and evolves itself to help you better.\n\n来源: https://github.com/humanplane/homunculus\n语言: Shell\nStars: 265",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md\ncover.png\ndemo-evolve.tape\ndemo.tape\nevolve-v2.tape\nevolve-v3.tape\nevolve.tape\nlanding\nlanding/.gitignore\nlanding/README.md\nlanding/eslint.config.js\nlanding/index.html\nlanding/package-lock.json\nlanding/package.json\nlanding/public\nlanding/src\nlanding/tsconfig.app.json\nlanding/tsconfig.json\nlanding/tsconfig.node.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2116229369684035
+  },
+  {
+    "name": "homunculus/landing 模块",
+    "description": "[模块级] homunculus 项目的 landing 模块 (source)。来源: https://github.com/humanplane/homunculus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "landing"
+    ],
+    "genes": [
+      {
+        "title": "landing 模块说明",
+        "content": "There's a landing page in `/landing` (React + Tailwind). Run it:\n\n```bash\ncd landing && npm install && npm run dev\n```\n\n---\n\nMIT License\n\n---\n\n*A small thing, growing toward the light.*",
+        "gene_type": "principle"
+      },
+      {
+        "title": "landing 文件结构",
+        "content": "landing/.gitignore\nlanding/README.md\nlanding/eslint.config.js\nlanding/index.html\nlanding/package-lock.json\nlanding/package.json\nlanding/public\nlanding/public/vite.svg\nlanding/src\nlanding/src/App.css\nlanding/src/App.tsx\nlanding/src/assets\nlanding/src/assets/react.svg\nlanding/src/index.css\nlanding/src/main.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "landing 代码示例",
+        "content": "cd landing && npm install && npm run dev",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.469298349574723
+  },
+  {
+    "name": "homunculus/plugins 模块",
+    "description": "[模块级] homunculus 项目的 plugins 模块 (source)。来源: https://github.com/humanplane/homunculus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 23\n\n包含文件:\n- plugins/homunculus\n- plugins/homunculus/.claude-plugin\n- plugins/homunculus/.claude-plugin/plugin.json\n- plugins/homunculus/agents\n- plugins/homunculus/agents/observer.md\n- plugins/homunculus/commands\n- plugins/homunculus/commands/evolve.md\n- plugins/homunculus/commands/export.md\n- plugins/homunculus/commands/import.md\n- plugins/homunculus/commands/init.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/homunculus\nplugins/homunculus/.claude-plugin\nplugins/homunculus/.claude-plugin/plugin.json\nplugins/homunculus/agents\nplugins/homunculus/agents/observer.md\nplugins/homunculus/commands\nplugins/homunculus/commands/evolve.md\nplugins/homunculus/commands/export.md\nplugins/homunculus/commands/import.md\nplugins/homunculus/commands/init.md\nplugins/homunculus/commands/status.md\nplugins/homunculus/hooks\nplugins/homunculus/hooks/hooks.json\nplugins/homunculus/scripts\nplugins/homunculus/scripts/observe.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.469298349574723
+  },
+  {
+    "name": "homunculus/scripts 模块",
+    "description": "[模块级] homunculus 项目的 scripts 模块 (script)。来源: https://github.com/humanplane/homunculus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/sim-evolve.sh\n- scripts/sim-init.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/sim-evolve.sh\nscripts/sim-init.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.469298349574723
+  }
+]

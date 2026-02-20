@@ -1,0 +1,108 @@
+[
+  {
+    "name": "mcp-memory-service (doobidoo)",
+    "description": "[项目级] Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.。来源: https://github.com/doobidoo/mcp-memory-service",
+    "domain": "devops",
+    "tags": [
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "autogen",
+      "claude",
+      "python",
+      "stars-1352",
+      "github-doobidoo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.\n\n来源: https://github.com/doobidoo/mcp-memory-service\n语言: Python\nStars: 1352",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\npip install mcp-memory-service\nMCP_ALLOW_ANONYMOUS_ACCESS=true memory server --http",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AUTH_FLOW_DIAGRAM.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nFIXES_COMPLETE.md\nIMPLEMENTATION_SUMMARY.md\nLICENSE\nNOTICE\nREADME.md\nSECURITY.md\nSPONSORS.md\nTEST_ADDITIONS_SUMMARY.md\nTEST_VALIDATION_REPORT.md\narchive\narchive/configs\narchive/deployment-configs\narchive/deployment\narchive/development\narchive/docs-removed-2025-08-23",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "🧠 **Persistent Memory** – Context survives across sessions with semantic search\n🔍 **Smart Retrieval** – Finds relevant context automatically using AI embeddings\n⚡ **5ms Speed** – Instant context injection, no latency\n🔄 **Multi-Client** – Works across 13+ AI applications\n☁️ **Cloud Sync** – Optional Cloudflare backend for team collaboration\n🔒 **Privacy-First** – Local-first, you control your data\n📊 **Web Dashboard** – Visualize and manage memories at `http://localhost:8000`\n🧬 **Knowledge Graph** – Interactive D3.js visualization of memory relationships 🆕",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.565488345802809
+  },
+  {
+    "name": "mcp-memory-service/archive 模块",
+    "description": "[模块级] mcp-memory-service 项目的 archive 模块 (source)。来源: https://github.com/doobidoo/mcp-memory-service",
+    "domain": "devops",
+    "tags": [
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "autogen",
+      "claude",
+      "module-level",
+      "source",
+      "archive"
+    ],
+    "genes": [
+      {
+        "title": "archive 模块说明",
+        "content": "模块路径: archive/\n类型: source\n文件数: 74\n\n包含文件:\n- archive/configs\n- archive/configs/.env.sqlite.backup\n- archive/configs/.mcp.json.backup\n- archive/deployment-configs\n- archive/deployment-configs/empty_config.yml\n- archive/deployment-configs/smithery.yaml\n- archive/deployment\n- archive/deployment/deploy_fastmcp_fixed.sh\n- archive/deployment/deploy_http_with_mcp.sh\n- archive/deployment/deploy_mcp_v4.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "archive 文件结构",
+        "content": "archive/configs\narchive/configs/.env.sqlite.backup\narchive/configs/.mcp.json.backup\narchive/deployment-configs\narchive/deployment-configs/empty_config.yml\narchive/deployment-configs/smithery.yaml\narchive/deployment\narchive/deployment/deploy_fastmcp_fixed.sh\narchive/deployment/deploy_http_with_mcp.sh\narchive/deployment/deploy_mcp_v4.sh\narchive/development\narchive/development/test_fastmcp.py\narchive/docs-removed-2025-08-23\narchive/docs-removed-2025-08-23/UBUNTU_SETUP.md\narchive/docs-removed-2025-08-23/authentication.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  },
+  {
+    "name": "mcp-memory-service/claude-hooks 模块",
+    "description": "[模块级] mcp-memory-service 项目的 claude-hooks 模块 (source)。来源: https://github.com/doobidoo/mcp-memory-service",
+    "domain": "devops",
+    "tags": [
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "autogen",
+      "claude",
+      "module-level",
+      "source",
+      "claude-hooks"
+    ],
+    "genes": [
+      {
+        "title": "claude-hooks 模块说明",
+        "content": "模块路径: claude-hooks/\n类型: source\n文件数: 19\n\n包含文件:\n- claude-hooks/CONFIGURATION.md\n- claude-hooks/MIGRATION.md\n- claude-hooks/README-AUTO-CAPTURE.md\n- claude-hooks/README-NATURAL-TRIGGERS.md\n- claude-hooks/README-PERMISSION-REQUEST.md\n- claude-hooks/README-phase2.md\n- claude-hooks/README.md\n- claude-hooks/WINDOWS-SESSIONSTART-BUG.md\n- claude-hooks/config.json\n- claude-hooks/config.template.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-hooks 文件结构",
+        "content": "claude-hooks/CONFIGURATION.md\nclaude-hooks/MIGRATION.md\nclaude-hooks/README-AUTO-CAPTURE.md\nclaude-hooks/README-NATURAL-TRIGGERS.md\nclaude-hooks/README-PERMISSION-REQUEST.md\nclaude-hooks/README-phase2.md\nclaude-hooks/README.md\nclaude-hooks/WINDOWS-SESSIONSTART-BUG.md\nclaude-hooks/config.json\nclaude-hooks/config.template.json\nclaude-hooks/core\nclaude-hooks/core/auto-capture-hook.js\nclaude-hooks/core/auto-capture-hook.ps1\nclaude-hooks/core/memory-retrieval.js\nclaude-hooks/core/mid-conversation.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7523906766422472
+  }
+]

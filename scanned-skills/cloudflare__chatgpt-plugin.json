@@ -1,0 +1,122 @@
+[
+  {
+    "name": "chatgpt-plugin (cloudflare)",
+    "description": "[项目级] Build ChatGPT plugins with Cloudflare's Developer Platform 🤖。来源: https://github.com/cloudflare/chatgpt-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "cloudflare",
+      "openai",
+      "workers",
+      "javascript",
+      "stars-293",
+      "github-cloudflare",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build ChatGPT plugins with Cloudflare's Developer Platform 🤖\n\n来源: https://github.com/cloudflare/chatgpt-plugin\n语言: JavaScript\nStars: 293",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE-APACHE\nLICENSE-MIT\nREADME.md\nexample-plugin\nexample-plugin/.assets\nexample-plugin/.gitignore\nexample-plugin/README.md\nexample-plugin/package-lock.json\nexample-plugin/package.json\nexample-plugin/src\nexample-plugin/wrangler.toml\nexample-retrieval-plugin\nexample-retrieval-plugin/.gitignore\nexample-retrieval-plugin/README.md\nexample-retrieval-plugin/package-lock.json\nexample-retrieval-plugin/package.json\nexample-retrieval-plugin/plugin\nexample-retrieval-plugin/scheduler\nexample-retrieval-plugin/scripts\nexample-retrieval-plugin/shared",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.233433810177055
+  },
+  {
+    "name": "chatgpt-plugin/example-plugin 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 example-plugin 模块 (source)。来源: https://github.com/cloudflare/chatgpt-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "cloudflare",
+      "openai",
+      "workers",
+      "javascript",
+      "module-level",
+      "source",
+      "example-plugin"
+    ],
+    "genes": [
+      {
+        "title": "example-plugin 模块说明",
+        "content": "模块路径: example-plugin/\n类型: source\n文件数: 10\n\n包含文件:\n- example-plugin/.assets\n- example-plugin/.assets/example.png\n- example-plugin/.gitignore\n- example-plugin/README.md\n- example-plugin/package-lock.json\n- example-plugin/package.json\n- example-plugin/src\n- example-plugin/src/index.ts\n- example-plugin/src/search.ts\n- example-plugin/wrangler.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example-plugin 文件结构",
+        "content": "example-plugin/.assets\nexample-plugin/.assets/example.png\nexample-plugin/.gitignore\nexample-plugin/README.md\nexample-plugin/package-lock.json\nexample-plugin/package.json\nexample-plugin/src\nexample-plugin/src/index.ts\nexample-plugin/src/search.ts\nexample-plugin/wrangler.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  },
+  {
+    "name": "chatgpt-plugin/example-retrieval-plugin 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 example-retrieval-plugin 模块 (source)。来源: https://github.com/cloudflare/chatgpt-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "cloudflare",
+      "openai",
+      "workers",
+      "javascript",
+      "module-level",
+      "source",
+      "example-retrieval-plugin"
+    ],
+    "genes": [
+      {
+        "title": "example-retrieval-plugin 模块说明",
+        "content": "模块路径: example-retrieval-plugin/\n类型: source\n文件数: 29\n\n包含文件:\n- example-retrieval-plugin/.gitignore\n- example-retrieval-plugin/README.md\n- example-retrieval-plugin/package-lock.json\n- example-retrieval-plugin/package.json\n- example-retrieval-plugin/plugin\n- example-retrieval-plugin/plugin/src\n- example-retrieval-plugin/plugin/src/index.js\n- example-retrieval-plugin/plugin/src/manifests\n- example-retrieval-plugin/plugin/src/manifests/ai-plugin.json\n- example-retrieval-plugin/plugin/src/manifests/openapi.d.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example-retrieval-plugin 文件结构",
+        "content": "example-retrieval-plugin/.gitignore\nexample-retrieval-plugin/README.md\nexample-retrieval-plugin/package-lock.json\nexample-retrieval-plugin/package.json\nexample-retrieval-plugin/plugin\nexample-retrieval-plugin/plugin/src\nexample-retrieval-plugin/plugin/src/index.js\nexample-retrieval-plugin/plugin/src/manifests\nexample-retrieval-plugin/plugin/src/manifests/ai-plugin.json\nexample-retrieval-plugin/plugin/src/manifests/openapi.d.ts\nexample-retrieval-plugin/plugin/src/manifests/openapi.json\nexample-retrieval-plugin/plugin/worker-configuration.d.ts\nexample-retrieval-plugin/plugin/wrangler.toml\nexample-retrieval-plugin/scheduler\nexample-retrieval-plugin/scheduler/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  },
+  {
+    "name": "chatgpt-plugin/example-weather-plugin 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 example-weather-plugin 模块 (source)。来源: https://github.com/cloudflare/chatgpt-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "cloudflare",
+      "openai",
+      "workers",
+      "javascript",
+      "module-level",
+      "source",
+      "example-weather-plugin"
+    ],
+    "genes": [
+      {
+        "title": "example-weather-plugin 模块说明",
+        "content": "模块路径: example-weather-plugin/\n类型: source\n文件数: 10\n\n包含文件:\n- example-weather-plugin/.assets\n- example-weather-plugin/.assets/example.png\n- example-weather-plugin/.gitignore\n- example-weather-plugin/README.md\n- example-weather-plugin/package-lock.json\n- example-weather-plugin/package.json\n- example-weather-plugin/src\n- example-weather-plugin/src/forecast.ts\n- example-weather-plugin/src/index.ts\n- example-weather-plugin/wrangler.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example-weather-plugin 文件结构",
+        "content": "example-weather-plugin/.assets\nexample-weather-plugin/.assets/example.png\nexample-weather-plugin/.gitignore\nexample-weather-plugin/README.md\nexample-weather-plugin/package-lock.json\nexample-weather-plugin/package.json\nexample-weather-plugin/src\nexample-weather-plugin/src/forecast.ts\nexample-weather-plugin/src/index.ts\nexample-weather-plugin/wrangler.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.486747048141644
+  }
+]

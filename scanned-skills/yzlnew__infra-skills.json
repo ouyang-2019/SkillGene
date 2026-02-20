@@ -1,0 +1,178 @@
+[
+  {
+    "name": "infra-skills (yzlnew)",
+    "description": "[项目级] A collection of specialized agent skills for AI infrastructure development, enabling Claude Code to write, optimize, and debug high-performance systems.。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository provides expert-level skills tailored for AI infrastructure engineering. Each skill packages domain knowledge, code examples, and best practices to transform Claude into a specialized assistant for specific frameworks and workflows—from writing high-performance CUDA kernels to creating professional technical presentations.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Skills are installed by placing the skill directory in Claude's skills path:\n\n**Natural Language:**\nAsk Claude Code directly: \"Help me install skills from https://github.com/yzlnew/infra-skills\"\n\n**Personal (across all projects):**\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ngallery\ngallery/qat_flowchart.pdf\ngallery/slime_rl_slides.pdf\nmaterial-you-slides\nmaterial-you-slides/SKILL.md\nmegatron-memory-estimator\nmegatron-memory-estimator/SKILL.md\nmegatron-memory-estimator/megatron_memory_estimator\nmegatron-memory-estimator/references\nmegatron-memory-estimator/scripts\npytest.ini\nslime-user\nslime-user/SKILL.md\nslime-user/references\ntests\ntests/README.md\ntests/__init__.py\ntests/conftest.py\ntests/tilelang-developer",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.889075625191822
+  },
+  {
+    "name": "infra-skills/gallery 模块",
+    "description": "[模块级] infra-skills 项目的 gallery 模块 (source)。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "module-level",
+      "source",
+      "gallery"
+    ],
+    "genes": [
+      {
+        "title": "gallery 模块说明",
+        "content": "模块路径: gallery/\n类型: source\n文件数: 2\n\n包含文件:\n- gallery/qat_flowchart.pdf\n- gallery/slime_rl_slides.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gallery 文件结构",
+        "content": "gallery/qat_flowchart.pdf\ngallery/slime_rl_slides.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  },
+  {
+    "name": "infra-skills/megatron-memory-estimator 模块",
+    "description": "[模块级] infra-skills 项目的 megatron-memory-estimator 模块 (source)。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "module-level",
+      "source",
+      "megatron-memory-estimator"
+    ],
+    "genes": [
+      {
+        "title": "megatron-memory-estimator 模块说明",
+        "content": "模块路径: megatron-memory-estimator/\n类型: source\n文件数: 17\n\n包含文件:\n- megatron-memory-estimator/SKILL.md\n- megatron-memory-estimator/megatron_memory_estimator\n- megatron-memory-estimator/megatron_memory_estimator/.gitattributes\n- megatron-memory-estimator/megatron_memory_estimator/.gitignore\n- megatron-memory-estimator/megatron_memory_estimator/__init__.py\n- megatron-memory-estimator/megatron_memory_estimator/estimate_013.py\n- megatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator\n- megatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/__init__.py\n- megatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/base.py\n- megatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/gpt_model.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "megatron-memory-estimator 文件结构",
+        "content": "megatron-memory-estimator/SKILL.md\nmegatron-memory-estimator/megatron_memory_estimator\nmegatron-memory-estimator/megatron_memory_estimator/.gitattributes\nmegatron-memory-estimator/megatron_memory_estimator/.gitignore\nmegatron-memory-estimator/megatron_memory_estimator/__init__.py\nmegatron-memory-estimator/megatron_memory_estimator/estimate_013.py\nmegatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator\nmegatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/__init__.py\nmegatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/base.py\nmegatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/gpt_model.py\nmegatron-memory-estimator/megatron_memory_estimator/moe_mem_estimator/layers.py\nmegatron-memory-estimator/references\nmegatron-memory-estimator/references/configuration_guide.md\nmegatron-memory-estimator/references/parallelism_strategies.md\nmegatron-memory-estimator/scripts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  },
+  {
+    "name": "infra-skills/slime-user 模块",
+    "description": "[模块级] infra-skills 项目的 slime-user 模块 (source)。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "module-level",
+      "source",
+      "slime-user"
+    ],
+    "genes": [
+      {
+        "title": "slime-user 模块说明",
+        "content": "模块路径: slime-user/\n类型: source\n文件数: 5\n\n包含文件:\n- slime-user/SKILL.md\n- slime-user/references\n- slime-user/references/doc_navigation.md\n- slime-user/references/examples_reference.md\n- slime-user/references/source_code_reference.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "slime-user 文件结构",
+        "content": "slime-user/SKILL.md\nslime-user/references\nslime-user/references/doc_navigation.md\nslime-user/references/examples_reference.md\nslime-user/references/source_code_reference.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  },
+  {
+    "name": "infra-skills/tests 模块",
+    "description": "[模块级] infra-skills 项目的 tests 模块 (test)。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "pytest",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.md\ntests/__init__.py\ntests/conftest.py\ntests/tilelang-developer\ntests/tilelang-developer/__init__.py\ntests/tilelang-developer/test_flash_attention.py\ntests/tilelang-developer/test_gemm.py\ntests/tilelang-developer/test_mla_decode.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  },
+  {
+    "name": "infra-skills/tilelang-developer 模块",
+    "description": "[模块级] infra-skills 项目的 tilelang-developer 模块 (source)。来源: https://github.com/yzlnew/infra-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-60",
+      "github-yzlnew",
+      "module-level",
+      "source",
+      "tilelang-developer"
+    ],
+    "genes": [
+      {
+        "title": "tilelang-developer 模块说明",
+        "content": "模块路径: tilelang-developer/\n类型: source\n文件数: 5\n\n包含文件:\n- tilelang-developer/SKILL.md\n- tilelang-developer/references\n- tilelang-developer/references/API_REFERENCE.md\n- tilelang-developer/references/DEBUGGING.md\n- tilelang-developer/references/EXAMPLES.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tilelang-developer 文件结构",
+        "content": "tilelang-developer/SKILL.md\ntilelang-developer/references\ntilelang-developer/references/API_REFERENCE.md\ntilelang-developer/references/DEBUGGING.md\ntilelang-developer/references/EXAMPLES.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2112605001534575
+  }
+]

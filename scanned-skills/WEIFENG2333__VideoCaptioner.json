@@ -1,0 +1,107 @@
+[
+  {
+    "name": "VideoCaptioner (WEIFENG2333)",
+    "description": "[项目级] 🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.。来源: https://github.com/WEIFENG2333/VideoCaptioner",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "subtitle",
+      "translate",
+      "video-subtile",
+      "python",
+      "stars-13282",
+      "github-weifeng2333",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🎬 卡卡字幕助手 | VideoCaptioner - 基于 LLM 的智能字幕助手 - 视频字幕生成、断句、校正、字幕翻译全流程处理！- A powered tool for easy and efficient video subtitling.\n\n来源: https://github.com/WEIFENG2333/VideoCaptioner\n语言: Python\nStars: 13282",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\napp\napp/__init__.py\napp/common\napp/components\napp/config.py\napp/core\napp/thread\napp/view\ndocs\ndocs/.vitepress\ndocs/README.md\ndocs/config\ndocs/dev\ndocs/en\ndocs/guide\ndocs/index.md\ndocs/package-lock.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "软件较为轻量，打包大小不足 60M,已集成所有必要环境，下载后可直接运行。\n\n1. 从 [Release](https://github.com/WEIFENG2333/VideoCaptioner/releases) 页面下载最新版本的可执行程序。或者：[蓝奏盘下载](https://wwwm.lanzoue.com/ii14G2pdsbej)\n\n2. 打开安装包进行安装\n\n3. LLM API 配置，（用于字幕断句、校正），可使用[本项目的中转站](https://api.videocaptioner.cn)\n\n4. 翻译配置，选择是否启用翻译，翻译服务（默认使用微软翻译，质量一般，推荐配置自己的 API KEY 使用大模型翻译）\n\n5. 语音识别配置（默认使用B接口网络调用语音识别服务，中英以外的语言请使用本地转录）",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "软件利用大语言模型(LLM)在理解上下文方面的优势，对语音识别生成的字幕进一步处理。有效修正错别字、统一专业术语，让字幕内容更加准确连贯，为用户带来出色的观看体验！",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "VideoCaptioner/app 模块",
+    "description": "[模块级] VideoCaptioner 项目的 app 模块 (source)。来源: https://github.com/WEIFENG2333/VideoCaptioner",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "subtitle",
+      "translate",
+      "video-subtile",
+      "python",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 121\n\n包含文件:\n- app/__init__.py\n- app/common\n- app/common/config.py\n- app/common/signal_bus.py\n- app/components\n- app/components/DonateDialog.py\n- app/components/EditComboBoxSettingCard.py\n- app/components/FasterWhisperSettingWidget.py\n- app/components/LanguageSettingDialog.py\n- app/components/LineEditSettingCard.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/common\napp/common/config.py\napp/common/signal_bus.py\napp/components\napp/components/DonateDialog.py\napp/components/EditComboBoxSettingCard.py\napp/components/FasterWhisperSettingWidget.py\napp/components/LanguageSettingDialog.py\napp/components/LineEditSettingCard.py\napp/components/MySettingCard.py\napp/components/MyVideoWidget.py\napp/components/SimpleSettingCard.py\napp/components/SpinBoxSettingCard.py\napp/components/SubtitleSettingDialog.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.14930539036113
+  },
+  {
+    "name": "VideoCaptioner/docs 模块",
+    "description": "[模块级] VideoCaptioner 项目的 docs 模块 (docs)。来源: https://github.com/WEIFENG2333/VideoCaptioner",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "subtitle",
+      "translate",
+      "video-subtile",
+      "python",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 64\n\n包含文件:\n- docs/.vitepress\n- docs/.vitepress/config.mts\n- docs/.vitepress/theme\n- docs/.vitepress/theme/CustomHome.vue\n- docs/.vitepress/theme/custom.css\n- docs/.vitepress/theme/index.ts\n- docs/README.md\n- docs/config\n- docs/config/asr.md\n- docs/config/cookies.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.vitepress\ndocs/.vitepress/config.mts\ndocs/.vitepress/theme\ndocs/.vitepress/theme/CustomHome.vue\ndocs/.vitepress/theme/custom.css\ndocs/.vitepress/theme/index.ts\ndocs/README.md\ndocs/config\ndocs/config/asr.md\ndocs/config/cookies.md\ndocs/config/llm.md\ndocs/config/translator.md\ndocs/dev\ndocs/dev/api.md\ndocs/dev/architecture.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.14930539036113
+  }
+]

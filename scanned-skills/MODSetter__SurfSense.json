@@ -1,0 +1,103 @@
+[
+  {
+    "name": "SurfSense (MODSetter)",
+    "description": "[项目级] Connect any LLM to your internal knowledge sources and chat with it in real time alongside your team. OSS alternative to NotebookLM, Perplexity, and Glean. Join our Discord: https://discord.gg/ejRNvftDp9。来源: https://github.com/MODSetter/SurfSense",
+    "domain": "web-frontend",
+    "tags": [
+      "aceternity-ui",
+      "agent",
+      "agents",
+      "ai",
+      "chrome-extension",
+      "python",
+      "stars-12983",
+      "github-modsetter",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Connect any LLM to your internal knowledge sources and chat with it in real time alongside your team. OSS alternative to NotebookLM, Perplexity, and Glean. Join our Discord: https://discord.gg/ejRNvftDp9\n\n来源: https://github.com/MODSetter/SurfSense\n语言: Python\nStars: 12983",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile.allinone\nLICENSE\nREADME.es.md\nREADME.hi.md\nREADME.md\nREADME.pt-BR.md\nREADME.zh-CN.md\nbiome.json\ndocker-compose.quickstart.yml\ndocker-compose.yml\ndocs\ndocs/chinese-llm-setup.md\nscripts\nscripts/docker\nsurfsense_backend\nsurfsense_backend/.dockerignore\nsurfsense_backend/.env.example\nsurfsense_backend/.gitignore",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Description |\n|---------|-------------|\n| OSS Alternative | Drop in replacement for NotebookLM, Perplexity, and Glean with real time team collaboration |\n| 50+ File Formats | Upload documents, images, videos via LlamaCloud, Unstructured, or Docling (local) |\n| Hybrid Search | Semantic + Full Text Search with Hierarchical Indices and Reciprocal Rank Fusion |\n| Cited Answers | Chat with your knowledge base and get Perplexity style cited responses |\n| Deep Agent Architecture | Powered by [LangChain Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview) planning, subag",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "SurfSense/scripts 模块",
+    "description": "[模块级] SurfSense 项目的 scripts 模块 (script)。来源: https://github.com/MODSetter/SurfSense",
+    "domain": "web-frontend",
+    "tags": [
+      "aceternity-ui",
+      "agent",
+      "agents",
+      "ai",
+      "chrome-extension",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 6\n\n包含文件:\n- scripts/docker\n- scripts/docker/entrypoint-allinone.sh\n- scripts/docker/init-electric-user.sh\n- scripts/docker/init-postgres.sh\n- scripts/docker/postgresql.conf\n- scripts/docker/supervisor-allinone.conf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/docker\nscripts/docker/entrypoint-allinone.sh\nscripts/docker/init-electric-user.sh\nscripts/docker/init-postgres.sh\nscripts/docker/postgresql.conf\nscripts/docker/supervisor-allinone.conf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.145350022837961
+  },
+  {
+    "name": "SurfSense/surfsense_backend 模块",
+    "description": "[模块级] SurfSense 项目的 surfsense_backend 模块 (source)。来源: https://github.com/MODSetter/SurfSense",
+    "domain": "web-frontend",
+    "tags": [
+      "aceternity-ui",
+      "agent",
+      "agents",
+      "ai",
+      "chrome-extension",
+      "module-level",
+      "source",
+      "surfsense_backend"
+    ],
+    "genes": [
+      {
+        "title": "surfsense_backend 模块说明",
+        "content": "模块路径: surfsense_backend/\n类型: source\n文件数: 151\n\n包含文件:\n- surfsense_backend/.dockerignore\n- surfsense_backend/.env.example\n- surfsense_backend/.gitignore\n- surfsense_backend/.python-version\n- surfsense_backend/Dockerfile\n- surfsense_backend/alembic.ini\n- surfsense_backend/alembic\n- surfsense_backend/alembic/README\n- surfsense_backend/alembic/env.py\n- surfsense_backend/alembic/script.py.mako",
+        "gene_type": "principle"
+      },
+      {
+        "title": "surfsense_backend 文件结构",
+        "content": "surfsense_backend/.dockerignore\nsurfsense_backend/.env.example\nsurfsense_backend/.gitignore\nsurfsense_backend/.python-version\nsurfsense_backend/Dockerfile\nsurfsense_backend/alembic.ini\nsurfsense_backend/alembic\nsurfsense_backend/alembic/README\nsurfsense_backend/alembic/env.py\nsurfsense_backend/alembic/script.py.mako\nsurfsense_backend/alembic/versions\nsurfsense_backend/alembic/versions/0_initial_schema.py\nsurfsense_backend/alembic/versions/100_add_report_group_id.py\nsurfsense_backend/alembic/versions/10_update_chattype_enum_to_qna_report_structure.py\nsurfsense_backend/alembic/versions/11_add_llm_config_table_and_relationships.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.145350022837961
+  }
+]

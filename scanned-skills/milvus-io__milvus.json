@@ -1,0 +1,68 @@
+[
+  {
+    "name": "milvus (milvus-io)",
+    "description": "[项目级] Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search。来源: https://github.com/milvus-io/milvus",
+    "domain": "devops",
+    "tags": [
+      "anns",
+      "cloud-native",
+      "diskann",
+      "distributed",
+      "embedding-database",
+      "go",
+      "stars-42897",
+      "github-milvus-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search\n\n来源: https://github.com/milvus-io/milvus\n语言: Go\nStars: 42897",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "$ cd milvus/\n$ ./scripts/install_deps.sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCODE_REVIEW.md\nCOMMAND_HELP.md\nCOMMITTERS\nCONTRIBUTING.md\nDEVELOPMENT.md\nLICENSE\nMAINTAINERS\nMakefile\nOWNERS\nOWNERS_ALIASES\nREADME.md\nREADME_CN.md\nUPDATE_MILVUS_API.md\nbuild\nbuild/OWNERS\nbuild/README.md\nbuild/build_image.sh\nbuild/build_image_gpu.sh\nbuild/builder.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "milvus/ci 模块",
+    "description": "[模块级] milvus 项目的 ci 模块 (source)。来源: https://github.com/milvus-io/milvus",
+    "domain": "devops",
+    "tags": [
+      "anns",
+      "cloud-native",
+      "diskann",
+      "distributed",
+      "embedding-database",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "$ cd milvus/\n$ ./scripts/install_deps.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/jenkins\nci/jenkins/MetaMigrationBuilder.groovy\nci/jenkins/Nightly.groovy\nci/jenkins/Nightly2.groovy\nci/jenkins/PR-Arm.groovy\nci/jenkins/PR-for-go-sdk.groovy\nci/jenkins/PR.groovy\nci/jenkins/PRGPU.groovy\nci/jenkins/PublishArmBasedGPUImages.groovy\nci/jenkins/PublishArmBasedImages.groovy\nci/jenkins/PublishGPUImages.groovy\nci/jenkins/PublishImages.groovy\nci/jenkins/PublishMigrationImage.groovy\nci/jenkins/UT-CPP.groovy\nci/jenkins/pod",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.352970768351716
+  }
+]

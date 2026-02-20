@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Awesome-AI-Agents (Jenqyang)",
+    "description": "[项目级] A collection of autonomous agents 🤖️ powered by LLM.。来源: https://github.com/Jenqyang/Awesome-AI-Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "llm",
+      "llm-powered-agents",
+      "multi-agent",
+      "stars-987",
+      "github-jenqyang",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of autonomous agents 🤖️ powered by LLM.\n\n来源: https://github.com/Jenqyang/Awesome-AI-Agents\n语言: unknown\nStars: 987",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nimages\nimages/LLM-based-Agents.png\nimages/agent-society.png\nimages/autogen_agentchat.png\nimages/illustration.png\nimages/multi-agent.png\nimages/openagents_overview.png\nimages/system_design.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.497158576334819
+  },
+  {
+    "name": "Awesome-AI-Agents/images 模块",
+    "description": "[模块级] Awesome-AI-Agents 项目的 images 模块 (source)。来源: https://github.com/Jenqyang/Awesome-AI-Agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "llm",
+      "llm-powered-agents",
+      "multi-agent",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/LLM-based-Agents.png\n- images/agent-society.png\n- images/autogen_agentchat.png\n- images/illustration.png\n- images/multi-agent.png\n- images/openagents_overview.png\n- images/system_design.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/LLM-based-Agents.png\nimages/agent-society.png\nimages/autogen_agentchat.png\nimages/illustration.png\nimages/multi-agent.png\nimages/openagents_overview.png\nimages/system_design.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6977268610678546
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "rag (neuml)",
+    "description": "[项目级] 🚀 Retrieval Augmented Generation (RAG) with txtai. Combine search and LLMs to find insights with your own data.。来源: https://github.com/neuml/rag",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "large-language-models",
+      "llm",
+      "machine-learning",
+      "python",
+      "stars-443",
+      "github-neuml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 Retrieval Augmented Generation (RAG) with txtai. Combine search and LLMs to find insights with your own data.\n\n来源: https://github.com/neuml/rag\n语言: Python\nStars: 443",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nimages\nimages/demo.gif\nimages/graph.png\nimages/overview.png\nimages/upload-file.png\nimages/upload-text.png\nimages/vector.png\nrag.py\nrequirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.323201863111535
+  },
+  {
+    "name": "rag/images 模块",
+    "description": "[模块级] rag 项目的 images 模块 (source)。来源: https://github.com/neuml/rag",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "large-language-models",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 6\n\n包含文件:\n- images/demo.gif\n- images/graph.png\n- images/overview.png\n- images/upload-file.png\n- images/upload-text.png\n- images/vector.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/demo.gif\nimages/graph.png\nimages/overview.png\nimages/upload-file.png\nimages/upload-text.png\nimages/vector.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.558561490489228
+  }
+]

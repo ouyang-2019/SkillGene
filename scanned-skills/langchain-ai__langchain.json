@@ -1,0 +1,63 @@
+[
+  {
+    "name": "langchain (langchain-ai)",
+    "description": "[项目级] 🦜🔗 The platform for reliable agents.。来源: https://github.com/langchain-ai/langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "python",
+      "stars-127050",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🦜🔗 The platform for reliable agents.\n\n来源: https://github.com/langchain-ai/langchain\n语言: Python\nStars: 127050",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCITATION.cff\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nlibs\nlibs/Makefile\nlibs/README.md\nlibs/core",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "langchain/libs 模块",
+    "description": "[模块级] langchain 项目的 libs 模块 (source)。来源: https://github.com/langchain-ai/langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "module-level",
+      "source",
+      "libs"
+    ],
+    "genes": [
+      {
+        "title": "libs 模块说明",
+        "content": "模块路径: libs/\n类型: source\n文件数: 139\n\n包含文件:\n- libs/Makefile\n- libs/README.md\n- libs/core\n- libs/core/Makefile\n- libs/core/README.md\n- libs/core/extended_testing_deps.txt\n- libs/core/langchain_core\n- libs/core/langchain_core/__init__.py\n- libs/core/langchain_core/_api\n- libs/core/langchain_core/_api/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "libs 文件结构",
+        "content": "libs/Makefile\nlibs/README.md\nlibs/core\nlibs/core/Makefile\nlibs/core/README.md\nlibs/core/extended_testing_deps.txt\nlibs/core/langchain_core\nlibs/core/langchain_core/__init__.py\nlibs/core/langchain_core/_api\nlibs/core/langchain_core/_api/__init__.py\nlibs/core/langchain_core/_api/beta_decorator.py\nlibs/core/langchain_core/_api/deprecation.py\nlibs/core/langchain_core/_api/internal.py\nlibs/core/langchain_core/_api/path.py\nlibs/core/langchain_core/_import_utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.541589867754555
+  }
+]

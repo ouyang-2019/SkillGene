@@ -1,0 +1,99 @@
+[
+  {
+    "name": "ccusage (ryoppippi)",
+    "description": "[项目级] A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.。来源: https://github.com/ryoppippi/ccusage",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-10844",
+      "github-ryoppippi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.\n\n来源: https://github.com/ryoppippi/ccusage\n语言: TypeScript\nStars: 10844",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\napps\napps/amp\napps/ccusage\napps/codex\napps/mcp\napps/opencode\napps/pi\nccusage.example.json\ndocs\ndocs/.gitignore\ndocs/.vitepress\ndocs/AGENTS.md\ndocs/CLAUDE.md\ndocs/eslint.config.js\ndocs/guide",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📊 **Daily Report**: View token usage and costs aggregated by date\n- 📅 **Monthly Report**: View token usage and costs aggregated by month\n- 💬 **Session Report**: View usage grouped by conversation sessions\n- ⏰ **5-Hour Blocks Report**: Track usage within Claude's billing windows with active block monitoring\n- 🚀 **Statusline Integration**: Compact usage display for Claude Code status bar hooks (Beta)\n- 🤖 **Model Tracking**: See which Claude models you're using (Opus, Sonnet, etc.)\n- 📊 **Model Breakdown**: View per-model cost breakdown with `--breakdown` flag\n- 📅 **Date Filtering**: Filt",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ccusage/apps 模块",
+    "description": "[模块级] ccusage 项目的 apps 模块 (source)。来源: https://github.com/ryoppippi/ccusage",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-10844",
+      "github-ryoppippi",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 157\n\n包含文件:\n- apps/amp\n- apps/amp/CLAUDE.md\n- apps/amp/eslint.config.js\n- apps/amp/package.json\n- apps/amp/src\n- apps/amp/src/_consts.ts\n- apps/amp/src/_macro.ts\n- apps/amp/src/_types.ts\n- apps/amp/src/commands\n- apps/amp/src/commands/daily.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/amp\napps/amp/CLAUDE.md\napps/amp/eslint.config.js\napps/amp/package.json\napps/amp/src\napps/amp/src/_consts.ts\napps/amp/src/_macro.ts\napps/amp/src/_types.ts\napps/amp/src/commands\napps/amp/src/commands/daily.ts\napps/amp/src/commands/index.ts\napps/amp/src/commands/monthly.ts\napps/amp/src/commands/session.ts\napps/amp/src/data-loader.ts\napps/amp/src/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.114075803563379
+  },
+  {
+    "name": "ccusage/docs 模块",
+    "description": "[模块级] ccusage 项目的 docs 模块 (docs)。来源: https://github.com/ryoppippi/ccusage",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-10844",
+      "github-ryoppippi",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/.gitignore\n- docs/.vitepress\n- docs/.vitepress/config.ts\n- docs/AGENTS.md\n- docs/CLAUDE.md\n- docs/eslint.config.js\n- docs/guide\n- docs/guide/blocks-reports.md\n- docs/guide/cli-options.md\n- docs/guide/codex",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.vitepress\ndocs/.vitepress/config.ts\ndocs/AGENTS.md\ndocs/CLAUDE.md\ndocs/eslint.config.js\ndocs/guide\ndocs/guide/blocks-reports.md\ndocs/guide/cli-options.md\ndocs/guide/codex\ndocs/guide/codex/daily.md\ndocs/guide/codex/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.114075803563379
+  }
+]

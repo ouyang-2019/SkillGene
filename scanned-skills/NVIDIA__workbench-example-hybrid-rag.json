@@ -1,0 +1,84 @@
+[
+  {
+    "name": "workbench-example-hybrid-rag (NVIDIA)",
+    "description": "[项目级] An NVIDIA AI Workbench example project for Retrieval Augmented Generation (RAG)。来源: https://github.com/NVIDIA/workbench-example-hybrid-rag",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-363",
+      "github-nvidia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This is an [NVIDIA AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) project for developing a [Retrieval Augmented Generation](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/) application with a customizable Gradio Chat app. It lets you:\n* Embed your documents into a locally running vector database.\n* Run inference **locally** on a Hugging Face TGI server, in the **cloud** using NVIDIA inference endpoints, or using **microservices** via [NIMs](https://www.nvidia.com/en-us/ai/):\n    * 4-bit, 8-bit, and no quantization options are supported for locally running models served by TGI.\n    * Other models may be specified to run locally using their Hugging Face tag.\n    * Any downloadable NIM model can be used as a microservice, r",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.txt\nREADME.md\napt.txt\ncode\ncode/.gitkeep\ncode/chain_server\ncode/chatui\ncode/scripts\ncompose.yaml\ndata\ndata/.gitkeep\ndata/documents\npostBuild.bash\npreBuild.bash\nrequirements.txt\nvariables.env",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.279953312518057
+  },
+  {
+    "name": "workbench-example-hybrid-rag/code 模块",
+    "description": "[模块级] workbench-example-hybrid-rag 项目的 code 模块 (source)。来源: https://github.com/NVIDIA/workbench-example-hybrid-rag",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-363",
+      "github-nvidia",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 95\n\n包含文件:\n- code/.gitkeep\n- code/chain_server\n- code/chain_server/__init__.py\n- code/chain_server/chains.py\n- code/chain_server/chat_templates.py\n- code/chain_server/configuration.py\n- code/chain_server/configuration_wizard.py\n- code/chain_server/nvcf_llm.py\n- code/chain_server/server.py\n- code/chain_server/trt_llm.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/.gitkeep\ncode/chain_server\ncode/chain_server/__init__.py\ncode/chain_server/chains.py\ncode/chain_server/chat_templates.py\ncode/chain_server/configuration.py\ncode/chain_server/configuration_wizard.py\ncode/chain_server/nvcf_llm.py\ncode/chain_server/server.py\ncode/chain_server/trt_llm.py\ncode/chatui\ncode/chatui/__init__.py\ncode/chatui/__main__.py\ncode/chatui/api.py\ncode/chatui/assets",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523962650014445
+  },
+  {
+    "name": "workbench-example-hybrid-rag/data 模块",
+    "description": "[模块级] workbench-example-hybrid-rag 项目的 data 模块 (source)。来源: https://github.com/NVIDIA/workbench-example-hybrid-rag",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-363",
+      "github-nvidia",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 3\n\n包含文件:\n- data/.gitkeep\n- data/documents\n- data/documents/.gitkeep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/.gitkeep\ndata/documents\ndata/documents/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523962650014445
+  }
+]

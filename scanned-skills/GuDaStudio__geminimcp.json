@@ -1,0 +1,89 @@
+[
+  {
+    "name": "geminimcp (GuDaStudio)",
+    "description": "[项目级] Gemini-MCP is an MCP server that encapsulates Google's Gemini CLI tool into a standard MCP protocol interface, enabling Claude Code to invoke Gemini for AI-assisted programming tasks.。来源: https://github.com/GuDaStudio/geminimcp",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-282",
+      "github-gudastudio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Gemini-MCP** 是一个 MCP 服务器，将 Google 的 Gemini CLI 工具封装为标准 MCP 协议接口，让 Claude Code 能够调用 Gemini 执行 AI 辅助编程任务。\n\n🍟 本项目围绕**gemini强大的前端设计**能力[提供了prompt](#2-配置claude-code提示词可选)，以丰富您的使用场景，我们十分推荐您进行配置！\n\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ndocs\ndocs/README_EN.md\nimages\nimages/cc.mp4\nimages/ccwgemini.mp4\nimages/image.png\nimages/title.png\npyproject.toml\nsrc\nsrc/geminimcp\nuv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225124554159681
+  },
+  {
+    "name": "geminimcp/images 模块",
+    "description": "[模块级] geminimcp 项目的 images 模块 (source)。来源: https://github.com/GuDaStudio/geminimcp",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-282",
+      "github-gudastudio",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/cc.mp4\n- images/ccwgemini.mp4\n- images/image.png\n- images/title.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/cc.mp4\nimages/ccwgemini.mp4\nimages/image.png\nimages/title.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4800996433277445
+  },
+  {
+    "name": "geminimcp/src 模块",
+    "description": "[模块级] geminimcp 项目的 src 模块 (source)。来源: https://github.com/GuDaStudio/geminimcp",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-282",
+      "github-gudastudio",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 4\n\n包含文件:\n- src/geminimcp\n- src/geminimcp/__init__.py\n- src/geminimcp/cli.py\n- src/geminimcp/server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/geminimcp\nsrc/geminimcp/__init__.py\nsrc/geminimcp/cli.py\nsrc/geminimcp/server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4800996433277445
+  }
+]

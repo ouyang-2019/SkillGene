@@ -1,0 +1,38 @@
+[
+  {
+    "name": "chat-todo-plugin (lencx)",
+    "description": "[项目级] ✅ ChatGPT Plugin for managing a TODO list。来源: https://github.com/lencx/chat-todo-plugin",
+    "domain": "devops",
+    "tags": [
+      "chat-plugin",
+      "chatgpt",
+      "chatgpt-plugins",
+      "openai",
+      "plugin",
+      "python",
+      "stars-257",
+      "github-lencx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "✅ ChatGPT Plugin for managing a TODO list\n\n来源: https://github.com/lencx/chat-todo-plugin\n语言: Python\nStars: 257",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "poetry install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nlogo.png\nlogo.svg\nmain.py\nmanifest.json\nopenapi.yaml\npoetry.lock\npyproject.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204966561665647
+  }
+]

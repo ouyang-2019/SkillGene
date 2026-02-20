@@ -1,0 +1,383 @@
+[
+  {
+    "name": "chatgpt-cli (kardolus)",
+    "description": "[项目级] ChatGPT CLI is a powerful, multi-provider command-line interface for working with modern LLMs. It supports OpenAI, Azure, Perplexity, LLaMA, and more, with features like streaming, interactive chat, prompt files, image/audio I/O, MCP tool calls, and an experimental agent mode for safe, multi-step automation.。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "go",
+      "stars-890",
+      "github-kardolus",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "When `--mcp` is set, the CLI will:\n\n1. POST a JSON-RPC `tools/call` request to your MCP server\n2. Automatically initialize and manage an MCP session if required\n3. Extract the tool output\n4. Store it as an assistant message in the active thread (prefixed with `[MCP: <tool>]`)\n5. Submit your query to the model (if you provided one)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "chatgpt why is my test failing? --agent",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nMakefile\nREADME.md\nagent\nagent/core\nagent/factory\nagent/planexec\nagent/react\nagent/tools\nagent/types\nagent/utils\napi\napi/client\napi/completions.go\napi/draw.go\napi/http\napi/mcp.go\napi/models.go\napi/responses.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "git diff | chatgpt --prompt ../prompts/write_pull-request.md",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Streaming mode**: Real-time interaction with the GPT model.\n* **Query mode**: Single input-output interactions with the GPT model.\n* **Interactive mode**: The interactive mode allows for a more conversational experience with the model. Prints the\n  token usage when combined with query mode.\n* **Thread-based context management**: Enjoy seamless conversations with the GPT model with individualized context for\n  each thread, much like your experience on the OpenAI website. Each unique thread has its own history, ensuring\n  relevant and coherent responses across different chat instances.\n* **S",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.474695003322457
+  },
+  {
+    "name": "chatgpt-cli/agent 模块",
+    "description": "[模块级] chatgpt-cli 项目的 agent 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "![a screenshot](cmd/chatgpt/resources/agent.gif)\n\nChatGPT CLI includes an experimental **agent mode** that can plan and run multi-step tasks using tools (shell, file ops,\nand LLM reasoning), while enforcing **budget + policy** constraints.\n\nThere are two agent modes:\n\n- **ReAct (-agent-mode react)**: iterative “think → act → observe” loop\n- **Plan/Execute (-agent-mode plan)**: generates a plan first, then executes it step-by-step",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/core\nagent/core/base_agent.go\nagent/core/budget.go\nagent/core/budget_test.go\nagent/core/budgetmocks_test.go\nagent/core/clock.go\nagent/core/clockmocks_test.go\nagent/core/filemocks_test.go\nagent/core/llmmocks_test.go\nagent/core/log.go\nagent/core/policy.go\nagent/core/policy_test.go\nagent/core/policymocks_test.go\nagent/core/runner.go\nagent/core/runner_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/api 模块",
+    "description": "[模块级] chatgpt-cli 项目的 api 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 27\n\n包含文件:\n- api/client\n- api/client/callermocks_test.go\n- api/client/client.go\n- api/client/client_test.go\n- api/client/debug.go\n- api/client/history.go\n- api/client/history_test.go\n- api/client/historymocks_test.go\n- api/client/llm.go\n- api/client/llm_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/client\napi/client/callermocks_test.go\napi/client/client.go\napi/client/client_test.go\napi/client/debug.go\napi/client/history.go\napi/client/history_test.go\napi/client/historymocks_test.go\napi/client/llm.go\napi/client/llm_test.go\napi/client/mcp.go\napi/client/mcp_test.go\napi/client/media.go\napi/client/media_test.go\napi/client/readermocks_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/cache 模块",
+    "description": "[模块级] chatgpt-cli 项目的 cache 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "cache"
+    ],
+    "genes": [
+      {
+        "title": "cache 模块说明",
+        "content": "By default, ChatGPT CLI stores configuration and history files in the `~/.chatgpt-cli` directory. However, you can\neasily override these locations by setting environment variables, allowing you to store configuration and history in\ncustom directories.\n\n| Environment Variable | Description                                  | Default Location         |\n|----------------------|----------------------------------------------|--------------------------|\n| `OPENAI_CONFIG_HOME` | Overrides the default co",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cache 文件结构",
+        "content": "cache/cache.go\ncache/cache_test.go\ncache/entry.go\ncache/store.go\ncache/storemocks_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/cmd 模块",
+    "description": "[模块级] chatgpt-cli 项目的 cmd 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 11\n\n包含文件:\n- cmd/chatgpt\n- cmd/chatgpt/main.go\n- cmd/chatgpt/resources\n- cmd/chatgpt/resources/agent.gif\n- cmd/chatgpt/resources/agent.tape\n- cmd/chatgpt/resources/chatgpt-cli.tape\n- cmd/chatgpt/resources/poc.png\n- cmd/chatgpt/resources/vhs.gif\n- cmd/chatgpt/utils\n- cmd/chatgpt/utils/utils.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/chatgpt\ncmd/chatgpt/main.go\ncmd/chatgpt/resources\ncmd/chatgpt/resources/agent.gif\ncmd/chatgpt/resources/agent.tape\ncmd/chatgpt/resources/chatgpt-cli.tape\ncmd/chatgpt/resources/poc.png\ncmd/chatgpt/resources/vhs.gif\ncmd/chatgpt/utils\ncmd/chatgpt/utils/utils.go\ncmd/chatgpt/utils/utils_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/config 模块",
+    "description": "[模块级] chatgpt-cli 项目的 config 模块 (config)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "The ChatGPT CLI adopts a four-tier configuration strategy, with different levels of precedence assigned to flags,\nenvironment variables, a config.yaml file, and default values, in that respective order:\n\n1. Flags: Command-line flags have the highest precedence. Any value provided through a flag will override other\n   configurations.\n2. Environment Variables: If a setting is not specified by a flag, the corresponding environment variable (prefixed with\n   the name field from the config) will be c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/completions.go\nconfig/config.go\nconfig/configmocks_test.go\nconfig/file_lock_unix.go\nconfig/file_lock_windows.go\nconfig/manager.go\nconfig/manager_test.go\nconfig/read_api_key_file.go\nconfig/read_api_key_file_test.go\nconfig/store.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/docs 模块",
+    "description": "[模块级] chatgpt-cli 项目的 docs 模块 (docs)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/anthropic_api.md\n- docs/apify_api.md\n- docs/chatgpt_api.md\n- docs/perplexity_api.md\n- docs/release_procedures.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/anthropic_api.md\ndocs/apify_api.md\ndocs/chatgpt_api.md\ndocs/perplexity_api.md\ndocs/release_procedures.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/history 模块",
+    "description": "[模块级] chatgpt-cli 项目的 history 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "history"
+    ],
+    "genes": [
+      {
+        "title": "history 模块说明",
+        "content": "模块路径: history/\n类型: source\n文件数: 6\n\n包含文件:\n- history/history.go\n- history/historymocks_test.go\n- history/manager.go\n- history/manager_test.go\n- history/store.go\n- history/store_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "history 文件结构",
+        "content": "history/history.go\nhistory/historymocks_test.go\nhistory/manager.go\nhistory/manager_test.go\nhistory/store.go\nhistory/store_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/internal 模块",
+    "description": "[模块级] chatgpt-cli 项目的 internal 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 6\n\n包含文件:\n- internal/constants.go\n- internal/fsio\n- internal/fsio/fsio.go\n- internal/logging.go\n- internal/utils.go\n- internal/utils_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/constants.go\ninternal/fsio\ninternal/fsio/fsio.go\ninternal/logging.go\ninternal/utils.go\ninternal/utils_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/scripts 模块",
+    "description": "[模块级] chatgpt-cli 项目的 scripts 模块 (script)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 14\n\n包含文件:\n- scripts/all-tests.sh\n- scripts/binaries.sh\n- scripts/contract.sh\n- scripts/coverage.sh\n- scripts/install.ps1\n- scripts/install.sh\n- scripts/integration.sh\n- scripts/mdrender.sh\n- scripts/reinstall.sh\n- scripts/run_test.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/all-tests.sh\nscripts/binaries.sh\nscripts/contract.sh\nscripts/coverage.sh\nscripts/install.ps1\nscripts/install.sh\nscripts/integration.sh\nscripts/mdrender.sh\nscripts/reinstall.sh\nscripts/run_test.sh\nscripts/shipit.sh\nscripts/smoke.sh\nscripts/unit.sh\nscripts/updatedeps.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/test 模块",
+    "description": "[模块级] chatgpt-cli 项目的 test 模块 (test)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "1. After a successful build, test the application with the following command:\n\n    ```shell\n    ./bin/chatgpt what type of dog is a Jack Russel?\n    ```\n\n2. As mentioned previously, the ChatGPT CLI supports tracking conversation history across CLI calls. This feature\n   creates a seamless and conversational experience with the GPT model, as the history is utilized as context in\n   subsequent interactions.\n\n   To enable this feature, you need to create a `~/.chatgpt-cli` directory using the comma",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/contract\ntest/contract/contract_test.go\ntest/data\ntest/data/completions.json\ntest/data/error.json\ntest/data/hello.wav\ntest/data/history.json\ntest/data/models.json\ntest/integration\ntest/integration/helpers_test.go\ntest/integration/integration_test.go\ntest/mcp\ntest/mcp/http\ntest/mcp/http/README.md\ntest/mcp/http/requirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "test 代码示例",
+        "content": "./bin/chatgpt what type of dog is a Jack Russel?",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  },
+  {
+    "name": "chatgpt-cli/vendor 模块",
+    "description": "[模块级] chatgpt-cli 项目的 vendor 模块 (source)。来源: https://github.com/kardolus/chatgpt-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "azure",
+      "chatgpt",
+      "cli",
+      "module-level",
+      "source",
+      "vendor"
+    ],
+    "genes": [
+      {
+        "title": "vendor 模块说明",
+        "content": "模块路径: vendor/\n类型: source\n文件数: 25\n\n包含文件:\n- vendor/github.com\n- vendor/github.com/chzyer\n- vendor/github.com/chzyer/readline\n- vendor/github.com/chzyer/readline/.gitignore\n- vendor/github.com/chzyer/readline/.travis.yml\n- vendor/github.com/chzyer/readline/CHANGELOG.md\n- vendor/github.com/chzyer/readline/LICENSE\n- vendor/github.com/chzyer/readline/README.md\n- vendor/github.com/chzyer/readline/ansi_windows.go\n- vendor/github.com/chzyer/readline/complete.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vendor 文件结构",
+        "content": "vendor/github.com\nvendor/github.com/chzyer\nvendor/github.com/chzyer/readline\nvendor/github.com/chzyer/readline/.gitignore\nvendor/github.com/chzyer/readline/.travis.yml\nvendor/github.com/chzyer/readline/CHANGELOG.md\nvendor/github.com/chzyer/readline/LICENSE\nvendor/github.com/chzyer/readline/README.md\nvendor/github.com/chzyer/readline/ansi_windows.go\nvendor/github.com/chzyer/readline/complete.go\nvendor/github.com/chzyer/readline/complete_helper.go\nvendor/github.com/chzyer/readline/complete_segment.go\nvendor/github.com/chzyer/readline/history.go\nvendor/github.com/chzyer/readline/operation.go\nvendor/github.com/chzyer/readline/password.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.679756002657965
+  }
+]

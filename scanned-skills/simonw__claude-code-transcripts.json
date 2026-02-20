@@ -1,0 +1,94 @@
+[
+  {
+    "name": "claude-code-transcripts (simonw)",
+    "description": "[项目级] Tools for publishing transcripts for Claude Code sessions。来源: https://github.com/simonw/claude-code-transcripts",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1026",
+      "github-simonw",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tools for publishing transcripts for Claude Code sessions\n\n来源: https://github.com/simonw/claude-code-transcripts\n语言: Python\nStars: 1026",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "uv tool install claude-code-transcripts",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\npyproject.toml\nsrc\nsrc/claude_code_transcripts\ntests\ntests/__snapshots__\ntests/conftest.py\ntests/sample_session.json\ntests/sample_session.jsonl\ntests/test_all.py\ntests/test_generate_html.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "claude-code-transcripts",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.505573680387899
+  },
+  {
+    "name": "claude-code-transcripts/src 模块",
+    "description": "[模块级] claude-code-transcripts 项目的 src 模块 (source)。来源: https://github.com/simonw/claude-code-transcripts",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-1026",
+      "github-simonw",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 10\n\n包含文件:\n- src/claude_code_transcripts\n- src/claude_code_transcripts/__init__.py\n- src/claude_code_transcripts/templates\n- src/claude_code_transcripts/templates/base.html\n- src/claude_code_transcripts/templates/index.html\n- src/claude_code_transcripts/templates/macros.html\n- src/claude_code_transcripts/templates/master_index.html\n- src/claude_code_transcripts/templates/page.html\n- src/claude_code_transcripts/templates/project_index.html\n- src/claude_code_transcripts/templates/search.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/claude_code_transcripts\nsrc/claude_code_transcripts/__init__.py\nsrc/claude_code_transcripts/templates\nsrc/claude_code_transcripts/templates/base.html\nsrc/claude_code_transcripts/templates/index.html\nsrc/claude_code_transcripts/templates/macros.html\nsrc/claude_code_transcripts/templates/master_index.html\nsrc/claude_code_transcripts/templates/page.html\nsrc/claude_code_transcripts/templates/project_index.html\nsrc/claude_code_transcripts/templates/search.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.704458944310319
+  },
+  {
+    "name": "claude-code-transcripts/tests 模块",
+    "description": "[模块级] claude-code-transcripts 项目的 tests 模块 (test)。来源: https://github.com/simonw/claude-code-transcripts",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-1026",
+      "github-simonw",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 25\n\n包含文件:\n- tests/__snapshots__\n- tests/__snapshots__/test_generate_html\n- tests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_index_html.html\n- tests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_page_001_html.html\n- tests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_page_002_html.html\n- tests/__snapshots__/test_generate_html/TestParseSessionFile.test_jsonl_generates_html.html\n- tests/__snapshots__/test_generate_html/TestRenderContentBlock.test_image_block.html\n- tests/__snapshots__/test_generate_html/TestRenderContentBlock.test_text_block.html\n- tests/__snapshots__/test_generate_html/TestRenderContentBlock.test_thinking_block.html\n- tests/__snapshots__/test_generate_html/TestRenderContentBlock.test_tool_result_block.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__snapshots__\ntests/__snapshots__/test_generate_html\ntests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_index_html.html\ntests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_page_001_html.html\ntests/__snapshots__/test_generate_html/TestGenerateHtml.test_generates_page_002_html.html\ntests/__snapshots__/test_generate_html/TestParseSessionFile.test_jsonl_generates_html.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_image_block.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_text_block.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_thinking_block.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_tool_result_block.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_tool_result_error.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_tool_result_with_commit.html\ntests/__snapshots__/test_generate_html/TestRenderContentBlock.test_tool_result_with_image.html\ntests/__snapshots__/test_generate_html/TestRenderFunctions.test_format_json.html\ntests/__snapshots__/test_generate_html/TestRenderFunctions.test_render_bash_tool.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.704458944310319
+  }
+]

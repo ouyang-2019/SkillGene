@@ -1,0 +1,73 @@
+[
+  {
+    "name": "aci (aipotheosis-labs)",
+    "description": "[项目级] ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of VibeOps.。来源: https://github.com/aipotheosis-labs/aci",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "developer-tools",
+      "python",
+      "stars-4716",
+      "github-aipotheosis-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of VibeOps.\n\n来源: https://github.com/aipotheosis-labs/aci\n语言: Python\nStars: 4716",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To run the full ACI.dev platform (backend server and frontend portal) locally, follow the individual README files for each component:\n\n- **Backend:** [backend/README.md](backend/README.md)\n- **Frontend:** [frontend/README.md](frontend/README.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLA.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nINTEGRATION_GUIDE.md\nLICENSE\nREADME.md\nSECURITY.md\nbackend\nbackend/.dockerignore\nbackend/.env.example\nbackend/.gitignore\nbackend/.prettierrc.json\nbackend/.python-version\nbackend/Dockerfile.runner\nbackend/Dockerfile.server\nbackend/README.md\nbackend/aci",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **600+ Pre-built Integrations**: Connect to popular services and apps in minutes.\n- **Flexible Access Methods**: Use our unified MCP server or our lightweight SDK for direct function calling.\n- **Multi-tenant Authentication**: Built-in OAuth flows and secrets management for both developers and end-users.\n- **Enhanced Agent Reliability**: Natural language permission boundaries and dynamic tool discovery.\n- **Framework & Model Agnostic**: Works with any LLM framework and agent architecture.\n- **100% Open Source**: Everything released under Apache 2.0 (backend, dev portal, integrations).",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.836786898211526
+  },
+  {
+    "name": "aci/backend 模块",
+    "description": "[模块级] aci 项目的 backend 模块 (source)。来源: https://github.com/aipotheosis-labs/aci",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "api",
+      "developer-tools",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 172\n\n包含文件:\n- backend/.dockerignore\n- backend/.env.example\n- backend/.gitignore\n- backend/.prettierrc.json\n- backend/.python-version\n- backend/Dockerfile.runner\n- backend/Dockerfile.server\n- backend/README.md\n- backend/aci\n- backend/aci/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.dockerignore\nbackend/.env.example\nbackend/.gitignore\nbackend/.prettierrc.json\nbackend/.python-version\nbackend/Dockerfile.runner\nbackend/Dockerfile.server\nbackend/README.md\nbackend/aci\nbackend/aci/__init__.py\nbackend/aci/alembic\nbackend/aci/alembic/README\nbackend/aci/alembic/env.py\nbackend/aci/alembic/script.py.mako\nbackend/aci/alembic/versions",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9694295185692208
+  }
+]

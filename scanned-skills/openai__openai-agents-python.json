@@ -1,0 +1,73 @@
+[
+  {
+    "name": "openai-agents-python (openai)",
+    "description": "[项目级] A lightweight, powerful framework for multi-agent workflows。来源: https://github.com/openai/openai-agents-python",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "framework",
+      "llm",
+      "openai",
+      "python",
+      "stars-19033",
+      "github-openai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A lightweight, powerful framework for multi-agent workflows\n\n来源: https://github.com/openai/openai-agents-python\n语言: Python\nStars: 19033",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```python\nfrom agents import Agent, Runner, SQLiteSession",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nMakefile\nPLANS.md\nREADME.md\ndocs\ndocs/agents.md\ndocs/assets\ndocs/config.md\ndocs/context.md\ndocs/examples.md\ndocs/guardrails.md\ndocs/handoffs.md\ndocs/human_in_the_loop.md\ndocs/index.md\ndocs/ja\ndocs/ko\ndocs/llms-full.txt\ndocs/llms.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nfrom agents import Agent, Runner\n\nagent = Agent(name=\"Assistant\", instructions=\"You are a helpful assistant\")\n\nresult = Runner.run_sync(agent, \"Write a haiku about recursion in programming.\")\nprint(result.final_output)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "openai-agents-python/docs 模块",
+    "description": "[模块级] openai-agents-python 项目的 docs 模块 (docs)。来源: https://github.com/openai/openai-agents-python",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "framework",
+      "llm",
+      "openai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 135\n\n包含文件:\n- docs/agents.md\n- docs/assets\n- docs/assets/images\n- docs/assets/images/favicon-platform.svg\n- docs/assets/images/graph.png\n- docs/assets/images/mcp-tracing.jpg\n- docs/assets/images/orchestration.png\n- docs/assets/logo.svg\n- docs/config.md\n- docs/context.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agents.md\ndocs/assets\ndocs/assets/images\ndocs/assets/images/favicon-platform.svg\ndocs/assets/images/graph.png\ndocs/assets/images/mcp-tracing.jpg\ndocs/assets/images/orchestration.png\ndocs/assets/logo.svg\ndocs/config.md\ndocs/context.md\ndocs/examples.md\ndocs/guardrails.md\ndocs/handoffs.md\ndocs/human_in_the_loop.md\ndocs/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.211802899040703
+  }
+]

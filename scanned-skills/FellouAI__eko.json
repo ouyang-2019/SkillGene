@@ -1,0 +1,103 @@
+[
+  {
+    "name": "eko (FellouAI)",
+    "description": "[项目级] Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language - eko.fellou.ai。来源: https://github.com/FellouAI/eko",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentic-framework",
+      "agentic-workflow",
+      "typescript",
+      "stars-4865",
+      "github-fellouai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Eko (Eko Keeps Operating) - Build Production-ready Agentic Workflow with Natural Language - eko.fellou.ai\n\n来源: https://github.com/FellouAI/eko\n语言: TypeScript\nStars: 4865",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\ndiscard.png\nexample\nexample/extension\nexample/nodejs\nexample/web\npackage.json\npackages\npackages/eko-core\npackages/eko-extension\npackages/eko-nodejs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The repository ships with three workspace examples under the `example/` folder.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [x] Pure JavaScript: Built for browsers and Node.js.🚀\n- [x] Multi-Agent: Unleash power with multiple Agents in one task.📈\n- [x] Agent/Tool Flexibility: Customize new Agents and Tools in just one line.🎉\n- [x] Native MCP: Connects seamlessly with [Awesome MCP Servers](https://mcpservers.org/).🔗\n- [x] Dynamic LLM: Balance speed and performance with flexible model choices.⚙️\n- [x] Human-in-the-loop: Intervene when it matters most.🤝\n- [x] Stream Planning: Dynamic rendering made easy.🎨\n- [x] Loop & Listener Tasks: Automate any repetitive task.🤖\n- [ ] Observable Chain: *Coming soon*\n- [ ] Na",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.843541422302185
+  },
+  {
+    "name": "eko/example 模块",
+    "description": "[模块级] eko 项目的 example 模块 (example)。来源: https://github.com/FellouAI/eko",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentic-framework",
+      "agentic-workflow",
+      "module-level",
+      "example",
+      "example"
+    ],
+    "genes": [
+      {
+        "title": "example 模块说明",
+        "content": "The repository ships with three workspace examples under the `example/` folder.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example 文件结构",
+        "content": "example/extension\nexample/extension/package.json\nexample/extension/public\nexample/extension/public/icon.ico\nexample/extension/public/manifest.json\nexample/extension/public/options.html\nexample/extension/public/sidebar.html\nexample/extension/src\nexample/extension/src/background\nexample/extension/src/background/agent\nexample/extension/src/background/agent/browser-service.ts\nexample/extension/src/background/agent/chat-service.ts\nexample/extension/src/background/agent/file-agent.ts\nexample/extension/src/background/agent/index.ts\nexample/extension/src/background/agent/utils.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.974833137841748
+  },
+  {
+    "name": "eko/packages 模块",
+    "description": "[模块级] eko 项目的 packages 模块 (source)。来源: https://github.com/FellouAI/eko",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentic-framework",
+      "agentic-workflow",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 121\n\n包含文件:\n- packages/eko-core\n- packages/eko-core/.env.example\n- packages/eko-core/.gitignore\n- packages/eko-core/jest.config.js\n- packages/eko-core/package.json\n- packages/eko-core/publish.sh\n- packages/eko-core/rollup.config.debug.js\n- packages/eko-core/rollup.config.js\n- packages/eko-core/src\n- packages/eko-core/src/agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/eko-core\npackages/eko-core/.env.example\npackages/eko-core/.gitignore\npackages/eko-core/jest.config.js\npackages/eko-core/package.json\npackages/eko-core/publish.sh\npackages/eko-core/rollup.config.debug.js\npackages/eko-core/rollup.config.js\npackages/eko-core/src\npackages/eko-core/src/agent\npackages/eko-core/src/agent/a2a.ts\npackages/eko-core/src/agent/agent-context.ts\npackages/eko-core/src/agent/agent-llm.ts\npackages/eko-core/src/agent/base.ts\npackages/eko-core/src/agent/browser",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.974833137841748
+  }
+]

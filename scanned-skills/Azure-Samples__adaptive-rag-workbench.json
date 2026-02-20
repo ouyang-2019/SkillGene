@@ -1,0 +1,103 @@
+[
+  {
+    "name": "adaptive-rag-workbench (Azure-Samples)",
+    "description": "[项目级] Sample for context-aware Agentic RaG, Q&A with multi-source verification, and self-curating knowledge base. Powered by Azure AI Foundry Agent Service, Azure AI Search with agentic retrieval and query rewrite, Semantic Kernel and LangGraph agents running in Azure Container Apps, and ready for Copilot Studio。来源: https://github.com/Azure-Samples/adaptive-rag-workbench",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-search",
+      "azure-ai",
+      "azure-ai-agent-service",
+      "semantic-kernel",
+      "python",
+      "stars-47",
+      "github-azure-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Sample for context-aware Agentic RaG, Q&A with multi-source verification, and self-curating knowledge base. Powered by Azure AI Foundry Agent Service, Azure AI Search with agentic retrieval and query rewrite, Semantic Kernel and LangGraph agents running in Azure Container Apps, and ready for Copilot Studio\n\n来源: https://github.com/Azure-Samples/adaptive-rag-workbench\n语言: Python\nStars: 47",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can deploy the Adaptive RAG Workbench using **GitHub Codespaces**, **VS Code Dev Containers**, or your **local environment**. The fastest path is Codespaces.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Makefile\nREADME.md\nazure.yaml\nbackend\nbackend/Dockerfile\nbackend/README.md\nbackend/app\nbackend/data\nbackend/mcp_server\nbackend/poetry.lock\nbackend/pyproject.toml\nbackend/removeenv.ps1\nbackend/startbackend.bat\nbackend/tests\nfrontend\nfrontend/.dockerignore\nfrontend/.gitignore\nfrontend/Dockerfile\nfrontend/components.json\nfrontend/eslint.config.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Three Advanced RAG Patterns** – Production-ready implementations of sophisticated RAG architectures\n* **Multi-Agent Orchestration** – Coordinated AI agents using Microsoft Semantic Kernel\n* **Azure AI Integration** – Native Azure OpenAI, AI Search, and Document Intelligence\n* **Modern Web Interface** – React + TypeScript frontend with shadcn/ui components\n* **Enterprise Security** – Managed Identity, Key Vault integration, and network isolation\n* **One-Click Deploy** – Complete infrastructure provisioning with `azd up`\n* **Codespaces Ready** – Fully configured development environment\n* **F",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.836048928967859
+  },
+  {
+    "name": "adaptive-rag-workbench/backend 模块",
+    "description": "[模块级] adaptive-rag-workbench 项目的 backend 模块 (source)。来源: https://github.com/Azure-Samples/adaptive-rag-workbench",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-search",
+      "azure-ai",
+      "azure-ai-agent-service",
+      "semantic-kernel",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "cd backend\npoetry install\npoetry shell\nuvicorn app.main:app --reload",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/README.md\nbackend/app\nbackend/app/__init__.py\nbackend/app/agents\nbackend/app/agents/__init__.py\nbackend/app/agents/agent_configs.yaml\nbackend/app/agents/curator.py\nbackend/app/agents/orchestrator.py\nbackend/app/agents/registry.py\nbackend/app/agents/retriever.py\nbackend/app/agents/tools.py\nbackend/app/agents/verifier.py\nbackend/app/agents/writer.py\nbackend/app/api",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.168839143174287
+  },
+  {
+    "name": "adaptive-rag-workbench/frontend 模块",
+    "description": "[模块级] adaptive-rag-workbench 项目的 frontend 模块 (source)。来源: https://github.com/Azure-Samples/adaptive-rag-workbench",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-search",
+      "azure-ai",
+      "azure-ai-agent-service",
+      "semantic-kernel",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "cd frontend\nnpm install\nnpm run dev\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.gitignore\nfrontend/Dockerfile\nfrontend/components.json\nfrontend/eslint.config.js\nfrontend/index.html\nfrontend/nginx.conf.template\nfrontend/package.json\nfrontend/pnpm-lock.yaml\nfrontend/postcss.config.js\nfrontend/public\nfrontend/public/arag-icon-48.png\nfrontend/public/architecture.png\nfrontend/public/favicon.ico\nfrontend/public/favicon.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.168839143174287
+  }
+]

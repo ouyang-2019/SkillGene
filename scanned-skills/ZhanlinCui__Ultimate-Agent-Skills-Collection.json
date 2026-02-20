@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Ultimate-Agent-Skills-Collection (ZhanlinCui)",
+    "description": "[项目级] 🚀 The Ultimate Collection of 40+ High-Quality Agent Skills for Claude AI — Creative, Technical & Enterprise Workflows | 全网最全高质量 Skills 合集。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 The Ultimate Collection of 40+ High-Quality Agent Skills for Claude AI — Creative, Technical & Enterprise Workflows | 全网最全高质量 Skills 合集\n\n来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection\n语言: Python\nStars: 61",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin install skill-name@your-marketplace\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.ja.md\nREADME.md\nREADME.zh-CN.md\nalgorithmic-art\nalgorithmic-art/SKILL.md\nalgorithmic-art/templates\nbrainstorming\nbrainstorming/SKILL.md\nbrand-guidelines\nbrand-guidelines/SKILL.md\ncanvas-design\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\nchat-compactor\nchat-compactor/SKILL.md\ndeploying-to-production\ndeploying-to-production/SKILL.md\ndispatching-parallel-agents\ndispatching-parallel-agents/SKILL.md\ndoc-coauthoring",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8926649175053836
+  },
+  {
+    "name": "Ultimate-Agent-Skills-Collection/algorithmic-art 模块",
+    "description": "[模块级] Ultimate-Agent-Skills-Collection 项目的 algorithmic-art 模块 (source)。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "module-level",
+      "source",
+      "algorithmic-art"
+    ],
+    "genes": [
+      {
+        "title": "algorithmic-art 模块说明",
+        "content": "模块路径: algorithmic-art/\n类型: source\n文件数: 4\n\n包含文件:\n- algorithmic-art/SKILL.md\n- algorithmic-art/templates\n- algorithmic-art/templates/generator_template.js\n- algorithmic-art/templates/viewer.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "algorithmic-art 文件结构",
+        "content": "algorithmic-art/SKILL.md\nalgorithmic-art/templates\nalgorithmic-art/templates/generator_template.js\nalgorithmic-art/templates/viewer.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.214131934004307
+  },
+  {
+    "name": "Ultimate-Agent-Skills-Collection/canvas-design 模块",
+    "description": "[模块级] Ultimate-Agent-Skills-Collection 项目的 canvas-design 模块 (source)。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "module-level",
+      "source",
+      "canvas-design"
+    ],
+    "genes": [
+      {
+        "title": "canvas-design 模块说明",
+        "content": "模块路径: canvas-design/\n类型: source\n文件数: 83\n\n包含文件:\n- canvas-design/SKILL.md\n- canvas-design/canvas-fonts\n- canvas-design/canvas-fonts/ArsenalSC-OFL.txt\n- canvas-design/canvas-fonts/ArsenalSC-Regular.ttf\n- canvas-design/canvas-fonts/BigShoulders-Bold.ttf\n- canvas-design/canvas-fonts/BigShoulders-OFL.txt\n- canvas-design/canvas-fonts/BigShoulders-Regular.ttf\n- canvas-design/canvas-fonts/Boldonse-OFL.txt\n- canvas-design/canvas-fonts/Boldonse-Regular.ttf\n- canvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "canvas-design 文件结构",
+        "content": "canvas-design/SKILL.md\ncanvas-design/canvas-fonts\ncanvas-design/canvas-fonts/ArsenalSC-OFL.txt\ncanvas-design/canvas-fonts/ArsenalSC-Regular.ttf\ncanvas-design/canvas-fonts/BigShoulders-Bold.ttf\ncanvas-design/canvas-fonts/BigShoulders-OFL.txt\ncanvas-design/canvas-fonts/BigShoulders-Regular.ttf\ncanvas-design/canvas-fonts/Boldonse-OFL.txt\ncanvas-design/canvas-fonts/Boldonse-Regular.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-OFL.txt\ncanvas-design/canvas-fonts/BricolageGrotesque-Regular.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Bold.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Italic.ttf\ncanvas-design/canvas-fonts/CrimsonPro-OFL.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.214131934004307
+  },
+  {
+    "name": "Ultimate-Agent-Skills-Collection/doc-sync-tool 模块",
+    "description": "[模块级] Ultimate-Agent-Skills-Collection 项目的 doc-sync-tool 模块 (source)。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "module-level",
+      "source",
+      "doc-sync-tool"
+    ],
+    "genes": [
+      {
+        "title": "doc-sync-tool 模块说明",
+        "content": "模块路径: doc-sync-tool/\n类型: source\n文件数: 14\n\n包含文件:\n- doc-sync-tool/.gitignore\n- doc-sync-tool/EXAMPLES.md\n- doc-sync-tool/INDEX.md\n- doc-sync-tool/QUICKSTART.md\n- doc-sync-tool/README.md\n- doc-sync-tool/SKILL.md\n- doc-sync-tool/package.json\n- doc-sync-tool/rename-quick.js\n- doc-sync-tool/rename-to-uppercase.sh\n- doc-sync-tool/run-sync.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc-sync-tool 文件结构",
+        "content": "doc-sync-tool/.gitignore\ndoc-sync-tool/EXAMPLES.md\ndoc-sync-tool/INDEX.md\ndoc-sync-tool/QUICKSTART.md\ndoc-sync-tool/README.md\ndoc-sync-tool/SKILL.md\ndoc-sync-tool/package.json\ndoc-sync-tool/rename-quick.js\ndoc-sync-tool/rename-to-uppercase.sh\ndoc-sync-tool/run-sync.sh\ndoc-sync-tool/run-watch.sh\ndoc-sync-tool/sync.js\ndoc-sync-tool/test.sh\ndoc-sync-tool/watch.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.214131934004307
+  },
+  {
+    "name": "Ultimate-Agent-Skills-Collection/docx 模块",
+    "description": "[模块级] Ultimate-Agent-Skills-Collection 项目的 docx 模块 (source)。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "module-level",
+      "source",
+      "docx"
+    ],
+    "genes": [
+      {
+        "title": "docx 模块说明",
+        "content": "模块路径: docx/\n类型: source\n文件数: 69\n\n包含文件:\n- docx/SKILL.md\n- docx/docx-js.md\n- docx/ooxml.md\n- docx/ooxml\n- docx/ooxml/schemas\n- docx/ooxml/schemas/ISO-IEC29500-4_2016\n- docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\n- docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd\n- docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd\n- docx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docx 文件结构",
+        "content": "docx/SKILL.md\ndocx/docx-js.md\ndocx/ooxml.md\ndocx/ooxml\ndocx/ooxml/schemas\ndocx/ooxml/schemas/ISO-IEC29500-4_2016\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chart.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-main.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-picture.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd\ndocx/ooxml/schemas/ISO-IEC29500-4_2016/pml.xsd",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.214131934004307
+  },
+  {
+    "name": "Ultimate-Agent-Skills-Collection/github-release-assistant 模块",
+    "description": "[模块级] Ultimate-Agent-Skills-Collection 项目的 github-release-assistant 模块 (source)。来源: https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-61",
+      "github-zhanlincui",
+      "module-level",
+      "source",
+      "github-release-assistant"
+    ],
+    "genes": [
+      {
+        "title": "github-release-assistant 模块说明",
+        "content": "模块路径: github-release-assistant/\n类型: source\n文件数: 4\n\n包含文件:\n- github-release-assistant/.DS_Store\n- github-release-assistant/SKILL.md\n- github-release-assistant/assets\n- github-release-assistant/assets/readme_template_en.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "github-release-assistant 文件结构",
+        "content": "github-release-assistant/.DS_Store\ngithub-release-assistant/SKILL.md\ngithub-release-assistant/assets\ngithub-release-assistant/assets/readme_template_en.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.214131934004307
+  }
+]

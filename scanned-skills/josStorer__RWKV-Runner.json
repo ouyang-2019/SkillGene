@@ -1,0 +1,228 @@
+[
+  {
+    "name": "RWKV-Runner (josStorer)",
+    "description": "[项目级] A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use.。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "typescript",
+      "stars-6219",
+      "github-josstorer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use.\n\n来源: https://github.com/josStorer/RWKV-Runner\n语言: TypeScript\nStars: 6219",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "[![Windows][Windows-image]][Windows-url]\n[![MacOS][MacOS-image]][MacOS-url]\n[![Linux][Linux-image]][Linux-url]\n\n[FAQs](https://github.com/josStorer/RWKV-Runner/wiki/FAQs) | [Preview](#Preview) | [Download][download-url] | [Simple Deploy Example](#Simple-Deploy-Example) | [Server Deploy Examples](https://github.com/josStorer/RWKV-Runner/tree/master/deploy-examples) | [MIDI Hardware Input](#MIDI-Input)\n\n[license-image]: http://img.shields.io/badge/license-MIT-blue.svg\n\n[license-url]: https://github.com/josStorer/RWKV-Runner/blob/master/LICENSE\n\n[release-image]: https://img.shields.io/github/rele",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CURRENT_CHANGE.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nREADME_JA.md\nREADME_ZH.md\nassets\nassets/default_sound_font.sf2\nassets/sound-font\nassets/soundfont_builder.rb\nbackend-golang\nbackend-golang/app.go\nbackend-golang/cmd_interactive.go\nbackend-golang/cmd_interactive_unix.go\nbackend-golang/cmd_interactive_windows.go\nbackend-golang/download.go\nbackend-golang/file.go\nbackend-golang/hw_info.go\nbackend-golang/midi.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash\ngit clone https://github.com/josStorer/RWKV-Runner",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- RWKV model management and one-click startup.\n- Front-end and back-end separation, if you don't want to use the client, also allows for separately deploying the\n  front-end service, or the back-end inference service, or the back-end inference service with a WebUI.\n  [Simple Deploy Example](#Simple-Deploy-Example) | [Server Deploy Examples](https://github.com/josStorer/RWKV-Runner/tree/master/deploy-examples)\n- Compatible with the OpenAI API, making every ChatGPT client an RWKV client. After starting the model,\n  open http://127.0.0.1:8000/docs to view more details.\n- Automatic dependency inst",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.896860278406762
+  },
+  {
+    "name": "RWKV-Runner/assets 模块",
+    "description": "[模块级] RWKV-Runner 项目的 assets 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/default_sound_font.sf2\n- assets/sound-font\n- assets/sound-font/sound_fetch.py\n- assets/sound-font/soundfont.json\n- assets/soundfont_builder.rb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/default_sound_font.sf2\nassets/sound-font\nassets/sound-font/sound_fetch.py\nassets/sound-font/soundfont.json\nassets/soundfont_builder.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  },
+  {
+    "name": "RWKV-Runner/backend-golang 模块",
+    "description": "[模块级] RWKV-Runner 项目的 backend-golang 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "backend-golang"
+    ],
+    "genes": [
+      {
+        "title": "backend-golang 模块说明",
+        "content": "模块路径: backend-golang/\n类型: source\n文件数: 14\n\n包含文件:\n- backend-golang/app.go\n- backend-golang/cmd_interactive.go\n- backend-golang/cmd_interactive_unix.go\n- backend-golang/cmd_interactive_windows.go\n- backend-golang/download.go\n- backend-golang/file.go\n- backend-golang/hw_info.go\n- backend-golang/midi.go\n- backend-golang/rwkv.go\n- backend-golang/utils.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend-golang 文件结构",
+        "content": "backend-golang/app.go\nbackend-golang/cmd_interactive.go\nbackend-golang/cmd_interactive_unix.go\nbackend-golang/cmd_interactive_windows.go\nbackend-golang/download.go\nbackend-golang/file.go\nbackend-golang/hw_info.go\nbackend-golang/midi.go\nbackend-golang/rwkv.go\nbackend-golang/utils.go\nbackend-golang/utils_unix.go\nbackend-golang/utils_windows.go\nbackend-golang/wsl_unix.go\nbackend-golang/wsl_windows.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  },
+  {
+    "name": "RWKV-Runner/backend-python 模块",
+    "description": "[模块级] RWKV-Runner 项目的 backend-python 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "backend-python"
+    ],
+    "genes": [
+      {
+        "title": "backend-python 模块说明",
+        "content": "模块路径: backend-python/\n类型: source\n文件数: 72\n\n包含文件:\n- backend-python/convert_model.py\n- backend-python/convert_pytorch_to_ggml.py\n- backend-python/convert_safetensors.py\n- backend-python/dep_check.py\n- backend-python/get-pip.py\n- backend-python/global_var.py\n- backend-python/main.py\n- backend-python/requirements.txt\n- backend-python/requirements_without_cyac.txt\n- backend-python/routes",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend-python 文件结构",
+        "content": "backend-python/convert_model.py\nbackend-python/convert_pytorch_to_ggml.py\nbackend-python/convert_safetensors.py\nbackend-python/dep_check.py\nbackend-python/get-pip.py\nbackend-python/global_var.py\nbackend-python/main.py\nbackend-python/requirements.txt\nbackend-python/requirements_without_cyac.txt\nbackend-python/routes\nbackend-python/routes/completion.py\nbackend-python/routes/config.py\nbackend-python/routes/file_process.py\nbackend-python/routes/midi.py\nbackend-python/routes/misc.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  },
+  {
+    "name": "RWKV-Runner/backend-rust 模块",
+    "description": "[模块级] RWKV-Runner 项目的 backend-rust 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "backend-rust"
+    ],
+    "genes": [
+      {
+        "title": "backend-rust 模块说明",
+        "content": "模块路径: backend-rust/\n类型: source\n文件数: 2\n\n包含文件:\n- backend-rust/assets\n- backend-rust/assets/rwkv_vocab_v20230424.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend-rust 文件结构",
+        "content": "backend-rust/assets\nbackend-rust/assets/rwkv_vocab_v20230424.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  },
+  {
+    "name": "RWKV-Runner/deploy-examples 模块",
+    "description": "[模块级] RWKV-Runner 项目的 deploy-examples 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "deploy-examples"
+    ],
+    "genes": [
+      {
+        "title": "deploy-examples 模块说明",
+        "content": "模块路径: deploy-examples/\n类型: source\n文件数: 6\n\n包含文件:\n- deploy-examples/ChatGPT-Next-Web\n- deploy-examples/ChatGPT-Next-Web/setup.bat\n- deploy-examples/ChatGPT-Next-Web/setup.sh\n- deploy-examples/RWKV-Runner-WebUI\n- deploy-examples/RWKV-Runner-WebUI/setup.bat\n- deploy-examples/RWKV-Runner-WebUI/setup.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy-examples 文件结构",
+        "content": "deploy-examples/ChatGPT-Next-Web\ndeploy-examples/ChatGPT-Next-Web/setup.bat\ndeploy-examples/ChatGPT-Next-Web/setup.sh\ndeploy-examples/RWKV-Runner-WebUI\ndeploy-examples/RWKV-Runner-WebUI/setup.bat\ndeploy-examples/RWKV-Runner-WebUI/setup.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  },
+  {
+    "name": "RWKV-Runner/finetune 模块",
+    "description": "[模块级] RWKV-Runner 项目的 finetune 模块 (source)。来源: https://github.com/josStorer/RWKV-Runner",
+    "domain": "devops",
+    "tags": [
+      "api",
+      "api-client",
+      "chatgpt",
+      "llm",
+      "rwkv",
+      "module-level",
+      "source",
+      "finetune"
+    ],
+    "genes": [
+      {
+        "title": "finetune 模块说明",
+        "content": "![image](https://github.com/josStorer/RWKV-Runner/assets/13366013/4715045a-683e-4d2a-9b0e-090c7a5df63f)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "finetune 文件结构",
+        "content": "finetune/data\nfinetune/data/sample.jsonl\nfinetune/get_layer_and_embd.py\nfinetune/install-wsl-dep-and-train.sh\nfinetune/json2binidx_tool\nfinetune/json2binidx_tool/tools\nfinetune/json2binidx_tool/tools/indexed_dataset.py\nfinetune/json2binidx_tool/tools/preprocess_data.py\nfinetune/json2binidx_tool/tools/rwkv_tokenizer.py\nfinetune/json2binidx_tool/tools/tokenizer.py\nfinetune/lora\nfinetune/lora/merge_lora.py\nfinetune/lora/v4\nfinetune/lora/v4/cuda\nfinetune/lora/v4/cuda/wkv_cuda.cu",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.01748822272541
+  }
+]

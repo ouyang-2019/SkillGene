@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ed3d-plugins (ed3dai)",
+    "description": "[项目级] Ed's repo of Claude Code plugins, centered around a research-plan-implement workflow. Only a tiny bit cursed. If you're lucky.。来源: https://github.com/ed3dai/ed3d-plugins",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "skills",
+      "python",
+      "stars-120",
+      "github-ed3dai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ed's repo of Claude Code plugins, centered around a research-plan-implement workflow. Only a tiny bit cursed. If you're lucky.\n\n来源: https://github.com/ed3dai/ed3d-plugins\n语言: Python\nStars: 120",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nREADME.md\nplugins\nplugins/ed3d-00-getting-started\nplugins/ed3d-basic-agents\nplugins/ed3d-extending-claude\nplugins/ed3d-hook-claudemd-reminder\nplugins/ed3d-hook-skill-reinforcement\nplugins/ed3d-house-style\nplugins/ed3d-plan-and-execute\nplugins/ed3d-playwright\nplugins/ed3d-research-agents",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0395906230238126
+  },
+  {
+    "name": "ed3d-plugins/plugins 模块",
+    "description": "[模块级] ed3d-plugins 项目的 plugins 模块 (source)。来源: https://github.com/ed3dai/ed3d-plugins",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "skills",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "This is my collection of plugins that I use on a day-to-day basis for getting stuff done with Claude Code. Most of these are development-oriented in some way or another, but also often end up being useful for other things. Product design, general research, accidentally becoming my homelab sysadmin—these are a lot of what I've learned so far and what I've found helpful.\n\nThe big stick in this repository is `ed3d-plan-and-execute`, which implements an \"RPI\" (research-plan-implement) loop that I th",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ed3d-00-getting-started\nplugins/ed3d-00-getting-started/.claude-plugin\nplugins/ed3d-00-getting-started/.claude-plugin/plugin.json\nplugins/ed3d-00-getting-started/LICENSE\nplugins/ed3d-00-getting-started/commands\nplugins/ed3d-00-getting-started/commands/getting-started.md\nplugins/ed3d-basic-agents\nplugins/ed3d-basic-agents/.claude-plugin\nplugins/ed3d-basic-agents/.claude-plugin/plugin.json\nplugins/ed3d-basic-agents/LICENSE\nplugins/ed3d-basic-agents/agents\nplugins/ed3d-basic-agents/agents/haiku-general-purpose.md\nplugins/ed3d-basic-agents/agents/opus-general-purpose.md\nplugins/ed3d-basic-agents/agents/sonnet-general-purpose.md\nplugins/ed3d-basic-agents/hooks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3316724984190498
+  }
+]

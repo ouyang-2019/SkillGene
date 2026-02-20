@@ -1,0 +1,223 @@
+[
+  {
+    "name": "DemoGPT (melih-unsal)",
+    "description": "[项目级] 🤖 Everything you need to create an LLM Agent—tools, prompts, frameworks, and models—all in one place.。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "python",
+      "stars-1885",
+      "github-melih-unsal",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to DemoGPT, a revolutionary open-source initiative that is reshaping the landscape of Large Language Model (LLM) based application development.\n\nAt the heart of DemoGPT, the capabilities of GPT-3.5-turbo come to life, driving the automatic generation of LangChain code. This process is enriched with a sophisticated architecture that translates user instructions into interactive Streamlit applications.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To use DemoGPT AgentHub, simply install the main package:\n\n```bash \npip install demogpt\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/DemoGPT_banner.png\nassets/DemoGPT_banner_new.jpeg\nassets/architecture_transparent.png\nassets/banner_small.png\nassets/banner_smaller.png\nassets/demogpt_banner_white.png\nassets/demogpt_banner_white.svg\nassets/demogpt_banner_white_square.png\nassets/demogpt_new_banner.jpeg\nassets/demogpt_new_pipeline.jpeg\nassets/demogpt_new_pipeline1.jpeg\nassets/demogpt_new_version.gif\nassets/demogpt_pipeline.png\nassets/humor_machine.gif\nassets/plan_based_pipeline.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from demogpt_agenthub.tools import BaseTool\nclass MyPowerTool(BaseTool):\n    def __init__(self):\n        self.name = \"MyPowerTool\"\n        self.description = \"This tool is used to calculate the power of a number\"\n        super().__init__()\n    def run(self, a: int, b: int):\n        # Implement your tool's functionality here\n        return a**b\n\npower_tool = MyPowerTool()\nagent = ToolCallingAgent(tools=[search_tool, weather_tool, power_tool], llm=llm, verbose=True)\nagent.run(\"What is the 34 to the power of 26?\")",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.637655677270906
+  },
+  {
+    "name": "DemoGPT/assets 模块",
+    "description": "[模块级] DemoGPT 项目的 assets 模块 (source)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 18\n\n包含文件:\n- assets/DemoGPT_banner.png\n- assets/DemoGPT_banner_new.jpeg\n- assets/architecture_transparent.png\n- assets/banner_small.png\n- assets/banner_smaller.png\n- assets/demogpt_banner_white.png\n- assets/demogpt_banner_white.svg\n- assets/demogpt_banner_white_square.png\n- assets/demogpt_new_banner.jpeg\n- assets/demogpt_new_pipeline.jpeg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/DemoGPT_banner.png\nassets/DemoGPT_banner_new.jpeg\nassets/architecture_transparent.png\nassets/banner_small.png\nassets/banner_smaller.png\nassets/demogpt_banner_white.png\nassets/demogpt_banner_white.svg\nassets/demogpt_banner_white_square.png\nassets/demogpt_new_banner.jpeg\nassets/demogpt_new_pipeline.jpeg\nassets/demogpt_new_pipeline1.jpeg\nassets/demogpt_new_version.gif\nassets/demogpt_pipeline.png\nassets/humor_machine.gif\nassets/plan_based_pipeline.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "DemoGPT/demogpt 模块",
+    "description": "[模块级] DemoGPT 项目的 demogpt 模块 (source)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "source",
+      "demogpt"
+    ],
+    "genes": [
+      {
+        "title": "demogpt 模块说明",
+        "content": "DemoGPT AgentHub is a powerful library that allows you to create, customize, and use AI agents with various tools.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demogpt 文件结构",
+        "content": "demogpt/__init__.py\ndemogpt/app.py\ndemogpt/chains\ndemogpt/chains/__init__.py\ndemogpt/chains/chains.py\ndemogpt/chains/prompts\ndemogpt/chains/prompts/__init__.py\ndemogpt/chains/prompts/about.py\ndemogpt/chains/prompts/app_type.py\ndemogpt/chains/prompts/combine.py\ndemogpt/chains/prompts/combine_v2.py\ndemogpt/chains/prompts/draft.py\ndemogpt/chains/prompts/feedback.py\ndemogpt/chains/prompts/final.py\ndemogpt/chains/prompts/how_to_use.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "DemoGPT/demogpt_agenthub 模块",
+    "description": "[模块级] DemoGPT 项目的 demogpt_agenthub 模块 (source)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "source",
+      "demogpt_agenthub"
+    ],
+    "genes": [
+      {
+        "title": "demogpt_agenthub 模块说明",
+        "content": "模块路径: demogpt_agenthub/\n类型: source\n文件数: 43\n\n包含文件:\n- demogpt_agenthub/README.md\n- demogpt_agenthub/__init__.py\n- demogpt_agenthub/agents\n- demogpt_agenthub/agents/__init__.py\n- demogpt_agenthub/agents/base.py\n- demogpt_agenthub/agents/react.py\n- demogpt_agenthub/agents/tool_calling.py\n- demogpt_agenthub/apis\n- demogpt_agenthub/apis/__init__.py\n- demogpt_agenthub/llms",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demogpt_agenthub 文件结构",
+        "content": "demogpt_agenthub/README.md\ndemogpt_agenthub/__init__.py\ndemogpt_agenthub/agents\ndemogpt_agenthub/agents/__init__.py\ndemogpt_agenthub/agents/base.py\ndemogpt_agenthub/agents/react.py\ndemogpt_agenthub/agents/tool_calling.py\ndemogpt_agenthub/apis\ndemogpt_agenthub/apis/__init__.py\ndemogpt_agenthub/llms\ndemogpt_agenthub/llms/__init__.py\ndemogpt_agenthub/llms/base.py\ndemogpt_agenthub/llms/openai.py\ndemogpt_agenthub/prompts\ndemogpt_agenthub/prompts/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "DemoGPT/docs 模块",
+    "description": "[模块级] DemoGPT 项目的 docs 模块 (docs)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/README_CN.md\n- docs/ROADMAP.md\n- docs/ROADMAP_CN.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README_CN.md\ndocs/ROADMAP.md\ndocs/ROADMAP_CN.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "DemoGPT/rag_chroma 模块",
+    "description": "[模块级] DemoGPT 项目的 rag_chroma 模块 (source)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "source",
+      "rag_chroma"
+    ],
+    "genes": [
+      {
+        "title": "rag_chroma 模块说明",
+        "content": "模块路径: rag_chroma/\n类型: source\n文件数: 6\n\n包含文件:\n- rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7\n- rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/data_level0.bin\n- rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/header.bin\n- rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/length.bin\n- rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/link_lists.bin\n- rag_chroma/chroma.sqlite3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rag_chroma 文件结构",
+        "content": "rag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7\nrag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/data_level0.bin\nrag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/header.bin\nrag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/length.bin\nrag_chroma/12c93a31-bb79-46fa-a985-7ab34c742bb7/link_lists.bin\nrag_chroma/chroma.sqlite3",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "DemoGPT/tests 模块",
+    "description": "[模块级] DemoGPT 项目的 tests 模块 (test)。来源: https://github.com/melih-unsal/DemoGPT",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 3\n\n包含文件:\n- tests/__init__.py\n- tests/test_llms.py\n- tests/test_rag.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_llms.py\ntests/test_rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  }
+]

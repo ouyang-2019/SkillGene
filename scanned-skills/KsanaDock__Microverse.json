@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Microverse (KsanaDock)",
+    "description": "[项目级] A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simulation system. In this virtual world, AI characters possess independent thinking and memory, capable of autonomous social interactions, task completion, and developing complex social relationships through continuous communication.。来源: https://github.com/KsanaDock/Microverse",
+    "domain": "devops",
+    "tags": [
+      "ai-game",
+      "ai-world-simulation",
+      "godot",
+      "multi-agent",
+      "gdscript",
+      "stars-2117",
+      "github-ksanadock",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simulation system. In this virtual world, AI characters possess independent thinking and memory, capable of autonomous social interactions, task completion, and developing complex social relationships through continuous communication.\n\n来源: https://github.com/KsanaDock/Microverse\n语言: GDScript\nStars: 2117",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nIMPORT_FILES_SOLUTION.md\nLICENSE\nREADME.md\nREADME_EN.md\nasset\nasset/characters\nasset/fonts\nasset/maps\nasset/objects",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.662860429009706
+  },
+  {
+    "name": "Microverse/asset 模块",
+    "description": "[模块级] Microverse 项目的 asset 模块 (source)。来源: https://github.com/KsanaDock/Microverse",
+    "domain": "devops",
+    "tags": [
+      "ai-game",
+      "ai-world-simulation",
+      "godot",
+      "multi-agent",
+      "gdscript",
+      "module-level",
+      "source",
+      "asset"
+    ],
+    "genes": [
+      {
+        "title": "asset 模块说明",
+        "content": "模块路径: asset/\n类型: source\n文件数: 193\n\n包含文件:\n- asset/characters\n- asset/characters/body\n- asset/characters/body/Alicex32.png\n- asset/characters/body/Alicex32.png.import\n- asset/characters/body/Gracex32.png\n- asset/characters/body/Gracex32.png.import\n- asset/characters/body/Jackx32.png\n- asset/characters/body/Jackx32.png.import\n- asset/characters/body/Joex32.png\n- asset/characters/body/Joex32.png.import",
+        "gene_type": "principle"
+      },
+      {
+        "title": "asset 文件结构",
+        "content": "asset/characters\nasset/characters/body\nasset/characters/body/Alicex32.png\nasset/characters/body/Alicex32.png.import\nasset/characters/body/Gracex32.png\nasset/characters/body/Gracex32.png.import\nasset/characters/body/Jackx32.png\nasset/characters/body/Jackx32.png.import\nasset/characters/body/Joex32.png\nasset/characters/body/Joex32.png.import\nasset/characters/body/Leax32.png\nasset/characters/body/Leax32.png.import\nasset/characters/body/Monicax32.png\nasset/characters/body/Monicax32.png.import\nasset/characters/body/Stephenx32.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.830288343207765
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "SuperAGI (TransformerOptimus)",
+    "description": "[项目级] <⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.。来源: https://github.com/TransformerOptimus/SuperAGI",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "agi",
+      "ai",
+      "artificial-general-intelligence",
+      "artificial-intelligence",
+      "python",
+      "stars-17184",
+      "github-transformeroptimus",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.\n\n来源: https://github.com/TransformerOptimus/SuperAGI\n语言: Python\nStars: 17184",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can install superAGI using one of the following three approaches.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nDockerfile-gpu\nDockerfileCelery\nDockerfileRedis\nLICENSE\nREADME.MD\nalembic.ini\ncli2.py\nconfig_template.yaml\ndocker-compose-dev.yaml\ndocker-compose-gpu.yml\ndocker-compose.image.example.yaml\ndocker-compose.yaml\nentrypoint.sh\nentrypoint_celery.sh\ngui\ngui/.dockerignore\ngui/.eslintrc.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- <b>Provision, Spawn & Deploy Autonomous AI Agents</b> - Create production-ready & scalable autonomous agents.\n- <b>Extend Agent Capabilities with Toolkits</b> - Add Toolkits from our marketplace to your agent workflows.\n- <b>Graphical User Interface</b> - Access your agents through a graphical user interface.\n- <b>Action Console</b> - Interact with agents by giving them input and permissions.\n- <b>Multiple Vector DBs</b> - Connect to multiple Vector DBs to enhance your agent’s performance.\n- <b>Performance Telemetry</b> - Get insights into your agent’s performance and optimize accordingly.\n-",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "SuperAGI/gui 模块",
+    "description": "[模块级] SuperAGI 项目的 gui 模块 (source)。来源: https://github.com/TransformerOptimus/SuperAGI",
+    "domain": "web-frontend",
+    "tags": [
+      "agents",
+      "agi",
+      "ai",
+      "artificial-general-intelligence",
+      "artificial-intelligence",
+      "module-level",
+      "source",
+      "gui"
+    ],
+    "genes": [
+      {
+        "title": "gui 模块说明",
+        "content": "模块路径: gui/\n类型: source\n文件数: 168\n\n包含文件:\n- gui/.dockerignore\n- gui/.eslintrc.json\n- gui/Dockerfile\n- gui/DockerfileProd\n- gui/README.md\n- gui/app\n- gui/app/favicon.ico\n- gui/app/globals.css\n- gui/app/layout.js\n- gui/jsconfig.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gui 文件结构",
+        "content": "gui/.dockerignore\ngui/.eslintrc.json\ngui/Dockerfile\ngui/DockerfileProd\ngui/README.md\ngui/app\ngui/app/favicon.ico\ngui/app/globals.css\ngui/app/layout.js\ngui/jsconfig.json\ngui/next.config.js\ngui/package-lock.json\ngui/package.json\ngui/pages\ngui/pages/Content",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.194049705607784
+  }
+]

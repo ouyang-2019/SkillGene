@@ -1,0 +1,98 @@
+[
+  {
+    "name": "revery (thesephist)",
+    "description": "[项目级] A personal semantic search engine capable of surfacing relevant bookmarks, journal entries, notes, blogs, contacts, and more, built on an efficient document embedding algorithm and Monocle's personal search index.。来源: https://github.com/thesephist/revery",
+    "domain": "devops",
+    "tags": [
+      "browser-extension",
+      "natural-language-processing",
+      "search-engine",
+      "torus-dom",
+      "word2vec",
+      "javascript",
+      "stars-299",
+      "github-thesephist",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A personal semantic search engine capable of surfacing relevant bookmarks, journal entries, notes, blogs, contacts, and more, built on an efficient document embedding algorithm and Monocle's personal search index.\n\n来源: https://github.com/thesephist/revery\n语言: JavaScript\nStars: 299",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\ncorpus\ncorpus/.keep\nextension\nextension/Readability.js\nextension/content.js\nextension/manifest.json\nextension/torus.min.js\nextension/worker.js\ngo.mod\ngo.sum\nmain.go\nmodels.go\nmodels\nmodels/.keep\nrevery.service\nsearch.go\nstatic",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Revery, at its core, is just a single API. The API takes in some text, and crawls through my collection of personal documents and notes to find the top ones that seem most topically related to the given text. To make this interesting to use, I've wrapped it up in two different interfaces: a browser extension, and a more standard web-based search interface.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.237835594162215
+  },
+  {
+    "name": "revery/extension 模块",
+    "description": "[模块级] revery 项目的 extension 模块 (source)。来源: https://github.com/thesephist/revery",
+    "domain": "devops",
+    "tags": [
+      "browser-extension",
+      "natural-language-processing",
+      "search-engine",
+      "torus-dom",
+      "word2vec",
+      "module-level",
+      "source",
+      "extension"
+    ],
+    "genes": [
+      {
+        "title": "extension 模块说明",
+        "content": "The Revery browser extension lives inside `./extension` in this repository, and does exactly one thing: when I hit `Ctrl-Shift-L` on any webpage I'm viewing, it'll scrape the main body of text from the page (or some selected part of it, if I've highlighted something) and talk to the Revery API to find the documents that are most related to what I'm reading.\n\n![Revery's browser extension showing a list of related results](static/img/revery-extension.png)\n\nWhere Monocle, with its keyword-based sea",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extension 文件结构",
+        "content": "extension/Readability.js\nextension/content.js\nextension/manifest.json\nextension/torus.min.js\nextension/worker.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490268475329772
+  },
+  {
+    "name": "revery/static 模块",
+    "description": "[模块级] revery 项目的 static 模块 (source)。来源: https://github.com/thesephist/revery",
+    "domain": "devops",
+    "tags": [
+      "browser-extension",
+      "natural-language-processing",
+      "search-engine",
+      "torus-dom",
+      "word2vec",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 11\n\n包含文件:\n- static/css\n- static/css/main.css\n- static/img\n- static/img/revery-devices.png\n- static/img/revery-extension.png\n- static/img/revery-search-horizontal.png\n- static/img/revery-search.png\n- static/index.html\n- static/js\n- static/js/main.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/css\nstatic/css/main.css\nstatic/img\nstatic/img/revery-devices.png\nstatic/img/revery-extension.png\nstatic/img/revery-search-horizontal.png\nstatic/img/revery-search.png\nstatic/index.html\nstatic/js\nstatic/js/main.js\nstatic/js/torus.min.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.490268475329772
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-finance-mcp (BlockRunAI)",
+    "description": "[项目级] A curated list of MCP servers for AI finance agents。来源: https://github.com/BlockRunAI/awesome-finance-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "blockchain",
+      "claude",
+      "stars-10",
+      "github-blockrunai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of MCP servers for AI finance agents\n\n来源: https://github.com/BlockRunAI/awesome-finance-mcp\n语言: unknown\nStars: 10",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nREADME.md\nassets\nassets/blockrun-logo.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Name | Description | Stars |\n|------|-------------|-------|\n| [**Awesome OpenClaw Money Maker**](https://github.com/BlockRunAI/awesome-OpenClaw-Money-Maker) | 1,500+ open-source tools for AI agent income generation: trading bots, MEV, arbitrage, DeFi, prediction markets, lead gen, and more | ![GitHub stars](https://img.shields.io/github/stars/BlockRunAI/awesome-OpenClaw-Money-Maker?style=flat) |\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5
+  }
+]

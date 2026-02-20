@@ -1,0 +1,108 @@
+[
+  {
+    "name": "gptree (travisvn)",
+    "description": "[项目级] A CLI tool to provide LLM context for coding projects by combining project files into a single text file (or clipboard text) with directory tree structure.。来源: https://github.com/travisvn/gptree",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "brew",
+      "chatgpt",
+      "claude",
+      "python",
+      "stars-290",
+      "github-travisvn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A CLI tool to provide LLM context for coding projects by combining project files into a single text file (or clipboard text) with directory tree structure.\n\n来源: https://github.com/travisvn/gptree\n语言: Python\nStars: 290",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "License.txt\nREADME.md\ncli_tool_gptree\ncli_tool_gptree/__init__.py\ncli_tool_gptree/builder.py\ncli_tool_gptree/cli.py\ncli_tool_gptree/config.py\ncli_tool_gptree/interactive.py\ndemo.gif\npytest.ini\nrun_tests.py\nsetup.py\ntests\ntests/__init__.py\ntests/test_builder.py\ntests/test_cli.py\ntests/test_config.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Run `gptree` in your project directory:\n\n```bash\ngptree\n```\n\nOr run it anywhere and define the relative path to your project",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🗂 **Tree Structure**: Includes a visual directory tree of your project.\n- ✅ **Smart File Selection**: Automatically excludes ignored files using `.gitignore` and common directories like `.git`, `__pycache__`, and `.vscode`.\n- 📁 **Simple File Types**: Easy filtering by file extensions (e.g., `.py,.js`) for quick setup.\n- 🎯 **Advanced Patterns**: Optional glob patterns for complex filtering (e.g., `src/**/*.py`, `!**/tests/**`).\n- 🎛 **Interactive Mode**: Select or deselect files interactively using arrow keys, with the ability to quit immediately by pressing `ESC`.\n- 🌍 **Global Config Sup",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.231198998949478
+  },
+  {
+    "name": "gptree/cli_tool_gptree 模块",
+    "description": "[模块级] gptree 项目的 cli_tool_gptree 模块 (source)。来源: https://github.com/travisvn/gptree",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "brew",
+      "chatgpt",
+      "claude",
+      "module-level",
+      "source",
+      "cli_tool_gptree"
+    ],
+    "genes": [
+      {
+        "title": "cli_tool_gptree 模块说明",
+        "content": "模块路径: cli_tool_gptree/\n类型: source\n文件数: 5\n\n包含文件:\n- cli_tool_gptree/__init__.py\n- cli_tool_gptree/builder.py\n- cli_tool_gptree/cli.py\n- cli_tool_gptree/config.py\n- cli_tool_gptree/interactive.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli_tool_gptree 文件结构",
+        "content": "cli_tool_gptree/__init__.py\ncli_tool_gptree/builder.py\ncli_tool_gptree/cli.py\ncli_tool_gptree/config.py\ncli_tool_gptree/interactive.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  },
+  {
+    "name": "gptree/tests 模块",
+    "description": "[模块级] gptree 项目的 tests 模块 (test)。来源: https://github.com/travisvn/gptree",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "brew",
+      "chatgpt",
+      "claude",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 4\n\n包含文件:\n- tests/__init__.py\n- tests/test_builder.py\n- tests/test_cli.py\n- tests/test_config.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_builder.py\ntests/test_cli.py\ntests/test_config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4849591991595825
+  }
+]

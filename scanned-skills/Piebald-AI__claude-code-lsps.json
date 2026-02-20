@@ -1,0 +1,586 @@
+[
+  {
+    "name": "claude-code-lsps (Piebald-AI)",
+    "description": "[项目级] Claude Code Plugin Marketplace with LSP servers。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "github-piebald-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code Plugin Marketplace with LSP servers\n\n来源: https://github.com/Piebald-AI/claude-code-lsps\n语言: unknown\nStars: 254",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Install them the usual way.  First make CC aware of the marketplace:\n1. Run `claude`\n2. `/plugin marketplace add Piebald-AI/claude-code-lsps`\n\nThen enable the plugins of your choice:\n1. Run `claude`\n2. Type `/plugins`\n3. Tab to `Marketplaces`\n4. Enter the `claude-code-lsps` marketplace and choose `Browse plugins`\n5. Select the plugins you'd like with the spacebar (e.g. TypeScript, Rust)\n6. Press \"i\" to install them\n7. Restart Claude Code",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md\nbasedpyright\nbasedpyright/.lsp.json\nbasedpyright/plugin.json\nbsl-lsp\nbsl-lsp/.lsp.json\nbsl-lsp/plugin.json\nclangd\nclangd/.lsp.json\nclangd/plugin.json\ngopls\ngopls/.lsp.json\ngopls/plugin.json\njdtls\njdtls/.lsp.json\njdtls/plugin.json\njulia-lsp\njulia-lsp/.lsp.json\njulia-lsp/plugin.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "unzip bsl-language-server_nix.zip -d ~/bsl-language-server\nexport PATH=\"$HOME/bsl-language-server/bin:$PATH\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.202416858309969
+  },
+  {
+    "name": "claude-code-lsps/basedpyright 模块",
+    "description": "[模块级] claude-code-lsps 项目的 basedpyright 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "basedpyright"
+    ],
+    "genes": [
+      {
+        "title": "basedpyright 模块说明",
+        "content": "模块路径: basedpyright/\n类型: source\n文件数: 2\n\n包含文件:\n- basedpyright/.lsp.json\n- basedpyright/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "basedpyright 文件结构",
+        "content": "basedpyright/.lsp.json\nbasedpyright/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/bsl-lsp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 bsl-lsp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "bsl-lsp"
+    ],
+    "genes": [
+      {
+        "title": "bsl-lsp 模块说明",
+        "content": "模块路径: bsl-lsp/\n类型: source\n文件数: 2\n\n包含文件:\n- bsl-lsp/.lsp.json\n- bsl-lsp/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bsl-lsp 文件结构",
+        "content": "bsl-lsp/.lsp.json\nbsl-lsp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/clangd 模块",
+    "description": "[模块级] claude-code-lsps 项目的 clangd 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "clangd"
+    ],
+    "genes": [
+      {
+        "title": "clangd 模块说明",
+        "content": "```\n\n</details>\n\n<details>\n<summary>PHP (<code>phpactor</code>)</summary>\n\nInstall **Phpactor**:\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clangd 文件结构",
+        "content": "clangd/.lsp.json\nclangd/plugin.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "clangd 代码示例",
+        "content": "</details>\n\n<details>\n<summary>PHP (<code>phpactor</code>)</summary>\n\nInstall **Phpactor**:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/gopls 模块",
+    "description": "[模块级] claude-code-lsps 项目的 gopls 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "gopls"
+    ],
+    "genes": [
+      {
+        "title": "gopls 模块说明",
+        "content": "模块路径: gopls/\n类型: source\n文件数: 2\n\n包含文件:\n- gopls/.lsp.json\n- gopls/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gopls 文件结构",
+        "content": "gopls/.lsp.json\ngopls/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/jdtls 模块",
+    "description": "[模块级] claude-code-lsps 项目的 jdtls 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "jdtls"
+    ],
+    "genes": [
+      {
+        "title": "jdtls 模块说明",
+        "content": "模块路径: jdtls/\n类型: source\n文件数: 2\n\n包含文件:\n- jdtls/.lsp.json\n- jdtls/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jdtls 文件结构",
+        "content": "jdtls/.lsp.json\njdtls/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/julia-lsp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 julia-lsp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "julia-lsp"
+    ],
+    "genes": [
+      {
+        "title": "julia-lsp 模块说明",
+        "content": "模块路径: julia-lsp/\n类型: source\n文件数: 2\n\n包含文件:\n- julia-lsp/.lsp.json\n- julia-lsp/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "julia-lsp 文件结构",
+        "content": "julia-lsp/.lsp.json\njulia-lsp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/kotlin-lsp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 kotlin-lsp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "kotlin-lsp"
+    ],
+    "genes": [
+      {
+        "title": "kotlin-lsp 模块说明",
+        "content": "模块路径: kotlin-lsp/\n类型: source\n文件数: 2\n\n包含文件:\n- kotlin-lsp/.lsp.json\n- kotlin-lsp/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "kotlin-lsp 文件结构",
+        "content": "kotlin-lsp/.lsp.json\nkotlin-lsp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/ocaml-lsp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 ocaml-lsp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "ocaml-lsp"
+    ],
+    "genes": [
+      {
+        "title": "ocaml-lsp 模块说明",
+        "content": "opam install ocaml-lsp-server\n```\n\nThe plugin uses `opam exec -- ocamllsp` to run the language server, ensuring correct PATH resolution within your opam environment.\n\nSupports `.ml` (implementation), `.mli` (interface), `.mly` (Menhir parser), and `.mll` (OCamllex lexer) files.\n\n> **Note:** Make sure you have an active opam switch with OCaml installed. The language server works best when run from a project directory with a proper `dune` build setup.\n\n</details>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ocaml-lsp 文件结构",
+        "content": "ocaml-lsp/.lsp.json\nocaml-lsp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/omnisharp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 omnisharp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "omnisharp"
+    ],
+    "genes": [
+      {
+        "title": "omnisharp 模块说明",
+        "content": "模块路径: omnisharp/\n类型: source\n文件数: 2\n\n包含文件:\n- omnisharp/.lsp.json\n- omnisharp/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "omnisharp 文件结构",
+        "content": "omnisharp/.lsp.json\nomnisharp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/phpactor 模块",
+    "description": "[模块级] claude-code-lsps 项目的 phpactor 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "phpactor"
+    ],
+    "genes": [
+      {
+        "title": "phpactor 模块说明",
+        "content": "模块路径: phpactor/\n类型: source\n文件数: 2\n\n包含文件:\n- phpactor/.lsp.json\n- phpactor/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "phpactor 文件结构",
+        "content": "phpactor/.lsp.json\nphpactor/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/powershell-editor-services 模块",
+    "description": "[模块级] claude-code-lsps 项目的 powershell-editor-services 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "powershell-editor-services"
+    ],
+    "genes": [
+      {
+        "title": "powershell-editor-services 模块说明",
+        "content": "模块路径: powershell-editor-services/\n类型: source\n文件数: 2\n\n包含文件:\n- powershell-editor-services/.lsp.json\n- powershell-editor-services/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "powershell-editor-services 文件结构",
+        "content": "powershell-editor-services/.lsp.json\npowershell-editor-services/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/pyright 模块",
+    "description": "[模块级] claude-code-lsps 项目的 pyright 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "pyright"
+    ],
+    "genes": [
+      {
+        "title": "pyright 模块说明",
+        "content": "模块路径: pyright/\n类型: source\n文件数: 2\n\n包含文件:\n- pyright/.lsp.json\n- pyright/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pyright 文件结构",
+        "content": "pyright/.lsp.json\npyright/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/ruby-lsp 模块",
+    "description": "[模块级] claude-code-lsps 项目的 ruby-lsp 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "ruby-lsp"
+    ],
+    "genes": [
+      {
+        "title": "ruby-lsp 模块说明",
+        "content": "模块路径: ruby-lsp/\n类型: source\n文件数: 2\n\n包含文件:\n- ruby-lsp/.lsp.json\n- ruby-lsp/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ruby-lsp 文件结构",
+        "content": "ruby-lsp/.lsp.json\nruby-lsp/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/rust-analyzer 模块",
+    "description": "[模块级] claude-code-lsps 项目的 rust-analyzer 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "rust-analyzer"
+    ],
+    "genes": [
+      {
+        "title": "rust-analyzer 模块说明",
+        "content": "模块路径: rust-analyzer/\n类型: source\n文件数: 2\n\n包含文件:\n- rust-analyzer/.lsp.json\n- rust-analyzer/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rust-analyzer 文件结构",
+        "content": "rust-analyzer/.lsp.json\nrust-analyzer/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/texlab 模块",
+    "description": "[模块级] claude-code-lsps 项目的 texlab 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "texlab"
+    ],
+    "genes": [
+      {
+        "title": "texlab 模块说明",
+        "content": "模块路径: texlab/\n类型: source\n文件数: 2\n\n包含文件:\n- texlab/.lsp.json\n- texlab/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "texlab 文件结构",
+        "content": "texlab/.lsp.json\ntexlab/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/vscode-langservers 模块",
+    "description": "[模块级] claude-code-lsps 项目的 vscode-langservers 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "vscode-langservers"
+    ],
+    "genes": [
+      {
+        "title": "vscode-langservers 模块说明",
+        "content": "模块路径: vscode-langservers/\n类型: source\n文件数: 2\n\n包含文件:\n- vscode-langservers/.lsp.json\n- vscode-langservers/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vscode-langservers 文件结构",
+        "content": "vscode-langservers/.lsp.json\nvscode-langservers/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/vtsls 模块",
+    "description": "[模块级] claude-code-lsps 项目的 vtsls 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "vtsls"
+    ],
+    "genes": [
+      {
+        "title": "vtsls 模块说明",
+        "content": "模块路径: vtsls/\n类型: source\n文件数: 2\n\n包含文件:\n- vtsls/.lsp.json\n- vtsls/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vtsls 文件结构",
+        "content": "vtsls/.lsp.json\nvtsls/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "claude-code-lsps/vue-volar 模块",
+    "description": "[模块级] claude-code-lsps 项目的 vue-volar 模块 (source)。来源: https://github.com/Piebald-AI/claude-code-lsps",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "lsp",
+      "lsp-server",
+      "tweakcc",
+      "stars-254",
+      "module-level",
+      "source",
+      "vue-volar"
+    ],
+    "genes": [
+      {
+        "title": "vue-volar 模块说明",
+        "content": "模块路径: vue-volar/\n类型: source\n文件数: 2\n\n包含文件:\n- vue-volar/.lsp.json\n- vue-volar/plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vue-volar 文件结构",
+        "content": "vue-volar/.lsp.json\nvue-volar/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  }
+]

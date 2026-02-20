@@ -1,0 +1,68 @@
+[
+  {
+    "name": "openbrowser (ntegrals)",
+    "description": "[项目级] Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.。来源: https://github.com/ntegrals/openbrowser",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "claude",
+      "playwright",
+      "puppeteer",
+      "typescript",
+      "stars-8921",
+      "github-ntegrals",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.\n\n来源: https://github.com/ntegrals/openbrowser\n语言: TypeScript\nStars: 8921",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbiome.json\nbun.lock\nbunfig.toml\nmedia\nmedia/header.png\npackage.json\npackages\npackages/cli\npackages/core\npackages/sandbox\ntsconfig.base.json\ntsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.97520676968469
+  },
+  {
+    "name": "openbrowser/packages 模块",
+    "description": "[模块级] openbrowser 项目的 packages 模块 (source)。来源: https://github.com/ntegrals/openbrowser",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "claude",
+      "playwright",
+      "puppeteer",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 132\n\n包含文件:\n- packages/cli\n- packages/cli/package.json\n- packages/cli/src\n- packages/cli/src/commands\n- packages/cli/src/commands/click.ts\n- packages/cli/src/commands/eval.ts\n- packages/cli/src/commands/extract.ts\n- packages/cli/src/commands/interactive.ts\n- packages/cli/src/commands/open.ts\n- packages/cli/src/commands/run.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/cli\npackages/cli/package.json\npackages/cli/src\npackages/cli/src/commands\npackages/cli/src/commands/click.ts\npackages/cli/src/commands/eval.ts\npackages/cli/src/commands/extract.ts\npackages/cli/src/commands/interactive.ts\npackages/cli/src/commands/open.ts\npackages/cli/src/commands/run.ts\npackages/cli/src/commands/screenshot.ts\npackages/cli/src/commands/sessions.ts\npackages/cli/src/commands/state.ts\npackages/cli/src/commands/type.ts\npackages/cli/src/display.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.080165415747753
+  }
+]

@@ -5,14 +5,14 @@
     "domain": "devops",
     "tags": [
       "python",
-      "stars-3633",
+      "stars-3635",
       "github-pleaseprompto",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.\n\n来源: https://github.com/PleasePrompto/notebooklm-skill\n语言: Python\nStars: 3633",
+        "content": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.\n\n来源: https://github.com/PleasePrompto/notebooklm-skill\n语言: Python\nStars: 3635",
         "gene_type": "principle"
       },
       {
@@ -38,7 +38,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.780132698931357
+    "rating": 4.7802522075975284
   },
   {
     "name": "notebooklm-skill/references 模块",
@@ -46,7 +46,7 @@
     "domain": "devops",
     "tags": [
       "python",
-      "stars-3633",
+      "stars-3635",
       "github-pleaseprompto",
       "module-level",
       "source",
@@ -66,7 +66,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.9241061591450856
+    "rating": 3.9242017660780224
   },
   {
     "name": "notebooklm-skill/scripts 模块",
@@ -74,7 +74,7 @@
     "domain": "devops",
     "tags": [
       "python",
-      "stars-3633",
+      "stars-3635",
       "github-pleaseprompto",
       "module-level",
       "script",
@@ -94,6 +94,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.9241061591450856
+    "rating": 3.9242017660780224
   }
 ]

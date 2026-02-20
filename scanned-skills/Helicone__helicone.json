@@ -1,0 +1,68 @@
+[
+  {
+    "name": "helicone (Helicone)",
+    "description": "[项目级] 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓。来源: https://github.com/Helicone/helicone",
+    "domain": "devops",
+    "tags": [
+      "agent-monitoring",
+      "analytics",
+      "evaluation",
+      "gpt",
+      "langchain",
+      "typescript",
+      "stars-5123",
+      "github-helicone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓\n\n来源: https://github.com/Helicone/helicone\n语言: TypeScript\nStars: 5123",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "import OpenAI from \"openai\";\n\n   const client = new OpenAI({\n     baseURL: \"https://ai-gateway.helicone.ai\",\n     apiKey: process.env.HELICONE_API_KEY,\n   });\n\n   const response = await client.chat.completions.create({\n     model: \"gpt-4o-mini\",  // claude-sonnet-4, gemini-2.0-flash or any model from https://www.helicone.ai/models\n     messages: [{ role: \"user\", content: \"Hello!\" }]\n   });",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING_GUIDELINES.md\nDEVELOPER_README.md\nDIAGRAMS.md\nDockerfile\nFULL_AGENT_LOOP.md\nINTEGRATE_PROVIDER_TO_GATEWAY.md\nLICENSE\nREADME.md\nbifrost\nbifrost/.eslintrc.json\nbifrost/.gitignore\nbifrost/README.md\nbifrost/app",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.85476217793817
+  },
+  {
+    "name": "helicone/bifrost 模块",
+    "description": "[模块级] helicone 项目的 bifrost 模块 (source)。来源: https://github.com/Helicone/helicone",
+    "domain": "devops",
+    "tags": [
+      "agent-monitoring",
+      "analytics",
+      "evaluation",
+      "gpt",
+      "langchain",
+      "module-level",
+      "source",
+      "bifrost"
+    ],
+    "genes": [
+      {
+        "title": "bifrost 模块说明",
+        "content": "模块路径: bifrost/\n类型: source\n文件数: 134\n\n包含文件:\n- bifrost/.eslintrc.json\n- bifrost/.gitignore\n- bifrost/README.md\n- bifrost/app\n- bifrost/app/PostHogPageView.tsx\n- bifrost/app/about\n- bifrost/app/about/layout.tsx\n- bifrost/app/about/page.tsx\n- bifrost/app/agent-course\n- bifrost/app/agent-course/AgentCourseForm.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bifrost 文件结构",
+        "content": "bifrost/.eslintrc.json\nbifrost/.gitignore\nbifrost/README.md\nbifrost/app\nbifrost/app/PostHogPageView.tsx\nbifrost/app/about\nbifrost/app/about/layout.tsx\nbifrost/app/about/page.tsx\nbifrost/app/agent-course\nbifrost/app/agent-course/AgentCourseForm.tsx\nbifrost/app/agent-course/page.tsx\nbifrost/app/api\nbifrost/app/api/agent-course-signup\nbifrost/app/api/agent-course-signup/route.ts\nbifrost/app/api/llm-costs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9838097423505365
+  }
+]

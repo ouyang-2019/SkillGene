@@ -1,0 +1,163 @@
+[
+  {
+    "name": "relevanceai (RelevanceAI)",
+    "description": "[项目级] Home of the AI workforce - Multi-agent system, AI agents & tools。来源: https://github.com/RelevanceAI/relevanceai",
+    "domain": "ai-llm",
+    "tags": [
+      "clustering",
+      "computer-vision",
+      "embeddings",
+      "natural-language-processing",
+      "nlp",
+      "python",
+      "stars-273",
+      "github-relevanceai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Home of the AI workforce - Multi-agent system, AI agents & tools\n\n来源: https://github.com/RelevanceAI/relevanceai\n语言: Python\nStars: 273",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install relevanceai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/images\nexamples\nexamples/.env.example\nexamples/__init__.py\nexamples/approve_tasks_in_bulk.py\nexamples/get_api_definition.py\nexamples/mass_approve_tasks.py\nexamples/nb_00_intro_gmail_manager.ipynb\nexamples/rerun_pending_tasks.py\nexamples/trigger_and_poll_tasks.py\nexamples/trigger_templated_tasks.py\nrelevanceai\nrelevanceai/__init__.py\nrelevanceai/_base_client.py\nrelevanceai/_client.py\nrelevanceai/_resource.py\nrelevanceai/resources",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Retrieve and interact with a specific agent:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.218081323520378
+  },
+  {
+    "name": "relevanceai/assets 模块",
+    "description": "[模块级] relevanceai 项目的 assets 模块 (source)。来源: https://github.com/RelevanceAI/relevanceai",
+    "domain": "ai-llm",
+    "tags": [
+      "clustering",
+      "computer-vision",
+      "embeddings",
+      "natural-language-processing",
+      "nlp",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 6\n\n包含文件:\n- assets/images\n- assets/images/api_key.png\n- assets/images/core_instructions.png\n- assets/images/gmail_manager_agent.png\n- assets/images/gmail_trigger.png\n- assets/images/integration.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/images\nassets/images/api_key.png\nassets/images/core_instructions.png\nassets/images/gmail_manager_agent.png\nassets/images/gmail_trigger.png\nassets/images/integration.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4744650588163024
+  },
+  {
+    "name": "relevanceai/examples 模块",
+    "description": "[模块级] relevanceai 项目的 examples 模块 (example)。来源: https://github.com/RelevanceAI/relevanceai",
+    "domain": "ai-llm",
+    "tags": [
+      "clustering",
+      "computer-vision",
+      "embeddings",
+      "natural-language-processing",
+      "nlp",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 9\n\n包含文件:\n- examples/.env.example\n- examples/__init__.py\n- examples/approve_tasks_in_bulk.py\n- examples/get_api_definition.py\n- examples/mass_approve_tasks.py\n- examples/nb_00_intro_gmail_manager.ipynb\n- examples/rerun_pending_tasks.py\n- examples/trigger_and_poll_tasks.py\n- examples/trigger_templated_tasks.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/.env.example\nexamples/__init__.py\nexamples/approve_tasks_in_bulk.py\nexamples/get_api_definition.py\nexamples/mass_approve_tasks.py\nexamples/nb_00_intro_gmail_manager.ipynb\nexamples/rerun_pending_tasks.py\nexamples/trigger_and_poll_tasks.py\nexamples/trigger_templated_tasks.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4744650588163024
+  },
+  {
+    "name": "relevanceai/relevanceai 模块",
+    "description": "[模块级] relevanceai 项目的 relevanceai 模块 (source)。来源: https://github.com/RelevanceAI/relevanceai",
+    "domain": "ai-llm",
+    "tags": [
+      "clustering",
+      "computer-vision",
+      "embeddings",
+      "natural-language-processing",
+      "nlp",
+      "module-level",
+      "source",
+      "relevanceai"
+    ],
+    "genes": [
+      {
+        "title": "relevanceai 模块说明",
+        "content": "模块路径: relevanceai/\n类型: source\n文件数: 22\n\n包含文件:\n- relevanceai/__init__.py\n- relevanceai/_base_client.py\n- relevanceai/_client.py\n- relevanceai/_resource.py\n- relevanceai/resources\n- relevanceai/resources/__init__.py\n- relevanceai/resources/agent.py\n- relevanceai/resources/agents.py\n- relevanceai/resources/knowledge.py\n- relevanceai/resources/oauth.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "relevanceai 文件结构",
+        "content": "relevanceai/__init__.py\nrelevanceai/_base_client.py\nrelevanceai/_client.py\nrelevanceai/_resource.py\nrelevanceai/resources\nrelevanceai/resources/__init__.py\nrelevanceai/resources/agent.py\nrelevanceai/resources/agents.py\nrelevanceai/resources/knowledge.py\nrelevanceai/resources/oauth.py\nrelevanceai/resources/tasks.py\nrelevanceai/resources/tool.py\nrelevanceai/resources/tools.py\nrelevanceai/types\nrelevanceai/types/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4744650588163024
+  },
+  {
+    "name": "relevanceai/tests 模块",
+    "description": "[模块级] relevanceai 项目的 tests 模块 (test)。来源: https://github.com/RelevanceAI/relevanceai",
+    "domain": "testing",
+    "tags": [
+      "clustering",
+      "computer-vision",
+      "embeddings",
+      "natural-language-processing",
+      "nlp",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/__init__.py\n- tests/resources\n- tests/resources/__init__.py\n- tests/resources/test_agent.py\n- tests/resources/test_agents.py\n- tests/resources/test_tasks.py\n- tests/resources/test_tool.py\n- tests/resources/test_tools.py\n- tests/test_client.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/resources\ntests/resources/__init__.py\ntests/resources/test_agent.py\ntests/resources/test_agents.py\ntests/resources/test_tasks.py\ntests/resources/test_tool.py\ntests/resources/test_tools.py\ntests/test_client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4744650588163024
+  }
+]

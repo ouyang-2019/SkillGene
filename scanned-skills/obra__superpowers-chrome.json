@@ -1,0 +1,99 @@
+[
+  {
+    "name": "superpowers-chrome (obra)",
+    "description": "[项目级] Claude Code plugin for direct Chrome browser control via DevTools Protocol - zero dependencies。来源: https://github.com/obra/superpowers-chrome",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-181",
+      "github-obra",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code plugin for direct Chrome browser control via DevTools Protocol - zero dependencies\n\n来源: https://github.com/obra/superpowers-chrome\n语言: JavaScript\nStars: 181",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add obra/superpowers-marketplace\n/plugin install superpowers-chrome@superpowers-marketplace",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nagents\nagents/browser-user.md\ndocs\ndocs/TESTING-INSTRUCTIONS.md\nmcp\nmcp/.gitignore\nmcp/CHANGELOG.md\nmcp/README.md\nmcp/dist\nmcp/package-lock.json\nmcp/package.json\nmcp/src\nmcp/tsconfig.json\npackage.json\nskills\nskills/browsing",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "{\n  \"action\": \"navigate\",\n  \"payload\": \"https://example.com\"\n}",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Zero dependencies** - Built-in WebSocket, no npm install needed\n- **Idiotproof API** - Tab index syntax (`0`, `1`, `2`) instead of WebSocket URLs\n- **Platform-agnostic** - `chrome-ws start` works on macOS, Linux, Windows\n- **17 commands** covering all browser automation needs\n- **Complete documentation** with real-world examples",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.128839287434593
+  },
+  {
+    "name": "superpowers-chrome/mcp 模块",
+    "description": "[模块级] superpowers-chrome 项目的 mcp 模块 (source)。来源: https://github.com/obra/superpowers-chrome",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-181",
+      "github-obra",
+      "module-level",
+      "source",
+      "mcp"
+    ],
+    "genes": [
+      {
+        "title": "mcp 模块说明",
+        "content": "Ultra-lightweight MCP server with a single `use_browser` tool. Perfect for minimal context usage with automatic page captures.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp 文件结构",
+        "content": "mcp/.gitignore\nmcp/CHANGELOG.md\nmcp/README.md\nmcp/dist\nmcp/dist/index.d.ts\nmcp/dist/index.d.ts.map\nmcp/dist/index.js\nmcp/dist/index.js.map\nmcp/package-lock.json\nmcp/package.json\nmcp/src\nmcp/src/index.ts\nmcp/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4030714299476736
+  },
+  {
+    "name": "superpowers-chrome/skills 模块",
+    "description": "[模块级] superpowers-chrome 项目的 skills 模块 (source)。来源: https://github.com/obra/superpowers-chrome",
+    "domain": "devops",
+    "tags": [
+      "javascript",
+      "stars-181",
+      "github-obra",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 18\n\n包含文件:\n- skills/browsing\n- skills/browsing/.gitignore\n- skills/browsing/COMMANDLINE-USAGE.md\n- skills/browsing/EXAMPLES.md\n- skills/browsing/README.md\n- skills/browsing/SKILL.md\n- skills/browsing/chrome-ws\n- skills/browsing/chrome-ws-lib.js\n- skills/browsing/host-override.js\n- skills/browsing/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/browsing\nskills/browsing/.gitignore\nskills/browsing/COMMANDLINE-USAGE.md\nskills/browsing/EXAMPLES.md\nskills/browsing/README.md\nskills/browsing/SKILL.md\nskills/browsing/chrome-ws\nskills/browsing/chrome-ws-lib.js\nskills/browsing/host-override.js\nskills/browsing/package.json\nskills/browsing/test-e2e.sh\nskills/browsing/test-extract.sh\nskills/browsing/test-host-override.js\nskills/browsing/test-interact.sh\nskills/browsing/test-navigate.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4030714299476736
+  }
+]

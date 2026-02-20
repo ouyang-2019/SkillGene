@@ -1,0 +1,98 @@
+[
+  {
+    "name": "nextpy (dot-agent)",
+    "description": "[项目级] 🤖Self-Modifying Framework from the Future 🔮 World's First AMS。来源: https://github.com/dot-agent/nextpy",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "ai-agents",
+      "autogpt",
+      "python",
+      "stars-2334",
+      "github-dot-agent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖Self-Modifying Framework from the Future 🔮 World's First AMS\n\n来源: https://github.com/dot-agent/nextpy\n语言: Python\nStars: 2334",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "  .devcontainer\n  .devcontainer/devcontainer.json\nLICENSE\nMANIFESTO.md\nREADME.md\nai-notebooks\nai-notebooks/.gitignore\nai-notebooks/agent_cli.py\nai-notebooks/agentbox.ipynb\nai-notebooks/autoscrum\nai-notebooks/chainlit\nai-notebooks/giftshop\nai-notebooks/prd_agent\nai-notebooks/salesGPT\nai-notebooks/streamlit\nai-notebooks/test_autoscrum.ipynb\nai-notebooks/test_chain_of_thought.ipynb\nai-notebooks/test_direct_llm.ipynb\nai-notebooks/test_prd.ipynb\nai-notebooks/test_salesgpt.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.684050425854676
+  },
+  {
+    "name": "nextpy/ai-notebooks 模块",
+    "description": "[模块级] nextpy 项目的 ai-notebooks 模块 (source)。来源: https://github.com/dot-agent/nextpy",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "ai-agents",
+      "autogpt",
+      "module-level",
+      "source",
+      "ai-notebooks"
+    ],
+    "genes": [
+      {
+        "title": "ai-notebooks 模块说明",
+        "content": "模块路径: ai-notebooks/\n类型: source\n文件数: 55\n\n包含文件:\n- ai-notebooks/.gitignore\n- ai-notebooks/agent_cli.py\n- ai-notebooks/agentbox.ipynb\n- ai-notebooks/autoscrum\n- ai-notebooks/autoscrum/__init__.py\n- ai-notebooks/autoscrum/__main__.py\n- ai-notebooks/autoscrum/autoscrum.py\n- ai-notebooks/autoscrum/data\n- ai-notebooks/autoscrum/data/acceptance.hbs\n- ai-notebooks/autoscrum/data/clarifier.hbs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-notebooks 文件结构",
+        "content": "ai-notebooks/.gitignore\nai-notebooks/agent_cli.py\nai-notebooks/agentbox.ipynb\nai-notebooks/autoscrum\nai-notebooks/autoscrum/__init__.py\nai-notebooks/autoscrum/__main__.py\nai-notebooks/autoscrum/autoscrum.py\nai-notebooks/autoscrum/data\nai-notebooks/autoscrum/data/acceptance.hbs\nai-notebooks/autoscrum/data/clarifier.hbs\nai-notebooks/autoscrum/data/featurizer.hbs\nai-notebooks/autoscrum/data/goalmaker.hbs\nai-notebooks/autoscrum/data/planner.hbs\nai-notebooks/autoscrum/data/requalizer.hbs\nai-notebooks/autoscrum/data/storylizer.hbs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.847240340683741
+  },
+  {
+    "name": "nextpy/app-examples 模块",
+    "description": "[模块级] nextpy 项目的 app-examples 模块 (source)。来源: https://github.com/dot-agent/nextpy",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "ai-agents",
+      "autogpt",
+      "module-level",
+      "source",
+      "app-examples"
+    ],
+    "genes": [
+      {
+        "title": "app-examples 模块说明",
+        "content": "模块路径: app-examples/\n类型: source\n文件数: 125\n\n包含文件:\n- app-examples/center-aligned-portfolio\n- app-examples/center-aligned-portfolio/.gitignore\n- app-examples/center-aligned-portfolio/README.md\n- app-examples/center-aligned-portfolio/assets\n- app-examples/center-aligned-portfolio/assets/girl.png\n- app-examples/center-aligned-portfolio/assets/quotes.png\n- app-examples/center-aligned-portfolio/assets/semicircle.svg\n- app-examples/center-aligned-portfolio/portfolio\n- app-examples/center-aligned-portfolio/portfolio/__init__.py\n- app-examples/center-aligned-portfolio/portfolio/portfolio.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app-examples 文件结构",
+        "content": "app-examples/center-aligned-portfolio\napp-examples/center-aligned-portfolio/.gitignore\napp-examples/center-aligned-portfolio/README.md\napp-examples/center-aligned-portfolio/assets\napp-examples/center-aligned-portfolio/assets/girl.png\napp-examples/center-aligned-portfolio/assets/quotes.png\napp-examples/center-aligned-portfolio/assets/semicircle.svg\napp-examples/center-aligned-portfolio/portfolio\napp-examples/center-aligned-portfolio/portfolio/__init__.py\napp-examples/center-aligned-portfolio/portfolio/portfolio.py\napp-examples/center-aligned-portfolio/portfolio/state.py\napp-examples/center-aligned-portfolio/portfolio/styles.py\napp-examples/center-aligned-portfolio/requirements.txt\napp-examples/center-aligned-portfolio/xtconfig.py\napp-examples/charting-examples",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.847240340683741
+  }
+]

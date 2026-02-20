@@ -1,0 +1,78 @@
+[
+  {
+    "name": "chromem-go (philippgille)",
+    "description": "[项目级] Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.。来源: https://github.com/philippgille/chromem-go",
+    "domain": "devops",
+    "tags": [
+      "chroma",
+      "chromadb",
+      "cosine-similarity",
+      "embedded",
+      "embeddings",
+      "go",
+      "stars-866",
+      "github-philippgille",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.\n\n来源: https://github.com/philippgille/chromem-go\n语言: Go\nStars: 866",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "client = chromadb.Client()",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\ncollection.go\ncollection_test.go\ndb.go\ndb_test.go\ndocument.go\ndocument_test.go\nembed_cohere.go\nembed_compat.go\nembed_ollama.go\nembed_ollama_test.go\nembed_openai.go\nembed_openai_test.go\nembed_vertex.go\nexamples\nexamples/README.md\nexamples/minimal\nexamples/rag-wikipedia-ollama",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "See the Godoc for a reference: <https://pkg.go.dev/github.com/philippgille/chromem-go>\n\nFor full, working examples, using the vector database for retrieval augmented generation (RAG) and semantic search and using either OpenAI or locally running the embeddings model and LLM (in Ollama), see the [example code](examples).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [X] Zero dependencies on third party libraries\n- [X] Embeddable (like SQLite, i.e. no client-server model, no separate DB to maintain)\n- [X] Multithreaded processing (when adding and querying documents), making use of Go's native concurrency features\n- [X] Experimental WebAssembly binding\n- Embedding creators:\n  - Hosted:\n    - [X] [OpenAI](https://platform.openai.com/docs/guides/embeddings/embedding-models) (default)\n    - [X] [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/embeddings)\n    - [X] [GCP Vertex AI](https://cloud.google.com/vertex-ai/generative-a",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.468758946008673
+  },
+  {
+    "name": "chromem-go/examples 模块",
+    "description": "[模块级] chromem-go 项目的 examples 模块 (example)。来源: https://github.com/philippgille/chromem-go",
+    "domain": "devops",
+    "tags": [
+      "chroma",
+      "chromadb",
+      "cosine-similarity",
+      "embedded",
+      "embeddings",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 26\n\n包含文件:\n- examples/README.md\n- examples/minimal\n- examples/minimal/README.md\n- examples/minimal/go.mod\n- examples/minimal/main.go\n- examples/rag-wikipedia-ollama\n- examples/rag-wikipedia-ollama/.gitignore\n- examples/rag-wikipedia-ollama/README.md\n- examples/rag-wikipedia-ollama/dbpedia_sample.jsonl\n- examples/rag-wikipedia-ollama/go.mod",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/minimal\nexamples/minimal/README.md\nexamples/minimal/go.mod\nexamples/minimal/main.go\nexamples/rag-wikipedia-ollama\nexamples/rag-wikipedia-ollama/.gitignore\nexamples/rag-wikipedia-ollama/README.md\nexamples/rag-wikipedia-ollama/dbpedia_sample.jsonl\nexamples/rag-wikipedia-ollama/go.mod\nexamples/rag-wikipedia-ollama/go.sum\nexamples/rag-wikipedia-ollama/llm.go\nexamples/rag-wikipedia-ollama/main.go\nexamples/s3-export-import\nexamples/s3-export-import/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.675007156806939
+  }
+]

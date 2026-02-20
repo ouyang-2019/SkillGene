@@ -1,0 +1,128 @@
+[
+  {
+    "name": "total-recall (davegoldblatt)",
+    "description": "[项目级] Persistent memory plugin for Claude Code. Tiered memory system with write gates, correction propagation, and slash commands.。来源: https://github.com/davegoldblatt/total-recall",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "context-management",
+      "llm",
+      "shell",
+      "stars-175",
+      "github-davegoldblatt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Persistent memory plugin for Claude Code. Tiered memory system with write gates, correction propagation, and slash commands.\n\n来源: https://github.com/davegoldblatt/total-recall\n语言: Shell\nStars: 175",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md\ndocs-architecture.md\ndocs-spec.md\nhooks\nhooks/hooks.json\nhooks/pre-compact.sh\nhooks/session-start.sh\ninstall.sh\nrules\nrules/total-recall.md\nskills\nskills/recall-context\nskills/recall-forget\nskills/recall-init-ids\nskills/recall-init\nskills/recall-log\nskills/recall-maintain\nskills/recall-promote\nskills/recall-search",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.121519024343147
+  },
+  {
+    "name": "total-recall/hooks 模块",
+    "description": "[模块级] total-recall 项目的 hooks 模块 (source)。来源: https://github.com/davegoldblatt/total-recall",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "context-management",
+      "llm",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "Two things happen automatically in the background:\n\n**When a session starts:** Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.\n\n**Before memory gets compacted:** A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.\n\nBoth hooks fail safely. If something goes wrong, they don't block Claude Code from working.\n\nHooks use `$CLAUDE_PROJECT_DIR` (standalone) or `",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/hooks.json\nhooks/pre-compact.sh\nhooks/session-start.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  },
+  {
+    "name": "total-recall/skills 模块",
+    "description": "[模块级] total-recall 项目的 skills 模块 (source)。来源: https://github.com/davegoldblatt/total-recall",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "context-management",
+      "llm",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 20\n\n包含文件:\n- skills/recall-context\n- skills/recall-context/SKILL.md\n- skills/recall-forget\n- skills/recall-forget/SKILL.md\n- skills/recall-init-ids\n- skills/recall-init-ids/SKILL.md\n- skills/recall-init\n- skills/recall-init/SKILL.md\n- skills/recall-log\n- skills/recall-log/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/recall-context\nskills/recall-context/SKILL.md\nskills/recall-forget\nskills/recall-forget/SKILL.md\nskills/recall-init-ids\nskills/recall-init-ids/SKILL.md\nskills/recall-init\nskills/recall-init/SKILL.md\nskills/recall-log\nskills/recall-log/SKILL.md\nskills/recall-maintain\nskills/recall-maintain/SKILL.md\nskills/recall-promote\nskills/recall-promote/SKILL.md\nskills/recall-search",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  },
+  {
+    "name": "total-recall/templates 模块",
+    "description": "[模块级] total-recall 项目的 templates 模块 (source)。来源: https://github.com/davegoldblatt/total-recall",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "context-management",
+      "llm",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 10\n\n包含文件:\n- templates/CLAUDE.local.md\n- templates/SCHEMA.md\n- templates/registers\n- templates/registers/_index.md\n- templates/registers/decisions.md\n- templates/registers/open-loops.md\n- templates/registers/people.md\n- templates/registers/preferences.md\n- templates/registers/projects.md\n- templates/registers/tech-stack.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/CLAUDE.local.md\ntemplates/SCHEMA.md\ntemplates/registers\ntemplates/registers/_index.md\ntemplates/registers/decisions.md\ntemplates/registers/open-loops.md\ntemplates/registers/people.md\ntemplates/registers/preferences.md\ntemplates/registers/projects.md\ntemplates/registers/tech-stack.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  }
+]

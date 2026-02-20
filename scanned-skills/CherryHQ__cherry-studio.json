@@ -1,0 +1,108 @@
+[
+  {
+    "name": "cherry-studio (CherryHQ)",
+    "description": "[项目级] AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs。来源: https://github.com/CherryHQ/cherry-studio",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "code-agent",
+      "codex",
+      "openclaw",
+      "typescript",
+      "stars-39971",
+      "github-cherryhq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs\n\n来源: https://github.com/CherryHQ/cherry-studio\n语言: TypeScript\nStars: 39971",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Fork the Repository**: Fork and clone it to your local machine.\n2. **Create a Branch**: For your changes.\n3. **Submit Changes**: Commit and push your changes.\n4. **Open a Pull Request**: Describe your changes and reasons.\n\nFor more detailed guidelines, please refer to our [Contributing Guide](CONTRIBUTING.md).\n\nThank you for your support and contributions!",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\napp-upgrade-config.json\nbiome.jsonc\nbuild\nbuild/entitlements.mac.plist\nbuild/icon.icns\nbuild/icon.ico\nbuild/icon.png\nbuild/icons\nbuild/logo.png\nbuild/nsis-installer.nsh\nbuild/tray_icon.png\nbuild/tray_icon_dark.png\nbuild/tray_icon_light.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "We look forward to your first Pull Request!\n\nYou can start by exploring our repositories, picking up a `good first issue`, or proposing your own enhancements. Every commit is a testament to the spirit of open source.\n\nThank you for your interest and contributions.\n\nLet's build together.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **Diverse LLM Provider Support**:\n\n- ☁️ Major LLM Cloud Services: OpenAI, Gemini, Anthropic, and more\n- 🔗 AI Web Service Integration: Claude, Perplexity, [Poe](https://poe.com/), and others\n- 💻 Local Model Support with Ollama, LM Studio\n\n2. **AI Assistants & Conversations**:\n\n- 📚 300+ Pre-configured AI Assistants\n- 🤖 Custom Assistant Creation\n- 💬 Multi-model Simultaneous Conversations\n\n3. **Document & Data Processing**:\n\n- 📄 Supports Text, Images, Office, PDF, and more\n- ☁️ WebDAV File Management and Backup\n- 📊 Mermaid Chart Visualization\n- 💻 Code Syntax Highlighting\n\n4. **Practical",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "cherry-studio/docs 模块",
+    "description": "[模块级] cherry-studio 项目的 docs 模块 (docs)。来源: https://github.com/CherryHQ/cherry-studio",
+    "domain": "documentation",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "code-agent",
+      "codex",
+      "openclaw",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 46\n\n包含文件:\n- docs/README.md\n- docs/assets\n- docs/assets/images\n- docs/assets/images/i18n\n- docs/assets/images/i18n/demo-1.png\n- docs/assets/images/i18n/demo-2.png\n- docs/assets/images/i18n/demo-3.png\n- docs/assets/images/message-lifecycle.png\n- docs/en\n- docs/en/guides",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/assets\ndocs/assets/images\ndocs/assets/images/i18n\ndocs/assets/images/i18n/demo-1.png\ndocs/assets/images/i18n/demo-2.png\ndocs/assets/images/i18n/demo-3.png\ndocs/assets/images/message-lifecycle.png\ndocs/en\ndocs/en/guides\ndocs/en/guides/branching-strategy.md\ndocs/en/guides/development.md\ndocs/en/guides/i18n.md\ndocs/en/guides/logging.md\ndocs/en/guides/test-plan.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.340698005454147
+  },
+  {
+    "name": "cherry-studio/packages 模块",
+    "description": "[模块级] cherry-studio 项目的 packages 模块 (source)。来源: https://github.com/CherryHQ/cherry-studio",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "code-agent",
+      "codex",
+      "openclaw",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 62\n\n包含文件:\n- packages/ai-sdk-provider\n- packages/ai-sdk-provider/README.md\n- packages/ai-sdk-provider/package.json\n- packages/ai-sdk-provider/src\n- packages/ai-sdk-provider/src/cherryin-provider.ts\n- packages/ai-sdk-provider/src/index.ts\n- packages/ai-sdk-provider/tsconfig.json\n- packages/ai-sdk-provider/tsdown.config.ts\n- packages/aiCore\n- packages/aiCore/AI_SDK_ARCHITECTURE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/ai-sdk-provider\npackages/ai-sdk-provider/README.md\npackages/ai-sdk-provider/package.json\npackages/ai-sdk-provider/src\npackages/ai-sdk-provider/src/cherryin-provider.ts\npackages/ai-sdk-provider/src/index.ts\npackages/ai-sdk-provider/tsconfig.json\npackages/ai-sdk-provider/tsdown.config.ts\npackages/aiCore\npackages/aiCore/AI_SDK_ARCHITECTURE.md\npackages/aiCore/README.md\npackages/aiCore/package.json\npackages/aiCore/setupVitest.ts\npackages/aiCore/src\npackages/aiCore/src/__tests__",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.340698005454147
+  }
+]

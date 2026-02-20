@@ -1,0 +1,117 @@
+[
+  {
+    "name": "vectorvfs (perone)",
+    "description": "[项目级] Your filesystem as a vector database。来源: https://github.com/perone/vectorvfs",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-504",
+      "github-perone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Your filesystem as a vector database\n\n来源: https://github.com/perone/vectorvfs\n语言: Python\nStars: 504",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nMakefile\nREADME.md\ncodex.md\ndocs\ndocs/Makefile\ndocs/make.bat\ndocs/requirements-docs.txt\ndocs/source\npyproject.toml\ntests\ntests/__init__.py\ntests/data\ntests/test_encoders.py\ntests/test_vfsstore.py\nuv.lock\nvectorvfs\nvectorvfs/__init__.py\nvectorvfs/cli.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Zero-overhead indexing**  \n  Embeddings are stored as extended attributes (xattrs) on each file, eliminating the need for external index files or services.\n\n- **Seamless retrieval**  \n  Perform searches across your filesystem, retrieving files by embedding similarity.\n\n- **Flexible embedding support**  \n  Plug in any embedding model—from pre-trained transformers to custom feature extractors—and let VectorVFS handle storage and lookup.\n\n- **Lightweight and portable**  \n  Built on native Linux VFS functionality, VectorVFS requires no additional daemons, background processes, or databases.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.351215268222763
+  },
+  {
+    "name": "vectorvfs/docs 模块",
+    "description": "[模块级] vectorvfs 项目的 docs 模块 (docs)。来源: https://github.com/perone/vectorvfs",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-504",
+      "github-perone",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 13\n\n包含文件:\n- docs/Makefile\n- docs/make.bat\n- docs/requirements-docs.txt\n- docs/source\n- docs/source/_static\n- docs/source/_static/img\n- docs/source/_static/img/diagram_inodes.gif\n- docs/source/_static/img/logo_vectorvfs.png\n- docs/source/architecture.rst\n- docs/source/conf.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/make.bat\ndocs/requirements-docs.txt\ndocs/source\ndocs/source/_static\ndocs/source/_static/img\ndocs/source/_static/img/diagram_inodes.gif\ndocs/source/_static/img/logo_vectorvfs.png\ndocs/source/architecture.rst\ndocs/source/conf.py\ndocs/source/index.rst\ndocs/source/installation.rst\ndocs/source/usage.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5809722145782104
+  },
+  {
+    "name": "vectorvfs/tests 模块",
+    "description": "[模块级] vectorvfs 项目的 tests 模块 (test)。来源: https://github.com/perone/vectorvfs",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-504",
+      "github-perone",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/__init__.py\n- tests/data\n- tests/data/cat.jpg\n- tests/data/cat2.jpg\n- tests/data/dog.jpg\n- tests/data/jumping_cat.jpg\n- tests/data/zebra.jpg\n- tests/test_encoders.py\n- tests/test_vfsstore.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/data\ntests/data/cat.jpg\ntests/data/cat2.jpg\ntests/data/dog.jpg\ntests/data/jumping_cat.jpg\ntests/data/zebra.jpg\ntests/test_encoders.py\ntests/test_vfsstore.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5809722145782104
+  },
+  {
+    "name": "vectorvfs/vectorvfs 模块",
+    "description": "[模块级] vectorvfs 项目的 vectorvfs 模块 (source)。来源: https://github.com/perone/vectorvfs",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-504",
+      "github-perone",
+      "module-level",
+      "source",
+      "vectorvfs"
+    ],
+    "genes": [
+      {
+        "title": "vectorvfs 模块说明",
+        "content": "Documentation is at [https://vectorvfs.readthedocs.io](https://vectorvfs.readthedocs.io/).\n\nVectorVFS is a lightweight Python package that transforms your Linux filesystem into a vector database by leveraging the native VFS (Virtual File System) extended attributes. Rather than maintaining a separate index or external database, VectorVFS stores vector embeddings directly alongside each file—turning your existing directory structure into an efficient and semantically searchable embedding store.\n\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vectorvfs 文件结构",
+        "content": "vectorvfs/__init__.py\nvectorvfs/cli.py\nvectorvfs/encoders.py\nvectorvfs/utils.py\nvectorvfs/vfsstore.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5809722145782104
+  }
+]

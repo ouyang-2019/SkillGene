@@ -1,0 +1,133 @@
+[
+  {
+    "name": "aidefense-framework (edward-playground)",
+    "description": "[项目级] An open-source knowledge base of defensive countermeasures to protect AI/ML systems. Features interactive views and maps defenses to known threats from frameworks like MITRE ATLAS, MAESTRO, and OWASP.。来源: https://github.com/edward-playground/aidefense-framework",
+    "domain": "devops",
+    "tags": [
+      "ai-security",
+      "aidefend",
+      "atlas",
+      "cybersecurity",
+      "defensive-security",
+      "javascript",
+      "stars-127",
+      "github-edward-playground",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An open-source knowledge base of defensive countermeasures to protect AI/ML systems. Features interactive views and maps defenses to known threats from frameworks like MITRE ATLAS, MAESTRO, and OWASP.\n\n来源: https://github.com/edward-playground/aidefense-framework\n语言: JavaScript\nStars: 127",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CNAME\nREADME.md\naidefend-intro.js\ndata\ndata/data.json\nindex.html\njs\njs/purify.min.js\njs/tailwindcss.js\nmain.js\nscripts\nscripts/count-techniques.js\nscripts/generate-dataset.js\ntactics\ntactics/deceive.js\ntactics/detect.js\ntactics/evict.js\ntactics/harden.js\ntactics/isolate.js\ntactics/model.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1.  **Select a View**: Use the \"View by:\" switcher at the top of the page to choose between Tactics, Pillars, or Phases.\n2.  **Explore Techniques**: Click on any column header to learn more about that tactic, pillar, or phase. Click on any individual defensive technique to open a detailed modal view.\n3.  **Search Everything**: Use the search bar to filter all content by keywords, technique IDs, or threat mappings (e.g., \"Prompt Injection\", \"AID-H-002\", \"MAESTRO\", \"LLM01\").\n\n4.  **AIDEFEND MCP/REST API Service**: Now available! A 100% Local, private RAG system for the AIDEFEND framework. [Try i",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Three Strategic Views**: Organize and explore defenses from multiple perspectives to suit different roles and use cases:\n    * **Tactics View**: Aligned with the seven high-level tactics of MITRE D3FEND.\n    * **Pillars View**: Organized by technology stack components (Data, Model, Infrastructure, Application).\n    * **Phases View**: Structured around the AI development and operational lifecycle.\n* **Comprehensive Technique Details**: Each defensive technique includes a detailed description, implementation strategies with code examples, and lists of relevant open-source and commercial tool",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.051901860477979
+  },
+  {
+    "name": "aidefense-framework/js 模块",
+    "description": "[模块级] aidefense-framework 项目的 js 模块 (source)。来源: https://github.com/edward-playground/aidefense-framework",
+    "domain": "devops",
+    "tags": [
+      "ai-security",
+      "aidefend",
+      "atlas",
+      "cybersecurity",
+      "defensive-security",
+      "module-level",
+      "source",
+      "js"
+    ],
+    "genes": [
+      {
+        "title": "js 模块说明",
+        "content": "模块路径: js/\n类型: source\n文件数: 2\n\n包含文件:\n- js/purify.min.js\n- js/tailwindcss.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "js 文件结构",
+        "content": "js/purify.min.js\njs/tailwindcss.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3415214883823827
+  },
+  {
+    "name": "aidefense-framework/scripts 模块",
+    "description": "[模块级] aidefense-framework 项目的 scripts 模块 (script)。来源: https://github.com/edward-playground/aidefense-framework",
+    "domain": "devops",
+    "tags": [
+      "ai-security",
+      "aidefend",
+      "atlas",
+      "cybersecurity",
+      "defensive-security",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/count-techniques.js\n- scripts/generate-dataset.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/count-techniques.js\nscripts/generate-dataset.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3415214883823827
+  },
+  {
+    "name": "aidefense-framework/tactics 模块",
+    "description": "[模块级] aidefense-framework 项目的 tactics 模块 (source)。来源: https://github.com/edward-playground/aidefense-framework",
+    "domain": "devops",
+    "tags": [
+      "ai-security",
+      "aidefend",
+      "atlas",
+      "cybersecurity",
+      "defensive-security",
+      "module-level",
+      "source",
+      "tactics"
+    ],
+    "genes": [
+      {
+        "title": "tactics 模块说明",
+        "content": "> **Question:** *What high-level approach and concept is being used for this defense?*\n\nThis view organizes techniques by their strategic security function, aligned with the seven defensive tactics: **Model, Harden, Detect, Isolate, Deceive, Evict, and Restore**. It is ideal for security strategists and architects designing a defense-in-depth plan.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tactics 文件结构",
+        "content": "tactics/deceive.js\ntactics/detect.js\ntactics/evict.js\ntactics/harden.js\ntactics/isolate.js\ntactics/model.js\ntactics/restore.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3415214883823827
+  }
+]

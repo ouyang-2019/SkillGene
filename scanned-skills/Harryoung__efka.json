@@ -1,0 +1,290 @@
+[
+  {
+    "name": "efka (Harryoung)",
+    "description": "[项目级] AI-powered knowledge management without vector embeddings. Built upon Claude Agent SDK, File system based, Agent driven. Maybe slower, but results are much more reliable!。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI-powered knowledge management without vector embeddings. Built upon Claude Agent SDK, File system based, Agent driven. Maybe slower, but results are much more reliable!\n\n来源: https://github.com/Harryoung/efka\n语言: Python\nStars: 92",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nREADME_CN.md\nassets\nassets/EFKA_Admin_User_Agents.png\nassets/EFKA_VS_embeding_based_RAG.png\nassets/EFKA_overview_cn.png\nassets/EFKA_overview_en.png\nassets/demo.gif\nassets/efka.png\nassets/logo-dark.svg\nassets/logo-light.svg\nassets/logo.svg\nbackend\nbackend/CLAUDE.md\nbackend/__init__.py\nbackend/agents\nbackend/api\nbackend/channels",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Intelligent Q&A**: 6-stage retrieval strategy with expert routing - accurate answers with source attribution\n- **Smart Document Ingestion**: Automatic format conversion, semantic conflict detection, intelligent file placement\n- **FAQ System**: Automatic learning from interactions, usage tracking, and optimization\n- **Multi-Channel Support**: Web UI + Enterprise IM platforms (WeChat Work, Feishu, DingTalk, Slack)\n- **Dual-Agent Architecture**: Separate agents optimized for admin tasks and user queries\n- **Streaming Responses**: Real-time SSE streaming with Markdown rendering\n- **Progressive",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.981893913672778
+  },
+  {
+    "name": "efka/assets 模块",
+    "description": "[模块级] efka 项目的 assets 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 9\n\n包含文件:\n- assets/EFKA_Admin_User_Agents.png\n- assets/EFKA_VS_embeding_based_RAG.png\n- assets/EFKA_overview_cn.png\n- assets/EFKA_overview_en.png\n- assets/demo.gif\n- assets/efka.png\n- assets/logo-dark.svg\n- assets/logo-light.svg\n- assets/logo.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/EFKA_Admin_User_Agents.png\nassets/EFKA_VS_embeding_based_RAG.png\nassets/EFKA_overview_cn.png\nassets/EFKA_overview_en.png\nassets/demo.gif\nassets/efka.png\nassets/logo-dark.svg\nassets/logo-light.svg\nassets/logo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/backend 模块",
+    "description": "[模块级] efka 项目的 backend 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "python -m venv venv\nsource venv/bin/activate  # Windows: venv\\Scripts\\activate\npip install -r backend/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/CLAUDE.md\nbackend/__init__.py\nbackend/agents\nbackend/agents/__init__.py\nbackend/agents/kb_admin_agent.py\nbackend/agents/kb_qa_agent.py\nbackend/agents/prompts\nbackend/agents/prompts/.gitkeep\nbackend/agents/session_router_agent.py\nbackend/api\nbackend/api/__init__.py\nbackend/api/query.py\nbackend/api/streaming_utils.py\nbackend/api/upload.py\nbackend/api/user.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/deploy 模块",
+    "description": "[模块级] efka 项目的 deploy 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "```bash\ncp .env.example .env",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/Dockerfile.backend\ndeploy/Dockerfile.frontend\ndeploy/Dockerfile.wework\ndeploy/nginx.conf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/docs 模块",
+    "description": "[模块级] efka 项目的 docs 模块 (docs)。来源: https://github.com/Harryoung/efka",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/CHANNELS.md\n- docs/DEPLOYMENT.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CHANNELS.md\ndocs/DEPLOYMENT.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/frontend 模块",
+    "description": "[模块级] efka 项目的 frontend 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "cd frontend && npm install && cd ..",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/CLAUDE.md\nfrontend/README.md\nfrontend/eslint.config.js\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public\nfrontend/public/favicon.svg\nfrontend/src\nfrontend/src/App.css\nfrontend/src/App.jsx\nfrontend/src/components\nfrontend/src/components/ChatView.css\nfrontend/src/components/ChatView.jsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/knowledge_base 模块",
+    "description": "[模块级] efka 项目的 knowledge_base 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "knowledge_base"
+    ],
+    "genes": [
+      {
+        "title": "knowledge_base 模块说明",
+        "content": "模块路径: knowledge_base/\n类型: source\n文件数: 27\n\n包含文件:\n- knowledge_base/README.md\n- knowledge_base/hr\n- knowledge_base/hr/employee_handbook.md\n- knowledge_base/hr/parental_leave_policy.md\n- knowledge_base/hr/travel_expense_policy.md\n- knowledge_base/operations\n- knowledge_base/operations/exec_meeting_2024-04-15.md\n- knowledge_base/operations/incident_2024-05-23_postmortem.md\n- knowledge_base/operations/weekly_reports\n- knowledge_base/operations/weekly_reports/2025-11-03_2025-11-07.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "knowledge_base 文件结构",
+        "content": "knowledge_base/README.md\nknowledge_base/hr\nknowledge_base/hr/employee_handbook.md\nknowledge_base/hr/parental_leave_policy.md\nknowledge_base/hr/travel_expense_policy.md\nknowledge_base/operations\nknowledge_base/operations/exec_meeting_2024-04-15.md\nknowledge_base/operations/incident_2024-05-23_postmortem.md\nknowledge_base/operations/weekly_reports\nknowledge_base/operations/weekly_reports/2025-11-03_2025-11-07.md\nknowledge_base/operations/weekly_reports/2025-11-10_2025-11-14.md\nknowledge_base/operations/weekly_reports/2025-11-17_2025-11-21.md\nknowledge_base/operations/weekly_reports/2025-11-24_2025-11-28.md\nknowledge_base/operations/weekly_reports/2025-12-01_2025-12-05.md\nknowledge_base/operations/weekly_reports/2025-12-08_2025-12-12.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/scripts 模块",
+    "description": "[模块级] efka 项目的 scripts 模块 (script)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/deploy.sh\n- scripts/start.sh\n- scripts/stop.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/deploy.sh\nscripts/start.sh\nscripts/stop.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/skills 模块",
+    "description": "[模块级] efka 项目的 skills 模块 (source)。来源: https://github.com/Harryoung/efka",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "The `skills/` directory contains Agent skills using Claude Agent SDK's native mechanism:\n- `batch-notification/` - Batch user notification workflow\n- `document-conversion/` - Document format converter (DOC/PDF/PPT → Markdown)\n- `excel-parser/` - Smart Excel/CSV parsing with automatic complexity-based strategy selection\n- `expert-routing/` - Domain expert routing\n- `large-file-toc/` - Large file table of contents generation\n- `satisfaction-feedback/` - User satisfaction feedback handling\n\n**Impor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/CLAUDE.md\nskills/batch-notification\nskills/batch-notification/EXAMPLES.md\nskills/batch-notification/PANDAS_PATTERNS.md\nskills/batch-notification/SKILL.md\nskills/batch-notification/WORKFLOW.md\nskills/document-conversion\nskills/document-conversion/FORMATS.md\nskills/document-conversion/SKILL.md\nskills/document-conversion/scripts\nskills/document-conversion/scripts/smart_convert.py\nskills/excel-parser\nskills/excel-parser/SKILL.md\nskills/excel-parser/references\nskills/excel-parser/references/smart_excel_router.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  },
+  {
+    "name": "efka/tests 模块",
+    "description": "[模块级] efka 项目的 tests 模块 (test)。来源: https://github.com/Harryoung/efka",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-92",
+      "github-harryoung",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 6\n\n包含文件:\n- tests/__init__.py\n- tests/integration\n- tests/integration/__init__.py\n- tests/integration/test_channel_e2e.py\n- tests/integration/test_session_routing_e2e.py\n- tests/test_channel_adapters.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/integration\ntests/integration/__init__.py\ntests/integration/test_channel_e2e.py\ntests/integration/test_session_routing_e2e.py\ntests/test_channel_adapters.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2855151309382222
+  }
+]

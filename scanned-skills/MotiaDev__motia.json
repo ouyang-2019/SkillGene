@@ -1,0 +1,103 @@
+[
+  {
+    "name": "motia (MotiaDev)",
+    "description": "[项目级] Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management.。来源: https://github.com/MotiaDev/motia",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "api",
+      "backend",
+      "developer-tools",
+      "python",
+      "stars-15079",
+      "github-motiadev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-Language Backend Framework that unifies APIs, background jobs, queues, workflows, streams, and AI agents with a single core primitive with built-in observability and state management.\n\n来源: https://github.com/MotiaDev/motia\n语言: Python\nStars: 15079",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMIGRATION_GUIDE.md\nREADME.md\nassets\nassets/github-readme-banner.png\ncontributors\ncontributors/architecture\ncontributors/rfc\nmotia-js\nmotia-js/.gitignore\nmotia-js/.npmignore\nmotia-js/.prettierignore\nmotia-js/.prettierrc\nmotia-js/.python-version\nmotia-js/CONTRIBUTING.md\nmotia-js/MONOREPO-README.md\nmotia-js/README.md\nmotia-js/biome.json\nmotia-js/compose.yml\nmotia-js/package.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "A complete chess platform benchmarking LLM performance with real-time evaluation.\n\n**[Live Website →](https://chessarena.ai)** | **[Source Code →](https://github.com/MotiaDev/chessarena-ai)**\n\n> ![ChessArena.ai in action (raw GIF)](https://github.com/MotiaDev/chessarena-ai/blob/main/public/images/chessarena.gif?raw=true)\n\n**Built from scratch to production deployment, featuring:**\n- 🔐 **Authentication & user management**\n- 🤖 **Multi-agent LLM evaluation** (OpenAI, Claude, Gemini, Grok)\n- 🐍 **Python engine integration** (Stockfish chess evaluation)\n- 📊 **Real-time streaming** with live move",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "motia/contributors 模块",
+    "description": "[模块级] motia 项目的 contributors 模块 (source)。来源: https://github.com/MotiaDev/motia",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "api",
+      "backend",
+      "developer-tools",
+      "module-level",
+      "source",
+      "contributors"
+    ],
+    "genes": [
+      {
+        "title": "contributors 模块说明",
+        "content": "模块路径: contributors/\n类型: source\n文件数: 18\n\n包含文件:\n- contributors/architecture\n- contributors/architecture/deploy\n- contributors/architecture/deploy/DEPLOY_DIAGRAM.md\n- contributors/architecture/deploy/DEPLOY_FLOW.md\n- contributors/rfc\n- contributors/rfc/0000-00-00-template.md\n- contributors/rfc/2025-06-02-observability-system.md\n- contributors/rfc/2025-06-11-rbac-streams.md\n- contributors/rfc/2025-07-14-motia-docker.md\n- contributors/rfc/2025-07-31-motia-tutorial.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "contributors 文件结构",
+        "content": "contributors/architecture\ncontributors/architecture/deploy\ncontributors/architecture/deploy/DEPLOY_DIAGRAM.md\ncontributors/architecture/deploy/DEPLOY_FLOW.md\ncontributors/rfc\ncontributors/rfc/0000-00-00-template.md\ncontributors/rfc/2025-06-02-observability-system.md\ncontributors/rfc/2025-06-11-rbac-streams.md\ncontributors/rfc/2025-07-14-motia-docker.md\ncontributors/rfc/2025-07-31-motia-tutorial.md\ncontributors/rfc/2025-10-01-custom-runtimes-global-config-plugins.md\ncontributors/rfc/2025-10-01-infrastructure-config.md\ncontributors/rfc/2025-10-03-improvements-to-state.md\ncontributors/rfc/2025-10-15-adapter-pattern-horizontal-scaling.md\ncontributors/rfc/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.171349016484
+  },
+  {
+    "name": "motia/motia-js 模块",
+    "description": "[模块级] motia 项目的 motia-js 模块 (source)。来源: https://github.com/MotiaDev/motia",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "api",
+      "backend",
+      "developer-tools",
+      "module-level",
+      "source",
+      "motia-js"
+    ],
+    "genes": [
+      {
+        "title": "motia-js 模块说明",
+        "content": "模块路径: motia-js/\n类型: source\n文件数: 147\n\n包含文件:\n- motia-js/.gitignore\n- motia-js/.npmignore\n- motia-js/.prettierignore\n- motia-js/.prettierrc\n- motia-js/.python-version\n- motia-js/CONTRIBUTING.md\n- motia-js/MONOREPO-README.md\n- motia-js/README.md\n- motia-js/biome.json\n- motia-js/compose.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "motia-js 文件结构",
+        "content": "motia-js/.gitignore\nmotia-js/.npmignore\nmotia-js/.prettierignore\nmotia-js/.prettierrc\nmotia-js/.python-version\nmotia-js/CONTRIBUTING.md\nmotia-js/MONOREPO-README.md\nmotia-js/README.md\nmotia-js/biome.json\nmotia-js/compose.yml\nmotia-js/package.json\nmotia-js/packages\nmotia-js/packages/motia\nmotia-js/packages/motia/.npmignore\nmotia-js/packages/motia/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.171349016484
+  }
+]

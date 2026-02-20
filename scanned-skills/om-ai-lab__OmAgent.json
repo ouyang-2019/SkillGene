@@ -1,0 +1,138 @@
+[
+  {
+    "name": "OmAgent (om-ai-lab)",
+    "description": "[项目级] [EMNLP-2024] Build multimodal language agents for fast prototype and production。来源: https://github.com/om-ai-lab/OmAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chatbot",
+      "gemini",
+      "gpt",
+      "gpt4",
+      "python",
+      "stars-2629",
+      "github-om-ai-lab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OmAgent is python library for building multimodal language agents with ease. We try to keep the library **simple** without too much overhead like other agent framework.   \n - We wrap the complex engineering (worker orchestration, task queue, node optimization, etc.) behind the scene and only leave you with a super-easy-to-use interface to define your agent.   \n - We further enable useful abstractions for reusable agent components, so you can build complex agents aggregating from those basic components.   \n - We also provides features required for multimodal agents, such as native support for VLM models, video processing, and mobile device connection to make it easy for developers and researchers building agents that can reason over not only text, but image, video and audio inputs.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install omagent-core",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\ndocker\ndocker/README.md\ndocker/conductor\ndocker/conductor_with_app\ndocs\ndocs/concepts\ndocs/images\ndocs/tutorials\nexamples\nexamples/PoT\nexamples/ToT\nexamples/cot\nexamples/general_dnc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "pip install omagent-core",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- A flexible agent architecture that provides graph-based workflow orchestration engine and various memory type enabling contextual reasoning.  \n - Native multimodal interaction support include VLM models, real-time API, computer vision models, mobile connection and etc.   \n - A suite of state-of-the-art unimodal and multimodal agent algorithms that goes beyond simple LLM reasoning, e.g. ReAct, CoT, SC-Cot etc.   \n - Supports local deployment of models. You can deploy your own models locally by using Ollama[Ollama](./docs/concepts/models/Ollama.md) or [LocalAI](./examples/video_understanding/d",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.709895293053181
+  },
+  {
+    "name": "OmAgent/docker 模块",
+    "description": "[模块级] OmAgent 项目的 docker 模块 (source)。来源: https://github.com/om-ai-lab/OmAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chatbot",
+      "gemini",
+      "gpt",
+      "gpt4",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 9\n\n包含文件:\n- docker/README.md\n- docker/conductor\n- docker/conductor/docker-compose.yml\n- docker/conductor_with_app\n- docker/conductor_with_app/conductor\n- docker/conductor_with_app/conductor/docker-compose.yaml\n- docker/conductor_with_app/conductor/init.sql\n- docker/conductor_with_app/config\n- docker/conductor_with_app/config/bootstrap.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/README.md\ndocker/conductor\ndocker/conductor/docker-compose.yml\ndocker/conductor_with_app\ndocker/conductor_with_app/conductor\ndocker/conductor_with_app/conductor/docker-compose.yaml\ndocker/conductor_with_app/conductor/init.sql\ndocker/conductor_with_app/config\ndocker/conductor_with_app/config/bootstrap.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8679162344425455
+  },
+  {
+    "name": "OmAgent/docs 模块",
+    "description": "[模块级] OmAgent 项目的 docs 模块 (docs)。来源: https://github.com/om-ai-lab/OmAgent",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "chatbot",
+      "gemini",
+      "gpt",
+      "gpt4",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 92\n\n包含文件:\n- docs/concepts\n- docs/concepts/agent_operators.md\n- docs/concepts/clients\n- docs/concepts/clients/app.md\n- docs/concepts/clients/devices\n- docs/concepts/clients/devices/app.md\n- docs/concepts/clients/devices/cli.md\n- docs/concepts/clients/devices/programmatic.md\n- docs/concepts/clients/devices/webpage.md\n- docs/concepts/clients/input_and_callback.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/concepts\ndocs/concepts/agent_operators.md\ndocs/concepts/clients\ndocs/concepts/clients/app.md\ndocs/concepts/clients/devices\ndocs/concepts/clients/devices/app.md\ndocs/concepts/clients/devices/cli.md\ndocs/concepts/clients/devices/programmatic.md\ndocs/concepts/clients/devices/webpage.md\ndocs/concepts/clients/input_and_callback.md\ndocs/concepts/container.md\ndocs/concepts/debug.md\ndocs/concepts/memory\ndocs/concepts/memory/memory.md\ndocs/concepts/models",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8679162344425455
+  },
+  {
+    "name": "OmAgent/examples 模块",
+    "description": "[模块级] OmAgent 项目的 examples 模块 (example)。来源: https://github.com/om-ai-lab/OmAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "chatbot",
+      "gemini",
+      "gpt",
+      "gpt4",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 88\n\n包含文件:\n- examples/PoT\n- examples/PoT/README.md\n- examples/PoT/__init__.py\n- examples/PoT/agent\n- examples/PoT/agent/input_interface\n- examples/PoT/agent/input_interface/__init__.py\n- examples/PoT/agent/input_interface/input_interface.py\n- examples/PoT/compile_container.py\n- examples/PoT/configs\n- examples/PoT/configs/llms",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/PoT\nexamples/PoT/README.md\nexamples/PoT/__init__.py\nexamples/PoT/agent\nexamples/PoT/agent/input_interface\nexamples/PoT/agent/input_interface/__init__.py\nexamples/PoT/agent/input_interface/input_interface.py\nexamples/PoT/compile_container.py\nexamples/PoT/configs\nexamples/PoT/configs/llms\nexamples/PoT/configs/llms/gpt.yml\nexamples/PoT/configs/workers\nexamples/PoT/configs/workers/PoT_workflow.yml\nexamples/PoT/docs\nexamples/PoT/docs/images",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8679162344425455
+  }
+]

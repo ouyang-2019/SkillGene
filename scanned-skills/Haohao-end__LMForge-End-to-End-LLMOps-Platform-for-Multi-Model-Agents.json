@@ -1,0 +1,68 @@
+[
+  {
+    "name": "LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents (Haohao-end)",
+    "description": "[项目级] AI Agent Development Platform - Supports multiple models (OpenAI/DeepSeek/Wenxin/Tongyi), knowledge base management, workflow automation, and enterprise-grade security. Built with Flask + Vue3 + LangChain, featuring one-click Docker deployment.。来源: https://github.com/Haohao-end/LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "celery",
+      "deepseek",
+      "python",
+      "stars-569",
+      "github-haohao-end",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Agent Development Platform - Supports multiple models (OpenAI/DeepSeek/Wenxin/Tongyi), knowledge base management, workflow automation, and enterprise-grade security. Built with Flask + Vue3 + LangChain, featuring one-click Docker deployment.\n\n来源: https://github.com/Haohao-end/LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents\n语言: Python\nStars: 569",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_ZH.md\napi\napi/.dockerignore\napi/.env\napi/.idea\napi/Dockerfile\napi/README.md\napi/app\napi/config\napi/docker\napi/internal",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.377556133197536
+  },
+  {
+    "name": "LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents/api 模块",
+    "description": "[模块级] LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents 项目的 api 模块 (source)。来源: https://github.com/Haohao-end/LMForge-End-to-End-LLMOps-Platform-for-Multi-Model-Agents",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "celery",
+      "deepseek",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 188\n\n包含文件:\n- api/.dockerignore\n- api/.env\n- api/.idea\n- api/.idea/.gitignore\n- api/.idea/dataSources.xml\n- api/.idea/inspectionProfiles\n- api/.idea/inspectionProfiles/profiles_settings.xml\n- api/.idea/llmops-api.iml\n- api/.idea/misc.xml\n- api/.idea/modules.xml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/.dockerignore\napi/.env\napi/.idea\napi/.idea/.gitignore\napi/.idea/dataSources.xml\napi/.idea/inspectionProfiles\napi/.idea/inspectionProfiles/profiles_settings.xml\napi/.idea/llmops-api.iml\napi/.idea/misc.xml\napi/.idea/modules.xml\napi/Dockerfile\napi/README.md\napi/app\napi/app/__init__.py\napi/app/__pycache__",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.602044906558029
+  }
+]

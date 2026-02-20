@@ -1,0 +1,98 @@
+[
+  {
+    "name": "chameleon-llm (lupantech)",
+    "description": "[项目级] Codes for \"Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models\".。来源: https://github.com/lupantech/chameleon-llm",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-4",
+      "llm",
+      "openai",
+      "jupyter notebook",
+      "stars-1141",
+      "github-lupantech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Chameleon** is a plug-and-play compositional reasoning framework that augments LLMs with various types of tools. **Chameleon** synthesizes programs to compose various tools, including LLM models, off-the-shelf vision models, web search engines, Python functions, and rule-based modules tailored to user interests. Built on top of an LLM as a natural language planner, **Chameleon** infers the appropriate sequence of tools to compose and execute in order to generate a final response. \n\n![showcase_scienceqa](assets/showcase_scienceqa.png)\n\nWe showcase the adaptability and effectiveness of **Chameleon** on two tasks: [ScienceQA](https://scienceqa.github.io/) and [TabMWP](https://promptpg.github.io/). Notably, **Chameleon** with GPT-4 achieves an 86.54% accuracy on ScienceQA, significantly impr",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/alphasignalai-beehiiv-p-weeks-top-5-ai-papers.png\nassets/figures\nassets/logo.png\nassets/lu2023chameleon.pdf\nassets/results.png\nassets/scienceqa_bar.png\nassets/showcase_scienceqa.png\nassets/showcase_scienceqa_more.png\nassets/showcase_tabmwp.png\nassets/showcase_tabmwp_long.png\nassets/tabmwp_bar.png\nassets/tool_call_scienceqa.png\nassets/tool_call_tabmwp.png\nassets/tools.png\nassets/tools_task.png\nassets/transition_scienceqa_gpt4.png\nassets/transition_tabmwp_gpt4.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5286428222091075
+  },
+  {
+    "name": "chameleon-llm/assets 模块",
+    "description": "[模块级] chameleon-llm 项目的 assets 模块 (source)。来源: https://github.com/lupantech/chameleon-llm",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-4",
+      "llm",
+      "openai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 39\n\n包含文件:\n- assets/alphasignalai-beehiiv-p-weeks-top-5-ai-papers.png\n- assets/figures\n- assets/figures/github.png\n- assets/figures/hugging.png\n- assets/figures/logo.pdf\n- assets/figures/openai.png\n- assets/figures/python.png\n- assets/figures/rule.png\n- assets/figures/scienceqa_bar.pdf\n- assets/figures/showcase_scienceqa.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/alphasignalai-beehiiv-p-weeks-top-5-ai-papers.png\nassets/figures\nassets/figures/github.png\nassets/figures/hugging.png\nassets/figures/logo.pdf\nassets/figures/openai.png\nassets/figures/python.png\nassets/figures/rule.png\nassets/figures/scienceqa_bar.pdf\nassets/figures/showcase_scienceqa.pdf\nassets/figures/showcase_scienceqa_more.pdf\nassets/figures/showcase_tabmwp.pdf\nassets/figures/showcase_tabmwp_long.pdf\nassets/figures/tabmwp_bar.pdf\nassets/figures/tool_call_scienceqa.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.722914257767286
+  },
+  {
+    "name": "chameleon-llm/data 模块",
+    "description": "[模块级] chameleon-llm 项目的 data 模块 (source)。来源: https://github.com/lupantech/chameleon-llm",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-4",
+      "llm",
+      "openai",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "![showcase_scienceqa_more](assets/showcase_scienceqa_more.png)\n\n**Chameleon** (GPT-4) is able to adapt to different input queries by generating programs that compose various tools and executing them sequentially to obtain the correct answers. \n\nFor instance, the query above asks, “Which animal’s skin is adapted for survival in cold places?”, which involves scientific terminology related to animal survival. Consequently, the planner decides to rely on the *Bing search* engine for domain-specific ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/scienceqa\ndata/scienceqa/captions.json\ndata/scienceqa/download.sh\ndata/scienceqa/images\ndata/scienceqa/images/test\ndata/scienceqa/images/test/10001\ndata/scienceqa/images/test/10001/image.png\ndata/scienceqa/images/test/10015\ndata/scienceqa/images/test/10015/image.png\ndata/scienceqa/images/test/10017\ndata/scienceqa/images/test/10017/image.png\ndata/scienceqa/images/test/1002\ndata/scienceqa/images/test/1002/image.png\ndata/scienceqa/images/test/10046\ndata/scienceqa/images/test/10046/image.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.722914257767286
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "airgapped-offfline-rag (vincentkoc)",
+    "description": "[项目级] Secure, locally-run Retrieval-Augmented Generation system for document-based question-answering, utilizing Llama 3, Mistral, and Gemini models with a user-friendly Streamlit interface.。来源: https://github.com/vincentkoc/airgapped-offfline-rag",
+    "domain": "devops",
+    "tags": [
+      "chromadb",
+      "docker",
+      "hacktoberfest",
+      "langchain",
+      "llama",
+      "python",
+      "stars-78",
+      "github-vincentkoc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Secure, locally-run Retrieval-Augmented Generation system for document-based question-answering, utilizing Llama 3, Mistral, and Gemini models with a user-friendly Streamlit interface.\n\n来源: https://github.com/vincentkoc/airgapped-offfline-rag\n语言: Python\nStars: 78",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pyenv install 3.9.16\n   pyenv local 3.9.16\n   pyenv rehash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\napp\napp/__init__.py\napp/document_processor.py\napp/main.py\napp/model_handler.py\napp/rag.py\napp/utils.py\nassets\nassets/airgapped_offline_rag-screenshot.png\nassets/airgapped_offline_rag_banner.jpg\nassets/airgapped_offline_rag_icon.png\nconfig.yaml\ndocker-compose.yml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Upload PDF documents** using the file uploader.\n2. **Select the model** you want to use (e.g., Mistral).\n3. **Enter your question** in the text input.\n4. Click **\"Generate Answer\"** to get a response based on the document content.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9460473013452404
+  },
+  {
+    "name": "airgapped-offfline-rag/app 模块",
+    "description": "[模块级] airgapped-offfline-rag 项目的 app 模块 (source)。来源: https://github.com/vincentkoc/airgapped-offfline-rag",
+    "domain": "devops",
+    "tags": [
+      "chromadb",
+      "docker",
+      "hacktoberfest",
+      "langchain",
+      "llama",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "This project by [Vincent Koc](https://github.com/vincentkoc) implements a Retrieval-Augmented Generation (RAG) based Question-Answering system for documents. It uses Llama 3, Mistral, and Gemini models for local inference with LlaMa c++, langchain for orchestration, chromadb for vector storage, and Streamlit for the user interface.\n\n![screenshot airgapped_offline_rag-screenshot.png](assets/airgapped_offline_rag-screenshot.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/__init__.py\napp/document_processor.py\napp/main.py\napp/model_handler.py\napp/rag.py\napp/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2568378410761922
+  },
+  {
+    "name": "airgapped-offfline-rag/assets 模块",
+    "description": "[模块级] airgapped-offfline-rag 项目的 assets 模块 (source)。来源: https://github.com/vincentkoc/airgapped-offfline-rag",
+    "domain": "devops",
+    "tags": [
+      "chromadb",
+      "docker",
+      "hacktoberfest",
+      "langchain",
+      "llama",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/airgapped_offline_rag-screenshot.png\n- assets/airgapped_offline_rag_banner.jpg\n- assets/airgapped_offline_rag_icon.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/airgapped_offline_rag-screenshot.png\nassets/airgapped_offline_rag_banner.jpg\nassets/airgapped_offline_rag_icon.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2568378410761922
+  },
+  {
+    "name": "airgapped-offfline-rag/tests 模块",
+    "description": "[模块级] airgapped-offfline-rag 项目的 tests 模块 (test)。来源: https://github.com/vincentkoc/airgapped-offfline-rag",
+    "domain": "testing",
+    "tags": [
+      "chromadb",
+      "docker",
+      "hacktoberfest",
+      "langchain",
+      "llama",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/__init__.py\n- tests/test_document_processor.py\n- tests/test_model_handler.py\n- tests/test_rag.py\n- tests/test_util.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_document_processor.py\ntests/test_model_handler.py\ntests/test_rag.py\ntests/test_util.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2568378410761922
+  }
+]

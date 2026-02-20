@@ -1,0 +1,168 @@
+[
+  {
+    "name": "fastapi_mcp (tadata-org)",
+    "description": "[项目级] Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!。来源: https://github.com/tadata-org/fastapi_mcp",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor",
+      "python",
+      "stars-11558",
+      "github-tadata-org",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!\n\n来源: https://github.com/tadata-org/fastapi_mcp\n语言: Python\nStars: 11558",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "uv add fastapi-mcp",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nMANIFEST.in\nREADME.md\nREADME_zh-CN.md\ndocs\ndocs/advanced\ndocs/configurations\ndocs/docs.json\ndocs/getting-started\ndocs/media\nexamples\nexamples/01_basic_usage_example.py\nexamples/02_full_schema_description_example.py\nexamples/03_custom_exposed_endpoints_example.py\nexamples/04_separate_server_example.py\nexamples/05_reregister_tools_example.py\nexamples/06_custom_mcp_router_example.py\nexamples/07_configure_http_timeout_example.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The simplest way to use FastAPI-MCP is to add an MCP server directly to your FastAPI application:\n\n```python\nfrom fastapi import FastAPI\nfrom fastapi_mcp import FastApiMCP\n\napp = FastAPI()\n\nmcp = FastApiMCP(app)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Authentication** built in, using your existing FastAPI dependencies!\n\n- **FastAPI-native:** Not just another OpenAPI -> MCP converter\n\n- **Zero/Minimal configuration** required - just point it at your FastAPI app and it works\n\n- **Preserving schemas** of your request models and response models\n\n- **Preserve documentation** of all your endpoints, just as it is in Swagger\n\n- **Flexible deployment** - Mount your MCP server to the same app, or deploy separately\n\n- **ASGI transport** - Uses FastAPI's ASGI interface directly for efficient communication",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "fastapi_mcp/docs 模块",
+    "description": "[模块级] fastapi_mcp 项目的 docs 模块 (docs)。来源: https://github.com/tadata-org/fastapi_mcp",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/advanced\n- docs/advanced/asgi.mdx\n- docs/advanced/auth.mdx\n- docs/advanced/deploy.mdx\n- docs/advanced/refresh.mdx\n- docs/advanced/transport.mdx\n- docs/configurations\n- docs/configurations/customization.mdx\n- docs/configurations/tool-naming.mdx\n- docs/docs.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/advanced\ndocs/advanced/asgi.mdx\ndocs/advanced/auth.mdx\ndocs/advanced/deploy.mdx\ndocs/advanced/refresh.mdx\ndocs/advanced/transport.mdx\ndocs/configurations\ndocs/configurations/customization.mdx\ndocs/configurations/tool-naming.mdx\ndocs/docs.json\ndocs/getting-started\ndocs/getting-started/FAQ.mdx\ndocs/getting-started/best-practices.mdx\ndocs/getting-started/installation.mdx\ndocs/getting-started/quickstart.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125153076052146
+  },
+  {
+    "name": "fastapi_mcp/examples 模块",
+    "description": "[模块级] fastapi_mcp 项目的 examples 模块 (example)。来源: https://github.com/tadata-org/fastapi_mcp",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "FastAPI-MCP provides [comprehensive documentation](https://fastapi-mcp.tadata.com/). Additionaly, check out the [examples directory](examples) for code samples demonstrating these features in action.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/01_basic_usage_example.py\nexamples/02_full_schema_description_example.py\nexamples/03_custom_exposed_endpoints_example.py\nexamples/04_separate_server_example.py\nexamples/05_reregister_tools_example.py\nexamples/06_custom_mcp_router_example.py\nexamples/07_configure_http_timeout_example.py\nexamples/08_auth_example_token_passthrough.py\nexamples/09_auth_example_auth0.py\nexamples/README.md\nexamples/__init__.py\nexamples/shared\nexamples/shared/__init__.py\nexamples/shared/apps\nexamples/shared/apps/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125153076052146
+  },
+  {
+    "name": "fastapi_mcp/fastapi_mcp 模块",
+    "description": "[模块级] fastapi_mcp 项目的 fastapi_mcp 模块 (source)。来源: https://github.com/tadata-org/fastapi_mcp",
+    "domain": "backend",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor",
+      "module-level",
+      "source",
+      "fastapi_mcp"
+    ],
+    "genes": [
+      {
+        "title": "fastapi_mcp 模块说明",
+        "content": "模块路径: fastapi_mcp/\n类型: source\n文件数: 16\n\n包含文件:\n- fastapi_mcp/__init__.py\n- fastapi_mcp/auth\n- fastapi_mcp/auth/__init__.py\n- fastapi_mcp/auth/proxy.py\n- fastapi_mcp/openapi\n- fastapi_mcp/openapi/__init__.py\n- fastapi_mcp/openapi/convert.py\n- fastapi_mcp/openapi/utils.py\n- fastapi_mcp/server.py\n- fastapi_mcp/transport",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fastapi_mcp 文件结构",
+        "content": "fastapi_mcp/__init__.py\nfastapi_mcp/auth\nfastapi_mcp/auth/__init__.py\nfastapi_mcp/auth/proxy.py\nfastapi_mcp/openapi\nfastapi_mcp/openapi/__init__.py\nfastapi_mcp/openapi/convert.py\nfastapi_mcp/openapi/utils.py\nfastapi_mcp/server.py\nfastapi_mcp/transport\nfastapi_mcp/transport/__init__.py\nfastapi_mcp/transport/http.py\nfastapi_mcp/transport/sse.py\nfastapi_mcp/types.py\nfastapi_mcp/utils",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125153076052146
+  },
+  {
+    "name": "fastapi_mcp/tests 模块",
+    "description": "[模块级] fastapi_mcp 项目的 tests 模块 (test)。来源: https://github.com/tadata-org/fastapi_mcp",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "authentication",
+      "authorization",
+      "claude",
+      "cursor",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 18\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/fixtures\n- tests/fixtures/complex_app.py\n- tests/fixtures/conftest.py\n- tests/fixtures/example_data.py\n- tests/fixtures/simple_app.py\n- tests/fixtures/types.py\n- tests/test_basic_functionality.py\n- tests/test_configuration.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/fixtures\ntests/fixtures/complex_app.py\ntests/fixtures/conftest.py\ntests/fixtures/example_data.py\ntests/fixtures/simple_app.py\ntests/fixtures/types.py\ntests/test_basic_functionality.py\ntests/test_configuration.py\ntests/test_http_real_transport.py\ntests/test_mcp_complex_app.py\ntests/test_mcp_execute_api_tool.py\ntests/test_mcp_simple_app.py\ntests/test_openapi_conversion.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.125153076052146
+  }
+]

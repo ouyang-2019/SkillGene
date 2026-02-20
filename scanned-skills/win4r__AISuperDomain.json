@@ -1,0 +1,103 @@
+[
+  {
+    "name": "AISuperDomain (win4r)",
+    "description": "[项目级] Aila(AI超元域): The premier AI integration tool for Windows, macOS, and Android. Ask once, get answers from 10+ AIs like ChatGPT, Gemini, Claude3, Copilot, Poe, perplexity and more. Features customizable AI and prompts.。来源: https://github.com/win4r/AISuperDomain",
+    "domain": "ai-llm",
+    "tags": [
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "chatgpt-app",
+      "chatgpt-bot",
+      "c#",
+      "stars-1830",
+      "github-win4r",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Aila(AI超元域): The premier AI integration tool for Windows, macOS, and Android. Ask once, get answers from 10+ AIs like ChatGPT, Gemini, Claude3, Copilot, Poe, perplexity and more. Features customizable AI and prompts.\n\n来源: https://github.com/win4r/AISuperDomain\n语言: C#\nStars: 1830",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To begin using Aila, download the latest version from [Aila Releases](https://github.com/win4r/AISuperDomain/releases). Follow the instructions below based on your operating system to ensure a smooth installation process.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AiConfig.cs\nAila.csproj\nAila.sln\nApp.xaml\nApp.xaml.cs\nAppConfiguration.cs\nAppShell.xaml\nAppShell.xaml.cs\nConfigPage.xaml\nConfigPage.xaml.cs\nConfigurationManager.cs\nConfigurationUpdatedMessage.cs\nCurrentAi.cs\nLICENSE\nMainPage.xaml\nMainPage.xaml.cs\nMauiProgram.cs\nPlatforms\nPlatforms/Android\nPlatforms/MacCatalyst",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.631225544865215
+  },
+  {
+    "name": "AISuperDomain/Platforms 模块",
+    "description": "[模块级] AISuperDomain 项目的 Platforms 模块 (source)。来源: https://github.com/win4r/AISuperDomain",
+    "domain": "ai-llm",
+    "tags": [
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "chatgpt-app",
+      "chatgpt-bot",
+      "module-level",
+      "source",
+      "platforms"
+    ],
+    "genes": [
+      {
+        "title": "Platforms 模块说明",
+        "content": "模块路径: Platforms/\n类型: source\n文件数: 24\n\n包含文件:\n- Platforms/Android\n- Platforms/Android/AndroidManifest.xml\n- Platforms/Android/MainActivity.cs\n- Platforms/Android/MainApplication.cs\n- Platforms/Android/Resources\n- Platforms/Android/Resources/values\n- Platforms/Android/Resources/values/colors.xml\n- Platforms/MacCatalyst\n- Platforms/MacCatalyst/AppDelegate.cs\n- Platforms/MacCatalyst/Entitlements.plist",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Platforms 文件结构",
+        "content": "Platforms/Android\nPlatforms/Android/AndroidManifest.xml\nPlatforms/Android/MainActivity.cs\nPlatforms/Android/MainApplication.cs\nPlatforms/Android/Resources\nPlatforms/Android/Resources/values\nPlatforms/Android/Resources/values/colors.xml\nPlatforms/MacCatalyst\nPlatforms/MacCatalyst/AppDelegate.cs\nPlatforms/MacCatalyst/Entitlements.plist\nPlatforms/MacCatalyst/Info.plist\nPlatforms/MacCatalyst/Program.cs\nPlatforms/Tizen\nPlatforms/Tizen/Main.cs\nPlatforms/Tizen/tizen-manifest.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8049804358921717
+  },
+  {
+    "name": "AISuperDomain/Resources 模块",
+    "description": "[模块级] AISuperDomain 项目的 Resources 模块 (source)。来源: https://github.com/win4r/AISuperDomain",
+    "domain": "ai-llm",
+    "tags": [
+      "autogpt",
+      "autogpt-no-paid-api",
+      "chatgpt",
+      "chatgpt-app",
+      "chatgpt-bot",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "Resources 模块说明",
+        "content": "模块路径: Resources/\n类型: source\n文件数: 15\n\n包含文件:\n- Resources/AppIcon\n- Resources/AppIcon/appicon.svg\n- Resources/AppIcon/appiconfg.svg\n- Resources/Fonts\n- Resources/Fonts/OpenSans-Regular.ttf\n- Resources/Fonts/OpenSans-Semibold.ttf\n- Resources/Images\n- Resources/Images/dotnet_bot.png\n- Resources/Raw\n- Resources/Raw/AboutAssets.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Resources 文件结构",
+        "content": "Resources/AppIcon\nResources/AppIcon/appicon.svg\nResources/AppIcon/appiconfg.svg\nResources/Fonts\nResources/Fonts/OpenSans-Regular.ttf\nResources/Fonts/OpenSans-Semibold.ttf\nResources/Images\nResources/Images/dotnet_bot.png\nResources/Raw\nResources/Raw/AboutAssets.txt\nResources/Splash\nResources/Splash/splash.svg\nResources/Styles\nResources/Styles/Colors.xaml\nResources/Styles/Styles.xaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8049804358921717
+  }
+]

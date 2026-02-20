@@ -1,0 +1,64 @@
+[
+  {
+    "name": "claude-code-plugins (astral-sh)",
+    "description": "[项目级] claude-code-plugins。来源: https://github.com/astral-sh/claude-code-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-138",
+      "github-astral-sh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/astral-sh/claude-code-plugins\n语言: unknown\nStars: 138",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE-APACHE\nLICENSE-MIT\nREADME.md\nplugins\nplugins/astral",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0699395432006185
+  },
+  {
+    "name": "claude-code-plugins/plugins 模块",
+    "description": "[模块级] claude-code-plugins 项目的 plugins 模块 (source)。来源: https://github.com/astral-sh/claude-code-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-138",
+      "github-astral-sh",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 10\n\n包含文件:\n- plugins/astral\n- plugins/astral/.claude-plugin\n- plugins/astral/.claude-plugin/plugin.json\n- plugins/astral/skills\n- plugins/astral/skills/ruff\n- plugins/astral/skills/ruff/SKILL.md\n- plugins/astral/skills/ty\n- plugins/astral/skills/ty/SKILL.md\n- plugins/astral/skills/uv\n- plugins/astral/skills/uv/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/astral\nplugins/astral/.claude-plugin\nplugins/astral/.claude-plugin/plugin.json\nplugins/astral/skills\nplugins/astral/skills/ruff\nplugins/astral/skills/ruff/SKILL.md\nplugins/astral/skills/ty\nplugins/astral/skills/ty/SKILL.md\nplugins/astral/skills/uv\nplugins/astral/skills/uv/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3559516345604945
+  }
+]

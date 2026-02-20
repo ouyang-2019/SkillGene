@@ -1,0 +1,168 @@
+[
+  {
+    "name": "mcp-client-for-ollama (jonigl)",
+    "description": "[项目级] A text-based user interface (TUI) client for interacting with MCP servers using Ollama. Features include agent mode, multi-server, model switching, streaming responses, tool management, human-in-the-loop, thinking mode, model params config, MCP prompts, custom system prompt and saved preferences. Built for developers working with local LLMs.。来源: https://github.com/jonigl/mcp-client-for-ollama",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "command-line-tool",
+      "generative-ai",
+      "linux",
+      "python",
+      "stars-541",
+      "github-jonigl",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MCP Client for Ollama (`ollmcp`) is a modern, interactive terminal application (TUI) for connecting local Ollama LLMs to one or more Model Context Protocol (MCP) servers, enabling advanced tool use and workflow automation. With a rich, user-friendly interface, it lets you manage tools, models, and server connections in real time—no coding required. Whether you're building, testing, or just exploring LLM tool use, this client streamlines your workflow with features like fuzzy autocomplete, advanced model configuration, MCP servers hot-reloading for development, and Human-in-the-Loop safety controls.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install --upgrade ollmcp\nollmcp",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "DEV.md\nLICENSE\nREADME.md\nSECURITY.md\ncli-package\ncli-package/README.md\ncli-package/ollmcp\ncli-package/pyproject.toml\ncli-package/tests\nmcp_client_for_ollama\nmcp_client_for_ollama/__init__.py\nmcp_client_for_ollama/__main__.py\nmcp_client_for_ollama/cli.py\nmcp_client_for_ollama/client.py\nmcp_client_for_ollama/config\nmcp_client_for_ollama/models\nmcp_client_for_ollama/prompts\nmcp_client_for_ollama/server\nmcp_client_for_ollama/tools\nmcp_client_for_ollama/utils",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Run with default settings:\n\n```bash\nollmcp\n```\n\n> If you don't provide any options, the client will use `auto-discovery` mode to find MCP servers from Claude's configuration.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🤖 **Agent Mode**: Iterative tool execution when models request multiple tool calls, with a configurable loop limit to prevent infinite loops\n- 🌐 **Multi-Server Support**: Connect to multiple MCP servers simultaneously\n- 🚀 **Multiple Transport Types**: Supports STDIO, SSE, and Streamable HTTP server connections\n- 📋 **MCP Prompts Support**: Browse, invoke, and manage prompts from MCP servers with argument collection, preview, and safe rollback\n- ☁️ **Ollama Cloud Support**: Works seamlessly with Ollama Cloud models for tool calling, enabling access to powerful cloud-hosted models while usi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.366598632553284
+  },
+  {
+    "name": "mcp-client-for-ollama/cli-package 模块",
+    "description": "[模块级] mcp-client-for-ollama 项目的 cli-package 模块 (source)。来源: https://github.com/jonigl/mcp-client-for-ollama",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "command-line-tool",
+      "generative-ai",
+      "linux",
+      "module-level",
+      "source",
+      "cli-package"
+    ],
+    "genes": [
+      {
+        "title": "cli-package 模块说明",
+        "content": "模块路径: cli-package/\n类型: source\n文件数: 7\n\n包含文件:\n- cli-package/README.md\n- cli-package/ollmcp\n- cli-package/ollmcp/cli.py\n- cli-package/pyproject.toml\n- cli-package/tests\n- cli-package/tests/__init__.py\n- cli-package/tests/test_cli_import.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli-package 文件结构",
+        "content": "cli-package/README.md\ncli-package/ollmcp\ncli-package/ollmcp/cli.py\ncli-package/pyproject.toml\ncli-package/tests\ncli-package/tests/__init__.py\ncli-package/tests/test_cli_import.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "mcp-client-for-ollama/mcp_client_for_ollama 模块",
+    "description": "[模块级] mcp-client-for-ollama 项目的 mcp_client_for_ollama 模块 (source)。来源: https://github.com/jonigl/mcp-client-for-ollama",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "command-line-tool",
+      "generative-ai",
+      "linux",
+      "module-level",
+      "source",
+      "mcp_client_for_ollama"
+    ],
+    "genes": [
+      {
+        "title": "mcp_client_for_ollama 模块说明",
+        "content": "模块路径: mcp_client_for_ollama/\n类型: source\n文件数: 38\n\n包含文件:\n- mcp_client_for_ollama/__init__.py\n- mcp_client_for_ollama/__main__.py\n- mcp_client_for_ollama/cli.py\n- mcp_client_for_ollama/client.py\n- mcp_client_for_ollama/config\n- mcp_client_for_ollama/config/__init__.py\n- mcp_client_for_ollama/config/defaults.py\n- mcp_client_for_ollama/config/manager.py\n- mcp_client_for_ollama/models\n- mcp_client_for_ollama/models/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp_client_for_ollama 文件结构",
+        "content": "mcp_client_for_ollama/__init__.py\nmcp_client_for_ollama/__main__.py\nmcp_client_for_ollama/cli.py\nmcp_client_for_ollama/client.py\nmcp_client_for_ollama/config\nmcp_client_for_ollama/config/__init__.py\nmcp_client_for_ollama/config/defaults.py\nmcp_client_for_ollama/config/manager.py\nmcp_client_for_ollama/models\nmcp_client_for_ollama/models/__init__.py\nmcp_client_for_ollama/models/config_manager.py\nmcp_client_for_ollama/models/manager.py\nmcp_client_for_ollama/prompts\nmcp_client_for_ollama/prompts/__init__.py\nmcp_client_for_ollama/prompts/content.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "mcp-client-for-ollama/misc 模块",
+    "description": "[模块级] mcp-client-for-ollama 项目的 misc 模块 (source)。来源: https://github.com/jonigl/mcp-client-for-ollama",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "command-line-tool",
+      "generative-ai",
+      "linux",
+      "module-level",
+      "source",
+      "misc"
+    ],
+    "genes": [
+      {
+        "title": "misc 模块说明",
+        "content": "模块路径: misc/\n类型: source\n文件数: 16\n\n包含文件:\n- misc/github-preview-correct-size.png\n- misc/github-preview.png\n- misc/ollmcp-demo.gif\n- misc/ollmcp-demo.svg\n- misc/ollmcp-hil-feature.png\n- misc/ollmcp-logo-512.png\n- misc/ollmcp-logo-white-background.min.svg\n- misc/ollmcp-logo-white-background.svg\n- misc/ollmcp-logo.svg\n- misc/ollmcp-model-configuration.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "misc 文件结构",
+        "content": "misc/github-preview-correct-size.png\nmisc/github-preview.png\nmisc/ollmcp-demo.gif\nmisc/ollmcp-demo.svg\nmisc/ollmcp-hil-feature.png\nmisc/ollmcp-logo-512.png\nmisc/ollmcp-logo-white-background.min.svg\nmisc/ollmcp-logo-white-background.svg\nmisc/ollmcp-logo.svg\nmisc/ollmcp-model-configuration.png\nmisc/ollmcp-ollama-performance-metrics.png\nmisc/ollmcp-prompt-feature.png\nmisc/ollmcp-welcome.png\nmisc/ollmpc-model-selection.jpg\nmisc/ollmpc-tool-and-server-selection.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  },
+  {
+    "name": "mcp-client-for-ollama/tests 模块",
+    "description": "[模块级] mcp-client-for-ollama 项目的 tests 模块 (test)。来源: https://github.com/jonigl/mcp-client-for-ollama",
+    "domain": "testing",
+    "tags": [
+      "agentic-ai",
+      "ai",
+      "command-line-tool",
+      "generative-ai",
+      "linux",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 7\n\n包含文件:\n- tests/__init__.py\n- tests/test_cleanup_race_condition.py\n- tests/test_config_manager.py\n- tests/test_connector.py\n- tests/test_hil_session.py\n- tests/test_server_discovery.py\n- tests/test_version.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_cleanup_race_condition.py\ntests/test_config_manager.py\ntests/test_connector.py\ntests/test_hil_session.py\ntests/test_server_discovery.py\ntests/test_version.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.593278906042628
+  }
+]

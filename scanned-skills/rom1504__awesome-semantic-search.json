@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-semantic-search (rom1504)",
+    "description": "[项目级] Semantic search with embeddings: index anything。来源: https://github.com/rom1504/awesome-semantic-search",
+    "domain": "general",
+    "tags": [
+      "embeddings",
+      "knn",
+      "neural-search",
+      "recommendation-systems",
+      "search-engines",
+      "stars-139",
+      "github-rom1504",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Semantic search with embeddings: index anything\n\n来源: https://github.com/rom1504/awesome-semantic-search\n语言: unknown\nStars: 139",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0715074001270475
+  }
+]

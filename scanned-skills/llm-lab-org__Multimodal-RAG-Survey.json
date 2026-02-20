@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Multimodal-RAG-Survey (llm-lab-org)",
+    "description": "[项目级] A Survey on Multimodal Retrieval-Augmented Generation。来源: https://github.com/llm-lab-org/Multimodal-RAG-Survey",
+    "domain": "general",
+    "tags": [
+      "multimodal-learning",
+      "rag",
+      "retrieval-augmented-generation",
+      "stars-480",
+      "github-llm-lab-org",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Survey on Multimodal Retrieval-Augmented Generation\n\n来源: https://github.com/llm-lab-org/Multimodal-RAG-Survey\n语言: unknown\nStars: 480",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Multimodal_RAG_ACL2025.pdf\nMultimodal_RAG_Slides.pdf\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.340620618687794
+  }
+]

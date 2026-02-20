@@ -1,0 +1,133 @@
+[
+  {
+    "name": "LatentMAS (Gen-Verse)",
+    "description": "[项目级] Latent Collaboration in Multi-Agent Systems。来源: https://github.com/Gen-Verse/LatentMAS",
+    "domain": "ai-llm",
+    "tags": [
+      "continuous-reasoning",
+      "large-language-models",
+      "latent-reasoning",
+      "latent-space-model",
+      "model-collaboration",
+      "python",
+      "stars-769",
+      "github-gen-verse",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**LatentMAS** is a multi-agent reasoning framework that **moves agent collaboration from token space into the model’s latent space**.  \nInstead of producing long textual reasoning traces, agents communicate by **passing latent thoughts** through their own **working memory**. LatentMAS has the following key features:\n\n- **Efficient** multi-step reasoning with drastically fewer tokens  \n- **Training-free** latent-space alignment for stable generation  \n- **A general technique** compatible with **any HF model** and optionally **vLLM** backends.\n\nOverall, LatentMAS achieves **superior performance**, **lower token usage**, and **major wall-clock speedups** of the multi-agent system.\n\n<p align=\"center\">\n  <img src=\"assets/main.png\" width=\"1000\">\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This repository provides all code for reproducing LatentMAS, TextMAS, and baseline single-agent experiments across GSM8K, AIME24/25, GPQA, ARC-Easy/Challenge, MBPP+, HumanEval+, and MedQA.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n__init__.py\nassets\nassets/efficiency.png\nassets/logo.png\nassets/main.png\nassets/main_res.png\nassets/main_table1.png\nassets/main_table2.png\nassets/main_table3.png\ndata.py\ndata\ndata/medqa.json\nexample_logs\nexample_logs/qwen3_14b_humanevalplus_hierarchical.txt\nexample_logs/qwen3_14b_mbppplus_sequential.txt\nmethods\nmethods/__init__.py\nmethods/baseline.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Two example LatentMAS logs are provided for reference purposes:\n\n* `example_logs/qwen3_14b_mbppplus_sequential.txt`\n* `example_logs/qwen3_14b_humanevalplus_hierarchical.txt`\n\n\nPlease refer to additional experiment logs [here](https://drive.google.com/drive/folders/1evGv5YAmLb4YM_D9Yu0ABa1nfqHC5N-l?usp=drive_link).\nYou can open them to view the full agent interaction traces and outputs.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4429631699007155
+  },
+  {
+    "name": "LatentMAS/assets 模块",
+    "description": "[模块级] LatentMAS 项目的 assets 模块 (source)。来源: https://github.com/Gen-Verse/LatentMAS",
+    "domain": "ai-llm",
+    "tags": [
+      "continuous-reasoning",
+      "large-language-models",
+      "latent-reasoning",
+      "latent-space-model",
+      "model-collaboration",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/efficiency.png\n- assets/logo.png\n- assets/main.png\n- assets/main_res.png\n- assets/main_table1.png\n- assets/main_table2.png\n- assets/main_table3.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/efficiency.png\nassets/logo.png\nassets/main.png\nassets/main_res.png\nassets/main_table1.png\nassets/main_table2.png\nassets/main_table3.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6543705359205725
+  },
+  {
+    "name": "LatentMAS/example_logs 模块",
+    "description": "[模块级] LatentMAS 项目的 example_logs 模块 (source)。来源: https://github.com/Gen-Verse/LatentMAS",
+    "domain": "ai-llm",
+    "tags": [
+      "continuous-reasoning",
+      "large-language-models",
+      "latent-reasoning",
+      "latent-space-model",
+      "model-collaboration",
+      "module-level",
+      "source",
+      "example_logs"
+    ],
+    "genes": [
+      {
+        "title": "example_logs 模块说明",
+        "content": "模块路径: example_logs/\n类型: source\n文件数: 2\n\n包含文件:\n- example_logs/qwen3_14b_humanevalplus_hierarchical.txt\n- example_logs/qwen3_14b_mbppplus_sequential.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example_logs 文件结构",
+        "content": "example_logs/qwen3_14b_humanevalplus_hierarchical.txt\nexample_logs/qwen3_14b_mbppplus_sequential.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6543705359205725
+  },
+  {
+    "name": "LatentMAS/methods 模块",
+    "description": "[模块级] LatentMAS 项目的 methods 模块 (source)。来源: https://github.com/Gen-Verse/LatentMAS",
+    "domain": "ai-llm",
+    "tags": [
+      "continuous-reasoning",
+      "large-language-models",
+      "latent-reasoning",
+      "latent-space-model",
+      "model-collaboration",
+      "module-level",
+      "source",
+      "methods"
+    ],
+    "genes": [
+      {
+        "title": "methods 模块说明",
+        "content": "模块路径: methods/\n类型: source\n文件数: 4\n\n包含文件:\n- methods/__init__.py\n- methods/baseline.py\n- methods/latent_mas.py\n- methods/text_mas.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "methods 文件结构",
+        "content": "methods/__init__.py\nmethods/baseline.py\nmethods/latent_mas.py\nmethods/text_mas.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6543705359205725
+  }
+]

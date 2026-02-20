@@ -1,0 +1,167 @@
+[
+  {
+    "name": "DeepResearchAgent (SkyworkAI)",
+    "description": "[项目级] DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.。来源: https://github.com/SkyworkAI/DeepResearchAgent",
+    "domain": "devops",
+    "tags": [
+      "gaia",
+      "general-purpose",
+      "multiagent-systems",
+      "multimodel",
+      "javascript",
+      "stars-3190",
+      "github-skyworkai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "image.png\nDeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.\n\n> 🌐 **Check out our interactive website**: [https://skyworkai.github.io/DeepResearchAgent/](https://skyworkai.github.io/DeepResearchAgent/) - Explore the architecture, view experiments, and learn more about our research!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nREADME_CN.md\nconfigs\nconfigs/base.py\nconfigs/config_gaia.py\nconfigs/config_general.py\nconfigs/config_hle.py\nconfigs/config_main.py\nconfigs/config_oai_deep_research.py\ndocs\ndocs/README.md\ndocs/assets\ndocs/favicon.svg\ndocs/index.html\ndocs/script.js\ndocs/style.css\nexamples\nexamples/run_gaia.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Hierarchical agent collaboration for complex and dynamic task scenarios\n- Extensible agent system, allowing easy integration of additional specialized agents\n- Automated information analysis, research, and web interaction capabilities\n- Secure Python code execution environment for tools, featuring configurable import controls, restricted built-ins, attribute access limitations, and resource limits. (See [PythonInterpreterTool Sandboxing](./docs/python_interpreter_sandbox.md) for details).\n- Support for asynchronous operations, enabling efficient handling of multiple tasks and agents\n- Suppor",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7518953415285905
+  },
+  {
+    "name": "DeepResearchAgent/configs 模块",
+    "description": "[模块级] DeepResearchAgent 项目的 configs 模块 (config)。来源: https://github.com/SkyworkAI/DeepResearchAgent",
+    "domain": "devops",
+    "tags": [
+      "gaia",
+      "general-purpose",
+      "multiagent-systems",
+      "multimodel",
+      "javascript",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 6\n\n包含文件:\n- configs/base.py\n- configs/config_gaia.py\n- configs/config_general.py\n- configs/config_hle.py\n- configs/config_main.py\n- configs/config_oai_deep_research.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/base.py\nconfigs/config_gaia.py\nconfigs/config_general.py\nconfigs/config_hle.py\nconfigs/config_main.py\nconfigs/config_oai_deep_research.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9015162732228728
+  },
+  {
+    "name": "DeepResearchAgent/docs 模块",
+    "description": "[模块级] DeepResearchAgent 项目的 docs 模块 (docs)。来源: https://github.com/SkyworkAI/DeepResearchAgent",
+    "domain": "documentation",
+    "tags": [
+      "gaia",
+      "general-purpose",
+      "multiagent-systems",
+      "multimodel",
+      "javascript",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/README.md\n- docs/assets\n- docs/assets/architecture.png\n- docs/assets/cat_playing_with_yarn_video.gif\n- docs/assets/cat_yarn_playful_reference.png\n- docs/assets/gaia_test.png\n- docs/assets/gaia_validation.png\n- docs/assets/python_interpreter_sandbox.md\n- docs/favicon.svg\n- docs/index.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/assets\ndocs/assets/architecture.png\ndocs/assets/cat_playing_with_yarn_video.gif\ndocs/assets/cat_yarn_playful_reference.png\ndocs/assets/gaia_test.png\ndocs/assets/gaia_validation.png\ndocs/assets/python_interpreter_sandbox.md\ndocs/favicon.svg\ndocs/index.html\ndocs/script.js\ndocs/style.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9015162732228728
+  },
+  {
+    "name": "DeepResearchAgent/examples 模块",
+    "description": "[模块级] DeepResearchAgent 项目的 examples 模块 (example)。来源: https://github.com/SkyworkAI/DeepResearchAgent",
+    "domain": "devops",
+    "tags": [
+      "gaia",
+      "general-purpose",
+      "multiagent-systems",
+      "multimodel",
+      "javascript",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 4\n\n包含文件:\n- examples/run_gaia.py\n- examples/run_general.py\n- examples/run_hle.py\n- examples/run_oai_deep_research.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/run_gaia.py\nexamples/run_general.py\nexamples/run_hle.py\nexamples/run_oai_deep_research.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9015162732228728
+  },
+  {
+    "name": "DeepResearchAgent/src 模块",
+    "description": "[模块级] DeepResearchAgent 项目的 src 模块 (source)。来源: https://github.com/SkyworkAI/DeepResearchAgent",
+    "domain": "devops",
+    "tags": [
+      "gaia",
+      "general-purpose",
+      "multiagent-systems",
+      "multimodel",
+      "javascript",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 150\n\n包含文件:\n- src/__init__.py\n- src/agent\n- src/agent/__init__.py\n- src/agent/agent.py\n- src/agent/browser_use_agent\n- src/agent/browser_use_agent/__init__.py\n- src/agent/browser_use_agent/browser_use_agent.py\n- src/agent/browser_use_agent/prompts\n- src/agent/browser_use_agent/prompts/browser_use_agent.yaml\n- src/agent/deep_analyzer_agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/agent\nsrc/agent/__init__.py\nsrc/agent/agent.py\nsrc/agent/browser_use_agent\nsrc/agent/browser_use_agent/__init__.py\nsrc/agent/browser_use_agent/browser_use_agent.py\nsrc/agent/browser_use_agent/prompts\nsrc/agent/browser_use_agent/prompts/browser_use_agent.yaml\nsrc/agent/deep_analyzer_agent\nsrc/agent/deep_analyzer_agent/__init__.py\nsrc/agent/deep_analyzer_agent/deep_analyzer_agent.py\nsrc/agent/deep_analyzer_agent/prompts\nsrc/agent/deep_analyzer_agent/prompts/deep_analyzer_agent.yaml\nsrc/agent/deep_researcher_agent",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9015162732228728
+  }
+]

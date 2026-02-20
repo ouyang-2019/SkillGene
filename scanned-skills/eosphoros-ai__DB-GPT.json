@@ -1,0 +1,163 @@
+[
+  {
+    "name": "DB-GPT (eosphoros-ai)",
+    "description": "[项目级] AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents。来源: https://github.com/eosphoros-ai/DB-GPT",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "python",
+      "stars-18138",
+      "github-eosphoros-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The architecture of DB-GPT is shown in the following figure:\n\n<p align=\"center\">\n  <img src=\"./assets/dbgpt.png\" width=\"800\" />\n</p>\n\nThe core capabilities include the following parts:\n\n- **RAG (Retrieval Augmented Generation)**: RAG is currently the most practically implemented and urgently needed domain. DB-GPT has already implemented a framework based on RAG, allowing users to build knowledge-based applications using the RAG capabilities of DB-GPT.\n\n- **GBI (Generative Business Intelligence)**: Generative BI is one of the core capabilities of the DB-GPT project, providing the foundational data intelligence technology to build enterprise report analysis and business insights.\n\n- **Fine-tuning Framework**: Model fine-tuning is an indispensable capability for any enterprise to implement in",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)\n![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)\n![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)\n![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)\n\n[**Usage Tutorial**](http://docs.dbgpt.cn/docs/overview)\n- [**Install**](http://docs.dbgpt.cn/docs/installation)\n  - [Docker](http://docs.dbgpt.cn/docs/installation/docker)\n  - [Sourc",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT\nCONTRIBUTING.md\nDISCKAIMER.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.hi.md\nREADME.ja.md\nREADME.ma.md\nREADME.md\nREADME.ta.md\nREADME.zh.md\nREADMR.hi.md\nassets\nassets/DB-GPT.png\nassets/DB-GPT_zh.png\nassets/LOGO.png\nassets/LOGO_SMALL.png\nassets/RAG-IN-ACTION.jpg\nassets/Twitter_LOGO.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "At present, we have introduced several key features to showcase our current capabilities:\n- **Private Domain Q&A & Data Processing**\n\n  The DB-GPT project offers a range of functionalities designed to improve knowledge base construction and enable efficient storage and retrieval of both structured and unstructured data. These functionalities include built-in support for uploading multiple file formats, the ability to integrate custom data extraction plug-ins, and unified vector storage and retrieval capabilities for effectively managing large volumes of information.\n\n- **Multi-Data Source & GB",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "DB-GPT/assets 模块",
+    "description": "[模块级] DB-GPT 项目的 assets 模块 (source)。来源: https://github.com/eosphoros-ai/DB-GPT",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "<p align=\"left\">\n  <img src=\"./assets/Twitter_LOGO.png\" width=\"100%\" />\n</p>\n\n<div align=\"center\">\n  <p>\n    <a href=\"https://github.com/eosphoros-ai/DB-GPT\">\n        <img alt=\"stars\" src=\"https://img.shields.io/github/stars/eosphoros-ai/db-gpt?style=social\" />\n    </a>\n    <a href=\"https://github.com/eosphoros-ai/DB-GPT\">\n        <img alt=\"forks\" src=\"https://img.shields.io/github/forks/eosphoros-ai/db-gpt?style=social\" />\n    </a>\n    <a href=\"http://dbgpt.cn/\">\n        <img alt=\"Official Webs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/DB-GPT.png\nassets/DB-GPT_zh.png\nassets/LOGO.png\nassets/LOGO_SMALL.png\nassets/RAG-IN-ACTION.jpg\nassets/Twitter_LOGO.png\nassets/Youtube_LOGO.png\nassets/dbgpt.png\nassets/ding.jpg\nassets/schema\nassets/schema/dbgpt.sql\nassets/schema/upgrade\nassets/schema/upgrade/v0_5_1\nassets/schema/upgrade/v0_5_1/upgrade_to_v0.5.1.sql\nassets/schema/upgrade/v0_5_1/v0.5.0.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.203435759024584
+  },
+  {
+    "name": "DB-GPT/configs 模块",
+    "description": "[模块级] DB-GPT 项目的 configs 模块 (config)。来源: https://github.com/eosphoros-ai/DB-GPT",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 20\n\n包含文件:\n- configs/dbgpt-app-config.example.toml\n- configs/dbgpt-bm25-rag.toml\n- configs/dbgpt-cloud-storage.example.toml\n- configs/dbgpt-graphrag.toml\n- configs/dbgpt-local-glm.toml\n- configs/dbgpt-local-llama-cpp-server.toml\n- configs/dbgpt-local-llama-cpp.toml\n- configs/dbgpt-local-mlx.toml\n- configs/dbgpt-local-qwen.toml\n- configs/dbgpt-local-qwen3.example.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/dbgpt-app-config.example.toml\nconfigs/dbgpt-bm25-rag.toml\nconfigs/dbgpt-cloud-storage.example.toml\nconfigs/dbgpt-graphrag.toml\nconfigs/dbgpt-local-glm.toml\nconfigs/dbgpt-local-llama-cpp-server.toml\nconfigs/dbgpt-local-llama-cpp.toml\nconfigs/dbgpt-local-mlx.toml\nconfigs/dbgpt-local-qwen.toml\nconfigs/dbgpt-local-qwen3.example.toml\nconfigs/dbgpt-local-vllm.toml\nconfigs/dbgpt-proxy-aimlapi.toml\nconfigs/dbgpt-proxy-burncloud.toml\nconfigs/dbgpt-proxy-deepseek.toml\nconfigs/dbgpt-proxy-infiniai.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.203435759024584
+  },
+  {
+    "name": "DB-GPT/docker 模块",
+    "description": "[模块级] DB-GPT 项目的 docker 模块 (source)。来源: https://github.com/eosphoros-ai/DB-GPT",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 58\n\n包含文件:\n- docker/allinone\n- docker/allinone/Dockerfile\n- docker/allinone/allinone-entrypoint.sh\n- docker/allinone/build_image.sh\n- docker/allinone/run.sh\n- docker/allinone/run_proxyllm.sh\n- docker/base\n- docker/base/Dockerfile\n- docker/base/build_image.sh\n- docker/base/build_proxy_image.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/allinone\ndocker/allinone/Dockerfile\ndocker/allinone/allinone-entrypoint.sh\ndocker/allinone/build_image.sh\ndocker/allinone/run.sh\ndocker/allinone/run_proxyllm.sh\ndocker/base\ndocker/base/Dockerfile\ndocker/base/build_image.sh\ndocker/base/build_proxy_image.sh\ndocker/base/run_sqlite.sh\ndocker/base/run_sqlite_proxyllm.sh\ndocker/build_all_images.sh\ndocker/compose_examples\ndocker/compose_examples/cluster-docker-compose.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.203435759024584
+  },
+  {
+    "name": "DB-GPT/docs 模块",
+    "description": "[模块级] DB-GPT 项目的 docs 模块 (docs)。来源: https://github.com/eosphoros-ai/DB-GPT",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "bgi",
+      "database",
+      "deepseek",
+      "gpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 18\n\n包含文件:\n- docs/.gitignore\n- docs/Dockerfile\n- docs/Dockerfile-deploy\n- docs/Dockerfile-deploy.dockerignore\n- docs/README.md\n- docs/babel.config.js\n- docs/blog\n- docs/blog/2024-07-24-db-gpt-llama-3.1-support.md\n- docs/blog/2024-09-04-dbgpt-v0.6.0-Defining new standards for AI-native data applications.md\n- docs/blog/2025-03-24-dbgpt-v0.7.0-release.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/Dockerfile\ndocs/Dockerfile-deploy\ndocs/Dockerfile-deploy.dockerignore\ndocs/README.md\ndocs/babel.config.js\ndocs/blog\ndocs/blog/2024-07-24-db-gpt-llama-3.1-support.md\ndocs/blog/2024-09-04-dbgpt-v0.6.0-Defining new standards for AI-native data applications.md\ndocs/blog/2025-03-24-dbgpt-v0.7.0-release.md\ndocs/blog/2025-04-29-db-gpt-qwen3-support.md\ndocs/blog/authors.yml\ndocs/blog/tags.yml\ndocs/docs\ndocs/docs/agents",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.203435759024584
+  }
+]

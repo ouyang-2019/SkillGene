@@ -1,0 +1,218 @@
+[
+  {
+    "name": "OpenContext (0xranx)",
+    "description": "[项目级] A personal context store for AI agents and assistants—reuse your existing coding agent CLI (Codex/Claude/OpenCode) with built‑in Skills/tools and a desktop GUI to capture, search, and reuse project knowledge across agents and repos.。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "javascript",
+      "stars-391",
+      "github-0xranx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A personal context store for AI agents and assistants—reuse your existing coding agent CLI (Codex/Claude/OpenCode) with built‑in Skills/tools and a desktop GUI to capture, search, and reuse project knowledge across agents and repos.\n\n来源: https://github.com/0xranx/OpenContext\n语言: JavaScript\nStars: 391",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.md\nREADME.zh-CN.md\nbin\nbin/oc.js\ncrates\ncrates/opencontext-core\ncrates/opencontext-node\ndocs\ndocs/images\nlogo-dark.svg\nmcp.example.json\npackage-lock.json\npackage.json\nscripts\nscripts/api-server.js\nscripts/pre-commit\nscripts/setup-hooks.sh\nsrc-ios",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296088378697934
+  },
+  {
+    "name": "OpenContext/crates 模块",
+    "description": "[模块级] OpenContext 项目的 crates 模块 (source)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "模块路径: crates/\n类型: source\n文件数: 30\n\n包含文件:\n- crates/opencontext-core\n- crates/opencontext-core/Cargo.toml\n- crates/opencontext-core/src\n- crates/opencontext-core/src/events.rs\n- crates/opencontext-core/src/lib.rs\n- crates/opencontext-core/src/search\n- crates/opencontext-core/src/search/chunker.rs\n- crates/opencontext-core/src/search/config.rs\n- crates/opencontext-core/src/search/embedding.rs\n- crates/opencontext-core/src/search/error.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/opencontext-core\ncrates/opencontext-core/Cargo.toml\ncrates/opencontext-core/src\ncrates/opencontext-core/src/events.rs\ncrates/opencontext-core/src/lib.rs\ncrates/opencontext-core/src/search\ncrates/opencontext-core/src/search/chunker.rs\ncrates/opencontext-core/src/search/config.rs\ncrates/opencontext-core/src/search/embedding.rs\ncrates/opencontext-core/src/search/error.rs\ncrates/opencontext-core/src/search/index_sync.rs\ncrates/opencontext-core/src/search/indexer.rs\ncrates/opencontext-core/src/search/mod.rs\ncrates/opencontext-core/src/search/searcher.rs\ncrates/opencontext-core/src/search/tests.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  },
+  {
+    "name": "OpenContext/docs 模块",
+    "description": "[模块级] OpenContext 项目的 docs 模块 (docs)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 9\n\n包含文件:\n- docs/images\n- docs/images/avatar.png\n- docs/images/folder-refer-git.gif\n- docs/images/logo-dark.png\n- docs/images/logo-dark.svg\n- docs/images/logo-light.png\n- docs/images/logo-light.svg\n- docs/images/logo.png\n- docs/images/overview.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/avatar.png\ndocs/images/folder-refer-git.gif\ndocs/images/logo-dark.png\ndocs/images/logo-dark.svg\ndocs/images/logo-light.png\ndocs/images/logo-light.svg\ndocs/images/logo.png\ndocs/images/overview.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  },
+  {
+    "name": "OpenContext/scripts 模块",
+    "description": "[模块级] OpenContext 项目的 scripts 模块 (script)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/api-server.js\n- scripts/pre-commit\n- scripts/setup-hooks.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/api-server.js\nscripts/pre-commit\nscripts/setup-hooks.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  },
+  {
+    "name": "OpenContext/src-ios 模块",
+    "description": "[模块级] OpenContext 项目的 src-ios 模块 (source)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "source",
+      "src-ios"
+    ],
+    "genes": [
+      {
+        "title": "src-ios 模块说明",
+        "content": "模块路径: src-ios/\n类型: source\n文件数: 72\n\n包含文件:\n- src-ios/App.js\n- src-ios/README.md\n- src-ios/app.json\n- src-ios/assets\n- src-ios/assets/icon.png\n- src-ios/babel.config.js\n- src-ios/components\n- src-ios/components/Card.js\n- src-ios/components/EmptyState.js\n- src-ios/components/FadeInView.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-ios 文件结构",
+        "content": "src-ios/App.js\nsrc-ios/README.md\nsrc-ios/app.json\nsrc-ios/assets\nsrc-ios/assets/icon.png\nsrc-ios/babel.config.js\nsrc-ios/components\nsrc-ios/components/Card.js\nsrc-ios/components/EmptyState.js\nsrc-ios/components/FadeInView.js\nsrc-ios/components/FloatingButton.js\nsrc-ios/components/Screen.js\nsrc-ios/config.js\nsrc-ios/db\nsrc-ios/db/docs.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  },
+  {
+    "name": "OpenContext/src-tauri 模块",
+    "description": "[模块级] OpenContext 项目的 src-tauri 模块 (source)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 30\n\n包含文件:\n- src-tauri/Cargo.toml\n- src-tauri/build.rs\n- src-tauri/capabilities\n- src-tauri/capabilities/default.json\n- src-tauri/icons\n- src-tauri/icons/128x128.png\n- src-tauri/icons/128x128@2x.png\n- src-tauri/icons/32x32.png\n- src-tauri/icons/64x64.png\n- src-tauri/icons/about-icon.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/Cargo.toml\nsrc-tauri/build.rs\nsrc-tauri/capabilities\nsrc-tauri/capabilities/default.json\nsrc-tauri/icons\nsrc-tauri/icons/128x128.png\nsrc-tauri/icons/128x128@2x.png\nsrc-tauri/icons/32x32.png\nsrc-tauri/icons/64x64.png\nsrc-tauri/icons/about-icon.png\nsrc-tauri/icons/icon.icns\nsrc-tauri/icons/icon.ico\nsrc-tauri/icons/icon_source.svg\nsrc-tauri/icons/tray-icon-32.png\nsrc-tauri/icons/tray-icon-template-36.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  },
+  {
+    "name": "OpenContext/src 模块",
+    "description": "[模块级] OpenContext 项目的 src 模块 (source)。来源: https://github.com/0xranx/OpenContext",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 31\n\n包含文件:\n- src/core\n- src/core/agents.js\n- src/core/config.js\n- src/core/native.js\n- src/core/search\n- src/core/search/formatter.js\n- src/core/search/index.js\n- src/core/search/indexSync.js\n- src/core/search/native-adapter.js\n- src/core/store-native.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/core\nsrc/core/agents.js\nsrc/core/config.js\nsrc/core/native.js\nsrc/core/search\nsrc/core/search/formatter.js\nsrc/core/search/index.js\nsrc/core/search/indexSync.js\nsrc/core/search/native-adapter.js\nsrc/core/store-native.js\nsrc/core/store\nsrc/core/store/index.js\nsrc/mcp\nsrc/mcp/server.js\nsrc/ui",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.536870702958347
+  }
+]

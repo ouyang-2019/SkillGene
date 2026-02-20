@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Paper2Agent (jmiao24)",
+    "description": "[项目级] Paper2Agent is a multi-agent AI system that automatically transforms research papers into interactive AI agents with minimal human input.。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "`Paper2Agent` is a multi-agent AI system that automatically transforms research papers into interactive AI agents with minimal human input. Here are some [Demos](#-demos) of the Paper2Agent-generated agent.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPaper2Agent.sh\nREADME.md\nagents\nagents/benchmark-extractor.md\nagents/benchmark-judge.md\nagents/benchmark-reviewer.md\nagents/benchmark-solver.md\nagents/environment-python-manager.md\nagents/test-verifier-improver.md\nagents/tutorial-executor.md\nagents/tutorial-scanner.md\nagents/tutorial-tool-extractor-implementor.md\nlaunch_remote_mcp.sh\nlogo\nlogo/paper2agent_logo.png\nprompts\nprompts/.DS_Store\nprompts/step1_prompt.md\nprompts/step2_prompt.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cd Paper2Agent\n\nbash Paper2Agent.sh \\\n  --project_dir <PROJECT_DIR> \\\n  --github_url <GITHUB_URL>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.64964466704384
+  },
+  {
+    "name": "Paper2Agent/agents 模块",
+    "description": "[模块级] Paper2Agent 项目的 agents 模块 (source)。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 9\n\n包含文件:\n- agents/benchmark-extractor.md\n- agents/benchmark-judge.md\n- agents/benchmark-reviewer.md\n- agents/benchmark-solver.md\n- agents/environment-python-manager.md\n- agents/test-verifier-improver.md\n- agents/tutorial-executor.md\n- agents/tutorial-scanner.md\n- agents/tutorial-tool-extractor-implementor.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/benchmark-extractor.md\nagents/benchmark-judge.md\nagents/benchmark-reviewer.md\nagents/benchmark-solver.md\nagents/environment-python-manager.md\nagents/test-verifier-improver.md\nagents/tutorial-executor.md\nagents/tutorial-scanner.md\nagents/tutorial-tool-extractor-implementor.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819715733635072
+  },
+  {
+    "name": "Paper2Agent/prompts 模块",
+    "description": "[模块级] Paper2Agent 项目的 prompts 模块 (source)。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 6\n\n包含文件:\n- prompts/.DS_Store\n- prompts/step1_prompt.md\n- prompts/step2_prompt.md\n- prompts/step3_prompt.md\n- prompts/step4_prompt.md\n- prompts/step5_prompt.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/.DS_Store\nprompts/step1_prompt.md\nprompts/step2_prompt.md\nprompts/step3_prompt.md\nprompts/step4_prompt.md\nprompts/step5_prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819715733635072
+  },
+  {
+    "name": "Paper2Agent/scripts 模块",
+    "description": "[模块级] Paper2Agent 项目的 scripts 模块 (script)。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 12\n\n包含文件:\n- scripts/01_setup_project.sh\n- scripts/02_clone_repo.sh\n- scripts/03_prepare_folders.sh\n- scripts/04_add_context7_mcp.sh\n- scripts/05_run_step1_setup_env.sh\n- scripts/05_run_step2_execute_tutorials.sh\n- scripts/05_run_step3_extract_tools.sh\n- scripts/05_run_step4_wrap_mcp.sh\n- scripts/05_run_step5_generate_coverage.sh\n- scripts/05_run_step6_extract_benchmarks.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/01_setup_project.sh\nscripts/02_clone_repo.sh\nscripts/03_prepare_folders.sh\nscripts/04_add_context7_mcp.sh\nscripts/05_run_step1_setup_env.sh\nscripts/05_run_step2_execute_tutorials.sh\nscripts/05_run_step3_extract_tools.sh\nscripts/05_run_step4_wrap_mcp.sh\nscripts/05_run_step5_generate_coverage.sh\nscripts/05_run_step6_extract_benchmarks.sh\nscripts/05_run_step7_benchmark_assessment.sh\nscripts/06_launch_mcp.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819715733635072
+  },
+  {
+    "name": "Paper2Agent/templates 模块",
+    "description": "[模块级] Paper2Agent 项目的 templates 模块 (source)。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 15\n\n包含文件:\n- templates/.DS_Store\n- templates/AlphaPOP\n- templates/AlphaPOP/score_batch.ipynb\n- templates/src\n- templates/src/AlphaPOP_mcp.py\n- templates/src/tools\n- templates/src/tools/score_batch.py\n- templates/test\n- templates/test/.DS_Store\n- templates/test/code",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/.DS_Store\ntemplates/AlphaPOP\ntemplates/AlphaPOP/score_batch.ipynb\ntemplates/src\ntemplates/src/AlphaPOP_mcp.py\ntemplates/src/tools\ntemplates/src/tools/score_batch.py\ntemplates/test\ntemplates/test/.DS_Store\ntemplates/test/code\ntemplates/test/code/score_batch_test.py\ntemplates/test/data\ntemplates/test/data/score_batch\ntemplates/test/data/score_batch/example_variants.csv\ntemplates/test/data/score_batch/score_batch_data.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819715733635072
+  },
+  {
+    "name": "Paper2Agent/tools 模块",
+    "description": "[模块级] Paper2Agent 项目的 tools 模块 (script)。来源: https://github.com/jmiao24/Paper2Agent",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-1992",
+      "github-jmiao24",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "模块路径: tools/\n类型: script\n文件数: 5\n\n包含文件:\n- tools/benchmark_assessor.py\n- tools/benchmark_extractor.py\n- tools/benchmark_reviewer.py\n- tools/extract_notebook_images.py\n- tools/preprocess_notebook.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/benchmark_assessor.py\ntools/benchmark_extractor.py\ntools/benchmark_reviewer.py\ntools/extract_notebook_images.py\ntools/preprocess_notebook.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.819715733635072
+  }
+]

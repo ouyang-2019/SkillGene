@@ -1,0 +1,163 @@
+[
+  {
+    "name": "obsidian-textgenerator-plugin (nhaouari)",
+    "description": "[项目级] Text Generator is a versatile plugin for Obsidian that allows you to generate text content using various AI providers, including OpenAI, Anthropic, Google and local models.。来源: https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-3",
+      "gpt-4",
+      "huggingface",
+      "typescript",
+      "stars-1868",
+      "github-nhaouari",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Text Generator is a versatile plugin for Obsidian that allows you to generate text content using various AI providers, including OpenAI, Anthropic, Google and local models.\n\n来源: https://github.com/nhaouari/obsidian-textgenerator-plugin\n语言: TypeScript\nStars: 1868",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nesbuild.config.mjs\nimages\nimages/20220227121447.png\nimages/20220227121545.png\nimages/20220227121829.png\nimages/20220227122219.png\nimages/20220227122749.png\nmanifest-beta.json\nmanifest.json\nobsidian-alias\nobsidian-alias/events.js\nobsidian-alias/fs.js\nobsidian-alias/fsPromises.js\nobsidian-alias/index.js\nobsidian-alias/node-fetch.js\nobsidian-alias/path.js\nobsidian-alias/process.js\nobsidian-alias/util.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "There are many benefits to using a Text Generator Plugin, including the following:\n\n- **Free and Open Source**: The Text Generator Plugin is free and open source, so you can use it without worrying about licensing fees.\n\n- **Beside Obsidian**: Obsidian is very powerful and extensible Personal Knowledge Management software so you can use Text Generator Plugin alongside Obsidian to create a more powerful Personal Knowledge Management system.\n\n- **Flexible Prompts**: The context of the prompt is straightforward using all the available options in the Considered Context which gives you a higher fle",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.635688435947037
+  },
+  {
+    "name": "obsidian-textgenerator-plugin/images 模块",
+    "description": "[模块级] obsidian-textgenerator-plugin 项目的 images 模块 (source)。来源: https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-3",
+      "gpt-4",
+      "huggingface",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/20220227121447.png\n- images/20220227121545.png\n- images/20220227121829.png\n- images/20220227122219.png\n- images/20220227122749.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/20220227121447.png\nimages/20220227121545.png\nimages/20220227121829.png\nimages/20220227122219.png\nimages/20220227122749.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8085507487576296
+  },
+  {
+    "name": "obsidian-textgenerator-plugin/obsidian-alias 模块",
+    "description": "[模块级] obsidian-textgenerator-plugin 项目的 obsidian-alias 模块 (source)。来源: https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-3",
+      "gpt-4",
+      "huggingface",
+      "module-level",
+      "source",
+      "obsidian-alias"
+    ],
+    "genes": [
+      {
+        "title": "obsidian-alias 模块说明",
+        "content": "模块路径: obsidian-alias/\n类型: source\n文件数: 8\n\n包含文件:\n- obsidian-alias/events.js\n- obsidian-alias/fs.js\n- obsidian-alias/fsPromises.js\n- obsidian-alias/index.js\n- obsidian-alias/node-fetch.js\n- obsidian-alias/path.js\n- obsidian-alias/process.js\n- obsidian-alias/util.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "obsidian-alias 文件结构",
+        "content": "obsidian-alias/events.js\nobsidian-alias/fs.js\nobsidian-alias/fsPromises.js\nobsidian-alias/index.js\nobsidian-alias/node-fetch.js\nobsidian-alias/path.js\nobsidian-alias/process.js\nobsidian-alias/util.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8085507487576296
+  },
+  {
+    "name": "obsidian-textgenerator-plugin/scripts 模块",
+    "description": "[模块级] obsidian-textgenerator-plugin 项目的 scripts 模块 (script)。来源: https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-3",
+      "gpt-4",
+      "huggingface",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/remove-tag.js\n- scripts/version-bump.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/remove-tag.js\nscripts/version-bump.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8085507487576296
+  },
+  {
+    "name": "obsidian-textgenerator-plugin/src 模块",
+    "description": "[模块级] obsidian-textgenerator-plugin 项目的 src 模块 (source)。来源: https://github.com/nhaouari/obsidian-textgenerator-plugin",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "gpt-3",
+      "gpt-4",
+      "huggingface",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 155\n\n包含文件:\n- src/LLMProviders\n- src/LLMProviders/base.tsx\n- src/LLMProviders/custom\n- src/LLMProviders/custom/anthropic.tsx\n- src/LLMProviders/custom/base.tsx\n- src/LLMProviders/custom/custom.tsx\n- src/LLMProviders/index.ts\n- src/LLMProviders/interface.ts\n- src/LLMProviders/langchain\n- src/LLMProviders/langchain/azureOpenAIChat.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/LLMProviders\nsrc/LLMProviders/base.tsx\nsrc/LLMProviders/custom\nsrc/LLMProviders/custom/anthropic.tsx\nsrc/LLMProviders/custom/base.tsx\nsrc/LLMProviders/custom/custom.tsx\nsrc/LLMProviders/index.ts\nsrc/LLMProviders/interface.ts\nsrc/LLMProviders/langchain\nsrc/LLMProviders/langchain/azureOpenAIChat.tsx\nsrc/LLMProviders/langchain/azureOpenAIInstruct.tsx\nsrc/LLMProviders/langchain/base.tsx\nsrc/LLMProviders/langchain/chatanthropic.tsx\nsrc/LLMProviders/langchain/clones.tsx\nsrc/LLMProviders/langchain/googleGenerativeAI.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8085507487576296
+  }
+]

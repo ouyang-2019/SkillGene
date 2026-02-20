@@ -1,0 +1,133 @@
+[
+  {
+    "name": "matrixone (matrixorigin)",
+    "description": "[项目级] MySQL-compatible HTAP database with Git for Data, vector search, and fulltext search. Cloud-native, AI-ready。来源: https://github.com/matrixorigin/matrixone",
+    "domain": "database",
+    "tags": [
+      "ai-native",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "go",
+      "stars-1885",
+      "github-matrixorigin",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MySQL-compatible HTAP database with Git for Data, vector search, and fulltext search. Cloud-native, AI-ready\n\n来源: https://github.com/matrixorigin/matrixone\n语言: Go\nStars: 1885",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "| Tutorial | Language/Framework | Description |\n|----------|-------------------|-------------|\n| [Java CRUD Demo](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/develop-java-crud-demo/) | Java | Java application development |\n| [SpringBoot and JPA CRUD Demo](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/springboot-hibernate-crud-demo/) | Java | SpringBoot with Hibernate/JPA |\n| [PyMySQL CRUD Demo](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/develop-python-crud-demo/) | Python | Basic database operations with Python |\n| [SQLAlchemy CRUD Demo](https:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BUILD.md\nCODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nINSTALLATION.md\nLICENSE\nLICENSES\nLICENSES/Foundationdb-license\nLICENSES/Golang-license\nLICENSES/Goyacc-license\nLICENSES/Leveldb-go-license\nMakefile\nREADME.md\nREADME_CN.md\ncgo\ncgo/.gitignore\ncgo/Makefile\ncgo/README.md\ncgo/arith.c\ncgo/bitmap.h",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Tutorial | Use Case | Related MatrixOne Features |\n|----------|----------|---------------------------|\n| [Pinecone-Compatible Vector Search](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/pinecone-vector-demo/) | AI & Search | vector search, Pinecone-compatible API |\n| [IVF Index Health Monitoring](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/ivf-index-health-demo/) | AI & Search | vector search, IVF index |\n| [HNSW Vector Index](https://docs.matrixorigin.cn/en/v25.3.0.2/MatrixOne/Tutorial/hnsw-vector-demo/) | AI & Search | vector search, HNSW index |\n| [Fulltex",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.637655677270906
+  },
+  {
+    "name": "matrixone/LICENSES 模块",
+    "description": "[模块级] matrixone 项目的 LICENSES 模块 (source)。来源: https://github.com/matrixorigin/matrixone",
+    "domain": "database",
+    "tags": [
+      "ai-native",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "module-level",
+      "source",
+      "licenses"
+    ],
+    "genes": [
+      {
+        "title": "LICENSES 模块说明",
+        "content": "模块路径: LICENSES/\n类型: source\n文件数: 4\n\n包含文件:\n- LICENSES/Foundationdb-license\n- LICENSES/Golang-license\n- LICENSES/Goyacc-license\n- LICENSES/Leveldb-go-license",
+        "gene_type": "principle"
+      },
+      {
+        "title": "LICENSES 文件结构",
+        "content": "LICENSES/Foundationdb-license\nLICENSES/Golang-license\nLICENSES/Goyacc-license\nLICENSES/Leveldb-go-license",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "matrixone/cgo 模块",
+    "description": "[模块级] matrixone 项目的 cgo 模块 (source)。来源: https://github.com/matrixorigin/matrixone",
+    "domain": "database",
+    "tags": [
+      "ai-native",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "module-level",
+      "source",
+      "cgo"
+    ],
+    "genes": [
+      {
+        "title": "cgo 模块说明",
+        "content": "模块路径: cgo/\n类型: source\n文件数: 29\n\n包含文件:\n- cgo/.gitignore\n- cgo/Makefile\n- cgo/README.md\n- cgo/arith.c\n- cgo/bitmap.h\n- cgo/bloom.c\n- cgo/bloom.h\n- cgo/compare.c\n- cgo/cuda\n- cgo/cuda/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cgo 文件结构",
+        "content": "cgo/.gitignore\ncgo/Makefile\ncgo/README.md\ncgo/arith.c\ncgo/bitmap.h\ncgo/bloom.c\ncgo/bloom.h\ncgo/compare.c\ncgo/cuda\ncgo/cuda/.gitignore\ncgo/cuda/Makefile\ncgo/cuda/cuda.cpp\ncgo/cuda/mocl.cu\ncgo/lib.go\ncgo/logic.c",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  },
+  {
+    "name": "matrixone/clients 模块",
+    "description": "[模块级] matrixone 项目的 clients 模块 (source)。来源: https://github.com/matrixorigin/matrixone",
+    "domain": "database",
+    "tags": [
+      "ai-native",
+      "cloud-native",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "module-level",
+      "source",
+      "clients"
+    ],
+    "genes": [
+      {
+        "title": "clients 模块说明",
+        "content": "模块路径: clients/\n类型: source\n文件数: 128\n\n包含文件:\n- clients/python\n- clients/python/.editorconfig\n- clients/python/.flake8\n- clients/python/.github\n- clients/python/.github/workflows\n- clients/python/.github/workflows/compatibility-test.yml\n- clients/python/.github/workflows/test.yml\n- clients/python/.gitignore\n- clients/python/LICENSE\n- clients/python/MANIFEST.in",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clients 文件结构",
+        "content": "clients/python\nclients/python/.editorconfig\nclients/python/.flake8\nclients/python/.github\nclients/python/.github/workflows\nclients/python/.github/workflows/compatibility-test.yml\nclients/python/.github/workflows/test.yml\nclients/python/.gitignore\nclients/python/LICENSE\nclients/python/MANIFEST.in\nclients/python/Makefile\nclients/python/README.md\nclients/python/README_USER.md\nclients/python/READTHEDOCS.md\nclients/python/RELEASE_WORKFLOW.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.810124541816725
+  }
+]

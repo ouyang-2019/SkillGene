@@ -1,0 +1,373 @@
+[
+  {
+    "name": "casibase (casibase)",
+    "description": "[项目级] ⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "go",
+      "stars-4442",
+      "github-casibase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com\n\n来源: https://github.com/casibase/casibase\n语言: Go\nStars: 4442",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<https://casibase.org/docs/basic/server-installation>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nDockerfile\nLICENSE\nREADME.md\nagent\nagent/agent_util.go\nagent/builtin_tool\nagent/mcp.go\nagent/mcp_util.go\nagent/provider.go\nassets\nassets/0-Architecture-casibase.png\naudio\naudio/audio.go\naudio/audio_test.go\naudio/xfyun_client.go\naudio/xfyun_client_test.go\naudio/xfyun_conf.go\naudio/xfyun_util.go\nbpmn",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Discord: <https://discord.gg/5rPsrAzK7S>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.823789277106227
+  },
+  {
+    "name": "casibase/agent 模块",
+    "description": "[模块级] casibase 项目的 agent 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "模块路径: agent/\n类型: source\n文件数: 12\n\n包含文件:\n- agent/agent_util.go\n- agent/builtin_tool\n- agent/builtin_tool/builtin_tool.go\n- agent/builtin_tool/time\n- agent/builtin_tool/time/current_time.go\n- agent/builtin_tool/time/localtime_to_timestamp.go\n- agent/builtin_tool/time/timestamp_to_localtime.go\n- agent/builtin_tool/time/timezone_conversion.go\n- agent/builtin_tool/time/weekday.go\n- agent/mcp.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/agent_util.go\nagent/builtin_tool\nagent/builtin_tool/builtin_tool.go\nagent/builtin_tool/time\nagent/builtin_tool/time/current_time.go\nagent/builtin_tool/time/localtime_to_timestamp.go\nagent/builtin_tool/time/timestamp_to_localtime.go\nagent/builtin_tool/time/timezone_conversion.go\nagent/builtin_tool/time/weekday.go\nagent/mcp.go\nagent/mcp_util.go\nagent/provider.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/audio 模块",
+    "description": "[模块级] casibase 项目的 audio 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "audio"
+    ],
+    "genes": [
+      {
+        "title": "audio 模块说明",
+        "content": "模块路径: audio/\n类型: source\n文件数: 6\n\n包含文件:\n- audio/audio.go\n- audio/audio_test.go\n- audio/xfyun_client.go\n- audio/xfyun_client_test.go\n- audio/xfyun_conf.go\n- audio/xfyun_util.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audio 文件结构",
+        "content": "audio/audio.go\naudio/audio_test.go\naudio/xfyun_client.go\naudio/xfyun_client_test.go\naudio/xfyun_conf.go\naudio/xfyun_util.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/carrier 模块",
+    "description": "[模块级] casibase 项目的 carrier 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "carrier"
+    ],
+    "genes": [
+      {
+        "title": "carrier 模块说明",
+        "content": "模块路径: carrier/\n类型: source\n文件数: 3\n\n包含文件:\n- carrier/carrier.go\n- carrier/suggestion.go\n- carrier/title.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "carrier 文件结构",
+        "content": "carrier/carrier.go\ncarrier/suggestion.go\ncarrier/title.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/chain 模块",
+    "description": "[模块级] casibase 项目的 chain 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "chain"
+    ],
+    "genes": [
+      {
+        "title": "chain 模块说明",
+        "content": "模块路径: chain/\n类型: source\n文件数: 6\n\n包含文件:\n- chain/chainmaker.go\n- chain/chainmaker_tencent.go\n- chain/chainmaker_tencent_demo.go\n- chain/chainmaker_util.go\n- chain/client.go\n- chain/ethereum.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chain 文件结构",
+        "content": "chain/chainmaker.go\nchain/chainmaker_tencent.go\nchain/chainmaker_tencent_demo.go\nchain/chainmaker_util.go\nchain/client.go\nchain/ethereum.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/conf 模块",
+    "description": "[模块级] casibase 项目的 conf 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "conf"
+    ],
+    "genes": [
+      {
+        "title": "conf 模块说明",
+        "content": "模块路径: conf/\n类型: source\n文件数: 3\n\n包含文件:\n- conf/app.conf\n- conf/conf.go\n- conf/util.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "conf 文件结构",
+        "content": "conf/app.conf\nconf/conf.go\nconf/util.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/contest 模块",
+    "description": "[模块级] casibase 项目的 contest 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "contest"
+    ],
+    "genes": [
+      {
+        "title": "contest 模块说明",
+        "content": "模块路径: contest/\n类型: source\n文件数: 2\n\n包含文件:\n- contest/rag_contest.go\n- contest/rag_contest_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "contest 文件结构",
+        "content": "contest/rag_contest.go\ncontest/rag_contest_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/controllers 模块",
+    "description": "[模块级] casibase 项目的 controllers 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "controllers"
+    ],
+    "genes": [
+      {
+        "title": "controllers 模块说明",
+        "content": "模块路径: controllers/\n类型: source\n文件数: 61\n\n包含文件:\n- controllers/account.go\n- controllers/activity.go\n- controllers/application.go\n- controllers/article.go\n- controllers/asset.go\n- controllers/base.go\n- controllers/caase.go\n- controllers/carrier_writer.go\n- controllers/chat.go\n- controllers/connection.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "controllers 文件结构",
+        "content": "controllers/account.go\ncontrollers/activity.go\ncontrollers/application.go\ncontrollers/article.go\ncontrollers/asset.go\ncontrollers/base.go\ncontrollers/caase.go\ncontrollers/carrier_writer.go\ncontrollers/chat.go\ncontrollers/connection.go\ncontrollers/consultation.go\ncontrollers/docker_container.go\ncontrollers/doctor.go\ncontrollers/file.go\ncontrollers/file_cache.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/data 模块",
+    "description": "[模块级] casibase 项目的 data 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "- Chat bot: https://demo.casibase.com\n- Admin UI: https://demo-admin.casibase.com",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/17monipdb.dat\ndata/regexes.yaml\ndata/template\ndata/template/code-server.yaml\ndata/template/kuboard.yaml\ndata/template/pdf2zh.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/embedding 模块",
+    "description": "[模块级] casibase 项目的 embedding 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "embedding"
+    ],
+    "genes": [
+      {
+        "title": "embedding 模块说明",
+        "content": "模块路径: embedding/\n类型: source\n文件数: 15\n\n包含文件:\n- embedding/alibabacloud.go\n- embedding/azure_openai.go\n- embedding/baiducloud.go\n- embedding/cohere.go\n- embedding/dummy.go\n- embedding/gemini.go\n- embedding/huggingface.go\n- embedding/jina.go\n- embedding/local.go\n- embedding/minimax.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embedding 文件结构",
+        "content": "embedding/alibabacloud.go\nembedding/azure_openai.go\nembedding/baiducloud.go\nembedding/cohere.go\nembedding/dummy.go\nembedding/gemini.go\nembedding/huggingface.go\nembedding/jina.go\nembedding/local.go\nembedding/minimax.go\nembedding/openai.go\nembedding/provider.go\nembedding/tencentcloud.go\nembedding/util.go\nembedding/word2vec.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/i18n 模块",
+    "description": "[模块级] casibase 项目的 i18n 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "i18n"
+    ],
+    "genes": [
+      {
+        "title": "i18n 模块说明",
+        "content": "模块路径: i18n/\n类型: source\n文件数: 17\n\n包含文件:\n- i18n/deduplicate_test.go\n- i18n/generate.go\n- i18n/generate_test.go\n- i18n/locales\n- i18n/locales/de\n- i18n/locales/de/data.json\n- i18n/locales/en\n- i18n/locales/en/data.json\n- i18n/locales/es\n- i18n/locales/es/data.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "i18n 文件结构",
+        "content": "i18n/deduplicate_test.go\ni18n/generate.go\ni18n/generate_test.go\ni18n/locales\ni18n/locales/de\ni18n/locales/de/data.json\ni18n/locales/en\ni18n/locales/en/data.json\ni18n/locales/es\ni18n/locales/es/data.json\ni18n/locales/fr\ni18n/locales/fr/data.json\ni18n/locales/ja\ni18n/locales/ja/data.json\ni18n/locales/zh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  },
+  {
+    "name": "casibase/model 模块",
+    "description": "[模块级] casibase 项目的 model 模块 (source)。来源: https://github.com/casibase/casibase",
+    "domain": "ai-llm",
+    "tags": [
+      "a2a",
+      "agent",
+      "agi",
+      "casibase",
+      "chatbot",
+      "module-level",
+      "source",
+      "model"
+    ],
+    "genes": [
+      {
+        "title": "model 模块说明",
+        "content": "**Language Model**\n\n| Model          | Sub Type                                                                                                                                                                                                                                                                                                                                                                                                         | Link                                                      ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "model 文件结构",
+        "content": "model/alibabacloud.go\nmodel/amazon_bedrock.go\nmodel/azure_openai.go\nmodel/baichuan.go\nmodel/baiducloud.go\nmodel/chatglm.go\nmodel/claude.go\nmodel/cohere.go\nmodel/context_length_util.go\nmodel/context_length_util_test.go\nmodel/deepseek.go\nmodel/dummy.go\nmodel/gemini.go\nmodel/gemini_test.go\nmodel/gemini_util.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9590314216849825
+  }
+]

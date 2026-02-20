@@ -1,0 +1,117 @@
+[
+  {
+    "name": "milli-py (AlexAltea)",
+    "description": "[项目级] Python bindings for Milli, the embeddable Rust-based search engine powering Meilisearch。来源: https://github.com/AlexAltea/milli-py",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-135",
+      "github-alexaltea",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python bindings for Milli, the embeddable Rust-based search engine powering Meilisearch\n\n来源: https://github.com/AlexAltea/milli-py\n语言: Rust\nStars: 135",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Cargo.lock\nCargo.toml\nLICENSE\nREADME.md\nbenchmarks\nbenchmarks/bench.py\nbenchmarks/requirements.txt\ndocs\ndocs/index.md\nmeilisearch\npyproject.toml\nrequirements.txt\nsrc\nsrc/conv.rs\nsrc/lib.rs\ntest.py\ntests\ntests/__init__.py\ntests/test_milli_index.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import milli\n\nindex = milli.Index(\"path/to/index\")\nindex.add_documents([   \n    { \"id\": 0, \"title\": \"Hello world\", \"content\": \"This is a sample\" },\n    { \"id\": 1, \"title\": \"Hello moon\", \"content\": \"This is another sample\" },\n    { \"id\": 2, \"title\": \"Hello sun\", \"content\": \"This is yet another sample\" },\n])\nresults = index.search(\"wrold\")\ndocument = index.get_document(results[0])\nassert(document['title'] == \"Hello world\")",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.065166884247503
+  },
+  {
+    "name": "milli-py/benchmarks 模块",
+    "description": "[模块级] milli-py 项目的 benchmarks 模块 (source)。来源: https://github.com/AlexAltea/milli-py",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-135",
+      "github-alexaltea",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 2\n\n包含文件:\n- benchmarks/bench.py\n- benchmarks/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/bench.py\nbenchmarks/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3521335073980025
+  },
+  {
+    "name": "milli-py/src 模块",
+    "description": "[模块级] milli-py 项目的 src 模块 (source)。来源: https://github.com/AlexAltea/milli-py",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-135",
+      "github-alexaltea",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/conv.rs\n- src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/conv.rs\nsrc/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3521335073980025
+  },
+  {
+    "name": "milli-py/tests 模块",
+    "description": "[模块级] milli-py 项目的 tests 模块 (test)。来源: https://github.com/AlexAltea/milli-py",
+    "domain": "testing",
+    "tags": [
+      "rust",
+      "stars-135",
+      "github-alexaltea",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/__init__.py\n- tests/test_milli_index.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/test_milli_index.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3521335073980025
+  }
+]

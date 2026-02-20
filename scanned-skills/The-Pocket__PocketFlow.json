@@ -1,0 +1,68 @@
+[
+  {
+    "name": "PocketFlow (The-Pocket)",
+    "description": "[项目级] Pocket Flow: 100-line LLM framework. Let Agents build Agents!。来源: https://github.com/The-Pocket/PocketFlow",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "agents",
+      "ai-framework",
+      "python",
+      "stars-10050",
+      "github-the-pocket",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!\n\n来源: https://github.com/The-Pocket/PocketFlow\n语言: Python\nStars: 10050",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncookbook\ncookbook/README.md\ncookbook/data\ncookbook/pocketflow-a2a\ncookbook/pocketflow-agent-skills\ncookbook/pocketflow-agent\ncookbook/pocketflow-async-basic\ncookbook/pocketflow-batch-flow\ncookbook/pocketflow-batch-node\ncookbook/pocketflow-batch\ncookbook/pocketflow-chat-guardrail\ncookbook/pocketflow-chat-memory\ncookbook/pocketflow-chat\ncookbook/pocketflow-cli-hitl\ncookbook/pocketflow-code-generator\ncookbook/pocketflow-communication\ncookbook/pocketflow-fastapi-background\ncookbook/pocketflow-fastapi-hitl",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "🚀 Through **Agentic Coding**—the fastest LLM App development paradigm-where *humans design* and *agents code*!\n\n<br>\n<div align=\"center\">\n  <a href=\"https://zacharyhuang.substack.com/p/agentic-coding-the-most-fun-way-to\" target=\"_blank\">\n    <img src=\"https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F423a39af-49e8-483b-bc5a-88cc764350c6_1050x588.png\" width=\"700\" alt=\"IMAGE ALT TEXT\" style=\"cursor: pointer;\">\n  </a>\n</div>\n<br>\n\n✨ Below are examples of more complex LLM Apps:\n\n<div align=\"center\">\n ",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "PocketFlow/cookbook 模块",
+    "description": "[模块级] PocketFlow 项目的 cookbook 模块 (source)。来源: https://github.com/The-Pocket/PocketFlow",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "agents",
+      "ai-framework",
+      "module-level",
+      "source",
+      "cookbook"
+    ],
+    "genes": [
+      {
+        "title": "cookbook 模块说明",
+        "content": "模块路径: cookbook/\n类型: source\n文件数: 170\n\n包含文件:\n- cookbook/README.md\n- cookbook/data\n- cookbook/data/PaulGrahamEssaysLarge\n- cookbook/data/PaulGrahamEssaysLarge/addiction.txt\n- cookbook/data/PaulGrahamEssaysLarge/aord.txt\n- cookbook/data/PaulGrahamEssaysLarge/apple.txt\n- cookbook/data/PaulGrahamEssaysLarge/avg.txt\n- cookbook/data/PaulGrahamEssaysLarge/before.txt\n- cookbook/pocketflow-a2a\n- cookbook/pocketflow-a2a/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbook 文件结构",
+        "content": "cookbook/README.md\ncookbook/data\ncookbook/data/PaulGrahamEssaysLarge\ncookbook/data/PaulGrahamEssaysLarge/addiction.txt\ncookbook/data/PaulGrahamEssaysLarge/aord.txt\ncookbook/data/PaulGrahamEssaysLarge/apple.txt\ncookbook/data/PaulGrahamEssaysLarge/avg.txt\ncookbook/data/PaulGrahamEssaysLarge/before.txt\ncookbook/pocketflow-a2a\ncookbook/pocketflow-a2a/README.md\ncookbook/pocketflow-a2a/a2a_client.py\ncookbook/pocketflow-a2a/a2a_server.py\ncookbook/pocketflow-a2a/common\ncookbook/pocketflow-a2a/common/__init__.py\ncookbook/pocketflow-a2a/common/client",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.100866424702603
+  }
+]

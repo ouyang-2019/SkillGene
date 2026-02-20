@@ -1,0 +1,66 @@
+[
+  {
+    "name": "skills (swiftwasm)",
+    "description": "[项目级] A collection of Agent Skills designed to help AI coding agents build and maintain Swift applications targeting WebAssembly.。来源: https://github.com/swiftwasm/skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-28",
+      "github-swiftwasm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of Agent Skills designed to help AI coding agents build and maintain Swift applications targeting WebAssembly.\n\n来源: https://github.com/swiftwasm/skills\n语言: Python\nStars: 28",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.md\ngemini-extension.json\nskills\nskills/bridge-js\nskills/javascriptkit\nskills/porting",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once a skill is installed or loaded, you can trigger its logic by mentioning relevant tasks to your agent. For example, using the `javascriptkit` skill:\n\n- \"Initialize a new JavaScriptKit project named 'MyWebApp' in the current directory.\"\n- \"How do I safely pass a Swift closure to a JavaScript event listener?\"\n- \"Check my environment using the doctor script to ensure I can build for Wasm.\"\n\nThe agent will automatically refer to the appropriate `SKILL.md` file and any associated helper scripts to fulfill your request.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7235790156711097
+  },
+  {
+    "name": "skills/skills 模块",
+    "description": "[模块级] skills 项目的 skills 模块 (source)。来源: https://github.com/swiftwasm/skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-28",
+      "github-swiftwasm",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of [Agent Skills](https://agentskills.io/) designed to help AI coding agents build and maintain Swift applications targeting WebAssembly.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/bridge-js\nskills/bridge-js/SKILL.md\nskills/bridge-js/references\nskills/bridge-js/references/project_setup.md\nskills/bridge-js/references/swift_api.md\nskills/bridge-js/references/testing.md\nskills/javascriptkit\nskills/javascriptkit/SKILL.md\nskills/javascriptkit/references\nskills/javascriptkit/references/common_patterns.md\nskills/javascriptkit/references/init_new_project.md\nskills/javascriptkit/references/swift_apis.md\nskills/javascriptkit/scripts\nskills/javascriptkit/scripts/doctor.py\nskills/javascriptkit/scripts/install-sdk.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0788632125368878
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "temporal-ai-agent-pipeline (FareedKhan-dev)",
+    "description": "[项目级] Optimizing Dynamic Knowledge Base Using AI Agent。来源: https://github.com/FareedKhan-dev/temporal-ai-agent-pipeline",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "database",
+      "langchain",
+      "langgraph",
+      "openai",
+      "jupyter notebook",
+      "stars-87",
+      "github-fareedkhan-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Optimizing Dynamic Knowledge Base Using AI Agent\n\n来源: https://github.com/FareedKhan-dev/temporal-ai-agent-pipeline\n语言: Jupyter Notebook\nStars: 87",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nrequirements.txt\ntemporal_agent_pipeline.ipynb\nunstructured_guide.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Let’s take a look at the pipeline result.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.969759626309309
+  }
+]

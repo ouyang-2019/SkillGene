@@ -1,0 +1,61 @@
+[
+  {
+    "name": "pg_embedding (neondatabase)",
+    "description": "[项目级] Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL。来源: https://github.com/neondatabase/pg_embedding",
+    "domain": "database",
+    "tags": [
+      "c",
+      "stars-575",
+      "github-neondatabase",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Hierarchical Navigable Small World (HNSW) algorithm for vector similarity search in PostgreSQL\n\n来源: https://github.com/neondatabase/pg_embedding\n语言: C\nStars: 575",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nNOTICE\nREADME.md\ndistfunc.c\nembedding--0.3.5--0.3.6.sql\nembedding--0.3.5.sql\nembedding--0.3.6.sql\nembedding.c\nembedding.control\nembedding.h\nhnswalg.cpp\nhnswalg.h\ntest\ntest/expected\ntest/sql",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "CREATE EXTENSION embedding;\nCREATE TABLE documents(id integer PRIMARY KEY, embedding real[]);\nINSERT INTO documents(id, embedding) VALUES (1, '{0,1,2}'), (2, '{1,2,3}'),  (3, '{1,1,1}');\nSELECT id FROM documents ORDER BY embedding <-> ARRAY[3,3,3] LIMIT 1;",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.379833922344815
+  },
+  {
+    "name": "pg_embedding/test 模块",
+    "description": "[模块级] pg_embedding 项目的 test 模块 (test)。来源: https://github.com/neondatabase/pg_embedding",
+    "domain": "testing",
+    "tags": [
+      "c",
+      "stars-575",
+      "github-neondatabase",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 8\n\n包含文件:\n- test/expected\n- test/expected/gh-2.out\n- test/expected/gh-3.out\n- test/expected/knn.out\n- test/sql\n- test/sql/gh-2.sql\n- test/sql/gh-3.sql\n- test/sql/knn.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/expected\ntest/expected/gh-2.out\ntest/expected/gh-3.out\ntest/expected/knn.out\ntest/sql\ntest/sql/gh-2.sql\ntest/sql/gh-3.sql\ntest/sql/knn.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6038671378758522
+  }
+]

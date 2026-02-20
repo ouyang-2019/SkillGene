@@ -1,0 +1,163 @@
+[
+  {
+    "name": "codesherpa (iamgreggarcia)",
+    "description": "[项目级] A code interpreter and ChatGPT plugin.。来源: https://github.com/iamgreggarcia/codesherpa",
+    "domain": "web-frontend",
+    "tags": [
+      "chatgpt-plugin",
+      "code-interpreter",
+      "fastapi",
+      "gpt-4",
+      "gpt-4-0613",
+      "typescript",
+      "stars-257",
+      "github-iamgreggarcia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A code interpreter and ChatGPT plugin.\n\n来源: https://github.com/iamgreggarcia/codesherpa\n语言: TypeScript\nStars: 257",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME.md\ndocker-compose.yml\nexecutors\nexecutors/executor.py\nfrontend\nfrontend/.env.example\nfrontend/README.md\nfrontend/docs\nfrontend/next-env.d.ts\nfrontend/next.config.js\nfrontend/package.json\nfrontend/pnpm-lock.yaml\nfrontend/postcss.config.js\nfrontend/public\nfrontend/src\nfrontend/tailwind.config.js\nfrontend/tsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Below are some examples. Please note that portions of these videos are edited and/or sped up for brevity.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204966561665647
+  },
+  {
+    "name": "codesherpa/frontend 模块",
+    "description": "[模块级] codesherpa 项目的 frontend 模块 (source)。来源: https://github.com/iamgreggarcia/codesherpa",
+    "domain": "web-frontend",
+    "tags": [
+      "chatgpt-plugin",
+      "code-interpreter",
+      "fastapi",
+      "gpt-4",
+      "gpt-4-0613",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 67\n\n包含文件:\n- frontend/.env.example\n- frontend/README.md\n- frontend/docs\n- frontend/docs/sample_responses.md\n- frontend/next-env.d.ts\n- frontend/next.config.js\n- frontend/package.json\n- frontend/pnpm-lock.yaml\n- frontend/postcss.config.js\n- frontend/public",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.env.example\nfrontend/README.md\nfrontend/docs\nfrontend/docs/sample_responses.md\nfrontend/next-env.d.ts\nfrontend/next.config.js\nfrontend/package.json\nfrontend/pnpm-lock.yaml\nfrontend/postcss.config.js\nfrontend/public\nfrontend/public/_user-avatar-white.svg\nfrontend/public/_user-avatar.svg\nfrontend/public/favicon.ico\nfrontend/public/next.svg\nfrontend/public/openai-logomark.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.463973249332518
+  },
+  {
+    "name": "codesherpa/localserver 模块",
+    "description": "[模块级] codesherpa 项目的 localserver 模块 (source)。来源: https://github.com/iamgreggarcia/codesherpa",
+    "domain": "web-frontend",
+    "tags": [
+      "chatgpt-plugin",
+      "code-interpreter",
+      "fastapi",
+      "gpt-4",
+      "gpt-4-0613",
+      "module-level",
+      "source",
+      "localserver"
+    ],
+    "genes": [
+      {
+        "title": "localserver 模块说明",
+        "content": "模块路径: localserver/\n类型: source\n文件数: 6\n\n包含文件:\n- localserver/__init__.py\n- localserver/_logo.png\n- localserver/ai-plugin.json\n- localserver/logo.png\n- localserver/main.py\n- localserver/openapi.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "localserver 文件结构",
+        "content": "localserver/__init__.py\nlocalserver/_logo.png\nlocalserver/ai-plugin.json\nlocalserver/logo.png\nlocalserver/main.py\nlocalserver/openapi.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.463973249332518
+  },
+  {
+    "name": "codesherpa/tests 模块",
+    "description": "[模块级] codesherpa 项目的 tests 模块 (test)。来源: https://github.com/iamgreggarcia/codesherpa",
+    "domain": "testing",
+    "tags": [
+      "chatgpt-plugin",
+      "code-interpreter",
+      "fastapi",
+      "gpt-4",
+      "gpt-4-0613",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/test_executor.py\n- tests/test_plugin.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test_executor.py\ntests/test_plugin.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.463973249332518
+  },
+  {
+    "name": "codesherpa/utils 模块",
+    "description": "[模块级] codesherpa 项目的 utils 模块 (source)。来源: https://github.com/iamgreggarcia/codesherpa",
+    "domain": "web-frontend",
+    "tags": [
+      "chatgpt-plugin",
+      "code-interpreter",
+      "fastapi",
+      "gpt-4",
+      "gpt-4-0613",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 2\n\n包含文件:\n- utils/google.py\n- utils/plugin.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/google.py\nutils/plugin.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.463973249332518
+  }
+]

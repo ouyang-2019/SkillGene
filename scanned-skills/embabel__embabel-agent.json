@@ -1,0 +1,103 @@
+[
+  {
+    "name": "embabel-agent (embabel)",
+    "description": "[项目级] Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/。来源: https://github.com/embabel/embabel-agent",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "kotlin",
+      "stars-3118",
+      "github-embabel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/\n\n来源: https://github.com/embabel/embabel-agent\n语言: Kotlin\nStars: 3118",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get an agent running in under 5 minutes.\n\nCreate your own agent repo from our [Java](https://github.com/embabel/java-agent-template)\nor [Kotlin](https://github.com/embabel/kotlin-agent-template) GitHub template by clicking the \"Use this template\"\nbutton.\n\nYou'll have an agent running in under a minute\nif you already have an `OPENAI_API_KEY` and have Maven installed.\n\n**📚 For examples and tutorials**, see\nthe [Embabel Agent Examples Repository](https://github.com/embabel/embabel-agent-examples)\n\n**🚗 For a sophisticated, realistic example application**, see\nthe [Tripper travel planner agent](h",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODE_OF_CONDUCT.md\nLICENSE\nREADME-appendix.md\nREADME.md\nembabel-agent-a2a\nembabel-agent-a2a/pom.xml\nembabel-agent-a2a/src\nembabel-agent-api\nembabel-agent-api/.embabel\nembabel-agent-api/.github\nembabel-agent-api/.idea\nembabel-agent-api/README.md\nembabel-agent-api/embabel_planning_system.dot\nembabel-agent-api/images\nembabel-agent-api/pom.xml\nembabel-agent-api/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "> **📚 For examples and tutorials**, see\n> the [Embabel Agent Examples Repository](https://github.com/embabel/embabel-agent-examples)\n\n```bash",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.746938055426411
+  },
+  {
+    "name": "embabel-agent/embabel-agent-a2a 模块",
+    "description": "[模块级] embabel-agent 项目的 embabel-agent-a2a 模块 (source)。来源: https://github.com/embabel/embabel-agent",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "module-level",
+      "source",
+      "embabel-agent-a2a"
+    ],
+    "genes": [
+      {
+        "title": "embabel-agent-a2a 模块说明",
+        "content": "模块路径: embabel-agent-a2a/\n类型: source\n文件数: 49\n\n包含文件:\n- embabel-agent-a2a/pom.xml\n- embabel-agent-a2a/src\n- embabel-agent-a2a/src/main\n- embabel-agent-a2a/src/main/kotlin\n- embabel-agent-a2a/src/main/kotlin/com\n- embabel-agent-a2a/src/main/kotlin/com/embabel\n- embabel-agent-a2a/src/main/kotlin/com/embabel/agent\n- embabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a\n- embabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server\n- embabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/A2ARequestHandler.kt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embabel-agent-a2a 文件结构",
+        "content": "embabel-agent-a2a/pom.xml\nembabel-agent-a2a/src\nembabel-agent-a2a/src/main\nembabel-agent-a2a/src/main/kotlin\nembabel-agent-a2a/src/main/kotlin/com\nembabel-agent-a2a/src/main/kotlin/com/embabel\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/A2ARequestHandler.kt\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/AgentCardHandler.kt\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/AgentSkillFactory.kt\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/config\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/config/A2AConfiguration.kt\nembabel-agent-a2a/src/main/kotlin/com/embabel/agent/a2a/server/events.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.897550444341129
+  },
+  {
+    "name": "embabel-agent/embabel-agent-api 模块",
+    "description": "[模块级] embabel-agent 项目的 embabel-agent-api 模块 (source)。来源: https://github.com/embabel/embabel-agent",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "module-level",
+      "source",
+      "embabel-agent-api"
+    ],
+    "genes": [
+      {
+        "title": "embabel-agent-api 模块说明",
+        "content": "模块路径: embabel-agent-api/\n类型: source\n文件数: 133\n\n包含文件:\n- embabel-agent-api/.embabel\n- embabel-agent-api/.embabel/coding-style.md\n- embabel-agent-api/.github\n- embabel-agent-api/.github/workflows\n- embabel-agent-api/.github/workflows/maven.yml\n- embabel-agent-api/.idea\n- embabel-agent-api/.idea/.gitignore\n- embabel-agent-api/.idea/compiler.xml\n- embabel-agent-api/.idea/encodings.xml\n- embabel-agent-api/.idea/jarRepositories.xml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embabel-agent-api 文件结构",
+        "content": "embabel-agent-api/.embabel\nembabel-agent-api/.embabel/coding-style.md\nembabel-agent-api/.github\nembabel-agent-api/.github/workflows\nembabel-agent-api/.github/workflows/maven.yml\nembabel-agent-api/.idea\nembabel-agent-api/.idea/.gitignore\nembabel-agent-api/.idea/compiler.xml\nembabel-agent-api/.idea/encodings.xml\nembabel-agent-api/.idea/jarRepositories.xml\nembabel-agent-api/.idea/kotlinc.xml\nembabel-agent-api/.idea/misc.xml\nembabel-agent-api/.idea/vcs.xml\nembabel-agent-api/README.md\nembabel-agent-api/embabel_planning_system.dot",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.897550444341129
+  }
+]

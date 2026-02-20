@@ -1,0 +1,66 @@
+[
+  {
+    "name": "cchistory (badlogic)",
+    "description": "[项目级] Extract and compare system prompts and tools from different Claude Code versions。来源: https://github.com/badlogic/cchistory",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-191",
+      "github-badlogic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Extract and compare system prompts and tools from different Claude Code versions\n\n来源: https://github.com/badlogic/cchistory\n语言: TypeScript\nStars: 191",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g @mariozechner/cchistory",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nbiome.json\npackage-lock.json\npackage.json\nsrc\nsrc/core\nsrc/index.ts\nsrc/services\nsrc/types\ntsconfig.json\nvitest.config.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cchistory [version] [--latest] [--binary-path <path>] [--claude-args \"<args>\"]",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.140516683623864
+  },
+  {
+    "name": "cchistory/src 模块",
+    "description": "[模块级] cchistory 项目的 src 模块 (source)。来源: https://github.com/badlogic/cchistory",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-191",
+      "github-badlogic",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 21\n\n包含文件:\n- src/core\n- src/core/cli-patcher.test.ts\n- src/core/cli-patcher.ts\n- src/core/content-extractor.test.ts\n- src/core/content-extractor.ts\n- src/core/jsonl-parser.test.ts\n- src/core/jsonl-parser.ts\n- src/core/output-formatter.test.ts\n- src/core/output-formatter.ts\n- src/core/request-filter.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/core\nsrc/core/cli-patcher.test.ts\nsrc/core/cli-patcher.ts\nsrc/core/content-extractor.test.ts\nsrc/core/content-extractor.ts\nsrc/core/jsonl-parser.test.ts\nsrc/core/jsonl-parser.ts\nsrc/core/output-formatter.test.ts\nsrc/core/output-formatter.ts\nsrc/core/request-filter.test.ts\nsrc/core/request-filter.ts\nsrc/core/version-utils.test.ts\nsrc/core/version-utils.ts\nsrc/index.ts\nsrc/services",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.412413346899091
+  }
+]

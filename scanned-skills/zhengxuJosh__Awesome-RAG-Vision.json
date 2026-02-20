@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Awesome-RAG-Vision (zhengxuJosh)",
+    "description": "[项目级] Awesome-RAG-Vision: a curated list of advanced retrieval augmented generation (RAG) for Computer Vision。来源: https://github.com/zhengxuJosh/Awesome-RAG-Vision",
+    "domain": "general",
+    "tags": [
+      "stars-319",
+      "github-zhengxujosh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-Augmented Generation (RAG) integrates **retrieval** into **generative models**, enabling models to query external knowledge bases (or memory banks) at inference time.\n\nIn **Computer Vision**, RAG has been used for:\n- Image captioning / VQA with external knowledge or retrieved exemplars\n- Video QA and long-context understanding via retrieved transcripts or clips\n- Visual generation with retrieved reference images, templates, or domain knowledge\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2518953415285905
+  }
+]

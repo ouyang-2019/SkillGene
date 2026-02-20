@@ -1,0 +1,94 @@
+[
+  {
+    "name": "ColiVara (tjmlabs)",
+    "description": "[项目级] Colivara is a suite of services that allows you to store, search, and retrieve documents based on their visual embedding. ColiVara has state of the art retrieval performance on both text and visual documents. using vision models instead of chunking and text-processing for documents. No OCR, no text extraction, no broken tables, or missing images.。来源: https://github.com/tjmlabs/ColiVara",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-1452",
+      "github-tjmlabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Colivara is a suite of services that allows you to store, search, and retrieve documents based on their visual embedding. ColiVara has state of the art retrieval performance on both text and visual documents. using vision models instead of chunking and text-processing for documents. No OCR, no text extraction, no broken tables, or missing images.\n\n来源: https://github.com/tjmlabs/ColiVara\n语言: Python\nStars: 1452",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/tjmlabs/ColiVara",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\ncolivara-image.png\ndocker-compose-prod.yml\ndocker-compose.yml\ndocs\ndocs/benchmark_comparison_chart.png\ndocs/colipali-evals.png\ndocs/colipali-explainer.jpg\ndocs/evaluation.jpg\nexample-nginx.conf\nreadme.md\nweb\nweb/.coveragerc\nweb/Dockerfile\nweb/accounts\nweb/api\nweb/config\nweb/manage.py\nweb/mypy.ini\nweb/pytest.ini",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **State of the Art retrieval**: ColiVara outperforms existing retrieval systems on both quality and latency.\n\n- **Wide Format Support**: Supports over 100 file formats including PDF, DOCX, PPTX, and more.\n\n- **Filtering**: ColiVara allows for filtering on collections and documents on arbitrary metadata fields. For example, you can filter documents by author or year. Or filter collections by type. You get the best of both worlds - structured and unstructured data.\n\n- **Convention over Configuration**: The API is designed to be easy to use with opinionated and optimized defaults.\n\n- **Modern P",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.580983308182038
+  },
+  {
+    "name": "ColiVara/docs 模块",
+    "description": "[模块级] ColiVara 项目的 docs 模块 (docs)。来源: https://github.com/tjmlabs/ColiVara",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-1452",
+      "github-tjmlabs",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/benchmark_comparison_chart.png\n- docs/colipali-evals.png\n- docs/colipali-explainer.jpg\n- docs/evaluation.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/benchmark_comparison_chart.png\ndocs/colipali-evals.png\ndocs/colipali-explainer.jpg\ndocs/evaluation.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7647866465456303
+  },
+  {
+    "name": "ColiVara/web 模块",
+    "description": "[模块级] ColiVara 项目的 web 模块 (source)。来源: https://github.com/tjmlabs/ColiVara",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-1452",
+      "github-tjmlabs",
+      "module-level",
+      "source",
+      "web"
+    ],
+    "genes": [
+      {
+        "title": "web 模块说明",
+        "content": "模块路径: web/\n类型: source\n文件数: 69\n\n包含文件:\n- web/.coveragerc\n- web/Dockerfile\n- web/accounts\n- web/accounts/__init__.py\n- web/accounts/admin.py\n- web/accounts/apps.py\n- web/accounts/migrations\n- web/accounts/migrations/0001_initial.py\n- web/accounts/migrations/0002_customuser_token.py\n- web/accounts/migrations/0003_customuser_svix_application_id.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web 文件结构",
+        "content": "web/.coveragerc\nweb/Dockerfile\nweb/accounts\nweb/accounts/__init__.py\nweb/accounts/admin.py\nweb/accounts/apps.py\nweb/accounts/migrations\nweb/accounts/migrations/0001_initial.py\nweb/accounts/migrations/0002_customuser_token.py\nweb/accounts/migrations/0003_customuser_svix_application_id.py\nweb/accounts/migrations/0004_customuser_svix_endpoint_id.py\nweb/accounts/migrations/__init__.py\nweb/accounts/models.py\nweb/accounts/tests.py\nweb/accounts/views.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7647866465456303
+  }
+]

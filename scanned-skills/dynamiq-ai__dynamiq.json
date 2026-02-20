@@ -1,0 +1,103 @@
+[
+  {
+    "name": "dynamiq (dynamiq-ai)",
+    "description": "[项目级] Dynamiq is an orchestration framework for agentic AI and LLM applications。来源: https://github.com/dynamiq-ai/dynamiq",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "generative-ai",
+      "gpt",
+      "llm",
+      "python",
+      "stars-1029",
+      "github-dynamiq-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Dynamiq is an orchestration framework for agentic AI and LLM applications\n\n来源: https://github.com/dynamiq-ai/dynamiq\n语言: Python\nStars: 1029",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Ready to dive in? Here's how you can get started with Dynamiq:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\ndocker-compose.yaml\ndocs\ndocs/img\ndocs/tutorials\ndynamiq\ndynamiq/__init__.py\ndynamiq/cache\ndynamiq/callbacks\ndynamiq/cli\ndynamiq/clients\ndynamiq/components\ndynamiq/connections\ndynamiq/evaluations",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.506207687381217
+  },
+  {
+    "name": "dynamiq/docs 模块",
+    "description": "[模块级] dynamiq 项目的 docs 模块 (docs)。来源: https://github.com/dynamiq-ai/dynamiq",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "generative-ai",
+      "gpt",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/img\n- docs/img/Dynamiq_Logo_Universal_Github.png\n- docs/tutorials\n- docs/tutorials/agents.md\n- docs/tutorials/quickstart.md\n- docs/tutorials/rag.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/img\ndocs/img/Dynamiq_Logo_Universal_Github.png\ndocs/tutorials\ndocs/tutorials/agents.md\ndocs/tutorials/quickstart.md\ndocs/tutorials/rag.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7049661499049735
+  },
+  {
+    "name": "dynamiq/dynamiq 模块",
+    "description": "[模块级] dynamiq 项目的 dynamiq 模块 (source)。来源: https://github.com/dynamiq-ai/dynamiq",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "generative-ai",
+      "gpt",
+      "llm",
+      "module-level",
+      "source",
+      "dynamiq"
+    ],
+    "genes": [
+      {
+        "title": "dynamiq 模块说明",
+        "content": "模块路径: dynamiq/\n类型: source\n文件数: 173\n\n包含文件:\n- dynamiq/__init__.py\n- dynamiq/cache\n- dynamiq/cache/__init__.py\n- dynamiq/cache/backends\n- dynamiq/cache/backends/__init__.py\n- dynamiq/cache/backends/base.py\n- dynamiq/cache/backends/redis.py\n- dynamiq/cache/codecs.py\n- dynamiq/cache/config.py\n- dynamiq/cache/managers",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dynamiq 文件结构",
+        "content": "dynamiq/__init__.py\ndynamiq/cache\ndynamiq/cache/__init__.py\ndynamiq/cache/backends\ndynamiq/cache/backends/__init__.py\ndynamiq/cache/backends/base.py\ndynamiq/cache/backends/redis.py\ndynamiq/cache/codecs.py\ndynamiq/cache/config.py\ndynamiq/cache/managers\ndynamiq/cache/managers/__init__.py\ndynamiq/cache/managers/base.py\ndynamiq/cache/managers/workflow.py\ndynamiq/cache/utils.py\ndynamiq/callbacks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7049661499049735
+  }
+]

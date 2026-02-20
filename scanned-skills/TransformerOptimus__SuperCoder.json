@@ -1,0 +1,68 @@
+[
+  {
+    "name": "SuperCoder (TransformerOptimus)",
+    "description": "[项目级] Open Source Autonomous Software Development System。来源: https://github.com/TransformerOptimus/SuperCoder",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-developer",
+      "autonomous-agents",
+      "claude-3",
+      "go",
+      "stars-967",
+      "github-transformeroptimus",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open Source Autonomous Software Development System\n\n来源: https://github.com/TransformerOptimus/SuperCoder\n语言: Go\nStars: 967",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nDockerfile\nLICENSE\nREADME.md\napp\napp/client\napp/config\napp/constants\napp/controllers\napp/db\napp/gateways\napp/llms\napp/middleware\napp/models\napp/monitoring\napp/prompts\napp/repositories\napp/services",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.492713237041501
+  },
+  {
+    "name": "SuperCoder/app 模块",
+    "description": "[模块级] SuperCoder 项目的 app 模块 (source)。来源: https://github.com/TransformerOptimus/SuperCoder",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-developer",
+      "autonomous-agents",
+      "claude-3",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 187\n\n包含文件:\n- app/client\n- app/client/git_provider\n- app/client/git_provider/gitness_git_provider.go\n- app/client/http_client.go\n- app/client/workspace\n- app/client/workspace/workspace_service.go\n- app/config\n- app/config/ai_developer_execution.go\n- app/config/aws_config.go\n- app/config/config.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/client\napp/client/git_provider\napp/client/git_provider/gitness_git_provider.go\napp/client/http_client.go\napp/client/workspace\napp/client/workspace/workspace_service.go\napp/config\napp/config/ai_developer_execution.go\napp/config/aws_config.go\napp/config/config.go\napp/config/db.go\napp/config/env.go\napp/config/filestore.go\napp/config/frontend_workspace.go\napp/config/github_oauth.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6941705896332007
+  }
+]

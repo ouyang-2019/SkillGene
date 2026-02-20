@@ -1,0 +1,172 @@
+[
+  {
+    "name": "semtools (run-llama)",
+    "description": "[项目级] Semantic search and document parsing tools for the command line。来源: https://github.com/run-llama/semtools",
+    "domain": "ai-llm",
+    "tags": [
+      "cli",
+      "embeddings",
+      "parser",
+      "rust",
+      "search",
+      "stars-1616",
+      "github-run-llama",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "semtools ask \"What are the main findings?\" papers/*.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm i -g @llamaindex/semtools",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\nbenchmarks\nbenchmarks/arxiv\ncli\ncli/ask.js\ncli/parse.js\ncli/search.js\ncli/workspace.js\nexample_semtools_config.json\nexamples\nexamples/example_CLAUDE.md\nexamples/use_with_coding_agents.md\nexamples/use_with_mcp.md\npackage-lock.json\npackage.json\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- [Using Semtools with Coding Agents](examples/use_with_coding_agents.md)\n- [Using Semtools with MCP](examples/use_with_mcp.md)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Fast semantic search** using model2vec embeddings from [minishlab/potion-multilingual-128M](https://huggingface.co/minishlab/potion-multilingual-128M)\n- **Reliable document parsing** with caching and error handling  \n- **Unix-friendly** design with proper stdin/stdout handling\n- **Configurable** distance thresholds and returned chunk sizes\n- **Multi-format support** for parsing documents (PDF, DOCX, PPTX, etc.)\n- **Concurrent processing** for better parsing performance\n- **Workspace management** for efficient document retrieval over large collections",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.604220678219283
+  },
+  {
+    "name": "semtools/benchmarks 模块",
+    "description": "[模块级] semtools 项目的 benchmarks 模块 (source)。来源: https://github.com/run-llama/semtools",
+    "domain": "ai-llm",
+    "tags": [
+      "cli",
+      "embeddings",
+      "parser",
+      "rust",
+      "search",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 25\n\n包含文件:\n- benchmarks/arxiv\n- benchmarks/arxiv/README.md\n- benchmarks/arxiv/answers\n- benchmarks/arxiv/answers/a_search_and_filter\n- benchmarks/arxiv/answers/a_search_and_filter/1.txt\n- benchmarks/arxiv/answers/a_search_and_filter/2.txt\n- benchmarks/arxiv/answers/a_search_and_filter/3.txt\n- benchmarks/arxiv/answers/a_search_and_filter/4.txt\n- benchmarks/arxiv/answers/a_search_and_filter/5.txt\n- benchmarks/arxiv/answers/b_cross_reference_and_relationships",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/arxiv\nbenchmarks/arxiv/README.md\nbenchmarks/arxiv/answers\nbenchmarks/arxiv/answers/a_search_and_filter\nbenchmarks/arxiv/answers/a_search_and_filter/1.txt\nbenchmarks/arxiv/answers/a_search_and_filter/2.txt\nbenchmarks/arxiv/answers/a_search_and_filter/3.txt\nbenchmarks/arxiv/answers/a_search_and_filter/4.txt\nbenchmarks/arxiv/answers/a_search_and_filter/5.txt\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships/1.txt\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships/2.txt\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships/3.txt\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships/4.txt\nbenchmarks/arxiv/answers/b_cross_reference_and_relationships/5.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.783376542575427
+  },
+  {
+    "name": "semtools/cli 模块",
+    "description": "[模块级] semtools 项目的 cli 模块 (source)。来源: https://github.com/run-llama/semtools",
+    "domain": "ai-llm",
+    "tags": [
+      "cli",
+      "embeddings",
+      "parser",
+      "rust",
+      "search",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "```bash\n$ semtools parse --help\nA CLI tool for parsing documents using various backends\n\nUsage: semtools parse [OPTIONS] <FILES>...\n\nArguments:\n  <FILES>...  Files to parse\n\nOptions:\n  -c, --config <CONFIG>    Path to the config file. Defaults to ~/.semtools_config.json\n  -b, --backend <BACKEND>  The backend type to use for parsing. Defaults to `llama-parse` [default: llama-parse]\n  -v, --verbose            Verbose output while parsing\n  -h, --help               Print help\n```\n\n```bash\n$ semtool",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/ask.js\ncli/parse.js\ncli/search.js\ncli/workspace.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "cli 代码示例",
+        "content": "$ semtools parse --help\nA CLI tool for parsing documents using various backends\n\nUsage: semtools parse [OPTIONS] <FILES>...\n\nArguments:\n  <FILES>...  Files to parse\n\nOptions:\n  -c, --config <CONFIG>    Path to the config file. Defaults to ~/.semtools_config.json\n  -b, --backend <BACKEND>  The backend type to use for parsing. Defaults to `llama-parse` [default: llama-parse]\n  -v, --verbose            Verbose output while parsing\n  -h, --help               Print help",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.783376542575427
+  },
+  {
+    "name": "semtools/examples 模块",
+    "description": "[模块级] semtools 项目的 examples 模块 (example)。来源: https://github.com/run-llama/semtools",
+    "domain": "ai-llm",
+    "tags": [
+      "cli",
+      "embeddings",
+      "parser",
+      "rust",
+      "search",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "- [Using Semtools with Coding Agents](examples/use_with_coding_agents.md)\n- [Using Semtools with MCP](examples/use_with_mcp.md)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/example_CLAUDE.md\nexamples/use_with_coding_agents.md\nexamples/use_with_mcp.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.783376542575427
+  },
+  {
+    "name": "semtools/src 模块",
+    "description": "[模块级] semtools 项目的 src 模块 (source)。来源: https://github.com/run-llama/semtools",
+    "domain": "ai-llm",
+    "tags": [
+      "cli",
+      "embeddings",
+      "parser",
+      "rust",
+      "search",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 30\n\n包含文件:\n- src/ask\n- src/ask/chat_agent.rs\n- src/ask/mod.rs\n- src/ask/responses_agent.rs\n- src/ask/system_prompt.rs\n- src/ask/tool_calling.rs\n- src/ask/tools.rs\n- src/bin\n- src/bin/semtools.rs\n- src/cmds",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/ask\nsrc/ask/chat_agent.rs\nsrc/ask/mod.rs\nsrc/ask/responses_agent.rs\nsrc/ask/system_prompt.rs\nsrc/ask/tool_calling.rs\nsrc/ask/tools.rs\nsrc/bin\nsrc/bin/semtools.rs\nsrc/cmds\nsrc/cmds/ask.rs\nsrc/cmds/mod.rs\nsrc/cmds/parse.rs\nsrc/cmds/search.rs\nsrc/cmds/workspace.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.783376542575427
+  }
+]

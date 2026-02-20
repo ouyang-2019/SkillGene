@@ -1,0 +1,98 @@
+[
+  {
+    "name": "free-ai-coding (inmve)",
+    "description": "[项目级] AI coding tools that give free Claude Opus/Sonnet, GPT-5, Gemini Pro, and other pro-grade models。来源: https://github.com/inmve/free-ai-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-tools",
+      "awesome-list",
+      "code-generation",
+      "coding-assistant",
+      "javascript",
+      "stars-544",
+      "github-inmve",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI coding tools that give free Claude Opus/Sonnet, GPT-5, Gemini Pro, and other pro-grade models\n\n来源: https://github.com/inmve/free-ai-coding\n语言: JavaScript\nStars: 544",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME-de.md\nREADME-es.md\nREADME-fr.md\nREADME-hi.md\nREADME-ja.md\nREADME-pt-BR.md\nREADME-tr.md\nREADME-zh.md\nREADME.md\nREADME.template.md\ndata\ndata/languages.json\nlocales\nlocales/de.json\nlocales/en.json\nlocales/es.json\nlocales/fr.json\nlocales/hi.json\nlocales/ja.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "> **Agent Mode with GPT‑4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1**\n- 50 chat requests + 2,000 completions/month limit\n- Agent Mode with autonomous multi-step coding\n- Multiple providers (GPT-4.1, Claude Opus 3.5, Gemini 2.0 Flash, Grok Code Fast 1)\n- No credit card required\n- Limited to basic features after quota\n\n**** [Plans Details](https://docs.github.com/en/copilot/get-started/plans-for-github-copilot) | [Agent Mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.36779944984909
+  },
+  {
+    "name": "free-ai-coding/locales 模块",
+    "description": "[模块级] free-ai-coding 项目的 locales 模块 (source)。来源: https://github.com/inmve/free-ai-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-tools",
+      "awesome-list",
+      "code-generation",
+      "coding-assistant",
+      "module-level",
+      "source",
+      "locales"
+    ],
+    "genes": [
+      {
+        "title": "locales 模块说明",
+        "content": "模块路径: locales/\n类型: source\n文件数: 8\n\n包含文件:\n- locales/de.json\n- locales/en.json\n- locales/es.json\n- locales/fr.json\n- locales/hi.json\n- locales/ja.json\n- locales/pt-BR.json\n- locales/zh.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "locales 文件结构",
+        "content": "locales/de.json\nlocales/en.json\nlocales/es.json\nlocales/fr.json\nlocales/hi.json\nlocales/ja.json\nlocales/pt-BR.json\nlocales/zh.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.594239559879272
+  },
+  {
+    "name": "free-ai-coding/submissions 模块",
+    "description": "[模块级] free-ai-coding 项目的 submissions 模块 (source)。来源: https://github.com/inmve/free-ai-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-tools",
+      "awesome-list",
+      "code-generation",
+      "coding-assistant",
+      "module-level",
+      "source",
+      "submissions"
+    ],
+    "genes": [
+      {
+        "title": "submissions 模块说明",
+        "content": "模块路径: submissions/\n类型: source\n文件数: 2\n\n包含文件:\n- submissions/184829.json\n- submissions/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "submissions 文件结构",
+        "content": "submissions/184829.json\nsubmissions/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.594239559879272
+  }
+]

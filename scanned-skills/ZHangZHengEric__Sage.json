@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Sage (ZHangZHengEric)",
+    "description": "[项目级] Multi-Agent System Framework For Complex Tasks。来源: https://github.com/ZHangZHengEric/Sage",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "llm",
+      "manus",
+      "muilt-agents",
+      "python",
+      "stars-805",
+      "github-zhangzhengeric",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-Agent System Framework For Complex Tasks\n\n来源: https://github.com/ZHangZHengEric/Sage\n语言: Python\nStars: 805",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_CN.md\n__init__.py\napp\napp/build_exec\napp/sage_cli.py\napp/sage_demo.py\napp/sage_server.py\napp/server\napp/web",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🧠 **Multi-Agent Orchestration**: Support for both **TaskExecutor** (Sequential) and **FibreAgent** (Parallel) orchestration modes.\n- 🏗️ **Enterprise Architecture**: Robust storage layer powered by **Elasticsearch** (Vector), **MinIO** (Object), and **SQLAlchemy** (Relational).\n- � **RAG Engine 2.0**: Advanced Retrieval-Augmented Generation with **RRF** (Reciprocal Rank Fusion) and hybrid search.\n- 🛡️ **Secure Sandbox**: Isolated execution environment (`sagents.utils.sandbox`) for safe agent code execution.\n- 👁️ **Full Observability**: Integrated **OpenTelemetry** tracing to visualize age",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.452897940183934
+  },
+  {
+    "name": "Sage/app 模块",
+    "description": "[模块级] Sage 项目的 app 模块 (source)。来源: https://github.com/ZHangZHengEric/Sage",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "llm",
+      "manus",
+      "muilt-agents",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 189\n\n包含文件:\n- app/build_exec\n- app/build_exec/build_server.py\n- app/build_exec/build_simple.py\n- app/sage_cli.py\n- app/sage_demo.py\n- app/sage_server.py\n- app/server\n- app/server/bootstrap.py\n- app/server/core\n- app/server/core/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/build_exec\napp/build_exec/build_server.py\napp/build_exec/build_simple.py\napp/sage_cli.py\napp/sage_demo.py\napp/sage_server.py\napp/server\napp/server/bootstrap.py\napp/server/core\napp/server/core/__init__.py\napp/server/core/auth.py\napp/server/core/client\napp/server/core/client/__init__.py\napp/server/core/client/chat.py\napp/server/core/client/db.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.662318352147148
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "layout-aware-document-processing-and-retrieval-augmented-generation (aws-samples)",
+    "description": "[项目级] Advanced document extraction and chunking techniques for retrieval augmented generation that is aware of the layout of documents. Increases knowledge retrieval accuracy and provides control for retrieved knowledge context management。来源: https://github.com/aws-samples/layout-aware-document-processing-and-retrieval-augmented-generation",
+    "domain": "ai-llm",
+    "tags": [
+      "information-extraction",
+      "information-retrieval",
+      "llm",
+      "retrieval-augmented-generation",
+      "vector-database",
+      "jupyter notebook",
+      "stars-114",
+      "github-aws-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Advanced document extraction and chunking techniques for retrieval augmented generation that is aware of the layout of documents. Increases knowledge retrieval accuracy and provides control for retrieved knowledge context management\n\n来源: https://github.com/aws-samples/layout-aware-document-processing-and-retrieval-augmented-generation\n语言: Jupyter Notebook\nStars: 114",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\namazon-2024-10k.pdf\nimages\nimages/amazonsus2022.jpg\nimages/complex-tables.png\nimages/list-chunker.png\nimages/rag-sect.jpg\nimages/table-chunkers.png\nimages/text-chunks.png\nimages/txt-layout-Page-2.jpg\ntextract-api.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.028452425668236
+  },
+  {
+    "name": "layout-aware-document-processing-and-retrieval-augmented-generation/images 模块",
+    "description": "[模块级] layout-aware-document-processing-and-retrieval-augmented-generation 项目的 images 模块 (source)。来源: https://github.com/aws-samples/layout-aware-document-processing-and-retrieval-augmented-generation",
+    "domain": "ai-llm",
+    "tags": [
+      "information-extraction",
+      "information-retrieval",
+      "llm",
+      "retrieval-augmented-generation",
+      "vector-database",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/amazonsus2022.jpg\n- images/complex-tables.png\n- images/list-chunker.png\n- images/rag-sect.jpg\n- images/table-chunkers.png\n- images/text-chunks.png\n- images/txt-layout-Page-2.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/amazonsus2022.jpg\nimages/complex-tables.png\nimages/list-chunker.png\nimages/rag-sect.jpg\nimages/table-chunkers.png\nimages/text-chunks.png\nimages/txt-layout-Page-2.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.322761940534589
+  }
+]

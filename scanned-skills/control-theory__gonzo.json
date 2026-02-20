@@ -1,0 +1,288 @@
+[
+  {
+    "name": "gonzo (control-theory)",
+    "description": "[项目级] Gonzo! The Go based TUI log analysis tool。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "go",
+      "stars-2437",
+      "github-control-theory",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Gonzo! The Go based TUI log analysis tool\n\n来源: https://github.com/control-theory/gonzo\n语言: Go\nStars: 2437",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nUSAGE_GUIDE.md\ncmd\ncmd/gonzo\ndocs\ndocs/CNAME\ndocs/framecut.gif\ndocs/gonzo-heatmap.png\ndocs/gonzo-main.png\ndocs/gonzo-mascot-smaller.png\ndocs/gonzo-stats.png\ndocs/gonzo_video_walkthrough.gif\ndocs/index.html\ndocs/mascot.png\ndocs/screenshot.png\ndocs/sponsor-controltheory-dstl8.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6934277645923625
+  },
+  {
+    "name": "gonzo/cmd 模块",
+    "description": "[模块级] gonzo 项目的 cmd 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 5\n\n包含文件:\n- cmd/gonzo\n- cmd/gonzo/app.go\n- cmd/gonzo/extractors.go\n- cmd/gonzo/main.go\n- cmd/gonzo/processing.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/gonzo\ncmd/gonzo/app.go\ncmd/gonzo/extractors.go\ncmd/gonzo/main.go\ncmd/gonzo/processing.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/docs 模块",
+    "description": "[模块级] gonzo 项目的 docs 模块 (docs)。来源: https://github.com/control-theory/gonzo",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/CNAME\n- docs/framecut.gif\n- docs/gonzo-heatmap.png\n- docs/gonzo-main.png\n- docs/gonzo-mascot-smaller.png\n- docs/gonzo-stats.png\n- docs/gonzo_video_walkthrough.gif\n- docs/index.html\n- docs/mascot.png\n- docs/screenshot.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CNAME\ndocs/framecut.gif\ndocs/gonzo-heatmap.png\ndocs/gonzo-main.png\ndocs/gonzo-mascot-smaller.png\ndocs/gonzo-stats.png\ndocs/gonzo_video_walkthrough.gif\ndocs/index.html\ndocs/mascot.png\ndocs/screenshot.png\ndocs/sponsor-controltheory-dstl8.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/examples 模块",
+    "description": "[模块级] gonzo 项目的 examples 模块 (example)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 4\n\n包含文件:\n- examples/config.yml\n- examples/k8s_config.yml\n- examples/otlp_example.yml\n- examples/send_otlp_logs.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/config.yml\nexamples/k8s_config.yml\nexamples/otlp_example.yml\nexamples/send_otlp_logs.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/formats 模块",
+    "description": "[模块级] gonzo 项目的 formats 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "formats"
+    ],
+    "genes": [
+      {
+        "title": "formats 模块说明",
+        "content": "Gonzo supports custom log formats through YAML configuration files. This allows you to parse any structured log format without modifying the source code.\n\nSome example custom formats are included in the repo, simply download, copy, or modify as you like!\nIn order for the commands below to work, you must first download them and put them in the Gonzo config directory.\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "formats 文件结构",
+        "content": "formats/apache-combined.yaml\nformats/common-log.yaml\nformats/loki-batch.yaml\nformats/loki-stream.yaml\nformats/nodejs.yaml\nformats/vercel-stream.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/guides 模块",
+    "description": "[模块级] gonzo 项目的 guides 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "guides"
+    ],
+    "genes": [
+      {
+        "title": "guides 模块说明",
+        "content": "模块路径: guides/\n类型: source\n文件数: 7\n\n包含文件:\n- guides/CLOUDWATCH_USAGE_GUIDE.md\n- guides/CUSTOM_FORMATS.md\n- guides/FORMAT_QUICK_REFERENCE.md\n- guides/KUBERNETES_USAGE.md\n- guides/SKINS.md\n- guides/STERN_USAGE_GUIDE.md\n- guides/VICTORIA_LOGS_USAGE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guides 文件结构",
+        "content": "guides/CLOUDWATCH_USAGE_GUIDE.md\nguides/CUSTOM_FORMATS.md\nguides/FORMAT_QUICK_REFERENCE.md\nguides/KUBERNETES_USAGE.md\nguides/SKINS.md\nguides/STERN_USAGE_GUIDE.md\nguides/VICTORIA_LOGS_USAGE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/internal 模块",
+    "description": "[模块级] gonzo 项目的 internal 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 66\n\n包含文件:\n- internal/ai\n- internal/ai/claude-code.go\n- internal/ai/client.go\n- internal/ai/factory.go\n- internal/ai/openai.go\n- internal/analyzer\n- internal/analyzer/otlp.go\n- internal/analyzer/text.go\n- internal/drain3\n- internal/drain3/impl.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/ai\ninternal/ai/claude-code.go\ninternal/ai/client.go\ninternal/ai/factory.go\ninternal/ai/openai.go\ninternal/analyzer\ninternal/analyzer/otlp.go\ninternal/analyzer/text.go\ninternal/drain3\ninternal/drain3/impl.go\ninternal/filereader\ninternal/filereader/filereader.go\ninternal/formats\ninternal/formats/format.go\ninternal/k8s",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/skins 模块",
+    "description": "[模块级] gonzo 项目的 skins 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "skins"
+    ],
+    "genes": [
+      {
+        "title": "skins 模块说明",
+        "content": "模块路径: skins/\n类型: source\n文件数: 12\n\n包含文件:\n- skins/controltheory-dark.yaml\n- skins/controltheory-light.yaml\n- skins/dracula.yaml\n- skins/github-light.yaml\n- skins/gruvbox.yaml\n- skins/matrix.yaml\n- skins/monokai.yaml\n- skins/nord.yaml\n- skins/solarized-dark.yaml\n- skins/solarized-light.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skins 文件结构",
+        "content": "skins/controltheory-dark.yaml\nskins/controltheory-light.yaml\nskins/dracula.yaml\nskins/github-light.yaml\nskins/gruvbox.yaml\nskins/matrix.yaml\nskins/monokai.yaml\nskins/nord.yaml\nskins/solarized-dark.yaml\nskins/solarized-light.yaml\nskins/spring.yaml\nskins/vs-code-light.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  },
+  {
+    "name": "gonzo/test-data 模块",
+    "description": "[模块级] gonzo 项目的 test-data 模块 (source)。来源: https://github.com/control-theory/gonzo",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "golang",
+      "logs",
+      "ollama",
+      "openai",
+      "module-level",
+      "source",
+      "test-data"
+    ],
+    "genes": [
+      {
+        "title": "test-data 模块说明",
+        "content": "模块路径: test-data/\n类型: source\n文件数: 4\n\n包含文件:\n- test-data/lokiclisample.json\n- test-data/lokiwssample.json\n- test-data/test.json\n- test-data/vercelclisample.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test-data 文件结构",
+        "content": "test-data/lokiclisample.json\ntest-data/lokiwssample.json\ntest-data/test.json\ntest-data/vercelclisample.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.85474221167389
+  }
+]

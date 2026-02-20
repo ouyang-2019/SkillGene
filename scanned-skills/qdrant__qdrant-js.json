@@ -1,0 +1,162 @@
+[
+  {
+    "name": "qdrant-js (qdrant)",
+    "description": "[项目级] JavaScript/Typescript SDK for Qdrant Vector Database。来源: https://github.com/qdrant/qdrant-js",
+    "domain": "tooling",
+    "tags": [
+      "javascript",
+      "sdk",
+      "sdk-typescript",
+      "typescript",
+      "vector-database",
+      "stars-424",
+      "github-qdrant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "JavaScript/Typescript SDK for Qdrant Vector Database\n\n来源: https://github.com/qdrant/qdrant-js\n语言: TypeScript\nStars: 424",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```shell\npnpm i @qdrant/js-client-rest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/how_to_release.md\ndocs/logo.svg\ndocs/ts-logo-256.svg\nexamples\nexamples/node-js-basic\npackage.json\npackages\npackages/js-client-grpc\npackages/js-client-rest\npackages/qdrant-js\npnpm-lock.yaml\npnpm-workspace.yaml\nscripts\nscripts/prepare.cjs\nscripts/prepublish.mjs\ntsconfig.base.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.313682928296366
+  },
+  {
+    "name": "qdrant-js/docs 模块",
+    "description": "[模块级] qdrant-js 项目的 docs 模块 (docs)。来源: https://github.com/qdrant/qdrant-js",
+    "domain": "documentation",
+    "tags": [
+      "javascript",
+      "sdk",
+      "sdk-typescript",
+      "typescript",
+      "vector-database",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/how_to_release.md\n- docs/logo.svg\n- docs/ts-logo-256.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/how_to_release.md\ndocs/logo.svg\ndocs/ts-logo-256.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  },
+  {
+    "name": "qdrant-js/examples 模块",
+    "description": "[模块级] qdrant-js 项目的 examples 模块 (example)。来源: https://github.com/qdrant/qdrant-js",
+    "domain": "tooling",
+    "tags": [
+      "javascript",
+      "sdk",
+      "sdk-typescript",
+      "typescript",
+      "vector-database",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 4\n\n包含文件:\n- examples/node-js-basic\n- examples/node-js-basic/README.md\n- examples/node-js-basic/index.js\n- examples/node-js-basic/package.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/node-js-basic\nexamples/node-js-basic/README.md\nexamples/node-js-basic/index.js\nexamples/node-js-basic/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  },
+  {
+    "name": "qdrant-js/packages 模块",
+    "description": "[模块级] qdrant-js 项目的 packages 模块 (source)。来源: https://github.com/qdrant/qdrant-js",
+    "domain": "tooling",
+    "tags": [
+      "javascript",
+      "sdk",
+      "sdk-typescript",
+      "typescript",
+      "vector-database",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 99\n\n包含文件:\n- packages/js-client-grpc\n- packages/js-client-grpc/.eslintrc.json\n- packages/js-client-grpc/.prettierignore\n- packages/js-client-grpc/CHANGELOG.md\n- packages/js-client-grpc/LICENSE\n- packages/js-client-grpc/README.md\n- packages/js-client-grpc/buf.gen.yaml\n- packages/js-client-grpc/package.json\n- packages/js-client-grpc/proto\n- packages/js-client-grpc/proto/collections.proto",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/js-client-grpc\npackages/js-client-grpc/.eslintrc.json\npackages/js-client-grpc/.prettierignore\npackages/js-client-grpc/CHANGELOG.md\npackages/js-client-grpc/LICENSE\npackages/js-client-grpc/README.md\npackages/js-client-grpc/buf.gen.yaml\npackages/js-client-grpc/package.json\npackages/js-client-grpc/proto\npackages/js-client-grpc/proto/collections.proto\npackages/js-client-grpc/proto/collections_service.proto\npackages/js-client-grpc/proto/json_with_int.proto\npackages/js-client-grpc/proto/points.proto\npackages/js-client-grpc/proto/points_service.proto\npackages/js-client-grpc/proto/qdrant.proto",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  },
+  {
+    "name": "qdrant-js/scripts 模块",
+    "description": "[模块级] qdrant-js 项目的 scripts 模块 (script)。来源: https://github.com/qdrant/qdrant-js",
+    "domain": "tooling",
+    "tags": [
+      "javascript",
+      "sdk",
+      "sdk-typescript",
+      "typescript",
+      "vector-database",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/prepare.cjs\n- scripts/prepublish.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/prepare.cjs\nscripts/prepublish.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.550946342637093
+  }
+]

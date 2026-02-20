@@ -1,0 +1,97 @@
+[
+  {
+    "name": "hello-agents (datawhalechina)",
+    "description": "[项目级] 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程。来源: https://github.com/datawhalechina/hello-agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "tutorial",
+      "python",
+      "stars-21187",
+      "github-datawhalechina",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程\n\n来源: https://github.com/datawhalechina/hello-agents\n语言: Python\nStars: 21187",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Additional-Chapter\nAdditional-Chapter/N8N_INSTALL_GUIDE.md\nAdditional-Chapter/N8N_INSTALL_GUIDE\nAdditional-Chapter/NODEJS_INSTALL_GUIDE.md\nCo-creation-projects\nCo-creation-projects/1zrj-DataAnalysisAgent\nCo-creation-projects/Apricity-InnocoreAI\nCo-creation-projects/EXAMPLE-ProjectTemplate\nCo-creation-projects/README.md\nCo-creation-projects/YYHDBL-HelloCodeAgentCli",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "hello-agents/Additional-Chapter 模块",
+    "description": "[模块级] hello-agents 项目的 Additional-Chapter 模块 (source)。来源: https://github.com/datawhalechina/hello-agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "tutorial",
+      "python",
+      "module-level",
+      "source",
+      "additional-chapter"
+    ],
+    "genes": [
+      {
+        "title": "Additional-Chapter 模块说明",
+        "content": "模块路径: Additional-Chapter/\n类型: source\n文件数: 10\n\n包含文件:\n- Additional-Chapter/N8N_INSTALL_GUIDE.md\n- Additional-Chapter/N8N_INSTALL_GUIDE\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912025341272.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912032540657.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912033251997.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912033341666.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912034040656.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912234709064.png\n- Additional-Chapter/N8N_INSTALL_GUIDE/image-20250912234748845.png\n- Additional-Chapter/NODEJS_INSTALL_GUIDE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Additional-Chapter 文件结构",
+        "content": "Additional-Chapter/N8N_INSTALL_GUIDE.md\nAdditional-Chapter/N8N_INSTALL_GUIDE\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912025341272.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912032540657.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912033251997.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912033341666.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912034040656.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912234709064.png\nAdditional-Chapter/N8N_INSTALL_GUIDE/image-20250912234748845.png\nAdditional-Chapter/NODEJS_INSTALL_GUIDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230427786635557
+  },
+  {
+    "name": "hello-agents/Co-creation-projects 模块",
+    "description": "[模块级] hello-agents 项目的 Co-creation-projects 模块 (source)。来源: https://github.com/datawhalechina/hello-agents",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "llm",
+      "rag",
+      "tutorial",
+      "python",
+      "module-level",
+      "source",
+      "co-creation-projects"
+    ],
+    "genes": [
+      {
+        "title": "Co-creation-projects 模块说明",
+        "content": "模块路径: Co-creation-projects/\n类型: source\n文件数: 183\n\n包含文件:\n- Co-creation-projects/1zrj-DataAnalysisAgent\n- Co-creation-projects/1zrj-DataAnalysisAgent/README.md\n- Co-creation-projects/1zrj-DataAnalysisAgent/data\n- Co-creation-projects/1zrj-DataAnalysisAgent/data/simple_data.xls\n- Co-creation-projects/1zrj-DataAnalysisAgent/main.ipynb\n- Co-creation-projects/1zrj-DataAnalysisAgent/output\n- Co-creation-projects/1zrj-DataAnalysisAgent/output/echarts.html\n- Co-creation-projects/1zrj-DataAnalysisAgent/output/report.md\n- Co-creation-projects/1zrj-DataAnalysisAgent/requirements.txt\n- Co-creation-projects/Apricity-InnocoreAI",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Co-creation-projects 文件结构",
+        "content": "Co-creation-projects/1zrj-DataAnalysisAgent\nCo-creation-projects/1zrj-DataAnalysisAgent/README.md\nCo-creation-projects/1zrj-DataAnalysisAgent/data\nCo-creation-projects/1zrj-DataAnalysisAgent/data/simple_data.xls\nCo-creation-projects/1zrj-DataAnalysisAgent/main.ipynb\nCo-creation-projects/1zrj-DataAnalysisAgent/output\nCo-creation-projects/1zrj-DataAnalysisAgent/output/echarts.html\nCo-creation-projects/1zrj-DataAnalysisAgent/output/report.md\nCo-creation-projects/1zrj-DataAnalysisAgent/requirements.txt\nCo-creation-projects/Apricity-InnocoreAI\nCo-creation-projects/Apricity-InnocoreAI/.env.example\nCo-creation-projects/Apricity-InnocoreAI/.gitignore\nCo-creation-projects/Apricity-InnocoreAI/FEATURES.md\nCo-creation-projects/Apricity-InnocoreAI/QUICKSTART.md\nCo-creation-projects/Apricity-InnocoreAI/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230427786635557
+  }
+]

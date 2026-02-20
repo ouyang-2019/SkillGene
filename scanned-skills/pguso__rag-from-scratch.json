@@ -1,0 +1,153 @@
+[
+  {
+    "name": "rag-from-scratch (pguso)",
+    "description": "[项目级] Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation.。来源: https://github.com/pguso/rag-from-scratch",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "educational",
+      "llm",
+      "node-llama-cpp",
+      "javascript",
+      "stars-1220",
+      "github-pguso",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-Augmented Generation (RAG) enhances language models by giving them access to **external knowledge**.  \nInstead of asking the model to “remember” everything, you let it **retrieve relevant context** before generating a response.\n\n**Pipeline:**\n1. **Knowledge Requirements**, define questions and data needs.\n2. **Data Loading**, import and structure your documents.\n3. **Text Splitting & Chunking**, divide data into manageable pieces.\n4. **Embedding**, turn chunks into numerical vectors.\n5. **Vector Store**, save and index embeddings for fast retrieval.\n6. **Retrieval**, fetch the most relevant context for a given query.\n7. **Post-Retrieval Re-Ranking**, re-order results to prioritize the best context.\n8. **Query Preprocessing & Embedding Normalization**, clean and standardize input ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "DOWNLOAD.md\nLICENSE\nREADME.md\nexamples\nexamples/00_how_rag_works\nexamples/01_intro_to_llms\nexamples/02_data_loading\nexamples/03_text_splitting_and_chunking\nexamples/04_intro_to_embeddings\nexamples/05_building_vector_store\nexamples/06_retrieval_strategies\nhelpers\nhelpers/llama-prompter.js\nhelpers/openai-prompter.js\nhelpers/output-helper.js\nimages\nimages/hybrid-search-decision-tree.png\nimages/indexing.png\nimages/rag.png\nimages/using-external-data.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.543179915337374
+  },
+  {
+    "name": "rag-from-scratch/examples 模块",
+    "description": "[模块级] rag-from-scratch 项目的 examples 模块 (example)。来源: https://github.com/pguso/rag-from-scratch",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "educational",
+      "llm",
+      "node-llama-cpp",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 57\n\n包含文件:\n- examples/00_how_rag_works\n- examples/00_how_rag_works/CODE.md\n- examples/00_how_rag_works/CONCEPT.md\n- examples/00_how_rag_works/example.js\n- examples/01_intro_to_llms\n- examples/01_intro_to_llms/01_node_llama_cpp_basics\n- examples/01_intro_to_llms/01_node_llama_cpp_basics/CODE.md\n- examples/01_intro_to_llms/01_node_llama_cpp_basics/CONCEPT.md\n- examples/01_intro_to_llms/01_node_llama_cpp_basics/example.js\n- examples/01_intro_to_llms/02_building_llm_wrapper",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/00_how_rag_works\nexamples/00_how_rag_works/CODE.md\nexamples/00_how_rag_works/CONCEPT.md\nexamples/00_how_rag_works/example.js\nexamples/01_intro_to_llms\nexamples/01_intro_to_llms/01_node_llama_cpp_basics\nexamples/01_intro_to_llms/01_node_llama_cpp_basics/CODE.md\nexamples/01_intro_to_llms/01_node_llama_cpp_basics/CONCEPT.md\nexamples/01_intro_to_llms/01_node_llama_cpp_basics/example.js\nexamples/01_intro_to_llms/02_building_llm_wrapper\nexamples/01_intro_to_llms/02_building_llm_wrapper/CODE.md\nexamples/01_intro_to_llms/02_building_llm_wrapper/CONCEPT.md\nexamples/01_intro_to_llms/02_building_llm_wrapper/example.js\nexamples/02_data_loading\nexamples/02_data_loading/CODE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7345439322698994
+  },
+  {
+    "name": "rag-from-scratch/helpers 模块",
+    "description": "[模块级] rag-from-scratch 项目的 helpers 模块 (source)。来源: https://github.com/pguso/rag-from-scratch",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "educational",
+      "llm",
+      "node-llama-cpp",
+      "module-level",
+      "source",
+      "helpers"
+    ],
+    "genes": [
+      {
+        "title": "helpers 模块说明",
+        "content": "模块路径: helpers/\n类型: source\n文件数: 3\n\n包含文件:\n- helpers/llama-prompter.js\n- helpers/openai-prompter.js\n- helpers/output-helper.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "helpers 文件结构",
+        "content": "helpers/llama-prompter.js\nhelpers/openai-prompter.js\nhelpers/output-helper.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7345439322698994
+  },
+  {
+    "name": "rag-from-scratch/images 模块",
+    "description": "[模块级] rag-from-scratch 项目的 images 模块 (source)。来源: https://github.com/pguso/rag-from-scratch",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "educational",
+      "llm",
+      "node-llama-cpp",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/hybrid-search-decision-tree.png\n- images/indexing.png\n- images/rag.png\n- images/using-external-data.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/hybrid-search-decision-tree.png\nimages/indexing.png\nimages/rag.png\nimages/using-external-data.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7345439322698994
+  },
+  {
+    "name": "rag-from-scratch/src 模块",
+    "description": "[模块级] rag-from-scratch 项目的 src 模块 (source)。来源: https://github.com/pguso/rag-from-scratch",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "educational",
+      "llm",
+      "node-llama-cpp",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 55\n\n包含文件:\n- src/README.md\n- src/chains\n- src/chains/ConversationalChain.js\n- src/chains/RAGChain.js\n- src/chains/RetrievalChain.js\n- src/chains/index.js\n- src/chat-models\n- src/chat-models/ChatLlamaCpp.js\n- src/embeddings\n- src/embeddings/EmbeddingCache.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/README.md\nsrc/chains\nsrc/chains/ConversationalChain.js\nsrc/chains/RAGChain.js\nsrc/chains/RetrievalChain.js\nsrc/chains/index.js\nsrc/chat-models\nsrc/chat-models/ChatLlamaCpp.js\nsrc/embeddings\nsrc/embeddings/EmbeddingCache.js\nsrc/embeddings/EmbeddingModel.js\nsrc/embeddings/index.js\nsrc/index.js\nsrc/llms\nsrc/llms/BaseLLM.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7345439322698994
+  }
+]

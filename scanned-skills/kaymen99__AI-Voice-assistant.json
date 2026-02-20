@@ -1,0 +1,108 @@
+[
+  {
+    "name": "AI-Voice-assistant (kaymen99)",
+    "description": "[项目级] AI Voice Assistant: Talk to an AI agent that helps you with event scheduling, contact management, accessing your knowledge base, and web searches using simple voice commands。来源: https://github.com/kaymen99/AI-Voice-assistant",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-speech",
+      "ai-voice-assistant",
+      "deepgram",
+      "gmail",
+      "python",
+      "stars-65",
+      "github-kaymen99",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Voice Assistant: Talk to an AI agent that helps you with event scheduling, contact management, accessing your knowledge base, and web searches using simple voice commands\n\n来源: https://github.com/kaymen99/AI-Voice-assistant\n语言: Python\nStars: 65",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/yourusername/AI-Voice-assistant.git\ncd AI-Voice-assistant",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nmain.py\nrequirements.txt\nscripts\nscripts/create_index.py\nscripts/fetch_index.py\nsrc\nsrc/agents\nsrc/prompts\nsrc/speech_processing\nsrc/tools\nsrc/utils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Speech-to-Text (STT)**: Convert spoken language into written text.\n\n- **Text-to-Speech (TTS)**: Generate vocal responses from text input.\n\n- **Vocal Interaction**: Engage in natural conversations with the AI assistant.\n\n- **Tool Integration**: Utilize built-in tools for calendar management, contact handling, email composition, web searching, and personal knowledge base access.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.906456678321428
+  },
+  {
+    "name": "AI-Voice-assistant/scripts 模块",
+    "description": "[模块级] AI-Voice-assistant 项目的 scripts 模块 (script)。来源: https://github.com/kaymen99/AI-Voice-assistant",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-speech",
+      "ai-voice-assistant",
+      "deepgram",
+      "gmail",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/create_index.py\n- scripts/fetch_index.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/create_index.py\nscripts/fetch_index.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2251653426571423
+  },
+  {
+    "name": "AI-Voice-assistant/src 模块",
+    "description": "[模块级] AI-Voice-assistant 项目的 src 模块 (source)。来源: https://github.com/kaymen99/AI-Voice-assistant",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-speech",
+      "ai-voice-assistant",
+      "deepgram",
+      "gmail",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 23\n\n包含文件:\n- src/agents\n- src/agents/agent.py\n- src/prompts\n- src/prompts/prompts.py\n- src/speech_processing\n- src/speech_processing/conversation_manager.py\n- src/speech_processing/speech_to_text.py\n- src/speech_processing/text_to_speech.py\n- src/tools\n- src/tools/base_tool.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/agent.py\nsrc/prompts\nsrc/prompts/prompts.py\nsrc/speech_processing\nsrc/speech_processing/conversation_manager.py\nsrc/speech_processing/speech_to_text.py\nsrc/speech_processing/text_to_speech.py\nsrc/tools\nsrc/tools/base_tool.py\nsrc/tools/calendar\nsrc/tools/calendar/calendar_tool.py\nsrc/tools/contacts\nsrc/tools/contacts/__init__.py\nsrc/tools/contacts/add_contact_tool.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2251653426571423
+  }
+]

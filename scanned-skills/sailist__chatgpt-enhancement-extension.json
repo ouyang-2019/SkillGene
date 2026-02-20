@@ -1,0 +1,192 @@
+[
+  {
+    "name": "chatgpt-enhancement-extension (sailist)",
+    "description": "[项目级] An all-in-one plugin to improve your ChatGPT experience!。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "stars-331",
+      "github-sailist",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An all-in-one plugin to improve your ChatGPT experience!\n\n来源: https://github.com/sailist/chatgpt-enhancement-extension\n语言: TypeScript\nStars: 331",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nREADME.md\nREADME.zh.md\nchat.md\ndist.crx\ndist.crx.bak\nimages\nimages/ChatGPT_logo.svg\nimages/PDF_file_icon.svg\nimages/coffee.png\nimages/connect-cross-page-with-prompt.gif\nimages/connect-cross-page.gif\nimages/dashboard-0.png\nimages/dashboard-1.png\nimages/dashboard-2.png\nimages/full-main-preview.png\nimages/icon.ai\nimages/injected-button-preview.png\nimages/marquee_promo.psd",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259913996887859
+  },
+  {
+    "name": "chatgpt-enhancement-extension/images 模块",
+    "description": "[模块级] chatgpt-enhancement-extension 项目的 images 模块 (source)。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 33\n\n包含文件:\n- images/ChatGPT_logo.svg\n- images/PDF_file_icon.svg\n- images/coffee.png\n- images/connect-cross-page-with-prompt.gif\n- images/connect-cross-page.gif\n- images/dashboard-0.png\n- images/dashboard-1.png\n- images/dashboard-2.png\n- images/full-main-preview.png\n- images/icon.ai",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/ChatGPT_logo.svg\nimages/PDF_file_icon.svg\nimages/coffee.png\nimages/connect-cross-page-with-prompt.gif\nimages/connect-cross-page.gif\nimages/dashboard-0.png\nimages/dashboard-1.png\nimages/dashboard-2.png\nimages/full-main-preview.png\nimages/icon.ai\nimages/injected-button-preview.png\nimages/marquee_promo.psd\nimages/omnibox-1.png\nimages/options-preview-1.png\nimages/options-preview-2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5079311975102874
+  },
+  {
+    "name": "chatgpt-enhancement-extension/public 模块",
+    "description": "[模块级] chatgpt-enhancement-extension 项目的 public 模块 (source)。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 14\n\n包含文件:\n- public/icon-128.png\n- public/icon-16.png\n- public/icon-32.png\n- public/icon-34.png\n- public/icon-64.png\n- public/icon-ava-16.png\n- public/icon-ava-32.png\n- public/icon-re-128.png\n- public/icon-re-16.png\n- public/icon-re-32.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/icon-128.png\npublic/icon-16.png\npublic/icon-32.png\npublic/icon-34.png\npublic/icon-64.png\npublic/icon-ava-16.png\npublic/icon-ava-32.png\npublic/icon-re-128.png\npublic/icon-re-16.png\npublic/icon-re-32.png\npublic/icon-re-34.png\npublic/icon-re-64.png\npublic/icon-unava-16.png\npublic/icon-unava-32.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5079311975102874
+  },
+  {
+    "name": "chatgpt-enhancement-extension/scripts 模块",
+    "description": "[模块级] chatgpt-enhancement-extension 项目的 scripts 模块 (script)。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/observe.js\n- scripts/textarea.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/observe.js\nscripts/textarea.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5079311975102874
+  },
+  {
+    "name": "chatgpt-enhancement-extension/src 模块",
+    "description": "[模块级] chatgpt-enhancement-extension 项目的 src 模块 (source)。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 82\n\n包含文件:\n- src/assets\n- src/assets/img\n- src/assets/img/logo.svg\n- src/assets/img/weixin.jpg\n- src/assets/img/zhifubao.png\n- src/assets/style\n- src/assets/style/theme.scss\n- src/common\n- src/common/classname.ts\n- src/common/components",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/assets\nsrc/assets/img\nsrc/assets/img/logo.svg\nsrc/assets/img/weixin.jpg\nsrc/assets/img/zhifubao.png\nsrc/assets/style\nsrc/assets/style/theme.scss\nsrc/common\nsrc/common/classname.ts\nsrc/common/components\nsrc/common/components/Button.tsx\nsrc/common/components/SearchBar.tsx\nsrc/common/config.ts\nsrc/common/element.ts\nsrc/common/index.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5079311975102874
+  },
+  {
+    "name": "chatgpt-enhancement-extension/utils 模块",
+    "description": "[模块级] chatgpt-enhancement-extension 项目的 utils 模块 (source)。来源: https://github.com/sailist/chatgpt-enhancement-extension",
+    "domain": "general",
+    "tags": [
+      "chatgpt",
+      "chatgpt-chrome-extension",
+      "markdown",
+      "pdf-document-processor",
+      "typescript",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 19\n\n包含文件:\n- utils/log.ts\n- utils/manifest-parser\n- utils/manifest-parser/index.ts\n- utils/plugins\n- utils/plugins/add-hmr.ts\n- utils/plugins/custom-dynamic-import.ts\n- utils/plugins/make-manifest.ts\n- utils/reload\n- utils/reload/constant.ts\n- utils/reload/initReloadClient.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/log.ts\nutils/manifest-parser\nutils/manifest-parser/index.ts\nutils/plugins\nutils/plugins/add-hmr.ts\nutils/plugins/custom-dynamic-import.ts\nutils/plugins/make-manifest.ts\nutils/reload\nutils/reload/constant.ts\nutils/reload/initReloadClient.ts\nutils/reload/initReloadServer.ts\nutils/reload/injections\nutils/reload/injections/script.ts\nutils/reload/injections/view.ts\nutils/reload/interpreter",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5079311975102874
+  }
+]

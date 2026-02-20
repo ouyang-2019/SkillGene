@@ -1,0 +1,211 @@
+[
+  {
+    "name": "graphrag-rs (automataIA)",
+    "description": "[项目级] GraphRAG-rs is a high-performance, state-of-the-art Rust implementation of GraphRAG (Graph-based Retrieval Augmented Generation) that builds knowledge graphs from documents and enables natural language querying with configurable entity extraction and local LLM integration。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "GraphRAG-rs is a high-performance, state-of-the-art Rust implementation of GraphRAG (Graph-based Retrieval Augmented Generation) that builds knowledge graphs from documents and enables natural language querying with configurable entity extraction and local LLM integration\n\n来源: https://github.com/automataIA/graphrag-rs\n语言: Rust\nStars: 176",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCargo.lock\nCargo.toml\nHOW_IT_WORKS.md\nREADME.md\nTODO.md\nbenches\nbenches/cache_performance.rs\nbenches/graph_construction.rs\nbenches/pagerank_retrieval.rs\nbenches/parallel_processing.rs\nbenches/server_benchmarks.rs\nbenches/text_processing.rs\nbenches/vector_search.rs\nclippy.toml\nconfig\nconfig/JSON5_CONFIG_GUIDE.md\nconfig/schema\nconfig/templates\ndocs-example",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "sudo apt install -y gobjc gnustep-devel libgnustep-base-dev",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.122756333907075
+  },
+  {
+    "name": "graphrag-rs/benches 模块",
+    "description": "[模块级] graphrag-rs 项目的 benches 模块 (source)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "source",
+      "benches"
+    ],
+    "genes": [
+      {
+        "title": "benches 模块说明",
+        "content": "模块路径: benches/\n类型: source\n文件数: 7\n\n包含文件:\n- benches/cache_performance.rs\n- benches/graph_construction.rs\n- benches/pagerank_retrieval.rs\n- benches/parallel_processing.rs\n- benches/server_benchmarks.rs\n- benches/text_processing.rs\n- benches/vector_search.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benches 文件结构",
+        "content": "benches/cache_performance.rs\nbenches/graph_construction.rs\nbenches/pagerank_retrieval.rs\nbenches/parallel_processing.rs\nbenches/server_benchmarks.rs\nbenches/text_processing.rs\nbenches/vector_search.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "graphrag-rs/config 模块",
+    "description": "[模块级] graphrag-rs 项目的 config 模块 (config)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "devops",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "[enhancements]\nenabled = true\n\n[enhancements.lightrag]\nenabled = true\nmax_keywords = 20           # 6000x token reduction vs traditional GraphRAG\nhigh_level_weight = 0.6\nlow_level_weight = 0.4\n\n[enhancements.leiden]\nenabled = true\nmax_cluster_size = 10       # Better quality than Louvain\nresolution = 1.0\n\n[enhancements.cross_encoder]\nenabled = true\nmodel_name = \"cross-encoder/ms-marco-MiniLM-L-6-v2\"\ntop_k = 10                  # +20% accuracy improvement",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/JSON5_CONFIG_GUIDE.md\nconfig/schema\nconfig/schema/graphrag-config.schema.json\nconfig/templates\nconfig/templates/README.md\nconfig/templates/academic_research.graphrag.json5\nconfig/templates/academic_research.toml\nconfig/templates/algorithmic.graphrag.json5\nconfig/templates/algorithmic_pipeline.graphrag.json5\nconfig/templates/algorithmic_pipeline.toml\nconfig/templates/dynamic_universal.graphrag.json5\nconfig/templates/dynamic_universal.toml\nconfig/templates/enrichment_example.graphrag.json5\nconfig/templates/enrichment_example.toml\nconfig/templates/hybrid.graphrag.json5",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "graphrag-rs/docs-example 模块",
+    "description": "[模块级] graphrag-rs 项目的 docs-example 模块 (source)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "source",
+      "docs-example"
+    ],
+    "genes": [
+      {
+        "title": "docs-example 模块说明",
+        "content": "模块路径: docs-example/\n类型: source\n文件数: 2\n\n包含文件:\n- docs-example/Readme-First.txt\n- docs-example/Symposium.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-example 文件结构",
+        "content": "docs-example/Readme-First.txt\ndocs-example/Symposium.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "graphrag-rs/examples 模块",
+    "description": "[模块级] graphrag-rs 项目的 examples 模块 (example)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 53\n\n包含文件:\n- examples/01_basic_usage.rs\n- examples/02_stateful_api.rs\n- examples/03_builder_api.rs\n- examples/04_with_ollama.rs\n- examples/05_batch_processing.rs\n- examples/MULTI_DOCUMENT_PIPELINE.md\n- examples/benchmark_quality_improvements.rs\n- examples/complete_zero_cost_graphrag_demo.rs\n- examples/graphrag-leptos-demo\n- examples/graphrag-leptos-demo/Cargo.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/01_basic_usage.rs\nexamples/02_stateful_api.rs\nexamples/03_builder_api.rs\nexamples/04_with_ollama.rs\nexamples/05_batch_processing.rs\nexamples/MULTI_DOCUMENT_PIPELINE.md\nexamples/benchmark_quality_improvements.rs\nexamples/complete_zero_cost_graphrag_demo.rs\nexamples/graphrag-leptos-demo\nexamples/graphrag-leptos-demo/Cargo.lock\nexamples/graphrag-leptos-demo/Cargo.toml\nexamples/graphrag-leptos-demo/README.md\nexamples/graphrag-leptos-demo/RUNTIME_TESTING_GUIDE.md\nexamples/graphrag-leptos-demo/STATUS.md\nexamples/graphrag-leptos-demo/Trunk.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "graphrag-rs/graphrag-cli 模块",
+    "description": "[模块级] graphrag-rs 项目的 graphrag-cli 模块 (source)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "source",
+      "graphrag-cli"
+    ],
+    "genes": [
+      {
+        "title": "graphrag-cli 模块说明",
+        "content": "模块路径: graphrag-cli/\n类型: source\n文件数: 37\n\n包含文件:\n- graphrag-cli/CONFIG_AND_CACHE_VERIFICATION.md\n- graphrag-cli/Cargo.toml\n- graphrag-cli/LOADING_ANOMALY_ANALYSIS.md\n- graphrag-cli/README.md\n- graphrag-cli/SLASH_COMMANDS.md\n- graphrag-cli/STORAGE_LOCATIONS.md\n- graphrag-cli/USER_GUIDE.md\n- graphrag-cli/WORKSPACE_COMMANDS.md\n- graphrag-cli/src\n- graphrag-cli/src/action.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "graphrag-cli 文件结构",
+        "content": "graphrag-cli/CONFIG_AND_CACHE_VERIFICATION.md\ngraphrag-cli/Cargo.toml\ngraphrag-cli/LOADING_ANOMALY_ANALYSIS.md\ngraphrag-cli/README.md\ngraphrag-cli/SLASH_COMMANDS.md\ngraphrag-cli/STORAGE_LOCATIONS.md\ngraphrag-cli/USER_GUIDE.md\ngraphrag-cli/WORKSPACE_COMMANDS.md\ngraphrag-cli/src\ngraphrag-cli/src/action.rs\ngraphrag-cli/src/app.rs\ngraphrag-cli/src/commands\ngraphrag-cli/src/commands/mod.rs\ngraphrag-cli/src/config.rs\ngraphrag-cli/src/handlers",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "graphrag-rs/graphrag-core 模块",
+    "description": "[模块级] graphrag-rs 项目的 graphrag-core 模块 (source)。来源: https://github.com/automataIA/graphrag-rs",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-176",
+      "github-automataia",
+      "module-level",
+      "source",
+      "graphrag-core"
+    ],
+    "genes": [
+      {
+        "title": "graphrag-core 模块说明",
+        "content": "模块路径: graphrag-core/\n类型: source\n文件数: 47\n\n包含文件:\n- graphrag-core/ADVANCED_FEATURES.md\n- graphrag-core/CROSS_ENCODER_INTEGRATION.md\n- graphrag-core/Cargo.toml\n- graphrag-core/EMBEDDINGS_CONFIG.md\n- graphrag-core/ENRICHMENT_IMPLEMENTATION.md\n- graphrag-core/ENTITY_EXTRACTION.md\n- graphrag-core/HIPPORAG_INTEGRATION.md\n- graphrag-core/LEIDEN_INTEGRATION.md\n- graphrag-core/LIGHTRAG_INTEGRATION.md\n- graphrag-core/OLLAMA_INTEGRATION.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "graphrag-core 文件结构",
+        "content": "graphrag-core/ADVANCED_FEATURES.md\ngraphrag-core/CROSS_ENCODER_INTEGRATION.md\ngraphrag-core/Cargo.toml\ngraphrag-core/EMBEDDINGS_CONFIG.md\ngraphrag-core/ENRICHMENT_IMPLEMENTATION.md\ngraphrag-core/ENTITY_EXTRACTION.md\ngraphrag-core/HIPPORAG_INTEGRATION.md\ngraphrag-core/LEIDEN_INTEGRATION.md\ngraphrag-core/LIGHTRAG_INTEGRATION.md\ngraphrag-core/OLLAMA_INTEGRATION.md\ngraphrag-core/PIPELINE_ARCHITECTURE.md\ngraphrag-core/QUICKSTART.md\ngraphrag-core/README.md\ngraphrag-core/WORKSPACE_PERSISTENCE_SUMMARY.md\ngraphrag-core/add_rograg_docs.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  }
+]

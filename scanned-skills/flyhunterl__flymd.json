@@ -1,0 +1,178 @@
+[
+  {
+    "name": "flymd (flyhunterl)",
+    "description": "[项目级] 高性能Markdown笔记工具！免费AI，智能便签、TODO推送、本地知识库、AI小说引擎。PDF解析、自动语音笔记、录音转文本。毫秒级启动High-performance Markdown note tool! Free AI, smart notes, TODO reminders, local knowledge base, AI novel engine. PDF parsing, auto voice notes, audio-to-text. Millisecond startup.。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "FlyMD 是一款轻量级、高性能的本地 Markdown 编辑器,支持 PDF 高精度解析、AI 辅助写作、智能待办提醒等功能。本地优先,数据安全可控,开箱即用。\n\n<img width=\"1920\" height=\"1080\" alt=\"hero\" src=\"https://github.com/user-attachments/assets/acf758c1-6c8e-4b4f-a313-d4ce2190394b\" />\n\n<p align=\"center\">\n  <a href=\"https://github.com/flyhunterl/flymd/releases/latest\">下载桌面版（Windows / macOS / Linux）</a>\n  ·\n  <a href=\"https://github.com/flyhunterl/flymd/releases?q=android&expanded=true\">下载安卓版（Beta）</a>\n</p>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BUILD_ANDROID.md\nFlymdnew.ico\nFlymdnew.png\nLICENSE\nOSserver\nOSserver/README.md\nOSserver/server.js\nREADME.en.md\nREADME.md\nROADMAP.en.md\nROADMAP.md\nTHIRD-PARTY-NOTICES.md\nflymd.png\ngood.png\nindex.html\nindex.json\npackage-lock.json\npackage.json\nplugin.en.md\nplugin.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.423786329571056
+  },
+  {
+    "name": "flymd/OSserver 模块",
+    "description": "[模块级] flymd 项目的 OSserver 模块 (source)。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "module-level",
+      "source",
+      "osserver"
+    ],
+    "genes": [
+      {
+        "title": "OSserver 模块说明",
+        "content": "模块路径: OSserver/\n类型: source\n文件数: 2\n\n包含文件:\n- OSserver/README.md\n- OSserver/server.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "OSserver 文件结构",
+        "content": "OSserver/README.md\nOSserver/server.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "flymd/public 模块",
+    "description": "[模块级] flymd 项目的 public 模块 (source)。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 98\n\n包含文件:\n- public/drag-ghost.html\n- public/plugins\n- public/plugins/ai-assistant\n- public/plugins/ai-assistant/Flymdnew.png\n- public/plugins/ai-assistant/Powered-by-dark.png\n- public/plugins/ai-assistant/Powered-by-dark.svg\n- public/plugins/ai-assistant/Powered-by-light.png\n- public/plugins/ai-assistant/Powered-by-light.svg\n- public/plugins/ai-assistant/Powered-by.svg\n- public/plugins/ai-assistant/main.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/drag-ghost.html\npublic/plugins\npublic/plugins/ai-assistant\npublic/plugins/ai-assistant/Flymdnew.png\npublic/plugins/ai-assistant/Powered-by-dark.png\npublic/plugins/ai-assistant/Powered-by-dark.svg\npublic/plugins/ai-assistant/Powered-by-light.png\npublic/plugins/ai-assistant/Powered-by-light.svg\npublic/plugins/ai-assistant/Powered-by.svg\npublic/plugins/ai-assistant/main.js\npublic/plugins/ai-assistant/manifest.json\npublic/plugins/ai-novel\npublic/plugins/ai-novel/main.js\npublic/plugins/ai-novel/manifest.json\npublic/plugins/autoyaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "flymd/scripts 模块",
+    "description": "[模块级] flymd 项目的 scripts 模块 (script)。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/ensure-icons.cjs\n- scripts/make_icon_safearea.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/ensure-icons.cjs\nscripts/make_icon_safearea.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "flymd/src-tauri 模块",
+    "description": "[模块级] flymd 项目的 src-tauri 模块 (source)。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "module-level",
+      "source",
+      "src-tauri"
+    ],
+    "genes": [
+      {
+        "title": "src-tauri 模块说明",
+        "content": "模块路径: src-tauri/\n类型: source\n文件数: 11\n\n包含文件:\n- src-tauri/.cargo\n- src-tauri/.cargo/config.toml\n- src-tauri/Cargo.lock\n- src-tauri/Cargo.toml\n- src-tauri/Info.plist\n- src-tauri/build.rs\n- src-tauri/src\n- src-tauri/src/main.rs\n- src-tauri/tauri.conf.json\n- src-tauri/tauri.linux.conf.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src-tauri 文件结构",
+        "content": "src-tauri/.cargo\nsrc-tauri/.cargo/config.toml\nsrc-tauri/Cargo.lock\nsrc-tauri/Cargo.toml\nsrc-tauri/Info.plist\nsrc-tauri/build.rs\nsrc-tauri/src\nsrc-tauri/src/main.rs\nsrc-tauri/tauri.conf.json\nsrc-tauri/tauri.linux.conf.json\nsrc-tauri/tauri.macos.conf.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  },
+  {
+    "name": "flymd/src 模块",
+    "description": "[模块级] flymd 项目的 src 模块 (source)。来源: https://github.com/flyhunterl/flymd",
+    "domain": "testing",
+    "tags": [
+      "javascript",
+      "stars-704",
+      "github-flyhunterl",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 54\n\n包含文件:\n- src/core\n- src/core/appInfo.ts\n- src/core/autoSave.ts\n- src/core/commandPalette.ts\n- src/core/configBackup.ts\n- src/core/fsSafe.ts\n- src/core/imagePaste.ts\n- src/core/imageUpload.ts\n- src/core/libraryFs.ts\n- src/core/librarySort.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/core\nsrc/core/appInfo.ts\nsrc/core/autoSave.ts\nsrc/core/commandPalette.ts\nsrc/core/configBackup.ts\nsrc/core/fsSafe.ts\nsrc/core/imagePaste.ts\nsrc/core/imageUpload.ts\nsrc/core/libraryFs.ts\nsrc/core/librarySort.ts\nsrc/core/logger.ts\nsrc/core/mermaid.ts\nsrc/core/mermaidConfig.ts\nsrc/core/onlineAnnouncements.ts\nsrc/core/pasteUrlTitle.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.639029063656845
+  }
+]

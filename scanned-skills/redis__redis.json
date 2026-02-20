@@ -1,0 +1,68 @@
+[
+  {
+    "name": "redis (redis)",
+    "description": "[项目级] For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.。来源: https://github.com/redis/redis",
+    "domain": "database",
+    "tags": [
+      "cache",
+      "caching",
+      "database",
+      "distributed-systems",
+      "in-memory",
+      "c",
+      "stars-73100",
+      "github-redis",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.\n\n来源: https://github.com/redis/redis\n语言: C\nStars: 73100",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run -d -p 6379:6379 redis:latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "00-RELEASENOTES\nBUGS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nINSTALL\nLICENSE.txt\nMANIFESTO\nMakefile\nREADME.md\nREDISCONTRIBUTIONS.txt\nSECURITY.md\nTLS.md\ncodecov.yml\ndeps\ndeps/Makefile\ndeps/README.md\ndeps/fast_float\ndeps/fpconv\ndeps/hdr_histogram\ndeps/hiredis",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "redis/deps 模块",
+    "description": "[模块级] redis 项目的 deps 模块 (source)。来源: https://github.com/redis/redis",
+    "domain": "database",
+    "tags": [
+      "cache",
+      "caching",
+      "database",
+      "distributed-systems",
+      "in-memory",
+      "module-level",
+      "source",
+      "deps"
+    ],
+    "genes": [
+      {
+        "title": "deps 模块说明",
+        "content": "模块路径: deps/\n类型: source\n文件数: 162\n\n包含文件:\n- deps/Makefile\n- deps/README.md\n- deps/fast_float\n- deps/fast_float/Makefile\n- deps/fast_float/README.md\n- deps/fast_float/fast_float.h\n- deps/fast_float/fast_float_strtod.cpp\n- deps/fast_float/fast_float_strtod.h\n- deps/fpconv\n- deps/fpconv/LICENSE.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deps 文件结构",
+        "content": "deps/Makefile\ndeps/README.md\ndeps/fast_float\ndeps/fast_float/Makefile\ndeps/fast_float/README.md\ndeps/fast_float/fast_float.h\ndeps/fast_float/fast_float_strtod.cpp\ndeps/fast_float/fast_float_strtod.h\ndeps/fpconv\ndeps/fpconv/LICENSE.txt\ndeps/fpconv/Makefile\ndeps/fpconv/README.md\ndeps/fpconv/fpconv_dtoa.c\ndeps/fpconv/fpconv_dtoa.h\ndeps/fpconv/fpconv_powers.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.445566950783144
+  }
+]

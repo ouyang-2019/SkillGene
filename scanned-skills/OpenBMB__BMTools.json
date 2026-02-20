@@ -1,0 +1,89 @@
+[
+  {
+    "name": "BMTools (OpenBMB)",
+    "description": "[项目级] Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins。来源: https://github.com/OpenBMB/BMTools",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-2787",
+      "github-openbmb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tool Learning for Big Models, Open-Source Solutions of ChatGPT-Plugins\n\n来源: https://github.com/OpenBMB/BMTools\n语言: Python\nStars: 2787",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\r\ngit clone git@github.com:OpenBMB/BMTools.git\r\ncd BMTools\r\npip install --upgrade pip\r\npip install -r requirements.txt\r\npython setup.py develop\r\n```\r\nTo support CPM-Bee:\r\n\r\n```bash\r\ngit clone -b main --single-branch https://github.com/OpenBMB/CPM-Bee.git\r\ncp -rf CPM-Bee/src/cpm_live bmtools/models/\r\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_zh.md\nassets\nassets/logo.png\nassets/meta0423.gif\nassets/overview.png\nbmtools\nbmtools/__init__.py\nbmtools/agent\nbmtools/knowledge\nbmtools/models\nbmtools/tools",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7225684843566516
+  },
+  {
+    "name": "BMTools/assets 模块",
+    "description": "[模块级] BMTools 项目的 assets 模块 (source)。来源: https://github.com/OpenBMB/BMTools",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-2787",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/logo.png\n- assets/meta0423.gif\n- assets/overview.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/logo.png\nassets/meta0423.gif\nassets/overview.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.878054787485322
+  },
+  {
+    "name": "BMTools/bmtools 模块",
+    "description": "[模块级] BMTools 项目的 bmtools 模块 (source)。来源: https://github.com/OpenBMB/BMTools",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-2787",
+      "github-openbmb",
+      "module-level",
+      "source",
+      "bmtools"
+    ],
+    "genes": [
+      {
+        "title": "bmtools 模块说明",
+        "content": "After you have developed a tool, you can contribute it to BMTools by following the steps below:\r\n1. Fork this repository\r\n2. Create a folder in `bmtools/tools/{tool_name}`\r\n3. Add an `api.py` to the folder: `bmtools/tools/{tool_name}/api.py` and a `__init__.py` to the folder: `bmtools/tools/{tool_name}/__init__.py`\r\n4. Register the tool in the `__init__.py` file you created in step 3 using the code in section 3.1\r\n5. Import your tool in the `__init__.py` file under bmtools/tools\r\n6. Add a `test.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bmtools 文件结构",
+        "content": "bmtools/__init__.py\nbmtools/agent\nbmtools/agent/BabyagiTools.py\nbmtools/agent/apitool.py\nbmtools/agent/autogpt\nbmtools/agent/autogpt/__init__.py\nbmtools/agent/autogpt/agent.py\nbmtools/agent/autogpt/prompt.py\nbmtools/agent/autogpt/prompt_generator.py\nbmtools/agent/autogptmulti\nbmtools/agent/autogptmulti/__init__.py\nbmtools/agent/autogptmulti/agent.py\nbmtools/agent/autogptmulti/prompt.py\nbmtools/agent/autogptmulti/prompt_generator.py\nbmtools/agent/executor.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.878054787485322
+  }
+]

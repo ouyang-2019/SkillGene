@@ -1,0 +1,318 @@
+[
+  {
+    "name": "WeKnora (Tencent)",
+    "description": "[项目级] LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "go",
+      "stars-13058",
+      "github-tencent",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[**WeKnora**](https://weknora.weixin.qq.com) is an LLM-powered framework designed for deep document understanding and semantic retrieval, especially for handling complex, heterogeneous documents. \n\nIt adopts a modular architecture that combines multimodal preprocessing, semantic vector indexing, intelligent retrieval, and large language model inference. At its core, WeKnora follows the **RAG (Retrieval-Augmented Generation)** paradigm, enabling high-quality, context-aware answers by combining relevant document chunks with model reasoning.\n\n**Website:** https://weknora.weixin.qq.com",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMakefile\nREADME.md\nREADME_CN.md\nREADME_JA.md\nSECURITY.md\nVERSION\nclient\nclient/README.md\nclient/README_EN.md\nclient/agent.go\nclient/chunk.go\nclient/client.go\nclient/evaluation.go\nclient/example.go\nclient/faq.go\nclient/go.mod\nclient/go.sum\nclient/knowledge.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp .env.example .env",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🤖 Agent Mode**: Support for ReACT Agent mode that can use built-in tools to retrieve knowledge bases, MCP tools, and web search tools to access external services, providing comprehensive summary reports through multiple iterations and reflection\n- **🔍 Precise Understanding**: Structured content extraction from PDFs, Word documents, images and more into unified semantic views\n- **🧠 Intelligent Reasoning**: Leverages LLMs to understand document context and user intent for accurate Q&A and multi-turn conversations\n- **📚 Multi-Type Knowledge Bases**: Support for FAQ and document knowledge ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "WeKnora/client 模块",
+    "description": "[模块级] WeKnora 项目的 client 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 17\n\n包含文件:\n- client/README.md\n- client/README_EN.md\n- client/agent.go\n- client/chunk.go\n- client/client.go\n- client/evaluation.go\n- client/example.go\n- client/faq.go\n- client/go.mod\n- client/go.sum",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/README.md\nclient/README_EN.md\nclient/agent.go\nclient/chunk.go\nclient/client.go\nclient/evaluation.go\nclient/example.go\nclient/faq.go\nclient/go.mod\nclient/go.sum\nclient/knowledge.go\nclient/knowledgebase.go\nclient/message.go\nclient/model.go\nclient/session.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/cmd 模块",
+    "description": "[模块级] WeKnora 项目的 cmd 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 5\n\n包含文件:\n- cmd/download\n- cmd/download/duckdb\n- cmd/download/duckdb/duckdb.go\n- cmd/server\n- cmd/server/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/download\ncmd/download/duckdb\ncmd/download/duckdb/duckdb.go\ncmd/server\ncmd/server/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/config 模块",
+    "description": "[模块级] WeKnora 项目的 config 模块 (config)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.yaml\nconfig/prompt_templates\nconfig/prompt_templates/context_template.yaml\nconfig/prompt_templates/fallback.yaml\nconfig/prompt_templates/rewrite_system.yaml\nconfig/prompt_templates/rewrite_user.yaml\nconfig/prompt_templates/system_prompt.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/dataset 模块",
+    "description": "[模块级] WeKnora 项目的 dataset 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "dataset"
+    ],
+    "genes": [
+      {
+        "title": "dataset 模块说明",
+        "content": "模块路径: dataset/\n类型: source\n文件数: 9\n\n包含文件:\n- dataset/README\n- dataset/README_zh.md\n- dataset/qa_dataset.py\n- dataset/samples\n- dataset/samples/answers.parquet\n- dataset/samples/corpus.parquet\n- dataset/samples/qas.parquet\n- dataset/samples/qrels.parquet\n- dataset/samples/queries.parquet",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dataset 文件结构",
+        "content": "dataset/README\ndataset/README_zh.md\ndataset/qa_dataset.py\ndataset/samples\ndataset/samples/answers.parquet\ndataset/samples/corpus.parquet\ndataset/samples/qas.parquet\ndataset/samples/qrels.parquet\ndataset/samples/queries.parquet",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/docker 模块",
+    "description": "[模块级] WeKnora 项目的 docker 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 5\n\n包含文件:\n- docker/Dockerfile.app\n- docker/Dockerfile.docreader\n- docker/Dockerfile.sandbox\n- docker/config\n- docker/config/supervisord.conf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.app\ndocker/Dockerfile.docreader\ndocker/Dockerfile.sandbox\ndocker/config\ndocker/config/supervisord.conf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/docreader 模块",
+    "description": "[模块级] WeKnora 项目的 docreader 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "docreader"
+    ],
+    "genes": [
+      {
+        "title": "docreader 模块说明",
+        "content": "模块路径: docreader/\n类型: source\n文件数: 64\n\n包含文件:\n- docreader/.pylintrc\n- docreader/Makefile\n- docreader/README.md\n- docreader/client\n- docreader/client/client.go\n- docreader/client/client_test.go\n- docreader/config.py\n- docreader/main.py\n- docreader/models\n- docreader/models/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docreader 文件结构",
+        "content": "docreader/.pylintrc\ndocreader/Makefile\ndocreader/README.md\ndocreader/client\ndocreader/client/client.go\ndocreader/client/client_test.go\ndocreader/config.py\ndocreader/main.py\ndocreader/models\ndocreader/models/__init__.py\ndocreader/models/document.py\ndocreader/models/read_config.py\ndocreader/ocr\ndocreader/ocr/__init__.py\ndocreader/ocr/base.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/docs 模块",
+    "description": "[模块级] WeKnora 项目的 docs 模块 (docs)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 48\n\n包含文件:\n- docs/BUILTIN_MODELS.md\n- docs/KnowledgeGraph.md\n- docs/MCP功能使用说明.md\n- docs/QA.md\n- docs/ROADMAP.md\n- docs/WeKnora.md\n- docs/WeKnora.pdf\n- docs/agent-skills.md\n- docs/api\n- docs/api/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BUILTIN_MODELS.md\ndocs/KnowledgeGraph.md\ndocs/MCP功能使用说明.md\ndocs/QA.md\ndocs/ROADMAP.md\ndocs/WeKnora.md\ndocs/WeKnora.pdf\ndocs/agent-skills.md\ndocs/api\ndocs/api/README.md\ndocs/api/agent.md\ndocs/api/chat.md\ndocs/api/chunk.md\ndocs/api/evaluation.md\ndocs/api/faq.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/examples 模块",
+    "description": "[模块级] WeKnora 项目的 examples 模块 (example)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 8\n\n包含文件:\n- examples/skills\n- examples/skills/README.md\n- examples/skills/pdf-processing\n- examples/skills/pdf-processing/FORMS.md\n- examples/skills/pdf-processing/SKILL.md\n- examples/skills/pdf-processing/scripts\n- examples/skills/pdf-processing/scripts/analyze_form.py\n- examples/skills/pdf-processing/scripts/extract_text.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/skills\nexamples/skills/README.md\nexamples/skills/pdf-processing\nexamples/skills/pdf-processing/FORMS.md\nexamples/skills/pdf-processing/SKILL.md\nexamples/skills/pdf-processing/scripts\nexamples/skills/pdf-processing/scripts/analyze_form.py\nexamples/skills/pdf-processing/scripts/extract_text.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  },
+  {
+    "name": "WeKnora/frontend 模块",
+    "description": "[模块级] WeKnora 项目的 frontend 模块 (source)。来源: https://github.com/Tencent/WeKnora",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai",
+      "chatbot",
+      "chatbots",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 3\n\n包含文件:\n- frontend/.dockerignore\n- frontend/.gitignore\n- frontend/Dockerfile",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.gitignore\nfrontend/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146350665707378
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "name": "Memoh (memohai)",
+    "description": "[项目级] Multi-Member, Structured Long-Memory, Containerized AI Agent System ✨。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "github-memohai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-Member, Structured Long-Memory, Containerized AI Agent System ✨\n\n来源: https://github.com/memohai/Memoh\n语言: Go\nStars: 540",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "curl -fsSL https://raw.githubusercontent.com/memohai/Memoh/main/scripts/install.sh | sudo sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nDEPLOYMENT.md\nLICENSE\nREADME.md\nREADME_CN.md\nagent\nagent/.gitignore\nagent/README.md\nagent/bun.lock\nagent/mise.toml\nagent/package.json\nagent/src\nagent/tsconfig.json\nassets\nassets/logo.png\nassets/telegram.jpg\nbump.config.ts\ncmd\ncmd/agent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-bot Management**: Create multiple bots; humans and bots, or bots with each other, can chat privately, in groups, or collaborate.\n- **Containerized**: Each bot runs in its own isolated container. Bots can freely execute commands, edit files, and access the network within their containers—like having their own computer.\n- **Memory Engineering**: Every chat is stored in the database, with the last 24 hours of context loaded by default. Each conversation turn is stored as memory and can be retrieved by bots through semantic search.\n- **Various Platforms**: Supports Telegram, Lark (Feishu",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3661968799114845
+  },
+  {
+    "name": "Memoh/agent 模块",
+    "description": "[模块级] Memoh 项目的 agent 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "模块路径: agent/\n类型: source\n文件数: 45\n\n包含文件:\n- agent/.gitignore\n- agent/README.md\n- agent/bun.lock\n- agent/mise.toml\n- agent/package.json\n- agent/src\n- agent/src/agent.ts\n- agent/src/index.ts\n- agent/src/middlewares\n- agent/src/middlewares/bearer.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/.gitignore\nagent/README.md\nagent/bun.lock\nagent/mise.toml\nagent/package.json\nagent/src\nagent/src/agent.ts\nagent/src/index.ts\nagent/src/middlewares\nagent/src/middlewares/bearer.ts\nagent/src/middlewares/cors.ts\nagent/src/middlewares/error.ts\nagent/src/model.ts\nagent/src/models.ts\nagent/src/modules",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/assets 模块",
+    "description": "[模块级] Memoh 项目的 assets 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/logo.png\n- assets/telegram.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/logo.png\nassets/telegram.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/cmd 模块",
+    "description": "[模块级] Memoh 项目的 cmd 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 11\n\n包含文件:\n- cmd/agent\n- cmd/agent/agent\n- cmd/agent/main.go\n- cmd/agent/mise.toml\n- cmd/mcp\n- cmd/mcp/Dockerfile\n- cmd/mcp/main.go\n- cmd/mcp/template\n- cmd/mcp/template/IDENTITY.md\n- cmd/mcp/template/SOUL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/agent\ncmd/agent/agent\ncmd/agent/main.go\ncmd/agent/mise.toml\ncmd/mcp\ncmd/mcp/Dockerfile\ncmd/mcp/main.go\ncmd/mcp/template\ncmd/mcp/template/IDENTITY.md\ncmd/mcp/template/SOUL.md\ncmd/mcp/template/TOOLS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/conf 模块",
+    "description": "[模块级] Memoh 项目的 conf 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "conf"
+    ],
+    "genes": [
+      {
+        "title": "conf 模块说明",
+        "content": "模块路径: conf/\n类型: source\n文件数: 3\n\n包含文件:\n- conf/app.dev.toml\n- conf/app.docker.toml\n- conf/app.example.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "conf 文件结构",
+        "content": "conf/app.dev.toml\nconf/app.docker.toml\nconf/app.example.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/db 模块",
+    "description": "[模块级] Memoh 项目的 db 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "db"
+    ],
+    "genes": [
+      {
+        "title": "db 模块说明",
+        "content": "模块路径: db/\n类型: source\n文件数: 43\n\n包含文件:\n- db/embed.go\n- db/migrations\n- db/migrations/0001_init.down.sql\n- db/migrations/0001_init.up.sql\n- db/migrations/0002_channel_identity_avatar.down.sql\n- db/migrations/0002_channel_identity_avatar.up.sql\n- db/migrations/0003_route_conversation_type.down.sql\n- db/migrations/0003_route_conversation_type.up.sql\n- db/migrations/0004_search_providers.down.sql\n- db/migrations/0004_search_providers.up.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "db 文件结构",
+        "content": "db/embed.go\ndb/migrations\ndb/migrations/0001_init.down.sql\ndb/migrations/0001_init.up.sql\ndb/migrations/0002_channel_identity_avatar.down.sql\ndb/migrations/0002_channel_identity_avatar.up.sql\ndb/migrations/0003_route_conversation_type.down.sql\ndb/migrations/0003_route_conversation_type.up.sql\ndb/migrations/0004_search_providers.down.sql\ndb/migrations/0004_search_providers.up.sql\ndb/migrations/0005_channel_config_disabled.down.sql\ndb/migrations/0005_channel_config_disabled.up.sql\ndb/migrations/0006_model_modalities.down.sql\ndb/migrations/0006_model_modalities.up.sql\ndb/migrations/0007_media_assets.down.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/docker 模块",
+    "description": "[模块级] Memoh 项目的 docker 模块 (source)。来源: https://github.com/memohai/Memoh",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 8\n\n包含文件:\n- docker/Dockerfile.agent\n- docker/Dockerfile.containerd\n- docker/Dockerfile.mcp\n- docker/Dockerfile.server\n- docker/Dockerfile.web\n- docker/containerd-entrypoint.sh\n- docker/nginx.conf\n- docker/server-entrypoint.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.agent\ndocker/Dockerfile.containerd\ndocker/Dockerfile.mcp\ndocker/Dockerfile.server\ndocker/Dockerfile.web\ndocker/containerd-entrypoint.sh\ndocker/nginx.conf\ndocker/server-entrypoint.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  },
+  {
+    "name": "Memoh/docs 模块",
+    "description": "[模块级] Memoh 项目的 docs 模块 (docs)。来源: https://github.com/memohai/Memoh",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "asistant",
+      "go",
+      "stars-540",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 55\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/docs\n- docs/docs/.vitepress\n- docs/docs/.vitepress/blogs.ts\n- docs/docs/.vitepress/config.ts\n- docs/docs/.vitepress/en.ts\n- docs/docs/.vitepress/zh.ts\n- docs/docs/blogs\n- docs/docs/blogs/2026-02-16.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/docs\ndocs/docs/.vitepress\ndocs/docs/.vitepress/blogs.ts\ndocs/docs/.vitepress/config.ts\ndocs/docs/.vitepress/en.ts\ndocs/docs/.vitepress/zh.ts\ndocs/docs/blogs\ndocs/docs/blogs/2026-02-16.md\ndocs/docs/blogs/index.md\ndocs/docs/cli\ndocs/docs/cli/auth.md\ndocs/docs/cli/bot.md\ndocs/docs/cli/channel.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5929575039291874
+  }
+]

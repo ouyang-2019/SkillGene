@@ -1,0 +1,127 @@
+[
+  {
+    "name": "switch2ai (sinberCS)",
+    "description": "[项目级] switch2ai - A JetBrains IDE plugin enabling seamless collaboration between JetBrains IDEs and various AI agents (Cursor, Qoder, Claude code etc.). Key features include instant switching between different AI editors, rapid AI prompt input with AI selection, and fully custom commands with variable support for enhanced AI collaboration workflow.。来源: https://github.com/sinberCS/switch2ai",
+    "domain": "ai-llm",
+    "tags": [
+      "kotlin",
+      "stars-170",
+      "github-sinbercs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "switch2ai - A JetBrains IDE plugin enabling seamless collaboration between JetBrains IDEs and various AI agents (Cursor, Qoder, Claude code etc.). Key features include instant switching between different AI editors, rapid AI prompt input with AI selection, and fully configurable custom commands with variable support for enhanced AI collaboration workflow.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nDEVELOPMENT_SUMMARY.md\nLICENSE\nPHASE1_README.md\nPHASE2_README.md\nPHASE3_README.md\nREADME.md\nREADME_zh.md\nbuild.gradle.kts\ngradle.properties\ngradle\ngradle/wrapper\ngradlew\ngradlew.bat\nimages\nimages/switch-show.gif\nimages/switch2ai-0.1.1.zip\nimages/switch2ai-0.1.2.zip\npromptWord.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🚀 **Instant AI Editor Switching**\n    - One-click switch between JetBrains IDE and various AI editors (Cursor, Qoder, Claude code, etc.)\n    - Automatically positions to the same cursor location (line and column)\n    - Perfectly maintains editing context without interrupting workflow\n\n- ⌨️ **Convenient Shortcut Support**\n    - macOS:\n        - `Option+Shift+K` - Open AI prompt input popup\n        - `Option+Shift+P` - Open project in Cursor Editor\n        - `Option+Shift+O` - Open current file in Cursor Editor\n        - `Option+Shift+U` - Open current file in Qoder\n        - `Option+Shift+I`",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.115224460689137
+  },
+  {
+    "name": "switch2ai/gradle 模块",
+    "description": "[模块级] switch2ai 项目的 gradle 模块 (source)。来源: https://github.com/sinberCS/switch2ai",
+    "domain": "ai-llm",
+    "tags": [
+      "kotlin",
+      "stars-170",
+      "github-sinbercs",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "模块路径: gradle/\n类型: source\n文件数: 3\n\n包含文件:\n- gradle/wrapper\n- gradle/wrapper/gradle-wrapper.jar\n- gradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3921795685513096
+  },
+  {
+    "name": "switch2ai/images 模块",
+    "description": "[模块级] switch2ai 项目的 images 模块 (source)。来源: https://github.com/sinberCS/switch2ai",
+    "domain": "ai-llm",
+    "tags": [
+      "kotlin",
+      "stars-170",
+      "github-sinbercs",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/switch-show.gif\n- images/switch2ai-0.1.1.zip\n- images/switch2ai-0.1.2.zip",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/switch-show.gif\nimages/switch2ai-0.1.1.zip\nimages/switch2ai-0.1.2.zip",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3921795685513096
+  },
+  {
+    "name": "switch2ai/src 模块",
+    "description": "[模块级] switch2ai 项目的 src 模块 (source)。来源: https://github.com/sinberCS/switch2ai",
+    "domain": "ai-llm",
+    "tags": [
+      "kotlin",
+      "stars-170",
+      "github-sinbercs",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 31\n\n包含文件:\n- src/main\n- src/main/kotlin\n- src/main/kotlin/com\n- src/main/kotlin/com/github\n- src/main/kotlin/com/github/switch2ai\n- src/main/kotlin/com/github/switch2ai/actions\n- src/main/kotlin/com/github/switch2ai/actions/processor\n- src/main/kotlin/com/github/switch2ai/actions/processor/CommandProcessor.kt\n- src/main/kotlin/com/github/switch2ai/actions/registry\n- src/main/kotlin/com/github/switch2ai/actions/registry/DynamicActionRegistry.kt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/kotlin\nsrc/main/kotlin/com\nsrc/main/kotlin/com/github\nsrc/main/kotlin/com/github/switch2ai\nsrc/main/kotlin/com/github/switch2ai/actions\nsrc/main/kotlin/com/github/switch2ai/actions/processor\nsrc/main/kotlin/com/github/switch2ai/actions/processor/CommandProcessor.kt\nsrc/main/kotlin/com/github/switch2ai/actions/registry\nsrc/main/kotlin/com/github/switch2ai/actions/registry/DynamicActionRegistry.kt\nsrc/main/kotlin/com/github/switch2ai/config\nsrc/main/kotlin/com/github/switch2ai/config/model\nsrc/main/kotlin/com/github/switch2ai/config/model/ConfigModel.kt\nsrc/main/kotlin/com/github/switch2ai/config/settings\nsrc/main/kotlin/com/github/switch2ai/config/settings/AppSettingsConfigurable.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3921795685513096
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "company-research-agent (guy-hartstein)",
+    "description": "[项目级] An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on companies using a multi-agent framework. It leverages Google's Gemini 2.5 Flash and OpenAI's GPT-5.1 on the backend for inference.。来源: https://github.com/guy-hartstein/company-research-agent",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "company",
+      "financial-analysis",
+      "gemini",
+      "python",
+      "stars-1593",
+      "github-guy-hartstein",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on companies using a multi-agent framework. It leverages Google's Gemini 2.5 Flash and OpenAI's GPT-5.1 on the backend for inference.\n\n来源: https://github.com/guy-hartstein/company-research-agent\n语言: Python\nStars: 1593",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.es.md\nREADME.fr.md\nREADME.jp.md\nREADME.kr.md\nREADME.md\nREADME.zh.md\napplication.py\nbackend\nbackend/__init__.py\nbackend/classes\nbackend/graph.py\nbackend/nodes\nbackend/prompts.py\nbackend/services\nbackend/utils\ndocker-compose.yml\nlanggraph.json\nlanggraph_entry.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-Source Research**: Gathers data from various sources, including company websites, news articles, financial reports, and industry analyses\n- **AI-Powered Content Filtering**: Uses Tavily's relevance scoring for content curation\n- **Asynchronous Processing**: Efficient polling-based architecture for tracking research progress\n- **Dual Model Architecture**:\n  - Gemini 2.5 Flash for high-context research synthesis\n  - GPT-5.1 for precise report formatting and editing\n- **Modern React Frontend**: Responsive UI with progress tracking and download options\n- **Modular Architecture**: Built u",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.601107887900566
+  },
+  {
+    "name": "company-research-agent/backend 模块",
+    "description": "[模块级] company-research-agent 项目的 backend 模块 (source)。来源: https://github.com/guy-hartstein/company-research-agent",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "company",
+      "financial-analysis",
+      "gemini",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "The platform implements a simple polling-based communication system:\n\n![web ui](<static/ui-2.png>)\n\n1. **Backend Implementation**:\n   - Uses FastAPI with async support\n   - Research tasks run in background\n   - Results are stored and accessed via REST endpoints\n   - Simple job status tracking\n   \n2. **Frontend Integration**:\n   - React frontend submits research requests\n   - Receives job_id for tracking\n   - Polls `/research/{job_id}/report` endpoint\n   - Displays final report when complete\n\n3. ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/__init__.py\nbackend/classes\nbackend/classes/__init__.py\nbackend/classes/state.py\nbackend/graph.py\nbackend/nodes\nbackend/nodes/__init__.py\nbackend/nodes/briefing.py\nbackend/nodes/collector.py\nbackend/nodes/curator.py\nbackend/nodes/editor.py\nbackend/nodes/enricher.py\nbackend/nodes/grounding.py\nbackend/nodes/researchers\nbackend/nodes/researchers/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7808863103204526
+  },
+  {
+    "name": "company-research-agent/static 模块",
+    "description": "[模块级] company-research-agent 项目的 static 模块 (source)。来源: https://github.com/guy-hartstein/company-research-agent",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "company",
+      "financial-analysis",
+      "gemini",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 4\n\n包含文件:\n- static/agent-flow.png\n- static/demo.mp4\n- static/ui-1.png\n- static/ui-2.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/agent-flow.png\nstatic/demo.mp4\nstatic/ui-1.png\nstatic/ui-2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7808863103204526
+  },
+  {
+    "name": "company-research-agent/ui 模块",
+    "description": "[模块级] company-research-agent 项目的 ui 模块 (source)。来源: https://github.com/guy-hartstein/company-research-agent",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "company",
+      "financial-analysis",
+      "gemini",
+      "module-level",
+      "source",
+      "ui"
+    ],
+    "genes": [
+      {
+        "title": "ui 模块说明",
+        "content": "The easiest way to get started is using the setup script, which automatically detects and uses `uv` for faster Python package installation when available:\n\n1. Clone the repository:\n```bash\ngit clone https://github.com/guy-hartstein/tavily-company-research.git\ncd tavily-company-research\n```\n\n2. Make the setup script executable and run it:\n```bash\nchmod +x setup.sh\n./setup.sh\n```\n\nThe setup script will:\n\n- Detect and use `uv` for faster Python package installation (if available)\n- Check for requir",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ui 文件结构",
+        "content": "ui/.env.development.example\nui/.gitignore\nui/eslint.config.js\nui/index.html\nui/package-lock.json\nui/package.json\nui/postcss.config.js\nui/public\nui/public/favicon.ico\nui/public/tavilylogo.png\nui/src\nui/src/App.tsx\nui/src/components\nui/src/components/CurationExtraction.tsx\nui/src/components/ExamplePopup.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "ui 代码示例",
+        "content": "git clone https://github.com/guy-hartstein/tavily-company-research.git\ncd tavily-company-research",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7808863103204526
+  }
+]

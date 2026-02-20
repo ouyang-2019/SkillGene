@@ -1,0 +1,158 @@
+[
+  {
+    "name": "prompt-in-context-learning (EgoAlpha)",
+    "description": "[项目级] Awesome resources for in-context learning and prompt engineering: Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date and cutting-edge updates. 。来源: https://github.com/EgoAlpha/prompt-in-context-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chain-of-thought",
+      "chatbot",
+      "chatgpt",
+      "chatgpt-api",
+      "jupyter notebook",
+      "stars-1685",
+      "github-egoalpha",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome resources for in-context learning and prompt engineering: Mastery of the LLMs such as ChatGPT, GPT-3, and FlanT5, with up-to-date and cutting-edge updates. \n\n来源: https://github.com/EgoAlpha/prompt-in-context-learning\n语言: Jupyter Notebook\nStars: 1685",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPaperList\nPaperList/AgentList.md\nPaperList/AutomaticPromptList.md\nPaperList/ChainofThoughtList.md\nPaperList/EvaluationReliabilityList.md\nPaperList/HardPromptList.md\nPaperList/InContextLearningList.md\nPaperList/KnowledgeAugmentedPromptList.md\nPaperList/PromptDesignList.md\nPaperList/PromptKnowledgeGraphList.md\nPaperList/RetrievalAugmentedGenerationList.md\nPaperList/SoftPromptList.md\nPaperList/foundationmodels.md\nPaperList/multimodalprompt.md\nPaperList/promptapplication.md\nPaperList/survey.md\nPlayground.md\nPromptEngineering.md\nPromptEngineering_orinignal.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Large language models (LLMs) are becoming a revolutionary technology that is shaping the development of our era. Developers can create applications that were previously only possible in our imaginations by building LLMs. However, using these LLMs often comes with certain technical barriers, and even at the introductory stage, people may be intimidated by cutting-edge technology: Do you have any questions like the following?\n\n- ❓ *How can LLM be built using programming?* \n- ❓ *How can it be used and deployed in your own programs?* \n\n💡 If there was a tutorial that could be accessible to all aud",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.613299952603679
+  },
+  {
+    "name": "prompt-in-context-learning/PaperList 模块",
+    "description": "[模块级] prompt-in-context-learning 项目的 PaperList 模块 (source)。来源: https://github.com/EgoAlpha/prompt-in-context-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chain-of-thought",
+      "chatbot",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "paperlist"
+    ],
+    "genes": [
+      {
+        "title": "PaperList 模块说明",
+        "content": "模块路径: PaperList/\n类型: source\n文件数: 15\n\n包含文件:\n- PaperList/AgentList.md\n- PaperList/AutomaticPromptList.md\n- PaperList/ChainofThoughtList.md\n- PaperList/EvaluationReliabilityList.md\n- PaperList/HardPromptList.md\n- PaperList/InContextLearningList.md\n- PaperList/KnowledgeAugmentedPromptList.md\n- PaperList/PromptDesignList.md\n- PaperList/PromptKnowledgeGraphList.md\n- PaperList/RetrievalAugmentedGenerationList.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "PaperList 文件结构",
+        "content": "PaperList/AgentList.md\nPaperList/AutomaticPromptList.md\nPaperList/ChainofThoughtList.md\nPaperList/EvaluationReliabilityList.md\nPaperList/HardPromptList.md\nPaperList/InContextLearningList.md\nPaperList/KnowledgeAugmentedPromptList.md\nPaperList/PromptDesignList.md\nPaperList/PromptKnowledgeGraphList.md\nPaperList/RetrievalAugmentedGenerationList.md\nPaperList/SoftPromptList.md\nPaperList/foundationmodels.md\nPaperList/multimodalprompt.md\nPaperList/promptapplication.md\nPaperList/survey.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "prompt-in-context-learning/figures 模块",
+    "description": "[模块级] prompt-in-context-learning 项目的 figures 模块 (source)。来源: https://github.com/EgoAlpha/prompt-in-context-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chain-of-thought",
+      "chatbot",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "figures"
+    ],
+    "genes": [
+      {
+        "title": "figures 模块说明",
+        "content": "模块路径: figures/\n类型: source\n文件数: 81\n\n包含文件:\n- figures/.DS_Store\n- figures/Prompt-EgoAlpha.svg\n- figures/Prompt-EgoAlpha_white.svg\n- figures/TrustGPT.png\n- figures/cook1.png\n- figures/cook10.png\n- figures/cook11.png\n- figures/cook12.png\n- figures/cook13.png\n- figures/cook14.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "figures 文件结构",
+        "content": "figures/.DS_Store\nfigures/Prompt-EgoAlpha.svg\nfigures/Prompt-EgoAlpha_white.svg\nfigures/TrustGPT.png\nfigures/cook1.png\nfigures/cook10.png\nfigures/cook11.png\nfigures/cook12.png\nfigures/cook13.png\nfigures/cook14.png\nfigures/cook2.png\nfigures/cook3.png\nfigures/cook4.png\nfigures/cook5.png\nfigures/cook6.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "prompt-in-context-learning/langchain v1.0教程 模块",
+    "description": "[模块级] prompt-in-context-learning 项目的 langchain v1.0教程 模块 (source)。来源: https://github.com/EgoAlpha/prompt-in-context-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chain-of-thought",
+      "chatbot",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "langchain v1.0教程"
+    ],
+    "genes": [
+      {
+        "title": "langchain v1.0教程 模块说明",
+        "content": "模块路径: langchain v1.0教程/\n类型: source\n文件数: 12\n\n包含文件:\n- langchain v1.0教程/第12讲 file system.md\n- langchain v1.0教程/第14讲 SubAgent.md\n- langchain v1.0教程/第15讲 V1.1 1.2更新.md\n- langchain v1.0教程/第16讲 Langsmith.md\n- langchain v1.0教程/第17讲 Agent Skills.md\n- langchain v1.0教程/第19讲 Memory.md\n- langchain v1.0教程/第三讲 模型.md\n- langchain v1.0教程/第九讲 Summarization.md\n- langchain v1.0教程/第五讲 Agent的创建.md\n- langchain v1.0教程/第八讲 human in the loop.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "langchain v1.0教程 文件结构",
+        "content": "langchain v1.0教程/第12讲 file system.md\nlangchain v1.0教程/第14讲 SubAgent.md\nlangchain v1.0教程/第15讲 V1.1 1.2更新.md\nlangchain v1.0教程/第16讲 Langsmith.md\nlangchain v1.0教程/第17讲 Agent Skills.md\nlangchain v1.0教程/第19讲 Memory.md\nlangchain v1.0教程/第三讲 模型.md\nlangchain v1.0教程/第九讲 Summarization.md\nlangchain v1.0教程/第五讲 Agent的创建.md\nlangchain v1.0教程/第八讲 human in the loop.md\nlangchain v1.0教程/第十讲 tool selector和todo list.md\nlangchain v1.0教程/第四讲 工具tools.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  },
+  {
+    "name": "prompt-in-context-learning/langchain_guide 模块",
+    "description": "[模块级] prompt-in-context-learning 项目的 langchain_guide 模块 (source)。来源: https://github.com/EgoAlpha/prompt-in-context-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chain-of-thought",
+      "chatbot",
+      "chatgpt",
+      "chatgpt-api",
+      "module-level",
+      "source",
+      "langchain_guide"
+    ],
+    "genes": [
+      {
+        "title": "langchain_guide 模块说明",
+        "content": "模块路径: langchain_guide/\n类型: source\n文件数: 27\n\n包含文件:\n- langchain_guide/.DS_Store\n- langchain_guide/LangChainTutorial.ipynb\n- langchain_guide/LangChainTutorial_en.ipynb\n- langchain_guide/aa.png\n- langchain_guide/affordable_accommodations_and_transportation.txt\n- langchain_guide/agents.png\n- langchain_guide/autogpt.png\n- langchain_guide/budget.txt\n- langchain_guide/china_accommodations_transportation.txt\n- langchain_guide/china_flights.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "langchain_guide 文件结构",
+        "content": "langchain_guide/.DS_Store\nlangchain_guide/LangChainTutorial.ipynb\nlangchain_guide/LangChainTutorial_en.ipynb\nlangchain_guide/aa.png\nlangchain_guide/affordable_accommodations_and_transportation.txt\nlangchain_guide/agents.png\nlangchain_guide/autogpt.png\nlangchain_guide/budget.txt\nlangchain_guide/china_accommodations_transportation.txt\nlangchain_guide/china_flights.txt\nlangchain_guide/china_info.txt\nlangchain_guide/china_itinerary.txt\nlangchain_guide/china_travel_info.txt\nlangchain_guide/china_travel_plan.txt\nlangchain_guide/china_trip.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7906399620829427
+  }
+]

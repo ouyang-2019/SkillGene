@@ -1,0 +1,158 @@
+[
+  {
+    "name": "julep (julep-ai)",
+    "description": "[项目级] Deploy serverless AI workflows at scale. Firebase for AI agents。来源: https://github.com/julep-ai/julep",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "jupyter notebook",
+      "stars-6611",
+      "github-julep-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Deploy serverless AI workflows at scale. Firebase for AI agents\n\n来源: https://github.com/julep-ai/julep\n语言: Jupyter Notebook\nStars: 6611",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nREADME.md\nchangelog\nchangelog/Templates\nchangelog/dev\nchangelog/stable (main)\ncookbooks\ncookbooks/IDEAS.md\ncookbooks/README.md\ncookbooks/__init__.py\ncookbooks/advanced\ncookbooks/basics\ndeploy\ndeploy/.env.example\ndeploy/responses-build-docker-compose.yaml\ndeploy/simple-docker-compose.yaml\ndeploy/standalone-docker-compose.yaml\ndocker-bake.hcl",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Looking to dive deeper? The **[Julep Documentation](https://docs.julep.ai)** covers everything you need to master the platform – from core concepts (Agents, Tasks, Sessions, Tools) to advanced topics like agent memory management and architecture internals. Key resources include:\n\n* **[Concept Guides](https://docs.julep.ai/concepts/):** Learn about Julep’s architecture, how sessions and memory work, using tools, managing long conversations, and more.\n* **[API & SDK Reference](https://docs.julep.ai/api-reference/):** Find detailed reference for all SDK methods and REST API endpoints to integrate",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.910133578580482
+  },
+  {
+    "name": "julep/changelog 模块",
+    "description": "[模块级] julep 项目的 changelog 模块 (source)。来源: https://github.com/julep-ai/julep",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "module-level",
+      "source",
+      "changelog"
+    ],
+    "genes": [
+      {
+        "title": "changelog 模块说明",
+        "content": "模块路径: changelog/\n类型: source\n文件数: 56\n\n包含文件:\n- changelog/Templates\n- changelog/Templates/JulepCustom\n- changelog/Templates/JulepCustom/entries.html\n- changelog/Templates/JulepCustom/entry.html\n- changelog/Templates/JulepCustom/footer.html\n- changelog/Templates/JulepCustom/head.html\n- changelog/Templates/JulepCustom/header.html\n- changelog/Templates/JulepCustom/package.json\n- changelog/Templates/JulepCustom/style.css\n- changelog/Templates/index-template",
+        "gene_type": "principle"
+      },
+      {
+        "title": "changelog 文件结构",
+        "content": "changelog/Templates\nchangelog/Templates/JulepCustom\nchangelog/Templates/JulepCustom/entries.html\nchangelog/Templates/JulepCustom/entry.html\nchangelog/Templates/JulepCustom/footer.html\nchangelog/Templates/JulepCustom/head.html\nchangelog/Templates/JulepCustom/header.html\nchangelog/Templates/JulepCustom/package.json\nchangelog/Templates/JulepCustom/style.css\nchangelog/Templates/index-template\nchangelog/Templates/index-template/archives.html\nchangelog/Templates/index-template/entries.html\nchangelog/Templates/index-template/entry.html\nchangelog/Templates/index-template/error.html\nchangelog/Templates/index-template/feed.rss",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0281068628643855
+  },
+  {
+    "name": "julep/cookbooks 模块",
+    "description": "[模块级] julep 项目的 cookbooks 模块 (source)。来源: https://github.com/julep-ai/julep",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "module-level",
+      "source",
+      "cookbooks"
+    ],
+    "genes": [
+      {
+        "title": "cookbooks 模块说明",
+        "content": "模块路径: cookbooks/\n类型: source\n文件数: 22\n\n包含文件:\n- cookbooks/IDEAS.md\n- cookbooks/README.md\n- cookbooks/__init__.py\n- cookbooks/advanced\n- cookbooks/advanced/00-Devfest-Email-Assistant.ipynb\n- cookbooks/advanced/01-website-crawler.ipynb\n- cookbooks/advanced/02-sarcastic-news-headline-generator.ipynb\n- cookbooks/advanced/03-trip-planning-assistant.ipynb\n- cookbooks/advanced/04-hook-generator-trending-reels.ipynb\n- cookbooks/advanced/05-video-processing-with-natural-language.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbooks 文件结构",
+        "content": "cookbooks/IDEAS.md\ncookbooks/README.md\ncookbooks/__init__.py\ncookbooks/advanced\ncookbooks/advanced/00-Devfest-Email-Assistant.ipynb\ncookbooks/advanced/01-website-crawler.ipynb\ncookbooks/advanced/02-sarcastic-news-headline-generator.ipynb\ncookbooks/advanced/03-trip-planning-assistant.ipynb\ncookbooks/advanced/04-hook-generator-trending-reels.ipynb\ncookbooks/advanced/05-video-processing-with-natural-language.ipynb\ncookbooks/advanced/06-browser-use.ipynb\ncookbooks/advanced/07-personalized-research-assistant.ipynb\ncookbooks/advanced/08-rag-chatbot.ipynb\ncookbooks/advanced/09-companion-agent.ipynb\ncookbooks/advanced/10-reel-generator.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0281068628643855
+  },
+  {
+    "name": "julep/deploy 模块",
+    "description": "[模块级] julep 项目的 deploy 模块 (source)。来源: https://github.com/julep-ai/julep",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 4\n\n包含文件:\n- deploy/.env.example\n- deploy/responses-build-docker-compose.yaml\n- deploy/simple-docker-compose.yaml\n- deploy/standalone-docker-compose.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/.env.example\ndeploy/responses-build-docker-compose.yaml\ndeploy/simple-docker-compose.yaml\ndeploy/standalone-docker-compose.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0281068628643855
+  },
+  {
+    "name": "julep/documentation 模块",
+    "description": "[模块级] julep 项目的 documentation 模块 (docs)。来源: https://github.com/julep-ai/julep",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-memory",
+      "module-level",
+      "docs",
+      "documentation"
+    ],
+    "genes": [
+      {
+        "title": "documentation 模块说明",
+        "content": "Looking to dive deeper? The **[Julep Documentation](https://docs.julep.ai)** covers everything you need to master the platform – from core concepts (Agents, Tasks, Sessions, Tools) to advanced topics like agent memory management and architecture internals. Key resources include:\n\n* **[Concept Guides](https://docs.julep.ai/concepts/):** Learn about Julep’s architecture, how sessions and memory work, using tools, managing long conversations, and more.\n* **[API & SDK Reference](https://docs.julep.a",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation 文件结构",
+        "content": "documentation/AGENTS.md\ndocumentation/CLAUDE.md\ndocumentation/FAQ.mdx\ndocumentation/README.md\ndocumentation/advanced\ndocumentation/advanced/agentic-patterns.mdx\ndocumentation/advanced/architecture-deep-dive.mdx\ndocumentation/advanced/chat.mdx\ndocumentation/advanced/files.mdx\ndocumentation/advanced/lifecycle.mdx\ndocumentation/advanced/localsetup.mdx\ndocumentation/advanced/multi-agent-multi-user-sessions.mdx\ndocumentation/advanced/new-syntax.mdx\ndocumentation/advanced/python-expression.mdx\ndocumentation/advanced/render.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.0281068628643855
+  }
+]

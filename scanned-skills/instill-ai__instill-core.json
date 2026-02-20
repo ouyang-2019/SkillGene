@@ -1,0 +1,128 @@
+[
+  {
+    "name": "instill-core (instill-ai)",
+    "description": "[项目级] 🔮 Instill Core is a full-stack AI infrastructure tool for data, model and pipeline orchestration, designed to streamline every aspect of building versatile AI-first applications。来源: https://github.com/instill-ai/instill-core",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "cli",
+      "developer-tools",
+      "etl",
+      "python",
+      "stars-2309",
+      "github-instill-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔮 Instill Core is a full-stack AI infrastructure tool for data, model and pipeline orchestration, designed to streamline every aspect of building versatile AI-first applications\n\n来源: https://github.com/instill-ai/instill-core\n语言: Python\nStars: 2309",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Follow the [installation](#installation) steps below or [documentation](https://docs.instill-ai.com/docs/deployment/?utm_source=github&utm_medium=readme&utm_campaign=org_readme) for more details to build versatile AI applications locally.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfile\nLICENSE\nMakefile\nMakefile.helm\nMakefile.helper\nREADME.md\ncharts\ncharts/core\nconfigs\nconfigs/compose\nconfigs/helm\ndocker-compose-dev.yml\ndocker-compose-nvidia.yml\ndocker-compose-observe.yml\ndocker-compose.yml\nintegration-test\nintegration-test/models",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.681711966458588
+  },
+  {
+    "name": "instill-core/charts 模块",
+    "description": "[模块级] instill-core 项目的 charts 模块 (source)。来源: https://github.com/instill-ai/instill-core",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "cli",
+      "developer-tools",
+      "etl",
+      "module-level",
+      "source",
+      "charts"
+    ],
+    "genes": [
+      {
+        "title": "charts 模块说明",
+        "content": "模块路径: charts/\n类型: source\n文件数: 74\n\n包含文件:\n- charts/core\n- charts/core/CHANGELOG.md\n- charts/core/Chart.lock\n- charts/core/Chart.yaml\n- charts/core/LICENSE\n- charts/core/README.md\n- charts/core/README.md.gotmpl\n- charts/core/grafana-dashboards\n- charts/core/grafana-dashboards/api-gateway\n- charts/core/grafana-dashboards/api-gateway/for-prometheus.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "charts 文件结构",
+        "content": "charts/core\ncharts/core/CHANGELOG.md\ncharts/core/Chart.lock\ncharts/core/Chart.yaml\ncharts/core/LICENSE\ncharts/core/README.md\ncharts/core/README.md.gotmpl\ncharts/core/grafana-dashboards\ncharts/core/grafana-dashboards/api-gateway\ncharts/core/grafana-dashboards/api-gateway/for-prometheus.json\ncharts/core/grafana-dashboards/ray\ncharts/core/grafana-dashboards/ray/data_grafana_dashboard.json\ncharts/core/grafana-dashboards/ray/default_grafana_dashboard.json\ncharts/core/grafana-dashboards/ray/serve_deployment_grafana_dashboard.json\ncharts/core/grafana-dashboards/ray/serve_grafana_dashboard.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8453695731668707
+  },
+  {
+    "name": "instill-core/configs 模块",
+    "description": "[模块级] instill-core 项目的 configs 模块 (config)。来源: https://github.com/instill-ai/instill-core",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "api",
+      "cli",
+      "developer-tools",
+      "etl",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 64\n\n包含文件:\n- configs/compose\n- configs/compose/grafana\n- configs/compose/grafana/dashboards\n- configs/compose/grafana/dashboards/all.yml\n- configs/compose/grafana/dashboards/api-gateway\n- configs/compose/grafana/dashboards/api-gateway/for-prometheus.json\n- configs/compose/grafana/dashboards/ray\n- configs/compose/grafana/dashboards/ray/data_grafana_dashboard.json\n- configs/compose/grafana/dashboards/ray/default_grafana_dashboard.json\n- configs/compose/grafana/dashboards/ray/serve_deployment_grafana_dashboard.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/compose\nconfigs/compose/grafana\nconfigs/compose/grafana/dashboards\nconfigs/compose/grafana/dashboards/all.yml\nconfigs/compose/grafana/dashboards/api-gateway\nconfigs/compose/grafana/dashboards/api-gateway/for-prometheus.json\nconfigs/compose/grafana/dashboards/ray\nconfigs/compose/grafana/dashboards/ray/data_grafana_dashboard.json\nconfigs/compose/grafana/dashboards/ray/default_grafana_dashboard.json\nconfigs/compose/grafana/dashboards/ray/serve_deployment_grafana_dashboard.json\nconfigs/compose/grafana/dashboards/ray/serve_grafana_dashboard.json\nconfigs/compose/grafana/dashboards/temporal\nconfigs/compose/grafana/dashboards/temporal/temporal-go-java-sdks-tally.json\nconfigs/compose/grafana/datasources\nconfigs/compose/grafana/datasources/all.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8453695731668707
+  },
+  {
+    "name": "instill-core/integration-test 模块",
+    "description": "[模块级] instill-core 项目的 integration-test 模块 (source)。来源: https://github.com/instill-ai/instill-core",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "api",
+      "cli",
+      "developer-tools",
+      "etl",
+      "module-level",
+      "source",
+      "integration-test"
+    ],
+    "genes": [
+      {
+        "title": "integration-test 模块说明",
+        "content": "模块路径: integration-test/\n类型: source\n文件数: 29\n\n包含文件:\n- integration-test/models\n- integration-test/models/dummy-chat\n- integration-test/models/dummy-chat/README.md\n- integration-test/models/dummy-chat/instill.yaml\n- integration-test/models/dummy-chat/model.py\n- integration-test/models/dummy-cls\n- integration-test/models/dummy-cls/README.md\n- integration-test/models/dummy-cls/instill.yaml\n- integration-test/models/dummy-cls/model.py\n- integration-test/models/dummy-completion",
+        "gene_type": "principle"
+      },
+      {
+        "title": "integration-test 文件结构",
+        "content": "integration-test/models\nintegration-test/models/dummy-chat\nintegration-test/models/dummy-chat/README.md\nintegration-test/models/dummy-chat/instill.yaml\nintegration-test/models/dummy-chat/model.py\nintegration-test/models/dummy-cls\nintegration-test/models/dummy-cls/README.md\nintegration-test/models/dummy-cls/instill.yaml\nintegration-test/models/dummy-cls/model.py\nintegration-test/models/dummy-completion\nintegration-test/models/dummy-completion/README.md\nintegration-test/models/dummy-completion/instill.yaml\nintegration-test/models/dummy-completion/model.py\nintegration-test/models/dummy-det\nintegration-test/models/dummy-det/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8453695731668707
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "fast-agent (evalstate)",
+    "description": "[项目级] Define, Prompt and Test MCP enabled Agents and Workflows。来源: https://github.com/evalstate/fast-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3681",
+      "github-evalstate",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "> [!TIP]\n> Please see : https://fast-agent.ai for latest documentation. There is also an LLMs.txt [here](https://fast-agent.ai/llms.txt)\n\n**`fast-agent`** enables you to create and interact with sophisticated multimodal Agents and Workflows in minutes. It is the first framework with complete, end-to-end tested MCP Feature support including Sampling and Elicitations.\n\n`fast-agent` is CLI-first, with an optional prompt_toolkit-powered interactive terminal prompt (TUI-style input, completions, and in-terminal menus); responses can stream live to the terminal via rich without relying on full-screen curses UIs or external GUI overlays.\n\n<!-- ![multi_model_trim](https://github.com/user-attachments/assets/c8bf7474-2c41-4ef3-8924-06e29907d7c6) -->\n\nThe simple declarative syntax lets you concentrat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "uv run scripts/docs.py install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nNOTICE\nREADME.md\ndocs-internal\ndocs-internal/ACP_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/ACP_SLASH_COMMANDS_DESIGN.md\ndocs-internal/ACP_TERMINAL_SUPPORT.md\ndocs-internal/ACP_TESTING.md\ndocs-internal/ACP_TOOL_CALLS.md\ndocs-internal/AGENT_CARD_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/REPL_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/SESSION_INTEGRATION.md\ndocs-internal/a3-refactor.md\ndocs-internal/a3-styling.md\ndocs-internal/agent_hooks.md\ndocs-internal/anthropic-structured.md\ndocs-internal/compaction.md\ndocs-internal/reasoning_plan.md\ndocs-internal/smart-agent.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7829829087233335
+  },
+  {
+    "name": "fast-agent/docs-internal 模块",
+    "description": "[模块级] fast-agent 项目的 docs-internal 模块 (source)。来源: https://github.com/evalstate/fast-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3681",
+      "github-evalstate",
+      "module-level",
+      "source",
+      "docs-internal"
+    ],
+    "genes": [
+      {
+        "title": "docs-internal 模块说明",
+        "content": "模块路径: docs-internal/\n类型: source\n文件数: 17\n\n包含文件:\n- docs-internal/ACP_IMPLEMENTATION_OVERVIEW.md\n- docs-internal/ACP_SLASH_COMMANDS_DESIGN.md\n- docs-internal/ACP_TERMINAL_SUPPORT.md\n- docs-internal/ACP_TESTING.md\n- docs-internal/ACP_TOOL_CALLS.md\n- docs-internal/AGENT_CARD_IMPLEMENTATION_OVERVIEW.md\n- docs-internal/REPL_IMPLEMENTATION_OVERVIEW.md\n- docs-internal/SESSION_INTEGRATION.md\n- docs-internal/a3-refactor.md\n- docs-internal/a3-styling.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs-internal 文件结构",
+        "content": "docs-internal/ACP_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/ACP_SLASH_COMMANDS_DESIGN.md\ndocs-internal/ACP_TERMINAL_SUPPORT.md\ndocs-internal/ACP_TESTING.md\ndocs-internal/ACP_TOOL_CALLS.md\ndocs-internal/AGENT_CARD_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/REPL_IMPLEMENTATION_OVERVIEW.md\ndocs-internal/SESSION_INTEGRATION.md\ndocs-internal/a3-refactor.md\ndocs-internal/a3-styling.md\ndocs-internal/agent_hooks.md\ndocs-internal/anthropic-structured.md\ndocs-internal/compaction.md\ndocs-internal/reasoning_plan.md\ndocs-internal/smart-agent.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9263863269786667
+  },
+  {
+    "name": "fast-agent/examples 模块",
+    "description": "[模块级] fast-agent 项目的 examples 模块 (example)。来源: https://github.com/evalstate/fast-agent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-3681",
+      "github-evalstate",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 159\n\n包含文件:\n- examples/a2a\n- examples/a2a/agent_executor.py\n- examples/a2a/server.py\n- examples/acp\n- examples/acp/acp_aware_agent.py\n- examples/azure-openai\n- examples/azure-openai/fastagent.config.yaml\n- examples/bedrock\n- examples/bedrock/fast-agent.config.yaml\n- examples/custom-agents",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/a2a\nexamples/a2a/agent_executor.py\nexamples/a2a/server.py\nexamples/acp\nexamples/acp/acp_aware_agent.py\nexamples/azure-openai\nexamples/azure-openai/fastagent.config.yaml\nexamples/bedrock\nexamples/bedrock/fast-agent.config.yaml\nexamples/custom-agents\nexamples/custom-agents/agent.py\nexamples/custom-agents/fastagent.config.yaml\nexamples/data-analysis\nexamples/data-analysis/analysis-campaign.py\nexamples/data-analysis/analysis.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9263863269786667
+  }
+]

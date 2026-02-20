@@ -1,0 +1,61 @@
+[
+  {
+    "name": "simple-local-rag (mrdbourke)",
+    "description": "[项目级] Build a RAG (Retrieval Augmented Generation) pipeline from scratch and have it all run locally.。来源: https://github.com/mrdbourke/simple-local-rag",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-948",
+      "github-mrdbourke",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build a RAG (Retrieval Augmented Generation) pipeline from scratch and have it all run locally.\n\n来源: https://github.com/mrdbourke/simple-local-rag\n语言: Jupyter Notebook\nStars: 948",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Two main options:\n1. If you have a local NVIDIA GPU with 5GB+ VRAM, follow the steps below to have this pipeline run locally on your machine. \n2. If you don’t have a local NVIDIA GPU, you can follow along in Google Colab and have it run on a NVIDIA GPU there.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "00-simple-local-rag.ipynb\nREADME.md\nhuman-nutrition-text.pdf\nimages\nimages/simple-local-rag-workflow-flowchart.png\nrequirements.txt\nvideo_notebooks\nvideo_notebooks/.ipynb_checkpoints\nvideo_notebooks/00-simple-local-rag-video.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4884041686690335
+  },
+  {
+    "name": "simple-local-rag/video_notebooks 模块",
+    "description": "[模块级] simple-local-rag 项目的 video_notebooks 模块 (source)。来源: https://github.com/mrdbourke/simple-local-rag",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-948",
+      "github-mrdbourke",
+      "module-level",
+      "source",
+      "video_notebooks"
+    ],
+    "genes": [
+      {
+        "title": "video_notebooks 模块说明",
+        "content": "模块路径: video_notebooks/\n类型: source\n文件数: 3\n\n包含文件:\n- video_notebooks/.ipynb_checkpoints\n- video_notebooks/.ipynb_checkpoints/00-simple-local-rag-video-checkpoint.ipynb\n- video_notebooks/00-simple-local-rag-video.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "video_notebooks 文件结构",
+        "content": "video_notebooks/.ipynb_checkpoints\nvideo_notebooks/.ipynb_checkpoints/00-simple-local-rag-video-checkpoint.ipynb\nvideo_notebooks/00-simple-local-rag-video.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6907233349352264
+  }
+]

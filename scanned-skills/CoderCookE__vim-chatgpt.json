@@ -1,0 +1,122 @@
+[
+  {
+    "name": "vim-chatgpt (CoderCookE)",
+    "description": "[项目级] Vim Plugin For ChatGPT。来源: https://github.com/CoderCookE/vim-chatgpt",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-269",
+      "github-codercooke",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Vim Plugin For ChatGPT\n\n来源: https://github.com/CoderCookE/vim-chatgpt\n语言: Python\nStars: 269",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nautoload\nautoload/chatgpt.vim\nautoload/chatgpt\nplugin\nplugin/chatgpt.vim\npytest.ini\npython3\npython3/chatgpt\nrequirements-dev.txt\ntests\ntests/__init__.py\ntests/conftest.py\ntests/test_core.py\ntests/test_providers.py\ntests/test_summary.py\ntests/test_tool_approval.py\ntests/test_tools.py\ntests/test_utils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": ":Ask \"What is the structure of this project?\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214876140001204
+  },
+  {
+    "name": "vim-chatgpt/autoload 模块",
+    "description": "[模块级] vim-chatgpt 项目的 autoload 模块 (source)。来源: https://github.com/CoderCookE/vim-chatgpt",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-269",
+      "github-codercooke",
+      "module-level",
+      "source",
+      "autoload"
+    ],
+    "genes": [
+      {
+        "title": "autoload 模块说明",
+        "content": "模块路径: autoload/\n类型: source\n文件数: 8\n\n包含文件:\n- autoload/chatgpt.vim\n- autoload/chatgpt\n- autoload/chatgpt/commit.vim\n- autoload/chatgpt/config.vim\n- autoload/chatgpt/context.vim\n- autoload/chatgpt/menu.vim\n- autoload/chatgpt/persona.vim\n- autoload/chatgpt/summary.vim",
+        "gene_type": "principle"
+      },
+      {
+        "title": "autoload 文件结构",
+        "content": "autoload/chatgpt.vim\nautoload/chatgpt\nautoload/chatgpt/commit.vim\nautoload/chatgpt/config.vim\nautoload/chatgpt/context.vim\nautoload/chatgpt/menu.vim\nautoload/chatgpt/persona.vim\nautoload/chatgpt/summary.vim",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4719009120009634
+  },
+  {
+    "name": "vim-chatgpt/python3 模块",
+    "description": "[模块级] vim-chatgpt 项目的 python3 模块 (source)。来源: https://github.com/CoderCookE/vim-chatgpt",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-269",
+      "github-codercooke",
+      "module-level",
+      "source",
+      "python3"
+    ],
+    "genes": [
+      {
+        "title": "python3 模块说明",
+        "content": "模块路径: python3/\n类型: source\n文件数: 7\n\n包含文件:\n- python3/chatgpt\n- python3/chatgpt/__init__.py\n- python3/chatgpt/core.py\n- python3/chatgpt/providers.py\n- python3/chatgpt/summary.py\n- python3/chatgpt/tools.py\n- python3/chatgpt/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python3 文件结构",
+        "content": "python3/chatgpt\npython3/chatgpt/__init__.py\npython3/chatgpt/core.py\npython3/chatgpt/providers.py\npython3/chatgpt/summary.py\npython3/chatgpt/tools.py\npython3/chatgpt/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4719009120009634
+  },
+  {
+    "name": "vim-chatgpt/tests 模块",
+    "description": "[模块级] vim-chatgpt 项目的 tests 模块 (test)。来源: https://github.com/CoderCookE/vim-chatgpt",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-269",
+      "github-codercooke",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 8\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/test_core.py\n- tests/test_providers.py\n- tests/test_summary.py\n- tests/test_tool_approval.py\n- tests/test_tools.py\n- tests/test_utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/test_core.py\ntests/test_providers.py\ntests/test_summary.py\ntests/test_tool_approval.py\ntests/test_tools.py\ntests/test_utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4719009120009634
+  }
+]

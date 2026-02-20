@@ -1,0 +1,108 @@
+[
+  {
+    "name": "agentic-rag-for-dummies (GiovanniPasq)",
+    "description": "[项目级] A minimal Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes.。来源: https://github.com/GiovanniPasq/agentic-rag-for-dummies",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-rag",
+      "agents",
+      "ai-agents",
+      "jupyter notebook",
+      "stars-2085",
+      "github-giovannipasq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository demonstrates how to build an **Agentic RAG (Retrieval-Augmented Generation)** system using LangGraph with minimal code. It implements:\n\n- 💬 **Conversation Memory**: Maintains context across multiple questions for natural dialogue\n- 🔄 **Query Clarification**: Automatically rewrites ambiguous queries or asks for clarification\n- 🔍 **Hierarchical Indexing**: Search small, specific chunks (Child) for precision, retrieve larger Parent chunks for context\n- 🤖 **Agent Orchestration**: Uses LangGraph to coordinate the entire workflow\n- 🧠 **Intelligent Evaluation**: Assesses relevance at the granular chunk level\n- ✅ **Self-Correction**: Re-queries if initial results are insufficient\n- 🔀 **Multi-Agent Map-Reduce**: Decomposes queries into parallel sub-queries for comprehensive an",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Python code:**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Agentic_Rag_For_Dummies.ipynb\nLICENSE\nREADME.md\nassets\nassets/agentic_rag_workflow.png\nassets/demo.gif\nassets/logo.png\npdf_to_md.ipynb\nproject\nproject/Dockerfile\nproject/README.md\nproject/app.py\nproject/config.py\nproject/core\nproject/db\nproject/document_chunker.py\nproject/rag_agent\nproject/ui\nproject/util.py\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Sample pdf files can be found here: [javascript](https://www.tutorialspoint.com/javascript/javascript_tutorial.pdf), [blockchain](https://blockchain-observatory.ec.europa.eu/document/download/1063effa-59cc-4df4-aeee-d2cf94f69178_en?filename=Blockchain_For_Beginners_A_EUBOF_Guide.pdf), [microservices](https://cdn.studio.f5.com/files/k6fem79d/production/5e4126e1cefa813ab67f9c0b6d73984c27ab1502.pdf), [fortinet](https://www.commoncriteriaportal.org/files/epfiles/Fortinet%20FortiGate_EAL4_ST_V1.5.pdf(320893)_TMP.pdf)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.659553029654888
+  },
+  {
+    "name": "agentic-rag-for-dummies/assets 模块",
+    "description": "[模块级] agentic-rag-for-dummies 项目的 assets 模块 (source)。来源: https://github.com/GiovanniPasq/agentic-rag-for-dummies",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-rag",
+      "agents",
+      "ai-agents",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/agentic_rag_workflow.png\n- assets/demo.gif\n- assets/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agentic_rag_workflow.png\nassets/demo.gif\nassets/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8276424237239106
+  },
+  {
+    "name": "agentic-rag-for-dummies/project 模块",
+    "description": "[模块级] agentic-rag-for-dummies 项目的 project 模块 (source)。来源: https://github.com/GiovanniPasq/agentic-rag-for-dummies",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-rag",
+      "agents",
+      "ai-agents",
+      "module-level",
+      "source",
+      "project"
+    ],
+    "genes": [
+      {
+        "title": "project 模块说明",
+        "content": "```\nproject/\n├── app.py                    # Main Gradio application entry point\n├── config.py                 # Configuration hub (models, chunk sizes, providers)\n├── util.py                   # PDF to markdown conversion\n├── document_chunker.py       # Chunking strategy\n├── core/                     # Core RAG components orchestration\n│   ├── chat_interface.py     \n│   ├── document_manager.py   \n│   └── rag_system.py         \n├── db/                       # Storage management\n│   ├── parent_st",
+        "gene_type": "principle"
+      },
+      {
+        "title": "project 文件结构",
+        "content": "project/Dockerfile\nproject/README.md\nproject/app.py\nproject/config.py\nproject/core\nproject/core/__init__.py\nproject/core/chat_interface.py\nproject/core/document_manager.py\nproject/core/rag_system.py\nproject/db\nproject/db/__init__.py\nproject/db/parent_store_manager.py\nproject/db/vector_db_manager.py\nproject/document_chunker.py\nproject/rag_agent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "project 代码示例",
+        "content": "project/\n├── app.py                    # Main Gradio application entry point\n├── config.py                 # Configuration hub (models, chunk sizes, providers)\n├── util.py                   # PDF to markdown conversion\n├── document_chunker.py       # Chunking strategy\n├── core/                     # Core RAG components orchestration\n│   ├── chat_interface.py     \n│   ├── document_manager.py   \n│   └── rag_system.py         \n├── db/                       # Storage management\n│   ├── parent_store_manager.py  # Parent chunks storage (JSON)\n│   └── vector_db_manager.py     # Qdrant vector database",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8276424237239106
+  }
+]

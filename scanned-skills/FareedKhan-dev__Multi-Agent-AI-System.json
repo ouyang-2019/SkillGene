@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Multi-Agent-AI-System (FareedKhan-dev)",
+    "description": "[项目级] Building a Multi-Agent AI System with LangGraph and LangSmith。来源: https://github.com/FareedKhan-dev/Multi-Agent-AI-System",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "langchain",
+      "langgraph",
+      "langsmith",
+      "multi-agent-systems",
+      "jupyter notebook",
+      "stars-279",
+      "github-fareedkhan-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "question = \"I like the Rolling Stones. What songs do you recommend by them or by other artists that I might like?\"",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Multi-Agent-AI-System/\n├── .env                # Environment variables for API keys\n├── README.md           # Project documentation\n├── requirements.txt    # Python dependencies\n├── multi_agent.ipynb   # Jupyter notebook for the multi-agent AI system\n├── utils.py            # Utility functions for the project\n└── LICENSE             # Project license information (MIT License)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nimages\nimages/architecture.png\nimages/evals-conceptual.png\nimages/final-response.png\nimages/human_input.png\nimages/invoice_subagent.png\nimages/memory.png\nimages/music_subagent.png\nimages/single-step.png\nimages/supervisor.png\nimages/supervisor_vs_swarm.png\nimages/swarm.png\nimages/trajectory.png\nmulti_agent.ipynb\nrequirements.txt\nutils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "examples = [\n    {\n        \"question\": \"My name is Aaron Mitchell. My number associated with my account is +1 (204) 452-6452. I am trying to find the invoice number for my most recent song purchase. Could you help me with it?\",\n        \"response\": \"The Invoice ID of your most recent purchase was 342.\",\n    },\n    {\n        \"question\": \"I'd like a refund.\",\n        \"response\": \"I need additional information to help you with the refund. Could you please provide your customer identifier so that we can fetch your purchase history?\",\n    },\n    {\n        \"question\": \"Who recorded Wish You Were Here",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.222802101636798
+  },
+  {
+    "name": "Multi-Agent-AI-System/images 模块",
+    "description": "[模块级] Multi-Agent-AI-System 项目的 images 模块 (source)。来源: https://github.com/FareedKhan-dev/Multi-Agent-AI-System",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "langchain",
+      "langgraph",
+      "langsmith",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 12\n\n包含文件:\n- images/architecture.png\n- images/evals-conceptual.png\n- images/final-response.png\n- images/human_input.png\n- images/invoice_subagent.png\n- images/memory.png\n- images/music_subagent.png\n- images/single-step.png\n- images/supervisor.png\n- images/supervisor_vs_swarm.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/architecture.png\nimages/evals-conceptual.png\nimages/final-response.png\nimages/human_input.png\nimages/invoice_subagent.png\nimages/memory.png\nimages/music_subagent.png\nimages/single-step.png\nimages/supervisor.png\nimages/supervisor_vs_swarm.png\nimages/swarm.png\nimages/trajectory.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.478241681309439
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "serverless-chat-langchainjs (Azure-Samples)",
+    "description": "[项目级] Build your own serverless AI Chat with Retrieval-Augmented-Generation using LangChain.js, TypeScript and Azure。来源: https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-functions",
+      "chatbot",
+      "typescript",
+      "stars-847",
+      "github-azure-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Building AI applications can be complex and time-consuming, but using LangChain.js and Azure serverless technologies allows to greatly simplify the process. This application is a chatbot that uses a set of enterprise documents to generate responses to user queries.\n\nWe provide sample data to make this sample ready to try, but feel free to replace it with your own. We use a fictitious company called _Contoso Real Estate_, and the experience allows its customers to ask support questions about the usage of its products. The sample data includes a set of documents that describes its terms of service, privacy policy and a support guide.\n\n<div align=\"center\">\n  <img src=\"./docs/images/architecture.drawio.png\" alt=\"Application architecture\" width=\"640px\" />\n</div>\n\nThis application is made from m",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "There are multiple ways to get started with this project.\n\nThe quickest way is to use [GitHub Codespaces](#use-github-codespaces) that provides a preconfigured environment for you. Alternatively, you can [set up your local environment](#use-your-local-environment) following the instructions below.\n\n> [!IMPORTANT]\n> If you want to run this sample entirely locally using Ollama, you have to follow the instructions in the [local environment](#use-your-local-environment) section.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nREADME.md\nSUPPORT.md\nazure.yaml\ndata\ndata/README.md\ndata/privacy-policy.pdf\ndata/support.pdf\ndata/terms-of-service.pdf\ndocs\ndocs/cost.md\ndocs/enhance-security.md\ndocs/faq.md\ndocs/images\ndocs/old-tutorial\ndocs/readme.md\ndocs/troubleshooting.md\ndocs/tutorial\ninfra",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Serverless Architecture**: Utilizes Azure Functions and Azure Static Web Apps for a fully serverless deployment.\n- **Retrieval-Augmented Generation (RAG)**: Combines the power of Azure Cosmos DB and LangChain.js to provide relevant and accurate responses.\n- **Chat Sessions History**: Maintains a personal chat history for each user, allowing them to revisit previous conversations.\n- **Scalable and Cost-Effective**: Leverages Azure's serverless offerings to provide a scalable and cost-effective solution.\n- **Local Development**: Supports local development using Ollama for testing without any",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.463941705165354
+  },
+  {
+    "name": "serverless-chat-langchainjs/data 模块",
+    "description": "[模块级] serverless-chat-langchainjs 项目的 data 模块 (source)。来源: https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-functions",
+      "chatbot",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 4\n\n包含文件:\n- data/README.md\n- data/privacy-policy.pdf\n- data/support.pdf\n- data/terms-of-service.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/README.md\ndata/privacy-policy.pdf\ndata/support.pdf\ndata/terms-of-service.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.671153364132283
+  },
+  {
+    "name": "serverless-chat-langchainjs/docs 模块",
+    "description": "[模块级] serverless-chat-langchainjs 项目的 docs 模块 (docs)。来源: https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "domain": "documentation",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-functions",
+      "chatbot",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 47\n\n包含文件:\n- docs/cost.md\n- docs/enhance-security.md\n- docs/faq.md\n- docs/images\n- docs/images/architecture-local.drawio.png\n- docs/images/architecture.drawio.png\n- docs/images/azd-up.png\n- docs/images/clone-url.png\n- docs/images/codespaces.png\n- docs/images/demo.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/cost.md\ndocs/enhance-security.md\ndocs/faq.md\ndocs/images\ndocs/images/architecture-local.drawio.png\ndocs/images/architecture.drawio.png\ndocs/images/azd-up.png\ndocs/images/clone-url.png\ndocs/images/codespaces.png\ndocs/images/demo.gif\ndocs/images/rag.png\ndocs/old-tutorial\ndocs/old-tutorial/01-session.md\ndocs/old-tutorial/02-session.md\ndocs/old-tutorial/03-session.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.671153364132283
+  },
+  {
+    "name": "serverless-chat-langchainjs/infra 模块",
+    "description": "[模块级] serverless-chat-langchainjs 项目的 infra 模块 (source)。来源: https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-functions",
+      "chatbot",
+      "module-level",
+      "source",
+      "infra"
+    ],
+    "genes": [
+      {
+        "title": "infra 模块说明",
+        "content": "模块路径: infra/\n类型: source\n文件数: 3\n\n包含文件:\n- infra/abbreviations.json\n- infra/main.bicep\n- infra/main.parameters.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infra 文件结构",
+        "content": "infra/abbreviations.json\ninfra/main.bicep\ninfra/main.parameters.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.671153364132283
+  },
+  {
+    "name": "serverless-chat-langchainjs/packages 模块",
+    "description": "[模块级] serverless-chat-langchainjs 项目的 packages 模块 (source)。来源: https://github.com/Azure-Samples/serverless-chat-langchainjs",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-azd-templates",
+      "azd-templates",
+      "azure",
+      "azure-functions",
+      "chatbot",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 43\n\n包含文件:\n- packages/api\n- packages/api/.env.sample\n- packages/api/.funcignore\n- packages/api/.gitignore\n- packages/api/README.md\n- packages/api/api.http\n- packages/api/host.json\n- packages/api/local.settings.json\n- packages/api/package.json\n- packages/api/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/api\npackages/api/.env.sample\npackages/api/.funcignore\npackages/api/.gitignore\npackages/api/README.md\npackages/api/api.http\npackages/api/host.json\npackages/api/local.settings.json\npackages/api/package.json\npackages/api/src\npackages/api/src/constants.ts\npackages/api/src/functions\npackages/api/src/functions/chats-delete.ts\npackages/api/src/functions/chats-get.ts\npackages/api/src/functions/chats-post.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.671153364132283
+  }
+]

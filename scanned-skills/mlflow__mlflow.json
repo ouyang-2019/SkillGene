@@ -1,0 +1,43 @@
+[
+  {
+    "name": "mlflow (mlflow)",
+    "description": "[项目级] The open source developer platform to build AI agents and models with confidence. Enhance your AI applications with end-to-end tracking, observability, and evaluations, all in one integrated platform.。来源: https://github.com/mlflow/mlflow",
+    "domain": "ai-llm",
+    "tags": [
+      "agentops",
+      "agents",
+      "ai",
+      "ai-governance",
+      "apache-spark",
+      "python",
+      "stars-24337",
+      "github-mlflow",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The open source developer platform to build AI agents and models with confidence. Enhance your AI applications with end-to-end tracking, observability, and evaluations, all in one integrated platform.\n\n来源: https://github.com/mlflow/mlflow\n语言: Python\nStars: 24337",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install mlflow",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCITATION.cff\nCLAUDE.md\nCODE_OF_CONDUCT.rst\nCOMMITTER.md\nCONTRIBUTING.md\nEXTRA_DEPENDENCIES.rst\nISSUE_POLICY.md\nISSUE_TRIAGE.rst\nLICENSE.txt\nMANIFEST.in\nREADME.md\nSECURITY.md\nassets",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  }
+]

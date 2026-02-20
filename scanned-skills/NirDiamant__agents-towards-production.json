@@ -1,0 +1,103 @@
+[
+  {
+    "name": "agents-towards-production (NirDiamant)",
+    "description": "[项目级]  This repository delivers end-to-end, code-first tutorials covering every layer of production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches.。来源: https://github.com/NirDiamant/agents-towards-production",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "agents",
+      "ai-agents",
+      "genai",
+      "jupyter notebook",
+      "stars-17386",
+      "github-nirdiamant",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Agents Towards Production** is your hands-on guide to every building block of a GenAI agent stack.  \nAll knowledge is delivered through runnable tutorials covering orchestration, memory, observability, deployment, security, and more. Each tutorial lives in its own folder with ready-to-run notebooks or code files, so you can move from concept to working agent in minutes.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Transform your AI agent ideas into production-ready systems using our battle-tested patterns and implementations.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/repos_images\ntutorials\ntutorials/LangGraph-agent\ntutorials/a2a\ntutorials/agent-RAG-with-Contextual\ntutorials/agent-evaluation-intellagent\ntutorials/agent-memory-with-mem0\ntutorials/agent-memory-with-redis\ntutorials/agent-security-apex\ntutorials/agent-security-with-llamafirewall\ntutorials/agent-with-brightdata\ntutorials/agent-with-mcp\ntutorials/agent-with-streamlit-ui\ntutorials/agent-with-tavily-web-access\ntutorials/ai-memory-with-cognee\ntutorials/arcade-secure-tool-calling",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**3. Deploy and Test**\nLaunch tutorials through their preferred interface:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agents-towards-production/assets 模块",
+    "description": "[模块级] agents-towards-production 项目的 assets 模块 (source)。来源: https://github.com/NirDiamant/agents-towards-production",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "agents",
+      "ai-agents",
+      "genai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 42\n\n包含文件:\n- assets/repos_images\n- assets/repos_images/ai_architecture_diagram.svg\n- assets/repos_images/banner_repo.png\n- assets/repos_images/sponsors_logos\n- assets/repos_images/sponsors_logos/Redis.png\n- assets/repos_images/sponsors_logos/langchain.png\n- assets/repos_images/sponsors_logos/qualifire.png\n- assets/repos_images/sponsors_logos/runpod.svg\n- assets/repos_images/sponsors_logos/tavily.png\n- assets/repos_images/sponsors_logos/trimmed_padded",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/repos_images\nassets/repos_images/ai_architecture_diagram.svg\nassets/repos_images/banner_repo.png\nassets/repos_images/sponsors_logos\nassets/repos_images/sponsors_logos/Redis.png\nassets/repos_images/sponsors_logos/langchain.png\nassets/repos_images/sponsors_logos/qualifire.png\nassets/repos_images/sponsors_logos/runpod.svg\nassets/repos_images/sponsors_logos/tavily.png\nassets/repos_images/sponsors_logos/trimmed_padded\nassets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo Dark.png\nassets/repos_images/sponsors_logos/trimmed_padded/Mem0 Word Logo.png\nassets/repos_images/sponsors_logos/trimmed_padded/coderabbit_Dark_Type_Mark.png\nassets/repos_images/sponsors_logos/trimmed_padded/coderabbit_Light_Type_Mark_Orange.png\nassets/repos_images/sponsors_logos/trimmed_padded/iGPT-logo-Black.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.196079870115663
+  },
+  {
+    "name": "agents-towards-production/tutorials 模块",
+    "description": "[模块级] agents-towards-production 项目的 tutorials 模块 (source)。来源: https://github.com/NirDiamant/agents-towards-production",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "agents",
+      "ai-agents",
+      "genai",
+      "module-level",
+      "source",
+      "tutorials"
+    ],
+    "genes": [
+      {
+        "title": "tutorials 模块说明",
+        "content": "<!-- SEO Keywords: generative ai agents, production deployment, langgraph, langchain, rag, retrieval augmented generation, memory, observability, guardrails, gpu deployment, orchestration, multi agent, prompt engineering, tutorials, guide -->\n\n[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/nir-diamant-759323134/)\n[![Twitter](https://img.shields.io/twitter/follow/NirDiamantAI?label=Follow%20@NirDiamantAI&style=social)](https://twitter.com/NirDiamantA",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tutorials 文件结构",
+        "content": "tutorials/LangGraph-agent\ntutorials/LangGraph-agent/langgraph_tutorial.ipynb\ntutorials/a2a\ntutorials/a2a/a2a_tutorial.ipynb\ntutorials/agent-RAG-with-Contextual\ntutorials/agent-RAG-with-Contextual/README.md\ntutorials/agent-RAG-with-Contextual/contextual_tutorial.ipynb\ntutorials/agent-RAG-with-Contextual/requirements.txt\ntutorials/agent-evaluation-intellagent\ntutorials/agent-evaluation-intellagent/intellagent-evaluation-tutorial.ipynb\ntutorials/agent-memory-with-mem0\ntutorials/agent-memory-with-mem0/Assets\ntutorials/agent-memory-with-mem0/Assets/mem0_add_architecture.jpg\ntutorials/agent-memory-with-mem0/Assets/mem0_architecture.png\ntutorials/agent-memory-with-mem0/Assets/mem0_search_architecture.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.196079870115663
+  }
+]

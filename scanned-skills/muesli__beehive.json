@@ -1,0 +1,163 @@
+[
+  {
+    "name": "beehive (muesli)",
+    "description": "[项目级] A flexible event/agent & automation system with lots of bees 🐝。来源: https://github.com/muesli/beehive",
+    "domain": "devops",
+    "tags": [
+      "automation",
+      "event-driven",
+      "hacktoberfest",
+      "ifttt",
+      "workflow",
+      "go",
+      "stars-6473",
+      "github-muesli",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A flexible event/agent & automation system with lots of bees 🐝\n\n来源: https://github.com/muesli/beehive\n语言: Go\nStars: 6473",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME.md\nadmin\nadmin/beehive.service\nadmin/beehive.service.conf\nadmin/beehive.sh\napi\napi/api.go\napi/bindata_stub.go\napi/context\napi/resources\napp\napp/app.go\nassets\nassets/bees\nassets/logo.png\nassets/logo_128.png\nassets/logo_16.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "* Re-post tweets on your Tumblr blog\n* Forward incoming chat messages to your email account\n* Turn on the heating system if the temperature drops below a certain value\n* Run your own IRC bot that lets you trigger builds on a Jenkins CI\n* Control your Hue lighting system\n* Notify you when a stock's price drops below a certain value\n\n![beehive's Logo](/assets/logo_256.png?raw=true)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.905552803508965
+  },
+  {
+    "name": "beehive/admin 模块",
+    "description": "[模块级] beehive 项目的 admin 模块 (source)。来源: https://github.com/muesli/beehive",
+    "domain": "devops",
+    "tags": [
+      "automation",
+      "event-driven",
+      "hacktoberfest",
+      "ifttt",
+      "workflow",
+      "module-level",
+      "source",
+      "admin"
+    ],
+    "genes": [
+      {
+        "title": "admin 模块说明",
+        "content": "模块路径: admin/\n类型: source\n文件数: 3\n\n包含文件:\n- admin/beehive.service\n- admin/beehive.service.conf\n- admin/beehive.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "admin 文件结构",
+        "content": "admin/beehive.service\nadmin/beehive.service.conf\nadmin/beehive.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024442242807172
+  },
+  {
+    "name": "beehive/api 模块",
+    "description": "[模块级] beehive 项目的 api 模块 (source)。来源: https://github.com/muesli/beehive",
+    "domain": "devops",
+    "tags": [
+      "automation",
+      "event-driven",
+      "hacktoberfest",
+      "ifttt",
+      "workflow",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 31\n\n包含文件:\n- api/api.go\n- api/bindata_stub.go\n- api/context\n- api/context/context.go\n- api/resources\n- api/resources/actions\n- api/resources/actions/actions.go\n- api/resources/actions/actions_get.go\n- api/resources/actions/actions_post.go\n- api/resources/actions/actions_response.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/api.go\napi/bindata_stub.go\napi/context\napi/context/context.go\napi/resources\napi/resources/actions\napi/resources/actions/actions.go\napi/resources/actions/actions_get.go\napi/resources/actions/actions_post.go\napi/resources/actions/actions_response.go\napi/resources/bees\napi/resources/bees/bees.go\napi/resources/bees/bees_delete.go\napi/resources/bees/bees_get.go\napi/resources/bees/bees_post.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024442242807172
+  },
+  {
+    "name": "beehive/assets 模块",
+    "description": "[模块级] beehive 项目的 assets 模块 (source)。来源: https://github.com/muesli/beehive",
+    "domain": "devops",
+    "tags": [
+      "automation",
+      "event-driven",
+      "hacktoberfest",
+      "ifttt",
+      "workflow",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 61\n\n包含文件:\n- assets/bees\n- assets/bees/alertoverbee.png\n- assets/bees/anelpowerctrlbee.png\n- assets/bees/cfddns.png\n- assets/bees/cleverbotbee.png\n- assets/bees/cricketbee.png\n- assets/bees/cronbee.png\n- assets/bees/devrantbee.png\n- assets/bees/discordbee.png\n- assets/bees/efabee.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/bees\nassets/bees/alertoverbee.png\nassets/bees/anelpowerctrlbee.png\nassets/bees/cfddns.png\nassets/bees/cleverbotbee.png\nassets/bees/cricketbee.png\nassets/bees/cronbee.png\nassets/bees/devrantbee.png\nassets/bees/discordbee.png\nassets/bees/efabee.png\nassets/bees/emailbee.png\nassets/bees/emailserverbee.png\nassets/bees/execbee.png\nassets/bees/facebookbee.png\nassets/bees/fsnotifybee.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024442242807172
+  },
+  {
+    "name": "beehive/bees 模块",
+    "description": "[模块级] beehive 项目的 bees 模块 (source)。来源: https://github.com/muesli/beehive",
+    "domain": "devops",
+    "tags": [
+      "automation",
+      "event-driven",
+      "hacktoberfest",
+      "ifttt",
+      "workflow",
+      "module-level",
+      "source",
+      "bees"
+    ],
+    "genes": [
+      {
+        "title": "bees 模块说明",
+        "content": "Sounds complicated? It's not! Just for fun, let's setup Beehive to send us an\nemail whenever an RSS feed gets updated. Start `beehive` and open <http://localhost:8181/>\nin your browser. Note that Beehive will create a config file `beehive.conf`\nin its current working directory, unless you specify a different file with the\n`-config` option.\n\nNote: If you built Beehive with `go build` instead of `make` you will have to\nstart `beehive` from within its source directory in order for it to find all th",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bees 文件结构",
+        "content": "bees/actions.go\nbees/alertoverbee\nbees/alertoverbee/README.md\nbees/alertoverbee/alertoverbee.go\nbees/alertoverbee/alertoverbeefactory.go\nbees/anelpowerctrlbee\nbees/anelpowerctrlbee/anelpowerctrlbee.go\nbees/anelpowerctrlbee/anelpowerctrlbeefactory.go\nbees/bees.go\nbees/cfddnsbee\nbees/cfddnsbee/README.md\nbees/cfddnsbee/cfddnsbee.go\nbees/cfddnsbee/cfddnsbeefactory.go\nbees/chains.go\nbees/cleverbotbee",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.024442242807172
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Learning-Prompt (thinkingjimmy)",
+    "description": "[项目级] Free prompt engineering online course. ChatGPT and Midjourney tutorials are now included!。来源: https://github.com/thinkingjimmy/Learning-Prompt",
+    "domain": "general",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-toolkit",
+      "css",
+      "stars-5323",
+      "github-thinkingjimmy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This tutorial has three parts. The content covers my journey of learning Prompt Engineering, summarizing some of the experiences and methods. If you are learning Prompt Engineering, I hope this tutorial can help.\n\n1. [AI 101](https://learningprompt.wiki/docs/ai-101): An AI tutorial for everyone. Still working hard on it. Stay tuned.\n2. [ChatGPT Tutorial](https://learningprompt.wiki/docs/chatgpt-learning-path): From basics to advanced, from a user's perspective, this teaches you how to use ChatGPT and how to use it even better.\n3. [Midjourney Tutorial](https://learningprompt.wiki/docs/midjourney-learning-path): Through various examples, this teaches you how to use Midjourney. Even as a beginner, after reading this, you'll be able to quickly get started.\n\nWhat this is not:\n\n- This is not a p",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\nbabel.config.js\nblog\nblog/2023-03-06-Project-release.md\nblog/2023-03-24-Feature-Plan.md\nblog/2023-04-20-Thanks.md\nblog/2023-05-06-Changelog.md\nblog/2023-08-01-Changelog.md\nblog/2023-08-10-Changelog.md\nblog/authors.yml\ndocs\ndocs/ai-101.md\ndocs/ai-101\ndocs/assets\ndocs/chatGPT\ndocs/chatgpt-learning-path.mdx\ndocs/insight\ndocs/midjourney-learning-path.md\ndocs/midjourney",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Thanks for opening this tutorial. When reading it, I suggest:\n\n1. **Lower expectations: ** I'm no expert. I'm learning too, just a few steps ahead of you. There may be gaps or errors here. Also, for beginners, analogies or terms may be dumbed down a bit to aid understanding. Please be tolerant.\n2. **Feedback is welcomed: ** If parts don't make sense or seem wrong, please raise an issue or use the form. Let's improve together and contribute to furthering PE.\n3. **Learn by doing: ** The best way is hands-on practice. There are examples to try as you read. Even better, share prompts you write via",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8630782330863775
+  },
+  {
+    "name": "Learning-Prompt/blog 模块",
+    "description": "[模块级] Learning-Prompt 项目的 blog 模块 (source)。来源: https://github.com/thinkingjimmy/Learning-Prompt",
+    "domain": "general",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-toolkit",
+      "css",
+      "stars-5323",
+      "module-level",
+      "source",
+      "blog"
+    ],
+    "genes": [
+      {
+        "title": "blog 模块说明",
+        "content": "模块路径: blog/\n类型: source\n文件数: 7\n\n包含文件:\n- blog/2023-03-06-Project-release.md\n- blog/2023-03-24-Feature-Plan.md\n- blog/2023-04-20-Thanks.md\n- blog/2023-05-06-Changelog.md\n- blog/2023-08-01-Changelog.md\n- blog/2023-08-10-Changelog.md\n- blog/authors.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "blog 文件结构",
+        "content": "blog/2023-03-06-Project-release.md\nblog/2023-03-24-Feature-Plan.md\nblog/2023-04-20-Thanks.md\nblog/2023-05-06-Changelog.md\nblog/2023-08-01-Changelog.md\nblog/2023-08-10-Changelog.md\nblog/authors.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.990462586469102
+  },
+  {
+    "name": "Learning-Prompt/docs 模块",
+    "description": "[模块级] Learning-Prompt 项目的 docs 模块 (docs)。来源: https://github.com/thinkingjimmy/Learning-Prompt",
+    "domain": "documentation",
+    "tags": [
+      "prompt",
+      "prompt-engineering",
+      "prompt-toolkit",
+      "css",
+      "stars-5323",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 183\n\n包含文件:\n- docs/ai-101.md\n- docs/ai-101\n- docs/ai-101/LLMs\n- docs/ai-101/LLMs/LLMs-disadvantages.md\n- docs/ai-101/LLMs/LLMs.mdx\n- docs/ai-101/LLMs/_ category_.json\n- docs/ai-101/LLMs/develop-LLMs.md\n- docs/ai-101/LLMs/how-to-calculate-probability.md\n- docs/ai-101/LLMs/what-is-LLMs.md\n- docs/ai-101/best-practice",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ai-101.md\ndocs/ai-101\ndocs/ai-101/LLMs\ndocs/ai-101/LLMs/LLMs-disadvantages.md\ndocs/ai-101/LLMs/LLMs.mdx\ndocs/ai-101/LLMs/_ category_.json\ndocs/ai-101/LLMs/develop-LLMs.md\ndocs/ai-101/LLMs/how-to-calculate-probability.md\ndocs/ai-101/LLMs/what-is-LLMs.md\ndocs/ai-101/best-practice\ndocs/ai-101/best-practice/assets\ndocs/ai-101/best-practice/assets/img\ndocs/ai-101/best-practice/assets/img/bibigpt.png\ndocs/ai-101/best-practice/assets/img/claude-podcast-summary.png\ndocs/ai-101/best-practice/assets/img/hubmanlab-pocast-timestamps.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.990462586469102
+  }
+]

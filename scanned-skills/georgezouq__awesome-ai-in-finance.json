@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-ai-in-finance (georgezouq)",
+    "description": "[项目级] 🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.。来源: https://github.com/georgezouq/awesome-ai-in-finance",
+    "domain": "devops",
+    "tags": [
+      "analysis",
+      "awesome",
+      "awesome-list",
+      "cryptocurrency",
+      "deep-learning",
+      "stars-4862",
+      "github-georgezouq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.\n\n来源: https://github.com/georgezouq/awesome-ai-in-finance\n语言: unknown\nStars: 4862",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nchinese.md\ncontributing.md\nmedia\nmedia/logo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.843407477253658
+  }
+]

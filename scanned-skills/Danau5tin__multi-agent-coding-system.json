@@ -1,0 +1,150 @@
+[
+  {
+    "name": "multi-agent-coding-system (Danau5tin)",
+    "description": "[项目级] Reached #13 on Stanford's Terminal Bench leaderboard. Orchestrator, explorer & coder agents working together with intelligent context sharing.。来源: https://github.com/Danau5tin/multi-agent-coding-system",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1329",
+      "github-danau5tin",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Reached #13 on Stanford's Terminal Bench leaderboard. Orchestrator, explorer & coder agents working together with intelligent context sharing.\n\n来源: https://github.com/Danau5tin/multi-agent-coding-system\n语言: Python\nStars: 1329",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "./run_terminal_bench_eval.sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nPROJECT_STRUCTURE.md\nREADME.md\nevaluation\nevaluation/docs\nevaluation/run_terminal_bench_eval.sh\npyproject.toml\nreadme_imgs\nreadme_imgs/orch_agent_sys_arch.png\nreadme_imgs/orchestrator-qwen-3-coder-stanford-terminal-bench-leaderboard.png\nreadme_imgs/orchestrator-sonnet-4-stanford-terminal-bench-leaderboard.png\nreadme_imgs/perf_chart.png\nsrc\nsrc/multi_agent_coding_system\ntests\ntests/test_action_parser.py\ntests/test_assets\ntests/test_async_docker_manager.py\ntests/test_efficiency_tracker.py\ntests/test_hierarchical_task_manager.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<think>\nOkay, now with task_003 identifying a backup, the next step would be to attempt recovery using this identified file.\n</think>\n\n<task_create>\nagent_type: 'coder'\ntitle: 'Attempt recovery using the identified backup file'\ndescription: |\n  Execute the following steps to recover using the backup identified in task_003:\n  1. Move the identified backup file (/tmp/terraform_work/.terraform.tfstate.tmp) to the target location (/infrastructure/recovered_state.json).\n  2. Verify the operation by checking:\n     - The existence of the new file at the target location\n     - The size matches the ori",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5617624904713665
+  },
+  {
+    "name": "multi-agent-coding-system/evaluation 模块",
+    "description": "[模块级] multi-agent-coding-system 项目的 evaluation 模块 (source)。来源: https://github.com/Danau5tin/multi-agent-coding-system",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1329",
+      "github-danau5tin",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "模块路径: evaluation/\n类型: source\n文件数: 47\n\n包含文件:\n- evaluation/docs\n- evaluation/docs/deploying_model_examples.md\n- evaluation/docs/model_mixing_tbench_evals\n- evaluation/docs/model_mixing_tbench_evals/orca_model_mix_tbench_results.md\n- evaluation/docs/model_mixing_tbench_evals/results\n- evaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_glm-4.6.json\n- evaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_glm-4.6_meta.json\n- evaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_grok-fast-1.json\n- evaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_grok-fast-1_meta.json\n- evaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_qwen3-coder-30b-a3b.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/docs\nevaluation/docs/deploying_model_examples.md\nevaluation/docs/model_mixing_tbench_evals\nevaluation/docs/model_mixing_tbench_evals/orca_model_mix_tbench_results.md\nevaluation/docs/model_mixing_tbench_evals/results\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_glm-4.6.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_glm-4.6_meta.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_grok-fast-1.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_grok-fast-1_meta.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_qwen3-coder-30b-a3b.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_qwen3-coder-30b-a3b_meta.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_sonnet-4.5.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-14b_sonnet-4.5_meta.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-30b-a3b_all.json\nevaluation/docs/model_mixing_tbench_evals/results/qwen3-30b-a3b_all_meta.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749409992377093
+  },
+  {
+    "name": "multi-agent-coding-system/readme_imgs 模块",
+    "description": "[模块级] multi-agent-coding-system 项目的 readme_imgs 模块 (source)。来源: https://github.com/Danau5tin/multi-agent-coding-system",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1329",
+      "github-danau5tin",
+      "module-level",
+      "source",
+      "readme_imgs"
+    ],
+    "genes": [
+      {
+        "title": "readme_imgs 模块说明",
+        "content": "模块路径: readme_imgs/\n类型: source\n文件数: 4\n\n包含文件:\n- readme_imgs/orch_agent_sys_arch.png\n- readme_imgs/orchestrator-qwen-3-coder-stanford-terminal-bench-leaderboard.png\n- readme_imgs/orchestrator-sonnet-4-stanford-terminal-bench-leaderboard.png\n- readme_imgs/perf_chart.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "readme_imgs 文件结构",
+        "content": "readme_imgs/orch_agent_sys_arch.png\nreadme_imgs/orchestrator-qwen-3-coder-stanford-terminal-bench-leaderboard.png\nreadme_imgs/orchestrator-sonnet-4-stanford-terminal-bench-leaderboard.png\nreadme_imgs/perf_chart.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749409992377093
+  },
+  {
+    "name": "multi-agent-coding-system/src 模块",
+    "description": "[模块级] multi-agent-coding-system 项目的 src 模块 (source)。来源: https://github.com/Danau5tin/multi-agent-coding-system",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1329",
+      "github-danau5tin",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 57\n\n包含文件:\n- src/multi_agent_coding_system\n- src/multi_agent_coding_system/__init__.py\n- src/multi_agent_coding_system/agents\n- src/multi_agent_coding_system/agents/__init__.py\n- src/multi_agent_coding_system/agents/actions\n- src/multi_agent_coding_system/agents/actions/__init__.py\n- src/multi_agent_coding_system/agents/actions/entities\n- src/multi_agent_coding_system/agents/actions/entities/__init__.py\n- src/multi_agent_coding_system/agents/actions/entities/actions.py\n- src/multi_agent_coding_system/agents/actions/entities/context.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/multi_agent_coding_system\nsrc/multi_agent_coding_system/__init__.py\nsrc/multi_agent_coding_system/agents\nsrc/multi_agent_coding_system/agents/__init__.py\nsrc/multi_agent_coding_system/agents/actions\nsrc/multi_agent_coding_system/agents/actions/__init__.py\nsrc/multi_agent_coding_system/agents/actions/entities\nsrc/multi_agent_coding_system/agents/actions/entities/__init__.py\nsrc/multi_agent_coding_system/agents/actions/entities/actions.py\nsrc/multi_agent_coding_system/agents/actions/entities/context.py\nsrc/multi_agent_coding_system/agents/actions/entities/subagent_report.py\nsrc/multi_agent_coding_system/agents/actions/entities/subagent_result.py\nsrc/multi_agent_coding_system/agents/actions/entities/task.py\nsrc/multi_agent_coding_system/agents/actions/file_manager.py\nsrc/multi_agent_coding_system/agents/actions/hierarchical_task_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749409992377093
+  },
+  {
+    "name": "multi-agent-coding-system/tests 模块",
+    "description": "[模块级] multi-agent-coding-system 项目的 tests 模块 (test)。来源: https://github.com/Danau5tin/multi-agent-coding-system",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-1329",
+      "github-danau5tin",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/test_action_parser.py\n- tests/test_assets\n- tests/test_assets/dockerfile_with_heredoc\n- tests/test_async_docker_manager.py\n- tests/test_efficiency_tracker.py\n- tests/test_hierarchical_task_manager.py\n- tests/test_multi_node_docker_manager.py\n- tests/test_orchestrator_real.py\n- tests/test_subagent_real.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test_action_parser.py\ntests/test_assets\ntests/test_assets/dockerfile_with_heredoc\ntests/test_async_docker_manager.py\ntests/test_efficiency_tracker.py\ntests/test_hierarchical_task_manager.py\ntests/test_multi_node_docker_manager.py\ntests/test_orchestrator_real.py\ntests/test_subagent_real.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.749409992377093
+  }
+]

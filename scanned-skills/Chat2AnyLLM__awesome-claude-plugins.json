@@ -1,0 +1,133 @@
+[
+  {
+    "name": "awesome-claude-plugins (Chat2AnyLLM)",
+    "description": "[项目级] A curated list of awesome claude marketplaces and plugins。来源: https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "marketplace",
+      "marketplaces",
+      "plugin",
+      "python",
+      "stars-38",
+      "github-chat2anyllm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome claude marketplaces and plugins\n\n来源: https://github.com/Chat2AnyLLM/awesome-claude-plugins\n语言: Python\nStars: 38",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "cam plugin marketplace install superpowers-marketplace",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME.md\nconfig.yaml\nconfig.yaml.example\ndocs\ndocs/PLUGINS.md\nrequirements.txt\nrun_tests.sh\nscripts\nscripts/__init__.py\nscripts/config.py\nscripts/generators\nscripts/marketplace_scraper.py\nscripts/models.py\nscripts/utils\nspecs\nspecs/001-marketplace-scraper\ntest_table_readme.md\ntest_validation.md\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "| Plugin | Marketplace | Description | Author | Version |\n|--------|-------------|-------------|--------|---------|\n| [hello-world](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/hello-world) | claude-code-plugins-plus | Simple example plugin demonstrating basic slash commands | Jeremy Longshore | 1.0.0 |\n| [jeremy-plugin-tool](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/jeremy-plugin-tool) | claude-code-plugins-plus | Production-grade plugin creator with nixtla-validated quality standards. 4 Agent Skills automa",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.789891798308405
+  },
+  {
+    "name": "awesome-claude-plugins/scripts 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 scripts 模块 (script)。来源: https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "marketplace",
+      "marketplaces",
+      "plugin",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 11\n\n包含文件:\n- scripts/__init__.py\n- scripts/config.py\n- scripts/generators\n- scripts/generators/__init__.py\n- scripts/generators/readme_generator.py\n- scripts/marketplace_scraper.py\n- scripts/models.py\n- scripts/utils\n- scripts/utils/__init__.py\n- scripts/utils/fetcher.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/__init__.py\nscripts/config.py\nscripts/generators\nscripts/generators/__init__.py\nscripts/generators/readme_generator.py\nscripts/marketplace_scraper.py\nscripts/models.py\nscripts/utils\nscripts/utils/__init__.py\nscripts/utils/fetcher.py\nscripts/utils/validators.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  },
+  {
+    "name": "awesome-claude-plugins/specs 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 specs 模块 (source)。来源: https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "claude-code",
+      "marketplace",
+      "marketplaces",
+      "plugin",
+      "module-level",
+      "source",
+      "specs"
+    ],
+    "genes": [
+      {
+        "title": "specs 模块说明",
+        "content": "模块路径: specs/\n类型: source\n文件数: 13\n\n包含文件:\n- specs/001-marketplace-scraper\n- specs/001-marketplace-scraper/checklists\n- specs/001-marketplace-scraper/checklists/requirements.md\n- specs/001-marketplace-scraper/contracts\n- specs/001-marketplace-scraper/contracts/cli-contract.md\n- specs/001-marketplace-scraper/contracts/config-contract.md\n- specs/001-marketplace-scraper/contracts/output-contract.md\n- specs/001-marketplace-scraper/data-model.md\n- specs/001-marketplace-scraper/plan.md\n- specs/001-marketplace-scraper/quickstart.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "specs 文件结构",
+        "content": "specs/001-marketplace-scraper\nspecs/001-marketplace-scraper/checklists\nspecs/001-marketplace-scraper/checklists/requirements.md\nspecs/001-marketplace-scraper/contracts\nspecs/001-marketplace-scraper/contracts/cli-contract.md\nspecs/001-marketplace-scraper/contracts/config-contract.md\nspecs/001-marketplace-scraper/contracts/output-contract.md\nspecs/001-marketplace-scraper/data-model.md\nspecs/001-marketplace-scraper/plan.md\nspecs/001-marketplace-scraper/quickstart.md\nspecs/001-marketplace-scraper/research.md\nspecs/001-marketplace-scraper/spec.md\nspecs/001-marketplace-scraper/tasks.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  },
+  {
+    "name": "awesome-claude-plugins/tests 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 tests 模块 (test)。来源: https://github.com/Chat2AnyLLM/awesome-claude-plugins",
+    "domain": "testing",
+    "tags": [
+      "claude",
+      "claude-code",
+      "marketplace",
+      "marketplaces",
+      "plugin",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/fixtures\n- tests/fixtures/expected_readme.md\n- tests/fixtures/sample_config.yaml\n- tests/integration\n- tests/integration/test_full_workflow.py\n- tests/unit\n- tests/unit/test_config.py\n- tests/unit/test_fetcher.py\n- tests/unit/test_validators.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/fixtures\ntests/fixtures/expected_readme.md\ntests/fixtures/sample_config.yaml\ntests/integration\ntests/integration/test_full_workflow.py\ntests/unit\ntests/unit/test_config.py\ntests/unit/test_fetcher.py\ntests/unit/test_validators.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  }
+]

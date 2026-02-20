@@ -1,0 +1,138 @@
+[
+  {
+    "name": "dingo (dingodb)",
+    "description": "[项目级] A multi-modal vector database that supports upserts and vector queries using unified SQL (MySQL-Compatible) on structured and unstructured data, while meeting the requirements of high concurrency and ultra-low latency.。来源: https://github.com/dingodb/dingo",
+    "domain": "database",
+    "tags": [
+      "embedding-search",
+      "embedding-store",
+      "hybrid-search",
+      "key-value-distributed-store",
+      "mysql-compatibility",
+      "java",
+      "stars-1695",
+      "github-dingodb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The main projects about DingoDB are as follows:\n- [Dingo-Store](https://github.com/dingodb/dingo-store): A strongly consistent distributed storage system based on the Raft protocol.\n- [Dingo-Deploy](https://github.com/dingodb/dingo-deploy): The deployment project of compute nodes and storage nodes.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "How to install and deploy [Docker](https://dingodb.readthedocs.io/en/latest/deployment/cluster/deploy_in_single_node_using_docker.html) or [Ansible](https://dingodb.readthedocs.io/en/latest/deployment/cluster/deploy_on_cluster_by_ansible/index.html)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbuild.gradle\nbuildSrc\nbuildSrc/build.gradle\nbuildSrc/src\nconfig\nconfig/checkstyle\nconfig/dingo.dic\ndingo-calcite\ndingo-calcite/build.gradle\ndingo-calcite/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "How to use DingoDB [Usage](https://dingodb.readthedocs.io/en/latest/usage/how_to_use_dingodb.html)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**1. Comprehensive access interface**\n\nDingoDB provides comprehensive access interfaces, supporting various flexible access modes such as SQL, SDK, and API to meet the needs of different developers. Additionally, it introduces Table and Vector as first-class citizen data models, providing users with efficient and powerful data processing capabilities.\n\n**2.Built-in data high availability**\n\nDingoDB provides fully functional and highly available built-in configurations without the need to deploy any external components, which can significantly reduce users' deployment and operation and maintena",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.614584851269551
+  },
+  {
+    "name": "dingo/buildSrc 模块",
+    "description": "[模块级] dingo 项目的 buildSrc 模块 (source)。来源: https://github.com/dingodb/dingo",
+    "domain": "database",
+    "tags": [
+      "embedding-search",
+      "embedding-store",
+      "hybrid-search",
+      "key-value-distributed-store",
+      "mysql-compatibility",
+      "module-level",
+      "source",
+      "buildsrc"
+    ],
+    "genes": [
+      {
+        "title": "buildSrc 模块说明",
+        "content": "模块路径: buildSrc/\n类型: source\n文件数: 5\n\n包含文件:\n- buildSrc/build.gradle\n- buildSrc/src\n- buildSrc/src/main\n- buildSrc/src/main/groovy\n- buildSrc/src/main/groovy/java-conventions.gradle",
+        "gene_type": "principle"
+      },
+      {
+        "title": "buildSrc 文件结构",
+        "content": "buildSrc/build.gradle\nbuildSrc/src\nbuildSrc/src/main\nbuildSrc/src/main/groovy\nbuildSrc/src/main/groovy/java-conventions.gradle",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7916678810156403
+  },
+  {
+    "name": "dingo/config 模块",
+    "description": "[模块级] dingo 项目的 config 模块 (config)。来源: https://github.com/dingodb/dingo",
+    "domain": "devops",
+    "tags": [
+      "embedding-search",
+      "embedding-store",
+      "hybrid-search",
+      "key-value-distributed-store",
+      "mysql-compatibility",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 7\n\n包含文件:\n- config/checkstyle\n- config/checkstyle/apache_2_license.java.txt\n- config/checkstyle/apache_2_license.properties.txt\n- config/checkstyle/apache_2_license.xml.txt\n- config/checkstyle/checkstyle.xml\n- config/checkstyle/suppression.xml\n- config/dingo.dic",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/checkstyle\nconfig/checkstyle/apache_2_license.java.txt\nconfig/checkstyle/apache_2_license.properties.txt\nconfig/checkstyle/apache_2_license.xml.txt\nconfig/checkstyle/checkstyle.xml\nconfig/checkstyle/suppression.xml\nconfig/dingo.dic",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7916678810156403
+  },
+  {
+    "name": "dingo/dingo-calcite 模块",
+    "description": "[模块级] dingo 项目的 dingo-calcite 模块 (source)。来源: https://github.com/dingodb/dingo",
+    "domain": "database",
+    "tags": [
+      "embedding-search",
+      "embedding-store",
+      "hybrid-search",
+      "key-value-distributed-store",
+      "mysql-compatibility",
+      "module-level",
+      "source",
+      "dingo-calcite"
+    ],
+    "genes": [
+      {
+        "title": "dingo-calcite 模块说明",
+        "content": "模块路径: dingo-calcite/\n类型: source\n文件数: 152\n\n包含文件:\n- dingo-calcite/build.gradle\n- dingo-calcite/src\n- dingo-calcite/src/main\n- dingo-calcite/src/main/codegen\n- dingo-calcite/src/main/codegen/config.fmpp\n- dingo-calcite/src/main/codegen/includes\n- dingo-calcite/src/main/codegen/includes/Admin.ftl\n- dingo-calcite/src/main/codegen/includes/AlterTable.ftl\n- dingo-calcite/src/main/codegen/includes/Analyze.ftl\n- dingo-calcite/src/main/codegen/includes/Call.ftl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dingo-calcite 文件结构",
+        "content": "dingo-calcite/build.gradle\ndingo-calcite/src\ndingo-calcite/src/main\ndingo-calcite/src/main/codegen\ndingo-calcite/src/main/codegen/config.fmpp\ndingo-calcite/src/main/codegen/includes\ndingo-calcite/src/main/codegen/includes/Admin.ftl\ndingo-calcite/src/main/codegen/includes/AlterTable.ftl\ndingo-calcite/src/main/codegen/includes/Analyze.ftl\ndingo-calcite/src/main/codegen/includes/Call.ftl\ndingo-calcite/src/main/codegen/includes/Flashback.ftl\ndingo-calcite/src/main/codegen/includes/Grant.ftl\ndingo-calcite/src/main/codegen/includes/Identifier.ftl\ndingo-calcite/src/main/codegen/includes/Kill.ftl\ndingo-calcite/src/main/codegen/includes/LoadData.ftl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7916678810156403
+  }
+]

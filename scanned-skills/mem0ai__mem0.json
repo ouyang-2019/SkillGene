@@ -1,0 +1,103 @@
+[
+  {
+    "name": "mem0 (mem0ai)",
+    "description": "[项目级] Universal memory layer for AI Agents。来源: https://github.com/mem0ai/mem0",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "application",
+      "chatbots",
+      "python",
+      "stars-47668",
+      "github-mem0ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[Mem0](https://mem0.ai) (\"mem-zero\") enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions. It remembers user preferences, adapts to individual needs, and continuously learns over time—ideal for customer support chatbots, AI assistants, and autonomous systems.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nLLM.md\nMIGRATION_GUIDE_v1.0.md\nMakefile\nREADME.md\ncookbooks\ncookbooks/customer-support-chatbot.ipynb\ncookbooks/helper\ncookbooks/mem0-autogen.ipynb\ndocs\ndocs/README.md\ndocs/_snippets\ndocs/api-reference.mdx\ndocs/api-reference\ndocs/changelog.mdx\ndocs/components\ndocs/contributing\ndocs/cookbooks\ndocs/core-concepts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from openai import OpenAI\nfrom mem0 import Memory\n\nopenai_client = OpenAI()\nmemory = Memory()\n\ndef chat_with_memories(message: str, user_id: str = \"default_user\") -> str:\n    # Retrieve relevant memories\n    relevant_memories = memory.search(query=message, user_id=user_id, limit=3)\n    memories_str = \"\\n\".join(f\"- {entry['memory']}\" for entry in relevant_memories[\"results\"])\n\n    # Generate Assistant response\n    system_prompt = f\"You are a helpful AI. Answer the question based on query and memories.\\nUser Memories:\\n{memories_str}\"\n    messages = [{\"role\": \"system\", \"content\": system_prompt},",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Core Capabilities:**\n- **Multi-Level Memory**: Seamlessly retains User, Session, and Agent state with adaptive personalization\n- **Developer-Friendly**: Intuitive API, cross-platform SDKs, and a fully managed service option\n\n**Applications:**\n- **AI Assistants**: Consistent, context-rich conversations\n- **Customer Support**: Recall past tickets and user history for tailored help\n- **Healthcare**: Track patient preferences and history for personalized care\n- **Productivity & Gaming**: Adaptive workflows and environments based on user behavior",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "mem0/cookbooks 模块",
+    "description": "[模块级] mem0 项目的 cookbooks 模块 (source)。来源: https://github.com/mem0ai/mem0",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "application",
+      "chatbots",
+      "module-level",
+      "source",
+      "cookbooks"
+    ],
+    "genes": [
+      {
+        "title": "cookbooks 模块说明",
+        "content": "模块路径: cookbooks/\n类型: source\n文件数: 5\n\n包含文件:\n- cookbooks/customer-support-chatbot.ipynb\n- cookbooks/helper\n- cookbooks/helper/__init__.py\n- cookbooks/helper/mem0_teachability.py\n- cookbooks/mem0-autogen.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbooks 文件结构",
+        "content": "cookbooks/customer-support-chatbot.ipynb\ncookbooks/helper\ncookbooks/helper/__init__.py\ncookbooks/helper/mem0_teachability.py\ncookbooks/mem0-autogen.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.371290772269158
+  },
+  {
+    "name": "mem0/docs 模块",
+    "description": "[模块级] mem0 项目的 docs 模块 (docs)。来源: https://github.com/mem0ai/mem0",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "application",
+      "chatbots",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 175\n\n包含文件:\n- docs/README.md\n- docs/_snippets\n- docs/_snippets/async-memory-add.mdx\n- docs/_snippets/blank-notif.mdx\n- docs/_snippets/get-help.mdx\n- docs/_snippets/paper-release.mdx\n- docs/api-reference.mdx\n- docs/api-reference\n- docs/api-reference/entities\n- docs/api-reference/entities/delete-user.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/_snippets\ndocs/_snippets/async-memory-add.mdx\ndocs/_snippets/blank-notif.mdx\ndocs/_snippets/get-help.mdx\ndocs/_snippets/paper-release.mdx\ndocs/api-reference.mdx\ndocs/api-reference\ndocs/api-reference/entities\ndocs/api-reference/entities/delete-user.mdx\ndocs/api-reference/entities/get-users.mdx\ndocs/api-reference/events\ndocs/api-reference/events/get-event.mdx\ndocs/api-reference/events/get-events.mdx\ndocs/api-reference/memory",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.371290772269158
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "parlant (emcie-co)",
+    "description": "[项目级] LLM agents built for control. Designed for real-world use. Deployed in minutes.。来源: https://github.com/emcie-co/parlant",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-alignment",
+      "customer-service",
+      "customer-success",
+      "gemini",
+      "python",
+      "stars-17755",
+      "github-emcie-co",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LLM agents built for control. Designed for real-world use. Deployed in minutes.\n\n来源: https://github.com/emcie-co/parlant\n语言: Python\nStars: 17755",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<table border=\"0\">\n<tr>\n<td><strong>🎯 I want to test it myself</strong></td>\n<td><a href=\"https://www.parlant.io/docs/quickstart/installation\">→ 5-minute quickstart</a></td>\n</tr>\n<tr>\n<td><strong>🛠️ I want to see an example</strong></td>\n<td><a href=\"https://www.parlant.io/docs/quickstart/examples\">→ Healthcare agent example</a></td>\n</tr>\n<tr>\n<td><strong>🚀 I want to get involved</strong></td>\n<td><a href=\"https://discord.gg/duxWqxKk6J\">→ Join our Discord community</a></td>\n</tr>\n</table>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nDCO.md\nLICENSE\nREADME.md\ndocs\ndocs/LogoTransparentDark.png\ndocs/LogoTransparentLight.png\ndocs/adapters\ndocs/advanced\ndocs/concepts\ndocs/demo.gif\ndocs/interactions.md\ndocs/parlant-testing.gif\ndocs/production\ndocs/quickstart\nexamples\nexamples/healthcare.py\nexamples/travel_voice_agent.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🧭 Conversational Journeys** - Lead the customer step-by-step to a goal\n- **🎯 Dynamic Guideline Matching** - Context-aware rule application\n- **🔧 Reliable Tool Integration** - APIs, databases, external services\n- **📊 Conversation Analytics** - Deep insights into agent behavior\n- **🔄 Iterative Refinement** - Continuously improve agent responses\n- **🛡️ Built-in Guardrails** - Prevent hallucination and off-topic responses\n- **📱 React Widget** - [Drop-in chat UI for any web app](https://github.com/emcie-co/parlant-chat-react)\n- **🔍 Full Explainability** - Understand every decision your ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "parlant/docs 模块",
+    "description": "[模块级] parlant 项目的 docs 模块 (docs)。来源: https://github.com/emcie-co/parlant",
+    "domain": "documentation",
+    "tags": [
+      "ai-agents",
+      "ai-alignment",
+      "customer-service",
+      "customer-success",
+      "gemini",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 45\n\n包含文件:\n- docs/LogoTransparentDark.png\n- docs/LogoTransparentLight.png\n- docs/adapters\n- docs/adapters/nlp\n- docs/adapters/nlp/azure.md\n- docs/adapters/nlp/ollama.md\n- docs/adapters/nlp/openrouter.md\n- docs/adapters/nlp/snowflake-cortex.md\n- docs/adapters/nlp/vertex.md\n- docs/adapters/persistence",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/LogoTransparentDark.png\ndocs/LogoTransparentLight.png\ndocs/adapters\ndocs/adapters/nlp\ndocs/adapters/nlp/azure.md\ndocs/adapters/nlp/ollama.md\ndocs/adapters/nlp/openrouter.md\ndocs/adapters/nlp/snowflake-cortex.md\ndocs/adapters/nlp/vertex.md\ndocs/adapters/persistence\ndocs/adapters/persistence/snowflake.md\ndocs/adapters/vector_db\ndocs/adapters/vector_db/qdrant.md\ndocs/advanced\ndocs/advanced/contributing.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.199728270655053
+  },
+  {
+    "name": "parlant/examples 模块",
+    "description": "[模块级] parlant 项目的 examples 模块 (example)。来源: https://github.com/emcie-co/parlant",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-alignment",
+      "customer-service",
+      "customer-success",
+      "gemini",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/healthcare.py\n- examples/travel_voice_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/healthcare.py\nexamples/travel_voice_agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.199728270655053
+  },
+  {
+    "name": "parlant/scripts 模块",
+    "description": "[模块级] parlant 项目的 scripts 模块 (script)。来源: https://github.com/emcie-co/parlant",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-alignment",
+      "customer-service",
+      "customer-success",
+      "gemini",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 13\n\n包含文件:\n- scripts/ci\n- scripts/ci/github_action_ubuntu_2404_free_space.sh\n- scripts/fern\n- scripts/fern/docs.yml\n- scripts/fern/fern.config.json\n- scripts/fern/generators.yml\n- scripts/generate_client_sdk.py\n- scripts/initialize_repo.py\n- scripts/install_packages.py\n- scripts/lint.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/ci\nscripts/ci/github_action_ubuntu_2404_free_space.sh\nscripts/fern\nscripts/fern/docs.yml\nscripts/fern/fern.config.json\nscripts/fern/generators.yml\nscripts/generate_client_sdk.py\nscripts/initialize_repo.py\nscripts/install_packages.py\nscripts/lint.py\nscripts/publish.py\nscripts/utils.py\nscripts/version.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.199728270655053
+  },
+  {
+    "name": "parlant/src 模块",
+    "description": "[模块级] parlant 项目的 src 模块 (source)。来源: https://github.com/emcie-co/parlant",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "ai-alignment",
+      "customer-service",
+      "customer-success",
+      "gemini",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 106\n\n包含文件:\n- src/parlant\n- src/parlant/adapters\n- src/parlant/adapters/db\n- src/parlant/adapters/db/json_file.py\n- src/parlant/adapters/db/mongo_db.py\n- src/parlant/adapters/db/snowflake_db.py\n- src/parlant/adapters/db/transient.py\n- src/parlant/adapters/loggers\n- src/parlant/adapters/loggers/opentelemetry.py\n- src/parlant/adapters/loggers/websocket.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/parlant\nsrc/parlant/adapters\nsrc/parlant/adapters/db\nsrc/parlant/adapters/db/json_file.py\nsrc/parlant/adapters/db/mongo_db.py\nsrc/parlant/adapters/db/snowflake_db.py\nsrc/parlant/adapters/db/transient.py\nsrc/parlant/adapters/loggers\nsrc/parlant/adapters/loggers/opentelemetry.py\nsrc/parlant/adapters/loggers/websocket.py\nsrc/parlant/adapters/meter\nsrc/parlant/adapters/meter/opentelemetry.py\nsrc/parlant/adapters/nlp\nsrc/parlant/adapters/nlp/anthropic_service.py\nsrc/parlant/adapters/nlp/aws_service.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.199728270655053
+  }
+]

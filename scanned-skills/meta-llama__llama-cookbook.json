@@ -1,0 +1,63 @@
+[
+  {
+    "name": "llama-cookbook (meta-llama)",
+    "description": "[项目级] Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  。来源: https://github.com/meta-llama/llama-cookbook",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "finetuning",
+      "langchain",
+      "llama",
+      "llama2",
+      "jupyter notebook",
+      "stars-18207",
+      "github-meta-llama",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  \n\n来源: https://github.com/meta-llama/llama-cookbook\n语言: Jupyter Notebook\nStars: 18207",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "3p-integrations\n3p-integrations/README.md\n3p-integrations/aws\n3p-integrations/azure\n3p-integrations/crusoe\n3p-integrations/e2b-ai-analyst\n3p-integrations/gcp\n3p-integrations/groq\n3p-integrations/lamini\n3p-integrations/langchain\n3p-integrations/llama_on_prem.md\n3p-integrations/llamaindex\n3p-integrations/modal\n3p-integrations/tgi\n3p-integrations/togetherai",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "llama-cookbook/3p-integrations 模块",
+    "description": "[模块级] llama-cookbook 项目的 3p-integrations 模块 (source)。来源: https://github.com/meta-llama/llama-cookbook",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "finetuning",
+      "langchain",
+      "llama",
+      "llama2",
+      "module-level",
+      "source",
+      "3p-integrations"
+    ],
+    "genes": [
+      {
+        "title": "3p-integrations 模块说明",
+        "content": "模块路径: 3p-integrations/\n类型: source\n文件数: 183\n\n包含文件:\n- 3p-integrations/README.md\n- 3p-integrations/aws\n- 3p-integrations/aws/getting_started_llama_3_on_amazon_bedrock.ipynb\n- 3p-integrations/aws/prompt_engineering_with_llama_2_on_amazon_bedrock.ipynb\n- 3p-integrations/aws/react_llama_3_bedrock_wk.ipynb\n- 3p-integrations/azure\n- 3p-integrations/azure/Azure MaaS\n- 3p-integrations/azure/Azure MaaS/azure_api_example.ipynb\n- 3p-integrations/azure/README.md\n- 3p-integrations/crusoe",
+        "gene_type": "principle"
+      },
+      {
+        "title": "3p-integrations 文件结构",
+        "content": "3p-integrations/README.md\n3p-integrations/aws\n3p-integrations/aws/getting_started_llama_3_on_amazon_bedrock.ipynb\n3p-integrations/aws/prompt_engineering_with_llama_2_on_amazon_bedrock.ipynb\n3p-integrations/aws/react_llama_3_bedrock_wk.ipynb\n3p-integrations/azure\n3p-integrations/azure/Azure MaaS\n3p-integrations/azure/Azure MaaS/azure_api_example.ipynb\n3p-integrations/azure/README.md\n3p-integrations/crusoe\n3p-integrations/crusoe/README.md\n3p-integrations/crusoe/vllm-fp8\n3p-integrations/crusoe/vllm-fp8/README.md\n3p-integrations/crusoe/vllm-fp8/assets\n3p-integrations/crusoe/vllm-fp8/assets/tpot_vs_qps_chart.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.204095356884052
+  }
+]

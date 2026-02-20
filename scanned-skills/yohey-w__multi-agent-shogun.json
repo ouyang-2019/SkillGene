@@ -1,0 +1,293 @@
+[
+  {
+    "name": "multi-agent-shogun (yohey-w)",
+    "description": "[项目级] Samurai-inspired multi-agent system for Claude Code. Orchestrate parallel AI tasks via tmux with shogun → karo → ashigaru hierarchy.。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "shell",
+      "stars-935",
+      "github-yohey-w",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**WSL2 (Windows Subsystem for Linux)** lets you run Linux inside Windows. This system uses `tmux` (a Linux tool) to manage multiple AI agents, so WSL2 is required on Windows.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nREADME_ja.md\nSECURITY.md\nagents\nagents/default\nconfig\nconfig/ntfy_auth.env.sample\ncontext\ncontext/README.md\ndocs\ndocs/philosophy.md\nfirst_setup.sh\nimages\nimages/company-creed-all-panes.png\nimages/screenshots",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You: \"Research the top 5 AI coding assistants and compare them\"\n\nWhat happens:\n1. Shogun delegates to Karo\n2. Karo assigns:\n   - Ashigaru 1: Research GitHub Copilot\n   - Ashigaru 2: Research Cursor\n   - Ashigaru 3: Research Claude Code\n   - Ashigaru 4: Research Codeium\n   - Ashigaru 5: Research Amazon CodeWhisperer\n3. All 5 research simultaneously\n4. Results compiled in dashboard.md",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.485405805436259
+  },
+  {
+    "name": "multi-agent-shogun/agents 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 agents 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "tmux send-keys -t shogun:0 'claude --dangerously-skip-permissions' Enter\ntmux send-keys -t multiagent:0.0 'claude --dangerously-skip-permissions' Enter\n```\n\n**Restart after crash:**\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/default\nagents/default/system.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "agents 代码示例",
+        "content": "**Restart after crash:**",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/images 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 images 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 13\n\n包含文件:\n- images/company-creed-all-panes.png\n- images/screenshots\n- images/screenshots/hero\n- images/screenshots/hero/latest-translucent-20260208-084602.png\n- images/screenshots/hero/latest-translucent-20260210-190453.png\n- images/screenshots/masked\n- images/screenshots/masked/ntfy_bloom_oc_test.jpg\n- images/screenshots/masked/ntfy_cmd043_progress.jpg\n- images/screenshots/masked/ntfy_persona_eval_complete.jpg\n- images/screenshots/masked/ntfy_saytask_rename.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/company-creed-all-panes.png\nimages/screenshots\nimages/screenshots/hero\nimages/screenshots/hero/latest-translucent-20260208-084602.png\nimages/screenshots/hero/latest-translucent-20260210-190453.png\nimages/screenshots/masked\nimages/screenshots/masked/ntfy_bloom_oc_test.jpg\nimages/screenshots/masked/ntfy_cmd043_progress.jpg\nimages/screenshots/masked/ntfy_persona_eval_complete.jpg\nimages/screenshots/masked/ntfy_saytask_rename.jpg\nimages/screenshots/masked/ntfy_tasklist_v1_before.jpg\nimages/screenshots/masked/ntfy_tasklist_v2_aligned.jpg\nimages/screenshots/tdd_ndd_rdd.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/instructions 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 instructions 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "instructions"
+    ],
+    "genes": [
+      {
+        "title": "instructions 模块说明",
+        "content": "模块路径: instructions/\n类型: source\n文件数: 35\n\n包含文件:\n- instructions/ashigaru.md\n- instructions/cli_specific\n- instructions/cli_specific/claude_tools.md\n- instructions/cli_specific/codex_tools.md\n- instructions/cli_specific/copilot_tools.md\n- instructions/cli_specific/kimi_tools.md\n- instructions/common\n- instructions/common/forbidden_actions.md\n- instructions/common/protocol.md\n- instructions/common/task_flow.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "instructions 文件结构",
+        "content": "instructions/ashigaru.md\ninstructions/cli_specific\ninstructions/cli_specific/claude_tools.md\ninstructions/cli_specific/codex_tools.md\ninstructions/cli_specific/copilot_tools.md\ninstructions/cli_specific/kimi_tools.md\ninstructions/common\ninstructions/common/forbidden_actions.md\ninstructions/common/protocol.md\ninstructions/common/task_flow.md\ninstructions/generated\ninstructions/generated/ashigaru.md\ninstructions/generated/codex-ashigaru.md\ninstructions/generated/codex-gunshi.md\ninstructions/generated/codex-karo.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/lib 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 lib 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 3\n\n包含文件:\n- lib/agent_status.sh\n- lib/cli_adapter.sh\n- lib/ntfy_auth.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/agent_status.sh\nlib/cli_adapter.sh\nlib/ntfy_auth.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/scripts 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 scripts 模块 (script)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "chmod +x *.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/agent_status.sh\nscripts/build_instructions.sh\nscripts/inbox_watcher.sh\nscripts/inbox_write.sh\nscripts/ntfy.sh\nscripts/ntfy_listener.sh\nscripts/ratelimit_check.sh\nscripts/seo_qc.py\nscripts/seo_qc.sh\nscripts/slim_yaml.py\nscripts/slim_yaml.sh\nscripts/stop_hook_inbox.sh\nscripts/watcher_supervisor.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/skills 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 skills 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "No skills are included out of the box. Skills emerge organically during operation — you approve candidates from `dashboard.md` as they're discovered.\n\nInvoke skills with `/skill-name`. Just tell the Shogun: \"run /skill-name\".",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/shogun-agent-status\nskills/shogun-agent-status/SKILL.md\nskills/shogun-bloom-config\nskills/shogun-bloom-config/SKILL.md\nskills/shogun-model-list\nskills/shogun-model-list/SKILL.md\nskills/skill-creator\nskills/skill-creator/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/templates 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 templates 模块 (source)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "devops",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 6\n\n包含文件:\n- templates/context_template.md\n- templates/integ_analysis.md\n- templates/integ_base.md\n- templates/integ_code.md\n- templates/integ_fact.md\n- templates/integ_proposal.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/context_template.md\ntemplates/integ_analysis.md\ntemplates/integ_base.md\ntemplates/integ_code.md\ntemplates/integ_fact.md\ntemplates/integ_proposal.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "multi-agent-shogun/tests 模块",
+    "description": "[模块级] multi-agent-shogun 项目的 tests 模块 (test)。来源: https://github.com/yohey-w/multi-agent-shogun",
+    "domain": "testing",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "llm",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 44\n\n包含文件:\n- tests/agent_selfwatch.bats\n- tests/bloom_classification_accuracy.sh\n- tests/dim_d_quality_comparison.sh\n- tests/e2e\n- tests/e2e/e2e_basic_flow.bats\n- tests/e2e/e2e_blocked_by.bats\n- tests/e2e/e2e_bloom_routing.bats\n- tests/e2e/e2e_clear_recovery.bats\n- tests/e2e/e2e_codex_startup.bats\n- tests/e2e/e2e_escalation.bats",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/agent_selfwatch.bats\ntests/bloom_classification_accuracy.sh\ntests/dim_d_quality_comparison.sh\ntests/e2e\ntests/e2e/e2e_basic_flow.bats\ntests/e2e/e2e_blocked_by.bats\ntests/e2e/e2e_bloom_routing.bats\ntests/e2e/e2e_clear_recovery.bats\ntests/e2e/e2e_codex_startup.bats\ntests/e2e/e2e_escalation.bats\ntests/e2e/e2e_inbox_delivery.bats\ntests/e2e/e2e_parallel_tasks.bats\ntests/e2e/e2e_redo.bats\ntests/e2e/fixtures\ntests/e2e/fixtures/cmd_basic.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  }
+]

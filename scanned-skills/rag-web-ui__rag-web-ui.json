@@ -1,0 +1,133 @@
+[
+  {
+    "name": "rag-web-ui (rag-web-ui)",
+    "description": "[项目级] RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology.。来源: https://github.com/rag-web-ui/rag-web-ui",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "langchain",
+      "ollama",
+      "rag",
+      "typescript",
+      "stars-2781",
+      "github-rag-web-ui",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAG Web UI is an intelligent dialogue system based on RAG (Retrieval-Augmented Generation) technology that helps build intelligent Q&A systems based on your own knowledge base. By combining document retrieval and large language models, it achieves accurate and reliable knowledge-based question answering services.\n\nThe system supports multiple **LLM** deployment options, including cloud services like **OpenAI** and **DeepSeek**, as well as local model deployment through **Ollama**, meeting privacy and cost requirements in different scenarios.\n\nIt also provides OpenAPI interfaces for convenient knowledge base access via API calls.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME.zh-CN.md\nbackend\nbackend/Dockerfile\nbackend/Dockerfile.dev\nbackend/__init__.py\nbackend/alembic.ini\nbackend/alembic\nbackend/app\nbackend/clean_db.py\nbackend/diff.py\nbackend/entrypoint.sh\nbackend/requirements.txt\nbackend/uploads\ndocker-compose.dev.yml\ndocker-compose.yml\ndocs\ndocs/blog\ndocs/images",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📚 **Intelligent Document Management**\n  - Support for multiple document formats (PDF, DOCX, Markdown, Text)\n  - Automatic document chunking and vectorization\n  - Support for async document processing and incremental updates\n\n- 🤖 **Advanced Dialogue Engine**\n  - Precise retrieval and generation based on RAG\n  - Support for multi-turn contextual dialogue\n  - Support for reference citations in conversations\n\n- 🎯 **Robust Architecture**\n  - Frontend-backend separation design\n  - Distributed file storage\n  - High-performance vector database: Support for ChromaDB, Qdrant with easy switching thr",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7221004944320795
+  },
+  {
+    "name": "rag-web-ui/backend 模块",
+    "description": "[模块级] rag-web-ui 项目的 backend 模块 (source)。来源: https://github.com/rag-web-ui/rag-web-ui",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "langchain",
+      "ollama",
+      "rag",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "- 🐍 **Python FastAPI**: High-performance async web framework\n- 🗄️ **MySQL + ChromaDB**: Relational + Vector databases\n- 📦 **MinIO**: Distributed object storage\n- 🔗 **Langchain**: LLM application framework\n- 🔒 **JWT + OAuth2**: Authentication",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/Dockerfile.dev\nbackend/__init__.py\nbackend/alembic.ini\nbackend/alembic\nbackend/alembic/env.py\nbackend/alembic/script.py.mako\nbackend/alembic/versions\nbackend/alembic/versions/3580c0dcd005_increase_api_key_length.py\nbackend/alembic/versions/59cfa0f1361d_rename_metadata_to_chunk_metadata.py\nbackend/alembic/versions/5be054bd6587_add_document_upload_id_to_processing_.py\nbackend/alembic/versions/e214adf7fb66_add_api_keys_table.py\nbackend/alembic/versions/fd73eebc87c1_add_document_uploads_table.py\nbackend/alembic/versions/initial_schema.py\nbackend/app",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8776803955456636
+  },
+  {
+    "name": "rag-web-ui/docs 模块",
+    "description": "[模块级] rag-web-ui 项目的 docs 模块 (docs)。来源: https://github.com/rag-web-ui/rag-web-ui",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "deepseek",
+      "langchain",
+      "ollama",
+      "rag",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 18\n\n包含文件:\n- docs/blog\n- docs/blog/deploy-local.md\n- docs/images\n- docs/images/223shots_so.png\n- docs/images/318shots_so.png\n- docs/images/363shots_so.png\n- docs/images/36shots_so.png\n- docs/images/528shots_so.png\n- docs/images/github-cover-new.png\n- docs/images/screenshot1.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/blog\ndocs/blog/deploy-local.md\ndocs/images\ndocs/images/223shots_so.png\ndocs/images/318shots_so.png\ndocs/images/363shots_so.png\ndocs/images/36shots_so.png\ndocs/images/528shots_so.png\ndocs/images/github-cover-new.png\ndocs/images/screenshot1.png\ndocs/images/screenshot2.png\ndocs/images/screenshot3.png\ndocs/images/screenshot4.png\ndocs/images/screenshot5.png\ndocs/images/screenshot6.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8776803955456636
+  },
+  {
+    "name": "rag-web-ui/frontend 模块",
+    "description": "[模块级] rag-web-ui 项目的 frontend 模块 (source)。来源: https://github.com/rag-web-ui/rag-web-ui",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "langchain",
+      "ollama",
+      "rag",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "- ⚛️ **Next.js 14**: React framework\n- 📘 **TypeScript**: Type safety\n- 🎨 **Tailwind CSS**: Utility-first CSS\n- 🎯 **Shadcn/UI**: High-quality components\n- 🤖 **Vercel AI SDK**: AI integration",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.gitignore\nfrontend/Dockerfile\nfrontend/Dockerfile.dev\nfrontend/README.md\nfrontend/components.json\nfrontend/eslint.config.mjs\nfrontend/next.config.js\nfrontend/package.json\nfrontend/pnpm-lock.yaml\nfrontend/postcss.config.js\nfrontend/postcss.config.mjs\nfrontend/public\nfrontend/public/file.svg\nfrontend/public/globe.svg\nfrontend/public/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8776803955456636
+  }
+]

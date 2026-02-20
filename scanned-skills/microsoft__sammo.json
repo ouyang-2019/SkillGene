@@ -1,0 +1,131 @@
+[
+  {
+    "name": "sammo (microsoft)",
+    "description": "[项目级] A library for prompt engineering and optimization (SAMMO = Structure-aware Multi-Objective Metaprompt Optimization)。来源: https://github.com/microsoft/sammo",
+    "domain": "ai-llm",
+    "tags": [
+      "llms",
+      "prompt-engineering",
+      "prompt-tuning",
+      "python",
+      "stars-750",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A library for prompt engineering and optimization (SAMMO = Structure-aware Multi-Objective Metaprompt Optimization)\n\n来源: https://github.com/microsoft/sammo\n语言: Python\nStars: 750",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install sammo",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nSUPPORT.md\ndocs\ndocs/_config.yml\ndocs/_toc.yml\ndocs/contributing.md\ndocs/index.md\ndocs/overview.png\ndocs/references.bib\ndocs/release_history.rst\ndocs/set_version.py\ndocs/tutorials\nenvironment.yml\nexamples\nexamples/blog\nexamples/paper_instruction_tuning",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Go to the [user guide](https://microsoft.github.io/sammo/) for examples, how-tos, and API reference.\n\nJust want to have a quick look? Try the [live demo on Binder](https://mybinder.org/v2/gh/microsoft/sammo/main?urlpath=tree/docs/tutorials/quickstart.ipynb).\n\n<!--start-->",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.43753063169585
+  },
+  {
+    "name": "sammo/docs 模块",
+    "description": "[模块级] sammo 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/sammo",
+    "domain": "documentation",
+    "tags": [
+      "llms",
+      "prompt-engineering",
+      "prompt-tuning",
+      "python",
+      "stars-750",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 26\n\n包含文件:\n- docs/_config.yml\n- docs/_toc.yml\n- docs/contributing.md\n- docs/index.md\n- docs/overview.png\n- docs/references.bib\n- docs/release_history.rst\n- docs/set_version.py\n- docs/tutorials\n- docs/tutorials/_init.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/_config.yml\ndocs/_toc.yml\ndocs/contributing.md\ndocs/index.md\ndocs/overview.png\ndocs/references.bib\ndocs/release_history.rst\ndocs/set_version.py\ndocs/tutorials\ndocs/tutorials/_init.py\ndocs/tutorials/basics_0_spps.ipynb\ndocs/tutorials/basics_1_using_components.ipynb\ndocs/tutorials/basics_2_working_with_data.ipynb\ndocs/tutorials/basics_3_parallelization.ipynb\ndocs/tutorials/basics_4_minibatching.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.65002450535668
+  },
+  {
+    "name": "sammo/examples 模块",
+    "description": "[模块级] sammo 项目的 examples 模块 (example)。来源: https://github.com/microsoft/sammo",
+    "domain": "ai-llm",
+    "tags": [
+      "llms",
+      "prompt-engineering",
+      "prompt-tuning",
+      "python",
+      "stars-750",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 12\n\n包含文件:\n- examples/blog\n- examples/blog/stop_wasting_tokens.ipynb\n- examples/paper_instruction_tuning\n- examples/paper_instruction_tuning/data_splits.json\n- examples/paper_instruction_tuning/instruction_tuning_dspy.py\n- examples/paper_instruction_tuning/instruction_tuning_sammo.py\n- examples/paper_prompt_compression\n- examples/paper_prompt_compression/data_splits.json\n- examples/paper_prompt_compression/prompt_compression.py\n- examples/paper_rag",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/blog\nexamples/blog/stop_wasting_tokens.ipynb\nexamples/paper_instruction_tuning\nexamples/paper_instruction_tuning/data_splits.json\nexamples/paper_instruction_tuning/instruction_tuning_dspy.py\nexamples/paper_instruction_tuning/instruction_tuning_sammo.py\nexamples/paper_prompt_compression\nexamples/paper_prompt_compression/data_splits.json\nexamples/paper_prompt_compression/prompt_compression.py\nexamples/paper_rag\nexamples/paper_rag/rag_tuning_dspy.py\nexamples/paper_rag/rag_tuning_sammo.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.65002450535668
+  },
+  {
+    "name": "sammo/sammo 模块",
+    "description": "[模块级] sammo 项目的 sammo 模块 (source)。来源: https://github.com/microsoft/sammo",
+    "domain": "ai-llm",
+    "tags": [
+      "llms",
+      "prompt-engineering",
+      "prompt-tuning",
+      "python",
+      "stars-750",
+      "module-level",
+      "source",
+      "sammo"
+    ],
+    "genes": [
+      {
+        "title": "sammo 模块说明",
+        "content": "[![Latest PyPI version](https://img.shields.io/pypi/v/sammo.svg)](https://pypi.python.org/pypi/sammo)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/sammo/main?urlpath=tree/docs/tutorials/quickstart.ipynb)\n\nA flexible, easy-to-use library for running and optimizing prompts for Large Language Models (LLMs).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sammo 文件结构",
+        "content": "sammo/__init__.py\nsammo/base.py\nsammo/base_test.py\nsammo/compactbars.py\nsammo/compactbars_test.py\nsammo/components.py\nsammo/components_test.py\nsammo/css_matching.py\nsammo/css_matching_test.py\nsammo/data.py\nsammo/data_tests.py\nsammo/dataformatters.py\nsammo/dataformatters_test.py\nsammo/express.py\nsammo/express_test.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.65002450535668
+  }
+]

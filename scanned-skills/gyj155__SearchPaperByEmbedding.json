@@ -1,0 +1,43 @@
+[
+  {
+    "name": "SearchPaperByEmbedding (gyj155)",
+    "description": "[项目级] SearchPaperByEmbedding。来源: https://github.com/gyj155/SearchPaperByEmbedding",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-390",
+      "github-gyj155",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\n\n来源: https://github.com/gyj155/SearchPaperByEmbedding\n语言: Python\nStars: 390",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncrawl.py\ndemo.py\nrequirements.txt\nsearch.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "examples = [\n    {\n        \"title\": \"Your paper title\",\n        \"abstract\": \"Your paper abstract...\"\n    }\n]\n\nresults = searcher.search(examples=examples, top_k=100)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Request for papers from OpenReview (e.g., ICLR2026 submissions)\n- Semantic search with example papers or text queries\n- Support embedding caching \n- Embed model support: Open-source (e.g., all-MiniLM-L6-v2) or OpenAI",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.29553230351325
+  }
+]

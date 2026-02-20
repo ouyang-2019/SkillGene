@@ -1,0 +1,128 @@
+[
+  {
+    "name": "DelphiDeepseek (MaxiDonkey)",
+    "description": "[项目级] The Deepseek API wrapper for Delphi leverages Deepseek’s advanced models to deliver powerful capabilities for seamless and dynamic conversational interactions, including a model optimized for reasoning, and now also supports running local models through an LM Studio server.。来源: https://github.com/MaxiDonkey/DelphiDeepseek",
+    "domain": "ai-llm",
+    "tags": [
+      "api-wrapper",
+      "chat",
+      "deepseek",
+      "deepseek-chat",
+      "deepseek-coder",
+      "pascal",
+      "stars-94",
+      "github-maxidonkey",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "> **Built with Delphi 12 Community Edition** (v12.1 Patch 1)  \n>The wrapper itself is MIT-licensed.  \n>You can compile and test it free of charge with Delphi CE; any recent commercial Delphi edition works as well.\n\n\n**Deepseek for Delphi** is a powerful Delphi library that brings the latest Deepseek APIs to your desktop, mobile, and server apps.\n\n**Core capabilities**  \n- Unified access to text endpoints  \n- Supports state-of-the-art models, including ***deepseek-chat*** and the reasoning-centric *deepseek-reasoner* series  \n\n**Developer tooling**  \n- Ready-made `Sync`, `Async`, and `Await` code snippets (TutorialHUB compatible)  \n- Mock-friendly design: the HTTP layer is injected via dependency injection, so you can swap in stubs or fakes for testing  \n\nIntegrate Deepseek into Delphi—no b",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Changelog.md\nDeepseek_logo.png\nLICENSE\nREADME.md\nimages\nimages/Parallel.png\nimages/Promise.png\nimages/ReasoningStream.png\nsample\nsample/TestDeepseek_FMX.zip\nsample/TestDeepseek_VCL.zip\nsource\nsource/DeepSeek.HttpClient.Intf.pas\nsource/Deepseek.API.Parallel.pas\nsource/Deepseek.API.Params.pas\nsource/Deepseek.API.pas\nsource/Deepseek.Async.Params.pas\nsource/Deepseek.Async.Promise.pas\nsource/Deepseek.Async.Support.pas\nsource/Deepseek.Chat.pas",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can simply use code examples provided in this tutorial, two support units have been included in the source code: `Deepseek.Tutorial.VCL` and `Deepseek.Tutorial.FMX` Based on the platform selected for testing the provided examples, you will need to initialize either the `TVCLTutorialHub` or `TFMXTutorialHub` class within the application's OnCreate event, as illustrated below:\n\n>[!IMPORTANT]\n>In this repository, you will find in the [`sample`](https://github.com/MaxiDonkey/DelphiDeepseek/tree/main/sample) folder two ***ZIP archives***, each containing a template to easily test all the code e",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.986563926799849
+  },
+  {
+    "name": "DelphiDeepseek/images 模块",
+    "description": "[模块级] DelphiDeepseek 项目的 images 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiDeepseek",
+    "domain": "ai-llm",
+    "tags": [
+      "api-wrapper",
+      "chat",
+      "deepseek",
+      "deepseek-chat",
+      "deepseek-coder",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/Parallel.png\n- images/Promise.png\n- images/ReasoningStream.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Parallel.png\nimages/Promise.png\nimages/ReasoningStream.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2892511414398795
+  },
+  {
+    "name": "DelphiDeepseek/sample 模块",
+    "description": "[模块级] DelphiDeepseek 项目的 sample 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiDeepseek",
+    "domain": "ai-llm",
+    "tags": [
+      "api-wrapper",
+      "chat",
+      "deepseek",
+      "deepseek-chat",
+      "deepseek-coder",
+      "module-level",
+      "source",
+      "sample"
+    ],
+    "genes": [
+      {
+        "title": "sample 模块说明",
+        "content": "模块路径: sample/\n类型: source\n文件数: 2\n\n包含文件:\n- sample/TestDeepseek_FMX.zip\n- sample/TestDeepseek_VCL.zip",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sample 文件结构",
+        "content": "sample/TestDeepseek_FMX.zip\nsample/TestDeepseek_VCL.zip",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2892511414398795
+  },
+  {
+    "name": "DelphiDeepseek/source 模块",
+    "description": "[模块级] DelphiDeepseek 项目的 source 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiDeepseek",
+    "domain": "ai-llm",
+    "tags": [
+      "api-wrapper",
+      "chat",
+      "deepseek",
+      "deepseek-chat",
+      "deepseek-coder",
+      "module-level",
+      "source",
+      "source"
+    ],
+    "genes": [
+      {
+        "title": "source 模块说明",
+        "content": "模块路径: source/\n类型: source\n文件数: 23\n\n包含文件:\n- source/DeepSeek.HttpClient.Intf.pas\n- source/Deepseek.API.Parallel.pas\n- source/Deepseek.API.Params.pas\n- source/Deepseek.API.pas\n- source/Deepseek.Async.Params.pas\n- source/Deepseek.Async.Promise.pas\n- source/Deepseek.Async.Support.pas\n- source/Deepseek.Chat.pas\n- source/Deepseek.Errors.pas\n- source/Deepseek.Exception.pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "source 文件结构",
+        "content": "source/DeepSeek.HttpClient.Intf.pas\nsource/Deepseek.API.Parallel.pas\nsource/Deepseek.API.Params.pas\nsource/Deepseek.API.pas\nsource/Deepseek.Async.Params.pas\nsource/Deepseek.Async.Promise.pas\nsource/Deepseek.Async.Support.pas\nsource/Deepseek.Chat.pas\nsource/Deepseek.Errors.pas\nsource/Deepseek.Exception.pas\nsource/Deepseek.FIM.pas\nsource/Deepseek.Functions.Core.pas\nsource/Deepseek.Functions.Example.pas\nsource/Deepseek.Functions.Tools.pas\nsource/Deepseek.HttpClient.pas",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2892511414398795
+  }
+]

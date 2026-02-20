@@ -1,0 +1,66 @@
+[
+  {
+    "name": "cc-marketplace (ananddtyagi)",
+    "description": "[项目级] Marketplace repo for Claude Code Plugins。来源: https://github.com/ananddtyagi/cc-marketplace",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-642",
+      "github-ananddtyagi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Marketplace repo for Claude Code Plugins\n\n来源: https://github.com/ananddtyagi/cc-marketplace\n语言: Python\nStars: 642",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add ananddtyagi/cc-marketplace",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "PLUGIN_SCHEMA.md\nREADME.md\nplugins\nplugins/2-commit-fast\nplugins/accessibility-expert\nplugins/ai-engineer\nplugins/ai-ethics-governance-specialist\nplugins/analytics-reporter\nplugins/analyze-codebase\nplugins/analyze-issue\nplugins/angelos-symbo\nplugins/api-contract-sync-manager\nplugins/api-integration-specialist\nplugins/api-tester\nplugins/app-store-optimizer\nplugins/audit\nplugins/b2b-project-shipper\nplugins/backend-architect\nplugins/brand-guardian\nplugins/bug-detective",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Documentation Generator** - Create comprehensive documentation for code, APIs, and projects. (by Anonymous)\n- **Lyra** - Lyra - a master-level AI prompt optimization specialist. (by [@ananddtyagi](https://github.com/ananddtyagi))\n- **Analyze Codebase** - Generate comprehensive analysis and documentation of entire codebase (by [@ananddtyagi](https://github.com/ananddtyagi))\n- **Update Claude.md** - Automatically update CLAUDE.md file based on recent code changes (by [@ananddtyagi](https://github.com/ananddtyagi))\n- **Ultrathink** - Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.403767514034427
+  },
+  {
+    "name": "cc-marketplace/plugins 模块",
+    "description": "[模块级] cc-marketplace 项目的 plugins 模块 (source)。来源: https://github.com/ananddtyagi/cc-marketplace",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-642",
+      "github-ananddtyagi",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 194\n\n包含文件:\n- plugins/2-commit-fast\n- plugins/2-commit-fast/.claude-plugin\n- plugins/2-commit-fast/.claude-plugin/plugin.json\n- plugins/2-commit-fast/commands\n- plugins/2-commit-fast/commands/2-commit-fast.md\n- plugins/accessibility-expert\n- plugins/accessibility-expert/.claude-plugin\n- plugins/accessibility-expert/.claude-plugin/plugin.json\n- plugins/accessibility-expert/agents\n- plugins/accessibility-expert/agents/accessibility-expert.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/2-commit-fast\nplugins/2-commit-fast/.claude-plugin\nplugins/2-commit-fast/.claude-plugin/plugin.json\nplugins/2-commit-fast/commands\nplugins/2-commit-fast/commands/2-commit-fast.md\nplugins/accessibility-expert\nplugins/accessibility-expert/.claude-plugin\nplugins/accessibility-expert/.claude-plugin/plugin.json\nplugins/accessibility-expert/agents\nplugins/accessibility-expert/agents/accessibility-expert.md\nplugins/ai-engineer\nplugins/ai-engineer/.claude-plugin\nplugins/ai-engineer/.claude-plugin/plugin.json\nplugins/ai-engineer/agents\nplugins/ai-engineer/agents/ai-engineer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.623014011227541
+  }
+]

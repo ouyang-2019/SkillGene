@@ -1,0 +1,168 @@
+[
+  {
+    "name": "swiss_army_llama (Dicklesworthstone)",
+    "description": "[项目级] A FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract.。来源: https://github.com/Dicklesworthstone/swiss_army_llama",
+    "domain": "backend",
+    "tags": [
+      "embedding-similarity",
+      "embedding-vectors",
+      "embeddings",
+      "llama2",
+      "llamacpp",
+      "python",
+      "stars-1044",
+      "github-dicklesworthstone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Swiss Army Llama is designed to facilitate and optimize the process of working with local LLMs by using FastAPI to expose convenient REST endpoints for various tasks, including obtaining text embeddings and completions using different LLMs via llama_cpp, as well as automating the process of obtaining all the embeddings for most common document types, including PDFs (even ones that require OCR), Word files, etc; it even allows you to submit an audio file and automatically transcribes it with the Whisper model, cleans up the resulting text, and then computes the embeddings for it. To avoid wasting computation, these embeddings are cached in SQlite and retrieved if they have already been computed before. To speed up the process of loading multiple LLMs, optional RAM Disks can be used, and",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nREADME.md\nadd_mount.sh\ndatabase_functions.py\nembeddings_data_models.py\nend_to_end_tests.py\nenvironment.yml\ngrammar_builder.py\ngrammar_files\ngrammar_files/accept_or_reject.gbnf\ngrammar_files/investor_sentiment_json.gbnf\ngrammar_files/json.gbnf\ngrammar_files/list.gbnf\nimage_files\nimage_files/llama_knife_sticker.webp\nimage_files/llama_knife_sticker2.jpg\nimage_files/swiss_army_llama__swagger_screenshot.png\nimage_files/swiss_army_llama__swagger_screenshot_running.png\nimage_files/swiss_army_llama_logo.webp\ninstall_swiss_army_llama.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "{\n  \"query_text\": \"Find me the most similar string!\",\n  \"llm_model_name\": \"openchat_v3.2_super\",\n  \"similarity_filter_percentage\": 0.02,\n  \"number_of_most_similar_strings_to_return\": 5\n}",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **Text Embedding Computation**: Utilizes pre-trained LLama3 and other LLMs via llama_cpp to generate embeddings for any provided text.\n2. **Embedding Caching**: Efficiently stores and retrieves computed embeddings in SQLite, minimizing redundant computations.\n3. **Advanced Similarity Measurements and Retrieval**: Utilizes the author's own `fast_vector_similarity` library written in Rust to offer highly optimized advanced similarity measures such as `spearman_rho`, `kendall_tau`, `approximate_distance_correlation`, `jensen_shannon_dependency_measure`, and `hoeffding_d`. Semantic search acros",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.509350249333122
+  },
+  {
+    "name": "swiss_army_llama/grammar_files 模块",
+    "description": "[模块级] swiss_army_llama 项目的 grammar_files 模块 (source)。来源: https://github.com/Dicklesworthstone/swiss_army_llama",
+    "domain": "backend",
+    "tags": [
+      "embedding-similarity",
+      "embedding-vectors",
+      "embeddings",
+      "llama2",
+      "llamacpp",
+      "module-level",
+      "source",
+      "grammar_files"
+    ],
+    "genes": [
+      {
+        "title": "grammar_files 模块说明",
+        "content": "模块路径: grammar_files/\n类型: source\n文件数: 4\n\n包含文件:\n- grammar_files/accept_or_reject.gbnf\n- grammar_files/investor_sentiment_json.gbnf\n- grammar_files/json.gbnf\n- grammar_files/list.gbnf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "grammar_files 文件结构",
+        "content": "grammar_files/accept_or_reject.gbnf\ngrammar_files/investor_sentiment_json.gbnf\ngrammar_files/json.gbnf\ngrammar_files/list.gbnf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7074801994664974
+  },
+  {
+    "name": "swiss_army_llama/image_files 模块",
+    "description": "[模块级] swiss_army_llama 项目的 image_files 模块 (source)。来源: https://github.com/Dicklesworthstone/swiss_army_llama",
+    "domain": "backend",
+    "tags": [
+      "embedding-similarity",
+      "embedding-vectors",
+      "embeddings",
+      "llama2",
+      "llamacpp",
+      "module-level",
+      "source",
+      "image_files"
+    ],
+    "genes": [
+      {
+        "title": "image_files 模块说明",
+        "content": "模块路径: image_files/\n类型: source\n文件数: 5\n\n包含文件:\n- image_files/llama_knife_sticker.webp\n- image_files/llama_knife_sticker2.jpg\n- image_files/swiss_army_llama__swagger_screenshot.png\n- image_files/swiss_army_llama__swagger_screenshot_running.png\n- image_files/swiss_army_llama_logo.webp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "image_files 文件结构",
+        "content": "image_files/llama_knife_sticker.webp\nimage_files/llama_knife_sticker2.jpg\nimage_files/swiss_army_llama__swagger_screenshot.png\nimage_files/swiss_army_llama__swagger_screenshot_running.png\nimage_files/swiss_army_llama_logo.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7074801994664974
+  },
+  {
+    "name": "swiss_army_llama/sample_input_files_for_end_to_end_tests 模块",
+    "description": "[模块级] swiss_army_llama 项目的 sample_input_files_for_end_to_end_tests 模块 (source)。来源: https://github.com/Dicklesworthstone/swiss_army_llama",
+    "domain": "backend",
+    "tags": [
+      "embedding-similarity",
+      "embedding-vectors",
+      "embeddings",
+      "llama2",
+      "llamacpp",
+      "module-level",
+      "source",
+      "sample_input_files_for_end_to_end_tests"
+    ],
+    "genes": [
+      {
+        "title": "sample_input_files_for_end_to_end_tests 模块说明",
+        "content": "模块路径: sample_input_files_for_end_to_end_tests/\n类型: source\n文件数: 4\n\n包含文件:\n- sample_input_files_for_end_to_end_tests/Don_King_if_he_lived_in_the_tiny_island_nation_known_as_Japan.mp3\n- sample_input_files_for_end_to_end_tests/bh-us-03-sassaman-conference-slides.pdf\n- sample_input_files_for_end_to_end_tests/sunset.jpg\n- sample_input_files_for_end_to_end_tests/tale_two_cities_first_3_chapters.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sample_input_files_for_end_to_end_tests 文件结构",
+        "content": "sample_input_files_for_end_to_end_tests/Don_King_if_he_lived_in_the_tiny_island_nation_known_as_Japan.mp3\nsample_input_files_for_end_to_end_tests/bh-us-03-sassaman-conference-slides.pdf\nsample_input_files_for_end_to_end_tests/sunset.jpg\nsample_input_files_for_end_to_end_tests/tale_two_cities_first_3_chapters.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7074801994664974
+  },
+  {
+    "name": "swiss_army_llama/tests 模块",
+    "description": "[模块级] swiss_army_llama 项目的 tests 模块 (test)。来源: https://github.com/Dicklesworthstone/swiss_army_llama",
+    "domain": "testing",
+    "tags": [
+      "embedding-similarity",
+      "embedding-vectors",
+      "embeddings",
+      "llama2",
+      "llamacpp",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 10\n\n包含文件:\n- tests/conftest.py\n- tests/swiss_army_llama\n- tests/swiss_army_llama/test_audio_transcription_functions.py\n- tests/swiss_army_llama/test_build_faiss_indexes.py\n- tests/swiss_army_llama/test_database_operations.py\n- tests/swiss_army_llama/test_ramdisk_management.py\n- tests/swiss_army_llama/test_service_functions.py\n- tests/swiss_army_llama/test_views.py\n- tests/test_log_viewer_functions.py\n- tests/test_sentiment_score_generation.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/swiss_army_llama\ntests/swiss_army_llama/test_audio_transcription_functions.py\ntests/swiss_army_llama/test_build_faiss_indexes.py\ntests/swiss_army_llama/test_database_operations.py\ntests/swiss_army_llama/test_ramdisk_management.py\ntests/swiss_army_llama/test_service_functions.py\ntests/swiss_army_llama/test_views.py\ntests/test_log_viewer_functions.py\ntests/test_sentiment_score_generation.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7074801994664974
+  }
+]

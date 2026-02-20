@@ -1,0 +1,145 @@
+[
+  {
+    "name": "algorand-agent-skills (algorand-devrel)",
+    "description": "[项目级] Canonical collection of Agent Skills for for AI-assisted development on Algorand。来源: https://github.com/algorand-devrel/algorand-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-22",
+      "github-algorand-devrel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Canonical collection of Agent Skills for for AI-assisted development on Algorand\n\n来源: https://github.com/algorand-devrel/algorand-agent-skills\n语言: Python\nStars: 22",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Choose your AI coding tool and follow the setup guide.\n\n> **Note**: These instructions are for **per-project setup**. For global/user-level configuration, refer to each tool's official documentation.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nexamples\nexamples/multi-skill-workflow.md\nopencode.json\nralph\nralph/README.md\nralph/plan.md\nralph/progress.md\nralph/prompt.md\nralph/run.sh\nralph/templates\nscripts\nscripts/init_skill.py\nscripts/package-all-skills.sh\nscripts/package_skill.py\nscripts/quick_validate.py\nsetups",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6712113404111033
+  },
+  {
+    "name": "algorand-agent-skills/ralph 模块",
+    "description": "[模块级] algorand-agent-skills 项目的 ralph 模块 (source)。来源: https://github.com/algorand-devrel/algorand-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-22",
+      "github-algorand-devrel",
+      "module-level",
+      "source",
+      "ralph"
+    ],
+    "genes": [
+      {
+        "title": "ralph 模块说明",
+        "content": "模块路径: ralph/\n类型: source\n文件数: 7\n\n包含文件:\n- ralph/README.md\n- ralph/plan.md\n- ralph/progress.md\n- ralph/prompt.md\n- ralph/run.sh\n- ralph/templates\n- ralph/templates/SKILL.template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ralph 文件结构",
+        "content": "ralph/README.md\nralph/plan.md\nralph/progress.md\nralph/prompt.md\nralph/run.sh\nralph/templates\nralph/templates/SKILL.template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "algorand-agent-skills/scripts 模块",
+    "description": "[模块级] algorand-agent-skills 项目的 scripts 模块 (script)。来源: https://github.com/algorand-devrel/algorand-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-22",
+      "github-algorand-devrel",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/init_skill.py\n- scripts/package-all-skills.sh\n- scripts/package_skill.py\n- scripts/quick_validate.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/init_skill.py\nscripts/package-all-skills.sh\nscripts/package_skill.py\nscripts/quick_validate.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "algorand-agent-skills/setups 模块",
+    "description": "[模块级] algorand-agent-skills 项目的 setups 模块 (source)。来源: https://github.com/algorand-devrel/algorand-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-22",
+      "github-algorand-devrel",
+      "module-level",
+      "source",
+      "setups"
+    ],
+    "genes": [
+      {
+        "title": "setups 模块说明",
+        "content": "模块路径: setups/\n类型: source\n文件数: 14\n\n包含文件:\n- setups/AGENTS.md\n- setups/claude-code\n- setups/claude-code/.mcp.json\n- setups/claude-code/CLAUDE.md\n- setups/claude-code/README.md\n- setups/copilot\n- setups/copilot/README.md\n- setups/copilot/copilot-instructions.md\n- setups/cursor\n- setups/cursor/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "setups 文件结构",
+        "content": "setups/AGENTS.md\nsetups/claude-code\nsetups/claude-code/.mcp.json\nsetups/claude-code/CLAUDE.md\nsetups/claude-code/README.md\nsetups/copilot\nsetups/copilot/README.md\nsetups/copilot/copilot-instructions.md\nsetups/cursor\nsetups/cursor/README.md\nsetups/cursor/mcp.json\nsetups/opencode\nsetups/opencode/README.md\nsetups/opencode/opencode.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "algorand-agent-skills/skills 模块",
+    "description": "[模块级] algorand-agent-skills 项目的 skills 模块 (source)。来源: https://github.com/algorand-devrel/algorand-agent-skills",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-22",
+      "github-algorand-devrel",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Agent skills and configurations for AI-assisted Algorand development. Give your AI coding assistant the knowledge to build smart contracts, deploy applications, and follow Algorand best practices.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/algorand-ts-migration\nskills/algorand-ts-migration/SKILL.md\nskills/algorand-ts-migration/references\nskills/algorand-ts-migration/references/from-beta.md\nskills/algorand-ts-migration/references/from-tealscript.md\nskills/algorand-typescript\nskills/algorand-typescript/SKILL.md\nskills/algorand-typescript/references\nskills/algorand-typescript/references/REFERENCE.md\nskills/algorand-typescript/references/methods-and-abi.md\nskills/algorand-typescript/references/storage.md\nskills/algorand-typescript/references/transactions.md\nskills/algorand-typescript/references/types-and-values.md\nskills/build-smart-contracts\nskills/build-smart-contracts/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "RagaAI-Catalyst (raga-ai-hub)",
+    "description": "[项目级] Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view 。来源: https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentneo",
+      "agents",
+      "ai-agent-monitoring",
+      "python",
+      "stars-16099",
+      "github-raga-ai-hub",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view \n\n来源: https://github.com/raga-ai-hub/RagaAI-Catalyst\n语言: Python\nStars: 16099",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install ragaai-catalyst",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nQuickstart.md\nREADME.md\ndocs\ndocs/agentic_tracing.md\ndocs/dataset_management.md\ndocs/img\ndocs/prompt_management.md\ndocs/trace_management.md\nexamples\nexamples/all_llm_provider\nexamples/crewai\nexamples/custom_agents\nexamples/haystack\nexamples/langchain\nexamples/langgraph\nexamples/llamaindex_examples\nexamples/openai_agents_sdk\nexamples/pii_masking_example\nexamples/smolagents",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Support for multiple LLM providers (OpenAI, XAI, ..)\n- Built-in and custom detectors\n- Automatic test case generation\n- Allow users to add their own test cases\n- Flexible evaluation scenarios\n- Detailed reporting and analysis\n  \n![RedTeam](ragaai_catalyst/redteaming/utils/rt.png)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "RagaAI-Catalyst/docs 模块",
+    "description": "[模块级] RagaAI-Catalyst 项目的 docs 模块 (docs)。来源: https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentneo",
+      "agents",
+      "ai-agent-monitoring",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 17\n\n包含文件:\n- docs/agentic_tracing.md\n- docs/dataset_management.md\n- docs/img\n- docs/img/autheticate.gif\n- docs/img/create_project.gif\n- docs/img/custom_metrics.png\n- docs/img/dataset.gif\n- docs/img/dataset.png\n- docs/img/evaluation.gif\n- docs/img/evaluation.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agentic_tracing.md\ndocs/dataset_management.md\ndocs/img\ndocs/img/autheticate.gif\ndocs/img/create_project.gif\ndocs/img/custom_metrics.png\ndocs/img/dataset.gif\ndocs/img/dataset.png\ndocs/img/evaluation.gif\ndocs/img/evaluation.png\ndocs/img/guardrails.png\ndocs/img/last_main.png\ndocs/img/main.png\ndocs/img/projects_new.png\ndocs/img/trace_comp.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.182719560152619
+  },
+  {
+    "name": "RagaAI-Catalyst/examples 模块",
+    "description": "[模块级] RagaAI-Catalyst 项目的 examples 模块 (example)。来源: https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentneo",
+      "agents",
+      "ai-agent-monitoring",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "examples = sdg.generate_examples(\n    user_instruction = 'Generate query like this.', \n    user_examples = 'How to do it?', # Can be a string or list of strings.\n    user_context = 'Context to generate examples', \n    no_examples = 10, \n    model_config = {\"provider\":\"openai\",\"model\":\"gpt-4o-mini\"}\n)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/all_llm_provider\nexamples/all_llm_provider/all_llm_provider.py\nexamples/all_llm_provider/config.py\nexamples/all_llm_provider/run_all_llm_provider.py\nexamples/crewai\nexamples/crewai/scifi_writer\nexamples/crewai/scifi_writer/README.md\nexamples/crewai/scifi_writer/requirements.txt\nexamples/crewai/scifi_writer/sample.env\nexamples/crewai/scifi_writer/scifi_writer.py\nexamples/custom_agents\nexamples/custom_agents/travel_agent\nexamples/custom_agents/travel_agent/agents.py\nexamples/custom_agents/travel_agent/config.py\nexamples/custom_agents/travel_agent/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.182719560152619
+  },
+  {
+    "name": "RagaAI-Catalyst/ragaai_catalyst 模块",
+    "description": "[模块级] RagaAI-Catalyst 项目的 ragaai_catalyst 模块 (source)。来源: https://github.com/raga-ai-hub/RagaAI-Catalyst",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-ai-development",
+      "agentneo",
+      "agents",
+      "ai-agent-monitoring",
+      "module-level",
+      "source",
+      "ragaai_catalyst"
+    ],
+    "genes": [
+      {
+        "title": "ragaai_catalyst 模块说明",
+        "content": "模块路径: ragaai_catalyst/\n类型: source\n文件数: 96\n\n包含文件:\n- ragaai_catalyst/__init__.py\n- ragaai_catalyst/_version.py\n- ragaai_catalyst/dataset.py\n- ragaai_catalyst/evaluation.py\n- ragaai_catalyst/experiment.py\n- ragaai_catalyst/guard_executor.py\n- ragaai_catalyst/guardrails_manager.py\n- ragaai_catalyst/internal_api_completion.py\n- ragaai_catalyst/prompt_manager.py\n- ragaai_catalyst/proxy_call.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ragaai_catalyst 文件结构",
+        "content": "ragaai_catalyst/__init__.py\nragaai_catalyst/_version.py\nragaai_catalyst/dataset.py\nragaai_catalyst/evaluation.py\nragaai_catalyst/experiment.py\nragaai_catalyst/guard_executor.py\nragaai_catalyst/guardrails_manager.py\nragaai_catalyst/internal_api_completion.py\nragaai_catalyst/prompt_manager.py\nragaai_catalyst/proxy_call.py\nragaai_catalyst/ragaai_catalyst.py\nragaai_catalyst/redteaming\nragaai_catalyst/redteaming/__init__.py\nragaai_catalyst/redteaming/config\nragaai_catalyst/redteaming/config/detectors.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.182719560152619
+  }
+]

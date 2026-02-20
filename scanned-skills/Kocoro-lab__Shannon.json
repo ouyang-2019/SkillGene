@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Shannon (Kocoro-lab)",
+    "description": "[项目级] A production-oriented multi-agent orchestration framework.。来源: https://github.com/Kocoro-lab/Shannon",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "multi-agent-systems",
+      "go",
+      "stars-1018",
+      "github-kocoro-lab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A production-oriented multi-agent orchestration framework.\n\n来源: https://github.com/Kocoro-lab/Shannon\n语言: Go\nStars: 1018",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nRELEASING.md\nROADMAP.md\nclients\nclients/python\nconfig\nconfig/README.md\nconfig/agent.yaml\nconfig/citation_credibility.yaml\nconfig/features.yaml\nconfig/models.yaml\nconfig/opa\nconfig/openai_models.yaml\nconfig/openapi_specs\nconfig/otel",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.50387388900037
+  },
+  {
+    "name": "Shannon/clients 模块",
+    "description": "[模块级] Shannon 项目的 clients 模块 (source)。来源: https://github.com/Kocoro-lab/Shannon",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "multi-agent-systems",
+      "go",
+      "stars-1018",
+      "module-level",
+      "source",
+      "clients"
+    ],
+    "genes": [
+      {
+        "title": "clients 模块说明",
+        "content": "模块路径: clients/\n类型: source\n文件数: 36\n\n包含文件:\n- clients/python\n- clients/python/.gitignore\n- clients/python/CHANGELOG.md\n- clients/python/MANIFEST.in\n- clients/python/Makefile\n- clients/python/PACKAGING.md\n- clients/python/README.md\n- clients/python/TEST_RESULTS_V0.4.0.md\n- clients/python/examples\n- clients/python/examples/list_and_events.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "clients 文件结构",
+        "content": "clients/python\nclients/python/.gitignore\nclients/python/CHANGELOG.md\nclients/python/MANIFEST.in\nclients/python/Makefile\nclients/python/PACKAGING.md\nclients/python/README.md\nclients/python/TEST_RESULTS_V0.4.0.md\nclients/python/examples\nclients/python/examples/list_and_events.py\nclients/python/examples/model_selection.py\nclients/python/examples/session_continuity.py\nclients/python/examples/simple_streaming.py\nclients/python/examples/simple_task.py\nclients/python/examples/streaming_with_approvals.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.703099111200296
+  },
+  {
+    "name": "Shannon/config 模块",
+    "description": "[模块级] Shannon 项目的 config 模块 (config)。来源: https://github.com/Kocoro-lab/Shannon",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "multi-agent-systems",
+      "go",
+      "stars-1018",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "Add these to your `.env` file based on which tools you need:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/README.md\nconfig/agent.yaml\nconfig/citation_credibility.yaml\nconfig/features.yaml\nconfig/models.yaml\nconfig/opa\nconfig/opa/README.md\nconfig/opa/policies\nconfig/opa/policies/base.rego\nconfig/opa/policies/security.rego\nconfig/opa/policies/teams\nconfig/opa/policies/teams/customer-support\nconfig/opa/policies/teams/customer-support/policy.rego\nconfig/opa/policies/teams/data-science\nconfig/opa/policies/teams/data-science/policy.rego",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.703099111200296
+  },
+  {
+    "name": "Shannon/deploy 模块",
+    "description": "[模块级] Shannon 项目的 deploy 模块 (source)。来源: https://github.com/Kocoro-lab/Shannon",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "multi-agent-systems",
+      "go",
+      "stars-1018",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 18\n\n包含文件:\n- deploy/compose\n- deploy/compose/docker-compose.override.example.yml\n- deploy/compose/docker-compose.release.yml\n- deploy/compose/docker-compose.yml\n- deploy/compose/grafana\n- deploy/compose/grafana/README.md\n- deploy/compose/grafana/config\n- deploy/compose/grafana/config/grafana.ini\n- deploy/compose/grafana/config/prometheus.yml\n- deploy/compose/grafana/config/provisioning",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/compose\ndeploy/compose/docker-compose.override.example.yml\ndeploy/compose/docker-compose.release.yml\ndeploy/compose/docker-compose.yml\ndeploy/compose/grafana\ndeploy/compose/grafana/README.md\ndeploy/compose/grafana/config\ndeploy/compose/grafana/config/grafana.ini\ndeploy/compose/grafana/config/prometheus.yml\ndeploy/compose/grafana/config/provisioning\ndeploy/compose/grafana/config/provisioning/dashboards\ndeploy/compose/grafana/config/provisioning/dashboards/node-exporter-1860.json\ndeploy/compose/grafana/config/provisioning/dashboards/tier-drift-monitoring.json\ndeploy/compose/grafana/config/provisioning/datasources\ndeploy/compose/grafana/config/provisioning/datasources/prometheus.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.703099111200296
+  },
+  {
+    "name": "Shannon/desktop 模块",
+    "description": "[模块级] Shannon 项目的 desktop 模块 (source)。来源: https://github.com/Kocoro-lab/Shannon",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "multi-agent-systems",
+      "go",
+      "stars-1018",
+      "module-level",
+      "source",
+      "desktop"
+    ],
+    "genes": [
+      {
+        "title": "desktop 模块说明",
+        "content": "Download pre-built desktop applications from [GitHub Releases](https://github.com/Kocoro-lab/Shannon/releases/latest):\n\n- **[macOS (Universal)](https://github.com/Kocoro-lab/Shannon/releases/latest)** — Intel & Apple Silicon\n- **[Windows (x64)](https://github.com/Kocoro-lab/Shannon/releases/latest)** — MSI or EXE installer\n- **[Linux (x64)](https://github.com/Kocoro-lab/Shannon/releases/latest)** — AppImage or DEB package\n\nOr build from source:\n\n```bash\ncd desktop\nnpm install\nnpm run tauri:build",
+        "gene_type": "principle"
+      },
+      {
+        "title": "desktop 文件结构",
+        "content": "desktop/.env.local.example\ndesktop/.gitignore\ndesktop/README.md\ndesktop/app\ndesktop/app/(app)\ndesktop/app/(app)/agents\ndesktop/app/(app)/agents/page.tsx\ndesktop/app/(app)/layout.tsx\ndesktop/app/(app)/run-detail\ndesktop/app/(app)/run-detail/page.tsx\ndesktop/app/(app)/runs\ndesktop/app/(app)/runs/page.tsx\ndesktop/app/(app)/schedules\ndesktop/app/(app)/schedules/page.tsx\ndesktop/app/(app)/settings",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "desktop 代码示例",
+        "content": "cd desktop\nnpm install\nnpm run tauri:build  # Builds for your platform",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.703099111200296
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "all-in-rag (datawhalechina)",
+    "description": "[项目级] 🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/。来源: https://github.com/datawhalechina/all-in-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "embedding",
+      "kimi-k2",
+      "langchain",
+      "python",
+      "stars-3981",
+      "github-datawhalechina",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "本项目是一个面向大模型应用开发者的RAG（检索增强生成）技术全栈教程，旨在通过体系化的学习路径和动手实践项目，帮助开发者掌握基于大语言模型的RAG应用开发技能，构建生产级的智能问答和知识检索系统。\n\n**主要内容包括：**\n\n1. **RAG技术基础**：深入浅出地介绍RAG的核心概念、技术原理和应用场景\n2. **数据处理全流程**：从数据加载、清洗到文本分块的完整数据准备流程\n3. **索引构建与优化**：向量嵌入、多模态嵌入、向量数据库构建及索引优化技术\n4. **检索技术进阶**：混合检索、查询构建、Text2SQL等高级检索技术\n5. **生成集成与评估**：格式化生成、系统评估与优化方法\n6. **项目实战**：从基础到进阶的完整RAG应用开发实践",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Extra-chapter\nExtra-chapter/Neo4J-Simple-Application\nExtra-chapter/PowerRAG-SDK-Text-QA\nExtra-chapter/README.md\nREADME.md\nREADME_en.md\ncode\ncode/C1\ncode/C2\ncode/C3\ncode/C4\ncode/C5\ncode/C6\ncode/C8\ncode/C9\ncode/docker-compose.yml\ncode/requirements.txt\ndata\ndata/C1\ndata/C2",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.799996088792049
+  },
+  {
+    "name": "all-in-rag/Extra-chapter 模块",
+    "description": "[模块级] all-in-rag 项目的 Extra-chapter 模块 (source)。来源: https://github.com/datawhalechina/all-in-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "embedding",
+      "kimi-k2",
+      "langchain",
+      "module-level",
+      "source",
+      "extra-chapter"
+    ],
+    "genes": [
+      {
+        "title": "Extra-chapter 模块说明",
+        "content": "- [Neo4J 简单应用](./Extra-chapter/Neo4J-Simple-Application/readme.md) （贡献者: [dalvqw](https://github.com/FutureUnreal)）\n\n> 如果你在使用 RAG / 向量数据库 / Agentic RAG 等相关技术时，也有值得分享的经验与专题内容，非常欢迎以独立章节的形式投稿到 [Extra Chapter](./Extra-chapter/) 中。提交前请先阅读 Extra Chapter 的[贡献与 PR 指南](./Extra-chapter/README.md)，我们会根据内容的完整度、实践深度与参考价值综合评估是否合并，并视情况在主教程中进行引用或扩展说明。",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Extra-chapter 文件结构",
+        "content": "Extra-chapter/Neo4J-Simple-Application\nExtra-chapter/Neo4J-Simple-Application/images\nExtra-chapter/Neo4J-Simple-Application/images/1_4_2_1.png\nExtra-chapter/Neo4J-Simple-Application/images/1_4_3_1.png\nExtra-chapter/Neo4J-Simple-Application/images/1_4_3_2.png\nExtra-chapter/Neo4J-Simple-Application/images/1_4_3_3.png\nExtra-chapter/Neo4J-Simple-Application/images/2_1_1.png\nExtra-chapter/Neo4J-Simple-Application/images/2_1_2.png\nExtra-chapter/Neo4J-Simple-Application/images/2_1_3.png\nExtra-chapter/Neo4J-Simple-Application/images/2_1_4.png\nExtra-chapter/Neo4J-Simple-Application/images/2_2_1_1.png\nExtra-chapter/Neo4J-Simple-Application/images/2_2_1_2.png\nExtra-chapter/Neo4J-Simple-Application/images/2_2_2_1.png\nExtra-chapter/Neo4J-Simple-Application/readme.md\nExtra-chapter/PowerRAG-SDK-Text-QA",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9399968710336393
+  },
+  {
+    "name": "all-in-rag/code 模块",
+    "description": "[模块级] all-in-rag 项目的 code 模块 (source)。来源: https://github.com/datawhalechina/all-in-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "embedding",
+      "kimi-k2",
+      "langchain",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 125\n\n包含文件:\n- code/C1\n- code/C1/01_langchain_example.py\n- code/C1/02_llamaIndex_example.py\n- code/C1/fix_nltk.py\n- code/C2\n- code/C2/01_unstructured_example.py\n- code/C2/02_character_splitter.py\n- code/C2/03_recursive_character_splitter.py\n- code/C2/04_semantic_chunker.py\n- code/C3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/C1\ncode/C1/01_langchain_example.py\ncode/C1/02_llamaIndex_example.py\ncode/C1/fix_nltk.py\ncode/C2\ncode/C2/01_unstructured_example.py\ncode/C2/02_character_splitter.py\ncode/C2/03_recursive_character_splitter.py\ncode/C2/04_semantic_chunker.py\ncode/C3\ncode/C3/01_bge_visualized.py\ncode/C3/02_langchain_faiss.py\ncode/C3/03_llamaindex_vector.py\ncode/C3/04_multi_milvus.py\ncode/C3/05_sentence_window_retrieval.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9399968710336393
+  },
+  {
+    "name": "all-in-rag/data 模块",
+    "description": "[模块级] all-in-rag 项目的 data 模块 (source)。来源: https://github.com/datawhalechina/all-in-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "deepseek",
+      "embedding",
+      "kimi-k2",
+      "langchain",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "<div align='center'>\n    <img src=\"https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg\" alt=\"Datawhale\" width=\"30%\">\n    <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>\n</div>\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/C1\ndata/C1/markdown\ndata/C1/markdown/easy-rl-chapter1.md\ndata/C2\ndata/C2/pdf\ndata/C2/pdf/rag.pdf\ndata/C2/txt\ndata/C2/txt/蜂医.txt\ndata/C3\ndata/C3/dragon\ndata/C3/dragon/dragon02.png\ndata/C3/dragon/dragon03.png\ndata/C3/dragon/dragon04.png\ndata/C3/dragon/dragon05.png\ndata/C3/dragon/dragon06.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9399968710336393
+  }
+]

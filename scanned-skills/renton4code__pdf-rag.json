@@ -1,0 +1,108 @@
+[
+  {
+    "name": "pdf-rag (renton4code)",
+    "description": "[项目级] RAG (Retrieval-Augmented Generation) template with PDF OCR, vector search and chat/documents UI 。来源: https://github.com/renton4code/pdf-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "genai",
+      "llm",
+      "ocr",
+      "rag",
+      "typescript",
+      "stars-38",
+      "github-renton4code",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAG (Retrieval-Augmented Generation) template with PDF OCR, vector search and chat/documents UI \n\n来源: https://github.com/renton4code/pdf-rag\n语言: TypeScript\nStars: 38",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncompose.yaml\ndocs\ndocs/assets\nservices\nservices/bff\nservices/index\nservices/marker-server\nservices/milvus\nservices/postgres\nservices/query\nservices/webapp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Upload Documents**\n   - Drag and drop PDF files into the web interface\n   - Toggle OCR processing for scanned/handwritten documents\n   - Monitor processing status in real-time\n\n2. **Chat Interface**\n   - Start new conversations\n   - Filter documents for specific contexts\n   - View document references in responses\n   - Click references to view source documents",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📄 PDF document processing with OCR\n- 📚 Multi-document conversation context with filtering\n- 🎯 Click-to-view document references with highlighting\n- 💾 Milvus DB with billions of vectors scale support\n- 🌐 Slick web interface\n- 🔄 Large documents processing and status updates",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.789891798308405
+  },
+  {
+    "name": "pdf-rag/docs 模块",
+    "description": "[模块级] pdf-rag 项目的 docs 模块 (docs)。来源: https://github.com/renton4code/pdf-rag",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "genai",
+      "llm",
+      "ocr",
+      "rag",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/assets\n- docs/assets/screen-1.png\n- docs/assets/screen-2.png\n- docs/assets/screen-3.png\n- docs/assets/screen-4.png\n- docs/assets/workflow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/screen-1.png\ndocs/assets/screen-2.png\ndocs/assets/screen-3.png\ndocs/assets/screen-4.png\ndocs/assets/workflow.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  },
+  {
+    "name": "pdf-rag/services 模块",
+    "description": "[模块级] pdf-rag 项目的 services 模块 (source)。来源: https://github.com/renton4code/pdf-rag",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "genai",
+      "llm",
+      "ocr",
+      "rag",
+      "module-level",
+      "source",
+      "services"
+    ],
+    "genes": [
+      {
+        "title": "services 模块说明",
+        "content": "模块路径: services/\n类型: source\n文件数: 113\n\n包含文件:\n- services/bff\n- services/bff/.env-example\n- services/bff/.gitignore\n- services/bff/bun.lock\n- services/bff/dockerfile\n- services/bff/index.ts\n- services/bff/package.json\n- services/index\n- services/index/.env-example\n- services/index/.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "services 文件结构",
+        "content": "services/bff\nservices/bff/.env-example\nservices/bff/.gitignore\nservices/bff/bun.lock\nservices/bff/dockerfile\nservices/bff/index.ts\nservices/bff/package.json\nservices/index\nservices/index/.env-example\nservices/index/.gitignore\nservices/index/bun.lock\nservices/index/dockerfile\nservices/index/embedder.ts\nservices/index/index.ts\nservices/index/marker-client.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  }
+]

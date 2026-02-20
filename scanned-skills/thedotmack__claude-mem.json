@@ -1,0 +1,163 @@
+[
+  {
+    "name": "claude-mem (thedotmack)",
+    "description": "[项目级] A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.。来源: https://github.com/thedotmack/claude-mem",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "typescript",
+      "stars-29495",
+      "github-thedotmack",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.\n\n来源: https://github.com/thedotmack/claude-mem\n语言: TypeScript\nStars: 29495",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add thedotmack/claude-mem\n\n/plugin install claude-mem",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nconductor.json\ncursor-hooks\ncursor-hooks/.gitignore\ncursor-hooks/CONTEXT-INJECTION.md\ncursor-hooks/INTEGRATION.md\ncursor-hooks/PARITY.md\ncursor-hooks/QUICKSTART.md\ncursor-hooks/README.md\ncursor-hooks/REVIEW.md\ncursor-hooks/STANDALONE-SETUP.md\ncursor-hooks/cursorrules-template.md\ncursor-hooks/hooks.json\ndocs\ndocs/CLAUDE.md\ndocs/PR-SHIPPING-REPORT.md\ndocs/SESSION_ID_ARCHITECTURE.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Claude-Mem offers a **beta channel** with experimental features like **Endless Mode** (biomimetic memory architecture for extended sessions). Switch between stable and beta versions from the web viewer UI at http://localhost:37777 → Settings.\n\nSee **[Beta Features Documentation](https://docs.claude-mem.ai/beta-features)** for details on Endless Mode and how to try it.\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "claude-mem/cursor-hooks 模块",
+    "description": "[模块级] claude-mem 项目的 cursor-hooks 模块 (source)。来源: https://github.com/thedotmack/claude-mem",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "module-level",
+      "source",
+      "cursor-hooks"
+    ],
+    "genes": [
+      {
+        "title": "cursor-hooks 模块说明",
+        "content": "模块路径: cursor-hooks/\n类型: source\n文件数: 10\n\n包含文件:\n- cursor-hooks/.gitignore\n- cursor-hooks/CONTEXT-INJECTION.md\n- cursor-hooks/INTEGRATION.md\n- cursor-hooks/PARITY.md\n- cursor-hooks/QUICKSTART.md\n- cursor-hooks/README.md\n- cursor-hooks/REVIEW.md\n- cursor-hooks/STANDALONE-SETUP.md\n- cursor-hooks/cursorrules-template.md\n- cursor-hooks/hooks.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cursor-hooks 文件结构",
+        "content": "cursor-hooks/.gitignore\ncursor-hooks/CONTEXT-INJECTION.md\ncursor-hooks/INTEGRATION.md\ncursor-hooks/PARITY.md\ncursor-hooks/QUICKSTART.md\ncursor-hooks/README.md\ncursor-hooks/REVIEW.md\ncursor-hooks/STANDALONE-SETUP.md\ncursor-hooks/cursorrules-template.md\ncursor-hooks/hooks.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.287899360202067
+  },
+  {
+    "name": "claude-mem/docs 模块",
+    "description": "[模块级] claude-mem 项目的 docs 模块 (docs)。来源: https://github.com/thedotmack/claude-mem",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 135\n\n包含文件:\n- docs/CLAUDE.md\n- docs/PR-SHIPPING-REPORT.md\n- docs/SESSION_ID_ARCHITECTURE.md\n- docs/VERSION_FIX.md\n- docs/anti-pattern-cleanup-plan.md\n- docs/bug-fixes\n- docs/bug-fixes/windows-spaces-issue.md\n- docs/context\n- docs/context/agent-sdk-v2-examples.ts\n- docs/context/agent-sdk-v2-preview.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CLAUDE.md\ndocs/PR-SHIPPING-REPORT.md\ndocs/SESSION_ID_ARCHITECTURE.md\ndocs/VERSION_FIX.md\ndocs/anti-pattern-cleanup-plan.md\ndocs/bug-fixes\ndocs/bug-fixes/windows-spaces-issue.md\ndocs/context\ndocs/context/agent-sdk-v2-examples.ts\ndocs/context/agent-sdk-v2-preview.md\ndocs/context/cursor-hooks-reference.md\ndocs/context/hooks-reference-2026-01-07.md\ndocs/i18n\ndocs/i18n/.translation-cache.json\ndocs/i18n/README.ar.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.287899360202067
+  },
+  {
+    "name": "claude-mem/install 模块",
+    "description": "[模块级] claude-mem 项目的 install 模块 (source)。来源: https://github.com/thedotmack/claude-mem",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "module-level",
+      "source",
+      "install"
+    ],
+    "genes": [
+      {
+        "title": "install 模块说明",
+        "content": "模块路径: install/\n类型: source\n文件数: 5\n\n包含文件:\n- install/.gitignore\n- install/public\n- install/public/install.sh\n- install/public/installer.js\n- install/vercel.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "install 文件结构",
+        "content": "install/.gitignore\ninstall/public\ninstall/public/install.sh\ninstall/public/installer.js\ninstall/vercel.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.287899360202067
+  },
+  {
+    "name": "claude-mem/installer 模块",
+    "description": "[模块级] claude-mem 项目的 installer 模块 (source)。来源: https://github.com/thedotmack/claude-mem",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "module-level",
+      "source",
+      "installer"
+    ],
+    "genes": [
+      {
+        "title": "installer 模块说明",
+        "content": "模块路径: installer/\n类型: source\n文件数: 12\n\n包含文件:\n- installer/build.mjs\n- installer/dist\n- installer/dist/index.js\n- installer/package.json\n- installer/src\n- installer/src/index.ts\n- installer/src/steps\n- installer/src/steps/complete.ts\n- installer/src/steps/dependencies.ts\n- installer/src/steps/ide-selection.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "installer 文件结构",
+        "content": "installer/build.mjs\ninstaller/dist\ninstaller/dist/index.js\ninstaller/package.json\ninstaller/src\ninstaller/src/index.ts\ninstaller/src/steps\ninstaller/src/steps/complete.ts\ninstaller/src/steps/dependencies.ts\ninstaller/src/steps/ide-selection.ts\ninstaller/src/steps/install.ts\ninstaller/src/steps/provider.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.287899360202067
+  }
+]

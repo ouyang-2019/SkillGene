@@ -1,0 +1,48 @@
+[
+  {
+    "name": "repomix (yamadashy)",
+    "description": "[项目级] 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.。来源: https://github.com/yamadashy/repomix",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "anthropic",
+      "artificial-intelligence",
+      "chatbot",
+      "chatgpt",
+      "typescript",
+      "stars-21964",
+      "github-yamadashy",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Get a high-level understanding of the library\n\n```\nThis file contains the entire codebase of library. Please provide a comprehensive overview of the library, including its main purpose, key features, and overall architecture.\n```\n\nFeel free to modify these prompts based on your specific needs and the capabilities of the AI tool you're using.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "repomix path/to/directory",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **AI-Optimized**: Formats your codebase in a way that's easy for AI to understand and process.\n- **Token Counting**: Provides token counts for each file and the entire repository, useful for LLM context limits.\n- **Simple to Use**: You need just one command to pack your entire repository.\n- **Customizable**: Easily configure what to include or exclude.\n- **Git-Aware**: Automatically respects your `.gitignore`, `.ignore`, and `.repomixignore` files.\n- **Security-Focused**: Incorporates [Secretlint](https://github.com/secretlint/secretlint) for robust security checks to detect and prevent incl",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  }
+]

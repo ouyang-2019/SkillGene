@@ -1,0 +1,258 @@
+[
+  {
+    "name": "LEANN (yichuan-w)",
+    "description": "[项目级] [MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "python",
+      "stars-9996",
+      "github-yichuan-w",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.\n\n来源: https://github.com/yichuan-w/LEANN\n语言: Python\nStars: 9996",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\napps\napps/__init__.py\napps/base_rag_example.py\napps/browser_rag.py\napps/chatgpt_data\napps/chatgpt_rag.py\napps/chunking\napps/claude_data\napps/claude_rag.py\napps/code_rag.py\napps/colqwen_rag.py\napps/document_rag.py\napps/email_data\napps/email_rag.py\napps/gemini_data\napps/gemini_rag.py\napps/history_data",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "--index-dir DIR              # Directory to store the index (default: current directory)\n--query \"YOUR QUESTION\"      # Single query mode. Omit for interactive chat (type 'quit' to exit), and now you can play with your index interactively\n--max-items N                # Limit data preprocessing (default: -1, process all data)\n--force-rebuild              # Force rebuild index even if it exists",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.9999131237272065
+  },
+  {
+    "name": "LEANN/apps 模块",
+    "description": "[模块级] LEANN 项目的 apps 模块 (source)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 61\n\n包含文件:\n- apps/__init__.py\n- apps/base_rag_example.py\n- apps/browser_rag.py\n- apps/chatgpt_data\n- apps/chatgpt_data/__init__.py\n- apps/chatgpt_data/chatgpt_reader.py\n- apps/chatgpt_rag.py\n- apps/chunking\n- apps/chunking/__init__.py\n- apps/claude_data",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/__init__.py\napps/base_rag_example.py\napps/browser_rag.py\napps/chatgpt_data\napps/chatgpt_data/__init__.py\napps/chatgpt_data/chatgpt_reader.py\napps/chatgpt_rag.py\napps/chunking\napps/chunking/__init__.py\napps/claude_data\napps/claude_data/__init__.py\napps/claude_data/claude_reader.py\napps/claude_rag.py\napps/code_rag.py\napps/colqwen_rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/assets 模块",
+    "description": "[模块级] LEANN 项目的 assets 模块 (source)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/arch.png\n- assets/claude_code_leann.png\n- assets/effects.png\n- assets/logo-text.png\n- assets/logo.png\n- assets/mcp_leann.png\n- assets/wechat_user_group.JPG",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/arch.png\nassets/claude_code_leann.png\nassets/effects.png\nassets/logo-text.png\nassets/logo.png\nassets/mcp_leann.png\nassets/wechat_user_group.JPG",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/benchmarks 模块",
+    "description": "[模块级] LEANN 项目的 benchmarks 模块 (source)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "**[DiskANN vs HNSW Performance Comparison →](benchmarks/diskann_vs_hnsw_speed_comparison.py)** - Compare search performance between both backends\n\n**[Simple Example: Compare LEANN vs FAISS →](benchmarks/compare_faiss_vs_leann.py)** - See storage savings in action",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/README.md\nbenchmarks/__init__.py\nbenchmarks/benchmark_embeddings.py\nbenchmarks/benchmark_no_recompute.py\nbenchmarks/bm25_diskann_baselines\nbenchmarks/bm25_diskann_baselines/README.md\nbenchmarks/bm25_diskann_baselines/run_bm25.py\nbenchmarks/bm25_diskann_baselines/run_diskann.py\nbenchmarks/compare_faiss_vs_leann.py\nbenchmarks/data\nbenchmarks/data/README.md\nbenchmarks/diskann_vs_hnsw_speed_comparison.py\nbenchmarks/enron_emails\nbenchmarks/enron_emails/README.md\nbenchmarks/enron_emails/data",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/data 模块",
+    "description": "[模块级] LEANN 项目的 data 模块 (source)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "chat = LeannChat(INDEX_PATH, llm_config={\"type\": \"hf\", \"model\": \"Qwen/Qwen3-0.6B\"})\nresponse = chat.ask(\"How much storage does LEANN save?\", top_k=1)\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/2501.14312v1 (1).pdf\ndata/2506.08276v1.pdf\ndata/PrideandPrejudice.txt\ndata/huawei_pangu.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/docs 模块",
+    "description": "[模块级] LEANN 项目的 docs 模块 (docs)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "leann build my-docs --docs ./your_documents",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/COLQWEN_GUIDE.md\ndocs/CONTRIBUTING.md\ndocs/RELEASE.md\ndocs/THINKING_BUDGET_FEATURE.md\ndocs/ast_chunking_guide.md\ndocs/code\ndocs/code/embedding_model_compare.py\ndocs/configuration-guide.md\ndocs/faq.md\ndocs/features.md\ndocs/grep_search.md\ndocs/metadata_filtering.md\ndocs/normalized_embeddings.md\ndocs/react_agent.md\ndocs/roadmap.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/examples 模块",
+    "description": "[模块级] LEANN 项目的 examples 模块 (example)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "--index-dir DIR              # Directory to store the index (default: current directory)\n--query \"YOUR QUESTION\"      # Single query mode. Omit for interactive chat (type 'quit' to exit), and now you can play with your index interactively\n--max-items N                # Limit data preprocessing (default: -1, process all data)\n--force-rebuild              # Force rebuild index even if it exists",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/basic_demo.py\nexamples/dynamic_update_no_recompute.py\nexamples/grep_search_example.py\nexamples/mcp_integration_demo.py\nexamples/mlx_demo.py\nexamples/spoiler_free_book_rag.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  },
+  {
+    "name": "LEANN/packages 模块",
+    "description": "[模块级] LEANN 项目的 packages 模块 (source)。来源: https://github.com/yichuan-w/LEANN",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "faiss",
+      "gpt-oss",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 26\n\n包含文件:\n- packages/__init__.py\n- packages/astchunk-leann\n- packages/leann-backend-diskann\n- packages/leann-backend-diskann/__init__.py\n- packages/leann-backend-diskann/leann_backend_diskann\n- packages/leann-backend-diskann/leann_backend_diskann/__init__.py\n- packages/leann-backend-diskann/leann_backend_diskann/diskann_backend.py\n- packages/leann-backend-diskann/leann_backend_diskann/diskann_embedding_server.py\n- packages/leann-backend-diskann/leann_backend_diskann/embedding_pb2.py\n- packages/leann-backend-diskann/leann_backend_diskann/graph_partition.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/__init__.py\npackages/astchunk-leann\npackages/leann-backend-diskann\npackages/leann-backend-diskann/__init__.py\npackages/leann-backend-diskann/leann_backend_diskann\npackages/leann-backend-diskann/leann_backend_diskann/__init__.py\npackages/leann-backend-diskann/leann_backend_diskann/diskann_backend.py\npackages/leann-backend-diskann/leann_backend_diskann/diskann_embedding_server.py\npackages/leann-backend-diskann/leann_backend_diskann/embedding_pb2.py\npackages/leann-backend-diskann/leann_backend_diskann/graph_partition.py\npackages/leann-backend-diskann/pyproject.toml\npackages/leann-backend-diskann/third_party\npackages/leann-backend-diskann/third_party/DiskANN\npackages/leann-backend-diskann/third_party/embedding.pb.cc\npackages/leann-backend-diskann/third_party/embedding.proto",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.099930498981765
+  }
+]

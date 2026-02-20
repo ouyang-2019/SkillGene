@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Sophia (kyegomez)",
+    "description": "[项目级]  Effortless plugin and play Optimizer to cut model training costs by 50%.  New optimizer that is 2x faster than Adam on LLMs.。来源: https://github.com/kyegomez/Sophia",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "chatgpt",
+      "deep-learning",
+      "multi-modality",
+      "neural-network",
+      "python",
+      "stars-381",
+      "github-kyegomez",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " Effortless plugin and play Optimizer to cut model training costs by 50%.  New optimizer that is 2x faster than Adam on LLMs.\n\n来源: https://github.com/kyegomez/Sophia\n语言: Python\nStars: 381",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSophia\nSophia/__init__.py\nSophia/main.py\nagora-banner.png\nagorabanner.png\nexample.py\nexperiments\nexperiments/README.md\nexperiments/preprocssing\nexperiments/training.py\npyproject.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Download with pip ```pip install Sophia-Optimizer``` \n\n\n```python \nimport torch \nfrom torch import nn\nfrom Sophia import SophiaG \n\nclass MyModel(nn.Module):\n    def __init__(self):\n        super(MyModel, self).__init__()\n        self.fc1 = nn.Linear(784, 128)\n        self.fc2 = nn.Linear(128, 10)\n\n    def forward(self, x):\n        x = torch.relu(self.fc1(x))\n        x = self.fc2(x)\n        return x\n\n\n#init model loss function and input data\nmodel = MyModel()\nloss_function = nn.CrossEntropy()\ninput_data = ... #input data\n\n#init the optimizer\noptimizer = SophiaG(model.parameters(), lr=2e-4, beta",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.29046248783781
+  },
+  {
+    "name": "Sophia/Sophia 模块",
+    "description": "[模块级] Sophia 项目的 Sophia 模块 (source)。来源: https://github.com/kyegomez/Sophia",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "chatgpt",
+      "deep-learning",
+      "multi-modality",
+      "neural-network",
+      "module-level",
+      "source",
+      "sophia"
+    ],
+    "genes": [
+      {
+        "title": "Sophia 模块说明",
+        "content": "[PAPER LINK: Sophia: A Scalable Stochastic Second-order Optimizer for\nLanguage Model Pre-training](https://arxiv.org/pdf/2305.14342.pdf)\n\n[Author Implementation](https://github.com/Liuhong99/Sophia)\n\nCut Model Training Cost by 50%? with this all-new simple plug in and play Optimizer: Sophia",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Sophia 文件结构",
+        "content": "Sophia/__init__.py\nSophia/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.532369990270248
+  },
+  {
+    "name": "Sophia/experiments 模块",
+    "description": "[模块级] Sophia 项目的 experiments 模块 (source)。来源: https://github.com/kyegomez/Sophia",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "chatgpt",
+      "deep-learning",
+      "multi-modality",
+      "neural-network",
+      "module-level",
+      "source",
+      "experiments"
+    ],
+    "genes": [
+      {
+        "title": "experiments 模块说明",
+        "content": "模块路径: experiments/\n类型: source\n文件数: 5\n\n包含文件:\n- experiments/README.md\n- experiments/preprocssing\n- experiments/preprocssing/README.md\n- experiments/preprocssing/build_dataset.py\n- experiments/training.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "experiments 文件结构",
+        "content": "experiments/README.md\nexperiments/preprocssing\nexperiments/preprocssing/README.md\nexperiments/preprocssing/build_dataset.py\nexperiments/training.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.532369990270248
+  }
+]

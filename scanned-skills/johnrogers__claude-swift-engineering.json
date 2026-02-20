@@ -1,0 +1,61 @@
+[
+  {
+    "name": "claude-swift-engineering (johnrogers)",
+    "description": "[项目级] A collection of agents and skills to aid in the planning, implementation, documentation and testing of Swift/TCA code.。来源: https://github.com/johnrogers/claude-swift-engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-126",
+      "github-johnrogers",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agents and skills to aid in the planning, implementation, documentation and testing of Swift/TCA code.\n\n来源: https://github.com/johnrogers/claude-swift-engineering\n语言: Python\nStars: 126",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nplugins\nplugins/swift-engineering",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.050185272558782
+  },
+  {
+    "name": "claude-swift-engineering/plugins 模块",
+    "description": "[模块级] claude-swift-engineering 项目的 plugins 模块 (source)。来源: https://github.com/johnrogers/claude-swift-engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-126",
+      "github-johnrogers",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 183\n\n包含文件:\n- plugins/swift-engineering\n- plugins/swift-engineering/.claude-plugin\n- plugins/swift-engineering/.claude-plugin/plugin.json\n- plugins/swift-engineering/LICENSE\n- plugins/swift-engineering/README.md\n- plugins/swift-engineering/agents\n- plugins/swift-engineering/agents/search.md\n- plugins/swift-engineering/agents/swift-architect.md\n- plugins/swift-engineering/agents/swift-code-reviewer.md\n- plugins/swift-engineering/agents/swift-documenter.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/swift-engineering\nplugins/swift-engineering/.claude-plugin\nplugins/swift-engineering/.claude-plugin/plugin.json\nplugins/swift-engineering/LICENSE\nplugins/swift-engineering/README.md\nplugins/swift-engineering/agents\nplugins/swift-engineering/agents/search.md\nplugins/swift-engineering/agents/swift-architect.md\nplugins/swift-engineering/agents/swift-code-reviewer.md\nplugins/swift-engineering/agents/swift-documenter.md\nplugins/swift-engineering/agents/swift-engineer.md\nplugins/swift-engineering/agents/swift-modernizer.md\nplugins/swift-engineering/agents/swift-test-creator.md\nplugins/swift-engineering/agents/swift-ui-design.md\nplugins/swift-engineering/agents/swiftui-specialist.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.340148218047025
+  }
+]

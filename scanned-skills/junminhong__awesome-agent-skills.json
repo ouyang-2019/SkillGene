@@ -1,0 +1,72 @@
+[
+  {
+    "name": "awesome-agent-skills (junminhong)",
+    "description": "[项目级] A curated list of agent skills, resources, and tools for building customizable AI workflows (Claude Code, Codex, Kiro-CLI)。来源: https://github.com/junminhong/awesome-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome",
+      "claude",
+      "claude-code",
+      "codex",
+      "kiro-cli",
+      "stars-6",
+      "github-junminhong",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of agent skills, resources, and tools for building customizable AI workflows (Claude Code, Codex, Kiro-CLI)\n\n来源: https://github.com/junminhong/awesome-agent-skills\n语言: unknown\nStars: 6",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_ZH.md\nassets\nassets/logo.png\nskills\nskills/claude_code\nskills/codex",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.389075625191822
+  },
+  {
+    "name": "awesome-agent-skills/skills 模块",
+    "description": "[模块级] awesome-agent-skills 项目的 skills 模块 (source)。来源: https://github.com/junminhong/awesome-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome",
+      "claude",
+      "claude-code",
+      "codex",
+      "kiro-cli",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"Awesome Agent Skills\" width=\"700\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://awesome.re\">\n    <img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\" />\n  </a>\n  <a href=\"CONTRIBUTING.md\">\n    <img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\" alt=\"PRs Welcome\" />\n  </a>\n  <a href=\"LICENSE\">\n    <img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square\" alt=\"License: MIT\" />\n  </a>\n</p>\n",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/claude_code\nskills/claude_code/README.md\nskills/claude_code/business_marketing\nskills/claude_code/business_marketing/.gitkeep\nskills/claude_code/collaboration_project_management\nskills/claude_code/collaboration_project_management/.gitkeep\nskills/claude_code/communication_writing\nskills/claude_code/communication_writing/.gitkeep\nskills/claude_code/creative_media\nskills/claude_code/creative_media/.gitkeep\nskills/claude_code/data_analysis\nskills/claude_code/data_analysis/.gitkeep\nskills/claude_code/development_code_tools\nskills/claude_code/development_code_tools/.gitkeep\nskills/claude_code/document_processing",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8112605001534576
+  }
+]

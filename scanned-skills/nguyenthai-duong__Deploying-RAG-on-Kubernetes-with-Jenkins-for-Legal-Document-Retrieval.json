@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval (nguyenthai-duong)",
+    "description": "[项目级] Built and deployed scalable LLM retrieval APIs on a hybrid GCP architecture with full CI/CD, IaC, and monitoring。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-augmented generation (RAG) systems combine generative AI with information retrieval to provide contextualized answer generation. Building reliable and performant RAG applications at scale is challenging. In this project, I deploy a continuous and highly scalable RAG application on Google Kubernetes Engine (GKE) using CI/CD. This is my first project as a Machine Learning Engineer (MLE), and I learned from [FSDS](https://fullstackdatascience.com/). The image below shows my overall system architecture:\n![systempipline](images/1_architecture.png)\n\n**Technology:**\n* Source control: Git/Github\n* CI/CD: Jenkins\n* Build API: FastAPI\n* Containerize application: Docker\n* Container orchestration system: Kubernetes (K8s)\n* K8s's package manager: Helm\n* Data Storage for pdf: Google Cloud Stor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "kubectl create clusterrolebinding <your_name_space>-admin-binding \\\n  --clusterrole=admin \\\n  --serviceaccount=<your_name_space>:default \\\n  --namespace=<your_name_space>\n\nkubectl create clusterrolebinding anonymous-admin-binding \\\n  --clusterrole=admin \\\n  --user=system:anonymous \\\n  --namespace=<your_name_space>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Jenkinsfile\nREADME.md\nansible\nansible/README.md\nansible/inventory\nansible/playbooks\nansible/requirements.txt\ncustom_image_jenkins\ncustom_image_jenkins/Dockerfile\ndata_pipeline\ndata_pipeline/dat_2024.pdf\ndata_pipeline/gt.json\ndata_pipeline/gt1.pdf\ndata_pipeline/gt2.pdf\ndata_pipeline/main.py\ndata_pipeline/readme\ndata_pipeline/requirements.txt\nembedding\nembedding/Dockerfile\nembedding/app.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Change strategy into: `Never check rate limie`\n![](images/22_ratelimit.gif)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9256291743595377
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/ansible 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 ansible 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "ansible"
+    ],
+    "genes": [
+      {
+        "title": "ansible 模块说明",
+        "content": "You can use the same project with GKE as long as you have enough `quota`, or you can create a new project. In this guide, I used the same project as above. Download the service account key in JSON format; instructions are below:\n![](images/15_downloadkeyjson.gif)\nAfter obtaining the JSON key file, move it to the `ansible/secrets` folder and update the **service_account_file** and **project** variables in `ansible/playbooks/create_compute_instance.yaml`  corresponding with path secret file alread",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ansible 文件结构",
+        "content": "ansible/README.md\nansible/inventory\nansible/playbooks\nansible/playbooks/create_compute_instance.yaml\nansible/playbooks/deploy_jenkins.yaml\nansible/requirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "ansible 代码示例",
+        "content": "cd ansible\n\nconda create -n ansible python==3.9 -y\npip install -r requirements.txt\n\nansible-playbook playbooks/create_compute_instance.yaml",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/data_pipeline 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 data_pipeline 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "data_pipeline"
+    ],
+    "genes": [
+      {
+        "title": "data_pipeline 模块说明",
+        "content": "模块路径: data_pipeline/\n类型: source\n文件数: 7\n\n包含文件:\n- data_pipeline/dat_2024.pdf\n- data_pipeline/gt.json\n- data_pipeline/gt1.pdf\n- data_pipeline/gt2.pdf\n- data_pipeline/main.py\n- data_pipeline/readme\n- data_pipeline/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data_pipeline 文件结构",
+        "content": "data_pipeline/dat_2024.pdf\ndata_pipeline/gt.json\ndata_pipeline/gt1.pdf\ndata_pipeline/gt2.pdf\ndata_pipeline/main.py\ndata_pipeline/readme\ndata_pipeline/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/embedding 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 embedding 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "embedding"
+    ],
+    "genes": [
+      {
+        "title": "embedding 模块说明",
+        "content": "Since my data pertains to Vietnam's law, I use an embedding model that is trained specifically for Vietnamese words. Run the following bash command to deploy it on Kubernetes:\n```bash\nhelm upgrade --install text-vectorizer ./embedding/helm_embedding --namespace emb --create-namespace\n```\nAfter executing this command, several pods for the embedding model will be created in the `emb` namespace.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embedding 文件结构",
+        "content": "embedding/Dockerfile\nembedding/app.py\nembedding/helm_embedding\nembedding/helm_embedding/.helmignore\nembedding/helm_embedding/Chart.yaml\nembedding/helm_embedding/templates\nembedding/helm_embedding/templates/deployment.yaml\nembedding/helm_embedding/templates/service.yaml\nembedding/helm_embedding/values.yaml\nembedding/requirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "embedding 代码示例",
+        "content": "helm upgrade --install text-vectorizer ./embedding/helm_embedding --namespace emb --create-namespace",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/images 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 images 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 34\n\n包含文件:\n- images/10_grafana1.png\n- images/11_grafana2.png\n- images/12_grafana3.png\n- images/13_grafana4.png\n- images/14_grafana5.gif\n- images/15_downloadkeyjson.gif\n- images/16_updatesshkey.gif\n- images/17_checkjenkins.png\n- images/18_setupjenkins.gif\n- images/19_installplugin.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/10_grafana1.png\nimages/11_grafana2.png\nimages/12_grafana3.png\nimages/13_grafana4.png\nimages/14_grafana5.gif\nimages/15_downloadkeyjson.gif\nimages/16_updatesshkey.gif\nimages/17_checkjenkins.png\nimages/18_setupjenkins.gif\nimages/19_installplugin.gif\nimages/1_architecture.png\nimages/20_connect_k8s.gif\nimages/21_connectdockerhub.gif\nimages/22_ratelimit.gif\nimages/23_connectgithub.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/indexing_pipeline 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 indexing_pipeline 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "indexing_pipeline"
+    ],
+    "genes": [
+      {
+        "title": "indexing_pipeline 模块说明",
+        "content": "模块路径: indexing_pipeline/\n类型: source\n文件数: 13\n\n包含文件:\n- indexing_pipeline/Dockerfile\n- indexing_pipeline/__pycache__\n- indexing_pipeline/__pycache__/main.cpython-39.pyc\n- indexing_pipeline/helm_indexing_pipeline\n- indexing_pipeline/helm_indexing_pipeline/Chart.yaml\n- indexing_pipeline/helm_indexing_pipeline/templates\n- indexing_pipeline/helm_indexing_pipeline/templates/deployment.yaml\n- indexing_pipeline/helm_indexing_pipeline/templates/nginx-ingress.yaml\n- indexing_pipeline/helm_indexing_pipeline/templates/service.yaml\n- indexing_pipeline/helm_indexing_pipeline/values.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "indexing_pipeline 文件结构",
+        "content": "indexing_pipeline/Dockerfile\nindexing_pipeline/__pycache__\nindexing_pipeline/__pycache__/main.cpython-39.pyc\nindexing_pipeline/helm_indexing_pipeline\nindexing_pipeline/helm_indexing_pipeline/Chart.yaml\nindexing_pipeline/helm_indexing_pipeline/templates\nindexing_pipeline/helm_indexing_pipeline/templates/deployment.yaml\nindexing_pipeline/helm_indexing_pipeline/templates/nginx-ingress.yaml\nindexing_pipeline/helm_indexing_pipeline/templates/service.yaml\nindexing_pipeline/helm_indexing_pipeline/values.yaml\nindexing_pipeline/main.py\nindexing_pipeline/requirements.txt\nindexing_pipeline/test.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/jaeger-all-in-one 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 jaeger-all-in-one 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "jaeger-all-in-one"
+    ],
+    "genes": [
+      {
+        "title": "jaeger-all-in-one 模块说明",
+        "content": "模块路径: jaeger-all-in-one/\n类型: source\n文件数: 16\n\n包含文件:\n- jaeger-all-in-one/.helmignore\n- jaeger-all-in-one/Chart.yaml\n- jaeger-all-in-one/LICENSE\n- jaeger-all-in-one/README.md\n- jaeger-all-in-one/templates\n- jaeger-all-in-one/templates/NOTES.txt\n- jaeger-all-in-one/templates/_helpers.tpl\n- jaeger-all-in-one/templates/ingress.yaml\n- jaeger-all-in-one/templates/jaeger-volume.yaml\n- jaeger-all-in-one/templates/service-headless.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jaeger-all-in-one 文件结构",
+        "content": "jaeger-all-in-one/.helmignore\njaeger-all-in-one/Chart.yaml\njaeger-all-in-one/LICENSE\njaeger-all-in-one/README.md\njaeger-all-in-one/templates\njaeger-all-in-one/templates/NOTES.txt\njaeger-all-in-one/templates/_helpers.tpl\njaeger-all-in-one/templates/ingress.yaml\njaeger-all-in-one/templates/jaeger-volume.yaml\njaeger-all-in-one/templates/service-headless.yaml\njaeger-all-in-one/templates/service.yaml\njaeger-all-in-one/templates/serviceaccount.yaml\njaeger-all-in-one/templates/statefulset.yaml\njaeger-all-in-one/templates/tests\njaeger-all-in-one/templates/tests/test-connection.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/loki 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 loki 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "loki"
+    ],
+    "genes": [
+      {
+        "title": "loki 模块说明",
+        "content": "Loki is used for collecting logs from Kubernetes, while Prometheus scrapes metrics from Kubernetes and the LLM’s container. Since Prometheus scrapes metrics from the LLM’s container locally, you need to add a job for it in `./prometheus1/values-prometheus.yaml`\n```bash\nprometheus:\n  prometheusSpec:\n    additionalScrapeConfigs:\n      - job_name: 'tgi-public-metrics'\n        scrape_interval: 30s\n        metrics_path: /metrics\n        scheme: https\n        static_configs:\n          - targets: ['nth",
+        "gene_type": "principle"
+      },
+      {
+        "title": "loki 文件结构",
+        "content": "loki/loki-stack\nloki/loki-stack/.helmignore\nloki/loki-stack/Chart.yaml\nloki/loki-stack/README.md\nloki/loki-stack/charts\nloki/loki-stack/charts/fluent-bit\nloki/loki-stack/charts/fluent-bit/.helmignore\nloki/loki-stack/charts/fluent-bit/Chart.yaml\nloki/loki-stack/charts/fluent-bit/README.md\nloki/loki-stack/charts/fluent-bit/templates\nloki/loki-stack/charts/fluent-bit/templates/NOTES.txt\nloki/loki-stack/charts/fluent-bit/templates/_helpers.tpl\nloki/loki-stack/charts/fluent-bit/templates/clusterrole.yaml\nloki/loki-stack/charts/fluent-bit/templates/clusterrolebinding.yaml\nloki/loki-stack/charts/fluent-bit/templates/configmap.yaml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "loki 代码示例",
+        "content": "prometheus:\n  prometheusSpec:\n    additionalScrapeConfigs:\n      - job_name: 'tgi-public-metrics'\n        scrape_interval: 30s\n        metrics_path: /metrics\n        scheme: https\n        static_configs:\n          - targets: ['nthaiduong23.pagekite.me']",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/nginx-ingress 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 nginx-ingress 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "nginx-ingress"
+    ],
+    "genes": [
+      {
+        "title": "nginx-ingress 模块说明",
+        "content": "模块路径: nginx-ingress/\n类型: source\n文件数: 38\n\n包含文件:\n- nginx-ingress/.helmignore\n- nginx-ingress/Chart.yaml\n- nginx-ingress/README.md\n- nginx-ingress/crds\n- nginx-ingress/crds/appprotect.f5.com_aplogconfs.yaml\n- nginx-ingress/crds/appprotect.f5.com_appolicies.yaml\n- nginx-ingress/crds/appprotect.f5.com_apusersigs.yaml\n- nginx-ingress/crds/appprotectdos.f5.com_apdoslogconfs.yaml\n- nginx-ingress/crds/appprotectdos.f5.com_apdospolicy.yaml\n- nginx-ingress/crds/appprotectdos.f5.com_dosprotectedresources.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nginx-ingress 文件结构",
+        "content": "nginx-ingress/.helmignore\nnginx-ingress/Chart.yaml\nnginx-ingress/README.md\nnginx-ingress/crds\nnginx-ingress/crds/appprotect.f5.com_aplogconfs.yaml\nnginx-ingress/crds/appprotect.f5.com_appolicies.yaml\nnginx-ingress/crds/appprotect.f5.com_apusersigs.yaml\nnginx-ingress/crds/appprotectdos.f5.com_apdoslogconfs.yaml\nnginx-ingress/crds/appprotectdos.f5.com_apdospolicy.yaml\nnginx-ingress/crds/appprotectdos.f5.com_dosprotectedresources.yaml\nnginx-ingress/crds/externaldns.nginx.org_dnsendpoints.yaml\nnginx-ingress/crds/k8s.nginx.org_globalconfigurations.yaml\nnginx-ingress/crds/k8s.nginx.org_policies.yaml\nnginx-ingress/crds/k8s.nginx.org_transportservers.yaml\nnginx-ingress/crds/k8s.nginx.org_virtualserverroutes.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  },
+  {
+    "name": "Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval/prometheus1 模块",
+    "description": "[模块级] Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval 项目的 prometheus1 模块 (source)。来源: https://github.com/nguyenthai-duong/Deploying-RAG-on-Kubernetes-with-Jenkins-for-Legal-Document-Retrieval",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-71",
+      "github-nguyenthai-duong",
+      "module-level",
+      "source",
+      "prometheus1"
+    ],
+    "genes": [
+      {
+        "title": "prometheus1 模块说明",
+        "content": "模块路径: prometheus1/\n类型: source\n文件数: 3\n\n包含文件:\n- prometheus1/kube-prometheus-stack\n- prometheus1/kube-prometheus-stack/.helmignore\n- prometheus1/kube-prometheus-stack/CONTRIBUTING.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prometheus1 文件结构",
+        "content": "prometheus1/kube-prometheus-stack\nprometheus1/kube-prometheus-stack/.helmignore\nprometheus1/kube-prometheus-stack/CONTRIBUTING.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2405033394876304
+  }
+]

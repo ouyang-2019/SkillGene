@@ -1,0 +1,103 @@
+[
+  {
+    "name": "agents (wshobson)",
+    "description": "[项目级] Intelligent automation and multi-agent orchestration for Claude Code。来源: https://github.com/wshobson/agents",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "automation",
+      "claude",
+      "python",
+      "stars-28964",
+      "github-wshobson",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development:\n\n- **72 Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability\n- **112 Specialized Agents** - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, data/AI, documentation, business operations, and SEO\n- **146 Agent Skills** - Modular knowledge packages with progressive disclosure for specialized expertise\n- **16 Workflow Orchestrators** - Multi-agent coordination systems for complex operations like full-stack development, security hardening, ML pipelines, and incident response\n- **79 Development Tools** - Optimized utilities including project scaffolding, securi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\ndocs\ndocs/agent-skills.md\ndocs/agents.md\ndocs/architecture.md\ndocs/plugins.md\ndocs/usage.md\nplugins\nplugins/accessibility-compliance\nplugins/agent-orchestration\nplugins/agent-teams\nplugins/api-scaffolding\nplugins/api-testing-observability\nplugins/application-performance\nplugins/arm-cortex-microcontrollers\nplugins/backend-api-security\nplugins/backend-development\nplugins/blockchain-web3",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Granular Plugin Architecture**: 72 focused plugins optimized for minimal token usage\n- **Comprehensive Tooling**: 79 development tools including test generation, scaffolding, and security scanning\n- **100% Agent Coverage**: All plugins include specialized agents\n- **Agent Skills**: 146 specialized skills following for progressive disclosure and token efficiency\n- **Clear Organization**: 23 categories with 1-6 plugins each for easy discovery\n- **Efficient Design**: Average 3.4 components per plugin (follows Anthropic's 2-8 pattern)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agents/docs 模块",
+    "description": "[模块级] agents 项目的 docs 模块 (docs)。来源: https://github.com/wshobson/agents",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "automation",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/agent-skills.md\n- docs/agents.md\n- docs/architecture.md\n- docs/plugins.md\n- docs/usage.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent-skills.md\ndocs/agents.md\ndocs/architecture.md\ndocs/plugins.md\ndocs/usage.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284743415523411
+  },
+  {
+    "name": "agents/plugins 模块",
+    "description": "[模块级] agents 项目的 plugins 模块 (source)。来源: https://github.com/wshobson/agents",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "automation",
+      "claude",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "> **⚡ Updated for Opus 4.6, Sonnet 4.6 & Haiku 4.5** — Three-tier model strategy for optimal performance\n\n[![Run in Smithery](https://smithery.ai/badge/skills/wshobson)](https://smithery.ai/skills?ns=wshobson&utm_source=github&utm_medium=badge)\n\n> **🎯 Agent Skills Enabled** — 146 specialized skills extend Claude's capabilities across plugins with progressive disclosure\n\nA comprehensive production-ready system combining **112 specialized AI agents**, **16 multi-agent workflow orchestrators**, **",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/accessibility-compliance\nplugins/accessibility-compliance/.claude-plugin\nplugins/accessibility-compliance/.claude-plugin/plugin.json\nplugins/accessibility-compliance/agents\nplugins/accessibility-compliance/agents/ui-visual-validator.md\nplugins/accessibility-compliance/commands\nplugins/accessibility-compliance/commands/accessibility-audit.md\nplugins/accessibility-compliance/skills\nplugins/accessibility-compliance/skills/screen-reader-testing\nplugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md\nplugins/accessibility-compliance/skills/wcag-audit-patterns\nplugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md\nplugins/agent-orchestration\nplugins/agent-orchestration/.claude-plugin\nplugins/agent-orchestration/.claude-plugin/plugin.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284743415523411
+  }
+]

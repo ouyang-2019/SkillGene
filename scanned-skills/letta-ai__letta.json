@@ -1,0 +1,72 @@
+[
+  {
+    "name": "letta (letta-ai)",
+    "description": "[项目级] Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.。来源: https://github.com/letta-ai/letta",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "llm",
+      "llm-agent",
+      "python",
+      "stars-21175",
+      "github-letta-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.\n\n来源: https://github.com/letta-ai/letta\n语言: Python\nStars: 21175",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install @letta-ai/letta-client",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCONTRIBUTING.md\nDockerfile\nLICENSE\nPRIVACY.md\nREADME.md\nTERMS.md\nWEBHOOK_SETUP.md\nalembic.ini\nalembic\nalembic/README\nalembic/env.py\nalembic/script.py.mako\nalembic/versions",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import Letta from \"@letta-ai/letta-client\";\n\nconst client = new Letta({ apiKey: process.env.LETTA_API_KEY });\n\n// Create your agent\nconst agentState = await client.agents.create({\n  model: \"openai/gpt-5.2\",\n  memory_blocks: [\n    {\n      label: \"human\",\n      value:\n        \"Name: Timber. Status: dog. Occupation: building Letta, infrastructure to democratize self-improving superintelligence\",\n    },\n    {\n      label: \"persona\",\n      value:\n        \"I am a self-improving superintelligence. Timber is my best friend and collaborator.\",\n    },\n  ],\n  tools: [\"web_search\", \"fetch_webpage\"],\n});\n\n",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "letta/alembic 模块",
+    "description": "[模块级] letta 项目的 alembic 模块 (source)。来源: https://github.com/letta-ai/letta",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "llm",
+      "llm-agent",
+      "python",
+      "module-level",
+      "source",
+      "alembic"
+    ],
+    "genes": [
+      {
+        "title": "alembic 模块说明",
+        "content": "模块路径: alembic/\n类型: source\n文件数: 129\n\n包含文件:\n- alembic/README\n- alembic/env.py\n- alembic/script.py.mako\n- alembic/versions\n- alembic/versions/0335b1eb9c40_add_batch_item_id_to_messages.py\n- alembic/versions/038e68cdf0df_add_cascades_to_blocks_agents_fks_set_.py\n- alembic/versions/05c3bc564286_add_metrics_to_agent_loop_runs.py\n- alembic/versions/066857381578_add_approvals_field_to_messages.py\n- alembic/versions/068588268b02_add_vector_db_provider_to_archives_table.py\n- alembic/versions/06fbbf65d4f1_support_for_project_id_for_blocks_and_.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "alembic 文件结构",
+        "content": "alembic/README\nalembic/env.py\nalembic/script.py.mako\nalembic/versions\nalembic/versions/0335b1eb9c40_add_batch_item_id_to_messages.py\nalembic/versions/038e68cdf0df_add_cascades_to_blocks_agents_fks_set_.py\nalembic/versions/05c3bc564286_add_metrics_to_agent_loop_runs.py\nalembic/versions/066857381578_add_approvals_field_to_messages.py\nalembic/versions/068588268b02_add_vector_db_provider_to_archives_table.py\nalembic/versions/06fbbf65d4f1_support_for_project_id_for_blocks_and_.py\nalembic/versions/08b2f8225812_adding_toolsagents_orm.py\nalembic/versions/0b496eae90de_add_file_agent_table.py\nalembic/versions/0ceb975e0063_add_llm_batch_jobs_tables.py\nalembic/versions/15b577c62f3f_add_hidden_property_to_agents.py\nalembic/versions/167491cfb7a8_add_identities_for_blocks.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230329367601097
+  }
+]

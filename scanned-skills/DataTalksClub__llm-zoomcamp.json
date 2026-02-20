@@ -1,0 +1,285 @@
+[
+  {
+    "name": "llm-zoomcamp (DataTalksClub)",
+    "description": "[项目级] LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base.。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "- Basics of LLMs and Retrieval-Augmented Generation (RAG)\n- OpenAI API and text search with Elasticsearch",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "01-intro\n01-intro/README.md\n01-intro/documents-llm.json\n01-intro/documents.json\n01-intro/elastic-search.md\n01-intro/open-ai-alternatives.md\n01-intro/parse-faq.ipynb\n01-intro/rag-intro.ipynb\n02-vector-search\n02-vector-search/README.md\n02-vector-search/hybrid_search.ipynb\n02-vector-search/rag-starter.ipynb\n02-vector-search/rag.ipynb\n02-vector-search/sematic_search.ipynb\n03-evaluation\n03-evaluation/README.md\n03-evaluation/rag_evaluation\n03-evaluation/search_evaluation\n04-monitoring\n04-monitoring/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.832837390496946
+  },
+  {
+    "name": "llm-zoomcamp/01-intro 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 01-intro 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "01-intro"
+    ],
+    "genes": [
+      {
+        "title": "01-intro 模块说明",
+        "content": "- Basics of LLMs and Retrieval-Augmented Generation (RAG)\n- OpenAI API and text search with Elasticsearch",
+        "gene_type": "principle"
+      },
+      {
+        "title": "01-intro 文件结构",
+        "content": "01-intro/README.md\n01-intro/documents-llm.json\n01-intro/documents.json\n01-intro/elastic-search.md\n01-intro/open-ai-alternatives.md\n01-intro/parse-faq.ipynb\n01-intro/rag-intro.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/02-vector-search 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 02-vector-search 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "02-vector-search"
+    ],
+    "genes": [
+      {
+        "title": "02-vector-search 模块说明",
+        "content": "- Vector search and embeddings\n- Indexing and retrieving data efficiently\n- Using Qdrant as the vector database",
+        "gene_type": "principle"
+      },
+      {
+        "title": "02-vector-search 文件结构",
+        "content": "02-vector-search/README.md\n02-vector-search/hybrid_search.ipynb\n02-vector-search/rag-starter.ipynb\n02-vector-search/rag.ipynb\n02-vector-search/sematic_search.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/03-evaluation 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 03-evaluation 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "03-evaluation"
+    ],
+    "genes": [
+      {
+        "title": "03-evaluation 模块说明",
+        "content": "- Search evaluation\n- Online vs offline evaluation\n- LLM as a Judge",
+        "gene_type": "principle"
+      },
+      {
+        "title": "03-evaluation 文件结构",
+        "content": "03-evaluation/README.md\n03-evaluation/rag_evaluation\n03-evaluation/rag_evaluation/data\n03-evaluation/rag_evaluation/data/evaluations-aqa.csv\n03-evaluation/rag_evaluation/data/evaluations-qa.csv\n03-evaluation/rag_evaluation/data/results-gpt35-cosine.csv\n03-evaluation/rag_evaluation/data/results-gpt35.csv\n03-evaluation/rag_evaluation/data/results-gpt4o-cosine.csv\n03-evaluation/rag_evaluation/data/results-gpt4o-mini-cosine.csv\n03-evaluation/rag_evaluation/data/results-gpt4o-mini.csv\n03-evaluation/rag_evaluation/data/results-gpt4o.csv\n03-evaluation/rag_evaluation/offline-rag-evaluation.ipynb\n03-evaluation/search_evaluation\n03-evaluation/search_evaluation/documents-with-ids.json\n03-evaluation/search_evaluation/evaluate-text.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/04-monitoring 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 04-monitoring 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "04-monitoring"
+    ],
+    "genes": [
+      {
+        "title": "04-monitoring 模块说明",
+        "content": "- Online evaluation techniques\n- Monitoring user feedback with dashboards",
+        "gene_type": "principle"
+      },
+      {
+        "title": "04-monitoring 文件结构",
+        "content": "04-monitoring/README.md\n04-monitoring/chat_starter\n04-monitoring/chat_starter/README.md\n04-monitoring/chat_starter/chat.py\n04-monitoring/chat_starter/tools.py\n04-monitoring/chat_starter_qdrant\n04-monitoring/chat_starter_qdrant/README.MD\n04-monitoring/chat_starter_qdrant/chat.py\n04-monitoring/chat_starter_qdrant/config.py\n04-monitoring/chat_starter_qdrant/documents_extraction.py\n04-monitoring/chat_starter_qdrant/evaluation.py\n04-monitoring/chat_starter_qdrant/pyproject.toml\n04-monitoring/chat_starter_qdrant/tools.py\n04-monitoring/chat_starter_qdrant/tracing.py\n04-monitoring/chat_starter_qdrant/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/05-best-practices 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 05-best-practices 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "05-best-practices"
+    ],
+    "genes": [
+      {
+        "title": "05-best-practices 模块说明",
+        "content": "- Hybrid search\n- Document reranking",
+        "gene_type": "principle"
+      },
+      {
+        "title": "05-best-practices 文件结构",
+        "content": "05-best-practices/README.md\n05-best-practices/documents-with-ids.json\n05-best-practices/ground-truth-data.csv\n05-best-practices/hybrid-search-and-reranking-es.ipynb\n05-best-practices/hybrid-search-langchain.ipynb\n05-best-practices/llm-zoomcamp-best-practicies.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/06-project-example 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 06-project-example 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "06-project-example"
+    ],
+    "genes": [
+      {
+        "title": "06-project-example 模块说明",
+        "content": "- Build a fitness assistant using LLMs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "06-project-example 文件结构",
+        "content": "06-project-example/README.md\n06-project-example/content-processing-summary.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/0a-agents 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 0a-agents 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "0a-agents"
+    ],
+    "genes": [
+      {
+        "title": "0a-agents 模块说明",
+        "content": "- Adding Agentic functionality to RAG\n- Function calling",
+        "gene_type": "principle"
+      },
+      {
+        "title": "0a-agents 文件结构",
+        "content": "0a-agents/README.md\n0a-agents/notebook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/cohorts 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 cohorts 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "cohorts"
+    ],
+    "genes": [
+      {
+        "title": "cohorts 模块说明",
+        "content": "- Using `dlt` for ingesting data for RAG",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cohorts 文件结构",
+        "content": "cohorts/2024\ncohorts/2024/01-intro\ncohorts/2024/01-intro/homework.md\ncohorts/2024/02-open-source\ncohorts/2024/02-open-source/README.md\ncohorts/2024/02-open-source/docker-compose.yaml\ncohorts/2024/02-open-source/homework.md\ncohorts/2024/02-open-source/huggingface-flan-t5.ipynb\ncohorts/2024/02-open-source/huggingface-mistral-7b.ipynb\ncohorts/2024/02-open-source/huggingface-phi3.ipynb\ncohorts/2024/02-open-source/ollama.ipynb\ncohorts/2024/02-open-source/prompt.md\ncohorts/2024/02-open-source/qa_faq.py\ncohorts/2024/02-open-source/rag-intro.ipynb\ncohorts/2024/02-open-source/serving-hugging-face-models.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  },
+  {
+    "name": "llm-zoomcamp/images 模块",
+    "description": "[模块级] llm-zoomcamp 项目的 images 模块 (source)。来源: https://github.com/DataTalksClub/llm-zoomcamp",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-4631",
+      "github-datatalksclub",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/hackathon-cover.jpg\n- images/llm-zoomcamp-2025.jpg\n- images/llm-zoomcamp.jpg\n- images/qdrant.png\n- images/saturn-cloud.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/hackathon-cover.jpg\nimages/llm-zoomcamp-2025.jpg\nimages/llm-zoomcamp.jpg\nimages/qdrant.png\nimages/saturn-cloud.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.966269912397557
+  }
+]

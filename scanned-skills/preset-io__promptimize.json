@@ -1,0 +1,127 @@
+[
+  {
+    "name": "promptimize (preset-io)",
+    "description": "[项目级] Promptimize is a prompt engineering evaluation and testing toolkit.。来源: https://github.com/preset-io/promptimize",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-492",
+      "github-preset-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Promptimize is a prompt engineering evaluation and testing toolkit.\n\n来源: https://github.com/preset-io/promptimize\n语言: Python\nStars: 492",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install promptimize",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/Makefile\ndocs/publish.sh\ndocs/source\nexamples\nexamples/__pycache__\nexamples/python_examples.py\nexamples/readme_examples.py\nexamples/readme_hello_world.py\npromptimize\npromptimize/__init__.py\npromptimize/cli.py\npromptimize/crawler.py\npromptimize/evals.py\npromptimize/prompt_cases.py\npromptimize/reports.py\npromptimize/simple_jinja.py\npromptimize/suite.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[more examples on GitHub](https://github.com/preset-io/promptimize/tree/main/examples)\n```python",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Listing out a few features you should know about that you can start using as your\nsuites of prompts become larger / more complex\n\n* evaluation functions are assumed to return a value between 0 and 1.\n  contrarily to unit tests, prompt cases aren't boolean\n* prompts can be assigned a `weight` (default 1) this enables you to define\n  which prompts are more important than others for reporting purposes and suite evaluation\n* prompts can be assigned a `category`, this can be used in the reporting.\n  That helps understanding which categories are performing better than\n  others, or are most affected ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.34598255138368
+  },
+  {
+    "name": "promptimize/docs 模块",
+    "description": "[模块级] promptimize 项目的 docs 模块 (docs)。来源: https://github.com/preset-io/promptimize",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-492",
+      "github-preset-io",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/Makefile\n- docs/publish.sh\n- docs/source\n- docs/source/README.md\n- docs/source/api.rst\n- docs/source/cli.rst\n- docs/source/conf.py\n- docs/source/index.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/publish.sh\ndocs/source\ndocs/source/README.md\ndocs/source/api.rst\ndocs/source/cli.rst\ndocs/source/conf.py\ndocs/source/index.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5767860411069443
+  },
+  {
+    "name": "promptimize/examples 模块",
+    "description": "[模块级] promptimize 项目的 examples 模块 (example)。来源: https://github.com/preset-io/promptimize",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-492",
+      "github-preset-io",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "[more examples on GitHub](https://github.com/preset-io/promptimize/tree/main/examples)\n```python",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__pycache__\nexamples/__pycache__/use_cases.cpython-38.pyc\nexamples/python_examples.py\nexamples/readme_examples.py\nexamples/readme_hello_world.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5767860411069443
+  },
+  {
+    "name": "promptimize/promptimize 模块",
+    "description": "[模块级] promptimize 项目的 promptimize 模块 (source)。来源: https://github.com/preset-io/promptimize",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-492",
+      "github-preset-io",
+      "module-level",
+      "source",
+      "promptimize"
+    ],
+    "genes": [
+      {
+        "title": "promptimize 模块说明",
+        "content": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![PyPI version](https://badge.fury.io/py/promptimize.svg)](https://badge.fury.io/py/promptimize)\n\n<img src=\"https://user-images.githubusercontent.com/487433/229948453-36cbc2d1-e71f-4e87-9111-ab428bc96f4c.png\" width=300/>\n\nPromptimize is a prompt engineering **evaluation** and **testing** toolkit.\n\nIt accelerates and provides structure around prompt engineering at scale\nwith confi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "promptimize 文件结构",
+        "content": "promptimize/__init__.py\npromptimize/cli.py\npromptimize/crawler.py\npromptimize/evals.py\npromptimize/prompt_cases.py\npromptimize/reports.py\npromptimize/simple_jinja.py\npromptimize/suite.py\npromptimize/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5767860411069443
+  }
+]

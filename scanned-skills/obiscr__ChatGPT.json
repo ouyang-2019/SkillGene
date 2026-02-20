@@ -1,0 +1,95 @@
+[
+  {
+    "name": "ChatGPT (obiscr)",
+    "description": "[项目级] This project is a plugin that supports ChatGPT running on JetBrains series IDE.。来源: https://github.com/obiscr/ChatGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-jetbrains",
+      "java",
+      "stars-1060",
+      "github-obiscr",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This project is a plugin that supports ChatGPT running on JetBrains series IDE.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- Install using the IDE's built-in plugin system:\n\n  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for \"ChatGPT\"</kbd> >\n  <kbd>Install Plugin</kbd>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDESCRIPTION.md\nLICENSE\nREADME.md\nREADME_CN.md\nbuild.gradle.kts\ngradle.properties\ngradle\ngradle/wrapper\ngradlew\ngradlew.bat\nqodana.yml\nsettings.gradle.kts\nsrc\nsrc/main",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.512652932632385
+  },
+  {
+    "name": "ChatGPT/gradle 模块",
+    "description": "[模块级] ChatGPT 项目的 gradle 模块 (source)。来源: https://github.com/obiscr/ChatGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-jetbrains",
+      "java",
+      "stars-1060",
+      "github-obiscr",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "模块路径: gradle/\n类型: source\n文件数: 3\n\n包含文件:\n- gradle/wrapper\n- gradle/wrapper/gradle-wrapper.jar\n- gradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  },
+  {
+    "name": "ChatGPT/src 模块",
+    "description": "[模块级] ChatGPT 项目的 src 模块 (source)。来源: https://github.com/obiscr/ChatGPT",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-jetbrains",
+      "java",
+      "stars-1060",
+      "github-obiscr",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 110\n\n包含文件:\n- src/main\n- src/main/java\n- src/main/java/com\n- src/main/java/com/obiscr\n- src/main/java/com/obiscr/chatgpt\n- src/main/java/com/obiscr/chatgpt/AbstractHandler.java\n- src/main/java/com/obiscr/chatgpt/BrowserToolWindow.java\n- src/main/java/com/obiscr/chatgpt/ChatGPTHandler.java\n- src/main/java/com/obiscr/chatgpt/ChatGPTToolWindow.java\n- src/main/java/com/obiscr/chatgpt/GPT35TurboHandler.java",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/java\nsrc/main/java/com\nsrc/main/java/com/obiscr\nsrc/main/java/com/obiscr/chatgpt\nsrc/main/java/com/obiscr/chatgpt/AbstractHandler.java\nsrc/main/java/com/obiscr/chatgpt/BrowserToolWindow.java\nsrc/main/java/com/obiscr/chatgpt/ChatGPTHandler.java\nsrc/main/java/com/obiscr/chatgpt/ChatGPTToolWindow.java\nsrc/main/java/com/obiscr/chatgpt/GPT35TurboHandler.java\nsrc/main/java/com/obiscr/chatgpt/GPT35TurboToolWindow.java\nsrc/main/java/com/obiscr/chatgpt/MyToolWindowFactory.java\nsrc/main/java/com/obiscr/chatgpt/RequestProvider.java\nsrc/main/java/com/obiscr/chatgpt/core\nsrc/main/java/com/obiscr/chatgpt/core/Constant.java",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  }
+]

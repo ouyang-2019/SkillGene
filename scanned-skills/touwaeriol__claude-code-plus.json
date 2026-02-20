@@ -1,0 +1,193 @@
+[
+  {
+    "name": "claude-code-plus (touwaeriol)",
+    "description": "[项目级] 🖥️ GUI Plugin for Claude Code / Codex CLI / Gemini CLI in JetBrains IDEs - Run AI coding assistants with a beautiful visual interface。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "javascript",
+      "stars-128",
+      "github-touwaeriol",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🖥️ GUI Plugin for Claude Code / Codex CLI / Gemini CLI in JetBrains IDEs - Run AI coding assistants with a beautiful visual interface\n\n来源: https://github.com/touwaeriol/claude-code-plus\n语言: JavaScript\nStars: 128",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nREADME_ja.md\nREADME_ko.md\nREADME_zh-CN.md\nai-agent-proto\nai-agent-proto/build.gradle.kts\nai-agent-proto/src\nai-agent-rpc-api\nai-agent-rpc-api/build.gradle.kts\nai-agent-rpc-api/src\nai-agent-sdk\nai-agent-sdk/build.gradle.kts\nai-agent-sdk/src\nai-agent-server\nai-agent-server/build.gradle.kts\nai-agent-server/demo-tools",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **AI-Powered Conversations** - Chat with Claude AI directly in your IDE\n- **Smart Context Management** - Reference files and code snippets with @ mentions\n- **Multi-Session Support** - Manage multiple chat sessions simultaneously\n- **Rich Tool Integration** - View and interact with Claude's tool usage (file read/write, bash commands, etc.)\n- **IDE Integration** - Click to open files, view diffs, and navigate to specific lines\n- **Dark Theme Support** - Fully compatible with IntelliJ's dark themes\n- **Export Capabilities** - Save conversation history in multiple formats",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.053604984823934
+  },
+  {
+    "name": "claude-code-plus/ai-agent-proto 模块",
+    "description": "[模块级] claude-code-plus 项目的 ai-agent-proto 模块 (source)。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "ai-agent-proto"
+    ],
+    "genes": [
+      {
+        "title": "ai-agent-proto 模块说明",
+        "content": "模块路径: ai-agent-proto/\n类型: source\n文件数: 12\n\n包含文件:\n- ai-agent-proto/build.gradle.kts\n- ai-agent-proto/src\n- ai-agent-proto/src/main\n- ai-agent-proto/src/main/kotlin\n- ai-agent-proto/src/main/kotlin/com\n- ai-agent-proto/src/main/kotlin/com/asakii\n- ai-agent-proto/src/main/kotlin/com/asakii/rpc\n- ai-agent-proto/src/main/kotlin/com/asakii/rpc/proto\n- ai-agent-proto/src/main/kotlin/com/asakii/rpc/proto/ProtoExtensions.kt\n- ai-agent-proto/src/main/proto",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-agent-proto 文件结构",
+        "content": "ai-agent-proto/build.gradle.kts\nai-agent-proto/src\nai-agent-proto/src/main\nai-agent-proto/src/main/kotlin\nai-agent-proto/src/main/kotlin/com\nai-agent-proto/src/main/kotlin/com/asakii\nai-agent-proto/src/main/kotlin/com/asakii/rpc\nai-agent-proto/src/main/kotlin/com/asakii/rpc/proto\nai-agent-proto/src/main/kotlin/com/asakii/rpc/proto/ProtoExtensions.kt\nai-agent-proto/src/main/proto\nai-agent-proto/src/main/proto/ai_agent_rpc.proto\nai-agent-proto/src/main/proto/jetbrains_api.proto",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3428839878591474
+  },
+  {
+    "name": "claude-code-plus/ai-agent-rpc-api 模块",
+    "description": "[模块级] claude-code-plus 项目的 ai-agent-rpc-api 模块 (source)。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "ai-agent-rpc-api"
+    ],
+    "genes": [
+      {
+        "title": "ai-agent-rpc-api 模块说明",
+        "content": "模块路径: ai-agent-rpc-api/\n类型: source\n文件数: 12\n\n包含文件:\n- ai-agent-rpc-api/build.gradle.kts\n- ai-agent-rpc-api/src\n- ai-agent-rpc-api/src/main\n- ai-agent-rpc-api/src/main/kotlin\n- ai-agent-rpc-api/src/main/kotlin/com\n- ai-agent-rpc-api/src/main/kotlin/com/asakii\n- ai-agent-rpc-api/src/main/kotlin/com/asakii/rpc\n- ai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api\n- ai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/AiAgentRpcService.kt\n- ai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/IdeToolsApi.kt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-agent-rpc-api 文件结构",
+        "content": "ai-agent-rpc-api/build.gradle.kts\nai-agent-rpc-api/src\nai-agent-rpc-api/src/main\nai-agent-rpc-api/src/main/kotlin\nai-agent-rpc-api/src/main/kotlin/com\nai-agent-rpc-api/src/main/kotlin/com/asakii\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/AiAgentRpcService.kt\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/IdeToolsApi.kt\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/JetBrainsApi.kt\nai-agent-rpc-api/src/main/kotlin/com/asakii/rpc/api/RpcModels.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3428839878591474
+  },
+  {
+    "name": "claude-code-plus/ai-agent-sdk 模块",
+    "description": "[模块级] claude-code-plus 项目的 ai-agent-sdk 模块 (source)。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "ai-agent-sdk"
+    ],
+    "genes": [
+      {
+        "title": "ai-agent-sdk 模块说明",
+        "content": "模块路径: ai-agent-sdk/\n类型: source\n文件数: 43\n\n包含文件:\n- ai-agent-sdk/build.gradle.kts\n- ai-agent-sdk/src\n- ai-agent-sdk/src/main\n- ai-agent-sdk/src/main/kotlin\n- ai-agent-sdk/src/main/kotlin/com\n- ai-agent-sdk/src/main/kotlin/com/asakii\n- ai-agent-sdk/src/main/kotlin/com/asakii/ai\n- ai-agent-sdk/src/main/kotlin/com/asakii/ai/agent\n- ai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk\n- ai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/AiAgentProvider.kt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-agent-sdk 文件结构",
+        "content": "ai-agent-sdk/build.gradle.kts\nai-agent-sdk/src\nai-agent-sdk/src/main\nai-agent-sdk/src/main/kotlin\nai-agent-sdk/src/main/kotlin/com\nai-agent-sdk/src/main/kotlin/com/asakii\nai-agent-sdk/src/main/kotlin/com/asakii/ai\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/AiAgentProvider.kt\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/AiAgentStreamBridge.kt\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/CodexConstants.kt\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/McpSystemPromptContext.kt\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/adapter\nai-agent-sdk/src/main/kotlin/com/asakii/ai/agent/sdk/adapter/ClaudeStreamAdapter.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3428839878591474
+  },
+  {
+    "name": "claude-code-plus/ai-agent-server 模块",
+    "description": "[模块级] claude-code-plus 项目的 ai-agent-server 模块 (source)。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "ai-agent-server"
+    ],
+    "genes": [
+      {
+        "title": "ai-agent-server 模块说明",
+        "content": "模块路径: ai-agent-server/\n类型: source\n文件数: 76\n\n包含文件:\n- ai-agent-server/build.gradle.kts\n- ai-agent-server/demo-tools\n- ai-agent-server/demo-tools/demo-io.txt\n- ai-agent-server/demo-tools/example.ts\n- ai-agent-server/src\n- ai-agent-server/src/main\n- ai-agent-server/src/main/kotlin\n- ai-agent-server/src/main/kotlin/com\n- ai-agent-server/src/main/kotlin/com/asakii\n- ai-agent-server/src/main/kotlin/com/asakii/bridge",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-agent-server 文件结构",
+        "content": "ai-agent-server/build.gradle.kts\nai-agent-server/demo-tools\nai-agent-server/demo-tools/demo-io.txt\nai-agent-server/demo-tools/example.ts\nai-agent-server/src\nai-agent-server/src/main\nai-agent-server/src/main/kotlin\nai-agent-server/src/main/kotlin/com\nai-agent-server/src/main/kotlin/com/asakii\nai-agent-server/src/main/kotlin/com/asakii/bridge\nai-agent-server/src/main/kotlin/com/asakii/bridge/BridgeProtocol.kt\nai-agent-server/src/main/kotlin/com/asakii/bridge/EventBridge.kt\nai-agent-server/src/main/kotlin/com/asakii/bridge/ResponseHelper.kt\nai-agent-server/src/main/kotlin/com/asakii/server\nai-agent-server/src/main/kotlin/com/asakii/server/CodexHistoryHelper.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3428839878591474
+  },
+  {
+    "name": "claude-code-plus/analysis 模块",
+    "description": "[模块级] claude-code-plus 项目的 analysis 模块 (source)。来源: https://github.com/touwaeriol/claude-code-plus",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assistant",
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "module-level",
+      "source",
+      "analysis"
+    ],
+    "genes": [
+      {
+        "title": "analysis 模块说明",
+        "content": "模块路径: analysis/\n类型: source\n文件数: 32\n\n包含文件:\n- analysis/codex-integration-analysis\n- analysis/codex-integration-analysis/LICENSE\n- analysis/codex-integration-analysis/MULTI_BACKEND_MIGRATION_PLAN.md\n- analysis/codex-integration-analysis/ModelSelector-Implementation-Summary.md\n- analysis/codex-integration-analysis/PHASE_4_6_SUMMARY.md\n- analysis/codex-integration-analysis/QUICK_INTEGRATION_GUIDE.md\n- analysis/codex-integration-analysis/README.md\n- analysis/codex-integration-analysis/README_ja.md\n- analysis/codex-integration-analysis/README_ko.md\n- analysis/codex-integration-analysis/README_zh-CN.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "analysis 文件结构",
+        "content": "analysis/codex-integration-analysis\nanalysis/codex-integration-analysis/LICENSE\nanalysis/codex-integration-analysis/MULTI_BACKEND_MIGRATION_PLAN.md\nanalysis/codex-integration-analysis/ModelSelector-Implementation-Summary.md\nanalysis/codex-integration-analysis/PHASE_4_6_SUMMARY.md\nanalysis/codex-integration-analysis/QUICK_INTEGRATION_GUIDE.md\nanalysis/codex-integration-analysis/README.md\nanalysis/codex-integration-analysis/README_ja.md\nanalysis/codex-integration-analysis/README_ko.md\nanalysis/codex-integration-analysis/README_zh-CN.md\nanalysis/codex-integration-analysis/TODO_MULTI_BACKEND.md\nanalysis/codex-integration-analysis/TOOL_USE_DISPLAY_DESIGN.md\nanalysis/codex-integration-analysis/TOOL_USE_DISPLAY_EXAMPLES.md\nanalysis/codex-integration-analysis/jetbrains-plugin\nanalysis/codex-integration-analysis/jetbrains-plugin/IMPLEMENTATION_SUMMARY.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3428839878591474
+  }
+]

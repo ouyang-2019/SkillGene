@@ -1,0 +1,137 @@
+[
+  {
+    "name": "claude-gemini-mcp-slim (cmdaltctr)",
+    "description": "[项目级] Lightweight MCP integration bringing Google's Gemini AI capabilities to Claude Code with 1M+ token context window, smart model selection, and powerful code analysis tools。来源: https://github.com/cmdaltctr/claude-gemini-mcp-slim",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "claude-hooks",
+      "gemini-api",
+      "gemini-cli",
+      "python",
+      "stars-204",
+      "github-cmdaltctr",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Gemini MCP server uses a shared architecture where one installation serves multiple AI clients and projects:\n\n```\n    Claude Desktop  │  Claude Code  │  Cursor IDE  │  VS Code + Extensions\n                    │              │             │\n                    └──────────────┼─────────────┘\n                                   │\n                      ┌─────────────────────────┐\n                      │     MCP Protocol        │\n                      │   (Tool Requests)       │\n                      └─────────────────────────┘\n                                   │\n                          ┌─────────────────┐\n                          │  Gemini MCP     │\n                          │    Server       │\n                          │ (Python/Shell)  │\n                          └─────────────────┘\n ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**New to this project?** Here's what you need to do:\n\n1. **Get your Google API key** from [Google AI Studio](https://makersuite.google.com/)\n2. **Follow the complete setup guide** in [docs/SETUP/SETUP.md](docs/SETUP/SETUP.md)\n3. **Test the integration** with a simple query\n4. **Explore the 20+ slash commands** in [docs/README-SLASH-COMMANDS.md](docs/README-SLASH-COMMANDS.md)\n\n**Installation time:** ~5 minutes | **Prerequisites:** Python 3.10+, Node.js 16+",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nMakefile\nREADME.md\ncommitlint.config.js\ndocs\ndocs/CHANGELOG.md\ndocs/DEVELOPMENT.md\ndocs/DOCUMENTATION_REFRESH_SUMMARY.md\ndocs/README-SLASH-COMMANDS.md\ndocs/RELEASING.md\ndocs/SECURITY.md\ndocs/SETUP\ndocs/TESTING.md\ndocs/archive\ngemini_helper.py\ngemini_mcp_server.py\npackage-lock.json\npackage.json\npyproject.toml\nrequirements-dev.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Quick Query** - Ask Gemini any development question instantly\n- **Code Analysis** - Deep analysis with security, performance, and architecture insights\n- **Codebase Analysis** - Full project analysis using Gemini's massive context window\n- **Automated Hooks** - Pre-edit analysis, pre-commit review, and session summaries\n- **20+ Slash Commands** - Simple shortcuts like `/g`, `/analyze`, `/security`\n- **Smart Model Selection** - Flash for speed, Pro for depth, automatic fallback\n- **Real-time Streaming** - Live output with progress indicators",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.15481508371295
+  },
+  {
+    "name": "claude-gemini-mcp-slim/docs 模块",
+    "description": "[模块级] claude-gemini-mcp-slim 项目的 docs 模块 (docs)。来源: https://github.com/cmdaltctr/claude-gemini-mcp-slim",
+    "domain": "documentation",
+    "tags": [
+      "claude-code",
+      "claude-hooks",
+      "gemini-api",
+      "gemini-cli",
+      "python",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 13\n\n包含文件:\n- docs/CHANGELOG.md\n- docs/DEVELOPMENT.md\n- docs/DOCUMENTATION_REFRESH_SUMMARY.md\n- docs/README-SLASH-COMMANDS.md\n- docs/RELEASING.md\n- docs/SECURITY.md\n- docs/SETUP\n- docs/SETUP/SETUP.md\n- docs/SETUP/codebase-security-analysis.jpg\n- docs/TESTING.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CHANGELOG.md\ndocs/DEVELOPMENT.md\ndocs/DOCUMENTATION_REFRESH_SUMMARY.md\ndocs/README-SLASH-COMMANDS.md\ndocs/RELEASING.md\ndocs/SECURITY.md\ndocs/SETUP\ndocs/SETUP/SETUP.md\ndocs/SETUP/codebase-security-analysis.jpg\ndocs/TESTING.md\ndocs/archive\ndocs/archive/BANDIT_SARIF_SETUP.md\ndocs/archive/BANDIT_SHELL_TRUE_SILENCE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4238520669703596
+  },
+  {
+    "name": "claude-gemini-mcp-slim/scripts 模块",
+    "description": "[模块级] claude-gemini-mcp-slim 项目的 scripts 模块 (script)。来源: https://github.com/cmdaltctr/claude-gemini-mcp-slim",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "claude-hooks",
+      "gemini-api",
+      "gemini-cli",
+      "python",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/format_code.sh\n- scripts/run_tests.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/format_code.sh\nscripts/run_tests.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4238520669703596
+  },
+  {
+    "name": "claude-gemini-mcp-slim/tests 模块",
+    "description": "[模块级] claude-gemini-mcp-slim 项目的 tests 模块 (test)。来源: https://github.com/cmdaltctr/claude-gemini-mcp-slim",
+    "domain": "testing",
+    "tags": [
+      "claude-code",
+      "claude-hooks",
+      "gemini-api",
+      "gemini-cli",
+      "python",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "python -m pytest\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/e2e\ntests/e2e/test_full_workflow.py\ntests/integration\ntests/integration/test_cli_fallback.py\ntests/integration/test_gemini_api_mocked.py\ntests/integration/test_mcp_server_integration.py\ntests/test_security.py\ntests/unit\ntests/unit/__init__.py\ntests/unit/test_basic_operations.py\ntests/unit/test_gemini_helper.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4238520669703596
+  }
+]

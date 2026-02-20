@@ -1,0 +1,103 @@
+[
+  {
+    "name": "codealive-skills (CodeAlive-AI)",
+    "description": "[项目级] Agent skills for CodeAlive — semantic code search and AI-powered codebase answers. Works with Claude Code, Codex, Antigravity, Cursor, OpenCode, Copilot, Windsurf, Gemini CLI, and other SKILL.md-compatible agents.。来源: https://github.com/CodeAlive-AI/codealive-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "codealive",
+      "semantic-search",
+      "skill-md",
+      "python",
+      "stars-4",
+      "github-codealive-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent skills for CodeAlive — semantic code search and AI-powered codebase answers. Works with Claude Code, Codex, Antigravity, Cursor, OpenCode, Copilot, Windsurf, Gemini CLI, and other SKILL.md-compatible agents.\n\n来源: https://github.com/CodeAlive-AI/codealive-skills\n语言: Python\nStars: 4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> **Claude Code users:** the recommended installation method is [Option 2 (Plugin)](#option-2-claude-code-plugin) — it includes the skill plus authentication hooks and a code exploration subagent.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagents\nagents/codealive-code-explorer.md\nhooks\nhooks/hooks.json\nhooks/scripts\nskills\nskills/codealive-context-engine",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Start your agent and ask naturally:\n\n- *\"How is authentication implemented?\"*\n- *\"Show me error handling patterns across services\"*\n- *\"Find similar features to guide my implementation\"*\n\nNo special commands needed — the agent picks up the skill automatically.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3010299956639813
+  },
+  {
+    "name": "codealive-skills/hooks 模块",
+    "description": "[模块级] codealive-skills 项目的 hooks 模块 (source)。来源: https://github.com/CodeAlive-AI/codealive-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "codealive",
+      "semantic-search",
+      "skill-md",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 3\n\n包含文件:\n- hooks/hooks.json\n- hooks/scripts\n- hooks/scripts/check_auth.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/hooks.json\nhooks/scripts\nhooks/scripts/check_auth.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.740823996531185
+  },
+  {
+    "name": "codealive-skills/skills 模块",
+    "description": "[模块级] codealive-skills 项目的 skills 模块 (source)。来源: https://github.com/CodeAlive-AI/codealive-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "codealive",
+      "semantic-search",
+      "skill-md",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Agent skills and Claude Code plugin for [CodeAlive](https://app.codealive.ai) — install via [skills.sh](https://skills.sh/) or as a Claude Code plugin.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/codealive-context-engine\nskills/codealive-context-engine/.gitignore\nskills/codealive-context-engine/SKILL.md\nskills/codealive-context-engine/references\nskills/codealive-context-engine/references/query-patterns.md\nskills/codealive-context-engine/references/workflows.md\nskills/codealive-context-engine/scripts\nskills/codealive-context-engine/scripts/chat.py\nskills/codealive-context-engine/scripts/datasources.py\nskills/codealive-context-engine/scripts/explore.py\nskills/codealive-context-engine/scripts/lib\nskills/codealive-context-engine/scripts/lib/__init__.py\nskills/codealive-context-engine/scripts/lib/api_client.py\nskills/codealive-context-engine/scripts/search.py\nskills/codealive-context-engine/setup.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.740823996531185
+  }
+]

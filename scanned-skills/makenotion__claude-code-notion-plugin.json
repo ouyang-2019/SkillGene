@@ -1,0 +1,91 @@
+[
+  {
+    "name": "claude-code-notion-plugin (makenotion)",
+    "description": "[项目级] Connect Claude Code to Notion via this Plugin。来源: https://github.com/makenotion/claude-code-notion-plugin",
+    "domain": "devops",
+    "tags": [
+      "stars-176",
+      "github-makenotion",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Connect Claude Code to Notion via this Plugin\n\n来源: https://github.com/makenotion/claude-code-notion-plugin\n语言: unknown\nStars: 176",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ncommands\ncommands/create-database-row.md\ncommands/create-page.md\ncommands/create-task.md\ncommands/database-query.md\ncommands/find.md\ncommands/search.md\ncommands/tasks\nskills\nskills/notion",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.122756333907075
+  },
+  {
+    "name": "claude-code-notion-plugin/commands 模块",
+    "description": "[模块级] claude-code-notion-plugin 项目的 commands 模块 (source)。来源: https://github.com/makenotion/claude-code-notion-plugin",
+    "domain": "devops",
+    "tags": [
+      "stars-176",
+      "github-makenotion",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "This plugin ships with a set of helpful commands:\n\n| Command | Description |\n|--------|-------------|\n| `/Notion:search` | Search your entire Notion workspace |\n| `/Notion:create-page` | Create a new page under a given parent |\n| `/Notion:database-query` | Query a database by name or ID |\n| `/Notion:create-task` | Create a task in a Tasks-style database |\n| `/Notion:create-database-row` | Insert a row in any database |\n| `/Notion:find` | Quick title-based search for pages/databases |\n| `/Notion:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/create-database-row.md\ncommands/create-page.md\ncommands/create-task.md\ncommands/database-query.md\ncommands/find.md\ncommands/search.md\ncommands/tasks\ncommands/tasks/build.md\ncommands/tasks/explain-diff.md\ncommands/tasks/plan.md\ncommands/tasks/setup.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  },
+  {
+    "name": "claude-code-notion-plugin/skills 模块",
+    "description": "[模块级] claude-code-notion-plugin 项目的 skills 模块 (source)。来源: https://github.com/makenotion/claude-code-notion-plugin",
+    "domain": "devops",
+    "tags": [
+      "stars-176",
+      "github-makenotion",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "Includes all four high-quality Skills from the Notion Cookbook:\n\n- **Knowledge Capture**\n- **Meeting Intelligence**\n- **Research Documentation**\n- **Spec to Implementation**\n\nThese instructions teach Claude how to structure, write, summarize, capture, and maintain content in your Notion workspace.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/notion\nskills/notion/knowledge-capture\nskills/notion/knowledge-capture/SKILL.md\nskills/notion/knowledge-capture/evaluations\nskills/notion/knowledge-capture/evaluations/README.md\nskills/notion/knowledge-capture/evaluations/conversation-to-wiki.json\nskills/notion/knowledge-capture/evaluations/decision-record.json\nskills/notion/knowledge-capture/examples\nskills/notion/knowledge-capture/examples/conversation-to-faq.md\nskills/notion/knowledge-capture/examples/decision-capture.md\nskills/notion/knowledge-capture/examples/how-to-guide.md\nskills/notion/knowledge-capture/reference\nskills/notion/knowledge-capture/reference/database-best-practices.md\nskills/notion/knowledge-capture/reference/decision-log-database.md\nskills/notion/knowledge-capture/reference/documentation-database.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.39820506712566
+  }
+]

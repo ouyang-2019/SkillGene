@@ -1,0 +1,127 @@
+[
+  {
+    "name": "ai-tools (calvingit)",
+    "description": "[项目级] Collection of some AI tools (Skills, MCPs, Agents).。来源: https://github.com/calvingit/ai-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "stars-27",
+      "github-calvingit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains:\n\n- **Skills**: Reusable Claude Code skills for Flutter/Dart development\n- **MCP Servers**: Pre-configured MCP servers for various development tools\n- **Scripts**: Python scripts for easy installation and management\n- **Makefile**: Convenient commands for installation and maintenance",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Makefile\nREADME.md\nmcp\nmcp/MCP-Servers.md\nmcp/claude.json\nscripts\nscripts/mcp.py\nscripts/skills.py\nskills\nskills/flutter-dev\nskills/flutter-firebase\nskills/swift-concurrency",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.715681882079494
+  },
+  {
+    "name": "ai-tools/mcp 模块",
+    "description": "[模块级] ai-tools 项目的 mcp 模块 (source)。来源: https://github.com/calvingit/ai-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "module-level",
+      "source",
+      "mcp"
+    ],
+    "genes": [
+      {
+        "title": "mcp 模块说明",
+        "content": "make install",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp 文件结构",
+        "content": "mcp/MCP-Servers.md\nmcp/claude.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.072545505663595
+  },
+  {
+    "name": "ai-tools/scripts 模块",
+    "description": "[模块级] ai-tools 项目的 scripts 模块 (script)。来源: https://github.com/calvingit/ai-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/mcp.py\nscripts/skills.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.072545505663595
+  },
+  {
+    "name": "ai-tools/skills 模块",
+    "description": "[模块级] ai-tools 项目的 skills 模块 (source)。来源: https://github.com/calvingit/ai-tools",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "claude-code",
+      "mcp",
+      "skills",
+      "python",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "make install",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/flutter-dev\nskills/flutter-dev/SKILL.md\nskills/flutter-dev/rules\nskills/flutter-dev/rules/bloc.md\nskills/flutter-dev/rules/code_review.md\nskills/flutter-dev/rules/dart_3_updates.md\nskills/flutter-dev/rules/effective_dart.md\nskills/flutter-dev/rules/flutter_app_architecture.md\nskills/flutter-dev/rules/flutter_change_notifier.md\nskills/flutter-dev/rules/flutter_errors.md\nskills/flutter-dev/rules/json_serialization.md\nskills/flutter-dev/rules/mockito.md\nskills/flutter-dev/rules/mocktail.md\nskills/flutter-dev/rules/navigation.md\nskills/flutter-dev/rules/provider.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.072545505663595
+  }
+]

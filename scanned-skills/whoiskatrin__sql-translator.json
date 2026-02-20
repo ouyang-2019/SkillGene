@@ -1,0 +1,198 @@
+[
+  {
+    "name": "sql-translator (whoiskatrin)",
+    "description": "[项目级] SQL Translator is a tool for converting natural language queries into SQL code using artificial intelligence. This project is 100% free and open source.。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "typescript",
+      "stars-4314",
+      "github-whoiskatrin",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SQL Translator is a tool for converting natural language queries into SQL code using artificial intelligence. This project is 100% free and open source.\n\n来源: https://github.com/whoiskatrin/sql-translator\n语言: TypeScript\nStars: 4314",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nUI.png\ncomponents\ncomponents/GitHub.tsx\ncomponents/Header\ncomponents/LoadingDots.tsx\ncomponents/ThemeButton.tsx\ncomponents/Toggle.tsx\ncomponents/atoms\ndocker-compose.yml\nhooks\nhooks/useTranslate.ts\nnext.config.js\npackage-lock.json\npackage.json\npages\npages/_app.tsx\npages/_document.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Using the SQL to Natural Language Translator is easy. Simply navigate to the tool's website and choose whether you want to translate from natural language to SQL or from SQL to natural language. Then, type in your query and hit the \"translate\" button. The tool will generate the corresponding code or text and display it on the screen. \nYou can press the 'reverse' button to give input as Natural Language and get SQL queries in response",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Dark mode\n- Lowercase/uppercase toggle\n- Copy to clipboard\n- SQL syntax highlighting\n- Schema awareness (beta)\n- Query history",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.817440070383263
+  },
+  {
+    "name": "sql-translator/components 模块",
+    "description": "[模块级] sql-translator 项目的 components 模块 (source)。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 10\n\n包含文件:\n- components/GitHub.tsx\n- components/Header\n- components/Header/Fork.tsx\n- components/Header/Header.tsx\n- components/Header/Star.tsx\n- components/LoadingDots.tsx\n- components/ThemeButton.tsx\n- components/Toggle.tsx\n- components/atoms\n- components/atoms/Orbs.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/GitHub.tsx\ncomponents/Header\ncomponents/Header/Fork.tsx\ncomponents/Header/Header.tsx\ncomponents/Header/Star.tsx\ncomponents/LoadingDots.tsx\ncomponents/ThemeButton.tsx\ncomponents/Toggle.tsx\ncomponents/atoms\ncomponents/atoms/Orbs.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9539520563066106
+  },
+  {
+    "name": "sql-translator/pages 模块",
+    "description": "[模块级] sql-translator 项目的 pages 模块 (source)。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "module-level",
+      "source",
+      "pages"
+    ],
+    "genes": [
+      {
+        "title": "pages 模块说明",
+        "content": "模块路径: pages/\n类型: source\n文件数: 6\n\n包含文件:\n- pages/_app.tsx\n- pages/_document.tsx\n- pages/api\n- pages/api/sql-to-human.ts\n- pages/api/translate.ts\n- pages/index.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pages 文件结构",
+        "content": "pages/_app.tsx\npages/_document.tsx\npages/api\npages/api/sql-to-human.ts\npages/api/translate.ts\npages/index.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9539520563066106
+  },
+  {
+    "name": "sql-translator/public 模块",
+    "description": "[模块级] sql-translator 项目的 public 模块 (source)。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 9\n\n包含文件:\n- public/copy.svg\n- public/copyDark.svg\n- public/favicon.ico\n- public/screenshot.png\n- public/stars.svg\n- public/switch.svg\n- public/switchDark.svg\n- public/twitterDark.svg\n- public/twitterfill.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/copy.svg\npublic/copyDark.svg\npublic/favicon.ico\npublic/screenshot.png\npublic/stars.svg\npublic/switch.svg\npublic/switchDark.svg\npublic/twitterDark.svg\npublic/twitterfill.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9539520563066106
+  },
+  {
+    "name": "sql-translator/src 模块",
+    "description": "[模块级] sql-translator 项目的 src 模块 (source)。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/translateToHuman.js\n- src/translateToSQL.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/translateToHuman.js\nsrc/translateToSQL.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9539520563066106
+  },
+  {
+    "name": "sql-translator/styles 模块",
+    "description": "[模块级] sql-translator 项目的 styles 模块 (source)。来源: https://github.com/whoiskatrin/sql-translator",
+    "domain": "devops",
+    "tags": [
+      "data-analysis",
+      "data-engineering",
+      "dataquery",
+      "datascience",
+      "dataset",
+      "module-level",
+      "source",
+      "styles"
+    ],
+    "genes": [
+      {
+        "title": "styles 模块说明",
+        "content": "模块路径: styles/\n类型: source\n文件数: 2\n\n包含文件:\n- styles/globals.css\n- styles/loading-dots.module.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "styles 文件结构",
+        "content": "styles/globals.css\nstyles/loading-dots.module.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9539520563066106
+  }
+]

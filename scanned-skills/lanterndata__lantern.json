@@ -1,0 +1,198 @@
+[
+  {
+    "name": "lantern (lanterndata)",
+    "description": "[项目级] PostgreSQL vector database extension for building AI applications。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "rust",
+      "stars-875",
+      "github-lanterndata",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "PostgreSQL vector database extension for building AI applications\n\n来源: https://github.com/lanterndata/lantern\n语言: Rust\nStars: 875",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run --pull=always --rm -p 5432:5432 -e \"POSTGRES_USER=$USER\" -e \"POSTGRES_PASSWORD=postgres\" -v ./lantern_data:/var/lib/postgresql/data lanterndata/lantern:latest-pg15",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nCargo.toml\nLICENSE\nREADME.md\nci\nci/scripts\ndocker\ndocker/Dockerfile\ndocker/Dockerfile.cli\ndocker/Dockerfile.cli.cuda\ndocker/Dockerfile.dev\ndocker/Dockerfile.pg\nlantern_cli\nlantern_cli/Cargo.toml\nlantern_cli/README.md\nlantern_cli/src\nlantern_cli/tests\nlantern_extras\nlantern_extras/Cargo.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "CREATE EXTENSION lantern;",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Embedding generation for popular use cases (CLIP model, Hugging Face models, custom model)\n- Interoperability with pgvector's data type, so anyone using pgvector can switch to Lantern\n- Parallel index creation via an external indexer\n- Ability to generate the index graph outside of the database server\n- Support for creating the index outside of the database and inside another instance allows you to create an index without interrupting database workflows.\n- See all of our helper functions to better enable your workflows",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.471004026511157
+  },
+  {
+    "name": "lantern/ci 模块",
+    "description": "[模块级] lantern 项目的 ci 模块 (source)。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "ci"
+    ],
+    "genes": [
+      {
+        "title": "ci 模块说明",
+        "content": "模块路径: ci/\n类型: source\n文件数: 13\n\n包含文件:\n- ci/scripts\n- ci/scripts/build-docker.sh\n- ci/scripts/build-extras.sh\n- ci/scripts/build-linux.sh\n- ci/scripts/build-mac.sh\n- ci/scripts/build.sh\n- ci/scripts/package-archive.sh\n- ci/scripts/package-extras.sh\n- ci/scripts/run-benchmarks.sh\n- ci/scripts/run-tests-linux.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ci 文件结构",
+        "content": "ci/scripts\nci/scripts/build-docker.sh\nci/scripts/build-extras.sh\nci/scripts/build-linux.sh\nci/scripts/build-mac.sh\nci/scripts/build.sh\nci/scripts/package-archive.sh\nci/scripts/package-extras.sh\nci/scripts/run-benchmarks.sh\nci/scripts/run-tests-linux.sh\nci/scripts/run-tests-mac.sh\nci/scripts/universal-package.sh\nci/scripts/utils.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6768032212089254
+  },
+  {
+    "name": "lantern/docker 模块",
+    "description": "[模块级] lantern 项目的 docker 模块 (source)。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 5\n\n包含文件:\n- docker/Dockerfile\n- docker/Dockerfile.cli\n- docker/Dockerfile.cli.cuda\n- docker/Dockerfile.dev\n- docker/Dockerfile.pg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile\ndocker/Dockerfile.cli\ndocker/Dockerfile.cli.cuda\ndocker/Dockerfile.dev\ndocker/Dockerfile.pg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6768032212089254
+  },
+  {
+    "name": "lantern/lantern_cli 模块",
+    "description": "[模块级] lantern 项目的 lantern_cli 模块 (source)。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "lantern_cli"
+    ],
+    "genes": [
+      {
+        "title": "lantern_cli 模块说明",
+        "content": "模块路径: lantern_cli/\n类型: source\n文件数: 64\n\n包含文件:\n- lantern_cli/Cargo.toml\n- lantern_cli/README.md\n- lantern_cli/src\n- lantern_cli/src/cli.rs\n- lantern_cli/src/daemon\n- lantern_cli/src/daemon/autotune_jobs.rs\n- lantern_cli/src/daemon/cli.rs\n- lantern_cli/src/daemon/client_embedding_jobs.rs\n- lantern_cli/src/daemon/embedding_jobs.rs\n- lantern_cli/src/daemon/helpers.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lantern_cli 文件结构",
+        "content": "lantern_cli/Cargo.toml\nlantern_cli/README.md\nlantern_cli/src\nlantern_cli/src/cli.rs\nlantern_cli/src/daemon\nlantern_cli/src/daemon/autotune_jobs.rs\nlantern_cli/src/daemon/cli.rs\nlantern_cli/src/daemon/client_embedding_jobs.rs\nlantern_cli/src/daemon/embedding_jobs.rs\nlantern_cli/src/daemon/helpers.rs\nlantern_cli/src/daemon/mod.rs\nlantern_cli/src/daemon/types.rs\nlantern_cli/src/embeddings\nlantern_cli/src/embeddings/cli.rs\nlantern_cli/src/embeddings/core",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6768032212089254
+  },
+  {
+    "name": "lantern/lantern_extras 模块",
+    "description": "[模块级] lantern 项目的 lantern_extras 模块 (source)。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "lantern_extras"
+    ],
+    "genes": [
+      {
+        "title": "lantern_extras 模块说明",
+        "content": "模块路径: lantern_extras/\n类型: source\n文件数: 16\n\n包含文件:\n- lantern_extras/Cargo.toml\n- lantern_extras/README.md\n- lantern_extras/lantern_extras.control\n- lantern_extras/src\n- lantern_extras/src/bin\n- lantern_extras/src/bin/pgrx_embed.rs\n- lantern_extras/src/bloom.rs\n- lantern_extras/src/bm25_agg.rs\n- lantern_extras/src/bm25_api.rs\n- lantern_extras/src/bm25_api.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lantern_extras 文件结构",
+        "content": "lantern_extras/Cargo.toml\nlantern_extras/README.md\nlantern_extras/lantern_extras.control\nlantern_extras/src\nlantern_extras/src/bin\nlantern_extras/src/bin/pgrx_embed.rs\nlantern_extras/src/bloom.rs\nlantern_extras/src/bm25_agg.rs\nlantern_extras/src/bm25_api.rs\nlantern_extras/src/bm25_api.sql\nlantern_extras/src/daemon.rs\nlantern_extras/src/dotvecs.rs\nlantern_extras/src/embeddings.rs\nlantern_extras/src/lib.rs\nlantern_extras/src/stemmer_api.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6768032212089254
+  },
+  {
+    "name": "lantern/lantern_hnsw 模块",
+    "description": "[模块级] lantern 项目的 lantern_hnsw 模块 (source)。来源: https://github.com/lanterndata/lantern",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ann",
+      "approximate-nearest-neighbor-search",
+      "data-science",
+      "database",
+      "module-level",
+      "source",
+      "lantern_hnsw"
+    ],
+    "genes": [
+      {
+        "title": "lantern_hnsw 模块说明",
+        "content": "模块路径: lantern_hnsw/\n类型: source\n文件数: 77\n\n包含文件:\n- lantern_hnsw/CMakeLists.txt\n- lantern_hnsw/cmake\n- lantern_hnsw/cmake/FindPostgreSQL.cmake\n- lantern_hnsw/cmake/lantern.control.template\n- lantern_hnsw/cmake/version.h.template\n- lantern_hnsw/scripts\n- lantern_hnsw/scripts/check_symbols.sh\n- lantern_hnsw/scripts/extern_defined.sh\n- lantern_hnsw/scripts/get_arch_and_platform.sh\n- lantern_hnsw/scripts/integration_tests.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lantern_hnsw 文件结构",
+        "content": "lantern_hnsw/CMakeLists.txt\nlantern_hnsw/cmake\nlantern_hnsw/cmake/FindPostgreSQL.cmake\nlantern_hnsw/cmake/lantern.control.template\nlantern_hnsw/cmake/version.h.template\nlantern_hnsw/scripts\nlantern_hnsw/scripts/check_symbols.sh\nlantern_hnsw/scripts/extern_defined.sh\nlantern_hnsw/scripts/get_arch_and_platform.sh\nlantern_hnsw/scripts/integration_tests.py\nlantern_hnsw/scripts/link_llvm_objects.sh\nlantern_hnsw/scripts/livedebug.py\nlantern_hnsw/scripts/package.sh\nlantern_hnsw/scripts/packaging\nlantern_hnsw/scripts/packaging/Makefile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6768032212089254
+  }
+]

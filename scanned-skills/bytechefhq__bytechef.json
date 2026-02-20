@@ -1,0 +1,133 @@
+[
+  {
+    "name": "bytechef (bytechefhq)",
+    "description": "[项目级] Open-source, AI-native, low-code platform for API orchestration, workflow automation, and AI agent integration across internal systems and SaaS products.。来源: https://github.com/bytechefhq/bytechef",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "api",
+      "automation",
+      "embedded-ipaas",
+      "java",
+      "stars-733",
+      "github-bytechefhq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source, AI-native, low-code platform for API orchestration, workflow automation, and AI agent integration across internal systems and SaaS products.\n\n来源: https://github.com/bytechefhq/bytechef\n语言: Java\nStars: 733",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\nSECURITY.md\nbuild.gradle.kts\nbuildSrc\nbuildSrc/build.gradle.kts\nbuildSrc/settings.gradle.kts\nbuildSrc/src\ncli\ncli/README.md\ncli/build.gradle.kts\ncli/cli-app\ncli/commands\ncli/sonar-project.properties\nclient",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Visual Workflow Editor**: Build and visualize workflows by dragging and dropping components\n* **Event-Driven & Scheduled Workflows**: Automate with real-time event-driven workflows via simple trigger definitions\n* **Multiple Flow Controls**: Use condition, switch, loop, each, parallel, and more\n* **Built-In Code Editor**: Write workflow definitions in JSON and code blocks in Java, JavaScript, Python, and Ruby\n* **200+ Built-In Components**: Extract data from any database, SaaS applications, internal APIs, or cloud storage\n* **Extendable**: Develop custom connectors in Java, JavaScript, Pyt",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.432551987320564
+  },
+  {
+    "name": "bytechef/buildSrc 模块",
+    "description": "[模块级] bytechef 项目的 buildSrc 模块 (source)。来源: https://github.com/bytechefhq/bytechef",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "api",
+      "automation",
+      "embedded-ipaas",
+      "module-level",
+      "source",
+      "buildsrc"
+    ],
+    "genes": [
+      {
+        "title": "buildSrc 模块说明",
+        "content": "模块路径: buildSrc/\n类型: source\n文件数: 10\n\n包含文件:\n- buildSrc/build.gradle.kts\n- buildSrc/settings.gradle.kts\n- buildSrc/src\n- buildSrc/src/main\n- buildSrc/src/main/kotlin\n- buildSrc/src/main/kotlin/com.bytechef.documentation-generator.gradle.kts\n- buildSrc/src/main/kotlin/com.bytechef.java-application-conventions.gradle.kts\n- buildSrc/src/main/kotlin/com.bytechef.java-common-conventions.gradle.kts\n- buildSrc/src/main/kotlin/com.bytechef.java-library-conventions.gradle.kts\n- buildSrc/src/main/kotlin/com.bytechef.java-spring-boot-conventions.gradle.kts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "buildSrc 文件结构",
+        "content": "buildSrc/build.gradle.kts\nbuildSrc/settings.gradle.kts\nbuildSrc/src\nbuildSrc/src/main\nbuildSrc/src/main/kotlin\nbuildSrc/src/main/kotlin/com.bytechef.documentation-generator.gradle.kts\nbuildSrc/src/main/kotlin/com.bytechef.java-application-conventions.gradle.kts\nbuildSrc/src/main/kotlin/com.bytechef.java-common-conventions.gradle.kts\nbuildSrc/src/main/kotlin/com.bytechef.java-library-conventions.gradle.kts\nbuildSrc/src/main/kotlin/com.bytechef.java-spring-boot-conventions.gradle.kts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.646041589856451
+  },
+  {
+    "name": "bytechef/cli 模块",
+    "description": "[模块级] bytechef 项目的 cli 模块 (source)。来源: https://github.com/bytechefhq/bytechef",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "api",
+      "automation",
+      "embedded-ipaas",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 64\n\n包含文件:\n- cli/README.md\n- cli/build.gradle.kts\n- cli/cli-app\n- cli/cli-app/README.md\n- cli/cli-app/build.gradle.kts\n- cli/cli-app/bytechef.sh\n- cli/cli-app/generate_connector.sh\n- cli/cli-app/generate_connectors.sh\n- cli/cli-app/libs\n- cli/cli-app/libs/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/README.md\ncli/build.gradle.kts\ncli/cli-app\ncli/cli-app/README.md\ncli/cli-app/build.gradle.kts\ncli/cli-app/bytechef.sh\ncli/cli-app/generate_connector.sh\ncli/cli-app/generate_connectors.sh\ncli/cli-app/libs\ncli/cli-app/libs/README.md\ncli/cli-app/libs/auto-service-annotations-1.1.1.jar\ncli/cli-app/libs/component-api-1.0.jar\ncli/cli-app/libs/definition-api-1.0.jar\ncli/cli-app/src\ncli/cli-app/src/main",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.646041589856451
+  },
+  {
+    "name": "bytechef/client 模块",
+    "description": "[模块级] bytechef 项目的 client 模块 (source)。来源: https://github.com/bytechefhq/bytechef",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "api",
+      "automation",
+      "embedded-ipaas",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 95\n\n包含文件:\n- client/.babelrc\n- client/.env.cloud\n- client/.gitignore\n- client/.ncurc.json\n- client/.npmrc\n- client/.prettierignore\n- client/.prettierrc\n- client/.storybook\n- client/.storybook/main.ts\n- client/.storybook/preview-head.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/.babelrc\nclient/.env.cloud\nclient/.gitignore\nclient/.ncurc.json\nclient/.npmrc\nclient/.prettierignore\nclient/.prettierrc\nclient/.storybook\nclient/.storybook/main.ts\nclient/.storybook/preview-head.html\nclient/.storybook/preview.ts\nclient/.vitest\nclient/.vitest/setup.ts\nclient/.vscode\nclient/.vscode/settings.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.646041589856451
+  }
+]

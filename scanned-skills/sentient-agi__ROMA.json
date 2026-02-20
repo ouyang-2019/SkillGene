@@ -1,0 +1,295 @@
+[
+  {
+    "name": "ROMA (sentient-agi)",
+    "description": "[项目级] Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ROMA's module layer wraps canonical DSPy patterns into purpose-built components that reflect the lifecycle of complex task execution:\n\n1. **Atomizer** decides whether a request can be handled directly or needs decomposition.\n2. **Planner** breaks non-atomic goals into an ordered graph of subtasks.\n3. **Executor** resolves individual subtasks, optionally routing through function/tool calls.\n4. **Aggregator** synthesizes subtask outputs back into a coherent answer.\n5. **Verifier** (optional) inspects the aggregate output against the original goal before delivering.\n\nEvery module shares the same ergonomics: instantiate it with a language model (LM) or provider string, choose a prediction strategy, then call `.forward()` (or `.aforward()` for async) with the task-specific fields.\n\nAll modules ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nREADME.md\nalembic.ini\nassets\nassets/FRAMES-full.001.jpeg\nassets/agent_customization.png\nassets/project_overview.png\nassets/roma_logo_simple_visible.txt\nassets/roma_run.gif\nassets/seal-0-full.001.jpeg\nassets/sentient-logo-new-M.png\nassets/sentient-logo-new.png\nassets/sentient.svg\nassets/sentient_logo_text_ascii.txt\nassets/simpleQAFull.001.jpeg\nbenchmarks\nbenchmarks/harbor\ncli\nconfig\nconfig/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nfrom roma_dspy.config import load_config",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "For production use with persistence, observability, and API server:\n\n```bash",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8482218815695
+  },
+  {
+    "name": "ROMA/assets 模块",
+    "description": "[模块级] ROMA 项目的 assets 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 11\n\n包含文件:\n- assets/FRAMES-full.001.jpeg\n- assets/agent_customization.png\n- assets/project_overview.png\n- assets/roma_logo_simple_visible.txt\n- assets/roma_run.gif\n- assets/seal-0-full.001.jpeg\n- assets/sentient-logo-new-M.png\n- assets/sentient-logo-new.png\n- assets/sentient.svg\n- assets/sentient_logo_text_ascii.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/FRAMES-full.001.jpeg\nassets/agent_customization.png\nassets/project_overview.png\nassets/roma_logo_simple_visible.txt\nassets/roma_run.gif\nassets/seal-0-full.001.jpeg\nassets/sentient-logo-new-M.png\nassets/sentient-logo-new.png\nassets/sentient.svg\nassets/sentient_logo_text_ascii.txt\nassets/simpleQAFull.001.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/benchmarks 模块",
+    "description": "[模块级] ROMA 项目的 benchmarks 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "We evaluate our simple implementation of a search system using ROMA, called ROMA-Search across three benchmarks: **SEAL-0**, **FRAMES**, and **SimpleQA**.  \nBelow are the performance graphs for each benchmark.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/harbor\nbenchmarks/harbor/agent\nbenchmarks/harbor/agent/install-roma.sh.j2",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/config 模块",
+    "description": "[模块级] ROMA 项目的 config 模块 (config)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "ROMA-DSPy uses **OmegaConf** for layered configuration with **Pydantic** validation, and provides **execution-scoped storage** for complete task isolation.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/README.md\nconfig/defaults\nconfig/defaults/config.yaml\nconfig/examples\nconfig/examples/README.md\nconfig/examples/advanced\nconfig/examples/advanced/custom_prompts.yaml\nconfig/examples/advanced/task_aware_mapping.yaml\nconfig/examples/basic\nconfig/examples/basic/minimal.yaml\nconfig/examples/basic/multi_toolkit.yaml\nconfig/examples/crypto\nconfig/examples/crypto/crypto_agent.yaml\nconfig/examples/mcp\nconfig/examples/mcp/common_servers.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/docker 模块",
+    "description": "[模块级] ROMA 项目的 docker 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "For production use with persistence, observability, and API server:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.mlflow\ndocker/e2b\ndocker/e2b/build.sh\ndocker/e2b/build_dev.py\ndocker/e2b/build_prod.py\ndocker/e2b/mount_s3.sh\ndocker/e2b/requirements.txt\ndocker/e2b/start_jupyter.sh\ndocker/e2b/template.py\ndocker/e2b/validate_e2b_setup.py\ndocker/init-mlflow-db.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/docs 模块",
+    "description": "[模块级] ROMA 项目的 docs 模块 (docs)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 6\n\n包含文件:\n- docs/CONFIGURATION.md\n- docs/DEPLOYMENT.md\n- docs/E2B_SETUP.md\n- docs/OBSERVABILITY.md\n- docs/QUICKSTART.md\n- docs/TOOLKITS.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CONFIGURATION.md\ndocs/DEPLOYMENT.md\ndocs/E2B_SETUP.md\ndocs/OBSERVABILITY.md\ndocs/QUICKSTART.md\ndocs/TOOLKITS.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/notebooks 模块",
+    "description": "[模块级] ROMA 项目的 notebooks 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 3\n\n包含文件:\n- notebooks/example.ipynb\n- notebooks/prompt_optimization.ipynb\n- notebooks/trial_run.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/example.ipynb\nnotebooks/prompt_optimization.ipynb\nnotebooks/trial_run.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/prompt_optimization 模块",
+    "description": "[模块级] ROMA 项目的 prompt_optimization 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "prompt_optimization"
+    ],
+    "genes": [
+      {
+        "title": "prompt_optimization 模块说明",
+        "content": "模块路径: prompt_optimization/\n类型: source\n文件数: 44\n\n包含文件:\n- prompt_optimization/README.md\n- prompt_optimization/__init__.py\n- prompt_optimization/component_selectors.py\n- prompt_optimization/config.py\n- prompt_optimization/dataset_loaders.py\n- prompt_optimization/example_async.py\n- prompt_optimization/experiment_cli\n- prompt_optimization/experiment_cli/README.md\n- prompt_optimization/experiment_cli/__init__.py\n- prompt_optimization/experiment_cli/configs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt_optimization 文件结构",
+        "content": "prompt_optimization/README.md\nprompt_optimization/__init__.py\nprompt_optimization/component_selectors.py\nprompt_optimization/config.py\nprompt_optimization/dataset_loaders.py\nprompt_optimization/example_async.py\nprompt_optimization/experiment_cli\nprompt_optimization/experiment_cli/README.md\nprompt_optimization/experiment_cli/__init__.py\nprompt_optimization/experiment_cli/configs\nprompt_optimization/experiment_cli/configs/balanced.yaml\nprompt_optimization/experiment_cli/configs/custom_lms.yaml\nprompt_optimization/experiment_cli/configs/quick_test.yaml\nprompt_optimization/experiment_cli/configs/thorough.yaml\nprompt_optimization/experiment_cli/run_experiment.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/scripts 模块",
+    "description": "[模块级] ROMA 项目的 scripts 模块 (script)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/evaluate_dataset.py\n- scripts/setup_local.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/evaluate_dataset.py\nscripts/setup_local.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  },
+  {
+    "name": "ROMA/src 模块",
+    "description": "[模块级] ROMA 项目的 src 模块 (source)。来源: https://github.com/sentient-agi/ROMA",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-4971",
+      "github-sentient-agi",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 57\n\n包含文件:\n- src/roma_dspy\n- src/roma_dspy/__init__.py\n- src/roma_dspy/agents\n- src/roma_dspy/agents/__init__.py\n- src/roma_dspy/agents/benchmarks\n- src/roma_dspy/agents/benchmarks/__init__.py\n- src/roma_dspy/agents/benchmarks/harbor\n- src/roma_dspy/agents/benchmarks/harbor/__init__.py\n- src/roma_dspy/agents/benchmarks/harbor/install-roma.sh.j2\n- src/roma_dspy/agents/benchmarks/harbor/roma_harbor_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/roma_dspy\nsrc/roma_dspy/__init__.py\nsrc/roma_dspy/agents\nsrc/roma_dspy/agents/__init__.py\nsrc/roma_dspy/agents/benchmarks\nsrc/roma_dspy/agents/benchmarks/__init__.py\nsrc/roma_dspy/agents/benchmarks/harbor\nsrc/roma_dspy/agents/benchmarks/harbor/__init__.py\nsrc/roma_dspy/agents/benchmarks/harbor/install-roma.sh.j2\nsrc/roma_dspy/agents/benchmarks/harbor/roma_harbor_agent.py\nsrc/roma_dspy/agents/benchmarks/terminal_bench_2\nsrc/roma_dspy/agents/benchmarks/terminal_bench_2/__init__.py\nsrc/roma_dspy/agents/benchmarks/terminal_bench_2/install-roma.sh.j2\nsrc/roma_dspy/agents/benchmarks/terminal_bench_2/roma_harbor_agent.py\nsrc/roma_dspy/api",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9785775052555996
+  }
+]

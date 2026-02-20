@@ -1,0 +1,131 @@
+[
+  {
+    "name": "semantra (freedmand)",
+    "description": "[项目级] Multi-tool for semantic search。来源: https://github.com/freedmand/semantra",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "machine-learning",
+      "semantic-search",
+      "python",
+      "stars-2689",
+      "github-freedmand",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Multi-tool for semantic search\n\n来源: https://github.com/freedmand/semantra\n语言: Python\nStars: 2689",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "python3 -m pip install --user pipx",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nclient\nclient/.gitignore\nclient/.vscode\nclient/README.md\nclient/package-lock.json\nclient/package.json\nclient/postcss.config.js\nclient/public\nclient/rollup.config.js\nclient/src\nclient/svelte.config.js\nclient/tailwind.config.js\nclient/tsconfig.json\ndocs\ndocs/README_es.md\ndocs/README_zh-CN.md\ndocs/concept_embeddings.md\ndocs/concept_windows.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "semantra doc.pdf",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.714795401111651
+  },
+  {
+    "name": "semantra/client 模块",
+    "description": "[模块级] semantra 项目的 client 模块 (source)。来源: https://github.com/freedmand/semantra",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "machine-learning",
+      "semantic-search",
+      "python",
+      "stars-2689",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 39\n\n包含文件:\n- client/.gitignore\n- client/.vscode\n- client/.vscode/extensions.json\n- client/README.md\n- client/package-lock.json\n- client/package.json\n- client/postcss.config.js\n- client/public\n- client/public/build\n- client/public/build/bundle.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/.gitignore\nclient/.vscode\nclient/.vscode/extensions.json\nclient/README.md\nclient/package-lock.json\nclient/package.json\nclient/postcss.config.js\nclient/public\nclient/public/build\nclient/public/build/bundle.css\nclient/public/build/bundle.js\nclient/public/build/bundle.js.map\nclient/public/favicon.png\nclient/public/global.css\nclient/public/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8718363208893205
+  },
+  {
+    "name": "semantra/docs 模块",
+    "description": "[模块级] semantra 项目的 docs 模块 (docs)。来源: https://github.com/freedmand/semantra",
+    "domain": "documentation",
+    "tags": [
+      "cli",
+      "machine-learning",
+      "semantic-search",
+      "python",
+      "stars-2689",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 65\n\n包含文件:\n- docs/README_es.md\n- docs/README_zh-CN.md\n- docs/concept_embeddings.md\n- docs/concept_windows.md\n- docs/concepts.md\n- docs/example_docs\n- docs/example_docs/hamlet.pdf\n- docs/example_docs/us_inaugural_speeches.zip\n- docs/guide_models.md\n- docs/guide_openai.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README_es.md\ndocs/README_zh-CN.md\ndocs/concept_embeddings.md\ndocs/concept_windows.md\ndocs/concepts.md\ndocs/example_docs\ndocs/example_docs/hamlet.pdf\ndocs/example_docs/us_inaugural_speeches.zip\ndocs/guide_models.md\ndocs/guide_openai.md\ndocs/guides.md\ndocs/help.md\ndocs/img\ndocs/img/button_breakdown.png\ndocs/img/contentwindow_pdf.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8718363208893205
+  },
+  {
+    "name": "semantra/src 模块",
+    "description": "[模块级] semantra 项目的 src 模块 (source)。来源: https://github.com/freedmand/semantra",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "machine-learning",
+      "semantic-search",
+      "python",
+      "stars-2689",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 7\n\n包含文件:\n- src/semantra\n- src/semantra/__init__.py\n- src/semantra/client_public\n- src/semantra/models.py\n- src/semantra/pdf.py\n- src/semantra/semantra.py\n- src/semantra/util.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/semantra\nsrc/semantra/__init__.py\nsrc/semantra/client_public\nsrc/semantra/models.py\nsrc/semantra/pdf.py\nsrc/semantra/semantra.py\nsrc/semantra/util.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8718363208893205
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "plugins-for-claude-natives (team-attention)",
+    "description": "[项目级] Claude Code plugins for power users。来源: https://github.com/team-attention/plugins-for-claude-natives",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-535",
+      "github-team-attention",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code plugins for power users\n\n来源: https://github.com/team-attention/plugins-for-claude-natives\n语言: Python\nStars: 535",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.ko.md\nREADME.md\nassets\nassets/agent-council.gif\nassets/clarify.gif\nassets/kakaotalk.gif\nassets/say-summary.gif\nassets/youtube-digest.jpeg\nplugins\nplugins/agent-council\nplugins/clarify\nplugins/dev\nplugins/doubt\nplugins/gmail\nplugins/google-calendar\nplugins/interactive-review\nplugins/kakaotalk\nplugins/say-summary\nplugins/session-wrap",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "User: \"summon the council - should I use TypeScript or JavaScript for my new project?\"\n```\n\n---",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.364176891010614
+  },
+  {
+    "name": "plugins-for-claude-natives/assets 模块",
+    "description": "[模块级] plugins-for-claude-natives 项目的 assets 模块 (source)。来源: https://github.com/team-attention/plugins-for-claude-natives",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-535",
+      "github-team-attention",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/agent-council.gif\n- assets/clarify.gif\n- assets/kakaotalk.gif\n- assets/say-summary.gif\n- assets/youtube-digest.jpeg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agent-council.gif\nassets/clarify.gif\nassets/kakaotalk.gif\nassets/say-summary.gif\nassets/youtube-digest.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5913415128084916
+  },
+  {
+    "name": "plugins-for-claude-natives/plugins 模块",
+    "description": "[模块级] plugins-for-claude-natives 项目的 plugins 模块 (source)。来源: https://github.com/team-attention/plugins-for-claude-natives",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-535",
+      "github-team-attention",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "A collection of Claude Code plugins for power users who want to extend Claude Code's capabilities beyond the defaults.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/agent-council\nplugins/agent-council/.claude-plugin\nplugins/agent-council/.claude-plugin/plugin.json\nplugins/agent-council/AGENTS.md\nplugins/agent-council/CLAUDE.md\nplugins/agent-council/README.ko.md\nplugins/agent-council/README.md\nplugins/agent-council/SKILL.md\nplugins/agent-council/bin\nplugins/agent-council/bin/install.js\nplugins/agent-council/council.config.yaml\nplugins/agent-council/package.json\nplugins/agent-council/scripts\nplugins/agent-council/scripts/council-job-worker.js\nplugins/agent-council/scripts/council-job.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5913415128084916
+  }
+]

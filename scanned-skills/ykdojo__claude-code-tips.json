@@ -1,0 +1,198 @@
+[
+  {
+    "name": "claude-code-tips (ykdojo)",
+    "description": "[项目级] 45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "javascript",
+      "stars-3009",
+      "github-ykdojo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "find ~/.claude/projects/-Users-yk-Desktop-projects-*/*.jsonl -mtime 0 -exec grep -l -i \"keyword\" {} \\;",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "claude plugin marketplace add ykdojo/claude-code-tips\nclaude plugin install dx@ykdojo",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nGLOBAL-CLAUDE.md\nLICENSE\nREADME.md\nassets\nassets/breakdown-direct.png\nassets/breakdown-steps.png\nassets/context-patched.png\nassets/context-unpatched.png\nassets/demo-thumbnail.png\nassets/git-worktrees.png\nassets/keep-it-simple-meme.jpg\nassets/manual-exponential-backoff.png\nassets/multitasking-terminal-tabs.png\nassets/vibe-coding-spectrum.png\nassets/voice-transcription-mistakes.png\nassets/writing-assistant-side-by-side.png\ncontent\ncontent/10-tips-for-newer-users.md\ncontent/5-new-tips.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Current session\n █████████▌                                         19% used\n Resets 12:59am (America/Vancouver)\n\n Current week (all models)\n █████████████████████▌                             43% used\n Resets Feb 3 at 1:59pm (America/Vancouver)\n\n Current week (Sonnet only)\n ███████████████████▌                               39% used\n Resets 8:59am (America/Vancouver)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.73921109387004
+  },
+  {
+    "name": "claude-code-tips/assets 模块",
+    "description": "[模块级] claude-code-tips 项目的 assets 模块 (source)。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/breakdown-direct.png\n- assets/breakdown-steps.png\n- assets/context-patched.png\n- assets/context-unpatched.png\n- assets/demo-thumbnail.png\n- assets/git-worktrees.png\n- assets/keep-it-simple-meme.jpg\n- assets/manual-exponential-backoff.png\n- assets/multitasking-terminal-tabs.png\n- assets/vibe-coding-spectrum.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/breakdown-direct.png\nassets/breakdown-steps.png\nassets/context-patched.png\nassets/context-unpatched.png\nassets/demo-thumbnail.png\nassets/git-worktrees.png\nassets/keep-it-simple-meme.jpg\nassets/manual-exponential-backoff.png\nassets/multitasking-terminal-tabs.png\nassets/vibe-coding-spectrum.png\nassets/voice-transcription-mistakes.png\nassets/writing-assistant-side-by-side.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891368875096032
+  },
+  {
+    "name": "claude-code-tips/content 模块",
+    "description": "[模块级] claude-code-tips 项目的 content 模块 (source)。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "content"
+    ],
+    "genes": [
+      {
+        "title": "content 模块说明",
+        "content": "- [Tip 0: Customize your status line](#tip-0-customize-your-status-line)\n- [Tip 1: Learn a few essential slash commands](#tip-1-learn-a-few-essential-slash-commands)\n- [Tip 2: Talk to Claude Code with your voice](#tip-2-talk-to-claude-code-with-your-voice)\n- [Tip 3: Break down large problems into smaller ones](#tip-3-break-down-large-problems-into-smaller-ones)\n- [Tip 4: Using Git and GitHub CLI like a pro](#tip-4-using-git-and-github-cli-like-a-pro)\n- [Tip 5: AI context is like milk; it's best ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "content 文件结构",
+        "content": "content/10-tips-for-newer-users.md\ncontent/5-new-tips.md\ncontent/50-shades-of-agentic-coding.jpeg\ncontent/boris-claude-code-tips.md\ncontent/dx-submissions.md\ncontent/how-i-got-a-job-with-claude-code.md\ncontent/how-i-saved-10k-with-claude-code.md\ncontent/librarian2-pr-screenshot.png\ncontent/midwit-meme.png\ncontent/qr-eventual.png\ncontent/qr-github.png\ncontent/qr-linkedin.png\ncontent/spectrum-chart.png\ncontent/spectrum-of-agentic-coding.md\ncontent/spectrum-slides.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891368875096032
+  },
+  {
+    "name": "claude-code-tips/scripts 模块",
+    "description": "[模块级] claude-code-tips 项目的 scripts 模块 (script)。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "Both clone scripts need to read `~/.claude` (for conversation files and history). To avoid permission prompts from any project, add this to your global settings (`~/.claude/settings.json`):\n```json\n{\n  \"permissions\": {\n    \"allow\": [\"Read(~/.claude)\"]\n  }\n}\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/README.md\nscripts/check-context.sh\nscripts/clone-conversation.sh\nscripts/color-preview.png\nscripts/color-preview.sh\nscripts/context-bar.sh\nscripts/generate-toc.js\nscripts/half-clone-conversation.sh\nscripts/setup.sh\nscripts/test-half-clone.sh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "scripts 代码示例",
+        "content": "{\n  \"permissions\": {\n    \"allow\": [\"Read(~/.claude)\"]\n  }\n}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891368875096032
+  },
+  {
+    "name": "claude-code-tips/skills 模块",
+    "description": "[模块级] claude-code-tips 项目的 skills 模块 (source)。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "These are somewhat similar features and I initially found them pretty confusing. I've been unpacking them and trying my best to wrap my head around them, so I wanted to share what I learned.\n\n**CLAUDE.md** is the simplest one. It's a bunch of files that get treated as the default prompt, loaded into the beginning of every conversation no matter what. The nice thing about it is the simplicity. You can explain what the project is about in a particular project (`./CLAUDE.md`) or globally (`~/.claud",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/clone\nskills/clone/SKILL.md\nskills/gha\nskills/gha/SKILL.md\nskills/half-clone\nskills/half-clone/SKILL.md\nskills/handoff\nskills/handoff/SKILL.md\nskills/reddit-fetch\nskills/reddit-fetch/SKILL.md\nskills/review-claudemd\nskills/review-claudemd/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891368875096032
+  },
+  {
+    "name": "claude-code-tips/system-prompt 模块",
+    "description": "[模块级] claude-code-tips 项目的 system-prompt 模块 (source)。来源: https://github.com/ykdojo/claude-code-tips",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "system-prompt"
+    ],
+    "genes": [
+      {
+        "title": "system-prompt 模块说明",
+        "content": "模块路径: system-prompt/\n类型: source\n文件数: 134\n\n包含文件:\n- system-prompt/.gitignore\n- system-prompt/2.0.70\n- system-prompt/2.0.70/backup-cli.sh\n- system-prompt/2.0.70/patch-cli.js\n- system-prompt/2.0.70/patches\n- system-prompt/2.0.70/patches/allowed-tools.find.txt\n- system-prompt/2.0.70/patches/allowed-tools.replace.txt\n- system-prompt/2.0.70/patches/askuserquestion.find.txt\n- system-prompt/2.0.70/patches/askuserquestion.replace.txt\n- system-prompt/2.0.70/patches/bash-tool.find.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "system-prompt 文件结构",
+        "content": "system-prompt/.gitignore\nsystem-prompt/2.0.70\nsystem-prompt/2.0.70/backup-cli.sh\nsystem-prompt/2.0.70/patch-cli.js\nsystem-prompt/2.0.70/patches\nsystem-prompt/2.0.70/patches/allowed-tools.find.txt\nsystem-prompt/2.0.70/patches/allowed-tools.replace.txt\nsystem-prompt/2.0.70/patches/askuserquestion.find.txt\nsystem-prompt/2.0.70/patches/askuserquestion.replace.txt\nsystem-prompt/2.0.70/patches/bash-tool.find.txt\nsystem-prompt/2.0.70/patches/bash-tool.replace.txt\nsystem-prompt/2.0.70/patches/bashoutput.find.txt\nsystem-prompt/2.0.70/patches/bashoutput.replace.txt\nsystem-prompt/2.0.70/patches/code-references.find.txt\nsystem-prompt/2.0.70/patches/code-references.replace.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891368875096032
+  }
+]

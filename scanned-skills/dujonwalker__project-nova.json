@@ -1,0 +1,122 @@
+[
+  {
+    "name": "project-nova (dujonwalker)",
+    "description": "[项目级] A multi-agent AI architecture that connects 25+ specialized agents through n8n and MCP servers. Project NOVA routes requests to domain-specific experts, enabling control of applications from knowledge bases to DAWs, home automation to development tools. Includes system prompts, Dockerfiles, and workflows for a complete AI assistant ecosystem.。来源: https://github.com/dujonwalker/project-nova",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-254",
+      "github-dujonwalker",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Project NOVA uses a sophisticated hub-and-spoke architecture with conversation intelligence:\n\n![Architecture Diagram](https://github.com/dujonwalker/project-nova/blob/main/screenshots/architecture.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagents\nagents/ableton-copilot.md\nagents/blinko-agent.md\nagents/bookstack-agent.md\nagents/cli-server-agent.md\nagents/fetch-agent.md\nagents/flowise-agent.md\nagents/forgejo-agent.md\nagents/gitea-agent.md\nagents/home-assistant-agent.md\nagents/karakeep-agent.md\nagents/langfuse-agent.md\nagents/memos-agent.md\nagents/obs-agent.md\nagents/onlyoffice-agent.md\nagents/outline-agent.md\nagents/paperless-agent.md\nagents/prometheus-agent.md\nagents/puppeteer-agent.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Centralized AI Assistant Hub**: Route requests to 25+ specialized agents through an intelligent router\n- **Conversation-Aware Intelligence**: Maintains context across interactions with advanced conversation history processing\n- **OpenWebUI Integration**: Modern chat interface with conversation persistence and enhanced user experience\n- **Domain-Specific Capabilities**: Knowledge management, development tools, media production, home automation, and more\n- **Self-Hosted & Privacy-Focused**: Run everything locally with open-source components\n- **Containerized Architecture**: Easy deployment w",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.202416858309969
+  },
+  {
+    "name": "project-nova/agents 模块",
+    "description": "[模块级] project-nova 项目的 agents 模块 (source)。来源: https://github.com/dujonwalker/project-nova",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-254",
+      "github-dujonwalker",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "Project NOVA (Networked Orchestration of Virtual Agents) is a comprehensive, self-hosted AI assistant ecosystem that leverages n8n workflows, LLMs, and 25+ specialized Model Context Protocol (MCP) servers to create a powerful, extensible agent system capable of controlling both digital environments and physical devices in your home.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/ableton-copilot.md\nagents/blinko-agent.md\nagents/bookstack-agent.md\nagents/cli-server-agent.md\nagents/fetch-agent.md\nagents/flowise-agent.md\nagents/forgejo-agent.md\nagents/gitea-agent.md\nagents/home-assistant-agent.md\nagents/karakeep-agent.md\nagents/langfuse-agent.md\nagents/memos-agent.md\nagents/obs-agent.md\nagents/onlyoffice-agent.md\nagents/outline-agent.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "project-nova/mcp-server-dockerfiles 模块",
+    "description": "[模块级] project-nova 项目的 mcp-server-dockerfiles 模块 (source)。来源: https://github.com/dujonwalker/project-nova",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-254",
+      "github-dujonwalker",
+      "module-level",
+      "source",
+      "mcp-server-dockerfiles"
+    ],
+    "genes": [
+      {
+        "title": "mcp-server-dockerfiles 模块说明",
+        "content": "模块路径: mcp-server-dockerfiles/\n类型: source\n文件数: 148\n\n包含文件:\n- mcp-server-dockerfiles/ableton-copilot-mcp\n- mcp-server-dockerfiles/ableton-copilot-mcp/.env\n- mcp-server-dockerfiles/ableton-copilot-mcp/Dockerfile\n- mcp-server-dockerfiles/ableton-copilot-mcp/README.md\n- mcp-server-dockerfiles/ableton-copilot-mcp/docker-compose.yml\n- mcp-server-dockerfiles/ableton-copilot-mcp/start.sh\n- mcp-server-dockerfiles/bookstack-mcp\n- mcp-server-dockerfiles/bookstack-mcp/.env\n- mcp-server-dockerfiles/bookstack-mcp/Dockerfile\n- mcp-server-dockerfiles/bookstack-mcp/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mcp-server-dockerfiles 文件结构",
+        "content": "mcp-server-dockerfiles/ableton-copilot-mcp\nmcp-server-dockerfiles/ableton-copilot-mcp/.env\nmcp-server-dockerfiles/ableton-copilot-mcp/Dockerfile\nmcp-server-dockerfiles/ableton-copilot-mcp/README.md\nmcp-server-dockerfiles/ableton-copilot-mcp/docker-compose.yml\nmcp-server-dockerfiles/ableton-copilot-mcp/start.sh\nmcp-server-dockerfiles/bookstack-mcp\nmcp-server-dockerfiles/bookstack-mcp/.env\nmcp-server-dockerfiles/bookstack-mcp/Dockerfile\nmcp-server-dockerfiles/bookstack-mcp/README.md\nmcp-server-dockerfiles/bookstack-mcp/docker-compose.yml\nmcp-server-dockerfiles/bookstack-mcp/start.sh\nmcp-server-dockerfiles/cli-server-mcp\nmcp-server-dockerfiles/cli-server-mcp/.env\nmcp-server-dockerfiles/cli-server-mcp/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  },
+  {
+    "name": "project-nova/n8n-workflows 模块",
+    "description": "[模块级] project-nova 项目的 n8n-workflows 模块 (source)。来源: https://github.com/dujonwalker/project-nova",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-254",
+      "github-dujonwalker",
+      "module-level",
+      "source",
+      "n8n-workflows"
+    ],
+    "genes": [
+      {
+        "title": "n8n-workflows 模块说明",
+        "content": "模块路径: n8n-workflows/\n类型: source\n文件数: 22\n\n包含文件:\n- n8n-workflows/ableton_copilot.json\n- n8n-workflows/blinko_agent.json\n- n8n-workflows/bookstack_agent.json\n- n8n-workflows/cli_server_agent.json\n- n8n-workflows/fetch_agent.json\n- n8n-workflows/flowise_agent.json\n- n8n-workflows/forgejo_agent.json\n- n8n-workflows/gitea_agent.json\n- n8n-workflows/home_assistant_agent.json\n- n8n-workflows/karakeep_agent.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "n8n-workflows 文件结构",
+        "content": "n8n-workflows/ableton_copilot.json\nn8n-workflows/blinko_agent.json\nn8n-workflows/bookstack_agent.json\nn8n-workflows/cli_server_agent.json\nn8n-workflows/fetch_agent.json\nn8n-workflows/flowise_agent.json\nn8n-workflows/forgejo_agent.json\nn8n-workflows/gitea_agent.json\nn8n-workflows/home_assistant_agent.json\nn8n-workflows/karakeep_agent.json\nn8n-workflows/langfuse_agent.json\nn8n-workflows/memos_agent.json\nn8n-workflows/obs_agent.json\nn8n-workflows/onlyoffice_agent.json\nn8n-workflows/outline_agent.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4619334866479754
+  }
+]

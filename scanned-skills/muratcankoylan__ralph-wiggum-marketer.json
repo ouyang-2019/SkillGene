@@ -1,0 +1,173 @@
+[
+  {
+    "name": "ralph-wiggum-marketer (muratcankoylan)",
+    "description": "[项目级] A Claude Code Plugin that provides an autonomous AI copywriter.。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code Plugin that provides an autonomous AI copywriter.\n\n来源: https://github.com/muratcankoylan/ralph-wiggum-marketer\n语言: JavaScript\nStars: 634",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nREADME.md\ncommands\ncommands/ralph-cancel.md\ncommands/ralph-init.md\ncommands/ralph-marketer.md\ncommands/ralph-status.md\nhooks\nhooks/hooks.json\nhooks/stop-hook.sh\npackage-lock.json\npackage.json\nscripts\nscripts/src\nskills\nskills/copywriter\ntemplates\ntemplates/package.json\ntemplates/prd.json\ntemplates/progress.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.401044628940866
+  },
+  {
+    "name": "ralph-wiggum-marketer/commands 模块",
+    "description": "[模块级] ralph-wiggum-marketer 项目的 commands 模块 (source)。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "| Command | Description |\n|---------|-------------|\n| `/ralph-init` | Initialize a new content project in current directory |\n| `/ralph-marketer` | Start the autonomous copywriter loop |\n| `/ralph-status` | Check content pipeline and progress |\n| `/ralph-cancel` | Cancel the active loop |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/ralph-cancel.md\ncommands/ralph-init.md\ncommands/ralph-marketer.md\ncommands/ralph-status.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.620835703152693
+  },
+  {
+    "name": "ralph-wiggum-marketer/hooks 模块",
+    "description": "[模块级] ralph-wiggum-marketer 项目的 hooks 模块 (source)。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "module-level",
+      "source",
+      "hooks"
+    ],
+    "genes": [
+      {
+        "title": "hooks 模块说明",
+        "content": "模块路径: hooks/\n类型: source\n文件数: 2\n\n包含文件:\n- hooks/hooks.json\n- hooks/stop-hook.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hooks 文件结构",
+        "content": "hooks/hooks.json\nhooks/stop-hook.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.620835703152693
+  },
+  {
+    "name": "ralph-wiggum-marketer/scripts 模块",
+    "description": "[模块级] ralph-wiggum-marketer 项目的 scripts 模块 (script)。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 9\n\n包含文件:\n- scripts/src\n- scripts/src/content\n- scripts/src/content/list.js\n- scripts/src/db\n- scripts/src/db/init.js\n- scripts/src/db/query.js\n- scripts/src/db/seed.js\n- scripts/src/db/status.js\n- scripts/src/test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/src\nscripts/src/content\nscripts/src/content/list.js\nscripts/src/db\nscripts/src/db/init.js\nscripts/src/db/query.js\nscripts/src/db/seed.js\nscripts/src/db/status.js\nscripts/src/test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.620835703152693
+  },
+  {
+    "name": "ralph-wiggum-marketer/skills 模块",
+    "description": "[模块级] ralph-wiggum-marketer 项目的 skills 模块 (source)。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 2\n\n包含文件:\n- skills/copywriter\n- skills/copywriter/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/copywriter\nskills/copywriter/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.620835703152693
+  },
+  {
+    "name": "ralph-wiggum-marketer/templates 模块",
+    "description": "[模块级] ralph-wiggum-marketer 项目的 templates 模块 (source)。来源: https://github.com/muratcankoylan/ralph-wiggum-marketer",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-634",
+      "github-muratcankoylan",
+      "module-level",
+      "source",
+      "templates"
+    ],
+    "genes": [
+      {
+        "title": "templates 模块说明",
+        "content": "模块路径: templates/\n类型: source\n文件数: 4\n\n包含文件:\n- templates/package.json\n- templates/prd.json\n- templates/progress.txt\n- templates/prompt.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "templates 文件结构",
+        "content": "templates/package.json\ntemplates/prd.json\ntemplates/progress.txt\ntemplates/prompt.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.620835703152693
+  }
+]

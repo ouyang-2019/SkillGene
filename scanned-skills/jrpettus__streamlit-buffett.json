@@ -1,0 +1,140 @@
+[
+  {
+    "name": "streamlit-buffett (jrpettus)",
+    "description": "[项目级] Snowflake LLM-based text to SQL and document retrieval in Streamlit。来源: https://github.com/jrpettus/streamlit-buffett",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-46",
+      "github-jrpettus",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Snowflake LLM-based text to SQL and document retrieval in Streamlit\n\n来源: https://github.com/jrpettus/streamlit-buffett\n语言: Python\nStars: 46",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\narchive\narchive/buffett_app_orig.py\nassets\nassets/blank.png\nassets/buffett-app-architecture.png\nbuffett_app.py\nfaiss_index\nfaiss_index/index.faiss\nfaiss_index/index.pkl\nletters\nletters/1997ltr.pdf\nletters/1998pdf.pdf\nletters/2000pdf.pdf\nletters/2001pdf.pdf\nletters/2002pdf.pdf\nletters/2003ltr.pdf\nletters/2004ltr.pdf\nletters/2005ltr.pdf\nletters/2006ltr.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.831378915840787
+  },
+  {
+    "name": "streamlit-buffett/assets 模块",
+    "description": "[模块级] streamlit-buffett 项目的 assets 模块 (source)。来源: https://github.com/jrpettus/streamlit-buffett",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-46",
+      "github-jrpettus",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/blank.png\n- assets/buffett-app-architecture.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/blank.png\nassets/buffett-app-architecture.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1651031326726295
+  },
+  {
+    "name": "streamlit-buffett/faiss_index 模块",
+    "description": "[模块级] streamlit-buffett 项目的 faiss_index 模块 (source)。来源: https://github.com/jrpettus/streamlit-buffett",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-46",
+      "github-jrpettus",
+      "module-level",
+      "source",
+      "faiss_index"
+    ],
+    "genes": [
+      {
+        "title": "faiss_index 模块说明",
+        "content": "模块路径: faiss_index/\n类型: source\n文件数: 2\n\n包含文件:\n- faiss_index/index.faiss\n- faiss_index/index.pkl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "faiss_index 文件结构",
+        "content": "faiss_index/index.faiss\nfaiss_index/index.pkl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1651031326726295
+  },
+  {
+    "name": "streamlit-buffett/letters 模块",
+    "description": "[模块级] streamlit-buffett 项目的 letters 模块 (source)。来源: https://github.com/jrpettus/streamlit-buffett",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-46",
+      "github-jrpettus",
+      "module-level",
+      "source",
+      "letters"
+    ],
+    "genes": [
+      {
+        "title": "letters 模块说明",
+        "content": "模块路径: letters/\n类型: source\n文件数: 46\n\n包含文件:\n- letters/1997ltr.pdf\n- letters/1998pdf.pdf\n- letters/2000pdf.pdf\n- letters/2001pdf.pdf\n- letters/2002pdf.pdf\n- letters/2003ltr.pdf\n- letters/2004ltr.pdf\n- letters/2005ltr.pdf\n- letters/2006ltr.pdf\n- letters/2007ltr.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "letters 文件结构",
+        "content": "letters/1997ltr.pdf\nletters/1998pdf.pdf\nletters/2000pdf.pdf\nletters/2001pdf.pdf\nletters/2002pdf.pdf\nletters/2003ltr.pdf\nletters/2004ltr.pdf\nletters/2005ltr.pdf\nletters/2006ltr.pdf\nletters/2007ltr.pdf\nletters/2008ltr.pdf\nletters/2009ltr.pdf\nletters/2010ltr.pdf\nletters/2011ltr.pdf\nletters/2012ltr.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1651031326726295
+  },
+  {
+    "name": "streamlit-buffett/load 模块",
+    "description": "[模块级] streamlit-buffett 项目的 load 模块 (source)。来源: https://github.com/jrpettus/streamlit-buffett",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-46",
+      "github-jrpettus",
+      "module-level",
+      "source",
+      "load"
+    ],
+    "genes": [
+      {
+        "title": "load 模块说明",
+        "content": "模块路径: load/\n类型: source\n文件数: 38\n\n包含文件:\n- load/create_ddl_embeddings.py\n- load/ddls.sql\n- load/financials\n- load/financials/balance_sheet_annual\n- load/financials/balance_sheet_annual/AAPL.csv\n- load/financials/balance_sheet_annual/AXP.csv\n- load/financials/balance_sheet_annual/BAC.csv\n- load/financials/balance_sheet_annual/BRK.A.csv\n- load/financials/balance_sheet_annual/JNJ.csv\n- load/financials/balance_sheet_annual/KO.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "load 文件结构",
+        "content": "load/create_ddl_embeddings.py\nload/ddls.sql\nload/financials\nload/financials/balance_sheet_annual\nload/financials/balance_sheet_annual/AAPL.csv\nload/financials/balance_sheet_annual/AXP.csv\nload/financials/balance_sheet_annual/BAC.csv\nload/financials/balance_sheet_annual/BRK.A.csv\nload/financials/balance_sheet_annual/JNJ.csv\nload/financials/balance_sheet_annual/KO.csv\nload/financials/balance_sheet_annual/MA.csv\nload/financials/balance_sheet_annual/MCO.csv\nload/financials/balance_sheet_annual/PG.csv\nload/financials/balance_sheet_annual/VZ.csv\nload/financials/cash_flow_statement_annual",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1651031326726295
+  }
+]

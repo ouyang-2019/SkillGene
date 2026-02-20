@@ -1,0 +1,108 @@
+[
+  {
+    "name": "PraisonAI (MervinPraison)",
+    "description": "[项目级] PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.。来源: https://github.com/MervinPraison/PraisonAI",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent-framework",
+      "ai-agent-sdk",
+      "ai-agents",
+      "python",
+      "stars-5593",
+      "github-mervinpraison",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "PraisonAI is a production-ready Multi AI Agents framework, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. It provides a low-code solution to streamline the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.\n\n来源: https://github.com/MervinPraison/PraisonAI\n语言: Python\nStars: 5593",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get started with PraisonAI in under 1 minute:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napi.md\ndocker\ndocker/.env.template\ndocker/Dockerfile\ndocker/Dockerfile.chat\ndocker/Dockerfile.dev\ndocker/Dockerfile.praisonaiagents\ndocker/Dockerfile.serve\ndocker/Dockerfile.ui\ndocker/README.md\ndocker/bots\ndocker/call\ndocker/docker-compose.dev.yml\ndocker/docker-compose.yml\ndocker/quick-start.sh\ndocker/services.yaml\ndocker/settings.yaml\nexamples",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**CLI Commands:**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details open>\n<summary><strong>🤖 Core Agents</strong></summary>\n\n| Feature | Code | Docs |\n|---------|:----:|:----:|\n| Single Agent | [Example](examples/python/agents/single-agent.py) | [📖](https://docs.praison.ai/agents/single) |\n| Multi Agents | [Example](examples/python/general/mini_agents_example.py) | [📖](https://docs.praison.ai/concepts/agents) |\n| Auto Agents | [Example](examples/python/general/auto_agents_example.py) | [📖](https://docs.praison.ai/features/autoagents) |\n| Self Reflection AI Agents | [Example](examples/python/concepts/self-reflection-details.py) | [📖](https://docs.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.873822409664124
+  },
+  {
+    "name": "PraisonAI/docker 模块",
+    "description": "[模块级] PraisonAI 项目的 docker 模块 (source)。来源: https://github.com/MervinPraison/PraisonAI",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent-framework",
+      "ai-agent-sdk",
+      "ai-agents",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 21\n\n包含文件:\n- docker/.env.template\n- docker/Dockerfile\n- docker/Dockerfile.chat\n- docker/Dockerfile.dev\n- docker/Dockerfile.praisonaiagents\n- docker/Dockerfile.serve\n- docker/Dockerfile.ui\n- docker/README.md\n- docker/bots\n- docker/bots/.env.template",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env.template\ndocker/Dockerfile\ndocker/Dockerfile.chat\ndocker/Dockerfile.dev\ndocker/Dockerfile.praisonaiagents\ndocker/Dockerfile.serve\ndocker/Dockerfile.ui\ndocker/README.md\ndocker/bots\ndocker/bots/.env.template\ndocker/bots/Dockerfile\ndocker/bots/README.md\ndocker/bots/docker-compose.yml\ndocker/call\ndocker/call/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9990579277312994
+  },
+  {
+    "name": "PraisonAI/examples 模块",
+    "description": "[模块级] PraisonAI 项目的 examples 模块 (example)。来源: https://github.com/MervinPraison/PraisonAI",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agent-framework",
+      "ai-agent-sdk",
+      "ai-agents",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/.gitignore\nexamples/README.md\nexamples/acp\nexamples/acp/README.md\nexamples/acp/basic_acp_server.py\nexamples/acp/custom_agent_acp.py\nexamples/agent_centric_api.py\nexamples/agent_tools\nexamples/agent_tools/agent_centric_example.py\nexamples/approval\nexamples/approval/README.md\nexamples/approval/agent_approval.py\nexamples/approval/discord_approval.py\nexamples/approval/http_approval.py\nexamples/approval/slack_approval.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9990579277312994
+  }
+]

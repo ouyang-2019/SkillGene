@@ -1,0 +1,117 @@
+[
+  {
+    "name": "kaguya (ykdojo)",
+    "description": "[项目级] A ChatGPT plugin that allows you to load and edit your local files in a controlled way, as well as run any Python, JavaScript, and bash script. (No longer active - check https://github.com/ykdojo/safeclaw/)。来源: https://github.com/ykdojo/kaguya",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-1194",
+      "github-ykdojo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A ChatGPT plugin that allows you to load and edit your local files in a controlled way, as well as run any Python, JavaScript, and bash script. (No longer active - check https://github.com/ykdojo/safeclaw/)\n\n来源: https://github.com/ykdojo/kaguya\n语言: JavaScript\nStars: 1194",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. Gain access to OpenAI's plugin devtools for ChatGPT [here](https://openai.com/waitlist/plugins)\n1. Install Docker and run it locally\n1. Clone this repo to your local environment\n1. Execute ```docker.sh``` script\n1. Setup localhost port 3000\n1. Interact with Kaguya through ChatGPT\n1. If you want Kaguya to be able to interact with your files, put them in the FILES folder.\n1. Note: Kaguya won't have access to files outside of its own directory.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nFILES\nFILES/sample.txt\nLICENSE\nREADME.md\ndocker.sh\nnext.config.js\npackage-lock.json\npackage.json\npages\npages/_app.js\npages/api-doc.js\npages/api\npages/index.js\npostcss.config.js\npublic\npublic/.well-known\npublic/favicon.ico\npublic/openapi.yaml\npublic/vercel.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.538502163396675
+  },
+  {
+    "name": "kaguya/pages 模块",
+    "description": "[模块级] kaguya 项目的 pages 模块 (source)。来源: https://github.com/ykdojo/kaguya",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-1194",
+      "github-ykdojo",
+      "module-level",
+      "source",
+      "pages"
+    ],
+    "genes": [
+      {
+        "title": "pages 模块说明",
+        "content": "模块路径: pages/\n类型: source\n文件数: 17\n\n包含文件:\n- pages/_app.js\n- pages/api-doc.js\n- pages/api\n- pages/api/appendToFile.js\n- pages/api/createDirectory.js\n- pages/api/createFile.js\n- pages/api/deleteDirectory.js\n- pages/api/deleteFile.js\n- pages/api/executeCommand.js\n- pages/api/listFilesInDirectory.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pages 文件结构",
+        "content": "pages/_app.js\npages/api-doc.js\npages/api\npages/api/appendToFile.js\npages/api/createDirectory.js\npages/api/createFile.js\npages/api/deleteDirectory.js\npages/api/deleteFile.js\npages/api/executeCommand.js\npages/api/listFilesInDirectory.js\npages/api/readFile.js\npages/api/readMultipleFiles.js\npages/api/renameFile.js\npages/api/update.js\npages/api/updateAll.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7308017307173404
+  },
+  {
+    "name": "kaguya/public 模块",
+    "description": "[模块级] kaguya 项目的 public 模块 (source)。来源: https://github.com/ykdojo/kaguya",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-1194",
+      "github-ykdojo",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 5\n\n包含文件:\n- public/.well-known\n- public/.well-known/ai-plugin.json\n- public/favicon.ico\n- public/openapi.yaml\n- public/vercel.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/.well-known\npublic/.well-known/ai-plugin.json\npublic/favicon.ico\npublic/openapi.yaml\npublic/vercel.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7308017307173404
+  },
+  {
+    "name": "kaguya/styles 模块",
+    "description": "[模块级] kaguya 项目的 styles 模块 (source)。来源: https://github.com/ykdojo/kaguya",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-1194",
+      "github-ykdojo",
+      "module-level",
+      "source",
+      "styles"
+    ],
+    "genes": [
+      {
+        "title": "styles 模块说明",
+        "content": "模块路径: styles/\n类型: source\n文件数: 3\n\n包含文件:\n- styles/Home.module.css\n- styles/globals.css\n- styles/swagger-ui-custom.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "styles 文件结构",
+        "content": "styles/Home.module.css\nstyles/globals.css\nstyles/swagger-ui-custom.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7308017307173404
+  }
+]

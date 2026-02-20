@@ -1,0 +1,77 @@
+[
+  {
+    "name": "openai-agents-js (openai)",
+    "description": "[项目级] A lightweight, powerful framework for multi-agent workflows and voice agents。来源: https://github.com/openai/openai-agents-js",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "openai",
+      "openai-api",
+      "realtime-api",
+      "typescript",
+      "stars-2306",
+      "github-openai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A lightweight, powerful framework for multi-agent workflows and voice agents\n\n来源: https://github.com/openai/openai-agents-js\n语言: TypeScript\nStars: 2306",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install @openai/agents zod",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE\nPLANS.md\nREADME.md\nSECURITY.md\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/astro.config.mjs\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import { Agent, run } from '@openai/agents';\n\nconst agent = new Agent({\n  name: 'Assistant',\n  instructions: 'You are a helpful assistant',\n});\n\nconst result = await run(\n  agent,\n  'Write a haiku about recursion in programming.',\n);\nconsole.log(result.finalOutput);\n// Code within the code,\n// Functions calling themselves,\n// Infinite loop's dance.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [x] **Multi-Agent Workflows**: Compose and orchestrate multiple agents in a single workflow.\n- [x] **Tool Integration**: Seamlessly call tools/functions from within agent responses.\n- [x] **Handoffs**: Transfer control between agents dynamically during a run.\n- [x] **Structured Outputs**: Support for both plain text and schema-validated structured outputs.\n- [x] **Streaming Responses**: Stream agent outputs and events in real time.\n- [x] **Tracing & Debugging**: Built-in tracing for visualizing and debugging agent runs.\n- [x] **Guardrails**: Input and output validation for safety and reliabi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.68142965147934
+  },
+  {
+    "name": "openai-agents-js/docs 模块",
+    "description": "[模块级] openai-agents-js 项目的 docs 模块 (docs)。来源: https://github.com/openai/openai-agents-js",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "openai",
+      "openai-api",
+      "realtime-api",
+      "typescript",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 119\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/astro.config.mjs\n- docs/package-lock.json\n- docs/package.json\n- docs/public\n- docs/public/favicon.svg\n- docs/src\n- docs/src/assets\n- docs/src/assets/dark-logo.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/astro.config.mjs\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/public/favicon.svg\ndocs/src\ndocs/src/assets\ndocs/src/assets/dark-logo.svg\ndocs/src/assets/dark-wordmark.svg\ndocs/src/assets/houston.webp\ndocs/src/assets/light-logo.svg\ndocs/src/assets/light-wordmark.svg\ndocs/src/components",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8451437211834723
+  }
+]

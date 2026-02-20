@@ -1,0 +1,98 @@
+[
+  {
+    "name": "open-semantic-search (opensemanticsearch)",
+    "description": "[项目级] Open Source research tool to search, browse, analyze and explore large document collections by Semantic Search Engine and Open Source Text Mining & Text Analytics platform (Integrates ETL for document processing, OCR for images & PDF, named entity recognition for persons, organizations & locations, metadata management by thesaurus & ontologies, search user interface & search apps for fulltext search, faceted search & knowledge graph)。来源: https://github.com/opensemanticsearch/open-semantic-search",
+    "domain": "general",
+    "tags": [
+      "annotation",
+      "faceted-search",
+      "fulltext-search",
+      "investigative-journalism",
+      "journalism",
+      "shell",
+      "stars-1132",
+      "github-opensemanticsearch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open Source research tool to search, browse, analyze and explore large document collections by Semantic Search Engine and Open Source Text Mining & Text Analytics platform (Integrates ETL for document processing, OCR for images & PDF, named entity recognition for persons, organizations & locations, metadata management by thesaurus & ontologies, search user interface & search apps for fulltext search, faceted search & knowledge graph)\n\n来源: https://github.com/opensemanticsearch/open-semantic-search\n语言: Shell\nStars: 1132",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Dependencies of tools and libraries, which are available in the Debian or Ubuntu package repositories, are defined in the section <code>Depends</code> of the deb package config file <code>[DEBIAN/control](DEBIAN/control)</code>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "DEBIAN\nDEBIAN/control\nDEBIAN/postinst\nDEBIAN/prerm\nDockerfile\nDockerfile-cron\nDockerfile-test\nLICENSE\nREADME.md\nbuild-deb\ndocker-compose.etl.test.yml\ndocker-compose.test.yml\ndocker-compose.yml\ndocker-entrypoint.sh\ndocs\ndocs/README.md\ndocs/connector\ndocs/dev\ndocs/doc\ndocs/download",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.526923213426127
+  },
+  {
+    "name": "open-semantic-search/DEBIAN 模块",
+    "description": "[模块级] open-semantic-search 项目的 DEBIAN 模块 (source)。来源: https://github.com/opensemanticsearch/open-semantic-search",
+    "domain": "general",
+    "tags": [
+      "annotation",
+      "faceted-search",
+      "fulltext-search",
+      "investigative-journalism",
+      "journalism",
+      "module-level",
+      "source",
+      "debian"
+    ],
+    "genes": [
+      {
+        "title": "DEBIAN 模块说明",
+        "content": "Dependencies of tools and libraries, which are available in the Debian or Ubuntu package repositories, are defined in the section <code>Depends</code> of the deb package config file <code>[DEBIAN/control](DEBIAN/control)</code>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "DEBIAN 文件结构",
+        "content": "DEBIAN/control\nDEBIAN/postinst\nDEBIAN/prerm",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7215385707409014
+  },
+  {
+    "name": "open-semantic-search/docs 模块",
+    "description": "[模块级] open-semantic-search 项目的 docs 模块 (docs)。来源: https://github.com/opensemanticsearch/open-semantic-search",
+    "domain": "documentation",
+    "tags": [
+      "annotation",
+      "faceted-search",
+      "fulltext-search",
+      "investigative-journalism",
+      "journalism",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 181\n\n包含文件:\n- docs/README.md\n- docs/connector\n- docs/connector/db\n- docs/connector/db/README.md\n- docs/connector/files\n- docs/connector/files/README.md\n- docs/connector/files/pdf\n- docs/connector/files/pdf/README.md\n- docs/connector/hypothesis\n- docs/connector/hypothesis/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/connector\ndocs/connector/db\ndocs/connector/db/README.md\ndocs/connector/files\ndocs/connector/files/README.md\ndocs/connector/files/pdf\ndocs/connector/files/pdf/README.md\ndocs/connector/hypothesis\ndocs/connector/hypothesis/README.md\ndocs/connector/rdf\ndocs/connector/rdf/README.md\ndocs/connector/rss\ndocs/connector/rss/README.md\ndocs/connector/scraper",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7215385707409014
+  }
+]

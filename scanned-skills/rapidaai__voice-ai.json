@@ -1,0 +1,73 @@
+[
+  {
+    "name": "voice-ai (rapidaai)",
+    "description": "[项目级] Rapida is an open-source, end-to-end voice AI orchestration platform for building real-time conversational voice agents with audio streaming, STT, TTS, VAD, multi-channel integration, agent state management, and observability.。来源: https://github.com/rapidaai/voice-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-framework",
+      "ai-voice",
+      "ai-voice-agent",
+      "audio-streaming",
+      "golang",
+      "go",
+      "stars-612",
+      "github-rapidaai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Rapida is an open-source, end-to-end voice AI orchestration platform for building real-time conversational voice agents with audio streaming, STT, TTS, VAD, multi-channel integration, agent state management, and observability.\n\n来源: https://github.com/rapidaai/voice-ai\n语言: Go\nStars: 612",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get all services running in 4 commands:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BIDIRECTIONAL_STREAMING_GUIDE.md\nCONTRIBUTING.md\nLICENSE.md\nMakefile\nREADME.md\nSECURITY.md\namplify.yml\napi\napi/README.md\napi/assistant-api",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Real-time Voice Orchestration**  \n  Stream and process audio with low latency using GRPC.\n\n- **LLM-Agnostic Architecture**  \n  Bring your own model—OpenAI, Anthropic, open-source models, or custom inference.\n\n- **Production-grade Reliability**  \n  Built-in retries, error handling, call lifecycle management, and health checks.\n\n- **Full Observability**  \n  Call logs, streaming events, tool traces, latency breakdowns, metrics, and dashboards.\n\n- **Flexible Tooling System**  \n  Build custom tools and actions for your agents, or integrate with any backend.\n\n- **Developer-friendly**  \n  Clear A",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.393375711072781
+  },
+  {
+    "name": "voice-ai/api 模块",
+    "description": "[模块级] voice-ai 项目的 api 模块 (source)。来源: https://github.com/rapidaai/voice-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-framework",
+      "ai-voice",
+      "ai-voice-agent",
+      "audio-streaming",
+      "golang",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "[Rapida](https://rapida.ai) is an open-source platform for designing, building, and deploying voice agents at scale.  \nIt’s built around three core principles:\n\n- **Reliable** — designed for production workloads, real-time audio, and fault-tolerant execution\n- **Observable** — deep visibility into calls, latency, metrics, and tool usage\n- **Customizable** — flexible architecture that adapts to any LLM, workflow, or enterprise stack\n\nRapida provides both a **platform** and a **framework** for bui",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/README.md\napi/assistant-api\napi/assistant-api/api\napi/assistant-api/api/assistant-deployment\napi/assistant-api/api/assistant-deployment/assistant_deployment.go\napi/assistant-api/api/assistant-deployment/create_assistant_api_deployment.go\napi/assistant-api/api/assistant-deployment/create_assistant_debugger_deployment.go\napi/assistant-api/api/assistant-deployment/create_assistant_phone_deployment.go\napi/assistant-api/api/assistant-deployment/create_assistant_webplugin_deployment.go\napi/assistant-api/api/assistant-deployment/create_assistant_whatsapp_deployment.go\napi/assistant-api/api/assistant-deployment/get_assistant_api_deployment.go\napi/assistant-api/api/assistant-deployment/get_assistant_debugger_deployment.go\napi/assistant-api/api/assistant-deployment/get_assistant_phone_deployment.go\napi/assistant-api/api/assistant-deployment/get_assistant_webplugin_deployment.go\napi/assistant-api/api/assistant-deployment/get_assistant_whatsapp_deployment.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6147005688582245
+  }
+]

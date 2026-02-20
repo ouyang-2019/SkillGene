@@ -1,0 +1,98 @@
+[
+  {
+    "name": "CapsE (daiquocnguyen)",
+    "description": "[项目级] A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization (NAACL 2019)。来源: https://github.com/daiquocnguyen/CapsE",
+    "domain": "devops",
+    "tags": [
+      "capsule-network",
+      "capsule-neural-networks",
+      "knowledge-base",
+      "knowledge-base-completion",
+      "knowledge-base-embeddings",
+      "python",
+      "stars-146",
+      "github-daiquocnguyen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization (NAACL 2019)\n\n来源: https://github.com/daiquocnguyen/CapsE\n语言: Python\nStars: 146",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CapsE.png\nCapsE.py\nCapsE_SEARCH17.py\nLICENSE\nREADME.md\nbatching_softplus.py\nbuilddata_ecir.py\nbuilddata_softplus.py\ncapse_logo.png\ncapsuleLayer.py\ncapsuleNet.py\ncapsuleNet_SEARCH17.py\ncommand.sh\ndata\ndata/FB15k-237\ndata/SEARCH17\ndata/WN18RR\nevalCapsE.py\nruns_CapsE\nruns_CapsE/fb15k237",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.082176427892218
+  },
+  {
+    "name": "CapsE/data 模块",
+    "description": "[模块级] CapsE 项目的 data 模块 (source)。来源: https://github.com/daiquocnguyen/CapsE",
+    "domain": "devops",
+    "tags": [
+      "capsule-network",
+      "capsule-neural-networks",
+      "knowledge-base",
+      "knowledge-base-completion",
+      "knowledge-base-embeddings",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 23\n\n包含文件:\n- data/FB15k-237\n- data/FB15k-237/entity2id.txt\n- data/FB15k-237/entity2vec100.init\n- data/FB15k-237/relation2id.txt\n- data/FB15k-237/relation2vec100.init\n- data/FB15k-237/test.txt\n- data/FB15k-237/train.txt\n- data/FB15k-237/valid.txt\n- data/SEARCH17\n- data/SEARCH17/doc2vec.200.zip",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/FB15k-237\ndata/FB15k-237/entity2id.txt\ndata/FB15k-237/entity2vec100.init\ndata/FB15k-237/relation2id.txt\ndata/FB15k-237/relation2vec100.init\ndata/FB15k-237/test.txt\ndata/FB15k-237/train.txt\ndata/FB15k-237/valid.txt\ndata/SEARCH17\ndata/SEARCH17/doc2vec.200.zip\ndata/SEARCH17/query2vec.200.init\ndata/SEARCH17/sample_dev.200.txt\ndata/SEARCH17/sample_test.200.txt\ndata/SEARCH17/sample_train.200.txt\ndata/SEARCH17/user2vec.200.init",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.365741142313775
+  },
+  {
+    "name": "CapsE/runs_CapsE 模块",
+    "description": "[模块级] CapsE 项目的 runs_CapsE 模块 (source)。来源: https://github.com/daiquocnguyen/CapsE",
+    "domain": "devops",
+    "tags": [
+      "capsule-network",
+      "capsule-neural-networks",
+      "knowledge-base",
+      "knowledge-base-completion",
+      "knowledge-base-embeddings",
+      "module-level",
+      "source",
+      "runs_capse"
+    ],
+    "genes": [
+      {
+        "title": "runs_CapsE 模块说明",
+        "content": "模块路径: runs_CapsE/\n类型: source\n文件数: 26\n\n包含文件:\n- runs_CapsE/fb15k237\n- runs_CapsE/fb15k237/checkpoints\n- runs_CapsE/fb15k237/checkpoints/model-50.data-00000-of-00001\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.0.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.1.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.2.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.3.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.4.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.5.txt\n- runs_CapsE/fb15k237/checkpoints/model-50.eval.6.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "runs_CapsE 文件结构",
+        "content": "runs_CapsE/fb15k237\nruns_CapsE/fb15k237/checkpoints\nruns_CapsE/fb15k237/checkpoints/model-50.data-00000-of-00001\nruns_CapsE/fb15k237/checkpoints/model-50.eval.0.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.1.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.2.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.3.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.4.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.5.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.6.txt\nruns_CapsE/fb15k237/checkpoints/model-50.eval.7.txt\nruns_CapsE/fb15k237/checkpoints/model-50.index\nruns_CapsE/fb15k237/checkpoints/model-50.meta\nruns_CapsE/wn18rr\nruns_CapsE/wn18rr/checkpoints",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.365741142313775
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "continue (continuedev)",
+    "description": "[项目级] ⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI。来源: https://github.com/continuedev/continue",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cli",
+      "cloud-agents",
+      "typescript",
+      "stars-31454",
+      "github-continuedev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI\n\n来源: https://github.com/continuedev/continue\n语言: TypeScript\nStars: 31454",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Help me write checks for this codebase: https://continue.dev/walkthrough",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLA.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nactions\nactions/README.md\nactions/general-review\nbinary\nbinary/.continueignore\nbinary/.gitignore\nbinary/.idea\nbinary/README.md\nbinary/build.js\nbinary/core-dev-server.js\nbinary/importMetaUrl.js\nbinary/jest.config.js\nbinary/package-lock.json\nbinary/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "continue/actions 模块",
+    "description": "[模块级] continue 项目的 actions 模块 (source)。来源: https://github.com/continuedev/continue",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cli",
+      "cloud-agents",
+      "module-level",
+      "source",
+      "actions"
+    ],
+    "genes": [
+      {
+        "title": "actions 模块说明",
+        "content": "模块路径: actions/\n类型: source\n文件数: 6\n\n包含文件:\n- actions/README.md\n- actions/general-review\n- actions/general-review/action.yml\n- actions/general-review/scripts\n- actions/general-review/scripts/buildPrompt.js\n- actions/general-review/scripts/writeMarkdown.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "actions 文件结构",
+        "content": "actions/README.md\nactions/general-review\nactions/general-review/action.yml\nactions/general-review/scripts\nactions/general-review/scripts/buildPrompt.js\nactions/general-review/scripts/writeMarkdown.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2990703529804275
+  },
+  {
+    "name": "continue/binary 模块",
+    "description": "[模块级] continue 项目的 binary 模块 (source)。来源: https://github.com/continuedev/continue",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cli",
+      "cloud-agents",
+      "module-level",
+      "source",
+      "binary"
+    ],
+    "genes": [
+      {
+        "title": "binary 模块说明",
+        "content": "模块路径: binary/\n类型: source\n文件数: 38\n\n包含文件:\n- binary/.continueignore\n- binary/.gitignore\n- binary/.idea\n- binary/.idea/vcs.xml\n- binary/README.md\n- binary/build.js\n- binary/core-dev-server.js\n- binary/importMetaUrl.js\n- binary/jest.config.js\n- binary/package-lock.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "binary 文件结构",
+        "content": "binary/.continueignore\nbinary/.gitignore\nbinary/.idea\nbinary/.idea/vcs.xml\nbinary/README.md\nbinary/build.js\nbinary/core-dev-server.js\nbinary/importMetaUrl.js\nbinary/jest.config.js\nbinary/package-lock.json\nbinary/package.json\nbinary/pkgJson\nbinary/pkgJson/darwin-arm64\nbinary/pkgJson/darwin-arm64/package.json\nbinary/pkgJson/darwin-x64",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2990703529804275
+  },
+  {
+    "name": "continue/core 模块",
+    "description": "[模块级] continue 项目的 core 模块 (source)。来源: https://github.com/continuedev/continue",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "claude",
+      "cli",
+      "cloud-agents",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 6\n\n包含文件:\n- core/.eslintrc.json\n- core/.gitignore\n- core/.npmignore\n- core/.vscode\n- core/.vscode/launch.json\n- core/__mocks__",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/.eslintrc.json\ncore/.gitignore\ncore/.npmignore\ncore/.vscode\ncore/.vscode/launch.json\ncore/__mocks__",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2990703529804275
+  }
+]

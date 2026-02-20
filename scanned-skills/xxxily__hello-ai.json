@@ -1,0 +1,153 @@
+[
+  {
+    "name": "hello-ai (xxxily)",
+    "description": "[项目级] It's not AI that takes away your job, but the people who master the use of AI tools. The most deadly attack is a dimension-reducing strike: destroying you has nothing to do with you - from \"The Three-Body Problem\".         中文说明： 抢走你工作的不是AI，而是掌握使用AI工具的人。 降维打击最为致命：毁灭你，与你何干《三体》。来源: https://github.com/xxxily/hello-ai",
+    "domain": "devops",
+    "tags": [
+      "agi",
+      "ai",
+      "aigc",
+      "chatgpt",
+      "claude-3",
+      "javascript",
+      "stars-1254",
+      "github-xxxily",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Aiming to connect oneself and others to the vast world of AI, this project was created with just that intention in mind.\n\nAs one of the forerunners in the advent of AI, during the peak popularity of [ChatGPT](https://chat.openai.com/), this initiative provided a series of public AI services, helping some people connect to the world of AI. Time flies, and nowadays, AI is everywhere, and the public services offered have stopped for various reasons. However, the original intention of this project remains. If you're tired of dealing with domestic services that are just shells, sporadically operational, or vanish without a trace, this site may still offer you some assistance.\n\nThe project provides AI-related resources, including but not limited to:\n\n- [ChatGPT in Chinese: A Guide](./home/chatgp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README-zh.md\nREADME.md\nassets\nassets/img\ndocs\ndocs/404.html\ndocs/CNAME\ndocs/README-zh.html\ndocs/README.html\ndocs/assets\ndocs/hashmap.json\ndocs/home\ndocs/index.html\nhome\nhome/.DS_Store\nhome/FreeChatGPTSiteList.md\nhome/airport.md\nhome/awesome-open-gpt.md\nhome/books.md\nhome/buy.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.549148768247349
+  },
+  {
+    "name": "hello-ai/assets 模块",
+    "description": "[模块级] hello-ai 项目的 assets 模块 (source)。来源: https://github.com/xxxily/hello-ai",
+    "domain": "devops",
+    "tags": [
+      "agi",
+      "ai",
+      "aigc",
+      "chatgpt",
+      "claude-3",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 15\n\n包含文件:\n- assets/img\n- assets/img/WeChat.jpg\n- assets/img/WeChat.png\n- assets/img/WeChat2.png\n- assets/img/airport.webp\n- assets/img/donate.png\n- assets/img/logo.png\n- assets/img/qun.jpeg\n- assets/img/qun2.jpeg\n- assets/img/qun3.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/img\nassets/img/WeChat.jpg\nassets/img/WeChat.png\nassets/img/WeChat2.png\nassets/img/airport.webp\nassets/img/donate.png\nassets/img/logo.png\nassets/img/qun.jpeg\nassets/img/qun2.jpeg\nassets/img/qun3.jpg\nassets/img/qun4.jpeg\nassets/img/qun5.jpeg\nassets/img/qun6.jpeg\nassets/img/tg_qun.jpg\nassets/img/wechat2.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "hello-ai/docs 模块",
+    "description": "[模块级] hello-ai 项目的 docs 模块 (docs)。来源: https://github.com/xxxily/hello-ai",
+    "domain": "documentation",
+    "tags": [
+      "agi",
+      "ai",
+      "aigc",
+      "chatgpt",
+      "claude-3",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 72\n\n包含文件:\n- docs/404.html\n- docs/CNAME\n- docs/README-zh.html\n- docs/README.html\n- docs/assets\n- docs/assets/README-zh.md.98a2858b.js\n- docs/assets/README-zh.md.98a2858b.lean.js\n- docs/assets/README.md.d51bb4bf.js\n- docs/assets/README.md.d51bb4bf.lean.js\n- docs/assets/WeChat2.c5f856c3.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/404.html\ndocs/CNAME\ndocs/README-zh.html\ndocs/README.html\ndocs/assets\ndocs/assets/README-zh.md.98a2858b.js\ndocs/assets/README-zh.md.98a2858b.lean.js\ndocs/assets/README.md.d51bb4bf.js\ndocs/assets/README.md.d51bb4bf.lean.js\ndocs/assets/WeChat2.c5f856c3.png\ndocs/assets/airport.aec53b24.webp\ndocs/assets/app.97748732.js\ndocs/assets/chunks\ndocs/assets/chunks/WeChat2.aad1f132.js\ndocs/assets/chunks/coze.cf087528.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "hello-ai/home 模块",
+    "description": "[模块级] hello-ai 项目的 home 模块 (source)。来源: https://github.com/xxxily/hello-ai",
+    "domain": "devops",
+    "tags": [
+      "agi",
+      "ai",
+      "aigc",
+      "chatgpt",
+      "claude-3",
+      "module-level",
+      "source",
+      "home"
+    ],
+    "genes": [
+      {
+        "title": "home 模块说明",
+        "content": "模块路径: home/\n类型: source\n文件数: 18\n\n包含文件:\n- home/.DS_Store\n- home/FreeChatGPTSiteList.md\n- home/airport.md\n- home/awesome-open-gpt.md\n- home/books.md\n- home/buy.md\n- home/chatgptPrompts.md\n- home/film.md\n- home/img\n- home/img/WeChat.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "home 文件结构",
+        "content": "home/.DS_Store\nhome/FreeChatGPTSiteList.md\nhome/airport.md\nhome/awesome-open-gpt.md\nhome/books.md\nhome/buy.md\nhome/chatgptPrompts.md\nhome/film.md\nhome/img\nhome/img/WeChat.jpg\nhome/img/WeChat.png\nhome/img/WeChat2.png\nhome/img/coze.png\nhome/img/donate.png\nhome/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  },
+  {
+    "name": "hello-ai/src 模块",
+    "description": "[模块级] hello-ai 项目的 src 模块 (source)。来源: https://github.com/xxxily/hello-ai",
+    "domain": "devops",
+    "tags": [
+      "agi",
+      "ai",
+      "aigc",
+      "chatgpt",
+      "claude-3",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/index.js\n- src/main.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/index.js\nsrc/main.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7393190145978794
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "agentsys (avifenesh)",
+    "description": "[项目级] AI writes code. This automates everything else · 13 plugins · 42 agents · 28 skills · for Claude Code, OpenCode, Codex.。来源: https://github.com/avifenesh/agentsys",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "javascript",
+      "stars-454",
+      "github-avifenesh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI writes code. This automates everything else · 13 plugins · 42 agents · 28 skills · for Claude Code, OpenCode, Codex.\n\n来源: https://github.com/avifenesh/agentsys\n语言: JavaScript\nStars: 454",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODEOWNERS\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\n__tests__\n__tests__/agent-skill-compliance.test.js\n__tests__/atomic-write.test.js\n__tests__/auto-suppression.test.js\n__tests__/bump-version.test.js\n__tests__/cache-manager.test.js\n__tests__/cli-args.test.js\n__tests__/cli-enhancers.test.js\n__tests__/collectors-extended.test.js\n__tests__/collectors-github-contract.test.js\n__tests__/collectors.test.js\n__tests__/command-parser.test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.328527926428552
+  },
+  {
+    "name": "agentsys/__tests__ 模块",
+    "description": "[模块级] agentsys 项目的 __tests__ 模块 (test)。来源: https://github.com/avifenesh/agentsys",
+    "domain": "testing",
+    "tags": [
+      "agents",
+      "ai",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "module-level",
+      "test",
+      "__tests__"
+    ],
+    "genes": [
+      {
+        "title": "__tests__ 模块说明",
+        "content": "模块路径: __tests__/\n类型: test\n文件数: 122\n\n包含文件:\n- __tests__/agent-skill-compliance.test.js\n- __tests__/atomic-write.test.js\n- __tests__/auto-suppression.test.js\n- __tests__/bump-version.test.js\n- __tests__/cache-manager.test.js\n- __tests__/cli-args.test.js\n- __tests__/cli-enhancers.test.js\n- __tests__/collectors-extended.test.js\n- __tests__/collectors-github-contract.test.js\n- __tests__/collectors.test.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "__tests__ 文件结构",
+        "content": "__tests__/agent-skill-compliance.test.js\n__tests__/atomic-write.test.js\n__tests__/auto-suppression.test.js\n__tests__/bump-version.test.js\n__tests__/cache-manager.test.js\n__tests__/cli-args.test.js\n__tests__/cli-enhancers.test.js\n__tests__/collectors-extended.test.js\n__tests__/collectors-github-contract.test.js\n__tests__/collectors.test.js\n__tests__/command-parser.test.js\n__tests__/config.test.js\n__tests__/consolidation-counts.test.js\n__tests__/consult-command.test.js\n__tests__/context-optimizer.test.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5628223411428417
+  },
+  {
+    "name": "agentsys/adapters 模块",
+    "description": "[模块级] agentsys 项目的 adapters 模块 (source)。来源: https://github.com/avifenesh/agentsys",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "module-level",
+      "source",
+      "adapters"
+    ],
+    "genes": [
+      {
+        "title": "adapters 模块说明",
+        "content": "模块路径: adapters/\n类型: source\n文件数: 47\n\n包含文件:\n- adapters/README.md\n- adapters/codex\n- adapters/codex/README.md\n- adapters/codex/install.sh\n- adapters/codex/skills\n- adapters/codex/skills/agnix\n- adapters/codex/skills/agnix/SKILL.md\n- adapters/codex/skills/audit-project-agents\n- adapters/codex/skills/audit-project-agents/SKILL.md\n- adapters/codex/skills/audit-project-github",
+        "gene_type": "principle"
+      },
+      {
+        "title": "adapters 文件结构",
+        "content": "adapters/README.md\nadapters/codex\nadapters/codex/README.md\nadapters/codex/install.sh\nadapters/codex/skills\nadapters/codex/skills/agnix\nadapters/codex/skills/agnix/SKILL.md\nadapters/codex/skills/audit-project-agents\nadapters/codex/skills/audit-project-agents/SKILL.md\nadapters/codex/skills/audit-project-github\nadapters/codex/skills/audit-project-github/SKILL.md\nadapters/codex/skills/audit-project\nadapters/codex/skills/audit-project/SKILL.md\nadapters/codex/skills/consult\nadapters/codex/skills/consult/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5628223411428417
+  }
+]

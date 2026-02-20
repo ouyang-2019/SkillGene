@@ -1,0 +1,138 @@
+[
+  {
+    "name": "AntSK (shuyu-labs)",
+    "description": "[项目级] An AI knowledge base/agent built with .Net 9, AntBlazor, Semantic Kernel, and Kernel Memory, supporting local offline AI large models. It can run offline without an internet connection. Supports Aspire for monitoring application data.。来源: https://github.com/shuyu-labs/AntSK",
+    "domain": "devops",
+    "tags": [
+      "agnet",
+      "ai",
+      "dotnet",
+      "rag",
+      "sk",
+      "css",
+      "stars-1580",
+      "github-shuyu-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An AI knowledge base/agent built with .Net 9, AntBlazor, Semantic Kernel, and Kernel Memory, supporting local offline AI large models. It can run offline without an internet connection. Supports Aspire for monitoring application data.\n\n来源: https://github.com/shuyu-labs/AntSK\n语言: CSS\nStars: 1580",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "账号: admin\n密码: admin",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nDockerfile-py\nLICENSE\nREADME.en.md\nREADME.md\ndocker-compose.simple.yml\ndocker-compose.yml\ndocs\ndocs/RBAC_README.md\ndocs/deploy\ndocs/develop\ndocs/introduce\nimages\nimages/gzh.jpg\nimages/对话效果.png\nimages/应用.png\nimages/应用配置.png\nimages/文档切片.png\nimages/知识库.png\nimages/知识库详情.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "![GitHub stars](https://img.shields.io/github/stars/AIDotNet/AntSK?style=social)\n![GitHub forks](https://img.shields.io/github/forks/AIDotNet/AntSK?style=social)\n![GitHub license](https://img.shields.io/github/license/AIDotNet/AntSK)\n![.NET version](https://img.shields.io/badge/.NET-9.0-blue)\n\nAntSK 是一个基于 .NET 9 和 Blazor 技术栈构建的企业级AI知识库和智能体平台，集成了 Semantic Kernel 和 Kernel Memory，提供完整的AI应用开发解决方案。",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **语义内核 (Semantic Kernel)**：采用领先的自然语言处理技术，准确理解、处理和响应复杂的语义查询，为用户提供精确的信息检索和推荐服务。\n\n- **内存内核 (Kernel Memory)**：具备持续学习和存储知识点的能力，AntSK 拥有长期记忆功能，累积经验，提供更个性化的交互体验。\n\n- **知识库**：通过文档（Word、PDF、Excel、Txt、Markdown、Json、PPT）等形式导入知识库，可以进行知识库问答，支持本地bge-embedding 向量模型 ，以及bge-rerank 重排模型。\n\n- **文生图**：集成**StableDiffusion** 本地模型，可以进行文生图。\n\n- **GPTs 生成**：此平台支持创建个性化的GPT模型，尝试构建您自己的GPT模型。\n\n- **API接口发布**：将内部功能以API的形式对外提供，便于开发者将AntSK 集成进其他应用，增强应用智慧。\n\n- **API插件系统**：开放式API插件系统，允许第三方开发者或服务商轻松将其服务集成到AntSK，不断增强应用功能。\n\n- **.Net插件系统**：开放式dll插件系统，允许第三方开发者或服务商轻松将其业务功能通过标准格式的代码生成dll后集成到AntSK，不断增强应用功能。\n\n- **联网搜索**：AntSK，实时获取最新信息，确保用",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5993285434772115
+  },
+  {
+    "name": "AntSK/docs 模块",
+    "description": "[模块级] AntSK 项目的 docs 模块 (docs)。来源: https://github.com/shuyu-labs/AntSK",
+    "domain": "documentation",
+    "tags": [
+      "agnet",
+      "ai",
+      "dotnet",
+      "rag",
+      "sk",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/RBAC_README.md\n- docs/deploy\n- docs/deploy/_category_.json\n- docs/deploy/settings.md\n- docs/deploy/start.md\n- docs/deploy/style.md\n- docs/develop\n- docs/develop/_category_.json\n- docs/introduce\n- docs/introduce/_category_.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/RBAC_README.md\ndocs/deploy\ndocs/deploy/_category_.json\ndocs/deploy/settings.md\ndocs/deploy/start.md\ndocs/deploy/style.md\ndocs/develop\ndocs/develop/_category_.json\ndocs/introduce\ndocs/introduce/_category_.json\ndocs/introduce/img\ndocs/introduce/img/对话效果.png\ndocs/introduce/img/应用.png\ndocs/introduce/img/应用配置.png\ndocs/introduce/img/文档切片.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.779462834781769
+  },
+  {
+    "name": "AntSK/images 模块",
+    "description": "[模块级] AntSK 项目的 images 模块 (source)。来源: https://github.com/shuyu-labs/AntSK",
+    "domain": "devops",
+    "tags": [
+      "agnet",
+      "ai",
+      "dotnet",
+      "rag",
+      "sk",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 9\n\n包含文件:\n- images/gzh.jpg\n- images/对话效果.png\n- images/应用.png\n- images/应用配置.png\n- images/文档切片.png\n- images/知识库.png\n- images/知识库详情.png\n- images/简单对话.png\n- images/问答.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/gzh.jpg\nimages/对话效果.png\nimages/应用.png\nimages/应用配置.png\nimages/文档切片.png\nimages/知识库.png\nimages/知识库详情.png\nimages/简单对话.png\nimages/问答.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.779462834781769
+  },
+  {
+    "name": "AntSK/src 模块",
+    "description": "[模块级] AntSK 项目的 src 模块 (source)。来源: https://github.com/shuyu-labs/AntSK",
+    "domain": "devops",
+    "tags": [
+      "agnet",
+      "ai",
+      "dotnet",
+      "rag",
+      "sk",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 159\n\n包含文件:\n- src/AntSK.AppHost\n- src/AntSK.AppHost/AntSK.AppHost.csproj\n- src/AntSK.AppHost/Program.cs\n- src/AntSK.AppHost/appsettings.Development.json\n- src/AntSK.AppHost/appsettings.json\n- src/AntSK.AppHost/aspirate-output\n- src/AntSK.AppHost/aspirate-output/docker-compose.yaml\n- src/AntSK.AppHost/aspirate-state.json\n- src/AntSK.AppHost/manifest.json\n- src/AntSK.Domain",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/AntSK.AppHost\nsrc/AntSK.AppHost/AntSK.AppHost.csproj\nsrc/AntSK.AppHost/Program.cs\nsrc/AntSK.AppHost/appsettings.Development.json\nsrc/AntSK.AppHost/appsettings.json\nsrc/AntSK.AppHost/aspirate-output\nsrc/AntSK.AppHost/aspirate-output/docker-compose.yaml\nsrc/AntSK.AppHost/aspirate-state.json\nsrc/AntSK.AppHost/manifest.json\nsrc/AntSK.Domain\nsrc/AntSK.Domain/AntSK - Backup.Domain.csproj\nsrc/AntSK.Domain/AntSK.Domain.csproj\nsrc/AntSK.Domain/AntSK.Domain.xml\nsrc/AntSK.Domain/Common\nsrc/AntSK.Domain/Common/AntSkFunctionAttribute.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.779462834781769
+  }
+]

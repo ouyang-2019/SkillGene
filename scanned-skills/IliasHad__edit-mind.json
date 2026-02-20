@@ -1,0 +1,73 @@
+[
+  {
+    "name": "edit-mind (IliasHad)",
+    "description": "[项目级] Web App that indexes videos with AI (object detection, face recognition, emotion analysis), enables semantic search through natural language queries, and export scenes 。来源: https://github.com/IliasHad/edit-mind",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "computer-vision",
+      "deepface",
+      "face-recognition",
+      "ml",
+      "typescript",
+      "stars-1177",
+      "github-iliashad",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Web App that indexes videos with AI (object detection, face recognition, emotion analysis), enables semantic search through natural language queries, and export scenes \n\n来源: https://github.com/IliasHad/edit-mind\n语言: TypeScript\nStars: 1177",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Edit Mind uses Docker Compose to run everything in containers.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\napps\napps/background-jobs\napps/web",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "*   **Video Indexing and Processing:** A background service watches for new video files and queues them for AI-powered analysis.\n*   **AI-Powered Video Analysis:** Extracts metadata like face recognition, transcription, object & text detection, scene analysis, and more.\n*   **Vector-Based Semantic Search:** Powerful natural language search capabilities on video content using ChromaDB.\n*   **Dual Interfaces:** Access your video library through a **Web App**.\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5353882314217175
+  },
+  {
+    "name": "edit-mind/apps 模块",
+    "description": "[模块级] edit-mind 项目的 apps 模块 (source)。来源: https://github.com/IliasHad/edit-mind",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "computer-vision",
+      "deepface",
+      "face-recognition",
+      "ml",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 184\n\n包含文件:\n- apps/background-jobs\n- apps/background-jobs/package.json\n- apps/background-jobs/server.js\n- apps/background-jobs/src\n- apps/background-jobs/src/index.ts\n- apps/background-jobs/src/jobs\n- apps/background-jobs/src/jobs/ImmichImporter.ts\n- apps/background-jobs/src/jobs/audioEmbedding.ts\n- apps/background-jobs/src/jobs/chat.ts\n- apps/background-jobs/src/jobs/export.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/background-jobs\napps/background-jobs/package.json\napps/background-jobs/server.js\napps/background-jobs/src\napps/background-jobs/src/index.ts\napps/background-jobs/src/jobs\napps/background-jobs/src/jobs/ImmichImporter.ts\napps/background-jobs/src/jobs/audioEmbedding.ts\napps/background-jobs/src/jobs/chat.ts\napps/background-jobs/src/jobs/export.ts\napps/background-jobs/src/jobs/faceDeletion.ts\napps/background-jobs/src/jobs/faceLabelling.ts\napps/background-jobs/src/jobs/faceRenaming.ts\napps/background-jobs/src/jobs/frameAnalysis.ts\napps/background-jobs/src/jobs/sceneCreation.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7283105851373737
+  }
+]

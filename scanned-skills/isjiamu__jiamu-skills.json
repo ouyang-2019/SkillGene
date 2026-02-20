@@ -1,0 +1,183 @@
+[
+  {
+    "name": "jiamu-skills (isjiamu)",
+    "description": "[项目级] 甲木常用的 Agent Skills 集合，包含日常工作流中积累的高效技能扩展。 / A curated collection of Agent Skills for daily productivity workflows.。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "| Skill | Category | Description | Use Cases |\n|-------|----------|-------------|-----------|\n| [**sales-ai-assistant**](./sales-ai-assistant/) | 🎯 Sales Enablement | Transform business scenarios into AI prompts and auto-generate sales content | 25 scenarios: emails, proposals, analysis, competitive intelligence |\n| [**magazine-layout**](./magazine-layout/) | 🎨 Content Design | Transform text into beautiful magazine-style HTML pages | 12 visual styles with PDF export |\n| [**peers-advisory-group**](./peers-advisory-group/) | 💡 Decision Making | Virtual advisory board with 4 business legends | Strategic decisions, problem analysis |\n| [**video-downloader**](./video-downloader/) | 📹 Utility | Universal video downloader supporting 1000+ websites | YouTube, Bilibili, Twitter, TikTok, etc. |",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nRELEASE_NOTES_v1.3.0.md\nRELEASE_NOTES_v1.4.0.md\ngif-splitter\ngif-splitter/SKILL.md\ngif-splitter/scripts\nmagazine-layout\nmagazine-layout/SKILL.md\nmagazine-layout/references\nmagazine-layout/scripts\npeers-advisory-group\npeers-advisory-group/SKILL.md\npeers-advisory-group/references\nsales-ai-assistant\nsales-ai-assistant/README.md\nsales-ai-assistant/SKILL.md\nsales-ai-assistant/assets\nsales-ai-assistant/references\nvideo-downloader",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8621379348003946
+  },
+  {
+    "name": "jiamu-skills/gif-splitter 模块",
+    "description": "[模块级] jiamu-skills 项目的 gif-splitter 模块 (source)。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "module-level",
+      "source",
+      "gif-splitter"
+    ],
+    "genes": [
+      {
+        "title": "gif-splitter 模块说明",
+        "content": "模块路径: gif-splitter/\n类型: source\n文件数: 3\n\n包含文件:\n- gif-splitter/SKILL.md\n- gif-splitter/scripts\n- gif-splitter/scripts/split_gif.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gif-splitter 文件结构",
+        "content": "gif-splitter/SKILL.md\ngif-splitter/scripts\ngif-splitter/scripts/split_gif.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  },
+  {
+    "name": "jiamu-skills/magazine-layout 模块",
+    "description": "[模块级] jiamu-skills 项目的 magazine-layout 模块 (source)。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "module-level",
+      "source",
+      "magazine-layout"
+    ],
+    "genes": [
+      {
+        "title": "magazine-layout 模块说明",
+        "content": "模块路径: magazine-layout/\n类型: source\n文件数: 5\n\n包含文件:\n- magazine-layout/SKILL.md\n- magazine-layout/references\n- magazine-layout/references/styles.md\n- magazine-layout/scripts\n- magazine-layout/scripts/html_to_pdf.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "magazine-layout 文件结构",
+        "content": "magazine-layout/SKILL.md\nmagazine-layout/references\nmagazine-layout/references/styles.md\nmagazine-layout/scripts\nmagazine-layout/scripts/html_to_pdf.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  },
+  {
+    "name": "jiamu-skills/peers-advisory-group 模块",
+    "description": "[模块级] jiamu-skills 项目的 peers-advisory-group 模块 (source)。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "module-level",
+      "source",
+      "peers-advisory-group"
+    ],
+    "genes": [
+      {
+        "title": "peers-advisory-group 模块说明",
+        "content": "模块路径: peers-advisory-group/\n类型: source\n文件数: 6\n\n包含文件:\n- peers-advisory-group/SKILL.md\n- peers-advisory-group/references\n- peers-advisory-group/references/default-advisors.md\n- peers-advisory-group/references/feedback-template.md\n- peers-advisory-group/references/reflect-template.md\n- peers-advisory-group/references/report-template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "peers-advisory-group 文件结构",
+        "content": "peers-advisory-group/SKILL.md\npeers-advisory-group/references\npeers-advisory-group/references/default-advisors.md\npeers-advisory-group/references/feedback-template.md\npeers-advisory-group/references/reflect-template.md\npeers-advisory-group/references/report-template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  },
+  {
+    "name": "jiamu-skills/sales-ai-assistant 模块",
+    "description": "[模块级] jiamu-skills 项目的 sales-ai-assistant 模块 (source)。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "module-level",
+      "source",
+      "sales-ai-assistant"
+    ],
+    "genes": [
+      {
+        "title": "sales-ai-assistant 模块说明",
+        "content": "模块路径: sales-ai-assistant/\n类型: source\n文件数: 10\n\n包含文件:\n- sales-ai-assistant/README.md\n- sales-ai-assistant/SKILL.md\n- sales-ai-assistant/assets\n- sales-ai-assistant/assets/scenario-keywords.json\n- sales-ai-assistant/references\n- sales-ai-assistant/references/analytics.md\n- sales-ai-assistant/references/competitive.md\n- sales-ai-assistant/references/outreach.md\n- sales-ai-assistant/references/strategy.md\n- sales-ai-assistant/references/visuals.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sales-ai-assistant 文件结构",
+        "content": "sales-ai-assistant/README.md\nsales-ai-assistant/SKILL.md\nsales-ai-assistant/assets\nsales-ai-assistant/assets/scenario-keywords.json\nsales-ai-assistant/references\nsales-ai-assistant/references/analytics.md\nsales-ai-assistant/references/competitive.md\nsales-ai-assistant/references/outreach.md\nsales-ai-assistant/references/strategy.md\nsales-ai-assistant/references/visuals.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  },
+  {
+    "name": "jiamu-skills/video-downloader 模块",
+    "description": "[模块级] jiamu-skills 项目的 video-downloader 模块 (source)。来源: https://github.com/isjiamu/jiamu-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-53",
+      "github-isjiamu",
+      "module-level",
+      "source",
+      "video-downloader"
+    ],
+    "genes": [
+      {
+        "title": "video-downloader 模块说明",
+        "content": "模块路径: video-downloader/\n类型: source\n文件数: 5\n\n包含文件:\n- video-downloader/SKILL.md\n- video-downloader/references\n- video-downloader/references/platform-tips.md\n- video-downloader/scripts\n- video-downloader/scripts/download.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "video-downloader 文件结构",
+        "content": "video-downloader/SKILL.md\nvideo-downloader/references\nvideo-downloader/references/platform-tips.md\nvideo-downloader/scripts\nvideo-downloader/scripts/download.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  }
+]

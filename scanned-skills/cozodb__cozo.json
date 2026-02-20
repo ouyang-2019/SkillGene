@@ -1,0 +1,218 @@
+[
+  {
+    "name": "cozo (cozodb)",
+    "description": "[项目级] A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI!。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "rust",
+      "stars-3879",
+      "github-cozodb",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "CozoDB is a general-purpose, transactional, relational database\nthat uses **Datalog** for query, is **embeddable** but can also handle huge amounts of data and concurrency,\nand focuses on **graph** data and algorithms.\nIt supports **time travel** and it is **performant**!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Usually, to learn a database, you need to install it first.\nThis is unnecessary for CozoDB as a testimony to its extreme embeddability, since you can run\na complete CozoDB instance in your browser, at near-native speed for most operations!\n\nSo open up the [CozoDB in WASM page](https://www.cozodb.org/wasm-demo/), and then:\n\n* Follow the [tutorial](https://docs.cozodb.org/en/latest/tutorial.html).\n\nOr you can skip ahead for the information about installing CozoDB into your favourite environment first.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nLICENSE.txt\nREADME-zh.md\nREADME.md\nVERSION\ncozo-bin\ncozo-bin/Cargo.toml\ncozo-bin/README-zh.md\ncozo-bin/README.md\ncozo-bin/src\ncozo-core-examples\ncozo-core-examples/Cargo.toml\ncozo-core-examples/src\ncozo-core\ncozo-core/Cargo.toml\ncozo-core/README-zh.md\ncozo-core/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.794359889800028
+  },
+  {
+    "name": "cozo/cozo-bin 模块",
+    "description": "[模块级] cozo 项目的 cozo-bin 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-bin"
+    ],
+    "genes": [
+      {
+        "title": "cozo-bin 模块说明",
+        "content": "模块路径: cozo-bin/\n类型: source\n文件数: 10\n\n包含文件:\n- cozo-bin/Cargo.toml\n- cozo-bin/README-zh.md\n- cozo-bin/README.md\n- cozo-bin/src\n- cozo-bin/src/client.rs\n- cozo-bin/src/index.html\n- cozo-bin/src/main.rs\n- cozo-bin/src/repl.rs\n- cozo-bin/src/security.txt\n- cozo-bin/src/server.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-bin 文件结构",
+        "content": "cozo-bin/Cargo.toml\ncozo-bin/README-zh.md\ncozo-bin/README.md\ncozo-bin/src\ncozo-bin/src/client.rs\ncozo-bin/src/index.html\ncozo-bin/src/main.rs\ncozo-bin/src/repl.rs\ncozo-bin/src/security.txt\ncozo-bin/src/server.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  },
+  {
+    "name": "cozo/cozo-core-examples 模块",
+    "description": "[模块级] cozo 项目的 cozo-core-examples 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-core-examples"
+    ],
+    "genes": [
+      {
+        "title": "cozo-core-examples 模块说明",
+        "content": "模块路径: cozo-core-examples/\n类型: source\n文件数: 6\n\n包含文件:\n- cozo-core-examples/Cargo.toml\n- cozo-core-examples/src\n- cozo-core-examples/src/bin\n- cozo-core-examples/src/bin/run.rs\n- cozo-core-examples/src/bin/run_ast.rs\n- cozo-core-examples/src/bin/run_parse_ast.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-core-examples 文件结构",
+        "content": "cozo-core-examples/Cargo.toml\ncozo-core-examples/src\ncozo-core-examples/src/bin\ncozo-core-examples/src/bin/run.rs\ncozo-core-examples/src/bin/run_ast.rs\ncozo-core-examples/src/bin/run_parse_ast.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  },
+  {
+    "name": "cozo/cozo-core 模块",
+    "description": "[模块级] cozo 项目的 cozo-core 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-core"
+    ],
+    "genes": [
+      {
+        "title": "cozo-core 模块说明",
+        "content": "模块路径: cozo-core/\n类型: source\n文件数: 133\n\n包含文件:\n- cozo-core/Cargo.toml\n- cozo-core/README-zh.md\n- cozo-core/README.md\n- cozo-core/benches\n- cozo-core/benches/pokec.rs\n- cozo-core/benches/time_travel.rs\n- cozo-core/benches/wiki_pagerank.rs\n- cozo-core/src\n- cozo-core/src/cozoscript.pest\n- cozo-core/src/data",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-core 文件结构",
+        "content": "cozo-core/Cargo.toml\ncozo-core/README-zh.md\ncozo-core/README.md\ncozo-core/benches\ncozo-core/benches/pokec.rs\ncozo-core/benches/time_travel.rs\ncozo-core/benches/wiki_pagerank.rs\ncozo-core/src\ncozo-core/src/cozoscript.pest\ncozo-core/src/data\ncozo-core/src/data/aggr.rs\ncozo-core/src/data/expr.rs\ncozo-core/src/data/functions.rs\ncozo-core/src/data/json.rs\ncozo-core/src/data/memcmp.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  },
+  {
+    "name": "cozo/cozo-lib-c 模块",
+    "description": "[模块级] cozo 项目的 cozo-lib-c 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-lib-c"
+    ],
+    "genes": [
+      {
+        "title": "cozo-lib-c 模块说明",
+        "content": "模块路径: cozo-lib-c/\n类型: source\n文件数: 10\n\n包含文件:\n- cozo-lib-c/.gitignore\n- cozo-lib-c/Cargo.toml\n- cozo-lib-c/README-zh.md\n- cozo-lib-c/README.md\n- cozo-lib-c/build.rs\n- cozo-lib-c/comiple-ios.sh\n- cozo-lib-c/cozo_c.h\n- cozo-lib-c/example.c\n- cozo-lib-c/src\n- cozo-lib-c/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-lib-c 文件结构",
+        "content": "cozo-lib-c/.gitignore\ncozo-lib-c/Cargo.toml\ncozo-lib-c/README-zh.md\ncozo-lib-c/README.md\ncozo-lib-c/build.rs\ncozo-lib-c/comiple-ios.sh\ncozo-lib-c/cozo_c.h\ncozo-lib-c/example.c\ncozo-lib-c/src\ncozo-lib-c/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  },
+  {
+    "name": "cozo/cozo-lib-java 模块",
+    "description": "[模块级] cozo 项目的 cozo-lib-java 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-lib-java"
+    ],
+    "genes": [
+      {
+        "title": "cozo-lib-java 模块说明",
+        "content": "模块路径: cozo-lib-java/\n类型: source\n文件数: 8\n\n包含文件:\n- cozo-lib-java/.gitignore\n- cozo-lib-java/Cargo.toml\n- cozo-lib-java/CozoJavaBridge.java\n- cozo-lib-java/README-zh.md\n- cozo-lib-java/README.md\n- cozo-lib-java/org_cozodb_CozoJavaBridge.h\n- cozo-lib-java/src\n- cozo-lib-java/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-lib-java 文件结构",
+        "content": "cozo-lib-java/.gitignore\ncozo-lib-java/Cargo.toml\ncozo-lib-java/CozoJavaBridge.java\ncozo-lib-java/README-zh.md\ncozo-lib-java/README.md\ncozo-lib-java/org_cozodb_CozoJavaBridge.h\ncozo-lib-java/src\ncozo-lib-java/src/lib.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  },
+  {
+    "name": "cozo/cozo-lib-nodejs 模块",
+    "description": "[模块级] cozo 项目的 cozo-lib-nodejs 模块 (source)。来源: https://github.com/cozodb/cozo",
+    "domain": "testing",
+    "tags": [
+      "client-server",
+      "cozo",
+      "cozoscript",
+      "cross-platform",
+      "database",
+      "module-level",
+      "source",
+      "cozo-lib-nodejs"
+    ],
+    "genes": [
+      {
+        "title": "cozo-lib-nodejs 模块说明",
+        "content": "模块路径: cozo-lib-nodejs/\n类型: source\n文件数: 12\n\n包含文件:\n- cozo-lib-nodejs/.gitignore\n- cozo-lib-nodejs/Cargo.toml\n- cozo-lib-nodejs/README-zh.md\n- cozo-lib-nodejs/README.md\n- cozo-lib-nodejs/example.js\n- cozo-lib-nodejs/index.d.ts\n- cozo-lib-nodejs/index.js\n- cozo-lib-nodejs/package.json\n- cozo-lib-nodejs/src\n- cozo-lib-nodejs/src/lib.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cozo-lib-nodejs 文件结构",
+        "content": "cozo-lib-nodejs/.gitignore\ncozo-lib-nodejs/Cargo.toml\ncozo-lib-nodejs/README-zh.md\ncozo-lib-nodejs/README.md\ncozo-lib-nodejs/example.js\ncozo-lib-nodejs/index.d.ts\ncozo-lib-nodejs/index.js\ncozo-lib-nodejs/package.json\ncozo-lib-nodejs/src\ncozo-lib-nodejs/src/lib.rs\ncozo-lib-nodejs/test_build.sh\ncozo-lib-nodejs/yarn.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9354879118400223
+  }
+]

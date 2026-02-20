@@ -1,0 +1,198 @@
+[
+  {
+    "name": "taskvanguard (taskvanguard)",
+    "description": "[项目级] TaskVanguard - LLM / AI Wrapper for TaskWarrior via API (OpenAI, Deepseek etc.)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "go",
+      "stars-36",
+      "github-taskvanguard",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "TaskVanguard - LLM / AI Wrapper for TaskWarrior via API (OpenAI, Deepseek etc.)\n\n来源: https://github.com/taskvanguard/taskvanguard\n语言: Go\nStars: 36",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE.txt\nREADME.md\nassets\nassets/assets.go\nassets/templates\ncmd\ncmd/add.go\ncmd/analyze.go\ncmd/goals.go\ncmd/guide.go\ncmd/init.go\ncmd/root.go\ncmd/spot.go\ncmd/vanguard\ndocs\ndocs/images\ngo.mod\ngo.sum",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "✨ **Add:** AI-Enhanced Task Creation: Improves task titles, tags, project and annotations.<br>\n🎯 **Spot:** Do the Right Thing Next: Identifies the most impactful next task. Based on urgency, context, mood etc.<br>\n🧭 **Guidance:** Generate concrete, step-by-step roadmaps to achieve goals.<br>\n⛰️ **Goal Management:** Link tasks to long-term objectives.<br>\n📦 **Batch Analysis:** Refactor, annotate task backlogs by tags or projects.<br>\n🗡️ **Subtask Splitting:** Suggests splitting up vague tasks and suggests clear, actionable subtasks.\n\n**Tip:** You can stop certain tasks from being sent to th",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.778151250383644
+  },
+  {
+    "name": "taskvanguard/assets 模块",
+    "description": "[模块级] taskvanguard 项目的 assets 模块 (source)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 14\n\n包含文件:\n- assets/assets.go\n- assets/templates\n- assets/templates/guide_questions.md\n- assets/templates/guide_roadmap.md\n- assets/templates/guide_summary.md\n- assets/templates/persona.md\n- assets/templates/policy.md\n- assets/templates/spotlight.md\n- assets/templates/task_analysis.md\n- assets/templates/task_analysis_batch.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/assets.go\nassets/templates\nassets/templates/guide_questions.md\nassets/templates/guide_roadmap.md\nassets/templates/guide_summary.md\nassets/templates/persona.md\nassets/templates/policy.md\nassets/templates/spotlight.md\nassets/templates/task_analysis.md\nassets/templates/task_analysis_batch.md\nassets/templates/task_analysis_extended.md\nassets/templates/task_analysis_single.md\nassets/templates/user.md\nassets/templates/user_context.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.122521000306915
+  },
+  {
+    "name": "taskvanguard/cmd 模块",
+    "description": "[模块级] taskvanguard 项目的 cmd 模块 (source)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 9\n\n包含文件:\n- cmd/add.go\n- cmd/analyze.go\n- cmd/goals.go\n- cmd/guide.go\n- cmd/init.go\n- cmd/root.go\n- cmd/spot.go\n- cmd/vanguard\n- cmd/vanguard/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/add.go\ncmd/analyze.go\ncmd/goals.go\ncmd/guide.go\ncmd/init.go\ncmd/root.go\ncmd/spot.go\ncmd/vanguard\ncmd/vanguard/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.122521000306915
+  },
+  {
+    "name": "taskvanguard/docs 模块",
+    "description": "[模块级] taskvanguard 项目的 docs 模块 (docs)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/images\n- docs/images/demo.gif\n- docs/images/logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/demo.gif\ndocs/images/logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.122521000306915
+  },
+  {
+    "name": "taskvanguard/internal 模块",
+    "description": "[模块级] taskvanguard 项目的 internal 模块 (source)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 16\n\n包含文件:\n- internal/analyzer\n- internal/analyzer/analyzer.go\n- internal/config\n- internal/config/config.go\n- internal/config/templates.go\n- internal/goals\n- internal/goals/manager.go\n- internal/llm\n- internal/llm/client.go\n- internal/prompts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/analyzer\ninternal/analyzer/analyzer.go\ninternal/config\ninternal/config/config.go\ninternal/config/templates.go\ninternal/goals\ninternal/goals/manager.go\ninternal/llm\ninternal/llm/client.go\ninternal/prompts\ninternal/prompts/prompts.go\ninternal/state\ninternal/state/manager.go\ninternal/taskwarrior\ninternal/taskwarrior/bootstrap.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.122521000306915
+  },
+  {
+    "name": "taskvanguard/pkg 模块",
+    "description": "[模块级] taskvanguard 项目的 pkg 模块 (source)。来源: https://github.com/taskvanguard/taskvanguard",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "cli",
+      "golang",
+      "llm",
+      "taskwarrior",
+      "module-level",
+      "source",
+      "pkg"
+    ],
+    "genes": [
+      {
+        "title": "pkg 模块说明",
+        "content": "模块路径: pkg/\n类型: source\n文件数: 13\n\n包含文件:\n- pkg/filter\n- pkg/filter/filter.go\n- pkg/theme\n- pkg/theme/colors.go\n- pkg/types\n- pkg/types/config.go\n- pkg/types/prompts.go\n- pkg/types/task.go\n- pkg/types/twtime.go\n- pkg/utils",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pkg 文件结构",
+        "content": "pkg/filter\npkg/filter/filter.go\npkg/theme\npkg/theme/colors.go\npkg/types\npkg/types/config.go\npkg/types/prompts.go\npkg/types/task.go\npkg/types/twtime.go\npkg/utils\npkg/utils/argparse.go\npkg/utils/filewriter.go\npkg/utils/suggestion.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.122521000306915
+  }
+]

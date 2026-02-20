@@ -1,0 +1,61 @@
+[
+  {
+    "name": "sera-cli (allenai)",
+    "description": "[项目级] A tool to use the Ai2 Open Coding Agents Soft-Verified Efficient Repository Agents (SERA) model with Claude Code。来源: https://github.com/allenai/sera-cli",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-227",
+      "github-allenai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A tool to use the Ai2 Open Coding Agents Soft-Verified Efficient Repository Agents (SERA) model with Claude Code\n\n来源: https://github.com/allenai/sera-cli\n语言: Python\nStars: 227",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The fastest way to try SERA is with Modal, which handles GPU provisioning, vLLM deployment, and downloading the model automatically. This takes ~10m for the first run as ~65GB of model weights are downloaded. Subsequent runs will cache the model and start up faster.\n\nWhen you exit Claude Code, the Modal app will automatically get cleaned up.\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\njustfile\npyproject.toml\nsrc\nsrc/sera\nuv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.178012928596561
+  },
+  {
+    "name": "sera-cli/src 模块",
+    "description": "[模块级] sera-cli 项目的 src 模块 (source)。来源: https://github.com/allenai/sera-cli",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-227",
+      "github-allenai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 4\n\n包含文件:\n- src/sera\n- src/sera/__init__.py\n- src/sera/deploy.py\n- src/sera/main.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/sera\nsrc/sera/__init__.py\nsrc/sera/deploy.py\nsrc/sera/main.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.442410342877249
+  }
+]

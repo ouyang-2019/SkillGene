@@ -1,0 +1,161 @@
+[
+  {
+    "name": "BotSharp (SciSharp)",
+    "description": "[项目级] AI Multi-Agent Framework in .NET。来源: https://github.com/SciSharp/BotSharp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chatbot",
+      "multi-agent",
+      "c#",
+      "stars-3012",
+      "github-scisharp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Multi-Agent Framework in .NET\n\n来源: https://github.com/SciSharp/BotSharp\n语言: C#\nStars: 3012",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "PS D:\\> git clone https://github.com/dotnetcore/BotSharp\n PS D:\\> cd BotSharp\n # For Windows\n PS D:\\BotSharp\\> dotnet run --project .\\src\\WebStarter\\WebStarter.csproj -p SolutionName=BotSharp\n # For Linux\n $ dotnet run --project ./src/WebStarter/WebStarter.csproj -p SolutionName=BotSharp",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "BotSharp.sln\nCONTRIBUTING.md\nDirectory.Build.props\nDirectory.Packages.props\nIFunctionExecutor.cs\nLICENSE\nPizzaBot.sln\nREADME.md\narts\narts/BotSharp.gif\narts/Icon.png\narts/Logo.png\ndockerfiles\ndockerfiles/.env\ndockerfiles/Readme.md\ndockerfiles/WebStarter.Dockerfile\ndockerfiles/appsettings.json\ndockerfiles/botsharp.json\ndockerfiles/docker-compose.infrastructure.override.yml\ndockerfiles/docker-compose.infrastructure.yml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Built-in multi-agents and conversation with state management.\n* Support multiple LLM Planning approaches to handle different tasks from simple to complex.\n* Built-in RAG related interfaces, Memory based vector searching.\n* Support multiple AI platforms (ChatGPT 3.5/ 4o/ o1, Gemini 2, LLaMA 3, Claude Sonnet 3.5,DeepSeek V3, HuggingFace).\n* Allow multiple agents with different responsibilities cooperate to complete complex tasks. \n* Build, test, evaluate and audit your LLM agent in one place.\n* Build-in `BotSharp UI` written in [SvelteKit](https://kit.svelte.dev/).\n* Abstract standard Rich Con",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.739427483764332
+  },
+  {
+    "name": "BotSharp/arts 模块",
+    "description": "[模块级] BotSharp 项目的 arts 模块 (source)。来源: https://github.com/SciSharp/BotSharp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chatbot",
+      "multi-agent",
+      "c#",
+      "stars-3012",
+      "module-level",
+      "source",
+      "arts"
+    ],
+    "genes": [
+      {
+        "title": "arts 模块说明",
+        "content": "模块路径: arts/\n类型: source\n文件数: 3\n\n包含文件:\n- arts/BotSharp.gif\n- arts/Icon.png\n- arts/Logo.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "arts 文件结构",
+        "content": "arts/BotSharp.gif\narts/Icon.png\narts/Logo.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "BotSharp/dockerfiles 模块",
+    "description": "[模块级] BotSharp 项目的 dockerfiles 模块 (source)。来源: https://github.com/SciSharp/BotSharp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chatbot",
+      "multi-agent",
+      "c#",
+      "stars-3012",
+      "module-level",
+      "source",
+      "dockerfiles"
+    ],
+    "genes": [
+      {
+        "title": "dockerfiles 模块说明",
+        "content": "模块路径: dockerfiles/\n类型: source\n文件数: 10\n\n包含文件:\n- dockerfiles/.env\n- dockerfiles/Readme.md\n- dockerfiles/WebStarter.Dockerfile\n- dockerfiles/appsettings.json\n- dockerfiles/botsharp.json\n- dockerfiles/docker-compose.infrastructure.override.yml\n- dockerfiles/docker-compose.infrastructure.yml\n- dockerfiles/docker-compose.yml\n- dockerfiles/run-docker-compose.ps1\n- dockerfiles/stop-docker-compose.ps1",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dockerfiles 文件结构",
+        "content": "dockerfiles/.env\ndockerfiles/Readme.md\ndockerfiles/WebStarter.Dockerfile\ndockerfiles/appsettings.json\ndockerfiles/botsharp.json\ndockerfiles/docker-compose.infrastructure.override.yml\ndockerfiles/docker-compose.infrastructure.yml\ndockerfiles/docker-compose.yml\ndockerfiles/run-docker-compose.ps1\ndockerfiles/stop-docker-compose.ps1",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "BotSharp/docs 模块",
+    "description": "[模块级] BotSharp 项目的 docs 模块 (docs)。来源: https://github.com/SciSharp/BotSharp",
+    "domain": "documentation",
+    "tags": [
+      "ai-agent",
+      "chatbot",
+      "multi-agent",
+      "c#",
+      "stars-3012",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 112\n\n包含文件:\n- docs/Makefile\n- docs/Name-Entity Recognition(NER) Comparation.pdf\n- docs/README.md\n- docs/agent\n- docs/agent/assets\n- docs/agent/assets/agent-creation.png\n- docs/agent/assets/agent-update.png\n- docs/agent/assets/conversation-creation.png\n- docs/agent/assets/conversation-send-message.png\n- docs/agent/assets/routing-calling-stack.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/Name-Entity Recognition(NER) Comparation.pdf\ndocs/README.md\ndocs/agent\ndocs/agent/assets\ndocs/agent/assets/agent-creation.png\ndocs/agent/assets/agent-update.png\ndocs/agent/assets/conversation-creation.png\ndocs/agent/assets/conversation-send-message.png\ndocs/agent/assets/routing-calling-stack.png\ndocs/agent/hook.md\ndocs/agent/intro.md\ndocs/agent/router.md\ndocs/architecture\ndocs/architecture/agent-utility.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "BotSharp/src 模块",
+    "description": "[模块级] BotSharp 项目的 src 模块 (source)。来源: https://github.com/SciSharp/BotSharp",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "chatbot",
+      "multi-agent",
+      "c#",
+      "stars-3012",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 55\n\n包含文件:\n- src/BotSharp.AppHost\n- src/BotSharp.AppHost/BotSharp.AppHost.csproj\n- src/BotSharp.AppHost/Program.cs\n- src/BotSharp.AppHost/Properties\n- src/BotSharp.AppHost/Properties/launchSettings.json\n- src/BotSharp.AppHost/appsettings.Development.json\n- src/BotSharp.AppHost/appsettings.json\n- src/BotSharp.ServiceDefaults\n- src/BotSharp.ServiceDefaults/BotSharp.ServiceDefaults.csproj\n- src/BotSharp.ServiceDefaults/Extensions.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/BotSharp.AppHost\nsrc/BotSharp.AppHost/BotSharp.AppHost.csproj\nsrc/BotSharp.AppHost/Program.cs\nsrc/BotSharp.AppHost/Properties\nsrc/BotSharp.AppHost/Properties/launchSettings.json\nsrc/BotSharp.AppHost/appsettings.Development.json\nsrc/BotSharp.AppHost/appsettings.json\nsrc/BotSharp.ServiceDefaults\nsrc/BotSharp.ServiceDefaults/BotSharp.ServiceDefaults.csproj\nsrc/BotSharp.ServiceDefaults/Extensions.cs\nsrc/Infrastructure\nsrc/Infrastructure/BotSharp.Abstraction.ComputerUse\nsrc/Infrastructure/BotSharp.Abstraction.ComputerUse/BotSharp.Abstraction.ComputerUse.csproj\nsrc/Infrastructure/BotSharp.Abstraction.ComputerUse/MLTasks\nsrc/Infrastructure/BotSharp.Abstraction.ComputerUse/MLTasks/IComputerUse.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  }
+]

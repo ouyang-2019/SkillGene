@@ -1,0 +1,61 @@
+[
+  {
+    "name": "skills (TerminalSkills)",
+    "description": "[项目级] Open-source library of AI agent skills — SKILL.md files for Claude Code, Codex, Gemini CLI, Cursor。来源: https://github.com/TerminalSkills/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-4",
+      "github-terminalskills",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source library of AI agent skills — SKILL.md files for Claude Code, Codex, Gemini CLI, Cursor\n\n来源: https://github.com/TerminalSkills/skills\n语言: JavaScript\nStars: 4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Each skill is a standalone `SKILL.md` file. Install skills into your project using one of the following methods.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nscripts\nscripts/generate-index.js\nskills\nskills/3dsmax-rendering\nskills/3dsmax-scripting\nskills/3proxy\nskills/a2a-protocol\nskills/ab-test-setup\nskills/accessibility-auditor\nskills/after-effects\nskills/ai-slides\nskills/airtable\nskills/alert-optimizer\nskills/analytics-tracking\nskills/ansible-automation\nskills/api-doc-generator\nskills/api-load-tester",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3010299956639813
+  },
+  {
+    "name": "skills/skills 模块",
+    "description": "[模块级] skills 项目的 skills 模块 (source)。来源: https://github.com/TerminalSkills/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "javascript",
+      "stars-4",
+      "github-terminalskills",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "An open-source library of AI agent skills following the [Agent Skills](https://agentskills.io) open standard. Skills work across Claude Code, OpenAI Codex, Gemini CLI, Cursor, and other AI-powered development tools.\n\nBrowse the full catalog at [terminalskills.io](https://terminalskills.io).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/3dsmax-rendering\nskills/3dsmax-rendering/SKILL.md\nskills/3dsmax-scripting\nskills/3dsmax-scripting/SKILL.md\nskills/3proxy\nskills/3proxy/SKILL.md\nskills/a2a-protocol\nskills/a2a-protocol/SKILL.md\nskills/ab-test-setup\nskills/ab-test-setup/SKILL.md\nskills/ab-test-setup/references\nskills/ab-test-setup/references/sample-size-guide.md\nskills/ab-test-setup/references/test-templates.md\nskills/accessibility-auditor\nskills/accessibility-auditor/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.740823996531185
+  }
+]

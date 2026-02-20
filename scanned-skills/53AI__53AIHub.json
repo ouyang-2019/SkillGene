@@ -1,0 +1,72 @@
+[
+  {
+    "name": "53AIHub (53AI)",
+    "description": "[项目级] 53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow.。来源: https://github.com/53AI/53AIHub",
+    "domain": "ai-llm",
+    "tags": [
+      "coze",
+      "dify",
+      "fastgpt",
+      "go",
+      "maxkb",
+      "stars-9052",
+      "github-53ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "53AI Hub is an open-source AI portal, which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow.\n\n来源: https://github.com/53AI/53AIHub\n语言: Go\nStars: 9052",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_CN.md\nREADME_JA.md\napi\napi/.env.example\napi/.gitattributes\napi/.gitignore\napi/Dockerfile\napi/Makefile\napi/README.md\napi/bin\napi/build.sh\napi/common\napi/config\napi/controller\napi/docker\napi/docs\napi/go.mod",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "* **Cloud Service**\n  Visit [53AI Hub Cloud Service](https://hub.53ai.com) to apply. The cloud service includes Free, Standard, and Enterprise editions. The Enterprise version offers all features, and the Free version supports 10 agents and 100 registered users.\n* **Community Open Source Edition**\n  Refer to our [Getting Started Guide](https://docs.53ai.com/%E5%85%A5%E9%97%A8/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8) for quick local deployment and our [Documentation](https://docs.53ai.com) for in-depth usage.\n* **Enterprise Customized Edition**\n  We offer enterprise custom versions with features l",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.978372272641345
+  },
+  {
+    "name": "53AIHub/api 模块",
+    "description": "[模块级] 53AIHub 项目的 api 模块 (source)。来源: https://github.com/53AI/53AIHub",
+    "domain": "ai-llm",
+    "tags": [
+      "coze",
+      "dify",
+      "fastgpt",
+      "go",
+      "maxkb",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 194\n\n包含文件:\n- api/.env.example\n- api/.gitattributes\n- api/.gitignore\n- api/Dockerfile\n- api/Makefile\n- api/README.md\n- api/bin\n- api/bin/restart.sh\n- api/bin/version.txt\n- api/build.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/.env.example\napi/.gitattributes\napi/.gitignore\napi/Dockerfile\napi/Makefile\napi/README.md\napi/bin\napi/bin/restart.sh\napi/bin/version.txt\napi/build.sh\napi/common\napi/common/cache.go\napi/common/ctxkey\napi/common/ctxkey/key.go\napi/common/email.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.082697818113076
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "dingo (MigoXLab)",
+    "description": "[项目级] Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool。来源: https://github.com/MigoXLab/dingo",
+    "domain": "devops",
+    "tags": [
+      "agent-as-a-judge",
+      "common-crawl",
+      "data-agent",
+      "data-evaluation",
+      "data-quality",
+      "javascript",
+      "stars-646",
+      "github-migoxlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Dingo is A Comprehensive AI Data, Model and Application Quality Evaluation Tool**, designed for ML practitioners, data engineers, and AI researchers. It helps you systematically assess and improve the quality of training data, fine-tuning datasets, and production AI systems.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_ja.md\nREADME_mcp.md\nREADME_mcp_ja.md\nREADME_mcp_zh-CN.md\nREADME_zh-CN.md\napp\napp/.editorconfig\napp/.eslintignore\napp/.eslintrc.cjs\napp/.gitignore\napp/.npmrc\napp/.prettierignore\napp/.prettierrc.json\napp/.prettierrc.yaml\napp/README.md\napp/README_ZH.md\napp/app-static.py\napp/app.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.405116258997542
+  },
+  {
+    "name": "dingo/app 模块",
+    "description": "[模块级] dingo 项目的 app 模块 (source)。来源: https://github.com/MigoXLab/dingo",
+    "domain": "devops",
+    "tags": [
+      "agent-as-a-judge",
+      "common-crawl",
+      "data-agent",
+      "data-evaluation",
+      "data-quality",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 96\n\n包含文件:\n- app/.editorconfig\n- app/.eslintignore\n- app/.eslintrc.cjs\n- app/.gitignore\n- app/.npmrc\n- app/.prettierignore\n- app/.prettierrc.json\n- app/.prettierrc.yaml\n- app/README.md\n- app/README_ZH.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/.editorconfig\napp/.eslintignore\napp/.eslintrc.cjs\napp/.gitignore\napp/.npmrc\napp/.prettierignore\napp/.prettierrc.json\napp/.prettierrc.yaml\napp/README.md\napp/README_ZH.md\napp/app-static.py\napp/app.py\napp/dev-app-update.yml\napp/electron-builder.yml\napp/electron.vite.config.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6240930071980335
+  },
+  {
+    "name": "dingo/app_gradio 模块",
+    "description": "[模块级] dingo 项目的 app_gradio 模块 (source)。来源: https://github.com/MigoXLab/dingo",
+    "domain": "devops",
+    "tags": [
+      "agent-as-a-judge",
+      "common-crawl",
+      "data-agent",
+      "data-evaluation",
+      "data-quality",
+      "module-level",
+      "source",
+      "app_gradio"
+    ],
+    "genes": [
+      {
+        "title": "app_gradio 模块说明",
+        "content": "模块路径: app_gradio/\n类型: source\n文件数: 2\n\n包含文件:\n- app_gradio/app.py\n- app_gradio/header.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app_gradio 文件结构",
+        "content": "app_gradio/app.py\napp_gradio/header.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6240930071980335
+  },
+  {
+    "name": "dingo/dingo 模块",
+    "description": "[模块级] dingo 项目的 dingo 模块 (source)。来源: https://github.com/MigoXLab/dingo",
+    "domain": "devops",
+    "tags": [
+      "agent-as-a-judge",
+      "common-crawl",
+      "data-agent",
+      "data-evaluation",
+      "data-quality",
+      "module-level",
+      "source",
+      "dingo"
+    ],
+    "genes": [
+      {
+        "title": "dingo 模块说明",
+        "content": "🎯 **Production-Grade Quality Checks** - From pre-training datasets to RAG systems, ensure your AI gets high-quality data\n\n🗄️ **Multi-Source Data Integration** - Seamlessly connect to Local files, SQL databases (PostgreSQL/MySQL/SQLite), HuggingFace datasets, and S3 storage\n\n🔍 **Multi-Field Evaluation** - Apply different quality rules to different fields in parallel (e.g., ISBN validation for `isbn`, text quality for `title`)\n\n🤖 **RAG System Assessment** - Comprehensive evaluation of retrieva",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dingo 文件结构",
+        "content": "dingo/__init__.py\ndingo/config\ndingo/config/__init__.py\ndingo/config/input_args.py\ndingo/data\ndingo/data/__init__.py\ndingo/data/converter\ndingo/data/converter/__init__.py\ndingo/data/converter/base.py\ndingo/data/converter/img_utils.py\ndingo/data/dataset\ndingo/data/dataset/__init__.py\ndingo/data/dataset/base.py\ndingo/data/dataset/huggingface.py\ndingo/data/dataset/local.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6240930071980335
+  }
+]

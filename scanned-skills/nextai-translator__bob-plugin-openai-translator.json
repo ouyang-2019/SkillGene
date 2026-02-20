@@ -1,0 +1,163 @@
+[
+  {
+    "name": "bob-plugin-openai-translator (nextai-translator)",
+    "description": "[项目级] 基于 OpenAI API 的文本翻译、文本润色、语法纠错 Bob 插件，让我们一起迎接不需要巴别塔的新时代！Licensed under CC BY-NC-SA 4.0。来源: https://github.com/nextai-translator/bob-plugin-openai-translator",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "gpt",
+      "openai",
+      "translator",
+      "typescript",
+      "stars-5655",
+      "github-nextai-translator",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT 向我们展示了 GPT 模型的伟大之处，所以我使用 OpenAI 的 API 实现了这个 Bob 的翻译 + 润色 + 语法修改插件，效果拔群！\n\n<details>\n\n<summary>演示 👀</summary>\n\n![演示](https://user-images.githubusercontent.com/1206493/221086195-f1ed941d-4dfa-4aa0-9d47-56c258a8f854.gif)\n\n</details>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\nappcast.json\nbiome.json\nbun.lock\ndocs\ndocs/README_EN.md\ndocs/configuration_manual_CN.md\ndocs/configuration_manual_EN.md\npackage.json\npublic\npublic/icon.png\npublic/info.json\nrenovate.json\nscripts\nscripts/build.mts\nscripts/package.mts\nsrc\nsrc/adapter\nsrc/lang.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. 安装 [Bob](https://bobtranslate.com/guide/#%E5%AE%89%E8%A3%85) (版本 >= 0.50)，一款 macOS 平台的翻译和 OCR 软件\n\n2. 下载此插件: [openai-translator.bobplugin](https://github.com/openai-translator/bob-plugin-openai-translator/releases/latest)\n\n3. <details>\n\n    <summary>安装此插件 👀</summary>\n\n    ![安装步骤](https://user-images.githubusercontent.com/1206493/219937302-6be8d362-1520-4906-b8d6-284d01012837.gif)\n\n   </details>\n\n4. 去 [OpenAI](https://platform.openai.com/account/api-keys) 获取你的 API KEY\n\n5. 把 API KEY 填入 Bob 偏好设置 > 服务 > 此插件配置界面的 API KEY 的输入框中\n    - 如果你想了解关于其他设置的更多信息，请查看[配置手册](./docs/configuration_manual_CN.md)\n",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "此插件已支持使用 OpenAI API 对句子进行润色和语法修改，只需要把目标语言设置为与源语言一样即可，全面替代 Grammarly！而且理论上任何语言都可以润色，不仅仅是英语。\n\n如果你不喜欢将翻译功能和文本润色功能放在一起，这里单独拆分出了一个专门用来文本润色和语法纠错的插件: [bob-plugin-openai-polisher](https://github.com/openai-translator/bob-plugin-openai-polisher)，这个润色插件具有更高级的润色功能，比如解释修改原因等。",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.876216304630737
+  },
+  {
+    "name": "bob-plugin-openai-translator/docs 模块",
+    "description": "[模块级] bob-plugin-openai-translator 项目的 docs 模块 (docs)。来源: https://github.com/nextai-translator/bob-plugin-openai-translator",
+    "domain": "documentation",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "gpt",
+      "openai",
+      "translator",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/README_EN.md\n- docs/configuration_manual_CN.md\n- docs/configuration_manual_EN.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README_EN.md\ndocs/configuration_manual_CN.md\ndocs/configuration_manual_EN.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000973043704589
+  },
+  {
+    "name": "bob-plugin-openai-translator/public 模块",
+    "description": "[模块级] bob-plugin-openai-translator 项目的 public 模块 (source)。来源: https://github.com/nextai-translator/bob-plugin-openai-translator",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "gpt",
+      "openai",
+      "translator",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 2\n\n包含文件:\n- public/icon.png\n- public/info.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/icon.png\npublic/info.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000973043704589
+  },
+  {
+    "name": "bob-plugin-openai-translator/scripts 模块",
+    "description": "[模块级] bob-plugin-openai-translator 项目的 scripts 模块 (script)。来源: https://github.com/nextai-translator/bob-plugin-openai-translator",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "gpt",
+      "openai",
+      "translator",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/build.mts\n- scripts/package.mts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build.mts\nscripts/package.mts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000973043704589
+  },
+  {
+    "name": "bob-plugin-openai-translator/src 模块",
+    "description": "[模块级] bob-plugin-openai-translator 项目的 src 模块 (source)。来源: https://github.com/nextai-translator/bob-plugin-openai-translator",
+    "domain": "ai-llm",
+    "tags": [
+      "bobplugin",
+      "chatgpt",
+      "gpt",
+      "openai",
+      "translator",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 15\n\n包含文件:\n- src/adapter\n- src/adapter/azure-openai.ts\n- src/adapter/base.ts\n- src/adapter/gemini.ts\n- src/adapter/index.ts\n- src/adapter/openai.ts\n- src/lang.ts\n- src/main.ts\n- src/types.ts\n- src/utils",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/adapter\nsrc/adapter/azure-openai.ts\nsrc/adapter/base.ts\nsrc/adapter/gemini.ts\nsrc/adapter/index.ts\nsrc/adapter/openai.ts\nsrc/lang.ts\nsrc/main.ts\nsrc/types.ts\nsrc/utils\nsrc/utils/common.ts\nsrc/utils/error.ts\nsrc/utils/model-capabilities.ts\nsrc/utils/prompt.ts\nsrc/utils/sse.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.000973043704589
+  }
+]

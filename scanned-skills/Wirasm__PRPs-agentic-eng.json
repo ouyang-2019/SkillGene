@@ -1,0 +1,127 @@
+[
+  {
+    "name": "PRPs-agentic-eng (Wirasm)",
+    "description": "[项目级] Prompts, workflows and more for agentic engineering 。来源: https://github.com/Wirasm/PRPs-agentic-eng",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2025",
+      "github-wirasm",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Prompts, workflows and more for agentic engineering \n\n来源: https://github.com/Wirasm/PRPs-agentic-eng\n语言: Python\nStars: 2025",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nREADME-for-DUMMIES.md\nREADME.md\nclaude_md_files\nclaude_md_files/CLAUDE-ASTRO.md\nclaude_md_files/CLAUDE-JAVA-GRADLE.md\nclaude_md_files/CLAUDE-JAVA-MAVEN.md\nclaude_md_files/CLAUDE-NEXTJS-15.md\nclaude_md_files/CLAUDE-NODE.md\nclaude_md_files/CLAUDE-PYTHON-BASIC.md\nclaude_md_files/CLAUDE-REACT.md\nclaude_md_files/CLAUDE-RUST.md\nold-prp-commands\nold-prp-commands/PRPs\nold-prp-commands/code-quality\nold-prp-commands/development\nold-prp-commands/git-operations\nold-prp-commands/prp-old\nold-prp-commands/rapid-development\nold-prp-commands/scripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "```\n/prp-prd \"user authentication system\"\n    ↓\nCreates PRD with Implementation Phases table\n    ↓\n/prp-plan .claude/PRPs/prds/user-auth.prd.md\n    ↓\nAuto-selects next pending phase, creates plan\n    ↓\n/prp-implement .claude/PRPs/plans/user-auth-phase-1.plan.md\n    ↓\nExecutes plan, updates PRD progress, archives plan\n    ↓\nRepeat /prp-plan for next phase\n```",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.653212513775344
+  },
+  {
+    "name": "PRPs-agentic-eng/claude_md_files 模块",
+    "description": "[模块级] PRPs-agentic-eng 项目的 claude_md_files 模块 (source)。来源: https://github.com/Wirasm/PRPs-agentic-eng",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2025",
+      "github-wirasm",
+      "module-level",
+      "source",
+      "claude_md_files"
+    ],
+    "genes": [
+      {
+        "title": "claude_md_files 模块说明",
+        "content": "模块路径: claude_md_files/\n类型: source\n文件数: 8\n\n包含文件:\n- claude_md_files/CLAUDE-ASTRO.md\n- claude_md_files/CLAUDE-JAVA-GRADLE.md\n- claude_md_files/CLAUDE-JAVA-MAVEN.md\n- claude_md_files/CLAUDE-NEXTJS-15.md\n- claude_md_files/CLAUDE-NODE.md\n- claude_md_files/CLAUDE-PYTHON-BASIC.md\n- claude_md_files/CLAUDE-REACT.md\n- claude_md_files/CLAUDE-RUST.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude_md_files 文件结构",
+        "content": "claude_md_files/CLAUDE-ASTRO.md\nclaude_md_files/CLAUDE-JAVA-GRADLE.md\nclaude_md_files/CLAUDE-JAVA-MAVEN.md\nclaude_md_files/CLAUDE-NEXTJS-15.md\nclaude_md_files/CLAUDE-NODE.md\nclaude_md_files/CLAUDE-PYTHON-BASIC.md\nclaude_md_files/CLAUDE-REACT.md\nclaude_md_files/CLAUDE-RUST.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.822570011020275
+  },
+  {
+    "name": "PRPs-agentic-eng/old-prp-commands 模块",
+    "description": "[模块级] PRPs-agentic-eng 项目的 old-prp-commands 模块 (source)。来源: https://github.com/Wirasm/PRPs-agentic-eng",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2025",
+      "github-wirasm",
+      "module-level",
+      "source",
+      "old-prp-commands"
+    ],
+    "genes": [
+      {
+        "title": "old-prp-commands 模块说明",
+        "content": "模块路径: old-prp-commands/\n类型: source\n文件数: 84\n\n包含文件:\n- old-prp-commands/PRPs\n- old-prp-commands/PRPs/README.md\n- old-prp-commands/PRPs/STORY_WORKFLOW_GUIDE.md\n- old-prp-commands/PRPs/ai_docs\n- old-prp-commands/PRPs/ai_docs/build_with_claude_code.md\n- old-prp-commands/PRPs/ai_docs/cc_administration.md\n- old-prp-commands/PRPs/ai_docs/cc_cli.md\n- old-prp-commands/PRPs/ai_docs/cc_commands.md\n- old-prp-commands/PRPs/ai_docs/cc_containers.md\n- old-prp-commands/PRPs/ai_docs/cc_deployment.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "old-prp-commands 文件结构",
+        "content": "old-prp-commands/PRPs\nold-prp-commands/PRPs/README.md\nold-prp-commands/PRPs/STORY_WORKFLOW_GUIDE.md\nold-prp-commands/PRPs/ai_docs\nold-prp-commands/PRPs/ai_docs/build_with_claude_code.md\nold-prp-commands/PRPs/ai_docs/cc_administration.md\nold-prp-commands/PRPs/ai_docs/cc_cli.md\nold-prp-commands/PRPs/ai_docs/cc_commands.md\nold-prp-commands/PRPs/ai_docs/cc_containers.md\nold-prp-commands/PRPs/ai_docs/cc_deployment.md\nold-prp-commands/PRPs/ai_docs/cc_hooks.md\nold-prp-commands/PRPs/ai_docs/cc_mcp.md\nold-prp-commands/PRPs/ai_docs/cc_monitoring.md\nold-prp-commands/PRPs/ai_docs/cc_settings.md\nold-prp-commands/PRPs/ai_docs/cc_troubleshoot.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.822570011020275
+  },
+  {
+    "name": "PRPs-agentic-eng/plugins 模块",
+    "description": "[模块级] PRPs-agentic-eng 项目的 plugins 模块 (source)。来源: https://github.com/Wirasm/PRPs-agentic-eng",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-2025",
+      "github-wirasm",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 37\n\n包含文件:\n- plugins/prp-core\n- plugins/prp-core/.claude-plugin\n- plugins/prp-core/.claude-plugin/plugin.json\n- plugins/prp-core/README.md\n- plugins/prp-core/agents\n- plugins/prp-core/agents/code-reviewer.md\n- plugins/prp-core/agents/code-simplifier.md\n- plugins/prp-core/agents/codebase-analyst.md\n- plugins/prp-core/agents/codebase-explorer.md\n- plugins/prp-core/agents/comment-analyzer.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/prp-core\nplugins/prp-core/.claude-plugin\nplugins/prp-core/.claude-plugin/plugin.json\nplugins/prp-core/README.md\nplugins/prp-core/agents\nplugins/prp-core/agents/code-reviewer.md\nplugins/prp-core/agents/code-simplifier.md\nplugins/prp-core/agents/codebase-analyst.md\nplugins/prp-core/agents/codebase-explorer.md\nplugins/prp-core/agents/comment-analyzer.md\nplugins/prp-core/agents/docs-impact-agent.md\nplugins/prp-core/agents/pr-test-analyzer.md\nplugins/prp-core/agents/silent-failure-hunter.md\nplugins/prp-core/agents/type-design-analyzer.md\nplugins/prp-core/agents/web-researcher.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.822570011020275
+  }
+]

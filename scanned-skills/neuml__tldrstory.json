@@ -1,0 +1,102 @@
+[
+  {
+    "name": "tldrstory (neuml)",
+    "description": "[项目级] 📊 Semantic search for headlines and story text。来源: https://github.com/neuml/tldrstory",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "stars-359",
+      "github-neuml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "📊 Semantic search for headlines and story text\n\n来源: https://github.com/neuml/tldrstory\n语言: Python\nStars: 359",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The easiest way to install is via pip and PyPI\n\n    pip install tldrstory\n\nYou can also install tldrstory directly from GitHub. Using a Python Virtual Environment is recommended.\n\n    pip install git+https://github.com/neuml/tldrstory\n\nPython 3.8+ is supported\n\nSee [this link](https://github.com/neuml/txtai#installation) to help resolve environment-specific install issues.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napps\napps/devices\napps/index.html\napps/sports\nlogo.png\nsetup.py\nsrc\nsrc/python",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The following links are example applications built with tldrstory.\n\n- [Mobile Tech News](https://github.com/neuml/tldrstory/tree/master/apps/devices)\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/neuml/tldrstory/master/apps/devices/demo.gif\"/>\n</p>\n\n- [Sports News](https://github.com/neuml/tldrstory/tree/master/apps/sports)\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/neuml/tldrstory/master/apps/sports/demo.gif\"/>\n</p>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.27754722428916
+  },
+  {
+    "name": "tldrstory/apps 模块",
+    "description": "[模块级] tldrstory 项目的 apps 模块 (source)。来源: https://github.com/neuml/tldrstory",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 12\n\n包含文件:\n- apps/devices\n- apps/devices/api.yml\n- apps/devices/app.yml\n- apps/devices/demo.gif\n- apps/devices/index.yml\n- apps/index.html\n- apps/sports\n- apps/sports/api.yml\n- apps/sports/app.yml\n- apps/sports/demo.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/devices\napps/devices/api.yml\napps/devices/app.yml\napps/devices/demo.gif\napps/devices/index.yml\napps/index.html\napps/sports\napps/sports/api.yml\napps/sports/app.yml\napps/sports/demo.gif\napps/sports/index-simple.yml\napps/sports/index.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5220377794313276
+  },
+  {
+    "name": "tldrstory/src 模块",
+    "description": "[模块级] tldrstory 项目的 src 模块 (source)。来源: https://github.com/neuml/tldrstory",
+    "domain": "general",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "python",
+      "search",
+      "txtai",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 14\n\n包含文件:\n- src/python\n- src/python/tldrstory\n- src/python/tldrstory/__init__.py\n- src/python/tldrstory/api.py\n- src/python/tldrstory/app.py\n- src/python/tldrstory/database.py\n- src/python/tldrstory/index.py\n- src/python/tldrstory/source\n- src/python/tldrstory/source/__init__.py\n- src/python/tldrstory/source/factory.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/python\nsrc/python/tldrstory\nsrc/python/tldrstory/__init__.py\nsrc/python/tldrstory/api.py\nsrc/python/tldrstory/app.py\nsrc/python/tldrstory/database.py\nsrc/python/tldrstory/index.py\nsrc/python/tldrstory/source\nsrc/python/tldrstory/source/__init__.py\nsrc/python/tldrstory/source/factory.py\nsrc/python/tldrstory/source/reddit.py\nsrc/python/tldrstory/source/rss.py\nsrc/python/tldrstory/source/source.py\nsrc/python/tldrstory/sqlite.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5220377794313276
+  }
+]

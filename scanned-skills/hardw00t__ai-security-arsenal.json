@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ai-security-arsenal (hardw00t)",
+    "description": "[项目级] A collection of skills, agents, commands, and workflows for security researchers. Compatible with Claude Code, Claude Desktop, OpenCode, and other AI coding tools.。来源: https://github.com/hardw00t/ai-security-arsenal",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-27",
+      "github-hardw00t",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "| Category | Skill | Description |\n|----------|-------|-------------|\n| **Mobile** | [android-pentest](#android-pentest) | Android app pentesting with Frida, objection, ADB |\n| **Mobile** | [ios-pentest](#ios-pentest) | iOS app security testing with Frida, Cycript, objection |\n| **Web** | [dast-automation](#dast-automation) | Dynamic testing with ZAP, Burp, Nuclei, Playwright |\n| **Web** | [api-security](#api-security) | REST/GraphQL API security, OWASP API Top 10 |\n| **Cloud** | [cloud-security](#cloud-security) | AWS/GCP/Azure security assessment |\n| **Cloud** | [iac-security](#iac-security) | Infrastructure as Code security scanning |\n| **Cloud** | [container-security](#container-security) | Docker/Kubernetes security assessment |\n| **Network** | [network-pentest](#network-pentest) | In",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nskills\nskills/android-pentest\nskills/api-security\nskills/cloud-security\nskills/container-security\nskills/dast-automation\nskills/iac-security\nskills/ios-pentest\nskills/llm-security\nskills/network-pentest\nskills/sast-orchestration\nskills/sca-security\nskills/threat-modeling",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.715681882079494
+  },
+  {
+    "name": "ai-security-arsenal/skills 模块",
+    "description": "[模块级] ai-security-arsenal 项目的 skills 模块 (source)。来源: https://github.com/hardw00t/ai-security-arsenal",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-27",
+      "github-hardw00t",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "| Category | Skill | Description |\n|----------|-------|-------------|\n| **Mobile** | [android-pentest](#android-pentest) | Android app pentesting with Frida, objection, ADB |\n| **Mobile** | [ios-pentest](#ios-pentest) | iOS app security testing with Frida, Cycript, objection |\n| **Web** | [dast-automation](#dast-automation) | Dynamic testing with ZAP, Burp, Nuclei, Playwright |\n| **Web** | [api-security](#api-security) | REST/GraphQL API security, OWASP API Top 10 |\n| **Cloud** | [cloud-security",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/android-pentest\nskills/android-pentest/SKILL.md\nskills/android-pentest/checklists\nskills/android-pentest/checklists/owasp_mastg_full.md\nskills/android-pentest/checklists/pre_engagement.md\nskills/android-pentest/checklists/quick_wins.md\nskills/android-pentest/checklists/report_items.md\nskills/android-pentest/methodology\nskills/android-pentest/methodology/auth_testing.md\nskills/android-pentest/methodology/client_side_injection.md\nskills/android-pentest/methodology/crypto_testing.md\nskills/android-pentest/methodology/data_storage.md\nskills/android-pentest/methodology/dynamic_analysis.md\nskills/android-pentest/methodology/network_testing.md\nskills/android-pentest/methodology/recon.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.072545505663595
+  }
+]

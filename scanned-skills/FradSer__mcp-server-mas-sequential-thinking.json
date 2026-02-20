@@ -1,0 +1,102 @@
+[
+  {
+    "name": "mcp-server-mas-sequential-thinking (FradSer)",
+    "description": "[项目级] An advanced sequential thinking process using a Multi-Agent System (MAS) built with the Agno framework and served via MCP.。来源: https://github.com/FradSer/mcp-server-mas-sequential-thinking",
+    "domain": "devops",
+    "tags": [
+      "agno",
+      "mcp",
+      "mcp-server",
+      "sequential-thinking",
+      "python",
+      "stars-289",
+      "github-fradser",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An advanced sequential thinking process using a Multi-Agent System (MAS) built with the Agno framework and served via MCP.\n\n来源: https://github.com/FradSer/mcp-server-mas-sequential-thinking\n语言: Python\nStars: 289",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nDockerfile\nMakefile\nREADME.md\nREADME.zh-CN.md\npyproject.toml\npytest.ini\nscripts\nscripts/mcp_python_client_smoke.py\nsmithery.yaml\nsrc\nsrc/mcp_server_mas_sequential_thinking\ntests\ntests/__init__.py\ntests/fixtures\ntests/integration\ntests/unit\nuv.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```bash",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.230448921378274
+  },
+  {
+    "name": "mcp-server-mas-sequential-thinking/src 模块",
+    "description": "[模块级] mcp-server-mas-sequential-thinking 项目的 src 模块 (source)。来源: https://github.com/FradSer/mcp-server-mas-sequential-thinking",
+    "domain": "devops",
+    "tags": [
+      "agno",
+      "mcp",
+      "mcp-server",
+      "sequential-thinking",
+      "python",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 43\n\n包含文件:\n- src/mcp_server_mas_sequential_thinking\n- src/mcp_server_mas_sequential_thinking/__init__.py\n- src/mcp_server_mas_sequential_thinking/config\n- src/mcp_server_mas_sequential_thinking/config/__init__.py\n- src/mcp_server_mas_sequential_thinking/config/constants.py\n- src/mcp_server_mas_sequential_thinking/config/modernized_config.py\n- src/mcp_server_mas_sequential_thinking/core\n- src/mcp_server_mas_sequential_thinking/core/__init__.py\n- src/mcp_server_mas_sequential_thinking/core/models.py\n- src/mcp_server_mas_sequential_thinking/core/session.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/mcp_server_mas_sequential_thinking\nsrc/mcp_server_mas_sequential_thinking/__init__.py\nsrc/mcp_server_mas_sequential_thinking/config\nsrc/mcp_server_mas_sequential_thinking/config/__init__.py\nsrc/mcp_server_mas_sequential_thinking/config/constants.py\nsrc/mcp_server_mas_sequential_thinking/config/modernized_config.py\nsrc/mcp_server_mas_sequential_thinking/core\nsrc/mcp_server_mas_sequential_thinking/core/__init__.py\nsrc/mcp_server_mas_sequential_thinking/core/models.py\nsrc/mcp_server_mas_sequential_thinking/core/session.py\nsrc/mcp_server_mas_sequential_thinking/core/types.py\nsrc/mcp_server_mas_sequential_thinking/infrastructure\nsrc/mcp_server_mas_sequential_thinking/infrastructure/__init__.py\nsrc/mcp_server_mas_sequential_thinking/infrastructure/learning_resources.py\nsrc/mcp_server_mas_sequential_thinking/infrastructure/logging_config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.484359137102619
+  },
+  {
+    "name": "mcp-server-mas-sequential-thinking/tests 模块",
+    "description": "[模块级] mcp-server-mas-sequential-thinking 项目的 tests 模块 (test)。来源: https://github.com/FradSer/mcp-server-mas-sequential-thinking",
+    "domain": "testing",
+    "tags": [
+      "agno",
+      "mcp",
+      "mcp-server",
+      "sequential-thinking",
+      "python",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "uv run pytest\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/fixtures\ntests/fixtures/__init__.py\ntests/fixtures/test_data.py\ntests/integration\ntests/integration/__init__.py\ntests/integration/test_mcp_stdio_protocol.py\ntests/integration/test_thought_processing.py\ntests/unit\ntests/unit/__init__.py\ntests/unit/test_ai_complexity_analyzer.py\ntests/unit/test_configuration_validation.py\ntests/unit/test_learning_resources.py\ntests/unit/test_multi_thinking_core.py\ntests/unit/test_multi_thinking_processor_events.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.484359137102619
+  }
+]

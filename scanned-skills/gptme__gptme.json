@@ -1,0 +1,108 @@
+[
+  {
+    "name": "gptme (gptme)",
+    "description": "[项目级] Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!。来源: https://github.com/gptme/gptme",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "ai-assistant",
+      "anthropic",
+      "python",
+      "stars-4194",
+      "github-gptme",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!\n\n来源: https://github.com/gptme/gptme\n语言: Python\nStars: 4194",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Install with pipx:\n\n```sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nSECURITY.md\ndocs\ndocs/Makefile\ndocs/_static\ndocs/acp.rst\ndocs/agents.rst\ndocs/alternatives.rst\ndocs/api.rst\ndocs/arewetiny.rst\ndocs/automation.rst\ndocs/automation\ndocs/bot.md\ndocs/building.rst\ndocs/changelog.rst\ndocs/cli.rst\ndocs/commands.rst\ndocs/computer-use-warning.rst",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "$ gptme --help\nUsage: gptme [OPTIONS] [PROMPTS]...\n\n  gptme is a chat-CLI for LLMs, empowering them with tools to run shell\n  commands, execute code, read and manipulate files, and more.\n\n  If PROMPTS are provided, a new conversation will be started with it. PROMPTS\n  can be chained with the '-' separator.\n\n  The interface provides user commands that can be used to interact with the\n  system.\n\n  Available commands:\n    /undo         Undo the last action\n    /log          Show the conversation log\n    /edit         Edit the conversation in your editor\n    /rename       Rename the conversation\n ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 💻 Code execution\n  - Executes code in your local environment with the [shell][docs-tools-shell] and [python][docs-tools-python] tools.\n- 🧩 Read, write, and change files\n  - Makes incremental changes with the [patch][docs-tools-patch] tool.\n- 🌐 Search and browse the web.\n  - Can use a browser via Playwright with the [browser][docs-tools-browser] tool.\n- 👀 Vision\n  - Can see images referenced in prompts, screenshots of your desktop, and web pages.\n- 🔄 Self-correcting\n  - Output is fed back to the assistant, allowing it to respond and self-correct.\n- 📚 [Lessons system][docs-lessons]\n  - C",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.811314213064662
+  },
+  {
+    "name": "gptme/docs 模块",
+    "description": "[模块级] gptme 项目的 docs 模块 (docs)。来源: https://github.com/gptme/gptme",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "ai-assistant",
+      "anthropic",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 114\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/custom.css\n- docs/acp.rst\n- docs/agents.rst\n- docs/alternatives.rst\n- docs/api.rst\n- docs/arewetiny.rst\n- docs/automation.rst\n- docs/automation",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/custom.css\ndocs/acp.rst\ndocs/agents.rst\ndocs/alternatives.rst\ndocs/api.rst\ndocs/arewetiny.rst\ndocs/automation.rst\ndocs/automation\ndocs/automation/example_activity_summary.rst\ndocs/automation/example_code_review.rst\ndocs/bot.md\ndocs/building.rst\ndocs/changelog.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.94905137045173
+  },
+  {
+    "name": "gptme/gptme 模块",
+    "description": "[模块级] gptme 项目的 gptme 模块 (source)。来源: https://github.com/gptme/gptme",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "ai-assistant",
+      "anthropic",
+      "module-level",
+      "source",
+      "gptme"
+    ],
+    "genes": [
+      {
+        "title": "gptme 模块说明",
+        "content": "模块路径: gptme/\n类型: source\n文件数: 58\n\n包含文件:\n- gptme/__init__.py\n- gptme/__main__.py\n- gptme/__version__.py\n- gptme/acp\n- gptme/acp/__init__.py\n- gptme/acp/__main__.py\n- gptme/acp/adapter.py\n- gptme/acp/agent.py\n- gptme/acp/types.py\n- gptme/agent",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gptme 文件结构",
+        "content": "gptme/__init__.py\ngptme/__main__.py\ngptme/__version__.py\ngptme/acp\ngptme/acp/__init__.py\ngptme/acp/__main__.py\ngptme/acp/adapter.py\ngptme/acp/agent.py\ngptme/acp/types.py\ngptme/agent\ngptme/agent/__init__.py\ngptme/agent/cli.py\ngptme/agent/service.py\ngptme/agent/workspace.py\ngptme/chat.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.94905137045173
+  }
+]

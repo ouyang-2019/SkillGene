@@ -1,0 +1,97 @@
+[
+  {
+    "name": "uhuruphotos-android (savvasdalkitsis)",
+    "description": "[项目级] 🖼️A modern media gallery, with features like backup/sync, semantic search, media map, face recognition, memories and much more built using the latest Android technologies.。来源: https://github.com/savvasdalkitsis/uhuruphotos-android",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "android-app",
+      "jetpack-compose",
+      "kotlin",
+      "kotlin-android",
+      "stars-394",
+      "github-savvasdalkitsis",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🖼️A modern media gallery, with features like backup/sync, semantic search, media map, face recognition, memories and much more built using the latest Android technologies.\n\n来源: https://github.com/savvasdalkitsis/uhuruphotos-android\n语言: Kotlin\nStars: 394",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Gemfile\nGemfile.lock\nLICENSE\nLICENSE-HEADER\nREADME.md\napp\napp/build.gradle\napp/implementation\napp/proguard-rules.pro\napp/proguards\napp/src\nbuild.gradle\ncheck-license.ps1\ncheck-license.sh\ncookiecutter-templates\ncookiecutter-templates/feature\ncookiecutter-templates/foundation",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.297748110912787
+  },
+  {
+    "name": "uhuruphotos-android/app 模块",
+    "description": "[模块级] uhuruphotos-android 项目的 app 模块 (source)。来源: https://github.com/savvasdalkitsis/uhuruphotos-android",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "android-app",
+      "jetpack-compose",
+      "kotlin",
+      "kotlin-android",
+      "module-level",
+      "source",
+      "app"
+    ],
+    "genes": [
+      {
+        "title": "app 模块说明",
+        "content": "模块路径: app/\n类型: source\n文件数: 32\n\n包含文件:\n- app/build.gradle\n- app/implementation\n- app/implementation/build.gradle\n- app/proguard-rules.pro\n- app/proguards\n- app/proguards/gson.pro\n- app/src\n- app/src/debug\n- app/src/debug/AndroidManifest.xml\n- app/src/main",
+        "gene_type": "principle"
+      },
+      {
+        "title": "app 文件结构",
+        "content": "app/build.gradle\napp/implementation\napp/implementation/build.gradle\napp/proguard-rules.pro\napp/proguards\napp/proguards/gson.pro\napp/src\napp/src/debug\napp/src/debug/AndroidManifest.xml\napp/src/main\napp/src/main/AndroidManifest.xml\napp/src/main/kotlin\napp/src/main/kotlin/com\napp/src/main/kotlin/com/savvasdalkitsis\napp/src/main/kotlin/com/savvasdalkitsis/uhuruphotos",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.53819848873023
+  },
+  {
+    "name": "uhuruphotos-android/cookiecutter-templates 模块",
+    "description": "[模块级] uhuruphotos-android 项目的 cookiecutter-templates 模块 (source)。来源: https://github.com/savvasdalkitsis/uhuruphotos-android",
+    "domain": "testing",
+    "tags": [
+      "android",
+      "android-app",
+      "jetpack-compose",
+      "kotlin",
+      "kotlin-android",
+      "module-level",
+      "source",
+      "cookiecutter-templates"
+    ],
+    "genes": [
+      {
+        "title": "cookiecutter-templates 模块说明",
+        "content": "模块路径: cookiecutter-templates/\n类型: source\n文件数: 74\n\n包含文件:\n- cookiecutter-templates/feature\n- cookiecutter-templates/feature/cookiecutter.json\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/build.gradle\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin\n- cookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookiecutter-templates 文件结构",
+        "content": "cookiecutter-templates/feature\ncookiecutter-templates/feature/cookiecutter.json\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/build.gradle\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com/savvasdalkitsis\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com/savvasdalkitsis/uhuruphotos\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com/savvasdalkitsis/uhuruphotos/feature\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com/savvasdalkitsis/uhuruphotos/feature/{{cookiecutter.project_slug}}\ncookiecutter-templates/feature/{{cookiecutter.project_slug}}/domain/api/src/main/kotlin/com/savvasdalkitsis/uhuruphotos/feature/{{cookiecutter.project_slug}}/domain",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.53819848873023
+  }
+]

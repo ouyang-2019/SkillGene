@@ -1,0 +1,168 @@
+[
+  {
+    "name": "codeinterpreter-api (shroominic)",
+    "description": "[项目级] 👾 Open source implementation of the ChatGPT Code Interpreter。来源: https://github.com/shroominic/codeinterpreter-api",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-code-generation",
+      "code-interpreter",
+      "codeinterpreter",
+      "langchain",
+      "python",
+      "stars-3859",
+      "github-shroominic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "👾 Open source implementation of the ChatGPT Code Interpreter\n\n来源: https://github.com/shroominic/codeinterpreter-api\n语言: Python\nStars: 3859",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install \"codeinterpreterapi[all]\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndev-setup.sh\ndocs\ndocs/bitcoin_chart.md\ndocs/code_interpreter_response.md\ndocs/code_interpreter_session.md\ndocs/codebox.md\ndocs/concepts_overview.md\ndocs/deploy.md\ndocs/file.md\ndocs/index.md\ndocs/installation.md\ndocs/iris_dataset.md\ndocs/settings.md\ndocs/streamlit_webapp.md\ndocs/usage.md\ndocs/user_request.md\nexamples\nexamples/analyze_dataset.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "export OPENAI_API_KEY=sk-**********",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Dataset Analysis, Stock Charting, Image Manipulation, ....\n- Internet access and auto Python package installation\n- Input `text + files` -> Receive `text + files`\n- Conversation Memory: respond based on previous inputs\n- Run everything local except the OpenAI API (OpenOrca or others maybe soon)\n- Use CodeBox API for easy scaling in production",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.793237389285698
+  },
+  {
+    "name": "codeinterpreter-api/docs 模块",
+    "description": "[模块级] codeinterpreter-api 项目的 docs 模块 (docs)。来源: https://github.com/shroominic/codeinterpreter-api",
+    "domain": "documentation",
+    "tags": [
+      "chatgpt",
+      "chatgpt-code-generation",
+      "code-interpreter",
+      "codeinterpreter",
+      "langchain",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "Checkout the [documentation](https://shroominic.github.io/codeinterpreter-api/) for more information.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/bitcoin_chart.md\ndocs/code_interpreter_response.md\ndocs/code_interpreter_session.md\ndocs/codebox.md\ndocs/concepts_overview.md\ndocs/deploy.md\ndocs/file.md\ndocs/index.md\ndocs/installation.md\ndocs/iris_dataset.md\ndocs/settings.md\ndocs/streamlit_webapp.md\ndocs/usage.md\ndocs/user_request.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9345899114285587
+  },
+  {
+    "name": "codeinterpreter-api/examples 模块",
+    "description": "[模块级] codeinterpreter-api 项目的 examples 模块 (example)。来源: https://github.com/shroominic/codeinterpreter-api",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-code-generation",
+      "code-interpreter",
+      "codeinterpreter",
+      "langchain",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 17\n\n包含文件:\n- examples/analyze_dataset.py\n- examples/anthropic_claude.py\n- examples/assets\n- examples/assets/bitcoin_chart.png\n- examples/assets/iris.csv\n- examples/assets/iris_analysis.png\n- examples/chat_cli.py\n- examples/chat_history_backend.py\n- examples/convert_file.py\n- examples/frontend",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/analyze_dataset.py\nexamples/anthropic_claude.py\nexamples/assets\nexamples/assets/bitcoin_chart.png\nexamples/assets/iris.csv\nexamples/assets/iris_analysis.png\nexamples/chat_cli.py\nexamples/chat_history_backend.py\nexamples/convert_file.py\nexamples/frontend\nexamples/frontend/__init__.py\nexamples/frontend/app.py\nexamples/frontend/chainlitui.py\nexamples/frontend/utils.py\nexamples/plot_sin_wave.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9345899114285587
+  },
+  {
+    "name": "codeinterpreter-api/src 模块",
+    "description": "[模块级] codeinterpreter-api 项目的 src 模块 (source)。来源: https://github.com/shroominic/codeinterpreter-api",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-code-generation",
+      "code-interpreter",
+      "codeinterpreter",
+      "langchain",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 17\n\n包含文件:\n- src/codeinterpreterapi\n- src/codeinterpreterapi/__init__.py\n- src/codeinterpreterapi/_patch_parser.py\n- src/codeinterpreterapi/chains\n- src/codeinterpreterapi/chains/__init__.py\n- src/codeinterpreterapi/chains/extract_code.py\n- src/codeinterpreterapi/chains/modifications_check.py\n- src/codeinterpreterapi/chains/rm_dl_link.py\n- src/codeinterpreterapi/chat_history.py\n- src/codeinterpreterapi/config.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/codeinterpreterapi\nsrc/codeinterpreterapi/__init__.py\nsrc/codeinterpreterapi/_patch_parser.py\nsrc/codeinterpreterapi/chains\nsrc/codeinterpreterapi/chains/__init__.py\nsrc/codeinterpreterapi/chains/extract_code.py\nsrc/codeinterpreterapi/chains/modifications_check.py\nsrc/codeinterpreterapi/chains/rm_dl_link.py\nsrc/codeinterpreterapi/chat_history.py\nsrc/codeinterpreterapi/config.py\nsrc/codeinterpreterapi/prompts\nsrc/codeinterpreterapi/prompts/__init__.py\nsrc/codeinterpreterapi/prompts/modifications_check.py\nsrc/codeinterpreterapi/prompts/remove_dl_link.py\nsrc/codeinterpreterapi/prompts/system_message.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9345899114285587
+  },
+  {
+    "name": "codeinterpreter-api/tests 模块",
+    "description": "[模块级] codeinterpreter-api 项目的 tests 模块 (test)。来源: https://github.com/shroominic/codeinterpreter-api",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "chatgpt-code-generation",
+      "code-interpreter",
+      "codeinterpreter",
+      "langchain",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 3\n\n包含文件:\n- tests/chain_test.py\n- tests/general_test.py\n- tests/run_examples.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/chain_test.py\ntests/general_test.py\ntests/run_examples.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9345899114285587
+  }
+]

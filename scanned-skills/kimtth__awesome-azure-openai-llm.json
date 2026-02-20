@@ -1,0 +1,123 @@
+[
+  {
+    "name": "awesome-azure-openai-llm (kimtth)",
+    "description": "[项目级] A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (RAG, Agents).。来源: https://github.com/kimtth/awesome-azure-openai-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-engineering",
+      "ai-tools",
+      "python",
+      "stars-392",
+      "github-kimtth",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (RAG, Agents).\n\n来源: https://github.com/kimtth/awesome-azure-openai-llm\n语言: Python\nStars: 392",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ncode\ncode/add_github_stars.py\ncode/check_unused_files.py\ncode/fetch_github_description.py\ncode/fetch_popular_papers.py\ncode/get_github_dates.py\ncode/merge_readme.py\ncode/update_azure_dates.py\ncode/update_citation_counts.py\ncode/utils\nfiles\nfiles/Fine-tuning_a_GPT_LoRA.pdf\nfiles/LangChain_kdnuggets.pdf\nfiles/LoRA.png\nfiles/RoPE.pdf\nfiles/TRL-readme.png\nfiles/_bak\nfiles/acs-hybrid.png\nfiles/advanced-rag-diagram-llama-index.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.296643033510229
+  },
+  {
+    "name": "awesome-azure-openai-llm/code 模块",
+    "description": "[模块级] awesome-azure-openai-llm 项目的 code 模块 (source)。来源: https://github.com/kimtth/awesome-azure-openai-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-engineering",
+      "ai-tools",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 15\n\n包含文件:\n- code/add_github_stars.py\n- code/check_unused_files.py\n- code/fetch_github_description.py\n- code/fetch_popular_papers.py\n- code/get_github_dates.py\n- code/merge_readme.py\n- code/update_azure_dates.py\n- code/update_citation_counts.py\n- code/utils\n- code/utils/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/add_github_stars.py\ncode/check_unused_files.py\ncode/fetch_github_description.py\ncode/fetch_popular_papers.py\ncode/get_github_dates.py\ncode/merge_readme.py\ncode/update_azure_dates.py\ncode/update_citation_counts.py\ncode/utils\ncode/utils/__init__.py\ncode/utils/github_api.py\ncode/utils/http_utils.py\ncode/utils/io_utils.py\ncode/utils/markdown_utils.py\ncode/utils/path_utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.537314426808183
+  },
+  {
+    "name": "awesome-azure-openai-llm/files 模块",
+    "description": "[模块级] awesome-azure-openai-llm 项目的 files 模块 (source)。来源: https://github.com/kimtth/awesome-azure-openai-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-engineering",
+      "ai-tools",
+      "module-level",
+      "source",
+      "files"
+    ],
+    "genes": [
+      {
+        "title": "files 模块说明",
+        "content": "模块路径: files/\n类型: source\n文件数: 77\n\n包含文件:\n- files/Fine-tuning_a_GPT_LoRA.pdf\n- files/LangChain_kdnuggets.pdf\n- files/LoRA.png\n- files/RoPE.pdf\n- files/TRL-readme.png\n- files/_bak\n- files/_bak/_bak.zip.001\n- files/_bak/_bak.zip.002\n- files/_bak/_bak.zip.003\n- files/_bak/_bak.zip.004",
+        "gene_type": "principle"
+      },
+      {
+        "title": "files 文件结构",
+        "content": "files/Fine-tuning_a_GPT_LoRA.pdf\nfiles/LangChain_kdnuggets.pdf\nfiles/LoRA.png\nfiles/RoPE.pdf\nfiles/TRL-readme.png\nfiles/_bak\nfiles/_bak/_bak.zip.001\nfiles/_bak/_bak.zip.002\nfiles/_bak/_bak.zip.003\nfiles/_bak/_bak.zip.004\nfiles/acs-hybrid.png\nfiles/advanced-rag-diagram-llama-index.png\nfiles/advanced-rag.png\nfiles/aifire.pdf\nfiles/chatscreen.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.537314426808183
+  },
+  {
+    "name": "awesome-azure-openai-llm/section 模块",
+    "description": "[模块级] awesome-azure-openai-llm 项目的 section 模块 (source)。来源: https://github.com/kimtth/awesome-azure-openai-llm",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-engineering",
+      "ai-tools",
+      "module-level",
+      "source",
+      "section"
+    ],
+    "genes": [
+      {
+        "title": "section 模块说明",
+        "content": "模块路径: section/\n类型: source\n文件数: 6\n\n包含文件:\n- section/applications.md\n- section/azure.md\n- section/best_practices.md\n- section/models_research.md\n- section/tools_extra.md\n- section/x_popular_papers.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "section 文件结构",
+        "content": "section/applications.md\nsection/azure.md\nsection/best_practices.md\nsection/models_research.md\nsection/tools_extra.md\nsection/x_popular_papers.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.537314426808183
+  }
+]

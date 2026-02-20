@@ -1,0 +1,108 @@
+[
+  {
+    "name": "ai-doc-gen (divar-ir)",
+    "description": "[项目级] AI-powered multi-agent system that automatically analyzes codebases and generates comprehensive documentation. Features GitLab integration, concurrent processing, and multiple LLM support for better code understanding and developer onboarding.。来源: https://github.com/divar-ir/ai-doc-gen",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-documentation",
+      "code-analysis",
+      "documentation",
+      "python",
+      "stars-697",
+      "github-divar-ir",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI-powered multi-agent system that automatically analyzes codebases and generates comprehensive documentation. Features GitLab integration, concurrent processing, and multiple LLM support for better code understanding and developer onboarding.\n\n来源: https://github.com/divar-ir/ai-doc-gen\n语言: Python\nStars: 697",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nDockerfile\nLICENSE\nREADME.md\nconfig_example.yaml\nk8s\nk8s/helm\npyproject.toml\nsrc\nsrc/__init__.py\nsrc/agents\nsrc/config.py\nsrc/handlers\nsrc/main.py\nsrc/utils\nuv.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-Agent Analysis**: Specialized AI agents for code structure, data flow, dependency, request flow, and API analysis\n- **Automated Documentation**: Generates comprehensive README files with configurable sections\n- **AI Assistant Configuration**: Automatically generates CLAUDE.md, AGENTS.md, and .cursor/rules/ files for AI coding assistants\n- **GitLab Integration**: Automated analysis for GitLab projects with merge request creation\n- **Concurrent Processing**: Parallel execution of analysis agents for improved performance\n- **Flexible Configuration**: YAML-based configuration with enviro",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.421616389049005
+  },
+  {
+    "name": "ai-doc-gen/k8s 模块",
+    "description": "[模块级] ai-doc-gen 项目的 k8s 模块 (source)。来源: https://github.com/divar-ir/ai-doc-gen",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-documentation",
+      "code-analysis",
+      "documentation",
+      "module-level",
+      "source",
+      "k8s"
+    ],
+    "genes": [
+      {
+        "title": "k8s 模块说明",
+        "content": "模块路径: k8s/\n类型: source\n文件数: 11\n\n包含文件:\n- k8s/helm\n- k8s/helm/.gitignore\n- k8s/helm/.helmignore\n- k8s/helm/Chart.yaml\n- k8s/helm/templates\n- k8s/helm/templates/_helpers.tpl\n- k8s/helm/templates/configmap.yaml\n- k8s/helm/templates/cronjob.yaml\n- k8s/helm/templates/service.yaml\n- k8s/helm/templates/servicemonitor.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "k8s 文件结构",
+        "content": "k8s/helm\nk8s/helm/.gitignore\nk8s/helm/.helmignore\nk8s/helm/Chart.yaml\nk8s/helm/templates\nk8s/helm/templates/_helpers.tpl\nk8s/helm/templates/configmap.yaml\nk8s/helm/templates/cronjob.yaml\nk8s/helm/templates/service.yaml\nk8s/helm/templates/servicemonitor.yaml\nk8s/helm/values.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.637293111239204
+  },
+  {
+    "name": "ai-doc-gen/src 模块",
+    "description": "[模块级] ai-doc-gen 项目的 src 模块 (source)。来源: https://github.com/divar-ir/ai-doc-gen",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-documentation",
+      "code-analysis",
+      "documentation",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 35\n\n包含文件:\n- src/__init__.py\n- src/agents\n- src/agents/__init__.py\n- src/agents/ai_rules_generator.py\n- src/agents/analyzer.py\n- src/agents/documenter.py\n- src/agents/prompts\n- src/agents/prompts/ai_rules_generator.yaml\n- src/agents/prompts/analyzer.yaml\n- src/agents/prompts/documenter.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/__init__.py\nsrc/agents\nsrc/agents/__init__.py\nsrc/agents/ai_rules_generator.py\nsrc/agents/analyzer.py\nsrc/agents/documenter.py\nsrc/agents/prompts\nsrc/agents/prompts/ai_rules_generator.yaml\nsrc/agents/prompts/analyzer.yaml\nsrc/agents/prompts/documenter.yaml\nsrc/agents/tools\nsrc/agents/tools/__init__.py\nsrc/agents/tools/dir_tool\nsrc/agents/tools/dir_tool/__init__.py\nsrc/agents/tools/dir_tool/list_files.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.637293111239204
+  }
+]

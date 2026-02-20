@@ -1,0 +1,68 @@
+[
+  {
+    "name": "lobe-chat-plugins (lobehub)",
+    "description": "[项目级] 🧩 / 🏪  Plugin Index - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.。来源: https://github.com/lobehub/lobe-chat-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "awesome",
+      "chatgpt",
+      "function-calling",
+      "lobe-chat",
+      "typescript",
+      "stars-271",
+      "github-lobehub",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🧩 / 🏪  Plugin Index - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.\n\n来源: https://github.com/lobehub/lobe-chat-plugins\n语言: TypeScript\nStars: 271",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nREADME.md\nREADME.zh-CN.md\nlocales\nlocales/AladinSearchBooks.ar.json\nlocales/AladinSearchBooks.bg-BG.json\nlocales/AladinSearchBooks.de-DE.json\nlocales/AladinSearchBooks.en-US.json\nlocales/AladinSearchBooks.es-ES.json\nlocales/AladinSearchBooks.fa-IR.json\nlocales/AladinSearchBooks.fr-FR.json\nlocales/AladinSearchBooks.it-IT.json\nlocales/AladinSearchBooks.ja-JP.json\nlocales/AladinSearchBooks.ko-KR.json\nlocales/AladinSearchBooks.nl-NL.json\nlocales/AladinSearchBooks.pl-PL.json\nlocales/AladinSearchBooks.pt-BR.json\nlocales/AladinSearchBooks.ru-RU.json\nlocales/AladinSearchBooks.tr-TR.json\nlocales/AladinSearchBooks.vi-VN.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "If you wish to add a plugin onto the index, make an entry in `plugins` directory using `plugin-template.json`, write a short description and tag it appropriately then open as a pull request ty!",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.216484645437203
+  },
+  {
+    "name": "lobe-chat-plugins/locales 模块",
+    "description": "[模块级] lobe-chat-plugins 项目的 locales 模块 (source)。来源: https://github.com/lobehub/lobe-chat-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "awesome",
+      "chatgpt",
+      "function-calling",
+      "lobe-chat",
+      "module-level",
+      "source",
+      "locales"
+    ],
+    "genes": [
+      {
+        "title": "locales 模块说明",
+        "content": "模块路径: locales/\n类型: source\n文件数: 183\n\n包含文件:\n- locales/AladinSearchBooks.ar.json\n- locales/AladinSearchBooks.bg-BG.json\n- locales/AladinSearchBooks.de-DE.json\n- locales/AladinSearchBooks.en-US.json\n- locales/AladinSearchBooks.es-ES.json\n- locales/AladinSearchBooks.fa-IR.json\n- locales/AladinSearchBooks.fr-FR.json\n- locales/AladinSearchBooks.it-IT.json\n- locales/AladinSearchBooks.ja-JP.json\n- locales/AladinSearchBooks.ko-KR.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "locales 文件结构",
+        "content": "locales/AladinSearchBooks.ar.json\nlocales/AladinSearchBooks.bg-BG.json\nlocales/AladinSearchBooks.de-DE.json\nlocales/AladinSearchBooks.en-US.json\nlocales/AladinSearchBooks.es-ES.json\nlocales/AladinSearchBooks.fa-IR.json\nlocales/AladinSearchBooks.fr-FR.json\nlocales/AladinSearchBooks.it-IT.json\nlocales/AladinSearchBooks.ja-JP.json\nlocales/AladinSearchBooks.ko-KR.json\nlocales/AladinSearchBooks.nl-NL.json\nlocales/AladinSearchBooks.pl-PL.json\nlocales/AladinSearchBooks.pt-BR.json\nlocales/AladinSearchBooks.ru-RU.json\nlocales/AladinSearchBooks.tr-TR.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4731877163497624
+  }
+]

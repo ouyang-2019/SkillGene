@@ -1,0 +1,71 @@
+[
+  {
+    "name": "make-it-heavy (Doriandarko)",
+    "description": "[项目级] A Python framework that emulates Grok Heavy functionality using intelligent multi-agent orchestration. Deploy 4 (or more) specialized AI agents in parallel to deliver comprehensive, multi-perspective analysis on any query.。来源: https://github.com/Doriandarko/make-it-heavy",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1096",
+      "github-doriandarko",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Python framework that emulates Grok Heavy functionality using intelligent multi-agent orchestration. Deploy 4 (or more) specialized AI agents in parallel to deliver comprehensive, multi-perspective analysis on any query.\n\n来源: https://github.com/Doriandarko/make-it-heavy\n语言: Python\nStars: 1096",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nagent.py\nconfig.yaml\nmain.py\nmake_it_heavy.py\norchestrator.py\nrequirements.txt\ntools\ntools/__init__.py\ntools/base_tool.py\ntools/calculator_tool.py\ntools/read_file_tool.py\ntools/search_tool.py\ntools/task_done_tool.py\ntools/write_file_tool.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🧠 Grok heavy Emulation**: Multi-agent system that delivers deep, comprehensive analysis like Grok heavy mode\n- **🔀 Parallel Intelligence**: Deploy 4 specialized agents simultaneously for maximum insight coverage\n- **🎯 Dynamic Question Generation**: AI creates custom research questions tailored to each query\n- **⚡ Real-time Orchestration**: Live visual feedback during multi-agent execution\n- **🛠️ Hot-Swappable Tools**: Automatically discovers and loads tools from the `tools/` directory\n- **🔄 Intelligent Synthesis**: Combines multiple agent perspectives into unified, comprehensive answe",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.519905277074175
+  },
+  {
+    "name": "make-it-heavy/tools 模块",
+    "description": "[模块级] make-it-heavy 项目的 tools 模块 (script)。来源: https://github.com/Doriandarko/make-it-heavy",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-1096",
+      "github-doriandarko",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "- **Auto-Discovery**: Automatically loads all tools from directory\n- **Hot-Swappable**: Add new tools by dropping files in `tools/`\n- **Standardized Interface**: All tools inherit from `BaseTool`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/__init__.py\ntools/base_tool.py\ntools/calculator_tool.py\ntools/read_file_tool.py\ntools/search_tool.py\ntools/task_done_tool.py\ntools/write_file_tool.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.71592422165934
+  }
+]

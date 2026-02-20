@@ -1,0 +1,72 @@
+[
+  {
+    "name": "skills (matlab)",
+    "description": "[项目级] A collection of Agent Skills for MATLAB development. Skills are specialized instruction sets that extend a coding agent's capabilities for specific tasks, automatically activating when needed.。来源: https://github.com/matlab/skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "agentic-ai",
+      "agents",
+      "claude",
+      "stars-25",
+      "github-matlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of Agent Skills for MATLAB development. Skills are specialized instruction sets that extend a coding agent's capabilities for specific tasks, automatically activating when needed.\n\n来源: https://github.com/matlab/skills\n语言: unknown\nStars: 25",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nskills\nskills/matlab-digital-filter-design\nskills/matlab-live-script\nskills/matlab-performance-optimizer\nskills/matlab-test-generator\nskills/matlab-uihtml-app-builder",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6989700043360187
+  },
+  {
+    "name": "skills/skills 模块",
+    "description": "[模块级] skills 项目的 skills 模块 (source)。来源: https://github.com/matlab/skills",
+    "domain": "devops",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "agentic-ai",
+      "agents",
+      "claude",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of [Agent Skills](https://agentskills.io) for MATLAB development using coding agents. Skills are specialized instruction sets that extend the capabilities of coding agents for specific tasks, automatically activating when needed.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/matlab-digital-filter-design\nskills/matlab-digital-filter-design/SKILL.md\nskills/matlab-digital-filter-design/knowledge\nskills/matlab-digital-filter-design/knowledge/INDEX.md\nskills/matlab-digital-filter-design/knowledge/best-practices.md\nskills/matlab-digital-filter-design/knowledge/cards\nskills/matlab-digital-filter-design/knowledge/cards/designfilt.md\nskills/matlab-digital-filter-design/knowledge/cards/efficient-filtering.md\nskills/matlab-digital-filter-design/knowledge/cards/filter-analyzer.md\nskills/matlab-digital-filter-design/knowledge/cards/general-iir-fir.md\nskills/matlab-digital-filter-design/knowledge/cards/multirate-offline.md\nskills/matlab-digital-filter-design/knowledge/cards/multirate-streaming.md\nskills/matlab-digital-filter-design/knowledge/cards/multistage-ifir.md\nskills/matlab-digital-filter-design/knowledge/efficient-filtering.md\nskills/matlab-digital-filter-design/knowledge/filter-analyzer.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  }
+]

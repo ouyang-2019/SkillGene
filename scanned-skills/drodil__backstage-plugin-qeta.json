@@ -1,0 +1,128 @@
+[
+  {
+    "name": "backstage-plugin-qeta (drodil)",
+    "description": "[项目级] Internal Q&A and knowledge base for Backstage. Empower teams to share knowledge, ask questions, and integrate AI-powered answers directly into their developer portal.。来源: https://github.com/drodil/backstage-plugin-qeta",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "backstage",
+      "backstage-plugin",
+      "developer-experience",
+      "developer-portal",
+      "typescript",
+      "stars-108",
+      "github-drodil",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Internal Q&A and knowledge base for Backstage. Empower teams to share knowledge, ask questions, and integrate AI-powered answers directly into their developer portal.\n\n来源: https://github.com/drodil/backstage-plugin-qeta\n语言: TypeScript\nStars: 108",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "ADOPTERS.md\nCHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\napp-config.yaml\nbackstage.json\ncatalog-info.yaml\ndependabot.yml\ndocker-compose.yml\ndocs\ndocs/ai.md\ndocs/catalog.md\ndocs/config.md\ndocs/events.md\ndocs/extensions.md\ndocs/home.md\ndocs/images\ndocs/index.md\ndocs/migration.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Q&A Platform**: Ask questions, provide answers, and comment on discussions.\n- **Knowledge Base**: Write and publish articles for longer-form content.\n- **Organization**: Use tags and collections to organize content effectively.\n- **Social Features**: Vote on content, mark favorites, and follow users or tags.\n- **Gamification**: View statistics and top contributors (users, specific entities).\n- **AI Integration**: Optional integration with AI models to assist in answering questions.\n- **Entity Integration**: Link questions to specific components or resources in your catalog.\n- **Notificatio",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.016711877743475
+  },
+  {
+    "name": "backstage-plugin-qeta/docs 模块",
+    "description": "[模块级] backstage-plugin-qeta 项目的 docs 模块 (docs)。来源: https://github.com/drodil/backstage-plugin-qeta",
+    "domain": "documentation",
+    "tags": [
+      "ai-assistant",
+      "backstage",
+      "backstage-plugin",
+      "developer-experience",
+      "developer-portal",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 17\n\n包含文件:\n- docs/ai.md\n- docs/catalog.md\n- docs/config.md\n- docs/events.md\n- docs/extensions.md\n- docs/home.md\n- docs/images\n- docs/images/logo.png\n- docs/index.md\n- docs/migration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ai.md\ndocs/catalog.md\ndocs/config.md\ndocs/events.md\ndocs/extensions.md\ndocs/home.md\ndocs/images\ndocs/images/logo.png\ndocs/index.md\ndocs/migration.md\ndocs/notifications.md\ndocs/permissions.md\ndocs/search.md\ndocs/setup.md\ndocs/signals.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3133695021947798
+  },
+  {
+    "name": "backstage-plugin-qeta/e2e-tests 模块",
+    "description": "[模块级] backstage-plugin-qeta 项目的 e2e-tests 模块 (source)。来源: https://github.com/drodil/backstage-plugin-qeta",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "backstage",
+      "backstage-plugin",
+      "developer-experience",
+      "developer-portal",
+      "module-level",
+      "source",
+      "e2e-tests"
+    ],
+    "genes": [
+      {
+        "title": "e2e-tests 模块说明",
+        "content": "模块路径: e2e-tests/\n类型: source\n文件数: 7\n\n包含文件:\n- e2e-tests/app.spec.ts\n- e2e-tests/articles.spec.ts\n- e2e-tests/collections.spec.ts\n- e2e-tests/links.spec.ts\n- e2e-tests/questions.spec.ts\n- e2e-tests/settings.spec.ts\n- e2e-tests/utils.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "e2e-tests 文件结构",
+        "content": "e2e-tests/app.spec.ts\ne2e-tests/articles.spec.ts\ne2e-tests/collections.spec.ts\ne2e-tests/links.spec.ts\ne2e-tests/questions.spec.ts\ne2e-tests/settings.spec.ts\ne2e-tests/utils.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3133695021947798
+  },
+  {
+    "name": "backstage-plugin-qeta/plugins 模块",
+    "description": "[模块级] backstage-plugin-qeta 项目的 plugins 模块 (source)。来源: https://github.com/drodil/backstage-plugin-qeta",
+    "domain": "devops",
+    "tags": [
+      "ai-assistant",
+      "backstage",
+      "backstage-plugin",
+      "developer-experience",
+      "developer-portal",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 128\n\n包含文件:\n- plugins/catalog-backend-module-qeta\n- plugins/catalog-backend-module-qeta/.eslintrc.js\n- plugins/catalog-backend-module-qeta/README.md\n- plugins/catalog-backend-module-qeta/package.json\n- plugins/catalog-backend-module-qeta/src\n- plugins/catalog-backend-module-qeta/src/index.ts\n- plugins/catalog-backend-module-qeta/src/module.ts\n- plugins/catalog-backend-module-qeta/src/processors\n- plugins/catalog-backend-module-qeta/src/processors/CatalogEntityLinkProcessor.test.ts\n- plugins/catalog-backend-module-qeta/src/processors/CatalogEntityLinkProcessor.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/catalog-backend-module-qeta\nplugins/catalog-backend-module-qeta/.eslintrc.js\nplugins/catalog-backend-module-qeta/README.md\nplugins/catalog-backend-module-qeta/package.json\nplugins/catalog-backend-module-qeta/src\nplugins/catalog-backend-module-qeta/src/index.ts\nplugins/catalog-backend-module-qeta/src/module.ts\nplugins/catalog-backend-module-qeta/src/processors\nplugins/catalog-backend-module-qeta/src/processors/CatalogEntityLinkProcessor.test.ts\nplugins/catalog-backend-module-qeta/src/processors/CatalogEntityLinkProcessor.ts\nplugins/qeta-backend-module-openai\nplugins/qeta-backend-module-openai/.eslintrc.js\nplugins/qeta-backend-module-openai/README.md\nplugins/qeta-backend-module-openai/configSchema.d.ts\nplugins/qeta-backend-module-openai/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3133695021947798
+  }
+]

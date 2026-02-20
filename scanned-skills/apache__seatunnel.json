@@ -1,0 +1,168 @@
+[
+  {
+    "name": "seatunnel (apache)",
+    "description": "[项目级] SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool.。来源: https://github.com/apache/seatunnel",
+    "domain": "ai-llm",
+    "tags": [
+      "apache",
+      "batch",
+      "cdc",
+      "change-data-capture",
+      "data-ingestion",
+      "java",
+      "stars-9124",
+      "github-apache",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SeaTunnel is a multimodal, high-performance, distributed data integration tool, capable of synchronizing vast amounts of data daily. It's trusted by numerous companies for its efficiency and stability.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Download SeaTunnel from the [Official Website](https://seatunnel.apache.org/download).\nChoose your runtime execution engine:\n- [SeaTunnel Zeta Engine](https://seatunnel.apache.org/docs/getting-started/locally/quick-start-seatunnel-engine)\n- [Spark](https://seatunnel.apache.org/docs/getting-started/locally/quick-start-spark)\n- [Flink](https://seatunnel.apache.org/docs/getting-started/locally/quick-start-flink)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nGEMINI.md\nLICENSE\nNOTICE\nREADME.md\nbin\nbin/install-plugin.cmd\nbin/install-plugin.sh\nconfig\nconfig/hazelcast-client.yaml\nconfig/hazelcast-master.yaml\nconfig/hazelcast-worker.yaml\nconfig/hazelcast.yaml\nconfig/jvm_client_options\nconfig/jvm_master_options\nconfig/jvm_options\nconfig/jvm_worker_options\nconfig/log4j2.properties\nconfig/log4j2_client.properties",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Refer to this [Setup](https://seatunnel.apache.org/docs/developer/setup) for compilation instructions.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Diverse Connectors**: Offers support for over 160 connectors, with ongoing expansion.\n- **Batch-Stream Integration**: Easily adaptable connectors simplify data integration management.\n- **Distributed Snapshot Algorithm**: Ensures data consistency across synchronized data.\n- **Multi-Engine Support**: Works with SeaTunnel Zeta Engine, Flink, and Spark.\n- **JDBC Multiplexing and Log Parsing**: Efficiently synchronizes multi-tables and databases.\n- **High Throughput and Low Latency**: Provides high-throughput data synchronization with low latency.\n- **Real-Time Monitoring**: Offers detailed in",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.980092638302305
+  },
+  {
+    "name": "seatunnel/bin 模块",
+    "description": "[模块级] seatunnel 项目的 bin 模块 (script)。来源: https://github.com/apache/seatunnel",
+    "domain": "ai-llm",
+    "tags": [
+      "apache",
+      "batch",
+      "cdc",
+      "change-data-capture",
+      "data-ingestion",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 2\n\n包含文件:\n- bin/install-plugin.cmd\n- bin/install-plugin.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/install-plugin.cmd\nbin/install-plugin.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.084074110641844
+  },
+  {
+    "name": "seatunnel/config 模块",
+    "description": "[模块级] seatunnel 项目的 config 模块 (config)。来源: https://github.com/apache/seatunnel",
+    "domain": "devops",
+    "tags": [
+      "apache",
+      "batch",
+      "cdc",
+      "change-data-capture",
+      "data-ingestion",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 16\n\n包含文件:\n- config/hazelcast-client.yaml\n- config/hazelcast-master.yaml\n- config/hazelcast-worker.yaml\n- config/hazelcast.yaml\n- config/jvm_client_options\n- config/jvm_master_options\n- config/jvm_options\n- config/jvm_worker_options\n- config/log4j2.properties\n- config/log4j2_client.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/hazelcast-client.yaml\nconfig/hazelcast-master.yaml\nconfig/hazelcast-worker.yaml\nconfig/hazelcast.yaml\nconfig/jvm_client_options\nconfig/jvm_master_options\nconfig/jvm_options\nconfig/jvm_worker_options\nconfig/log4j2.properties\nconfig/log4j2_client.properties\nconfig/plugin_config\nconfig/seatunnel-env.cmd\nconfig/seatunnel-env.sh\nconfig/seatunnel.yaml\nconfig/v2.batch.config.template",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.084074110641844
+  },
+  {
+    "name": "seatunnel/deploy 模块",
+    "description": "[模块级] seatunnel 项目的 deploy 模块 (source)。来源: https://github.com/apache/seatunnel",
+    "domain": "ai-llm",
+    "tags": [
+      "apache",
+      "batch",
+      "cdc",
+      "change-data-capture",
+      "data-ingestion",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 23\n\n包含文件:\n- deploy/kubernetes\n- deploy/kubernetes/seatunnel\n- deploy/kubernetes/seatunnel/Chart.yaml\n- deploy/kubernetes/seatunnel/conf\n- deploy/kubernetes/seatunnel/conf/hazelcast-client.yaml\n- deploy/kubernetes/seatunnel/conf/hazelcast-master.yaml\n- deploy/kubernetes/seatunnel/conf/hazelcast-worker.yaml\n- deploy/kubernetes/seatunnel/conf/jvm_client_options\n- deploy/kubernetes/seatunnel/conf/jvm_master_options\n- deploy/kubernetes/seatunnel/conf/jvm_worker_options",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/kubernetes\ndeploy/kubernetes/seatunnel\ndeploy/kubernetes/seatunnel/Chart.yaml\ndeploy/kubernetes/seatunnel/conf\ndeploy/kubernetes/seatunnel/conf/hazelcast-client.yaml\ndeploy/kubernetes/seatunnel/conf/hazelcast-master.yaml\ndeploy/kubernetes/seatunnel/conf/hazelcast-worker.yaml\ndeploy/kubernetes/seatunnel/conf/jvm_client_options\ndeploy/kubernetes/seatunnel/conf/jvm_master_options\ndeploy/kubernetes/seatunnel/conf/jvm_worker_options\ndeploy/kubernetes/seatunnel/conf/log4j2.properties\ndeploy/kubernetes/seatunnel/conf/seatunnel.yaml\ndeploy/kubernetes/seatunnel/templates\ndeploy/kubernetes/seatunnel/templates/NOTES.txt\ndeploy/kubernetes/seatunnel/templates/_helpers.tpl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.084074110641844
+  },
+  {
+    "name": "seatunnel/docs 模块",
+    "description": "[模块级] seatunnel 项目的 docs 模块 (docs)。来源: https://github.com/apache/seatunnel",
+    "domain": "documentation",
+    "tags": [
+      "apache",
+      "batch",
+      "cdc",
+      "change-data-capture",
+      "data-ingestion",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 113\n\n包含文件:\n- docs/en\n- docs/en/connectors\n- docs/en/connectors/changelog\n- docs/en/connectors/changelog/connector-activemq.md\n- docs/en/connectors/changelog/connector-aerospike.md\n- docs/en/connectors/changelog/connector-amazondynamodb.md\n- docs/en/connectors/changelog/connector-amazonsqs.md\n- docs/en/connectors/changelog/connector-assert.md\n- docs/en/connectors/changelog/connector-cassandra.md\n- docs/en/connectors/changelog/connector-cdc-base.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/en\ndocs/en/connectors\ndocs/en/connectors/changelog\ndocs/en/connectors/changelog/connector-activemq.md\ndocs/en/connectors/changelog/connector-aerospike.md\ndocs/en/connectors/changelog/connector-amazondynamodb.md\ndocs/en/connectors/changelog/connector-amazonsqs.md\ndocs/en/connectors/changelog/connector-assert.md\ndocs/en/connectors/changelog/connector-cassandra.md\ndocs/en/connectors/changelog/connector-cdc-base.md\ndocs/en/connectors/changelog/connector-cdc-mongodb.md\ndocs/en/connectors/changelog/connector-cdc-mysql.md\ndocs/en/connectors/changelog/connector-cdc-opengauss.md\ndocs/en/connectors/changelog/connector-cdc-oracle.md\ndocs/en/connectors/changelog/connector-cdc-postgres.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.084074110641844
+  }
+]

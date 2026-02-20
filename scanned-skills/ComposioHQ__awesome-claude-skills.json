@@ -1,0 +1,163 @@
+[
+  {
+    "name": "awesome-claude-skills (ComposioHQ)",
+    "description": "[项目级] A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows。来源: https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "python",
+      "stars-36151",
+      "github-composiohq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows\n\n来源: https://github.com/ComposioHQ/awesome-claude-skills\n语言: Python\nStars: 36151",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "claude --plugin-dir ./connect-apps-plugin",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME.md\nartifacts-builder\nartifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nbrand-guidelines\nbrand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md\ncanvas-design\ncanvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\nchangelog-generator\nchangelog-generator/SKILL.md\ncompetitive-ads-extractor\ncompetitive-ads-extractor/SKILL.md\ncomposio-skills\ncomposio-skills/-21risk-automation\ncomposio-skills/-2chat-automation",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Real-world examples showing the skill in action]\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "awesome-claude-skills/artifacts-builder 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 artifacts-builder 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "module-level",
+      "source",
+      "artifacts-builder"
+    ],
+    "genes": [
+      {
+        "title": "artifacts-builder 模块说明",
+        "content": "模块路径: artifacts-builder/\n类型: source\n文件数: 6\n\n包含文件:\n- artifacts-builder/LICENSE.txt\n- artifacts-builder/SKILL.md\n- artifacts-builder/scripts\n- artifacts-builder/scripts/bundle-artifact.sh\n- artifacts-builder/scripts/init-artifact.sh\n- artifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "principle"
+      },
+      {
+        "title": "artifacts-builder 文件结构",
+        "content": "artifacts-builder/LICENSE.txt\nartifacts-builder/SKILL.md\nartifacts-builder/scripts\nartifacts-builder/scripts/bundle-artifact.sh\nartifacts-builder/scripts/init-artifact.sh\nartifacts-builder/scripts/shadcn-components.tar.gz",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3232481260572015
+  },
+  {
+    "name": "awesome-claude-skills/brand-guidelines 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 brand-guidelines 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "module-level",
+      "source",
+      "brand-guidelines"
+    ],
+    "genes": [
+      {
+        "title": "brand-guidelines 模块说明",
+        "content": "模块路径: brand-guidelines/\n类型: source\n文件数: 2\n\n包含文件:\n- brand-guidelines/LICENSE.txt\n- brand-guidelines/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "brand-guidelines 文件结构",
+        "content": "brand-guidelines/LICENSE.txt\nbrand-guidelines/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3232481260572015
+  },
+  {
+    "name": "awesome-claude-skills/canvas-design 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 canvas-design 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "module-level",
+      "source",
+      "canvas-design"
+    ],
+    "genes": [
+      {
+        "title": "canvas-design 模块说明",
+        "content": "模块路径: canvas-design/\n类型: source\n文件数: 84\n\n包含文件:\n- canvas-design/LICENSE.txt\n- canvas-design/SKILL.md\n- canvas-design/canvas-fonts\n- canvas-design/canvas-fonts/ArsenalSC-OFL.txt\n- canvas-design/canvas-fonts/ArsenalSC-Regular.ttf\n- canvas-design/canvas-fonts/BigShoulders-Bold.ttf\n- canvas-design/canvas-fonts/BigShoulders-OFL.txt\n- canvas-design/canvas-fonts/BigShoulders-Regular.ttf\n- canvas-design/canvas-fonts/Boldonse-OFL.txt\n- canvas-design/canvas-fonts/Boldonse-Regular.ttf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "canvas-design 文件结构",
+        "content": "canvas-design/LICENSE.txt\ncanvas-design/SKILL.md\ncanvas-design/canvas-fonts\ncanvas-design/canvas-fonts/ArsenalSC-OFL.txt\ncanvas-design/canvas-fonts/ArsenalSC-Regular.ttf\ncanvas-design/canvas-fonts/BigShoulders-Bold.ttf\ncanvas-design/canvas-fonts/BigShoulders-OFL.txt\ncanvas-design/canvas-fonts/BigShoulders-Regular.ttf\ncanvas-design/canvas-fonts/Boldonse-OFL.txt\ncanvas-design/canvas-fonts/Boldonse-Regular.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-Bold.ttf\ncanvas-design/canvas-fonts/BricolageGrotesque-OFL.txt\ncanvas-design/canvas-fonts/BricolageGrotesque-Regular.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Bold.ttf\ncanvas-design/canvas-fonts/CrimsonPro-Italic.ttf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3232481260572015
+  },
+  {
+    "name": "awesome-claude-skills/composio-skills 模块",
+    "description": "[模块级] awesome-claude-skills 项目的 composio-skills 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "module-level",
+      "source",
+      "composio-skills"
+    ],
+    "genes": [
+      {
+        "title": "composio-skills 模块说明",
+        "content": "模块路径: composio-skills/\n类型: source\n文件数: 98\n\n包含文件:\n- composio-skills/-21risk-automation\n- composio-skills/-21risk-automation/SKILL.md\n- composio-skills/-2chat-automation\n- composio-skills/-2chat-automation/SKILL.md\n- composio-skills/.claude-plugin\n- composio-skills/.claude-plugin/marketplace.json\n- composio-skills/ably-automation\n- composio-skills/ably-automation/SKILL.md\n- composio-skills/abstract-automation\n- composio-skills/abstract-automation/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "composio-skills 文件结构",
+        "content": "composio-skills/-21risk-automation\ncomposio-skills/-21risk-automation/SKILL.md\ncomposio-skills/-2chat-automation\ncomposio-skills/-2chat-automation/SKILL.md\ncomposio-skills/.claude-plugin\ncomposio-skills/.claude-plugin/marketplace.json\ncomposio-skills/ably-automation\ncomposio-skills/ably-automation/SKILL.md\ncomposio-skills/abstract-automation\ncomposio-skills/abstract-automation/SKILL.md\ncomposio-skills/abuselpdb-automation\ncomposio-skills/abuselpdb-automation/SKILL.md\ncomposio-skills/abyssale-automation\ncomposio-skills/abyssale-automation/SKILL.md\ncomposio-skills/accelo-automation",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3232481260572015
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "agency-swarm (VRSEN)",
+    "description": "[项目级] Reliable Multi-Agent Orchestration Framework。来源: https://github.com/VRSEN/agency-swarm",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-3962",
+      "github-vrsen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The **Agency Swarm** is a framework for building multi-agent applications. It leverages and extends the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python), providing specialized features for creating, orchestrating, and managing collaborative swarms of AI agents.\n\nThis framework continues the original vision of Arsenii Shatokhin (aka VRSEN) to simplify the creation of AI agencies by thinking about automation in terms of real-world organizational structures, making it intuitive for both agents and users.\n\n**Migrating from v0.x?** Please see our [Migration Guide](https://agency-swarm.ai/migration/guide) for details on adapting your project to this new SDK-based version.\n\n[![Docs](https://img.shields.io/website?label=Docs&up_message=available&url=https://agency-swarm.ai/)](ht",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -U agency-swarm",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\ndocs\ndocs/.prettierrc\ndocs/additional-features\ndocs/analise_docs.py\ndocs/contributing\ndocs/core-framework\ndocs/docs.json\ndocs/extras\ndocs/faq.mdx\ndocs/images\ndocs/migration\ndocs/openapi.json\ndocs/platform\ndocs/references\ndocs/tutorials",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Customizable Agent Roles**: Define distinct agent roles (e.g., CEO, Virtual Assistant, Developer) with tailored instructions, tools, and capabilities within the Agency Swarm framework, leveraging the underlying OpenAI Agents SDK.\n- **Full Control Over Prompts/Instructions**: Maintain complete control over each agent’s guiding prompts (instructions) for precise behavior customization.\n- **Type-Safe Tools**: Develop tools using Pydantic models for automatic argument validation, compatible with the OpenAI Agents SDK’s `FunctionTool` format.\n- **Orchestrated Agent Communication**: Agents commu",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.798957235601264
+  },
+  {
+    "name": "agency-swarm/docs 模块",
+    "description": "[模块级] agency-swarm 项目的 docs 模块 (docs)。来源: https://github.com/VRSEN/agency-swarm",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-3962",
+      "github-vrsen",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 145\n\n包含文件:\n- docs/.prettierrc\n- docs/additional-features\n- docs/additional-features/agency-context.mdx\n- docs/additional-features/azure-openai.mdx\n- docs/additional-features/custom-communication-flows\n- docs/additional-features/custom-communication-flows/common-use-cases.mdx\n- docs/additional-features/custom-communication-flows/overview.mdx\n- docs/additional-features/deployment-to-production.mdx\n- docs/additional-features/fastapi-integration.mdx\n- docs/additional-features/few-shot-examples.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.prettierrc\ndocs/additional-features\ndocs/additional-features/agency-context.mdx\ndocs/additional-features/azure-openai.mdx\ndocs/additional-features/custom-communication-flows\ndocs/additional-features/custom-communication-flows/common-use-cases.mdx\ndocs/additional-features/custom-communication-flows/overview.mdx\ndocs/additional-features/deployment-to-production.mdx\ndocs/additional-features/fastapi-integration.mdx\ndocs/additional-features/few-shot-examples.mdx\ndocs/additional-features/guardrails.mdx\ndocs/additional-features/mcp-tools-server.mdx\ndocs/additional-features/observability.mdx\ndocs/additional-features/streaming.mdx\ndocs/additional-features/third-party-models.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  },
+  {
+    "name": "agency-swarm/examples 模块",
+    "description": "[模块级] agency-swarm 项目的 examples 模块 (example)。来源: https://github.com/VRSEN/agency-swarm",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-3962",
+      "github-vrsen",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 19\n\n包含文件:\n- examples/README.md\n- examples/__init__.py\n- examples/agency_context.py\n- examples/agency_visualization.py\n- examples/agent_file_storage.py\n- examples/connectors.py\n- examples/custom_persistence.py\n- examples/custom_send_message.py\n- examples/data\n- examples/data/daily_revenue.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/__init__.py\nexamples/agency_context.py\nexamples/agency_visualization.py\nexamples/agent_file_storage.py\nexamples/connectors.py\nexamples/custom_persistence.py\nexamples/custom_send_message.py\nexamples/data\nexamples/data/daily_revenue.png\nexamples/data/daily_revenue_report.pdf\nexamples/data/favorite_books.txt\nexamples/data/landscape_scene.png\nexamples/data/research_report.txt\nexamples/data/sample_report.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  }
+]

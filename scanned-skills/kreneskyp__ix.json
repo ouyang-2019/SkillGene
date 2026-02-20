@@ -1,0 +1,166 @@
+[
+  {
+    "name": "ix (kreneskyp)",
+    "description": "[项目级] Autonomous GPT-4 agent platform。来源: https://github.com/kreneskyp/ix",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "gpt-4",
+      "openai",
+      "python",
+      "stars-1043",
+      "github-kreneskyp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<div>\nIX is a platform for designing and deploying autonomous and [semi]-autonomous LLM powered agents and workflows. IX\nprovides a flexible and scalable solution for delegating tasks to AI powered agents. Agents created with the platform\ncan automate a wide variety of tasks, while running in parallel and communicating with each other.\n<br>\n</div>\n\n##### Build AI powered workflows:\n- QA chat bots\n- Code generation\n- Data extraction\n- Data analysis\n- Data augmentation\n- Research assistants",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "##### Prerequisites\n<details> \n  <summary>Windows Linux Subsystem (windows only)</summary> \n  <ol>\n      <li>Open powershell</li>\n      <li>run `wsl --install` to install and/or activate WSL</li>\n  </ol>\n</details>\n<details> \n  <summary>Docker</summary>\n  Install Docker Desktop for your OS:<br/>\n  <A href=\"https://www.docker.com/products/docker-desktop/\">https://www.docker.com/products/docker-desktop/</A>\n\n  Detailed install instructions:\n  <ul>\n    <li><a href=\"https://docs.docker.com/desktop/install/mac-install/\">Mac</a></li>\n    <li><a href=\"https://docs.docker.com/desktop/install/windows-i",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nbabel.config.js\nbin\nbin/celery.sh\nbin/get_uuid.py\nbin/install_node.sh\nbin/ix_asgi.sh\nbin/nvm_init.sh\nbin/vault.py\nbin/vault_unseal.py\nbin/webpack.sh\nclient_config\nclient_config/docker-compose.yml\nclient_config/ix_env.py\nclient_config/nginx.conf\nclient_config/vault-config.hcl",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You chat with an agent that uses that direction to investigate, plan, and complete tasks. The agents are\ncapable of searching the web, writing code, creating images, interacting with other APIs and services. If it can be \ncoded, it's within the realm of possibility that an agent can be built to assist you.\n\n1. Setup the server and visit [http://0.0.0.0:8000](http://0.0.0.0:8000), a new chat will be created automatically with the default agents.\n\n2. Enter a request and the IX moderator will delegate the task to the agent best suited for the response. Or `@mention`\nan agent to request a specific",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.509142154213265
+  },
+  {
+    "name": "ix/bin 模块",
+    "description": "[模块级] ix 项目的 bin 模块 (script)。来源: https://github.com/kreneskyp/ix",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "gpt-4",
+      "openai",
+      "python",
+      "stars-1043",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 8\n\n包含文件:\n- bin/celery.sh\n- bin/get_uuid.py\n- bin/install_node.sh\n- bin/ix_asgi.sh\n- bin/nvm_init.sh\n- bin/vault.py\n- bin/vault_unseal.py\n- bin/webpack.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/celery.sh\nbin/get_uuid.py\nbin/install_node.sh\nbin/ix_asgi.sh\nbin/nvm_init.sh\nbin/vault.py\nbin/vault_unseal.py\nbin/webpack.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7073137233706124
+  },
+  {
+    "name": "ix/client_config 模块",
+    "description": "[模块级] ix 项目的 client_config 模块 (source)。来源: https://github.com/kreneskyp/ix",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "gpt-4",
+      "openai",
+      "python",
+      "stars-1043",
+      "module-level",
+      "source",
+      "client_config"
+    ],
+    "genes": [
+      {
+        "title": "client_config 模块说明",
+        "content": "模块路径: client_config/\n类型: source\n文件数: 4\n\n包含文件:\n- client_config/docker-compose.yml\n- client_config/ix_env.py\n- client_config/nginx.conf\n- client_config/vault-config.hcl",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client_config 文件结构",
+        "content": "client_config/docker-compose.yml\nclient_config/ix_env.py\nclient_config/nginx.conf\nclient_config/vault-config.hcl",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7073137233706124
+  },
+  {
+    "name": "ix/docs 模块",
+    "description": "[模块级] ix 项目的 docs 模块 (docs)。来源: https://github.com/kreneskyp/ix",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "gpt-4",
+      "openai",
+      "python",
+      "stars-1043",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/FizzBuzzExample.gif\n- docs/chains\n- docs/chains/artifacts.rst\n- docs/chains/chains.rst\n- docs/chains/data.rst\n- docs/chains/llm.rst\n- docs/chains/memory.rst\n- docs/chains/routing.rst\n- docs/chat.png\n- docs/chat_interactions.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/FizzBuzzExample.gif\ndocs/chains\ndocs/chains/artifacts.rst\ndocs/chains/chains.rst\ndocs/chains/data.rst\ndocs/chains/llm.rst\ndocs/chains/memory.rst\ndocs/chains/routing.rst\ndocs/chat.png\ndocs/chat_interactions.png\ndocs/create_task.png\ndocs/model_options.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7073137233706124
+  },
+  {
+    "name": "ix/frontend 模块",
+    "description": "[模块级] ix 项目的 frontend 模块 (source)。来源: https://github.com/kreneskyp/ix",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "gpt-4",
+      "openai",
+      "python",
+      "stars-1043",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 148\n\n包含文件:\n- frontend/App.js\n- frontend/admin\n- frontend/admin/AdminSettingsView.js\n- frontend/agents\n- frontend/agents/AgentCard.js\n- frontend/agents/AgentCardListButton.js\n- frontend/agents/AgentEditButton.js\n- frontend/agents/AgentEditorRedirect.js\n- frontend/agents/AgentNewRedirect.js\n- frontend/agents/AgentSelect.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/App.js\nfrontend/admin\nfrontend/admin/AdminSettingsView.js\nfrontend/agents\nfrontend/agents/AgentCard.js\nfrontend/agents/AgentCardListButton.js\nfrontend/agents/AgentEditButton.js\nfrontend/agents/AgentEditorRedirect.js\nfrontend/agents/AgentNewRedirect.js\nfrontend/agents/AgentSelect.js\nfrontend/agents/NewAgentButton.js\nfrontend/chains\nfrontend/chains/AgentSelect.js\nfrontend/chains/BaseEdge.js\nfrontend/chains/ChainCard.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7073137233706124
+  }
+]

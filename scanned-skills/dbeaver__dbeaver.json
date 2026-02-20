@@ -1,0 +1,123 @@
+[
+  {
+    "name": "dbeaver (dbeaver)",
+    "description": "[项目级] Free universal database tool and SQL client。来源: https://github.com/dbeaver/dbeaver",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "copilot",
+      "database",
+      "db2",
+      "dbeaver",
+      "java",
+      "stars-48747",
+      "github-dbeaver",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Free universal database tool and SQL client\n\n来源: https://github.com/dbeaver/dbeaver\n语言: Java\nStars: 48747",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\nSECURITY.md\ndocs\ndocs/codestyle\ndocs/devel.txt\ndocs/icu.base.txt\ndocs/license_header.txt\ndocs/root\ndocs/sql1992.txt\nfeatures\nfeatures/org.jkiss.dbeaver.app.base.feature\nfeatures/org.jkiss.dbeaver.app.local.feature\nfeatures/org.jkiss.dbeaver.appstore.feature\nfeatures/org.jkiss.dbeaver.ce.feature\nfeatures/org.jkiss.dbeaver.db.feature\nfeatures/org.jkiss.dbeaver.db.ui.feature\nfeatures/org.jkiss.dbeaver.debug.feature\nfeatures/org.jkiss.dbeaver.ext.office.feature\nfeatures/org.jkiss.dbeaver.git.feature",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "dbeaver/docs 模块",
+    "description": "[模块级] dbeaver 项目的 docs 模块 (docs)。来源: https://github.com/dbeaver/dbeaver",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "copilot",
+      "database",
+      "db2",
+      "dbeaver",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 26\n\n包含文件:\n- docs/codestyle\n- docs/codestyle/eclipse-formatter-profile.xml\n- docs/devel.txt\n- docs/icu.base.txt\n- docs/license_header.txt\n- docs/root\n- docs/root/licenses\n- docs/root/licenses/commons_license.txt\n- docs/root/licenses/dbeaver-community-license.txt\n- docs/root/licenses/eclipse_license.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/codestyle\ndocs/codestyle/eclipse-formatter-profile.xml\ndocs/devel.txt\ndocs/icu.base.txt\ndocs/license_header.txt\ndocs/root\ndocs/root/licenses\ndocs/root/licenses/commons_license.txt\ndocs/root/licenses/dbeaver-community-license.txt\ndocs/root/licenses/eclipse_license.html\ndocs/root/licenses/external\ndocs/root/licenses/external/asl-2.0.txt\ndocs/root/licenses/external/gnu3.txt\ndocs/root/licenses/external/lgpl-2.0.txt\ndocs/root/licenses/external/lgpl-2.1.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.375179157359167
+  },
+  {
+    "name": "dbeaver/features 模块",
+    "description": "[模块级] dbeaver 项目的 features 模块 (source)。来源: https://github.com/dbeaver/dbeaver",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "copilot",
+      "database",
+      "db2",
+      "dbeaver",
+      "module-level",
+      "source",
+      "features"
+    ],
+    "genes": [
+      {
+        "title": "features 模块说明",
+        "content": "模块路径: features/\n类型: source\n文件数: 79\n\n包含文件:\n- features/org.jkiss.dbeaver.app.base.feature\n- features/org.jkiss.dbeaver.app.base.feature/build.properties\n- features/org.jkiss.dbeaver.app.base.feature/feature.xml\n- features/org.jkiss.dbeaver.app.base.feature/pom.xml\n- features/org.jkiss.dbeaver.app.local.feature\n- features/org.jkiss.dbeaver.app.local.feature/build.properties\n- features/org.jkiss.dbeaver.app.local.feature/feature.xml\n- features/org.jkiss.dbeaver.app.local.feature/pom.xml\n- features/org.jkiss.dbeaver.appstore.feature\n- features/org.jkiss.dbeaver.appstore.feature/build.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "features 文件结构",
+        "content": "features/org.jkiss.dbeaver.app.base.feature\nfeatures/org.jkiss.dbeaver.app.base.feature/build.properties\nfeatures/org.jkiss.dbeaver.app.base.feature/feature.xml\nfeatures/org.jkiss.dbeaver.app.base.feature/pom.xml\nfeatures/org.jkiss.dbeaver.app.local.feature\nfeatures/org.jkiss.dbeaver.app.local.feature/build.properties\nfeatures/org.jkiss.dbeaver.app.local.feature/feature.xml\nfeatures/org.jkiss.dbeaver.app.local.feature/pom.xml\nfeatures/org.jkiss.dbeaver.appstore.feature\nfeatures/org.jkiss.dbeaver.appstore.feature/build.properties\nfeatures/org.jkiss.dbeaver.appstore.feature/feature.xml\nfeatures/org.jkiss.dbeaver.appstore.feature/pom.xml\nfeatures/org.jkiss.dbeaver.appstore.feature/root\nfeatures/org.jkiss.dbeaver.appstore.feature/root/.eclipseproduct\nfeatures/org.jkiss.dbeaver.appstore.feature/root/readme.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.375179157359167
+  },
+  {
+    "name": "dbeaver/plugins 模块",
+    "description": "[模块级] dbeaver 项目的 plugins 模块 (source)。来源: https://github.com/dbeaver/dbeaver",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "copilot",
+      "database",
+      "db2",
+      "dbeaver",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 65\n\n包含文件:\n- plugins/org.jkiss.dbeaver.cmp.simple.ui\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/META-INF\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/META-INF/MANIFEST.MF\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle.properties\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ar.properties\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_de.properties\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_fr.properties\n- plugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ja.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/org.jkiss.dbeaver.cmp.simple.ui\nplugins/org.jkiss.dbeaver.cmp.simple.ui/META-INF\nplugins/org.jkiss.dbeaver.cmp.simple.ui/META-INF/MANIFEST.MF\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ar.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_de.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_fr.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ja.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ko.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_pt_BR.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ro.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_ru.properties\nplugins/org.jkiss.dbeaver.cmp.simple.ui/OSGI-INF/l10n/bundle_tw.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.375179157359167
+  }
+]

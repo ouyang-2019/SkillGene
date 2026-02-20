@@ -1,0 +1,98 @@
+[
+  {
+    "name": "genai-toolbox (googleapis)",
+    "description": "[项目级] MCP Toolbox for Databases is an open source MCP server for databases.。来源: https://github.com/googleapis/genai-toolbox",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "bigquery",
+      "clickhouse",
+      "go",
+      "stars-13061",
+      "github-googleapis",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MCP Toolbox for Databases is an open source MCP server for databases.\n\n来源: https://github.com/googleapis/genai-toolbox\n语言: Go\nStars: 13061",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDEVELOPER.md\nDockerfile\nLICENSE\nMCP-TOOLBOX-EXTENSION.md\nREADME.md\ncmd\ncmd/internal\ncmd/root.go\ncmd/root_test.go\ncmd/version.txt\ndocs\ndocs/ALLOYDBADMIN_README.md\ndocs/ALLOYDBPG_README.md\ndocs/BIGQUERY_README.md\ndocs/CLOUDSQLMSSQLADMIN_README.md\ndocs/CLOUDSQLMSSQL_README.md\ndocs/CLOUDSQLMYSQLADMIN_README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "genai-toolbox/cmd 模块",
+    "description": "[模块级] genai-toolbox 项目的 cmd 模块 (source)。来源: https://github.com/googleapis/genai-toolbox",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "bigquery",
+      "clickhouse",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 18\n\n包含文件:\n- cmd/internal\n- cmd/internal/imports.go\n- cmd/internal/invoke\n- cmd/internal/invoke/command.go\n- cmd/internal/invoke/command_test.go\n- cmd/internal/options.go\n- cmd/internal/options_test.go\n- cmd/internal/persistent_flags.go\n- cmd/internal/skills\n- cmd/internal/skills/command.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/internal\ncmd/internal/imports.go\ncmd/internal/invoke\ncmd/internal/invoke/command.go\ncmd/internal/invoke/command_test.go\ncmd/internal/options.go\ncmd/internal/options_test.go\ncmd/internal/persistent_flags.go\ncmd/internal/skills\ncmd/internal/skills/command.go\ncmd/internal/skills/command_test.go\ncmd/internal/skills/generator.go\ncmd/internal/skills/generator_test.go\ncmd/internal/tools_file.go\ncmd/internal/tools_file_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146390571781927
+  },
+  {
+    "name": "genai-toolbox/docs 模块",
+    "description": "[模块级] genai-toolbox 项目的 docs 模块 (docs)。来源: https://github.com/googleapis/genai-toolbox",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "bigquery",
+      "clickhouse",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 75\n\n包含文件:\n- docs/ALLOYDBADMIN_README.md\n- docs/ALLOYDBPG_README.md\n- docs/BIGQUERY_README.md\n- docs/CLOUDSQLMSSQLADMIN_README.md\n- docs/CLOUDSQLMSSQL_README.md\n- docs/CLOUDSQLMYSQLADMIN_README.md\n- docs/CLOUDSQLMYSQL_README.md\n- docs/CLOUDSQLPGADMIN_README.md\n- docs/CLOUDSQLPG_README.md\n- docs/DATAPLEX_README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ALLOYDBADMIN_README.md\ndocs/ALLOYDBPG_README.md\ndocs/BIGQUERY_README.md\ndocs/CLOUDSQLMSSQLADMIN_README.md\ndocs/CLOUDSQLMSSQL_README.md\ndocs/CLOUDSQLMYSQLADMIN_README.md\ndocs/CLOUDSQLMYSQL_README.md\ndocs/CLOUDSQLPGADMIN_README.md\ndocs/CLOUDSQLPG_README.md\ndocs/DATAPLEX_README.md\ndocs/LOOKER_README.md\ndocs/SPANNER_README.md\ndocs/TOOLBOX_README.md\ndocs/en\ndocs/en/_index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.146390571781927
+  }
+]

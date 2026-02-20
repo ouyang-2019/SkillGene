@@ -1,0 +1,61 @@
+[
+  {
+    "name": "skills-curated (trailofbits)",
+    "description": "[项目级] Curated, community-vetted Claude Code plugin marketplace。来源: https://github.com/trailofbits/skills-curated",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-163",
+      "github-trailofbits",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated, community-vetted Claude Code plugin marketplace\n\n来源: https://github.com/trailofbits/skills-curated\n语言: Python\nStars: 163",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add trailofbits/skills-curated\n/plugin menu",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODEOWNERS\nLICENSE\nREADME.md\nplugins\nplugins/ffuf-web-fuzzing\nplugins/ghidra-headless\nplugins/humanizer\nplugins/last30days\nplugins/openai-cloudflare-deploy",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.106093802201979
+  },
+  {
+    "name": "skills-curated/plugins 模块",
+    "description": "[模块级] skills-curated 项目的 plugins 模块 (source)。来源: https://github.com/trailofbits/skills-curated",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-163",
+      "github-trailofbits",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 179\n\n包含文件:\n- plugins/ffuf-web-fuzzing\n- plugins/ffuf-web-fuzzing/.claude-plugin\n- plugins/ffuf-web-fuzzing/.claude-plugin/plugin.json\n- plugins/ffuf-web-fuzzing/LICENSE\n- plugins/ffuf-web-fuzzing/README.md\n- plugins/ffuf-web-fuzzing/skills\n- plugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing\n- plugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/SKILL.md\n- plugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/references\n- plugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/references/request-templates.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ffuf-web-fuzzing\nplugins/ffuf-web-fuzzing/.claude-plugin\nplugins/ffuf-web-fuzzing/.claude-plugin/plugin.json\nplugins/ffuf-web-fuzzing/LICENSE\nplugins/ffuf-web-fuzzing/README.md\nplugins/ffuf-web-fuzzing/skills\nplugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing\nplugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/SKILL.md\nplugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/references\nplugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/references/request-templates.md\nplugins/ffuf-web-fuzzing/skills/ffuf-web-fuzzing/references/wordlists.md\nplugins/ghidra-headless\nplugins/ghidra-headless/.claude-plugin\nplugins/ghidra-headless/.claude-plugin/plugin.json\nplugins/ghidra-headless/LICENSE",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.384875041761583
+  }
+]

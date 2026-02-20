@@ -1,0 +1,103 @@
+[
+  {
+    "name": "smart-ralph (tzachbon)",
+    "description": "[项目级] Spec-driven development with smart compaction. Claude Code plugin combining Ralph Wiggum loop with structured specification workflow.。来源: https://github.com/tzachbon/smart-ralph",
+    "domain": "devops",
+    "tags": [
+      "agentic-coding",
+      "ai",
+      "ai-agents",
+      "autonomous-coding",
+      "claude",
+      "shell",
+      "stars-173",
+      "github-tzachbon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Spec-driven development with smart compaction. Claude Code plugin combining Ralph Wiggum loop with structured specification workflow.\n\n来源: https://github.com/tzachbon/smart-ralph\n语言: Shell\nStars: 173",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nTROUBLESHOOTING.md\ndocs\ndocs/plans\nplugins\nplugins/ralph-speckit\nplugins/ralph-specum",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "/ralph-specum:start my-feature Add user authentication\n```\n\nWhen you run `/ralph-specum:start`:\n\n1. If no index exists, you'll see a hint suggesting to run `/ralph-specum:index`\n2. The spec scanner searches both regular specs AND indexed specs\n3. Indexed components appear in \"Related Specs\" during research",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.1190230515643975
+  },
+  {
+    "name": "smart-ralph/docs 模块",
+    "description": "[模块级] smart-ralph 项目的 docs 模块 (docs)。来源: https://github.com/tzachbon/smart-ralph",
+    "domain": "documentation",
+    "tags": [
+      "agentic-coding",
+      "ai",
+      "ai-agents",
+      "autonomous-coding",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/plans\n- docs/plans/2026-02-20-brainstorming-style-interviews-design.md\n- docs/plans/2026-02-20-brainstorming-style-interviews-plan.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/plans\ndocs/plans/2026-02-20-brainstorming-style-interviews-design.md\ndocs/plans/2026-02-20-brainstorming-style-interviews-plan.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3952184412515183
+  },
+  {
+    "name": "smart-ralph/plugins 模块",
+    "description": "[模块级] smart-ralph 项目的 plugins 模块 (source)。来源: https://github.com/tzachbon/smart-ralph",
+    "domain": "devops",
+    "tags": [
+      "agentic-coding",
+      "ai",
+      "ai-agents",
+      "autonomous-coding",
+      "claude",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 80\n\n包含文件:\n- plugins/ralph-speckit\n- plugins/ralph-speckit/.claude-plugin\n- plugins/ralph-speckit/.claude-plugin/plugin.json\n- plugins/ralph-speckit/.claude\n- plugins/ralph-speckit/.claude/commands\n- plugins/ralph-speckit/.claude/commands/speckit.analyze.md\n- plugins/ralph-speckit/.claude/commands/speckit.checklist.md\n- plugins/ralph-speckit/.claude/commands/speckit.clarify.md\n- plugins/ralph-speckit/.claude/commands/speckit.constitution.md\n- plugins/ralph-speckit/.claude/commands/speckit.implement.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/ralph-speckit\nplugins/ralph-speckit/.claude-plugin\nplugins/ralph-speckit/.claude-plugin/plugin.json\nplugins/ralph-speckit/.claude\nplugins/ralph-speckit/.claude/commands\nplugins/ralph-speckit/.claude/commands/speckit.analyze.md\nplugins/ralph-speckit/.claude/commands/speckit.checklist.md\nplugins/ralph-speckit/.claude/commands/speckit.clarify.md\nplugins/ralph-speckit/.claude/commands/speckit.constitution.md\nplugins/ralph-speckit/.claude/commands/speckit.implement.md\nplugins/ralph-speckit/.claude/commands/speckit.plan.md\nplugins/ralph-speckit/.claude/commands/speckit.specify.md\nplugins/ralph-speckit/.claude/commands/speckit.tasks.md\nplugins/ralph-speckit/.claude/commands/speckit.taskstoissues.md\nplugins/ralph-speckit/.specify",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3952184412515183
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": ".context (andrefigueira)",
+    "description": "[项目级] A Git-native, AI-optimized documentation system that turns your repo into a living knowledge base. 。来源: https://github.com/andrefigueira/.context",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-228",
+      "github-andrefigueira",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "```\nREADME.md                     # Project introduction and quick start\nCLAUDE.md                     # Claude Code configuration (use this if using Claude Code CLI)\nagents.md                     # AI agent usage patterns (use this for other AI tools)\n.context/\n├── substrate.md              # Entry point and methodology guide\n│\n├── # AI-Specific Context\n├── ai-rules.md               # Hard constraints for AI code generation\n├── glossary.md               # Project-specific terminology\n├── anti-patterns.md          # What NOT to do (with examples)\n├── boundaries.md             # What AI should/shouldn't modify\n├── debt.md                   # Known technical debt registry\n│\n├── # Operational\n├── workflows.md              # Step-by-step development guides\n├── env.md                    # Envir",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/andrefigueira/.context.git your-project\n   cd your-project\n   rm -rf .git && git init",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nagents.md\ntests\ntests/.gitignore\ntests/METHODOLOGY.md\ntests/README.md\ntests/cases\ntests/config.json\ntests/fixtures\ntests/outputs\ntests/results\ntests/rubrics\ntests/run-with-claude-code.sh\ntests/scripts\ntests/tsconfig.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "See the methodology in action: [.context-designs](https://github.com/andrefigueira/.context-designs) - A complete UI component library built with Tailwind CSS using the .context method. This project demonstrates how documentation-as-context enables consistent design system implementation and AI-assisted component generation.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ✅ **Modular Documentation**: Domain-organized for precise context\n- ✅ **AI-Optimized Format**: Structured for LLM consumption\n- ✅ **Decision History**: Captures rationale and trade-offs\n- ✅ **Code Examples**: Real patterns for immediate use\n- ✅ **Mermaid Diagrams**: Visual architecture documentation\n- ✅ **Generic Template**: Adaptable to any tech stack\n- ✅ **MIT Licensed**: Free for commercial use",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.178967423500227
+  },
+  {
+    "name": ".context/tests 模块",
+    "description": "[模块级] .context 项目的 tests 模块 (test)。来源: https://github.com/andrefigueira/.context",
+    "domain": "testing",
+    "tags": [
+      "typescript",
+      "stars-228",
+      "github-andrefigueira",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 120\n\n包含文件:\n- tests/.gitignore\n- tests/METHODOLOGY.md\n- tests/README.md\n- tests/cases\n- tests/cases/01-simple-endpoint.md\n- tests/cases/02-auth-middleware.md\n- tests/cases/03-cross-domain-feature.md\n- tests/cases/04-security-fix.md\n- tests/cases/05-ambiguous-feature.md\n- tests/cases/06-refactor-antipattern.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/.gitignore\ntests/METHODOLOGY.md\ntests/README.md\ntests/cases\ntests/cases/01-simple-endpoint.md\ntests/cases/02-auth-middleware.md\ntests/cases/03-cross-domain-feature.md\ntests/cases/04-security-fix.md\ntests/cases/05-ambiguous-feature.md\ntests/cases/06-refactor-antipattern.md\ntests/cases/TEMPLATE.md\ntests/config.json\ntests/fixtures\ntests/fixtures/control\ntests/fixtures/control/CLAUDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4431739388001814
+  }
+]

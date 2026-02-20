@@ -1,0 +1,163 @@
+[
+  {
+    "name": "index (lmnr-ai)",
+    "description": "[项目级] The SOTA Open-Source Browser Agent for autonomously performing complex tasks on the web。来源: https://github.com/lmnr-ai/index",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "browser-agent",
+      "claude-3-7-sonnet",
+      "gemini-pro",
+      "python",
+      "stars-2330",
+      "github-lmnr-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The SOTA Open-Source Browser Agent for autonomously performing complex tasks on the web\n\n来源: https://github.com/lmnr-ai/index\n语言: Python\nStars: 2330",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash\npip install lmnr-index 'lmnr[all]'",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nevals\nevals/eval_generate_json.py\nevals/eval_output_model.py\nindex\nindex/__init__.py\nindex/agent\nindex/browser\nindex/cli.py\nindex/controller\nindex/llm\npyproject.toml\nstatic\nstatic/logo_dark.png\nstatic/logo_light.png\nstatic/traces.png\ntests\ntests/agent\nuv.lock",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "index run --local-chrome\n```",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.683677960513009
+  },
+  {
+    "name": "index/evals 模块",
+    "description": "[模块级] index 项目的 evals 模块 (source)。来源: https://github.com/lmnr-ai/index",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "browser-agent",
+      "claude-3-7-sonnet",
+      "gemini-pro",
+      "module-level",
+      "source",
+      "evals"
+    ],
+    "genes": [
+      {
+        "title": "evals 模块说明",
+        "content": "模块路径: evals/\n类型: source\n文件数: 2\n\n包含文件:\n- evals/eval_generate_json.py\n- evals/eval_output_model.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evals 文件结构",
+        "content": "evals/eval_generate_json.py\nevals/eval_output_model.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8469423684104074
+  },
+  {
+    "name": "index/index 模块",
+    "description": "[模块级] index 项目的 index 模块 (source)。来源: https://github.com/lmnr-ai/index",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "browser-agent",
+      "claude-3-7-sonnet",
+      "gemini-pro",
+      "module-level",
+      "source",
+      "index"
+    ],
+    "genes": [
+      {
+        "title": "index 模块说明",
+        "content": "Index is a state-of-the-art open-source browser agent that autonomously executes complex web tasks. It turns any website into an accessible API and can be seamlessly integrated with just a few lines of code.\n\n- [x] Powered by reasoning LLMs with vision capabilities.\n    - [x] Gemini 2.5 Pro (really fast and accurate)\n    - [x] Claude 3.7 Sonnet with extended thinking (reliable and accurate)\n    - [x] OpenAI o4-mini (depending on the reasoning effort, provides good balance between speed, cost and",
+        "gene_type": "principle"
+      },
+      {
+        "title": "index 文件结构",
+        "content": "index/__init__.py\nindex/agent\nindex/agent/agent.py\nindex/agent/demo_images\nindex/agent/demo_images/complex_layout_highlight.png\nindex/agent/demo_images/complex_layout_small_elements.png\nindex/agent/demo_images/loading.png\nindex/agent/demo_images/scroll.png\nindex/agent/message_manager.py\nindex/agent/models.py\nindex/agent/prompts.py\nindex/agent/utils.py\nindex/browser\nindex/browser/browser.py\nindex/browser/detector.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8469423684104074
+  },
+  {
+    "name": "index/static 模块",
+    "description": "[模块级] index 项目的 static 模块 (source)。来源: https://github.com/lmnr-ai/index",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "browser-agent",
+      "claude-3-7-sonnet",
+      "gemini-pro",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 3\n\n包含文件:\n- static/logo_dark.png\n- static/logo_light.png\n- static/traces.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/logo_dark.png\nstatic/logo_light.png\nstatic/traces.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8469423684104074
+  },
+  {
+    "name": "index/tests 模块",
+    "description": "[模块级] index 项目的 tests 模块 (test)。来源: https://github.com/lmnr-ai/index",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "browser-agent",
+      "claude-3-7-sonnet",
+      "gemini-pro",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/agent\n- tests/agent/test_utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/agent\ntests/agent/test_utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8469423684104074
+  }
+]

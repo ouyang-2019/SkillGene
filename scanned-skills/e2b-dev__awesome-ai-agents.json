@@ -1,0 +1,72 @@
+[
+  {
+    "name": "awesome-ai-agents (e2b-dev)",
+    "description": "[项目级] A list of AI autonomous agents。来源: https://github.com/e2b-dev/awesome-ai-agents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "autonomous-agents",
+      "stars-25909",
+      "github-e2b-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI for every step of SW development lifecycle\n\n<details>\n\n![image](https://about.gitlab.com/nuxt-images/solutions/ai/duo-logo.svg)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEOWNERS\nLICENSE.md\nREADME.md\nassets\nassets/.DS_Store\nassets/footer.png\nassets/landscape-latest.png\nimage-1.png\nimage-2.png\nimage.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Fork this into a private Repl\n- Add your OpenAI API Key (required) and SerpAPI Key (optional)\n- Update the OBJECTIVE variable\n- Press \"Run\" at the top.\n-->",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Uses OpenAI **functions**\n- Supports gpt-3.5-16k, pinecone and pg_vector databases",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "awesome-ai-agents/assets 模块",
+    "description": "[模块级] awesome-ai-agents 项目的 assets 模块 (source)。来源: https://github.com/e2b-dev/awesome-ai-agents",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "autogpt",
+      "autonomous-agents",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/.DS_Store\n- assets/footer.png\n- assets/landscape-latest.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/.DS_Store\nassets/footer.png\nassets/landscape-latest.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.26538026040293
+  }
+]

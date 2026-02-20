@@ -1,0 +1,122 @@
+[
+  {
+    "name": "langchain4j-aideepin-admin (moyangzhan)",
+    "description": "[项目级] JAVA版本的检索增强生成(RAG)项目，包括知识库、搜索 | JAVA version of retrieval enhancement generation(RAG) project ,including knowledge base, search。来源: https://github.com/moyangzhan/langchain4j-aideepin-admin",
+    "domain": "web-frontend",
+    "tags": [
+      "vue",
+      "stars-114",
+      "github-moyangzhan",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "本仓库为langchain4j-aideepin的管理后台WEB端，基于[naive-ui-admin](https://github.com/jekip/naive-ui-admin)\n\n👉[详细文档](https://github.com/moyangzhan/langchain4j-aideepin/wiki)\n\n默认管理员账号：catkeeper@aideepin.com 密码：123456\n\n本项目仓库地址：[github](https://github.com/moyangzhan/langchain4j-aideepin-admin) [gitee](https://gitee.com/moyangzhan/langchain4j-aideepin-admin)\n\n关联项目\n\n* 后端服务 langchain4j-aideepin:\n  * [github](https://github.com/moyangzhan/langchain4j-aideepin)\n  * [gitee](https://gitee.com/moyangzhan/langchain4j-aideepin)\n* 用户端WEB langchain4j-aideepin-web:\n  * [github](https://github.com/moyangzhan/langchain4j-aideepin-web)\n  * [gitee](https://gitee.com/moyangzhan/langchain4j-aideepin-web)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pnpm bootstrap",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbuild\nbuild/constant.ts\nbuild/getConfigFileName.ts\nbuild/script\nbuild/utils.ts\nbuild/vite\ncommitlint.config.js\nimage\nimage/README\nindex.html\nmock\nmock/_createProductionServer.ts\nmock/_util.ts\nmock/dashboard\nmock/system\nmock/table\nmock/user\nnginx.conf",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "用户管理\n\n模型管理\n\n知识库管理\n\nAI工作流管理\n\nMCP管理\n\n系统配置",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.028452425668236
+  },
+  {
+    "name": "langchain4j-aideepin-admin/image 模块",
+    "description": "[模块级] langchain4j-aideepin-admin 项目的 image 模块 (source)。来源: https://github.com/moyangzhan/langchain4j-aideepin-admin",
+    "domain": "web-frontend",
+    "tags": [
+      "vue",
+      "stars-114",
+      "github-moyangzhan",
+      "module-level",
+      "source",
+      "image"
+    ],
+    "genes": [
+      {
+        "title": "image 模块说明",
+        "content": "模块路径: image/\n类型: source\n文件数: 8\n\n包含文件:\n- image/README\n- image/README/aiplatform.png\n- image/README/console.png\n- image/README/knowledgebase.png\n- image/README/model.png\n- image/README/sysconfig.png\n- image/README/user.png\n- image/README/workflow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "image 文件结构",
+        "content": "image/README\nimage/README/aiplatform.png\nimage/README/console.png\nimage/README/knowledgebase.png\nimage/README/model.png\nimage/README/sysconfig.png\nimage/README/user.png\nimage/README/workflow.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.322761940534589
+  },
+  {
+    "name": "langchain4j-aideepin-admin/mock 模块",
+    "description": "[模块级] langchain4j-aideepin-admin 项目的 mock 模块 (source)。来源: https://github.com/moyangzhan/langchain4j-aideepin-admin",
+    "domain": "web-frontend",
+    "tags": [
+      "vue",
+      "stars-114",
+      "github-moyangzhan",
+      "module-level",
+      "source",
+      "mock"
+    ],
+    "genes": [
+      {
+        "title": "mock 模块说明",
+        "content": "模块路径: mock/\n类型: source\n文件数: 12\n\n包含文件:\n- mock/_createProductionServer.ts\n- mock/_util.ts\n- mock/dashboard\n- mock/dashboard/console.ts\n- mock/system\n- mock/system/menu.ts\n- mock/system/role.ts\n- mock/table\n- mock/table/list.ts\n- mock/user",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mock 文件结构",
+        "content": "mock/_createProductionServer.ts\nmock/_util.ts\nmock/dashboard\nmock/dashboard/console.ts\nmock/system\nmock/system/menu.ts\nmock/system/role.ts\nmock/table\nmock/table/list.ts\nmock/user\nmock/user/menus.ts\nmock/user/user.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.322761940534589
+  },
+  {
+    "name": "langchain4j-aideepin-admin/src 模块",
+    "description": "[模块级] langchain4j-aideepin-admin 项目的 src 模块 (source)。来源: https://github.com/moyangzhan/langchain4j-aideepin-admin",
+    "domain": "web-frontend",
+    "tags": [
+      "vue",
+      "stars-114",
+      "github-moyangzhan",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 142\n\n包含文件:\n- src/App.vue\n- src/api\n- src/api/aiModel.ts\n- src/api/conversation.ts\n- src/api/dashboard\n- src/api/dashboard/console.ts\n- src/api/knowledgeBase.ts\n- src/api/mcp.ts\n- src/api/modelPlatform.ts\n- src/api/sysConfig.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/App.vue\nsrc/api\nsrc/api/aiModel.ts\nsrc/api/conversation.ts\nsrc/api/dashboard\nsrc/api/dashboard/console.ts\nsrc/api/knowledgeBase.ts\nsrc/api/mcp.ts\nsrc/api/modelPlatform.ts\nsrc/api/sysConfig.ts\nsrc/api/system\nsrc/api/system/menu.ts\nsrc/api/system/role.ts\nsrc/api/table\nsrc/api/table/list.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.322761940534589
+  }
+]

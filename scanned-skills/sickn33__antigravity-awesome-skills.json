@@ -10,14 +10,14 @@
       "autonomous-coding",
       "claude-code",
       "python",
-      "stars-13275",
+      "stars-13286",
       "github-sickn33",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "The Ultimate Collection of 800+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.\n\n来源: https://github.com/sickn33/antigravity-awesome-skills\n语言: Python\nStars: 13275",
+        "content": "The Ultimate Collection of 800+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.\n\n来源: https://github.com/sickn33/antigravity-awesome-skills\n语言: Python\nStars: 13286",
         "gene_type": "principle"
       },
       {
@@ -73,7 +73,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.149213811901403
+    "rating": 4.149357699242213
   },
   {
     "name": "antigravity-awesome-skills/docs 模块",
@@ -103,7 +103,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.149213811901403
+    "rating": 4.149357699242213
   },
   {
     "name": "antigravity-awesome-skills/scripts 模块",
@@ -133,7 +133,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.149213811901403
+    "rating": 4.149357699242213
   },
   {
     "name": "antigravity-awesome-skills/skills 模块",
@@ -163,6 +163,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.149213811901403
+    "rating": 4.149357699242213
   }
 ]

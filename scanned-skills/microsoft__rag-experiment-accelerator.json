@@ -1,0 +1,288 @@
+[
+  {
+    "name": "rag-experiment-accelerator (microsoft)",
+    "description": "[项目级] The RAG Experiment Accelerator is a versatile tool designed to expedite and facilitate the process of conducting experiments and evaluations using Azure Cognitive Search and RAG pattern. 。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "python",
+      "stars-297",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The **RAG Experiment Accelerator** is a versatile tool that helps you conduct experiments and evaluations using Azure AI Search and RAG pattern. This document provides a comprehensive guide that covers everything you need to know about this tool, such as its purpose, features, installation, usage, and more.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "At the moment, the RAG Experiment Accelerator can be run locally leveraging one of the following:\n\n* [Run within a development container](#1-run-within-a-development-container)\n* [Install locally on your host machine](#2-local-install).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "01_index.py\n02_qa_generation.py\n03_querying.py\n04_evaluation.py\nCODE_OF_CONDUCT.md\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\nSUPPORT.md\nazure.yaml\nazureml\nazureml/eval.py\nazureml/index.py\nazureml/pipeline.py\nazureml/query.py\nconfig.sample.json\nconfig.schema.json\ncspell.json\ndata-ci",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "cp .env.template .env\n    # change parameters manually",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "The **RAG Experiment Accelerator** is config driven and offers a rich set of features to support its purpose:\n\n1. **Experiment Setup**: You can define and configure experiments by specifying a range of search engine parameters, search types, query sets, and evaluation metrics.\n\n1. **Integration**: It integrates seamlessly with Azure AI Search, Azure Machine Learning, MLFlow and Azure OpenAI.\n\n1. **Rich Search Index**: It creates multiple search indexes based on hyperparameter configurations available in the config file.\n\n1. **Multiple Document Loaders**: The tool supports multiple document loa",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.236378224658607
+  },
+  {
+    "name": "rag-experiment-accelerator/azureml 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 azureml 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "azureml"
+    ],
+    "genes": [
+      {
+        "title": "azureml 模块说明",
+        "content": "模块路径: azureml/\n类型: source\n文件数: 4\n\n包含文件:\n- azureml/eval.py\n- azureml/index.py\n- azureml/pipeline.py\n- azureml/query.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "azureml 文件结构",
+        "content": "azureml/eval.py\nazureml/index.py\nazureml/pipeline.py\nazureml/query.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/data-ci 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 data-ci 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "data-ci"
+    ],
+    "genes": [
+      {
+        "title": "data-ci 模块说明",
+        "content": "模块路径: data-ci/\n类型: source\n文件数: 2\n\n包含文件:\n- data-ci/docx\n- data-ci/docx/sample-docx.docx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data-ci 文件结构",
+        "content": "data-ci/docx\ndata-ci/docx/sample-docx.docx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/data 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 data 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 12\n\n包含文件:\n- data/docx\n- data/docx/sample-docx.docx\n- data/html\n- data/html/sample-html.html\n- data/json\n- data/json/sample-json.json\n- data/markdown\n- data/markdown/sample-markdown.md\n- data/pdf\n- data/pdf/sample-pdf.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/docx\ndata/docx/sample-docx.docx\ndata/html\ndata/html/sample-html.html\ndata/json\ndata/json/sample-json.json\ndata/markdown\ndata/markdown/sample-markdown.md\ndata/pdf\ndata/pdf/sample-pdf.pdf\ndata/text\ndata/text/sample-text.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/docs 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 docs 模块 (docs)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "documentation",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/azd.png\n- docs/azureml-pipeline.md\n- docs/configs-appendix.md\n- docs/environment-variables.md\n- docs/evaluation-metrics.md\n- docs/launch.png\n- docs/script-inputs-outputs.md\n- docs/wsl.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/azd.png\ndocs/azureml-pipeline.md\ndocs/configs-appendix.md\ndocs/environment-variables.md\ndocs/evaluation-metrics.md\ndocs/launch.png\ndocs/script-inputs-outputs.md\ndocs/wsl.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/images 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 images 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 18\n\n包含文件:\n- images/AzureMLPipeline.drawio\n- images/AzureMLPipeline.drawio.png\n- images/all_cluster_predictions_cluster_number_5.jpg\n- images/azureml_pipeline_overview.png\n- images/compare_metrics_for_runs.png\n- images/create_access_policies.png\n- images/create_compute_cluster.png\n- images/elbow_5.png\n- images/hyper_parameters.png\n- images/map_at_k.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/AzureMLPipeline.drawio\nimages/AzureMLPipeline.drawio.png\nimages/all_cluster_predictions_cluster_number_5.jpg\nimages/azureml_pipeline_overview.png\nimages/compare_metrics_for_runs.png\nimages/create_access_policies.png\nimages/create_compute_cluster.png\nimages/elbow_5.png\nimages/hyper_parameters.png\nimages/map_at_k.png\nimages/map_scores.png\nimages/metric_analysis.png\nimages/metric_comparison.png\nimages/sample_metric.png\nimages/search_chart.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/infra 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 infra 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "infra"
+    ],
+    "genes": [
+      {
+        "title": "infra 模块说明",
+        "content": "There are 3 options to install all the required azure services:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infra 文件结构",
+        "content": "infra/abbreviations.json\ninfra/generate_arm_template.sh\ninfra/main.bicep\ninfra/main.bicepparam\ninfra/main.json\ninfra/network\ninfra/network/azure_bastion.bicep\ninfra/network/network_isolation.bicep\ninfra/shared\ninfra/shared/cognitiveservices.bicep\ninfra/shared/keyvault-secret.bicep\ninfra/shared/keyvault.bicep\ninfra/shared/machineLearning.bicep\ninfra/shared/monitoring.bicep\ninfra/shared/search-services.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/promptflow 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 promptflow 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "promptflow"
+    ],
+    "genes": [
+      {
+        "title": "promptflow 模块说明",
+        "content": "模块路径: promptflow/\n类型: source\n文件数: 26\n\n包含文件:\n- promptflow/rag-experiment-accelerator\n- promptflow/rag-experiment-accelerator/README.md\n- promptflow/rag-experiment-accelerator/custom_environment\n- promptflow/rag-experiment-accelerator/custom_environment/Dockerfile\n- promptflow/rag-experiment-accelerator/custom_environment/environment.yaml\n- promptflow/rag-experiment-accelerator/custom_environment/rag_experiment_accelerator-0.9-py3-none-any.whl\n- promptflow/rag-experiment-accelerator/env_setup.md\n- promptflow/rag-experiment-accelerator/evaluation\n- promptflow/rag-experiment-accelerator/evaluation/evaluation.py\n- promptflow/rag-experiment-accelerator/evaluation/flow.dag.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "promptflow 文件结构",
+        "content": "promptflow/rag-experiment-accelerator\npromptflow/rag-experiment-accelerator/README.md\npromptflow/rag-experiment-accelerator/custom_environment\npromptflow/rag-experiment-accelerator/custom_environment/Dockerfile\npromptflow/rag-experiment-accelerator/custom_environment/environment.yaml\npromptflow/rag-experiment-accelerator/custom_environment/rag_experiment_accelerator-0.9-py3-none-any.whl\npromptflow/rag-experiment-accelerator/env_setup.md\npromptflow/rag-experiment-accelerator/evaluation\npromptflow/rag-experiment-accelerator/evaluation/evaluation.py\npromptflow/rag-experiment-accelerator/evaluation/flow.dag.yaml\npromptflow/rag-experiment-accelerator/flow.dag.yaml\npromptflow/rag-experiment-accelerator/images\npromptflow/rag-experiment-accelerator/images/end_to_end_flow_diagram.png\npromptflow/rag-experiment-accelerator/images/upload_local_flow.png\npromptflow/rag-experiment-accelerator/index",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  },
+  {
+    "name": "rag-experiment-accelerator/rag_experiment_accelerator 模块",
+    "description": "[模块级] rag-experiment-accelerator 项目的 rag_experiment_accelerator 模块 (source)。来源: https://github.com/microsoft/rag-experiment-accelerator",
+    "domain": "devops",
+    "tags": [
+      "acs",
+      "azure",
+      "chunking",
+      "dense",
+      "embedding",
+      "module-level",
+      "source",
+      "rag_experiment_accelerator"
+    ],
+    "genes": [
+      {
+        "title": "rag_experiment_accelerator 模块说明",
+        "content": "模块路径: rag_experiment_accelerator/\n类型: source\n文件数: 64\n\n包含文件:\n- rag_experiment_accelerator/__init__.py\n- rag_experiment_accelerator/artifact\n- rag_experiment_accelerator/artifact/__init__.py\n- rag_experiment_accelerator/artifact/handlers\n- rag_experiment_accelerator/artifact/handlers/__init__.py\n- rag_experiment_accelerator/artifact/handlers/artifact_handler.py\n- rag_experiment_accelerator/artifact/handlers/exceptions.py\n- rag_experiment_accelerator/artifact/handlers/query_output_handler.py\n- rag_experiment_accelerator/artifact/handlers/tests\n- rag_experiment_accelerator/artifact/handlers/tests/test_artifact_handler.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "rag_experiment_accelerator 文件结构",
+        "content": "rag_experiment_accelerator/__init__.py\nrag_experiment_accelerator/artifact\nrag_experiment_accelerator/artifact/__init__.py\nrag_experiment_accelerator/artifact/handlers\nrag_experiment_accelerator/artifact/handlers/__init__.py\nrag_experiment_accelerator/artifact/handlers/artifact_handler.py\nrag_experiment_accelerator/artifact/handlers/exceptions.py\nrag_experiment_accelerator/artifact/handlers/query_output_handler.py\nrag_experiment_accelerator/artifact/handlers/tests\nrag_experiment_accelerator/artifact/handlers/tests/test_artifact_handler.py\nrag_experiment_accelerator/artifact/handlers/tests/test_query_output_handler.py\nrag_experiment_accelerator/artifact/handlers/typing.py\nrag_experiment_accelerator/artifact/models\nrag_experiment_accelerator/artifact/models/__init__.py\nrag_experiment_accelerator/artifact/models/query_output.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.489102579726885
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "ai-commits-intellij-plugin (Blarc)",
+    "description": "[项目级] AI Commits for IntelliJ based IDEs/Android Studio.。来源: https://github.com/Blarc/ai-commits-intellij-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "commit",
+      "kotlin",
+      "stars-770",
+      "github-blarc",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Commits for IntelliJ based IDEs/Android Studio.\n\n来源: https://github.com/Blarc/ai-commits-intellij-plugin\n语言: Kotlin\nStars: 770",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<a href=\"https://plugins.jetbrains.com/embeddable/install/21335\">\n<img src=\"https://user-images.githubusercontent.com/12044174/123105697-94066100-d46a-11eb-9832-338cdf4e0612.png\" width=\"300\"/>\n</a>\n\nOr you could install it inside your IDE:\n\nFor Windows & Linux: <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search\nfor \"AI Commits\"</kbd> > <kbd>Install Plugin</kbd> > <kbd>Restart IntelliJ IDEA</kbd>\n\nFor Mac: <kbd>IntelliJ IDEA</kbd> > <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search\nfor \"AI Commits\"</kbd> > <kbd>Inst",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nPROMPT_VARIABLES.md\nREADME.md\nbuild.gradle.kts\ngradle.properties\ngradle\ngradle/wrapper\ngradlew\ngradlew.bat\nscreenshots\nscreenshots/plugin-dark.gif\nscreenshots/plugin-white.gif\nsettings.gradle.kts\nsrc\nsrc/main\nsrc/test",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Generate commit message from git diff using LLM\n- Compute diff only from the selected files and lines in the commit dialog\n- Create your own prompt for commit message generation\n- Use predefined variables and hint to customize your prompt\n- Supports Git and Subversion as version control systems.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.443245362586241
+  },
+  {
+    "name": "ai-commits-intellij-plugin/gradle 模块",
+    "description": "[模块级] ai-commits-intellij-plugin 项目的 gradle 模块 (source)。来源: https://github.com/Blarc/ai-commits-intellij-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "commit",
+      "module-level",
+      "source",
+      "gradle"
+    ],
+    "genes": [
+      {
+        "title": "gradle 模块说明",
+        "content": "模块路径: gradle/\n类型: source\n文件数: 3\n\n包含文件:\n- gradle/wrapper\n- gradle/wrapper/gradle-wrapper.jar\n- gradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gradle 文件结构",
+        "content": "gradle/wrapper\ngradle/wrapper/gradle-wrapper.jar\ngradle/wrapper/gradle-wrapper.properties",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6545962900689926
+  },
+  {
+    "name": "ai-commits-intellij-plugin/screenshots 模块",
+    "description": "[模块级] ai-commits-intellij-plugin 项目的 screenshots 模块 (source)。来源: https://github.com/Blarc/ai-commits-intellij-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "commit",
+      "module-level",
+      "source",
+      "screenshots"
+    ],
+    "genes": [
+      {
+        "title": "screenshots 模块说明",
+        "content": "模块路径: screenshots/\n类型: source\n文件数: 2\n\n包含文件:\n- screenshots/plugin-dark.gif\n- screenshots/plugin-white.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "screenshots 文件结构",
+        "content": "screenshots/plugin-dark.gif\nscreenshots/plugin-white.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6545962900689926
+  },
+  {
+    "name": "ai-commits-intellij-plugin/src 模块",
+    "description": "[模块级] ai-commits-intellij-plugin 项目的 src 模块 (source)。来源: https://github.com/Blarc/ai-commits-intellij-plugin",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "commit",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 147\n\n包含文件:\n- src/main\n- src/main/kotlin\n- src/main/kotlin/com\n- src/main/kotlin/com/github\n- src/main/kotlin/com/github/blarc\n- src/main/kotlin/com/github/blarc/ai\n- src/main/kotlin/com/github/blarc/ai/commits\n- src/main/kotlin/com/github/blarc/ai/commits/intellij\n- src/main/kotlin/com/github/blarc/ai/commits/intellij/plugin\n- src/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitAction.kt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/main\nsrc/main/kotlin\nsrc/main/kotlin/com\nsrc/main/kotlin/com/github\nsrc/main/kotlin/com/github/blarc\nsrc/main/kotlin/com/github/blarc/ai\nsrc/main/kotlin/com/github/blarc/ai/commits\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitAction.kt\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitSplitButtonAction.kt\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitsBundle.kt\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitsCheckingHandlerFactory.kt\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitsExtensions.kt\nsrc/main/kotlin/com/github/blarc/ai/commits/intellij/plugin/AICommitsUtils.kt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6545962900689926
+  }
+]

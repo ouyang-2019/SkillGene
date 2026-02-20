@@ -1,0 +1,112 @@
+[
+  {
+    "name": "langchain-tutorials (gkamradt)",
+    "description": "[项目级] Overview and tutorial of the LangChain Library。来源: https://github.com/gkamradt/langchain-tutorials",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-7379",
+      "github-gkamradt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Overview and tutorial of the LangChain Library\n\n来源: https://github.com/gkamradt/langchain-tutorials\n语言: Jupyter Notebook\nStars: 7379",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LangChain Cookbook Part 1 - Fundamentals.ipynb\nLangChain Cookbook Part 2 - Use Cases.ipynb\nREADME.md\nSUMMARY.md\nagents\nagents/Agents + ZapierToolkit.ipynb\nagents/Agents.ipynb\nbots\nbots/Twitter_Reply_Bot\nchains\nchains/Chain Types.ipynb\nchatapi\nchatapi/ChatAPI + LangChain Basics.ipynb\ndata\ndata/ExplainThisBobScreenshot2.png\ndata/IntoThinAirBook.pdf\ndata/LinkedInIndustries.csv\ndata/LinkedInSubIndustries.csv\ndata/PaulGrahamEssayMedium\ndata/PaulGrahamEssaySmall",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.9339987551724755
+  },
+  {
+    "name": "langchain-tutorials/agents 模块",
+    "description": "[模块级] langchain-tutorials 项目的 agents 模块 (source)。来源: https://github.com/gkamradt/langchain-tutorials",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-7379",
+      "github-gkamradt",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "| Project      | Contact | Difficulty | Open Sourced? |  Notes | \n| ----------- | ----------- | ---------- | :-: | ---------- |\n| [Agents Via Vocode](https://twitter.com/vocodehq/status/1653104377010483201)      | [@vocode](https://twitter.com/vocodehq)       | 🐒 Intermediate | ✅ [Code](https://github.com/vocodedev/vocode-python) | Agents making phone calls to order pizza |\n| [NexusGPT](https://twitter.com/achammah1/status/1649482899253501958?s=20)      | [@achammah1](https://twitter.com/achamm",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/Agents + ZapierToolkit.ipynb\nagents/Agents.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.047199004137981
+  },
+  {
+    "name": "langchain-tutorials/bots 模块",
+    "description": "[模块级] langchain-tutorials 项目的 bots 模块 (source)。来源: https://github.com/gkamradt/langchain-tutorials",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-7379",
+      "github-gkamradt",
+      "module-level",
+      "source",
+      "bots"
+    ],
+    "genes": [
+      {
+        "title": "bots 模块说明",
+        "content": "| Project      | Contact | Difficulty | Open Sourced? |  Notes | \n| ----------- | ----------- | ---------- | :-: | ---------- |\n| [LangChain ChatBot](https://github.com/Haste171/langchain-chatbot)      | [David Peterson](https://github.com/Haste171)       | 🐒 Intermediate | ✅ [Code](https://github.com/Haste171/langchain-chatbot) | Input your PDF documents and analyze, ask questions, or do calculations on the data. |\n\n<br>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bots 文件结构",
+        "content": "bots/Twitter_Reply_Bot\nbots/Twitter_Reply_Bot/Twitter Reply Bot Notebook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.047199004137981
+  },
+  {
+    "name": "langchain-tutorials/data 模块",
+    "description": "[模块级] langchain-tutorials 项目的 data 模块 (source)。来源: https://github.com/gkamradt/langchain-tutorials",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-7379",
+      "github-gkamradt",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "| Project    | Contact | Difficulty | Open Sourced? |  Notes | \n| - | ----------- | ---------- | :-: | ---------- |\n| [SummarizePaper.com](https://www.summarizepaper.com/)      | Quentin Kral       | 🐒 Intermediate | ✅ [Code](https://github.com/summarizepaper/summarizepaper) | Summarize arXiv papers | \n\n<br>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/ExplainThisBobScreenshot2.png\ndata/IntoThinAirBook.pdf\ndata/LinkedInIndustries.csv\ndata/LinkedInSubIndustries.csv\ndata/PaulGrahamEssayMedium\ndata/PaulGrahamEssayMedium/.DS_Store\ndata/PaulGrahamEssayMedium/fr.txt\ndata/PaulGrahamEssayMedium/guidetoinvestors.txt\ndata/PaulGrahamEssayMedium/mit.txt\ndata/PaulGrahamEssayMedium/notnot.txt\ndata/PaulGrahamEssayMedium/popular.txt\ndata/PaulGrahamEssayMedium/re.txt\ndata/PaulGrahamEssayMedium/road.txt\ndata/PaulGrahamEssayMedium/start.txt\ndata/PaulGrahamEssayMedium/startupfunding.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.047199004137981
+  }
+]

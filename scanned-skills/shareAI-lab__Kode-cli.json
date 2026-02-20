@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Kode-cli (shareAI-lab)",
+    "description": "[项目级] Kode CLI — Design for post-human workflows. One unit agent for every human & computer task.。来源: https://github.com/shareAI-lab/Kode-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4358",
+      "github-shareai-lab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Kode is a powerful AI assistant that lives in your terminal. It can understand your codebase, edit files, run commands, and handle entire workflows for you.\n\n> **⚠️ Security Notice**: Kode runs in YOLO mode by default (equivalent to the `--dangerously-skip-permissions` flag), bypassing all permission checks for maximum productivity. YOLO mode is recommended only for trusted, secure environments when working on non-critical projects. If you're working with important files or using models of questionable capability, we strongly recommend using `kode --safe` to enable permission checks and manual approval for all operations.\n> \n> **📊 Model Performance**: For optimal performance, we recommend using newer, more capable models designed for autonomous task completion. Avoid older Q&A-focused mod",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g @shareai-lab/kode",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nDEPLOYMENT_GUIDE.md\nDockerfile\nLICENSE\nREADME.md\nREADME.zh-CN.md\nbun.lock\ncli-acp.js\ncli.js\ndocs\ndocs/PROJECT_STRUCTURE.md\ndocs/PUBLISH.md\ndocs/PUBLISH_GUIDE.md\ndocs/README.md\ndocs/agents-system.md\ndocs/custom-commands.md\ndocs/develop-zh\ndocs/develop\ndocs/intelligent-completion.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.819643612955119
+  },
+  {
+    "name": "Kode-cli/docs 模块",
+    "description": "[模块级] Kode-cli 项目的 docs 模块 (docs)。来源: https://github.com/shareAI-lab/Kode-cli",
+    "domain": "documentation",
+    "tags": [
+      "typescript",
+      "stars-4358",
+      "github-shareai-lab",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 40\n\n包含文件:\n- docs/PROJECT_STRUCTURE.md\n- docs/PUBLISH.md\n- docs/PUBLISH_GUIDE.md\n- docs/README.md\n- docs/agents-system.md\n- docs/custom-commands.md\n- docs/develop-zh\n- docs/develop-zh/README.md\n- docs/develop-zh/architecture.md\n- docs/develop-zh/configuration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/PROJECT_STRUCTURE.md\ndocs/PUBLISH.md\ndocs/PUBLISH_GUIDE.md\ndocs/README.md\ndocs/agents-system.md\ndocs/custom-commands.md\ndocs/develop-zh\ndocs/develop-zh/README.md\ndocs/develop-zh/architecture.md\ndocs/develop-zh/configuration.md\ndocs/develop-zh/modules\ndocs/develop-zh/modules/custom-commands.md\ndocs/develop-zh/modules/mcp-integration.md\ndocs/develop-zh/modules/model-management.md\ndocs/develop-zh/modules/query-engine.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955714890364095
+  },
+  {
+    "name": "Kode-cli/scripts 模块",
+    "description": "[模块级] Kode-cli 项目的 scripts 模块 (script)。来源: https://github.com/shareAI-lab/Kode-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4358",
+      "github-shareai-lab",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 13\n\n包含文件:\n- scripts/bench-startup.mjs\n- scripts/binary-utils.cjs\n- scripts/build-binary.mjs\n- scripts/build.mjs\n- scripts/clean.mjs\n- scripts/cli-acp-wrapper.cjs\n- scripts/cli-wrapper.cjs\n- scripts/install-hooks.mjs\n- scripts/postinstall.js\n- scripts/prepublish-check.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/bench-startup.mjs\nscripts/binary-utils.cjs\nscripts/build-binary.mjs\nscripts/build.mjs\nscripts/clean.mjs\nscripts/cli-acp-wrapper.cjs\nscripts/cli-wrapper.cjs\nscripts/install-hooks.mjs\nscripts/postinstall.js\nscripts/prepublish-check.js\nscripts/publish-dev.js\nscripts/publish-release.js\nscripts/reference-parity-check.mjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955714890364095
+  },
+  {
+    "name": "Kode-cli/src 模块",
+    "description": "[模块级] Kode-cli 项目的 src 模块 (source)。来源: https://github.com/shareAI-lab/Kode-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4358",
+      "github-shareai-lab",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 114\n\n包含文件:\n- src/acp\n- src/acp/index.ts\n- src/acp/jsonrpc.ts\n- src/acp/kodeAcpAgent.ts\n- src/acp/protocol.ts\n- src/acp/stdioTransport.ts\n- src/acp/stdoutGuard.ts\n- src/app\n- src/app/ask.ts\n- src/app/binaryFeedback.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/acp\nsrc/acp/index.ts\nsrc/acp/jsonrpc.ts\nsrc/acp/kodeAcpAgent.ts\nsrc/acp/protocol.ts\nsrc/acp/stdioTransport.ts\nsrc/acp/stdoutGuard.ts\nsrc/app\nsrc/app/ask.ts\nsrc/app/binaryFeedback.ts\nsrc/app/history.ts\nsrc/app/messages.ts\nsrc/app/query.ts\nsrc/commands\nsrc/commands/agents.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.955714890364095
+  }
+]

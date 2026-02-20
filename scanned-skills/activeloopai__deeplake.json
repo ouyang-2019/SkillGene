@@ -1,0 +1,78 @@
+[
+  {
+    "name": "deeplake (activeloopai)",
+    "description": "[项目级] Database for AI. Store Vectors, Images, Texts, Videos, etc. Use with LLMs/LangChain. Store, query, version, & visualize any AI data. Stream data in real-time to PyTorch/TensorFlow. https://activeloop.ai。来源: https://github.com/activeloopai/deeplake",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "computer-vision",
+      "cv",
+      "data-science",
+      "datalake",
+      "c++",
+      "stars-9006",
+      "github-activeloopai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Database for AI. Store Vectors, Images, Texts, Videos, etc. Use with LLMs/LangChain. Store, query, version, & visualize any AI data. Stream data in real-time to PyTorch/TensorFlow. https://activeloop.ai\n\n来源: https://github.com/activeloopai/deeplake\n语言: C++\nStars: 9006",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install deeplake",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDEEPLAKE_API_VERSION\nLICENSE\nREADME.md\nSECURITY.md\nTaskfile.yml\ncpp\ncpp/3rd_party",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "pip install deeplake",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details>\n  <summary><b>Multi-Cloud Support (S3, GCP, Azure)</b></summary>\nUse one API to upload, download, and stream datasets to/from S3, Azure, GCP, Activeloop cloud, local storage, or in-memory storage. Compatible with any S3-compatible storage such as MinIO. \n</details>\n<details>\n  <summary><b>Native Compression with Lazy NumPy-like Indexing</b></summary>\nStore images, audio, and videos in their native compression. Slice, index, iterate, and interact with your data like a collection of NumPy arrays in your system's memory. Deep Lake lazily loads data only when needed, e.g., when training ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.977265971313457
+  },
+  {
+    "name": "deeplake/cpp 模块",
+    "description": "[模块级] deeplake 项目的 cpp 模块 (source)。来源: https://github.com/activeloopai/deeplake",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "computer-vision",
+      "cv",
+      "data-science",
+      "datalake",
+      "module-level",
+      "source",
+      "cpp"
+    ],
+    "genes": [
+      {
+        "title": "cpp 模块说明",
+        "content": "模块路径: cpp/\n类型: source\n文件数: 182\n\n包含文件:\n- cpp/3rd_party\n- cpp/3rd_party/CMakeLists.txt\n- cpp/3rd_party/boost_json_impl.cpp\n- cpp/3rd_party/cblas.h\n- cpp/3rd_party/happly.h\n- cpp/3rd_party/json\n- cpp/3rd_party/json/CMakeLists.txt\n- cpp/3rd_party/json/comparision.hpp\n- cpp/3rd_party/json/src.cpp\n- cpp/3rd_party/libtiff",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cpp 文件结构",
+        "content": "cpp/3rd_party\ncpp/3rd_party/CMakeLists.txt\ncpp/3rd_party/boost_json_impl.cpp\ncpp/3rd_party/cblas.h\ncpp/3rd_party/happly.h\ncpp/3rd_party/json\ncpp/3rd_party/json/CMakeLists.txt\ncpp/3rd_party/json/comparision.hpp\ncpp/3rd_party/json/src.cpp\ncpp/3rd_party/libtiff\ncpp/3rd_party/libtiff/CMakeLists.txt\ncpp/3rd_party/libtiff/COPYRIGHT\ncpp/3rd_party/libtiff/libport.h\ncpp/3rd_party/libtiff/mkspans.c\ncpp/3rd_party/libtiff/snprintf.c",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.081812777050766
+  }
+]

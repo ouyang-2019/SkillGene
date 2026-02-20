@@ -1,0 +1,56 @@
+[
+  {
+    "name": "genai-stack (docker)",
+    "description": "[项目级] Langchain + Docker + Neo4j + Ollama。来源: https://github.com/docker/genai-stack",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5208",
+      "github-docker",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Langchain + Docker + Neo4j + Ollama\n\n来源: https://github.com/docker/genai-stack\n语言: Python\nStars: 5208",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\napi.Dockerfile\napi.py\nbot.Dockerfile\nbot.py\nchains.py\ndocker-compose.yml\nembedding_model\nembedding_model/.ignore\nenv.example\nfront-end.Dockerfile\nfront-end\nfront-end/.gitignore\nfront-end/.vscode\nfront-end/README.md\nfront-end/index.html\nfront-end/jsconfig.json\nfront-end/package-lock.json\nfront-end/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.858335487780067
+  },
+  {
+    "name": "genai-stack/front-end 模块",
+    "description": "[模块级] genai-stack 项目的 front-end 模块 (source)。来源: https://github.com/docker/genai-stack",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5208",
+      "github-docker",
+      "module-level",
+      "source",
+      "front-end"
+    ],
+    "genes": [
+      {
+        "title": "front-end 模块说明",
+        "content": "UI: http://localhost:8505\n\nThis application has the same features as App 1, but is built separate from\nthe back-end code using modern best practices (Vite, Svelte, Tailwind).  \nThe auto-reload on changes are instant using the Docker watch `sync` config.  \n![](.github/media/app5-ui.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "front-end 文件结构",
+        "content": "front-end/.gitignore\nfront-end/.vscode\nfront-end/.vscode/extensions.json\nfront-end/README.md\nfront-end/index.html\nfront-end/jsconfig.json\nfront-end/package-lock.json\nfront-end/package.json\nfront-end/postcss.config.js\nfront-end/public\nfront-end/public/vite.svg\nfront-end/src\nfront-end/src/App.svelte\nfront-end/src/app.css\nfront-end/src/assets",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9866683902240543
+  }
+]

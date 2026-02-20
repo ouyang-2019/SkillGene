@@ -1,0 +1,168 @@
+[
+  {
+    "name": "experts (metaskills)",
+    "description": "[项目级] Experts.js is the easiest way to create and deploy OpenAI's Assistants and link them together as Tools to create advanced Multi AI Agent Systems with expanded memory and attention to detail.。来源: https://github.com/metaskills/experts",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "assistants-api",
+      "multi-agent-systems",
+      "javascript",
+      "stars-1060",
+      "github-metaskills",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The new Assistants API from OpenAI sets a new industry standard, significantly advancing beyond the widely adopted Chat Completions API. It represents a major leap in the usability of AI agents and the way engineers interact with LLMs. Paired with the cutting-edge [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) model, Assistants can now reference attached files & images as knowledge sources within a managed context window called a [Thread](#threads). Unlike [Custom GPTs](https://openai.com/index/introducing-gpts/), Assistants support instructions up to 256,000 characters, integrate with 128 tools, and utilize the innovative [Vector Store](https://platform.openai.com/docs/assistants/tools/file-search/vector-stores) API for efficient file search on ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install experts",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE.md\nREADME.md\nbin\nbin/build\nbin/cleanup\nbin/setup\nbin/test\nbuild.js\ndocs\ndocs/images\njest.config.mjs\npackage-lock.json\npackage.json\nsrc\nsrc/experts\nsrc/helpers.js\nsrc/index.js\nsrc/openai.js\ntest",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "To see code examples of these and more in action, please take a look at our [test suite](https://github.com/metaskills/experts/tree/main/test/uat).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "If you want to lazily standup additional resources when an assistant's `create()` function is called, implement the `beforeInit()` function in your class. This is an async method that will be called before the assistant is created.\n\n```javascript\nasync beforeInit() {\n  await this.#createFileSearch();\n}\n```\n\nLikewise, the `afterInit()` function can be used. For example, to write out newly created Assistants' IDs to an environment file.\n\n```javascript\nasync afterInit() {\n  // ...\n}\n```\n\nAll Assistant events receive an extra Experts'js metadata argument. An object that contains the Run's `stream`",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.512652932632385
+  },
+  {
+    "name": "experts/bin 模块",
+    "description": "[模块级] experts 项目的 bin 模块 (script)。来源: https://github.com/metaskills/experts",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "assistants-api",
+      "multi-agent-systems",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 4\n\n包含文件:\n- bin/build\n- bin/cleanup\n- bin/setup\n- bin/test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/build\nbin/cleanup\nbin/setup\nbin/test",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  },
+  {
+    "name": "experts/docs 模块",
+    "description": "[模块级] experts 项目的 docs 模块 (docs)。来源: https://github.com/metaskills/experts",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "assistants-api",
+      "multi-agent-systems",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/images\n- docs/images/logo.png\n- docs/images/logo.pxd\n- docs/images/panel-of-experts-company-apparel-after.webp\n- docs/images/panel-of-experts-company-apparel-before.webp\n- docs/images/panel-of-experts-thread-management.webp\n- docs/images/social.png\n- docs/images/social.pxd",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/images\ndocs/images/logo.png\ndocs/images/logo.pxd\ndocs/images/panel-of-experts-company-apparel-after.webp\ndocs/images/panel-of-experts-company-apparel-before.webp\ndocs/images/panel-of-experts-thread-management.webp\ndocs/images/social.png\ndocs/images/social.pxd",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  },
+  {
+    "name": "experts/src 模块",
+    "description": "[模块级] experts 项目的 src 模块 (source)。来源: https://github.com/metaskills/experts",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "assistants-api",
+      "multi-agent-systems",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 8\n\n包含文件:\n- src/experts\n- src/experts/assistant.js\n- src/experts/run.js\n- src/experts/thread.js\n- src/experts/tool.js\n- src/helpers.js\n- src/index.js\n- src/openai.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/experts\nsrc/experts/assistant.js\nsrc/experts/run.js\nsrc/experts/thread.js\nsrc/experts/tool.js\nsrc/helpers.js\nsrc/index.js\nsrc/openai.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  },
+  {
+    "name": "experts/test 模块",
+    "description": "[模块级] experts 项目的 test 模块 (test)。来源: https://github.com/metaskills/experts",
+    "domain": "testing",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "assistants-api",
+      "multi-agent-systems",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 52\n\n包含文件:\n- test/bin\n- test/bin/cleanup.js\n- test/env.js\n- test/experts\n- test/experts/assistant.test.js\n- test/experts/thread.test.js\n- test/experts/tool.test.js\n- test/fixtures.js\n- test/fixtures\n- test/fixtures/accountsAssistant.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/bin\ntest/bin/cleanup.js\ntest/env.js\ntest/experts\ntest/experts/assistant.test.js\ntest/experts/thread.test.js\ntest/experts/tool.test.js\ntest/fixtures.js\ntest/fixtures\ntest/fixtures/accountsAssistant.js\ntest/fixtures/creativeAssistant.js\ntest/fixtures/data.csv\ntest/fixtures/dataTool.js\ntest/fixtures/echoAssistant.js\ntest/fixtures/echoTool.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7101223461059085
+  }
+]

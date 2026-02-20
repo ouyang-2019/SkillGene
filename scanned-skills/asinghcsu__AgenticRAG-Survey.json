@@ -1,0 +1,72 @@
+[
+  {
+    "name": "AgenticRAG-Survey (asinghcsu)",
+    "description": "[项目级] Agentic-RAG explores advanced Retrieval-Augmented Generation systems enhanced with AI LLM agents. 。来源: https://github.com/asinghcsu/AgenticRAG-Survey",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-pattern",
+      "agentic-rag",
+      "stars-1467",
+      "github-asinghcsu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval-Augmented Generation (RAG) systems combine the capabilities of large language models (LLMs) with retrieval mechanisms to generate contextually relevant and accurate responses. While traditional RAG systems excel in knowledge retrieval and generation, they often fall short in handling dynamic, multi-step reasoning tasks, adaptability, and orchestration for complex workflows.\n\n**Agentic Retrieval-Augmented Generation (Agentic RAG)** overcomes these limitations by integrating autonomous AI agents. These agents employ core **Agentic Patterns**, such as reflection, planning, tool use, and multi-agent collaboration, to dynamically adapt to task-specific requirements and provide superior performance in:\n\n- Multi-domain knowledge retrieval.\n- Real-time, document-centric workflows.\n- Scal",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nassets\nassets/adaptive_rag_agent.png\nassets/advanced_rag.png\nassets/agent_g.png\nassets/agentic_corrective_rag.png\nassets/agentic_doc_workflow.png\nassets/agentic_planning.png\nassets/agentic_self_reflection.png\nassets/agentic_tool_use.png\nassets/ai_agents.png\nassets/evaluator_optimizer_workflow.png\nassets/gear_overview.png\nassets/graph_rag.png\nassets/hierarchical_agentic_rag.png\nassets/modular_rag.png\nassets/multi_agent_pattern.png\nassets/multiagent_agentic_rag.png\nassets/naive_rag.png\nassets/new.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "If you find this work useful in your research, please cite:\n\n```bibtex\n@misc{singh2025agenticretrievalaugmentedgenerationsurvey,\n      title={Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG}, \n      author={Aditi Singh and Abul Ehtesham and Saket Kumar and Tala Talaei Khoei},\n      year={2025},\n      eprint={2501.09136},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2501.09136}, \n}",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **State Maintenance**: Ensures consistency in multi-step workflows.\n- **Domain-Specific Intelligence**: Adapts to specialized domains with tailored rules.\n- **Scalability**: Handles large-scale document processing efficiently.\n- **Enhanced Productivity**: Reduces manual effort and augments human expertise.\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.583215056921642
+  },
+  {
+    "name": "AgenticRAG-Survey/assets 模块",
+    "description": "[模块级] AgenticRAG-Survey 项目的 assets 模块 (source)。来源: https://github.com/asinghcsu/AgenticRAG-Survey",
+    "domain": "devops",
+    "tags": [
+      "agentic",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-pattern",
+      "agentic-rag",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 26\n\n包含文件:\n- assets/adaptive_rag_agent.png\n- assets/advanced_rag.png\n- assets/agent_g.png\n- assets/agentic_corrective_rag.png\n- assets/agentic_doc_workflow.png\n- assets/agentic_planning.png\n- assets/agentic_self_reflection.png\n- assets/agentic_tool_use.png\n- assets/ai_agents.png\n- assets/evaluator_optimizer_workflow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/adaptive_rag_agent.png\nassets/advanced_rag.png\nassets/agent_g.png\nassets/agentic_corrective_rag.png\nassets/agentic_doc_workflow.png\nassets/agentic_planning.png\nassets/agentic_self_reflection.png\nassets/agentic_tool_use.png\nassets/ai_agents.png\nassets/evaluator_optimizer_workflow.png\nassets/gear_overview.png\nassets/graph_rag.png\nassets/hierarchical_agentic_rag.png\nassets/modular_rag.png\nassets/multi_agent_pattern.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7665720455373135
+  }
+]

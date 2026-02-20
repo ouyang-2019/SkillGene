@@ -1,0 +1,73 @@
+[
+  {
+    "name": "ui (creativetimofficial)",
+    "description": "[项目级] Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.。来源: https://github.com/creativetimofficial/ui",
+    "domain": "web-frontend",
+    "tags": [
+      "admin",
+      "blocks",
+      "creative-tim",
+      "creative-tim-blocks",
+      "creative-tim-ui",
+      "typescript",
+      "stars-11703",
+      "github-creativetimofficial",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Creative Tim UI provides pre-built, customizable React components and blocks designed for building beautiful, production-ready web applications. \nThe CLI makes it easy to add these components to your Next.js project.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can use the Creative Tim UI CLI directly with npx, or install it globally:\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE.md\nREADME.md\napps\napps/www",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ui/apps 模块",
+    "description": "[模块级] ui 项目的 apps 模块 (source)。来源: https://github.com/creativetimofficial/ui",
+    "domain": "web-frontend",
+    "tags": [
+      "admin",
+      "blocks",
+      "creative-tim",
+      "creative-tim-blocks",
+      "creative-tim-ui",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 189\n\n包含文件:\n- apps/www\n- apps/www/.env.example\n- apps/www/.gitignore\n- apps/www/.prettierignore\n- apps/www/app\n- apps/www/app/(app)\n- apps/www/app/(app)/(root)\n- apps/www/app/(app)/(root)/page.tsx\n- apps/www/app/(app)/blocks\n- apps/www/app/(app)/blocks/[...categories]",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/www\napps/www/.env.example\napps/www/.gitignore\napps/www/.prettierignore\napps/www/app\napps/www/app/(app)\napps/www/app/(app)/(root)\napps/www/app/(app)/(root)/page.tsx\napps/www/app/(app)/blocks\napps/www/app/(app)/blocks/[...categories]\napps/www/app/(app)/blocks/[...categories]/page.tsx\napps/www/app/(app)/blocks/layout.tsx\napps/www/app/(app)/blocks/page.tsx\napps/www/app/(app)/docs\napps/www/app/(app)/docs/[[...slug]]",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.127318882012581
+  }
+]

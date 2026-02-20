@@ -1,0 +1,108 @@
+[
+  {
+    "name": "unstructured (Unstructured-IO)",
+    "description": "[项目级] Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.。来源: https://github.com/Unstructured-IO/unstructured",
+    "domain": "ai-llm",
+    "tags": [
+      "data-pipelines",
+      "deep-learning",
+      "document-image-analysis",
+      "document-image-processing",
+      "document-parser",
+      "html",
+      "stars-14004",
+      "github-unstructured-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.\n\n来源: https://github.com/Unstructured-IO/unstructured\n语言: HTML\nStars: 14004",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "There are several ways to use the `unstructured` library:\n* [Run the library in a container](https://github.com/Unstructured-IO/unstructured#run-the-library-in-a-container) or\n* Install the library\n    1. [Install from PyPI](https://github.com/Unstructured-IO/unstructured#installing-the-library)\n    2. [Install for local development](https://github.com/Unstructured-IO/unstructured#installation-instructions-for-local-development)\n* For installation with `conda` on Windows system, please refer to the [documentation](https://unstructured-io.github.io/unstructured/installing.html#installation-with",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE.md\nMakefile\nREADME.md\ndiscord-test\ndiscord-test/1100149908494876775.txt\ndocker\ndocker/packages\nenvironment.yml\nexample-docs\nexample-docs/2023-half-year-analyses-by-segment.xlsx\nexample-docs/CantinaBand3.wav\nexample-docs/README-w-include.org\nexample-docs/README-w-include.rst\nexample-docs/README.md\nexample-docs/README.org\nexample-docs/README.rst",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "from unstructured.partition.auto import partition\n\nelements = partition(\"example-docs/layout-parser-paper.pdf\")",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "unstructured/docker 模块",
+    "description": "[模块级] unstructured 项目的 docker 模块 (source)。来源: https://github.com/Unstructured-IO/unstructured",
+    "domain": "ai-llm",
+    "tags": [
+      "data-pipelines",
+      "deep-learning",
+      "document-image-analysis",
+      "document-image-processing",
+      "document-parser",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "docker exec -it unstructured bash\n```\n\nYou can also build your own Docker image. Note that the base image is `wolfi-base`, which is\nupdated regularly. If you are building the image locally, it is possible `docker-build` could\nfail due to upstream changes in `wolfi-base`.\n\nIf you only plan on parsing one type of data you can speed up building the image by commenting out some\nof the packages/requirements necessary for other data types. See Dockerfile to know which lines are necessary\nfor your use ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/packages\ndocker/packages/pandoc-3.1.8-r0.apk",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "docker 代码示例",
+        "content": "You can also build your own Docker image. Note that the base image is `wolfi-base`, which is\nupdated regularly. If you are building the image locally, it is possible `docker-build` could\nfail due to upstream changes in `wolfi-base`.\n\nIf you only plan on parsing one type of data you can speed up building the image by commenting out some\nof the packages/requirements necessary for other data types. See Dockerfile to know which lines are necessary\nfor your use case.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.158500840837198
+  },
+  {
+    "name": "unstructured/example-docs 模块",
+    "description": "[模块级] unstructured 项目的 example-docs 模块 (source)。来源: https://github.com/Unstructured-IO/unstructured",
+    "domain": "ai-llm",
+    "tags": [
+      "data-pipelines",
+      "deep-learning",
+      "document-image-analysis",
+      "document-image-processing",
+      "document-parser",
+      "module-level",
+      "source",
+      "example-docs"
+    ],
+    "genes": [
+      {
+        "title": "example-docs 模块说明",
+        "content": "模块路径: example-docs/\n类型: source\n文件数: 163\n\n包含文件:\n- example-docs/2023-half-year-analyses-by-segment.xlsx\n- example-docs/CantinaBand3.wav\n- example-docs/README-w-include.org\n- example-docs/README-w-include.rst\n- example-docs/README.md\n- example-docs/README.org\n- example-docs/README.rst\n- example-docs/book-war-and-peace-1225p.txt\n- example-docs/book-war-and-peace-1p.txt\n- example-docs/category-level.docx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example-docs 文件结构",
+        "content": "example-docs/2023-half-year-analyses-by-segment.xlsx\nexample-docs/CantinaBand3.wav\nexample-docs/README-w-include.org\nexample-docs/README-w-include.rst\nexample-docs/README.md\nexample-docs/README.org\nexample-docs/README.rst\nexample-docs/book-war-and-peace-1225p.txt\nexample-docs/book-war-and-peace-1p.txt\nexample-docs/category-level.docx\nexample-docs/codeblock.md\nexample-docs/contains-pictures.docx\nexample-docs/csv-with-escaped-commas.csv\nexample-docs/csv-with-line-delimiter.csv\nexample-docs/csv-with-long-lines.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.158500840837198
+  }
+]

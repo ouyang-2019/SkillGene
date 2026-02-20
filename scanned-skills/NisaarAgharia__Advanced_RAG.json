@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Advanced_RAG (NisaarAgharia)",
+    "description": "[项目级] Advanced Retrieval-Augmented Generation (RAG) through practical  notebooks, using the power of the Langchain, OpenAI GPTs ,META LLAMA3 ,Agents.。来源: https://github.com/NisaarAgharia/Advanced_RAG",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "chatgpt",
+      "genai",
+      "jupyter notebook",
+      "stars-446",
+      "github-nisaaragharia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Below is a detailed overview of each notebook present in this repository:\n\n- **01_Introduction_To_RAG.ipynb**\n  - _Basic process of building RAG app(s)_\n- **02_Query_Transformations.ipynb**\n  - _Techniques for Modifying Questions for Retrieval_\n- **03_Routing_To_Datasources.ipynb**\n  - _Create Routing Mechanism for LLM to select the correct data Source_\n- **04_Indexing_To_VectorDBs.ipynb**\n  - _Various Indexing Methods in the Vector DB_\n- **05_Retrieval_Mechanisms.ipynb**\n  - _Reranking, RaG Fusion, and other Techniques_\n- **06_Self_Reflection_Rag.ipynb**\n  - _RAG that has self-reflection / self-grading on retrieved documents and generations._\n- **07_Agentic_Rag.ipynb**\n  - _RAG that has agentic Flow on retrieved documents and generations._\n- **08_Adaptive_Agentic_Rag.ipynb**\n  - _RAG that",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "01_Introduction_To_RAG.ipynb\n02_Query_Transformations.ipynb\n03_Routing_To_Datasources.ipynb\n04_Indexing_To_VectorDBs.ipynb\n05_Retrieval_Mechanisms.ipynb\n06_Self_Reflection_Rag.ipynb\n07_Agentic_Rag.ipynb\n08_Adaptive_Rag_Agent.ipynb\n09_Corrective_RAG_Agent.ipynb\n10_LLAMA_3_Rag_Agent_Local.ipynb\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3246674293560705
+  }
+]

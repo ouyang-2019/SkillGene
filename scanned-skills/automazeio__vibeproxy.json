@@ -1,0 +1,78 @@
+[
+  {
+    "name": "vibeproxy (automazeio)",
+    "description": "[项目级] Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed。来源: https://github.com/automazeio/vibeproxy",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claudecode",
+      "cli-proxy",
+      "codex",
+      "factory-droids",
+      "swift",
+      "stars-1304",
+      "github-automazeio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed\n\n来源: https://github.com/automazeio/vibeproxy\n语言: Swift\nStars: 1304",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Requirements:** macOS 13+ (Ventura or later)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AMPCODE_SETUP.md\nCHANGELOG.md\nFACTORY_SETUP.md\nINSTALLATION.md\nLICENSE\nMakefile\nREADME.md\nappcast-x86_64.xml\nappcast.xml\ncreate-app-bundle.sh\nentitlements.plist\nicon.png\nscripts\nscripts/create-release.sh\nsparkle-entitlements.plist\nsrc\nsrc/Info.plist\nsrc/Package.resolved\nsrc/Package.swift\nsrc/Sources",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎯 **Native macOS Experience** - Clean, native SwiftUI interface that feels right at home on macOS\n- 🚀 **One-Click Server Management** - Start/stop the proxy server from your menu bar\n- 🔐 **Easy Authentication** - Authenticate with Codex, Claude Code, Gemini, Qwen, Antigravity (OAuth), and Z.AI GLM (API key) directly from the app\n- 🛡️ **Vercel AI Gateway** - Route Claude requests through [Vercel's AI Gateway](https://vercel.com/docs/ai-gateway) for safer access to your Claude Max subscription without risking your account from direct OAuth token usage\n- 👥 **Multi-Account Support** - Conne",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.557638795697951
+  },
+  {
+    "name": "vibeproxy/src 模块",
+    "description": "[模块级] vibeproxy 项目的 src 模块 (source)。来源: https://github.com/automazeio/vibeproxy",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "claudecode",
+      "cli-proxy",
+      "codex",
+      "factory-droids",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 27\n\n包含文件:\n- src/Info.plist\n- src/Package.resolved\n- src/Package.swift\n- src/Sources\n- src/Sources/AppDelegate.swift\n- src/Sources/AuthStatus.swift\n- src/Sources/IconCatalog.swift\n- src/Sources/NotificationNames.swift\n- src/Sources/Resources\n- src/Sources/Resources/AppIcon.icns",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Info.plist\nsrc/Package.resolved\nsrc/Package.swift\nsrc/Sources\nsrc/Sources/AppDelegate.swift\nsrc/Sources/AuthStatus.swift\nsrc/Sources/IconCatalog.swift\nsrc/Sources/NotificationNames.swift\nsrc/Sources/Resources\nsrc/Sources/Resources/AppIcon.icns\nsrc/Sources/Resources/cli-proxy-api-plus\nsrc/Sources/Resources/config.yaml\nsrc/Sources/Resources/glyph.png\nsrc/Sources/Resources/icon-active.png\nsrc/Sources/Resources/icon-antigravity.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7461110365583608
+  }
+]

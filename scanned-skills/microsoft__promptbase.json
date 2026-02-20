@@ -1,0 +1,168 @@
+[
+  {
+    "name": "promptbase (microsoft)",
+    "description": "[项目级] All things prompt engineering。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "All things prompt engineering\n\n来源: https://github.com/microsoft/promptbase\n语言: Python\nStars: 5733",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nLICENSE\nREADME.md\nSECURITY.md\nSUPPORT.md\naml-tutorial\naml-tutorial/ReadMe.md\naml-tutorial/components\naml-tutorial/create_dataset.py\naml-tutorial/environments\naml-tutorial/guidance_programs\naml-tutorial/other_configs_example.json\naml-tutorial/requirements.txt\naml-tutorial/run_experiment.py\nazureml\nazureml/ReadMe.md\nazureml/components\nazureml/environments\nazureml/json_schemas\nazureml/pipelines",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.879190970887338
+  },
+  {
+    "name": "promptbase/aml-tutorial 模块",
+    "description": "[模块级] promptbase 项目的 aml-tutorial 模块 (source)。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "aml-tutorial"
+    ],
+    "genes": [
+      {
+        "title": "aml-tutorial 模块说明",
+        "content": "模块路径: aml-tutorial/\n类型: source\n文件数: 15\n\n包含文件:\n- aml-tutorial/ReadMe.md\n- aml-tutorial/components\n- aml-tutorial/components/jsonl_guidance_component.yaml\n- aml-tutorial/components/jsonl_score_multiplechoice_component.yaml\n- aml-tutorial/components/src\n- aml-tutorial/components/src/jsonl_guidance_aoai.py\n- aml-tutorial/components/src/jsonl_score_multiplechoice.py\n- aml-tutorial/create_dataset.py\n- aml-tutorial/environments\n- aml-tutorial/environments/promptbase-basic-env.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "aml-tutorial 文件结构",
+        "content": "aml-tutorial/ReadMe.md\naml-tutorial/components\naml-tutorial/components/jsonl_guidance_component.yaml\naml-tutorial/components/jsonl_score_multiplechoice_component.yaml\naml-tutorial/components/src\naml-tutorial/components/src/jsonl_guidance_aoai.py\naml-tutorial/components/src/jsonl_score_multiplechoice.py\naml-tutorial/create_dataset.py\naml-tutorial/environments\naml-tutorial/environments/promptbase-basic-env.yaml\naml-tutorial/guidance_programs\naml-tutorial/guidance_programs/zero_shot.py\naml-tutorial/other_configs_example.json\naml-tutorial/requirements.txt\naml-tutorial/run_experiment.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00335277670987
+  },
+  {
+    "name": "promptbase/azureml 模块",
+    "description": "[模块级] promptbase 项目的 azureml 模块 (source)。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "azureml"
+    ],
+    "genes": [
+      {
+        "title": "azureml 模块说明",
+        "content": "模块路径: azureml/\n类型: source\n文件数: 63\n\n包含文件:\n- azureml/ReadMe.md\n- azureml/components\n- azureml/components/jsonl_embeddings_aoai_component.yaml\n- azureml/components/jsonl_filter_correct_multiplechoice_component.yaml\n- azureml/components/jsonl_guidance_component.yaml\n- azureml/components/jsonl_guidance_phi2_component.yaml\n- azureml/components/jsonl_key_filter_component.yaml\n- azureml/components/jsonl_key_rename_component.yaml\n- azureml/components/jsonl_knn_cosine_similarity_component.yaml\n- azureml/components/jsonl_mmlu_fetch_component.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "azureml 文件结构",
+        "content": "azureml/ReadMe.md\nazureml/components\nazureml/components/jsonl_embeddings_aoai_component.yaml\nazureml/components/jsonl_filter_correct_multiplechoice_component.yaml\nazureml/components/jsonl_guidance_component.yaml\nazureml/components/jsonl_guidance_phi2_component.yaml\nazureml/components/jsonl_key_filter_component.yaml\nazureml/components/jsonl_key_rename_component.yaml\nazureml/components/jsonl_knn_cosine_similarity_component.yaml\nazureml/components/jsonl_mmlu_fetch_component.yaml\nazureml/components/jsonl_random_examples_component.yaml\nazureml/components/jsonl_schema_checker_component.yaml\nazureml/components/jsonl_score_biosbias_json_component.yaml\nazureml/components/jsonl_score_multiplechoice_component.yaml\nazureml/components/jsonl_to_json_component.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00335277670987
+  },
+  {
+    "name": "promptbase/guidance_programs 模块",
+    "description": "[模块级] promptbase 项目的 guidance_programs 模块 (source)。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "guidance_programs"
+    ],
+    "genes": [
+      {
+        "title": "guidance_programs 模块说明",
+        "content": "模块路径: guidance_programs/\n类型: source\n文件数: 12\n\n包含文件:\n- guidance_programs/fewshot.py\n- guidance_programs/fewshot_as_conversation.py\n- guidance_programs/fewshot_cot_as_conversation.py\n- guidance_programs/fewshot_cot_as_conversation_ensemble.py\n- guidance_programs/simple_biosbias_json.py\n- guidance_programs/simple_biosbias_json_completion.py\n- guidance_programs/simple_biosbias_json_completion_v2.py\n- guidance_programs/zero_or_few_shot.py\n- guidance_programs/zero_or_few_shot_alpha.py\n- guidance_programs/zero_or_few_shot_expert.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guidance_programs 文件结构",
+        "content": "guidance_programs/fewshot.py\nguidance_programs/fewshot_as_conversation.py\nguidance_programs/fewshot_cot_as_conversation.py\nguidance_programs/fewshot_cot_as_conversation_ensemble.py\nguidance_programs/simple_biosbias_json.py\nguidance_programs/simple_biosbias_json_completion.py\nguidance_programs/simple_biosbias_json_completion_v2.py\nguidance_programs/zero_or_few_shot.py\nguidance_programs/zero_or_few_shot_alpha.py\nguidance_programs/zero_or_few_shot_expert.py\nguidance_programs/zero_or_few_shot_fortran.py\nguidance_programs/zero_shot_cot.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00335277670987
+  },
+  {
+    "name": "promptbase/images 模块",
+    "description": "[模块级] promptbase 项目的 images 模块 (source)。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 3\n\n包含文件:\n- images/medprompt_radar.png\n- images/medprompt_sa_graphic.png\n- images/mmlu_accuracy_ablation.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/medprompt_radar.png\nimages/medprompt_sa_graphic.png\nimages/mmlu_accuracy_ablation.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00335277670987
+  },
+  {
+    "name": "promptbase/src 模块",
+    "description": "[模块级] promptbase 项目的 src 模块 (source)。来源: https://github.com/microsoft/promptbase",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-5733",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 50\n\n包含文件:\n- src/promptbase\n- src/promptbase/__init__.py\n- src/promptbase/__main__.py\n- src/promptbase/bigbench\n- src/promptbase/bigbench/__init__.py\n- src/promptbase/bigbench/bigbench.py\n- src/promptbase/bigbench/bigbench_answer.py\n- src/promptbase/bigbench/bigbench_cot.py\n- src/promptbase/bigbench/bigbench_score.py\n- src/promptbase/bigbench/consts.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/promptbase\nsrc/promptbase/__init__.py\nsrc/promptbase/__main__.py\nsrc/promptbase/bigbench\nsrc/promptbase/bigbench/__init__.py\nsrc/promptbase/bigbench/bigbench.py\nsrc/promptbase/bigbench/bigbench_answer.py\nsrc/promptbase/bigbench/bigbench_cot.py\nsrc/promptbase/bigbench/bigbench_score.py\nsrc/promptbase/bigbench/consts.py\nsrc/promptbase/datasets\nsrc/promptbase/datasets/put_datasets_here.txt\nsrc/promptbase/drop\nsrc/promptbase/drop/__init__.py\nsrc/promptbase/drop/drop.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00335277670987
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "neoai.nvim (Bryley)",
+    "description": "[项目级] Neovim plugin for intracting with GPT models from OpenAI。来源: https://github.com/Bryley/neoai.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt3-turbo",
+      "neovim",
+      "lua",
+      "stars-573",
+      "github-bryley",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Neovim plugin for intracting with GPT models from OpenAI\n\n来源: https://github.com/Bryley/neoai.nvim\n语言: Lua\nStars: 573",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Plug 'MunifTanjim/nui.nvim'\nPlug 'Bryley/neoai.nvim'",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ngifs\ngifs/better_typing.gif\ngifs/context_mode.gif\ngifs/git_commit_message.gif\ngifs/inject_mode.gif\ngifs/normal_mode.gif\nlua\nlua/.luarc.json\nlua/neoai.lua\nlua/neoai\nplugin\nplugin/neoai.lua\nscripts\nscripts/custom_init.lua\nscripts/minimal_init.lua\nscripts/run_custom\nscripts/run_tests\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "To use this plugin make sure you have an OpenAI API key which can be created\n[here](https://platform.openai.com/account/api-keys). Save this key in your\nenvironment variables as `OPENAI_API_KEY`.\n\n**IMPORTANT NOTE** : This plugin is not responsible for unintentional purchases\nmade to OpenAI. While using this plugin I would recommend you frequently check\nthe [usage](https://platform.openai.com/account/usage)\nof your account and\n[setup limits](https://platform.openai.com/account/billing/limits),\nso you don't spend more that you can afford.\n\nThis plugin introduces 3 modes or ways to interact with",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3790773109836945
+  },
+  {
+    "name": "neoai.nvim/gifs 模块",
+    "description": "[模块级] neoai.nvim 项目的 gifs 模块 (source)。来源: https://github.com/Bryley/neoai.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt3-turbo",
+      "neovim",
+      "module-level",
+      "source",
+      "gifs"
+    ],
+    "genes": [
+      {
+        "title": "gifs 模块说明",
+        "content": "模块路径: gifs/\n类型: source\n文件数: 5\n\n包含文件:\n- gifs/better_typing.gif\n- gifs/context_mode.gif\n- gifs/git_commit_message.gif\n- gifs/inject_mode.gif\n- gifs/normal_mode.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gifs 文件结构",
+        "content": "gifs/better_typing.gif\ngifs/context_mode.gif\ngifs/git_commit_message.gif\ngifs/inject_mode.gif\ngifs/normal_mode.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.603261848786956
+  },
+  {
+    "name": "neoai.nvim/lua 模块",
+    "description": "[模块级] neoai.nvim 项目的 lua 模块 (source)。来源: https://github.com/Bryley/neoai.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt3-turbo",
+      "neovim",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 15\n\n包含文件:\n- lua/.luarc.json\n- lua/neoai.lua\n- lua/neoai\n- lua/neoai/chat\n- lua/neoai/chat/history.lua\n- lua/neoai/chat/init.lua\n- lua/neoai/chat/models\n- lua/neoai/chat/models/init.lua\n- lua/neoai/chat/models/openai.lua\n- lua/neoai/config.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/.luarc.json\nlua/neoai.lua\nlua/neoai\nlua/neoai/chat\nlua/neoai/chat/history.lua\nlua/neoai/chat/init.lua\nlua/neoai/chat/models\nlua/neoai/chat/models/init.lua\nlua/neoai/chat/models/openai.lua\nlua/neoai/config.lua\nlua/neoai/inject.lua\nlua/neoai/logger.lua\nlua/neoai/shortcuts.lua\nlua/neoai/ui.lua\nlua/neoai/utils.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.603261848786956
+  },
+  {
+    "name": "neoai.nvim/scripts 模块",
+    "description": "[模块级] neoai.nvim 项目的 scripts 模块 (script)。来源: https://github.com/Bryley/neoai.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt3-turbo",
+      "neovim",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/custom_init.lua\n- scripts/minimal_init.lua\n- scripts/run_custom\n- scripts/run_tests",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/custom_init.lua\nscripts/minimal_init.lua\nscripts/run_custom\nscripts/run_tests",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.603261848786956
+  },
+  {
+    "name": "neoai.nvim/tests 模块",
+    "description": "[模块级] neoai.nvim 项目的 tests 模块 (test)。来源: https://github.com/Bryley/neoai.nvim",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt3-turbo",
+      "neovim",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 9\n\n包含文件:\n- tests/README.md\n- tests/chat\n- tests/chat/init.lua\n- tests/chat/models\n- tests/chat/models/init.lua\n- tests/chat/models/openai_spec.lua\n- tests/config_spec.lua\n- tests/init.lua\n- tests/neoai_spec.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.md\ntests/chat\ntests/chat/init.lua\ntests/chat/models\ntests/chat/models/init.lua\ntests/chat/models/openai_spec.lua\ntests/config_spec.lua\ntests/init.lua\ntests/neoai_spec.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.603261848786956
+  }
+]

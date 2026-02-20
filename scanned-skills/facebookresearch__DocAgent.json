@@ -1,0 +1,150 @@
+[
+  {
+    "name": "DocAgent (facebookresearch)",
+    "description": "[项目级] DocAgent is a system designed to generate high-quality, context-aware code documentation for Python codebases using a multi-agent approach and hierarchical processing.。来源: https://github.com/facebookresearch/DocAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-420",
+      "github-facebookresearch",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "DocAgent is a system designed to generate high-quality, context-aware code documentation for Python codebases using a multi-agent approach and hierarchical processing.\n\n来源: https://github.com/facebookresearch/DocAgent\n语言: Python\nStars: 420",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone <repository_url>\n    cd DocAgent",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nINSTALL.md\nLICENSE\nREADME.md\nassets\nassets/meta_logo_white.png\nassets/system.png\nconfig\nconfig/example_config.yaml\ndata\ndata/raw_test_repo\ndata/raw_test_repo_simple\neval_completeness.py\ngenerate_docstrings.py\noutput\noutput/dependency_graphs\nrun_web_ui.py\nsetup.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "You can run the docstring generation process using either the command line or the web UI.\n\n**1. Command Line Interface (CLI)**\n\nThis is the primary method for running the generation process directly.\n\n```bash",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.31162464519895
+  },
+  {
+    "name": "DocAgent/assets 模块",
+    "description": "[模块级] DocAgent 项目的 assets 模块 (source)。来源: https://github.com/facebookresearch/DocAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-420",
+      "github-facebookresearch",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/meta_logo_white.png\n- assets/system.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/meta_logo_white.png\nassets/system.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.54929971615916
+  },
+  {
+    "name": "DocAgent/data 模块",
+    "description": "[模块级] DocAgent 项目的 data 模块 (source)。来源: https://github.com/facebookresearch/DocAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-420",
+      "github-facebookresearch",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 21\n\n包含文件:\n- data/raw_test_repo\n- data/raw_test_repo/README.md\n- data/raw_test_repo/__init__.py\n- data/raw_test_repo/example.py\n- data/raw_test_repo/inventory\n- data/raw_test_repo/inventory/__init__.py\n- data/raw_test_repo/inventory/inventory_manager.py\n- data/raw_test_repo/models\n- data/raw_test_repo/models/__init__.py\n- data/raw_test_repo/models/product.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/raw_test_repo\ndata/raw_test_repo/README.md\ndata/raw_test_repo/__init__.py\ndata/raw_test_repo/example.py\ndata/raw_test_repo/inventory\ndata/raw_test_repo/inventory/__init__.py\ndata/raw_test_repo/inventory/inventory_manager.py\ndata/raw_test_repo/models\ndata/raw_test_repo/models/__init__.py\ndata/raw_test_repo/models/product.py\ndata/raw_test_repo/payment\ndata/raw_test_repo/payment/__init__.py\ndata/raw_test_repo/payment/payment_processor.py\ndata/raw_test_repo/vending_machine.py\ndata/raw_test_repo_simple",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.54929971615916
+  },
+  {
+    "name": "DocAgent/output 模块",
+    "description": "[模块级] DocAgent 项目的 output 模块 (source)。来源: https://github.com/facebookresearch/DocAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-420",
+      "github-facebookresearch",
+      "module-level",
+      "source",
+      "output"
+    ],
+    "genes": [
+      {
+        "title": "output 模块说明",
+        "content": "模块路径: output/\n类型: source\n文件数: 2\n\n包含文件:\n- output/dependency_graphs\n- output/dependency_graphs/raw_test_repo_dependency_graph.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "output 文件结构",
+        "content": "output/dependency_graphs\noutput/dependency_graphs/raw_test_repo_dependency_graph.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.54929971615916
+  },
+  {
+    "name": "DocAgent/src 模块",
+    "description": "[模块级] DocAgent 项目的 src 模块 (source)。来源: https://github.com/facebookresearch/DocAgent",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-420",
+      "github-facebookresearch",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 158\n\n包含文件:\n- src/DocstringGenerator.egg-info\n- src/DocstringGenerator.egg-info/PKG-INFO\n- src/DocstringGenerator.egg-info/SOURCES.txt\n- src/DocstringGenerator.egg-info/dependency_links.txt\n- src/DocstringGenerator.egg-info/requires.txt\n- src/DocstringGenerator.egg-info/top_level.txt\n- src/__init__.py\n- src/__pycache__\n- src/__pycache__/__init__.cpython-310.pyc\n- src/__pycache__/__init__.cpython-311.pyc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/DocstringGenerator.egg-info\nsrc/DocstringGenerator.egg-info/PKG-INFO\nsrc/DocstringGenerator.egg-info/SOURCES.txt\nsrc/DocstringGenerator.egg-info/dependency_links.txt\nsrc/DocstringGenerator.egg-info/requires.txt\nsrc/DocstringGenerator.egg-info/top_level.txt\nsrc/__init__.py\nsrc/__pycache__\nsrc/__pycache__/__init__.cpython-310.pyc\nsrc/__pycache__/__init__.cpython-311.pyc\nsrc/__pycache__/__init__.cpython-312.pyc\nsrc/__pycache__/__init__.cpython-38.pyc\nsrc/__pycache__/__init__.cpython-39.pyc\nsrc/agent\nsrc/agent/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.54929971615916
+  }
+]

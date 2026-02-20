@@ -1,0 +1,198 @@
+[
+  {
+    "name": "vibe-log-cli (vibe-log)",
+    "description": "[项目级] A CLI tool for logging and analyzing Claude Code and Cursor ai-driven coding session.。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "typescript",
+      "stars-283",
+      "github-vibe-log",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**🔒 Installation Safety**: Automatically backs up your existing status line configuration. Uninstalling instantly restores your original setup - zero risk to your Claude Code configuration.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx vibe-log-cli@latest",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nNPX_CACHE_RESEARCH.md\nNPX_NON_BLOCKING_AUTO_UPDATE_PLAN.md\nREADME.md\nSECURITY.md\nTESTING_GUIDE_OTHER_MACHINE.md\nbin\nbin/vibe-log.js\ncoverage\ncoverage/badges.svg\ndocs\ndocs/RELEASE_SETUP.md\ndocs/local-generation-flow.md\ndocs/status-line-mermaid.md\ndocs/vibe-log-mermaid.md\npackage-lock.json\npackage.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.225893217762145
+  },
+  {
+    "name": "vibe-log-cli/docs 模块",
+    "description": "[模块级] vibe-log-cli 项目的 docs 模块 (docs)。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "documentation",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 4\n\n包含文件:\n- docs/RELEASE_SETUP.md\n- docs/local-generation-flow.md\n- docs/status-line-mermaid.md\n- docs/vibe-log-mermaid.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/RELEASE_SETUP.md\ndocs/local-generation-flow.md\ndocs/status-line-mermaid.md\ndocs/vibe-log-mermaid.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "vibe-log-cli/scripts 模块",
+    "description": "[模块级] vibe-log-cli 项目的 scripts 模块 (script)。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 14\n\n包含文件:\n- scripts/cleanup-temp-files.sh\n- scripts/copy-templates.js\n- scripts/fix-all-control-chars.sh\n- scripts/fix-all-test-files.js\n- scripts/fix-control-chars.js\n- scripts/fix-lint-issues.js\n- scripts/fix-regex-patterns.js\n- scripts/fix-remaining-tests.sh\n- scripts/fix-test-control-chars.js\n- scripts/generate-checksums.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/cleanup-temp-files.sh\nscripts/copy-templates.js\nscripts/fix-all-control-chars.sh\nscripts/fix-all-test-files.js\nscripts/fix-control-chars.js\nscripts/fix-lint-issues.js\nscripts/fix-regex-patterns.js\nscripts/fix-remaining-tests.sh\nscripts/fix-test-control-chars.js\nscripts/generate-checksums.js\nscripts/test-npm-package.sh\nscripts/test-npx-cache-clearing.sh\nscripts/test-other-machine.sh\nscripts/test-package.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "vibe-log-cli/src 模块",
+    "description": "[模块级] vibe-log-cli 项目的 src 模块 (source)。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 146\n\n包含文件:\n- src/commands\n- src/commands/__tests__\n- src/commands/__tests__/status.test.ts\n- src/commands/analyze-prompt.ts\n- src/commands/auth.ts\n- src/commands/config.ts\n- src/commands/cursor-stats.ts\n- src/commands/hooks-log.ts\n- src/commands/hooks-manage.ts\n- src/commands/install-auto-sync.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/commands\nsrc/commands/__tests__\nsrc/commands/__tests__/status.test.ts\nsrc/commands/analyze-prompt.ts\nsrc/commands/auth.ts\nsrc/commands/config.ts\nsrc/commands/cursor-stats.ts\nsrc/commands/hooks-log.ts\nsrc/commands/hooks-manage.ts\nsrc/commands/install-auto-sync.ts\nsrc/commands/install-hooks.ts\nsrc/commands/logout.ts\nsrc/commands/privacy.ts\nsrc/commands/send.ts\nsrc/commands/shared",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "vibe-log-cli/test-reports 模块",
+    "description": "[模块级] vibe-log-cli 项目的 test-reports 模块 (source)。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "module-level",
+      "source",
+      "test-reports"
+    ],
+    "genes": [
+      {
+        "title": "test-reports 模块说明",
+        "content": "模块路径: test-reports/\n类型: source\n文件数: 4\n\n包含文件:\n- test-reports/sample-edge-case.html\n- test-reports/sample-minimal.html\n- test-reports/sample-rich.html\n- test-reports/sample-typical.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test-reports 文件结构",
+        "content": "test-reports/sample-edge-case.html\ntest-reports/sample-minimal.html\ntest-reports/sample-rich.html\ntest-reports/sample-typical.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  },
+  {
+    "name": "vibe-log-cli/test 模块",
+    "description": "[模块级] vibe-log-cli 项目的 test 模块 (test)。来源: https://github.com/vibe-log/vibe-log-cli",
+    "domain": "testing",
+    "tags": [
+      "ai-assisted-development",
+      "ai-coding",
+      "ai-coding-assistant",
+      "analysis",
+      "claude",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "npm test",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/generate-sample-reports.ts\ntest/mock-report-data.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.480714574209716
+  }
+]

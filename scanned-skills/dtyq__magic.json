@@ -1,0 +1,63 @@
+[
+  {
+    "name": "magic (dtyq)",
+    "description": "[项目级] Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)。来源: https://github.com/dtyq/magic",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "gpt",
+      "llm",
+      "php",
+      "stars-4462",
+      "github-dtyq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Super Magic. The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)\n\n来源: https://github.com/dtyq/magic\n语言: PHP\nStars: 4462",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCONTRIBUTING_CN.md\nLICENSE\nREADME.md\nREADME_CN.md\nbackend\nbackend/api-response\nbackend/async-event\nbackend/cloudfile\nbackend/code-executor",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.82476478297391
+  },
+  {
+    "name": "magic/backend 模块",
+    "description": "[模块级] magic 项目的 backend 模块 (source)。来源: https://github.com/dtyq/magic",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "gpt",
+      "llm",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 179\n\n包含文件:\n- backend/api-response\n- backend/api-response/.gitignore\n- backend/api-response/.php-cs-fixer.php\n- backend/api-response/LICENSE\n- backend/api-response/README.md\n- backend/api-response/composer.json\n- backend/api-response/publish\n- backend/api-response/publish/api-response.php\n- backend/api-response/src\n- backend/api-response/src/Annotation",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/api-response\nbackend/api-response/.gitignore\nbackend/api-response/.php-cs-fixer.php\nbackend/api-response/LICENSE\nbackend/api-response/README.md\nbackend/api-response/composer.json\nbackend/api-response/publish\nbackend/api-response/publish/api-response.php\nbackend/api-response/src\nbackend/api-response/src/Annotation\nbackend/api-response/src/Annotation/ApiResponse.php\nbackend/api-response/src/Aspect\nbackend/api-response/src/Aspect/ApiResponseAspect.php\nbackend/api-response/src/ConfigProvider.php\nbackend/api-response/src/Exception",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.959811826379128
+  }
+]

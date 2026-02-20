@@ -1,0 +1,67 @@
+[
+  {
+    "name": "agno (agno-agi)",
+    "description": "[项目级] The programming language for agentic software. Build, run, and manage multi-agent systems at scale.。来源: https://github.com/agno-agi/agno",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "developer-tools",
+      "python",
+      "stars-37987",
+      "github-agno-agi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The programming language for agentic software. Build, run, and manage multi-agent systems at scale.\n\n来源: https://github.com/agno-agi/agno\n语言: Python\nStars: 37987",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "from agno.agent import Agent\nfrom agno.db.sqlite import SqliteDb\nfrom agno.models.anthropic import Claude\nfrom agno.os import AgentOS\nfrom agno.tools.mcp import MCPTools\n\nagno_assist = Agent(\n    name=\"Agno Assist\",\n    model=Claude(id=\"claude-sonnet-4-6\"),\n    db=SqliteDb(db_file=\"agno.db\"),\n    tools=[MCPTools(url=\"https://docs.agno.com/mcp\")],\n    add_history_to_context=True,\n    num_history_runs=3,\n    markdown=True,\n)\n\nagent_os = AgentOS(agents=[agno_assist], tracing=True)\napp = agent_os.get_app()",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODEOWNERS\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ncookbook\ncookbook/.gitignore\ncookbook/00_quickstart\ncookbook/01_demo\ncookbook/02_agents",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agno/cookbook 模块",
+    "description": "[模块级] agno 项目的 cookbook 模块 (source)。来源: https://github.com/agno-agi/agno",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "developer-tools",
+      "python",
+      "module-level",
+      "source",
+      "cookbook"
+    ],
+    "genes": [
+      {
+        "title": "cookbook 模块说明",
+        "content": "模块路径: cookbook/\n类型: source\n文件数: 175\n\n包含文件:\n- cookbook/.gitignore\n- cookbook/00_quickstart\n- cookbook/00_quickstart/.gitignore\n- cookbook/00_quickstart/README.md\n- cookbook/00_quickstart/TEST_LOG.md\n- cookbook/00_quickstart/__init__.py\n- cookbook/00_quickstart/agent_search_over_knowledge.py\n- cookbook/00_quickstart/agent_with_guardrails.py\n- cookbook/00_quickstart/agent_with_memory.py\n- cookbook/00_quickstart/agent_with_state_management.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cookbook 文件结构",
+        "content": "cookbook/.gitignore\ncookbook/00_quickstart\ncookbook/00_quickstart/.gitignore\ncookbook/00_quickstart/README.md\ncookbook/00_quickstart/TEST_LOG.md\ncookbook/00_quickstart/__init__.py\ncookbook/00_quickstart/agent_search_over_knowledge.py\ncookbook/00_quickstart/agent_with_guardrails.py\ncookbook/00_quickstart/agent_with_memory.py\ncookbook/00_quickstart/agent_with_state_management.py\ncookbook/00_quickstart/agent_with_storage.py\ncookbook/00_quickstart/agent_with_structured_output.py\ncookbook/00_quickstart/agent_with_tools.py\ncookbook/00_quickstart/agent_with_typed_input_output.py\ncookbook/00_quickstart/config.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.331853998707579
+  }
+]

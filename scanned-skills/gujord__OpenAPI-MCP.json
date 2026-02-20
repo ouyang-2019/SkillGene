@@ -1,0 +1,173 @@
+[
+  {
+    "name": "OpenAPI-MCP (gujord)",
+    "description": "[项目级] The OpenAPI-MCP proxy translates OpenAPI specs into MCP tools, enabling AI agents to access external APIs without custom wrappers!。来源: https://github.com/gujord/OpenAPI-MCP",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-to-mcp",
+      "api2mcp",
+      "claude",
+      "python",
+      "stars-64",
+      "github-gujord",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The OpenAPI-MCP proxy translates OpenAPI specs into MCP tools, enabling AI agents to access external APIs without custom wrappers!\n\n来源: https://github.com/gujord/OpenAPI-MCP\n语言: Python\nStars: 64",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nMakefile\nREADME.md\nSECURITY.md\nclaude_desktop_config.json\ndocker-compose.yml\ndocker-start.sh\nexamples\nexamples/README.md\nexamples/demo_fastmcp_simple.py\nexamples/demo_sse.py\nimg\nimg/Open-API-MCP-relations.png\nimg/OpenAPI-MCP-art.png\nimg/OpenAPI-MCP.png\nimg/cursor.png\nimg/windsurf.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Quick Test (Norwegian Weather API)**\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9030899869919438
+  },
+  {
+    "name": "OpenAPI-MCP/examples 模块",
+    "description": "[模块级] OpenAPI-MCP 项目的 examples 模块 (example)。来源: https://github.com/gujord/OpenAPI-MCP",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-to-mcp",
+      "api2mcp",
+      "claude",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 3\n\n包含文件:\n- examples/README.md\n- examples/demo_fastmcp_simple.py\n- examples/demo_sse.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/demo_fastmcp_simple.py\nexamples/demo_sse.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2224719895935547
+  },
+  {
+    "name": "OpenAPI-MCP/img 模块",
+    "description": "[模块级] OpenAPI-MCP 项目的 img 模块 (source)。来源: https://github.com/gujord/OpenAPI-MCP",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-to-mcp",
+      "api2mcp",
+      "claude",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 5\n\n包含文件:\n- img/Open-API-MCP-relations.png\n- img/OpenAPI-MCP-art.png\n- img/OpenAPI-MCP.png\n- img/cursor.png\n- img/windsurf.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/Open-API-MCP-relations.png\nimg/OpenAPI-MCP-art.png\nimg/OpenAPI-MCP.png\nimg/cursor.png\nimg/windsurf.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2224719895935547
+  },
+  {
+    "name": "OpenAPI-MCP/src 模块",
+    "description": "[模块级] OpenAPI-MCP 项目的 src 模块 (source)。来源: https://github.com/gujord/OpenAPI-MCP",
+    "domain": "backend",
+    "tags": [
+      "agents",
+      "ai",
+      "api-to-mcp",
+      "api2mcp",
+      "claude",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 15\n\n包含文件:\n- src/openapi_mcp\n- src/openapi_mcp/__init__.py\n- src/openapi_mcp/auth.py\n- src/openapi_mcp/config.py\n- src/openapi_mcp/exceptions.py\n- src/openapi_mcp/fastmcp_server.py\n- src/openapi_mcp/mcp_transport.py\n- src/openapi_mcp/openapi_loader.py\n- src/openapi_mcp/request_handler.py\n- src/openapi_mcp/schema_converter.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/openapi_mcp\nsrc/openapi_mcp/__init__.py\nsrc/openapi_mcp/auth.py\nsrc/openapi_mcp/config.py\nsrc/openapi_mcp/exceptions.py\nsrc/openapi_mcp/fastmcp_server.py\nsrc/openapi_mcp/mcp_transport.py\nsrc/openapi_mcp/openapi_loader.py\nsrc/openapi_mcp/request_handler.py\nsrc/openapi_mcp/schema_converter.py\nsrc/openapi_mcp/server.py\nsrc/openapi_mcp/sse_handler.py\nsrc/openapi_mcp/sse_server.py\nsrc/openapi_mcp/tool_factory.py\nsrc/openapi_mcp/types.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2224719895935547
+  },
+  {
+    "name": "OpenAPI-MCP/test 模块",
+    "description": "[模块级] OpenAPI-MCP 项目的 test 模块 (test)。来源: https://github.com/gujord/OpenAPI-MCP",
+    "domain": "testing",
+    "tags": [
+      "agents",
+      "ai",
+      "api-to-mcp",
+      "api2mcp",
+      "claude",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "**Test server initialization:**\n```bash\npython test_weather_oslo.py\n```\n\n**Test with mcp-remote:**\n```bash\nnpx mcp-remote http://127.0.0.1:8001/sse\n```\n\n**Check available tools:**\n```bash\ncurl http://127.0.0.1:8001/health\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/fixtures\ntest/fixtures/invalid.json\ntest/fixtures/invalid.yaml\ntest/fixtures/petstore.json\ntest/fixtures/weather.yaml\ntest/test_auth.py\ntest/test_comprehensive.py\ntest/test_custom_auth_headers.py\ntest/test_edge_cases.py\ntest/test_fastmcp_live.py\ntest/test_fastmcp_server.py\ntest/test_integration_local_and_auth.py\ntest/test_local_file_loading.py\ntest/test_mcp_remote_endpoints.py\ntest/test_mcp_transport.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "test 代码示例",
+        "content": "python test_weather_oslo.py",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2224719895935547
+  }
+]

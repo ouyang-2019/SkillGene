@@ -1,0 +1,153 @@
+[
+  {
+    "name": "generative-ai (GoogleCloudPlatform)",
+    "description": "[项目级] Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI。来源: https://github.com/GoogleCloudPlatform/generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "gcp",
+      "gemini",
+      "gemini-api",
+      "gen-ai",
+      "jupyter notebook",
+      "stars-12702",
+      "github-googlecloudplatform",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI\n\n来源: https://github.com/GoogleCloudPlatform/generative-ai\n语言: Jupyter Notebook\nStars: 12702",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nRESOURCES.md\nSECURITY.md\nagents\nagents/README.md\nagents/adk\nagents/agent_engine\nagents/cloud_run\nagents/gemini_data_analytics\nagents/gke\naudio\naudio/README.md\naudio/music\naudio/speech\nembeddings\nembeddings/README.md\nembeddings/bigquery-import.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "generative-ai/agents 模块",
+    "description": "[模块级] generative-ai 项目的 agents 模块 (source)。来源: https://github.com/GoogleCloudPlatform/generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "gcp",
+      "gemini",
+      "gemini-api",
+      "gen-ai",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 31\n\n包含文件:\n- agents/README.md\n- agents/adk\n- agents/adk/README.md\n- agents/agent_engine\n- agents/agent_engine/memory_bank\n- agents/agent_engine/memory_bank/get_started_with_memory_bank.ipynb\n- agents/agent_engine/memory_bank/get_started_with_memory_bank_custom_topics.ipynb\n- agents/agent_engine/memory_bank/get_started_with_memory_bank_governance.ipynb\n- agents/agent_engine/memory_bank/get_started_with_memory_bank_on_adk.ipynb\n- agents/agent_engine/memory_bank/tutorial_get_started_with_multimodal_agents_with_memory_bank.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/README.md\nagents/adk\nagents/adk/README.md\nagents/agent_engine\nagents/agent_engine/memory_bank\nagents/agent_engine/memory_bank/get_started_with_memory_bank.ipynb\nagents/agent_engine/memory_bank/get_started_with_memory_bank_custom_topics.ipynb\nagents/agent_engine/memory_bank/get_started_with_memory_bank_governance.ipynb\nagents/agent_engine/memory_bank/get_started_with_memory_bank_on_adk.ipynb\nagents/agent_engine/memory_bank/tutorial_get_started_with_multimodal_agents_with_memory_bank.ipynb\nagents/agent_engine/tutorial_a2a_on_agent_engine.ipynb\nagents/agent_engine/tutorial_claude_with_adk_on_agent_engine.ipynb\nagents/agent_engine/tutorial_deploy_your_first_adk_agent_on_agent_engine.ipynb\nagents/agent_engine/tutorial_get_started_with_agent_engine_terraform_deployment.ipynb\nagents/agent_engine/tutorial_get_started_with_cloud_api_registry.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141548843361222
+  },
+  {
+    "name": "generative-ai/audio 模块",
+    "description": "[模块级] generative-ai 项目的 audio 模块 (source)。来源: https://github.com/GoogleCloudPlatform/generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "gcp",
+      "gemini",
+      "gemini-api",
+      "gen-ai",
+      "module-level",
+      "source",
+      "audio"
+    ],
+    "genes": [
+      {
+        "title": "audio 模块说明",
+        "content": "模块路径: audio/\n类型: source\n文件数: 26\n\n包含文件:\n- audio/README.md\n- audio/music\n- audio/music/getting-started\n- audio/music/getting-started/lyria2_music_generation.ipynb\n- audio/speech\n- audio/speech/README.md\n- audio/speech/getting-started\n- audio/speech/getting-started/chirp_2\n- audio/speech/getting-started/chirp_2/get_started_with_chirp_2_sdk.ipynb\n- audio/speech/getting-started/chirp_2/get_started_with_chirp_2_sdk_features.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audio 文件结构",
+        "content": "audio/README.md\naudio/music\naudio/music/getting-started\naudio/music/getting-started/lyria2_music_generation.ipynb\naudio/speech\naudio/speech/README.md\naudio/speech/getting-started\naudio/speech/getting-started/chirp_2\naudio/speech/getting-started/chirp_2/get_started_with_chirp_2_sdk.ipynb\naudio/speech/getting-started/chirp_2/get_started_with_chirp_2_sdk_features.ipynb\naudio/speech/getting-started/get_started_with_chirp3_instant_custom_voice.ipynb\naudio/speech/getting-started/get_started_with_chirp_3_hd_voices.ipynb\naudio/speech/getting-started/get_started_with_chirp_3_transcription.ipynb\naudio/speech/getting-started/get_started_with_gemini_tts_voices.ipynb\naudio/speech/sample-apps",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141548843361222
+  },
+  {
+    "name": "generative-ai/embeddings 模块",
+    "description": "[模块级] generative-ai 项目的 embeddings 模块 (source)。来源: https://github.com/GoogleCloudPlatform/generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "gcp",
+      "gemini",
+      "gemini-api",
+      "gen-ai",
+      "module-level",
+      "source",
+      "embeddings"
+    ],
+    "genes": [
+      {
+        "title": "embeddings 模块说明",
+        "content": "模块路径: embeddings/\n类型: source\n文件数: 17\n\n包含文件:\n- embeddings/README.md\n- embeddings/bigquery-import.ipynb\n- embeddings/bigquery_ml_gemini_and_oss_text_embedding.ipynb\n- embeddings/embedding-similarity-visualization.ipynb\n- embeddings/hybrid-search.ipynb\n- embeddings/intro-textemb-vectorsearch.ipynb\n- embeddings/intro_embeddings_tuning.ipynb\n- embeddings/intro_multimodal_embeddings.ipynb\n- embeddings/large-embs-generation-for-vvs.ipynb\n- embeddings/task-type-embedding.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "embeddings 文件结构",
+        "content": "embeddings/README.md\nembeddings/bigquery-import.ipynb\nembeddings/bigquery_ml_gemini_and_oss_text_embedding.ipynb\nembeddings/embedding-similarity-visualization.ipynb\nembeddings/hybrid-search.ipynb\nembeddings/intro-textemb-vectorsearch.ipynb\nembeddings/intro_embeddings_tuning.ipynb\nembeddings/intro_multimodal_embeddings.ipynb\nembeddings/large-embs-generation-for-vvs.ipynb\nembeddings/task-type-embedding.ipynb\nembeddings/use-cases\nembeddings/use-cases/outlier-detection\nembeddings/use-cases/outlier-detection/bq-vector-search-outlier-detection-audit-logs.ipynb\nembeddings/use-cases/outlier-detection/bq-vector-search-outlier-detection-infra-logs.ipynb\nembeddings/vector-search-2-intro.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141548843361222
+  },
+  {
+    "name": "generative-ai/gemini 模块",
+    "description": "[模块级] generative-ai 项目的 gemini 模块 (source)。来源: https://github.com/GoogleCloudPlatform/generative-ai",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "gcp",
+      "gemini",
+      "gemini-api",
+      "gen-ai",
+      "module-level",
+      "source",
+      "gemini"
+    ],
+    "genes": [
+      {
+        "title": "gemini 模块说明",
+        "content": "模块路径: gemini/\n类型: source\n文件数: 54\n\n包含文件:\n- gemini/README.md\n- gemini/agent-engine\n- gemini/agent-engine/README.md\n- gemini/agent-engine/agent_engine_express_mode.ipynb\n- gemini/agent-engine/evaluating_crewai_agent_engine_customized_template.ipynb\n- gemini/agent-engine/evaluating_langchain_agent_engine_prebuilt_template.ipynb\n- gemini/agent-engine/evaluating_langgraph_agent_engine_customized_template.ipynb\n- gemini/agent-engine/intro_agent_engine.ipynb\n- gemini/agent-engine/langgraph_human_in_the_loop.ipynb\n- gemini/agent-engine/memory",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gemini 文件结构",
+        "content": "gemini/README.md\ngemini/agent-engine\ngemini/agent-engine/README.md\ngemini/agent-engine/agent_engine_express_mode.ipynb\ngemini/agent-engine/evaluating_crewai_agent_engine_customized_template.ipynb\ngemini/agent-engine/evaluating_langchain_agent_engine_prebuilt_template.ipynb\ngemini/agent-engine/evaluating_langgraph_agent_engine_customized_template.ipynb\ngemini/agent-engine/intro_agent_engine.ipynb\ngemini/agent-engine/langgraph_human_in_the_loop.ipynb\ngemini/agent-engine/memory\ngemini/agent-engine/memory/get_started_with_memory_bank_adk.ipynb\ngemini/agent-engine/memory/get_started_with_memory_bank_crewai.ipynb\ngemini/agent-engine/memory/get_started_with_memory_bank_langgraph.ipynb\ngemini/agent-engine/tracing_agents_in_agent_engine.ipynb\ngemini/agent-engine/tutorial_ag2_on_agent_engine.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.141548843361222
+  }
+]

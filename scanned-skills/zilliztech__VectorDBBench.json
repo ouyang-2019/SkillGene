@@ -1,0 +1,98 @@
+[
+  {
+    "name": "VectorDBBench (zilliztech)",
+    "description": "[项目级] Benchmark for vector databases.。来源: https://github.com/zilliztech/VectorDBBench",
+    "domain": "general",
+    "tags": [
+      "benchmark",
+      "cost-effectiveness",
+      "performance",
+      "vector-database",
+      "vector-search",
+      "python",
+      "stars-1022",
+      "github-zilliztech",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "To facilitate the presentation of test results and provide a comprehensive performance analysis report, we offer a [leaderboard page](https://zilliz.com/benchmark). It allows us to choose from QPS, QP$, and latency metrics, and provides a comprehensive assessment of a system's performance based on the test results of various cases and a set of scoring mechanisms (to be introduced later). On this leaderboard, we can select the systems and models to be compared, and filter out cases we do not want to consider. Comprehensive scores are always ranked from best to worst, and the specific test results of each query will be presented in the list below.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nOWNERS\nREADME.md\ninstall.py\ninstall\ninstall/requirements_py3.11.txt\npyproject.toml\ntests\ntests/conftest.py\ntests/pytest.ini\ntests/test_aws_opensearch_cli.py\ntests/test_bench_runner.py\ntests/test_chroma.py\ntests/test_cockroachdb.py\ntests/test_data_source.py\ntests/test_dataset.py\ntests/test_elasticsearch_cloud.py\ntests/test_models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.504725447899347
+  },
+  {
+    "name": "VectorDBBench/tests 模块",
+    "description": "[模块级] VectorDBBench 项目的 tests 模块 (test)。来源: https://github.com/zilliztech/VectorDBBench",
+    "domain": "testing",
+    "tags": [
+      "benchmark",
+      "cost-effectiveness",
+      "performance",
+      "vector-database",
+      "vector-search",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 14\n\n包含文件:\n- tests/conftest.py\n- tests/pytest.ini\n- tests/test_aws_opensearch_cli.py\n- tests/test_bench_runner.py\n- tests/test_chroma.py\n- tests/test_cockroachdb.py\n- tests/test_data_source.py\n- tests/test_dataset.py\n- tests/test_elasticsearch_cloud.py\n- tests/test_models.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/conftest.py\ntests/pytest.ini\ntests/test_aws_opensearch_cli.py\ntests/test_bench_runner.py\ntests/test_chroma.py\ntests/test_cockroachdb.py\ntests/test_data_source.py\ntests/test_dataset.py\ntests/test_elasticsearch_cloud.py\ntests/test_models.py\ntests/test_rate_runner.py\ntests/test_redis.py\ntests/test_utils.py\ntests/ut_cases.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7037803583194777
+  },
+  {
+    "name": "VectorDBBench/vectordb_bench 模块",
+    "description": "[模块级] VectorDBBench 项目的 vectordb_bench 模块 (source)。来源: https://github.com/zilliztech/VectorDBBench",
+    "domain": "general",
+    "tags": [
+      "benchmark",
+      "cost-effectiveness",
+      "performance",
+      "vector-database",
+      "vector-search",
+      "module-level",
+      "source",
+      "vectordb_bench"
+    ],
+    "genes": [
+      {
+        "title": "vectordb_bench 模块说明",
+        "content": "模块路径: vectordb_bench/\n类型: source\n文件数: 166\n\n包含文件:\n- vectordb_bench/__init__.py\n- vectordb_bench/__main__.py\n- vectordb_bench/backend\n- vectordb_bench/backend/__init__.py\n- vectordb_bench/backend/assembler.py\n- vectordb_bench/backend/cases.py\n- vectordb_bench/backend/clients\n- vectordb_bench/backend/clients/__init__.py\n- vectordb_bench/backend/clients/alisql\n- vectordb_bench/backend/clients/alisql/alisql.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vectordb_bench 文件结构",
+        "content": "vectordb_bench/__init__.py\nvectordb_bench/__main__.py\nvectordb_bench/backend\nvectordb_bench/backend/__init__.py\nvectordb_bench/backend/assembler.py\nvectordb_bench/backend/cases.py\nvectordb_bench/backend/clients\nvectordb_bench/backend/clients/__init__.py\nvectordb_bench/backend/clients/alisql\nvectordb_bench/backend/clients/alisql/alisql.py\nvectordb_bench/backend/clients/alisql/cli.py\nvectordb_bench/backend/clients/alisql/config.py\nvectordb_bench/backend/clients/aliyun_elasticsearch\nvectordb_bench/backend/clients/aliyun_elasticsearch/aliyun_elasticsearch.py\nvectordb_bench/backend/clients/aliyun_elasticsearch/config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7037803583194777
+  }
+]

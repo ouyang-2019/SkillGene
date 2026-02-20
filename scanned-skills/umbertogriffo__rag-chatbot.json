@@ -1,0 +1,163 @@
+[
+  {
+    "name": "rag-chatbot (umbertogriffo)",
+    "description": "[项目级] RAG (Retrieval-augmented generation) ChatBot that provides answers based on contextual information extracted from a collection of Markdown files.。来源: https://github.com/umbertogriffo/rag-chatbot",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chromadb",
+      "gpu",
+      "lamacpp",
+      "llama3",
+      "python",
+      "stars-380",
+      "github-umbertogriffo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This project combines the power\nof [Lama.cpp](https://github.com/abetlen/llama-cpp-python), [Chroma](https://github.com/chroma-core/chroma)\nand [Streamlit](https://discuss.streamlit.io/) to build:\n\n* a Conversation-aware Chatbot (ChatGPT like experience).\n* a RAG (Retrieval-augmented generation) ChatBot.\n\nThe RAG Chatbot works by taking a collection of Markdown files as input and, when asked a question, provides the\ncorresponding answer\nbased on the context provided by those files.\n\n![rag-chatbot-architecture-1.png](images/rag-chatbot-architecture-1.png)\n\n> [!NOTE]\n> We decided to grab and refactor the `RecursiveCharacterTextSplitter` class from `LangChain` to effectively chunk\n> Markdown files without adding LangChain as a dependency.\n\nThe `Memory Builder` component of the project loads M",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "poetry self update <version>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nchatbot\nchatbot/bot\nchatbot/chatbot_app.py\nchatbot/cli\nchatbot/document_loader\nchatbot/entities\nchatbot/experiments\nchatbot/helpers\nchatbot/memory_builder.py\nchatbot/rag_chatbot_app.py\ndemo.md\ndocs\ndocs/.gitkeep\nimages\nimages/bot-small.png\nimages/bot.png\nimages/conversation-aware-chatbot.gif",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "* Use it to check that `which pip3` and `which python3` points to the right path.\n* Setup:\n    * Setup with NVIDIA CUDA acceleration:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.289891798308405
+  },
+  {
+    "name": "rag-chatbot/chatbot 模块",
+    "description": "[模块级] rag-chatbot 项目的 chatbot 模块 (source)。来源: https://github.com/umbertogriffo/rag-chatbot",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chromadb",
+      "gpu",
+      "lamacpp",
+      "llama3",
+      "module-level",
+      "source",
+      "chatbot"
+    ],
+    "genes": [
+      {
+        "title": "chatbot 模块说明",
+        "content": "[![CI](https://github.com/umbertogriffo/rag-chatbot/workflows/CI/badge.svg)](https://github.com/umbertogriffo/rag-chatbot/actions/workflows/ci.yaml)\n[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)\n[![Code style: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)\n\n> [!IMPORTANT]\n> Disclaimer:\n> The code has b",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chatbot 文件结构",
+        "content": "chatbot/bot\nchatbot/bot/__init__.py\nchatbot/bot/client\nchatbot/bot/client/__init__.py\nchatbot/bot/client/lama_cpp_client.py\nchatbot/bot/client/prompt.py\nchatbot/bot/conversation\nchatbot/bot/conversation/__init__.py\nchatbot/bot/conversation/chat_history.py\nchatbot/bot/conversation/conversation_handler.py\nchatbot/bot/conversation/ctx_strategy.py\nchatbot/bot/memory\nchatbot/bot/memory/__init__.py\nchatbot/bot/memory/embedder.py\nchatbot/bot/memory/vector_database",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.531913438646724
+  },
+  {
+    "name": "rag-chatbot/images 模块",
+    "description": "[模块级] rag-chatbot 项目的 images 模块 (source)。来源: https://github.com/umbertogriffo/rag-chatbot",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chromadb",
+      "gpu",
+      "lamacpp",
+      "llama3",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 9\n\n包含文件:\n- images/bot-small.png\n- images/bot.png\n- images/conversation-aware-chatbot.gif\n- images/create-and-refine-the-context.png\n- images/debug_streamlit.png\n- images/hierarchical-summarization.png\n- images/rag-chatbot-architecture-1.png\n- images/rag_chatbot_example.gif\n- images/rag_chatbot_load_doc_example.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/bot-small.png\nimages/bot.png\nimages/conversation-aware-chatbot.gif\nimages/create-and-refine-the-context.png\nimages/debug_streamlit.png\nimages/hierarchical-summarization.png\nimages/rag-chatbot-architecture-1.png\nimages/rag_chatbot_example.gif\nimages/rag_chatbot_load_doc_example.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.531913438646724
+  },
+  {
+    "name": "rag-chatbot/tests 模块",
+    "description": "[模块级] rag-chatbot 项目的 tests 模块 (test)。来源: https://github.com/umbertogriffo/rag-chatbot",
+    "domain": "testing",
+    "tags": [
+      "chatbot",
+      "chromadb",
+      "gpu",
+      "lamacpp",
+      "llama3",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 12\n\n包含文件:\n- tests/bot\n- tests/bot/client\n- tests/bot/client/test_lamacpp_client.py\n- tests/bot/conversation\n- tests/bot/conversation/test_conversation_handler.py\n- tests/bot/memory\n- tests/bot/memory/vector_database\n- tests/bot/memory/vector_database/test_chroma.py\n- tests/bot/memory/vector_database/test_id_generator.py\n- tests/conftest.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/bot\ntests/bot/client\ntests/bot/client/test_lamacpp_client.py\ntests/bot/conversation\ntests/bot/conversation/test_conversation_handler.py\ntests/bot/memory\ntests/bot/memory/vector_database\ntests/bot/memory/vector_database/test_chroma.py\ntests/bot/memory/vector_database/test_id_generator.py\ntests/conftest.py\ntests/document_loader\ntests/document_loader/test_text_splitter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.531913438646724
+  },
+  {
+    "name": "rag-chatbot/version 模块",
+    "description": "[模块级] rag-chatbot 项目的 version 模块 (source)。来源: https://github.com/umbertogriffo/rag-chatbot",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chromadb",
+      "gpu",
+      "lamacpp",
+      "llama3",
+      "module-level",
+      "source",
+      "version"
+    ],
+    "genes": [
+      {
+        "title": "version 模块说明",
+        "content": "模块路径: version/\n类型: source\n文件数: 2\n\n包含文件:\n- version/llama_cpp\n- version/poetry",
+        "gene_type": "principle"
+      },
+      {
+        "title": "version 文件结构",
+        "content": "version/llama_cpp\nversion/poetry",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.531913438646724
+  }
+]

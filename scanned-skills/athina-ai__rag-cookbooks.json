@@ -1,0 +1,158 @@
+[
+  {
+    "name": "rag-cookbooks (athina-ai)",
+    "description": "[项目级] This repository contains various advanced techniques for Retrieval-Augmented Generation (RAG) systems.。来源: https://github.com/athina-ai/rag-cookbooks",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chromadb",
+      "cookbooks",
+      "faiss",
+      "langchain",
+      "jupyter notebook",
+      "stars-2443",
+      "github-athina-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAG is a popular method that improves accuracy and relevance by finding the right information from reliable sources and transforming it into useful answers. This repository covers the most effective advanced + agentic RAG techniques with clear implementations and explanations.\r\n\r\nThe main goal of this repository is to provide a helpful resource for researchers and developers looking to use advanced RAG techniques in their projects. Building these techniques from scratch takes time, and finding proper evaluation methods can be challenging. This repository simplifies the process by offering ready-to-use implementations and guidance on how to evaluate them.\r\n>[!NOTE]\r\n>This repository starts with naive RAG as a foundation and progresses to advanced and agentic techniques. It also includes res",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "First, clone this repository by using the following command:\r\n```bash\r\ngit clone https://github.com/athina-ai/rag-cookbooks.git\r\n```\r\nNext, navigate to the project directory:\r\n```bash\r\ncd rag-cookbooks\r\n```\r\nOnce you are in the 'rag-cookbooks' directory, follow the detailed implementation for each technique.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.txt\nREADME.md\nadvanced_rag_techniques\nadvanced_rag_techniques/basic_unstructured_rag.ipynb\nadvanced_rag_techniques/contextual_rag.ipynb\nadvanced_rag_techniques/fusion_rag.ipynb\nadvanced_rag_techniques/hybrid_rag.ipynb\nadvanced_rag_techniques/hyde_rag.ipynb\nadvanced_rag_techniques/naive_rag.ipynb\nadvanced_rag_techniques/parent_document_retriever.ipynb\nadvanced_rag_techniques/rewrite_retrieve_read.ipynb\nagent_techniques\nagent_techniques/react.ipynb\nagent_techniques/reflexion.ipynb\nagent_techniques/rewoo.ipynb\nagentic_rag_techniques\nagentic_rag_techniques/adaptive_rag.ipynb\nagentic_rag_techniques/agentic_rag_using_deepseek_qdrant_and_langchain.ipynb\nagentic_rag_techniques/basic_agentic_rag.ipynb\nagentic_rag_techniques/corrective_rag.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.693961733486718
+  },
+  {
+    "name": "rag-cookbooks/advanced_rag_techniques 模块",
+    "description": "[模块级] rag-cookbooks 项目的 advanced_rag_techniques 模块 (source)。来源: https://github.com/athina-ai/rag-cookbooks",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chromadb",
+      "cookbooks",
+      "faiss",
+      "langchain",
+      "module-level",
+      "source",
+      "advanced_rag_techniques"
+    ],
+    "genes": [
+      {
+        "title": "advanced_rag_techniques 模块说明",
+        "content": "模块路径: advanced_rag_techniques/\n类型: source\n文件数: 8\n\n包含文件:\n- advanced_rag_techniques/basic_unstructured_rag.ipynb\n- advanced_rag_techniques/contextual_rag.ipynb\n- advanced_rag_techniques/fusion_rag.ipynb\n- advanced_rag_techniques/hybrid_rag.ipynb\n- advanced_rag_techniques/hyde_rag.ipynb\n- advanced_rag_techniques/naive_rag.ipynb\n- advanced_rag_techniques/parent_document_retriever.ipynb\n- advanced_rag_techniques/rewrite_retrieve_read.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "advanced_rag_techniques 文件结构",
+        "content": "advanced_rag_techniques/basic_unstructured_rag.ipynb\nadvanced_rag_techniques/contextual_rag.ipynb\nadvanced_rag_techniques/fusion_rag.ipynb\nadvanced_rag_techniques/hybrid_rag.ipynb\nadvanced_rag_techniques/hyde_rag.ipynb\nadvanced_rag_techniques/naive_rag.ipynb\nadvanced_rag_techniques/parent_document_retriever.ipynb\nadvanced_rag_techniques/rewrite_retrieve_read.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.855169386789375
+  },
+  {
+    "name": "rag-cookbooks/agent_techniques 模块",
+    "description": "[模块级] rag-cookbooks 项目的 agent_techniques 模块 (source)。来源: https://github.com/athina-ai/rag-cookbooks",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chromadb",
+      "cookbooks",
+      "faiss",
+      "langchain",
+      "module-level",
+      "source",
+      "agent_techniques"
+    ],
+    "genes": [
+      {
+        "title": "agent_techniques 模块说明",
+        "content": "模块路径: agent_techniques/\n类型: source\n文件数: 3\n\n包含文件:\n- agent_techniques/react.ipynb\n- agent_techniques/reflexion.ipynb\n- agent_techniques/rewoo.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent_techniques 文件结构",
+        "content": "agent_techniques/react.ipynb\nagent_techniques/reflexion.ipynb\nagent_techniques/rewoo.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.855169386789375
+  },
+  {
+    "name": "rag-cookbooks/agentic_rag_techniques 模块",
+    "description": "[模块级] rag-cookbooks 项目的 agentic_rag_techniques 模块 (source)。来源: https://github.com/athina-ai/rag-cookbooks",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chromadb",
+      "cookbooks",
+      "faiss",
+      "langchain",
+      "module-level",
+      "source",
+      "agentic_rag_techniques"
+    ],
+    "genes": [
+      {
+        "title": "agentic_rag_techniques 模块说明",
+        "content": "模块路径: agentic_rag_techniques/\n类型: source\n文件数: 5\n\n包含文件:\n- agentic_rag_techniques/adaptive_rag.ipynb\n- agentic_rag_techniques/agentic_rag_using_deepseek_qdrant_and_langchain.ipynb\n- agentic_rag_techniques/basic_agentic_rag.ipynb\n- agentic_rag_techniques/corrective_rag.ipynb\n- agentic_rag_techniques/self_rag.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentic_rag_techniques 文件结构",
+        "content": "agentic_rag_techniques/adaptive_rag.ipynb\nagentic_rag_techniques/agentic_rag_using_deepseek_qdrant_and_langchain.ipynb\nagentic_rag_techniques/basic_agentic_rag.ipynb\nagentic_rag_techniques/corrective_rag.ipynb\nagentic_rag_techniques/self_rag.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.855169386789375
+  },
+  {
+    "name": "rag-cookbooks/data 模块",
+    "description": "[模块级] rag-cookbooks 项目的 data 模块 (source)。来源: https://github.com/athina-ai/rag-cookbooks",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "chromadb",
+      "cookbooks",
+      "faiss",
+      "langchain",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "模块路径: data/\n类型: source\n文件数: 2\n\n包含文件:\n- data/context.csv\n- data/tesla_q3.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/context.csv\ndata/tesla_q3.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.855169386789375
+  }
+]

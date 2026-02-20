@@ -1,0 +1,108 @@
+[
+  {
+    "name": "parrot.nvim (frankroeder)",
+    "description": "[项目级] parrot.nvim 🦜 - the plugin that brings stochastic parrots to Neovim.。来源: https://github.com/frankroeder/parrot.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "claude-3-5-sonnet",
+      "gemini",
+      "gemini-api",
+      "lua",
+      "stars-776",
+      "github-frankroeder",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "parrot.nvim 🦜 - the plugin that brings stochastic parrots to Neovim.\n\n来源: https://github.com/frankroeder/parrot.nvim\n语言: Lua\nStars: 776",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMakefile\nREADME.md\nlua\nlua/parrot\nplugin\nplugin/parrot.lua\ntests\ntests/minimal_init.lua\ntests/parrot",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "[parrot.nvim](https://github.com/frankroeder/parrot.nvim) offers a seamless out-of-the-box experience, providing tight integration of current LLM APIs into your Neovim workflows, with a focus solely on text generation.\nThe selected core features include **on-demand text completion and editing**, as well as **chat-like sessions** within native **Neovim buffers**.\n\nThis plugin is intended for people who actually know what they are doing and people who care for **privacy and transparency**.\nThe user is always under **full control** of what will be sent to the LLM API endpoint, hence this plugin f",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4449308606290945
+  },
+  {
+    "name": "parrot.nvim/lua 模块",
+    "description": "[模块级] parrot.nvim 项目的 lua 模块 (source)。来源: https://github.com/frankroeder/parrot.nvim",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "claude-3-5-sonnet",
+      "gemini",
+      "gemini-api",
+      "module-level",
+      "source",
+      "lua"
+    ],
+    "genes": [
+      {
+        "title": "lua 模块说明",
+        "content": "模块路径: lua/\n类型: source\n文件数: 28\n\n包含文件:\n- lua/parrot\n- lua/parrot/chat_handler.lua\n- lua/parrot/chat_utils.lua\n- lua/parrot/completion\n- lua/parrot/completion/blink.lua\n- lua/parrot/completion/cmp.lua\n- lua/parrot/completion/core.lua\n- lua/parrot/completion/init.lua\n- lua/parrot/completion/utils.lua\n- lua/parrot/config.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lua 文件结构",
+        "content": "lua/parrot\nlua/parrot/chat_handler.lua\nlua/parrot/chat_utils.lua\nlua/parrot/completion\nlua/parrot/completion/blink.lua\nlua/parrot/completion/cmp.lua\nlua/parrot/completion/core.lua\nlua/parrot/completion/init.lua\nlua/parrot/completion/utils.lua\nlua/parrot/config.lua\nlua/parrot/context.lua\nlua/parrot/file_utils.lua\nlua/parrot/health.lua\nlua/parrot/init.lua\nlua/parrot/logger.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6559446885032756
+  },
+  {
+    "name": "parrot.nvim/tests 模块",
+    "description": "[模块级] parrot.nvim 项目的 tests 模块 (test)。来源: https://github.com/frankroeder/parrot.nvim",
+    "domain": "testing",
+    "tags": [
+      "anthropic",
+      "chatgpt",
+      "claude-3-5-sonnet",
+      "gemini",
+      "gemini-api",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 18\n\n包含文件:\n- tests/minimal_init.lua\n- tests/parrot\n- tests/parrot/chat_utils_spec.lua\n- tests/parrot/completion\n- tests/parrot/completion/utils_spec.lua\n- tests/parrot/context_spec.lua\n- tests/parrot/file_utils_spec.lua\n- tests/parrot/logger_spec.lua\n- tests/parrot/placeholders_spec.lua\n- tests/parrot/pool_spec.lua",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/minimal_init.lua\ntests/parrot\ntests/parrot/chat_utils_spec.lua\ntests/parrot/completion\ntests/parrot/completion/utils_spec.lua\ntests/parrot/context_spec.lua\ntests/parrot/file_utils_spec.lua\ntests/parrot/logger_spec.lua\ntests/parrot/placeholders_spec.lua\ntests/parrot/pool_spec.lua\ntests/parrot/provider\ntests/parrot/provider/multi_provider_spec.lua\ntests/parrot/queries_spec.lua\ntests/parrot/response_handler_spec.lua\ntests/parrot/state_spec.lua",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6559446885032756
+  }
+]

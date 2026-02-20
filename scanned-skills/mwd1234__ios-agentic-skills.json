@@ -1,0 +1,61 @@
+[
+  {
+    "name": "ios-agentic-skills (mwd1234)",
+    "description": "[项目级] A collection of agentic iOS/watchOS audit skills and playbooks for IDE agents and CLI tools. Extracted from the development of Haptix.。来源: https://github.com/mwd1234/ios-agentic-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-38",
+      "github-mwd1234",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agentic iOS/watchOS audit skills and playbooks for IDE agents and CLI tools. Extracted from the development of Haptix.\n\n来源: https://github.com/mwd1234/ios-agentic-skills\n语言: Python\nStars: 38",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- Browse the skills index: [.agent/skills/README.md](.agent/skills/README.md)\n- Use the template for new additions: [.agent/skills/SKILL_TEMPLATE.md](.agent/skills/SKILL_TEMPLATE.md)\n- Validate required tools:\n  - bash .agent/skills/scripts/setup_skills_tools.sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nscripts\nscripts/add_translations.py\nscripts/check_localization_status.py\nscripts/remove_stale_strings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.789891798308405
+  },
+  {
+    "name": "ios-agentic-skills/scripts 模块",
+    "description": "[模块级] ios-agentic-skills 项目的 scripts 模块 (script)。来源: https://github.com/mwd1234/ios-agentic-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-38",
+      "github-mwd1234",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/add_translations.py\n- scripts/check_localization_status.py\n- scripts/remove_stale_strings.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/add_translations.py\nscripts/check_localization_status.py\nscripts/remove_stale_strings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1319134386467242
+  }
+]

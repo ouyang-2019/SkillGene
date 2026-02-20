@@ -1,0 +1,62 @@
+[
+  {
+    "name": "awesome-ai-sdks (e2b-dev)",
+    "description": "[项目级] A database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging and deploying autonomous AI agents。来源: https://github.com/e2b-dev/awesome-ai-sdks",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentops",
+      "agents",
+      "ai",
+      "ai-agents",
+      "stars-1131",
+      "github-e2b-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging and deploying autonomous AI agents\n\n来源: https://github.com/e2b-dev/awesome-ai-sdks\n语言: unknown\nStars: 1131",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEOWNERS\nREADME.md\nassets\nassets/footer.png\nassets/visual.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.526731302462728
+  },
+  {
+    "name": "awesome-ai-sdks/assets 模块",
+    "description": "[模块级] awesome-ai-sdks 项目的 assets 模块 (source)。来源: https://github.com/e2b-dev/awesome-ai-sdks",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentops",
+      "agents",
+      "ai",
+      "ai-agents",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/footer.png\n- assets/visual.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/footer.png\nassets/visual.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.721385041970182
+  }
+]

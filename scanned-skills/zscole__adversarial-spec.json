@@ -1,0 +1,78 @@
+[
+  {
+    "name": "adversarial-spec (zscole)",
+    "description": "[项目级] A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.。来源: https://github.com/zscole/adversarial-spec",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "python",
+      "stars-489",
+      "github-zscole",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Claude Code plugin that iteratively refines product specifications by debating between multiple LLMs until all models reach consensus.\n\n来源: https://github.com/zscole/adversarial-spec\n语言: Python\nStars: 489",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\npyproject.toml\nrequirements-dev.txt\nrequirements.txt\nskills\nskills/adversarial-spec",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "/adversarial-spec \"Build a rate limiter service with Redis backend\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.34465442956181
+  },
+  {
+    "name": "adversarial-spec/skills 模块",
+    "description": "[模块级] adversarial-spec 项目的 skills 模块 (source)。来源: https://github.com/zscole/adversarial-spec",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 21\n\n包含文件:\n- skills/adversarial-spec\n- skills/adversarial-spec/SKILL.md\n- skills/adversarial-spec/scripts\n- skills/adversarial-spec/scripts/__init__.py\n- skills/adversarial-spec/scripts/debate.py\n- skills/adversarial-spec/scripts/models.py\n- skills/adversarial-spec/scripts/mutmut_config.py\n- skills/adversarial-spec/scripts/prompts.py\n- skills/adversarial-spec/scripts/providers.py\n- skills/adversarial-spec/scripts/py.typed",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/adversarial-spec\nskills/adversarial-spec/SKILL.md\nskills/adversarial-spec/scripts\nskills/adversarial-spec/scripts/__init__.py\nskills/adversarial-spec/scripts/debate.py\nskills/adversarial-spec/scripts/models.py\nskills/adversarial-spec/scripts/mutmut_config.py\nskills/adversarial-spec/scripts/prompts.py\nskills/adversarial-spec/scripts/providers.py\nskills/adversarial-spec/scripts/py.typed\nskills/adversarial-spec/scripts/session.py\nskills/adversarial-spec/scripts/telegram_bot.py\nskills/adversarial-spec/scripts/tests\nskills/adversarial-spec/scripts/tests/__init__.py\nskills/adversarial-spec/scripts/tests/test_cli.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.575723543649448
+  }
+]

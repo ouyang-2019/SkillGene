@@ -1,0 +1,72 @@
+[
+  {
+    "name": "conductor (conductor-oss)",
+    "description": "[项目级] Conductor is an event driven agentic orchestration platform providing durable and highly resilient execution engine for applications and AI Agents。来源: https://github.com/conductor-oss/conductor",
+    "domain": "web-frontend",
+    "tags": [
+      "distributed-systems",
+      "durable-execution",
+      "grpc",
+      "java",
+      "javascript",
+      "stars-31496",
+      "github-conductor-oss",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Conductor is an event driven agentic orchestration platform providing durable and highly resilient execution engine for applications and AI Agents\n\n来源: https://github.com/conductor-oss/conductor\n语言: Java\nStars: 31496",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "curl -sSL https://raw.githubusercontent.com/conductor-oss/conductor/main/conductor_server.sh | sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nOPENSEARCH_TESTING_PLAN.md\nOSSMETADATA\nREADME.md\nRELATED.md\nROADMAP.md\nSECURITY.md\nUSERS.md\nai\nai/CONTRIBUTING.md\nai/README.md\nai/VECTORDB_CONFIGURATION.md\nai/build.gradle\nai/examples\nai/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* **Durable Execution** Workflows are guaranteed to complete even when there are temporary failures in the system.\n* **Resilience and Error Handling:** Conductor enables automatic retries and fallback mechanisms.\n* **Scalability:** Built to scale with complex workflows in high-traffic environments.\n* **Observability:** Provides monitoring and debugging capabilities for workflows.\n* **Ease of Integration:** Seamlessly integrates with microservices, agents, LLMs, external APIs, and legacy systems.\n* **Built-in UI:** A customizable UI is available to monitor and manage workflows.\n* **Flexible per",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "conductor/ai 模块",
+    "description": "[模块级] conductor 项目的 ai 模块 (source)。来源: https://github.com/conductor-oss/conductor",
+    "domain": "web-frontend",
+    "tags": [
+      "distributed-systems",
+      "durable-execution",
+      "grpc",
+      "java",
+      "javascript",
+      "module-level",
+      "source",
+      "ai"
+    ],
+    "genes": [
+      {
+        "title": "ai 模块说明",
+        "content": "模块路径: ai/\n类型: source\n文件数: 159\n\n包含文件:\n- ai/CONTRIBUTING.md\n- ai/README.md\n- ai/VECTORDB_CONFIGURATION.md\n- ai/build.gradle\n- ai/examples\n- ai/examples/01-chat-completion.json\n- ai/examples/02-generate-embeddings.json\n- ai/examples/03-image-generation.json\n- ai/examples/04-audio-generation.json\n- ai/examples/05-semantic-search.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai 文件结构",
+        "content": "ai/CONTRIBUTING.md\nai/README.md\nai/VECTORDB_CONFIGURATION.md\nai/build.gradle\nai/examples\nai/examples/01-chat-completion.json\nai/examples/02-generate-embeddings.json\nai/examples/03-image-generation.json\nai/examples/04-audio-generation.json\nai/examples/05-semantic-search.json\nai/examples/06-rag-basic.json\nai/examples/07-rag-complete.json\nai/examples/08-mcp-list-tools.json\nai/examples/09-mcp-call-tool.json\nai/examples/10-mcp-ai-agent.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.29930216071287
+  }
+]

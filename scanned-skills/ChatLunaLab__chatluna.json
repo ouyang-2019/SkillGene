@@ -1,0 +1,73 @@
+[
+  {
+    "name": "chatluna (ChatLunaLab)",
+    "description": "[项目级] 多平台模型接入，可扩展，多种输出格式，提供大语言模型聊天服务的插件 | A bot plugin for LLM chat with multi-model integration, extensibility, and various output formats。来源: https://github.com/ChatLunaLab/chatluna",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "bot",
+      "chatbot",
+      "chatglm",
+      "chatgpt",
+      "typescript",
+      "stars-396",
+      "github-chatlunalab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "多平台模型接入，可扩展，多种输出格式，提供大语言模型聊天服务的插件 | A bot plugin for LLM chat with multi-model integration, extensibility, and various output formats\n\n来源: https://github.com/ChatLunaLab/chatluna\n语言: TypeScript\nStars: 396",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.MD\nLICENSE\nREADME.MD\nREADME_EN.MD\nREADME_JP.MD\npackage.json\npackages\npackages/adapter-azure-openai\npackages/adapter-claude\npackages/adapter-deepseek\npackages/adapter-dify\npackages/adapter-doubao\npackages/adapter-gemini\npackages/adapter-hunyuan\npackages/adapter-ollama\npackages/adapter-openai-like\npackages/adapter-openai\npackages/adapter-qwen\npackages/adapter-rwkv\npackages/adapter-spark",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "本项目由[ChatLunaLab](https://github.com/ChatLunaLab) 开发。\n\nChatLuna（下称本项目）\n是一个基于大型语言模型的对话机器人框架。我们致力于与开源社区合作，推动大模型技术的发展。我们强烈呼吁开发者和其他使用者遵守开源协议，确保不将本项目（以及社区推动的基于本项目的其他衍生产品）的框架和代码以及相关衍生物用于可能对国家和社会造成危害的任何目的，以及未经过安全评估和备案的服务。\n\n本项目不直接提供任何生成式人工智能服务的支持，需要使用者自行从提供了生产式人工智能服务的组织或个人获取使用的算法 API。\n\n如果您使用了本项目，请您遵循当地地区的法律法规，使用在当地地区内可用的生产式人工智能服务算法。\n\n本项目不对算法生成的结果负责，所有结果和操作均由使用者自行负责。\n\n本项目的相关信息存储均由用户自行配置来源，项目本身不提供直接的信息存储。\n\n本项目不承担使用者导致的数据安全、舆情风险或发生任何模型被误导、滥用、传播、不当利用而产生的风险和责任。",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* 🚀 高度可扩展（基于 LangChain 和 Koishi API）\n* 🎭 自定义对话预设\n* 🛡️ 速率限制和黑名单系统\n* 🎨 多格式输出（文本、语音、图像、混合）\n* 🧠 上下文感知和 [长期记忆](./packages/extension-long-memory/README.md)\n* 🔀 三种模式：聊天、浏览、Agent\n* 🔒 内容审核（通过 [Koishi 审核服务](https://censor.koishi.chat/)）",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2988475929627565
+  },
+  {
+    "name": "chatluna/packages 模块",
+    "description": "[模块级] chatluna 项目的 packages 模块 (source)。来源: https://github.com/ChatLunaLab/chatluna",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "bot",
+      "chatbot",
+      "chatglm",
+      "chatgpt",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 173\n\n包含文件:\n- packages/adapter-azure-openai\n- packages/adapter-azure-openai/README.md\n- packages/adapter-azure-openai/package.json\n- packages/adapter-azure-openai/src\n- packages/adapter-azure-openai/src/client.ts\n- packages/adapter-azure-openai/src/index.ts\n- packages/adapter-azure-openai/src/locales\n- packages/adapter-azure-openai/src/locales/en-US.schema.yml\n- packages/adapter-azure-openai/src/locales/zh-CN.schema.yml\n- packages/adapter-azure-openai/src/requester.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/adapter-azure-openai\npackages/adapter-azure-openai/README.md\npackages/adapter-azure-openai/package.json\npackages/adapter-azure-openai/src\npackages/adapter-azure-openai/src/client.ts\npackages/adapter-azure-openai/src/index.ts\npackages/adapter-azure-openai/src/locales\npackages/adapter-azure-openai/src/locales/en-US.schema.yml\npackages/adapter-azure-openai/src/locales/zh-CN.schema.yml\npackages/adapter-azure-openai/src/requester.ts\npackages/adapter-azure-openai/src/types.ts\npackages/adapter-azure-openai/tsconfig.json\npackages/adapter-claude\npackages/adapter-claude/README.md\npackages/adapter-claude/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.539078074370205
+  }
+]

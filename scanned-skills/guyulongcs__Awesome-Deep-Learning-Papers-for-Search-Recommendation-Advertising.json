@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising (guyulongcs)",
+    "description": "[项目级] Awesome Deep Learning papers for industrial Search, Recommendation and Advertisement. They focus on Embedding, Matching, Pre-Ranking, Ranking (CTR/CVR prediction), Post Ranking, Relevance, LLM, Reinforcement Learning and so on.。来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+    "domain": "ai-llm",
+    "tags": [
+      "advertising",
+      "ctr",
+      "cvr",
+      "deep-learning",
+      "recommender-system",
+      "python",
+      "stars-2327",
+      "github-guyulongcs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Awesome Deep Learning papers for industrial Search, Recommendation and Advertisement. They focus on Embedding, Matching, Pre-Ranking, Ranking (CTR/CVR prediction), Post Ranking, Relevance, LLM, Reinforcement Learning and so on.\n\n来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising\n语言: Python\nStars: 2327",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "00_Embedding\n00_Embedding/2013 (Google) (NIPS) [Word2vec] Distributed Representations of Words and Phrases and their Compositionality.pdf\n00_Embedding/2014 (KDD) [DeepWalk]  DeepWalk - online learning of social representations.pdf\n00_Embedding/2015 (WWW) [LINE] LINE Large-scale Information Network Embedding.pdf\n00_Embedding/2016 (KDD) [Node2vec] node2vec - Scalable Feature Learning for Networks.pdf\n00_Embedding/2017 (ICLR) [GCN] Semi-supervised Classification with Graph Convolutional Networks .pdf\n00_Embedding/2017 (KDD) [Struc2vec] struc2vec - Learning Node Representations from Structural Identity.pdf\n00_Embedding/2017 (NIPS) [GraphSAGE] Inductive Representation Learning on Large Graphs.pdf\n00_Embedding/2018 (Alibaba) (KDD) *[Alibaba Embedding] Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba.pdf\n00_Embedding/2018 (ICLR) [GAT]  Graph Attention Networks.pdf\n00_Embedding/2018 (Pinterest) (KDD) *[PinSage] Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf\n00_Embedding/2018 (WSDM) [NetMF] Network embedding as matrix factorization - Unifying deepwalk, line, pte, and node2vec.pdf\n00_Embedding/2019 (Alibaba) (KDD) *[GATNE] Representation Learning for Attributed Multiplex Heterogeneous Network.pdf\n01_Matching\n01_Matching/1998 (Microsoft) Empirical Analysis of Predictive Algorithms for Collaborative Filtering.pdf\n01_Matching/2003 (Amazon) Amazon.com recommendations - item-to-item collaborative filtering.pdf\n01_Matching/2009 (Computer) [MF] Matrix factorization techniques for recommender systems.pdf\n01_Matching/2013 (Microsoft) (CIKM) [DSSM] Learning deep structured semantic models for web search using clickthrough data.pdf\n01_Matching/2015 (KDD) [Sceptre] Inferring Networks of Substitutable and Complementary Products.pdf\n01_Matching/2016 (Google) (RecSys) **[Youtube DNN] Deep Neural Networks for YouTube Recommendations.pdf",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* [2010 (ICDM) [FM] Factorization machines](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/03_Ranking/Feature-Crossing/2010%20%28ICDM%29%20%5BFM%5D%20Factorization%20machines.pdf) <br />\n* [2013 (Google) (KDD) [LR] Ad Click Prediction - a View from the Trenches](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/03_Ranking/Feature-Crossing/2013%20%28Google%29%20%28KDD%29%20%5BLR%5D%20Ad%20Click%20Prediction%20-%20a%20View%20from%20the%20Trenches.pdf) <br />\n* [2016 (Arxiv) [PNN] Product-based Neural",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.683398191643365
+  },
+  {
+    "name": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising/00_Embedding 模块",
+    "description": "[模块级] Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising 项目的 00_Embedding 模块 (source)。来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+    "domain": "ai-llm",
+    "tags": [
+      "advertising",
+      "ctr",
+      "cvr",
+      "deep-learning",
+      "recommender-system",
+      "module-level",
+      "source",
+      "00_embedding"
+    ],
+    "genes": [
+      {
+        "title": "00_Embedding 模块说明",
+        "content": "* [2013 (Google) (NIPS) [Word2vec] Distributed Representations of Words and Phrases and their Compositionality](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/00_Embedding/2013%20%28Google%29%20%28NIPS%29%20%5BWord2vec%5D%20Distributed%20Representations%20of%20Words%20and%20Phrases%20and%20their%20Compositionality.pdf) <br />\n* [2014 (KDD) [DeepWalk]  DeepWalk - online learning of social representations](https://github.com/guyulongcs/Deep-Learnin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "00_Embedding 文件结构",
+        "content": "00_Embedding/2013 (Google) (NIPS) [Word2vec] Distributed Representations of Words and Phrases and their Compositionality.pdf\n00_Embedding/2014 (KDD) [DeepWalk]  DeepWalk - online learning of social representations.pdf\n00_Embedding/2015 (WWW) [LINE] LINE Large-scale Information Network Embedding.pdf\n00_Embedding/2016 (KDD) [Node2vec] node2vec - Scalable Feature Learning for Networks.pdf\n00_Embedding/2017 (ICLR) [GCN] Semi-supervised Classification with Graph Convolutional Networks .pdf\n00_Embedding/2017 (KDD) [Struc2vec] struc2vec - Learning Node Representations from Structural Identity.pdf\n00_Embedding/2017 (NIPS) [GraphSAGE] Inductive Representation Learning on Large Graphs.pdf\n00_Embedding/2018 (Alibaba) (KDD) *[Alibaba Embedding] Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba.pdf\n00_Embedding/2018 (ICLR) [GAT]  Graph Attention Networks.pdf\n00_Embedding/2018 (Pinterest) (KDD) *[PinSage] Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf\n00_Embedding/2018 (WSDM) [NetMF] Network embedding as matrix factorization - Unifying deepwalk, line, pte, and node2vec.pdf\n00_Embedding/2019 (Alibaba) (KDD) *[GATNE] Representation Learning for Attributed Multiplex Heterogeneous Network.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.846718553314692
+  },
+  {
+    "name": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising/01_Matching 模块",
+    "description": "[模块级] Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising 项目的 01_Matching 模块 (source)。来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+    "domain": "ai-llm",
+    "tags": [
+      "advertising",
+      "ctr",
+      "cvr",
+      "deep-learning",
+      "recommender-system",
+      "module-level",
+      "source",
+      "01_matching"
+    ],
+    "genes": [
+      {
+        "title": "01_Matching 模块说明",
+        "content": "* [1998 (Microsoft) Empirical Analysis of Predictive Algorithms for Collaborative Filtering](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/01_Matching/1998%20%28Microsoft%29%20Empirical%20Analysis%20of%20Predictive%20Algorithms%20for%20Collaborative%20Filtering.pdf) <br />\n* [2003 (Amazon) Amazon.com recommendations - item-to-item collaborative filtering](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/m",
+        "gene_type": "principle"
+      },
+      {
+        "title": "01_Matching 文件结构",
+        "content": "01_Matching/1998 (Microsoft) Empirical Analysis of Predictive Algorithms for Collaborative Filtering.pdf\n01_Matching/2003 (Amazon) Amazon.com recommendations - item-to-item collaborative filtering.pdf\n01_Matching/2009 (Computer) [MF] Matrix factorization techniques for recommender systems.pdf\n01_Matching/2013 (Microsoft) (CIKM) [DSSM] Learning deep structured semantic models for web search using clickthrough data.pdf\n01_Matching/2015 (KDD) [Sceptre] Inferring Networks of Substitutable and Complementary Products.pdf\n01_Matching/2016 (Google) (RecSys) **[Youtube DNN] Deep Neural Networks for YouTube Recommendations.pdf\n01_Matching/2018 (Airbnb) (KDD) *[Airbnb Embedding] Real-time Personalization using Embeddings for Search Ranking at Airbnb.pdf\n01_Matching/2018 (Alibaba) (KDD) * [TDM] Learning Tree-based Deep Model for Recommender Systems.pdf\n01_Matching/2018 (Pinterest) (KDD) *[PinSage] Graph Convolutional Neural Networks for Web-Scale Recommender Systems.pdf\n01_Matching/2019 (Alibaba) (CIKM) **[MIND] Multi-Interest Network with Dynamic Routing for Recommendation at Tmall.pdf\n01_Matching/2019 (Alibaba) (CIKM) *[SDM] SDM - Sequential deep matching model for online large-scale recommender system.pdf\n01_Matching/2019 (Alibaba) (NIPS) *[JTM] Joint Optimization of Tree-based Index and Deep Model for Recommender Systems.pdf\n01_Matching/2019 (Amazon) (KDD) Semantic Product Search.pdf\n01_Matching/2019 (Baidu) (KDD) *[MOBIUS] MOBIUS - Towards the Next Generation of Query-Ad Matching in Baidu's Sponsored Search.pdf\n01_Matching/2019 (Google) (RecSys) **[Two-Tower] Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.846718553314692
+  },
+  {
+    "name": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising/02_Pre-ranking 模块",
+    "description": "[模块级] Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising 项目的 02_Pre-ranking 模块 (source)。来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+    "domain": "ai-llm",
+    "tags": [
+      "advertising",
+      "ctr",
+      "cvr",
+      "deep-learning",
+      "recommender-system",
+      "module-level",
+      "source",
+      "02_pre-ranking"
+    ],
+    "genes": [
+      {
+        "title": "02_Pre-ranking 模块说明",
+        "content": "* [2020 (Alibaba) (DLP-KDD) [COLD] COLD - Towards the Next Generation of Pre-Ranking System](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/02_Pre-ranking/2020%20%28Alibaba%29%20%28DLP-KDD%29%20%5BCOLD%5D%20COLD%20-%20Towards%20the%20Next%20Generation%20of%20Pre-Ranking%20System.pdf) <br />\n* [2022 (Huawei) (SIGIR) [RankFlow] RankFlow - JointOptimization ofMulti-Stage CascadeRanking SystemsasFlows](https://github.com/guyulongcs/Deep-Learning-for-",
+        "gene_type": "principle"
+      },
+      {
+        "title": "02_Pre-ranking 文件结构",
+        "content": "02_Pre-ranking/2020 (Alibaba) (DLP-KDD) [COLD] COLD - Towards the Next Generation of Pre-Ranking System.pdf\n02_Pre-ranking/2022 (Huawei) (SIGIR) [RankFlow] RankFlow - JointOptimization ofMulti-Stage CascadeRanking SystemsasFlows.pdf\n02_Pre-ranking/2022 （Huawei) (CIKM) [IntTower] IntTower - the Next Generation of Two-Tower Model for Pre-Ranking System.pdf\n02_Pre-ranking/2023 (Alibaba) (CIKM) [COPR] COPR - Consistency-Oriented Pre-Ranking for Online Advertising.pdf\n02_Pre-ranking/2023 (Alibaba) (KDD) [ASMOL] Rethinking the Role of Pre-ranking in Large-scale E-Commerce Searching System.pdf\n02_Pre-ranking/2025 (Tencent) (Arxiv) [HIT] HIT Model - A Hierarchical Interaction-Enhanced Two-Tower Model for Pre-Ranking Systems.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.846718553314692
+  },
+  {
+    "name": "Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising/03_Ranking 模块",
+    "description": "[模块级] Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising 项目的 03_Ranking 模块 (source)。来源: https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising",
+    "domain": "ai-llm",
+    "tags": [
+      "advertising",
+      "ctr",
+      "cvr",
+      "deep-learning",
+      "recommender-system",
+      "module-level",
+      "source",
+      "03_ranking"
+    ],
+    "genes": [
+      {
+        "title": "03_Ranking 模块说明",
+        "content": "* [2014 (ADKDD) (Facebook) Practical Lessons from Predicting Clicks on Ads at Facebook](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/master/03_Ranking/2014%20%28ADKDD%29%20%28Facebook%29%20Practical%20Lessons%20from%20Predicting%20Clicks%20on%20Ads%20at%20Facebook.pdf) <br />\n* [2016 (Google) (DLRS) **[Wide & Deep] Wide & Deep Learning for Recommender Systems](https://github.com/guyulongcs/Deep-Learning-for-Search-Recommendation-Advertisements/blob/ma",
+        "gene_type": "principle"
+      },
+      {
+        "title": "03_Ranking 文件结构",
+        "content": "03_Ranking/2014 (ADKDD) (Facebook) Practical Lessons from Predicting Clicks on Ads at Facebook.pdf\n03_Ranking/2016 (Google) (DLRS) **[Wide & Deep] Wide & Deep Learning for Recommender Systems.pdf\n03_Ranking/2016 (Google) (RecSys) **[Youtube DNN] Deep Neural Networks for YouTube Recommendations.pdf\n03_Ranking/2018 (Alibaba) (KDD) **[DIN] Deep Interest Network for Click-Through Rate Prediction.pdf\n03_Ranking/2019 (Alibaba) (AAAI) **[DIEN] Deep Interest Evolution Network for Click-Through Rate Prediction.pdf\n03_Ranking/2019 (CIKM) ** [AutoInt] AutoInt -Automatic Feature Interaction Learning via Self-Attentive Neural Networks.pdf\n03_Ranking/2019 (Facebook) (Arxiv) [DLRM] (Facebook) Deep Learning Recommendation Model for Personalization and Recommendation Systems, Facebook.pdf\n03_Ranking/2019 (Google) (Recsys) ** [Youtube Multi-task] Recommending what video to watch next - a multitask ranking system.pdf\n03_Ranking/2020 (Alibaba) (Arxiv) ** [SIM] Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction.pdf\n03_Ranking/2020 (Alibaba) (NIPS) Neuron-level Structured Pruning using Polarization Regularizer.pdf\n03_Ranking/2020 (JD) (CIKM) **[DMT] Deep Multifaceted Transformers for Multi-objective Ranking in Large-Scale E-commerce Recommender Systems.pdf\n03_Ranking/2020 (Tencent) (Recsys) **  [PLE] Progressive Layered Extraction (PLE) - A Novel Multi-Task Learning (MTL) Model for Personalized Recommendations.pdf\n03_Ranking/2021 (Alibaba) (CIKM) * [ZEUS] Self-Supervised Learning on Users’ Spontaneous Behaviors for Multi-Scenario Ranking in E-commerce.pdf\n03_Ranking/2021 (Alibaba) (CIKM) [STAR] One Model to Serve All - Star Topology Adaptive Recommender for Multi-Domain CTR Prediction.pdf\n03_Ranking/2021 (Google) (WWW) * [DCN V2] DCN V2 - Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.846718553314692
+  }
+]

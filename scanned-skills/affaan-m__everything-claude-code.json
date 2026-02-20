@@ -10,14 +10,14 @@
       "claude-code",
       "developer-tools",
       "javascript",
-      "stars-48639",
+      "stars-48655",
       "github-affaan-m",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.\n\n来源: https://github.com/affaan-m/everything-claude-code\n语言: JavaScript\nStars: 48639",
+        "content": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.\n\n来源: https://github.com/affaan-m/everything-claude-code\n语言: JavaScript\nStars: 48655",
         "gene_type": "principle"
       },
       {

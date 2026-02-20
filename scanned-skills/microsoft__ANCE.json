@@ -1,0 +1,173 @@
+[
+  {
+    "name": "ANCE (microsoft)",
+    "description": "[项目级] A novel embedding training algorithm leveraging ANN search and achieved SOTA retrieval on Trec DL 2019 and OpenQA benchmarks。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A novel embedding training algorithm leveraging ANN search and achieved SOTA retrieval on Trec DL 2019 and OpenQA benchmarks\n\n来源: https://github.com/microsoft/ANCE\n语言: Python\nStars: 383",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nLICENSE\nREADME.md\nSECURITY.md\ncommands\ncommands/data_download.sh\ncommands/run_ann_data_gen.sh\ncommands/run_ann_data_gen_dpr.sh\ncommands/run_inference.sh\ncommands/run_train.sh\ncommands/run_train_dpr.sh\ncommands/run_train_warmup.sh\ndata\ndata/DPR_data.py\ndata/msmarco_data.py\ndata/process_fn.py\ndrivers\ndrivers/run_ann.py\ndrivers/run_ann_data_gen.py\ndrivers/run_ann_data_gen_dpr.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.291599386984311
+  },
+  {
+    "name": "ANCE/commands 模块",
+    "description": "[模块级] ANCE 项目的 commands 模块 (source)。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 7\n\n包含文件:\n- commands/data_download.sh\n- commands/run_ann_data_gen.sh\n- commands/run_ann_data_gen_dpr.sh\n- commands/run_inference.sh\n- commands/run_train.sh\n- commands/run_train_dpr.sh\n- commands/run_train_warmup.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/data_download.sh\ncommands/run_ann_data_gen.sh\ncommands/run_ann_data_gen_dpr.sh\ncommands/run_inference.sh\ncommands/run_train.sh\ncommands/run_train_dpr.sh\ncommands/run_train_warmup.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.533279509587449
+  },
+  {
+    "name": "ANCE/data 模块",
+    "description": "[模块级] ANCE 项目的 data 模块 (source)。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "To download all the needed data, run:\n```\nbash commands/data_download.sh \n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/DPR_data.py\ndata/msmarco_data.py\ndata/process_fn.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "data 代码示例",
+        "content": "bash commands/data_download.sh",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.533279509587449
+  },
+  {
+    "name": "ANCE/drivers 模块",
+    "description": "[模块级] ANCE 项目的 drivers 模块 (source)。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "drivers"
+    ],
+    "genes": [
+      {
+        "title": "drivers 模块说明",
+        "content": "模块路径: drivers/\n类型: source\n文件数: 5\n\n包含文件:\n- drivers/run_ann.py\n- drivers/run_ann_data_gen.py\n- drivers/run_ann_data_gen_dpr.py\n- drivers/run_ann_dpr.py\n- drivers/run_warmup.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drivers 文件结构",
+        "content": "drivers/run_ann.py\ndrivers/run_ann_data_gen.py\ndrivers/run_ann_data_gen_dpr.py\ndrivers/run_ann_dpr.py\ndrivers/run_warmup.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.533279509587449
+  },
+  {
+    "name": "ANCE/model 模块",
+    "description": "[模块级] ANCE 项目的 model 模块 (source)。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "model"
+    ],
+    "genes": [
+      {
+        "title": "model 模块说明",
+        "content": "模块路径: model/\n类型: source\n文件数: 13\n\n包含文件:\n- model/SEED_Encoder\n- model/SEED_Encoder/SEED-Encoder.md\n- model/SEED_Encoder/__init__.py\n- model/SEED_Encoder/config_decoder_1_attn_8.json\n- model/SEED_Encoder/config_decoder_3_attn_2.json\n- model/SEED_Encoder/configuration_seed_encoder.py\n- model/SEED_Encoder/modeling_seed_encoder.py\n- model/SEED_Encoder/modules.py\n- model/SEED_Encoder/setup.py\n- model/SEED_Encoder/tokenization_seed_encoder.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "model 文件结构",
+        "content": "model/SEED_Encoder\nmodel/SEED_Encoder/SEED-Encoder.md\nmodel/SEED_Encoder/__init__.py\nmodel/SEED_Encoder/config_decoder_1_attn_8.json\nmodel/SEED_Encoder/config_decoder_3_attn_2.json\nmodel/SEED_Encoder/configuration_seed_encoder.py\nmodel/SEED_Encoder/modeling_seed_encoder.py\nmodel/SEED_Encoder/modules.py\nmodel/SEED_Encoder/setup.py\nmodel/SEED_Encoder/tokenization_seed_encoder.py\nmodel/SEED_Encoder/transformer_sentence_encoder.py\nmodel/SEED_Encoder/vocab.txt\nmodel/models.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.533279509587449
+  },
+  {
+    "name": "ANCE/utils 模块",
+    "description": "[模块级] ANCE 项目的 utils 模块 (source)。来源: https://github.com/microsoft/ANCE",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-383",
+      "github-microsoft",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 5\n\n包含文件:\n- utils/dpr_utils.py\n- utils/eval_mrr.py\n- utils/lamb.py\n- utils/msmarco_eval.py\n- utils/util.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/dpr_utils.py\nutils/eval_mrr.py\nutils/lamb.py\nutils/msmarco_eval.py\nutils/util.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.533279509587449
+  }
+]

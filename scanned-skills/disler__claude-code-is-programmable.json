@@ -1,0 +1,127 @@
+[
+  {
+    "name": "claude-code-is-programmable (disler)",
+    "description": "[项目级] Scale your compute with Claude Code as a programmable agentic coding tool 。来源: https://github.com/disler/claude-code-is-programmable",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-291",
+      "github-disler",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Scale your compute with Claude Code as a programmable agentic coding tool \n\n来源: https://github.com/disler/claude-code-is-programmable\n语言: Python\nStars: 291",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "First off - run these right away to understand how important this is:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nai_docs\nai_docs/anthropic_web_search_tool.md\nai_docs/claude-code-tutorials.md\nai_docs/claude_code_best_practices.md\nai_docs/claude_code_tech.md\nai_docs/fc_openai_agents.md\nai_docs/uv-single-file-scripts.md\naider_is_programmable_1.sh\naider_is_programmable_2.js\naider_is_programmable_2.py\nanthropic_search.py\nbonus\nbonus/claude_code_inside_openai_agent_sdk_4_bonus.py\nbonus/starter_notion_agent.py\nclaude_code_is_programmable_1.sh\nclaude_code_is_programmable_2.js\nclaude_code_is_programmable_2.py\nclaude_code_is_programmable_3.py\nclaude_code_is_programmable_4.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "claude -p \"make a hello.js script that prints hello\" --allowedTools \"Write\" \"Edit\"",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.231946494492954
+  },
+  {
+    "name": "claude-code-is-programmable/ai_docs 模块",
+    "description": "[模块级] claude-code-is-programmable 项目的 ai_docs 模块 (source)。来源: https://github.com/disler/claude-code-is-programmable",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-291",
+      "github-disler",
+      "module-level",
+      "source",
+      "ai_docs"
+    ],
+    "genes": [
+      {
+        "title": "ai_docs 模块说明",
+        "content": "模块路径: ai_docs/\n类型: source\n文件数: 6\n\n包含文件:\n- ai_docs/anthropic_web_search_tool.md\n- ai_docs/claude-code-tutorials.md\n- ai_docs/claude_code_best_practices.md\n- ai_docs/claude_code_tech.md\n- ai_docs/fc_openai_agents.md\n- ai_docs/uv-single-file-scripts.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_docs 文件结构",
+        "content": "ai_docs/anthropic_web_search_tool.md\nai_docs/claude-code-tutorials.md\nai_docs/claude_code_best_practices.md\nai_docs/claude_code_tech.md\nai_docs/fc_openai_agents.md\nai_docs/uv-single-file-scripts.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.485557195594363
+  },
+  {
+    "name": "claude-code-is-programmable/bonus 模块",
+    "description": "[模块级] claude-code-is-programmable 项目的 bonus 模块 (source)。来源: https://github.com/disler/claude-code-is-programmable",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-291",
+      "github-disler",
+      "module-level",
+      "source",
+      "bonus"
+    ],
+    "genes": [
+      {
+        "title": "bonus 模块说明",
+        "content": "- `starter_notion_agent.py`: A starter template for creating a Notion agent using the OpenAI Agent SDK.\n  ```bash\n  uv run bonus/starter_notion_agent.py\n  ```\n- `claude_code_inside_openai_agent_sdk_4_bonus.py`: An advanced implementation that integrates Claude Code within the OpenAI Agent SDK. Requires a Notion page name as an argument.\n  ```bash\n  uv run bonus/claude_code_inside_openai_agent_sdk_4_bonus.py \"My Notion Page\"\n  ```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bonus 文件结构",
+        "content": "bonus/claude_code_inside_openai_agent_sdk_4_bonus.py\nbonus/starter_notion_agent.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "bonus 代码示例",
+        "content": "uv run bonus/starter_notion_agent.py",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.485557195594363
+  },
+  {
+    "name": "claude-code-is-programmable/images 模块",
+    "description": "[模块级] claude-code-is-programmable 项目的 images 模块 (source)。来源: https://github.com/disler/claude-code-is-programmable",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-291",
+      "github-disler",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 2\n\n包含文件:\n- images/programmable-agentic-coding.png\n- images/voice-to-claude-code.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/programmable-agentic-coding.png\nimages/voice-to-claude-code.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.485557195594363
+  }
+]

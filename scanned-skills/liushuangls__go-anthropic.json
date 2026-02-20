@@ -1,0 +1,138 @@
+[
+  {
+    "name": "go-anthropic (liushuangls)",
+    "description": "[项目级] Anthropic Claude API wrapper for Go。来源: https://github.com/liushuangls/go-anthropic",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "go",
+      "stars-168",
+      "github-liushuangls",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Anthropic Claude API wrapper for Go\n\n来源: https://github.com/liushuangls/go-anthropic\n语言: Go\nStars: 168",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "go get github.com/liushuangls/go-anthropic/v2",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbatch.go\nbatch_test.go\ncitations_test.go\nclient.go\nclient_test.go\nclientadapter.go\ncommon.go\ncommon_test.go\ncomplete.go\ncomplete_stream.go\ncomplete_stream_test.go\ncomplete_test.go\nconfig.go\nconfig_test.go\ncount_tokens.go\ncount_tokens_test.go\ndefaultadapter.go\nerror.go",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Anthropic provides several beta features that can be enabled using the following beta version identifiers:\n\nBeta Version Identifier            | Code Constant                   | Description\n-----------------------------------|---------------------------------|---------------------------------\n`tools-2024-04-04`                 | `BetaTools20240404`             | Initial tools beta\n`tools-2024-05-16`                 | `BetaTools20240516`             | Updated tools beta\n`prompt-caching-2024-07-31`        | `BetaPromptCaching20240731`     | Prompt caching beta\n`message-batches-2024-09-24`      ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.112654640862932
+  },
+  {
+    "name": "go-anthropic/integrationtest 模块",
+    "description": "[模块级] go-anthropic 项目的 integrationtest 模块 (source)。来源: https://github.com/liushuangls/go-anthropic",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "module-level",
+      "source",
+      "integrationtest"
+    ],
+    "genes": [
+      {
+        "title": "integrationtest 模块说明",
+        "content": "模块路径: integrationtest/\n类型: source\n文件数: 13\n\n包含文件:\n- integrationtest/batch_test.go\n- integrationtest/citations_test.go\n- integrationtest/common_test.go\n- integrationtest/complete_test.go\n- integrationtest/count_tokens_test.go\n- integrationtest/go.mod\n- integrationtest/go.sum\n- integrationtest/integration_test.go\n- integrationtest/messages_test.go\n- integrationtest/sources",
+        "gene_type": "principle"
+      },
+      {
+        "title": "integrationtest 文件结构",
+        "content": "integrationtest/batch_test.go\nintegrationtest/citations_test.go\nintegrationtest/common_test.go\nintegrationtest/complete_test.go\nintegrationtest/count_tokens_test.go\nintegrationtest/go.mod\nintegrationtest/go.sum\nintegrationtest/integration_test.go\nintegrationtest/messages_test.go\nintegrationtest/sources\nintegrationtest/sources/apology.pdf\nintegrationtest/utils.go\nintegrationtest/vertex_messages_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.390123712690345
+  },
+  {
+    "name": "go-anthropic/internal 模块",
+    "description": "[模块级] go-anthropic 项目的 internal 模块 (source)。来源: https://github.com/liushuangls/go-anthropic",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 6\n\n包含文件:\n- internal/test\n- internal/test/checks\n- internal/test/checks/checks.go\n- internal/test/server.go\n- internal/test/sources\n- internal/test/sources/ant.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/test\ninternal/test/checks\ninternal/test/checks/checks.go\ninternal/test/server.go\ninternal/test/sources\ninternal/test/sources/ant.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.390123712690345
+  },
+  {
+    "name": "go-anthropic/jsonschema 模块",
+    "description": "[模块级] go-anthropic 项目的 jsonschema 模块 (source)。来源: https://github.com/liushuangls/go-anthropic",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "module-level",
+      "source",
+      "jsonschema"
+    ],
+    "genes": [
+      {
+        "title": "jsonschema 模块说明",
+        "content": "模块路径: jsonschema/\n类型: source\n文件数: 2\n\n包含文件:\n- jsonschema/json.go\n- jsonschema/json_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jsonschema 文件结构",
+        "content": "jsonschema/json.go\njsonschema/json_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.390123712690345
+  }
+]

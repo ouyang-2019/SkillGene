@@ -1,0 +1,66 @@
+[
+  {
+    "name": "PdfGptIndexer (raghavan)",
+    "description": "[项目级] RAG based tool for indexing and searching PDF text data using OpenAI API and FAISS (Facebook AI Similarity Search) index, designed for rapid information retrieval and superior search accuracy.。来源: https://github.com/raghavan/PdfGptIndexer",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-679",
+      "github-raghavan",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAG based tool for indexing and searching PDF text data using OpenAI API and FAISS (Facebook AI Similarity Search) index, designed for rapid information retrieval and superior search accuracy.\n\n来源: https://github.com/raghavan/PdfGptIndexer\n语言: Python\nStars: 679",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nchatbot.py\nindexer.py\npdf\npdf/DeepSeek-VL-Real-World_Vision_Language.pdf\npdf/KIMI_SCALING_REINFORCEMENT_LEARNING_WITH LLMS.pdf\npdf/The Llama 3 Herd of Models.pdf\npdf/attention_is_all_you_need.pdf\nrequirements.txt\ntext\ntext/sample.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.415934887140251
+  },
+  {
+    "name": "PdfGptIndexer/pdf 模块",
+    "description": "[模块级] PdfGptIndexer 项目的 pdf 模块 (source)。来源: https://github.com/raghavan/PdfGptIndexer",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-679",
+      "github-raghavan",
+      "module-level",
+      "source",
+      "pdf"
+    ],
+    "genes": [
+      {
+        "title": "pdf 模块说明",
+        "content": "**PdfGptIndexer was featured at the top of [Hacker News](https://news.ycombinator.com/item?id=36648794)!**\n<img width=\"1139\" alt=\"Screenshot 2024-05-18 at 9 38 18 AM\" src=\"https://github.com/raghavan/raghavan/assets/131585/24215a9a-d423-45a8-8c4d-d9ee8b1ec752\">",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pdf 文件结构",
+        "content": "pdf/DeepSeek-VL-Real-World_Vision_Language.pdf\npdf/KIMI_SCALING_REINFORCEMENT_LEARNING_WITH LLMS.pdf\npdf/The Llama 3 Herd of Models.pdf\npdf/attention_is_all_you_need.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.632747909712201
+  }
+]

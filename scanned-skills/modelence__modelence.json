@@ -1,0 +1,133 @@
+[
+  {
+    "name": "modelence (modelence)",
+    "description": "[项目级] Modelence is an all-in-one TypeScript platform. We're building a Supabase alternative for MongoDB developers shipping production apps, with built-in database, auth, vector search and monitoring.。来源: https://github.com/modelence/modelence",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "modelence",
+      "mongodb",
+      "node",
+      "typescript",
+      "stars-347",
+      "github-modelence",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Modelence is an all-in-one TypeScript platform. We're building a Supabase alternative for MongoDB developers shipping production apps, with built-in database, auth, vector search and monitoring.\n\n来源: https://github.com/modelence/modelence\n语言: TypeScript\nStars: 347",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Modelence is an all-in-one TypeScript framework for startups shipping production apps, with the mission to eliminate all boilerplate for standard features that modern web applications need, like authentication, database setup, cron jobs, AI observability, email and more.\n\n> **Prerequisites:** Modelence requires [Node.js 20.20](https://nodejs.org/en/download) or higher.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nPUBLISHING.md\nREADME.md\nassets\nassets/finchat-preview.png\nassets/smartrepos-preview.png\nassets/typesonic-preview.png\ndocs\ndocs/.gitignore\ndocs/gen\ndocs/web\npackages\npackages/ai\npackages/auth-ui\npackages/aws-ses\npackages/create-modelence-app\npackages/modelence",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "For more examples on how to use Modelence, check out https://github.com/modelence/examples",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.270164737395437
+  },
+  {
+    "name": "modelence/assets 模块",
+    "description": "[模块级] modelence 项目的 assets 模块 (source)。来源: https://github.com/modelence/modelence",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "modelence",
+      "mongodb",
+      "node",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/finchat-preview.png\n- assets/smartrepos-preview.png\n- assets/typesonic-preview.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/finchat-preview.png\nassets/smartrepos-preview.png\nassets/typesonic-preview.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.51613178991635
+  },
+  {
+    "name": "modelence/docs 模块",
+    "description": "[模块级] modelence 项目的 docs 模块 (docs)。来源: https://github.com/modelence/modelence",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "cloud",
+      "modelence",
+      "mongodb",
+      "node",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 46\n\n包含文件:\n- docs/.gitignore\n- docs/gen\n- docs/gen/package-lock.json\n- docs/gen/package.json\n- docs/gen/scripts\n- docs/gen/scripts/custom-frontmatter.mjs\n- docs/gen/typedoc.json\n- docs/web\n- docs/web/README.md\n- docs/web/authentication",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/gen\ndocs/gen/package-lock.json\ndocs/gen/package.json\ndocs/gen/scripts\ndocs/gen/scripts/custom-frontmatter.mjs\ndocs/gen/typedoc.json\ndocs/web\ndocs/web/README.md\ndocs/web/authentication\ndocs/web/authentication/email-verification.mdx\ndocs/web/authentication/github-sign-in.mdx\ndocs/web/authentication/google-sign-in.mdx\ndocs/web/authentication/hooks.mdx\ndocs/web/authentication/index.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.51613178991635
+  },
+  {
+    "name": "modelence/packages 模块",
+    "description": "[模块级] modelence 项目的 packages 模块 (source)。来源: https://github.com/modelence/modelence",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "cloud",
+      "modelence",
+      "mongodb",
+      "node",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 135\n\n包含文件:\n- packages/ai\n- packages/ai/README.md\n- packages/ai/jest.config.js\n- packages/ai/package-lock.json\n- packages/ai/package.json\n- packages/ai/src\n- packages/ai/src/index.test.ts\n- packages/ai/src/index.ts\n- packages/ai/tsconfig.json\n- packages/ai/tsup.config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/ai\npackages/ai/README.md\npackages/ai/jest.config.js\npackages/ai/package-lock.json\npackages/ai/package.json\npackages/ai/src\npackages/ai/src/index.test.ts\npackages/ai/src/index.ts\npackages/ai/tsconfig.json\npackages/ai/tsup.config.ts\npackages/ai/typedoc.json\npackages/auth-ui\npackages/auth-ui/.npmignore\npackages/auth-ui/.npmrc\npackages/auth-ui/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.51613178991635
+  }
+]

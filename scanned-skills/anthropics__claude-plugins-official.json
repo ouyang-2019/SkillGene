@@ -8,14 +8,14 @@
       "mcp",
       "skills",
       "python",
-      "stars-7741",
+      "stars-7758",
       "github-anthropics",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n来源: https://github.com/anthropics/claude-plugins-official\n语言: Python\nStars: 7741",
+        "content": "Official, Anthropic-managed directory of high quality Claude Code Plugins.\n\n来源: https://github.com/anthropics/claude-plugins-official\n语言: Python\nStars: 7758",
         "gene_type": "principle"
       },
       {
@@ -31,7 +31,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.94439853372834
+    "rating": 4.944874887632019
   },
   {
     "name": "claude-plugins-official/external_plugins 模块",
@@ -42,7 +42,7 @@
       "mcp",
       "skills",
       "python",
-      "stars-7741",
+      "stars-7758",
       "module-level",
       "source",
       "external_plugins"
@@ -61,7 +61,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.055518826982672
+    "rating": 4.055899910105615
   },
   {
     "name": "claude-plugins-official/plugins 模块",
@@ -72,7 +72,7 @@
       "mcp",
       "skills",
       "python",
-      "stars-7741",
+      "stars-7758",
       "module-level",
       "source",
       "plugins"
@@ -91,6 +91,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.055518826982672
+    "rating": 4.055899910105615
   }
 ]

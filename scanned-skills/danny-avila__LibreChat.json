@@ -1,0 +1,68 @@
+[
+  {
+    "name": "LibreChat (danny-avila)",
+    "description": "[项目级] Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.。来源: https://github.com/danny-avila/LibreChat",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "artifacts",
+      "aws",
+      "azure",
+      "typescript",
+      "stars-33974",
+      "github-danny-avila",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.\n\n来源: https://github.com/danny-avila/LibreChat\n语言: TypeScript\nStars: 33974",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nDockerfile\nDockerfile.multi\nLICENSE\nREADME.md\napi\napi/app\napi/cache\napi/config\napi/db\napi/jest.config.js\napi/jsconfig.json\napi/models\napi/package.json\napi/server",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🖥️ **UI & Experience** inspired by ChatGPT with enhanced design and features\n\n- 🤖 **AI Model Selection**:  \n  - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure)\n  - [Custom Endpoints](https://www.librechat.ai/docs/quick_start/custom_endpoints): Use any OpenAI-compatible API with LibreChat, no proxy required\n  - Compatible with [Local & Remote AI Providers](https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints):\n    - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai,\n    - OpenRouter, Helicone, ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "LibreChat/api 模块",
+    "description": "[模块级] LibreChat 项目的 api 模块 (source)。来源: https://github.com/danny-avila/LibreChat",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "anthropic",
+      "artifacts",
+      "aws",
+      "azure",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 144\n\n包含文件:\n- api/app\n- api/app/clients\n- api/app/clients/BaseClient.js\n- api/app/clients/OllamaClient.js\n- api/app/clients/TextStream.js\n- api/app/clients/index.js\n- api/app/clients/prompts\n- api/app/clients/prompts/artifacts.js\n- api/app/clients/prompts/createContextHandlers.js\n- api/app/clients/prompts/createVisionPrompt.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/app\napi/app/clients\napi/app/clients/BaseClient.js\napi/app/clients/OllamaClient.js\napi/app/clients/TextStream.js\napi/app/clients/index.js\napi/app/clients/prompts\napi/app/clients/prompts/artifacts.js\napi/app/clients/prompts/createContextHandlers.js\napi/app/clients/prompts/createVisionPrompt.js\napi/app/clients/prompts/formatAgentMessages.spec.js\napi/app/clients/prompts/formatGoogleInputs.js\napi/app/clients/prompts/formatGoogleInputs.spec.js\napi/app/clients/prompts/formatMessages.js\napi/app/clients/prompts/formatMessages.spec.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.31245867298008
+  }
+]

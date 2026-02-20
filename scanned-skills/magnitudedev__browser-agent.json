@@ -1,0 +1,153 @@
+[
+  {
+    "name": "browser-agent (magnitudedev)",
+    "description": "[项目级] Open-source, vision-first browser agent。来源: https://github.com/magnitudedev/browser-agent",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "browser",
+      "framework",
+      "javascipt",
+      "typescript",
+      "stars-3962",
+      "github-magnitudedev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source, vision-first browser agent\n\n来源: https://github.com/magnitudedev/browser-agent\n语言: TypeScript\nStars: 3962",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/banner.png\nassets/full-header.png\nassets/readme.gif\nbun.lock\ndocs\ndocs/README.md\ndocs/advanced\ndocs/contributing\ndocs/core-concepts\ndocs/docs.json\ndocs/getting-started\ndocs/integrations\ndocs/logo.svg\ndocs/reference\ndocs/style.css\ndocs/testing\nevals",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.798957235601264
+  },
+  {
+    "name": "browser-agent/assets 模块",
+    "description": "[模块级] browser-agent 项目的 assets 模块 (source)。来源: https://github.com/magnitudedev/browser-agent",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "browser",
+      "framework",
+      "javascipt",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/banner.png\n- assets/full-header.png\n- assets/readme.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/banner.png\nassets/full-header.png\nassets/readme.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  },
+  {
+    "name": "browser-agent/docs 模块",
+    "description": "[模块级] browser-agent 项目的 docs 模块 (docs)。来源: https://github.com/magnitudedev/browser-agent",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "automation",
+      "browser",
+      "framework",
+      "javascipt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 36\n\n包含文件:\n- docs/README.md\n- docs/advanced\n- docs/advanced/memory.mdx\n- docs/advanced/roles.mdx\n- docs/contributing\n- docs/contributing/creating-prs.mdx\n- docs/contributing/introduction.mdx\n- docs/contributing/setup.mdx\n- docs/contributing/suggestions.mdx\n- docs/core-concepts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/advanced\ndocs/advanced/memory.mdx\ndocs/advanced/roles.mdx\ndocs/contributing\ndocs/contributing/creating-prs.mdx\ndocs/contributing/introduction.mdx\ndocs/contributing/setup.mdx\ndocs/contributing/suggestions.mdx\ndocs/core-concepts\ndocs/core-concepts/agent-options.mdx\ndocs/core-concepts/browser-interaction.mdx\ndocs/core-concepts/compatible-llms.mdx\ndocs/core-concepts/data-extraction.mdx\ndocs/core-concepts/playwright.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  },
+  {
+    "name": "browser-agent/evals 模块",
+    "description": "[模块级] browser-agent 项目的 evals 模块 (source)。来源: https://github.com/magnitudedev/browser-agent",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "browser",
+      "framework",
+      "javascipt",
+      "module-level",
+      "source",
+      "evals"
+    ],
+    "genes": [
+      {
+        "title": "evals 模块说明",
+        "content": "模块路径: evals/\n类型: source\n文件数: 27\n\n包含文件:\n- evals/basic\n- evals/basic/run_scroll_tests.sh\n- evals/basic/run_shadow_tests.sh\n- evals/basic/run_site.sh\n- evals/basic/site\n- evals/basic/site/scroll\n- evals/basic/site/scroll/index.html\n- evals/basic/site/shadow\n- evals/basic/site/shadow/index.html\n- evals/basic/tests",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evals 文件结构",
+        "content": "evals/basic\nevals/basic/run_scroll_tests.sh\nevals/basic/run_shadow_tests.sh\nevals/basic/run_site.sh\nevals/basic/site\nevals/basic/site/scroll\nevals/basic/site/scroll/index.html\nevals/basic/site/shadow\nevals/basic/site/shadow/index.html\nevals/basic/tests\nevals/basic/tests/magnitude.config.ts\nevals/basic/tests/scroll\nevals/basic/tests/scroll/scroll.mag.ts\nevals/basic/tests/shadow\nevals/basic/tests/shadow/shadow.mag.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  },
+  {
+    "name": "browser-agent/packages 模块",
+    "description": "[模块级] browser-agent 项目的 packages 模块 (source)。来源: https://github.com/magnitudedev/browser-agent",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "browser",
+      "framework",
+      "javascipt",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 116\n\n包含文件:\n- packages/create-magnitude-app\n- packages/create-magnitude-app/CHANGELOG.md\n- packages/create-magnitude-app/package.json\n- packages/create-magnitude-app/src\n- packages/create-magnitude-app/src/claudeCode.ts\n- packages/create-magnitude-app/src/cli.ts\n- packages/create-magnitude-app/src/version.ts\n- packages/create-magnitude-app/tsconfig.json\n- packages/create-magnitude-app/tsup.config.ts\n- packages/magnitude-core",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/create-magnitude-app\npackages/create-magnitude-app/CHANGELOG.md\npackages/create-magnitude-app/package.json\npackages/create-magnitude-app/src\npackages/create-magnitude-app/src/claudeCode.ts\npackages/create-magnitude-app/src/cli.ts\npackages/create-magnitude-app/src/version.ts\npackages/create-magnitude-app/tsconfig.json\npackages/create-magnitude-app/tsup.config.ts\npackages/magnitude-core\npackages/magnitude-core/.gitignore\npackages/magnitude-core/CHANGELOG.md\npackages/magnitude-core/baml_src\npackages/magnitude-core/baml_src/behaviorTests.baml\npackages/magnitude-core/baml_src/clients.baml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.939165788481011
+  }
+]

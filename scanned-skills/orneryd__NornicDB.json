@@ -1,0 +1,168 @@
+[
+  {
+    "name": "NornicDB (orneryd)",
+    "description": "[项目级] NornicDB is a high-performance graph + vector database built for AI agents and knowledge systems. It speaks Neo4j's (Bolt + Cypher) and qdrant's (gRPC) languages so you can use Nornic with zero code changes, while adding intelligent features including a graphql endpoint, air-gapped embeddings, GPU accelerated search, and other intelligent features.。来源: https://github.com/orneryd/NornicDB",
+    "domain": "ai-llm",
+    "tags": [
+      "bolt",
+      "cypher",
+      "cypher-query-language",
+      "database",
+      "embedded-systems",
+      "go",
+      "stars-132",
+      "github-orneryd",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "NornicDB is a high-performance graph + vector database built for AI agents and knowledge systems. It speaks Neo4j's (Bolt + Cypher) and qdrant's (gRPC) languages so you can use Nornic with zero code changes, while adding intelligent features including a graphql endpoint, air-gapped embeddings, GPU accelerated search, and other intelligent features.\n\n来源: https://github.com/orneryd/NornicDB\n语言: Go\nStars: 132",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCONTRIBUTING.md\nCONTRIBUTORS.md\nDIY.md\nLICENSE\nMakefile\nNOTICES.md\nREADME.md\napoc\napoc/README.md\napoc/agg\napoc/algo\napoc/apoc.go\napoc/atomic\napoc/bitwise\napoc/coll\napoc/community\napoc/config.go\napoc/convert",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.060286965602925
+  },
+  {
+    "name": "NornicDB/apoc 模块",
+    "description": "[模块级] NornicDB 项目的 apoc 模块 (source)。来源: https://github.com/orneryd/NornicDB",
+    "domain": "ai-llm",
+    "tags": [
+      "bolt",
+      "cypher",
+      "cypher-query-language",
+      "database",
+      "embedded-systems",
+      "module-level",
+      "source",
+      "apoc"
+    ],
+    "genes": [
+      {
+        "title": "apoc 模块说明",
+        "content": "950+ built-in functions for text, math, collections, and more. Plus a plugin system for custom extensions.\n\n```cypher\n// Text processing\nRETURN apoc.text.camelCase('hello world')  // \"helloWorld\"\nRETURN apoc.text.slugify('Hello World!')   // \"hello-world\"\n\n// Machine learning\nRETURN apoc.ml.sigmoid(0)                  // 0.5\nRETURN apoc.ml.cosineSimilarity([1,0], [0,1])  // 0.0\n\n// Collections\nRETURN apoc.coll.sum([1, 2, 3, 4, 5])      // 15\n```\n\nDrop custom `.so` plugins into `/app/plugins/` fo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apoc 文件结构",
+        "content": "apoc/README.md\napoc/agg\napoc/agg/agg.go\napoc/algo\napoc/algo/algo.go\napoc/apoc.go\napoc/atomic\napoc/atomic/atomic.go\napoc/atomic/atomic_test.go\napoc/bitwise\napoc/bitwise/bitwise.go\napoc/coll\napoc/coll/coll.go\napoc/coll/coll_test.go\napoc/community",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "apoc 代码示例",
+        "content": "// Text processing\nRETURN apoc.text.camelCase('hello world')  // \"helloWorld\"\nRETURN apoc.text.slugify('Hello World!')   // \"hello-world\"\n\n// Machine learning\nRETURN apoc.ml.sigmoid(0)                  // 0.5\nRETURN apoc.ml.cosineSimilarity([1,0], [0,1])  // 0.0\n\n// Collections\nRETURN apoc.coll.sum([1, 2, 3, 4, 5])      // 15",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.34822957248234
+  },
+  {
+    "name": "NornicDB/cmd 模块",
+    "description": "[模块级] NornicDB 项目的 cmd 模块 (source)。来源: https://github.com/orneryd/NornicDB",
+    "domain": "ai-llm",
+    "tags": [
+      "bolt",
+      "cypher",
+      "cypher-query-language",
+      "database",
+      "embedded-systems",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 14\n\n包含文件:\n- cmd/eval\n- cmd/eval/main.go\n- cmd/kmeans-test-data\n- cmd/kmeans-test-data/README.md\n- cmd/kmeans-test-data/main.go\n- cmd/nornicdb\n- cmd/nornicdb/main.go\n- cmd/oauth-provider\n- cmd/oauth-provider/README.md\n- cmd/oauth-provider/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/eval\ncmd/eval/main.go\ncmd/kmeans-test-data\ncmd/kmeans-test-data/README.md\ncmd/kmeans-test-data/main.go\ncmd/nornicdb\ncmd/nornicdb/main.go\ncmd/oauth-provider\ncmd/oauth-provider/README.md\ncmd/oauth-provider/main.go\ncmd/oauth-provider/main_test.go\ncmd/swagger-ui\ncmd/swagger-ui/README.md\ncmd/swagger-ui/main.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.34822957248234
+  },
+  {
+    "name": "NornicDB/docker 模块",
+    "description": "[模块级] NornicDB 项目的 docker 模块 (source)。来源: https://github.com/orneryd/NornicDB",
+    "domain": "ai-llm",
+    "tags": [
+      "bolt",
+      "cypher",
+      "cypher-query-language",
+      "database",
+      "embedded-systems",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile.amd64-cpu\ndocker/Dockerfile.amd64-cuda\ndocker/Dockerfile.amd64-cuda-heimdall\ndocker/Dockerfile.amd64-vulkan\ndocker/Dockerfile.amd64-vulkan-heimdall\ndocker/Dockerfile.arm64-metal\ndocker/Dockerfile.arm64-metal-heimdall\ndocker/Dockerfile.cpu-bge\ndocker/Dockerfile.llama-cuda\ndocker/Dockerfile.llama-cuda-windows\ndocker/README.md\ndocker/cuda-fallback-wrapper.sh\ndocker/docker-compose.arm64-metal-heimdall.yml\ndocker/docker-compose.arm64-metal.yml\ndocker/docker-compose.cuda.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.34822957248234
+  },
+  {
+    "name": "NornicDB/docs 模块",
+    "description": "[模块级] NornicDB 项目的 docs 模块 (docs)。来源: https://github.com/orneryd/NornicDB",
+    "domain": "documentation",
+    "tags": [
+      "bolt",
+      "cypher",
+      "cypher-query-language",
+      "database",
+      "embedded-systems",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/MIGRATION_NOTICE.md\n- docs/README.md\n- docs/advanced\n- docs/advanced/README.md\n- docs/advanced/embeddings\n- docs/advanced/embeddings/README.md\n- docs/advanced/embeddings/local-gguf.md\n- docs/advanced/k-means-clustering\n- docs/advanced/k-means-clustering/README.md\n- docs/advanced/k-means-clustering/gpu-implementation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/MIGRATION_NOTICE.md\ndocs/README.md\ndocs/advanced\ndocs/advanced/README.md\ndocs/advanced/embeddings\ndocs/advanced/embeddings/README.md\ndocs/advanced/embeddings/local-gguf.md\ndocs/advanced/k-means-clustering\ndocs/advanced/k-means-clustering/README.md\ndocs/advanced/k-means-clustering/gpu-implementation.md\ndocs/advanced/k-means-clustering/kmeans-algorithm.md\ndocs/advanced/k-means-clustering/metal-optimizations.md\ndocs/advanced/k-means-clustering/realtime-kmeans.md\ndocs/advanced/search-evaluation.md\ndocs/ai-agents",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.34822957248234
+  }
+]

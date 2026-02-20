@@ -1,0 +1,168 @@
+[
+  {
+    "name": "chatgpt-plugin (ikechan8370)",
+    "description": "[项目级] 云崽系机器人的智能聊天插件。来源: https://github.com/ikechan8370/chatgpt-plugin",
+    "domain": "devops",
+    "tags": [
+      "bot",
+      "chatgpt",
+      "qq",
+      "yunzai",
+      "yunzai-bot",
+      "javascript",
+      "stars-1070",
+      "github-ikechan8370",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT-Plugin 以 Chaite 为内核，将多模型渠道、工具、处理器、触发器、RAG 和管控面板封装成一套适配 Miao-Yunzai / Yunzai-Bot 的插件方案。通过 Chaite 的 API 服务器与可插拔的存储层（默认 SQLite），插件可以在本地完成高并发对话、知识库检索、伪人陪聊以及记忆管理，亦可接入 Chaite Cloud 复用在线渠道与工具。",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "cd plugins\n   git clone https://github.com/ikechan8370/chatgpt-plugin.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\napps\napps/bym.js\napps/chat.js\napps/management.js\napps/memory.js\napps/update.js\nconfig\nconfig/config.js\nguoba.support.js\nindex.js\nmodels\nmodels/chaite\nmodels/memory\npackage.json\nresources\nresources/embedded\nutils\nutils/bot.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **多渠道与预设体系**：依托 Chaite 的 ChannelsManager 与 ChatPresetManager，支持为不同模型配置流量、负载均衡与个性化 prompt，群友也可在授权后自助切换预设。\n- **高级消息适配**：前后文触发方式支持 `@Bot` 与前缀；自动处理引用、图片、语音等多模态输入，并在工具调用或推理阶段通过转发消息回显。\n- **群上下文与伪人模式**：可按配置注入指定条数的群聊记录；BYM 伪人模式支持概率触发、关键词命中、预设覆盖及限时撤回，营造更拟人的陪聊体验。\n- **记忆与 RAG**：内置 memoryService + vectra 向量索引，提供群记忆、私人记忆与外部知识库（RAGManager）注入能力，支持混合检索与手动管理。\n- **可视化与指令双管控**：`#chatgpt管理面板` 一键获取面板 token，Web 端即可操作渠道、工具、触发器；同时保留完整的命令行 CRUD 指令。\n- **自动更新与依赖管理**：`#chatgpt更新` / `#chatgpt强制更新` 调用 git 同步仓库并自动更新 chaite 依赖，减少手动维护成本。",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.514691888842605
+  },
+  {
+    "name": "chatgpt-plugin/apps 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 apps 模块 (source)。来源: https://github.com/ikechan8370/chatgpt-plugin",
+    "domain": "devops",
+    "tags": [
+      "bot",
+      "chatgpt",
+      "qq",
+      "yunzai",
+      "yunzai-bot",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 5\n\n包含文件:\n- apps/bym.js\n- apps/chat.js\n- apps/management.js\n- apps/memory.js\n- apps/update.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/bym.js\napps/chat.js\napps/management.js\napps/memory.js\napps/update.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7117535110740842
+  },
+  {
+    "name": "chatgpt-plugin/models 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 models 模块 (source)。来源: https://github.com/ikechan8370/chatgpt-plugin",
+    "domain": "devops",
+    "tags": [
+      "bot",
+      "chatgpt",
+      "qq",
+      "yunzai",
+      "yunzai-bot",
+      "module-level",
+      "source",
+      "models"
+    ],
+    "genes": [
+      {
+        "title": "models 模块说明",
+        "content": "模块路径: models/\n类型: source\n文件数: 37\n\n包含文件:\n- models/chaite\n- models/chaite/cloud.js\n- models/chaite/storage\n- models/chaite/storage/lowdb\n- models/chaite/storage/lowdb/channel_storage.js\n- models/chaite/storage/lowdb/chat_preset_storage.js\n- models/chaite/storage/lowdb/history_manager.js\n- models/chaite/storage/lowdb/processors_storage.js\n- models/chaite/storage/lowdb/storage.js\n- models/chaite/storage/lowdb/tool_groups_storage.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "models 文件结构",
+        "content": "models/chaite\nmodels/chaite/cloud.js\nmodels/chaite/storage\nmodels/chaite/storage/lowdb\nmodels/chaite/storage/lowdb/channel_storage.js\nmodels/chaite/storage/lowdb/chat_preset_storage.js\nmodels/chaite/storage/lowdb/history_manager.js\nmodels/chaite/storage/lowdb/processors_storage.js\nmodels/chaite/storage/lowdb/storage.js\nmodels/chaite/storage/lowdb/tool_groups_storage.js\nmodels/chaite/storage/lowdb/tools_storage.js\nmodels/chaite/storage/lowdb/trigger_storage,.js\nmodels/chaite/storage/lowdb/user_state_storage.js\nmodels/chaite/storage/sqlite\nmodels/chaite/storage/sqlite/channel_storage.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7117535110740842
+  },
+  {
+    "name": "chatgpt-plugin/resources 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 resources 模块 (source)。来源: https://github.com/ikechan8370/chatgpt-plugin",
+    "domain": "devops",
+    "tags": [
+      "bot",
+      "chatgpt",
+      "qq",
+      "yunzai",
+      "yunzai-bot",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 3\n\n包含文件:\n- resources/embedded\n- resources/embedded/BlackPostProcessor\n- resources/embedded/BlackPreProcessor",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/embedded\nresources/embedded/BlackPostProcessor\nresources/embedded/BlackPreProcessor",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7117535110740842
+  },
+  {
+    "name": "chatgpt-plugin/utils 模块",
+    "description": "[模块级] chatgpt-plugin 项目的 utils 模块 (source)。来源: https://github.com/ikechan8370/chatgpt-plugin",
+    "domain": "devops",
+    "tags": [
+      "bot",
+      "chatgpt",
+      "qq",
+      "yunzai",
+      "yunzai-bot",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 6\n\n包含文件:\n- utils/bot.js\n- utils/command.js\n- utils/common.js\n- utils/group.js\n- utils/initDB.js\n- utils/message.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/bot.js\nutils/command.js\nutils/common.js\nutils/group.js\nutils/initDB.js\nutils/message.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7117535110740842
+  }
+]

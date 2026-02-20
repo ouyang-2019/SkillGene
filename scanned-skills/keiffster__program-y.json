@@ -1,0 +1,63 @@
+[
+  {
+    "name": "program-y (keiffster)",
+    "description": "[项目级] Python 3.x based AIML 2.0 Chatbot interpreter, framework, related programs and knowledge files。来源: https://github.com/keiffster/program-y",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "aiml",
+      "aiml2",
+      "api",
+      "chatbot",
+      "python",
+      "stars-349",
+      "github-keiffster",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Python 3.x based AIML 2.0 Chatbot interpreter, framework, related programs and knowledge files\n\n来源: https://github.com/keiffster/program-y\n语言: Python\nStars: 349",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCOPYRIGHT.txt\nISSUE_TEMPLATE.md\nREADME.md\ncopy_services.sh\ncoverage.cfg\ncoverage.cmd\ncoverage.sh\ndocs\ndocs/index.html\nmaster_checkin.sh\nnose.cfg\npylint.cfg\npylint.sh\npytype.cfg\npytype.sh\nrequirements-dev.txt\nrequirements.txt\nsrc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.27141271347959
+  },
+  {
+    "name": "program-y/src 模块",
+    "description": "[模块级] program-y 项目的 src 模块 (source)。来源: https://github.com/keiffster/program-y",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "aiml",
+      "aiml2",
+      "api",
+      "chatbot",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 179\n\n包含文件:\n- src/LICENSE.txt\n- src/MANIFEST.in\n- src/README.md\n- src/deployment.txt\n- src/programy\n- src/programy/__init__.py\n- src/programy/activate.py\n- src/programy/admin\n- src/programy/admin/__init__.py\n- src/programy/admin/linux",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/LICENSE.txt\nsrc/MANIFEST.in\nsrc/README.md\nsrc/deployment.txt\nsrc/programy\nsrc/programy/__init__.py\nsrc/programy/activate.py\nsrc/programy/admin\nsrc/programy/admin/__init__.py\nsrc/programy/admin/linux\nsrc/programy/admin/linux/__init__.py\nsrc/programy/admin/linux/installer.py\nsrc/programy/admin/tool.py\nsrc/programy/binaries.py\nsrc/programy/bot.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.517130170783672
+  }
+]

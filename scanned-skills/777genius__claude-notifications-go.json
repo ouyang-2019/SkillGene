@@ -1,0 +1,283 @@
+[
+  {
+    "name": "claude-notifications-go (777genius)",
+    "description": "[项目级] 🔔 Cross-platform smart notifications plugin for Claude Code. 6 types. Instant. Analyze context. Zero dependencies. webhooks. Easy installation. Linux, MacOS, Windows.。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "go",
+      "stars-275",
+      "github-777genius",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔔 Cross-platform smart notifications plugin for Claude Code. 6 types. Instant. Analyze context. Zero dependencies. webhooks. Easy installation. Linux, MacOS, Windows.\n\n来源: https://github.com/777genius/claude-notifications-go\n语言: Go\nStars: 275",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\nbin\nbin/bootstrap.sh\nbin/claude-notifications\nbin/hook-wrapper.sh\nbin/install.sh\nbin/install_e2e_test.sh\nbin/install_test.sh\nbin/mock_server.py\nclaude_icon.png\ncmd\ncmd/claude-notifications\ncmd/list-devices\ncmd/list-sounds\ncmd/sound-preview\ncommands",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.219666346915131
+  },
+  {
+    "name": "claude-notifications-go/bin 模块",
+    "description": "[模块级] claude-notifications-go 项目的 bin 模块 (script)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "/claude-notifications-go:init",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/bootstrap.sh\nbin/claude-notifications\nbin/hook-wrapper.sh\nbin/install.sh\nbin/install_e2e_test.sh\nbin/install_test.sh\nbin/mock_server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/cmd 模块",
+    "description": "[模块级] claude-notifications-go 项目的 cmd 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 12\n\n包含文件:\n- cmd/claude-notifications\n- cmd/claude-notifications/daemon_linux.go\n- cmd/claude-notifications/daemon_other.go\n- cmd/claude-notifications/main.go\n- cmd/list-devices\n- cmd/list-devices/main.go\n- cmd/list-sounds\n- cmd/list-sounds/main.go\n- cmd/list-sounds/main_test.go\n- cmd/sound-preview",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/claude-notifications\ncmd/claude-notifications/daemon_linux.go\ncmd/claude-notifications/daemon_other.go\ncmd/claude-notifications/main.go\ncmd/list-devices\ncmd/list-devices/main.go\ncmd/list-sounds\ncmd/list-sounds/main.go\ncmd/list-sounds/main_test.go\ncmd/sound-preview\ncmd/sound-preview/main.go\ncmd/sound-preview/main_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/commands 模块",
+    "description": "[模块级] claude-notifications-go 项目的 commands 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "模块路径: commands/\n类型: source\n文件数: 6\n\n包含文件:\n- commands/init.md\n- commands/notifications-init.md\n- commands/notifications-settings.md\n- commands/notifications-sounds.md\n- commands/settings.md\n- commands/sounds.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/init.md\ncommands/notifications-init.md\ncommands/notifications-settings.md\ncommands/notifications-sounds.md\ncommands/settings.md\ncommands/sounds.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/docs 模块",
+    "description": "[模块级] claude-notifications-go 项目的 docs 模块 (docs)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "documentation",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 19\n\n包含文件:\n- docs/ARCHITECTURE.md\n- docs/CLICK_TO_FOCUS.md\n- docs/RELEASE.md\n- docs/interactive-sound-preview.md\n- docs/issues\n- docs/issues/01-stats-counting-plan-mode.md\n- docs/issues/ubuntu-focus-implementation-plan.md\n- docs/troubleshooting.md\n- docs/volume-control.md\n- docs/webhooks",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ARCHITECTURE.md\ndocs/CLICK_TO_FOCUS.md\ndocs/RELEASE.md\ndocs/interactive-sound-preview.md\ndocs/issues\ndocs/issues/01-stats-counting-plan-mode.md\ndocs/issues/ubuntu-focus-implementation-plan.md\ndocs/troubleshooting.md\ndocs/volume-control.md\ndocs/webhooks\ndocs/webhooks/README.md\ndocs/webhooks/configuration.md\ndocs/webhooks/custom.md\ndocs/webhooks/discord.md\ndocs/webhooks/lark.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/internal 模块",
+    "description": "[模块级] claude-notifications-go 项目的 internal 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "internal"
+    ],
+    "genes": [
+      {
+        "title": "internal 模块说明",
+        "content": "模块路径: internal/\n类型: source\n文件数: 85\n\n包含文件:\n- internal/analyzer\n- internal/analyzer/analyzer.go\n- internal/analyzer/analyzer_test.go\n- internal/audio\n- internal/audio/audio.go\n- internal/audio/audio_test.go\n- internal/config\n- internal/config/config.go\n- internal/config/config_test.go\n- internal/daemon",
+        "gene_type": "principle"
+      },
+      {
+        "title": "internal 文件结构",
+        "content": "internal/analyzer\ninternal/analyzer/analyzer.go\ninternal/analyzer/analyzer_test.go\ninternal/audio\ninternal/audio/audio.go\ninternal/audio/audio_test.go\ninternal/config\ninternal/config/config.go\ninternal/config/config_test.go\ninternal/daemon\ninternal/daemon/client.go\ninternal/daemon/focus.go\ninternal/daemon/focus_test.go\ninternal/daemon/mappings.go\ninternal/daemon/mappings_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/pkg 模块",
+    "description": "[模块级] claude-notifications-go 项目的 pkg 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "pkg"
+    ],
+    "genes": [
+      {
+        "title": "pkg 模块说明",
+        "content": "模块路径: pkg/\n类型: source\n文件数: 3\n\n包含文件:\n- pkg/jsonl\n- pkg/jsonl/jsonl.go\n- pkg/jsonl/jsonl_test.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pkg 文件结构",
+        "content": "pkg/jsonl\npkg/jsonl/jsonl.go\npkg/jsonl/jsonl_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/sounds 模块",
+    "description": "[模块级] claude-notifications-go 项目的 sounds 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "sounds"
+    ],
+    "genes": [
+      {
+        "title": "sounds 模块说明",
+        "content": "/claude-notifications-go:settings\n```\n\n</details>\n\n> Having issues with installation? See [Troubleshooting](#troubleshooting).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sounds 文件结构",
+        "content": "sounds/error.mp3\nsounds/plan-ready.mp3\nsounds/question.mp3\nsounds/review-complete.mp3\nsounds/task-complete.mp3",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  },
+  {
+    "name": "claude-notifications-go/swift-notifier 模块",
+    "description": "[模块级] claude-notifications-go 项目的 swift-notifier 模块 (source)。来源: https://github.com/777genius/claude-notifications-go",
+    "domain": "devops",
+    "tags": [
+      "claude",
+      "claude-code",
+      "cross-platform",
+      "linux",
+      "macos",
+      "module-level",
+      "source",
+      "swift-notifier"
+    ],
+    "genes": [
+      {
+        "title": "swift-notifier 模块说明",
+        "content": "模块路径: swift-notifier/\n类型: source\n文件数: 29\n\n包含文件:\n- swift-notifier/Package.swift\n- swift-notifier/Resources\n- swift-notifier/Resources/Info.plist\n- swift-notifier/Sources\n- swift-notifier/Sources/terminal-notifier-modern\n- swift-notifier/Sources/terminal-notifier-modern/Action\n- swift-notifier/Sources/terminal-notifier-modern/Action/ActionExecutor.swift\n- swift-notifier/Sources/terminal-notifier-modern/Action/ClickAction.swift\n- swift-notifier/Sources/terminal-notifier-modern/App\n- swift-notifier/Sources/terminal-notifier-modern/App/AppDelegate.swift",
+        "gene_type": "principle"
+      },
+      {
+        "title": "swift-notifier 文件结构",
+        "content": "swift-notifier/Package.swift\nswift-notifier/Resources\nswift-notifier/Resources/Info.plist\nswift-notifier/Sources\nswift-notifier/Sources/terminal-notifier-modern\nswift-notifier/Sources/terminal-notifier-modern/Action\nswift-notifier/Sources/terminal-notifier-modern/Action/ActionExecutor.swift\nswift-notifier/Sources/terminal-notifier-modern/Action/ClickAction.swift\nswift-notifier/Sources/terminal-notifier-modern/App\nswift-notifier/Sources/terminal-notifier-modern/App/AppDelegate.swift\nswift-notifier/Sources/terminal-notifier-modern/CLI\nswift-notifier/Sources/terminal-notifier-modern/CLI/ArgumentParser.swift\nswift-notifier/Sources/terminal-notifier-modern/CLI/ExitCodes.swift\nswift-notifier/Sources/terminal-notifier-modern/Notification\nswift-notifier/Sources/terminal-notifier-modern/Notification/AppleScriptNotificationService.swift",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.475733077532105
+  }
+]

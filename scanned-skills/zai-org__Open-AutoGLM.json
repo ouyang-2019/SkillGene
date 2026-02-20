@@ -1,0 +1,190 @@
+[
+  {
+    "name": "Open-AutoGLM (zai-org)",
+    "description": "[项目级] An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-AutoGLM 是一个手机 Agent 框架：\n- **输入**：用户的自然语言指令(如\"打开微信发消息给张三\")\n- **输出**：自动操作用户的安卓手机完成任务\n- **原理**：截图 → 视觉模型理解界面 → 输出点击坐标 → ADB 执行操作 → 循环\n\n架构分为两部分：\n1. **Agent 代码**(本仓库)：运行在用户电脑上，负责调用模型、解析动作、控制手机\n2. **视觉模型服务**：可以是远程 API，也可以本地部署\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "访问文档，为我安装 AutoGLM\nhttps://raw.githubusercontent.com/zai-org/Open-AutoGLM/refs/heads/main/README.md",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_coding_agent.md\nREADME_en.md\ndocs\ndocs/ios_setup\nexamples\nexamples/basic_usage.py\nexamples/demo_thinking.py\nios.py\nmain.py\nphone_agent\nphone_agent/__init__.py\nphone_agent/actions\nphone_agent/adb\nphone_agent/agent.py\nphone_agent/agent_ios.py\nphone_agent/config\nphone_agent/device_factory.py\nphone_agent/hdc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "# 假设解压后的目录为 ~/Downloads/platform-tools。如果不是请自行调整命令。\n  export PATH=${PATH}:~/Downloads/platform-tools",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "Open-AutoGLM/docs 模块",
+    "description": "[模块级] Open-AutoGLM 项目的 docs 模块 (docs)。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 10\n\n包含文件:\n- docs/ios_setup\n- docs/ios_setup/ios_setup.md\n- docs/ios_setup/resources\n- docs/ios_setup/resources/enable-ui-automation.jpg\n- docs/ios_setup/resources/ios0_WebDriverAgent0.png\n- docs/ios_setup/resources/ios0_WebDriverAgent1.png\n- docs/ios_setup/resources/select-your-iphone-device.png\n- docs/ios_setup/resources/setup-xcode-wda.png\n- docs/ios_setup/resources/start-wda-testing.png\n- docs/ios_setup/resources/trust-dev-app.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ios_setup\ndocs/ios_setup/ios_setup.md\ndocs/ios_setup/resources\ndocs/ios_setup/resources/enable-ui-automation.jpg\ndocs/ios_setup/resources/ios0_WebDriverAgent0.png\ndocs/ios_setup/resources/ios0_WebDriverAgent1.png\ndocs/ios_setup/resources/select-your-iphone-device.png\ndocs/ios_setup/resources/setup-xcode-wda.png\ndocs/ios_setup/resources/start-wda-testing.png\ndocs/ios_setup/resources/trust-dev-app.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.248737342146679
+  },
+  {
+    "name": "Open-AutoGLM/examples 模块",
+    "description": "[模块级] Open-AutoGLM 项目的 examples 模块 (example)。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/basic_usage.py\n- examples/demo_thinking.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/basic_usage.py\nexamples/demo_thinking.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.248737342146679
+  },
+  {
+    "name": "Open-AutoGLM/phone_agent 模块",
+    "description": "[模块级] Open-AutoGLM 项目的 phone_agent 模块 (source)。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "module-level",
+      "source",
+      "phone_agent"
+    ],
+    "genes": [
+      {
+        "title": "phone_agent 模块说明",
+        "content": "模块路径: phone_agent/\n类型: source\n文件数: 39\n\n包含文件:\n- phone_agent/__init__.py\n- phone_agent/actions\n- phone_agent/actions/__init__.py\n- phone_agent/actions/handler.py\n- phone_agent/actions/handler_ios.py\n- phone_agent/adb\n- phone_agent/adb/__init__.py\n- phone_agent/adb/connection.py\n- phone_agent/adb/device.py\n- phone_agent/adb/input.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "phone_agent 文件结构",
+        "content": "phone_agent/__init__.py\nphone_agent/actions\nphone_agent/actions/__init__.py\nphone_agent/actions/handler.py\nphone_agent/actions/handler_ios.py\nphone_agent/adb\nphone_agent/adb/__init__.py\nphone_agent/adb/connection.py\nphone_agent/adb/device.py\nphone_agent/adb/input.py\nphone_agent/adb/screenshot.py\nphone_agent/agent.py\nphone_agent/agent_ios.py\nphone_agent/config\nphone_agent/config/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.248737342146679
+  },
+  {
+    "name": "Open-AutoGLM/resources 模块",
+    "description": "[模块级] Open-AutoGLM 项目的 resources 模块 (source)。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 14\n\n包含文件:\n- resources/WECHAT.md\n- resources/enable-ui-automation.jpg\n- resources/logo.svg\n- resources/privacy_policy.txt\n- resources/privacy_policy_en.txt\n- resources/screenshot-20251209-181423.png\n- resources/screenshot-20251210-120416.png\n- resources/screenshot-20251210-120630.png\n- resources/select-your-iphone-device.png\n- resources/setting.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/WECHAT.md\nresources/enable-ui-automation.jpg\nresources/logo.svg\nresources/privacy_policy.txt\nresources/privacy_policy_en.txt\nresources/screenshot-20251209-181423.png\nresources/screenshot-20251210-120416.png\nresources/screenshot-20251210-120630.png\nresources/select-your-iphone-device.png\nresources/setting.png\nresources/setup-xcode-wda.png\nresources/start-wda-testing.png\nresources/trust-dev-app.jpg\nresources/wechat.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.248737342146679
+  },
+  {
+    "name": "Open-AutoGLM/scripts 模块",
+    "description": "[模块级] Open-AutoGLM 项目的 scripts 模块 (script)。来源: https://github.com/zai-org/Open-AutoGLM",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "phone-use-agent",
+      "python",
+      "stars-23542",
+      "github-zai-org",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/check_deployment_cn.py\n- scripts/check_deployment_en.py\n- scripts/sample_messages.json\n- scripts/sample_messages_en.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/check_deployment_cn.py\nscripts/check_deployment_en.py\nscripts/sample_messages.json\nscripts/sample_messages_en.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.248737342146679
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "awesome-skills (gmh5225)",
+    "description": "[项目级] A curated list of Agent Skills, resources, and tools for AI coding agents like Claude Code, Codex, Gemini CLI, GitHub Copilot, and more.。来源: https://github.com/gmh5225/awesome-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-6",
+      "github-gmh5225",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of Agent Skills, resources, and tools for AI coding agents like Claude Code, Codex, Gemini CLI, GitHub Copilot, and more.\n\n来源: https://github.com/gmh5225/awesome-skills\n语言: unknown\nStars: 6",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- https://github.com/HyunCafe/contribute-practice\n- https://docs.github.com/en/get-started/quickstart/contributing-to-projects",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.389075625191822
+  }
+]

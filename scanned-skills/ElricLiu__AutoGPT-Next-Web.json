@@ -1,0 +1,193 @@
+[
+  {
+    "name": "AutoGPT-Next-Web (ElricLiu)",
+    "description": "[项目级] 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.一键免费部署你的私人AutoGPT 网页应用。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "web-frontend",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "typescript",
+      "stars-3013",
+      "github-elricliu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.一键免费部署你的私人AutoGPT 网页应用\n\n来源: https://github.com/ElricLiu/AutoGPT-Next-Web\n语言: TypeScript\nStars: 3013",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker-compose -f docker-compose.dev.yml up -d --remove-orphans",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n__tests__\n__tests__/create-model.test.ts\n__tests__/extract-array.test.ts\n__tests__/remove-task-prefix.test.ts\n__tests__/stripe.sh\n__tests__/whitespace.test.ts\ncommitlint.config.cjs\ndev.Dockerfile\ndocker-compose.dev.yml\ndocker-compose.prod.yml\ndocs\ndocs/README_CN.md\ndocs/README_JA.md\nentrypoint.sh\njest.config.cjs\nnext-i18next.config.js\nnext.config.mjs\npackage-lock.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. Free one-click deployment with Vercel in 1 minute\n2. Improved local support: After typing in Chinese, the content will be displayed in Chinese instead of English\n3. UI designed to match AgentGPT, responsive design, and support for dark mode\n4. Have your own domain? Even better, after binding, you can quickly access it anywhere without barriers\n5. Support access code control, only you or trusted individuals can use the website",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.739499565836678
+  },
+  {
+    "name": "AutoGPT-Next-Web/__tests__ 模块",
+    "description": "[模块级] AutoGPT-Next-Web 项目的 __tests__ 模块 (test)。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "testing",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "module-level",
+      "test",
+      "__tests__"
+    ],
+    "genes": [
+      {
+        "title": "__tests__ 模块说明",
+        "content": "模块路径: __tests__/\n类型: test\n文件数: 5\n\n包含文件:\n- __tests__/create-model.test.ts\n- __tests__/extract-array.test.ts\n- __tests__/remove-task-prefix.test.ts\n- __tests__/stripe.sh\n- __tests__/whitespace.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "__tests__ 文件结构",
+        "content": "__tests__/create-model.test.ts\n__tests__/extract-array.test.ts\n__tests__/remove-task-prefix.test.ts\n__tests__/stripe.sh\n__tests__/whitespace.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891599652669343
+  },
+  {
+    "name": "AutoGPT-Next-Web/docs 模块",
+    "description": "[模块级] AutoGPT-Next-Web 项目的 docs 模块 (docs)。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "documentation",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/README_CN.md\n- docs/README_JA.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README_CN.md\ndocs/README_JA.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891599652669343
+  },
+  {
+    "name": "AutoGPT-Next-Web/prisma 模块",
+    "description": "[模块级] AutoGPT-Next-Web 项目的 prisma 模块 (source)。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "web-frontend",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "module-level",
+      "source",
+      "prisma"
+    ],
+    "genes": [
+      {
+        "title": "prisma 模块说明",
+        "content": "模块路径: prisma/\n类型: source\n文件数: 2\n\n包含文件:\n- prisma/schema.prisma\n- prisma/useSqlite.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prisma 文件结构",
+        "content": "prisma/schema.prisma\nprisma/useSqlite.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891599652669343
+  },
+  {
+    "name": "AutoGPT-Next-Web/public 模块",
+    "description": "[模块级] AutoGPT-Next-Web 项目的 public 模块 (source)。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "web-frontend",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 33\n\n包含文件:\n- public/QQ.png\n- public/android-chrome-192x192.png\n- public/android-chrome-512x512.png\n- public/apple-touch-icon.png\n- public/chat.png\n- public/connect-ai-logo.svg\n- public/cover-en.png\n- public/cover-zh.png\n- public/discord.png\n- public/favicon-16x16.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/QQ.png\npublic/android-chrome-192x192.png\npublic/android-chrome-512x512.png\npublic/apple-touch-icon.png\npublic/chat.png\npublic/connect-ai-logo.svg\npublic/cover-en.png\npublic/cover-zh.png\npublic/discord.png\npublic/favicon-16x16.png\npublic/favicon-32x32.png\npublic/favicon.ico\npublic/fonts\npublic/fonts/Nasu-Regular.ttf\npublic/fonts/Roboto-Regular.ttf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891599652669343
+  },
+  {
+    "name": "AutoGPT-Next-Web/src 模块",
+    "description": "[模块级] AutoGPT-Next-Web 项目的 src 模块 (source)。来源: https://github.com/ElricLiu/AutoGPT-Next-Web",
+    "domain": "web-frontend",
+    "tags": [
+      "auto-gpt",
+      "connect-ai",
+      "docker",
+      "docker-compose",
+      "langchangjs",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 109\n\n包含文件:\n- src/components\n- src/components/Accordion.tsx\n- src/components/AutonomousAgent.ts\n- src/components/Badge.tsx\n- src/components/Button.tsx\n- src/components/ChatWindow.tsx\n- src/components/Combobox.tsx\n- src/components/Dialog.tsx\n- src/components/DottedGridBackground.tsx\n- src/components/Drawer.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/components\nsrc/components/Accordion.tsx\nsrc/components/AutonomousAgent.ts\nsrc/components/Badge.tsx\nsrc/components/Button.tsx\nsrc/components/ChatWindow.tsx\nsrc/components/Combobox.tsx\nsrc/components/Dialog.tsx\nsrc/components/DottedGridBackground.tsx\nsrc/components/Drawer.tsx\nsrc/components/Dropdown.tsx\nsrc/components/FadingHr.tsx\nsrc/components/HelpDialog.tsx\nsrc/components/Input.tsx\nsrc/components/Label.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.891599652669343
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "claude-self-learning (ychampion)",
+    "description": "[项目级]  A Claude Code self learning plugin that autonomously researches any technology and generates reusable SKILL.md files with installation guides, code examples, and best practices. 。来源: https://github.com/ychampion/claude-self-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic-api",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "stars-3",
+      "github-ychampion",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " A Claude Code self learning plugin that autonomously researches any technology and generates reusable SKILL.md files with installation guides, code examples, and best practices. \n\n来源: https://github.com/ychampion/claude-self-learning\n语言: unknown\nStars: 3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin install github:ychampion/claude-self-learning",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagents\nagents/researcher.md\nagents/skill-generator.md\ncommands\ncommands/learn.md\ncommands/list-skills.md\ncommands/update-skill.md\nskills\nskills/self-learning\nstorage\nstorage/.gitkeep\nstorage/skills",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```markdown\n---\nname: anthropic-api\ndescription: Complete guide to using the Anthropic Claude API\nversion: 1.0.0\nsources_verified: 2026-02-07\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Multi-source verification** - Cross-checks facts across authoritative sources\n- **Interactive learning** - Asks clarifying questions for broad topics\n- **Skill versioning** - Tracks updates with .meta.json metadata\n- **Production-ready output** - Error handling, best practices, real examples\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2385606273598313
+  },
+  {
+    "name": "claude-self-learning/agents 模块",
+    "description": "[模块级] claude-self-learning 项目的 agents 模块 (source)。来源: https://github.com/ychampion/claude-self-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic-api",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 2\n\n包含文件:\n- agents/researcher.md\n- agents/skill-generator.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/researcher.md\nagents/skill-generator.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  },
+  {
+    "name": "claude-self-learning/commands 模块",
+    "description": "[模块级] claude-self-learning 项目的 commands 模块 (source)。来源: https://github.com/ychampion/claude-self-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic-api",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "| Command | Description |\n|---------|-------------|\n| `/learn <topic>` | Research a topic and generate a skill |\n| `/update-skill <topic>` | Refresh an existing skill with latest info |\n| `/list-skills` | View all generated skills |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/learn.md\ncommands/list-skills.md\ncommands/update-skill.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  },
+  {
+    "name": "claude-self-learning/skills 模块",
+    "description": "[模块级] claude-self-learning 项目的 skills 模块 (source)。来源: https://github.com/ychampion/claude-self-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic-api",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "模块路径: skills/\n类型: source\n文件数: 5\n\n包含文件:\n- skills/self-learning\n- skills/self-learning/SKILL.md\n- skills/self-learning/references\n- skills/self-learning/references/best_practices.md\n- skills/self-learning/references/skill_template.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/self-learning\nskills/self-learning/SKILL.md\nskills/self-learning/references\nskills/self-learning/references/best_practices.md\nskills/self-learning/references/skill_template.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  },
+  {
+    "name": "claude-self-learning/storage 模块",
+    "description": "[模块级] claude-self-learning 项目的 storage 模块 (source)。来源: https://github.com/ychampion/claude-self-learning",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic-api",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "module-level",
+      "source",
+      "storage"
+    ],
+    "genes": [
+      {
+        "title": "storage 模块说明",
+        "content": "| Location | Path | Use Case |\n|----------|------|----------|\n| Project-local | `./.claude/skills/<topic>/` | Project-specific |\n| User-global | `~/.claude/skills/<topic>/` | All projects |\n| Plugin storage | `./storage/skills/<topic>/` | Git-tracked |\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "storage 文件结构",
+        "content": "storage/.gitkeep\nstorage/skills\nstorage/skills/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  }
+]

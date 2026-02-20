@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Flowise (FlowiseAI)",
+    "description": "[项目级] Build AI Agents, Visually。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "typescript",
+      "stars-49224",
+      "github-flowiseai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Build AI Agents, Visually\n\n来源: https://github.com/FlowiseAI/Flowise\n语言: TypeScript\nStars: 49224",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install -g flowise",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDockerfile\nLICENSE.md\nREADME.md\nSECURITY.md\nartillery-load-test.yml\nassets\nassets/Demo.png\nassets/FloWiseAI.png\nassets/FloWiseAI_black.png\nassets/FloWiseAI_dark.png\nassets/FloWiseAI_primary.png\ndocker\ndocker/.env.example\ndocker/Dockerfile\ndocker/README.md\ndocker/docker-compose-queue-prebuilt.yml\ndocker/docker-compose-queue-source.yml\ndocker/docker-compose.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "Flowise/assets 模块",
+    "description": "[模块级] Flowise 项目的 assets 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/Demo.png\n- assets/FloWiseAI.png\n- assets/FloWiseAI_black.png\n- assets/FloWiseAI_dark.png\n- assets/FloWiseAI_primary.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Demo.png\nassets/FloWiseAI.png\nassets/FloWiseAI_black.png\nassets/FloWiseAI_dark.png\nassets/FloWiseAI_primary.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  },
+  {
+    "name": "Flowise/docker 模块",
+    "description": "[模块级] Flowise 项目的 docker 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 14\n\n包含文件:\n- docker/.env.example\n- docker/Dockerfile\n- docker/README.md\n- docker/docker-compose-queue-prebuilt.yml\n- docker/docker-compose-queue-source.yml\n- docker/docker-compose.yml\n- docker/worker\n- docker/worker/.env.example\n- docker/worker/Dockerfile\n- docker/worker/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/.env.example\ndocker/Dockerfile\ndocker/README.md\ndocker/docker-compose-queue-prebuilt.yml\ndocker/docker-compose-queue-source.yml\ndocker/docker-compose.yml\ndocker/worker\ndocker/worker/.env.example\ndocker/worker/Dockerfile\ndocker/worker/README.md\ndocker/worker/docker-compose.yml\ndocker/worker/healthcheck\ndocker/worker/healthcheck/healthcheck.js\ndocker/worker/healthcheck/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  },
+  {
+    "name": "Flowise/i18n 模块",
+    "description": "[模块级] Flowise 项目的 i18n 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "i18n"
+    ],
+    "genes": [
+      {
+        "title": "i18n 模块说明",
+        "content": "模块路径: i18n/\n类型: source\n文件数: 6\n\n包含文件:\n- i18n/CODE_OF_CONDUCT-ZH.md\n- i18n/CONTRIBUTING-ZH.md\n- i18n/README-JA.md\n- i18n/README-KR.md\n- i18n/README-TW.md\n- i18n/README-ZH.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "i18n 文件结构",
+        "content": "i18n/CODE_OF_CONDUCT-ZH.md\ni18n/CONTRIBUTING-ZH.md\ni18n/README-JA.md\ni18n/README-KR.md\ni18n/README-TW.md\ni18n/README-ZH.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  },
+  {
+    "name": "Flowise/images 模块",
+    "description": "[模块级] Flowise 项目的 images 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 5\n\n包含文件:\n- images/flowise.gif\n- images/flowise.png\n- images/flowise_agentflow.gif\n- images/flowise_dark.svg\n- images/flowise_white.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/flowise.gif\nimages/flowise.png\nimages/flowise_agentflow.gif\nimages/flowise_dark.svg\nimages/flowise_white.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  },
+  {
+    "name": "Flowise/metrics 模块",
+    "description": "[模块级] Flowise 项目的 metrics 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "metrics"
+    ],
+    "genes": [
+      {
+        "title": "metrics 模块说明",
+        "content": "模块路径: metrics/\n类型: source\n文件数: 8\n\n包含文件:\n- metrics/grafana\n- metrics/grafana/grafana.dashboard.app.json.txt\n- metrics/grafana/grafana.dashboard.server.json.txt\n- metrics/otel\n- metrics/otel/compose.yaml\n- metrics/otel/otel.config.yml\n- metrics/prometheus\n- metrics/prometheus/prometheus.config.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "metrics 文件结构",
+        "content": "metrics/grafana\nmetrics/grafana/grafana.dashboard.app.json.txt\nmetrics/grafana/grafana.dashboard.server.json.txt\nmetrics/otel\nmetrics/otel/compose.yaml\nmetrics/otel/otel.config.yml\nmetrics/prometheus\nmetrics/prometheus/prometheus.config.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  },
+  {
+    "name": "Flowise/packages 模块",
+    "description": "[模块级] Flowise 项目的 packages 模块 (source)。来源: https://github.com/FlowiseAI/Flowise",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "artificial-intelligence",
+      "chatbot",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "模块路径: packages/\n类型: source\n文件数: 129\n\n包含文件:\n- packages/agentflow\n- packages/agentflow/.eslintignore\n- packages/agentflow/.eslintrc.js\n- packages/agentflow/.npmignore\n- packages/agentflow/.prettierignore\n- packages/agentflow/.prettierrc\n- packages/agentflow/ARCHITECTURE.md\n- packages/agentflow/README.md\n- packages/agentflow/TESTS.md\n- packages/agentflow/examples",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/agentflow\npackages/agentflow/.eslintignore\npackages/agentflow/.eslintrc.js\npackages/agentflow/.npmignore\npackages/agentflow/.prettierignore\npackages/agentflow/.prettierrc\npackages/agentflow/ARCHITECTURE.md\npackages/agentflow/README.md\npackages/agentflow/TESTS.md\npackages/agentflow/examples\npackages/agentflow/examples/.env.example\npackages/agentflow/examples/README.md\npackages/agentflow/examples/index.html\npackages/agentflow/examples/package-lock.json\npackages/agentflow/examples/package.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.376870760831989
+  }
+]

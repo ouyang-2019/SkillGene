@@ -1,0 +1,98 @@
+[
+  {
+    "name": "wikipedia-semantic-search (upstash)",
+    "description": "[项目级] Semantic Search on Wikipedia with Upstash Vector。来源: https://github.com/upstash/wikipedia-semantic-search",
+    "domain": "tooling",
+    "tags": [
+      "ai",
+      "search",
+      "semantic",
+      "vector",
+      "vector-database",
+      "typescript",
+      "stars-471",
+      "github-upstash",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "We've created a semantic search engine and [Upstash RAG Chat SDK](https://github.com/upstash/rag-chat) using Wikipedia data to demonstrate the capabilities of Upstash Vector and RAG Chat SDK. The project involves:\n\n1. Preparing and embedding Wikipedia articles\n2. Indexing the vectors using Upstash Vector\n3. Building a Wikipedia semantic search engine\n4. Implementing a RAG chatbot",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nmessages\nmessages/de.json\nmessages/en.json\nmessages/es.json\nmessages/fa.json\nmessages/fr.json\nmessages/it.json\nmessages/ja.json\nmessages/llm-prompt.md\nmessages/pt.json\nmessages/ru.json\nmessages/tr.json\nmessages/zh.json\nnext.config.mjs\npackage.json\npnpm-lock.yaml\npostcss.config.mjs\nsrc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Indexed over 144 million vectors from Wikipedia articles in 11 languages\n- Used BGE-M3 embedding model for multilingual support\n- Implemented semantic search with cross-lingual capabilities\n- Created a RAG chatbot using Upstash RAG Chat SDK",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.336510453564448
+  },
+  {
+    "name": "wikipedia-semantic-search/messages 模块",
+    "description": "[模块级] wikipedia-semantic-search 项目的 messages 模块 (source)。来源: https://github.com/upstash/wikipedia-semantic-search",
+    "domain": "tooling",
+    "tags": [
+      "ai",
+      "search",
+      "semantic",
+      "vector",
+      "vector-database",
+      "module-level",
+      "source",
+      "messages"
+    ],
+    "genes": [
+      {
+        "title": "messages 模块说明",
+        "content": "模块路径: messages/\n类型: source\n文件数: 12\n\n包含文件:\n- messages/de.json\n- messages/en.json\n- messages/es.json\n- messages/fa.json\n- messages/fr.json\n- messages/it.json\n- messages/ja.json\n- messages/llm-prompt.md\n- messages/pt.json\n- messages/ru.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "messages 文件结构",
+        "content": "messages/de.json\nmessages/en.json\nmessages/es.json\nmessages/fa.json\nmessages/fr.json\nmessages/it.json\nmessages/ja.json\nmessages/llm-prompt.md\nmessages/pt.json\nmessages/ru.json\nmessages/tr.json\nmessages/zh.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5692083628515583
+  },
+  {
+    "name": "wikipedia-semantic-search/src 模块",
+    "description": "[模块级] wikipedia-semantic-search 项目的 src 模块 (source)。来源: https://github.com/upstash/wikipedia-semantic-search",
+    "domain": "tooling",
+    "tags": [
+      "ai",
+      "search",
+      "semantic",
+      "vector",
+      "vector-database",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 42\n\n包含文件:\n- src/app\n- src/app/api\n- src/app/api/chat-stream\n- src/app/api/chat-stream/route.ts\n- src/app/favicon-32x32.png\n- src/app/globals.css\n- src/app/layout.tsx\n- src/app/page.tsx\n- src/app/providers.tsx\n- src/components",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/app\nsrc/app/api\nsrc/app/api/chat-stream\nsrc/app/api/chat-stream/route.ts\nsrc/app/favicon-32x32.png\nsrc/app/globals.css\nsrc/app/layout.tsx\nsrc/app/page.tsx\nsrc/app/providers.tsx\nsrc/components\nsrc/components/chat-tab.tsx\nsrc/components/container.tsx\nsrc/components/debug-drawer.tsx\nsrc/components/empty.tsx\nsrc/components/error.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5692083628515583
+  }
+]

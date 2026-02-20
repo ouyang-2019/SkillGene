@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Awesome-LLMOps (tensorchord)",
+    "description": "[项目级] An awesome & curated list of best LLMOps tools for developers。来源: https://github.com/tensorchord/Awesome-LLMOps",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-development-tools",
+      "awesome-list",
+      "llmops",
+      "mlops",
+      "shell",
+      "stars-5615",
+      "github-tensorchord",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An awesome & curated list of best LLMOps tools for developers\n\n来源: https://github.com/tensorchord/Awesome-LLMOps\n语言: Shell\nStars: 5615",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ncontributing.md\nscripts\nscripts/check-activity.py\nscripts/generate-star-badges.py\nscripts/github-markdown-toc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Project                                                      | Details                                                                                 | Repository                                                                                           |\n| ------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |\n| [Featureform](https://github.com/featureform/featureform)    | The Virtual Feature",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8746748802987385
+  },
+  {
+    "name": "Awesome-LLMOps/scripts 模块",
+    "description": "[模块级] Awesome-LLMOps 项目的 scripts 模块 (script)。来源: https://github.com/tensorchord/Awesome-LLMOps",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-development-tools",
+      "awesome-list",
+      "llmops",
+      "mlops",
+      "shell",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/check-activity.py\n- scripts/generate-star-badges.py\n- scripts/github-markdown-toc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/check-activity.py\nscripts/generate-star-badges.py\nscripts/github-markdown-toc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9997399042389907
+  }
+]

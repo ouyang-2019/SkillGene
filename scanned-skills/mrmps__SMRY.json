@@ -1,0 +1,36 @@
+[
+  {
+    "name": "SMRY (mrmps)",
+    "description": "[项目级] A tool to get summaries and get past paywalls。来源: https://github.com/mrmps/SMRY",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "next13",
+      "openai",
+      "typescript",
+      "stars-1229",
+      "github-mrmps",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A tool to get summaries and get past paywalls\n\n来源: https://github.com/mrmps/SMRY\n语言: TypeScript\nStars: 1229",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Prepend the prefix**: Add `smry.ai/` before any article URL (e.g. `smry.ai/example.com/2026/any-article`) to jump straight into SMRY.\n2. **Paste a link on the homepage**: smry.ai will fetch it, clean it, and let you generate summaries.\n3. **Use the bookmarklet**: Drag the provided bookmarklet to your bookmarks bar; click it on any page to wrap it in SMRY.\n4. **Call the proxy route directly**: `https://your-domain.com/proxy?url=https://example.com/article` works for deep linking and integrations.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.544775941443227
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "agent-zero (agent0ai)",
+    "description": "[项目级] Agent Zero AI framework。来源: https://github.com/agent0ai/agent-zero",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "autonomous",
+      "linux",
+      "python",
+      "stars-14931",
+      "github-agent0ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent Zero AI framework\n\n来源: https://github.com/agent0ai/agent-zero\n语言: Python\nStars: 14931",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Click to open a video to learn how to install Agent Zero:\n\n[![Easy Installation guide](/docs/res/easy_ins_vid.png)](https://www.youtube.com/watch?v=w5v5Kjx51hs)\n\nA detailed setup guide for Windows, macOS, and Linux with a video can be found in the Agent Zero Documentation at [this page](./docs/setup/installation.md).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "DockerfileLocal\nLICENSE\nREADME.md\nagent.py\nagents\nagents/_example\nagents/agent0\nagents/default\nagents/developer\nagents/hacker\nagents/researcher\nconf\nconf/model_providers.yaml\nconf/projects.default.gitignore\nconf/skill.default.gitignore\nconf/workdir.gitignore\ndocker\ndocker/base\ndocker/run\ndocs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. **General-purpose Assistant**\n\n- Agent Zero is not pre-programmed for specific tasks (but can be). It is meant to be a general-purpose personal assistant. Give it a task, and it will gather information, execute commands and code, cooperate with other agent instances, and do its best to accomplish it.\n- It has a persistent memory, allowing it to memorize previous solutions, code, facts, instructions, etc., to solve tasks faster and more reliably in the future.\n\n![Agent 0 Working](/docs/res/ui_screen2.png)\n\n2. **Computer as a Tool**\n\n- Agent Zero uses the operating system as a tool to accompl",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agent-zero/agents 模块",
+    "description": "[模块级] agent-zero 项目的 agents 模块 (source)。来源: https://github.com/agent0ai/agent-zero",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "autonomous",
+      "linux",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 37\n\n包含文件:\n- agents/_example\n- agents/_example/extensions\n- agents/_example/extensions/agent_init\n- agents/_example/extensions/agent_init/_10_example_extension.py\n- agents/_example/prompts\n- agents/_example/prompts/agent.system.main.role.md\n- agents/_example/prompts/agent.system.tool.example_tool.md\n- agents/_example/tools\n- agents/_example/tools/example_tool.py\n- agents/_example/tools/response.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/_example\nagents/_example/extensions\nagents/_example/extensions/agent_init\nagents/_example/extensions/agent_init/_10_example_extension.py\nagents/_example/prompts\nagents/_example/prompts/agent.system.main.role.md\nagents/_example/prompts/agent.system.tool.example_tool.md\nagents/_example/tools\nagents/_example/tools/example_tool.py\nagents/_example/tools/response.py\nagents/agent0\nagents/agent0/_context.md\nagents/agent0/agent.json\nagents/agent0/prompts\nagents/agent0/prompts/agent.system.main.role.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.169635558185474
+  },
+  {
+    "name": "agent-zero/conf 模块",
+    "description": "[模块级] agent-zero 项目的 conf 模块 (source)。来源: https://github.com/agent0ai/agent-zero",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "autonomous",
+      "linux",
+      "module-level",
+      "source",
+      "conf"
+    ],
+    "genes": [
+      {
+        "title": "conf 模块说明",
+        "content": "模块路径: conf/\n类型: source\n文件数: 4\n\n包含文件:\n- conf/model_providers.yaml\n- conf/projects.default.gitignore\n- conf/skill.default.gitignore\n- conf/workdir.gitignore",
+        "gene_type": "principle"
+      },
+      {
+        "title": "conf 文件结构",
+        "content": "conf/model_providers.yaml\nconf/projects.default.gitignore\nconf/skill.default.gitignore\nconf/workdir.gitignore",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.169635558185474
+  },
+  {
+    "name": "agent-zero/docker 模块",
+    "description": "[模块级] agent-zero 项目的 docker 模块 (source)。来源: https://github.com/agent0ai/agent-zero",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "autonomous",
+      "linux",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "docker pull agent0ai/agent-zero\ndocker run -p 50001:80 agent0ai/agent-zero",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/base\ndocker/base/Dockerfile\ndocker/base/build.txt\ndocker/base/fs\ndocker/base/fs/etc\ndocker/base/fs/etc/searxng\ndocker/base/fs/etc/searxng/limiter.toml\ndocker/base/fs/etc/searxng/settings.yml\ndocker/base/fs/ins\ndocker/base/fs/ins/after_install.sh\ndocker/base/fs/ins/configure_ssh.sh\ndocker/base/fs/ins/install_base_packages1.sh\ndocker/base/fs/ins/install_base_packages2.sh\ndocker/base/fs/ins/install_base_packages3.sh\ndocker/base/fs/ins/install_base_packages4.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.169635558185474
+  },
+  {
+    "name": "agent-zero/docs 模块",
+    "description": "[模块级] agent-zero 项目的 docs 模块 (docs)。来源: https://github.com/agent0ai/agent-zero",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "assistant",
+      "autonomous",
+      "linux",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 89\n\n包含文件:\n- docs/README.md\n- docs/developer\n- docs/developer/architecture.md\n- docs/developer/connectivity.md\n- docs/developer/contributing-skills.md\n- docs/developer/extensions.md\n- docs/developer/mcp-configuration.md\n- docs/developer/notifications.md\n- docs/developer/websockets.md\n- docs/guides",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/developer\ndocs/developer/architecture.md\ndocs/developer/connectivity.md\ndocs/developer/contributing-skills.md\ndocs/developer/extensions.md\ndocs/developer/mcp-configuration.md\ndocs/developer/notifications.md\ndocs/developer/websockets.md\ndocs/guides\ndocs/guides/a2a-setup.md\ndocs/guides/api-integration.md\ndocs/guides/contribution.md\ndocs/guides/mcp-setup.md\ndocs/guides/projects.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.169635558185474
+  }
+]

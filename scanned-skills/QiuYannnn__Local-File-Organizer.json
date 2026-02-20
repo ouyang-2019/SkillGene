@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Local-File-Organizer (QiuYannnn)",
+    "description": "[项目级] An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organizes files for quick, seamless access and easy retrieval.。来源: https://github.com/QiuYannnn/Local-File-Organizer",
+    "domain": "ai-llm",
+    "tags": [
+      "file-organizer",
+      "llama3",
+      "llm",
+      "on-device-ai",
+      "vlm",
+      "python",
+      "stars-3132",
+      "github-qiuyannnn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An AI-powered file management tool that ensures privacy by organizing local texts, images. Using Llama3.2 3B and Llava v1.6 models with the Nexa SDK, it intuitively scans, restructures, and organizes files for quick, seamless access and easy retrieval.\n\n来源: https://github.com/QiuYannnn/Local-File-Organizer\n语言: Python\nStars: 3132",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> For SDK installation and model-related issues, please post on [here](https://github.com/NexaAI/nexa-sdk/issues).",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndata_processing_common.py\nfile_utils.py\nimage_data_processing.py\nmain.py\noutput_filter.py\nrequirements.txt\nsample_data\nsample_data/1.xlsx\nsample_data/12222_777.docx\nsample_data/IMG_0967.PNG\nsample_data/c8fed35720671596882b0c6a2ad9586d.gif\nsample_data/go_bruin.pptx\nsample_data/logo.png\nsample_data/paper_1col.pdf\nsample_data/sub_dir1\nsample_data/sub_dir2\nsample_data/text_files\ntext_data_processing.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.747910876692953
+  },
+  {
+    "name": "Local-File-Organizer/sample_data 模块",
+    "description": "[模块级] Local-File-Organizer 项目的 sample_data 模块 (source)。来源: https://github.com/QiuYannnn/Local-File-Organizer",
+    "domain": "ai-llm",
+    "tags": [
+      "file-organizer",
+      "llama3",
+      "llm",
+      "on-device-ai",
+      "vlm",
+      "module-level",
+      "source",
+      "sample_data"
+    ],
+    "genes": [
+      {
+        "title": "sample_data 模块说明",
+        "content": "模块路径: sample_data/\n类型: source\n文件数: 14\n\n包含文件:\n- sample_data/1.xlsx\n- sample_data/12222_777.docx\n- sample_data/IMG_0967.PNG\n- sample_data/c8fed35720671596882b0c6a2ad9586d.gif\n- sample_data/go_bruin.pptx\n- sample_data/logo.png\n- sample_data/paper_1col.pdf\n- sample_data/sub_dir1\n- sample_data/sub_dir1/1111_63.csv\n- sample_data/sub_dir1/animal.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sample_data 文件结构",
+        "content": "sample_data/1.xlsx\nsample_data/12222_777.docx\nsample_data/IMG_0967.PNG\nsample_data/c8fed35720671596882b0c6a2ad9586d.gif\nsample_data/go_bruin.pptx\nsample_data/logo.png\nsample_data/paper_1col.pdf\nsample_data/sub_dir1\nsample_data/sub_dir1/1111_63.csv\nsample_data/sub_dir1/animal.jpg\nsample_data/sub_dir2\nsample_data/sub_dir2/BS.txt\nsample_data/text_files\nsample_data/text_files/ccc.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8983287013543624
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ralphy (michaelshimeles)",
+    "description": "[项目级] My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete.。来源: https://github.com/michaelshimeles/ralphy",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "opencode",
+      "ralph-loop",
+      "ralph-wiggum",
+      "ralphy",
+      "typescript",
+      "stars-2406",
+      "github-michaelshimeles",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete.\n\n来源: https://github.com/michaelshimeles/ralphy\n语言: TypeScript\nStars: 2406",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**Option A: [npm](https://www.npmjs.com/package/ralphy-cli)** (recommended)\n```bash\nnpm install -g ralphy-cli",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nREADME.md\nassets\nassets/ralphy.jpeg\ncli\ncli/README.md\ncli/bin.js\ncli/biome.json\ncli/bun.lock\ncli/package.json\ncli/scripts\ncli/src\ncli/tsconfig.json\nexample-prd.md\nexample-prd.yaml\nlanding\nlanding/app\nlanding/components\nlanding/lib",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.690647811501913
+  },
+  {
+    "name": "ralphy/cli 模块",
+    "description": "[模块级] ralphy 项目的 cli 模块 (source)。来源: https://github.com/michaelshimeles/ralphy",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "opencode",
+      "ralph-loop",
+      "ralph-wiggum",
+      "ralphy",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 87\n\n包含文件:\n- cli/README.md\n- cli/bin.js\n- cli/biome.json\n- cli/bun.lock\n- cli/package.json\n- cli/scripts\n- cli/scripts/generate-version.js\n- cli/src\n- cli/src/cli\n- cli/src/cli/args.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/README.md\ncli/bin.js\ncli/biome.json\ncli/bun.lock\ncli/package.json\ncli/scripts\ncli/scripts/generate-version.js\ncli/src\ncli/src/cli\ncli/src/cli/args.ts\ncli/src/cli/commands\ncli/src/cli/commands/config.ts\ncli/src/cli/commands/index.ts\ncli/src/cli/commands/init.ts\ncli/src/cli/commands/run.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8525182492015304
+  },
+  {
+    "name": "ralphy/landing 模块",
+    "description": "[模块级] ralphy 项目的 landing 模块 (source)。来源: https://github.com/michaelshimeles/ralphy",
+    "domain": "ai-llm",
+    "tags": [
+      "claude-code",
+      "opencode",
+      "ralph-loop",
+      "ralph-wiggum",
+      "ralphy",
+      "module-level",
+      "source",
+      "landing"
+    ],
+    "genes": [
+      {
+        "title": "landing 模块说明",
+        "content": "模块路径: landing/\n类型: source\n文件数: 24\n\n包含文件:\n- landing/app\n- landing/app/globals.css\n- landing/app/layout.tsx\n- landing/app/page.tsx\n- landing/components\n- landing/components/engines.tsx\n- landing/components/features.tsx\n- landing/components/footer.tsx\n- landing/components/header.tsx\n- landing/components/hero.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "landing 文件结构",
+        "content": "landing/app\nlanding/app/globals.css\nlanding/app/layout.tsx\nlanding/app/page.tsx\nlanding/components\nlanding/components/engines.tsx\nlanding/components/features.tsx\nlanding/components/footer.tsx\nlanding/components/header.tsx\nlanding/components/hero.tsx\nlanding/components/quickstart.tsx\nlanding/lib\nlanding/lib/utils.ts\nlanding/next-env.d.ts\nlanding/next.config.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8525182492015304
+  }
+]

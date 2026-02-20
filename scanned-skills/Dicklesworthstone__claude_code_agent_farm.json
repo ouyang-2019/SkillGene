@@ -1,0 +1,168 @@
+[
+  {
+    "name": "claude_code_agent_farm (Dicklesworthstone)",
+    "description": "[项目级] Orchestration framework for running 20+ Claude Code agents in parallel: automated bug fixing, best-practices sweeps, lock-based coordination, and real-time tmux monitoring。来源: https://github.com/Dicklesworthstone/claude_code_agent_farm",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "python",
+      "tmux",
+      "shell",
+      "stars-650",
+      "github-dicklesworthstone",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Orchestration framework for running 20+ Claude Code agents in parallel: automated bug fixing, best-practices sweeps, lock-based coordination, and real-time tmux monitoring\n\n来源: https://github.com/Dicklesworthstone/claude_code_agent_farm\n语言: Shell\nStars: 650",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nbest_practices_guides\nbest_practices_guides/ANGULAR_BEST_PRACTICES.md\nbest_practices_guides/ANSIBLE_DEVOPS_BEST_PRACTICES.md\nbest_practices_guides/BASH_AND_ZSH_SCRIPTING_FOR_UBUNTU.md\nbest_practices_guides/CLOUD_NATIVE_DEVOPS_BEST_PRACTICES.md\nbest_practices_guides/COSMOS_GOLANG_BLOCKCHAIN_BEST_PRACTICES.md\nbest_practices_guides/CPP_SYSTEMS_PROGRAMMING_BEST_PRACTICES.md\nbest_practices_guides/DATA_ENGINEERING_AND_ANALYTICS_BEST_PRACTICES.md\nbest_practices_guides/DATA_LAKES_KAFKA_SNOWFLAKE_SPARK_BEST_PRACTICES.md\nbest_practices_guides/DSPY_AND_PYTHON_LLM_PIPELINE_BEST_PRACTICES.md\nbest_practices_guides/EXCEL_AUTOMATION_WITH_PYTHON_AND_AZURE.md\nbest_practices_guides/FLUTTER_BEST_PRACTICES.md\nbest_practices_guides/GENAI_LLM_OPS_BEST_PRACTICES.md\nbest_practices_guides/GO_WEBAPPS_BEST_PRACTICES.md\nbest_practices_guides/HARDWARE_DEV_BEST_PRACTICES.md\nbest_practices_guides/HASHICORP_VAULT_POLICY_AS_CODE_BEST_PRACTICES.md\nbest_practices_guides/JAVA_ENTERPRISE_BEST_PRACTICES.md\nbest_practices_guides/KUBERNETES_AI_INFERENCE_BEST_PRACTICES.md\nbest_practices_guides/LARAVEL_BEST_PRACTICES.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🚀 **Parallel Processing**: Run 20+ Claude Code agents simultaneously (up to 50 with `max_agents` config)\n- 🎯 **Multiple Workflows**: Bug fixing, best practices implementation, or coordinated multi-agent development\n- 🤝 **Agent Coordination**: Advanced lock-based system prevents conflicts between parallel agents\n- 🌐 **Multi-Stack Support**: 34 technology stacks including Next.js, Python, Rust, Go, Java, Angular, Flutter, C++, and more\n- 📊 **Smart Monitoring**: Real-time dashboard with context warnings, heartbeat tracking, and tmux pane titles\n- 🔄 **Auto-Recovery**: Automatically restart",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.406456678321428
+  },
+  {
+    "name": "claude_code_agent_farm/best_practices_guides 模块",
+    "description": "[模块级] claude_code_agent_farm 项目的 best_practices_guides 模块 (source)。来源: https://github.com/Dicklesworthstone/claude_code_agent_farm",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "python",
+      "tmux",
+      "module-level",
+      "source",
+      "best_practices_guides"
+    ],
+    "genes": [
+      {
+        "title": "best_practices_guides 模块说明",
+        "content": "模块路径: best_practices_guides/\n类型: source\n文件数: 37\n\n包含文件:\n- best_practices_guides/ANGULAR_BEST_PRACTICES.md\n- best_practices_guides/ANSIBLE_DEVOPS_BEST_PRACTICES.md\n- best_practices_guides/BASH_AND_ZSH_SCRIPTING_FOR_UBUNTU.md\n- best_practices_guides/CLOUD_NATIVE_DEVOPS_BEST_PRACTICES.md\n- best_practices_guides/COSMOS_GOLANG_BLOCKCHAIN_BEST_PRACTICES.md\n- best_practices_guides/CPP_SYSTEMS_PROGRAMMING_BEST_PRACTICES.md\n- best_practices_guides/DATA_ENGINEERING_AND_ANALYTICS_BEST_PRACTICES.md\n- best_practices_guides/DATA_LAKES_KAFKA_SNOWFLAKE_SPARK_BEST_PRACTICES.md\n- best_practices_guides/DSPY_AND_PYTHON_LLM_PIPELINE_BEST_PRACTICES.md\n- best_practices_guides/EXCEL_AUTOMATION_WITH_PYTHON_AND_AZURE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "best_practices_guides 文件结构",
+        "content": "best_practices_guides/ANGULAR_BEST_PRACTICES.md\nbest_practices_guides/ANSIBLE_DEVOPS_BEST_PRACTICES.md\nbest_practices_guides/BASH_AND_ZSH_SCRIPTING_FOR_UBUNTU.md\nbest_practices_guides/CLOUD_NATIVE_DEVOPS_BEST_PRACTICES.md\nbest_practices_guides/COSMOS_GOLANG_BLOCKCHAIN_BEST_PRACTICES.md\nbest_practices_guides/CPP_SYSTEMS_PROGRAMMING_BEST_PRACTICES.md\nbest_practices_guides/DATA_ENGINEERING_AND_ANALYTICS_BEST_PRACTICES.md\nbest_practices_guides/DATA_LAKES_KAFKA_SNOWFLAKE_SPARK_BEST_PRACTICES.md\nbest_practices_guides/DSPY_AND_PYTHON_LLM_PIPELINE_BEST_PRACTICES.md\nbest_practices_guides/EXCEL_AUTOMATION_WITH_PYTHON_AND_AZURE.md\nbest_practices_guides/FLUTTER_BEST_PRACTICES.md\nbest_practices_guides/GENAI_LLM_OPS_BEST_PRACTICES.md\nbest_practices_guides/GO_WEBAPPS_BEST_PRACTICES.md\nbest_practices_guides/HARDWARE_DEV_BEST_PRACTICES.md\nbest_practices_guides/HASHICORP_VAULT_POLICY_AS_CODE_BEST_PRACTICES.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6251653426571426
+  },
+  {
+    "name": "claude_code_agent_farm/configs 模块",
+    "description": "[模块级] claude_code_agent_farm 项目的 configs 模块 (config)。来源: https://github.com/Dicklesworthstone/claude_code_agent_farm",
+    "domain": "devops",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "python",
+      "tmux",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 37\n\n包含文件:\n- configs/angular_config.json\n- configs/ansible_config.json\n- configs/bash_zsh_config.json\n- configs/cloud_native_devops_config.json\n- configs/cosmos_blockchain_config.json\n- configs/cpp_systems_config.json\n- configs/data_engineering_config.json\n- configs/data_lakes_config.json\n- configs/excel_automation_config.json\n- configs/flutter_config.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/angular_config.json\nconfigs/ansible_config.json\nconfigs/bash_zsh_config.json\nconfigs/cloud_native_devops_config.json\nconfigs/cosmos_blockchain_config.json\nconfigs/cpp_systems_config.json\nconfigs/data_engineering_config.json\nconfigs/data_lakes_config.json\nconfigs/excel_automation_config.json\nconfigs/flutter_config.json\nconfigs/genai_llm_ops_config.json\nconfigs/go_webapps_config.json\nconfigs/hardware_dev_config.json\nconfigs/java_enterprise_config.json\nconfigs/kubernetes_ai_inference_config.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6251653426571426
+  },
+  {
+    "name": "claude_code_agent_farm/prompts 模块",
+    "description": "[模块级] claude_code_agent_farm 项目的 prompts 模块 (source)。来源: https://github.com/Dicklesworthstone/claude_code_agent_farm",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "python",
+      "tmux",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "The system includes specialized prompts for all workflows and tech stacks:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/bug_fixing_prompt_for_nextjs.txt\nprompts/continue_best_practices_prompt.txt\nprompts/cooperating_agents_improvement_prompt_for_python_fastapi_postgres.txt\nprompts/default_best_practices_prompt.txt\nprompts/default_best_practices_prompt_angular.txt\nprompts/default_best_practices_prompt_ansible.txt\nprompts/default_best_practices_prompt_bash_zsh.txt\nprompts/default_best_practices_prompt_cloud_native_devops.txt\nprompts/default_best_practices_prompt_cosmos.txt\nprompts/default_best_practices_prompt_cpp.txt\nprompts/default_best_practices_prompt_data_engineering.txt\nprompts/default_best_practices_prompt_data_lakes.txt\nprompts/default_best_practices_prompt_excel.txt\nprompts/default_best_practices_prompt_flutter.txt\nprompts/default_best_practices_prompt_genai_llm_ops.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6251653426571426
+  },
+  {
+    "name": "claude_code_agent_farm/tool_setup_scripts 模块",
+    "description": "[模块级] claude_code_agent_farm 项目的 tool_setup_scripts 模块 (source)。来源: https://github.com/Dicklesworthstone/claude_code_agent_farm",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "developer-tools",
+      "python",
+      "tmux",
+      "module-level",
+      "source",
+      "tool_setup_scripts"
+    ],
+    "genes": [
+      {
+        "title": "tool_setup_scripts 模块说明",
+        "content": "模块路径: tool_setup_scripts/\n类型: source\n文件数: 35\n\n包含文件:\n- tool_setup_scripts/README.md\n- tool_setup_scripts/common_utils.sh\n- tool_setup_scripts/llm_ops_pyproject.toml\n- tool_setup_scripts/setup.sh\n- tool_setup_scripts/setup_angular.sh\n- tool_setup_scripts/setup_ansible.sh\n- tool_setup_scripts/setup_bash_zsh.sh\n- tool_setup_scripts/setup_cloud_native_devops.sh\n- tool_setup_scripts/setup_cosmos_blockchain.sh\n- tool_setup_scripts/setup_cpp_systems.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tool_setup_scripts 文件结构",
+        "content": "tool_setup_scripts/README.md\ntool_setup_scripts/common_utils.sh\ntool_setup_scripts/llm_ops_pyproject.toml\ntool_setup_scripts/setup.sh\ntool_setup_scripts/setup_angular.sh\ntool_setup_scripts/setup_ansible.sh\ntool_setup_scripts/setup_bash_zsh.sh\ntool_setup_scripts/setup_cloud_native_devops.sh\ntool_setup_scripts/setup_cosmos_blockchain.sh\ntool_setup_scripts/setup_cpp_systems.sh\ntool_setup_scripts/setup_data_engineering.sh\ntool_setup_scripts/setup_data_lakes.sh\ntool_setup_scripts/setup_excel_automation.sh\ntool_setup_scripts/setup_flutter.sh\ntool_setup_scripts/setup_genai_llm_ops.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6251653426571426
+  }
+]

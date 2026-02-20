@@ -1,0 +1,243 @@
+[
+  {
+    "name": "RAG-Driven-Generative-AI (Denis2054)",
+    "description": "[项目级] This repository provides programs to build Retrieval Augmented Generation (RAG) code for Generative AI with LlamaIndex, Deep Lake, and Pinecone leveraging the power of OpenAI and Hugging Face models for generation and evaluation.。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "jupyter notebook",
+      "stars-571",
+      "github-denis2054",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository provides programs to build Retrieval Augmented Generation (RAG) code for Generative AI with LlamaIndex, Deep Lake, and Pinecone leveraging the power of OpenAI and Hugging Face models for generation and evaluation.\n\n来源: https://github.com/Denis2054/RAG-Driven-Generative-AI\n语言: Jupyter Notebook\nStars: 571",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nChapter01\nChapter01/RAG_Overview.ipynb\nChapter01/RAG_Overview_Grok.ipynb\nChapter02\nChapter02/1_Data_collection_preparation.ipynb\nChapter02/2_Embeddings_vector_store.ipynb\nChapter02/3_Augmented_Generation.ipynb\nChapter02/3_Augmented_Generation_GPT_4-5.ipynb\nChapter02/3_Augmented_Generation_o1_preview.ipynb\nChapter02/3_Augmented_Generation_o3.ipynb\nChapter02/llm.txt\nChapter03\nChapter03/3_Augmented_Generation_o3.ipynb\nChapter03/Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb\nChapter04\nChapter04/Multimodal_Modular_RAG_Drones.ipynb\nChapter05\nChapter05/Adaptive_RAG.ipynb\nChapter05/human_feedback.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.378318054122924
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter01 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter01 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter01"
+    ],
+    "genes": [
+      {
+        "title": "Chapter01 模块说明",
+        "content": "模块路径: Chapter01/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter01/RAG_Overview.ipynb\n- Chapter01/RAG_Overview_Grok.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter01 文件结构",
+        "content": "Chapter01/RAG_Overview.ipynb\nChapter01/RAG_Overview_Grok.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter02 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter02 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter02"
+    ],
+    "genes": [
+      {
+        "title": "Chapter02 模块说明",
+        "content": "模块路径: Chapter02/\n类型: source\n文件数: 7\n\n包含文件:\n- Chapter02/1_Data_collection_preparation.ipynb\n- Chapter02/2_Embeddings_vector_store.ipynb\n- Chapter02/3_Augmented_Generation.ipynb\n- Chapter02/3_Augmented_Generation_GPT_4-5.ipynb\n- Chapter02/3_Augmented_Generation_o1_preview.ipynb\n- Chapter02/3_Augmented_Generation_o3.ipynb\n- Chapter02/llm.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter02 文件结构",
+        "content": "Chapter02/1_Data_collection_preparation.ipynb\nChapter02/2_Embeddings_vector_store.ipynb\nChapter02/3_Augmented_Generation.ipynb\nChapter02/3_Augmented_Generation_GPT_4-5.ipynb\nChapter02/3_Augmented_Generation_o1_preview.ipynb\nChapter02/3_Augmented_Generation_o3.ipynb\nChapter02/llm.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter03 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter03 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter03"
+    ],
+    "genes": [
+      {
+        "title": "Chapter03 模块说明",
+        "content": "模块路径: Chapter03/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter03/3_Augmented_Generation_o3.ipynb\n- Chapter03/Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter03 文件结构",
+        "content": "Chapter03/3_Augmented_Generation_o3.ipynb\nChapter03/Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter05 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter05 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter05"
+    ],
+    "genes": [
+      {
+        "title": "Chapter05 模块说明",
+        "content": "模块路径: Chapter05/\n类型: source\n文件数: 4\n\n包含文件:\n- Chapter05/Adaptive_RAG.ipynb\n- Chapter05/human_feedback.txt\n- Chapter05/rag_strategy.png\n- Chapter05/raw_markdown_rag.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter05 文件结构",
+        "content": "Chapter05/Adaptive_RAG.ipynb\nChapter05/human_feedback.txt\nChapter05/rag_strategy.png\nChapter05/raw_markdown_rag.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter06 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter06 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter06"
+    ],
+    "genes": [
+      {
+        "title": "Chapter06 模块说明",
+        "content": "模块路径: Chapter06/\n类型: source\n文件数: 4\n\n包含文件:\n- Chapter06/Pipeline_1_Collecting_and_preparing_the_dataset.ipynb\n- Chapter06/Pipeline_2_Scaling_a_Pinecone_Index.ipynb\n- Chapter06/Pipeline_3_RAG_Generative_AI.ipynb\n- Chapter06/data1.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter06 文件结构",
+        "content": "Chapter06/Pipeline_1_Collecting_and_preparing_the_dataset.ipynb\nChapter06/Pipeline_2_Scaling_a_Pinecone_Index.ipynb\nChapter06/Pipeline_3_RAG_Generative_AI.ipynb\nChapter06/data1.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter07 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter07 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter07"
+    ],
+    "genes": [
+      {
+        "title": "Chapter07 模块说明",
+        "content": "模块路径: Chapter07/\n类型: source\n文件数: 11\n\n包含文件:\n- Chapter07/Knowledge_Graph__Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb\n- Chapter07/Knowledge_graph_Marketing.html\n- Chapter07/Tree_2_Graph.ipynb\n- Chapter07/Wikipedia_API.ipynb\n- Chapter07/citations\n- Chapter07/citations/AlanTuring_citations.txt\n- Chapter07/citations/AlanTuring_urls.txt\n- Chapter07/citations/MarkTwain_citations.txt\n- Chapter07/citations/MarkTwain_urls.txt\n- Chapter07/citations/Marketing_citations.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter07 文件结构",
+        "content": "Chapter07/Knowledge_Graph__Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb\nChapter07/Knowledge_graph_Marketing.html\nChapter07/Tree_2_Graph.ipynb\nChapter07/Wikipedia_API.ipynb\nChapter07/citations\nChapter07/citations/AlanTuring_citations.txt\nChapter07/citations/AlanTuring_urls.txt\nChapter07/citations/MarkTwain_citations.txt\nChapter07/citations/MarkTwain_urls.txt\nChapter07/citations/Marketing_citations.txt\nChapter07/citations/Marketing_urls.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  },
+  {
+    "name": "RAG-Driven-Generative-AI/Chapter10 模块",
+    "description": "[模块级] RAG-Driven-Generative-AI 项目的 Chapter10 模块 (source)。来源: https://github.com/Denis2054/RAG-Driven-Generative-AI",
+    "domain": "ai-llm",
+    "tags": [
+      "advanced-rag",
+      "chroma",
+      "chromadb",
+      "embedding-models",
+      "fine-tuning",
+      "module-level",
+      "source",
+      "chapter10"
+    ],
+    "genes": [
+      {
+        "title": "Chapter10 模块说明",
+        "content": "模块路径: Chapter10/\n类型: source\n文件数: 156\n\n包含文件:\n- Chapter10/Pipeline_1_Generator_and_Commentator.ipynb\n- Chapter10/Pipeline_2_The_Vector_Store_Administrator.ipynb\n- Chapter10/Pipeline_3_The_Video_Expert.ipynb\n- Chapter10/Video_dataset_visualization.ipynb\n- Chapter10/comments\n- Chapter10/comments/alpinist1.mp4.csv\n- Chapter10/comments/ball_passing_goal.mp4.csv\n- Chapter10/comments/basketball1.mp4.csv\n- Chapter10/comments/basketball2.mp4.csv\n- Chapter10/comments/basketball3.mp4.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter10 文件结构",
+        "content": "Chapter10/Pipeline_1_Generator_and_Commentator.ipynb\nChapter10/Pipeline_2_The_Vector_Store_Administrator.ipynb\nChapter10/Pipeline_3_The_Video_Expert.ipynb\nChapter10/Video_dataset_visualization.ipynb\nChapter10/comments\nChapter10/comments/alpinist1.mp4.csv\nChapter10/comments/ball_passing_goal.mp4.csv\nChapter10/comments/basketball1.mp4.csv\nChapter10/comments/basketball2.mp4.csv\nChapter10/comments/basketball3.mp4.csv\nChapter10/comments/basketball4.mp4.csv\nChapter10/comments/basketball5.mp4.csv\nChapter10/comments/female_player_after_scoring.mp4.csv\nChapter10/comments/football1.mp4.csv\nChapter10/comments/football2.mp4.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6026544432983396
+  }
+]

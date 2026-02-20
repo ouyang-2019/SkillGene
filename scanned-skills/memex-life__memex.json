@@ -1,0 +1,168 @@
+[
+  {
+    "name": "memex (memex-life)",
+    "description": "[项目级] Your second brain for the web browsing. An AI powered Chrome extension that constructs personal knowledge base for you. 。来源: https://github.com/memex-life/memex",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chrome-extension",
+      "gpt-3",
+      "knowledge-base",
+      "typescript",
+      "stars-140",
+      "github-memex-life",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This project aims to create a browser extension that acts like a personal memex machine.\nIt will keep track of everything you browse online to build your own knowledge base.\nThen it will use AI to retrieve that knowledge whenever you need it.\n\n**What is a Memex?**\n> Consider a future device for individual use, which is a sort of mechanized private file and library. It needs a name, and, to coin one at random, “memex” will do. A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory.   \n> --- “As We May Think”  Vannevar Bush (1945)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\njest.config.js\npackage-lock.json\npackage.json\npublic\npublic/icon.png\npublic/manifest.json\npublic/options.html\npublic/popup.html\nserver\nserver/README.md\nserver/knowledgeBase.py\nserver/server.py\nsrc\nsrc/background.ts\nsrc/components\nsrc/content_script.tsx\nsrc/options.tsx\nsrc/popup.tsx",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Seamlessly captures content and metadata from your web browsing.\n- Constructs your own personalized knowledge base on your local device\n- Retrive knowledge with power of AI.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.073064017839119
+  },
+  {
+    "name": "memex/public 模块",
+    "description": "[模块级] memex 项目的 public 模块 (source)。来源: https://github.com/memex-life/memex",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chrome-extension",
+      "gpt-3",
+      "knowledge-base",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 4\n\n包含文件:\n- public/icon.png\n- public/manifest.json\n- public/options.html\n- public/popup.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/icon.png\npublic/manifest.json\npublic/options.html\npublic/popup.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3584512142712954
+  },
+  {
+    "name": "memex/server 模块",
+    "description": "[模块级] memex 项目的 server 模块 (source)。来源: https://github.com/memex-life/memex",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chrome-extension",
+      "gpt-3",
+      "knowledge-base",
+      "module-level",
+      "source",
+      "server"
+    ],
+    "genes": [
+      {
+        "title": "server 模块说明",
+        "content": "Currently the [LangchainJs](https://github.com/hwchase17/langchainjs) has not yet support browser runtime. The extension still needs a backend server as Knowledge Base implementaion. \n\nset environments:\n```\nexport TOKENIZERS_PARALLELISM=false\nexport OPENAI_API_KEY=<your-api-key>\ncd server\nFLASK_APP=server flask run\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "server 文件结构",
+        "content": "server/README.md\nserver/knowledgeBase.py\nserver/server.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "server 代码示例",
+        "content": "export TOKENIZERS_PARALLELISM=false\nexport OPENAI_API_KEY=<your-api-key>\ncd server\nFLASK_APP=server flask run",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3584512142712954
+  },
+  {
+    "name": "memex/src 模块",
+    "description": "[模块级] memex 项目的 src 模块 (source)。来源: https://github.com/memex-life/memex",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chrome-extension",
+      "gpt-3",
+      "knowledge-base",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 8\n\n包含文件:\n- src/background.ts\n- src/components\n- src/components/ChatBox.tsx\n- src/components/KnowledgeBase.tsx\n- src/content_script.tsx\n- src/options.tsx\n- src/popup.tsx\n- src/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/background.ts\nsrc/components\nsrc/components/ChatBox.tsx\nsrc/components/KnowledgeBase.tsx\nsrc/content_script.tsx\nsrc/options.tsx\nsrc/popup.tsx\nsrc/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3584512142712954
+  },
+  {
+    "name": "memex/webpack 模块",
+    "description": "[模块级] memex 项目的 webpack 模块 (source)。来源: https://github.com/memex-life/memex",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "chrome-extension",
+      "gpt-3",
+      "knowledge-base",
+      "module-level",
+      "source",
+      "webpack"
+    ],
+    "genes": [
+      {
+        "title": "webpack 模块说明",
+        "content": "模块路径: webpack/\n类型: source\n文件数: 3\n\n包含文件:\n- webpack/webpack.common.js\n- webpack/webpack.dev.js\n- webpack/webpack.prod.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "webpack 文件结构",
+        "content": "webpack/webpack.common.js\nwebpack/webpack.dev.js\nwebpack/webpack.prod.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3584512142712954
+  }
+]

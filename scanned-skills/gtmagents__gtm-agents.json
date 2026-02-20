@@ -1,0 +1,99 @@
+[
+  {
+    "name": "gtm-agents (gtmagents)",
+    "description": "[项目级] Production-ready collection of GTM agents and specialized skills for claude code. Covers sales, marketing, customer success, and revenue operations workflows.。来源: https://github.com/gtmagents/gtm-agents",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-84",
+      "github-gtmagents",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Production-ready collection of GTM agents and specialized skills for claude code. Covers sales, marketing, customer success, and revenue operations workflows.\n\n来源: https://github.com/gtmagents/gtm-agents\n语言: Python\nStars: 84",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nGETTING_STARTED.md\nLICENSE\nQUICK_START.md\nREADME.md\nSECURITY.md\nSUMMARY.md\nagentic-building-blocks.md\navailable_skills.xml\ndocs\ndocs/FAQ.md\ndocs/MIGRATION_PLAN_AGENTSKILLS.md\ndocs/agent-reference.md\ndocs/business-skills.md\ndocs/catalog-tracker.md\ndocs/claude-code-cheat-sheet.md\ndocs/gtm-essentials.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Popular Use Cases:**\n\n*For Sales Teams:*\n- [Generate 100 Leads in 5 Minutes](docs/use-cases/lead-generation-workflow.md) - Save 18 hours\n- [Weekly Pipeline Health Check](docs/use-cases/pipeline-health-check.md) - Save 3 hours/week\n- [Build a Cold Email Sequence](docs/use-cases/cold-email-sequence.md) - Save 2 hours per sequence\n\n*For Marketing Teams:*\n- [Create a Month of Content in 30 Minutes](docs/use-cases/content-calendar-30-days.md) - Save 25 hours/month\n- [Plan 30 Days of Social Media](docs/use-cases/social-media-calendar.md) - Save 10 hours/month\n\n*For Growth Teams:*\n- [Segment Your C",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Business-First Architecture**: 67 plugins designed for non-technical users\n- **Comprehensive GTM Coverage**: Sales, marketing, growth, customer success, and RevOps\n- **100% Agent Coverage**: All plugins include specialized business agents\n- **52 Business Skills**: Specialized knowledge with progressive disclosure\n- **Clear Organization**: 24 categories tailored for business teams\n- **Efficient Design**: Average 3.2 components per plugin (follows Anthropic's 2-8 pattern)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.962139643030941
+  },
+  {
+    "name": "gtm-agents/docs 模块",
+    "description": "[模块级] gtm-agents 项目的 docs 模块 (docs)。来源: https://github.com/gtmagents/gtm-agents",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-84",
+      "github-gtmagents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 20\n\n包含文件:\n- docs/FAQ.md\n- docs/MIGRATION_PLAN_AGENTSKILLS.md\n- docs/agent-reference.md\n- docs/business-skills.md\n- docs/catalog-tracker.md\n- docs/claude-code-cheat-sheet.md\n- docs/gtm-essentials.md\n- docs/maintenance.md\n- docs/orchestrator-outline.md\n- docs/plugin-reference.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/FAQ.md\ndocs/MIGRATION_PLAN_AGENTSKILLS.md\ndocs/agent-reference.md\ndocs/business-skills.md\ndocs/catalog-tracker.md\ndocs/claude-code-cheat-sheet.md\ndocs/gtm-essentials.md\ndocs/maintenance.md\ndocs/orchestrator-outline.md\ndocs/plugin-reference.md\ndocs/usage-guide.md\ndocs/use-cases\ndocs/use-cases/ab-test-design.md\ndocs/use-cases/churn-prediction.md\ndocs/use-cases/cold-email-sequence.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2697117144247527
+  },
+  {
+    "name": "gtm-agents/plugins 模块",
+    "description": "[模块级] gtm-agents 项目的 plugins 模块 (source)。来源: https://github.com/gtmagents/gtm-agents",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-84",
+      "github-gtmagents",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "Browse available plugins:\n```bash\n/plugin\n```\n\nInstall the plugins you need:\n\n```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/abm-orchestration\nplugins/abm-orchestration/agents\nplugins/abm-orchestration/agents/abm-analyst.md\nplugins/abm-orchestration/agents/abm-strategist.md\nplugins/abm-orchestration/agents/account-planner.md\nplugins/abm-orchestration/commands\nplugins/abm-orchestration/commands/monitor-abm.md\nplugins/abm-orchestration/commands/plan-plays.md\nplugins/abm-orchestration/commands/target-accounts.md\nplugins/abm-orchestration/skills\nplugins/abm-orchestration/skills/account-tiering\nplugins/abm-orchestration/skills/account-tiering/SKILL.md\nplugins/abm-orchestration/skills/account-tiering/assets\nplugins/abm-orchestration/skills/account-tiering/assets/tiering_matrix.md\nplugins/abm-orchestration/skills/personalization",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2697117144247527
+  }
+]

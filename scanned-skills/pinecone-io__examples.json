@@ -1,0 +1,133 @@
+[
+  {
+    "name": "examples (pinecone-io)",
+    "description": "[项目级] Jupyter Notebooks to help you get hands-on with Pinecone vector databases。来源: https://github.com/pinecone-io/examples",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "jupyter-notebook",
+      "llm",
+      "python",
+      "semantic-search",
+      "jupyter notebook",
+      "stars-2990",
+      "github-pinecone-io",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Jupyter Notebooks to help you get hands-on with Pinecone vector databases\n\n来源: https://github.com/pinecone-io/examples\n语言: Jupyter Notebook\nStars: 2990",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Please see our [Getting started guide](./learn/README.md#getting-started) in our learn section for detailed instructions and a walkthrough of setting up and running a Jupyter Notebook in Google Colab for experimentation.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/fast-link.svg\nassets/fast-notebook-shield.svg\nassets/full-link.svg\nassets/github-shield.svg\nassets/nbviewer-shield.svg\ndocs\ndocs/assets\ndocs/assistant-quickstart.ipynb\ndocs/assistant-retrieve-context-snippets.ipynb\ndocs/cascading-retrieval.ipynb\ndocs/data\ndocs/gen-qa-openai.ipynb\ndocs/gpt-4-langchain-docs.ipynb\ndocs/it-threat-detection.ipynb\ndocs/langchain-retrieval-agent.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This repository is a collection of sample applications and Jupyter Notebooks that you can run, download, study and modify in order to get hands-on with \nPinecone [vector databases](https://www.pinecone.io/learn/vector-database/) and common AI patterns, tools and algorithms.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.737835594162215
+  },
+  {
+    "name": "examples/assets 模块",
+    "description": "[模块级] examples 项目的 assets 模块 (source)。来源: https://github.com/pinecone-io/examples",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "jupyter-notebook",
+      "llm",
+      "python",
+      "semantic-search",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/fast-link.svg\n- assets/fast-notebook-shield.svg\n- assets/full-link.svg\n- assets/github-shield.svg\n- assets/nbviewer-shield.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/fast-link.svg\nassets/fast-notebook-shield.svg\nassets/full-link.svg\nassets/github-shield.svg\nassets/nbviewer-shield.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.890268475329772
+  },
+  {
+    "name": "examples/docs 模块",
+    "description": "[模块级] examples 项目的 docs 模块 (docs)。来源: https://github.com/pinecone-io/examples",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "jupyter-notebook",
+      "llm",
+      "python",
+      "semantic-search",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 27\n\n包含文件:\n- docs/assets\n- docs/assets/how-to-create-pinecone-datasets.ipynb\n- docs/assets/onboarding_recommender_data_flow.jpg\n- docs/assistant-quickstart.ipynb\n- docs/assistant-retrieve-context-snippets.ipynb\n- docs/cascading-retrieval.ipynb\n- docs/data\n- docs/data/sample_notes_data.jsonl\n- docs/gen-qa-openai.ipynb\n- docs/gpt-4-langchain-docs.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/how-to-create-pinecone-datasets.ipynb\ndocs/assets/onboarding_recommender_data_flow.jpg\ndocs/assistant-quickstart.ipynb\ndocs/assistant-retrieve-context-snippets.ipynb\ndocs/cascading-retrieval.ipynb\ndocs/data\ndocs/data/sample_notes_data.jsonl\ndocs/gen-qa-openai.ipynb\ndocs/gpt-4-langchain-docs.ipynb\ndocs/it-threat-detection.ipynb\ndocs/langchain-retrieval-agent.ipynb\ndocs/langchain-retrieval-augmentation.ipynb\ndocs/lexical-search.ipynb\ndocs/onboarding-recommender.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.890268475329772
+  },
+  {
+    "name": "examples/integrations 模块",
+    "description": "[模块级] examples 项目的 integrations 模块 (source)。来源: https://github.com/pinecone-io/examples",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "jupyter-notebook",
+      "llm",
+      "python",
+      "semantic-search",
+      "module-level",
+      "source",
+      "integrations"
+    ],
+    "genes": [
+      {
+        "title": "integrations 模块说明",
+        "content": "模块路径: integrations/\n类型: source\n文件数: 77\n\n包含文件:\n- integrations/cohere\n- integrations/cohere/assets\n- integrations/cohere/assets/index_query_pinecone_cohere.png\n- integrations/cohere/semantic_search_trec.ipynb\n- integrations/cohere/webinar_classification_and_search\n- integrations/cohere/webinar_classification_and_search/01_semantic_search.ipynb\n- integrations/cohere/webinar_classification_and_search/README.md\n- integrations/cohere/webinar_classification_and_search/askscience.tsv\n- integrations/groq\n- integrations/groq/groq-llama-3-rag.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "integrations 文件结构",
+        "content": "integrations/cohere\nintegrations/cohere/assets\nintegrations/cohere/assets/index_query_pinecone_cohere.png\nintegrations/cohere/semantic_search_trec.ipynb\nintegrations/cohere/webinar_classification_and_search\nintegrations/cohere/webinar_classification_and_search/01_semantic_search.ipynb\nintegrations/cohere/webinar_classification_and_search/README.md\nintegrations/cohere/webinar_classification_and_search/askscience.tsv\nintegrations/groq\nintegrations/groq/groq-llama-3-rag.ipynb\nintegrations/haystack\nintegrations/haystack/README.md\nintegrations/haystack/extractive-qa\nintegrations/haystack/extractive-qa/haystack_extractive_qa.ipynb\nintegrations/haystack/farm-haystack",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.890268475329772
+  }
+]

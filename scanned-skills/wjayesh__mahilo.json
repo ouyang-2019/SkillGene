@@ -1,0 +1,226 @@
+[
+  {
+    "name": "mahilo (wjayesh)",
+    "description": "[项目级] mahilo: Multi-Agent Human-in-the-Loop Framework is a flexible framework for creating multi-agent systems that can each interact with humans while sharing relevant context internally.。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "github-wjayesh",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This project provides a flexible framework for defining and creating multi-agent systems that can each interact with humans while sharing relevant context internally. It allows developers to easily set up complex agent networks for various applications, from customer service to emergency response simulations.\n\nAgents are aware of other agents in the system and can decide to talk to one or more agents based on the current conversation context, simultaneously. The system is designed to make humans more efficient by giving them an assistant that can handle context from multiple agents and help the human stay focused on their specific problem, while surfacing all relevant information on demand.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install mahilo",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/health_emergency1.png\nassets/health_emergency2.png\nassets/hitchcock_arch.jpg\nassets/mahilo.png\nassets/mahilo_integrations1.png\nassets/mahilo_tut_simple.jpg\nassets/metrics.png\nassets/scenario_911.png\nassets/traces.png\nassets/yt_thumbnail1.png\nassets/yt_thumbnail_realtime.png\ndocs\ndocs/llm_integration.md\ndocs/policy_validation.md\nexamples\nexamples/dispatcher\nexamples/filmmaker",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python \nfrom mahilo import BaseAgent, AgentManager, ServerManager\nfrom mahilo.integrations.langgraph.agent import LangGraphAgent",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "![An architecture diagram that shows the different components of the system](https://github.com/wjayesh/mahilo/blob/main/assets/mahilo.png?raw=true)\nAbove is an architecture diagram that shows the different components of the system in the context of a health emergency scenario. You have three humans talking to their respective agents, which all share information internally.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.334192958345
+  },
+  {
+    "name": "mahilo/assets 模块",
+    "description": "[模块级] mahilo 项目的 assets 模块 (source)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 11\n\n包含文件:\n- assets/health_emergency1.png\n- assets/health_emergency2.png\n- assets/hitchcock_arch.jpg\n- assets/mahilo.png\n- assets/mahilo_integrations1.png\n- assets/mahilo_tut_simple.jpg\n- assets/metrics.png\n- assets/scenario_911.png\n- assets/traces.png\n- assets/yt_thumbnail1.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/health_emergency1.png\nassets/health_emergency2.png\nassets/hitchcock_arch.jpg\nassets/mahilo.png\nassets/mahilo_integrations1.png\nassets/mahilo_tut_simple.jpg\nassets/metrics.png\nassets/scenario_911.png\nassets/traces.png\nassets/yt_thumbnail1.png\nassets/yt_thumbnail_realtime.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  },
+  {
+    "name": "mahilo/docs 模块",
+    "description": "[模块级] mahilo 项目的 docs 模块 (docs)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/llm_integration.md\n- docs/policy_validation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/llm_integration.md\ndocs/policy_validation.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  },
+  {
+    "name": "mahilo/examples 模块",
+    "description": "[模块级] mahilo 项目的 examples 模块 (example)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 90\n\n包含文件:\n- examples/dispatcher\n- examples/dispatcher/README.md\n- examples/dispatcher/example_jsons\n- examples/dispatcher/example_jsons/three_agent_convos\n- examples/dispatcher/example_jsons/three_agent_convos/1\n- examples/dispatcher/example_jsons/three_agent_convos/1/dispatcher.json\n- examples/dispatcher/example_jsons/three_agent_convos/1/moldspecialists.json\n- examples/dispatcher/example_jsons/three_agent_convos/1/plumber.json\n- examples/dispatcher/example_jsons/three_agent_convos/2\n- examples/dispatcher/example_jsons/three_agent_convos/2/dispatcher.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/dispatcher\nexamples/dispatcher/README.md\nexamples/dispatcher/example_jsons\nexamples/dispatcher/example_jsons/three_agent_convos\nexamples/dispatcher/example_jsons/three_agent_convos/1\nexamples/dispatcher/example_jsons/three_agent_convos/1/dispatcher.json\nexamples/dispatcher/example_jsons/three_agent_convos/1/moldspecialists.json\nexamples/dispatcher/example_jsons/three_agent_convos/1/plumber.json\nexamples/dispatcher/example_jsons/three_agent_convos/2\nexamples/dispatcher/example_jsons/three_agent_convos/2/dispatcher.json\nexamples/dispatcher/example_jsons/three_agent_convos/2/moldspecialists_proxy.json\nexamples/dispatcher/example_jsons/three_agent_convos/2/plumber_proxy.json\nexamples/dispatcher/example_jsons/three_agent_convos/3\nexamples/dispatcher/example_jsons/three_agent_convos/3/dispatcher.json\nexamples/dispatcher/example_jsons/three_agent_convos/3/moldspecialists_proxy.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  },
+  {
+    "name": "mahilo/integration_tests 模块",
+    "description": "[模块级] mahilo 项目的 integration_tests 模块 (source)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "source",
+      "integration_tests"
+    ],
+    "genes": [
+      {
+        "title": "integration_tests 模块说明",
+        "content": "模块路径: integration_tests/\n类型: source\n文件数: 2\n\n包含文件:\n- integration_tests/test_langgraph.py\n- integration_tests/test_pydantic.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "integration_tests 文件结构",
+        "content": "integration_tests/test_langgraph.py\nintegration_tests/test_pydantic.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  },
+  {
+    "name": "mahilo/legacy_tests 模块",
+    "description": "[模块级] mahilo 项目的 legacy_tests 模块 (source)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "source",
+      "legacy_tests"
+    ],
+    "genes": [
+      {
+        "title": "legacy_tests 模块说明",
+        "content": "模块路径: legacy_tests/\n类型: source\n文件数: 2\n\n包含文件:\n- legacy_tests/dispatcher_example.py\n- legacy_tests/health_emergency_example.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "legacy_tests 文件结构",
+        "content": "legacy_tests/dispatcher_example.py\nlegacy_tests/health_emergency_example.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  },
+  {
+    "name": "mahilo/mahilo 模块",
+    "description": "[模块级] mahilo 项目的 mahilo 模块 (source)。来源: https://github.com/wjayesh/mahilo",
+    "domain": "ai-llm",
+    "tags": [
+      "agents",
+      "llm",
+      "multi-agent",
+      "python",
+      "stars-466",
+      "module-level",
+      "source",
+      "mahilo"
+    ],
+    "genes": [
+      {
+        "title": "mahilo 模块说明",
+        "content": "sales_agent = BaseAgent(\n    type=\"sales_agent\",\n    description=sales_agent_prompt,\n    tools=sales_tools,\n)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "mahilo 文件结构",
+        "content": "mahilo/__init__.py\nmahilo/agent.py\nmahilo/agent_manager.py\nmahilo/cli.py\nmahilo/client.py\nmahilo/integrations\nmahilo/integrations/__init__.py\nmahilo/integrations/langgraph\nmahilo/integrations/langgraph/agent.py\nmahilo/integrations/langgraph/tools.py\nmahilo/integrations/pydanticai\nmahilo/integrations/pydanticai/agent.py\nmahilo/integrations/pydanticai/tools.py\nmahilo/llm_config.py\nmahilo/message_protocol.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.567354366676
+  }
+]

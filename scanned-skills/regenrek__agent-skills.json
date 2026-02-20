@@ -1,0 +1,61 @@
+[
+  {
+    "name": "agent-skills (regenrek)",
+    "description": "[项目级] A curated collection of my agent-skills。来源: https://github.com/regenrek/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "shell",
+      "stars-25",
+      "github-regenrek",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of my agent-skills\n\n来源: https://github.com/regenrek/agent-skills\n语言: Shell\nStars: 25",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nskills\nskills/SKILL.md\nskills/codex-analysis\nskills/codex-sandbox\nskills/create-new-static-website\nskills/debug-lldb\nskills/gh-repo-bootstrap\nskills/git-safe-workflow\nskills/gitwhat\nskills/go-local-health\nskills/homebrew-publish\nskills/pr-commiter\nskills/redesign-my-landingpage\nskills/security-leak-guardrails\nskills/shellck\nsync-skills.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6989700043360187
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/regenrek/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "shell",
+      "stars-25",
+      "github-regenrek",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "**One repo. All your AI agents. Always in sync.**\n\nKeep your skills in a single source of truth and automatically sync them to Claude, Codex, and other AI agents.\n\n</div>\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/SKILL.md\nskills/codex-analysis\nskills/codex-analysis/SKILL.md\nskills/codex-sandbox\nskills/codex-sandbox/SKILL.md\nskills/codex-sandbox/references\nskills/codex-sandbox/references/naming.md\nskills/codex-sandbox/scripts\nskills/codex-sandbox/scripts/codex-task\nskills/codex-sandbox/scripts/codex_sandbox.py\nskills/create-new-static-website\nskills/create-new-static-website/SKILL.md\nskills/debug-lldb\nskills/debug-lldb/SKILL.md\nskills/debug-lldb/references",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  }
+]

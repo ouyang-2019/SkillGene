@@ -1,0 +1,458 @@
+[
+  {
+    "name": "awesome-claude-plugins (ComposioHQ)",
+    "description": "[项目级] A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "javascript",
+      "stars-1283",
+      "github-composiohq",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.\n\n来源: https://github.com/ComposioHQ/awesome-claude-plugins\n语言: JavaScript\nStars: 1283",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/connect-apps:setup",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagent-sdk-dev\nagent-sdk-dev/.claude-plugin\nagent-sdk-dev/agents\nagent-sdk-dev/commands\nartifacts-builder\nartifacts-builder/.claude-plugin\nartifacts-builder/skills\naudit-project\naudit-project/.claude-plugin\naudit-project/commands\naudit-project/lib\nbackend-architect\nbackend-architect/.claude-plugin\nbackend-architect/agents\nbug-fix\nbug-fix/.claude-plugin\nbug-fix/commands\ncanvas-design\ncanvas-design/.claude-plugin",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.554113328187464
+  },
+  {
+    "name": "awesome-claude-plugins/agent-sdk-dev 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 agent-sdk-dev 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "agent-sdk-dev"
+    ],
+    "genes": [
+      {
+        "title": "agent-sdk-dev 模块说明",
+        "content": "模块路径: agent-sdk-dev/\n类型: source\n文件数: 7\n\n包含文件:\n- agent-sdk-dev/.claude-plugin\n- agent-sdk-dev/.claude-plugin/plugin.json\n- agent-sdk-dev/agents\n- agent-sdk-dev/agents/agent-sdk-verifier-py.md\n- agent-sdk-dev/agents/agent-sdk-verifier-ts.md\n- agent-sdk-dev/commands\n- agent-sdk-dev/commands/new-sdk-app.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-sdk-dev 文件结构",
+        "content": "agent-sdk-dev/.claude-plugin\nagent-sdk-dev/.claude-plugin/plugin.json\nagent-sdk-dev/agents\nagent-sdk-dev/agents/agent-sdk-verifier-py.md\nagent-sdk-dev/agents/agent-sdk-verifier-ts.md\nagent-sdk-dev/commands\nagent-sdk-dev/commands/new-sdk-app.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/artifacts-builder 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 artifacts-builder 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "artifacts-builder"
+    ],
+    "genes": [
+      {
+        "title": "artifacts-builder 模块说明",
+        "content": "模块路径: artifacts-builder/\n类型: source\n文件数: 5\n\n包含文件:\n- artifacts-builder/.claude-plugin\n- artifacts-builder/.claude-plugin/plugin.json\n- artifacts-builder/skills\n- artifacts-builder/skills/artifacts-builder\n- artifacts-builder/skills/artifacts-builder/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "artifacts-builder 文件结构",
+        "content": "artifacts-builder/.claude-plugin\nartifacts-builder/.claude-plugin/plugin.json\nartifacts-builder/skills\nartifacts-builder/skills/artifacts-builder\nartifacts-builder/skills/artifacts-builder/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/audit-project 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 audit-project 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "audit-project"
+    ],
+    "genes": [
+      {
+        "title": "audit-project 模块说明",
+        "content": "模块路径: audit-project/\n类型: source\n文件数: 120\n\n包含文件:\n- audit-project/.claude-plugin\n- audit-project/.claude-plugin/plugin.json\n- audit-project/commands\n- audit-project/commands/audit-project-agents.md\n- audit-project/commands/audit-project-github.md\n- audit-project/commands/audit-project.md\n- audit-project/lib\n- audit-project/lib/collectors\n- audit-project/lib/collectors/codebase.js\n- audit-project/lib/collectors/docs-patterns.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "audit-project 文件结构",
+        "content": "audit-project/.claude-plugin\naudit-project/.claude-plugin/plugin.json\naudit-project/commands\naudit-project/commands/audit-project-agents.md\naudit-project/commands/audit-project-github.md\naudit-project/commands/audit-project.md\naudit-project/lib\naudit-project/lib/collectors\naudit-project/lib/collectors/codebase.js\naudit-project/lib/collectors/docs-patterns.js\naudit-project/lib/collectors/documentation.js\naudit-project/lib/collectors/github.js\naudit-project/lib/collectors/index.js\naudit-project/lib/config\naudit-project/lib/config/index.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/backend-architect 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 backend-architect 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "backend-architect"
+    ],
+    "genes": [
+      {
+        "title": "backend-architect 模块说明",
+        "content": "模块路径: backend-architect/\n类型: source\n文件数: 4\n\n包含文件:\n- backend-architect/.claude-plugin\n- backend-architect/.claude-plugin/plugin.json\n- backend-architect/agents\n- backend-architect/agents/backend-architect.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend-architect 文件结构",
+        "content": "backend-architect/.claude-plugin\nbackend-architect/.claude-plugin/plugin.json\nbackend-architect/agents\nbackend-architect/agents/backend-architect.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/bug-fix 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 bug-fix 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "bug-fix"
+    ],
+    "genes": [
+      {
+        "title": "bug-fix 模块说明",
+        "content": "模块路径: bug-fix/\n类型: source\n文件数: 4\n\n包含文件:\n- bug-fix/.claude-plugin\n- bug-fix/.claude-plugin/plugin.json\n- bug-fix/commands\n- bug-fix/commands/bug-fix.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bug-fix 文件结构",
+        "content": "bug-fix/.claude-plugin\nbug-fix/.claude-plugin/plugin.json\nbug-fix/commands\nbug-fix/commands/bug-fix.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/canvas-design 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 canvas-design 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "canvas-design"
+    ],
+    "genes": [
+      {
+        "title": "canvas-design 模块说明",
+        "content": "模块路径: canvas-design/\n类型: source\n文件数: 5\n\n包含文件:\n- canvas-design/.claude-plugin\n- canvas-design/.claude-plugin/plugin.json\n- canvas-design/skills\n- canvas-design/skills/canvas-design\n- canvas-design/skills/canvas-design/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "canvas-design 文件结构",
+        "content": "canvas-design/.claude-plugin\ncanvas-design/.claude-plugin/plugin.json\ncanvas-design/skills\ncanvas-design/skills/canvas-design\ncanvas-design/skills/canvas-design/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/changelog-generator 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 changelog-generator 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "changelog-generator"
+    ],
+    "genes": [
+      {
+        "title": "changelog-generator 模块说明",
+        "content": "模块路径: changelog-generator/\n类型: source\n文件数: 5\n\n包含文件:\n- changelog-generator/.claude-plugin\n- changelog-generator/.claude-plugin/plugin.json\n- changelog-generator/skills\n- changelog-generator/skills/changelog-generator\n- changelog-generator/skills/changelog-generator/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "changelog-generator 文件结构",
+        "content": "changelog-generator/.claude-plugin\nchangelog-generator/.claude-plugin/plugin.json\nchangelog-generator/skills\nchangelog-generator/skills/changelog-generator\nchangelog-generator/skills/changelog-generator/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/code-review 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 code-review 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "code-review"
+    ],
+    "genes": [
+      {
+        "title": "code-review 模块说明",
+        "content": "模块路径: code-review/\n类型: source\n文件数: 4\n\n包含文件:\n- code-review/.claude-plugin\n- code-review/.claude-plugin/plugin.json\n- code-review/commands\n- code-review/commands/code-review.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code-review 文件结构",
+        "content": "code-review/.claude-plugin\ncode-review/.claude-plugin/plugin.json\ncode-review/commands\ncode-review/commands/code-review.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/commit 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 commit 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "commit"
+    ],
+    "genes": [
+      {
+        "title": "commit 模块说明",
+        "content": "模块路径: commit/\n类型: source\n文件数: 4\n\n包含文件:\n- commit/.claude-plugin\n- commit/.claude-plugin/plugin.json\n- commit/commands\n- commit/commands/commit.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commit 文件结构",
+        "content": "commit/.claude-plugin\ncommit/.claude-plugin/plugin.json\ncommit/commands\ncommit/commands/commit.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/connect-apps 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 connect-apps 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "connect-apps"
+    ],
+    "genes": [
+      {
+        "title": "connect-apps 模块说明",
+        "content": "模块路径: connect-apps/\n类型: source\n文件数: 4\n\n包含文件:\n- connect-apps/.claude-plugin\n- connect-apps/.claude-plugin/plugin.json\n- connect-apps/commands\n- connect-apps/commands/setup.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "connect-apps 文件结构",
+        "content": "connect-apps/.claude-plugin\nconnect-apps/.claude-plugin/plugin.json\nconnect-apps/commands\nconnect-apps/commands/setup.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/create-pr 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 create-pr 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "create-pr"
+    ],
+    "genes": [
+      {
+        "title": "create-pr 模块说明",
+        "content": "模块路径: create-pr/\n类型: source\n文件数: 4\n\n包含文件:\n- create-pr/.claude-plugin\n- create-pr/.claude-plugin/plugin.json\n- create-pr/commands\n- create-pr/commands/create-pr.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "create-pr 文件结构",
+        "content": "create-pr/.claude-plugin\ncreate-pr/.claude-plugin/plugin.json\ncreate-pr/commands\ncreate-pr/commands/create-pr.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/debugger 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 debugger 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "debugger"
+    ],
+    "genes": [
+      {
+        "title": "debugger 模块说明",
+        "content": "模块路径: debugger/\n类型: source\n文件数: 4\n\n包含文件:\n- debugger/.claude-plugin\n- debugger/.claude-plugin/plugin.json\n- debugger/agents\n- debugger/agents/debugger.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "debugger 文件结构",
+        "content": "debugger/.claude-plugin\ndebugger/.claude-plugin/plugin.json\ndebugger/agents\ndebugger/agents/debugger.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/developer-growth-analysis 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 developer-growth-analysis 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "developer-growth-analysis"
+    ],
+    "genes": [
+      {
+        "title": "developer-growth-analysis 模块说明",
+        "content": "模块路径: developer-growth-analysis/\n类型: source\n文件数: 5\n\n包含文件:\n- developer-growth-analysis/.claude-plugin\n- developer-growth-analysis/.claude-plugin/plugin.json\n- developer-growth-analysis/skills\n- developer-growth-analysis/skills/developer-growth-analysis\n- developer-growth-analysis/skills/developer-growth-analysis/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "developer-growth-analysis 文件结构",
+        "content": "developer-growth-analysis/.claude-plugin\ndeveloper-growth-analysis/.claude-plugin/plugin.json\ndeveloper-growth-analysis/skills\ndeveloper-growth-analysis/skills/developer-growth-analysis\ndeveloper-growth-analysis/skills/developer-growth-analysis/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  },
+  {
+    "name": "awesome-claude-plugins/documentation-generator 模块",
+    "description": "[模块级] awesome-claude-plugins 项目的 documentation-generator 模块 (source)。来源: https://github.com/ComposioHQ/awesome-claude-plugins",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "module-level",
+      "source",
+      "documentation-generator"
+    ],
+    "genes": [
+      {
+        "title": "documentation-generator 模块说明",
+        "content": "模块路径: documentation-generator/\n类型: source\n文件数: 4\n\n包含文件:\n- documentation-generator/.claude-plugin\n- documentation-generator/.claude-plugin/plugin.json\n- documentation-generator/commands\n- documentation-generator/commands/documentation-generator.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "documentation-generator 文件结构",
+        "content": "documentation-generator/.claude-plugin\ndocumentation-generator/.claude-plugin/plugin.json\ndocumentation-generator/commands\ndocumentation-generator/commands/documentation-generator.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7432906625499713
+  }
+]

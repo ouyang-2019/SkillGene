@@ -1,0 +1,103 @@
+[
+  {
+    "name": "trafilatura (adbar)",
+    "description": "[项目级] Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML。来源: https://github.com/adbar/trafilatura",
+    "domain": "ai-llm",
+    "tags": [
+      "article-extractor",
+      "corpus-builder",
+      "corpus-tools",
+      "crawler",
+      "html-to-markdown",
+      "python",
+      "stars-5317",
+      "github-adbar",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Trafilatura is a cutting-edge **Python package and command-line tool**\ndesigned to **gather text on the Web and simplify the process of turning\nraw HTML into structured, meaningful data**. It includes all necessary\ndiscovery and text processing components to perform **web crawling,\ndownloads, scraping, and extraction** of main texts, metadata and\ncomments. It aims at staying **handy and modular**: no database is\nrequired, the output can be converted to commonly used formats.\n\nGoing from HTML bulk to essential parts can alleviate many problems\nrelated to text quality, by **focusing on the actual content**,\n**avoiding the noise** caused by recurring elements like headers and footers\nand by **making sense of the data and metadata** with selected information.\nThe extractor strikes a balance be",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCONTRIBUTING.md\nHISTORY.md\nLICENSE\nMANIFEST.in\nREADME.md\ncompose.yml\ndocs\ndocs/Makefile\ndocs/Trafilatura_Overview.ipynb\ndocs/background.rst\ndocs/compendium.rst\ndocs/conf.py\ndocs/corefunctions.rst\ndocs/corpus-data.rst\ndocs/crawls.rst\ndocs/deduplication.rst\ndocs/downloads.rst\ndocs/dwds-count-exportieren.jpg\ndocs/dwds-exportieren.jpg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "[Getting started with Trafilatura](https://trafilatura.readthedocs.io/en/latest/quickstart.html)\nis straightforward. For more information and detailed guides, visit\n[Trafilatura's documentation](https://trafilatura.readthedocs.io/):\n\n- [Installation](https://trafilatura.readthedocs.io/en/latest/installation.html)\n- Usage:\n  [On the command-line](https://trafilatura.readthedocs.io/en/latest/usage-cli.html),\n  [With Python](https://trafilatura.readthedocs.io/en/latest/usage-python.html),\n  [With R](https://trafilatura.readthedocs.io/en/latest/usage-r.html)\n- [Core Python functions](https://trafi",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Advanced web crawling and text discovery:\n   - Support for sitemaps (TXT, XML) and feeds (ATOM, JSON, RSS)\n   - Smart crawling and URL management (filtering and deduplication)\n\n- Parallel processing of online and offline input:\n   - Live URLs, efficient and polite processing of download queues\n   - Previously downloaded HTML files and parsed HTML trees\n\n- Robust and configurable extraction of key elements:\n   - Main text (common patterns and generic algorithms like jusText and readability)\n   - Metadata (title, author, date, site name, categories and tags)\n   - Formatting and structure: para",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.862833330157089
+  },
+  {
+    "name": "trafilatura/docs 模块",
+    "description": "[模块级] trafilatura 项目的 docs 模块 (docs)。来源: https://github.com/adbar/trafilatura",
+    "domain": "documentation",
+    "tags": [
+      "article-extractor",
+      "corpus-builder",
+      "corpus-tools",
+      "crawler",
+      "html-to-markdown",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 41\n\n包含文件:\n- docs/Makefile\n- docs/Trafilatura_Overview.ipynb\n- docs/background.rst\n- docs/compendium.rst\n- docs/conf.py\n- docs/corefunctions.rst\n- docs/corpus-data.rst\n- docs/crawls.rst\n- docs/deduplication.rst\n- docs/downloads.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/Trafilatura_Overview.ipynb\ndocs/background.rst\ndocs/compendium.rst\ndocs/conf.py\ndocs/corefunctions.rst\ndocs/corpus-data.rst\ndocs/crawls.rst\ndocs/deduplication.rst\ndocs/downloads.rst\ndocs/dwds-count-exportieren.jpg\ndocs/dwds-exportieren.jpg\ndocs/dwds-treffer-exportieren.jpg\ndocs/evaluation.rst\ndocs/gui-screenshot.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.990266664125672
+  },
+  {
+    "name": "trafilatura/tests 模块",
+    "description": "[模块级] trafilatura 项目的 tests 模块 (test)。来源: https://github.com/adbar/trafilatura",
+    "domain": "testing",
+    "tags": [
+      "article-extractor",
+      "corpus-builder",
+      "corpus-tools",
+      "crawler",
+      "html-to-markdown",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 140\n\n包含文件:\n- tests/README.rst\n- tests/__init__.py\n- tests/baseline_tests.py\n- tests/cache\n- tests/cache/adac.de.kindersitze.html\n- tests/cache/austria.info.radfahren.html\n- tests/cache/basicthinking.de.tweets.html\n- tests/cache/befifty.montauk.html\n- tests/cache/blog.mondediplo.net.turpitude.html\n- tests/cache/blog.python.org.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/README.rst\ntests/__init__.py\ntests/baseline_tests.py\ntests/cache\ntests/cache/adac.de.kindersitze.html\ntests/cache/austria.info.radfahren.html\ntests/cache/basicthinking.de.tweets.html\ntests/cache/befifty.montauk.html\ntests/cache/blog.mondediplo.net.turpitude.html\ntests/cache/blog.python.org.html\ntests/cache/blog.wordpress.com.diverse.html\ntests/cache/bmjv.de.konsum.html\ntests/cache/boingboing.net.millenials.html\ntests/cache/brandenburg.de.homo-brandenburgensis.html\ntests/cache/brigitte.de.ikigai.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.990266664125672
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "skills (Lukasedv)",
+    "description": "[项目级] Agent Skills collection。来源: https://github.com/Lukasedv/skills",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-20",
+      "github-lukasedv",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Agent Skills collection\n\n来源: https://github.com/Lukasedv/skills\n语言: Shell\nStars: 20",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "A meta-skill for GitHub Copilot CLI that helps you discover, browse, and install Agent Skills from GitHub repositories.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ninstall-skills\ninstall-skills/SKILL.md\ninstall-skills/scripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Once installed, try these prompts with GitHub Copilot CLI:\n\n| Prompt | What It Does |\n|--------|--------------|\n| \"Install all relevant skills for this repo\" | Analyzes your project and installs matching skills |\n| \"What skills are available?\" | Lists skills from known repositories |\n| \"Install the pdf skill\" | Installs a specific skill by name |\n| \"Find skills for testing\" | Searches for skills matching a keyword |\n| \"Install skills from anthropics/skills\" | Browses and installs from a specific repo |",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6505149978319906
+  },
+  {
+    "name": "skills/install-skills 模块",
+    "description": "[模块级] skills 项目的 install-skills 模块 (source)。来源: https://github.com/Lukasedv/skills",
+    "domain": "devops",
+    "tags": [
+      "shell",
+      "stars-20",
+      "github-lukasedv",
+      "module-level",
+      "source",
+      "install-skills"
+    ],
+    "genes": [
+      {
+        "title": "install-skills 模块说明",
+        "content": "A meta-skill for GitHub Copilot CLI that helps you discover, browse, and install Agent Skills from GitHub repositories.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "install-skills 文件结构",
+        "content": "install-skills/SKILL.md\ninstall-skills/scripts\ninstall-skills/scripts/install-skill.sh\ninstall-skills/scripts/list-skills.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0204119982655926
+  }
+]

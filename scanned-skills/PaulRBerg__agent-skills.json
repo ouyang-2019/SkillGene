@@ -1,0 +1,65 @@
+[
+  {
+    "name": "agent-skills (PaulRBerg)",
+    "description": "[项目级] PRB's collection of agent skills。来源: https://github.com/PaulRBerg/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "shell",
+      "stars-34",
+      "github-paulrberg",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "PRB's collection of agent skills\n\n来源: https://github.com/PaulRBerg/agent-skills\n语言: Shell\nStars: 34",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx skills add PaulRBerg/agent-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE.md\nREADME.md\njustfile\nskills\nskills/biome-js\nskills/bump-deps\nskills/bump-release\nskills/cli-cast\nskills/cli-gh\nskills/cli-just\nskills/code-polish\nskills/code-review\nskills/code-simplify\nskills/coderabbit\nskills/commit\nskills/delayed-command\nskills/ls-lint\nskills/md-docs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7657394585211277
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/PaulRBerg/agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "shell",
+      "stars-34",
+      "github-paulrberg",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "PRB's collection of AI agent skills. Designed to work across agents, but primarily built for [Claude Code](https://claude.com/product/claude-code) and [Codex](https://github.com/openai/codex).\n\n> [!WARNING]\n> These skills are optimized for my personal setup and workflow. If you install them, do your own due diligence and customize them to fit your stack and agents. No warranties, guarantees, or support are provided — use at your own risk.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/biome-js\nskills/biome-js/SKILL.md\nskills/biome-js/examples\nskills/biome-js/examples/base-config.jsonc\nskills/biome-js/examples/lint-staged.js\nskills/biome-js/examples/ui-config.jsonc\nskills/bump-deps\nskills/bump-deps/SKILL.md\nskills/bump-deps/scripts\nskills/bump-deps/scripts/run-taze.sh\nskills/bump-release\nskills/bump-release/SKILL.md\nskills/bump-release/references\nskills/bump-release/references/common-changelog.md\nskills/cli-cast",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.112591566816902
+  }
+]

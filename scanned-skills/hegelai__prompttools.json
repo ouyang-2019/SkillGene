@@ -1,0 +1,158 @@
+[
+  {
+    "name": "prompttools (hegelai)",
+    "description": "[项目级] Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB).。来源: https://github.com/hegelai/prompttools",
+    "domain": "ai-llm",
+    "tags": [
+      "deep-learning",
+      "developer-tools",
+      "embeddings",
+      "large-language-models",
+      "llms",
+      "python",
+      "stars-3012",
+      "github-hegelai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB).\n\n来源: https://github.com/hegelai/prompttools\n语言: Python\nStars: 3012",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/Makefile\ndocs/README.md\ndocs/img\ndocs/requirements.txt\ndocs/source\nexamples\nexamples/notebooks\nexamples/prompttests\nimg\nimg/demo.gif\nimg/feedback.png\nimg/hegel_ai_logo.svg\nimg/hegel_ai_logo_dark.svg\nimg/playground.gif\nimg/prompttest.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "We will be delighted to work with early adopters to shape our designs. Please reach out to us [via email](mailto:team@hegel-ai.com) if you're\ninterested in using this tooling for your project or have any feedback.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.739427483764332
+  },
+  {
+    "name": "prompttools/docs 模块",
+    "description": "[模块级] prompttools 项目的 docs 模块 (docs)。来源: https://github.com/hegelai/prompttools",
+    "domain": "documentation",
+    "tags": [
+      "deep-learning",
+      "developer-tools",
+      "embeddings",
+      "large-language-models",
+      "llms",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 29\n\n包含文件:\n- docs/Makefile\n- docs/README.md\n- docs/img\n- docs/img/feedback.png\n- docs/img/table.png\n- docs/requirements.txt\n- docs/source\n- docs/source/conf.py\n- docs/source/experiment.rst\n- docs/source/harness.rst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/README.md\ndocs/img\ndocs/img/feedback.png\ndocs/img/table.png\ndocs/requirements.txt\ndocs/source\ndocs/source/conf.py\ndocs/source/experiment.rst\ndocs/source/harness.rst\ndocs/source/index.rst\ndocs/source/modules.rst\ndocs/source/playground.rst\ndocs/source/prompttools.experiment.experiments.rst\ndocs/source/prompttools.experiment.rst",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "prompttools/examples 模块",
+    "description": "[模块级] prompttools 项目的 examples 模块 (example)。来源: https://github.com/hegelai/prompttools",
+    "domain": "ai-llm",
+    "tags": [
+      "deep-learning",
+      "developer-tools",
+      "embeddings",
+      "large-language-models",
+      "llms",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 58\n\n包含文件:\n- examples/notebooks\n- examples/notebooks/AnthropicExperiment.ipynb\n- examples/notebooks/AutoEval.ipynb\n- examples/notebooks/AzureOpenAIServiceExperiment.ipynb\n- examples/notebooks/FineTuningExperiment.ipynb\n- examples/notebooks/GPT4RegressionTesting.ipynb\n- examples/notebooks/GPT4vsLlama2.ipynb\n- examples/notebooks/GoogleGeminiChatExperiment.ipynb\n- examples/notebooks/GoogleVertexChatExperiment.ipynb\n- examples/notebooks/HuggingFaceHub.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/notebooks\nexamples/notebooks/AnthropicExperiment.ipynb\nexamples/notebooks/AutoEval.ipynb\nexamples/notebooks/AzureOpenAIServiceExperiment.ipynb\nexamples/notebooks/FineTuningExperiment.ipynb\nexamples/notebooks/GPT4RegressionTesting.ipynb\nexamples/notebooks/GPT4vsLlama2.ipynb\nexamples/notebooks/GoogleGeminiChatExperiment.ipynb\nexamples/notebooks/GoogleVertexChatExperiment.ipynb\nexamples/notebooks/HuggingFaceHub.ipynb\nexamples/notebooks/HumanFeedback.ipynb\nexamples/notebooks/LlamaCppExperiment.ipynb\nexamples/notebooks/LlamaHeadToHead.ipynb\nexamples/notebooks/MistralChatExperiment.ipynb\nexamples/notebooks/ModelComparison.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "prompttools/img 模块",
+    "description": "[模块级] prompttools 项目的 img 模块 (source)。来源: https://github.com/hegelai/prompttools",
+    "domain": "ai-llm",
+    "tags": [
+      "deep-learning",
+      "developer-tools",
+      "embeddings",
+      "large-language-models",
+      "llms",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 7\n\n包含文件:\n- img/demo.gif\n- img/feedback.png\n- img/hegel_ai_logo.svg\n- img/hegel_ai_logo_dark.svg\n- img/playground.gif\n- img/prompttest.png\n- img/table.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/demo.gif\nimg/feedback.png\nimg/hegel_ai_logo.svg\nimg/hegel_ai_logo_dark.svg\nimg/playground.gif\nimg/prompttest.png\nimg/table.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  },
+  {
+    "name": "prompttools/prompttools 模块",
+    "description": "[模块级] prompttools 项目的 prompttools 模块 (source)。来源: https://github.com/hegelai/prompttools",
+    "domain": "ai-llm",
+    "tags": [
+      "deep-learning",
+      "developer-tools",
+      "embeddings",
+      "large-language-models",
+      "llms",
+      "module-level",
+      "source",
+      "prompttools"
+    ],
+    "genes": [
+      {
+        "title": "prompttools 模块说明",
+        "content": "模块路径: prompttools/\n类型: source\n文件数: 83\n\n包含文件:\n- prompttools/__init__.py\n- prompttools/benchmarks\n- prompttools/benchmarks/__init__.py\n- prompttools/benchmarks/benchmark.py\n- prompttools/common.py\n- prompttools/data\n- prompttools/data/benchmarking\n- prompttools/data/benchmarking/hellaswag\n- prompttools/data/benchmarking/hellaswag/hellaswag_dataset.jsonl\n- prompttools/data/benchmarking/hellaswag/hellaswag_labels.lst",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompttools 文件结构",
+        "content": "prompttools/__init__.py\nprompttools/benchmarks\nprompttools/benchmarks/__init__.py\nprompttools/benchmarks/benchmark.py\nprompttools/common.py\nprompttools/data\nprompttools/data/benchmarking\nprompttools/data/benchmarking/hellaswag\nprompttools/data/benchmarking/hellaswag/hellaswag_dataset.jsonl\nprompttools/data/benchmarking/hellaswag/hellaswag_labels.lst\nprompttools/experiment\nprompttools/experiment/__init__.py\nprompttools/experiment/experiments\nprompttools/experiment/experiments/__init__.py\nprompttools/experiment/experiments/_utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8915419870114656
+  }
+]

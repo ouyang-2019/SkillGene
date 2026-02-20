@@ -1,0 +1,133 @@
+[
+  {
+    "name": "nonebot-plugin-bilichat (Well2333)",
+    "description": "[项目级] 一个废物写的屁用没有还一堆bug甚至不如停更三年的bot的垃圾项目罢了。来源: https://github.com/Well2333/nonebot-plugin-bilichat",
+    "domain": "ai-llm",
+    "tags": [
+      "bilibili",
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "openai",
+      "python",
+      "stars-267",
+      "github-well2333",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "一个废物写的屁用没有还一堆bug甚至不如停更三年的bot的垃圾项目罢了\n\n来源: https://github.com/Well2333/nonebot-plugin-bilichat\n语言: Python\nStars: 267",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "<details>\n<summary>使用 nb-cli 安装</summary>\n在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装\n\n    nb plugin install nonebot-plugin-bilichat\n\n</details>\n\n<details>\n<summary>使用包管理器安装</summary>\n在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令\n\n<details>\n<summary>pip</summary>\n\n    pip install nonebot-plugin-bilichat\n\n</details>\n<details>\n<summary>pdm</summary>\n\n    pdm add nonebot-plugin-bilichat\n\n</details>\n<details>\n<summary>poetry</summary>\n\n    poetry add nonebot-plugin-bilichat\n\n</details>\n<details>\n<summary>conda</summary>\n\n    conda install nonebot-plugin-bilichat\n\n</details>\n\n打开 nonebot2 项目根目录下的 `pypro",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nbot.py\nbuild_webui.py\ndocs\ndocs/NoneBotPlugin.svg\ndocs/basic.png\ndocs/bbot_default.png\ndocs/dynamic_mobile.jpg\ndocs/dynamic_pc.jpg\ndocs/dynamicrender.jpg\ndocs/mobile.png\ndocs/nbp_logo.png\ndocs/style_blue.png\ndocs/summary.png\ndocs/wordcloud.png\nnonebot_plugin_bilichat\nnonebot_plugin_bilichat/__init__.py\nnonebot_plugin_bilichat/api\nnonebot_plugin_bilichat/base_content_parsing.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "直接发送视频(专栏)链接即可",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.213255630682288
+  },
+  {
+    "name": "nonebot-plugin-bilichat/docs 模块",
+    "description": "[模块级] nonebot-plugin-bilichat 项目的 docs 模块 (docs)。来源: https://github.com/Well2333/nonebot-plugin-bilichat",
+    "domain": "documentation",
+    "tags": [
+      "bilibili",
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "openai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 11\n\n包含文件:\n- docs/NoneBotPlugin.svg\n- docs/basic.png\n- docs/bbot_default.png\n- docs/dynamic_mobile.jpg\n- docs/dynamic_pc.jpg\n- docs/dynamicrender.jpg\n- docs/mobile.png\n- docs/nbp_logo.png\n- docs/style_blue.png\n- docs/summary.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/NoneBotPlugin.svg\ndocs/basic.png\ndocs/bbot_default.png\ndocs/dynamic_mobile.jpg\ndocs/dynamic_pc.jpg\ndocs/dynamicrender.jpg\ndocs/mobile.png\ndocs/nbp_logo.png\ndocs/style_blue.png\ndocs/summary.png\ndocs/wordcloud.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4706045045458302
+  },
+  {
+    "name": "nonebot-plugin-bilichat/nonebot_plugin_bilichat 模块",
+    "description": "[模块级] nonebot-plugin-bilichat 项目的 nonebot_plugin_bilichat 模块 (source)。来源: https://github.com/Well2333/nonebot-plugin-bilichat",
+    "domain": "ai-llm",
+    "tags": [
+      "bilibili",
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "openai",
+      "module-level",
+      "source",
+      "nonebot_plugin_bilichat"
+    ],
+    "genes": [
+      {
+        "title": "nonebot_plugin_bilichat 模块说明",
+        "content": "模块路径: nonebot_plugin_bilichat/\n类型: source\n文件数: 76\n\n包含文件:\n- nonebot_plugin_bilichat/__init__.py\n- nonebot_plugin_bilichat/api\n- nonebot_plugin_bilichat/api/__init__.py\n- nonebot_plugin_bilichat/api/auth.py\n- nonebot_plugin_bilichat/api/base.py\n- nonebot_plugin_bilichat/api/config.py\n- nonebot_plugin_bilichat/base_content_parsing.py\n- nonebot_plugin_bilichat/command\n- nonebot_plugin_bilichat/command/__init__.py\n- nonebot_plugin_bilichat/command/base.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "nonebot_plugin_bilichat 文件结构",
+        "content": "nonebot_plugin_bilichat/__init__.py\nnonebot_plugin_bilichat/api\nnonebot_plugin_bilichat/api/__init__.py\nnonebot_plugin_bilichat/api/auth.py\nnonebot_plugin_bilichat/api/base.py\nnonebot_plugin_bilichat/api/config.py\nnonebot_plugin_bilichat/base_content_parsing.py\nnonebot_plugin_bilichat/command\nnonebot_plugin_bilichat/command/__init__.py\nnonebot_plugin_bilichat/command/base.py\nnonebot_plugin_bilichat/command/functions.py\nnonebot_plugin_bilichat/command/login.py\nnonebot_plugin_bilichat/command/otp.py\nnonebot_plugin_bilichat/command/subs.py\nnonebot_plugin_bilichat/config.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4706045045458302
+  },
+  {
+    "name": "nonebot-plugin-bilichat/webui 模块",
+    "description": "[模块级] nonebot-plugin-bilichat 项目的 webui 模块 (source)。来源: https://github.com/Well2333/nonebot-plugin-bilichat",
+    "domain": "ai-llm",
+    "tags": [
+      "bilibili",
+      "chatgpt",
+      "nonebot-plugin",
+      "nonebot2",
+      "openai",
+      "module-level",
+      "source",
+      "webui"
+    ],
+    "genes": [
+      {
+        "title": "webui 模块说明",
+        "content": "本项目提供了一个 WebUI 用于实时查看及部分热修改配置文件，启动时将会在日志中输出 WebUI 的访问地址，例如: `BiliChat WebUI 已启动 --> http://127.0.0.1:40094/bilichatwebui`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "webui 文件结构",
+        "content": "webui/bilichat-webui\nwebui/bilichat-webui/.gitignore\nwebui/bilichat-webui/README.md\nwebui/bilichat-webui/app\nwebui/bilichat-webui/app/favicon.ico\nwebui/bilichat-webui/app/globals.css\nwebui/bilichat-webui/app/layout.tsx\nwebui/bilichat-webui/app/page.tsx\nwebui/bilichat-webui/bun.lock\nwebui/bilichat-webui/components.json\nwebui/bilichat-webui/components\nwebui/bilichat-webui/components/badge.tsx\nwebui/bilichat-webui/components/config-editor.tsx\nwebui/bilichat-webui/components/config-field.tsx\nwebui/bilichat-webui/components/tabs.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4706045045458302
+  }
+]

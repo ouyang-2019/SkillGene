@@ -1,0 +1,61 @@
+[
+  {
+    "name": "agents-reflection-skills (CodeAlive-AI)",
+    "description": "[项目级] A comprehensive collection of meta-skills for Claude Code that enable self-management and reflection capabilities。来源: https://github.com/CodeAlive-AI/agents-reflection-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-29",
+      "github-codealive-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A comprehensive collection of meta-skills for Claude Code that enable self-management and reflection capabilities\n\n来源: https://github.com/CodeAlive-AI/agents-reflection-skills\n语言: Python\nStars: 29",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "claude install-skill CodeAlive-AI/agents-reflection-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nLICENSE\nREADME.md\nREADME.pt-BR.md\nREADME.ru.md\nREADME.zh.md\nplugins\nplugins/agents-reflection-skills",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.731198998949478
+  },
+  {
+    "name": "agents-reflection-skills/plugins 模块",
+    "description": "[模块级] agents-reflection-skills 项目的 plugins 模块 (source)。来源: https://github.com/CodeAlive-AI/agents-reflection-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-29",
+      "github-codealive-ai",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "> Package and publish your own plugins\n\n**Create a Plugin**\n> *\"Create a new plugin with my custom skills\"*\n\nScaffolds a new plugin structure with manifest, README, and skill directories.\n\n**Publish to GitHub**\n> *\"Publish my plugin to GitHub\"*\n\nPackages your plugin and creates a GitHub release for others to install.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/agents-reflection-skills\nplugins/agents-reflection-skills/.claude-plugin\nplugins/agents-reflection-skills/.claude-plugin/plugin.json\nplugins/agents-reflection-skills/LICENSE\nplugins/agents-reflection-skills/README.md\nplugins/agents-reflection-skills/skills\nplugins/agents-reflection-skills/skills/hooks-management\nplugins/agents-reflection-skills/skills/hooks-management/SKILL.md\nplugins/agents-reflection-skills/skills/hooks-management/references\nplugins/agents-reflection-skills/skills/hooks-management/references/claude-event-schemas.md\nplugins/agents-reflection-skills/skills/hooks-management/references/claude-templates.md\nplugins/agents-reflection-skills/skills/hooks-management/references/codex-hooks.md\nplugins/agents-reflection-skills/skills/hooks-management/scripts\nplugins/agents-reflection-skills/skills/hooks-management/scripts/validate_hooks.py\nplugins/agents-reflection-skills/skills/mcp-management",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0849591991595826
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "RAGHub (Andrew-Jang)",
+    "description": "[项目级] A community-driven collection of RAG (Retrieval-Augmented Generation) frameworks, projects, and resources. Contribute and explore the evolving RAG ecosystem.。来源: https://github.com/Andrew-Jang/RAGHub",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "large-language-models",
+      "llm",
+      "machine-learning",
+      "stars-1571",
+      "github-andrew-jang",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A community-driven collection of RAG (Retrieval-Augmented Generation) frameworks, projects, and resources. Contribute and explore the evolving RAG ecosystem.\n\n来源: https://github.com/Andrew-Jang/RAGHub\n语言: unknown\nStars: 1571",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "This is a community project, and **we welcome contributions from everyone**! If you’d like to add a new framework, project, or resource, please check out our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get started.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.598088092519987
+  }
+]

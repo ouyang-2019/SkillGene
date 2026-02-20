@@ -1,0 +1,162 @@
+[
+  {
+    "name": "jido (agentjido)",
+    "description": "[项目级] 🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows.。来源: https://github.com/agentjido/jido",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "elixir",
+      "event-driven-architecture",
+      "stars-944",
+      "github-agentjido",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "With Jido, your agents are immutable data structures with a single command function:\n\n```elixir\ndefmodule MyAgent do\n  use Jido.Agent,\n    name: \"my_agent\",\n    description: \"My custom agent\",\n    schema: [\n      count: [type: :integer, default: 0]\n    ]\n  end\nend\n\n{agent, directives} = MyAgent.cmd(agent, action)\n```\n\nState changes are pure data transformations; side effects are described as directives and executed by an OTP runtime. You get deterministic agent logic, testability without processes, and a clear path to running those agents in production.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nconfig\nconfig/config.exs\nconfig/test.exs\nguides\nguides/actions.md\nguides/agents.md\nguides/ash-integration.md\nguides/await.md\nguides/configuration.md\nguides/core-loop.md\nguides/custom-strategies.md\nguides/debugging.md\nguides/directives.md\nguides/discovery.md\nguides/errors.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.487485997149035
+  },
+  {
+    "name": "jido/config 模块",
+    "description": "[模块级] jido 项目的 config 模块 (config)。来源: https://github.com/agentjido/jido",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "elixir",
+      "event-driven-architecture",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "config :my_app, MyApp.Jido,\n  max_tasks: 1000,\n  agent_pools: []\n```\n\n```elixir",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/config.exs\nconfig/test.exs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "jido/guides 模块",
+    "description": "[模块级] jido 项目的 guides 模块 (source)。来源: https://github.com/agentjido/jido",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "elixir",
+      "event-driven-architecture",
+      "module-level",
+      "source",
+      "guides"
+    ],
+    "genes": [
+      {
+        "title": "guides 模块说明",
+        "content": "模块路径: guides/\n类型: source\n文件数: 30\n\n包含文件:\n- guides/actions.md\n- guides/agents.md\n- guides/ash-integration.md\n- guides/await.md\n- guides/configuration.md\n- guides/core-loop.md\n- guides/custom-strategies.md\n- guides/debugging.md\n- guides/directives.md\n- guides/discovery.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guides 文件结构",
+        "content": "guides/actions.md\nguides/agents.md\nguides/ash-integration.md\nguides/await.md\nguides/configuration.md\nguides/core-loop.md\nguides/custom-strategies.md\nguides/debugging.md\nguides/directives.md\nguides/discovery.md\nguides/errors.md\nguides/fsm-strategy.livemd\nguides/getting-started.livemd\nguides/migration.md\nguides/observability-intro.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "jido/lib 模块",
+    "description": "[模块级] jido 项目的 lib 模块 (source)。来源: https://github.com/agentjido/jido",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "elixir",
+      "event-driven-architecture",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "defmodule MyApp.Jido do\n  use Jido, otp_app: :my_app\nend\n```\n\n```elixir",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/jido.ex\nlib/jido\nlib/jido/actions\nlib/jido/actions/control.ex\nlib/jido/actions/lifecycle.ex\nlib/jido/actions/scheduling.ex\nlib/jido/actions/status.ex\nlib/jido/agent.ex\nlib/jido/agent\nlib/jido/agent/default_plugins.ex\nlib/jido/agent/directive.ex\nlib/jido/agent/directive\nlib/jido/agent/directive/cron.ex\nlib/jido/agent/directive/cron_cancel.ex\nlib/jido/agent/instance_manager.ex",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  },
+  {
+    "name": "jido/test 模块",
+    "description": "[模块级] jido 项目的 test 模块 (test)。来源: https://github.com/agentjido/jido",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "elixir",
+      "event-driven-architecture",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "```bash\nmix test\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/AGENTS.md\ntest/examples\ntest/examples/basics\ntest/examples/basics/counter_agent_test.exs\ntest/examples/basics/error_handling_test.exs\ntest/examples/basics/state_ops_test.exs\ntest/examples/fsm\ntest/examples/fsm/fsm_agent_test.exs\ntest/examples/observability\ntest/examples/observability/domain_event_observability_test.exs\ntest/examples/observability/observability_test.exs\ntest/examples/observability/sensor_demo_test.exs\ntest/examples/observability/tracing_test.exs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6899887977192276
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "name": "awesome-vibe-coding (adriannoes)",
+    "description": "[项目级] Your go-to resource for learning to code with AI: Cursor and Claude skills, rules and commands, AI prompts and learning resources for non-technical builders.。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "jupyter notebook",
+      "stars-22",
+      "github-adriannoes",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository is maintained by **Adrianno**, a Staff Product Manager at [Pipefy](https://www.pipefy.com), diving into the magic behind LLMs, experimenting with Python and TypeScript and re-learning the craft of software engineering.\n\nYou can find more about me on [GitHub](https://github.com/adriannoes) and [LinkedIn](https://www.linkedin.com/in/adrianno/). Feel free to connect with me, I'm always open to discussing AI, product management and building cool things together!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/vibe-coding.png\ncursor-rules\ncursor-rules/README.md\ncursor-rules/best-practices\ncursor-rules/coding\ncursor-rules/product-management\ncursor-rules/security\nn8n-templates\nn8n-templates/AI Agent - Google calendar assistant using OpenAI.json\nn8n-templates/AI-Powered YouTube Video Summarization & Analysis.json\nn8n-templates/Auto Categorise Outlook Emails with AI.json\nn8n-templates/Chat with a Google Sheet using AI.json\nn8n-templates/Chatbot de WhatsApp para cadastro de leads no Notion.json\nn8n-templates/Compara colunas no Google Sheets.json\nn8n-templates/Convert text to speech with OpenAI.json\nn8n-templates/Envio de WhatsApp em Massa com Relatório de Envios.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6712113404111033
+  },
+  {
+    "name": "awesome-vibe-coding/cursor-rules 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 cursor-rules 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "cursor-rules"
+    ],
+    "genes": [
+      {
+        "title": "cursor-rules 模块说明",
+        "content": "模块路径: cursor-rules/\n类型: source\n文件数: 56\n\n包含文件:\n- cursor-rules/README.md\n- cursor-rules/best-practices\n- cursor-rules/best-practices/accessibility.mdc\n- cursor-rules/best-practices/claude-cli-commands.mdc\n- cursor-rules/best-practices/clean-code.mdc\n- cursor-rules/best-practices/codequality.md\n- cursor-rules/best-practices/hooks-guide.mdc\n- cursor-rules/best-practices/how-to-documentation.md\n- cursor-rules/best-practices/mcp-guide.mdc\n- cursor-rules/best-practices/meta-prompt.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cursor-rules 文件结构",
+        "content": "cursor-rules/README.md\ncursor-rules/best-practices\ncursor-rules/best-practices/accessibility.mdc\ncursor-rules/best-practices/claude-cli-commands.mdc\ncursor-rules/best-practices/clean-code.mdc\ncursor-rules/best-practices/codequality.md\ncursor-rules/best-practices/hooks-guide.mdc\ncursor-rules/best-practices/how-to-documentation.md\ncursor-rules/best-practices/mcp-guide.mdc\ncursor-rules/best-practices/meta-prompt.md\ncursor-rules/best-practices/reflect.md\ncursor-rules/best-practices/system-prompts.mdc\ncursor-rules/best-practices/test-coverage-review.md\ncursor-rules/coding\ncursor-rules/coding/dev-philosophy.mdc",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "awesome-vibe-coding/n8n-templates 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 n8n-templates 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "n8n-templates"
+    ],
+    "genes": [
+      {
+        "title": "n8n-templates 模块说明",
+        "content": "模块路径: n8n-templates/\n类型: source\n文件数: 22\n\n包含文件:\n- n8n-templates/AI Agent - Google calendar assistant using OpenAI.json\n- n8n-templates/AI-Powered YouTube Video Summarization & Analysis.json\n- n8n-templates/Auto Categorise Outlook Emails with AI.json\n- n8n-templates/Chat with a Google Sheet using AI.json\n- n8n-templates/Chatbot de WhatsApp para cadastro de leads no Notion.json\n- n8n-templates/Compara colunas no Google Sheets.json\n- n8n-templates/Convert text to speech with OpenAI.json\n- n8n-templates/Envio de WhatsApp em Massa com Relatório de Envios.json\n- n8n-templates/Envio de emails em massa (via lista em texto).json\n- n8n-templates/Envio em massa de WhatsApp (via Texto  Simples).json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "n8n-templates 文件结构",
+        "content": "n8n-templates/AI Agent - Google calendar assistant using OpenAI.json\nn8n-templates/AI-Powered YouTube Video Summarization & Analysis.json\nn8n-templates/Auto Categorise Outlook Emails with AI.json\nn8n-templates/Chat with a Google Sheet using AI.json\nn8n-templates/Chatbot de WhatsApp para cadastro de leads no Notion.json\nn8n-templates/Compara colunas no Google Sheets.json\nn8n-templates/Convert text to speech with OpenAI.json\nn8n-templates/Envio de WhatsApp em Massa com Relatório de Envios.json\nn8n-templates/Envio de emails em massa (via lista em texto).json\nn8n-templates/Envio em massa de WhatsApp (via Texto  Simples).json\nn8n-templates/Envios em massa para WhatsApp (via CSV do Google Drive).json\nn8n-templates/Envios em massa para o WhatsApp (via Json).json\nn8n-templates/Notion knowledge base AI assistant.json\nn8n-templates/Receive Daily Market News from FT.com to your Microsoft outlook inbox.json\nn8n-templates/Scrape and summarize webpages with AI.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "awesome-vibe-coding/papers 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 papers 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "papers"
+    ],
+    "genes": [
+      {
+        "title": "papers 模块说明",
+        "content": "模块路径: papers/\n类型: source\n文件数: 22\n\n包含文件:\n- papers/A Perspective on Decentralizing AI.pdf\n- papers/A comprehensive taxonomy of hallucinations in Large Language Models.pdf\n- papers/AI Agents vs. Agentic AI_ A Conceptual Taxonomy, Applications and Challenges.pdf\n- papers/Agentic Context Engineering - Evolving Contexts for Self-Improving Language Models.pdf\n- papers/DeepSeek_Prover_V2 - DeepSeek's latest model masters math proofs.pdf\n- papers/Deepseek - Manifold-Constrained Hyper-Connections.pdf\n- papers/EXPERTISE and Automation.pdf\n- papers/Fully Autonomous AI Agents Should Not be Developed.pdf\n- papers/Fundamentals of Building Autonomous LLM Agents.pdf\n- papers/Genius on Demand - The Value of Transformative Artificial Intelligence.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "papers 文件结构",
+        "content": "papers/A Perspective on Decentralizing AI.pdf\npapers/A comprehensive taxonomy of hallucinations in Large Language Models.pdf\npapers/AI Agents vs. Agentic AI_ A Conceptual Taxonomy, Applications and Challenges.pdf\npapers/Agentic Context Engineering - Evolving Contexts for Self-Improving Language Models.pdf\npapers/DeepSeek_Prover_V2 - DeepSeek's latest model masters math proofs.pdf\npapers/Deepseek - Manifold-Constrained Hyper-Connections.pdf\npapers/EXPERTISE and Automation.pdf\npapers/Fully Autonomous AI Agents Should Not be Developed.pdf\npapers/Fundamentals of Building Autonomous LLM Agents.pdf\npapers/Genius on Demand - The Value of Transformative Artificial Intelligence.pdf\npapers/Measuring Agents in Production.pdf\npapers/On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?.pdf\npapers/README.md\npapers/Reasoning Models Don’t Always Say What They Think.pdf\npapers/The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "awesome-vibe-coding/prompt-engineering 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 prompt-engineering 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "prompt-engineering"
+    ],
+    "genes": [
+      {
+        "title": "prompt-engineering 模块说明",
+        "content": "模块路径: prompt-engineering/\n类型: source\n文件数: 17\n\n包含文件:\n- prompt-engineering/learning\n- prompt-engineering/learning/Google (Lee Boonstra) - Prompt Engineering.pdf\n- prompt-engineering/learning/Google - Prompting guide 101.pdf\n- prompt-engineering/prompts\n- prompt-engineering/prompts/Claude_Sonnet-4.5_Sep-29-2025.txt\n- prompt-engineering/prompts/Cursor-Agent.mdc\n- prompt-engineering/prompts/Devin2_09-08-2025.md\n- prompt-engineering/prompts/GROK-4-NEW_Jul-13-2025.txt\n- prompt-engineering/prompts/Gemini-2.5-Pro-04-18-2025.md\n- prompt-engineering/prompts/Grok-Code-Fast-1_Aug-26-2025.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt-engineering 文件结构",
+        "content": "prompt-engineering/learning\nprompt-engineering/learning/Google (Lee Boonstra) - Prompt Engineering.pdf\nprompt-engineering/learning/Google - Prompting guide 101.pdf\nprompt-engineering/prompts\nprompt-engineering/prompts/Claude_Sonnet-4.5_Sep-29-2025.txt\nprompt-engineering/prompts/Cursor-Agent.mdc\nprompt-engineering/prompts/Devin2_09-08-2025.md\nprompt-engineering/prompts/GROK-4-NEW_Jul-13-2025.txt\nprompt-engineering/prompts/Gemini-2.5-Pro-04-18-2025.md\nprompt-engineering/prompts/Grok-Code-Fast-1_Aug-26-2025.txt\nprompt-engineering/prompts/Kimi_2_July-11-2025.txt\nprompt-engineering/prompts/Lovable-2.0.mdc\nprompt-engineering/prompts/Perplexity_Deep_Research.txt\nprompt-engineering/prompts/Replit_Agent.md\nprompt-engineering/prompts/n8n-day-hour.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "awesome-vibe-coding/reports 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 reports 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "reports"
+    ],
+    "genes": [
+      {
+        "title": "reports 模块说明",
+        "content": "模块路径: reports/\n类型: source\n文件数: 14\n\n包含文件:\n- reports/Bond - Artificial_Intelligence Trends.pdf\n- reports/Delloite - The business imperative for Agentic AI.pdf\n- reports/Deloitte - The measure leap_ Appraising AI agent impact with agent operations.pdf\n- reports/Estimating AI productivity gains from Claude conversations.pdf\n- reports/KPMG - Agentic AI advantage.pdf\n- reports/McKinsey - Seizing the agentic AI advantage.pdf\n- reports/McKinsey - The rise of AI corporate citizens.pdf\n- reports/McKinsey - What is an AI Agent.pdf\n- reports/Open AI - The state of enterprise AI (2025).pdf\n- reports/OpenAI - A practical guide to building agents.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "reports 文件结构",
+        "content": "reports/Bond - Artificial_Intelligence Trends.pdf\nreports/Delloite - The business imperative for Agentic AI.pdf\nreports/Deloitte - The measure leap_ Appraising AI agent impact with agent operations.pdf\nreports/Estimating AI productivity gains from Claude conversations.pdf\nreports/KPMG - Agentic AI advantage.pdf\nreports/McKinsey - Seizing the agentic AI advantage.pdf\nreports/McKinsey - The rise of AI corporate citizens.pdf\nreports/McKinsey - What is an AI Agent.pdf\nreports/Open AI - The state of enterprise AI (2025).pdf\nreports/OpenAI - A practical guide to building agents.pdf\nreports/OpenAI - Staying Ahead in the Age of AI.pdf\nreports/OpenAI - Use cases AI Agents.pdf\nreports/State of AI Report - 2025 (Air Street Capital).pdf\nreports/The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  },
+  {
+    "name": "awesome-vibe-coding/research 模块",
+    "description": "[模块级] awesome-vibe-coding 项目的 research 模块 (source)。来源: https://github.com/adriannoes/awesome-vibe-coding",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agents",
+      "awesome-list",
+      "cursor",
+      "ml",
+      "module-level",
+      "source",
+      "research"
+    ],
+    "genes": [
+      {
+        "title": "research 模块说明",
+        "content": "Jupyter notebooks and experimental work:\n- **OCR Research** - Deepseek OCR experiments and model testing",
+        "gene_type": "principle"
+      },
+      {
+        "title": "research 文件结构",
+        "content": "research/Deepseek_OCR_(3B).ipynb\nresearch/ML-Notebooks\nresearch/ML-Notebooks/notebooks\nresearch/ML-Notebooks/notebooks/bow-dataloader.ipynb\nresearch/ML-Notebooks/notebooks/bow.ipynb\nresearch/ML-Notebooks/notebooks/cbow.ipynb\nresearch/ML-Notebooks/notebooks/comp_graphs.ipynb\nresearch/ML-Notebooks/notebooks/concise_log_reg.ipynb\nresearch/ML-Notebooks/notebooks/deep_cbow.ipynb\nresearch/ML-Notebooks/notebooks/first_nn.ipynb\nresearch/ML-Notebooks/notebooks/intro_gnn.ipynb\nresearch/ML-Notebooks/notebooks/linear_regression.ipynb\nresearch/ML-Notebooks/notebooks/logistic_regression.ipynb\nresearch/ML-Notebooks/notebooks/loglin-lm-dataloader.ipynb\nresearch/ML-Notebooks/notebooks/loglin-lm.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0369690723288825
+  }
+]

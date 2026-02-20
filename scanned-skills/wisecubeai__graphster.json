@@ -1,0 +1,312 @@
+[
+  {
+    "name": "graphster (wisecubeai)",
+    "description": "[项目级] spark-based library that helps construct and query knowledge graphs from unstructured and structured data。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "stars-104",
+      "github-wisecubeai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "spark-based library that helps construct and query knowledge graphs from unstructured and structured data\n\n来源: https://github.com/wisecubeai/graphster\n语言: Scala\nStars: 104",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/wisecubeai/graphster.git",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE\nREADME.md\n_config.yml\nbuild.sbt\ncore\ncore/README.md\ncore/Sandbox.sc\ncore/src\ndatasets\ndatasets/Sandbox.sc\ndatasets/src\ndocker\ndocker/Dockerfile\ndocker/README.md\ndocker/env_python_3_with_R.yml\ndocker/home.html\ndocker/log4j.properties\ndocker/log4j2.properties\ndocker/log4j2_docker.properties",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.00851666964939
+  },
+  {
+    "name": "graphster/core 模块",
+    "description": "[模块级] graphster 项目的 core 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "The core module contains two main parts. The first is the configuration, \nand the second part is for processing structured data into graphs.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/README.md\ncore/Sandbox.sc\ncore/src\ncore/src/main\ncore/src/main/scala\ncore/src/main/scala/com\ncore/src/main/scala/com/graphster\ncore/src/main/scala/com/graphster/orpheus\ncore/src/main/scala/com/graphster/orpheus/SparkImplicits.scala\ncore/src/main/scala/com/graphster/orpheus/SparkMLTraits.scala\ncore/src/main/scala/com/graphster/orpheus/Utils.scala\ncore/src/main/scala/com/graphster/orpheus/config\ncore/src/main/scala/com/graphster/orpheus/config/Conf.scala\ncore/src/main/scala/com/graphster/orpheus/config/ConfPath.scala\ncore/src/main/scala/com/graphster/orpheus/config/Configuration.scala",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/datasets 模块",
+    "description": "[模块级] graphster 项目的 datasets 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "datasets"
+    ],
+    "genes": [
+      {
+        "title": "datasets 模块说明",
+        "content": "The datasets module contains code for general RDF format parsing. \nIt also contains code for setting up common datasets.\n\nCurrently, we have code for the following datasets.\n\n- MeSH\n- Clinical Trials",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datasets 文件结构",
+        "content": "datasets/Sandbox.sc\ndatasets/src\ndatasets/src/main\ndatasets/src/main/scala\ndatasets/src/main/scala/com\ndatasets/src/main/scala/com/graphster\ndatasets/src/main/scala/com/graphster/orpheus\ndatasets/src/main/scala/com/graphster/orpheus/data\ndatasets/src/main/scala/com/graphster/orpheus/data/datasets\ndatasets/src/main/scala/com/graphster/orpheus/data/datasets/ClinicalTrials.scala\ndatasets/src/main/scala/com/graphster/orpheus/data/datasets/MeSH.scala\ndatasets/src/main/scala/com/graphster/orpheus/data/utils\ndatasets/src/main/scala/com/graphster/orpheus/data/utils/package.scala",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/docker 模块",
+    "description": "[模块级] graphster 项目的 docker 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 17\n\n包含文件:\n- docker/Dockerfile\n- docker/README.md\n- docker/env_python_3_with_R.yml\n- docker/home.html\n- docker/log4j.properties\n- docker/log4j2.properties\n- docker/log4j2_docker.properties\n- docker/log4j_docker.properties\n- docker/notebook\n- docker/notebook/zeppelin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/Dockerfile\ndocker/README.md\ndocker/env_python_3_with_R.yml\ndocker/home.html\ndocker/log4j.properties\ndocker/log4j2.properties\ndocker/log4j2_docker.properties\ndocker/log4j_docker.properties\ndocker/notebook\ndocker/notebook/zeppelin\ndocker/notebook/zeppelin/Graphster Tutorial\ndocker/notebook/zeppelin/Graphster Tutorial/00_README_2HQP85EUK.zpln\ndocker/notebook/zeppelin/Graphster Tutorial/01_Config_2HR8T9J3M.zpln\ndocker/notebook/zeppelin/Graphster Tutorial/02_download_staging_2HR7987TX.zpln\ndocker/notebook/zeppelin/Graphster Tutorial/03_enrichment_fusion_2HQFGKN4W.zpln",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/project 模块",
+    "description": "[模块级] graphster 项目的 project 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "project"
+    ],
+    "genes": [
+      {
+        "title": "project 模块说明",
+        "content": "模块路径: project/\n类型: source\n文件数: 2\n\n包含文件:\n- project/build.properties\n- project/plugins.sbt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "project 文件结构",
+        "content": "project/build.properties\nproject/plugins.sbt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/python 模块",
+    "description": "[模块级] graphster 项目的 python 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 2\n\n包含文件:\n- python/graphster\n- python/graphster/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/graphster\npython/graphster/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/query 模块",
+    "description": "[模块级] graphster 项目的 query 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "query"
+    ],
+    "genes": [
+      {
+        "title": "query 模块说明",
+        "content": "The query module is a wrapper around the Bellman project from GSK. \nAt the moment, graphs of with more than 25 million edges will be slow.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "query 文件结构",
+        "content": "query/src\nquery/src/main\nquery/src/main/scala\nquery/src/main/scala/com\nquery/src/main/scala/com/graphster\nquery/src/main/scala/com/graphster/orpheus\nquery/src/main/scala/com/graphster/orpheus/query\nquery/src/main/scala/com/graphster/orpheus/query/Query.scala\nquery/src/main/scala/com/graphster/orpheus/query/config\nquery/src/main/scala/com/graphster/orpheus/query/config/QueryConfig.scala",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/text 模块",
+    "description": "[模块级] graphster 项目的 text 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "text"
+    ],
+    "genes": [
+      {
+        "title": "text 模块说明",
+        "content": "In order to add text into a graph, we must extract the information we are interested into a structured format. This is \nwhere NLP comes in. This library is not an NLP library, which is why there is an abstraction layer. The idea is that \nthe information is extracted into a structured form, so that the downstream process does not need to know what engine \nwas used for NLP.\n\nThe minimal requirement for an NLP library to serve as an engine is named entity recognition. However, supporting \nsyntactic",
+        "gene_type": "principle"
+      },
+      {
+        "title": "text 文件结构",
+        "content": "text/src\ntext/src/main\ntext/src/main/scala\ntext/src/main/scala/com\ntext/src/main/scala/com/graphster\ntext/src/main/scala/com/graphster/orpheus\ntext/src/main/scala/com/graphster/orpheus/text\ntext/src/main/scala/com/graphster/orpheus/text/config\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation/AnnotationConf.scala\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation/LinkedEntityConf.scala\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation/NamedEntityConf.scala\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation/PathConf.scala\ntext/src/main/scala/com/graphster/orpheus/text/config/annotation/RelationConf.scala\ntext/src/main/scala/com/graphster/orpheus/text/config/pipeline",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/textjsl 模块",
+    "description": "[模块级] graphster 项目的 textjsl 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "textjsl"
+    ],
+    "genes": [
+      {
+        "title": "textjsl 模块说明",
+        "content": "模块路径: textjsl/\n类型: source\n文件数: 16\n\n包含文件:\n- textjsl/Sandbox.sc\n- textjsl/src\n- textjsl/src/main\n- textjsl/src/main/scala\n- textjsl/src/main/scala/com\n- textjsl/src/main/scala/com/graphster\n- textjsl/src/main/scala/com/graphster/orpheus\n- textjsl/src/main/scala/com/graphster/orpheus/text\n- textjsl/src/main/scala/com/graphster/orpheus/text/sparknlp\n- textjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config",
+        "gene_type": "principle"
+      },
+      {
+        "title": "textjsl 文件结构",
+        "content": "textjsl/Sandbox.sc\ntextjsl/src\ntextjsl/src/main\ntextjsl/src/main/scala\ntextjsl/src/main/scala/com\ntextjsl/src/main/scala/com/graphster\ntextjsl/src/main/scala/com/graphster/orpheus\ntextjsl/src/main/scala/com/graphster/orpheus/text\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config/annotation\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config/annotation/JSLAnnotation.scala\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config/annotation/JSLFinishedNamedEntityConf.scala\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config/annotation/JSLNamedEntityConf.scala\ntextjsl/src/main/scala/com/graphster/orpheus/text/sparknlp/config/pipeline",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  },
+  {
+    "name": "graphster/website 模块",
+    "description": "[模块级] graphster 项目的 website 模块 (source)。来源: https://github.com/wisecubeai/graphster",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "graphs",
+      "natural-language-processing",
+      "spark",
+      "scala",
+      "module-level",
+      "source",
+      "website"
+    ],
+    "genes": [
+      {
+        "title": "website 模块说明",
+        "content": "模块路径: website/\n类型: source\n文件数: 24\n\n包含文件:\n- website/.gitignore\n- website/README.md\n- website/babel.config.js\n- website/blog\n- website/blog/2019-05-28-first-blog-post.md\n- website/blog/2019-05-29-long-blog-post.md\n- website/blog/2021-08-01-mdx-blog-post.mdx\n- website/blog/2021-08-26-welcome\n- website/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg\n- website/blog/2021-08-26-welcome/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "website 文件结构",
+        "content": "website/.gitignore\nwebsite/README.md\nwebsite/babel.config.js\nwebsite/blog\nwebsite/blog/2019-05-28-first-blog-post.md\nwebsite/blog/2019-05-29-long-blog-post.md\nwebsite/blog/2021-08-01-mdx-blog-post.mdx\nwebsite/blog/2021-08-26-welcome\nwebsite/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg\nwebsite/blog/2021-08-26-welcome/index.md\nwebsite/blog/authors.yml\nwebsite/docs\nwebsite/docs/intro.md\nwebsite/docs/tutorial-basics\nwebsite/docs/tutorial-basics/_category_.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.306813335719512
+  }
+]

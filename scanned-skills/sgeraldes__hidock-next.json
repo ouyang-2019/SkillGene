@@ -1,0 +1,71 @@
+[
+  {
+    "name": "hidock-next (sgeraldes)",
+    "description": "[项目级] HiDock Next: Local control for your HiDock device. Manage recordings, access advanced AI transcription (Gemini, OpenAI), and build your private knowledge base. An open-source alternative to HiNotes.。来源: https://github.com/sgeraldes/hidock-next",
+    "domain": "devops",
+    "tags": [
+      "hidock",
+      "hinotes",
+      "stt",
+      "python",
+      "stars-63",
+      "github-sgeraldes",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "HiDock Next: Local control for your HiDock device. Manage recordings, access advanced AI transcription (Gemini, OpenAI), and build your private knowledge base. An open-source alternative to HiNotes.\n\n来源: https://github.com/sgeraldes/hidock-next\n语言: Python\nStars: 63",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCHANGES-WAVE2-WAVEFORM.md\nCHANGES.md\nCLAUDE.md\nGEMINI.md\nLICENSE\nMakefile\nPERFORMANCE_ANALYSIS.md\nREADME.md\nRELEASE_NOTES.md\nVERSION\nWAVE2-004-005-CHANGES.md\napps\napps/README.md\napps/audio-insights\napps/desktop",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎙️ **Device File Management** - Browse, download, and organize files from HiDock® devices\r\n- 🎵 **Advanced Audio Player** - Built-in player with waveform visualization\r\n- 🤖 **AI Transcription** - Support for 11+ AI providers (OpenAI, Gemini, Claude, etc.)\r\n- 📅 **Calendar Integration** - Automatic meeting correlation (Windows)\r\n- 📁 **Smart File Management** - Batch operations, filtering, and organization\r\n- 🌐 **Cross-Platform** - Windows, macOS, and Linux support\r\n- 🚀 **High Performance** - Optimized for large file collections",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.899670274726791
+  },
+  {
+    "name": "hidock-next/apps 模块",
+    "description": "[模块级] hidock-next 项目的 apps 模块 (source)。来源: https://github.com/sgeraldes/hidock-next",
+    "domain": "devops",
+    "tags": [
+      "hidock",
+      "hinotes",
+      "stt",
+      "python",
+      "stars-63",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "- Complete USB device control\r\n- Advanced audio playback with visualization\r\n- AI transcription with multiple providers\r\n- Calendar integration (Windows)\r\n- Batch file operations",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/README.md\napps/audio-insights\napps/audio-insights/.gitignore\napps/audio-insights/.npmrc\napps/audio-insights/AGENT.md\napps/audio-insights/App.tsx\napps/audio-insights/README.md\napps/audio-insights/components\napps/audio-insights/components/AudioInput.tsx\napps/audio-insights/components/ErrorMessage.tsx\napps/audio-insights/components/IconComponents.tsx\napps/audio-insights/components/InsightsDisplay.tsx\napps/audio-insights/components/LoadingSpinner.tsx\napps/audio-insights/components/TranscriptionDisplay.tsx\napps/audio-insights/constants.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2197362197814328
+  }
+]

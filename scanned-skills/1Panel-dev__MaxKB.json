@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MaxKB (1Panel-dev)",
+    "description": "[项目级] 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。。来源: https://github.com/1Panel-dev/MaxKB",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "chatbot",
+      "deepseek-r1",
+      "knowledgebase",
+      "python",
+      "stars-20143",
+      "github-1panel-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。\n\n来源: https://github.com/1Panel-dev/MaxKB\n语言: Python\nStars: 20143",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "docker run -d --name=maxkb --restart=always -p 8080:8080 -v ~/.maxkb:/opt/maxkb 1panel/maxkb",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_CN.md\nSECURITY.md\nUSE-CASES.md\napps\napps/__init__.py\napps/application",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "MaxKB/apps 模块",
+    "description": "[模块级] MaxKB 项目的 apps 模块 (source)。来源: https://github.com/1Panel-dev/MaxKB",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "chatbot",
+      "deepseek-r1",
+      "knowledgebase",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 172\n\n包含文件:\n- apps/__init__.py\n- apps/application\n- apps/application/__init__.py\n- apps/application/admin.py\n- apps/application/api\n- apps/application/api/application_access_token.py\n- apps/application/api/application_api.py\n- apps/application/api/application_api_key.py\n- apps/application/api/application_chat.py\n- apps/application/api/application_chat_link.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/__init__.py\napps/application\napps/application/__init__.py\napps/application/admin.py\napps/application/api\napps/application/api/application_access_token.py\napps/application/api/application_api.py\napps/application/api/application_api_key.py\napps/application/api/application_chat.py\napps/application/api/application_chat_link.py\napps/application/api/application_chat_record.py\napps/application/api/application_stats.py\napps/application/api/application_version.py\napps/application/apps.py\napps/application/chat_pipeline",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2216496610931635
+  }
+]

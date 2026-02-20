@@ -1,0 +1,101 @@
+[
+  {
+    "name": "zotero-mcp (cookjohn)",
+    "description": "[项目级] Zotero MCP Plugin 是一个 Zotero 插件，通过 MCP协议实现 AI 助手与 Zotero深度集成。插件支持文献检索、元   数据管理、全文分析和智能问答等功能，让 Claude、ChatGPT 等 AI 工具能够直接访问和操作您的文献库。 Zotero MCP Plugin enables integration between AI assistants and Zotero through MCP. 。来源: https://github.com/cookjohn/zotero-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "literature-review",
+      "mcp-server",
+      "zotero",
+      "typescript",
+      "stars-363",
+      "github-cookjohn",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Zotero MCP server is a tool server based on the Model Context Protocol that provides seamless integration with the Zotero reference management system for AI applications like Claude Desktop. Through this server, AI assistants can:\n\n- 🔍 Intelligently search your Zotero library\n- 📖 Get detailed information about references\n- 🏷️ Filter references by tags, creators, year, and more\n- 🔗 Precisely locate references via identifiers like DOI and ISBN\n\nThis enables AI assistants to help you with academic tasks such as literature reviews, citation management, and research assistance.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This guide is intended to help general users quickly configure and use Zotero MCP, enabling your AI assistant to work seamlessly with your Zotero library.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "49609b282729b0e264749de0d225b429.jpg\nAUTO_UPDATE_GUIDE.md\nIMG\nIMG/2f1aa2fdf89a6093e7d256f4d8844233.jpg\nIMG/MP.jpg\nIMG/geminicli-pdf读取.png\nIMG/geminicli-附件检索.png\nIMG/元数据查看.png\nIMG/全文读取1.png\nIMG/全文读取2.png\nIMG/功能说明.png\nIMG/文献检索.png\nLICENSE\nREADME-zh.md\nREADME.md\nzotero-mcp-plugin\nzotero-mcp-plugin/.gitattributes\nzotero-mcp-plugin/.github\nzotero-mcp-plugin/.gitignore\nzotero-mcp-plugin/.prettierignore",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.279953312518057
+  },
+  {
+    "name": "zotero-mcp/IMG 模块",
+    "description": "[模块级] zotero-mcp 项目的 IMG 模块 (source)。来源: https://github.com/cookjohn/zotero-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "literature-review",
+      "mcp-server",
+      "zotero",
+      "typescript",
+      "stars-363",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "IMG 模块说明",
+        "content": "模块路径: IMG/\n类型: source\n文件数: 9\n\n包含文件:\n- IMG/2f1aa2fdf89a6093e7d256f4d8844233.jpg\n- IMG/MP.jpg\n- IMG/geminicli-pdf读取.png\n- IMG/geminicli-附件检索.png\n- IMG/元数据查看.png\n- IMG/全文读取1.png\n- IMG/全文读取2.png\n- IMG/功能说明.png\n- IMG/文献检索.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "IMG 文件结构",
+        "content": "IMG/2f1aa2fdf89a6093e7d256f4d8844233.jpg\nIMG/MP.jpg\nIMG/geminicli-pdf读取.png\nIMG/geminicli-附件检索.png\nIMG/元数据查看.png\nIMG/全文读取1.png\nIMG/全文读取2.png\nIMG/功能说明.png\nIMG/文献检索.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523962650014445
+  },
+  {
+    "name": "zotero-mcp/zotero-mcp-plugin 模块",
+    "description": "[模块级] zotero-mcp 项目的 zotero-mcp-plugin 模块 (source)。来源: https://github.com/cookjohn/zotero-mcp",
+    "domain": "ai-llm",
+    "tags": [
+      "literature-review",
+      "mcp-server",
+      "zotero",
+      "typescript",
+      "stars-363",
+      "module-level",
+      "source",
+      "zotero-mcp-plugin"
+    ],
+    "genes": [
+      {
+        "title": "zotero-mcp-plugin 模块说明",
+        "content": "-   **Integrated MCP Server**: Built-in MCP server using Streamable HTTP protocol\n-   **Streamable HTTP Protocol**: Real-time bidirectional communication with AI clients\n-   **Advanced Search Engine**: Full-text search with filtering by title, creator, year, tags, item type, etc.\n-   **🆕 Semantic Search**: AI-powered semantic search using embedding vectors\n    - Supports OpenAI and Ollama embedding APIs (auto-detection)\n    - Vector indexing with SQLite-vec storage\n    - Index status column in ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "zotero-mcp-plugin 文件结构",
+        "content": "zotero-mcp-plugin/.gitattributes\nzotero-mcp-plugin/.github\nzotero-mcp-plugin/.github/workflows\nzotero-mcp-plugin/.github/workflows/beta-release.yml\nzotero-mcp-plugin/.github/workflows/release.yml\nzotero-mcp-plugin/.gitignore\nzotero-mcp-plugin/.prettierignore\nzotero-mcp-plugin/CLAUDE.md\nzotero-mcp-plugin/LICENSE\nzotero-mcp-plugin/addon\nzotero-mcp-plugin/addon/bootstrap.js\nzotero-mcp-plugin/addon/content\nzotero-mcp-plugin/addon/content/icons\nzotero-mcp-plugin/addon/content/icons/favicon.png\nzotero-mcp-plugin/addon/content/icons/favicon@0.5x.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.523962650014445
+  }
+]

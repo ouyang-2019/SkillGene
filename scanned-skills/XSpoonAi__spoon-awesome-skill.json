@@ -1,0 +1,223 @@
+[
+  {
+    "name": "spoon-awesome-skill (XSpoonAi)",
+    "description": "[项目级] A curated collection of Claude Code skills for SpoonOS development and Web3 integrations. 57 Python scripts across 19 skills: SpoonOS Skills for Vibe Coding (build agents) + Web3 Skills for Skill Agent Integrations (DeFi, NFT, DAO, Security).。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "python",
+      "stars-12",
+      "github-xspoonai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of Claude Code skills for SpoonOS development and Web3 integrations. 57 Python scripts across 19 skills: SpoonOS Skills for Vibe Coding (build agents) + Web3 Skills for Skill Agent Integrations (DeFi, NFT, DAO, Security).\n\n来源: https://github.com/XSpoonAi/spoon-awesome-skill\n语言: Python\nStars: 12",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME.md\nai-productivity\nai-productivity/README.md\nai-productivity/api-integration\nai-productivity/cloud-services\nai-productivity/database\nai-productivity/messaging\nai-productivity/monitoring\nai-productivity/storage\nenterprise-skills\nenterprise-skills/README.md\nenterprise-skills/code-review\nenterprise-skills/debugging\nenterprise-skills/documentation\nenterprise-skills/performance\nenterprise-skills/refactoring\nenterprise-skills/testing\nplatform-challenge\nplatform-challenge/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Use `SpoonReactSkill` to build agents that automatically load and use Web3 skills:\n\n```python\nfrom spoon_ai.agents import SpoonReactSkill\nfrom spoon_ai.chat import ChatBot",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5395906230238126
+  },
+  {
+    "name": "spoon-awesome-skill/ai-productivity 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 ai-productivity 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "ai-productivity"
+    ],
+    "genes": [
+      {
+        "title": "ai-productivity 模块说明",
+        "content": "模块路径: ai-productivity/\n类型: source\n文件数: 13\n\n包含文件:\n- ai-productivity/README.md\n- ai-productivity/api-integration\n- ai-productivity/api-integration/.gitkeep\n- ai-productivity/cloud-services\n- ai-productivity/cloud-services/.gitkeep\n- ai-productivity/database\n- ai-productivity/database/.gitkeep\n- ai-productivity/messaging\n- ai-productivity/messaging/.gitkeep\n- ai-productivity/monitoring",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-productivity 文件结构",
+        "content": "ai-productivity/README.md\nai-productivity/api-integration\nai-productivity/api-integration/.gitkeep\nai-productivity/cloud-services\nai-productivity/cloud-services/.gitkeep\nai-productivity/database\nai-productivity/database/.gitkeep\nai-productivity/messaging\nai-productivity/messaging/.gitkeep\nai-productivity/monitoring\nai-productivity/monitoring/.gitkeep\nai-productivity/storage\nai-productivity/storage/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  },
+  {
+    "name": "spoon-awesome-skill/enterprise-skills 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 enterprise-skills 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "enterprise-skills"
+    ],
+    "genes": [
+      {
+        "title": "enterprise-skills 模块说明",
+        "content": "模块路径: enterprise-skills/\n类型: source\n文件数: 13\n\n包含文件:\n- enterprise-skills/README.md\n- enterprise-skills/code-review\n- enterprise-skills/code-review/.gitkeep\n- enterprise-skills/debugging\n- enterprise-skills/debugging/.gitkeep\n- enterprise-skills/documentation\n- enterprise-skills/documentation/.gitkeep\n- enterprise-skills/performance\n- enterprise-skills/performance/.gitkeep\n- enterprise-skills/refactoring",
+        "gene_type": "principle"
+      },
+      {
+        "title": "enterprise-skills 文件结构",
+        "content": "enterprise-skills/README.md\nenterprise-skills/code-review\nenterprise-skills/code-review/.gitkeep\nenterprise-skills/debugging\nenterprise-skills/debugging/.gitkeep\nenterprise-skills/documentation\nenterprise-skills/documentation/.gitkeep\nenterprise-skills/performance\nenterprise-skills/performance/.gitkeep\nenterprise-skills/refactoring\nenterprise-skills/refactoring/.gitkeep\nenterprise-skills/testing\nenterprise-skills/testing/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  },
+  {
+    "name": "spoon-awesome-skill/platform-challenge 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 platform-challenge 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "platform-challenge"
+    ],
+    "genes": [
+      {
+        "title": "platform-challenge 模块说明",
+        "content": "模块路径: platform-challenge/\n类型: source\n文件数: 3\n\n包含文件:\n- platform-challenge/README.md\n- platform-challenge/submissions\n- platform-challenge/submissions/.gitkeep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "platform-challenge 文件结构",
+        "content": "platform-challenge/README.md\nplatform-challenge/submissions\nplatform-challenge/submissions/.gitkeep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  },
+  {
+    "name": "spoon-awesome-skill/spoonos-skills 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 spoonos-skills 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "spoonos-skills"
+    ],
+    "genes": [
+      {
+        "title": "spoonos-skills 模块说明",
+        "content": "模块路径: spoonos-skills/\n类型: source\n文件数: 53\n\n包含文件:\n- spoonos-skills/README.md\n- spoonos-skills/agent-development\n- spoonos-skills/agent-development/SKILL.md\n- spoonos-skills/agent-development/references\n- spoonos-skills/agent-development/references/mcp_config.md\n- spoonos-skills/agent-development/references/prompts.md\n- spoonos-skills/agent-development/scripts\n- spoonos-skills/agent-development/scripts/basic_agent.py\n- spoonos-skills/agent-development/scripts/concurrent_agents.py\n- spoonos-skills/agent-development/scripts/mcp_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "spoonos-skills 文件结构",
+        "content": "spoonos-skills/README.md\nspoonos-skills/agent-development\nspoonos-skills/agent-development/SKILL.md\nspoonos-skills/agent-development/references\nspoonos-skills/agent-development/references/mcp_config.md\nspoonos-skills/agent-development/references/prompts.md\nspoonos-skills/agent-development/scripts\nspoonos-skills/agent-development/scripts/basic_agent.py\nspoonos-skills/agent-development/scripts/concurrent_agents.py\nspoonos-skills/agent-development/scripts/mcp_agent.py\nspoonos-skills/application-templates\nspoonos-skills/application-templates/SKILL.md\nspoonos-skills/application-templates/scripts\nspoonos-skills/application-templates/scripts/dao_assistant.py\nspoonos-skills/application-templates/scripts/nft_minter.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  },
+  {
+    "name": "spoon-awesome-skill/web3-core-operations 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 web3-core-operations 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "web3-core-operations"
+    ],
+    "genes": [
+      {
+        "title": "web3-core-operations 模块说明",
+        "content": "模块路径: web3-core-operations/\n类型: source\n文件数: 56\n\n包含文件:\n- web3-core-operations/README.md\n- web3-core-operations/bridge\n- web3-core-operations/bridge/SKILL.md\n- web3-core-operations/bridge/scripts\n- web3-core-operations/bridge/scripts/bridge_quote.py\n- web3-core-operations/bridge/scripts/bridge_routes.py\n- web3-core-operations/bridge/scripts/bridge_status.py\n- web3-core-operations/dao-tooling\n- web3-core-operations/dao-tooling/SKILL.md\n- web3-core-operations/dao-tooling/scripts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web3-core-operations 文件结构",
+        "content": "web3-core-operations/README.md\nweb3-core-operations/bridge\nweb3-core-operations/bridge/SKILL.md\nweb3-core-operations/bridge/scripts\nweb3-core-operations/bridge/scripts/bridge_quote.py\nweb3-core-operations/bridge/scripts/bridge_routes.py\nweb3-core-operations/bridge/scripts/bridge_status.py\nweb3-core-operations/dao-tooling\nweb3-core-operations/dao-tooling/SKILL.md\nweb3-core-operations/dao-tooling/scripts\nweb3-core-operations/dao-tooling/scripts/governor_vote.py\nweb3-core-operations/dao-tooling/scripts/snapshot_monitor.py\nweb3-core-operations/dao-tooling/scripts/snapshot_vote.py\nweb3-core-operations/dao-tooling/scripts/tally_monitor.py\nweb3-core-operations/defi-protocols",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  },
+  {
+    "name": "spoon-awesome-skill/web3-data-intelligence 模块",
+    "description": "[模块级] spoon-awesome-skill 项目的 web3-data-intelligence 模块 (source)。来源: https://github.com/XSpoonAi/spoon-awesome-skill",
+    "domain": "ai-llm",
+    "tags": [
+      "aave",
+      "ai-agents",
+      "autonomous-agents",
+      "awesome-list",
+      "blockchain",
+      "module-level",
+      "source",
+      "web3-data-intelligence"
+    ],
+    "genes": [
+      {
+        "title": "web3-data-intelligence 模块说明",
+        "content": "模块路径: web3-data-intelligence/\n类型: source\n文件数: 15\n\n包含文件:\n- web3-data-intelligence/README.md\n- web3-data-intelligence/onchain-analysis\n- web3-data-intelligence/onchain-analysis/SKILL.md\n- web3-data-intelligence/onchain-analysis/scripts\n- web3-data-intelligence/onchain-analysis/scripts/contract_analyzer.py\n- web3-data-intelligence/onchain-analysis/scripts/etherscan_address.py\n- web3-data-intelligence/onchain-analysis/scripts/etherscan_transaction.py\n- web3-data-intelligence/onchain-analysis/scripts/gas_tracker.py\n- web3-data-intelligence/security-analysis\n- web3-data-intelligence/security-analysis/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "web3-data-intelligence 文件结构",
+        "content": "web3-data-intelligence/README.md\nweb3-data-intelligence/onchain-analysis\nweb3-data-intelligence/onchain-analysis/SKILL.md\nweb3-data-intelligence/onchain-analysis/scripts\nweb3-data-intelligence/onchain-analysis/scripts/contract_analyzer.py\nweb3-data-intelligence/onchain-analysis/scripts/etherscan_address.py\nweb3-data-intelligence/onchain-analysis/scripts/etherscan_transaction.py\nweb3-data-intelligence/onchain-analysis/scripts/gas_tracker.py\nweb3-data-intelligence/security-analysis\nweb3-data-intelligence/security-analysis/SKILL.md\nweb3-data-intelligence/security-analysis/scripts\nweb3-data-intelligence/security-analysis/scripts/flashbots_protect.py\nweb3-data-intelligence/security-analysis/scripts/goplus_security.py\nweb3-data-intelligence/security-analysis/scripts/honeypot_check.py\nweb3-data-intelligence/security-analysis/scripts/tenderly_simulate.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.93167249841905
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "mjs-agent-skills (mjunaidca)",
+    "description": "[项目级] A curated collection of Agent Skills — reusable units of intelligence that teach AI General Agents how to perform specific tasks autonomously.。来源: https://github.com/mjunaidca/mjs-agent-skills",
+    "domain": "backend",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agentskills",
+      "ai-agents-for-business",
+      "claudecode-config",
+      "python",
+      "stars-21",
+      "github-mjunaidca",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of Agent Skills — reusable units of intelligence that teach AI General Agents how to perform specific tasks autonomously.\n\n来源: https://github.com/mjunaidca/mjs-agent-skills\n语言: Python\nStars: 21",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "[Immediate action - the 80% case]",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6611096473669598
+  }
+]

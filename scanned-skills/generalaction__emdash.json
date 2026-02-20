@@ -1,0 +1,128 @@
+[
+  {
+    "name": "emdash (generalaction)",
+    "description": "[项目级] Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.。来源: https://github.com/generalaction/emdash",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "typescript",
+      "stars-1507",
+      "github-generalaction",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**[Latest Releases (macOS • Linux)](https://github.com/generalaction/emdash/releases/latest)**",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE.md\nPLANNING.md\nREADME.md\nbuild\nbuild/entitlements.mac.plist\ncomponents.json\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/app\ndocs/components\ndocs/content\ndocs/lib\ndocs/next.config.mjs\ndocs/package.json\ndocs/pnpm-lock.yaml\ndocs/postcss.config.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.589056626157316
+  },
+  {
+    "name": "emdash/docs 模块",
+    "description": "[模块级] emdash 项目的 docs 模块 (docs)。来源: https://github.com/generalaction/emdash",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 79\n\n包含文件:\n- docs/.gitignore\n- docs/README.md\n- docs/app\n- docs/app/[[...slug]]\n- docs/app/[[...slug]]/layout.tsx\n- docs/app/[[...slug]]/page.tsx\n- docs/app/api\n- docs/app/api/search\n- docs/app/api/search/route.ts\n- docs/app/global.css",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/app\ndocs/app/[[...slug]]\ndocs/app/[[...slug]]/layout.tsx\ndocs/app/[[...slug]]/page.tsx\ndocs/app/api\ndocs/app/api/search\ndocs/app/api/search/route.ts\ndocs/app/global.css\ndocs/app/layout.tsx\ndocs/components\ndocs/components/Changelog.tsx\ndocs/components/CopyMarkdownButton.tsx\ndocs/components/LastUpdated.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7712453009258526
+  },
+  {
+    "name": "emdash/drizzle 模块",
+    "description": "[模块级] emdash 项目的 drizzle 模块 (source)。来源: https://github.com/generalaction/emdash",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 15\n\n包含文件:\n- drizzle/0000_initial.sql\n- drizzle/0001_add_base_ref_to_projects.sql\n- drizzle/0002_lyrical_impossible_man.sql\n- drizzle/0003_add_run_config_status_to_projects.sql\n- drizzle/0004_add_line_comments.sql\n- drizzle/0005_add_use_worktree_to_tasks.sql\n- drizzle/0006_add_multi_chat_support.sql\n- drizzle/0007_add_is_main_to_conversations.sql\n- drizzle/0008_add_archived_at_to_tasks.sql\n- drizzle/0009_add_ssh_support.sql",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_initial.sql\ndrizzle/0001_add_base_ref_to_projects.sql\ndrizzle/0002_lyrical_impossible_man.sql\ndrizzle/0003_add_run_config_status_to_projects.sql\ndrizzle/0004_add_line_comments.sql\ndrizzle/0005_add_use_worktree_to_tasks.sql\ndrizzle/0006_add_multi_chat_support.sql\ndrizzle/0007_add_is_main_to_conversations.sql\ndrizzle/0008_add_archived_at_to_tasks.sql\ndrizzle/0009_add_ssh_support.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/0001_snapshot.json\ndrizzle/meta/0002_snapshot.json\ndrizzle/meta/_journal.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7712453009258526
+  },
+  {
+    "name": "emdash/src 模块",
+    "description": "[模块级] emdash 项目的 src 模块 (source)。来源: https://github.com/generalaction/emdash",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "codingagents",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 63\n\n包含文件:\n- src/assets\n- src/assets/images\n- src/assets/images/Auggie.svg\n- src/assets/images/Context7.svg\n- src/assets/images/Github.svg\n- src/assets/images/Jira.svg\n- src/assets/images/Linear.svg\n- src/assets/images/ampcode.png\n- src/assets/images/atlas.png\n- src/assets/images/atlassian.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/assets\nsrc/assets/images\nsrc/assets/images/Auggie.svg\nsrc/assets/images/Context7.svg\nsrc/assets/images/Github.svg\nsrc/assets/images/Jira.svg\nsrc/assets/images/Linear.svg\nsrc/assets/images/ampcode.png\nsrc/assets/images/atlas.png\nsrc/assets/images/atlassian.png\nsrc/assets/images/charm.png\nsrc/assets/images/chrome.png\nsrc/assets/images/chromium.png\nsrc/assets/images/claude.png\nsrc/assets/images/cline.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7712453009258526
+  }
+]

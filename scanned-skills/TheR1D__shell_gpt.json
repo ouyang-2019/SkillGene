@@ -1,0 +1,138 @@
+[
+  {
+    "name": "shell_gpt (TheR1D)",
+    "description": "[项目级] A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.。来源: https://github.com/TheR1D/shell_gpt",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "cheat-sheet",
+      "cli",
+      "commands",
+      "gpt-3",
+      "python",
+      "stars-11786",
+      "github-ther1d",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A command-line productivity tool powered by AI large language models like GPT-5, will help you accomplish your tasks faster and more efficiently.\n\n来源: https://github.com/TheR1D/shell_gpt\n语言: Python\nStars: 11786",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install shell-gpt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\npyproject.toml\nscripts\nscripts/format.sh\nscripts/lint.sh\nscripts/test.sh\nsgpt\nsgpt/__init__.py\nsgpt/__main__.py\nsgpt/__version__.py\nsgpt/app.py\nsgpt/cache.py\nsgpt/config.py\nsgpt/function.py\nsgpt/handlers\nsgpt/integration.py\nsgpt/llm_functions",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**ShellGPT** is designed to quickly analyse and retrieve information. It's useful for straightforward requests ranging from technical configurations to general knowledge.\n```shell\nsgpt \"What is the fibonacci sequence\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "```\n\nYou can analyze logs from various sources by passing them using stdin, along with a prompt. For instance, we can use it to quickly analyze logs, identify errors and get suggestions for possible solutions:\n```shell\ndocker logs -n 20 my_app | sgpt \"check logs, find errors, provide possible solutions\"\n```\n```text\nError Detected: Connection timeout at line 7.\nPossible Solution: Check network connectivity and firewall settings.\nError Detected: Memory allocation failed at line 12.\nPossible Solution: Consider increasing memory allocation or optimizing application memory usage.\n```\n\nYou can also ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "shell_gpt/scripts 模块",
+    "description": "[模块级] shell_gpt 项目的 scripts 模块 (script)。来源: https://github.com/TheR1D/shell_gpt",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "cheat-sheet",
+      "cli",
+      "commands",
+      "gpt-3",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/format.sh\n- scripts/lint.sh\n- scripts/test.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/format.sh\nscripts/lint.sh\nscripts/test.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.128546574703652
+  },
+  {
+    "name": "shell_gpt/sgpt 模块",
+    "description": "[模块级] shell_gpt 项目的 sgpt 模块 (source)。来源: https://github.com/TheR1D/shell_gpt",
+    "domain": "devops",
+    "tags": [
+      "chatgpt",
+      "cheat-sheet",
+      "cli",
+      "commands",
+      "gpt-3",
+      "module-level",
+      "source",
+      "sgpt"
+    ],
+    "genes": [
+      {
+        "title": "sgpt 模块说明",
+        "content": "模块路径: sgpt/\n类型: source\n文件数: 24\n\n包含文件:\n- sgpt/__init__.py\n- sgpt/__main__.py\n- sgpt/__version__.py\n- sgpt/app.py\n- sgpt/cache.py\n- sgpt/config.py\n- sgpt/function.py\n- sgpt/handlers\n- sgpt/handlers/__init__.py\n- sgpt/handlers/chat_handler.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sgpt 文件结构",
+        "content": "sgpt/__init__.py\nsgpt/__main__.py\nsgpt/__version__.py\nsgpt/app.py\nsgpt/cache.py\nsgpt/config.py\nsgpt/function.py\nsgpt/handlers\nsgpt/handlers/__init__.py\nsgpt/handlers/chat_handler.py\nsgpt/handlers/default_handler.py\nsgpt/handlers/handler.py\nsgpt/handlers/repl_handler.py\nsgpt/integration.py\nsgpt/llm_functions",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.128546574703652
+  },
+  {
+    "name": "shell_gpt/tests 模块",
+    "description": "[模块级] shell_gpt 项目的 tests 模块 (test)。来源: https://github.com/TheR1D/shell_gpt",
+    "domain": "testing",
+    "tags": [
+      "chatgpt",
+      "cheat-sheet",
+      "cli",
+      "commands",
+      "gpt-3",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 8\n\n包含文件:\n- tests/__init__.py\n- tests/_integration.py\n- tests/conftest.py\n- tests/test_code.py\n- tests/test_default.py\n- tests/test_roles.py\n- tests/test_shell.py\n- tests/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/_integration.py\ntests/conftest.py\ntests/test_code.py\ntests/test_default.py\ntests/test_roles.py\ntests/test_shell.py\ntests/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.128546574703652
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "spring-ai-alibaba-admin (spring-ai-alibaba)",
+    "description": "[项目级] Console supporting tracing, prompt engineering and evaluation for Agents developed with Spring AI Alibaba.。来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin",
+    "domain": "backend",
+    "tags": [
+      "java",
+      "stars-366",
+      "github-spring-ai-alibaba",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Console supporting tracing, prompt engineering and evaluation for Agents developed with Spring AI Alibaba.\n\n来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin\n语言: Java\nStars: 366",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME-zh.md\nREADME.md\ndeploy\ndeploy/README.md\ndeploy/backend\ndeploy/deploy.sh\ndeploy/frontend\ndeploy/ingress.yaml\ndeploy/kustomization.yaml\ndeploy/middleware\ndeploy/namespace.yaml\ndeploy/undeploy.sh\ndocker\ndocker/middleware\ndocs\ndocs/imgs\nfrontend\nfrontend/.dockerignore\nfrontend/.editorconfig",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2817405426972055
+  },
+  {
+    "name": "spring-ai-alibaba-admin/deploy 模块",
+    "description": "[模块级] spring-ai-alibaba-admin 项目的 deploy 模块 (source)。来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin",
+    "domain": "backend",
+    "tags": [
+      "java",
+      "stars-366",
+      "github-spring-ai-alibaba",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 27\n\n包含文件:\n- deploy/README.md\n- deploy/backend\n- deploy/backend/backend-deployment.yaml\n- deploy/deploy.sh\n- deploy/frontend\n- deploy/frontend/frontend-deployment.yaml\n- deploy/ingress.yaml\n- deploy/kustomization.yaml\n- deploy/middleware\n- deploy/middleware/elasticsearch",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/README.md\ndeploy/backend\ndeploy/backend/backend-deployment.yaml\ndeploy/deploy.sh\ndeploy/frontend\ndeploy/frontend/frontend-deployment.yaml\ndeploy/ingress.yaml\ndeploy/kustomization.yaml\ndeploy/middleware\ndeploy/middleware/elasticsearch\ndeploy/middleware/elasticsearch/elasticsearch-deployment.yaml\ndeploy/middleware/kibana\ndeploy/middleware/kibana/kibana-deployment.yaml\ndeploy/middleware/loongcollector\ndeploy/middleware/loongcollector/loongcollector-deployment.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.525392434157764
+  },
+  {
+    "name": "spring-ai-alibaba-admin/docker 模块",
+    "description": "[模块级] spring-ai-alibaba-admin 项目的 docker 模块 (source)。来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin",
+    "domain": "backend",
+    "tags": [
+      "java",
+      "stars-366",
+      "github-spring-ai-alibaba",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 25\n\n包含文件:\n- docker/middleware\n- docker/middleware/conf\n- docker/middleware/conf/loongcollector\n- docker/middleware/conf/loongcollector/otlp_pipeline.yaml\n- docker/middleware/conf/mysql\n- docker/middleware/conf/mysql/my.cnf\n- docker/middleware/conf/rocketmq\n- docker/middleware/conf/rocketmq/rmq-proxy.json\n- docker/middleware/docker-compose.yaml\n- docker/middleware/elasticsearch",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/middleware\ndocker/middleware/conf\ndocker/middleware/conf/loongcollector\ndocker/middleware/conf/loongcollector/otlp_pipeline.yaml\ndocker/middleware/conf/mysql\ndocker/middleware/conf/mysql/my.cnf\ndocker/middleware/conf/rocketmq\ndocker/middleware/conf/rocketmq/rmq-proxy.json\ndocker/middleware/docker-compose.yaml\ndocker/middleware/elasticsearch\ndocker/middleware/elasticsearch/data\ndocker/middleware/elasticsearch/data/.gitkeep\ndocker/middleware/env.template\ndocker/middleware/init\ndocker/middleware/init/elasticsearch",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.525392434157764
+  },
+  {
+    "name": "spring-ai-alibaba-admin/docs 模块",
+    "description": "[模块级] spring-ai-alibaba-admin 项目的 docs 模块 (docs)。来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin",
+    "domain": "documentation",
+    "tags": [
+      "java",
+      "stars-366",
+      "github-spring-ai-alibaba",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/imgs\n- docs/imgs/arch.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/imgs\ndocs/imgs/arch.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.525392434157764
+  },
+  {
+    "name": "spring-ai-alibaba-admin/frontend 模块",
+    "description": "[模块级] spring-ai-alibaba-admin 项目的 frontend 模块 (source)。来源: https://github.com/spring-ai-alibaba/spring-ai-alibaba-admin",
+    "domain": "backend",
+    "tags": [
+      "java",
+      "stars-366",
+      "github-spring-ai-alibaba",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 138\n\n包含文件:\n- frontend/.dockerignore\n- frontend/.editorconfig\n- frontend/.eslintrc.js\n- frontend/.gitignore\n- frontend/.husky\n- frontend/.husky/pre-commit\n- frontend/.npmignore\n- frontend/.npmrc\n- frontend/.prettierignore\n- frontend/.prettierrc.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.editorconfig\nfrontend/.eslintrc.js\nfrontend/.gitignore\nfrontend/.husky\nfrontend/.husky/pre-commit\nfrontend/.npmignore\nfrontend/.npmrc\nfrontend/.prettierignore\nfrontend/.prettierrc.js\nfrontend/.stylelintrc.js\nfrontend/Dockerfile\nfrontend/LICENSE\nfrontend/README.md\nfrontend/README.zh-CN.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.525392434157764
+  }
+]

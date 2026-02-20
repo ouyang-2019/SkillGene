@@ -1,0 +1,263 @@
+[
+  {
+    "name": "llm-graph-builder (neo4j-labs)",
+    "description": "[项目级] Neo4j graph construction from unstructured data using LLMs。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "jupyter notebook",
+      "stars-4448",
+      "github-neo4j-labs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Neo4j graph construction from unstructured data using LLMs\n\n来源: https://github.com/neo4j-labs/llm-graph-builder\n语言: Jupyter Notebook\nStars: 4448",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nPOC_Documents\nPOC_Documents/V1\nPOC_Experiments\nPOC_Experiments/Data_Analysis\nREADME.md\nbackend\nbackend/Dockerfile\nbackend/Performance_test.py\nbackend/README.md\nbackend/constraints.txt\nbackend/dbtest.py\nbackend/example.env\nbackend/locustperf.py\nbackend/requirements.txt\nbackend/score.py\nbackend/src\nbackend/test_commutiesqa.py\nbackend/test_integrationqa.py\ncronjob",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Easily monitor and track your LLM token usage for each user and database connection.\n- Enable this feature by setting the `TRACK_USER_USAGE` environment variable to `true` in your backend configuration.\n- View your daily and monthly token consumption and limits, helping you manage usage and avoid overages.\n- You can check your remaining token limits at any time using the provided API endpoint.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.824082389287001
+  },
+  {
+    "name": "llm-graph-builder/POC_Documents 模块",
+    "description": "[模块级] llm-graph-builder 项目的 POC_Documents 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "poc_documents"
+    ],
+    "genes": [
+      {
+        "title": "POC_Documents 模块说明",
+        "content": "模块路径: POC_Documents/\n类型: source\n文件数: 6\n\n包含文件:\n- POC_Documents/V1\n- POC_Documents/V1/Local-to-global-genAI_GraphRAG_V1\n- POC_Documents/V1/Local_to_global poc v1.1\n- POC_Documents/V1/RAPTOR_RECURSIVE ABSTRACTIVE PROCESSING v1\n- POC_Documents/V1/figure.2,3.jpg\n- POC_Documents/V1/figure.4.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "POC_Documents 文件结构",
+        "content": "POC_Documents/V1\nPOC_Documents/V1/Local-to-global-genAI_GraphRAG_V1\nPOC_Documents/V1/Local_to_global poc v1.1\nPOC_Documents/V1/RAPTOR_RECURSIVE ABSTRACTIVE PROCESSING v1\nPOC_Documents/V1/figure.2,3.jpg\nPOC_Documents/V1/figure.4.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/backend 模块",
+    "description": "[模块级] llm-graph-builder 项目的 backend 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "1. Create a `.env` file in the `backend` folder by copying `backend/example.env`.\n2. Pre-configure user credentials in the `.env` file to bypass the login dialog:\n   ```bash\n   NEO4J_URI=<your-neo4j-uri>\n   NEO4J_USERNAME=<your-username>\n   NEO4J_PASSWORD=<your-password>\n   NEO4J_DATABASE=<your-database-name>\n   ```\n3. Run:\n   ```bash\n   cd backend\n   python3.12 -m venv venv\n   source venv/bin/activate  # On Windows: venv\\Scripts\\activate\n   pip install -r requirements.txt -c constraints.txt\n   ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/Performance_test.py\nbackend/README.md\nbackend/constraints.txt\nbackend/dbtest.py\nbackend/example.env\nbackend/locustperf.py\nbackend/requirements.txt\nbackend/score.py\nbackend/src\nbackend/src/QA_integration.py\nbackend/src/api_response.py\nbackend/src/chunkid_entities.py\nbackend/src/communities.py\nbackend/src/create_chunks.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "backend 代码示例",
+        "content": "NEO4J_URI=<your-neo4j-uri>\n   NEO4J_USERNAME=<your-username>\n   NEO4J_PASSWORD=<your-password>\n   NEO4J_DATABASE=<your-database-name>",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/cronjob 模块",
+    "description": "[模块级] llm-graph-builder 项目的 cronjob 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "cronjob"
+    ],
+    "genes": [
+      {
+        "title": "cronjob 模块说明",
+        "content": "模块路径: cronjob/\n类型: source\n文件数: 8\n\n包含文件:\n- cronjob/reset_daily_tokens\n- cronjob/reset_daily_tokens/Procfile\n- cronjob/reset_daily_tokens/main.py\n- cronjob/reset_daily_tokens/requirements.txt\n- cronjob/reset_monthly_tokens\n- cronjob/reset_monthly_tokens/Procfile\n- cronjob/reset_monthly_tokens/main.py\n- cronjob/reset_monthly_tokens/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cronjob 文件结构",
+        "content": "cronjob/reset_daily_tokens\ncronjob/reset_daily_tokens/Procfile\ncronjob/reset_daily_tokens/main.py\ncronjob/reset_daily_tokens/requirements.txt\ncronjob/reset_monthly_tokens\ncronjob/reset_monthly_tokens/Procfile\ncronjob/reset_monthly_tokens/main.py\ncronjob/reset_monthly_tokens/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/data 模块",
+    "description": "[模块级] llm-graph-builder 项目的 data 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "- Interact with your data in the Neo4j database through conversational queries.\n- Retrieve metadata about the source of responses to your queries.\n- For a dedicated chat interface, use the standalone chat application with the **[/chat-only](/chat-only) route.**",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/Apple stock during pandemic.pdf\ndata/README.md\ndata/llm_comparision.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/docs 模块",
+    "description": "[模块级] llm-graph-builder 项目的 docs 模块 (docs)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "documentation",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 67\n\n包含文件:\n- docs/backend\n- docs/backend/backend_docs.adoc\n- docs/frontend\n- docs/frontend/frontend_docs.adoc\n- docs/frontend/images\n- docs/frontend/images/AdditionalMetricEval.jpg\n- docs/frontend/images/AllFilesGraph.jpg\n- docs/frontend/images/AuraDBConnection.jpg\n- docs/frontend/images/ChatBotModalView.jpg\n- docs/frontend/images/ChatBotNewURL.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/backend\ndocs/backend/backend_docs.adoc\ndocs/frontend\ndocs/frontend/frontend_docs.adoc\ndocs/frontend/images\ndocs/frontend/images/AdditionalMetricEval.jpg\ndocs/frontend/images/AllFilesGraph.jpg\ndocs/frontend/images/AuraDBConnection.jpg\ndocs/frontend/images/ChatBotModalView.jpg\ndocs/frontend/images/ChatBotNewURL.jpg\ndocs/frontend/images/ChatBotSideView.jpg\ndocs/frontend/images/ChatModesDev.jpg\ndocs/frontend/images/ChatModesProd.jpg\ndocs/frontend/images/ChunksInfo.jpg\ndocs/frontend/images/ClearChatHistory.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/experiments 模块",
+    "description": "[模块级] llm-graph-builder 项目的 experiments 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "experiments"
+    ],
+    "genes": [
+      {
+        "title": "experiments 模块说明",
+        "content": "模块路径: experiments/\n类型: source\n文件数: 20\n\n包含文件:\n- experiments/Cleanup_of_graph_model.ipynb\n- experiments/Combined chunk comparision.png\n- experiments/Combined chunks sequential and parallel execution comparision.ipynb\n- experiments/Experimentations for Kg creation.docx\n- experiments/LLM Comparisons with one pdf.docx\n- experiments/LLM_Results_.csv\n- experiments/NER_using_hugging_face_transformers_bert.ipynb\n- experiments/NER_using_spacy.ipynb\n- experiments/PDF_to_KG_using_Rebel.ipynb\n- experiments/PDF_to_KG_using_llamaindex.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "experiments 文件结构",
+        "content": "experiments/Cleanup_of_graph_model.ipynb\nexperiments/Combined chunk comparision.png\nexperiments/Combined chunks sequential and parallel execution comparision.ipynb\nexperiments/Experimentations for Kg creation.docx\nexperiments/LLM Comparisons with one pdf.docx\nexperiments/LLM_Results_.csv\nexperiments/NER_using_hugging_face_transformers_bert.ipynb\nexperiments/NER_using_spacy.ipynb\nexperiments/PDF_to_KG_using_Rebel.ipynb\nexperiments/PDF_to_KG_using_llamaindex.ipynb\nexperiments/PDF_to_kg_using_OpenAI.ipynb\nexperiments/Q_A_integration_using_RAGS (1).ipynb\nexperiments/RAGAS_evaluation.csv\nexperiments/README.md\nexperiments/chunk_size_variable.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  },
+  {
+    "name": "llm-graph-builder/frontend 模块",
+    "description": "[模块级] llm-graph-builder 项目的 frontend 模块 (source)。来源: https://github.com/neo4j-labs/llm-graph-builder",
+    "domain": "web-frontend",
+    "tags": [
+      "data-import",
+      "genai",
+      "graph",
+      "graph-rag",
+      "graph-search",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "For development, you can run the backend and frontend independently.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.dockerignore\nfrontend/.eslintrc.json\nfrontend/.gitignore\nfrontend/.husky\nfrontend/.husky/common.sh\nfrontend/.husky/pre-commit\nfrontend/.lintstagedrc.json\nfrontend/.prettierignore\nfrontend/.prettierrc.json\nfrontend/Dockerfile\nfrontend/LICENSE\nfrontend/README.md\nfrontend/example.env\nfrontend/index.html\nfrontend/nginx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9592659114296005
+  }
+]

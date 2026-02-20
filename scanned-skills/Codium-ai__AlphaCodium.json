@@ -1,0 +1,163 @@
+[
+  {
+    "name": "AlphaCodium (Codium-ai)",
+    "description": "[项目级] Official implementation for the paper: \"Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering\"\"。来源: https://github.com/Codium-ai/AlphaCodium",
+    "domain": "devops",
+    "tags": [
+      "broader-impacts",
+      "code-generation",
+      "flow-engineering",
+      "paper-implementations",
+      "state-of-the-art",
+      "python",
+      "stars-3921",
+      "github-codium-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Official implementation for the paper: \"Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering\"\"\n\n来源: https://github.com/Codium-ai/AlphaCodium\n语言: Python\nStars: 3921",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "python3 -m venv venv\nsource ./venv/bin/activate",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nalpha_codium\nalpha_codium/__init__.py\nalpha_codium/code_contests\nalpha_codium/evaluate_dataset.py\nalpha_codium/gen\nalpha_codium/litellm\nalpha_codium/llm\nalpha_codium/log\nalpha_codium/settings\nalpha_codium/solve_dataset.py\nalpha_codium/solve_my_problem.py\nalpha_codium/solve_problem.py\ndocs\ndocs/docs\ndocs/mkdocs.yml\ndocs/overrides\nmy_problem_example.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.796698421150103
+  },
+  {
+    "name": "AlphaCodium/alpha_codium 模块",
+    "description": "[模块级] AlphaCodium 项目的 alpha_codium 模块 (source)。来源: https://github.com/Codium-ai/AlphaCodium",
+    "domain": "devops",
+    "tags": [
+      "broader-impacts",
+      "code-generation",
+      "flow-engineering",
+      "paper-implementations",
+      "state-of-the-art",
+      "module-level",
+      "source",
+      "alpha_codium"
+    ],
+    "genes": [
+      {
+        "title": "alpha_codium 模块说明",
+        "content": "模块路径: alpha_codium/\n类型: source\n文件数: 72\n\n包含文件:\n- alpha_codium/__init__.py\n- alpha_codium/code_contests\n- alpha_codium/code_contests/__init__.py\n- alpha_codium/code_contests/data\n- alpha_codium/code_contests/data/__init__.py\n- alpha_codium/code_contests/data/prepare_and_clean_dataset.py\n- alpha_codium/code_contests/data/provider.py\n- alpha_codium/code_contests/data/yaml_vs_json.py\n- alpha_codium/code_contests/eval\n- alpha_codium/code_contests/eval/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "alpha_codium 文件结构",
+        "content": "alpha_codium/__init__.py\nalpha_codium/code_contests\nalpha_codium/code_contests/__init__.py\nalpha_codium/code_contests/data\nalpha_codium/code_contests/data/__init__.py\nalpha_codium/code_contests/data/prepare_and_clean_dataset.py\nalpha_codium/code_contests/data/provider.py\nalpha_codium/code_contests/data/yaml_vs_json.py\nalpha_codium/code_contests/eval\nalpha_codium/code_contests/eval/__init__.py\nalpha_codium/code_contests/eval/code_contests_metric.py\nalpha_codium/code_contests/eval/code_test_runners.py\nalpha_codium/code_contests/eval/local_exec.py\nalpha_codium/code_contests/eval/pass_at_k_evaluator.py\nalpha_codium/code_contests/eval/tracer.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.937358736920083
+  },
+  {
+    "name": "AlphaCodium/docs 模块",
+    "description": "[模块级] AlphaCodium 项目的 docs 模块 (docs)。来源: https://github.com/Codium-ai/AlphaCodium",
+    "domain": "documentation",
+    "tags": [
+      "broader-impacts",
+      "code-generation",
+      "flow-engineering",
+      "paper-implementations",
+      "state-of-the-art",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 17\n\n包含文件:\n- docs/docs\n- docs/docs/CNAME\n- docs/docs/assets\n- docs/docs/assets/favicon.ico\n- docs/docs/assets/logo.png\n- docs/docs/assets/logo.svg\n- docs/docs/css\n- docs/docs/css/custom.css\n- docs/docs/index.md\n- docs/mkdocs.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/docs\ndocs/docs/CNAME\ndocs/docs/assets\ndocs/docs/assets/favicon.ico\ndocs/docs/assets/logo.png\ndocs/docs/assets/logo.svg\ndocs/docs/css\ndocs/docs/css/custom.css\ndocs/docs/index.md\ndocs/mkdocs.yml\ndocs/overrides\ndocs/overrides/main.html\ndocs/overrides/partials\ndocs/overrides/partials/footer.html\ndocs/overrides/partials/integrations",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.937358736920083
+  },
+  {
+    "name": "AlphaCodium/pics 模块",
+    "description": "[模块级] AlphaCodium 项目的 pics 模块 (source)。来源: https://github.com/Codium-ai/AlphaCodium",
+    "domain": "devops",
+    "tags": [
+      "broader-impacts",
+      "code-generation",
+      "flow-engineering",
+      "paper-implementations",
+      "state-of-the-art",
+      "module-level",
+      "source",
+      "pics"
+    ],
+    "genes": [
+      {
+        "title": "pics 模块说明",
+        "content": "模块路径: pics/\n类型: source\n文件数: 5\n\n包含文件:\n- pics/comparison.png\n- pics/computational_effort.png\n- pics/example_problem.png\n- pics/iterations.png\n- pics/proposed_flow.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pics 文件结构",
+        "content": "pics/comparison.png\npics/computational_effort.png\npics/example_problem.png\npics/iterations.png\npics/proposed_flow.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.937358736920083
+  },
+  {
+    "name": "AlphaCodium/tests 模块",
+    "description": "[模块级] AlphaCodium 项目的 tests 模块 (test)。来源: https://github.com/Codium-ai/AlphaCodium",
+    "domain": "testing",
+    "tags": [
+      "broader-impacts",
+      "code-generation",
+      "flow-engineering",
+      "paper-implementations",
+      "state-of-the-art",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 8\n\n包含文件:\n- tests/__init__.py\n- tests/alpha_codium\n- tests/alpha_codium/__init__.py\n- tests/alpha_codium/code_contests\n- tests/alpha_codium/code_contests/__init__.py\n- tests/alpha_codium/code_contests/eval\n- tests/alpha_codium/code_contests/eval/__init__.py\n- tests/alpha_codium/code_contests/eval/test_local_exec.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/alpha_codium\ntests/alpha_codium/__init__.py\ntests/alpha_codium/code_contests\ntests/alpha_codium/code_contests/__init__.py\ntests/alpha_codium/code_contests/eval\ntests/alpha_codium/code_contests/eval/__init__.py\ntests/alpha_codium/code_contests/eval/test_local_exec.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.937358736920083
+  }
+]

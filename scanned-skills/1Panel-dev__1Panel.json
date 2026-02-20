@@ -1,0 +1,73 @@
+[
+  {
+    "name": "1Panel (1Panel-dev)",
+    "description": "[项目级] 🔥 1Panel offers an intuitive web interface for a Linux server / VPS, making it easy to manage OpenClaw agents, local LLMs, websites, databases, containers, files, and scheduled tasks.。来源: https://github.com/1Panel-dev/1Panel",
+    "domain": "devops",
+    "tags": [
+      "1panel",
+      "agent",
+      "clawdbot",
+      "docker",
+      "docker-ui",
+      "go",
+      "stars-33493",
+      "github-1panel-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🔥 1Panel offers an intuitive web interface for a Linux server / VPS, making it easy to manage OpenClaw agents, local LLMs, websites, databases, containers, files, and scheduled tasks.\n\n来源: https://github.com/1Panel-dev/1Panel\n语言: Go\nStars: 33493",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "bash -c \"$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nOWNERS\nREADME.md\nSECURITY.md\nagent\nagent/app",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "🔹 **AI Integration**  \nSeamlessly deploy OpenClaw agents, host local LLMs via Ollama, and monitor GPU utilization—all within a unified workspace engineered for efficient AI development and inference.  \n\n🔹 **One-Click Website Deployment**  \nLaunch production-ready websites instantly with automatic domain binding, SSL certificate provisioning, and configuration—zero manual setup required.  \n\n🔹 **Curated App Marketplace**  \nDiscover, install, and update trusted open-source applications (WordPress, MySQL, Redis, and more) with a single click.  \n\n🔹 **Centralized Server Management**  \nMonitor sy",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "1Panel/agent 模块",
+    "description": "[模块级] 1Panel 项目的 agent 模块 (source)。来源: https://github.com/1Panel-dev/1Panel",
+    "domain": "devops",
+    "tags": [
+      "1panel",
+      "agent",
+      "clawdbot",
+      "docker",
+      "docker-ui",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "模块路径: agent/\n类型: source\n文件数: 170\n\n包含文件:\n- agent/app\n- agent/app/api\n- agent/app/api/v2\n- agent/app/api/v2/agents.go\n- agent/app/api/v2/ai.go\n- agent/app/api/v2/alert.go\n- agent/app/api/v2/app.go\n- agent/app/api/v2/app_ignore_upgrade.go\n- agent/app/api/v2/app_install.go\n- agent/app/api/v2/backup.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/app\nagent/app/api\nagent/app/api/v2\nagent/app/api/v2/agents.go\nagent/app/api/v2/ai.go\nagent/app/api/v2/alert.go\nagent/app/api/v2/app.go\nagent/app/api/v2/app_ignore_upgrade.go\nagent/app/api/v2/app_install.go\nagent/app/api/v2/backup.go\nagent/app/api/v2/clam.go\nagent/app/api/v2/compose_template.go\nagent/app/api/v2/container.go\nagent/app/api/v2/cronjob.go\nagent/app/api/v2/dashboard.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.309981619781473
+  }
+]

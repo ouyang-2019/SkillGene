@@ -5,14 +5,14 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-932",
+      "stars-933",
       "github-ceeon",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "用 Claude Code Skills 做的视频剪辑 Agent\n\n来源: https://github.com/Ceeon/videocut-skills\n语言: JavaScript\nStars: 932",
+        "content": "用 Claude Code Skills 做的视频剪辑 Agent\n\n来源: https://github.com/Ceeon/videocut-skills\n语言: JavaScript\nStars: 933",
         "gene_type": "principle"
       },
       {
@@ -38,7 +38,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.48470795617699
+    "rating": 4.48494082187325
   },
   {
     "name": "videocut-skills/剪口播 模块",
@@ -46,7 +46,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-932",
+      "stars-933",
       "github-ceeon",
       "module-level",
       "source",
@@ -66,7 +66,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.6877663649415924
+    "rating": 3.6879526574986
   },
   {
     "name": "videocut-skills/字幕 模块",
@@ -74,7 +74,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-932",
+      "stars-933",
       "github-ceeon",
       "module-level",
       "source",
@@ -94,7 +94,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.6877663649415924
+    "rating": 3.6879526574986
   },
   {
     "name": "videocut-skills/安装 模块",
@@ -102,7 +102,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-932",
+      "stars-933",
       "github-ceeon",
       "module-level",
       "source",
@@ -122,7 +122,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.6877663649415924
+    "rating": 3.6879526574986
   },
   {
     "name": "videocut-skills/自进化 模块",
@@ -130,7 +130,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-932",
+      "stars-933",
       "github-ceeon",
       "module-level",
       "source",
@@ -150,6 +150,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.6877663649415924
+    "rating": 3.6879526574986
   }
 ]

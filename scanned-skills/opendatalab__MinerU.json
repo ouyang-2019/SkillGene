@@ -1,0 +1,133 @@
+[
+  {
+    "name": "MinerU (opendatalab)",
+    "description": "[项目级] Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.。来源: https://github.com/opendatalab/MinerU",
+    "domain": "devops",
+    "tags": [
+      "ai4science",
+      "document-analysis",
+      "extract-data",
+      "layout-analysis",
+      "ocr",
+      "python",
+      "stars-54542",
+      "github-opendatalab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "MinerU is a tool that converts PDFs into machine-readable formats (e.g., markdown, JSON), allowing for easy extraction into any format.\nMinerU was born during the pre-training process of [InternLM](https://github.com/InternLM/InternLM). We focus on solving symbol conversion issues in scientific literature and hope to contribute to technological development in the era of large models.\nCompared to well-known commercial products, MinerU is still young. If you encounter any issues or if the results are not as expected, please submit an issue on [issue](https://github.com/opendatalab/MinerU/issues) and **attach the relevant PDF**.\n\nhttps://github.com/user-attachments/assets/4bea02c9-6d54-4cd6-97ed-dff14340982c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "If you encounter any installation issues, please first consult the <a href=\"#faq\">FAQ</a>. </br>\nIf the parsing results are not as expected, refer to the <a href=\"#known-issues\">Known Issues</a>. </br>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nMinerU_CLA.md\nREADME.md\nREADME_zh-CN.md\nSECURITY.md\ndemo\ndemo/demo.py\ndemo/pdfs\ndocker\ndocker/china\ndocker/compose.yaml\ndocker/global\ndocs\ndocs/assets\ndocs/chemical_knowledge_introduction\ndocs/en\ndocs/images\ndocs/requirements.txt\ndocs/zh",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Remove headers, footers, footnotes, page numbers, etc., to ensure semantic coherence.\n- Output text in human-readable order, suitable for single-column, multi-column, and complex layouts.\n- Preserve the structure of the original document, including headings, paragraphs, lists, etc.\n- Extract images, image descriptions, tables, table titles, and footnotes.\n- Automatically recognize and convert formulas in the document to LaTeX format.\n- Automatically recognize and convert tables in the document to HTML format.\n- Automatically detect scanned PDFs and garbled PDFs and enable OCR functionality.\n",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "MinerU/demo 模块",
+    "description": "[模块级] MinerU 项目的 demo 模块 (example)。来源: https://github.com/opendatalab/MinerU",
+    "domain": "devops",
+    "tags": [
+      "ai4science",
+      "document-analysis",
+      "extract-data",
+      "layout-analysis",
+      "ocr",
+      "module-level",
+      "example",
+      "demo"
+    ],
+    "genes": [
+      {
+        "title": "demo 模块说明",
+        "content": "A WebUI developed based on Gradio, with a simple interface and only core parsing functionality, no login required  \n\n- [![ModelScope](https://img.shields.io/badge/Demo_on_ModelScope-purple?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIzIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBhdGggaWQ9InN2Z18xNCIgZmlsbD0iIzYyNGFmZiIgZD0ibTAsODkuODRsMjUuNjUsMGwwLDI1LjY0OTk5bC0yNS42NSwwbDAsLTI1LjY0OTk5eiIvPgogIDxwYXRoIGlkPSJzdmdfMTUiIGZp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo 文件结构",
+        "content": "demo/demo.py\ndemo/pdfs\ndemo/pdfs/demo1.pdf\ndemo/pdfs/demo2.pdf\ndemo/pdfs/demo3.pdf\ndemo/pdfs/small_ocr.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.394692423614877
+  },
+  {
+    "name": "MinerU/docker 模块",
+    "description": "[模块级] MinerU 项目的 docker 模块 (source)。来源: https://github.com/opendatalab/MinerU",
+    "domain": "devops",
+    "tags": [
+      "ai4science",
+      "document-analysis",
+      "extract-data",
+      "layout-analysis",
+      "ocr",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "MinerU provides a convenient Docker deployment method, which helps quickly set up the environment and solve some tricky environment compatibility issues.\nYou can get the [Docker Deployment Instructions](https://opendatalab.github.io/MinerU/quick_start/docker_deployment/) in the documentation.\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/china\ndocker/china/Dockerfile\ndocker/china/corex.Dockerfile\ndocker/china/dcu.Dockerfile\ndocker/china/gcu.Dockerfile\ndocker/china/kxpu.Dockerfile\ndocker/china/maca.Dockerfile\ndocker/china/mlu.Dockerfile\ndocker/china/musa.Dockerfile\ndocker/china/npu.Dockerfile\ndocker/china/ppu.Dockerfile\ndocker/compose.yaml\ndocker/global\ndocker/global/Dockerfile",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.394692423614877
+  },
+  {
+    "name": "MinerU/docs 模块",
+    "description": "[模块级] MinerU 项目的 docs 模块 (docs)。来源: https://github.com/opendatalab/MinerU",
+    "domain": "documentation",
+    "tags": [
+      "ai4science",
+      "document-analysis",
+      "extract-data",
+      "layout-analysis",
+      "ocr",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 159\n\n包含文件:\n- docs/assets\n- docs/assets/images\n- docs/assets/images/BISHENG_01.png\n- docs/assets/images/Cherry_Studio_1.png\n- docs/assets/images/Cherry_Studio_2.png\n- docs/assets/images/Cherry_Studio_3.png\n- docs/assets/images/Cherry_Studio_4.png\n- docs/assets/images/Cherry_Studio_5.png\n- docs/assets/images/Cherry_Studio_6.png\n- docs/assets/images/Cherry_Studio_7.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/assets\ndocs/assets/images\ndocs/assets/images/BISHENG_01.png\ndocs/assets/images/Cherry_Studio_1.png\ndocs/assets/images/Cherry_Studio_2.png\ndocs/assets/images/Cherry_Studio_3.png\ndocs/assets/images/Cherry_Studio_4.png\ndocs/assets/images/Cherry_Studio_5.png\ndocs/assets/images/Cherry_Studio_6.png\ndocs/assets/images/Cherry_Studio_7.png\ndocs/assets/images/Cherry_Studio_8.png\ndocs/assets/images/Coze_1.png\ndocs/assets/images/Coze_10.png\ndocs/assets/images/Coze_11.png\ndocs/assets/images/Coze_12.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.394692423614877
+  }
+]

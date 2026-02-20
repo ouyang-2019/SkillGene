@@ -1,0 +1,211 @@
+[
+  {
+    "name": "-SkillSeeker- (18701745572)",
+    "description": "[项目级] ‌Skill Seeker‌ 是一个开源自动化工具，旨在将文档网站、GitHub仓库、PDF文件等非结构化或半结构化数据源转换为可部署的Claude AI技能包。其核心功能包括内容抓取、清洗、分块、格式化，并最终生成一个包含‌SKILL.md‌主文件和引用内容的‌.zip压缩包‌，该包可通过RAG（检索增强生成）机制增强Claude AI的知识库，使其在特定领域提供更精准的响应。‌。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "‌Skill Seeker‌ 是一个开源自动化工具，旨在将文档网站、GitHub仓库、PDF文件等非结构化或半结构化数据源转换为可部署的Claude AI技能包。其核心功能包括内容抓取、清洗、分块、格式化，并最终生成一个包含‌SKILL.md‌主文件和引用内容的‌.zip压缩包‌，该包可通过RAG（检索增强生成）机制增强Claude AI的知识库，使其在特定领域提供更精准的响应。‌\n\n来源: https://github.com/18701745572/-SkillSeeker-\n语言: Python\nStars: 7",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install skill-seekers[gemini]",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "ASYNC_SUPPORT.md\nBULLETPROOF_QUICKSTART.md\nCHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nEVOLUTION_ANALYSIS.md\nFLEXIBLE_ROADMAP.md\nFUTURE_RELEASES.md\nLICENSE\nQUICKSTART.md\nREADME.md\nREDDIT_POST_v2.2.0.md\nROADMAP.md\nSTRUCTURE.md\nSUMMARY_HTTP_TRANSPORT.md\nSUMMARY_MULTI_AGENT_SETUP.md\nTROUBLESHOOTING.md\napi\napi/.gitignore\napi/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4225490200071285
+  },
+  {
+    "name": "-SkillSeeker-/api 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 api 模块 (source)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "- ✅ **llms.txt Support** - Automatically detects and uses LLM-ready documentation files (10x faster)\n- ✅ **Universal Scraper** - Works with ANY documentation website\n- ✅ **Smart Categorization** - Automatically organizes content by topic\n- ✅ **Code Language Detection** - Recognizes Python, JavaScript, C++, GDScript, etc.\n- ✅ **8 Ready-to-Use Presets** - Godot, React, Vue, Django, FastAPI, and more",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/.gitignore\napi/README.md\napi/__init__.py\napi/config_analyzer.py\napi/main.py\napi/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "-SkillSeeker-/configs 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 configs 模块 (config)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "skill-seekers install --config react",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/ansible-core.json\nconfigs/astro.json\nconfigs/claude-code.json\nconfigs/deck_deck_go_local.json\nconfigs/django.json\nconfigs/django_unified.json\nconfigs/example-team\nconfigs/example-team/README.md\nconfigs/example-team/company-api.json\nconfigs/example-team/react-custom.json\nconfigs/example-team/test_e2e.py\nconfigs/example-team/vue-internal.json\nconfigs/example_pdf.json\nconfigs/fastapi.json\nconfigs/fastapi_unified.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "-SkillSeeker-/docs 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 docs 模块 (docs)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "git add . && git commit -m \"Add custom React config\" && git push",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CLAUDE.md\ndocs/ENHANCEMENT.md\ndocs/FEATURE_MATRIX.md\ndocs/GEMINI_INTEGRATION.md\ndocs/GIT_CONFIG_SOURCES.md\ndocs/HTTP_TRANSPORT.md\ndocs/LARGE_DOCUMENTATION.md\ndocs/LLMS_TXT_SUPPORT.md\ndocs/LOCAL_REPO_TEST_RESULTS.md\ndocs/MCP_SETUP.md\ndocs/MULTI_AGENT_SETUP.md\ndocs/MULTI_LLM_SUPPORT.md\ndocs/OPENAI_INTEGRATION.md\ndocs/PATTERN_DETECTION.md\ndocs/PDF_ADVANCED_FEATURES.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "-SkillSeeker-/examples 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 examples 模块 (example)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/http_transport_examples.sh\n- examples/test_http_server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/http_transport_examples.sh\nexamples/test_http_server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "-SkillSeeker-/src 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 src 模块 (source)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 64\n\n包含文件:\n- src/skill_seekers\n- src/skill_seekers/__init__.py\n- src/skill_seekers/cli\n- src/skill_seekers/cli/__init__.py\n- src/skill_seekers/cli/adaptors\n- src/skill_seekers/cli/adaptors/__init__.py\n- src/skill_seekers/cli/adaptors/base.py\n- src/skill_seekers/cli/adaptors/claude.py\n- src/skill_seekers/cli/adaptors/gemini.py\n- src/skill_seekers/cli/adaptors/markdown.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/skill_seekers\nsrc/skill_seekers/__init__.py\nsrc/skill_seekers/cli\nsrc/skill_seekers/cli/__init__.py\nsrc/skill_seekers/cli/adaptors\nsrc/skill_seekers/cli/adaptors/__init__.py\nsrc/skill_seekers/cli/adaptors/base.py\nsrc/skill_seekers/cli/adaptors/claude.py\nsrc/skill_seekers/cli/adaptors/gemini.py\nsrc/skill_seekers/cli/adaptors/markdown.py\nsrc/skill_seekers/cli/adaptors/openai.py\nsrc/skill_seekers/cli/api_reference_builder.py\nsrc/skill_seekers/cli/code_analyzer.py\nsrc/skill_seekers/cli/codebase_scraper.py\nsrc/skill_seekers/cli/config_validator.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  },
+  {
+    "name": "-SkillSeeker-/tests 模块",
+    "description": "[模块级] -SkillSeeker- 项目的 tests 模块 (test)。来源: https://github.com/18701745572/-SkillSeeker-",
+    "domain": "testing",
+    "tags": [
+      "python",
+      "stars-7",
+      "github-18701745572",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 13\n\n包含文件:\n- tests/__init__.py\n- tests/conftest.py\n- tests/fixtures\n- tests/fixtures/example_conflicts.json\n- tests/mcp_integration_test.md\n- tests/test_adaptors\n- tests/test_adaptors/__init__.py\n- tests/test_adaptors/test_adaptors_e2e.py\n- tests/test_adaptors/test_base.py\n- tests/test_adaptors/test_claude_adaptor.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/conftest.py\ntests/fixtures\ntests/fixtures/example_conflicts.json\ntests/mcp_integration_test.md\ntests/test_adaptors\ntests/test_adaptors/__init__.py\ntests/test_adaptors/test_adaptors_e2e.py\ntests/test_adaptors/test_base.py\ntests/test_adaptors/test_claude_adaptor.py\ntests/test_adaptors/test_gemini_adaptor.py\ntests/test_adaptors/test_markdown_adaptor.py\ntests/test_adaptors/test_openai_adaptor.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.838039216005703
+  }
+]

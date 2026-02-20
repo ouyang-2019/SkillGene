@@ -1,0 +1,108 @@
+[
+  {
+    "name": "gpt-researcher (assafelovic)",
+    "description": "[项目级] An autonomous agent that conducts deep research on any data using any LLM providers.。来源: https://github.com/assafelovic/gpt-researcher",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "automation",
+      "deepresearch",
+      "llms",
+      "python",
+      "stars-25370",
+      "github-assafelovic",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An autonomous agent that conducts deep research on any data using any LLM providers.\n\n来源: https://github.com/assafelovic/gpt-researcher\n语言: Python\nStars: 25370",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx skills add assafelovic/gpt-researcher",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCURSOR_RULES.md\nDockerfile\nDockerfile.fullstack\nLICENSE\nProcfile\nREADME-ja_JP.md\nREADME-ko_KR.md\nREADME-zh_CN.md\nREADME.md\nbackend\nbackend/Dockerfile\nbackend/Procfile\nbackend/__init__.py\nbackend/chat\nbackend/memory\nbackend/report_type\nbackend/requirements.txt\nbackend/run_server.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\n...\nfrom gpt_researcher import GPTResearcher\n\nquery = \"why is Nvidia stock going up?\"\nresearcher = GPTResearcher(query=query)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 📝 Generate detailed research reports using web and local documents.\n- 🖼️ Smart image scraping and filtering for reports.\n- 🍌 **AI-generated inline images** using Google Gemini (Nano Banana) for visual illustrations.\n- 📜 Generate detailed reports exceeding 2,000 words.\n- 🌐 Aggregate over 20 sources for objective conclusions.\n- 🖥️ Frontend available in lightweight (HTML/CSS/JS) and production-ready (NextJS + Tailwind) versions.\n- 🔍 JavaScript-enabled web scraping.\n- 📂 Maintains memory and context throughout research.\n- 📄 Export reports to PDF, Word, and other formats.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "gpt-researcher/backend 模块",
+    "description": "[模块级] gpt-researcher 项目的 backend 模块 (source)。来源: https://github.com/assafelovic/gpt-researcher",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "ai",
+      "automation",
+      "deepresearch",
+      "llms",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 37\n\n包含文件:\n- backend/Dockerfile\n- backend/Procfile\n- backend/__init__.py\n- backend/chat\n- backend/chat/__init__.py\n- backend/chat/chat.py\n- backend/memory\n- backend/memory/__init__.py\n- backend/memory/draft.py\n- backend/memory/research.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/Dockerfile\nbackend/Procfile\nbackend/__init__.py\nbackend/chat\nbackend/chat/__init__.py\nbackend/chat/chat.py\nbackend/memory\nbackend/memory/__init__.py\nbackend/memory/draft.py\nbackend/memory/research.py\nbackend/report_type\nbackend/report_type/__init__.py\nbackend/report_type/basic_report\nbackend/report_type/basic_report/__init__.py\nbackend/report_type/basic_report/basic_report.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.261728186888693
+  },
+  {
+    "name": "gpt-researcher/docs 模块",
+    "description": "[模块级] gpt-researcher 项目的 docs 模块 (docs)。来源: https://github.com/assafelovic/gpt-researcher",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "automation",
+      "deepresearch",
+      "llms",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 117\n\n包含文件:\n- docs/CNAME\n- docs/README.md\n- docs/babel.config.js\n- docs/blog\n- docs/blog/2023-09-22-gpt-researcher\n- docs/blog/2023-09-22-gpt-researcher/architecture.png\n- docs/blog/2023-09-22-gpt-researcher/index.md\n- docs/blog/2023-09-22-gpt-researcher/planner.jpeg\n- docs/blog/2023-11-12-openai-assistant\n- docs/blog/2023-11-12-openai-assistant/diagram-1.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CNAME\ndocs/README.md\ndocs/babel.config.js\ndocs/blog\ndocs/blog/2023-09-22-gpt-researcher\ndocs/blog/2023-09-22-gpt-researcher/architecture.png\ndocs/blog/2023-09-22-gpt-researcher/index.md\ndocs/blog/2023-09-22-gpt-researcher/planner.jpeg\ndocs/blog/2023-11-12-openai-assistant\ndocs/blog/2023-11-12-openai-assistant/diagram-1.png\ndocs/blog/2023-11-12-openai-assistant/diagram-assistant.jpeg\ndocs/blog/2023-11-12-openai-assistant/index.md\ndocs/blog/2024-05-19-gptr-langgraph\ndocs/blog/2024-05-19-gptr-langgraph/architecture.jpeg\ndocs/blog/2024-05-19-gptr-langgraph/blog-langgraph.jpeg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.261728186888693
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "swarms (kyegomez)",
+    "description": "[项目级] The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai。来源: https://github.com/kyegomez/swarms",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "python",
+      "stars-5766",
+      "github-kyegomez",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai\n\n来源: https://github.com/kyegomez/swarms\n语言: Python\nStars: 5766",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\ndocs\ndocs/.readthedocs.yaml\ndocs/assets\ndocs/contributors\ndocs/deployment_solutions\ndocs/developer_guides\ndocs/examples\ndocs/governance\ndocs/guides\ndocs/index.md\ndocs/llm.txt\ndocs/mkdocs.yml\ndocs/overrides\ndocs/protocol",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "agents = [writer, editor, reviewer]\ntask = \"Write a short story about a robot who discovers music.\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "Swarms delivers a comprehensive, enterprise-grade multi-agent infrastructure platform designed for production-scale deployments and seamless integration with existing systems. [Learn more about the swarms feature set here](https://docs.swarms.world/en/latest/swarms/features/)\n\n| Category | Features | Benefits |\n|----------|----------|-----------|\n| 🏢 **Enterprise Architecture** | • Production-Ready Infrastructure<br>• High Availability Systems<br>• Modular Microservices Design<br>• Comprehensive Observability<br>• Backwards Compatibility | • 99.9%+ Uptime Guarantee<br>• Reduced Operational Ov",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.880437319026095
+  },
+  {
+    "name": "swarms/docs 模块",
+    "description": "[模块级] swarms 项目的 docs 模块 (docs)。来源: https://github.com/kyegomez/swarms",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agentic-workflow",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 164\n\n包含文件:\n- docs/.readthedocs.yaml\n- docs/assets\n- docs/assets/css\n- docs/assets/css/extra.css\n- docs/assets/img\n- docs/assets/img/SwarmsLogoIcon.png\n- docs/assets/img/agent_def.png\n- docs/assets/img/benefits.png\n- docs/assets/img/docs\n- docs/assets/img/docs/query-plan-mini.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.readthedocs.yaml\ndocs/assets\ndocs/assets/css\ndocs/assets/css/extra.css\ndocs/assets/img\ndocs/assets/img/SwarmsLogoIcon.png\ndocs/assets/img/agent_def.png\ndocs/assets/img/benefits.png\ndocs/assets/img/docs\ndocs/assets/img/docs/query-plan-mini.png\ndocs/assets/img/docs/query-plan.png\ndocs/assets/img/reliabilitythrough.png\ndocs/assets/img/swarmbanner.png\ndocs/assets/img/swarms-logo.png\ndocs/assets/img/swarmsbanner.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.004349855220876
+  }
+]

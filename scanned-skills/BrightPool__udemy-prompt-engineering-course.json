@@ -1,0 +1,458 @@
+[
+  {
+    "name": "udemy-prompt-engineering-course (BrightPool)",
+    "description": "[项目级] Content for the Udemy Prompt Engineering Course。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Content for the Udemy Prompt Engineering Course\n\n来源: https://github.com/BrightPool/udemy-prompt-engineering-course\n语言: Jupyter Notebook\nStars: 561",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "- Install gitleaks for secret scanning: `brew install gitleaks`\n- Install pre-commit: `pip install pre-commit`\n- Install pre-commit hooks: `pre-commit install`",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nadvanced_image_model_techniques\nadvanced_image_model_techniques/advanced_consistent_characters.ipynb\nadvanced_image_model_techniques/advanced_inpainting_with_flux.ipynb\nadvanced_image_model_techniques/advanced_outpainting_with_flux.ipynb\nadvanced_image_model_techniques/async_text_to_image_with_flux.ipynb\nadvanced_image_model_techniques/control_net.ipynb\nadvanced_image_model_techniques/draw_image_mask_with_gradio.ipynb\nadvanced_image_model_techniques/fine_tuning_with_flux_lora.ipynb\nadvanced_image_model_techniques/image_editing_with_flux_kontext.ipynb\nadvanced_image_model_techniques/image_to_image_with_flux.ipynb\nadvanced_image_model_techniques/image_upscaling_with_clarity.ipynb\nadvanced_image_model_techniques/rhino-mask.png\nadvanced_image_model_techniques/rhino-suit.png\nadvanced_image_model_techniques/segment_anything_inpainting.ipynb\nadvanced_image_model_techniques/text_to_image_with_flux.ipynb\nadvanced_image_model_techniques/xyz_prompt_grids.ipynb\nadvanced_text_model_techniques\nadvanced_text_model_techniques/ReAct_implementation.ipynb\nadvanced_text_model_techniques/personas.ipynb",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "`gitleaks detect --source=\".\" --report-path=\"gitleaks-report.json\"`",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.37448143062808
+  },
+  {
+    "name": "udemy-prompt-engineering-course/advanced_image_model_techniques 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 advanced_image_model_techniques 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "advanced_image_model_techniques"
+    ],
+    "genes": [
+      {
+        "title": "advanced_image_model_techniques 模块说明",
+        "content": "模块路径: advanced_image_model_techniques/\n类型: source\n文件数: 15\n\n包含文件:\n- advanced_image_model_techniques/advanced_consistent_characters.ipynb\n- advanced_image_model_techniques/advanced_inpainting_with_flux.ipynb\n- advanced_image_model_techniques/advanced_outpainting_with_flux.ipynb\n- advanced_image_model_techniques/async_text_to_image_with_flux.ipynb\n- advanced_image_model_techniques/control_net.ipynb\n- advanced_image_model_techniques/draw_image_mask_with_gradio.ipynb\n- advanced_image_model_techniques/fine_tuning_with_flux_lora.ipynb\n- advanced_image_model_techniques/image_editing_with_flux_kontext.ipynb\n- advanced_image_model_techniques/image_to_image_with_flux.ipynb\n- advanced_image_model_techniques/image_upscaling_with_clarity.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "advanced_image_model_techniques 文件结构",
+        "content": "advanced_image_model_techniques/advanced_consistent_characters.ipynb\nadvanced_image_model_techniques/advanced_inpainting_with_flux.ipynb\nadvanced_image_model_techniques/advanced_outpainting_with_flux.ipynb\nadvanced_image_model_techniques/async_text_to_image_with_flux.ipynb\nadvanced_image_model_techniques/control_net.ipynb\nadvanced_image_model_techniques/draw_image_mask_with_gradio.ipynb\nadvanced_image_model_techniques/fine_tuning_with_flux_lora.ipynb\nadvanced_image_model_techniques/image_editing_with_flux_kontext.ipynb\nadvanced_image_model_techniques/image_to_image_with_flux.ipynb\nadvanced_image_model_techniques/image_upscaling_with_clarity.ipynb\nadvanced_image_model_techniques/rhino-mask.png\nadvanced_image_model_techniques/rhino-suit.png\nadvanced_image_model_techniques/segment_anything_inpainting.ipynb\nadvanced_image_model_techniques/text_to_image_with_flux.ipynb\nadvanced_image_model_techniques/xyz_prompt_grids.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/advanced_text_model_techniques 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 advanced_text_model_techniques 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "advanced_text_model_techniques"
+    ],
+    "genes": [
+      {
+        "title": "advanced_text_model_techniques 模块说明",
+        "content": "模块路径: advanced_text_model_techniques/\n类型: source\n文件数: 6\n\n包含文件:\n- advanced_text_model_techniques/ReAct_implementation.ipynb\n- advanced_text_model_techniques/personas.ipynb\n- advanced_text_model_techniques/prompt_caching_notebook.ipynb\n- advanced_text_model_techniques/prompt_optimization.ipynb\n- advanced_text_model_techniques/reason_and_act_react.txt\n- advanced_text_model_techniques/recursive_reprompting_and_revision.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "advanced_text_model_techniques 文件结构",
+        "content": "advanced_text_model_techniques/ReAct_implementation.ipynb\nadvanced_text_model_techniques/personas.ipynb\nadvanced_text_model_techniques/prompt_caching_notebook.ipynb\nadvanced_text_model_techniques/prompt_optimization.ipynb\nadvanced_text_model_techniques/reason_and_act_react.txt\nadvanced_text_model_techniques/recursive_reprompting_and_revision.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/agent_architectures 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 agent_architectures 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "agent_architectures"
+    ],
+    "genes": [
+      {
+        "title": "agent_architectures 模块说明",
+        "content": "模块路径: agent_architectures/\n类型: source\n文件数: 12\n\n包含文件:\n- agent_architectures/Evaluator_Optimizer_Pattern.ipynb\n- agent_architectures/agents.ipynb\n- agent_architectures/langgraph\n- agent_architectures/langgraph/agent_supervisor.ipynb\n- agent_architectures/langgraph/hierarchical_agent_teams.ipynb\n- agent_architectures/langgraph/mixture_of_experts_aggregator.ipynb\n- agent_architectures/langgraph/plan_and_execute_agents.ipynb\n- agent_architectures/langgraph/reflection.ipynb\n- agent_architectures/orchestrator_workers.ipynb\n- agent_architectures/parallelization.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent_architectures 文件结构",
+        "content": "agent_architectures/Evaluator_Optimizer_Pattern.ipynb\nagent_architectures/agents.ipynb\nagent_architectures/langgraph\nagent_architectures/langgraph/agent_supervisor.ipynb\nagent_architectures/langgraph/hierarchical_agent_teams.ipynb\nagent_architectures/langgraph/mixture_of_experts_aggregator.ipynb\nagent_architectures/langgraph/plan_and_execute_agents.ipynb\nagent_architectures/langgraph/reflection.ipynb\nagent_architectures/orchestrator_workers.ipynb\nagent_architectures/parallelization.ipynb\nagent_architectures/prompt_chaining.ipynb\nagent_architectures/routing.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/ai_image_model_projects 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 ai_image_model_projects 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "ai_image_model_projects"
+    ],
+    "genes": [
+      {
+        "title": "ai_image_model_projects 模块说明",
+        "content": "模块路径: ai_image_model_projects/\n类型: source\n文件数: 4\n\n包含文件:\n- ai_image_model_projects/creative_ultra.ipynb\n- ai_image_model_projects/product_dream_booth_stable_diffusion.ipynb\n- ai_image_model_projects/profile_picture_dream_booth_stable_diffusion.ipynb\n- ai_image_model_projects/stable_diffusion.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_image_model_projects 文件结构",
+        "content": "ai_image_model_projects/creative_ultra.ipynb\nai_image_model_projects/product_dream_booth_stable_diffusion.ipynb\nai_image_model_projects/profile_picture_dream_booth_stable_diffusion.ipynb\nai_image_model_projects/stable_diffusion.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/ai_text_model_projects 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 ai_text_model_projects 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "ai_text_model_projects"
+    ],
+    "genes": [
+      {
+        "title": "ai_text_model_projects 模块说明",
+        "content": "模块路径: ai_text_model_projects/\n类型: source\n文件数: 15\n\n包含文件:\n- ai_text_model_projects/ai_blog_post_creation.ipynb\n- ai_text_model_projects/fine_tuning.ipynb\n- ai_text_model_projects/local_llama3.ipynb\n- ai_text_model_projects/openai_realtime_example_with_twilio\n- ai_text_model_projects/openai_realtime_example_with_twilio/.env\n- ai_text_model_projects/openai_realtime_example_with_twilio/.env.example\n- ai_text_model_projects/openai_realtime_example_with_twilio/README.md\n- ai_text_model_projects/openai_realtime_example_with_twilio/env.example\n- ai_text_model_projects/openai_realtime_example_with_twilio/main.py\n- ai_text_model_projects/progressive_summarization.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_text_model_projects 文件结构",
+        "content": "ai_text_model_projects/ai_blog_post_creation.ipynb\nai_text_model_projects/fine_tuning.ipynb\nai_text_model_projects/local_llama3.ipynb\nai_text_model_projects/openai_realtime_example_with_twilio\nai_text_model_projects/openai_realtime_example_with_twilio/.env\nai_text_model_projects/openai_realtime_example_with_twilio/.env.example\nai_text_model_projects/openai_realtime_example_with_twilio/README.md\nai_text_model_projects/openai_realtime_example_with_twilio/env.example\nai_text_model_projects/openai_realtime_example_with_twilio/main.py\nai_text_model_projects/progressive_summarization.ipynb\nai_text_model_projects/review_classification.ipynb\nai_text_model_projects/summarizing_large_documents.ipynb\nai_text_model_projects/text_to_speech.ipynb\nai_text_model_projects/training_data.jsonl\nai_text_model_projects/transcribing_audio_from_a_youtube_video.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/deep_dive_into_github_copilot 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 deep_dive_into_github_copilot 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "deep_dive_into_github_copilot"
+    ],
+    "genes": [
+      {
+        "title": "deep_dive_into_github_copilot 模块说明",
+        "content": "模块路径: deep_dive_into_github_copilot/\n类型: source\n文件数: 2\n\n包含文件:\n- deep_dive_into_github_copilot/copilot_edting_features.ipynb\n- deep_dive_into_github_copilot/custom_prompts_updating_existing_code.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deep_dive_into_github_copilot 文件结构",
+        "content": "deep_dive_into_github_copilot/copilot_edting_features.ipynb\ndeep_dive_into_github_copilot/custom_prompts_updating_existing_code.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/deep_dive_on_langchain 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 deep_dive_on_langchain 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "deep_dive_on_langchain"
+    ],
+    "genes": [
+      {
+        "title": "deep_dive_on_langchain 模块说明",
+        "content": "模块路径: deep_dive_on_langchain/\n类型: source\n文件数: 18\n\n包含文件:\n- deep_dive_on_langchain/10_langchain_hub.ipynb\n- deep_dive_on_langchain/11_LCEL_runnable_interface.ipynb\n- deep_dive_on_langchain/12_LCEL_chat_models_itemgetter_rag.ipynb\n- deep_dive_on_langchain/13_LCEL_conversation_history_and_memory.ipynb\n- deep_dive_on_langchain/14_LCEL_multiple_chains.ipynb\n- deep_dive_on_langchain/15_LCEL_conditional_logic_branching_and_merging.ipynb\n- deep_dive_on_langchain/16_vectorstores_and_the_indexing_api.ipynb\n- deep_dive_on_langchain/17_LCEL_configurable_fields.ipynb\n- deep_dive_on_langchain/18_langchain_agents_and_tools.ipynb\n- deep_dive_on_langchain/1_langchain_installation.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deep_dive_on_langchain 文件结构",
+        "content": "deep_dive_on_langchain/10_langchain_hub.ipynb\ndeep_dive_on_langchain/11_LCEL_runnable_interface.ipynb\ndeep_dive_on_langchain/12_LCEL_chat_models_itemgetter_rag.ipynb\ndeep_dive_on_langchain/13_LCEL_conversation_history_and_memory.ipynb\ndeep_dive_on_langchain/14_LCEL_multiple_chains.ipynb\ndeep_dive_on_langchain/15_LCEL_conditional_logic_branching_and_merging.ipynb\ndeep_dive_on_langchain/16_vectorstores_and_the_indexing_api.ipynb\ndeep_dive_on_langchain/17_LCEL_configurable_fields.ipynb\ndeep_dive_on_langchain/18_langchain_agents_and_tools.ipynb\ndeep_dive_on_langchain/1_langchain_installation.ipynb\ndeep_dive_on_langchain/2_chat_models.ipynb\ndeep_dive_on_langchain/3_chat_models_prompt_templates.ipynb\ndeep_dive_on_langchain/4_chat_models_streaming.ipynb\ndeep_dive_on_langchain/5_chat_models_output_parsing.ipynb\ndeep_dive_on_langchain/6_chat_models_summarization_chains.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/deep_dive_on_langgraph 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 deep_dive_on_langgraph 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "deep_dive_on_langgraph"
+    ],
+    "genes": [
+      {
+        "title": "deep_dive_on_langgraph 模块说明",
+        "content": "模块路径: deep_dive_on_langgraph/\n类型: source\n文件数: 22\n\n包含文件:\n- deep_dive_on_langgraph/1_simple_langgraph.ipynb\n- deep_dive_on_langgraph/2_tool_usage_and_persistence_in_langgraph.ipynb\n- deep_dive_on_langgraph/3_human_in_the_loop.ipynb\n- deep_dive_on_langgraph/4_manually_updating_the_state.ipynb\n- deep_dive_on_langgraph/5_customizing_state.ipynb\n- deep_dive_on_langgraph/6_time_travel.ipynb\n- deep_dive_on_langgraph/7_rag\n- deep_dive_on_langgraph/7_rag/langgraph_adaptive_rag.ipynb\n- deep_dive_on_langgraph/7_rag/langgraph_agentic_rag.ipynb\n- deep_dive_on_langgraph/7_rag/langgraph_crag.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deep_dive_on_langgraph 文件结构",
+        "content": "deep_dive_on_langgraph/1_simple_langgraph.ipynb\ndeep_dive_on_langgraph/2_tool_usage_and_persistence_in_langgraph.ipynb\ndeep_dive_on_langgraph/3_human_in_the_loop.ipynb\ndeep_dive_on_langgraph/4_manually_updating_the_state.ipynb\ndeep_dive_on_langgraph/5_customizing_state.ipynb\ndeep_dive_on_langgraph/6_time_travel.ipynb\ndeep_dive_on_langgraph/7_rag\ndeep_dive_on_langgraph/7_rag/langgraph_adaptive_rag.ipynb\ndeep_dive_on_langgraph/7_rag/langgraph_agentic_rag.ipynb\ndeep_dive_on_langgraph/7_rag/langgraph_crag.ipynb\ndeep_dive_on_langgraph/7_rag/langgraph_self_rag.ipynb\ndeep_dive_on_langgraph/extra_content\ndeep_dive_on_langgraph/extra_content/advanced_branching.ipynb\ndeep_dive_on_langgraph/extra_content/subgraph.ipynb\ndeep_dive_on_langgraph/streaming_advanced",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/evaluating_quality 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 evaluating_quality 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "evaluating_quality"
+    ],
+    "genes": [
+      {
+        "title": "evaluating_quality 模块说明",
+        "content": "模块路径: evaluating_quality/\n类型: source\n文件数: 4\n\n包含文件:\n- evaluating_quality/data\n- evaluating_quality/data/checked_customer_marketing_images.csv\n- evaluating_quality/evaluation_metrics.ipynb\n- evaluating_quality/transaction_data_with_expanded_descriptions.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluating_quality 文件结构",
+        "content": "evaluating_quality/data\nevaluating_quality/data/checked_customer_marketing_images.csv\nevaluating_quality/evaluation_metrics.ipynb\nevaluating_quality/transaction_data_with_expanded_descriptions.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/images 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 images 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/autonomous-agent.webp\n- images/evaluator-optimizer.webp\n- images/function-calling-steps.png\n- images/orchestrator-workers.webp\n- images/parallelization.webp\n- images/prompt-chaining.webp\n- images/routing.webp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/autonomous-agent.webp\nimages/evaluator-optimizer.webp\nimages/function-calling-steps.png\nimages/orchestrator-workers.webp\nimages/parallelization.webp\nimages/prompt-chaining.webp\nimages/routing.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/openai_features_and_functionality 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 openai_features_and_functionality 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "openai_features_and_functionality"
+    ],
+    "genes": [
+      {
+        "title": "openai_features_and_functionality 模块说明",
+        "content": "模块路径: openai_features_and_functionality/\n类型: source\n文件数: 12\n\n包含文件:\n- openai_features_and_functionality/chat_completions_vs_responses_api.ipynb\n- openai_features_and_functionality/core_features_walkthrough.ipynb\n- openai_features_and_functionality/embeddings.ipynb\n- openai_features_and_functionality/how_to_count_tokens_using_tiktoken.ipynb\n- openai_features_and_functionality/learning_agents_from_scratch.ipynb\n- openai_features_and_functionality/managing_token_messages_manually_responses_api.ipynb\n- openai_features_and_functionality/parallelization_of_requests_using_the_async_client.ipynb\n- openai_features_and_functionality/rate_limits_and_retrying_with_tenacity.ipynb\n- openai_features_and_functionality/responses_api_and_messages.ipynb\n- openai_features_and_functionality/streaming_with_responses_api.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "openai_features_and_functionality 文件结构",
+        "content": "openai_features_and_functionality/chat_completions_vs_responses_api.ipynb\nopenai_features_and_functionality/core_features_walkthrough.ipynb\nopenai_features_and_functionality/embeddings.ipynb\nopenai_features_and_functionality/how_to_count_tokens_using_tiktoken.ipynb\nopenai_features_and_functionality/learning_agents_from_scratch.ipynb\nopenai_features_and_functionality/managing_token_messages_manually_responses_api.ipynb\nopenai_features_and_functionality/parallelization_of_requests_using_the_async_client.ipynb\nopenai_features_and_functionality/rate_limits_and_retrying_with_tenacity.ipynb\nopenai_features_and_functionality/responses_api_and_messages.ipynb\nopenai_features_and_functionality/streaming_with_responses_api.ipynb\nopenai_features_and_functionality/structured_outputs_using_openai.ipynb\nopenai_features_and_functionality/tool_calling.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/prompt_optimization_and_evals 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 prompt_optimization_and_evals 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "prompt_optimization_and_evals"
+    ],
+    "genes": [
+      {
+        "title": "prompt_optimization_and_evals 模块说明",
+        "content": "模块路径: prompt_optimization_and_evals/\n类型: source\n文件数: 8\n\n包含文件:\n- prompt_optimization_and_evals/dspy-primer-with-every.ipynb\n- prompt_optimization_and_evals/dsypy.ipynb\n- prompt_optimization_and_evals/evaluation_metrics.ipynb\n- prompt_optimization_and_evals/funeval.ipynb\n- prompt_optimization_and_evals/sammo_intro.ipynb\n- prompt_optimization_and_evals/sammo_metaprompt.ipynb\n- prompt_optimization_and_evals/sammo_optimize.ipynb\n- prompt_optimization_and_evals/social_media_posts.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt_optimization_and_evals 文件结构",
+        "content": "prompt_optimization_and_evals/dspy-primer-with-every.ipynb\nprompt_optimization_and_evals/dsypy.ipynb\nprompt_optimization_and_evals/evaluation_metrics.ipynb\nprompt_optimization_and_evals/funeval.ipynb\nprompt_optimization_and_evals/sammo_intro.ipynb\nprompt_optimization_and_evals/sammo_metaprompt.ipynb\nprompt_optimization_and_evals/sammo_optimize.ipynb\nprompt_optimization_and_evals/social_media_posts.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/proven_prompting_techniques 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 proven_prompting_techniques 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "proven_prompting_techniques"
+    ],
+    "genes": [
+      {
+        "title": "proven_prompting_techniques 模块说明",
+        "content": "模块路径: proven_prompting_techniques/\n类型: source\n文件数: 5\n\n包含文件:\n- proven_prompting_techniques/chain_of_thought.ipynb\n- proven_prompting_techniques/emotion_prompting.ipynb\n- proven_prompting_techniques/in_context_learning.ipynb\n- proven_prompting_techniques/role_prompting.ipynb\n- proven_prompting_techniques/self_consistency_sampling.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "proven_prompting_techniques 文件结构",
+        "content": "proven_prompting_techniques/chain_of_thought.ipynb\nproven_prompting_techniques/emotion_prompting.ipynb\nproven_prompting_techniques/in_context_learning.ipynb\nproven_prompting_techniques/role_prompting.ipynb\nproven_prompting_techniques/self_consistency_sampling.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/retrieval_augmented_generation 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 retrieval_augmented_generation 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "retrieval_augmented_generation"
+    ],
+    "genes": [
+      {
+        "title": "retrieval_augmented_generation 模块说明",
+        "content": "模块路径: retrieval_augmented_generation/\n类型: source\n文件数: 3\n\n包含文件:\n- retrieval_augmented_generation/information_retrieval_with_vector_databases.ipynb\n- retrieval_augmented_generation/simple_rag_with_supabase_pgvector.ipynb\n- retrieval_augmented_generation/vector_databases (1).ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "retrieval_augmented_generation 文件结构",
+        "content": "retrieval_augmented_generation/information_retrieval_with_vector_databases.ipynb\nretrieval_augmented_generation/simple_rag_with_supabase_pgvector.ipynb\nretrieval_augmented_generation/vector_databases (1).ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  },
+  {
+    "name": "udemy-prompt-engineering-course/vision 模块",
+    "description": "[模块级] udemy-prompt-engineering-course 项目的 vision 模块 (source)。来源: https://github.com/BrightPool/udemy-prompt-engineering-course",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-561",
+      "github-brightpool",
+      "module-level",
+      "source",
+      "vision"
+    ],
+    "genes": [
+      {
+        "title": "vision 模块说明",
+        "content": "模块路径: vision/\n类型: source\n文件数: 2\n\n包含文件:\n- vision/automating_product_descriptions.ipynb\n- vision/ux_landing_page_analysis.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vision 文件结构",
+        "content": "vision/automating_product_descriptions.ipynb\nvision/ux_landing_page_analysis.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5995851445024645
+  }
+]

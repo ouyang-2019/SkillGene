@@ -1,0 +1,553 @@
+[
+  {
+    "name": "Transformers-for-NLP-2nd-Edition (Denis2054)",
+    "description": "[项目级] Transformer models from BERT to GPT-4, environments from Hugging Face to OpenAI. Fine-tuning, training, and prompt engineering examples. A bonus section with ChatGPT, GPT-3.5-turbo, GPT-4, and DALL-E including jump starting GPT-4, speech-to-text, text-to-speech, text to image generation with DALL-E, Google Cloud AI,HuggingGPT, and more 。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "jupyter notebook",
+      "stars-956",
+      "github-denis2054",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Transformer models from BERT to GPT-4, environments from Hugging Face to OpenAI. Fine-tuning, training, and prompt engineering examples. A bonus section with ChatGPT, GPT-3.5-turbo, GPT-4, and DALL-E including jump starting GPT-4, speech-to-text, text-to-speech, text to image generation with DALL-E, Google Cloud AI,HuggingGPT, and more \n\n来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition\n语言: Jupyter Notebook\nStars: 956",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can run these notebooks on cloud platforms like [Google Colab](https://colab.research.google.com/) or your local machine. Note that some chapters require a GPU to run in a reasonable amount of time, so we recommend one of the cloud platforms as they come pre-installed with CUDA.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AppendixIII\nAppendixIII/OpenAI_GPT_2.ipynb\nAppendixIV\nAppendixIV/Training_OpenAI_GPT_2.ipynb\nAppendixIV/gpt-2-train_files\nArticles\nArticles/ChatGPT as a Cobot.md\nBonus\nBonus/ChatGPT_as_a_Cobot_ChatGPT_versus_davinci_instruct.ipynb\nBonus/Exploring_GPT_4_API.ipynb\nBonus/Exploring_and_Comparing_Advanced_AI_Technologies.ipynb\nBonus/GPT_2_and_ChatGPT_the_Origins.ipynb\nBonus/XAI_by_ChatGPT_for_ChatGPT.ipynb\nChapter02\nChapter02/Multi_Head_Attention_Sub_Layer.ipynb\nChapter02/positional_encoding.ipynb\nChapter02/text.txt\nChapter03\nChapter03/BERT_Fine_Tuning_Sentence_Classification_GPU.ipynb\nChapter03/in_domain_train.tsv",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Implement models, such as BERT, Reformer, and T5, that outperform classical language models<br>\nCompare NLP applications using GPT-3, GPT-2, and other transformers<br>\nAnalyze advanced use cases, including polysemy, cross-lingual learning, and computer vision. A GitHub BONUS directory with SOA ChatGPT, GPT-3.5-turbo, GPT-4, and DALL-E notebooks. <br>",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.49022894613805
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/AppendixIV 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 AppendixIV 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "appendixiv"
+    ],
+    "genes": [
+      {
+        "title": "AppendixIV 模块说明",
+        "content": "模块路径: AppendixIV/\n类型: source\n文件数: 8\n\n包含文件:\n- AppendixIV/Training_OpenAI_GPT_2.ipynb\n- AppendixIV/gpt-2-train_files\n- AppendixIV/gpt-2-train_files/accumulate.py\n- AppendixIV/gpt-2-train_files/dset.txt\n- AppendixIV/gpt-2-train_files/encode.py\n- AppendixIV/gpt-2-train_files/load_dataset.py\n- AppendixIV/gpt-2-train_files/memory_saving_gradients.py\n- AppendixIV/gpt-2-train_files/train.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AppendixIV 文件结构",
+        "content": "AppendixIV/Training_OpenAI_GPT_2.ipynb\nAppendixIV/gpt-2-train_files\nAppendixIV/gpt-2-train_files/accumulate.py\nAppendixIV/gpt-2-train_files/dset.txt\nAppendixIV/gpt-2-train_files/encode.py\nAppendixIV/gpt-2-train_files/load_dataset.py\nAppendixIV/gpt-2-train_files/memory_saving_gradients.py\nAppendixIV/gpt-2-train_files/train.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Bonus 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Bonus 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "bonus"
+    ],
+    "genes": [
+      {
+        "title": "Bonus 模块说明",
+        "content": "| Bonus | Colab | Kaggle | Gradient | SageMaker Studio Lab |\n| ----- | ----- | ------ | -------- | ------------------- |\n| | | | | |\n**🐬Explore and compare ChatGPT, GPT-4 and GPT-3 models**\n| [Exploring_GPT_4_API](https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition/blob/main/Bonus/Exploring_GPT_4_API.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Denis2054/Transformers-for-NLP-2nd-Edition/blob/main/Bonus/E",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Bonus 文件结构",
+        "content": "Bonus/ChatGPT_as_a_Cobot_ChatGPT_versus_davinci_instruct.ipynb\nBonus/Exploring_GPT_4_API.ipynb\nBonus/Exploring_and_Comparing_Advanced_AI_Technologies.ipynb\nBonus/GPT_2_and_ChatGPT_the_Origins.ipynb\nBonus/XAI_by_ChatGPT_for_ChatGPT.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter02 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter02 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter02"
+    ],
+    "genes": [
+      {
+        "title": "Chapter02 模块说明",
+        "content": "模块路径: Chapter02/\n类型: source\n文件数: 3\n\n包含文件:\n- Chapter02/Multi_Head_Attention_Sub_Layer.ipynb\n- Chapter02/positional_encoding.ipynb\n- Chapter02/text.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter02 文件结构",
+        "content": "Chapter02/Multi_Head_Attention_Sub_Layer.ipynb\nChapter02/positional_encoding.ipynb\nChapter02/text.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter03 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter03 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter03"
+    ],
+    "genes": [
+      {
+        "title": "Chapter03 模块说明",
+        "content": "模块路径: Chapter03/\n类型: source\n文件数: 5\n\n包含文件:\n- Chapter03/BERT_Fine_Tuning_Sentence_Classification_GPU.ipynb\n- Chapter03/in_domain_train.tsv\n- Chapter03/model\n- Chapter03/model/file\n- Chapter03/out_of_domain_dev.tsv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter03 文件结构",
+        "content": "Chapter03/BERT_Fine_Tuning_Sentence_Classification_GPU.ipynb\nChapter03/in_domain_train.tsv\nChapter03/model\nChapter03/model/file\nChapter03/out_of_domain_dev.tsv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter04 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter04 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter04"
+    ],
+    "genes": [
+      {
+        "title": "Chapter04 模块说明",
+        "content": "模块路径: Chapter04/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter04/KantaiBERT.ipynb\n- Chapter04/kant.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter04 文件结构",
+        "content": "Chapter04/KantaiBERT.ipynb\nChapter04/kant.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter06 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter06 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter06"
+    ],
+    "genes": [
+      {
+        "title": "Chapter06 模块说明",
+        "content": "模块路径: Chapter06/\n类型: source\n文件数: 4\n\n包含文件:\n- Chapter06/BLEU.py\n- Chapter06/Trax_Translation.ipynb\n- Chapter06/read.py\n- Chapter06/read_clean.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter06 文件结构",
+        "content": "Chapter06/BLEU.py\nChapter06/Trax_Translation.ipynb\nChapter06/read.py\nChapter06/read_clean.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter07 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter07 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter07"
+    ],
+    "genes": [
+      {
+        "title": "Chapter07 模块说明",
+        "content": "模块路径: Chapter07/\n类型: source\n文件数: 5\n\n包含文件:\n- Chapter07/Fine_tuning_GPT_3.ipynb\n- Chapter07/Getting_Started_GPT_3.ipynb\n- Chapter07/Getting_Started_GPT_4_API.ipynb\n- Chapter07/gutenberg.org_cache_epub_4280_pg4280.html\n- Chapter07/kantgpt.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter07 文件结构",
+        "content": "Chapter07/Fine_tuning_GPT_3.ipynb\nChapter07/Getting_Started_GPT_3.ipynb\nChapter07/Getting_Started_GPT_4_API.ipynb\nChapter07/gutenberg.org_cache_epub_4280_pg4280.html\nChapter07/kantgpt.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter08 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter08 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter08"
+    ],
+    "genes": [
+      {
+        "title": "Chapter08 模块说明",
+        "content": "模块路径: Chapter08/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter08/Summarizing_Text_with_T5.ipynb\n- Chapter08/text.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter08 文件结构",
+        "content": "Chapter08/Summarizing_Text_with_T5.ipynb\nChapter08/text.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter09 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter09 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter09"
+    ],
+    "genes": [
+      {
+        "title": "Chapter09 模块说明",
+        "content": "模块路径: Chapter09/\n类型: source\n文件数: 11\n\n包含文件:\n- Chapter09/Summarizing_with_ChatGPT.ipynb\n- Chapter09/Tokenizer.ipynb\n- Chapter09/Training_OpenAI_GPT_2_CH09.ipynb\n- Chapter09/gpt-2-train_files\n- Chapter09/gpt-2-train_files/accumulate.py\n- Chapter09/gpt-2-train_files/encode.py\n- Chapter09/gpt-2-train_files/load_dataset.py\n- Chapter09/gpt-2-train_files/mdset.txt\n- Chapter09/gpt-2-train_files/memory_saving_gradients.py\n- Chapter09/gpt-2-train_files/train.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter09 文件结构",
+        "content": "Chapter09/Summarizing_with_ChatGPT.ipynb\nChapter09/Tokenizer.ipynb\nChapter09/Training_OpenAI_GPT_2_CH09.ipynb\nChapter09/gpt-2-train_files\nChapter09/gpt-2-train_files/accumulate.py\nChapter09/gpt-2-train_files/encode.py\nChapter09/gpt-2-train_files/load_dataset.py\nChapter09/gpt-2-train_files/mdset.txt\nChapter09/gpt-2-train_files/memory_saving_gradients.py\nChapter09/gpt-2-train_files/train.py\nChapter09/text.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter10 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter10 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter10"
+    ],
+    "genes": [
+      {
+        "title": "Chapter10 模块说明",
+        "content": "模块路径: Chapter10/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter10/SRL.ipynb\n- Chapter10/Semantic_Role_Labeling_with_ChatGPT.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter10 文件结构",
+        "content": "Chapter10/SRL.ipynb\nChapter10/Semantic_Role_Labeling_with_ChatGPT.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter11 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter11 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter11"
+    ],
+    "genes": [
+      {
+        "title": "Chapter11 模块说明",
+        "content": "模块路径: Chapter11/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter11/Haystack_QA_Pipeline.ipynb\n- Chapter11/QA.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter11 文件结构",
+        "content": "Chapter11/Haystack_QA_Pipeline.ipynb\nChapter11/QA.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter13 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter13 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter13"
+    ],
+    "genes": [
+      {
+        "title": "Chapter13 模块说明",
+        "content": "模块路径: Chapter13/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter13/Fake_News.ipynb\n- Chapter13/Fake_News_Analysis_with_ChatGPT.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter13 文件结构",
+        "content": "Chapter13/Fake_News.ipynb\nChapter13/Fake_News_Analysis_with_ChatGPT.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter14 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter14 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter14"
+    ],
+    "genes": [
+      {
+        "title": "Chapter14 模块说明",
+        "content": "模块路径: Chapter14/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter14/BertViz.ipynb\n- Chapter14/Understanding_GPT_2_models_with_Ecco.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter14 文件结构",
+        "content": "Chapter14/BertViz.ipynb\nChapter14/Understanding_GPT_2_models_with_Ecco.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter15 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter15 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter15"
+    ],
+    "genes": [
+      {
+        "title": "Chapter15 模块说明",
+        "content": "模块路径: Chapter15/\n类型: source\n文件数: 2\n\n包含文件:\n- Chapter15/DALL_E.ipynb\n- Chapter15/Vision_Transformers.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter15 文件结构",
+        "content": "Chapter15/DALL_E.ipynb\nChapter15/Vision_Transformers.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter16 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter16 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter16"
+    ],
+    "genes": [
+      {
+        "title": "Chapter16 模块说明",
+        "content": "模块路径: Chapter16/\n类型: source\n文件数: 7\n\n包含文件:\n- Chapter16/Codex.html\n- Chapter16/Compact_Convolutional_Transformers.ipynb\n- Chapter16/Domain_Specific_GPT_3_Functionality.ipynb\n- Chapter16/GitHub_Copilot.py\n- Chapter16/KantaiBERT_Recommender.ipynb\n- Chapter16/Vision_Transformer_MLP_Mixer.ipynb\n- Chapter16/tracking.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter16 文件结构",
+        "content": "Chapter16/Codex.html\nChapter16/Compact_Convolutional_Transformers.ipynb\nChapter16/Domain_Specific_GPT_3_Functionality.ipynb\nChapter16/GitHub_Copilot.py\nChapter16/KantaiBERT_Recommender.ipynb\nChapter16/Vision_Transformer_MLP_Mixer.ipynb\nChapter16/tracking.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Chapter17 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Chapter17 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "chapter17"
+    ],
+    "genes": [
+      {
+        "title": "Chapter17 模块说明",
+        "content": "模块路径: Chapter17/\n类型: source\n文件数: 8\n\n包含文件:\n- Chapter17/ALL_in_One.ipynb\n- Chapter17/Chapter 17.pdf\n- Chapter17/ChatGPT_Plus_writes_and_explains_classification.ipynb\n- Chapter17/Getting_Started_OpenAI_GPT_4.ipynb\n- Chapter17/Getting_Started_with_the_DALL_E_2_API.ipynb\n- Chapter17/Jump_Starting_ChatGPT_with_the_OpenAI_API.ipynb\n- Chapter17/Prompt_Engineering_as_an_alternative_to_fine_tuning.ipynb\n- Chapter17/Speaking_with_ChatGPT.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Chapter17 文件结构",
+        "content": "Chapter17/ALL_in_One.ipynb\nChapter17/Chapter 17.pdf\nChapter17/ChatGPT_Plus_writes_and_explains_classification.ipynb\nChapter17/Getting_Started_OpenAI_GPT_4.ipynb\nChapter17/Getting_Started_with_the_DALL_E_2_API.ipynb\nChapter17/Jump_Starting_ChatGPT_with_the_OpenAI_API.ipynb\nChapter17/Prompt_Engineering_as_an_alternative_to_fine_tuning.ipynb\nChapter17/Speaking_with_ChatGPT.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  },
+  {
+    "name": "Transformers-for-NLP-2nd-Edition/Notebook images 模块",
+    "description": "[模块级] Transformers-for-NLP-2nd-Edition 项目的 Notebook images 模块 (source)。来源: https://github.com/Denis2054/Transformers-for-NLP-2nd-Edition",
+    "domain": "ai-llm",
+    "tags": [
+      "bert",
+      "chatgpt",
+      "chatgpt-api",
+      "dall-e",
+      "dall-e-api",
+      "module-level",
+      "source",
+      "notebook images"
+    ],
+    "genes": [
+      {
+        "title": "Notebook images 模块说明",
+        "content": "模块路径: Notebook images/\n类型: source\n文件数: 75\n\n包含文件:\n- Notebook images/01\n- Notebook images/01/9781803247335_ColorImages.pdf\n- Notebook images/02\n- Notebook images/02/B17948_02_11.png\n- Notebook images/02/B17948_02_12.png\n- Notebook images/02/B17948_02_13.png\n- Notebook images/02/B17948_02_14.png\n- Notebook images/02/B17948_02_15.png\n- Notebook images/02/B17948_02_16.png\n- Notebook images/02/B17948_02_17.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Notebook images 文件结构",
+        "content": "Notebook images/01\nNotebook images/01/9781803247335_ColorImages.pdf\nNotebook images/02\nNotebook images/02/B17948_02_11.png\nNotebook images/02/B17948_02_12.png\nNotebook images/02/B17948_02_13.png\nNotebook images/02/B17948_02_14.png\nNotebook images/02/B17948_02_15.png\nNotebook images/02/B17948_02_16.png\nNotebook images/02/B17948_02_17.png\nNotebook images/02/B17948_02_18.png\nNotebook images/02/B17948_02_19.png\nNotebook images/03\nNotebook images/03/B17948_03_005.png\nNotebook images/03/B17948_03_05.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69218315691044
+  }
+]

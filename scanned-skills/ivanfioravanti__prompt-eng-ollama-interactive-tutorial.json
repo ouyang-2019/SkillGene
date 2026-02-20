@@ -1,0 +1,28 @@
+[
+  {
+    "name": "prompt-eng-ollama-interactive-tutorial (ivanfioravanti)",
+    "description": "[项目级] Ollama's Interactive Prompt Engineering Tutorial。来源: https://github.com/ivanfioravanti/prompt-eng-ollama-interactive-tutorial",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-266",
+      "github-ivanfioravanti",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This course was inspired by [Anthropic's Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) and is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Ollama using the 'qwen2.5:14b' model.\n\n**After completing this course, you will be able to**:\n\n- Master the basic structure of a good prompt \n- Recognize common failure modes and learn how to address them\n- Build strong prompts from scratch for common use cases",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "00_Tutorial_How-To.ipynb\n01_Basic_Prompt_Structure.ipynb\n02_Being_Clear_and_Direct.ipynb\n03_Assigning_Roles_Role_Prompting.ipynb\n04_Separating_Data_and_Instructions.ipynb\n05_Formatting_Output_and_Speaking_for_Claude.ipynb\n06_Precognition_Thinking_Step_by_Step.ipynb\n07_Using_Examples_Few-Shot_Prompting.ipynb\n08_Avoiding_Hallucinations.ipynb\n09_Complex_Prompts_from_Scratch.ipynb\n10.1_Appendix_Chaining Prompts.ipynb\n10.2_Appendix_Tool Use.ipynb\nLICENSE\nREADME.md\nhints.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2124408183155335
+  }
+]

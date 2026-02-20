@@ -1,0 +1,163 @@
+[
+  {
+    "name": "unsloth (unslothai)",
+    "description": "[项目级] Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.。来源: https://github.com/unslothai/unsloth",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "deepseek",
+      "deepseek-r1",
+      "fine-tuning",
+      "gemma",
+      "python",
+      "stars-52497",
+      "github-unslothai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.\n\n来源: https://github.com/unslothai/unsloth\n语言: Python\nStars: 52497",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "You can also see our docs for more detailed installation and updating instructions [here](https://unsloth.ai/docs/get-started/install).\n\nUnsloth supports Python 3.13 or lower.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nimages\nimages/Assistant.png\nimages/Colab.png\nimages/Discord button.png\nimages/Discord.png\nimages/Documentation Button.png\nimages/Free version button.png\nimages/Kaggle.png\nimages/Kofi button.png\nimages/LAION 2GPU.png\nimages/Merge.png\nimages/Run.png\nimages/Slim Orca 2GPUs.png\nimages/Terminal_Type.png\nimages/Where_Terminal.png\nimages/buy me a coffee button.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Supports **full-finetuning**, pretraining, 4-bit, 16-bit and **FP8** training\n* Supports **all models** including [TTS](https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning), multimodal, [embedding](https://unsloth.ai/docs/new/embedding-finetuning) and more! Any model that works in transformers, works in Unsloth.\n* The most efficient library for [Reinforcement Learning (RL)](https://unsloth.ai/docs/get-started/reinforcement-learning-rl-guide), using 80% less VRAM. Supports GRPO, GSPO, DrGRPO, DAPO etc.\n* **0% loss in accuracy** - no approximation methods - all exact.\n* Export and [d",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "unsloth/images 模块",
+    "description": "[模块级] unsloth 项目的 images 模块 (source)。来源: https://github.com/unslothai/unsloth",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "deepseek",
+      "deepseek-r1",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 31\n\n包含文件:\n- images/Assistant.png\n- images/Colab.png\n- images/Discord button.png\n- images/Discord.png\n- images/Documentation Button.png\n- images/Free version button.png\n- images/Kaggle.png\n- images/Kofi button.png\n- images/LAION 2GPU.png\n- images/Merge.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Assistant.png\nimages/Colab.png\nimages/Discord button.png\nimages/Discord.png\nimages/Documentation Button.png\nimages/Free version button.png\nimages/Kaggle.png\nimages/Kofi button.png\nimages/LAION 2GPU.png\nimages/Merge.png\nimages/Run.png\nimages/Slim Orca 2GPUs.png\nimages/Terminal_Type.png\nimages/Where_Terminal.png\nimages/buy me a coffee button.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.388053794347736
+  },
+  {
+    "name": "unsloth/scripts 模块",
+    "description": "[模块级] unsloth 项目的 scripts 模块 (script)。来源: https://github.com/unslothai/unsloth",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "deepseek",
+      "deepseek-r1",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/enforce_kwargs_spacing.py\n- scripts/run_ruff_format.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/enforce_kwargs_spacing.py\nscripts/run_ruff_format.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.388053794347736
+  },
+  {
+    "name": "unsloth/tests 模块",
+    "description": "[模块级] unsloth 项目的 tests 模块 (test)。来源: https://github.com/unslothai/unsloth",
+    "domain": "testing",
+    "tags": [
+      "agent",
+      "deepseek",
+      "deepseek-r1",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 52\n\n包含文件:\n- tests/__init__.py\n- tests/qlora\n- tests/qlora/README.md\n- tests/qlora/test_hf_qlora_train_and_merge.py\n- tests/qlora/test_unsloth_qlora_train_and_merge.py\n- tests/saving\n- tests/saving/gpt-oss-merge\n- tests/saving/gpt-oss-merge/run_test.sh\n- tests/saving/gpt-oss-merge/test_merged_model.py\n- tests/saving/gpt-oss-merge/train_and_merge.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/qlora\ntests/qlora/README.md\ntests/qlora/test_hf_qlora_train_and_merge.py\ntests/qlora/test_unsloth_qlora_train_and_merge.py\ntests/saving\ntests/saving/gpt-oss-merge\ntests/saving/gpt-oss-merge/run_test.sh\ntests/saving/gpt-oss-merge/test_merged_model.py\ntests/saving/gpt-oss-merge/train_and_merge.py\ntests/saving/language_models\ntests/saving/language_models/test_merge_4bit_validation.py\ntests/saving/language_models/test_merge_model_perplexity_llama-3.2.py\ntests/saving/language_models/test_merge_model_perplexity_mistral.py\ntests/saving/language_models/test_merge_model_perplexity_phi_4.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.388053794347736
+  },
+  {
+    "name": "unsloth/unsloth 模块",
+    "description": "[模块级] unsloth 项目的 unsloth 模块 (source)。来源: https://github.com/unslothai/unsloth",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "deepseek",
+      "deepseek-r1",
+      "fine-tuning",
+      "gemma",
+      "module-level",
+      "source",
+      "unsloth"
+    ],
+    "genes": [
+      {
+        "title": "unsloth 模块说明",
+        "content": "- Train **MoE LLMs 12x faster** with 35% less VRAM - DeepSeek, GLM, Qwen and gpt-oss. [Blog](https://unsloth.ai/docs/new/faster-moe)\n- **Embedding models**: Unsloth now supports ~1.8-3.3x faster embedding fine-tuning. [Blog](https://unsloth.ai/docs/new/embedding-finetuning) • [Notebooks](https://unsloth.ai/docs/get-started/unsloth-notebooks#embedding-models)\n- New **7x longer context RL** vs. all other setups, via our new batching algorithms. [Blog](https://unsloth.ai/docs/new/grpo-long-context)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "unsloth 文件结构",
+        "content": "unsloth/__init__.py\nunsloth/_auto_install.py\nunsloth/chat_templates.py\nunsloth/dataprep\nunsloth/dataprep/__init__.py\nunsloth/dataprep/raw_text.py\nunsloth/dataprep/synthetic.py\nunsloth/dataprep/synthetic_configs.py\nunsloth/device_type.py\nunsloth/import_fixes.py\nunsloth/kernels\nunsloth/kernels/__init__.py\nunsloth/kernels/cross_entropy_loss.py\nunsloth/kernels/fast_lora.py\nunsloth/kernels/flex_attention.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.388053794347736
+  }
+]

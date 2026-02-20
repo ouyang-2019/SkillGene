@@ -1,0 +1,32 @@
+[
+  {
+    "name": "RAG-Survey (hymie122)",
+    "description": "[项目级] Collecting awesome papers of RAG for AIGC.  We propose a taxonomy of RAG foundations, enhancements, and applications in paper \"Retrieval-Augmented Generation for AI-Generated Content: A Survey\".。来源: https://github.com/hymie122/RAG-Survey",
+    "domain": "ai-llm",
+    "tags": [
+      "aigc",
+      "diffusion-models",
+      "llm",
+      "multimodality",
+      "rag",
+      "stars-1788",
+      "github-hymie122",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<div aligncenter><img width=\"900\" alt=\"image\" src=\"https://github.com/hymie122/RAG-Survey/blob/main/RAG_Overview.jpg\">",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Applications.png\nRAG_Applications.png\nRAG_Enhancements.png\nRAG_Foundations.png\nRAG_Overview.jpg\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.626183757229949
+  }
+]

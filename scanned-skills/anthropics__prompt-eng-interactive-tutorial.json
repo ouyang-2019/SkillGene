@@ -1,0 +1,84 @@
+[
+  {
+    "name": "prompt-eng-interactive-tutorial (anthropics)",
+    "description": "[项目级] Anthropic's Interactive Prompt Engineering Tutorial。来源: https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-30290",
+      "github-anthropics",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude.\n\n**After completing this course, you will be able to**:\n- Master the basic structure of a good prompt \n- Recognize common failure modes and learn the '80/20' techniques to address them\n- Understand Claude's strengths and weaknesses\n- Build strong prompts from scratch for common use cases",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AmazonBedrock\nAmazonBedrock/CONTRIBUTING.md\nAmazonBedrock/LICENSE\nAmazonBedrock/README.md\nAmazonBedrock/anthropic\nAmazonBedrock/boto3\nAmazonBedrock/cloudformation\nAmazonBedrock/requirements.txt\nAmazonBedrock/utils\nAnthropic 1P\nAnthropic 1P/00_Tutorial_How-To.ipynb\nAnthropic 1P/01_Basic_Prompt_Structure.ipynb\nAnthropic 1P/02_Being_Clear_and_Direct.ipynb\nAnthropic 1P/03_Assigning_Roles_Role_Prompting.ipynb\nAnthropic 1P/04_Separating_Data_and_Instructions.ipynb\nAnthropic 1P/05_Formatting_Output_and_Speaking_for_Claude.ipynb\nAnthropic 1P/06_Precognition_Thinking_Step_by_Step.ipynb\nAnthropic 1P/07_Using_Examples_Few-Shot_Prompting.ipynb\nAnthropic 1P/08_Avoiding_Hallucinations.ipynb\nAnthropic 1P/09_Complex_Prompts_from_Scratch.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "prompt-eng-interactive-tutorial/AmazonBedrock 模块",
+    "description": "[模块级] prompt-eng-interactive-tutorial 项目的 AmazonBedrock 模块 (source)。来源: https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-30290",
+      "github-anthropics",
+      "module-level",
+      "source",
+      "amazonbedrock"
+    ],
+    "genes": [
+      {
+        "title": "AmazonBedrock 模块说明",
+        "content": "模块路径: AmazonBedrock/\n类型: source\n文件数: 39\n\n包含文件:\n- AmazonBedrock/CONTRIBUTING.md\n- AmazonBedrock/LICENSE\n- AmazonBedrock/README.md\n- AmazonBedrock/anthropic\n- AmazonBedrock/anthropic/00_Tutorial_How-To.ipynb\n- AmazonBedrock/anthropic/01_Basic_Prompt_Structure.ipynb\n- AmazonBedrock/anthropic/02_Being_Clear_and_Direct.ipynb\n- AmazonBedrock/anthropic/03_Assigning_Roles_Role_Prompting.ipynb\n- AmazonBedrock/anthropic/04_Separating_Data_and_Instructions.ipynb\n- AmazonBedrock/anthropic/05_Formatting_Output_and_Speaking_for_Claude.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AmazonBedrock 文件结构",
+        "content": "AmazonBedrock/CONTRIBUTING.md\nAmazonBedrock/LICENSE\nAmazonBedrock/README.md\nAmazonBedrock/anthropic\nAmazonBedrock/anthropic/00_Tutorial_How-To.ipynb\nAmazonBedrock/anthropic/01_Basic_Prompt_Structure.ipynb\nAmazonBedrock/anthropic/02_Being_Clear_and_Direct.ipynb\nAmazonBedrock/anthropic/03_Assigning_Roles_Role_Prompting.ipynb\nAmazonBedrock/anthropic/04_Separating_Data_and_Instructions.ipynb\nAmazonBedrock/anthropic/05_Formatting_Output_and_Speaking_for_Claude.ipynb\nAmazonBedrock/anthropic/06_Precognition_Thinking_Step_by_Step.ipynb\nAmazonBedrock/anthropic/07_Using_Examples _Few-Shot_Prompting.ipynb\nAmazonBedrock/anthropic/08_Avoiding_Hallucinations.ipynb\nAmazonBedrock/anthropic/09_Complex_Prompts_from_Scratch.ipynb\nAmazonBedrock/anthropic/10_1_Appendix_Chaining_Prompts.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292519709333142
+  },
+  {
+    "name": "prompt-eng-interactive-tutorial/Anthropic 1P 模块",
+    "description": "[模块级] prompt-eng-interactive-tutorial 项目的 Anthropic 1P 模块 (source)。来源: https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-30290",
+      "github-anthropics",
+      "module-level",
+      "source",
+      "anthropic 1p"
+    ],
+    "genes": [
+      {
+        "title": "Anthropic 1P 模块说明",
+        "content": "模块路径: Anthropic 1P/\n类型: source\n文件数: 14\n\n包含文件:\n- Anthropic 1P/00_Tutorial_How-To.ipynb\n- Anthropic 1P/01_Basic_Prompt_Structure.ipynb\n- Anthropic 1P/02_Being_Clear_and_Direct.ipynb\n- Anthropic 1P/03_Assigning_Roles_Role_Prompting.ipynb\n- Anthropic 1P/04_Separating_Data_and_Instructions.ipynb\n- Anthropic 1P/05_Formatting_Output_and_Speaking_for_Claude.ipynb\n- Anthropic 1P/06_Precognition_Thinking_Step_by_Step.ipynb\n- Anthropic 1P/07_Using_Examples_Few-Shot_Prompting.ipynb\n- Anthropic 1P/08_Avoiding_Hallucinations.ipynb\n- Anthropic 1P/09_Complex_Prompts_from_Scratch.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Anthropic 1P 文件结构",
+        "content": "Anthropic 1P/00_Tutorial_How-To.ipynb\nAnthropic 1P/01_Basic_Prompt_Structure.ipynb\nAnthropic 1P/02_Being_Clear_and_Direct.ipynb\nAnthropic 1P/03_Assigning_Roles_Role_Prompting.ipynb\nAnthropic 1P/04_Separating_Data_and_Instructions.ipynb\nAnthropic 1P/05_Formatting_Output_and_Speaking_for_Claude.ipynb\nAnthropic 1P/06_Precognition_Thinking_Step_by_Step.ipynb\nAnthropic 1P/07_Using_Examples_Few-Shot_Prompting.ipynb\nAnthropic 1P/08_Avoiding_Hallucinations.ipynb\nAnthropic 1P/09_Complex_Prompts_from_Scratch.ipynb\nAnthropic 1P/10.1_Appendix_Chaining Prompts.ipynb\nAnthropic 1P/10.2_Appendix_Tool Use.ipynb\nAnthropic 1P/10.3_Appendix_Search & Retrieval.ipynb\nAnthropic 1P/hints.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292519709333142
+  }
+]

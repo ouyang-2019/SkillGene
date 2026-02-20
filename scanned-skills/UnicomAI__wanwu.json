@@ -1,0 +1,158 @@
+[
+  {
+    "name": "wanwu (UnicomAI)",
+    "description": "[项目级] China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports model management. The platform features a developer-friendly license, and we welcome all developers to build upon the platform.。来源: https://github.com/UnicomAI/wanwu",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "ai",
+      "ai-agent",
+      "go",
+      "stars-4103",
+      "github-unicomai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and also supports model management. The platform features a developer-friendly license, and we welcome all developers to build upon the platform.\n\n来源: https://github.com/UnicomAI/wanwu\n语言: Go\nStars: 4103",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "cp .env.bak .env",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile.backend\nDockerfile.callback\nDockerfile.callback-base\nDockerfile.frontend\nDockerfile.rag\nLICENSE\nMakefile\nMakefile.develop\nNOTICE\nREADME.md\nREADME_CN.md\nREADME_繁體.md\napi\napi/proto\ncallback\ncallback/.gitignore\ncallback/Dockerfile.python-isort\ncallback/README.md\ncallback/callback\ncallback/configs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.806550758483456
+  },
+  {
+    "name": "wanwu/api 模块",
+    "description": "[模块级] wanwu 项目的 api 模块 (source)。来源: https://github.com/UnicomAI/wanwu",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "ai",
+      "ai-agent",
+      "module-level",
+      "source",
+      "api"
+    ],
+    "genes": [
+      {
+        "title": "api 模块说明",
+        "content": "模块路径: api/\n类型: source\n文件数: 57\n\n包含文件:\n- api/proto\n- api/proto/app-service\n- api/proto/app-service/app-service.pb.go\n- api/proto/app-service/app-service_grpc.pb.go\n- api/proto/assistant-service\n- api/proto/assistant-service/assistant-service.pb.go\n- api/proto/assistant-service/assistant-service_grpc.pb.go\n- api/proto/common\n- api/proto/common/common.pb.go\n- api/proto/err-code",
+        "gene_type": "principle"
+      },
+      {
+        "title": "api 文件结构",
+        "content": "api/proto\napi/proto/app-service\napi/proto/app-service/app-service.pb.go\napi/proto/app-service/app-service_grpc.pb.go\napi/proto/assistant-service\napi/proto/assistant-service/assistant-service.pb.go\napi/proto/assistant-service/assistant-service_grpc.pb.go\napi/proto/common\napi/proto/common/common.pb.go\napi/proto/err-code\napi/proto/err-code/err-code.pb.go\napi/proto/err-code/err-status.pb.go\napi/proto/iam-service\napi/proto/iam-service/iam-service.pb.go\napi/proto/iam-service/iam-service_grpc.pb.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.945240606786765
+  },
+  {
+    "name": "wanwu/callback 模块",
+    "description": "[模块级] wanwu 项目的 callback 模块 (source)。来源: https://github.com/UnicomAI/wanwu",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "ai",
+      "ai-agent",
+      "module-level",
+      "source",
+      "callback"
+    ],
+    "genes": [
+      {
+        "title": "callback 模块说明",
+        "content": "模块路径: callback/\n类型: source\n文件数: 46\n\n包含文件:\n- callback/.gitignore\n- callback/Dockerfile.python-isort\n- callback/README.md\n- callback/callback\n- callback/callback/__init__.py\n- callback/callback/models\n- callback/callback/models/__init__.py\n- callback/callback/routes\n- callback/callback/routes/__init__.py\n- callback/callback/routes/ali_multi_modal.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "callback 文件结构",
+        "content": "callback/.gitignore\ncallback/Dockerfile.python-isort\ncallback/README.md\ncallback/callback\ncallback/callback/__init__.py\ncallback/callback/models\ncallback/callback/models/__init__.py\ncallback/callback/routes\ncallback/callback/routes/__init__.py\ncallback/callback/routes/ali_multi_modal.py\ncallback/callback/routes/bocha.py\ncallback/callback/routes/doc.py\ncallback/callback/routes/hello.py\ncallback/callback/routes/minio.py\ncallback/callback/routes/tavily_news.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.945240606786765
+  },
+  {
+    "name": "wanwu/cmd 模块",
+    "description": "[模块级] wanwu 项目的 cmd 模块 (source)。来源: https://github.com/UnicomAI/wanwu",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "ai",
+      "ai-agent",
+      "module-level",
+      "source",
+      "cmd"
+    ],
+    "genes": [
+      {
+        "title": "cmd 模块说明",
+        "content": "模块路径: cmd/\n类型: source\n文件数: 22\n\n包含文件:\n- cmd/agent-service\n- cmd/agent-service/main.go\n- cmd/app-service\n- cmd/app-service/main.go\n- cmd/assistant-service\n- cmd/assistant-service/main.go\n- cmd/bff-service\n- cmd/bff-service/main.go\n- cmd/iam-service\n- cmd/iam-service/main.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmd 文件结构",
+        "content": "cmd/agent-service\ncmd/agent-service/main.go\ncmd/app-service\ncmd/app-service/main.go\ncmd/assistant-service\ncmd/assistant-service/main.go\ncmd/bff-service\ncmd/bff-service/main.go\ncmd/iam-service\ncmd/iam-service/main.go\ncmd/knowledge-service\ncmd/knowledge-service/main.go\ncmd/mcp-service\ncmd/mcp-service/main.go\ncmd/model-service",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.945240606786765
+  },
+  {
+    "name": "wanwu/configs 模块",
+    "description": "[模块级] wanwu 项目的 configs 模块 (config)。来源: https://github.com/UnicomAI/wanwu",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "ai",
+      "ai-agent",
+      "module-level",
+      "config",
+      "configs"
+    ],
+    "genes": [
+      {
+        "title": "configs 模块说明",
+        "content": "模块路径: configs/\n类型: config\n文件数: 54\n\n包含文件:\n- configs/microservice\n- configs/microservice/agent-service\n- configs/microservice/agent-service/configs\n- configs/microservice/agent-service/configs/config.yaml\n- configs/microservice/agent-service/tool-template\n- configs/microservice/agent-service/tool-template/doc_parser.json\n- configs/microservice/app-service\n- configs/microservice/app-service/configs\n- configs/microservice/app-service/configs/config.yaml\n- configs/microservice/assistant-service",
+        "gene_type": "principle"
+      },
+      {
+        "title": "configs 文件结构",
+        "content": "configs/microservice\nconfigs/microservice/agent-service\nconfigs/microservice/agent-service/configs\nconfigs/microservice/agent-service/configs/config.yaml\nconfigs/microservice/agent-service/tool-template\nconfigs/microservice/agent-service/tool-template/doc_parser.json\nconfigs/microservice/app-service\nconfigs/microservice/app-service/configs\nconfigs/microservice/app-service/configs/config.yaml\nconfigs/microservice/assistant-service\nconfigs/microservice/assistant-service/configs\nconfigs/microservice/assistant-service/configs/config.yaml\nconfigs/microservice/bff-service\nconfigs/microservice/bff-service/configs\nconfigs/microservice/bff-service/configs/agent-skills",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.945240606786765
+  }
+]

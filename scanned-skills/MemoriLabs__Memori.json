@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Memori (MemoriLabs)",
+    "description": "[项目级] SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems。来源: https://github.com/MemoriLabs/Memori",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "awesome",
+      "chatgpt",
+      "python",
+      "stars-12113",
+      "github-memorilabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SQL Native Memory Layer for LLMs, AI Agents & Multi-Agent Systems\n\n来源: https://github.com/MemoriLabs/Memori\n语言: Python\nStars: 12113",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install memori",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nDockerfile\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nSECURITY.md\nbenchmarks\nbenchmarks/README.md\nbenchmarks/locomo\nbenchmarks/perf\nbenchmarks/scripts\nconftest.py\ndocker-compose.yml\ndocs\ndocs/advanced-augmentation.md\ndocs/cli.md\ndocs/features\ndocs/getting-started",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python\nimport os\nimport sqlite3\n\nfrom memori import Memori\nfrom openai import OpenAI\n\n\ndef get_sqlite_connection():\n    return sqlite3.connect(\"memori.db\")\n\n\nclient = OpenAI(api_key=os.getenv(\"OPENAI_API_KEY\"))\n\nmemori = Memori(conn=get_sqlite_connection).llm.register(client)\nmemori.attribution(entity_id=\"123456\", process_id=\"test-ai-agent\")\nmemori.config.storage.build()\n\nresponse = client.chat.completions.create(\n    model=\"gpt-4.1-mini\",\n    messages=[\n        {\"role\": \"user\", \"content\": \"My favorite color is blue.\"}\n    ]\n)\nprint(response.choices[0].message.content + \"\\n\")",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "Memori/benchmarks 模块",
+    "description": "[模块级] Memori 项目的 benchmarks 模块 (source)。来源: https://github.com/MemoriLabs/Memori",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "awesome",
+      "chatgpt",
+      "module-level",
+      "source",
+      "benchmarks"
+    ],
+    "genes": [
+      {
+        "title": "benchmarks 模块说明",
+        "content": "模块路径: benchmarks/\n类型: source\n文件数: 27\n\n包含文件:\n- benchmarks/README.md\n- benchmarks/locomo\n- benchmarks/locomo/_run_impl.py\n- benchmarks/locomo/_types.py\n- benchmarks/locomo/loader.py\n- benchmarks/locomo/preprocess.py\n- benchmarks/locomo/provenance.py\n- benchmarks/locomo/report.py\n- benchmarks/locomo/retrieval.py\n- benchmarks/locomo/run.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmarks 文件结构",
+        "content": "benchmarks/README.md\nbenchmarks/locomo\nbenchmarks/locomo/_run_impl.py\nbenchmarks/locomo/_types.py\nbenchmarks/locomo/loader.py\nbenchmarks/locomo/preprocess.py\nbenchmarks/locomo/provenance.py\nbenchmarks/locomo/report.py\nbenchmarks/locomo/retrieval.py\nbenchmarks/locomo/run.py\nbenchmarks/locomo/scoring.py\nbenchmarks/perf\nbenchmarks/perf/README.md\nbenchmarks/perf/_results.py\nbenchmarks/perf/conftest.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.133300686888641
+  },
+  {
+    "name": "Memori/docs 模块",
+    "description": "[模块级] Memori 项目的 docs 模块 (docs)。来源: https://github.com/MemoriLabs/Memori",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "awesome",
+      "chatgpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 12\n\n包含文件:\n- docs/advanced-augmentation.md\n- docs/cli.md\n- docs/features\n- docs/features/architecture.md\n- docs/features/databases.md\n- docs/features/llm.md\n- docs/getting-started\n- docs/getting-started/basic-usage.md\n- docs/getting-started/installation.md\n- docs/getting-started/quickstart.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/advanced-augmentation.md\ndocs/cli.md\ndocs/features\ndocs/features/architecture.md\ndocs/features/databases.md\ndocs/features/llm.md\ndocs/getting-started\ndocs/getting-started/basic-usage.md\ndocs/getting-started/installation.md\ndocs/getting-started/quickstart.md\ndocs/introduction.md\ndocs/troubleshooting.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.133300686888641
+  },
+  {
+    "name": "Memori/examples 模块",
+    "description": "[模块级] Memori 项目的 examples 模块 (example)。来源: https://github.com/MemoriLabs/Memori",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "awesome",
+      "chatgpt",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "For more examples and demos, check out the [Memori Cookbook](https://github.com/MemoriLabs/memori-cookbook).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/agno\nexamples/agno/.env.example\nexamples/agno/README.md\nexamples/agno/main.py\nexamples/agno/pyproject.toml\nexamples/cockroachdb\nexamples/cockroachdb/.env.example\nexamples/cockroachdb/README.md\nexamples/cockroachdb/main.py\nexamples/cockroachdb/pyproject.toml\nexamples/digitalocean\nexamples/digitalocean/.env.example\nexamples/digitalocean/README.md\nexamples/digitalocean/main.py\nexamples/digitalocean/pyproject.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.133300686888641
+  },
+  {
+    "name": "Memori/memori 模块",
+    "description": "[模块级] Memori 项目的 memori 模块 (source)。来源: https://github.com/MemoriLabs/Memori",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "aiagent",
+      "awesome",
+      "chatgpt",
+      "module-level",
+      "source",
+      "memori"
+    ],
+    "genes": [
+      {
+        "title": "memori 模块说明",
+        "content": "模块路径: memori/\n类型: source\n文件数: 91\n\n包含文件:\n- memori/__init__.py\n- memori/__main__.py\n- memori/_cli.py\n- memori/_config.py\n- memori/_exceptions.py\n- memori/_logging.py\n- memori/_network.py\n- memori/_setup.py\n- memori/_utils.py\n- memori/api",
+        "gene_type": "principle"
+      },
+      {
+        "title": "memori 文件结构",
+        "content": "memori/__init__.py\nmemori/__main__.py\nmemori/_cli.py\nmemori/_config.py\nmemori/_exceptions.py\nmemori/_logging.py\nmemori/_network.py\nmemori/_setup.py\nmemori/_utils.py\nmemori/api\nmemori/api/_quota.py\nmemori/api/_sign_up.py\nmemori/embeddings\nmemori/embeddings/__init__.py\nmemori/embeddings/_api.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.133300686888641
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "aquila (Aquila-Network)",
+    "description": "[项目级] An easy to use Neural Search Engine. Index latent vectors along with JSON metadata and do efficient k-NN search.。来源: https://github.com/Aquila-Network/aquila",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "aquila",
+      "embedding",
+      "faiss",
+      "feature-vectors",
+      "html",
+      "stars-379",
+      "github-aquila-network",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An easy to use Neural Search Engine. Index latent vectors along with JSON metadata and do efficient k-NN search.\n\n来源: https://github.com/Aquila-Network/aquila\n语言: HTML\nStars: 379",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\naquila\naquila/encoder\naquila/metricstore\naquila/network\naquila/search\naquila/txt_transform\naquila/view",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.289319604984036
+  },
+  {
+    "name": "aquila/aquila 模块",
+    "description": "[模块级] aquila 项目的 aquila 模块 (source)。来源: https://github.com/Aquila-Network/aquila",
+    "domain": "devops",
+    "tags": [
+      "approximate-nearest-neighbor-search",
+      "aquila",
+      "embedding",
+      "faiss",
+      "feature-vectors",
+      "module-level",
+      "source",
+      "aquila"
+    ],
+    "genes": [
+      {
+        "title": "aquila 模块说明",
+        "content": "If you use Aquila DB in an academic paper, we would 😍 to be cited. Here are the two ways of citing Aquila DB:\n```\n\\footnote{https://github.com/Aquila-Network/AquilaDB}\n```\n```\n@misc{AquilaNetwork2019AquilaDB,\n  title={AquilaDB: Neural Search Engine},\n  author={Jubin Jose, Nibin Peter},\n  howpublished={\\url{https://github.com/Aquila-Network/AquilaDB}},\n  year={2019}\n}\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "aquila 文件结构",
+        "content": "aquila/encoder\naquila/encoder/CODE_OF_CONDUCT.md\naquila/encoder/Dockerfile\naquila/encoder/LICENSE\naquila/encoder/README.md\naquila/encoder/authentication.py\naquila/encoder/config.yml\naquila/encoder/encoder.py\naquila/encoder/index.py\naquila/encoder/ipfs.service\naquila/encoder/manager.py\naquila/encoder/requirements.txt\naquila/encoder/run_tests.sh\naquila/encoder/test.py\naquila/encoder/test",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "aquila 代码示例",
+        "content": "\\footnote{https://github.com/Aquila-Network/AquilaDB}",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.531455683987229
+  }
+]

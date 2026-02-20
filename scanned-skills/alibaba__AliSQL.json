@@ -1,0 +1,108 @@
+[
+  {
+    "name": "AliSQL (alibaba)",
+    "description": "[项目级] AliSQL is a MySQL branch originated from Alibaba Group. Fetch document from Release Notes at bottom.。来源: https://github.com/alibaba/AliSQL",
+    "domain": "database",
+    "tags": [
+      "alisql",
+      "database",
+      "duckdb",
+      "mysql",
+      "tokudb",
+      "c++",
+      "stars-5708",
+      "github-alibaba",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AliSQL is a MySQL branch originated from Alibaba Group. Fetch document from Release Notes at bottom.\n\n来源: https://github.com/alibaba/AliSQL\n语言: C++\nStars: 5708",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nCONTRIBUTING.md\nDocs\nDocs/README.build\nDocs/sp-imp-spec.txt\nDoxyfile-ignored\nDoxyfile.in\nINSTALL\nLICENSE\nMYSQL_VERSION\nREADME\nREADME.md\nREADME_zh.md\nSECURITY.md\nalisql-logo.png\nbuild.sh\nclient\nclient/CMakeLists.txt\nclient/base\nclient/check",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Description | Status |\n|---------|-------------|--------|\n| **DuckDB Storage Engine** | Columnar OLAP engine with automatic compression, perfect for analytics workloads | Available |\n| **Vector Index (VIDX)** | Native vector storage & ANN search with HNSW, supports COSINE & EUCLIDEAN distance | Available |\n| **DDL Optimization** | Instant DDL, parallel B+tree construction, non-blocking locks | Planned |\n| **RTO Optimization** | Accelerated crash recovery for faster instance startup | Planned |\n| **Replication Boost** | Binlog Parallel Flush, Binlog in Redo, large transaction optimi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.878241982221304
+  },
+  {
+    "name": "AliSQL/Docs 模块",
+    "description": "[模块级] AliSQL 项目的 Docs 模块 (docs)。来源: https://github.com/alibaba/AliSQL",
+    "domain": "documentation",
+    "tags": [
+      "alisql",
+      "database",
+      "duckdb",
+      "mysql",
+      "tokudb",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "Docs 模块说明",
+        "content": "模块路径: Docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- Docs/README.build\n- Docs/sp-imp-spec.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Docs 文件结构",
+        "content": "Docs/README.build\nDocs/sp-imp-spec.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.002593585777044
+  },
+  {
+    "name": "AliSQL/client 模块",
+    "description": "[模块级] AliSQL 项目的 client 模块 (source)。来源: https://github.com/alibaba/AliSQL",
+    "domain": "database",
+    "tags": [
+      "alisql",
+      "database",
+      "duckdb",
+      "mysql",
+      "tokudb",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "模块路径: client/\n类型: source\n文件数: 178\n\n包含文件:\n- client/CMakeLists.txt\n- client/base\n- client/base/CMakeLists.txt\n- client/base/abstract_connection_program.cc\n- client/base/abstract_connection_program.h\n- client/base/abstract_enum_option.h\n- client/base/abstract_integer_number_option.h\n- client/base/abstract_number_option.h\n- client/base/abstract_option.h\n- client/base/abstract_options_provider.cc",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/CMakeLists.txt\nclient/base\nclient/base/CMakeLists.txt\nclient/base/abstract_connection_program.cc\nclient/base/abstract_connection_program.h\nclient/base/abstract_enum_option.h\nclient/base/abstract_integer_number_option.h\nclient/base/abstract_number_option.h\nclient/base/abstract_option.h\nclient/base/abstract_options_provider.cc\nclient/base/abstract_options_provider.h\nclient/base/abstract_program.cc\nclient/base/abstract_program.h\nclient/base/abstract_string_option.h\nclient/base/abstract_value_option.h",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.002593585777044
+  }
+]

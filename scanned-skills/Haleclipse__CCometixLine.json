@@ -1,0 +1,104 @@
+[
+  {
+    "name": "CCometixLine (Haleclipse)",
+    "description": "[项目级] Claude Code statusline tool written in Rust。来源: https://github.com/Haleclipse/CCometixLine",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-1802",
+      "github-haleclipse",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Claude Code statusline tool written in Rust\n\n来源: https://github.com/Haleclipse/CCometixLine\n语言: Rust\nStars: 1802",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCargo.lock\nCargo.toml\nREADME.md\nREADME.zh.md\nassets\nassets/img1.png\ncliff.toml\nlefthook.yml\nnpm\nnpm/main\nnpm/platforms\nnpm/scripts\nsrc\nsrc/cli.rs\nsrc/config\nsrc/core\nsrc/lib.rs\nsrc/main.rs\nsrc/ui",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.627877393321522
+  },
+  {
+    "name": "CCometixLine/npm 模块",
+    "description": "[模块级] CCometixLine 项目的 npm 模块 (source)。来源: https://github.com/Haleclipse/CCometixLine",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-1802",
+      "github-haleclipse",
+      "module-level",
+      "source",
+      "npm"
+    ],
+    "genes": [
+      {
+        "title": "npm 模块说明",
+        "content": "pnpm add -g @cometix/ccline\n```\n\nUse npm mirror for faster download:\n```bash\nnpm install -g @cometix/ccline --registry https://registry.npmmirror.com\n```\n\nAfter installation:\n- ✅ Global command `ccline` is available everywhere\n- ⚙️ Follow the configuration steps below to integrate with Claude Code\n- 🎨 Run `ccline -c` to open configuration panel for theme selection",
+        "gene_type": "principle"
+      },
+      {
+        "title": "npm 文件结构",
+        "content": "npm/main\nnpm/main/README.md\nnpm/main/bin\nnpm/main/bin/ccline.js\nnpm/main/package.json\nnpm/main/scripts\nnpm/main/scripts/postinstall.js\nnpm/platforms\nnpm/platforms/darwin-arm64\nnpm/platforms/darwin-arm64/package.json\nnpm/platforms/darwin-x64\nnpm/platforms/darwin-x64/package.json\nnpm/platforms/linux-arm64-musl\nnpm/platforms/linux-arm64-musl/package.json\nnpm/platforms/linux-arm64",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "npm 代码示例",
+        "content": "Use npm mirror for faster download:",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8023019146572175
+  },
+  {
+    "name": "CCometixLine/src 模块",
+    "description": "[模块级] CCometixLine 项目的 src 模块 (source)。来源: https://github.com/Haleclipse/CCometixLine",
+    "domain": "ai-llm",
+    "tags": [
+      "rust",
+      "stars-1802",
+      "github-haleclipse",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 58\n\n包含文件:\n- src/cli.rs\n- src/config\n- src/config/defaults.rs\n- src/config/loader.rs\n- src/config/mod.rs\n- src/config/models.rs\n- src/config/types.rs\n- src/core\n- src/core/mod.rs\n- src/core/segments",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cli.rs\nsrc/config\nsrc/config/defaults.rs\nsrc/config/loader.rs\nsrc/config/mod.rs\nsrc/config/models.rs\nsrc/config/types.rs\nsrc/core\nsrc/core/mod.rs\nsrc/core/segments\nsrc/core/segments/context_window.rs\nsrc/core/segments/cost.rs\nsrc/core/segments/directory.rs\nsrc/core/segments/git.rs\nsrc/core/segments/mod.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8023019146572175
+  }
+]

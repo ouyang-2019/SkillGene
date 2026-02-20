@@ -1,0 +1,348 @@
+[
+  {
+    "name": "agenticSeek (Fosowl)",
+    "description": "[项目级] Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "python",
+      "stars-25042",
+      "github-fosowl",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)\n\n来源: https://github.com/Fosowl/agenticSeek\n语言: Python\nStars: 25042",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/Fosowl/agenticSeek.git\ncd agenticSeek\nmv .env.example .env",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile.backend\nLICENSE\nREADME.md\nREADME_CHS.md\nREADME_CHT.md\nREADME_ES.md\nREADME_FR.md\nREADME_JP.md\nREADME_PTBR.md\napi.py\ncli.py\nconfig.ini\ncrx\ncrx/nopecha.crx\ndocker-compose.yml\ndocs\ndocs/CODE_OF_CONDUCT.md\ndocs/CONTRIBUTING.md\ndocs/technical\nfrontend",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Make sure the services are up and running with `./start_services.sh full` and go to `localhost:3000` for web interface.\n\nYou can also use speech to text by setting `listen = True` in the config. Only for CLI mode.\n\nTo exit, simply say/type `goodbye`.\n\nHere are some example usage:\n\n> *Make a snake game in python!*\n\n> *Search the web for top cafes in Rennes, France, and save a list of three with their addresses in rennes_cafes.txt.*\n\n> *Write a Go program to calculate the factorial of a number, save it as factorial.go in your workspace*\n\n> *Search my summer_pictures folder for all JPG files, ren",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "agenticSeek/docs 模块",
+    "description": "[模块级] agenticSeek 项目的 docs 模块 (docs)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/CODE_OF_CONDUCT.md\n- docs/CONTRIBUTING.md\n- docs/technical\n- docs/technical/code_agent.png\n- docs/technical/diagram_overall.png\n- docs/technical/routing_system.png\n- docs/technical/web_agent.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CODE_OF_CONDUCT.md\ndocs/CONTRIBUTING.md\ndocs/technical\ndocs/technical/code_agent.png\ndocs/technical/diagram_overall.png\ndocs/technical/routing_system.png\ndocs/technical/web_agent.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/frontend 模块",
+    "description": "[模块级] agenticSeek 项目的 frontend 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 30\n\n包含文件:\n- frontend/.gitignore\n- frontend/Dockerfile.frontend\n- frontend/README.md\n- frontend/agentic-seek-front\n- frontend/agentic-seek-front/package-lock.json\n- frontend/agentic-seek-front/package.json\n- frontend/agentic-seek-front/public\n- frontend/agentic-seek-front/public/favicon.ico\n- frontend/agentic-seek-front/public/index.html\n- frontend/agentic-seek-front/public/logo192.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.gitignore\nfrontend/Dockerfile.frontend\nfrontend/README.md\nfrontend/agentic-seek-front\nfrontend/agentic-seek-front/package-lock.json\nfrontend/agentic-seek-front/package.json\nfrontend/agentic-seek-front/public\nfrontend/agentic-seek-front/public/favicon.ico\nfrontend/agentic-seek-front/public/index.html\nfrontend/agentic-seek-front/public/logo192.png\nfrontend/agentic-seek-front/public/manifest.json\nfrontend/agentic-seek-front/public/robots.txt\nfrontend/agentic-seek-front/src\nfrontend/agentic-seek-front/src/App.css\nfrontend/agentic-seek-front/src/App.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/llm_router 模块",
+    "description": "[模块级] agenticSeek 项目的 llm_router 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "llm_router"
+    ],
+    "genes": [
+      {
+        "title": "llm_router 模块说明",
+        "content": "模块路径: llm_router/\n类型: source\n文件数: 4\n\n包含文件:\n- llm_router/config.json\n- llm_router/dl_safetensors.sh\n- llm_router/examples.json\n- llm_router/model.safetensors",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm_router 文件结构",
+        "content": "llm_router/config.json\nllm_router/dl_safetensors.sh\nllm_router/examples.json\nllm_router/model.safetensors",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/llm_server 模块",
+    "description": "[模块级] agenticSeek 项目的 llm_server 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "llm_server"
+    ],
+    "genes": [
+      {
+        "title": "llm_server 模块说明",
+        "content": "模块路径: llm_server/\n类型: source\n文件数: 10\n\n包含文件:\n- llm_server/Dockerfile\n- llm_server/app.py\n- llm_server/install.sh\n- llm_server/requirements.txt\n- llm_server/sources\n- llm_server/sources/cache.py\n- llm_server/sources/decorator.py\n- llm_server/sources/generator.py\n- llm_server/sources/llamacpp_handler.py\n- llm_server/sources/ollama_handler.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "llm_server 文件结构",
+        "content": "llm_server/Dockerfile\nllm_server/app.py\nllm_server/install.sh\nllm_server/requirements.txt\nllm_server/sources\nllm_server/sources/cache.py\nllm_server/sources/decorator.py\nllm_server/sources/generator.py\nllm_server/sources/llamacpp_handler.py\nllm_server/sources/ollama_handler.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/media 模块",
+    "description": "[模块级] agenticSeek 项目的 media 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 5\n\n包含文件:\n- media/agentic_seek_logo.png\n- media/banners\n- media/banners/sponsor_banner_serpapi.png\n- media/chromedriver_readme.png\n- media/whale_readme.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/agentic_seek_logo.png\nmedia/banners\nmedia/banners/sponsor_banner_serpapi.png\nmedia/chromedriver_readme.png\nmedia/whale_readme.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/prompts 模块",
+    "description": "[模块级] agenticSeek 项目的 prompts 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 14\n\n包含文件:\n- prompts/base\n- prompts/base/browser_agent.txt\n- prompts/base/casual_agent.txt\n- prompts/base/coder_agent.txt\n- prompts/base/file_agent.txt\n- prompts/base/mcp_agent.txt\n- prompts/base/planner_agent.txt\n- prompts/jarvis\n- prompts/jarvis/browser_agent.txt\n- prompts/jarvis/casual_agent.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/base\nprompts/base/browser_agent.txt\nprompts/base/casual_agent.txt\nprompts/base/coder_agent.txt\nprompts/base/file_agent.txt\nprompts/base/mcp_agent.txt\nprompts/base/planner_agent.txt\nprompts/jarvis\nprompts/jarvis/browser_agent.txt\nprompts/jarvis/casual_agent.txt\nprompts/jarvis/coder_agent.txt\nprompts/jarvis/file_agent.txt\nprompts/jarvis/mcp_agent.txt\nprompts/jarvis/planner_agent.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/scripts 模块",
+    "description": "[模块级] agenticSeek 项目的 scripts 模块 (script)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 3\n\n包含文件:\n- scripts/linux_install.sh\n- scripts/macos_install.sh\n- scripts/windows_install.bat",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/linux_install.sh\nscripts/macos_install.sh\nscripts/windows_install.bat",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/searxng 模块",
+    "description": "[模块级] agenticSeek 项目的 searxng 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "searxng"
+    ],
+    "genes": [
+      {
+        "title": "searxng 模块说明",
+        "content": "```\nraise ValueError(\"SearxNG base URL must be provided either as an argument or via the SEARXNG_BASE_URL environment variable.\")\nValueError: SearxNG base URL must be provided either as an argument or via the SEARXNG_BASE_URL environment variable.`\n```\n\nThis might arise if you are running the CLI mode with the wrong base url for searxng.\n\nThe SEARXNG_BASE_URL should be depending on whenever you run in docker or on host:\n\n**Run on host**: `SEARXNG_BASE_URL=\"http://localhost:8080\"`\n\n**Run fully in",
+        "gene_type": "principle"
+      },
+      {
+        "title": "searxng 文件结构",
+        "content": "searxng/docker-compose.yml\nsearxng/limiter.toml\nsearxng/settings.yml\nsearxng/setup_searxng.sh\nsearxng/uwsgi.ini",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "searxng 代码示例",
+        "content": "raise ValueError(\"SearxNG base URL must be provided either as an argument or via the SEARXNG_BASE_URL environment variable.\")\nValueError: SearxNG base URL must be provided either as an argument or via the SEARXNG_BASE_URL environment variable.`",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/sources 模块",
+    "description": "[模块级] agenticSeek 项目的 sources 模块 (source)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "devops",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "source",
+      "sources"
+    ],
+    "genes": [
+      {
+        "title": "sources 模块说明",
+        "content": "模块路径: sources/\n类型: source\n文件数: 38\n\n包含文件:\n- sources/agents\n- sources/agents/__init__.py\n- sources/agents/agent.py\n- sources/agents/browser_agent.py\n- sources/agents/casual_agent.py\n- sources/agents/code_agent.py\n- sources/agents/file_agent.py\n- sources/agents/mcp_agent.py\n- sources/agents/planner_agent.py\n- sources/browser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sources 文件结构",
+        "content": "sources/agents\nsources/agents/__init__.py\nsources/agents/agent.py\nsources/agents/browser_agent.py\nsources/agents/casual_agent.py\nsources/agents/code_agent.py\nsources/agents/file_agent.py\nsources/agents/mcp_agent.py\nsources/agents/planner_agent.py\nsources/browser.py\nsources/interaction.py\nsources/language.py\nsources/llm_provider.py\nsources/logger.py\nsources/memory.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  },
+  {
+    "name": "agenticSeek/tests 模块",
+    "description": "[模块级] agenticSeek 项目的 tests 模块 (test)。来源: https://github.com/Fosowl/agenticSeek",
+    "domain": "testing",
+    "tags": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "deepseek-r1",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/test_browser_agent_parsing.py\n- tests/test_memory.py\n- tests/test_provider.py\n- tests/test_searx_search.py\n- tests/test_tools_parsing.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test_browser_agent_parsing.py\ntests/test_memory.py\ntests/test_provider.py\ntests/test_searx_search.py\ntests/test_tools_parsing.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.259467604484328
+  }
+]

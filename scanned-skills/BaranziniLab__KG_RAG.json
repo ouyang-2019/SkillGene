@@ -1,0 +1,133 @@
+[
+  {
+    "name": "KG_RAG (BaranziniLab)",
+    "description": "[项目级] Empower Large Language Models (LLM) using Knowledge Graph based Retrieval-Augmented Generation (KG-RAG) for knowledge intensive tasks。来源: https://github.com/BaranziniLab/KG_RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "bert-models",
+      "bioinformatics",
+      "bioinformatics-algorithms",
+      "biomedical-applications",
+      "biomedical-informatics",
+      "jupyter notebook",
+      "stars-935",
+      "github-baranzinilab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Empower Large Language Models (LLM) using Knowledge Graph based Retrieval-Augmented Generation (KG-RAG) for knowledge intensive tasks\n\n来源: https://github.com/BaranziniLab/KG_RAG\n语言: Jupyter Notebook\nStars: 935",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n__init__.py\nconfig.yaml\ndata\ndata/benchmark_data\ndata/context_of_disease_which_has_relation_to_genes.csv\ndata/dataset_for_entity_retrieval_accuracy_analysis.csv\ndata/disease_name_with_id.csv\ndata/disease_with_relation_to_genes.pickle\ndata/hyperparam_tuning_data\ndata/rag_comparison_data.csv\ndata/results\nkg_rag\nkg_rag/__init__.py\nkg_rag/config_loader.py\nkg_rag/prompt_based_generation\nkg_rag/rag_based_generation\nkg_rag/run_setup.py\nkg_rag/test",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Following snippet shows the news from FDA [website](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-weight-management-patients-bardet-biedl-syndrome-aged-6-or-older) about the drug **\"setmelanotide\"** approved by FDA for weight management in patients with *Bardet-Biedl Syndrome*\n\n<img src=\"https://github.com/BaranziniLab/KG_RAG/assets/42702311/fc4d0b8d-0edb-461d-86c5-9d0d191bd97d\" width=\"600\" height=\"350\">",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.485405805436259
+  },
+  {
+    "name": "KG_RAG/data 模块",
+    "description": "[模块级] KG_RAG 项目的 data 模块 (source)。来源: https://github.com/BaranziniLab/KG_RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "bert-models",
+      "bioinformatics",
+      "bioinformatics-algorithms",
+      "biomedical-applications",
+      "biomedical-informatics",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "BiomixQA is a curated biomedical question-answering dataset utilized to validate KG-RAG framework across different LLMs. This consists of:\n\n- Multiple Choice Questions (MCQ)\n- True/False Questions\n\nThe diverse nature of questions in this dataset, spanning multiple choice and true/false formats, along with its coverage of various biomedical concepts, makes it particularly suitable to support research and development in biomedical natural language processing, knowledge graph reasoning, and questio",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/benchmark_data\ndata/benchmark_data/mcq_questions.csv\ndata/benchmark_data/true_false_questions.csv\ndata/context_of_disease_which_has_relation_to_genes.csv\ndata/dataset_for_entity_retrieval_accuracy_analysis.csv\ndata/disease_name_with_id.csv\ndata/disease_with_relation_to_genes.pickle\ndata/hyperparam_tuning_data\ndata/hyperparam_tuning_data/single_disease_entity_prompts.csv\ndata/hyperparam_tuning_data/two_disease_entity_prompts.csv\ndata/rag_comparison_data.csv\ndata/results\ndata/results/BioMedGPT_LM_7B_prompt_based_mcq_from_monarch_and_robokop_response.csv\ndata/results/Llama_2_13b_chat_hf_PubMedBert_and_entity_recognition_based_node_retrieval_rag_based_true_false_binary_response.csv\ndata/results/Llama_2_13b_chat_hf_PubMedBert_entity_recognition_based_node_retrieval_rag_based_mcq_from_monarch_and_robokop_response.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "KG_RAG/kg_rag 模块",
+    "description": "[模块级] KG_RAG 项目的 kg_rag 模块 (source)。来源: https://github.com/BaranziniLab/KG_RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "bert-models",
+      "bioinformatics",
+      "bioinformatics-algorithms",
+      "biomedical-applications",
+      "biomedical-informatics",
+      "module-level",
+      "source",
+      "kg_rag"
+    ],
+    "genes": [
+      {
+        "title": "kg_rag 模块说明",
+        "content": "模块路径: kg_rag/\n类型: source\n文件数: 36\n\n包含文件:\n- kg_rag/__init__.py\n- kg_rag/config_loader.py\n- kg_rag/prompt_based_generation\n- kg_rag/prompt_based_generation/GPT\n- kg_rag/prompt_based_generation/GPT/run_mcq_qa.py\n- kg_rag/prompt_based_generation/GPT/run_true_false_generation.py\n- kg_rag/prompt_based_generation/GPT/text_generation.py\n- kg_rag/prompt_based_generation/Llama\n- kg_rag/prompt_based_generation/Llama/run_mcq_qa.py\n- kg_rag/prompt_based_generation/Llama/run_mcq_qa_medgpt.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "kg_rag 文件结构",
+        "content": "kg_rag/__init__.py\nkg_rag/config_loader.py\nkg_rag/prompt_based_generation\nkg_rag/prompt_based_generation/GPT\nkg_rag/prompt_based_generation/GPT/run_mcq_qa.py\nkg_rag/prompt_based_generation/GPT/run_true_false_generation.py\nkg_rag/prompt_based_generation/GPT/text_generation.py\nkg_rag/prompt_based_generation/Llama\nkg_rag/prompt_based_generation/Llama/run_mcq_qa.py\nkg_rag/prompt_based_generation/Llama/run_mcq_qa_medgpt.py\nkg_rag/prompt_based_generation/Llama/run_true_false_generation.py\nkg_rag/prompt_based_generation/Llama/text_generation.py\nkg_rag/rag_based_generation\nkg_rag/rag_based_generation/GPT\nkg_rag/rag_based_generation/GPT/drug_action.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  },
+  {
+    "name": "KG_RAG/notebooks 模块",
+    "description": "[模块级] KG_RAG 项目的 notebooks 模块 (source)。来源: https://github.com/BaranziniLab/KG_RAG",
+    "domain": "ai-llm",
+    "tags": [
+      "bert-models",
+      "bioinformatics",
+      "bioinformatics-algorithms",
+      "biomedical-applications",
+      "biomedical-informatics",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 20\n\n包含文件:\n- notebooks/cypher_rag_example.ipynb\n- notebooks/cypher_rag_ragas_metric.ipynb\n- notebooks/cypher_rag_using_langchain.ipynb\n- notebooks/disease_extraction_comparison.ipynb\n- notebooks/disease_retrieval_accuracy.ipynb\n- notebooks/full_text_index_vs_kg_rag.ipynb\n- notebooks/hyperparameter_analysis_using_single_disease_prompts.ipynb\n- notebooks/hyperparameter_analysis_using_two_disease_prompts.ipynb\n- notebooks/kg_rag_based_gpt_prompts.ipynb\n- notebooks/kg_rag_extended.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/cypher_rag_example.ipynb\nnotebooks/cypher_rag_ragas_metric.ipynb\nnotebooks/cypher_rag_using_langchain.ipynb\nnotebooks/disease_extraction_comparison.ipynb\nnotebooks/disease_retrieval_accuracy.ipynb\nnotebooks/full_text_index_vs_kg_rag.ipynb\nnotebooks/hyperparameter_analysis_using_single_disease_prompts.ipynb\nnotebooks/hyperparameter_analysis_using_two_disease_prompts.ipynb\nnotebooks/kg_rag_based_gpt_prompts.ipynb\nnotebooks/kg_rag_extended.ipynb\nnotebooks/kg_rag_token_usage_tracking.ipynb\nnotebooks/mcq_analysis.ipynb\nnotebooks/mcq_cypher_rag_eval.ipynb\nnotebooks/mcq_cypher_rag_vs_kg_rag.ipynb\nnotebooks/mcq_using_cypher_rag.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.688324644349007
+  }
+]

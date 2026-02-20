@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ContestTrade (FinStep-AI)",
+    "description": "[项目级] A Multi-Agent Trading System Based on Internal Contest Mechanism。来源: https://github.com/FinStep-AI/ContestTrade",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-594",
+      "github-finstep-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ContestTrade 是一个面向事件驱动选股的多智能体交易框架。系统目标是：在没有人工干预的条件下，自动发现、评估并跟踪具有投资价值的事件型机会，最终输出可执行的资产配置建议。\n\n**核心功能**：\n\n- **自动选股**：全市场扫描与信号生成，自动输出可交易的候选股票列表，无需人工逐一筛选。\n- **事件驱动**：以新闻、公告、资金流、政策等催化事件为触发，关注具有显著信息冲击的机会。\n- **个性化配置**：支持用户自定义智能体的研究偏好和策略，灵活适应不同投资风格。",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\nREADME_en.md\nassets\nassets/architecture.jpg\nassets/contest_trade_cli_data_report.jpg\nassets/contest_trade_cli_data_report_us.jpg\nassets/contest_trade_cli_main.jpg\nassets/contest_trade_cli_main_us.jpg\nassets/contest_trade_cli_report.jpg\nassets/contest_trade_cli_report_us.jpg\nassets/contest_trade_cli_research_report.jpg\nassets/contest_trade_cli_research_report_us.jpg\nassets/contest_trade_cli_select_market.jpg\nassets/contest_trade_cli_start.jpg\nassets/contest_trade_cli_start_test.jpg\nassets/contributor_group.jpg\nassets/data_agent_overview.jpg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "python -m cli.main run",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.386893222490597
+  },
+  {
+    "name": "ContestTrade/assets 模块",
+    "description": "[模块级] ContestTrade 项目的 assets 模块 (source)。来源: https://github.com/FinStep-AI/ContestTrade",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-594",
+      "github-finstep-ai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 18\n\n包含文件:\n- assets/architecture.jpg\n- assets/contest_trade_cli_data_report.jpg\n- assets/contest_trade_cli_data_report_us.jpg\n- assets/contest_trade_cli_main.jpg\n- assets/contest_trade_cli_main_us.jpg\n- assets/contest_trade_cli_report.jpg\n- assets/contest_trade_cli_report_us.jpg\n- assets/contest_trade_cli_research_report.jpg\n- assets/contest_trade_cli_research_report_us.jpg\n- assets/contest_trade_cli_select_market.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/architecture.jpg\nassets/contest_trade_cli_data_report.jpg\nassets/contest_trade_cli_data_report_us.jpg\nassets/contest_trade_cli_main.jpg\nassets/contest_trade_cli_main_us.jpg\nassets/contest_trade_cli_report.jpg\nassets/contest_trade_cli_report_us.jpg\nassets/contest_trade_cli_research_report.jpg\nassets/contest_trade_cli_research_report_us.jpg\nassets/contest_trade_cli_select_market.jpg\nassets/contest_trade_cli_start.jpg\nassets/contest_trade_cli_start_test.jpg\nassets/contributor_group.jpg\nassets/data_agent_overview.jpg\nassets/logo.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6095145779924778
+  },
+  {
+    "name": "ContestTrade/cli 模块",
+    "description": "[模块级] ContestTrade 项目的 cli 模块 (source)。来源: https://github.com/FinStep-AI/ContestTrade",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-594",
+      "github-finstep-ai",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 7\n\n包含文件:\n- cli/__init__.py\n- cli/main.py\n- cli/setup.py\n- cli/static\n- cli/static/report_template.py\n- cli/static/welcome.txt\n- cli/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/__init__.py\ncli/main.py\ncli/setup.py\ncli/static\ncli/static/report_template.py\ncli/static/welcome.txt\ncli/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6095145779924778
+  },
+  {
+    "name": "ContestTrade/contest_trade 模块",
+    "description": "[模块级] ContestTrade 项目的 contest_trade 模块 (source)。来源: https://github.com/FinStep-AI/ContestTrade",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-594",
+      "github-finstep-ai",
+      "module-level",
+      "source",
+      "contest_trade"
+    ],
+    "genes": [
+      {
+        "title": "contest_trade 模块说明",
+        "content": "模块路径: contest_trade/\n类型: source\n文件数: 94\n\n包含文件:\n- contest_trade/agents\n- contest_trade/agents/__init__.py\n- contest_trade/agents/data_analysis_agent.py\n- contest_trade/agents/prompts.py\n- contest_trade/agents/research_agent.py\n- contest_trade/config\n- contest_trade/config/belief_list.json\n- contest_trade/config/config.py\n- contest_trade/config/market_config.yaml\n- contest_trade/config/market_config_us.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "contest_trade 文件结构",
+        "content": "contest_trade/agents\ncontest_trade/agents/__init__.py\ncontest_trade/agents/data_analysis_agent.py\ncontest_trade/agents/prompts.py\ncontest_trade/agents/research_agent.py\ncontest_trade/config\ncontest_trade/config/belief_list.json\ncontest_trade/config/config.py\ncontest_trade/config/market_config.yaml\ncontest_trade/config/market_config_us.yaml\ncontest_trade/contest\ncontest_trade/contest/data_analyst\ncontest_trade/contest/data_analyst/__init__.py\ncontest_trade/contest/data_analyst/data_contest.py\ncontest_trade/contest/data_analyst/data_contest_types.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6095145779924778
+  }
+]

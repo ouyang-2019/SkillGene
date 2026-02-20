@@ -1,0 +1,37 @@
+[
+  {
+    "name": "awesome-chatgpt (eason-dev)",
+    "description": "[项目级] Curated list of ChatGPT related resource, tools, prompts, apps / ChatGPT 相關優質資源、工具、應用的精選清單。。来源: https://github.com/eason-dev/awesome-chatgpt",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "chatgpt",
+      "chinese",
+      "gpt",
+      "stars-735",
+      "github-eason-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Curated list of ChatGPT related resource, tools, prompts, apps / ChatGPT 相關優質資源、工具、應用的精選清單。\n\n来源: https://github.com/eason-dev/awesome-chatgpt\n语言: unknown\nStars: 735",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README-zh-TW.md\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [ShareGPT](https://sharegpt.com/): Share your wildest ChatGPT conversations with one click. ([demo](https://twitter.com/steventey/status/1599816553490366464))\n- [ChatGPT export to PNG/PDF/HTML](https://github.com/liady/ChatGPT-pdf): Chrome extension for downloading your ChatGPT history to PNG, PDF or a sharable link.\n- [ChatGPT Advanced](https://github.com/qunash/chatgpt-advanced): Chrome extension that augments your ChatGPT prompts with web results.\n- [TampermonkeyUserscripts/ChatGPTVoiceInput](https://github.com/doggy8088/TampermonkeyUserscripts/blob/main/src/ChatGPTVoiceInput.user.js?fbcl",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.433143669542098
+  }
+]

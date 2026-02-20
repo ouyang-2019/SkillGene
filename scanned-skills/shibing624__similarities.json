@@ -1,0 +1,168 @@
+[
+  {
+    "name": "similarities (shibing624)",
+    "description": "[项目级] Similarities: a toolkit for similarity calculation and semantic search. 相似度计算、匹配搜索工具包，支持亿级数据文搜文、文搜图、图搜图，python3开发，开箱即用。。来源: https://github.com/shibing624/similarities",
+    "domain": "general",
+    "tags": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "python",
+      "stars-900",
+      "github-shibing624",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Similarities: a toolkit for similarity calculation and semantic search. 相似度计算、匹配搜索工具包，支持亿级数据文搜文、文搜图、图搜图，python3开发，开箱即用。\n\n来源: https://github.com/shibing624/similarities\n语言: Python\nStars: 900",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install torch # conda install pytorch\npip install -U similarities",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nCONTRIBUTING.md\nLICENSE\nREADME.md\nREADME_EN.md\ndocs\ndocs/dog-img.png\ndocs/hf.png\ndocs/hf_clip_image_search.py\ndocs/hf_search.png\ndocs/image_sim.png\ndocs/logo.png\ndocs/wechat.jpeg\ndocs/white_cat.png\nexamples\nexamples/benchmark\nexamples/computing_clip_embeddings_demo.py\nexamples/computing_clip_embeddings_multi_gpu_demo.py\nexamples/data\nexamples/ensemble_text_search_demo.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.477121254719663
+  },
+  {
+    "name": "similarities/docs 模块",
+    "description": "[模块级] similarities 项目的 docs 模块 (docs)。来源: https://github.com/shibing624/similarities",
+    "domain": "documentation",
+    "tags": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/dog-img.png\n- docs/hf.png\n- docs/hf_clip_image_search.py\n- docs/hf_search.png\n- docs/image_sim.png\n- docs/logo.png\n- docs/wechat.jpeg\n- docs/white_cat.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/dog-img.png\ndocs/hf.png\ndocs/hf_clip_image_search.py\ndocs/hf_search.png\ndocs/image_sim.png\ndocs/logo.png\ndocs/wechat.jpeg\ndocs/white_cat.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6816970037757297
+  },
+  {
+    "name": "similarities/examples 模块",
+    "description": "[模块级] similarities 项目的 examples 模块 (example)。来源: https://github.com/shibing624/similarities",
+    "domain": "general",
+    "tags": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 41\n\n包含文件:\n- examples/benchmark\n- examples/benchmark/benchmark_bm25.py\n- examples/benchmark/benchmark_sbert.py\n- examples/computing_clip_embeddings_demo.py\n- examples/computing_clip_embeddings_multi_gpu_demo.py\n- examples/data\n- examples/data/corpus.txt\n- examples/data/corpus_100.txt\n- examples/data/image1.png\n- examples/data/image10.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/benchmark\nexamples/benchmark/benchmark_bm25.py\nexamples/benchmark/benchmark_sbert.py\nexamples/computing_clip_embeddings_demo.py\nexamples/computing_clip_embeddings_multi_gpu_demo.py\nexamples/data\nexamples/data/corpus.txt\nexamples/data/corpus_100.txt\nexamples/data/image1.png\nexamples/data/image10.png\nexamples/data/image11-like-image10.png\nexamples/data/image12-like-image1.png\nexamples/data/image13-like-image1.png\nexamples/data/image3.png\nexamples/data/image5.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6816970037757297
+  },
+  {
+    "name": "similarities/similarities 模块",
+    "description": "[模块级] similarities 项目的 similarities 模块 (source)。来源: https://github.com/shibing624/similarities",
+    "domain": "general",
+    "tags": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "module-level",
+      "source",
+      "similarities"
+    ],
+    "genes": [
+      {
+        "title": "similarities 模块说明",
+        "content": "[![PyPI version](https://badge.fury.io/py/similarities.svg)](https://badge.fury.io/py/similarities)\n[![Downloads](https://static.pepy.tech/badge/similarities)](https://pepy.tech/project/similarities)\n[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)\n[![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)\n[![python_version](https://img.shields.io/badge/Python-3.5%2B-green.svg)](requirements.txt)\n[![",
+        "gene_type": "principle"
+      },
+      {
+        "title": "similarities 文件结构",
+        "content": "similarities/__init__.py\nsimilarities/bert_similarity.py\nsimilarities/cli.py\nsimilarities/clip_module.py\nsimilarities/clip_similarity.py\nsimilarities/data\nsimilarities/data/cilin.txt\nsimilarities/data/hownet.txt\nsimilarities/data/stopwords.txt\nsimilarities/data_loader.py\nsimilarities/ensemble_similarity.py\nsimilarities/evaluation.py\nsimilarities/faiss_bert_similarity.py\nsimilarities/faiss_clip_similarity.py\nsimilarities/fast_bert_similarity.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6816970037757297
+  },
+  {
+    "name": "similarities/tests 模块",
+    "description": "[模块级] similarities 项目的 tests 模块 (test)。来源: https://github.com/shibing624/similarities",
+    "domain": "testing",
+    "tags": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 7\n\n包含文件:\n- tests/test.txt\n- tests/test_fastsim.py\n- tests/test_image_qps.py\n- tests/test_imagesim.py\n- tests/test_literalsim.py\n- tests/test_sim_score.py\n- tests/test_text_qps.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/test.txt\ntests/test_fastsim.py\ntests/test_image_qps.py\ntests/test_imagesim.py\ntests/test_literalsim.py\ntests/test_sim_score.py\ntests/test_text_qps.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6816970037757297
+  }
+]

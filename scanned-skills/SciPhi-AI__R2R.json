@@ -1,0 +1,167 @@
+[
+  {
+    "name": "R2R (SciPhi-AI)",
+    "description": "[项目级] SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.。来源: https://github.com/SciPhi-AI/R2R",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "stars-7688",
+      "github-sciphi-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "R2R is an advanced AI retrieval system supporting Retrieval-Augmented Generation (RAG) with production-ready features. Built around a RESTful API, R2R offers multimodal content ingestion, hybrid search, knowledge graphs, and comprehensive document management.\n\nR2R also includes a **Deep Research API**, a multi-step reasoning system that fetches relevant data from your knowledgebase and/or the internet to deliver richer, context-aware answers for complex queries.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nMANIFEST.md\nREADME.md\nSECURITY.md\ndeployment\ndeployment/k8s\ndocker\ndocker/compose.full.swarm.yaml\ndocker/compose.full.yaml\ndocker/compose.yaml\ndocker/env\ndocker/fluent-bit\ndocker/scripts\ndocker/user_configs\ndocker/user_tools\ndocs\ndocs/README.md\ndocs/cookbooks",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "```python",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **📁 Multimodal Ingestion**: Parse `.txt`, `.pdf`, `.json`, `.png`, `.mp3`, and more\n- **🔍 Hybrid Search**: Semantic + keyword search with reciprocal rank fusion\n- **🔗 Knowledge Graphs**: Automatic entity & relationship extraction\n- **🤖 Agentic RAG**: Reasoning agent integrated with retrieval\n- **🔐 User & Access Management**: Complete authentication & collection system",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.942906687330245
+  },
+  {
+    "name": "R2R/deployment 模块",
+    "description": "[模块级] R2R 项目的 deployment 模块 (source)。来源: https://github.com/SciPhi-AI/R2R",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "module-level",
+      "source",
+      "deployment"
+    ],
+    "genes": [
+      {
+        "title": "deployment 模块说明",
+        "content": "模块路径: deployment/\n类型: source\n文件数: 37\n\n包含文件:\n- deployment/k8s\n- deployment/k8s/kustomizations\n- deployment/k8s/kustomizations/helm-values_hatchet.yaml\n- deployment/k8s/kustomizations/helm-values_postgresql.yaml\n- deployment/k8s/kustomizations/include\n- deployment/k8s/kustomizations/include/cm-hatchet.yaml\n- deployment/k8s/kustomizations/include/cm-hatchet_OLD.yaml\n- deployment/k8s/kustomizations/include/cm-init-scripts-hatchet.yaml\n- deployment/k8s/kustomizations/include/cm-init-scripts-r2r.yaml\n- deployment/k8s/kustomizations/include/cm-r2r.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deployment 文件结构",
+        "content": "deployment/k8s\ndeployment/k8s/kustomizations\ndeployment/k8s/kustomizations/helm-values_hatchet.yaml\ndeployment/k8s/kustomizations/helm-values_postgresql.yaml\ndeployment/k8s/kustomizations/include\ndeployment/k8s/kustomizations/include/cm-hatchet.yaml\ndeployment/k8s/kustomizations/include/cm-hatchet_OLD.yaml\ndeployment/k8s/kustomizations/include/cm-init-scripts-hatchet.yaml\ndeployment/k8s/kustomizations/include/cm-init-scripts-r2r.yaml\ndeployment/k8s/kustomizations/include/cm-r2r.yaml\ndeployment/k8s/kustomizations/include/cm-unstructured.yaml\ndeployment/k8s/kustomizations/include/hatchet-dashboard-initc.yaml\ndeployment/k8s/kustomizations/include/hatchet-engine-initc.yaml\ndeployment/k8s/kustomizations/include/hatchet-init-job.yaml\ndeployment/k8s/kustomizations/include/hatchet-rabbitmq-sts.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.054325349864196
+  },
+  {
+    "name": "R2R/docker 模块",
+    "description": "[模块级] R2R 项目的 docker 模块 (source)。来源: https://github.com/SciPhi-AI/R2R",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "module-level",
+      "source",
+      "docker"
+    ],
+    "genes": [
+      {
+        "title": "docker 模块说明",
+        "content": "模块路径: docker/\n类型: source\n文件数: 22\n\n包含文件:\n- docker/compose.full.swarm.yaml\n- docker/compose.full.yaml\n- docker/compose.yaml\n- docker/env\n- docker/env/hatchet.env\n- docker/env/minio.env\n- docker/env/postgres.env\n- docker/env/r2r-dashboard.env\n- docker/env/r2r-full.env\n- docker/env/r2r.env",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docker 文件结构",
+        "content": "docker/compose.full.swarm.yaml\ndocker/compose.full.yaml\ndocker/compose.yaml\ndocker/env\ndocker/env/hatchet.env\ndocker/env/minio.env\ndocker/env/postgres.env\ndocker/env/r2r-dashboard.env\ndocker/env/r2r-full.env\ndocker/env/r2r.env\ndocker/fluent-bit\ndocker/fluent-bit/fluent-bit.conf\ndocker/fluent-bit/parsers.conf\ndocker/scripts\ndocker/scripts/create-hatchet-db.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.054325349864196
+  },
+  {
+    "name": "R2R/docs 模块",
+    "description": "[模块级] R2R 项目的 docs 模块 (docs)。来源: https://github.com/SciPhi-AI/R2R",
+    "domain": "documentation",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 49\n\n包含文件:\n- docs/README.md\n- docs/cookbooks\n- docs/cookbooks/application.md\n- docs/cookbooks/custom-tools.md\n- docs/cookbooks/email.md\n- docs/cookbooks/evals.md\n- docs/cookbooks/graphs.md\n- docs/cookbooks/images\n- docs/cookbooks/images/application\n- docs/cookbooks/images/application/chat.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/README.md\ndocs/cookbooks\ndocs/cookbooks/application.md\ndocs/cookbooks/custom-tools.md\ndocs/cookbooks/email.md\ndocs/cookbooks/evals.md\ndocs/cookbooks/graphs.md\ndocs/cookbooks/images\ndocs/cookbooks/images/application\ndocs/cookbooks/images/application/chat.png\ndocs/cookbooks/images/application/login.png\ndocs/cookbooks/images/application/oss_collections_page.png\ndocs/cookbooks/images/application/oss_dashboard_documents.png\ndocs/cookbooks/images/application/settings_config.png\ndocs/cookbooks/images/application/settings_prompts.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.054325349864196
+  },
+  {
+    "name": "R2R/js 模块",
+    "description": "[模块级] R2R 项目的 js 模块 (source)。来源: https://github.com/SciPhi-AI/R2R",
+    "domain": "devops",
+    "tags": [
+      "artificial-intelligence",
+      "large-language-models",
+      "python",
+      "question-answering",
+      "rag",
+      "module-level",
+      "source",
+      "js"
+    ],
+    "genes": [
+      {
+        "title": "js 模块说明",
+        "content": "模块路径: js/\n类型: source\n文件数: 47\n\n包含文件:\n- js/README.md\n- js/sdk\n- js/sdk/.prettierignore\n- js/sdk/README.md\n- js/sdk/__tests__\n- js/sdk/__tests__/ChunksIntegrationSuperUser.test.ts\n- js/sdk/__tests__/CollectionsIntegrationSuperUser.test.ts\n- js/sdk/__tests__/ConversationsIntegrationSuperUser.test.ts\n- js/sdk/__tests__/ConversationsIntegrationUser.test.ts\n- js/sdk/__tests__/DocumentsAndCollectionsIntegrationUser.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "js 文件结构",
+        "content": "js/README.md\njs/sdk\njs/sdk/.prettierignore\njs/sdk/README.md\njs/sdk/__tests__\njs/sdk/__tests__/ChunksIntegrationSuperUser.test.ts\njs/sdk/__tests__/CollectionsIntegrationSuperUser.test.ts\njs/sdk/__tests__/ConversationsIntegrationSuperUser.test.ts\njs/sdk/__tests__/ConversationsIntegrationUser.test.ts\njs/sdk/__tests__/DocumentsAndCollectionsIntegrationUser.test.ts\njs/sdk/__tests__/DocumentsIntegrationSuperUser.test.ts\njs/sdk/__tests__/GraphsIntegrationSuperUser.test.ts\njs/sdk/__tests__/PromptsIntegrationSuperUser.test.ts\njs/sdk/__tests__/RetrievalIntegrationSuperUser.test.ts\njs/sdk/__tests__/SystemIntegrationSuperUser.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.054325349864196
+  }
+]

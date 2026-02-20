@@ -1,0 +1,73 @@
+[
+  {
+    "name": "pyspur (PySpur-Dev)",
+    "description": "[项目级] A visual playground for agentic workflows: Iterate over your agents 10x faster。来源: https://github.com/PySpur-Dev/pyspur",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "builder",
+      "deepseek",
+      "typescript",
+      "stars-5676",
+      "github-pyspur-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A visual playground for agentic workflows: Iterate over your agents 10x faster\n\n来源: https://github.com/PySpur-Dev/pyspur\n语言: TypeScript\nStars: 5676",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install pyspur",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile.backend\nDockerfile.frontend\nLICENSE\nREADME.md\nREADME_CN.md\nREADME_DE.md\nREADME_ES.md\nREADME_FR.md\nREADME_JA.md\nREADME_KR.md\nbackend\nbackend/.gitignore\nbackend/.pre-commit-config.yaml\nbackend/alembic.ini\nbackend/entrypoint.sh\nbackend/llms-ctx.txt\nbackend/log_conf.yaml\nbackend/output_files\nbackend/pyproject.toml\nbackend/pyspur",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 👤 **Human in the Loop**: Persistent workflows that wait for human approval.\n- 🔄 **Loops**: Iterative tool calling with memory.\n- 📤 **File Upload**: Upload files or paste URLs to process documents.\n- 📋 **Structured Outputs**: UI editor for JSON Schemas.\n- 🗃️ **RAG**: Parse, Chunk, Embed, and Upsert Data into a Vector DB.\n- 🖼️ **Multimodal**: Support for Video, Images, Audio, Texts, Code.\n- 🧰 **Tools**: Slack, Firecrawl.dev, Google Sheets, GitHub, and more.\n- 📊 **Traces**: Automatically capture execution traces of deployed agents.\n- 🧪 **Evals**: Evaluate agents on real-world datasets.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.877021193392718
+  },
+  {
+    "name": "pyspur/backend 模块",
+    "description": "[模块级] pyspur 项目的 backend 模块 (source)。来源: https://github.com/PySpur-Dev/pyspur",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agents",
+      "ai",
+      "builder",
+      "deepseek",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 171\n\n包含文件:\n- backend/.gitignore\n- backend/.pre-commit-config.yaml\n- backend/alembic.ini\n- backend/entrypoint.sh\n- backend/llms-ctx.txt\n- backend/log_conf.yaml\n- backend/output_files\n- backend/output_files/.gitignore\n- backend/pyproject.toml\n- backend/pyspur",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.gitignore\nbackend/.pre-commit-config.yaml\nbackend/alembic.ini\nbackend/entrypoint.sh\nbackend/llms-ctx.txt\nbackend/log_conf.yaml\nbackend/output_files\nbackend/output_files/.gitignore\nbackend/pyproject.toml\nbackend/pyspur\nbackend/pyspur/__init__.py\nbackend/pyspur/api\nbackend/pyspur/api/__init__.py\nbackend/pyspur/api/ai_management.py\nbackend/pyspur/api/api_app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.001616954714175
+  }
+]

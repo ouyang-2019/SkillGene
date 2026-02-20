@@ -1,0 +1,128 @@
+[
+  {
+    "name": "nucliadb (nuclia)",
+    "description": "[项目级] NucliaDB, The AI Search database for RAG。来源: https://github.com/nuclia/nucliadb",
+    "domain": "tooling",
+    "tags": [
+      "ai-powered-search",
+      "database",
+      "language-model",
+      "machine-learning",
+      "mlops",
+      "python",
+      "stars-715",
+      "github-nuclia",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "NucliaDB, The AI Search database for RAG\n\n来源: https://github.com/nuclia/nucliadb\n语言: Python\nStars: 715",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCODE_STYLE_PYTHON.md\nCODE_STYLE_RUST.md\nCONTRIBUTING.md\nDockerfile\nDockerfile.nidx\nDockerfile.nidx_prebuilt\nDockerfile.withbinding\nLICENSE.txt\nLICENSE_AGPLv3.0.txt\nLICENSE_Apache_v2.0.txt\nMakefile\nNucliaDB_individual_CLA.md\nREADME.md\nVERSION\nbump.py\ncharts\ncharts/nidx\ncharts/nucliadb\ncharts/nucliadb_ingest",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Store text, files, vectors, labels and annotations\n- Perform text searches and given a word or set of words, return resources in our database that contain them.\n- Perform semantic searches with vectors. For example, given a set of vectors, return the closest matches in our database. With NLP, this allows us to look for similar sentences without being constrained by exact keywords.\n- Export your data in a format compatible with most NLP pipelines (HuggingFace datasets, pytorch, etc)\n- Store original data, extracting and data pulled from the Understanding API\n- Index fields, paragraphs, and se",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4271530209005405
+  },
+  {
+    "name": "nucliadb/charts 模块",
+    "description": "[模块级] nucliadb 项目的 charts 模块 (source)。来源: https://github.com/nuclia/nucliadb",
+    "domain": "tooling",
+    "tags": [
+      "ai-powered-search",
+      "database",
+      "language-model",
+      "machine-learning",
+      "mlops",
+      "module-level",
+      "source",
+      "charts"
+    ],
+    "genes": [
+      {
+        "title": "charts 模块说明",
+        "content": "模块路径: charts/\n类型: source\n文件数: 119\n\n包含文件:\n- charts/nidx\n- charts/nidx/Chart.yaml\n- charts/nidx/README.md\n- charts/nidx/templates\n- charts/nidx/templates/_helpers.tpl\n- charts/nidx/templates/api-deploy.yaml\n- charts/nidx/templates/api-pdb.yaml\n- charts/nidx/templates/api-svc.yaml\n- charts/nidx/templates/indexer-deploy.yaml\n- charts/nidx/templates/indexer-hpa.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "charts 文件结构",
+        "content": "charts/nidx\ncharts/nidx/Chart.yaml\ncharts/nidx/README.md\ncharts/nidx/templates\ncharts/nidx/templates/_helpers.tpl\ncharts/nidx/templates/api-deploy.yaml\ncharts/nidx/templates/api-pdb.yaml\ncharts/nidx/templates/api-svc.yaml\ncharts/nidx/templates/indexer-deploy.yaml\ncharts/nidx/templates/indexer-hpa.yaml\ncharts/nidx/templates/nidx-pmon.yaml\ncharts/nidx/templates/nidx-sa.yaml\ncharts/nidx/templates/scheduler-deploy.yaml\ncharts/nidx/templates/searcher-deploy.yaml\ncharts/nidx/templates/searcher-pdb.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.641722416720432
+  },
+  {
+    "name": "nucliadb/docs 模块",
+    "description": "[模块级] nucliadb 项目的 docs 模块 (docs)。来源: https://github.com/nuclia/nucliadb",
+    "domain": "documentation",
+    "tags": [
+      "ai-powered-search",
+      "database",
+      "language-model",
+      "machine-learning",
+      "mlops",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 27\n\n包含文件:\n- docs/CICD.md\n- docs/README.md\n- docs/assets\n- docs/assets/images\n- docs/assets/images/node_scheme.png\n- docs/assets/images/nodes.svg\n- docs/assets/images/nuclia_db_positiu.svg\n- docs/assets/images/nucliadb-arch-overview.png\n- docs/internal\n- docs/internal/BLOBS.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/CICD.md\ndocs/README.md\ndocs/assets\ndocs/assets/images\ndocs/assets/images/node_scheme.png\ndocs/assets/images/nodes.svg\ndocs/assets/images/nuclia_db_positiu.svg\ndocs/assets/images/nucliadb-arch-overview.png\ndocs/internal\ndocs/internal/BLOBS.md\ndocs/internal/ENV_VARS.md\ndocs/internal/EXPORTS.md\ndocs/internal/GRAPH.md\ndocs/internal/KV.md\ndocs/internal/NODES.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.641722416720432
+  },
+  {
+    "name": "nucliadb/e2e 模块",
+    "description": "[模块级] nucliadb 项目的 e2e 模块 (source)。来源: https://github.com/nuclia/nucliadb",
+    "domain": "tooling",
+    "tags": [
+      "ai-powered-search",
+      "database",
+      "language-model",
+      "machine-learning",
+      "mlops",
+      "module-level",
+      "source",
+      "e2e"
+    ],
+    "genes": [
+      {
+        "title": "e2e 模块说明",
+        "content": "模块路径: e2e/\n类型: source\n文件数: 5\n\n包含文件:\n- e2e/conf\n- e2e/conf/chart.values.yaml\n- e2e/requirements.txt\n- e2e/run-e2e-tests.sh\n- e2e/test_e2e.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "e2e 文件结构",
+        "content": "e2e/conf\ne2e/conf/chart.values.yaml\ne2e/requirements.txt\ne2e/run-e2e-tests.sh\ne2e/test_e2e.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.641722416720432
+  }
+]

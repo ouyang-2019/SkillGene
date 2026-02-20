@@ -1,0 +1,103 @@
+[
+  {
+    "name": "typedai (TrafficGuard)",
+    "description": "[项目级] TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more。来源: https://github.com/TrafficGuard/typedai",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-framework",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-code-review",
+      "typescript",
+      "stars-1183",
+      "github-trafficguard",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "TypeScript AI platform with AI chat, Autonomous agents, Software developer agents, chatbots and more\n\n来源: https://github.com/TrafficGuard/typedai\n语言: TypeScript\nStars: 1183",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nDockerfile\nDockerfile.dev\nDockerfile.sandbox\nDockerfile.sandbox-base\nDockerfile.sandbox-deps\nDockerfile.sandbox-ui\nLICENCE\nREADME.md\nbin\nbin/ai-sdk-versions.mts\nbin/cmd-script\nbin/configure\nbin/configure_parts\nbin/configure_test\nbin/container-restart-server\nbin/container-shell\nbin/debug-server\nbin/dev-restart",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "TypedAI provides powerful command-line tools for automation and development workflows:\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [Advanced Autonomous agents](https://typedai.dev/autonomous-agents)\n- [Software developer agents](https://typedai.dev/software-engineer/)\n- [Pull request code review agent](https://typedai.dev/code-review/)\n- [AI chat interface](https://typedai.dev/chat/)\n- [Slack chatbot](https://typedai.dev/chatbot/)\n- Supports many LLM services - OpenAI, Anthropic (native & Vertex), Gemini, Groq, Fireworks, Together.ai, DeepSeek, Ollama, Cerebras, SambaNova, OpenRouter, X.ai\n- Multi-agent [extend-reasoning implementations](https://github.com/TrafficGuard/typedai/tree/main/src/llm/multi-agent) of the LLM i",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.536492372313965
+  },
+  {
+    "name": "typedai/bin 模块",
+    "description": "[模块级] typedai 项目的 bin 模块 (script)。来源: https://github.com/TrafficGuard/typedai",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-framework",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-code-review",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 38\n\n包含文件:\n- bin/ai-sdk-versions.mts\n- bin/cmd-script\n- bin/configure\n- bin/configure_parts\n- bin/configure_parts/DOCS.md\n- bin/configure_parts/Dockerfile\n- bin/configure_parts/app_setup\n- bin/configure_parts/db_setup\n- bin/configure_parts/firestore_setup\n- bin/configure_parts/gcp_services_setup",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/ai-sdk-versions.mts\nbin/cmd-script\nbin/configure\nbin/configure_parts\nbin/configure_parts/DOCS.md\nbin/configure_parts/Dockerfile\nbin/configure_parts/app_setup\nbin/configure_parts/db_setup\nbin/configure_parts/firestore_setup\nbin/configure_parts/gcp_services_setup\nbin/configure_parts/nodejs_setup\nbin/configure_parts/postgres_setup\nbin/configure_parts/python_setup\nbin/configure_parts/ripgrep_setup\nbin/configure_parts/shell_helpers.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7291938978511725
+  },
+  {
+    "name": "typedai/claude-plugins 模块",
+    "description": "[模块级] typedai 项目的 claude-plugins 模块 (source)。来源: https://github.com/TrafficGuard/typedai",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-framework",
+      "agents",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-code-review",
+      "module-level",
+      "source",
+      "claude-plugins"
+    ],
+    "genes": [
+      {
+        "title": "claude-plugins 模块说明",
+        "content": "模块路径: claude-plugins/\n类型: source\n文件数: 41\n\n包含文件:\n- claude-plugins/README.md\n- claude-plugins/code-analysis\n- claude-plugins/code-analysis/.claude-plugin\n- claude-plugins/code-analysis/.claude-plugin/plugin.json\n- claude-plugins/code-analysis/commands\n- claude-plugins/code-analysis/commands/file-tree.md\n- claude-plugins/code-analysis/commands/query.md\n- claude-plugins/code-analysis/commands/select-files.md\n- claude-plugins/knowledge\n- claude-plugins/knowledge/.claude-plugin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "claude-plugins 文件结构",
+        "content": "claude-plugins/README.md\nclaude-plugins/code-analysis\nclaude-plugins/code-analysis/.claude-plugin\nclaude-plugins/code-analysis/.claude-plugin/plugin.json\nclaude-plugins/code-analysis/commands\nclaude-plugins/code-analysis/commands/file-tree.md\nclaude-plugins/code-analysis/commands/query.md\nclaude-plugins/code-analysis/commands/select-files.md\nclaude-plugins/knowledge\nclaude-plugins/knowledge/.claude-plugin\nclaude-plugins/knowledge/.claude-plugin/plugin.json\nclaude-plugins/knowledge/commands\nclaude-plugins/knowledge/commands/extract-qa.md\nclaude-plugins/knowledge/commands/kb.md\nclaude-plugins/knowledge/hooks",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7291938978511725
+  }
+]

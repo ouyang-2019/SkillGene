@@ -1,0 +1,103 @@
+[
+  {
+    "name": "nexent (ModelEngine-Group)",
+    "description": "[项目级] Nexent is a zero-code platform for auto-generating agents — no orchestration, no complex drag-and-drop required. Nexent also offers powerful capabilities for agent running control, data processing and MCP tools.。来源: https://github.com/ModelEngine-Group/nexent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow",
+      "python",
+      "stars-4118",
+      "github-modelengine-group",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Nexent is a zero-code platform for auto-generating agents — no orchestration, no complex drag-and-drop required. Nexent also offers powerful capabilities for agent running control, data processing and MCP tools.\n\n来源: https://github.com/ModelEngine-Group/nexent\n语言: Python\nStars: 4118",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/ModelEngine-Group/nexent.git\ncd nexent/docker\ncp .env.example .env # fill only necessary configs\nbash deploy.sh",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAUTHORS\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nNOTICE\nREADME.md\nREADME_CN.md\nSECURITY.md\nassets\nassets/Feature1.png\nassets/Feature2.png\nassets/Feature3.png\nassets/Feature4.png\nassets/Feature5.png\nassets/Feature6.png\nassets/Feature7.png\nassets/NexentBanner.png\nassets/architecture_en.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "`1` **Smart agent prompt generation**  \n   Turn plain language into runnable prompts. Nexent automatically chooses the right tools and plans the best action path for every request.\n\n   ![Feature 1](./assets/Feature1.png)\n\n`2` **Scalable data process engine**  \n   Process 20+ data formats with fast OCR and table structure extraction, scaling smoothly from a single process to large-batch pipelines.\n\n   ![Feature 2](./assets/Feature2.png)\n\n`3` **Personal-grade knowledge base**  \n   Import files in real time, auto-summarise them, and let agents access both personal and global knowledge instantly, ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.807343171141007
+  },
+  {
+    "name": "nexent/assets 模块",
+    "description": "[模块级] nexent 项目的 assets 模块 (source)。来源: https://github.com/ModelEngine-Group/nexent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/Feature1.png\n- assets/Feature2.png\n- assets/Feature3.png\n- assets/Feature4.png\n- assets/Feature5.png\n- assets/Feature6.png\n- assets/Feature7.png\n- assets/NexentBanner.png\n- assets/architecture_en.png\n- assets/architecture_zh.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/Feature1.png\nassets/Feature2.png\nassets/Feature3.png\nassets/Feature4.png\nassets/Feature5.png\nassets/Feature6.png\nassets/Feature7.png\nassets/NexentBanner.png\nassets/architecture_en.png\nassets/architecture_zh.png\nassets/git-flow.png\nassets/git-flow.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9458745369128048
+  },
+  {
+    "name": "nexent/backend 模块",
+    "description": "[模块级] nexent 项目的 backend 模块 (source)。来源: https://github.com/ModelEngine-Group/nexent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-rag",
+      "agentic-workflow",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 111\n\n包含文件:\n- backend/.gitignore\n- backend/__init__.py\n- backend/agents\n- backend/agents/agent_run_manager.py\n- backend/agents/create_agent_info.py\n- backend/agents/default_agents\n- backend/agents/default_agents/__init__.py\n- backend/agents/preprocess_manager.py\n- backend/apps\n- backend/apps/agent_app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.gitignore\nbackend/__init__.py\nbackend/agents\nbackend/agents/agent_run_manager.py\nbackend/agents/create_agent_info.py\nbackend/agents/default_agents\nbackend/agents/default_agents/__init__.py\nbackend/agents/preprocess_manager.py\nbackend/apps\nbackend/apps/agent_app.py\nbackend/apps/config_app.py\nbackend/apps/config_sync_app.py\nbackend/apps/conversation_management_app.py\nbackend/apps/data_process_app.py\nbackend/apps/datamate_app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9458745369128048
+  }
+]

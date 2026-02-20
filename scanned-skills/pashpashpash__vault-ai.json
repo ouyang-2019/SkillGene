@@ -1,0 +1,278 @@
+[
+  {
+    "name": "vault-ai (pashpashpash)",
+    "description": "[项目级] OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload your own custom knowledge base files (PDF, txt, epub, etc) using a simple React frontend.。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "javascript",
+      "stars-3402",
+      "github-pashpashpash",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OP Vault ChatGPT: Give ChatGPT long-term memory using the OP Stack (OpenAI + Pinecone Vector Database). Upload your own custom knowledge base files (PDF, txt, epub, etc) using a simple React frontend.\n\n来源: https://github.com/pashpashpash/vault-ai\n语言: JavaScript\nStars: 3402",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nchunk\nchunk/fileprocessing.go\ncomponents\ncomponents/Footer\ncomponents/Go\ncomponents/Header\ncomponents/Page\ncomponents/Pages\ncomponents/Util\ncomponents/common.less\ncomponents/defaults.less\ncomponents/fonts.less\ncomponents/index.jsx\ncomponents/routes.jsx\ncomponents/routes.less\nconfig\nconfig/websites.json\nerrorlist",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.765867154638276
+  },
+  {
+    "name": "vault-ai/components 模块",
+    "description": "[模块级] vault-ai 项目的 components 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 29\n\n包含文件:\n- components/Footer\n- components/Footer/index.jsx\n- components/Footer/index.less\n- components/Go\n- components/Go/index.jsx\n- components/Header\n- components/Header/beta.jsx\n- components/Header/index.jsx\n- components/Header/index.less\n- components/Page",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/Footer\ncomponents/Footer/index.jsx\ncomponents/Footer/index.less\ncomponents/Go\ncomponents/Go/index.jsx\ncomponents/Header\ncomponents/Header/beta.jsx\ncomponents/Header/index.jsx\ncomponents/Header/index.less\ncomponents/Page\ncomponents/Page/index.jsx\ncomponents/Page/index.less\ncomponents/Pages\ncomponents/Pages/LandingPage\ncomponents/Pages/LandingPage/index.jsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/form 模块",
+    "description": "[模块级] vault-ai 项目的 form 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "form"
+    ],
+    "genes": [
+      {
+        "title": "form 模块说明",
+        "content": "模块路径: form/\n类型: source\n文件数: 2\n\n包含文件:\n- form/callquestions.go\n- form/form.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "form 文件结构",
+        "content": "form/callquestions.go\nform/form.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/scripts 模块",
+    "description": "[模块级] vault-ai 项目的 scripts 模块 (script)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/go-compile.sh\n- scripts/source-me.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/go-compile.sh\nscripts/source-me.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/serverutil 模块",
+    "description": "[模块级] vault-ai 项目的 serverutil 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "serverutil"
+    ],
+    "genes": [
+      {
+        "title": "serverutil 模块说明",
+        "content": "模块路径: serverutil/\n类型: source\n文件数: 2\n\n包含文件:\n- serverutil/config.go\n- serverutil/util.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "serverutil 文件结构",
+        "content": "serverutil/config.go\nserverutil/util.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/static 模块",
+    "description": "[模块级] vault-ai 项目的 static 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "static"
+    ],
+    "genes": [
+      {
+        "title": "static 模块说明",
+        "content": "模块路径: static/\n类型: source\n文件数: 9\n\n包含文件:\n- static/css\n- static/css/montserrat.woff\n- static/css/montserrat.woff2\n- static/img\n- static/img/common\n- static/img/common/vault_library.png\n- static/img/logos\n- static/img/logos/vault-favicon.png\n- static/index.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "static 文件结构",
+        "content": "static/css\nstatic/css/montserrat.woff\nstatic/css/montserrat.woff2\nstatic/img\nstatic/img/common\nstatic/img/common/vault_library.png\nstatic/img/logos\nstatic/img/logos/vault-favicon.png\nstatic/index.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/validator 模块",
+    "description": "[模块级] vault-ai 项目的 validator 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "validator"
+    ],
+    "genes": [
+      {
+        "title": "validator 模块说明",
+        "content": "模块路径: validator/\n类型: source\n文件数: 2\n\n包含文件:\n- validator/email.go\n- validator/validator.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "validator 文件结构",
+        "content": "validator/email.go\nvalidator/validator.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/vault-web-server 模块",
+    "description": "[模块级] vault-ai 项目的 vault-web-server 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "vault-web-server"
+    ],
+    "genes": [
+      {
+        "title": "vault-web-server 模块说明",
+        "content": "模块路径: vault-web-server/\n类型: source\n文件数: 9\n\n包含文件:\n- vault-web-server/getapi\n- vault-web-server/getapi/getapi.go\n- vault-web-server/main.go\n- vault-web-server/postapi\n- vault-web-server/postapi/fileupload.go\n- vault-web-server/postapi/formparseverify.go\n- vault-web-server/postapi/handlercontext.go\n- vault-web-server/postapi/openai.go\n- vault-web-server/postapi/questions.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vault-web-server 文件结构",
+        "content": "vault-web-server/getapi\nvault-web-server/getapi/getapi.go\nvault-web-server/main.go\nvault-web-server/postapi\nvault-web-server/postapi/fileupload.go\nvault-web-server/postapi/formparseverify.go\nvault-web-server/postapi/handlercontext.go\nvault-web-server/postapi/openai.go\nvault-web-server/postapi/questions.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  },
+  {
+    "name": "vault-ai/vectordb 模块",
+    "description": "[模块级] vault-ai 项目的 vectordb 模块 (source)。来源: https://github.com/pashpashpash/vault-ai",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "chatgpt",
+      "generative",
+      "go",
+      "module-level",
+      "source",
+      "vectordb"
+    ],
+    "genes": [
+      {
+        "title": "vectordb 模块说明",
+        "content": "模块路径: vectordb/\n类型: source\n文件数: 5\n\n包含文件:\n- vectordb/pinecone\n- vectordb/pinecone/pinecone.go\n- vectordb/qdrant\n- vectordb/qdrant/qdrant.go\n- vectordb/vectordb.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vectordb 文件结构",
+        "content": "vectordb/pinecone\nvectordb/pinecone/pinecone.go\nvectordb/qdrant\nvectordb/qdrant/qdrant.go\nvectordb/vectordb.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9126937237106203
+  }
+]

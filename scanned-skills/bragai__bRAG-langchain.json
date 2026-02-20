@@ -1,0 +1,133 @@
+[
+  {
+    "name": "bRAG-langchain (bragai)",
+    "description": "[项目级] Everything you need to know to build your own RAG application。来源: https://github.com/bragai/bRAG-langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-rag",
+      "ai",
+      "chatbot",
+      "llm",
+      "machine-learning",
+      "jupyter notebook",
+      "stars-4028",
+      "github-bragai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This introductory notebook provides an overview of RAG architecture and its foundational setup.\nThe notebook walks through: \n- **Environment Setup**: Configuring the environment, installing necessary libraries, and API setups.\n- **Initial Data Loading**: Basic document loaders and data preprocessing methods.\n- **Embedding Generation**: Generating embeddings using various models, including OpenAI's embeddings.\n- **Vector Store**: Setting up a vector store (ChromaDB/Pinecone) for efficient similarity search.\n- **Basic RAG Pipeline**: Creating a simple retrieval and generation pipeline to serve as a baseline.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "This introductory notebook provides an overview of RAG architecture and its foundational setup.\nThe notebook walks through: \n- **Environment Setup**: Configuring the environment, installing necessary libraries, and API setups.\n- **Initial Data Loading**: Basic document loaders and data preprocessing methods.\n- **Embedding Generation**: Generating embeddings using various models, including OpenAI's embeddings.\n- **Vector Store**: Setting up a vector store (ChromaDB/Pinecone) for efficient similarity search.\n- **Basic RAG Pipeline**: Creating a simple retrieval and generation pipeline to serve a",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nassets\nassets/img\ndocs\ndocs/[1]_sources.md\ndocs/[2]_sources.md\ndocs/[3]_sources.md\ndocs/[4]_sources.md\ndocs/[5]_sources.md\nfull_basic_rag.ipynb\nnotebooks\nnotebooks/[1]_rag_setup_overview.ipynb\nnotebooks/[2]_rag_with_multi_query.ipynb\nnotebooks/[3]_rag_routing_and_query_construction.ipynb\nnotebooks/[4]_rag_indexing_and_advanced_retrieval.ipynb\nnotebooks/[5]_rag_retrieval_and_reranking.ipynb\nrequirements.txt\ntest\ntest/langchain_turing.pdf",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "After setting up the environment and running the notebooks in sequence, you can:\n\n1.  **Experiment with Retrieval-Augmented Generation**:\n    Use the foundational setup in `[1]_rag_setup_overview.ipynb` to understand the basics of RAG.\n\n2.  **Implement Multi-Querying**:\n    Learn how to improve response relevance by introducing multi-querying techniques in `[2]_rag_with_multi_query.ipynb`.",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.80254473094079
+  },
+  {
+    "name": "bRAG-langchain/assets 模块",
+    "description": "[模块级] bRAG-langchain 项目的 assets 模块 (source)。来源: https://github.com/bragai/bRAG-langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-rag",
+      "ai",
+      "chatbot",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/img\n- assets/img/pinecone.png\n- assets/img/rag-architecture.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/img\nassets/img/pinecone.png\nassets/img/rag-architecture.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9420357847526324
+  },
+  {
+    "name": "bRAG-langchain/docs 模块",
+    "description": "[模块级] bRAG-langchain 项目的 docs 模块 (docs)。来源: https://github.com/bragai/bRAG-langchain",
+    "domain": "documentation",
+    "tags": [
+      "agentic-rag",
+      "ai",
+      "chatbot",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/[1]_sources.md\n- docs/[2]_sources.md\n- docs/[3]_sources.md\n- docs/[4]_sources.md\n- docs/[5]_sources.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/[1]_sources.md\ndocs/[2]_sources.md\ndocs/[3]_sources.md\ndocs/[4]_sources.md\ndocs/[5]_sources.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9420357847526324
+  },
+  {
+    "name": "bRAG-langchain/notebooks 模块",
+    "description": "[模块级] bRAG-langchain 项目的 notebooks 模块 (source)。来源: https://github.com/bragai/bRAG-langchain",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-rag",
+      "ai",
+      "chatbot",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "Begin with `[1]_rag_setup_overview.ipynb` to get familiar with the setup process. Proceed sequentially through the other notebooks:\n\n- `[1]_rag_setup_overview.ipynb`\n- `[2]_rag_with_multi_query.ipynb`\n- `[3]_rag_routing_and_query_construction.ipynb`\n- `[4]_rag_indexing_and_advanced_retrieval.ipynb`\n- `[5]_rag_retrieval_and_reranking.ipynb`",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/[1]_rag_setup_overview.ipynb\nnotebooks/[2]_rag_with_multi_query.ipynb\nnotebooks/[3]_rag_routing_and_query_construction.ipynb\nnotebooks/[4]_rag_indexing_and_advanced_retrieval.ipynb\nnotebooks/[5]_rag_retrieval_and_reranking.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9420357847526324
+  }
+]

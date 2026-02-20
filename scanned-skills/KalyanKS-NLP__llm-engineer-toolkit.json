@@ -1,0 +1,62 @@
+[
+  {
+    "name": "llm-engineer-toolkit (KalyanKS-NLP)",
+    "description": "[项目级] A curated list of  120+ LLM libraries category wise. 。来源: https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-engineer",
+      "generative-ai",
+      "large-language-models",
+      "llm-engineer",
+      "llms",
+      "stars-9824",
+      "github-kalyanks-nlp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of  120+ LLM libraries category wise. \n\n来源: https://github.com/KalyanKS-NLP/llm-engineer-toolkit\n语言: unknown\nStars: 9824",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Images\nImages/AIxFunda.png\nImages/LLM_Interview_QA_Book_Image_Compress.png\nImages/ReadMe.md\nLICENSE\nREADME.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.996144176898547
+  },
+  {
+    "name": "llm-engineer-toolkit/Images 模块",
+    "description": "[模块级] llm-engineer-toolkit 项目的 Images 模块 (source)。来源: https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-engineer",
+      "generative-ai",
+      "large-language-models",
+      "llm-engineer",
+      "llms",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "Images 模块说明",
+        "content": "模块路径: Images/\n类型: source\n文件数: 3\n\n包含文件:\n- Images/AIxFunda.png\n- Images/LLM_Interview_QA_Book_Image_Compress.png\n- Images/ReadMe.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Images 文件结构",
+        "content": "Images/AIxFunda.png\nImages/LLM_Interview_QA_Book_Image_Compress.png\nImages/ReadMe.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.096915341518837
+  }
+]

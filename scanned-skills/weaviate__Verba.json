@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Verba (weaviate)",
+    "description": "[项目级] Retrieval Augmented Generation (RAG) chatbot powered by Weaviate。来源: https://github.com/weaviate/Verba",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-7569",
+      "github-weaviate",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Retrieval Augmented Generation (RAG) chatbot powered by Weaviate\n\n来源: https://github.com/weaviate/Verba\n语言: Python\nStars: 7569",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install goldenverba",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nDockerfile\nFRONTEND.md\nLICENSE\nMANIFEST.in\nPYTHON_TUTORIAL.md\nREADME.md\nTECHNICAL.md\ndocker-compose.yml\nfrontend\nfrontend/.eslintrc.json\nfrontend/.gitignore\nfrontend/app\nfrontend/glsl.d.ts\nfrontend/next.config.js\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/postcss.config.js\nfrontend/public",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "python3 -m virtualenv venv\nsource venv/bin/activate",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| 🤖 Model Support                  | Implemented | Description                                             |\n| --------------------------------- | ----------- | ------------------------------------------------------- |\n| Ollama (e.g. Llama3)              | ✅          | Local Embedding and Generation Models powered by Ollama |\n| HuggingFace (e.g. MiniLMEmbedder) | ✅          | Local Embedding Models powered by HuggingFace           |\n| Cohere (e.g. Command R+)          | ✅          | Embedding and Generation Models by Cohere               |\n| Anthrophic (e.g. Claude Sonnet)   | ✅          | Em",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.939519252618618
+  },
+  {
+    "name": "Verba/frontend 模块",
+    "description": "[模块级] Verba 项目的 frontend 模块 (source)。来源: https://github.com/weaviate/Verba",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-7569",
+      "github-weaviate",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "模块路径: frontend/\n类型: source\n文件数: 80\n\n包含文件:\n- frontend/.eslintrc.json\n- frontend/.gitignore\n- frontend/app\n- frontend/app/api.ts\n- frontend/app/components\n- frontend/app/components/Chat\n- frontend/app/components/Chat/ChatConfig.tsx\n- frontend/app/components/Chat/ChatInterface.tsx\n- frontend/app/components/Chat/ChatMessage.tsx\n- frontend/app/components/Chat/ChatView.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.eslintrc.json\nfrontend/.gitignore\nfrontend/app\nfrontend/app/api.ts\nfrontend/app/components\nfrontend/app/components/Chat\nfrontend/app/components/Chat/ChatConfig.tsx\nfrontend/app/components/Chat/ChatInterface.tsx\nfrontend/app/components/Chat/ChatMessage.tsx\nfrontend/app/components/Chat/ChatView.tsx\nfrontend/app/components/Chat/StatusLabel.tsx\nfrontend/app/components/Document\nfrontend/app/components/Document/ChunkView.tsx\nfrontend/app/components/Document/ContentView.tsx\nfrontend/app/components/Document/DocumentExplorer.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.051615402094895
+  },
+  {
+    "name": "Verba/goldenverba 模块",
+    "description": "[模块级] Verba 项目的 goldenverba 模块 (source)。来源: https://github.com/weaviate/Verba",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-7569",
+      "github-weaviate",
+      "module-level",
+      "source",
+      "goldenverba"
+    ],
+    "genes": [
+      {
+        "title": "goldenverba 模块说明",
+        "content": "模块路径: goldenverba/\n类型: source\n文件数: 101\n\n包含文件:\n- goldenverba/.env.example\n- goldenverba/__init__.py\n- goldenverba/components\n- goldenverba/components/__init__.py\n- goldenverba/components/chunk.py\n- goldenverba/components/chunking\n- goldenverba/components/chunking/CodeChunker.py\n- goldenverba/components/chunking/HTMLChunker.py\n- goldenverba/components/chunking/JSONChunker.py\n- goldenverba/components/chunking/MarkdownChunker.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "goldenverba 文件结构",
+        "content": "goldenverba/.env.example\ngoldenverba/__init__.py\ngoldenverba/components\ngoldenverba/components/__init__.py\ngoldenverba/components/chunk.py\ngoldenverba/components/chunking\ngoldenverba/components/chunking/CodeChunker.py\ngoldenverba/components/chunking/HTMLChunker.py\ngoldenverba/components/chunking/JSONChunker.py\ngoldenverba/components/chunking/MarkdownChunker.py\ngoldenverba/components/chunking/RecursiveChunker.py\ngoldenverba/components/chunking/SemanticChunker.py\ngoldenverba/components/chunking/SentenceChunker.py\ngoldenverba/components/chunking/TokenChunker.py\ngoldenverba/components/chunking/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.051615402094895
+  }
+]

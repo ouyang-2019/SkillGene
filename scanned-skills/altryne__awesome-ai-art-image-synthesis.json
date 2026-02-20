@@ -1,0 +1,28 @@
+[
+  {
+    "name": "awesome-ai-art-image-synthesis (altryne)",
+    "description": "[项目级] A list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiArt and image synthesis. Covers Dalle2, MidJourney, StableDiffusion, and open source tools.。来源: https://github.com/altryne/awesome-ai-art-image-synthesis",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "stars-1785",
+      "github-altryne",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A list of awesome tools, ideas, prompt engineering tools, colabs, models, and helpers for the prompt designer playing with aiArt and image synthesis. Covers Dalle2, MidJourney, StableDiffusion, and open source tools.\n\n来源: https://github.com/altryne/awesome-ai-art-image-synthesis\n语言: unknown\nStars: 1785",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "code-of-conduct.md\ncontributing.md\nimg2img.png\nmoore-law-ai-art.jpeg\nreadme.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.625819110224106
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Twitter-Insight-LLM (AlexZhangji)",
+    "description": "[项目级] Twitter data scraping, embedding based image search and more.。来源: https://github.com/AlexZhangji/Twitter-Insight-LLM",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-681",
+      "github-alexzhangji",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Twitter data scraping, embedding based image search and more.\n\n来源: https://github.com/AlexZhangji/Twitter-Insight-LLM\n语言: Jupyter Notebook\nStars: 681",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nREADME_zh.md\nconfig.py\ndata\ndata/sample_exported_excel.xlsx\ndata/sample_output_json.json\nimage\nimage/README_zh\nimage_search_webapp.py\nimages\nimages/image_search_black_cats.png\nimages/image_search_girl.png\nimages/liked_tweets_per_day.png\nimages/likes_analysis.png\nimages/sample_excel_with_data_viz.png\nimages/sample_image_caption_en.jpg\nimages/sample_image_caption_zh.jpg\nimages/twitter_Suprematism.png\nimages/twitter_Suprematism2.png\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "![Sample Images](images/sample_excel_with_data_viz.png)",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.416573555956393
+  },
+  {
+    "name": "Twitter-Insight-LLM/data 模块",
+    "description": "[模块级] Twitter-Insight-LLM 项目的 data 模块 (source)。来源: https://github.com/AlexZhangji/Twitter-Insight-LLM",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-681",
+      "github-alexzhangji",
+      "module-level",
+      "source",
+      "data"
+    ],
+    "genes": [
+      {
+        "title": "data 模块说明",
+        "content": "[中文Readme](README_zh.md)\n\nThis project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis and image captions.\n\nThis is part of the initial steps for a larger personal project involving Large Language Models (LLMs).\nStay tuned for more updates!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "data 文件结构",
+        "content": "data/sample_exported_excel.xlsx\ndata/sample_output_json.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6332588447651144
+  },
+  {
+    "name": "Twitter-Insight-LLM/image 模块",
+    "description": "[模块级] Twitter-Insight-LLM 项目的 image 模块 (source)。来源: https://github.com/AlexZhangji/Twitter-Insight-LLM",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-681",
+      "github-alexzhangji",
+      "module-level",
+      "source",
+      "image"
+    ],
+    "genes": [
+      {
+        "title": "image 模块说明",
+        "content": "[中文Readme](README_zh.md)\n\nThis project enables you to fetch liked tweets from Twitter (using Selenium), save it to JSON and Excel files, and perform initial data analysis and image captions.\n\nThis is part of the initial steps for a larger personal project involving Large Language Models (LLMs).\nStay tuned for more updates!",
+        "gene_type": "principle"
+      },
+      {
+        "title": "image 文件结构",
+        "content": "image/README_zh\nimage/README_zh/1713310483531.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6332588447651144
+  },
+  {
+    "name": "Twitter-Insight-LLM/images 模块",
+    "description": "[模块级] Twitter-Insight-LLM 项目的 images 模块 (source)。来源: https://github.com/AlexZhangji/Twitter-Insight-LLM",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-681",
+      "github-alexzhangji",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "A new free image embedding tool with a supporting frontend that does not require GPU support has been added. (Supports multiple languages, although the results are better in English.)\n\nFor example, here are the results for a searchon \"black cat\" (in Chinese) but you can also searchfor \"a group of people in a photo,\" \"workflow graphs,\" or more abstract concepts like \"sadness.\"\n\n![img](images/image_search_black_cats.png)\n\nHow to run:\n\n-First, make sure that the data has already been downloaded; im",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/image_search_black_cats.png\nimages/image_search_girl.png\nimages/liked_tweets_per_day.png\nimages/likes_analysis.png\nimages/sample_excel_with_data_viz.png\nimages/sample_image_caption_en.jpg\nimages/sample_image_caption_zh.jpg\nimages/twitter_Suprematism.png\nimages/twitter_Suprematism2.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6332588447651144
+  }
+]

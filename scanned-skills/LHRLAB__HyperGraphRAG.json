@@ -1,0 +1,97 @@
+[
+  {
+    "name": "HyperGraphRAG (LHRLAB)",
+    "description": "[项目级] [NeurIPS 2025] Official resources of \"HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation\".。来源: https://github.com/LHRLAB/HyperGraphRAG",
+    "domain": "devops",
+    "tags": [
+      "graphrag",
+      "hypergraph",
+      "knowledge-graph",
+      "large-language-models",
+      "python",
+      "stars-332",
+      "github-lhrlab",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "![](./figs/F1.png)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "conda create -n hypergraphrag python=3.11\nconda activate hypergraphrag\npip install -r requirements.txt",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nevaluation\nevaluation/README.md\nevaluation/eval.py\nevaluation/eval_g.py\nevaluation/eval_r.py\nevaluation/get_generation.py\nevaluation/get_score.py\nevaluation/hypergraphrag\nevaluation/script_hypergraphrag.py\nevaluation/script_insert.py\nevaluation/script_naivegeneration.py\nevaluation/script_standardrag.py\nevaluation/see_score.py\nevaluation/simcse\nexample_contexts.json\nfigs\nfigs/F1.png\nhypergraphrag",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.260569041852018
+  },
+  {
+    "name": "HyperGraphRAG/evaluation 模块",
+    "description": "[模块级] HyperGraphRAG 项目的 evaluation 模块 (source)。来源: https://github.com/LHRLAB/HyperGraphRAG",
+    "domain": "devops",
+    "tags": [
+      "graphrag",
+      "hypergraph",
+      "knowledge-graph",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "evaluation"
+    ],
+    "genes": [
+      {
+        "title": "evaluation 模块说明",
+        "content": "模块路径: evaluation/\n类型: source\n文件数: 33\n\n包含文件:\n- evaluation/README.md\n- evaluation/eval.py\n- evaluation/eval_g.py\n- evaluation/eval_r.py\n- evaluation/get_generation.py\n- evaluation/get_score.py\n- evaluation/hypergraphrag\n- evaluation/hypergraphrag/__init__.py\n- evaluation/hypergraphrag/base.py\n- evaluation/hypergraphrag/hypergraphrag.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluation 文件结构",
+        "content": "evaluation/README.md\nevaluation/eval.py\nevaluation/eval_g.py\nevaluation/eval_r.py\nevaluation/get_generation.py\nevaluation/get_score.py\nevaluation/hypergraphrag\nevaluation/hypergraphrag/__init__.py\nevaluation/hypergraphrag/base.py\nevaluation/hypergraphrag/hypergraphrag.py\nevaluation/hypergraphrag/kg\nevaluation/hypergraphrag/kg/__init__.py\nevaluation/hypergraphrag/kg/chroma_impl.py\nevaluation/hypergraphrag/kg/milvus_impl.py\nevaluation/hypergraphrag/kg/mongo_impl.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5084552334816146
+  },
+  {
+    "name": "HyperGraphRAG/hypergraphrag 模块",
+    "description": "[模块级] HyperGraphRAG 项目的 hypergraphrag 模块 (source)。来源: https://github.com/LHRLAB/HyperGraphRAG",
+    "domain": "devops",
+    "tags": [
+      "graphrag",
+      "hypergraph",
+      "knowledge-graph",
+      "large-language-models",
+      "python",
+      "module-level",
+      "source",
+      "hypergraphrag"
+    ],
+    "genes": [
+      {
+        "title": "hypergraphrag 模块说明",
+        "content": "Official resources of **\"HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation\"**. Haoran Luo, Haihong E, Guanting Chen, Yandan Zheng, Xiaobao Wu, Yikai Guo, Qika Lin, Yu Feng, Zemin Kuang, Meina Song, Yifan Zhu, Luu Anh Tuan. **NeurIPS 2025** \\[[paper](https://arxiv.org/abs/2503.21322)\\].",
+        "gene_type": "principle"
+      },
+      {
+        "title": "hypergraphrag 文件结构",
+        "content": "hypergraphrag/__init__.py\nhypergraphrag/base.py\nhypergraphrag/hypergraphrag.py\nhypergraphrag/kg\nhypergraphrag/kg/__init__.py\nhypergraphrag/kg/chroma_impl.py\nhypergraphrag/kg/milvus_impl.py\nhypergraphrag/kg/mongo_impl.py\nhypergraphrag/kg/neo4j_impl.py\nhypergraphrag/kg/oracle_impl.py\nhypergraphrag/kg/tidb_impl.py\nhypergraphrag/llm.py\nhypergraphrag/operate.py\nhypergraphrag/prompt.py\nhypergraphrag/storage.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5084552334816146
+  }
+]

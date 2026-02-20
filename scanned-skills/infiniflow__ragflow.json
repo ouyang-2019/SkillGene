@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ragflow (infiniflow)",
+    "description": "[项目级] RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs。来源: https://github.com/infiniflow/ragflow",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai",
+      "python",
+      "stars-73452",
+      "github-infiniflow",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs\n\n来源: https://github.com/infiniflow/ragflow\n语言: Python\nStars: 73452",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nDockerfile\nDockerfile.deps\nDockerfile.scratch.oc9\nDockerfile_tei\nLICENSE\nREADME.md\nREADME_id.md\nREADME_ja.md\nREADME_ko.md\nREADME_pt_br.md\nREADME_tzh.md\nREADME_zh.md\nSECURITY.md\nadmin\nadmin/build_cli_release.sh\nadmin/client\nadmin/server\nagent",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ragflow/admin 模块",
+    "description": "[模块级] ragflow 项目的 admin 模块 (source)。来源: https://github.com/infiniflow/ragflow",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "admin"
+    ],
+    "genes": [
+      {
+        "title": "admin 模块说明",
+        "content": "模块路径: admin/\n类型: source\n文件数: 20\n\n包含文件:\n- admin/build_cli_release.sh\n- admin/client\n- admin/client/README.md\n- admin/client/http_client.py\n- admin/client/parser.py\n- admin/client/pyproject.toml\n- admin/client/ragflow_cli.py\n- admin/client/ragflow_client.py\n- admin/client/user.py\n- admin/client/uv.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "admin 文件结构",
+        "content": "admin/build_cli_release.sh\nadmin/client\nadmin/client/README.md\nadmin/client/http_client.py\nadmin/client/parser.py\nadmin/client/pyproject.toml\nadmin/client/ragflow_cli.py\nadmin/client/ragflow_client.py\nadmin/client/user.py\nadmin/client/uv.lock\nadmin/server\nadmin/server/admin_server.py\nadmin/server/auth.py\nadmin/server/config.py\nadmin/server/exceptions.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.446401450218725
+  },
+  {
+    "name": "ragflow/agent 模块",
+    "description": "[模块级] ragflow 项目的 agent 模块 (source)。来源: https://github.com/infiniflow/ragflow",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai",
+      "module-level",
+      "source",
+      "agent"
+    ],
+    "genes": [
+      {
+        "title": "agent 模块说明",
+        "content": "模块路径: agent/\n类型: source\n文件数: 147\n\n包含文件:\n- agent/__init__.py\n- agent/canvas.py\n- agent/component\n- agent/component/__init__.py\n- agent/component/agent_with_tools.py\n- agent/component/base.py\n- agent/component/begin.py\n- agent/component/categorize.py\n- agent/component/data_operations.py\n- agent/component/docs_generator.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent 文件结构",
+        "content": "agent/__init__.py\nagent/canvas.py\nagent/component\nagent/component/__init__.py\nagent/component/agent_with_tools.py\nagent/component/base.py\nagent/component/begin.py\nagent/component/categorize.py\nagent/component/data_operations.py\nagent/component/docs_generator.py\nagent/component/excel_processor.py\nagent/component/exit_loop.py\nagent/component/fillup.py\nagent/component/invoke.py\nagent/component/iteration.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.446401450218725
+  }
+]

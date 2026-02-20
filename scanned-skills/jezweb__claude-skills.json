@@ -10,14 +10,14 @@
       "claude-code",
       "claude-skills",
       "python",
-      "stars-517",
+      "stars-518",
       "github-jezweb",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.\n\n来源: https://github.com/jezweb/claude-skills\n语言: Python\nStars: 517",
+        "content": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations.\n\n来源: https://github.com/jezweb/claude-skills\n语言: Python\nStars: 518",
         "gene_type": "principle"
       },
       {
@@ -33,7 +33,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.356745271546972
+    "rating": 4.357164879872617
   },
   {
     "name": "claude-skills/skills 模块",
@@ -63,6 +63,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.585396217237577
+    "rating": 3.5857319038980933
   }
 ]

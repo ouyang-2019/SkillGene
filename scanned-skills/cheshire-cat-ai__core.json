@@ -1,0 +1,68 @@
+[
+  {
+    "name": "core (cheshire-cat-ai)",
+    "description": "[项目级] AI agent microservice。来源: https://github.com/cheshire-cat-ai/core",
+    "domain": "devops",
+    "tags": [
+      "ag-ui-protocol",
+      "agent",
+      "ai",
+      "assistant",
+      "chatbot",
+      "python",
+      "stars-2969",
+      "github-cheshire-cat-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI agent microservice\n\n来源: https://github.com/cheshire-cat-ai/core\n语言: Python\nStars: 2969",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE-OF-ETHICS.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nROADMAP.md\ncompose.yml\ncore\ncore/.dockerignore\ncore/Dockerfile\ncore/__init__.py\ncore/cat\ncore/install_plugin_dependencies.py\ncore/pyproject.toml\ncore/tests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<details>\n    <summary>\n        Hooks (events)\n    </summary>\n\n```python\nfrom cat.mad_hatter.decorators import hook",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.736305098798022
+  },
+  {
+    "name": "core/core 模块",
+    "description": "[模块级] core 项目的 core 模块 (source)。来源: https://github.com/cheshire-cat-ai/core",
+    "domain": "devops",
+    "tags": [
+      "ag-ui-protocol",
+      "agent",
+      "ai",
+      "assistant",
+      "chatbot",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 177\n\n包含文件:\n- core/.dockerignore\n- core/Dockerfile\n- core/__init__.py\n- core/cat\n- core/cat/agents\n- core/cat/agents/__init__.py\n- core/cat/agents/base_agent.py\n- core/cat/agents/form_agent.py\n- core/cat/agents/main_agent.py\n- core/cat/agents/memory_agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/.dockerignore\ncore/Dockerfile\ncore/__init__.py\ncore/cat\ncore/cat/agents\ncore/cat/agents/__init__.py\ncore/cat/agents/base_agent.py\ncore/cat/agents/form_agent.py\ncore/cat/agents/main_agent.py\ncore/cat/agents/memory_agent.py\ncore/cat/agents/procedures_agent.py\ncore/cat/auth\ncore/cat/auth/auth_utils.py\ncore/cat/auth/connection.py\ncore/cat/auth/permissions.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8890440790384178
+  }
+]

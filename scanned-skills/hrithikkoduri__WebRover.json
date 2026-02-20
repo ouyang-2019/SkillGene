@@ -1,0 +1,132 @@
+[
+  {
+    "name": "WebRover (hrithikkoduri)",
+    "description": "[项目级] WebRover is an autonomous AI agent designed to interpret user input and execute actions by interacting with web elements to accomplish tasks or answer questions. It leverages advanced language models and web automation tools to navigate the web, gather information, and provide structured responses based on the user's needs.。来源: https://github.com/hrithikkoduri/WebRover",
+    "domain": "backend",
+    "tags": [
+      "python",
+      "stars-989",
+      "github-hrithikkoduri",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "WebRover is an AI-powered web agent that combines autonomous browsing with advanced research capabilities. While maintaining its core ability to automate web tasks, version 2.0 introduces sophisticated research workflows including multi-source analysis, academic paper generation, and deep topic exploration. The system intelligently routes queries between task automation and research modes, providing a versatile tool for both quick actions and comprehensive research.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nassets\nassets/agent_diagram.png\nassets/deep_research_agent.png\nassets/demo_edit_149.mp4\nassets/research_agent.png\nassets/task_agent.png\nbackend\nbackend/.gitignore\nbackend/Browser\nbackend/app\nbackend/langgraph.json\nbackend/marking_scripts\nbackend/poetry.lock\nbackend/pyproject.toml\nfrontend\nfrontend/.gitignore\nfrontend/.npmrc\nfrontend/README.md\nfrontend/eslint.config.mjs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.497598145798589
+  },
+  {
+    "name": "WebRover/assets 模块",
+    "description": "[模块级] WebRover 项目的 assets 模块 (source)。来源: https://github.com/hrithikkoduri/WebRover",
+    "domain": "backend",
+    "tags": [
+      "python",
+      "stars-989",
+      "github-hrithikkoduri",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 5\n\n包含文件:\n- assets/agent_diagram.png\n- assets/deep_research_agent.png\n- assets/demo_edit_149.mp4\n- assets/research_agent.png\n- assets/task_agent.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agent_diagram.png\nassets/deep_research_agent.png\nassets/demo_edit_149.mp4\nassets/research_agent.png\nassets/task_agent.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.698078516638872
+  },
+  {
+    "name": "WebRover/backend 模块",
+    "description": "[模块级] WebRover 项目的 backend 模块 (source)。来源: https://github.com/hrithikkoduri/WebRover",
+    "domain": "backend",
+    "tags": [
+      "python",
+      "stars-989",
+      "github-hrithikkoduri",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "1. Clone the repository\n   ```bash\n   git clone https://github.com/hrithikkoduri18/WebRover.git\n   cd WebRover\n   cd backend\n   ```\n\n2. Install Poetry (if not already installed)\n\n   Mac/Linux:\n   ```bash\n   curl -sSL https://install.python-poetry.org | python3 -\n   ```\n   Windows:\n   ```bash\n   (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -\n   ```\n\n3. Set Python version for Poetry\n   ```bash\n   poetry env use python3.12\n   ```\n\n4. Activate the Poet",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/.gitignore\nbackend/Browser\nbackend/Browser/__init__.py\nbackend/Browser/webrover_browser.py\nbackend/app\nbackend/app/__init__.py\nbackend/app/browser_manager.py\nbackend/app/deep_research_agent.py\nbackend/app/main.py\nbackend/app/research_agent.py\nbackend/app/task_agent.py\nbackend/langgraph.json\nbackend/marking_scripts\nbackend/marking_scripts/final_marking.js\nbackend/marking_scripts/marking.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "backend 代码示例",
+        "content": "git clone https://github.com/hrithikkoduri18/WebRover.git\n   cd WebRover\n   cd backend",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.698078516638872
+  },
+  {
+    "name": "WebRover/frontend 模块",
+    "description": "[模块级] WebRover 项目的 frontend 模块 (source)。来源: https://github.com/hrithikkoduri/WebRover",
+    "domain": "backend",
+    "tags": [
+      "python",
+      "stars-989",
+      "github-hrithikkoduri",
+      "module-level",
+      "source",
+      "frontend"
+    ],
+    "genes": [
+      {
+        "title": "frontend 模块说明",
+        "content": "1. Open a new terminal and make sure you are in the WebRover folder:\n   ```bash\n   cd frontend\n   ```\n\n2. Install dependencies:\n   ```bash\n   npm install\n   ```\n\n3. Run the frontend:\n   ```bash\n   npm run dev\n   ```\n\n4. Access the frontend at `http://localhost:3000`\n\nFor mac users: \n\nTry running http://localhost:3000 on Safari browser. \nIf you face any with connecting to browser, open terminal and run:\n\n```bash\npkill -9 \"Chrome\"\n```\nand try again.\n\nIf you still face issues, try changing the webs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "frontend 文件结构",
+        "content": "frontend/.gitignore\nfrontend/.npmrc\nfrontend/README.md\nfrontend/eslint.config.mjs\nfrontend/next.config.js\nfrontend/next.config.ts\nfrontend/nodemon.json\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/postcss.config.mjs\nfrontend/public\nfrontend/public/file.svg\nfrontend/public/globe.svg\nfrontend/public/next.svg\nfrontend/public/vercel.svg",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "frontend 代码示例",
+        "content": "cd frontend",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.698078516638872
+  }
+]

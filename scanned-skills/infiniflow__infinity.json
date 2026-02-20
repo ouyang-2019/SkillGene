@@ -1,0 +1,258 @@
+[
+  {
+    "name": "infinity (infiniflow)",
+    "description": "[项目级] The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text.。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "c++",
+      "stars-4394",
+      "github-infiniflow",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The AI-native database built for LLM applications, providing incredibly fast hybrid search of dense vector, sparse vector, tensor (multi-vector), and full-text.\n\n来源: https://github.com/infiniflow/infinity\n语言: C++\nStars: 4394",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCMakeLists.txt\nCONTRIBUTING.md\nLICENSE\nREADME.md\nbenchmark\nbenchmark/CMakeLists.txt\nbenchmark/common\nbenchmark/local_infinity\nbenchmark/remote_infinity\nclient\nclient/CMakeLists.txt\nclient/cpp\ncmake\ncmake/FindLz4.cmake\ncmake/FindPython.cmake\ncmake/Findjemalloc.cmake\ncmake/rocksdb.cmake\ncmake/snappy.cmake\ncmake/tbb.cmake",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "Infinity comes with high performance, flexibility, ease-of-use, and many features designed to address the challenges facing the next-generation AI applications:",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.821430026292246
+  },
+  {
+    "name": "infinity/benchmark 模块",
+    "description": "[模块级] infinity 项目的 benchmark 模块 (source)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 27\n\n包含文件:\n- benchmark/CMakeLists.txt\n- benchmark/common\n- benchmark/common/CMakeLists.txt\n- benchmark/common/base_profiler.cpp\n- benchmark/common/base_profiler.h\n- benchmark/common/crc.hpp\n- benchmark/common/mpsc_queue.h\n- benchmark/common/query_profiler.cpp\n- benchmark/common/query_profiler.h\n- benchmark/common/threadutil.h",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/CMakeLists.txt\nbenchmark/common\nbenchmark/common/CMakeLists.txt\nbenchmark/common/base_profiler.cpp\nbenchmark/common/base_profiler.h\nbenchmark/common/crc.hpp\nbenchmark/common/mpsc_queue.h\nbenchmark/common/query_profiler.cpp\nbenchmark/common/query_profiler.h\nbenchmark/common/threadutil.h\nbenchmark/local_infinity\nbenchmark/local_infinity/CMakeLists.txt\nbenchmark/local_infinity/fulltext\nbenchmark/local_infinity/fulltext/fulltext_benchmark.cpp\nbenchmark/local_infinity/infinity_benchmark.cpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/client 模块",
+    "description": "[模块级] infinity 项目的 client 模块 (source)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "```\npip install infinity-sdk==0.7.0.dev2\n```",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/CMakeLists.txt\nclient/cpp\nclient/cpp/CMakeLists.txt\nclient/cpp/README.md\nclient/cpp/infinity_client.cpp\nclient/cpp/infinity_client.h\nclient/cpp/table_info.h\nclient/cpp/test\nclient/cpp/test/test_basic.cpp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "client 代码示例",
+        "content": "pip install infinity-sdk==0.7.0.dev2",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/cmake 模块",
+    "description": "[模块级] infinity 项目的 cmake 模块 (source)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "source",
+      "cmake"
+    ],
+    "genes": [
+      {
+        "title": "cmake 模块说明",
+        "content": "模块路径: cmake/\n类型: source\n文件数: 9\n\n包含文件:\n- cmake/FindLz4.cmake\n- cmake/FindPython.cmake\n- cmake/Findjemalloc.cmake\n- cmake/rocksdb.cmake\n- cmake/snappy.cmake\n- cmake/tbb.cmake\n- cmake/utils.cmake\n- cmake/zlib.cmake\n- cmake/zstd.cmake",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cmake 文件结构",
+        "content": "cmake/FindLz4.cmake\ncmake/FindPython.cmake\ncmake/Findjemalloc.cmake\ncmake/rocksdb.cmake\ncmake/snappy.cmake\ncmake/tbb.cmake\ncmake/utils.cmake\ncmake/zlib.cmake\ncmake/zstd.cmake",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/conf 模块",
+    "description": "[模块级] infinity 项目的 conf 模块 (source)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "source",
+      "conf"
+    ],
+    "genes": [
+      {
+        "title": "conf 模块说明",
+        "content": "模块路径: conf/\n类型: source\n文件数: 18\n\n包含文件:\n- conf/benchmark_conf.toml\n- conf/follower.toml\n- conf/infinity.service\n- conf/infinity_conf.toml\n- conf/infinity_minio_conf.toml\n- conf/leader.toml\n- conf/learner.toml\n- conf/learner2.toml\n- conf/mock_follower.toml\n- conf/mock_leader.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "conf 文件结构",
+        "content": "conf/benchmark_conf.toml\nconf/follower.toml\nconf/infinity.service\nconf/infinity_conf.toml\nconf/infinity_minio_conf.toml\nconf/leader.toml\nconf/learner.toml\nconf/learner2.toml\nconf/mock_follower.toml\nconf/mock_leader.toml\nconf/postinst\nconf/pytest_embedded_infinity_conf.toml\nconf/pytest_parallel_continuous_conf.toml\nconf/pytest_parallel_infinity_conf.toml\nconf/pytest_parallel_infinity_follower.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/docs 模块",
+    "description": "[模块级] infinity 项目的 docs 模块 (docs)。来源: https://github.com/infiniflow/infinity",
+    "domain": "documentation",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 17\n\n包含文件:\n- docs/getstarted\n- docs/getstarted/_category_.json\n- docs/getstarted/build_from_source.mdx\n- docs/getstarted/deploy_infinity_server.mdx\n- docs/getstarted/quickstart.mdx\n- docs/guides\n- docs/guides/_category_.json\n- docs/guides/search_guide.md\n- docs/guides/set_up_cluster.md\n- docs/references",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/getstarted\ndocs/getstarted/_category_.json\ndocs/getstarted/build_from_source.mdx\ndocs/getstarted/deploy_infinity_server.mdx\ndocs/getstarted/quickstart.mdx\ndocs/guides\ndocs/guides/_category_.json\ndocs/guides/search_guide.md\ndocs/guides/set_up_cluster.md\ndocs/references\ndocs/references/_category_.json\ndocs/references/benchmark.md\ndocs/references/configurations.mdx\ndocs/references/faq.md\ndocs/references/http_api_reference.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/example 模块",
+    "description": "[模块级] infinity 项目的 example 模块 (example)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "example",
+      "example"
+    ],
+    "genes": [
+      {
+        "title": "example 模块说明",
+        "content": "模块路径: example/\n类型: example\n文件数: 58\n\n包含文件:\n- example/ColBERT_reranker_example\n- example/ColBERT_reranker_example/helper.py\n- example/ColBERT_reranker_example/test_helper.py\n- example/README.md\n- example/alter_table.py\n- example/bmp_index.py\n- example/cleanup_example.py\n- example/cleanup_example2.py\n- example/cleanup_example3.py\n- example/cleanup_flush.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "example 文件结构",
+        "content": "example/ColBERT_reranker_example\nexample/ColBERT_reranker_example/helper.py\nexample/ColBERT_reranker_example/test_helper.py\nexample/README.md\nexample/alter_table.py\nexample/bmp_index.py\nexample/cleanup_example.py\nexample/cleanup_example2.py\nexample/cleanup_example3.py\nexample/cleanup_flush.py\nexample/delete_update_data.py\nexample/emvb_index.py\nexample/export_data.py\nexample/fde_search.py\nexample/filter_data.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  },
+  {
+    "name": "infinity/gui 模块",
+    "description": "[模块级] infinity 项目的 gui 模块 (source)。来源: https://github.com/infiniflow/infinity",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-native",
+      "approximate-nearest-neighbor-search",
+      "bm25",
+      "cpp20",
+      "cpp20-modules",
+      "module-level",
+      "source",
+      "gui"
+    ],
+    "genes": [
+      {
+        "title": "gui 模块说明",
+        "content": "模块路径: gui/\n类型: source\n文件数: 29\n\n包含文件:\n- gui/.env.example\n- gui/.eslintrc.json\n- gui/.gitignore\n- gui/.lintstagedrc.js\n- gui/.npmrc\n- gui/.prettierrc\n- gui/README.md\n- gui/app\n- gui/app/(dashboard)\n- gui/app/(dashboard)/actions.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "gui 文件结构",
+        "content": "gui/.env.example\ngui/.eslintrc.json\ngui/.gitignore\ngui/.lintstagedrc.js\ngui/.npmrc\ngui/.prettierrc\ngui/README.md\ngui/app\ngui/app/(dashboard)\ngui/app/(dashboard)/actions.ts\ngui/app/(dashboard)/customers\ngui/app/(dashboard)/customers/page.tsx\ngui/app/(dashboard)/database-card.tsx\ngui/app/(dashboard)/database-creating-dialog.tsx\ngui/app/(dashboard)/database-creating-form.tsx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9571440210337965
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "name": "MegaAgent (Xtra-Computing)",
+    "description": "[项目级] [ACL 2025 Findings] MegaAgent: A Large-Scale Autonomous LLM-based Multi-Agent System Without Predefined SOPs https://aclanthology.org/2025.findings-acl.259.pdf。来源: https://github.com/Xtra-Computing/MegaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-236",
+      "github-xtra-computing",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository contains two parts: the latest version of MegaAgent at `.`, and examples at `examples/`.\r\n\r\nTo run the latest version, you can add your key and change the prompt in `config.py`, and run `main.py`. The output will be located at `files/`. The default prompt is used for automatically generating a Gobang game.\r\n\r\nSome experiments are shown in `examples/` using an older version of MegaAgent. You can use the same prompt while substituting other files with the latest version.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nagent.py\nconfig.py\nexamples\nexamples/GSM8k\nexamples/MATH\nexamples/fig.png\nexamples/fig2.png\nexamples/fig3.png\nexamples/humaneval\nexamples/mbpp\nexamples/policy_making\nexamples/travel planner\nfiles\nllm.py\nlog.txt\nlogs\nlogs/Bob.log\nlogs/Carol.log\nlogs/Dave.log",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.186456001485054
+  },
+  {
+    "name": "MegaAgent/examples 模块",
+    "description": "[模块级] MegaAgent 项目的 examples 模块 (example)。来源: https://github.com/Xtra-Computing/MegaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-236",
+      "github-xtra-computing",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 59\n\n包含文件:\n- examples/GSM8k\n- examples/GSM8k/.gitignore\n- examples/GSM8k/agent.py\n- examples/GSM8k/config.py\n- examples/GSM8k/execute.py\n- examples/GSM8k/gsm8k.zip\n- examples/GSM8k/llm.py\n- examples/GSM8k/main.py\n- examples/GSM8k/test.py\n- examples/GSM8k/utils.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/GSM8k\nexamples/GSM8k/.gitignore\nexamples/GSM8k/agent.py\nexamples/GSM8k/config.py\nexamples/GSM8k/execute.py\nexamples/GSM8k/gsm8k.zip\nexamples/GSM8k/llm.py\nexamples/GSM8k/main.py\nexamples/GSM8k/test.py\nexamples/GSM8k/utils.py\nexamples/MATH\nexamples/MATH/.gitignore\nexamples/MATH/agent.py\nexamples/MATH/config.py\nexamples/MATH/execute.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  },
+  {
+    "name": "MegaAgent/logs 模块",
+    "description": "[模块级] MegaAgent 项目的 logs 模块 (source)。来源: https://github.com/Xtra-Computing/MegaAgent",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-236",
+      "github-xtra-computing",
+      "module-level",
+      "source",
+      "logs"
+    ],
+    "genes": [
+      {
+        "title": "logs 模块说明",
+        "content": "模块路径: logs/\n类型: source\n文件数: 6\n\n包含文件:\n- logs/Bob.log\n- logs/Carol.log\n- logs/Dave.log\n- logs/Eve.log\n- logs/Frank.log\n- logs/Grace.log",
+        "gene_type": "principle"
+      },
+      {
+        "title": "logs 文件结构",
+        "content": "logs/Bob.log\nlogs/Carol.log\nlogs/Dave.log\nlogs/Eve.log\nlogs/Frank.log\nlogs/Grace.log",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4491648011880427
+  }
+]

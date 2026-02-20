@@ -10,14 +10,14 @@
       "desktop-app",
       "kimi-k2-thiking",
       "typescript",
-      "stars-19006",
+      "stars-19014",
       "github-farion1231",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.\n\n来源: https://github.com/farion1231/cc-switch\n语言: TypeScript\nStars: 19006",
+        "content": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.\n\n来源: https://github.com/farion1231/cc-switch\n语言: TypeScript\nStars: 19014",
         "gene_type": "principle"
       },
       {
@@ -73,7 +73,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   },
   {
     "name": "cc-switch/cc-switch-main 模块",
@@ -103,7 +103,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   },
   {
     "name": "cc-switch/docs 模块",
@@ -133,7 +133,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   },
   {
     "name": "cc-switch/flatpak 模块",
@@ -163,7 +163,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   },
   {
     "name": "cc-switch/scripts 模块",
@@ -193,7 +193,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   },
   {
     "name": "cc-switch/src-tauri 模块",
@@ -223,6 +223,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.211556289971472
+    "rating": 4.211629395829577
   }
 ]

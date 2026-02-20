@@ -1,0 +1,68 @@
+[
+  {
+    "name": "opik (comet-ml)",
+    "description": "[项目级] Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.。来源: https://github.com/comet-ml/opik",
+    "domain": "devops",
+    "tags": [
+      "evaluation",
+      "hacktoberfest",
+      "hacktoberfest2025",
+      "langchain",
+      "llama-index",
+      "python",
+      "stars-17791",
+      "github-comet-ml",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.\n\n来源: https://github.com/comet-ml/opik\n语言: Python\nStars: 17791",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Get your Opik server running in minutes. Choose the option that best suits your needs:",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLA.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.md\napps\napps/opik-ai-backend\napps/opik-backend",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "opik/apps 模块",
+    "description": "[模块级] opik 项目的 apps 模块 (source)。来源: https://github.com/comet-ml/opik",
+    "domain": "devops",
+    "tags": [
+      "evaluation",
+      "hacktoberfest",
+      "hacktoberfest2025",
+      "langchain",
+      "llama-index",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 33\n\n包含文件:\n- apps/opik-ai-backend\n- apps/opik-ai-backend/.python-version\n- apps/opik-ai-backend/Dockerfile\n- apps/opik-ai-backend/README.md\n- apps/opik-ai-backend/pyproject.toml\n- apps/opik-ai-backend/src\n- apps/opik-ai-backend/src/opik_ai_backend\n- apps/opik-ai-backend/src/opik_ai_backend/__init__.py\n- apps/opik-ai-backend/src/opik_ai_backend/_agent.py\n- apps/opik-ai-backend/src/opik_ai_backend/analytics.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/opik-ai-backend\napps/opik-ai-backend/.python-version\napps/opik-ai-backend/Dockerfile\napps/opik-ai-backend/README.md\napps/opik-ai-backend/pyproject.toml\napps/opik-ai-backend/src\napps/opik-ai-backend/src/opik_ai_backend\napps/opik-ai-backend/src/opik_ai_backend/__init__.py\napps/opik-ai-backend/src/opik_ai_backend/_agent.py\napps/opik-ai-backend/src/opik_ai_backend/analytics.py\napps/opik-ai-backend/src/opik_ai_backend/auth_dependencies.py\napps/opik-ai-backend/src/opik_ai_backend/config.py\napps/opik-ai-backend/src/opik_ai_backend/logger_config.py\napps/opik-ai-backend/src/opik_ai_backend/main.py\napps/opik-ai-backend/src/opik_ai_backend/opik_backend_client.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.200080143871596
+  }
+]

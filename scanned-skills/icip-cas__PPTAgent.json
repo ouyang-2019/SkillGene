@@ -1,0 +1,128 @@
+[
+  {
+    "name": "PPTAgent (icip-cas)",
+    "description": "[项目级] An Agentic Framework for Reflective PowerPoint Generation。来源: https://github.com/icip-cas/PPTAgent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "python",
+      "stars-3350",
+      "github-icip-cas",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An Agentic Framework for Reflective PowerPoint Generation\n\n来源: https://github.com/icip-cas/PPTAgent\n语言: Python\nStars: 3350",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndeeppresenter\ndeeppresenter/deeppresenter\ndeeppresenter/docker\ndeeppresenter/pyproject.toml\ndeeppresenter/test\ndeeppresenter/uv.lock\ndocker-compose.yml\npackage-lock.json\npackage.json\npptagent\npptagent/BESTPRACTICE.md\npptagent/DOC.md\npptagent/MANIFEST.in\npptagent/README.md\npptagent/docker\npptagent/pptagent\npptagent/pyproject.toml\npptagent/resource",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "> [!IMPORTANT]\n> 1. All these API keys, configurations, and services are **required**.\n> 2. Agent Backbone Recommendation: Use Claude for the Research Agent and Gemini for the Design Agent. GLM-4.7 is also a good choice in open-source models.\n> 3. Offline mode is supported with limited capabilities (see Offline Setup below).",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.762522403518423
+  },
+  {
+    "name": "PPTAgent/deeppresenter 模块",
+    "description": "[模块级] PPTAgent 项目的 deeppresenter 模块 (source)。来源: https://github.com/icip-cas/PPTAgent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "module-level",
+      "source",
+      "deeppresenter"
+    ],
+    "genes": [
+      {
+        "title": "deeppresenter 模块说明",
+        "content": "模块路径: deeppresenter/\n类型: source\n文件数: 52\n\n包含文件:\n- deeppresenter/deeppresenter\n- deeppresenter/deeppresenter/__init__.py\n- deeppresenter/deeppresenter/agents\n- deeppresenter/deeppresenter/agents/agent.py\n- deeppresenter/deeppresenter/agents/design.py\n- deeppresenter/deeppresenter/agents/env.py\n- deeppresenter/deeppresenter/agents/pptagent.py\n- deeppresenter/deeppresenter/agents/research.py\n- deeppresenter/deeppresenter/config.yaml.example\n- deeppresenter/deeppresenter/html2pptx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deeppresenter 文件结构",
+        "content": "deeppresenter/deeppresenter\ndeeppresenter/deeppresenter/__init__.py\ndeeppresenter/deeppresenter/agents\ndeeppresenter/deeppresenter/agents/agent.py\ndeeppresenter/deeppresenter/agents/design.py\ndeeppresenter/deeppresenter/agents/env.py\ndeeppresenter/deeppresenter/agents/pptagent.py\ndeeppresenter/deeppresenter/agents/research.py\ndeeppresenter/deeppresenter/config.yaml.example\ndeeppresenter/deeppresenter/html2pptx\ndeeppresenter/deeppresenter/html2pptx/html2pptx.js\ndeeppresenter/deeppresenter/html2pptx/html2pptx_cli.js\ndeeppresenter/deeppresenter/main.py\ndeeppresenter/deeppresenter/mcp.json.example\ndeeppresenter/deeppresenter/roles",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9100179228147383
+  },
+  {
+    "name": "PPTAgent/pptagent 模块",
+    "description": "[模块级] PPTAgent 项目的 pptagent 模块 (source)。来源: https://github.com/icip-cas/PPTAgent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "module-level",
+      "source",
+      "pptagent"
+    ],
+    "genes": [
+      {
+        "title": "pptagent 模块说明",
+        "content": "模块路径: pptagent/\n类型: source\n文件数: 114\n\n包含文件:\n- pptagent/BESTPRACTICE.md\n- pptagent/DOC.md\n- pptagent/MANIFEST.in\n- pptagent/README.md\n- pptagent/docker\n- pptagent/docker/Dockerfile\n- pptagent/docker/launch.sh\n- pptagent/pptagent\n- pptagent/pptagent/__init__.py\n- pptagent/pptagent/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "pptagent 文件结构",
+        "content": "pptagent/BESTPRACTICE.md\npptagent/DOC.md\npptagent/MANIFEST.in\npptagent/README.md\npptagent/docker\npptagent/docker/Dockerfile\npptagent/docker/launch.sh\npptagent/pptagent\npptagent/pptagent/__init__.py\npptagent/pptagent/agent.py\npptagent/pptagent/apis.py\npptagent/pptagent/document\npptagent/pptagent/document/__init__.py\npptagent/pptagent/document/doc_utils.py\npptagent/pptagent/document/document.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9100179228147383
+  },
+  {
+    "name": "PPTAgent/resource 模块",
+    "description": "[模块级] PPTAgent 项目的 resource 模块 (source)。来源: https://github.com/icip-cas/PPTAgent",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "module-level",
+      "source",
+      "resource"
+    ],
+    "genes": [
+      {
+        "title": "resource 模块说明",
+        "content": "模块路径: resource/\n类型: source\n文件数: 17\n\n包含文件:\n- resource/PPTAgent-workflow.jpg\n- resource/build_effective_agents\n- resource/build_effective_agents/0001.jpg\n- resource/build_effective_agents/0002.jpg\n- resource/build_effective_agents/0003.jpg\n- resource/build_effective_agents/0004.jpg\n- resource/build_effective_agents/0005.jpg\n- resource/build_effective_agents/0006.jpg\n- resource/build_effective_agents/0007.jpg\n- resource/build_effective_agents/0008.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resource 文件结构",
+        "content": "resource/PPTAgent-workflow.jpg\nresource/build_effective_agents\nresource/build_effective_agents/0001.jpg\nresource/build_effective_agents/0002.jpg\nresource/build_effective_agents/0003.jpg\nresource/build_effective_agents/0004.jpg\nresource/build_effective_agents/0005.jpg\nresource/build_effective_agents/0006.jpg\nresource/build_effective_agents/0007.jpg\nresource/build_effective_agents/0008.jpg\nresource/build_effective_agents/0009.jpg\nresource/build_effective_agents/0010.jpg\nresource/build_effective_agents/Building effective agents - Anthropic.pdf\nresource/build_effective_agents/build_effective_agents.pptx\nresource/casestudy.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9100179228147383
+  }
+]

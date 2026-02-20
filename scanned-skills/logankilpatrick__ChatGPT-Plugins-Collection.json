@@ -1,0 +1,117 @@
+[
+  {
+    "name": "ChatGPT-Plugins-Collection (logankilpatrick)",
+    "description": "[项目级] An unofficial collection of Plugins for ChatGPT, in any programming language!。来源: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection",
+    "domain": "devops",
+    "tags": [
+      "julia",
+      "stars-668",
+      "github-logankilpatrick",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An unofficial collection of Plugins for ChatGPT, in any programming language!\n\n来源: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection\n语言: Julia\nStars: 668",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\njavascript\njavascript/TodoGPT\njulia\njulia/AnimalGPT\njulia/SquareGPT\njulia/TodoGPT\npython\npython/NotesGPT\npython/TodoGPT\npython/secretMessage",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "| Plugin Name  | Description | Language | Framework |\n|--------------|-------------|----------|-----------|\n| [NotesGPT](https://github.com/logankilpatrick/ChatGPT-Plugins-Collection/tree/main/python/NotesGPT) | A plugin that allows users to create, retrieve, and delete notes. Each note is associated with a specific user. | Python | Quart |\n| [TodoGPT](https://github.com/logankilpatrick/ChatGPT-Plugins-Collection/tree/main/python/TodoGPT) | A plugin that allows users to add, retrieve, and delete to-do items. Each to-do item is associated with a specific user. | Python | Quart |\n| [AnimalGPT](h",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.412388231237773
+  },
+  {
+    "name": "ChatGPT-Plugins-Collection/javascript 模块",
+    "description": "[模块级] ChatGPT-Plugins-Collection 项目的 javascript 模块 (source)。来源: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection",
+    "domain": "devops",
+    "tags": [
+      "julia",
+      "stars-668",
+      "github-logankilpatrick",
+      "module-level",
+      "source",
+      "javascript"
+    ],
+    "genes": [
+      {
+        "title": "javascript 模块说明",
+        "content": "模块路径: javascript/\n类型: source\n文件数: 9\n\n包含文件:\n- javascript/TodoGPT\n- javascript/TodoGPT/.well-known\n- javascript/TodoGPT/.well-known/ai-plugin.json\n- javascript/TodoGPT/README.md\n- javascript/TodoGPT/logo.png\n- javascript/TodoGPT/openapi.yaml\n- javascript/TodoGPT/package-lock.json\n- javascript/TodoGPT/package.json\n- javascript/TodoGPT/server.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "javascript 文件结构",
+        "content": "javascript/TodoGPT\njavascript/TodoGPT/.well-known\njavascript/TodoGPT/.well-known/ai-plugin.json\njavascript/TodoGPT/README.md\njavascript/TodoGPT/logo.png\njavascript/TodoGPT/openapi.yaml\njavascript/TodoGPT/package-lock.json\njavascript/TodoGPT/package.json\njavascript/TodoGPT/server.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "ChatGPT-Plugins-Collection/julia 模块",
+    "description": "[模块级] ChatGPT-Plugins-Collection 项目的 julia 模块 (source)。来源: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection",
+    "domain": "devops",
+    "tags": [
+      "julia",
+      "stars-668",
+      "github-logankilpatrick",
+      "module-level",
+      "source",
+      "julia"
+    ],
+    "genes": [
+      {
+        "title": "julia 模块说明",
+        "content": "模块路径: julia/\n类型: source\n文件数: 21\n\n包含文件:\n- julia/AnimalGPT\n- julia/AnimalGPT/.well-known\n- julia/AnimalGPT/.well-known/ai-plugin.json\n- julia/AnimalGPT/README.md\n- julia/AnimalGPT/animal.jl\n- julia/AnimalGPT/logo.png\n- julia/AnimalGPT/openapi.yaml\n- julia/SquareGPT\n- julia/SquareGPT/.well-known\n- julia/SquareGPT/.well-known/ai-plugin.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "julia 文件结构",
+        "content": "julia/AnimalGPT\njulia/AnimalGPT/.well-known\njulia/AnimalGPT/.well-known/ai-plugin.json\njulia/AnimalGPT/README.md\njulia/AnimalGPT/animal.jl\njulia/AnimalGPT/logo.png\njulia/AnimalGPT/openapi.yaml\njulia/SquareGPT\njulia/SquareGPT/.well-known\njulia/SquareGPT/.well-known/ai-plugin.json\njulia/SquareGPT/README.md\njulia/SquareGPT/main.jl\njulia/SquareGPT/openapi.yaml\njulia/TodoGPT\njulia/TodoGPT/.well-known",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  },
+  {
+    "name": "ChatGPT-Plugins-Collection/python 模块",
+    "description": "[模块级] ChatGPT-Plugins-Collection 项目的 python 模块 (source)。来源: https://github.com/logankilpatrick/ChatGPT-Plugins-Collection",
+    "domain": "devops",
+    "tags": [
+      "julia",
+      "stars-668",
+      "github-logankilpatrick",
+      "module-level",
+      "source",
+      "python"
+    ],
+    "genes": [
+      {
+        "title": "python 模块说明",
+        "content": "模块路径: python/\n类型: source\n文件数: 20\n\n包含文件:\n- python/NotesGPT\n- python/NotesGPT/.well-known\n- python/NotesGPT/.well-known/ai-plugin.json\n- python/NotesGPT/README.md\n- python/NotesGPT/notes\n- python/NotesGPT/notes/user123_ChatGPT Plugins.md\n- python/NotesGPT/openapi.yaml\n- python/NotesGPT/server.py\n- python/TodoGPT\n- python/TodoGPT/.well-known",
+        "gene_type": "principle"
+      },
+      {
+        "title": "python 文件结构",
+        "content": "python/NotesGPT\npython/NotesGPT/.well-known\npython/NotesGPT/.well-known/ai-plugin.json\npython/NotesGPT/README.md\npython/NotesGPT/notes\npython/NotesGPT/notes/user123_ChatGPT Plugins.md\npython/NotesGPT/openapi.yaml\npython/NotesGPT/server.py\npython/TodoGPT\npython/TodoGPT/.well-known\npython/TodoGPT/.well-known/ai-plugin.json\npython/TodoGPT/README.md\npython/TodoGPT/openapi.yaml\npython/TodoGPT/server.py\npython/secretMessage",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6299105849902187
+  }
+]

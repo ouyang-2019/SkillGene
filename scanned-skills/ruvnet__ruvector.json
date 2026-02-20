@@ -1,0 +1,43 @@
+[
+  {
+    "name": "ruvector (ruvnet)",
+    "description": "[项目级] A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.。来源: https://github.com/ruvnet/ruvector",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-ocr",
+      "attention-mechanism",
+      "gnn",
+      "gnn-model",
+      "rust",
+      "stars-410",
+      "github-ruvnet",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A distributed vector database that learns. Store embeddings, query with Cypher, scale horizontally with Raft consensus, and let the index improve itself through Graph Neural Networks.\n\n来源: https://github.com/ruvnet/ruvector\n语言: Rust\nStars: 410",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npx @claude-flow/cli@latest init --wizard",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "使用方法",
+        "content": "[run 1] query: SELECT * FROM vectors WHERE embedding <-> $1 < 0.5\n        attention: topological (default)\n        mincut_tension: 0.23\n        latency: 847ms (improvement: 0.4%)\n\n[run 4] mincut_tension: 0.71 > 0.7 (THRESHOLD)\n        --> switching attention: topological -> mincut_gated\n        latency: 412ms (improvement: 51.5%)\n\n[run 10] attention: mincut_gated\n         mincut_tension: 0.22 (stable)\n         latency: 156ms (improvement: 81.6%)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<details>\n<summary><strong>🔀 Self-Learning DAG (Query Optimization)</strong></summary>\n\n[![crates.io](https://img.shields.io/crates/v/ruvector-dag.svg)](https://crates.io/crates/ruvector-dag)\n[![npm](https://img.shields.io/npm/v/@ruvector/rudag.svg)](https://www.npmjs.com/package/@ruvector/rudag)\n\n**Make your queries faster automatically.** RuVector DAG learns from every query execution and continuously optimizes performance—no manual tuning required.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.306391928359868
+  }
+]

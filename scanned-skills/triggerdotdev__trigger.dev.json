@@ -1,0 +1,103 @@
+[
+  {
+    "name": "trigger.dev (triggerdotdev)",
+    "description": "[项目级] Trigger.dev – build and deploy fully‑managed AI agents and workflows。来源: https://github.com/triggerdotdev/trigger.dev",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "automation",
+      "background-jobs",
+      "typescript",
+      "stars-13709",
+      "github-triggerdotdev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Trigger.dev is the open-source platform for building AI workflows in TypeScript. Long-running tasks with retries, queues, observability, and elastic scaling.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The quickest way to get started is to create an account and project in our [web app](https://cloud.trigger.dev), and follow the instructions in the onboarding. Build and deploy your first task in minutes.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGESETS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nDOCKER_INSTALLATION.md\nLICENSE\nREADME.md\nRELEASE.md\nai\nai/references\napps\napps/coordinator\napps/docker-provider\napps/kubernetes-provider\napps/supervisor\napps/webapp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **[JavaScript and TypeScript SDK](https://trigger.dev/docs/tasks/overview)** - Build background tasks using familiar programming models\n- **[Long-running tasks](https://trigger.dev/docs/runs/max-duration)** - Handle resource-heavy tasks without timeouts\n- **[Durable cron schedules](https://trigger.dev/docs/tasks/scheduled#scheduled-tasks-cron)** - Create and attach recurring schedules of up to a year\n- **[Trigger.dev Realtime](https://trigger.dev/docs/realtime/overview)** - Trigger, subscribe to, and get real-time updates for runs, with LLM streaming support\n- **[Build extensions](https://tr",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "trigger.dev/ai 模块",
+    "description": "[模块级] trigger.dev 项目的 ai 模块 (source)。来源: https://github.com/triggerdotdev/trigger.dev",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "automation",
+      "background-jobs",
+      "module-level",
+      "source",
+      "ai"
+    ],
+    "genes": [
+      {
+        "title": "ai 模块说明",
+        "content": "[Website](https://trigger.dev) | [Docs](https://trigger.dev/docs) | [Issues](https://github.com/triggerdotdev/trigger.dev/issues) | [Example projects](https://github.com/triggerdotdev/examples) | [Feature requests](https://triggerdev.featurebase.app/) | [Public roadmap](https://triggerdev.featurebase.app/roadmap) | [Self-hosting](https://trigger.dev/docs/self-hosting/overview) \n\n[![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg)](https://github.com/triggerdotdev/trigge",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai 文件结构",
+        "content": "ai/references\nai/references/migrations.md\nai/references/repo.md\nai/references/tests.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.15480231057164
+  },
+  {
+    "name": "trigger.dev/apps 模块",
+    "description": "[模块级] trigger.dev 项目的 apps 模块 (source)。来源: https://github.com/triggerdotdev/trigger.dev",
+    "domain": "web-frontend",
+    "tags": [
+      "ai",
+      "ai-agent-framework",
+      "ai-agents",
+      "automation",
+      "background-jobs",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 95\n\n包含文件:\n- apps/coordinator\n- apps/coordinator/.env.example\n- apps/coordinator/.gitignore\n- apps/coordinator/Containerfile\n- apps/coordinator/README.md\n- apps/coordinator/package.json\n- apps/coordinator/src\n- apps/coordinator/src/chaosMonkey.ts\n- apps/coordinator/src/checkpointer.ts\n- apps/coordinator/src/cleaner.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/coordinator\napps/coordinator/.env.example\napps/coordinator/.gitignore\napps/coordinator/Containerfile\napps/coordinator/README.md\napps/coordinator/package.json\napps/coordinator/src\napps/coordinator/src/chaosMonkey.ts\napps/coordinator/src/checkpointer.ts\napps/coordinator/src/cleaner.ts\napps/coordinator/src/exec.ts\napps/coordinator/src/index.ts\napps/coordinator/src/util.ts\napps/coordinator/tsconfig.json\napps/docker-provider",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.15480231057164
+  }
+]

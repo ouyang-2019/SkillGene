@@ -1,0 +1,211 @@
+[
+  {
+    "name": "swarm (parruda)",
+    "description": "[项目级] Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation. SwarmSDK provides single-process orchestration, persistent memory with semantic   search, node workflows, and hooks. SwarmMemory/SwarmCLI included. Claude Swarm v1 for dev teams.。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation. SwarmSDK provides single-process orchestration, persistent memory with semantic   search, node workflows, and hooks. SwarmMemory/SwarmCLI included. Claude Swarm v1 for dev teams.\n\n来源: https://github.com/parruda/swarm\n语言: Ruby\nStars: 1637",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.claude-swarm.md\nCLAUDE.md\nCONTRIBUTING.md\nGemfile\nGemfile.lock\nLICENSE\nREADME.md\nRELEASING.md\nRakefile\nanalyze_coverage.rb\nbin\nbin/console\nbin/migrate_sessions_to_0_3_0.rb\nbin/setup\nclaude-sdk-docs.md\nclaude_swarm.gemspec\ndecisions\ndecisions/2025-11-22-001-global-agent-registry.md\ndecisions/2025-12-03-004-llm-retry-strategy.md\ndecisions/2025-12-11-005-plan025-breaking-changes.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "version: 2\nagents:\n  lead_reviewer:\n    model: claude-3-5-sonnet-20241022\n    role: \"Lead code reviewer ensuring quality and best practices\"\n    tools: [Read, Write]\n    delegates_to: [security_expert, performance_analyst]\n    hooks:\n      on_user_message:\n        - run: \"git diff main..HEAD > /tmp/changes.diff\"\n          append_output_to_context: true\n\n  security_expert:\n    model: claude-3-5-sonnet-20241022\n    role: \"Security specialist checking for vulnerabilities\"\n    tools: [Read]\n    hooks:\n      on_user_message:\n        - run: \"semgrep --config=auto --json\"\n          append_output_to_c",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **🚀 Decoupled from Claude Code**: No more dependency on Claude Code\n- **⚡ Single Process Architecture**: All agents run in one Ruby process using [RubyLLM](https://github.com/parruda/ruby_llm) - no more managing multiple processes\n- **🎯 More Efficient**: Direct method calls instead of MCP inter-process communication\n- **🔧 Richer Features**: Node workflows, hooks system, scratchpad/memory tools, and more\n- **🎮 Better Control**: Fine-grained permissions, cost tracking, structured logging\n- **💻 Interactive REPL**: Built with TTY toolkit for a nice command-line experience\n- **🌐 Multiple LL",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.607024339705971
+  },
+  {
+    "name": "swarm/bin 模块",
+    "description": "[模块级] swarm 项目的 bin 模块 (script)。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 3\n\n包含文件:\n- bin/console\n- bin/migrate_sessions_to_0_3_0.rb\n- bin/setup",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/console\nbin/migrate_sessions_to_0_3_0.rb\nbin/setup",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  },
+  {
+    "name": "swarm/decisions 模块",
+    "description": "[模块级] swarm 项目的 decisions 模块 (source)。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "source",
+      "decisions"
+    ],
+    "genes": [
+      {
+        "title": "decisions 模块说明",
+        "content": "模块路径: decisions/\n类型: source\n文件数: 6\n\n包含文件:\n- decisions/2025-11-22-001-global-agent-registry.md\n- decisions/2025-12-03-004-llm-retry-strategy.md\n- decisions/2025-12-11-005-plan025-breaking-changes.md\n- decisions/2026-01-19-001-mcp-timeout-configuration.md\n- decisions/2026-01-30-001-hard-stop-mechanism.md\n- decisions/2026-01-30-002-trampoline-tool-loop.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "decisions 文件结构",
+        "content": "decisions/2025-11-22-001-global-agent-registry.md\ndecisions/2025-12-03-004-llm-retry-strategy.md\ndecisions/2025-12-11-005-plan025-breaking-changes.md\ndecisions/2026-01-19-001-mcp-timeout-configuration.md\ndecisions/2026-01-30-001-hard-stop-mechanism.md\ndecisions/2026-01-30-002-trampoline-tool-loop.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  },
+  {
+    "name": "swarm/docs 模块",
+    "description": "[模块级] swarm 项目的 docs 模块 (docs)。来源: https://github.com/parruda/swarm",
+    "domain": "documentation",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 32\n\n包含文件:\n- docs/V1_TO_V2_MIGRATION_GUIDE.md\n- docs/findings\n- docs/findings/2026-01-19-mcp-sse-timeout-investigation.md\n- docs/v1\n- docs/v1/README.md\n- docs/v2\n- docs/v2/CHANGELOG.swarm_cli.md\n- docs/v2/CHANGELOG.swarm_memory.md\n- docs/v2/CHANGELOG.swarm_sdk.md\n- docs/v2/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/V1_TO_V2_MIGRATION_GUIDE.md\ndocs/findings\ndocs/findings/2026-01-19-mcp-sse-timeout-investigation.md\ndocs/v1\ndocs/v1/README.md\ndocs/v2\ndocs/v2/CHANGELOG.swarm_cli.md\ndocs/v2/CHANGELOG.swarm_memory.md\ndocs/v2/CHANGELOG.swarm_sdk.md\ndocs/v2/README.md\ndocs/v2/guides\ndocs/v2/guides/claude-code-agents.md\ndocs/v2/guides/complete-tutorial.md\ndocs/v2/guides/composable-swarms.md\ndocs/v2/guides/getting-started.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  },
+  {
+    "name": "swarm/examples 模块",
+    "description": "[模块级] swarm 项目的 examples 模块 (example)。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 64\n\n包含文件:\n- examples/claude-swarm.yml\n- examples/microservices-team.yml\n- examples/mixed-provider-swarm.yml\n- examples/monitoring-demo.yml\n- examples/multi-directory.yml\n- examples/session-restoration-demo.yml\n- examples/simple-session-hook-swarm.yml\n- examples/snapshot_demo.rb\n- examples/test-generation.yml\n- examples/v2",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/claude-swarm.yml\nexamples/microservices-team.yml\nexamples/mixed-provider-swarm.yml\nexamples/monitoring-demo.yml\nexamples/multi-directory.yml\nexamples/session-restoration-demo.yml\nexamples/simple-session-hook-swarm.yml\nexamples/snapshot_demo.rb\nexamples/test-generation.yml\nexamples/v2\nexamples/v2/dsl\nexamples/v2/dsl/01_basic.rb\nexamples/v2/dsl/02_core_parameters.rb\nexamples/v2/dsl/03_capabilities.rb\nexamples/v2/dsl/04_llm_parameters.rb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  },
+  {
+    "name": "swarm/exe 模块",
+    "description": "[模块级] swarm 项目的 exe 模块 (source)。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "source",
+      "exe"
+    ],
+    "genes": [
+      {
+        "title": "exe 模块说明",
+        "content": "result = swarm.execute(\n  agent: :lead,\n  prompt: \"Build a simple TODO app\"\n)\n\nputs result.message\n```\n\n[Learn more about the Ruby DSL →](docs/v2/reference/ruby-dsl.md)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "exe 文件结构",
+        "content": "exe/claude-swarm\nexe/swarm",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  },
+  {
+    "name": "swarm/lib 模块",
+    "description": "[模块级] swarm 项目的 lib 模块 (source)。来源: https://github.com/parruda/swarm",
+    "domain": "devops",
+    "tags": [
+      "ruby",
+      "stars-1637",
+      "github-parruda",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "class MyPlugin < SwarmSDK::Plugin\n  def on_agent_init(agent)\n    # Add custom behavior when agent initializes\n  end\n\n  def on_user_message(message, agent)\n    # Process user messages\n  end\n\n  def provide_tools\n    [MyCustomTool.new]\n  end\nend",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/claude_swarm.rb\nlib/claude_swarm\nlib/claude_swarm/base_executor.rb\nlib/claude_swarm/claude_code_executor.rb\nlib/claude_swarm/claude_mcp_server.rb\nlib/claude_swarm/cli.rb\nlib/claude_swarm/commands\nlib/claude_swarm/commands/ps.rb\nlib/claude_swarm/commands/show.rb\nlib/claude_swarm/configuration.rb\nlib/claude_swarm/hooks\nlib/claude_swarm/hooks/session_start_hook.rb\nlib/claude_swarm/json_handler.rb\nlib/claude_swarm/mcp_generator.rb\nlib/claude_swarm/openai",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7856194717647766
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "langgraphjs (langchain-ai)",
+    "description": "[项目级] Framework to build resilient language agents as graphs.。来源: https://github.com/langchain-ai/langgraphjs",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "generative-ai",
+      "llm",
+      "typescript",
+      "stars-2556",
+      "github-langchain-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Framework to build resilient language agents as graphs.\n\n来源: https://github.com/langchain-ai/langgraphjs\n语言: TypeScript\nStars: 2556",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\ndeno.json\ndocs\ndocs/.gitignore\ndocs/.nojekyll\ndocs/CHANGELOG.md\ndocs/Makefile\ndocs/_scripts\ndocs/docs-requirements.txt\ndocs/docs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.703780424743181
+  },
+  {
+    "name": "langgraphjs/docs 模块",
+    "description": "[模块级] langgraphjs 项目的 docs 模块 (docs)。来源: https://github.com/langchain-ai/langgraphjs",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "generative-ai",
+      "llm",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 171\n\n包含文件:\n- docs/.gitignore\n- docs/.nojekyll\n- docs/CHANGELOG.md\n- docs/Makefile\n- docs/_scripts\n- docs/_scripts/copy_notebooks.py\n- docs/_scripts/generate_llms_text.py\n- docs/_scripts/notebook_convert.py\n- docs/_scripts/notebook_convert_templates\n- docs/_scripts/notebook_convert_templates/mdoutput",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.nojekyll\ndocs/CHANGELOG.md\ndocs/Makefile\ndocs/_scripts\ndocs/_scripts/copy_notebooks.py\ndocs/_scripts/generate_llms_text.py\ndocs/_scripts/notebook_convert.py\ndocs/_scripts/notebook_convert_templates\ndocs/_scripts/notebook_convert_templates/mdoutput\ndocs/_scripts/notebook_convert_templates/mdoutput/conf.json\ndocs/_scripts/notebook_convert_templates/mdoutput/index.md.j2\ndocs/_scripts/notebook_hooks.py\ndocs/_scripts/third_party\ndocs/_scripts/third_party/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.863024339794545
+  }
+]

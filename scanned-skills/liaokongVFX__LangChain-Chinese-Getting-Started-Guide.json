@@ -1,0 +1,72 @@
+[
+  {
+    "name": "LangChain-Chinese-Getting-Started-Guide (liaokongVFX)",
+    "description": "[项目级] LangChain 的中文入门教程。来源: https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide",
+    "domain": "ai-llm",
+    "tags": [
+      "aigc",
+      "chatgpt",
+      "langchain",
+      "openai",
+      "openai-api",
+      "stars-8814",
+      "github-liaokongvfx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "LangChain 的中文入门教程\n\n来源: https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide\n语言: unknown\nStars: 8814",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nREADME.md\nSUMMARY.md\ndata\ndata/lg_test.txt\ndoc\ndoc/image-20230404232621517.png\ndoc/image-20230404234236982.png\ndoc/image-20230405162631460.png\ndoc/image-20230405162937249.png\ndoc/image-20230405165752743.png\ndoc/image-20230405170617383.png\ndoc/image-20230405173730382.png\ndoc/image-20230405184646314.png\ndoc/image-20230406000017276.png\ndoc/image-20230406000133339.png\ndoc/image-20230406002117283.png\ndoc/image-20230406211923672.png\ndoc/image-20230406213322739.png\ndoc/image-20230406221940970.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "在 chatgpt api（也就是 GPT-3.5-Turbo）模型出来后，因钱少活好深受大家喜爱，所以 LangChain 也加入了专属的链和模型，我们来跟着这个例子看下如何使用他。\n\n```python\nimport os\n\nfrom langchain.document_loaders import YoutubeLoader\nfrom langchain.embeddings.openai import OpenAIEmbeddings\nfrom langchain.vectorstores import Chroma\nfrom langchain.text_splitter import RecursiveCharacterTextSplitter\nfrom langchain.chains import ChatVectorDBChain, ConversationalRetrievalChain\n\nfrom langchain.chat_models import ChatOpenAI\nfrom langchain.prompts.chat import (\n  ChatPromptTemplate,\n  SystemMessagePromptTemplate,\n  HumanMessagePromptTemplate\n)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "LLM 调用\n\n* 支持多种模型接口，比如 OpenAI、Hugging Face、AzureOpenAI ...\n* Fake LLM，用于测试\n* 缓存的支持，比如 in-mem（内存）、SQLite、Redis、SQL\n* 用量记录\n* 支持流模式（就是一个字一个字的返回，类似打字效果）\n\nPrompt管理，支持各种自定义模板\n\n拥有大量的文档加载器，比如 Email、Markdown、PDF、Youtube ...\n\n对索引的支持\n\n* 文档分割器\n* 向量化\n* 对接向量存储与搜索，比如 Chroma、Pinecone、Qdrand\n\nChains\n\n* LLMChain\n* 各种工具Chain\n* LangChainHub",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.97258652308695
+  },
+  {
+    "name": "LangChain-Chinese-Getting-Started-Guide/doc 模块",
+    "description": "[模块级] LangChain-Chinese-Getting-Started-Guide 项目的 doc 模块 (docs)。来源: https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide",
+    "domain": "documentation",
+    "tags": [
+      "aigc",
+      "chatgpt",
+      "langchain",
+      "openai",
+      "openai-api",
+      "module-level",
+      "docs",
+      "doc"
+    ],
+    "genes": [
+      {
+        "title": "doc 模块说明",
+        "content": "当使用loader加载器读取到数据源后，数据源需要转换成 Document 对象后，后续才能进行使用。\n\n###",
+        "gene_type": "principle"
+      },
+      {
+        "title": "doc 文件结构",
+        "content": "doc/image-20230404232621517.png\ndoc/image-20230404234236982.png\ndoc/image-20230405162631460.png\ndoc/image-20230405162937249.png\ndoc/image-20230405165752743.png\ndoc/image-20230405170617383.png\ndoc/image-20230405173730382.png\ndoc/image-20230405184646314.png\ndoc/image-20230406000017276.png\ndoc/image-20230406000133339.png\ndoc/image-20230406002117283.png\ndoc/image-20230406211923672.png\ndoc/image-20230406213322739.png\ndoc/image-20230406221940970.png\ndoc/image-20230406222023179.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.07806921846956
+  }
+]

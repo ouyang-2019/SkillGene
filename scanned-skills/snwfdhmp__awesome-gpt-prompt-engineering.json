@@ -1,0 +1,68 @@
+[
+  {
+    "name": "awesome-gpt-prompt-engineering (snwfdhmp)",
+    "description": "[项目级] A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.。来源: https://github.com/snwfdhmp/awesome-gpt-prompt-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "awesome-readme",
+      "awesome-resources",
+      "python",
+      "stars-1527",
+      "github-snwfdhmp",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of awesome resources, tools, and other shiny things for LLM prompt engineering.\n\n来源: https://github.com/snwfdhmp/awesome-gpt-prompt-engineering\n语言: Python\nStars: 1527",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE.md\nREADME.md\nassets\nassets/lxcl.py\nassets/roadmap.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "🚀 **RECOMMENDED**: [Use any LLM from the command line easily with llm](https://github.com/snwfdhmp/llm). 🚀",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.5919195185282105
+  },
+  {
+    "name": "awesome-gpt-prompt-engineering/assets 模块",
+    "description": "[模块级] awesome-gpt-prompt-engineering 项目的 assets 模块 (source)。来源: https://github.com/snwfdhmp/awesome-gpt-prompt-engineering",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "awesome-readme",
+      "awesome-resources",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/lxcl.py\n- assets/roadmap.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/lxcl.py\nassets/roadmap.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7735356148225687
+  }
+]

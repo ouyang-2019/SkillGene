@@ -1,0 +1,103 @@
+[
+  {
+    "name": "obsidian-Smart2Brain (your-papa)",
+    "description": "[项目级] An Obsidian plugin to interact with your privacy focused AI-Assistant making your second brain even smarter!。来源: https://github.com/your-papa/obsidian-Smart2Brain",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "embeddings",
+      "obsidian-md",
+      "obsidian-plugin",
+      "typescript",
+      "stars-990",
+      "github-your-papa",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "We initially made this plugin as part of a university project, which is now complete. However, we are still fully committed to developing and improving the assistant in our spare time.\nThis and the [papa-ts](https://github.com/your-papa/papa-ts) (backend) repo serve as an experimental playground, allowing us to explore state-of-the-art AI topics further and as a tool to enrich the obsidian experience we’re so passionate about.\nIf you have any suggestions or wish to contribute, we would greatly appreciate it.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> [!NOTE]  \n> If you use **Obsidian Sync** the vector store binaries might take up a lot of space due to the version history.  \n> Exclude the `.obsidian/plugins/smart-second-brain/vectorstores` folder in the Obsidian Sync settings to avoid this.\n\nFollow the onboarding instructions provided on initial plugin startup in Obsidian.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE\nPROMPT.md\nREADME.md\nbiome.json\nbtca.config.jsonc\nbun.lock\nflake.lock\nflake.nix\ngreptile.json\nmanifest.json\npackage.json\npostcss.config.js\nralph-config.json\nralph.sh\nsrc\nsrc/agent\nsrc/components\nsrc/hooks\nsrc/lib",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "**📝 Chat with your Notes**\n\n- **RAG pipeline:** All your notes will be embedded into vectors and then retrieved based on the similarity to your query in order to generate an answer based on the retrieved notes\n- **Get reference links to notes:** Because the answers are generated based on your retrieved notes we can trace where the information comes from and reference the origin of the knowledge in the answers as Obsidian links\n- **Chat with LLM:** You can disable the function to answer queries based on your notes and then all the answers generated are based on the chosen LLM’s training knowle",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.497817597298775
+  },
+  {
+    "name": "obsidian-Smart2Brain/src 模块",
+    "description": "[模块级] obsidian-Smart2Brain 项目的 src 模块 (source)。来源: https://github.com/your-papa/obsidian-Smart2Brain",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "embeddings",
+      "obsidian-md",
+      "obsidian-plugin",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 155\n\n包含文件:\n- src/agent\n- src/agent/Agent.ts\n- src/agent/AgentManager.ts\n- src/agent/ObsidianChatManager.ts\n- src/agent/memory\n- src/agent/memory/ThreadStore.ts\n- src/agent/memory/index.ts\n- src/agent/prompts.ts\n- src/agent/telemetry\n- src/agent/telemetry/LangSmithTelemetry.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agent\nsrc/agent/Agent.ts\nsrc/agent/AgentManager.ts\nsrc/agent/ObsidianChatManager.ts\nsrc/agent/memory\nsrc/agent/memory/ThreadStore.ts\nsrc/agent/memory/index.ts\nsrc/agent/prompts.ts\nsrc/agent/telemetry\nsrc/agent/telemetry/LangSmithTelemetry.ts\nsrc/agent/telemetry/Telemetry.ts\nsrc/agent/telemetry/index.ts\nsrc/agent/tools\nsrc/agent/tools/executeDataview.ts\nsrc/agent/tools/getAllTags.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69825407783902
+  },
+  {
+    "name": "obsidian-Smart2Brain/test 模块",
+    "description": "[模块级] obsidian-Smart2Brain 项目的 test 模块 (test)。来源: https://github.com/your-papa/obsidian-Smart2Brain",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "chatgpt",
+      "embeddings",
+      "obsidian-md",
+      "obsidian-plugin",
+      "module-level",
+      "test",
+      "test"
+    ],
+    "genes": [
+      {
+        "title": "test 模块说明",
+        "content": "模块路径: test/\n类型: test\n文件数: 16\n\n包含文件:\n- test/__mocks__\n- test/__mocks__/obsidian.ts\n- test/agent\n- test/agent/AgentManager.test.ts\n- test/providers\n- test/providers/auth-fields.test.ts\n- test/providers/auth-state.test.ts\n- test/providers/base\n- test/providers/base/anthropicRuntime.test.ts\n- test/providers/base/ollamaRuntime.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "test 文件结构",
+        "content": "test/__mocks__\ntest/__mocks__/obsidian.ts\ntest/agent\ntest/agent/AgentManager.test.ts\ntest/providers\ntest/providers/auth-fields.test.ts\ntest/providers/auth-state.test.ts\ntest/providers/base\ntest/providers/base/anthropicRuntime.test.ts\ntest/providers/base/ollamaRuntime.test.ts\ntest/providers/base/openaiCompatible.test.ts\ntest/providers/builtin\ntest/providers/builtin/anthropic.test.ts\ntest/providers/builtin/index.test.ts\ntest/providers/builtin/ollama.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.69825407783902
+  }
+]

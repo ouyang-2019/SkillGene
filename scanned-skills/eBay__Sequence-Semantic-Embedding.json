@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Sequence-Semantic-Embedding (eBay)",
+    "description": "[项目级] Tools and recipes to train deep learning models and build services for NLP tasks such as text classification, semantic search ranking and recall fetching, cross-lingual information retrieval, and question answering etc.。来源: https://github.com/eBay/Sequence-Semantic-Embedding",
+    "domain": "devops",
+    "tags": [
+      "classification-task",
+      "information-retrieval",
+      "nlp-tasks",
+      "sse-embeddings",
+      "text-classification",
+      "python",
+      "stars-461",
+      "github-ebay",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Tools and recipes to train deep learning models and build services for NLP tasks such as text classification, semantic search ranking and recall fetching, cross-lingual information retrieval, and question answering etc.\n\n来源: https://github.com/eBay/Sequence-Semantic-Embedding\n语言: Python\nStars: 461",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "The code of SSE toolkit support both python2 and python3. Just issue below command to download the repo and install dependencies such as tensorflow.\n\n``` bash\ngit clone https://github.com/eBay/Sequence-Semantic-Embedding.git\ncd Sequence-Semantic-Embedding\n./env_setup.sh\n```",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\n__init__.py\ndata.py\ndata_utils.py\nenv_setup.sh\nimages\nimages/Dual-EncoderModeforSSE.png\nimages/SSE-CrossLingual-Backpack.png\nimages/SSE-CrossLingual-BasketBallShoes.png\nimages/SSE-CrossLingual-DownVest.png\nimages/SSE-CrossLingual-Visualization.png\nimages/Source-Encoder-OnlyModeForSSE.png\nimages/shared-encoderModeForSSE.png\nmakefile\nrawdata-classification\nrawdata-classification/DataSet.tar.gz\nrawdata-crosslingual\nrawdata-crosslingual/DataSet.tar.gz\nrawdata-qna",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.331850462694824
+  },
+  {
+    "name": "Sequence-Semantic-Embedding/images 模块",
+    "description": "[模块级] Sequence-Semantic-Embedding 项目的 images 模块 (source)。来源: https://github.com/eBay/Sequence-Semantic-Embedding",
+    "domain": "devops",
+    "tags": [
+      "classification-task",
+      "information-retrieval",
+      "nlp-tasks",
+      "sse-embeddings",
+      "text-classification",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 7\n\n包含文件:\n- images/Dual-EncoderModeforSSE.png\n- images/SSE-CrossLingual-Backpack.png\n- images/SSE-CrossLingual-BasketBallShoes.png\n- images/SSE-CrossLingual-DownVest.png\n- images/SSE-CrossLingual-Visualization.png\n- images/Source-Encoder-OnlyModeForSSE.png\n- images/shared-encoderModeForSSE.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Dual-EncoderModeforSSE.png\nimages/SSE-CrossLingual-Backpack.png\nimages/SSE-CrossLingual-BasketBallShoes.png\nimages/SSE-CrossLingual-DownVest.png\nimages/SSE-CrossLingual-Visualization.png\nimages/Source-Encoder-OnlyModeForSSE.png\nimages/shared-encoderModeForSSE.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5654803701558593
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Stablediffy (vicuna-tools)",
+    "description": "[项目级] Create amazing Stable Diffusion prompts with minimal prompt knowledge. A vicuna based prompt engineering tool for stable diffusion。来源: https://github.com/vicuna-tools/Stablediffy",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "chatbot",
+      "llama",
+      "prompt-engineering",
+      "stable-diffusion",
+      "stars-91",
+      "github-vicuna-tools",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Create amazing Stable Diffusion prompts with minimal prompt knowledge. A vicuna based prompt engineering tool for stable diffusion\n\n来源: https://github.com/vicuna-tools/Stablediffy\n语言: unknown\nStars: 91",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "wget \"https://raw.githubusercontent.com/vicuna-tools/Stablediffy.txt/main/Stablediffy.txt\"",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\nStablediffy.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979520696160547
+  }
+]

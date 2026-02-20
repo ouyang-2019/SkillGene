@@ -1,0 +1,168 @@
+[
+  {
+    "name": "claude-night-market (athola)",
+    "description": "[项目级] Marketplace repo for Claude Code Plugins developed from personal projects and workflow。来源: https://github.com/athola/claude-night-market",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "bug-review",
+      "claude-code",
+      "claude-code-plugins-marketplace",
+      "python",
+      "stars-175",
+      "github-athola",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "1.  **Foundation Layer**: Core utilities. `sanctum` (git and sessions), `leyline` (auth and quotas), and `imbue` (TDD cycles).\n2.  **Utility Layer**: Resource management. `conserve` (context optimization) and `hookify` (rules engine with hook conversion and context-aware rule suggestions).\n3.  **Domain Specialists**: Task-specific logic. `pensive` (code review and refinement, including NASA Power of 10 safety patterns), `spec-kit` (requirements), `minister` (issue tracking), and `attune` (project lifecycle from brainstorm to execution). `attune` commands auto-chain forward by default (use `--standalone` to run a single phase). `/attune:mission` orchestrates the full brainstorm→specify→plan→execute lifecycle with state persistence and session recovery.\n4.  **Meta Layer**: `abstract` provide",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMakefile\nREADME.md\nassets\nassets/gifs\nassets/tapes\nbook\nbook/book.toml\nbook/src\nbook/theme\nconftest.py\ndocs\ndocs/adr\ndocs/api-overview.md\ndocs/api-updates.md\ndocs/architecture-analysis-report.md\ndocs/claude-rules-templates.md\ndocs/curation-log.md\ndocs/dependency-audit.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The ecosystem adds ~14.8k characters to the system prompt. As of Claude Code 2.1.32+, the skill description budget scales at 2% of context window instead of a fixed limit. Plugins use modular designs and progressive loading to stay within these limits.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**Governance & Quality**\nHooks adapt context based on the active agent. `pensive` tracks usage frequency and failure rates to identify unstable workflows. `imbue` enforces test-driven development via a PreToolUse hook that verifies the existence of test files before allowing implementation writes. For complex tasks, `imbue:rigorous-reasoning` requires step-by-step logic checks before tool execution.\n\n**Security & Session Management**\n`leyline` manages OAuth flows for GitHub, GitLab, and AWS with local token caching. `conserve` implements permission checks, automatically approving safe commands",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.121519024343147
+  },
+  {
+    "name": "claude-night-market/assets 模块",
+    "description": "[模块级] claude-night-market 项目的 assets 模块 (source)。来源: https://github.com/athola/claude-night-market",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "bug-review",
+      "claude-code",
+      "claude-code-plugins-marketplace",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 7\n\n包含文件:\n- assets/gifs\n- assets/gifs/skills-showcase.gif\n- assets/tapes\n- assets/tapes/README.md\n- assets/tapes/skills-showcase.manifest.yaml\n- assets/tapes/skills-showcase.tape\n- assets/tapes/validate-and-regenerate.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/gifs\nassets/gifs/skills-showcase.gif\nassets/tapes\nassets/tapes/README.md\nassets/tapes/skills-showcase.manifest.yaml\nassets/tapes/skills-showcase.tape\nassets/tapes/validate-and-regenerate.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  },
+  {
+    "name": "claude-night-market/book 模块",
+    "description": "[模块级] claude-night-market 项目的 book 模块 (source)。来源: https://github.com/athola/claude-night-market",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "bug-review",
+      "claude-code",
+      "claude-code-plugins-marketplace",
+      "module-level",
+      "source",
+      "book"
+    ],
+    "genes": [
+      {
+        "title": "book 模块说明",
+        "content": "模块路径: book/\n类型: source\n文件数: 59\n\n包含文件:\n- book/book.toml\n- book/src\n- book/src/SUMMARY.md\n- book/src/achievements\n- book/src/achievements/README.md\n- book/src/getting-started\n- book/src/getting-started/README.md\n- book/src/getting-started/common-workflows.md\n- book/src/getting-started/first-plugin.md\n- book/src/getting-started/installation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "book 文件结构",
+        "content": "book/book.toml\nbook/src\nbook/src/SUMMARY.md\nbook/src/achievements\nbook/src/achievements/README.md\nbook/src/getting-started\nbook/src/getting-started/README.md\nbook/src/getting-started/common-workflows.md\nbook/src/getting-started/first-plugin.md\nbook/src/getting-started/installation.md\nbook/src/getting-started/migration-guide.md\nbook/src/getting-started/quick-start.md\nbook/src/introduction.md\nbook/src/plugins\nbook/src/plugins/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  },
+  {
+    "name": "claude-night-market/docs 模块",
+    "description": "[模块级] claude-night-market 项目的 docs 模块 (docs)。来源: https://github.com/athola/claude-night-market",
+    "domain": "documentation",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "bug-review",
+      "claude-code",
+      "claude-code-plugins-marketplace",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 82\n\n包含文件:\n- docs/adr\n- docs/adr/0001-plugin-dependency-isolation.md\n- docs/adr/0002-quota-tracker-refactoring.md\n- docs/adr/0003-command-description-refactoring.md\n- docs/adr/0004-skill-description-budget-optimization.md\n- docs/adr/0005-attune-discoverability-enhancement.md\n- docs/adr/0006-self-adapting-skill-health.md\n- docs/api-overview.md\n- docs/api-updates.md\n- docs/architecture-analysis-report.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/adr\ndocs/adr/0001-plugin-dependency-isolation.md\ndocs/adr/0002-quota-tracker-refactoring.md\ndocs/adr/0003-command-description-refactoring.md\ndocs/adr/0004-skill-description-budget-optimization.md\ndocs/adr/0005-attune-discoverability-enhancement.md\ndocs/adr/0006-self-adapting-skill-health.md\ndocs/api-overview.md\ndocs/api-updates.md\ndocs/architecture-analysis-report.md\ndocs/claude-rules-templates.md\ndocs/curation-log.md\ndocs/dependency-audit.md\ndocs/error-handling-template.md\ndocs/evaluation-skills-inventory.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  },
+  {
+    "name": "claude-night-market/plugins 模块",
+    "description": "[模块级] claude-night-market 项目的 plugins 模块 (source)。来源: https://github.com/athola/claude-night-market",
+    "domain": "ai-llm",
+    "tags": [
+      "awesome-claude-code",
+      "awesome-claude-skills",
+      "bug-review",
+      "claude-code",
+      "claude-code-plugins-marketplace",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "/plugin install sanctum@claude-night-market    # Git workflows\n/plugin install pensive@claude-night-market    # Code review\n/plugin install spec-kit@claude-night-market   # Spec-driven dev",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/abstract\nplugins/abstract/.claude-plugin\nplugins/abstract/.claude-plugin/metadata.json\nplugins/abstract/.claude-plugin/plugin.json\nplugins/abstract/Makefile\nplugins/abstract/README.md\nplugins/abstract/agents\nplugins/abstract/agents/meta-architect.md\nplugins/abstract/agents/plugin-validator.md\nplugins/abstract/agents/skill-auditor.md\nplugins/abstract/agents/skill-evaluator.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3972152194745178
+  }
+]

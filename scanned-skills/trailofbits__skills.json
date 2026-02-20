@@ -6,7 +6,7 @@
     "tags": [
       "agent-skills",
       "python",
-      "stars-2817",
+      "stars-2819",
       "github-trailofbits",
       "project-level"
     ],
@@ -29,7 +29,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.724893423492887
+    "rating": 4.725047537935801
   },
   {
     "name": "skills/plugins 模块",
@@ -38,7 +38,7 @@
     "tags": [
       "agent-skills",
       "python",
-      "stars-2817",
+      "stars-2819",
       "github-trailofbits",
       "module-level",
       "source",
@@ -63,6 +63,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.8799147387943096
+    "rating": 3.880038030348641
   }
 ]

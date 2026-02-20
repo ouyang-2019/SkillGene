@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Prompt-Engineering-Guide (dair-ai)",
+    "description": "[项目级] 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.。来源: https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "chatgpt",
+      "deep-learning",
+      "mdx",
+      "stars-70574",
+      "github-dair-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.\n\n来源: https://github.com/dair-ai/Prompt-Engineering-Guide\n语言: MDX\nStars: 70574",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CITATION.cff\nLICENSE.md\nREADME.md\nar-pages\nar-pages/about.ar.mdx\nar-pages/applications.ar.mdx\nar-pages/applications\nar-pages/course.ar.mdx\nar-pages/datasets.ar.mdx\nar-pages/introduction.ar.mdx\nar-pages/introduction\nar-pages/models.ar.mdx\nar-pages/models\nar-pages/notebooks.ar.mdx\nar-pages/papers.ar.mdx\nar-pages/prompts.ar.mdx\nar-pages/prompts\nar-pages/readings.ar.mdx\nar-pages/research.ar.mdx\nar-pages/research",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "Prompt-Engineering-Guide/ar-pages 模块",
+    "description": "[模块级] Prompt-Engineering-Guide 项目的 ar-pages 模块 (source)。来源: https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "chatgpt",
+      "deep-learning",
+      "module-level",
+      "source",
+      "ar-pages"
+    ],
+    "genes": [
+      {
+        "title": "ar-pages 模块说明",
+        "content": "模块路径: ar-pages/\n类型: source\n文件数: 153\n\n包含文件:\n- ar-pages/about.ar.mdx\n- ar-pages/applications.ar.mdx\n- ar-pages/applications\n- ar-pages/applications/_meta.ar.json\n- ar-pages/applications/coding.ar.mdx\n- ar-pages/applications/function_calling.ar.mdx\n- ar-pages/applications/generating.ar.mdx\n- ar-pages/applications/generating_textbooks.ar.mdx\n- ar-pages/applications/pf.ar.mdx\n- ar-pages/applications/synthetic_rag.ar.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ar-pages 文件结构",
+        "content": "ar-pages/about.ar.mdx\nar-pages/applications.ar.mdx\nar-pages/applications\nar-pages/applications/_meta.ar.json\nar-pages/applications/coding.ar.mdx\nar-pages/applications/function_calling.ar.mdx\nar-pages/applications/generating.ar.mdx\nar-pages/applications/generating_textbooks.ar.mdx\nar-pages/applications/pf.ar.mdx\nar-pages/applications/synthetic_rag.ar.mdx\nar-pages/applications/workplace_casestudy.ar.mdx\nar-pages/course.ar.mdx\nar-pages/datasets.ar.mdx\nar-pages/introduction.ar.mdx\nar-pages/introduction",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.439457893246555
+  },
+  {
+    "name": "Prompt-Engineering-Guide/components 模块",
+    "description": "[模块级] Prompt-Engineering-Guide 项目的 components 模块 (source)。来源: https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "agents",
+      "ai-agents",
+      "chatgpt",
+      "deep-learning",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 36\n\n包含文件:\n- components/AnnouncementBar.tsx\n- components/CodeBlock.tsx\n- components/ContentFileNames.tsx\n- components/CopyPageDropdown.tsx\n- components/CourseCard.tsx\n- components/PromptFiles.jsx\n- components/TabsComponent.tsx\n- components/button.tsx\n- components/check.tsx\n- components/copy-to-clipboard.tsx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/AnnouncementBar.tsx\ncomponents/CodeBlock.tsx\ncomponents/ContentFileNames.tsx\ncomponents/CopyPageDropdown.tsx\ncomponents/CourseCard.tsx\ncomponents/PromptFiles.jsx\ncomponents/TabsComponent.tsx\ncomponents/button.tsx\ncomponents/check.tsx\ncomponents/copy-to-clipboard.tsx\ncomponents/copy.tsx\ncomponents/counters.module.css\ncomponents/counters.tsx\ncomponents/icons\ncomponents/icons/arrow-right.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.439457893246555
+  }
+]

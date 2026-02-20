@@ -1,0 +1,108 @@
+[
+  {
+    "name": "claudian (YishenTu)",
+    "description": "[项目级] An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault。来源: https://github.com/YishenTu/claudian",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "ide",
+      "obsidian",
+      "obsidian-plugin",
+      "productivity",
+      "typescript",
+      "stars-2523",
+      "github-yishentu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault\n\n来源: https://github.com/YishenTu/claudian\n语言: TypeScript\nStars: 2523",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nPreview.png\nREADME.md\nesbuild.config.mjs\njest.config.js\nmanifest.json\npackage-lock.json\npackage.json\nscripts\nscripts/build-css.mjs\nscripts/build.mjs\nscripts/postinstall.mjs\nscripts/run-jest.js\nscripts/sync-version.js\nsrc\nsrc/core\nsrc/features\nsrc/i18n",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "**Two modes:**\n1. Click the bot icon in ribbon or use command palette to open chat\n2. Select text + hotkey for inline edit\n\nUse it like Claude Code—read, write, edit, search files in your vault.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Full Agentic Capabilities**: Leverage Claude Code's power to read, write, and edit files, search, and execute bash commands, all within your Obsidian vault.\n- **Context-Aware**: Automatically attach the focused note, mention files with `@`, exclude notes by tag, include editor selection (Highlight), and access external directories for additional context.\n- **Vision Support**: Analyze images by sending them via drag-and-drop, paste, or file path.\n- **Inline Edit**: Edit selected text or insert content at cursor position directly in notes with word-level diff preview and read-only tool acces",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.700958625258787
+  },
+  {
+    "name": "claudian/scripts 模块",
+    "description": "[模块级] claudian 项目的 scripts 模块 (script)。来源: https://github.com/YishenTu/claudian",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "ide",
+      "obsidian",
+      "obsidian-plugin",
+      "productivity",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/build-css.mjs\n- scripts/build.mjs\n- scripts/postinstall.mjs\n- scripts/run-jest.js\n- scripts/sync-version.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build-css.mjs\nscripts/build.mjs\nscripts/postinstall.mjs\nscripts/run-jest.js\nscripts/sync-version.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8607669002070297
+  },
+  {
+    "name": "claudian/src 模块",
+    "description": "[模块级] claudian 项目的 src 模块 (source)。来源: https://github.com/YishenTu/claudian",
+    "domain": "devops",
+    "tags": [
+      "claude-code",
+      "ide",
+      "obsidian",
+      "obsidian-plugin",
+      "productivity",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 171\n\n包含文件:\n- src/core\n- src/core/CLAUDE.md\n- src/core/agent\n- src/core/agent/ClaudianService.ts\n- src/core/agent/MessageChannel.ts\n- src/core/agent/QueryOptionsBuilder.ts\n- src/core/agent/SessionManager.ts\n- src/core/agent/customSpawn.ts\n- src/core/agent/index.ts\n- src/core/agent/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/core\nsrc/core/CLAUDE.md\nsrc/core/agent\nsrc/core/agent/ClaudianService.ts\nsrc/core/agent/MessageChannel.ts\nsrc/core/agent/QueryOptionsBuilder.ts\nsrc/core/agent/SessionManager.ts\nsrc/core/agent/customSpawn.ts\nsrc/core/agent/index.ts\nsrc/core/agent/types.ts\nsrc/core/agents\nsrc/core/agents/AgentManager.ts\nsrc/core/agents/AgentStorage.ts\nsrc/core/agents/index.ts\nsrc/core/commands",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8607669002070297
+  }
+]

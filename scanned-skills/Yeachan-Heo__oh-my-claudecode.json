@@ -1,0 +1,193 @@
+[
+  {
+    "name": "oh-my-claudecode (Yeachan-Heo)",
+    "description": "[项目级] Teams-first Multi-agent orchestration for Claude Code。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "typescript",
+      "stars-6803",
+      "github-yeachan-heo",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Teams-first Multi-agent orchestration for Claude Code\n\n来源: https://github.com/Yeachan-Heo/oh-my-claudecode\n语言: TypeScript\nStars: 6803",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode\n/plugin install oh-my-claudecode",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nANALYSIS.md\nCATEGORY_IMPLEMENTATION.md\nCHANGELOG.md\nCLAUDE.md\nIMPLEMENTATION_SUMMARY.md\nISSUE-319-FIX.md\nLICENSE\nREADME.es.md\nREADME.ja.md\nREADME.ko.md\nREADME.md\nREADME.pt.md\nREADME.vi.md\nREADME.zh.md\nSECURITY-FIXES.md\nagents.codex\nagents.codex/CONVERSION-GUIDE.md\nagents.codex/analyst.md\nagents.codex/api-reviewer.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.916350235480284
+  },
+  {
+    "name": "oh-my-claudecode/agents.codex 模块",
+    "description": "[模块级] oh-my-claudecode 项目的 agents.codex 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "agents.codex"
+    ],
+    "genes": [
+      {
+        "title": "agents.codex 模块说明",
+        "content": "模块路径: agents.codex/\n类型: source\n文件数: 31\n\n包含文件:\n- agents.codex/CONVERSION-GUIDE.md\n- agents.codex/analyst.md\n- agents.codex/api-reviewer.md\n- agents.codex/architect.md\n- agents.codex/build-fixer.md\n- agents.codex/code-reviewer.md\n- agents.codex/critic.md\n- agents.codex/debugger.md\n- agents.codex/deep-executor.md\n- agents.codex/dependency-expert.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents.codex 文件结构",
+        "content": "agents.codex/CONVERSION-GUIDE.md\nagents.codex/analyst.md\nagents.codex/api-reviewer.md\nagents.codex/architect.md\nagents.codex/build-fixer.md\nagents.codex/code-reviewer.md\nagents.codex/critic.md\nagents.codex/debugger.md\nagents.codex/deep-executor.md\nagents.codex/dependency-expert.md\nagents.codex/designer.md\nagents.codex/executor.md\nagents.codex/explore.md\nagents.codex/git-master.md\nagents.codex/information-architect.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.033080188384227
+  },
+  {
+    "name": "oh-my-claudecode/agents 模块",
+    "description": "[模块级] oh-my-claudecode 项目的 agents 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "agents 模块说明",
+        "content": "模块路径: agents/\n类型: source\n文件数: 31\n\n包含文件:\n- agents/analyst.md\n- agents/api-reviewer.md\n- agents/architect.md\n- agents/build-fixer.md\n- agents/code-reviewer.md\n- agents/code-simplifier.md\n- agents/critic.md\n- agents/debugger.md\n- agents/deep-executor.md\n- agents/dependency-expert.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agents 文件结构",
+        "content": "agents/analyst.md\nagents/api-reviewer.md\nagents/architect.md\nagents/build-fixer.md\nagents/code-reviewer.md\nagents/code-simplifier.md\nagents/critic.md\nagents/debugger.md\nagents/deep-executor.md\nagents/dependency-expert.md\nagents/designer.md\nagents/document-specialist.md\nagents/executor.md\nagents/explore.md\nagents/git-master.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.033080188384227
+  },
+  {
+    "name": "oh-my-claudecode/assets 模块",
+    "description": "[模块级] oh-my-claudecode 项目的 assets 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/omc-character.jpg\n- assets/omc-social-preview.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/omc-character.jpg\nassets/omc-social-preview.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.033080188384227
+  },
+  {
+    "name": "oh-my-claudecode/benchmark 模块",
+    "description": "[模块级] oh-my-claudecode 项目的 benchmark 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "benchmark"
+    ],
+    "genes": [
+      {
+        "title": "benchmark 模块说明",
+        "content": "模块路径: benchmark/\n类型: source\n文件数: 26\n\n包含文件:\n- benchmark/.env.example\n- benchmark/.gitignore\n- benchmark/Dockerfile\n- benchmark/README.md\n- benchmark/analyze_failures.py\n- benchmark/compare_results.py\n- benchmark/docker-compose.yml\n- benchmark/entrypoint.sh\n- benchmark/evaluate.py\n- benchmark/predictions",
+        "gene_type": "principle"
+      },
+      {
+        "title": "benchmark 文件结构",
+        "content": "benchmark/.env.example\nbenchmark/.gitignore\nbenchmark/Dockerfile\nbenchmark/README.md\nbenchmark/analyze_failures.py\nbenchmark/compare_results.py\nbenchmark/docker-compose.yml\nbenchmark/entrypoint.sh\nbenchmark/evaluate.py\nbenchmark/predictions\nbenchmark/predictions/omc\nbenchmark/predictions/omc/checkpoint.json\nbenchmark/predictions/omc/stats.json\nbenchmark/predictions/vanilla\nbenchmark/predictions/vanilla/checkpoint.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.033080188384227
+  },
+  {
+    "name": "oh-my-claudecode/bridge 模块",
+    "description": "[模块级] oh-my-claudecode 项目的 bridge 模块 (source)。来源: https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "domain": "ai-llm",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "automation",
+      "claude",
+      "claude-code",
+      "module-level",
+      "source",
+      "bridge"
+    ],
+    "genes": [
+      {
+        "title": "bridge 模块说明",
+        "content": "模块路径: bridge/\n类型: source\n文件数: 8\n\n包含文件:\n- bridge/__pycache__\n- bridge/__pycache__/gyoshu_bridge.cpython-310.pyc\n- bridge/codex-server.cjs\n- bridge/gemini-server.cjs\n- bridge/gyoshu_bridge.py\n- bridge/mcp-server.cjs\n- bridge/run-mcp-server.sh\n- bridge/team-bridge.cjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bridge 文件结构",
+        "content": "bridge/__pycache__\nbridge/__pycache__/gyoshu_bridge.cpython-310.pyc\nbridge/codex-server.cjs\nbridge/gemini-server.cjs\nbridge/gyoshu_bridge.py\nbridge/mcp-server.cjs\nbridge/run-mcp-server.sh\nbridge/team-bridge.cjs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.033080188384227
+  }
+]

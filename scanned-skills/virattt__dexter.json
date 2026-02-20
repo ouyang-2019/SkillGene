@@ -1,0 +1,66 @@
+[
+  {
+    "name": "dexter (virattt)",
+    "description": "[项目级] An autonomous agent for deep financial research。来源: https://github.com/virattt/dexter",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-15757",
+      "github-virattt",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Dexter takes complex financial questions and turns them into clear, step-by-step research plans. It runs those tasks using live market data, checks its own work, and refines the results until it has a confident, data-backed answer.  \n\n**Key Capabilities:**\n- **Intelligent Task Planning**: Automatically decomposes complex queries into structured research steps\n- **Autonomous Execution**: Selects and executes the right tools to gather financial data\n- **Self-Validation**: Checks its own work and iterates until tasks are complete\n- **Real-Time Financial Data**: Access to income statements, balance sheets, and cash flow statements\n- **Safety Features**: Built-in loop detection and step limits to prevent runaway execution\n\n[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=s",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "curl -fsSL https://bun.com/install | bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nREADME.md\nbun.lock\nenv.example\njest.config.js\npackage.json\nscripts\nscripts/release.sh\nsrc\nsrc/agent\nsrc/cli.ts\nsrc/components\nsrc/controllers\nsrc/evals\nsrc/gateway\nsrc/index.tsx\nsrc/model\nsrc/providers.ts\nsrc/skills\nsrc/theme.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "git clone https://github.com/virattt/dexter.git\ncd dexter",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "dexter/src 模块",
+    "description": "[模块级] dexter 项目的 src 模块 (source)。来源: https://github.com/virattt/dexter",
+    "domain": "devops",
+    "tags": [
+      "typescript",
+      "stars-15757",
+      "github-virattt",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 166\n\n包含文件:\n- src/agent\n- src/agent/agent.ts\n- src/agent/final-answer-context.ts\n- src/agent/index.ts\n- src/agent/prompts.ts\n- src/agent/run-context.ts\n- src/agent/scratchpad.ts\n- src/agent/token-counter.ts\n- src/agent/tool-executor.ts\n- src/agent/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agent\nsrc/agent/agent.ts\nsrc/agent/final-answer-context.ts\nsrc/agent/index.ts\nsrc/agent/prompts.ts\nsrc/agent/run-context.ts\nsrc/agent/scratchpad.ts\nsrc/agent/token-counter.ts\nsrc/agent/tool-executor.ts\nsrc/agent/types.ts\nsrc/cli.ts\nsrc/components\nsrc/components/answer-box.ts\nsrc/components/approval-prompt.ts\nsrc/components/chat-log.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.178989414005911
+  }
+]

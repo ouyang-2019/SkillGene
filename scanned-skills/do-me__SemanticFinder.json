@@ -1,0 +1,138 @@
+[
+  {
+    "name": "SemanticFinder (do-me)",
+    "description": "[项目级] SemanticFinder - frontend-only live semantic search with transformers.js。来源: https://github.com/do-me/SemanticFinder",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "codemirror",
+      "semantic-search",
+      "semanticsearch",
+      "transformers",
+      "javascript",
+      "stars-322",
+      "github-do-me",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "SemanticFinder - frontend-only live semantic search with transformers.js\n\n来源: https://github.com/do-me/SemanticFinder\n语言: JavaScript\nStars: 322",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nSemanticFinder.gif\nSemanticFinder_Chrome_Extension.gif\nSemanticFinder_Chrome_Extension_en.zip\nSemanticFinder_gource.png\nextension\nextension/.gitignore\nextension/README.md\nextension/package-lock.json\nextension/package.json\nextension/public\nextension/src\nextension/webpack.config.js\nindex.html\njsconfig.json\nlogo.png\nmisc\nmisc/Generate_large_textfile_from_books.ipynb\nmisc/README.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- Basic search through anything, like your personal notes (my initial motivation by the way, a huge notes.txt file I couldn't handle anymore)\n- Remember peom analysis in school? Often you look for possible Leitmotifs or recurring categories like **food** in Hänsel & Gretel",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "You can customize everything!\n\n- Input text & search term(s)\n- Hybrid search (semantic search & full-text search)\n- Segment length (the bigger the faster, the smaller the slower)\n- Highlight colors (currently hard-coded)\n- Number of highlights are based on the threshold value. The lower, the more results.\n- Live updates\n- Easy integration of other ML-models thanks to [transformers.js](https://xenova.github.io/transformers.js/)\n- Data privacy-friendly - your input text data is not sent to a server, it stays in your browser!",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.253927935847916
+  },
+  {
+    "name": "SemanticFinder/extension 模块",
+    "description": "[模块级] SemanticFinder 项目的 extension 模块 (source)。来源: https://github.com/do-me/SemanticFinder",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "codemirror",
+      "semantic-search",
+      "semanticsearch",
+      "transformers",
+      "module-level",
+      "source",
+      "extension"
+    ],
+    "genes": [
+      {
+        "title": "extension 模块说明",
+        "content": "模块路径: extension/\n类型: source\n文件数: 35\n\n包含文件:\n- extension/.gitignore\n- extension/README.md\n- extension/package-lock.json\n- extension/package.json\n- extension/public\n- extension/public/icons\n- extension/public/icons/logo128.png\n- extension/public/icons/logo48.png\n- extension/public/manifest.json\n- extension/src",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extension 文件结构",
+        "content": "extension/.gitignore\nextension/README.md\nextension/package-lock.json\nextension/package.json\nextension/public\nextension/public/icons\nextension/public/icons/logo128.png\nextension/public/icons/logo48.png\nextension/public/manifest.json\nextension/src\nextension/src/content\nextension/src/content/content.css\nextension/src/content/content.js\nextension/src/options\nextension/src/options/options.css",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5031423486783324
+  },
+  {
+    "name": "SemanticFinder/misc 模块",
+    "description": "[模块级] SemanticFinder 项目的 misc 模块 (source)。来源: https://github.com/do-me/SemanticFinder",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "codemirror",
+      "semantic-search",
+      "semanticsearch",
+      "transformers",
+      "module-level",
+      "source",
+      "misc"
+    ],
+    "genes": [
+      {
+        "title": "misc 模块说明",
+        "content": "模块路径: misc/\n类型: source\n文件数: 2\n\n包含文件:\n- misc/Generate_large_textfile_from_books.ipynb\n- misc/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "misc 文件结构",
+        "content": "misc/Generate_large_textfile_from_books.ipynb\nmisc/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5031423486783324
+  },
+  {
+    "name": "SemanticFinder/src 模块",
+    "description": "[模块级] SemanticFinder 项目的 src 模块 (source)。来源: https://github.com/do-me/SemanticFinder",
+    "domain": "general",
+    "tags": [
+      "ai",
+      "codemirror",
+      "semantic-search",
+      "semanticsearch",
+      "transformers",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 24\n\n包含文件:\n- src/css\n- src/css/styles.css\n- src/js\n- src/js/SemanticFinder.svg\n- src/js/index.js\n- src/js/semantic.js\n- src/js/utils.js\n- src/js/worker.js\n- src/models\n- src/models/feature-extraction_downloads.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/css\nsrc/css/styles.css\nsrc/js\nsrc/js/SemanticFinder.svg\nsrc/js/index.js\nsrc/js/semantic.js\nsrc/js/utils.js\nsrc/js/worker.js\nsrc/models\nsrc/models/feature-extraction_downloads.json\nsrc/models/feature-extraction_downloads_sizes.json\nsrc/models/feature-extraction_likes.json\nsrc/models/feature-extraction_likes_sizes.json\nsrc/models/feature-extraction_modified.json\nsrc/models/feature-extraction_modified_sizes.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.5031423486783324
+  }
+]

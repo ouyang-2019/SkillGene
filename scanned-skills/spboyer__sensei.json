@@ -1,0 +1,163 @@
+[
+  {
+    "name": "sensei (spboyer)",
+    "description": "[项目级] Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern。来源: https://github.com/spboyer/sensei",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "copilot",
+      "gemeni",
+      "quality",
+      "skills",
+      "typescript",
+      "stars-9",
+      "github-spboyer",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Skill for iteratively improving SKILL.md frontmatter compliance using the Ralph loop pattern\n\n来源: https://github.com/spboyer/sensei\n语言: TypeScript\nStars: 9",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE.txt\nREADME.md\nSKILL.md\nagent-registry.json\ndemo-docs\ndemo-docs/INTERACTIVE-GUIDE.md\ndemo-docs/QUICK-REFERENCE.md\ndemo-docs/README.md\ndemo-docs/TALKING-POINTS.md\ndemo-docs/VIDEO-OUTLINE.md\ndemo-docs/run-demo.sh\ndemo-docs/sample-skill\ndocs\ndocs/.gitignore\ndocs/.vscode\ndocs/README.md\ndocs/astro.config.mjs\ndocs/blog\ndocs/package-lock.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4771212547196626
+  },
+  {
+    "name": "sensei/demo-docs 模块",
+    "description": "[模块级] sensei 项目的 demo-docs 模块 (source)。来源: https://github.com/spboyer/sensei",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "copilot",
+      "gemeni",
+      "quality",
+      "skills",
+      "module-level",
+      "source",
+      "demo-docs"
+    ],
+    "genes": [
+      {
+        "title": "demo-docs 模块说明",
+        "content": "模块路径: demo-docs/\n类型: source\n文件数: 9\n\n包含文件:\n- demo-docs/INTERACTIVE-GUIDE.md\n- demo-docs/QUICK-REFERENCE.md\n- demo-docs/README.md\n- demo-docs/TALKING-POINTS.md\n- demo-docs/VIDEO-OUTLINE.md\n- demo-docs/run-demo.sh\n- demo-docs/sample-skill\n- demo-docs/sample-skill/SKILL-after.md\n- demo-docs/sample-skill/SKILL.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo-docs 文件结构",
+        "content": "demo-docs/INTERACTIVE-GUIDE.md\ndemo-docs/QUICK-REFERENCE.md\ndemo-docs/README.md\ndemo-docs/TALKING-POINTS.md\ndemo-docs/VIDEO-OUTLINE.md\ndemo-docs/run-demo.sh\ndemo-docs/sample-skill\ndemo-docs/sample-skill/SKILL-after.md\ndemo-docs/sample-skill/SKILL.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  },
+  {
+    "name": "sensei/docs 模块",
+    "description": "[模块级] sensei 项目的 docs 模块 (docs)。来源: https://github.com/spboyer/sensei",
+    "domain": "documentation",
+    "tags": [
+      "claude",
+      "copilot",
+      "gemeni",
+      "quality",
+      "skills",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 30\n\n包含文件:\n- docs/.gitignore\n- docs/.vscode\n- docs/.vscode/extensions.json\n- docs/.vscode/launch.json\n- docs/README.md\n- docs/astro.config.mjs\n- docs/blog\n- docs/blog/sensei-launch.md\n- docs/blog/social-posts.md\n- docs/package-lock.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.vscode\ndocs/.vscode/extensions.json\ndocs/.vscode/launch.json\ndocs/README.md\ndocs/astro.config.mjs\ndocs/blog\ndocs/blog/sensei-launch.md\ndocs/blog/social-posts.md\ndocs/package-lock.json\ndocs/package.json\ndocs/public\ndocs/public/favicon.ico\ndocs/public/favicon.svg\ndocs/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  },
+  {
+    "name": "sensei/references 模块",
+    "description": "[模块级] sensei 项目的 references 模块 (source)。来源: https://github.com/spboyer/sensei",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "copilot",
+      "gemeni",
+      "quality",
+      "skills",
+      "module-level",
+      "source",
+      "references"
+    ],
+    "genes": [
+      {
+        "title": "references 模块说明",
+        "content": "- [Ralph Loop Pattern](https://github.com/soderlund/ralph) - Original Ralph loop implementation\n- [Anthropic Skills Documentation](https://support.anthropic.com/en/articles/12512198-how-to-create-custom-skills) - Writing guidance\n- [Skills, Tools & MCP Development Guide](https://github.com/spboyer/azure-mcp-v-skills/blob/main/skills-mcp-development-guide.md) - MCP integration best practices\n- [Waza Testing Framework](https://github.com/spboyer/waza) - Skill trigger accuracy testing\n- [skill-crea",
+        "gene_type": "principle"
+      },
+      {
+        "title": "references 文件结构",
+        "content": "references/configuration.md\nreferences/examples.md\nreferences/loop.md\nreferences/mcp-integration.md\nreferences/scoring.md\nreferences/skillsbench.md\nreferences/test-templates\nreferences/test-templates/jest.md\nreferences/test-templates/prompts.md\nreferences/test-templates/pytest.md\nreferences/test-templates/skill-init.md\nreferences/test-templates/waza.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  },
+  {
+    "name": "sensei/scripts 模块",
+    "description": "[模块级] sensei 项目的 scripts 模块 (script)。来源: https://github.com/spboyer/sensei",
+    "domain": "ai-llm",
+    "tags": [
+      "claude",
+      "copilot",
+      "gemeni",
+      "quality",
+      "skills",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/package-lock.json\nscripts/package.json\nscripts/src\nscripts/src/tokens\nscripts/src/tokens/cli.ts\nscripts/src/tokens/commands\nscripts/src/tokens/commands/check.ts\nscripts/src/tokens/commands/compare.ts\nscripts/src/tokens/commands/count.ts\nscripts/src/tokens/commands/index.ts\nscripts/src/tokens/commands/score.test.ts\nscripts/src/tokens/commands/score.ts\nscripts/src/tokens/commands/suggest.ts\nscripts/src/tokens/commands/types.test.ts\nscripts/src/tokens/commands/types.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.88169700377573
+  }
+]

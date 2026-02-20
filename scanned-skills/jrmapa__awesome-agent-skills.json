@@ -1,0 +1,72 @@
+[
+  {
+    "name": "awesome-agent-skills (jrmapa)",
+    "description": "[项目级] 🚀 Explore modular agent skills for dynamic AI development, enabling on-demand knowledge injection through standardized `SKILL.md` packages.。来源: https://github.com/jrmapa/awesome-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "awesome",
+      "stars-3",
+      "github-jrmapa",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 Explore modular agent skills for dynamic AI development, enabling on-demand knowledge injection through standardized `SKILL.md` packages.\n\n来源: https://github.com/jrmapa/awesome-agent-skills\n语言: unknown\nStars: 3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Welcome to awesome-agent-skills! This application provides modular capabilities that modernize AI agent architecture. Whether you're just curious or looking to make your AI interactions smoother, you're in the right place.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nREADME.md\nassets\nassets/agent_skills_awesome_v2.8-alpha.3.zip\nassets/social-preview.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Modular Skills**: Customize and expand your AI agent's abilities.\n- **User-Friendly Interface**: No coding required to add or manage skills.\n- **Regular Updates**: Stay current with ongoing improvements and new skills.\n- **Community Support**: Engage with a community of other users for shared insights and experiences.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.2385606273598313
+  },
+  {
+    "name": "awesome-agent-skills/assets 模块",
+    "description": "[模块级] awesome-agent-skills 项目的 assets 模块 (source)。来源: https://github.com/jrmapa/awesome-agent-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "awesome",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/agent_skills_awesome_v2.8-alpha.3.zip\n- assets/social-preview.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/agent_skills_awesome_v2.8-alpha.3.zip\nassets/social-preview.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.690848501887865
+  }
+]

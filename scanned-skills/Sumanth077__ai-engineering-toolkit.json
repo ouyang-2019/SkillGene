@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ai-engineering-toolkit (Sumanth077)",
+    "description": "[项目级] A curated list of 100+ libraries and frameworks for AI engineers building with LLMs。来源: https://github.com/Sumanth077/ai-engineering-toolkit",
+    "domain": "ai-llm",
+    "tags": [
+      "stars-2596",
+      "github-sumanth077",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated list of 100+ libraries and frameworks for AI engineers building with LLMs\n\n来源: https://github.com/Sumanth077/ai-engineering-toolkit\n语言: unknown\nStars: 2596",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "1. **Fork the repository**\n2. **Create a feature branch** (`git checkout -b feature/amazing-tool`)\n3. **Add your contribution** (new tool, template, or tutorial)\n4. **Submit a pull request**",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.707152344064166
+  }
+]

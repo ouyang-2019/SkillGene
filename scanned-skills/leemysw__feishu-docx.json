@@ -1,0 +1,108 @@
+[
+  {
+    "name": "feishu-docx (leemysw)",
+    "description": "[项目级] 🚀 Feishu/Lark Docs、Sheet、Bitable <-> Markdown | AI Agent-friendly knowledge base exporter and writer with OAuth 2.0, CLI, TUI & Claude Skills support - 飞书云文档 <-> Markdown | AI Agent 友好型导出-写入工具。来源: https://github.com/leemysw/feishu-docx",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-skills",
+      "context",
+      "feishu",
+      "file-parser",
+      "python",
+      "stars-53",
+      "github-leemysw",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 Feishu/Lark Docs、Sheet、Bitable <-> Markdown | AI Agent-friendly knowledge base exporter and writer with OAuth 2.0, CLI, TUI & Claude Skills support - 飞书云文档 <-> Markdown | AI Agent 友好型导出-写入工具\n\n来源: https://github.com/leemysw/feishu-docx\n语言: Python\nStars: 53",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nLICENSE\nREADME.md\nREADME_zh.md\ndocs\ndocs/feishu-resources.md\ndocs/feishu-resources.png\ndocs/tui.png\nfeishu_docx\nfeishu_docx/__init__.py\nfeishu_docx/auth\nfeishu_docx/cli\nfeishu_docx/core\nfeishu_docx/schema\nfeishu_docx/tui\nfeishu_docx/utils\nmain.py\nmakefile",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature                 | Description                                     |\n|-------------------------|-------------------------------------------------|\n| 📄 Document Export      | Docx → Markdown with formatting, images, tables |\n| 📊 Spreadsheet Export   | Sheet → Markdown tables                         |\n| 📋 Bitable Export       | Multidimensional tables → Markdown              |\n| 📚 Wiki Export          | Auto-resolve wiki nodes                         |\n| 🗂️ Wiki Batch Export   | Recursively export entire wiki space with hierarchy |\n| 🗄️ Database Schema     | Export APaaS database ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8621379348003946
+  },
+  {
+    "name": "feishu-docx/docs 模块",
+    "description": "[模块级] feishu-docx 项目的 docs 模块 (docs)。来源: https://github.com/leemysw/feishu-docx",
+    "domain": "documentation",
+    "tags": [
+      "ai-agent",
+      "claude-skills",
+      "context",
+      "feishu",
+      "file-parser",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 3\n\n包含文件:\n- docs/feishu-resources.md\n- docs/feishu-resources.png\n- docs/tui.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/feishu-resources.md\ndocs/feishu-resources.png\ndocs/tui.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  },
+  {
+    "name": "feishu-docx/feishu_docx 模块",
+    "description": "[模块级] feishu-docx 项目的 feishu_docx 模块 (source)。来源: https://github.com/leemysw/feishu-docx",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "claude-skills",
+      "context",
+      "feishu",
+      "file-parser",
+      "module-level",
+      "source",
+      "feishu_docx"
+    ],
+    "genes": [
+      {
+        "title": "feishu_docx 模块说明",
+        "content": "模块路径: feishu_docx/\n类型: source\n文件数: 57\n\n包含文件:\n- feishu_docx/__init__.py\n- feishu_docx/auth\n- feishu_docx/auth/__init__.py\n- feishu_docx/auth/oauth.py\n- feishu_docx/auth/templates.py\n- feishu_docx/auth/tenant.py\n- feishu_docx/cli\n- feishu_docx/cli/CLAUDE.md\n- feishu_docx/cli/__init__.py\n- feishu_docx/cli/cmd_apaas.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "feishu_docx 文件结构",
+        "content": "feishu_docx/__init__.py\nfeishu_docx/auth\nfeishu_docx/auth/__init__.py\nfeishu_docx/auth/oauth.py\nfeishu_docx/auth/templates.py\nfeishu_docx/auth/tenant.py\nfeishu_docx/cli\nfeishu_docx/cli/CLAUDE.md\nfeishu_docx/cli/__init__.py\nfeishu_docx/cli/cmd_apaas.py\nfeishu_docx/cli/cmd_auth.py\nfeishu_docx/cli/cmd_config.py\nfeishu_docx/cli/cmd_export.py\nfeishu_docx/cli/cmd_tui.py\nfeishu_docx/cli/cmd_write.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1897103478403155
+  }
+]

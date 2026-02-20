@@ -1,0 +1,43 @@
+[
+  {
+    "name": "stride-gpt (mrwadams)",
+    "description": "[项目级] An AI-powered threat modeling tool that leverages OpenAI's GPT models to generate threat models for a given application based on the STRIDE methodology.。来源: https://github.com/mrwadams/stride-gpt",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-982",
+      "github-mrwadams",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An AI-powered threat modeling tool that leverages OpenAI's GPT models to generate threat models for a given application based on the STRIDE methodology.\n\n来源: https://github.com/mrwadams/stride-gpt\n语言: Python\nStars: 982",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nSECURITY.md\nattack_tree.py\ndocker-compose.yml\ndocs\ndocs/operationalization-guide.md\ndread.py\nmain.py\nmitigations.py\nreadme.md\nrequirements.txt\nstride-gpt-logo.png\ntest_cases.py\nthreat_model.py\nutils.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Simple and user-friendly interface\n- Generates threat models based on the STRIDE methodology\n- **Agentic AI support**: Specialized threat modeling for agentic AI systems with OWASP Top 10 for Agentic Applications (ASI) integration\n- **Generative AI support**: Threat modeling for GenAI applications with OWASP LLM Top 10 integration\n- **Architectural pattern detection**: Automatically detects RAG pipelines, multi-agent systems, code execution environments, tool ecosystems, and more from application descriptions (inspired by [CSA MAESTRO](https://cloudsecurityalliance.org/blog/2025/02/06/agenti",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.496055743893475
+  }
+]

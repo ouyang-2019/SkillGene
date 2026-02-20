@@ -1,0 +1,186 @@
+[
+  {
+    "name": "SMARTS (huawei-noah)",
+    "description": "[项目级] Scalable Multi-Agent RL Training School for Autonomous Driving。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "devops",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "github-huawei-noah",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Scalable Multi-Agent RL Training School for Autonomous Driving\n\n来源: https://github.com/huawei-noah/SMARTS\n语言: Python\nStars: 1110",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nLICENSE\nMANIFEST.in\nMakefile\nNOTICE\nOPEN_SOURCE_SOFTWARE_NOTICE\nREADME.md\nTHIRD_PARTY_OPEN_SOURCE_SOFTWARE_NOTICE\nbin\nbin/gen_header.sh\nbin/header_test.sh\ncli\ncli/__init__.py\ncli/benchmark.py\ncli/cli.py\ncli/diagnostic.py\ncli/envision.py\ncli/run.py\ncli/studio.py\ncli/tests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "1. First, read how to communicate issues, report bugs, and request features [here](./docs/resources/contributing.rst#communication).\n1. Next, raise them using appropriate tags at [https://github.com/huawei-noah/SMARTS/issues](https://github.com/huawei-noah/SMARTS/issues).",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.522661489393329
+  },
+  {
+    "name": "SMARTS/bin 模块",
+    "description": "[模块级] SMARTS 项目的 bin 模块 (script)。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "devops",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "module-level",
+      "script",
+      "bin"
+    ],
+    "genes": [
+      {
+        "title": "bin 模块说明",
+        "content": "模块路径: bin/\n类型: script\n文件数: 2\n\n包含文件:\n- bin/gen_header.sh\n- bin/header_test.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bin 文件结构",
+        "content": "bin/gen_header.sh\nbin/header_test.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.718129191514663
+  },
+  {
+    "name": "SMARTS/cli 模块",
+    "description": "[模块级] SMARTS 项目的 cli 模块 (source)。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "devops",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "module-level",
+      "source",
+      "cli"
+    ],
+    "genes": [
+      {
+        "title": "cli 模块说明",
+        "content": "模块路径: cli/\n类型: source\n文件数: 11\n\n包含文件:\n- cli/__init__.py\n- cli/benchmark.py\n- cli/cli.py\n- cli/diagnostic.py\n- cli/envision.py\n- cli/run.py\n- cli/studio.py\n- cli/tests\n- cli/tests/test_studio.py\n- cli/waymo.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "cli 文件结构",
+        "content": "cli/__init__.py\ncli/benchmark.py\ncli/cli.py\ncli/diagnostic.py\ncli/envision.py\ncli/run.py\ncli/studio.py\ncli/tests\ncli/tests/test_studio.py\ncli/waymo.py\ncli/zoo.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.718129191514663
+  },
+  {
+    "name": "SMARTS/docs 模块",
+    "description": "[模块级] SMARTS 项目的 docs 模块 (docs)。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "documentation",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 72\n\n包含文件:\n- docs/Makefile\n- docs/_static\n- docs/_static/argoverse-replay.gif\n- docs/_static/chain_two_way.png\n- docs/_static/connection_icon.png\n- docs/_static/create_connection.png\n- docs/_static/driving_smarts_2022\n- docs/_static/driving_smarts_2022/cruise-multi.gif\n- docs/_static/driving_smarts_2022/cruise-single.gif\n- docs/_static/driving_smarts_2022/cut-in.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/Makefile\ndocs/_static\ndocs/_static/argoverse-replay.gif\ndocs/_static/chain_two_way.png\ndocs/_static/connection_icon.png\ndocs/_static/create_connection.png\ndocs/_static/driving_smarts_2022\ndocs/_static/driving_smarts_2022/cruise-multi.gif\ndocs/_static/driving_smarts_2022/cruise-single.gif\ndocs/_static/driving_smarts_2022/cut-in.gif\ndocs/_static/driving_smarts_2022/intersection-c.gif\ndocs/_static/driving_smarts_2022/intersection-t.gif\ndocs/_static/driving_smarts_2022/merge-multi.gif\ndocs/_static/driving_smarts_2022/merge-single.gif\ndocs/_static/driving_smarts_2023",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.718129191514663
+  },
+  {
+    "name": "SMARTS/envision 模块",
+    "description": "[模块级] SMARTS 项目的 envision 模块 (source)。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "devops",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "module-level",
+      "source",
+      "envision"
+    ],
+    "genes": [
+      {
+        "title": "envision 模块说明",
+        "content": "模块路径: envision/\n类型: source\n文件数: 54\n\n包含文件:\n- envision/__init__.py\n- envision/client.py\n- envision/client_config.py\n- envision/data_formatter.py\n- envision/etypes.py\n- envision/server.py\n- envision/tests\n- envision/tests/test_data_formatter.py\n- envision/tests/test_data_replay.py\n- envision/utils",
+        "gene_type": "principle"
+      },
+      {
+        "title": "envision 文件结构",
+        "content": "envision/__init__.py\nenvision/client.py\nenvision/client_config.py\nenvision/data_formatter.py\nenvision/etypes.py\nenvision/server.py\nenvision/tests\nenvision/tests/test_data_formatter.py\nenvision/tests/test_data_replay.py\nenvision/utils\nenvision/utils/multiprocessing_queue.py\nenvision/web\nenvision/web/.babelrc\nenvision/web/.gitignore\nenvision/web/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.718129191514663
+  },
+  {
+    "name": "SMARTS/examples 模块",
+    "description": "[模块级] SMARTS 项目的 examples 模块 (example)。来源: https://github.com/huawei-noah/SMARTS",
+    "domain": "devops",
+    "tags": [
+      "autonomous-driving",
+      "python",
+      "reinforcement-learning",
+      "simulator",
+      "stars-1110",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 27\n\n包含文件:\n- examples/__init__.py\n- examples/configs\n- examples/configs/e7_experiment_base\n- examples/configs/e7_experiment_base/agent_configs\n- examples/configs/e7_experiment_base/agent_configs/chase_via_points-v0.yaml\n- examples/configs/e7_experiment_base/agent_configs/open_agent-v0.yaml\n- examples/configs/e7_experiment_base/agent_configs/random_lane_control-v0.yaml\n- examples/configs/e7_experiment_base/agent_configs/standard_lane_follower-v0.yaml\n- examples/configs/e7_experiment_base/agent_configs/trajectory_tracking-v0.yaml\n- examples/configs/e7_experiment_base/env_config",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/__init__.py\nexamples/configs\nexamples/configs/e7_experiment_base\nexamples/configs/e7_experiment_base/agent_configs\nexamples/configs/e7_experiment_base/agent_configs/chase_via_points-v0.yaml\nexamples/configs/e7_experiment_base/agent_configs/open_agent-v0.yaml\nexamples/configs/e7_experiment_base/agent_configs/random_lane_control-v0.yaml\nexamples/configs/e7_experiment_base/agent_configs/standard_lane_follower-v0.yaml\nexamples/configs/e7_experiment_base/agent_configs/trajectory_tracking-v0.yaml\nexamples/configs/e7_experiment_base/env_config\nexamples/configs/e7_experiment_base/env_config/hiway_env-v1.yaml\nexamples/configs/e7_experiment_base/env_config/hiway_env-v1_boid.yaml\nexamples/configs/e7_experiment_base/env_config/hiway_env-v1_default.yaml\nexamples/configs/e7_experiment_base/env_config/hiway_env-v1_full.yaml\nexamples/configs/e7_experiment_base/env_config/hiway_env-v1_multi-agent.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.718129191514663
+  }
+]

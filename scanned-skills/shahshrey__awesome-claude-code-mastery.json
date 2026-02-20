@@ -1,0 +1,108 @@
+[
+  {
+    "name": "awesome-claude-code-mastery (shahshrey)",
+    "description": "[项目级] Every Claude Code resource worth knowing -  tools, tutorials, skills, SDKs, and community links. updated weekly so you never miss what matters.。来源: https://github.com/shahshrey/awesome-claude-code-mastery",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "claude-api",
+      "scss",
+      "stars-24",
+      "github-shahshrey",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Every Claude Code resource worth knowing -  tools, tutorials, skills, SDKs, and community links. updated weekly so you never miss what matters.\n\n来源: https://github.com/shahshrey/awesome-claude-code-mastery\n语言: SCSS\nStars: 24",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> Perfect for beginners who are new to Claude Code.\n\n<details>\n<summary><strong>12 resources</strong> — Beginner tutorials, courses & discussions</summary>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "404.html\nCONTRIBUTING.md\nGemfile\nREADME.MD\n_config.yml\n_includes\n_includes/footer.html\n_includes/head.html\n_includes/header.html\n_includes/social.html\n_layouts\n_layouts/default.html\nassets\nassets/js\ncss\ncss/index.scss\ndocs\ndocs/.gitkeep\nfavicon.svg\nindex.markdown",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "| Repository | Stars | Description |\n|------------|-------|-------------|\n| 🔧 [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | 8.1k+ | Infrastructure with skill auto-activation, hooks, and agents |\n| 🔧 [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | 2.1k+ | Skills, Agents, Commands, Hooks, Plugins collection |\n| 🔧 [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | 2k+ | Master Claude Code hooks |\n| 🔧 [nizos/tdd-guard](https://github.com/nizos/tdd-guard) | 1.6k+ | ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🎬 [My Claude Code Workflow for 2026 - Ray Amjad](https://www.youtube.com/watch?v=sy65ARFI9Bg)\n- 🎬 [Claude Code is crazy good in 2026… just watch](https://www.youtube.com/watch?v=smMC1W-Mjt4)\n- 🎬 [You're prompting Claude Code wrong. Here's how to do it correctly](https://www.youtube.com/watch?v=7WuKgc3-_-s)\n- 🎬 [Self-Improving Skills in Claude Code](https://www.youtube.com/watch?v=-4nUCaMNBR8)\n- 🎬 [AMAZING Claude Code X (Twitter) Context Engineering Workflow](https://www.youtube.com/watch?v=dm_B9UDMBg4)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.690105620855803
+  },
+  {
+    "name": "awesome-claude-code-mastery/_includes 模块",
+    "description": "[模块级] awesome-claude-code-mastery 项目的 _includes 模块 (source)。来源: https://github.com/shahshrey/awesome-claude-code-mastery",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "claude-api",
+      "module-level",
+      "source",
+      "_includes"
+    ],
+    "genes": [
+      {
+        "title": "_includes 模块说明",
+        "content": "模块路径: _includes/\n类型: source\n文件数: 4\n\n包含文件:\n- _includes/footer.html\n- _includes/head.html\n- _includes/header.html\n- _includes/social.html",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_includes 文件结构",
+        "content": "_includes/footer.html\n_includes/head.html\n_includes/header.html\n_includes/social.html",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0520844966846425
+  },
+  {
+    "name": "awesome-claude-code-mastery/assets 模块",
+    "description": "[模块级] awesome-claude-code-mastery 项目的 assets 模块 (source)。来源: https://github.com/shahshrey/awesome-claude-code-mastery",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "claude-api",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/js\n- assets/js/emojiFilter.js\n- assets/js/index.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/js\nassets/js/emojiFilter.js\nassets/js/index.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0520844966846425
+  }
+]

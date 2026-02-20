@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Everywhere (DearVa)",
+    "description": "[项目级] Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.。来源: https://github.com/DearVa/Everywhere",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "avalonia",
+      "chat",
+      "claude",
+      "c#",
+      "stars-5515",
+      "github-dearva",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "**Everywhere** is an interactive AI assistant with context-aware capabilities, featuring a sleek, modern UI and powerful integrated functionality. Unlike traditional AI tools, Everywhere instantly perceives and understands anything on your screen. No need for screenshots, copying, or switching apps—just press a shortcut key to get the help you need right where you are, delivering seamless AI assistant support.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "3rd\n3rd/EverythingNetCore\n3rd/MessagePack-CSharp\n3rd/WritableJsonConfiguration\n3rd/anthropic-sdk-csharp\n3rd/anthropic-sdk-csharp-patch\n3rd/semantic-kernel\n3rd/semantic-kernel-patch\n3rd/shad-ui\nCHANGELOG.md\nDATA_AND_PRIVACY.md\nDirectory.Build.props\nDirectory.Packages.props\nEverywhere.Linux.slnf\nEverywhere.Mac.slnf\nEverywhere.Windows.slnf\nEverywhere.sln\nEverywhere.sln.DotSettings\nGenerateThirdPartyNotices.bat\nLICENSE",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "<details open>\n<summary><b>❔ Troubleshooting Expert</b></summary>\n\n> You encounter an error message while using your computer but are unsure how to resolve it.\n>\n> 📌 **Bring up Everywhere** next to the error message.\n>\n> 🗣️ **Command:** \"What is this error? How to solve it?\"\n>\n> ✨ **Result:** Everywhere captures the message context and provides a solution.\n\n</details>\n\n<details open>\n<summary><b>📰 Quick Web Summarization</b></summary>\n\n> You're browsing a lengthy technical article but need just the key points.\n>\n> 📌 **Bring up Everywhere** over the webpage.\n>\n> 🗣️ **Command:** \"Give me a ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "<table>\n  <thead>\n    <tr>\n      <th style=\"width:30%\">Category</th>\n      <th style=\"width:45%\">✅ Currently Supported</th>\n      <th style=\"width:25%\">🚧 Work in Progress</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><b>🤖 LLM Support</b></td>\n      <td>\n        • <img style=\"margin-top:3px;margin-bottom:-3px;\" alt=\"OpenAI logo\" src=\"https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg\"> OpenAI<br>\n        • <img style=\"margin-top:3px;margin-bottom:-3px;\" alt=\"Anthropic logo\" src=\"https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.870772758388105
+  },
+  {
+    "name": "Everywhere/3rd 模块",
+    "description": "[模块级] Everywhere 项目的 3rd 模块 (source)。来源: https://github.com/DearVa/Everywhere",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "avalonia",
+      "chat",
+      "claude",
+      "module-level",
+      "source",
+      "3rd"
+    ],
+    "genes": [
+      {
+        "title": "3rd 模块说明",
+        "content": "模块路径: 3rd/\n类型: source\n文件数: 37\n\n包含文件:\n- 3rd/EverythingNetCore\n- 3rd/MessagePack-CSharp\n- 3rd/WritableJsonConfiguration\n- 3rd/anthropic-sdk-csharp\n- 3rd/anthropic-sdk-csharp-patch\n- 3rd/anthropic-sdk-csharp-patch/src\n- 3rd/anthropic-sdk-csharp-patch/src/Anthropic\n- 3rd/anthropic-sdk-csharp-patch/src/Anthropic/Anthropic.csproj\n- 3rd/anthropic-sdk-csharp-patch/src/Anthropic/AnthropicClientExtensions.cs\n- 3rd/anthropic-sdk-csharp-patch/src/Anthropic/Core",
+        "gene_type": "principle"
+      },
+      {
+        "title": "3rd 文件结构",
+        "content": "3rd/EverythingNetCore\n3rd/MessagePack-CSharp\n3rd/WritableJsonConfiguration\n3rd/anthropic-sdk-csharp\n3rd/anthropic-sdk-csharp-patch\n3rd/anthropic-sdk-csharp-patch/src\n3rd/anthropic-sdk-csharp-patch/src/Anthropic\n3rd/anthropic-sdk-csharp-patch/src/Anthropic/Anthropic.csproj\n3rd/anthropic-sdk-csharp-patch/src/Anthropic/AnthropicClientExtensions.cs\n3rd/anthropic-sdk-csharp-patch/src/Anthropic/Core\n3rd/anthropic-sdk-csharp-patch/src/Anthropic/Core/ModelBase.cs\n3rd/semantic-kernel\n3rd/semantic-kernel-patch\n3rd/semantic-kernel-patch/Connectors.Google\n3rd/semantic-kernel-patch/Connectors.Google/Connectors.Google.csproj",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.996618206710484
+  },
+  {
+    "name": "Everywhere/img 模块",
+    "description": "[模块级] Everywhere 项目的 img 模块 (source)。来源: https://github.com/DearVa/Everywhere",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "avalonia",
+      "chat",
+      "claude",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 15\n\n包含文件:\n- img/Everywhere-icon.png\n- img/Everywhere-macOS.png\n- img/Everywhere-rounded.png\n- img/Everywhere.ico\n- img/Everywhere.icon\n- img/Everywhere.icon/Assets\n- img/Everywhere.icon/Assets/0_Background.png\n- img/Everywhere.icon/Assets/1_Face.svg\n- img/Everywhere.icon/Assets/2_Eyes.svg\n- img/Everywhere.icon/icon.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/Everywhere-icon.png\nimg/Everywhere-macOS.png\nimg/Everywhere-rounded.png\nimg/Everywhere.ico\nimg/Everywhere.icon\nimg/Everywhere.icon/Assets\nimg/Everywhere.icon/Assets/0_Background.png\nimg/Everywhere.icon/Assets/1_Face.svg\nimg/Everywhere.icon/Assets/2_Eyes.svg\nimg/Everywhere.icon/icon.json\nimg/Everywhere.png\nimg/Sponsors\nimg/Sponsors/302-ai-en.jpg\nimg/Sponsors/302-ai-zh.jpg\nimg/banner.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.996618206710484
+  },
+  {
+    "name": "Everywhere/src 模块",
+    "description": "[模块级] Everywhere 项目的 src 模块 (source)。来源: https://github.com/DearVa/Everywhere",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "avalonia",
+      "chat",
+      "claude",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 103\n\n包含文件:\n- src/Build.Watchdog.targets\n- src/DeleteAfterPublish.ps1\n- src/Everywhere.Abstractions\n- src/Everywhere.Abstractions/AI\n- src/Everywhere.Abstractions/AI/ModelDefinitionTemplate.cs\n- src/Everywhere.Abstractions/AI/ModelProviderSchema.cs\n- src/Everywhere.Abstractions/AI/ModelProviderTemplate.cs\n- src/Everywhere.Abstractions/Chat\n- src/Everywhere.Abstractions/Chat/Plugins\n- src/Everywhere.Abstractions/Chat/Plugins/FileContent.cs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/Build.Watchdog.targets\nsrc/DeleteAfterPublish.ps1\nsrc/Everywhere.Abstractions\nsrc/Everywhere.Abstractions/AI\nsrc/Everywhere.Abstractions/AI/ModelDefinitionTemplate.cs\nsrc/Everywhere.Abstractions/AI/ModelProviderSchema.cs\nsrc/Everywhere.Abstractions/AI/ModelProviderTemplate.cs\nsrc/Everywhere.Abstractions/Chat\nsrc/Everywhere.Abstractions/Chat/Plugins\nsrc/Everywhere.Abstractions/Chat/Plugins/FileContent.cs\nsrc/Everywhere.Abstractions/Chat/Plugins/FileRecord.cs\nsrc/Everywhere.Abstractions/Chat/Plugins/FileRecords.cs\nsrc/Everywhere.Abstractions/Chat/Plugins/FilesOrderBy.cs\nsrc/Everywhere.Abstractions/Cloud\nsrc/Everywhere.Abstractions/Cloud/HttpPayload.cs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.996618206710484
+  }
+]

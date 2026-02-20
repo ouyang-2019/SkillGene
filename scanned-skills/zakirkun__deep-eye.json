@@ -1,0 +1,267 @@
+[
+  {
+    "name": "deep-eye (zakirkun)",
+    "description": "[项目级] An advanced AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude) with comprehensive security testing modules for automated bug hunting, intelligent payload generation, and professional reporting.。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "An advanced AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude) with comprehensive security testing modules for automated bug hunting, intelligent payload generation, and professional reporting.\n\n来源: https://github.com/zakirkun/deep-eye\n语言: Python\nStars: 624",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nai_providers\nai_providers/__init__.py\nai_providers/claude_provider.py\nai_providers/grok_provider.py\nai_providers/mistral_provider.py\nai_providers/ollama_provider.py\nai_providers/openai_provider.py\nai_providers/openrouter_provider.py\nai_providers/provider_manager.py\nassets\nassets/Screenshot 2025-10-20 150312.png\nconfig\nconfig/config.example.yaml\ncore\ncore/__init__.py\ncore/ai_payload_generator.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.397592294841212
+  },
+  {
+    "name": "deep-eye/ai_providers 模块",
+    "description": "[模块级] deep-eye 项目的 ai_providers 模块 (source)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "source",
+      "ai_providers"
+    ],
+    "genes": [
+      {
+        "title": "ai_providers 模块说明",
+        "content": "模块路径: ai_providers/\n类型: source\n文件数: 8\n\n包含文件:\n- ai_providers/__init__.py\n- ai_providers/claude_provider.py\n- ai_providers/grok_provider.py\n- ai_providers/mistral_provider.py\n- ai_providers/ollama_provider.py\n- ai_providers/openai_provider.py\n- ai_providers/openrouter_provider.py\n- ai_providers/provider_manager.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_providers 文件结构",
+        "content": "ai_providers/__init__.py\nai_providers/claude_provider.py\nai_providers/grok_provider.py\nai_providers/mistral_provider.py\nai_providers/ollama_provider.py\nai_providers/openai_provider.py\nai_providers/openrouter_provider.py\nai_providers/provider_manager.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/core 模块",
+    "description": "[模块级] deep-eye 项目的 core 模块 (source)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "- **Multi-AI Provider Support**: Dynamic switching between OpenAI, Grok, OLLAMA, and Claude\n- **Intelligent Payload Generation**: AI-powered, CVE-aware, context-sensitive payloads\n- **Comprehensive Scanning**: 45+ attack methods with framework-specific tests\n- **Advanced Reconnaissance**: Passive OSINT, DNS enumeration, subdomain discovery\n- **Professional Reporting**: PDF/HTML/JSON reports with OSINT intelligence and executive summaries\n- **Collaborative Scanning**: Team-based distributed scann",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/__init__.py\ncore/ai_payload_generator.py\ncore/plugin_manager.py\ncore/report_generator.py\ncore/scanner_engine.py\ncore/vulnerability_scanner.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/docs 模块",
+    "description": "[模块级] deep-eye 项目的 docs 模块 (docs)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "documentation",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/ARCHITECTURE.md\n- docs/QUICKSTART.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ARCHITECTURE.md\ndocs/QUICKSTART.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/examples 模块",
+    "description": "[模块级] deep-eye 项目的 examples 模块 (example)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/basic_usage.py\n- examples/demo_v1.2.0.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/basic_usage.py\nexamples/demo_v1.2.0.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/modules 模块",
+    "description": "[模块级] deep-eye 项目的 modules 模块 (source)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "source",
+      "modules"
+    ],
+    "genes": [
+      {
+        "title": "modules 模块说明",
+        "content": "- **API Security Testing** (OWASP API Top 10 2023)\n- **GraphQL Security** (Introspection, Depth limits, Batch attacks)\n- **Business Logic Flaws** (Price manipulation, Workflow bypass, Race conditions)\n- **Authentication Testing** (Session management, JWT, OAuth, MFA bypass)\n- **File Upload Vulnerabilities** (Unrestricted upload, Path traversal, Type bypass)\n- **Collaborative Scanning** (Team-based distributed scanning)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "modules 文件结构",
+        "content": "modules/__init__.py\nmodules/api_security\nmodules/api_security/__init__.py\nmodules/api_security/api_tester.py\nmodules/api_security/graphql_tester.py\nmodules/authentication\nmodules/authentication/__init__.py\nmodules/authentication/auth_tester.py\nmodules/business_logic\nmodules/business_logic/__init__.py\nmodules/business_logic/logic_tester.py\nmodules/collaboration\nmodules/collaboration/__init__.py\nmodules/collaboration/collaborative_scanner.py\nmodules/file_upload",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/plugins 模块",
+    "description": "[模块级] deep-eye 项目的 plugins 模块 (source)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 2\n\n包含文件:\n- plugins/README.md\n- plugins/example_plugin.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/README.md\nplugins/example_plugin.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/scripts 模块",
+    "description": "[模块级] deep-eye 项目的 scripts 模块 (script)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/install.ps1\n- scripts/install.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/install.ps1\nscripts/install.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  },
+  {
+    "name": "deep-eye/utils 模块",
+    "description": "[模块级] deep-eye 项目的 utils 模块 (source)。来源: https://github.com/zakirkun/deep-eye",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-624",
+      "github-zakirkun",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 6\n\n包含文件:\n- utils/__init__.py\n- utils/config_loader.py\n- utils/http_client.py\n- utils/logger.py\n- utils/notification_manager.py\n- utils/parser.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/config_loader.py\nutils/http_client.py\nutils/logger.py\nutils/notification_manager.py\nutils/parser.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.61807383587297
+  }
+]

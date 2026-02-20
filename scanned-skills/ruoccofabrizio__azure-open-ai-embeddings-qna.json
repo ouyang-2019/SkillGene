@@ -1,0 +1,145 @@
+[
+  {
+    "name": "azure-open-ai-embeddings-qna (ruoccofabrizio)",
+    "description": "[项目级] A simple web application for a OpenAI-enabled document search. This repo uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3, GPT-3.5 or GPT-4 to extract the matching answer for the question.。来源: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+    "domain": "ai-llm",
+    "tags": [
+      "azureopenai",
+      "python",
+      "stars-852",
+      "github-ruoccofabrizio",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Enterprise QnA is built on a pattern the AI community calls \"Retrieval-Augmented Generation\" (RAG). In addition to this repository having a reference architecture on how to implement this pattern on Azure, here are resources to familiarize yourself with the concepts in RAG, and samples to learn each underlying product's APIs:\n\n| Resource | Links\t| Purpose| Highlights | \n| ---- | ----\t| ---- | ----------------- | \n| Reference Architecture |\t[GitHub](https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna) (This Repo) | \tStarter template for enterprise development.\t- Easily deployable reference architecture following best practices. |  -  Frontend is Azure OpenAI chat orchestrated with Langchain. <br> - Composes Form Recognizer, Azure Search, Redis in an end-to-end design. <br>\t- Supp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "BatchProcess.Dockerfile\nBatchProcess.Dockerfile.dockerignore\nLICENSE\nREADME.md\nWebApp.Dockerfile\nWebApp.Dockerfile.dockerignore\ncode\ncode/.funcignore\ncode/ApiQnA\ncode/BatchPushResults\ncode/BatchStartProcessing\ncode/OpenAI_Queries.py\ncode/embeddings_text.csv\ncode/environment.yml\ncode/host.json\ncode/images\ncode/pages\ncode/requirements.txt\ncode/utilities\ndemo",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.46521979738335
+  },
+  {
+    "name": "azure-open-ai-embeddings-qna/code 模块",
+    "description": "[模块级] azure-open-ai-embeddings-qna 项目的 code 模块 (source)。来源: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+    "domain": "ai-llm",
+    "tags": [
+      "azureopenai",
+      "python",
+      "stars-852",
+      "github-ruoccofabrizio",
+      "module-level",
+      "source",
+      "code"
+    ],
+    "genes": [
+      {
+        "title": "code 模块说明",
+        "content": "模块路径: code/\n类型: source\n文件数: 36\n\n包含文件:\n- code/.funcignore\n- code/ApiQnA\n- code/ApiQnA/__init__.py\n- code/ApiQnA/function.json\n- code/BatchPushResults\n- code/BatchPushResults/__init__.py\n- code/BatchPushResults/function.json\n- code/BatchStartProcessing\n- code/BatchStartProcessing/__init__.py\n- code/BatchStartProcessing/function.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code 文件结构",
+        "content": "code/.funcignore\ncode/ApiQnA\ncode/ApiQnA/__init__.py\ncode/ApiQnA/function.json\ncode/BatchPushResults\ncode/BatchPushResults/__init__.py\ncode/BatchPushResults/function.json\ncode/BatchStartProcessing\ncode/BatchStartProcessing/__init__.py\ncode/BatchStartProcessing/function.json\ncode/OpenAI_Queries.py\ncode/embeddings_text.csv\ncode/environment.yml\ncode/host.json\ncode/images",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6721758379066802
+  },
+  {
+    "name": "azure-open-ai-embeddings-qna/demo 模块",
+    "description": "[模块级] azure-open-ai-embeddings-qna 项目的 demo 模块 (example)。来源: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+    "domain": "ai-llm",
+    "tags": [
+      "azureopenai",
+      "python",
+      "stars-852",
+      "github-ruoccofabrizio",
+      "module-level",
+      "example",
+      "demo"
+    ],
+    "genes": [
+      {
+        "title": "demo 模块说明",
+        "content": "模块路径: demo/\n类型: example\n文件数: 7\n\n包含文件:\n- demo/.dockerignore\n- demo/Dockerfile\n- demo/architecture.png\n- demo/demo.py\n- demo/helper.py\n- demo/microsoft.png\n- demo/requirements.txt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "demo 文件结构",
+        "content": "demo/.dockerignore\ndemo/Dockerfile\ndemo/architecture.png\ndemo/demo.py\ndemo/helper.py\ndemo/microsoft.png\ndemo/requirements.txt",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6721758379066802
+  },
+  {
+    "name": "azure-open-ai-embeddings-qna/docs 模块",
+    "description": "[模块级] azure-open-ai-embeddings-qna 项目的 docs 模块 (docs)。来源: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+    "domain": "documentation",
+    "tags": [
+      "azureopenai",
+      "python",
+      "stars-852",
+      "github-ruoccofabrizio",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 5\n\n包含文件:\n- docs/architecture.png\n- docs/architecture_acre.png\n- docs/architecture_acs.png\n- docs/architecture_pg.png\n- docs/architecture_redis.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/architecture.png\ndocs/architecture_acre.png\ndocs/architecture_acs.png\ndocs/architecture_pg.png\ndocs/architecture_redis.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6721758379066802
+  },
+  {
+    "name": "azure-open-ai-embeddings-qna/infrastructure 模块",
+    "description": "[模块级] azure-open-ai-embeddings-qna 项目的 infrastructure 模块 (source)。来源: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna",
+    "domain": "ai-llm",
+    "tags": [
+      "azureopenai",
+      "python",
+      "stars-852",
+      "github-ruoccofabrizio",
+      "module-level",
+      "source",
+      "infrastructure"
+    ],
+    "genes": [
+      {
+        "title": "infrastructure 模块说明",
+        "content": "模块路径: infrastructure/\n类型: source\n文件数: 6\n\n包含文件:\n- infrastructure/deployment.json\n- infrastructure/deploymentACRE.json\n- infrastructure/deployment_ACS.json\n- infrastructure/deployment_azcn.json\n- infrastructure/deployment_pg.json\n- infrastructure/deployment_pg_azcn.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infrastructure 文件结构",
+        "content": "infrastructure/deployment.json\ninfrastructure/deploymentACRE.json\ninfrastructure/deployment_ACS.json\ninfrastructure/deployment_azcn.json\ninfrastructure/deployment_pg.json\ninfrastructure/deployment_pg_azcn.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6721758379066802
+  }
+]

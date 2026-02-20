@@ -1,0 +1,158 @@
+[
+  {
+    "name": "CopilotKit (CopilotKit)",
+    "description": "[项目级] The Frontend for Agents & Generative UI. React + Angular。来源: https://github.com/CopilotKit/CopilotKit",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agent-native",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "typescript",
+      "stars-28885",
+      "github-copilotkit",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The Frontend for Agents & Generative UI. React + Angular\n\n来源: https://github.com/CopilotKit/CopilotKit\n语言: TypeScript\nStars: 28885",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/CopilotTextarea.gif\nassets/CopilotTextarea_old.gif\nassets/animated-banner.gif\nassets/demo.gif\nassets/proejct-perplexity-clone.png\nassets/project-canvas-demo.png\nassets/spreadsheet-demo-big-file.gif\nassets/travel-planner-gif.gif\nchangelog.txt\ncommitlint.config.js\ncommunity\ncommunity/content",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "CopilotKit/assets 模块",
+    "description": "[模块级] CopilotKit 项目的 assets 模块 (source)。来源: https://github.com/CopilotKit/CopilotKit",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agent-native",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 8\n\n包含文件:\n- assets/CopilotTextarea.gif\n- assets/CopilotTextarea_old.gif\n- assets/animated-banner.gif\n- assets/demo.gif\n- assets/proejct-perplexity-clone.png\n- assets/project-canvas-demo.png\n- assets/spreadsheet-demo-big-file.gif\n- assets/travel-planner-gif.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/CopilotTextarea.gif\nassets/CopilotTextarea_old.gif\nassets/animated-banner.gif\nassets/demo.gif\nassets/proejct-perplexity-clone.png\nassets/project-canvas-demo.png\nassets/spreadsheet-demo-big-file.gif\nassets/travel-planner-gif.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284268948750973
+  },
+  {
+    "name": "CopilotKit/community 模块",
+    "description": "[模块级] CopilotKit 项目的 community 模块 (source)。来源: https://github.com/CopilotKit/CopilotKit",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agent-native",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "community"
+    ],
+    "genes": [
+      {
+        "title": "community 模块说明",
+        "content": "- [What's New](https://docs.copilotkit.ai/whats-new)\n<h3>Have questions or need help?</h3>\n  <a href=\"https://discord.gg/6dffbvGU3D?ref=github_readme\" target=\"_blank\">\n   Join our Discord →\n  </a> </br>\n    <a href=\"https://docs.copilotkit.ai/?ref=github_readme\" target=\"_blank\">\n  Read the Docs →\n  </a> </br>\n    <a href=\"https://cloud.copilotkit.ai?ref=github_readme\" target=\"_blank\">\n   Try Copilot Cloud →\n  </a>\n<h3>Stay up to date with our latest releases!</h3>\n  <a href=\"https://www.linkedin",
+        "gene_type": "principle"
+      },
+      {
+        "title": "community 文件结构",
+        "content": "community/content\ncommunity/content/CONTRIBUTING.md\ncommunity/content/README.md\ncommunity/content/TEMPLATE.md\ncommunity/demos_2024\ncommunity/demos_2024/Copilotkit-weather-bot.md\ncommunity/demos_2024/Email-Organizer.md\ncommunity/demos_2024/EventPlanner.md\ncommunity/demos_2024/EventTimer.md\ncommunity/demos_2024/Flashcards_Quiz_ai.md\ncommunity/demos_2024/Meditation Companion.md\ncommunity/demos_2024/Recipe-Modifier.md\ncommunity/demos_2024/Recipe_Generator.md\ncommunity/demos_2024/SwiftSupport.md\ncommunity/demos_2024/TravelTally.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284268948750973
+  },
+  {
+    "name": "CopilotKit/dev-docs 模块",
+    "description": "[模块级] CopilotKit 项目的 dev-docs 模块 (source)。来源: https://github.com/CopilotKit/CopilotKit",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "agent-native",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "module-level",
+      "source",
+      "dev-docs"
+    ],
+    "genes": [
+      {
+        "title": "dev-docs 模块说明",
+        "content": "模块路径: dev-docs/\n类型: source\n文件数: 8\n\n包含文件:\n- dev-docs/architecture\n- dev-docs/architecture/ARCHITECTURE.md\n- dev-docs/architecture/multi-agent.md\n- dev-docs/architecture/plugin-points.md\n- dev-docs/architecture/setup-angular.md\n- dev-docs/architecture/setup-react.md\n- dev-docs/architecture/setup-runtime.md\n- dev-docs/architecture/setup-vanilla.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev-docs 文件结构",
+        "content": "dev-docs/architecture\ndev-docs/architecture/ARCHITECTURE.md\ndev-docs/architecture/multi-agent.md\ndev-docs/architecture/plugin-points.md\ndev-docs/architecture/setup-angular.md\ndev-docs/architecture/setup-react.md\ndev-docs/architecture/setup-runtime.md\ndev-docs/architecture/setup-vanilla.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284268948750973
+  },
+  {
+    "name": "CopilotKit/docs 模块",
+    "description": "[模块级] CopilotKit 项目的 docs 模块 (docs)。来源: https://github.com/CopilotKit/CopilotKit",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agent-native",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/.gitignore\n- docs/.husky\n- docs/.husky/pre-commit\n- docs/.prettierignore\n- docs/POSTHOG_BROKEN_LINKS.md\n- docs/README.md\n- docs/app",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/.husky\ndocs/.husky/pre-commit\ndocs/.prettierignore\ndocs/POSTHOG_BROKEN_LINKS.md\ndocs/README.md\ndocs/app",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.284268948750973
+  }
+]

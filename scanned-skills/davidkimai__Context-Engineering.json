@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Context-Engineering (davidkimai)",
+    "description": "[项目级] \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.\n\n来源: https://github.com/davidkimai/Context-Engineering\n语言: Python\nStars: 8429",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "1. **Read [`00_foundations/01_atoms_prompting.md`](00_foundations/01_atoms_prompting.md)** (5 min)  \n   Understand why prompts alone often underperform\n\n2. **Run [`10_guides_zero_to_hero/01_min_prompt.py`](10_guides_zero_to_hero/01_min_prompt.py)**  (Jupyter Notebook style) \n   Experiment with a minimal working example\n\n3. **Explore [`20_templates/minimal_context.yaml`](20_templates/minimal_context.yaml)**  \n   Copy/paste a template into your own project  \n\n4. **Study [`30_examples/00_toy_chatbot/`](30_examples/00_toy_chatbot/)**  \n   See a complete implementation with context management",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "00_COURSE\n00_COURSE/00_mathematical_foundations\n00_COURSE/01_context_retrieval_generation\n00_COURSE/02_context_processing\n00_COURSE/03_context_management\n00_COURSE/04_retrieval_augmented_generation\n00_COURSE/05_memory_systems\n00_COURSE/06_tool_integrated_reasoning\n00_COURSE/07_multi_agent_systems\n00_COURSE/08_field_theory_integration\n00_COURSE/09_evaluation_methodologies\n00_COURSE/10_orchestration_capstone\n00_COURSE/README.md\n00_EVIDENCE\n00_EVIDENCE/README.md\n00_foundations\n00_foundations/01_atoms_prompting.md\n00_foundations/02_molecules_context.md\n00_foundations/03_cells_memory.md\n00_foundations/04_organs_applications.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.962888026918373
+  },
+  {
+    "name": "Context-Engineering/00_COURSE 模块",
+    "description": "[模块级] Context-Engineering 项目的 00_COURSE 模块 (source)。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "module-level",
+      "source",
+      "00_course"
+    ],
+    "genes": [
+      {
+        "title": "00_COURSE 模块说明",
+        "content": "> ### **[Context Engineering Survey-Review of 1400 Research Papers](https://arxiv.org/pdf/2507.13334)**\n>\n> [**Awesome Context Engineering Repo**](https://github.com/Meirtz/Awesome-Context-Engineering)\n\nOperationalizing the Latest Research on Context With First Principles & Visuals — July 2025 from ICML, IBM, NeurIPS, OHBM, and more \n\n\n> **\"Providing “cognitive tools” to GPT-4.1 increases its pass@1 performance on AIME2024 from 26.7% to 43.3%, bringing it very close to the performance of o1-prev",
+        "gene_type": "principle"
+      },
+      {
+        "title": "00_COURSE 文件结构",
+        "content": "00_COURSE/00_mathematical_foundations\n00_COURSE/00_mathematical_foundations/00_introduction.md\n00_COURSE/00_mathematical_foundations/01_context_formalization.md\n00_COURSE/00_mathematical_foundations/02_optimization_theory.md\n00_COURSE/00_mathematical_foundations/03_information_theory.md\n00_COURSE/00_mathematical_foundations/04_bayesian_inference.md\n00_COURSE/00_mathematical_foundations/README.md\n00_COURSE/00_mathematical_foundations/exercises\n00_COURSE/00_mathematical_foundations/exercises/README.md\n00_COURSE/00_mathematical_foundations/exercises/math_foundations_lab.py\n00_COURSE/01_context_retrieval_generation\n00_COURSE/01_context_retrieval_generation/00_overview.md\n00_COURSE/01_context_retrieval_generation/01_prompt_engineering.md\n00_COURSE/01_context_retrieval_generation/02_external_knowledge.md\n00_COURSE/01_context_retrieval_generation/03_dynamic_assembly.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070310421534699
+  },
+  {
+    "name": "Context-Engineering/00_foundations 模块",
+    "description": "[模块级] Context-Engineering 项目的 00_foundations 模块 (source)。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "module-level",
+      "source",
+      "00_foundations"
+    ],
+    "genes": [
+      {
+        "title": "00_foundations 模块说明",
+        "content": "模块路径: 00_foundations/\n类型: source\n文件数: 15\n\n包含文件:\n- 00_foundations/01_atoms_prompting.md\n- 00_foundations/02_molecules_context.md\n- 00_foundations/03_cells_memory.md\n- 00_foundations/04_organs_applications.md\n- 00_foundations/05_cognitive_tools.md\n- 00_foundations/06_advanced_applications.md\n- 00_foundations/07_prompt_programming.md\n- 00_foundations/08_neural_fields_foundations.md\n- 00_foundations/09_persistence_and_resonance.md\n- 00_foundations/10_field_orchestration.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "00_foundations 文件结构",
+        "content": "00_foundations/01_atoms_prompting.md\n00_foundations/02_molecules_context.md\n00_foundations/03_cells_memory.md\n00_foundations/04_organs_applications.md\n00_foundations/05_cognitive_tools.md\n00_foundations/06_advanced_applications.md\n00_foundations/07_prompt_programming.md\n00_foundations/08_neural_fields_foundations.md\n00_foundations/09_persistence_and_resonance.md\n00_foundations/10_field_orchestration.md\n00_foundations/11_emergence_and_attractor_dynamics.md\n00_foundations/12_symbolic_mechanisms.md\n00_foundations/13_quantum_semantics.md\n00_foundations/14_unified_field_theory.md\n00_foundations/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070310421534699
+  },
+  {
+    "name": "Context-Engineering/10_guides_zero_to_hero 模块",
+    "description": "[模块级] Context-Engineering 项目的 10_guides_zero_to_hero 模块 (source)。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "module-level",
+      "source",
+      "10_guides_zero_to_hero"
+    ],
+    "genes": [
+      {
+        "title": "10_guides_zero_to_hero 模块说明",
+        "content": "模块路径: 10_guides_zero_to_hero/\n类型: source\n文件数: 8\n\n包含文件:\n- 10_guides_zero_to_hero/01_min_prompt.py\n- 10_guides_zero_to_hero/02_expand_context.py\n- 10_guides_zero_to_hero/03_control_loops.py\n- 10_guides_zero_to_hero/04_rag_recipes.py\n- 10_guides_zero_to_hero/05_prompt_programs.py\n- 10_guides_zero_to_hero/06_schema_design.py\n- 10_guides_zero_to_hero/07_recursive_patterns.py\n- 10_guides_zero_to_hero/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "10_guides_zero_to_hero 文件结构",
+        "content": "10_guides_zero_to_hero/01_min_prompt.py\n10_guides_zero_to_hero/02_expand_context.py\n10_guides_zero_to_hero/03_control_loops.py\n10_guides_zero_to_hero/04_rag_recipes.py\n10_guides_zero_to_hero/05_prompt_programs.py\n10_guides_zero_to_hero/06_schema_design.py\n10_guides_zero_to_hero/07_recursive_patterns.py\n10_guides_zero_to_hero/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070310421534699
+  },
+  {
+    "name": "Context-Engineering/20_templates 模块",
+    "description": "[模块级] Context-Engineering 项目的 20_templates 模块 (source)。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "module-level",
+      "source",
+      "20_templates"
+    ],
+    "genes": [
+      {
+        "title": "20_templates 模块说明",
+        "content": "模块路径: 20_templates/\n类型: source\n文件数: 38\n\n包含文件:\n- 20_templates/PROMPTS\n- 20_templates/PROMPTS/README.md\n- 20_templates/PROMPTS/alignment.agent.md\n- 20_templates/PROMPTS/attractor_design.md\n- 20_templates/PROMPTS/chain_of_thought.md\n- 20_templates/PROMPTS/comms.agent.md\n- 20_templates/PROMPTS/diligence.agent.md\n- 20_templates/PROMPTS/ethics.agent.md\n- 20_templates/PROMPTS/experiment.agent.md\n- 20_templates/PROMPTS/expert_guides.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "20_templates 文件结构",
+        "content": "20_templates/PROMPTS\n20_templates/PROMPTS/README.md\n20_templates/PROMPTS/alignment.agent.md\n20_templates/PROMPTS/attractor_design.md\n20_templates/PROMPTS/chain_of_thought.md\n20_templates/PROMPTS/comms.agent.md\n20_templates/PROMPTS/diligence.agent.md\n20_templates/PROMPTS/ethics.agent.md\n20_templates/PROMPTS/experiment.agent.md\n20_templates/PROMPTS/expert_guides.md\n20_templates/PROMPTS/few_shot_learning.md\n20_templates/PROMPTS/grant.agent.md\n20_templates/PROMPTS/ideation.agent.md\n20_templates/PROMPTS/incident.agent.md\n20_templates/PROMPTS/learningroadmap.agent.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070310421534699
+  },
+  {
+    "name": "Context-Engineering/30_examples 模块",
+    "description": "[模块级] Context-Engineering 项目的 30_examples 模块 (source)。来源: https://github.com/davidkimai/Context-Engineering",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-8429",
+      "github-davidkimai",
+      "module-level",
+      "source",
+      "30_examples"
+    ],
+    "genes": [
+      {
+        "title": "30_examples 模块说明",
+        "content": "模块路径: 30_examples/\n类型: source\n文件数: 8\n\n包含文件:\n- 30_examples/00_toy_chatbot\n- 30_examples/00_toy_chatbot/README.md\n- 30_examples/00_toy_chatbot/chatbot_core.py.md\n- 30_examples/00_toy_chatbot/context_field.py.md\n- 30_examples/00_toy_chatbot/conversation_examples.py.md\n- 30_examples/00_toy_chatbot/meta_recursive_demo.py.md\n- 30_examples/00_toy_chatbot/protocol_shells.py.md\n- 30_examples/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "30_examples 文件结构",
+        "content": "30_examples/00_toy_chatbot\n30_examples/00_toy_chatbot/README.md\n30_examples/00_toy_chatbot/chatbot_core.py.md\n30_examples/00_toy_chatbot/context_field.py.md\n30_examples/00_toy_chatbot/conversation_examples.py.md\n30_examples/00_toy_chatbot/meta_recursive_demo.py.md\n30_examples/00_toy_chatbot/protocol_shells.py.md\n30_examples/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.070310421534699
+  }
+]

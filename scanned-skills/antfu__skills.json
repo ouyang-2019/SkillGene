@@ -1,0 +1,95 @@
+[
+  {
+    "name": "skills (antfu)",
+    "description": "[项目级] Anthony Fu's curated collection of agent skills.。来源: https://github.com/antfu/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "skills",
+      "typescript",
+      "stars-3499",
+      "github-antfu",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Anthony Fu's curated collection of agent skills.\n\n来源: https://github.com/antfu/skills\n语言: TypeScript\nStars: 3499",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pnpx skills add antfu/skills --skill='*'",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nLICENSE.md\nREADME.md\neslint.config.js\ninstructions\ninstructions/nuxt.md\ninstructions/pinia.md\ninstructions/pnpm.md\ninstructions/tsdown.md\ninstructions/unocss.md\ninstructions/vite.md\ninstructions/vitepress.md\ninstructions/vitest.md\ninstructions/vue.md\nmeta.ts\npackage.json\npnpm-lock.yaml\npnpm-workspace.yaml\nscripts\nscripts/cli.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.771971971241453
+  },
+  {
+    "name": "skills/instructions 模块",
+    "description": "[模块级] skills 项目的 instructions 模块 (source)。来源: https://github.com/antfu/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "skills",
+      "typescript",
+      "stars-3499",
+      "github-antfu",
+      "module-level",
+      "source",
+      "instructions"
+    ],
+    "genes": [
+      {
+        "title": "instructions 模块说明",
+        "content": "模块路径: instructions/\n类型: source\n文件数: 9\n\n包含文件:\n- instructions/nuxt.md\n- instructions/pinia.md\n- instructions/pnpm.md\n- instructions/tsdown.md\n- instructions/unocss.md\n- instructions/vite.md\n- instructions/vitepress.md\n- instructions/vitest.md\n- instructions/vue.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "instructions 文件结构",
+        "content": "instructions/nuxt.md\ninstructions/pinia.md\ninstructions/pnpm.md\ninstructions/tsdown.md\ninstructions/unocss.md\ninstructions/vite.md\ninstructions/vitepress.md\ninstructions/vitest.md\ninstructions/vue.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9175775769931627
+  },
+  {
+    "name": "skills/skills 模块",
+    "description": "[模块级] skills 项目的 skills 模块 (source)。来源: https://github.com/antfu/skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "skills",
+      "typescript",
+      "stars-3499",
+      "github-antfu",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [Anthony Fu](https://github.com/antfu)'s preferences, experience, and best practices, along with usage documentation for the tools.\n\n> [!IMPORTANT]\n> This is a proof-of-concept project for generating agent skills from source documentation and keeping them in sync.\n> I haven't fully tested how well the skills perform in practice, so feedback and contributions are greatly welcome.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/antfu\nskills/antfu/SKILL.md\nskills/antfu/references\nskills/antfu/references/antfu-eslint-config.md\nskills/antfu/references/app-development.md\nskills/antfu/references/library-development.md\nskills/antfu/references/monorepo.md\nskills/antfu/references/setting-up.md\nskills/nuxt\nskills/nuxt/GENERATION.md\nskills/nuxt/SKILL.md\nskills/nuxt/references\nskills/nuxt/references/advanced-hooks.md\nskills/nuxt/references/advanced-layers.md\nskills/nuxt/references/advanced-module-authoring.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9175775769931627
+  }
+]

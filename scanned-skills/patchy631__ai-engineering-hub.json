@@ -1,0 +1,548 @@
+[
+  {
+    "name": "ai-engineering-hub (patchy631)",
+    "description": "[项目级] In-depth tutorials on LLMs, RAGs and real-world AI agent applications.。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "jupyter notebook",
+      "stars-30265",
+      "github-patchy631",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.\n\n来源: https://github.com/patchy631/ai-engineering-hub\n语言: Jupyter Notebook\nStars: 30265",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "New to AI Engineering? Start here:\n\n1. **Complete Beginners**: Check out the [AI Engineering Roadmap](./ai-engineering-roadmap) for a comprehensive learning path\n2. **Learn the Basics**: Start with [Beginner Projects](#-beginner-projects) like OCR apps and simple RAG implementations\n3. **Build Your Skills**: Move to [Intermediate Projects](#-intermediate-projects) with agents and complex workflows\n4. **Master Advanced Concepts**: Tackle [Advanced Projects](#-advanced-projects) including fine-tuning and production systems\n\n---",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Build-reasoning-model\nBuild-reasoning-model/Own_reasoning_model_with_GRPO.ipynb\nBuild-reasoning-model/README.md\nColivara-deepseek-website-RAG\nColivara-deepseek-website-RAG/README.md\nColivara-deepseek-website-RAG/app.py\nColivara-deepseek-website-RAG/assets\nColivara-deepseek-website-RAG/rag_code.py\nColivara-deepseek-website-RAG/video-demo.mp4\nDeepSeek-finetuning\nDeepSeek-finetuning/Fine_tune_DeepSeek.ipynb\nDeepSeek-finetuning/README.md\nLICENSE\nLaTeX-OCR-with-Llama\nLaTeX-OCR-with-Llama/.DS_Store\nLaTeX-OCR-with-Llama/LaTeX-OCR.mp4\nLaTeX-OCR-with-Llama/README.md\nLaTeX-OCR-with-Llama/app.py\nLaTeX-OCR-with-Llama/kl_div.png\nMulti-Agent-deep-researcher-mcp-windows-linux",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ai-engineering-hub/Build-reasoning-model 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 Build-reasoning-model 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "build-reasoning-model"
+    ],
+    "genes": [
+      {
+        "title": "Build-reasoning-model 模块说明",
+        "content": "模块路径: Build-reasoning-model/\n类型: source\n文件数: 2\n\n包含文件:\n- Build-reasoning-model/Own_reasoning_model_with_GRPO.ipynb\n- Build-reasoning-model/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Build-reasoning-model 文件结构",
+        "content": "Build-reasoning-model/Own_reasoning_model_with_GRPO.ipynb\nBuild-reasoning-model/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/Colivara-deepseek-website-RAG 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 Colivara-deepseek-website-RAG 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "colivara-deepseek-website-rag"
+    ],
+    "genes": [
+      {
+        "title": "Colivara-deepseek-website-RAG 模块说明",
+        "content": "模块路径: Colivara-deepseek-website-RAG/\n类型: source\n文件数: 6\n\n包含文件:\n- Colivara-deepseek-website-RAG/README.md\n- Colivara-deepseek-website-RAG/app.py\n- Colivara-deepseek-website-RAG/assets\n- Colivara-deepseek-website-RAG/assets/deep-seek.png\n- Colivara-deepseek-website-RAG/rag_code.py\n- Colivara-deepseek-website-RAG/video-demo.mp4",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Colivara-deepseek-website-RAG 文件结构",
+        "content": "Colivara-deepseek-website-RAG/README.md\nColivara-deepseek-website-RAG/app.py\nColivara-deepseek-website-RAG/assets\nColivara-deepseek-website-RAG/assets/deep-seek.png\nColivara-deepseek-website-RAG/rag_code.py\nColivara-deepseek-website-RAG/video-demo.mp4",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/DeepSeek-finetuning 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 DeepSeek-finetuning 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "deepseek-finetuning"
+    ],
+    "genes": [
+      {
+        "title": "DeepSeek-finetuning 模块说明",
+        "content": "模块路径: DeepSeek-finetuning/\n类型: source\n文件数: 2\n\n包含文件:\n- DeepSeek-finetuning/Fine_tune_DeepSeek.ipynb\n- DeepSeek-finetuning/README.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "DeepSeek-finetuning 文件结构",
+        "content": "DeepSeek-finetuning/Fine_tune_DeepSeek.ipynb\nDeepSeek-finetuning/README.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/LaTeX-OCR-with-Llama 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 LaTeX-OCR-with-Llama 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "latex-ocr-with-llama"
+    ],
+    "genes": [
+      {
+        "title": "LaTeX-OCR-with-Llama 模块说明",
+        "content": "模块路径: LaTeX-OCR-with-Llama/\n类型: source\n文件数: 5\n\n包含文件:\n- LaTeX-OCR-with-Llama/.DS_Store\n- LaTeX-OCR-with-Llama/LaTeX-OCR.mp4\n- LaTeX-OCR-with-Llama/README.md\n- LaTeX-OCR-with-Llama/app.py\n- LaTeX-OCR-with-Llama/kl_div.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "LaTeX-OCR-with-Llama 文件结构",
+        "content": "LaTeX-OCR-with-Llama/.DS_Store\nLaTeX-OCR-with-Llama/LaTeX-OCR.mp4\nLaTeX-OCR-with-Llama/README.md\nLaTeX-OCR-with-Llama/app.py\nLaTeX-OCR-with-Llama/kl_div.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/Multi-Agent-deep-researcher-mcp-windows-linux 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 Multi-Agent-deep-researcher-mcp-windows-linux 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "multi-agent-deep-researcher-mcp-windows-linux"
+    ],
+    "genes": [
+      {
+        "title": "Multi-Agent-deep-researcher-mcp-windows-linux 模块说明",
+        "content": "模块路径: Multi-Agent-deep-researcher-mcp-windows-linux/\n类型: source\n文件数: 8\n\n包含文件:\n- Multi-Agent-deep-researcher-mcp-windows-linux/.gitignore\n- Multi-Agent-deep-researcher-mcp-windows-linux/.python-version\n- Multi-Agent-deep-researcher-mcp-windows-linux/README.md\n- Multi-Agent-deep-researcher-mcp-windows-linux/agents.py\n- Multi-Agent-deep-researcher-mcp-windows-linux/app.py\n- Multi-Agent-deep-researcher-mcp-windows-linux/pyproject.toml\n- Multi-Agent-deep-researcher-mcp-windows-linux/server.py\n- Multi-Agent-deep-researcher-mcp-windows-linux/uv.lock",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Multi-Agent-deep-researcher-mcp-windows-linux 文件结构",
+        "content": "Multi-Agent-deep-researcher-mcp-windows-linux/.gitignore\nMulti-Agent-deep-researcher-mcp-windows-linux/.python-version\nMulti-Agent-deep-researcher-mcp-windows-linux/README.md\nMulti-Agent-deep-researcher-mcp-windows-linux/agents.py\nMulti-Agent-deep-researcher-mcp-windows-linux/app.py\nMulti-Agent-deep-researcher-mcp-windows-linux/pyproject.toml\nMulti-Agent-deep-researcher-mcp-windows-linux/server.py\nMulti-Agent-deep-researcher-mcp-windows-linux/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/Website-to-API-with-FireCrawl 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 Website-to-API-with-FireCrawl 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "website-to-api-with-firecrawl"
+    ],
+    "genes": [
+      {
+        "title": "Website-to-API-with-FireCrawl 模块说明",
+        "content": "模块路径: Website-to-API-with-FireCrawl/\n类型: source\n文件数: 5\n\n包含文件:\n- Website-to-API-with-FireCrawl/README.md\n- Website-to-API-with-FireCrawl/app.py\n- Website-to-API-with-FireCrawl/assets\n- Website-to-API-with-FireCrawl/assets/firecrawl.png\n- Website-to-API-with-FireCrawl/notebook.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Website-to-API-with-FireCrawl 文件结构",
+        "content": "Website-to-API-with-FireCrawl/README.md\nWebsite-to-API-with-FireCrawl/app.py\nWebsite-to-API-with-FireCrawl/assets\nWebsite-to-API-with-FireCrawl/assets/firecrawl.png\nWebsite-to-API-with-FireCrawl/notebook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/Youtube-trend-analysis 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 Youtube-trend-analysis 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "youtube-trend-analysis"
+    ],
+    "genes": [
+      {
+        "title": "Youtube-trend-analysis 模块说明",
+        "content": "模块路径: Youtube-trend-analysis/\n类型: source\n文件数: 7\n\n包含文件:\n- Youtube-trend-analysis/README.md\n- Youtube-trend-analysis/app.py\n- Youtube-trend-analysis/assets\n- Youtube-trend-analysis/assets/brightdata.png\n- Youtube-trend-analysis/assets/crewai.png\n- Youtube-trend-analysis/brightdata_scrapper.py\n- Youtube-trend-analysis/config.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Youtube-trend-analysis 文件结构",
+        "content": "Youtube-trend-analysis/README.md\nYoutube-trend-analysis/app.py\nYoutube-trend-analysis/assets\nYoutube-trend-analysis/assets/brightdata.png\nYoutube-trend-analysis/assets/crewai.png\nYoutube-trend-analysis/brightdata_scrapper.py\nYoutube-trend-analysis/config.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/acp-code 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 acp-code 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "acp-code"
+    ],
+    "genes": [
+      {
+        "title": "acp-code 模块说明",
+        "content": "模块路径: acp-code/\n类型: source\n文件数: 4\n\n包含文件:\n- acp-code/README.md\n- acp-code/acp_client.py\n- acp-code/crew_acp_server.py\n- acp-code/smolagents_acp_server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "acp-code 文件结构",
+        "content": "acp-code/README.md\nacp-code/acp_client.py\nacp-code/crew_acp_server.py\nacp-code/smolagents_acp_server.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/agent-with-mcp-memory 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 agent-with-mcp-memory 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "agent-with-mcp-memory"
+    ],
+    "genes": [
+      {
+        "title": "agent-with-mcp-memory 模块说明",
+        "content": "模块路径: agent-with-mcp-memory/\n类型: source\n文件数: 11\n\n包含文件:\n- agent-with-mcp-memory/.env.example\n- agent-with-mcp-memory/README.md\n- agent-with-mcp-memory/assets\n- agent-with-mcp-memory/assets/agent-crashcourse1.gif\n- agent-with-mcp-memory/assets/agent-crashcourse2.gif\n- agent-with-mcp-memory/assets/thumbnail.jpeg\n- agent-with-mcp-memory/assets/zep-memory.gif\n- agent-with-mcp-memory/demo.ipynb\n- agent-with-mcp-memory/pyproject.toml\n- agent-with-mcp-memory/server.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent-with-mcp-memory 文件结构",
+        "content": "agent-with-mcp-memory/.env.example\nagent-with-mcp-memory/README.md\nagent-with-mcp-memory/assets\nagent-with-mcp-memory/assets/agent-crashcourse1.gif\nagent-with-mcp-memory/assets/agent-crashcourse2.gif\nagent-with-mcp-memory/assets/thumbnail.jpeg\nagent-with-mcp-memory/assets/zep-memory.gif\nagent-with-mcp-memory/demo.ipynb\nagent-with-mcp-memory/pyproject.toml\nagent-with-mcp-memory/server.py\nagent-with-mcp-memory/uv.lock",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/agent2agent-demo 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 agent2agent-demo 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "agent2agent-demo"
+    ],
+    "genes": [
+      {
+        "title": "agent2agent-demo 模块说明",
+        "content": "模块路径: agent2agent-demo/\n类型: source\n文件数: 4\n\n包含文件:\n- agent2agent-demo/agent1.py\n- agent2agent-demo/agent2.py\n- agent2agent-demo/agent3.py\n- agent2agent-demo/notebook.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agent2agent-demo 文件结构",
+        "content": "agent2agent-demo/agent1.py\nagent2agent-demo/agent2.py\nagent2agent-demo/agent3.py\nagent2agent-demo/notebook.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/agentic_rag 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 agentic_rag 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "agentic_rag"
+    ],
+    "genes": [
+      {
+        "title": "agentic_rag 模块说明",
+        "content": "模块路径: agentic_rag/\n类型: source\n文件数: 28\n\n包含文件:\n- agentic_rag/.env.example\n- agentic_rag/.gitignore\n- agentic_rag/README.md\n- agentic_rag/agentic_rag.ipynb\n- agentic_rag/app.py\n- agentic_rag/app_deep_seek.py\n- agentic_rag/app_llama3.2.py\n- agentic_rag/assets\n- agentic_rag/assets/deep-seek.png\n- agentic_rag/demo_llama3.2.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentic_rag 文件结构",
+        "content": "agentic_rag/.env.example\nagentic_rag/.gitignore\nagentic_rag/README.md\nagentic_rag/agentic_rag.ipynb\nagentic_rag/app.py\nagentic_rag/app_deep_seek.py\nagentic_rag/app_llama3.2.py\nagentic_rag/assets\nagentic_rag/assets/deep-seek.png\nagentic_rag/demo_llama3.2.ipynb\nagentic_rag/knowledge\nagentic_rag/knowledge/dspy.pdf\nagentic_rag/pyproject.toml\nagentic_rag/src\nagentic_rag/src/agentic_rag",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/agentic_rag_deepseek 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 agentic_rag_deepseek 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "agentic_rag_deepseek"
+    ],
+    "genes": [
+      {
+        "title": "agentic_rag_deepseek 模块说明",
+        "content": "模块路径: agentic_rag_deepseek/\n类型: source\n文件数: 21\n\n包含文件:\n- agentic_rag_deepseek/.env.example\n- agentic_rag_deepseek/README.md\n- agentic_rag_deepseek/app_deep_seek.py\n- agentic_rag_deepseek/assets\n- agentic_rag_deepseek/assets/deep-seek.png\n- agentic_rag_deepseek/assets/thumbnail.png\n- agentic_rag_deepseek/knowledge\n- agentic_rag_deepseek/knowledge/dspy.pdf\n- agentic_rag_deepseek/src\n- agentic_rag_deepseek/src/agentic_rag",
+        "gene_type": "principle"
+      },
+      {
+        "title": "agentic_rag_deepseek 文件结构",
+        "content": "agentic_rag_deepseek/.env.example\nagentic_rag_deepseek/README.md\nagentic_rag_deepseek/app_deep_seek.py\nagentic_rag_deepseek/assets\nagentic_rag_deepseek/assets/deep-seek.png\nagentic_rag_deepseek/assets/thumbnail.png\nagentic_rag_deepseek/knowledge\nagentic_rag_deepseek/knowledge/dspy.pdf\nagentic_rag_deepseek/src\nagentic_rag_deepseek/src/agentic_rag\nagentic_rag_deepseek/src/agentic_rag/__init__.py\nagentic_rag_deepseek/src/agentic_rag/agentic_rag.ipynb\nagentic_rag_deepseek/src/agentic_rag/config\nagentic_rag_deepseek/src/agentic_rag/config/agents.yaml\nagentic_rag_deepseek/src/agentic_rag/config/tasks.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/ai-avatar-demo 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 ai-avatar-demo 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "ai-avatar-demo"
+    ],
+    "genes": [
+      {
+        "title": "ai-avatar-demo 模块说明",
+        "content": "模块路径: ai-avatar-demo/\n类型: source\n文件数: 23\n\n包含文件:\n- ai-avatar-demo/.env.example\n- ai-avatar-demo/.gitignore\n- ai-avatar-demo/.python-version\n- ai-avatar-demo/README.md\n- ai-avatar-demo/app.py\n- ai-avatar-demo/assets\n- ai-avatar-demo/assets/architecture.gif\n- ai-avatar-demo/backend.py\n- ai-avatar-demo/config\n- ai-avatar-demo/config/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-avatar-demo 文件结构",
+        "content": "ai-avatar-demo/.env.example\nai-avatar-demo/.gitignore\nai-avatar-demo/.python-version\nai-avatar-demo/README.md\nai-avatar-demo/app.py\nai-avatar-demo/assets\nai-avatar-demo/assets/architecture.gif\nai-avatar-demo/backend.py\nai-avatar-demo/config\nai-avatar-demo/config/__init__.py\nai-avatar-demo/config/settings.py\nai-avatar-demo/data\nai-avatar-demo/data/README.md\nai-avatar-demo/data/chunked-docs.json\nai-avatar-demo/pyproject.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/ai-engineering-roadmap 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 ai-engineering-roadmap 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "ai-engineering-roadmap"
+    ],
+    "genes": [
+      {
+        "title": "ai-engineering-roadmap 模块说明",
+        "content": "模块路径: ai-engineering-roadmap/\n类型: source\n文件数: 13\n\n包含文件:\n- ai-engineering-roadmap/README.md\n- ai-engineering-roadmap/assets\n- ai-engineering-roadmap/assets/3b1bnn.png\n- ai-engineering-roadmap/assets/ai engg roadmap.jpg\n- ai-engineering-roadmap/assets/ai-engg-book.png\n- ai-engineering-roadmap/assets/ai-engg-hub.png\n- ai-engineering-roadmap/assets/aipython.png\n- ai-engineering-roadmap/assets/anthropic.png\n- ai-engineering-roadmap/assets/crewai.png\n- ai-engineering-roadmap/assets/cs50.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-engineering-roadmap 文件结构",
+        "content": "ai-engineering-roadmap/README.md\nai-engineering-roadmap/assets\nai-engineering-roadmap/assets/3b1bnn.png\nai-engineering-roadmap/assets/ai engg roadmap.jpg\nai-engineering-roadmap/assets/ai-engg-book.png\nai-engineering-roadmap/assets/ai-engg-hub.png\nai-engineering-roadmap/assets/aipython.png\nai-engineering-roadmap/assets/anthropic.png\nai-engineering-roadmap/assets/crewai.png\nai-engineering-roadmap/assets/cs50.png\nai-engineering-roadmap/assets/khanacademy.png\nai-engineering-roadmap/assets/mcp-guidebook.png\nai-engineering-roadmap/assets/nnkarpathy.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/ai-podcast-generation 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 ai-podcast-generation 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "ai-podcast-generation"
+    ],
+    "genes": [
+      {
+        "title": "ai-podcast-generation 模块说明",
+        "content": "模块路径: ai-podcast-generation/\n类型: source\n文件数: 17\n\n包含文件:\n- ai-podcast-generation/.env.example\n- ai-podcast-generation/.gitignore\n- ai-podcast-generation/README.md\n- ai-podcast-generation/app.py\n- ai-podcast-generation/app_oss.py\n- ai-podcast-generation/pyproject.toml\n- ai-podcast-generation/src\n- ai-podcast-generation/src/__init__.py\n- ai-podcast-generation/src/podcast\n- ai-podcast-generation/src/podcast/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-podcast-generation 文件结构",
+        "content": "ai-podcast-generation/.env.example\nai-podcast-generation/.gitignore\nai-podcast-generation/README.md\nai-podcast-generation/app.py\nai-podcast-generation/app_oss.py\nai-podcast-generation/pyproject.toml\nai-podcast-generation/src\nai-podcast-generation/src/__init__.py\nai-podcast-generation/src/podcast\nai-podcast-generation/src/podcast/__init__.py\nai-podcast-generation/src/podcast/script_generator.py\nai-podcast-generation/src/podcast/script_generator_oss.py\nai-podcast-generation/src/podcast/text_to_speech.py\nai-podcast-generation/src/web_scraping\nai-podcast-generation/src/web_scraping/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/ai-podcast-generator 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 ai-podcast-generator 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "ai-podcast-generator"
+    ],
+    "genes": [
+      {
+        "title": "ai-podcast-generator 模块说明",
+        "content": "模块路径: ai-podcast-generator/\n类型: source\n文件数: 19\n\n包含文件:\n- ai-podcast-generator/.env.example\n- ai-podcast-generator/.gitignore\n- ai-podcast-generator/.python-version\n- ai-podcast-generator/README.md\n- ai-podcast-generator/app.py\n- ai-podcast-generator/pyproject.toml\n- ai-podcast-generator/scraper.py\n- ai-podcast-generator/script_generator.py\n- ai-podcast-generator/test_audio\n- ai-podcast-generator/test_audio/segment_001.mp3",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai-podcast-generator 文件结构",
+        "content": "ai-podcast-generator/.env.example\nai-podcast-generator/.gitignore\nai-podcast-generator/.python-version\nai-podcast-generator/README.md\nai-podcast-generator/app.py\nai-podcast-generator/pyproject.toml\nai-podcast-generator/scraper.py\nai-podcast-generator/script_generator.py\nai-podcast-generator/test_audio\nai-podcast-generator/test_audio/segment_001.mp3\nai-podcast-generator/test_audio/segment_002.mp3\nai-podcast-generator/test_audio/segment_003.mp3\nai-podcast-generator/test_audio/segment_004.mp3\nai-podcast-generator/test_audio/segment_005.mp3\nai-podcast-generator/test_audio/segment_006.mp3",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  },
+  {
+    "name": "ai-engineering-hub/ai_news_generator 模块",
+    "description": "[模块级] ai-engineering-hub 项目的 ai_news_generator 模块 (source)。来源: https://github.com/patchy631/ai-engineering-hub",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "llms",
+      "machine-learning",
+      "mcp",
+      "module-level",
+      "source",
+      "ai_news_generator"
+    ],
+    "genes": [
+      {
+        "title": "ai_news_generator 模块说明",
+        "content": "模块路径: ai_news_generator/\n类型: source\n文件数: 3\n\n包含文件:\n- ai_news_generator/.env.example\n- ai_news_generator/README.md\n- ai_news_generator/app.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ai_news_generator 文件结构",
+        "content": "ai_news_generator/.env.example\nai_news_generator/README.md\nai_news_generator/app.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.292376271299428
+  }
+]

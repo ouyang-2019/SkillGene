@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Jarvis (cranklin)",
+    "description": "[项目级] Utilizing Google's Text-to-Speech Engine, Google's Speech-to-Text Engine, and Wolfram Alpha's knowledge base to create a homebrew Siri-type AI for home automation。来源: https://github.com/cranklin/Jarvis",
+    "domain": "general",
+    "tags": [
+      "php",
+      "stars-122",
+      "github-cranklin",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Utilizing Google's Text-to-Speech Engine, Google's Speech-to-Text Engine, and Wolfram Alpha's knowledge base to create a homebrew Siri-type AI for home automation\n\n来源: https://github.com/cranklin/Jarvis\n语言: PHP\nStars: 122",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Memo(2).m4a\nREADME\ngoogletest.php\njarvischrome.php\nm4atoflac.txt\ntest.mp3\ntest1.flac\ntest3.flac\nwebserverswitch\nwebserverswitch/webserverswitch.ino\nwolframtest.php",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.043179915337374
+  }
+]

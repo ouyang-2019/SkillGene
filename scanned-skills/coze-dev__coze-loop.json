@@ -1,0 +1,73 @@
+[
+  {
+    "name": "coze-loop (coze-dev)",
+    "description": "[项目级] Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  。来源: https://github.com/coze-dev/coze-loop",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-evaluation",
+      "agent-observability",
+      "agentops",
+      "ai",
+      "go",
+      "stars-5323",
+      "github-coze-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Next-generation AI Agent Optimization Platform: Cozeloop addresses challenges in AI agent development by providing full-lifecycle management capabilities from development, debugging, and evaluation to monitoring.  \n\n来源: https://github.com/coze-dev/coze-loop\n语言: Go\nStars: 5323",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": ">\n> Refer to [Quick Start](https://github.com/coze-dev/coze-loop/wiki/2.-Quickstart) to learn in detail how to install and deploy the latest version of Coze Loop.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nMakefile\nREADME.cn.md\nREADME.md\nbackend\nbackend/api\nbackend/cmd\nbackend/conf\nbackend/go.mod\nbackend/go.sum\nbackend/infra",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "| **Feature** | **Functional points** |\n| --- | --- |\n| Prompt debugging | *Playground debugging and comparison <br>* Prompt version management |\n| Evaluation | *Manage evaluation sets <br> Management evaluator <br>* Manage experiments |\n| Observation | SDK trace reporting <br> * Trace data observation |\n| Model | Support integration with OpenAI, Volcengine Ark, and other models |",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8630782330863775
+  },
+  {
+    "name": "coze-loop/backend 模块",
+    "description": "[模块级] coze-loop 项目的 backend 模块 (source)。来源: https://github.com/coze-dev/coze-loop",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agent-evaluation",
+      "agent-observability",
+      "agentops",
+      "ai",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "模块路径: backend/\n类型: source\n文件数: 165\n\n包含文件:\n- backend/api\n- backend/api/.hz\n- backend/api/api.go\n- backend/api/handler\n- backend/api/handler/coze\n- backend/api/handler/coze/loop\n- backend/api/handler/coze/loop/apis\n- backend/api/handler/coze/loop/apis/dataset_service.go\n- backend/api/handler/coze/loop/apis/eval_open_apiservice.go\n- backend/api/handler/coze/loop/apis/eval_target_service.go",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/api\nbackend/api/.hz\nbackend/api/api.go\nbackend/api/handler\nbackend/api/handler/coze\nbackend/api/handler/coze/loop\nbackend/api/handler/coze/loop/apis\nbackend/api/handler/coze/loop/apis/dataset_service.go\nbackend/api/handler/coze/loop/apis/eval_open_apiservice.go\nbackend/api/handler/coze/loop/apis/eval_target_service.go\nbackend/api/handler/coze/loop/apis/evaluation_set_service.go\nbackend/api/handler/coze/loop/apis/evaluator_service.go\nbackend/api/handler/coze/loop/apis/evaluator_service_test.go\nbackend/api/handler/coze/loop/apis/experiment_service.go\nbackend/api/handler/coze/loop/apis/experiment_service_test.go",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.990462586469102
+  }
+]

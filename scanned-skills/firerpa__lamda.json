@@ -1,0 +1,213 @@
+[
+  {
+    "name": "lamda (firerpa)",
+    "description": "[项目级]  The most powerful Android RPA agent framework, next generation of mobile automation robots.。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "python",
+      "stars-7613",
+      "github-firerpa",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": " The most powerful Android RPA agent framework, next generation of mobile automation robots.\n\n来源: https://github.com/firerpa/lamda\n语言: Python\nStars: 7613",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.txt\nDISCLAIMER.TXT\nREADME.md\nSECURITY.md\nall-llms.txt\nexamples\nexamples/README.md\nexamples/activity_jump.py\nexamples/search_in_taobao.py\nextensions\nextensions/README.md\nextensions/example_http_extension.py\nextensions/example_mcp_extension.py\nextensions/firerpa.py\nextensions/mcp_return_types.py\nextensions/mcp_sms_reader.py\nimage\nimage/claude.gif\nimage/demo.gif\nimage/inspect.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.940777914896656
+  },
+  {
+    "name": "lamda/examples 模块",
+    "description": "[模块级] lamda 项目的 examples 模块 (example)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 3\n\n包含文件:\n- examples/README.md\n- examples/activity_jump.py\n- examples/search_in_taobao.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/README.md\nexamples/activity_jump.py\nexamples/search_in_taobao.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  },
+  {
+    "name": "lamda/extensions 模块",
+    "description": "[模块级] lamda 项目的 extensions 模块 (source)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "source",
+      "extensions"
+    ],
+    "genes": [
+      {
+        "title": "extensions 模块说明",
+        "content": "模块路径: extensions/\n类型: source\n文件数: 6\n\n包含文件:\n- extensions/README.md\n- extensions/example_http_extension.py\n- extensions/example_mcp_extension.py\n- extensions/firerpa.py\n- extensions/mcp_return_types.py\n- extensions/mcp_sms_reader.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "extensions 文件结构",
+        "content": "extensions/README.md\nextensions/example_http_extension.py\nextensions/example_mcp_extension.py\nextensions/firerpa.py\nextensions/mcp_return_types.py\nextensions/mcp_sms_reader.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  },
+  {
+    "name": "lamda/image 模块",
+    "description": "[模块级] lamda 项目的 image 模块 (source)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "source",
+      "image"
+    ],
+    "genes": [
+      {
+        "title": "image 模块说明",
+        "content": "模块路径: image/\n类型: source\n文件数: 4\n\n包含文件:\n- image/claude.gif\n- image/demo.gif\n- image/inspect.png\n- image/logo.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "image 文件结构",
+        "content": "image/claude.gif\nimage/demo.gif\nimage/inspect.png\nimage/logo.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  },
+  {
+    "name": "lamda/lamda 模块",
+    "description": "[模块级] lamda 项目的 lamda 模块 (source)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "source",
+      "lamda"
+    ],
+    "genes": [
+      {
+        "title": "lamda 模块说明",
+        "content": "模块路径: lamda/\n类型: source\n文件数: 35\n\n包含文件:\n- lamda/__init__.py\n- lamda/client.py\n- lamda/const.py\n- lamda/exceptions.py\n- lamda/google\n- lamda/google/protobuf\n- lamda/google/protobuf/any.proto\n- lamda/google/protobuf/api.proto\n- lamda/google/protobuf/compiler\n- lamda/google/protobuf/compiler/plugin.proto",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lamda 文件结构",
+        "content": "lamda/__init__.py\nlamda/client.py\nlamda/const.py\nlamda/exceptions.py\nlamda/google\nlamda/google/protobuf\nlamda/google/protobuf/any.proto\nlamda/google/protobuf/api.proto\nlamda/google/protobuf/compiler\nlamda/google/protobuf/compiler/plugin.proto\nlamda/google/protobuf/descriptor.proto\nlamda/google/protobuf/duration.proto\nlamda/google/protobuf/empty.proto\nlamda/google/protobuf/field_mask.proto\nlamda/google/protobuf/source_context.proto",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  },
+  {
+    "name": "lamda/scripts 模块",
+    "description": "[模块级] lamda 项目的 scripts 模块 (script)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/disable_flag_secure.yaml\n- scripts/disable_ssl_pinning_simple.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/disable_flag_secure.yaml\nscripts/disable_ssl_pinning_simple.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  },
+  {
+    "name": "lamda/tools 模块",
+    "description": "[模块级] lamda 项目的 tools 模块 (script)。来源: https://github.com/firerpa/lamda",
+    "domain": "ai-llm",
+    "tags": [
+      "adb",
+      "agents",
+      "ai",
+      "android",
+      "appium",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "模块路径: tools/\n类型: script\n文件数: 56\n\n包含文件:\n- tools/README.md\n- tools/adb_pubkey.py\n- tools/cert.py\n- tools/debugimage.py\n- tools/discover.py\n- tools/firerpa.yml\n- tools/frida_script_generate.py\n- tools/fridarpc.py\n- tools/globalmitm\n- tools/globalmitm/DNS2SOCKS.c",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/README.md\ntools/adb_pubkey.py\ntools/cert.py\ntools/debugimage.py\ntools/discover.py\ntools/firerpa.yml\ntools/frida_script_generate.py\ntools/fridarpc.py\ntools/globalmitm\ntools/globalmitm/DNS2SOCKS.c\ntools/globalmitm/Dockerfile\ntools/globalmitm/entry\ntools/id_rsa\ntools/ida.py\ntools/magisk",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.052622331917325
+  }
+]

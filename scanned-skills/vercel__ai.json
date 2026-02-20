@@ -1,0 +1,73 @@
+[
+  {
+    "name": "ai (vercel)",
+    "description": "[项目级] The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents 。来源: https://github.com/vercel/ai",
+    "domain": "web-frontend",
+    "tags": [
+      "anthropic",
+      "artificial-intelligence",
+      "gemini",
+      "generative-ai",
+      "generative-ui",
+      "typescript",
+      "stars-21899",
+      "github-vercel",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents \n\n来源: https://github.com/vercel/ai\n语言: TypeScript\nStars: 21899",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm install ai",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/hero.gif\ncontent\ncontent/cookbook\ncontent/docs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "ai/content 模块",
+    "description": "[模块级] ai 项目的 content 模块 (source)。来源: https://github.com/vercel/ai",
+    "domain": "web-frontend",
+    "tags": [
+      "anthropic",
+      "artificial-intelligence",
+      "gemini",
+      "generative-ai",
+      "generative-ui",
+      "module-level",
+      "source",
+      "content"
+    ],
+    "genes": [
+      {
+        "title": "content 模块说明",
+        "content": "模块路径: content/\n类型: source\n文件数: 136\n\n包含文件:\n- content/cookbook\n- content/cookbook/00-guides\n- content/cookbook/00-guides/01-rag-chatbot.mdx\n- content/cookbook/00-guides/02-multi-modal-chatbot.mdx\n- content/cookbook/00-guides/03-slackbot.mdx\n- content/cookbook/00-guides/04-natural-language-postgres.mdx\n- content/cookbook/00-guides/05-computer-use.mdx\n- content/cookbook/00-guides/06-agent-skills.mdx\n- content/cookbook/00-guides/07-custom-memory-tool.mdx\n- content/cookbook/00-guides/17-gemini.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "content 文件结构",
+        "content": "content/cookbook\ncontent/cookbook/00-guides\ncontent/cookbook/00-guides/01-rag-chatbot.mdx\ncontent/cookbook/00-guides/02-multi-modal-chatbot.mdx\ncontent/cookbook/00-guides/03-slackbot.mdx\ncontent/cookbook/00-guides/04-natural-language-postgres.mdx\ncontent/cookbook/00-guides/05-computer-use.mdx\ncontent/cookbook/00-guides/06-agent-skills.mdx\ncontent/cookbook/00-guides/07-custom-memory-tool.mdx\ncontent/cookbook/00-guides/17-gemini.mdx\ncontent/cookbook/00-guides/18-claude-4.mdx\ncontent/cookbook/00-guides/19-openai-responses.mdx\ncontent/cookbook/00-guides/20-google-gemini-image-generation.mdx\ncontent/cookbook/00-guides/20-sonnet-3-7.mdx\ncontent/cookbook/00-guides/21-llama-3_1.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.236169713435634
+  }
+]

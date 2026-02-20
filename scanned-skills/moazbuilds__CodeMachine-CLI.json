@@ -1,0 +1,183 @@
+[
+  {
+    "name": "CodeMachine-CLI (moazbuilds)",
+    "description": "[项目级] CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "typescript",
+      "stars-2278",
+      "github-moazbuilds",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️\n\n来源: https://github.com/moazbuilds/CodeMachine-CLI\n语言: TypeScript\nStars: 2278",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nCONTRIBUTORS.md\nLICENSE\nREADME.md\nbin\nbin/codemachine.js\nbun.lock\nbunfig.toml\nconfig\nconfig/agent-characters.json\nconfig/main.agents.js\nconfig/modules.js\nconfig/package.json\nconfig/placeholders.js\nconfig/sub.agents.js\neslint.config.js\nimages\nimages/banner.png\nimages/discord-badge.png\nimages/docs-badge.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.67877685987154
+  },
+  {
+    "name": "CodeMachine-CLI/config 模块",
+    "description": "[模块级] CodeMachine-CLI 项目的 config 模块 (config)。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 6\n\n包含文件:\n- config/agent-characters.json\n- config/main.agents.js\n- config/modules.js\n- config/package.json\n- config/placeholders.js\n- config/sub.agents.js",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/agent-characters.json\nconfig/main.agents.js\nconfig/modules.js\nconfig/package.json\nconfig/placeholders.js\nconfig/sub.agents.js",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8430214878972326
+  },
+  {
+    "name": "CodeMachine-CLI/images 模块",
+    "description": "[模块级] CodeMachine-CLI 项目的 images 模块 (source)。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 6\n\n包含文件:\n- images/banner.png\n- images/discord-badge.png\n- images/docs-badge.png\n- images/logo.png\n- images/reddit-badge.png\n- images/video-thumbnail.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/banner.png\nimages/discord-badge.png\nimages/docs-badge.png\nimages/logo.png\nimages/reddit-badge.png\nimages/video-thumbnail.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8430214878972326
+  },
+  {
+    "name": "CodeMachine-CLI/prompts 模块",
+    "description": "[模块级] CodeMachine-CLI 项目的 prompts 模块 (source)。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "module-level",
+      "source",
+      "prompts"
+    ],
+    "genes": [
+      {
+        "title": "prompts 模块说明",
+        "content": "模块路径: prompts/\n类型: source\n文件数: 15\n\n包含文件:\n- prompts/templates\n- prompts/templates/ali\n- prompts/templates/ali/ali.md\n- prompts/templates/ali/chained\n- prompts/templates/ali/chained/step-00-setup.md\n- prompts/templates/ali/chained/step-01-brainstorming.md\n- prompts/templates/ali/chained/step-02-workflow-definition.md\n- prompts/templates/ali/chained/step-03-agents.md\n- prompts/templates/ali/chained/step-04-prompts.md\n- prompts/templates/ali/chained/step-05-workflow-generation.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompts 文件结构",
+        "content": "prompts/templates\nprompts/templates/ali\nprompts/templates/ali/ali.md\nprompts/templates/ali/chained\nprompts/templates/ali/chained/step-00-setup.md\nprompts/templates/ali/chained/step-01-brainstorming.md\nprompts/templates/ali/chained/step-02-workflow-definition.md\nprompts/templates/ali/chained/step-03-agents.md\nprompts/templates/ali/chained/step-04-prompts.md\nprompts/templates/ali/chained/step-05-workflow-generation.md\nprompts/templates/ali/quick-workflow.md\nprompts/templates/ali/shared\nprompts/templates/ali/shared/brain-methods.csv\nprompts/templates/ali/shared/step-completion.md\nprompts/templates/ali/workflow.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8430214878972326
+  },
+  {
+    "name": "CodeMachine-CLI/scripts 模块",
+    "description": "[模块级] CodeMachine-CLI 项目的 scripts 模块 (script)。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 2\n\n包含文件:\n- scripts/build.ts\n- scripts/publish.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/build.ts\nscripts/publish.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8430214878972326
+  },
+  {
+    "name": "CodeMachine-CLI/src 模块",
+    "description": "[模块级] CodeMachine-CLI 项目的 src 模块 (source)。来源: https://github.com/moazbuilds/CodeMachine-CLI",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "automation",
+      "cli",
+      "cli-tool",
+      "code-generation",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 150\n\n包含文件:\n- src/agents\n- src/agents/chat\n- src/agents/chat/index.ts\n- src/agents/chat/types.ts\n- src/agents/coordinator\n- src/agents/coordinator/execution.ts\n- src/agents/coordinator/index.ts\n- src/agents/coordinator/parser.ts\n- src/agents/coordinator/service.ts\n- src/agents/coordinator/types.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/agents\nsrc/agents/chat\nsrc/agents/chat/index.ts\nsrc/agents/chat/types.ts\nsrc/agents/coordinator\nsrc/agents/coordinator/execution.ts\nsrc/agents/coordinator/index.ts\nsrc/agents/coordinator/parser.ts\nsrc/agents/coordinator/service.ts\nsrc/agents/coordinator/types.ts\nsrc/agents/execution\nsrc/agents/execution/actions.ts\nsrc/agents/execution/index.ts\nsrc/agents/execution/run.ts\nsrc/agents/execution/telemetry.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8430214878972326
+  }
+]

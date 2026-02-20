@@ -1,0 +1,123 @@
+[
+  {
+    "name": "OpenHands (OpenHands)",
+    "description": "[项目级] 🙌 OpenHands: AI-Driven Development。来源: https://github.com/OpenHands/OpenHands",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "python",
+      "stars-67999",
+      "github-openhands",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🙌 OpenHands: AI-Driven Development\n\n来源: https://github.com/OpenHands/OpenHands\n语言: Python\nStars: 67999",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCITATION.cff\nCNAME\nCODE_OF_CONDUCT.md\nCOMMUNITY.md\nCONTRIBUTING.md\nCREDITS.md\nDevelopment.md\nISSUE_TRIAGE.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nbuild.sh\nconfig.template.toml\ncontainers\ncontainers/README.md\ncontainers/app\ncontainers/build.sh\ncontainers/dev",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "OpenHands/containers 模块",
+    "description": "[模块级] OpenHands 项目的 containers 模块 (source)。来源: https://github.com/OpenHands/OpenHands",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "module-level",
+      "source",
+      "containers"
+    ],
+    "genes": [
+      {
+        "title": "containers 模块说明",
+        "content": "模块路径: containers/\n类型: source\n文件数: 14\n\n包含文件:\n- containers/README.md\n- containers/app\n- containers/app/Dockerfile\n- containers/app/config.sh\n- containers/app/entrypoint.sh\n- containers/build.sh\n- containers/dev\n- containers/dev/Dockerfile\n- containers/dev/README.md\n- containers/dev/compose.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "containers 文件结构",
+        "content": "containers/README.md\ncontainers/app\ncontainers/app/Dockerfile\ncontainers/app/config.sh\ncontainers/app/entrypoint.sh\ncontainers/build.sh\ncontainers/dev\ncontainers/dev/Dockerfile\ncontainers/dev/README.md\ncontainers/dev/compose.yml\ncontainers/dev/dev.sh\ncontainers/runtime\ncontainers/runtime/README.md\ncontainers/runtime/config.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.433001010390287
+  },
+  {
+    "name": "OpenHands/dev_config 模块",
+    "description": "[模块级] OpenHands 项目的 dev_config 模块 (source)。来源: https://github.com/OpenHands/OpenHands",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "module-level",
+      "source",
+      "dev_config"
+    ],
+    "genes": [
+      {
+        "title": "dev_config 模块说明",
+        "content": "模块路径: dev_config/\n类型: source\n文件数: 4\n\n包含文件:\n- dev_config/python\n- dev_config/python/.pre-commit-config.yaml\n- dev_config/python/mypy.ini\n- dev_config/python/ruff.toml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dev_config 文件结构",
+        "content": "dev_config/python\ndev_config/python/.pre-commit-config.yaml\ndev_config/python/mypy.ini\ndev_config/python/ruff.toml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.433001010390287
+  },
+  {
+    "name": "OpenHands/enterprise 模块",
+    "description": "[模块级] OpenHands 项目的 enterprise 模块 (source)。来源: https://github.com/OpenHands/OpenHands",
+    "domain": "devops",
+    "tags": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "module-level",
+      "source",
+      "enterprise"
+    ],
+    "genes": [
+      {
+        "title": "enterprise 模块说明",
+        "content": "Large enterprises can work with us to self-host OpenHands Cloud in their own VPC, via Kubernetes.\nOpenHands Enterprise can also work with the CLI and SDK above.\n\nOpenHands Enterprise is source-available--you can see all the source code here in the enterprise/ directory,\nbut you'll need to purchase a license if you want to run it for more than one month.\n\nEnterprise contracts also come with extended support and access to our research team.\n\nLearn more at [openhands.dev/enterprise](https://openhan",
+        "gene_type": "principle"
+      },
+      {
+        "title": "enterprise 文件结构",
+        "content": "enterprise/Dockerfile\nenterprise/LICENSE\nenterprise/Makefile\nenterprise/README.md\nenterprise/__init__.py\nenterprise/alembic.ini\nenterprise/allhands-realm-github-provider.json.tmpl\nenterprise/dev_config\nenterprise/dev_config/python\nenterprise/dev_config/python/.pre-commit-config.yaml\nenterprise/dev_config/python/mypy.ini\nenterprise/dev_config/python/ruff.toml\nenterprise/doc\nenterprise/doc/design-doc\nenterprise/doc/design-doc/openhands-enterprise-telemetry-design.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.433001010390287
+  }
+]

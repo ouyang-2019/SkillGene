@@ -1,0 +1,138 @@
+[
+  {
+    "name": "hands-on-llms (iusztinpaul)",
+    "description": "[项目级] 🦖 𝗟𝗲𝗮𝗿𝗻 about 𝗟𝗟𝗠𝘀, 𝗟𝗟𝗠𝗢𝗽𝘀, and 𝘃𝗲𝗰𝘁𝗼𝗿 𝗗𝗕𝘀 for free by designing, training, and deploying a real-time financial advisor LLM system ~ 𝘴𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦 + 𝘷𝘪𝘥𝘦𝘰 & 𝘳𝘦𝘢𝘥𝘪𝘯𝘨 𝘮𝘢𝘵𝘦𝘳𝘪𝘢𝘭𝘴。来源: https://github.com/iusztinpaul/hands-on-llms",
+    "domain": "devops",
+    "tags": [
+      "3-pipeline-design",
+      "aws",
+      "beam",
+      "bytewax",
+      "cicd",
+      "jupyter notebook",
+      "stars-3395",
+      "github-iusztinpaul",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "<div align=\"center\">\n  <a href=\"https://www.youtube.com/watch?v=HcxwOYMmj40\">\n      <p>Click here to watch the video 🎬</p>\n    <img src=\"media/youtube_thumbnails/01_fine_tuning_pipeline_overview.png\" alt=\"Intro to the course\" style=\"width:75%;\">\n  </a>\n</div>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "Before diving into the modules, you have to set up a couple of additional external tools for the course.\n\n**NOTE:** You can set them up as you go for every module, as we will point you in every module what you need.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\ndataset_analysis\ndataset_analysis/README.md\ndataset_analysis/prompts_eda.ipynb\nmedia\nmedia/architecture.png\nmedia/eda_prompts_dataset.png\nmedia/feature_pipeline_architecture.png\nmedia/financial_bot_gradio_ui.png\nmedia/github_actions_cd.png\nmedia/github_actions_secrets.png\nmedia/inference_pipeline_architecture.png\nmedia/training_pipeline_architecture.png\nmedia/youtube_thumbnails\nmodules\nmodules/financial_bot\nmodules/q_and_a_dataset_generator\nmodules/streaming_pipeline\nmodules/training_pipeline",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "Every module has its dependencies and scripts. In a production setup, every module would have its repository, but in this use case, for learning purposes, we put everything in one place:\n\nThus, check out the README for every module individually to see how to install & use it:\n1. [q_and_a_dataset_generator](/modules/q_and_a_dataset_generator/)\n2. [training_pipeline](/modules/training_pipeline/)\n3. [streaming_pipeline](/modules/streaming_pipeline/)\n4. [inference_pipeline](/modules/financial_bot/)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [Lesson 2: Why you must choose streaming over batch pipelines when doing RAG in LLM applications](https://medium.com/decoding-ml/why-you-must-choose-streaming-over-batch-pipelines-when-doing-rag-in-llm-applications-3b6fd32a93ff)\n- [Lesson 3: This is how you can build & deploy a streaming pipeline to populate a vector DB for real-time RAG](https://medium.com/decodingml/this-is-how-you-can-build-deploy-a-streaming-pipeline-to-populate-a-vector-db-for-real-time-rag-c92cfbbd4d62)",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.76541988930826
+  },
+  {
+    "name": "hands-on-llms/dataset_analysis 模块",
+    "description": "[模块级] hands-on-llms 项目的 dataset_analysis 模块 (source)。来源: https://github.com/iusztinpaul/hands-on-llms",
+    "domain": "devops",
+    "tags": [
+      "3-pipeline-design",
+      "aws",
+      "beam",
+      "bytewax",
+      "cicd",
+      "module-level",
+      "source",
+      "dataset_analysis"
+    ],
+    "genes": [
+      {
+        "title": "dataset_analysis 模块说明",
+        "content": "模块路径: dataset_analysis/\n类型: source\n文件数: 2\n\n包含文件:\n- dataset_analysis/README.md\n- dataset_analysis/prompts_eda.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dataset_analysis 文件结构",
+        "content": "dataset_analysis/README.md\ndataset_analysis/prompts_eda.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9123359114466085
+  },
+  {
+    "name": "hands-on-llms/media 模块",
+    "description": "[模块级] hands-on-llms 项目的 media 模块 (source)。来源: https://github.com/iusztinpaul/hands-on-llms",
+    "domain": "devops",
+    "tags": [
+      "3-pipeline-design",
+      "aws",
+      "beam",
+      "bytewax",
+      "cicd",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 14\n\n包含文件:\n- media/architecture.png\n- media/eda_prompts_dataset.png\n- media/feature_pipeline_architecture.png\n- media/financial_bot_gradio_ui.png\n- media/github_actions_cd.png\n- media/github_actions_secrets.png\n- media/inference_pipeline_architecture.png\n- media/training_pipeline_architecture.png\n- media/youtube_thumbnails\n- media/youtube_thumbnails/00_intro.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/architecture.png\nmedia/eda_prompts_dataset.png\nmedia/feature_pipeline_architecture.png\nmedia/financial_bot_gradio_ui.png\nmedia/github_actions_cd.png\nmedia/github_actions_secrets.png\nmedia/inference_pipeline_architecture.png\nmedia/training_pipeline_architecture.png\nmedia/youtube_thumbnails\nmedia/youtube_thumbnails/00_intro.png\nmedia/youtube_thumbnails/01_fine_tuning_pipeline_overview.png\nmedia/youtube_thumbnails/02_fine_tuning_pipeline_hands_on.png\nmedia/youtube_thumbnails/03_real_time_embeddings.png\nmedia/youtube_thumbnails/04_inference_pipeline.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9123359114466085
+  },
+  {
+    "name": "hands-on-llms/modules 模块",
+    "description": "[模块级] hands-on-llms 项目的 modules 模块 (source)。来源: https://github.com/iusztinpaul/hands-on-llms",
+    "domain": "devops",
+    "tags": [
+      "3-pipeline-design",
+      "aws",
+      "beam",
+      "bytewax",
+      "cicd",
+      "module-level",
+      "source",
+      "modules"
+    ],
+    "genes": [
+      {
+        "title": "modules 模块说明",
+        "content": "模块路径: modules/\n类型: source\n文件数: 114\n\n包含文件:\n- modules/financial_bot\n- modules/financial_bot/.beamignore\n- modules/financial_bot/.env.example\n- modules/financial_bot/Makefile\n- modules/financial_bot/README.md\n- modules/financial_bot/financial_bot\n- modules/financial_bot/financial_bot/__init__.py\n- modules/financial_bot/financial_bot/base.py\n- modules/financial_bot/financial_bot/chains.py\n- modules/financial_bot/financial_bot/constants.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "modules 文件结构",
+        "content": "modules/financial_bot\nmodules/financial_bot/.beamignore\nmodules/financial_bot/.env.example\nmodules/financial_bot/Makefile\nmodules/financial_bot/README.md\nmodules/financial_bot/financial_bot\nmodules/financial_bot/financial_bot/__init__.py\nmodules/financial_bot/financial_bot/base.py\nmodules/financial_bot/financial_bot/chains.py\nmodules/financial_bot/financial_bot/constants.py\nmodules/financial_bot/financial_bot/embeddings.py\nmodules/financial_bot/financial_bot/handlers.py\nmodules/financial_bot/financial_bot/langchain_bot.py\nmodules/financial_bot/financial_bot/models.py\nmodules/financial_bot/financial_bot/qdrant.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.9123359114466085
+  }
+]

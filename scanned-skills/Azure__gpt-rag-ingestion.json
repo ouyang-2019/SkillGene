@@ -1,0 +1,280 @@
+[
+  {
+    "name": "gpt-rag-ingestion (Azure)",
+    "description": "[项目级] The GPT-RAG Data Ingestion service automates processing of diverse documents—PDFs, images, spreadsheets, transcripts, and SharePoint—readying them for Azure AI Search. It applies smart chunking, generates text and image embeddings, and enables rich, multimodal retrieval.。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The GPT-RAG Data Ingestion service automates processing of diverse documents—PDFs, images, spreadsheets, transcripts, and SharePoint—readying them for Azure AI Search. It applies smart chunking, generates text and image embeddings, and enables rich, multimodal retrieval.\n\n来源: https://github.com/Azure/gpt-rag-ingestion\n语言: Python\nStars: 164",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nDockerfile\nLICENSE.md\nREADME.md\nSECURITY.md\nVERSION\nazure.yaml\nchunking\nchunking/__init__.py\nchunking/chunker_factory.py\nchunking/chunkers\nchunking/document_chunking.py\nchunking/exceptions.py\nconstants.py\ndependencies.py\ndocs\ndocs/pull_request_template.md\ninfra\ninfra/README.md\ninfra/main.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.107421924023849
+  },
+  {
+    "name": "gpt-rag-ingestion/chunking 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 chunking 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "chunking"
+    ],
+    "genes": [
+      {
+        "title": "chunking 模块说明",
+        "content": "模块路径: chunking/\n类型: source\n文件数: 13\n\n包含文件:\n- chunking/__init__.py\n- chunking/chunker_factory.py\n- chunking/chunkers\n- chunking/chunkers/base_chunker.py\n- chunking/chunkers/doc_analysis_chunker.py\n- chunking/chunkers/json_chunker.py\n- chunking/chunkers/langchain_chunker.py\n- chunking/chunkers/multimodal_chunker.py\n- chunking/chunkers/nl2sql_chunker.py\n- chunking/chunkers/spreadsheet_chunker.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chunking 文件结构",
+        "content": "chunking/__init__.py\nchunking/chunker_factory.py\nchunking/chunkers\nchunking/chunkers/base_chunker.py\nchunking/chunkers/doc_analysis_chunker.py\nchunking/chunkers/json_chunker.py\nchunking/chunkers/langchain_chunker.py\nchunking/chunkers/multimodal_chunker.py\nchunking/chunkers/nl2sql_chunker.py\nchunking/chunkers/spreadsheet_chunker.py\nchunking/chunkers/transcription_chunker.py\nchunking/document_chunking.py\nchunking/exceptions.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/infra 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 infra 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "infra"
+    ],
+    "genes": [
+      {
+        "title": "infra 模块说明",
+        "content": "模块路径: infra/\n类型: source\n文件数: 2\n\n包含文件:\n- infra/README.md\n- infra/main.bicep",
+        "gene_type": "principle"
+      },
+      {
+        "title": "infra 文件结构",
+        "content": "infra/README.md\ninfra/main.bicep",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/jobs 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 jobs 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "jobs"
+    ],
+    "genes": [
+      {
+        "title": "jobs 模块说明",
+        "content": "模块路径: jobs/\n类型: source\n文件数: 9\n\n包含文件:\n- jobs/__init__.py\n- jobs/blob_storage_indexer.py\n- jobs/multimodal_images_purger.py\n- jobs/nl2sql_indexer.py\n- jobs/nl2sql_purger.py\n- jobs/sharepoint_graph_client.py\n- jobs/sharepoint_indexer.py\n- jobs/sharepoint_ingestion_config.py\n- jobs/sharepoint_purger.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "jobs 文件结构",
+        "content": "jobs/__init__.py\njobs/blob_storage_indexer.py\njobs/multimodal_images_purger.py\njobs/nl2sql_indexer.py\njobs/nl2sql_purger.py\njobs/sharepoint_graph_client.py\njobs/sharepoint_indexer.py\njobs/sharepoint_ingestion_config.py\njobs/sharepoint_purger.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/media 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 media 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 2\n\n包含文件:\n- media/nl2sql-datasource-configuration.png\n- media/nl2sql-datasource-secrets.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/nl2sql-datasource-configuration.png\nmedia/nl2sql-datasource-secrets.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/samples 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 samples 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "samples"
+    ],
+    "genes": [
+      {
+        "title": "samples 模块说明",
+        "content": "模块路径: samples/\n类型: source\n文件数: 46\n\n包含文件:\n- samples/documents\n- samples/documents/contact-center\n- samples/documents/contact-center/contact-center-long.vtt\n- samples/documents/contact-center/contact-center-short.vtt\n- samples/documents/contoso-eletronics\n- samples/documents/contoso-eletronics/Benefit_Options.pdf\n- samples/documents/contoso-eletronics/Northwind_Health_Plus_Benefits_Details.pdf\n- samples/documents/contoso-eletronics/Northwind_Standard_Benefits_Details.pdf\n- samples/documents/contoso-eletronics/employee_handbook.pdf\n- samples/documents/manuals",
+        "gene_type": "principle"
+      },
+      {
+        "title": "samples 文件结构",
+        "content": "samples/documents\nsamples/documents/contact-center\nsamples/documents/contact-center/contact-center-long.vtt\nsamples/documents/contact-center/contact-center-short.vtt\nsamples/documents/contoso-eletronics\nsamples/documents/contoso-eletronics/Benefit_Options.pdf\nsamples/documents/contoso-eletronics/Northwind_Health_Plus_Benefits_Details.pdf\nsamples/documents/contoso-eletronics/Northwind_Standard_Benefits_Details.pdf\nsamples/documents/contoso-eletronics/employee_handbook.pdf\nsamples/documents/manuals\nsamples/documents/manuals/modem-manual.md\nsamples/documents/manuals/surface-pro-4-user-guide-EN.pdf\nsamples/documents/spreadsheets\nsamples/documents/spreadsheets/sample-workbook.xlsx\nsamples/fabric",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/scripts 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 scripts 模块 (script)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 4\n\n包含文件:\n- scripts/deploy.ps1\n- scripts/deploy.sh\n- scripts/preProvision.ps1\n- scripts/preProvision.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/deploy.ps1\nscripts/deploy.sh\nscripts/preProvision.ps1\nscripts/preProvision.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/telemetry 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 telemetry 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "telemetry"
+    ],
+    "genes": [
+      {
+        "title": "telemetry 模块说明",
+        "content": "模块路径: telemetry/\n类型: source\n文件数: 2\n\n包含文件:\n- telemetry/__init__.py\n- telemetry/telemetry.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "telemetry 文件结构",
+        "content": "telemetry/__init__.py\ntelemetry/telemetry.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/tools 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 tools 模块 (script)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "script",
+      "tools"
+    ],
+    "genes": [
+      {
+        "title": "tools 模块说明",
+        "content": "模块路径: tools/\n类型: script\n文件数: 9\n\n包含文件:\n- tools/__init__.py\n- tools/aisearch.py\n- tools/aoai.py\n- tools/appconfig.py\n- tools/blob.py\n- tools/cosmosdb.py\n- tools/doc_intelligence.py\n- tools/keyvault.py\n- tools/sharepoint.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tools 文件结构",
+        "content": "tools/__init__.py\ntools/aisearch.py\ntools/aoai.py\ntools/appconfig.py\ntools/blob.py\ntools/cosmosdb.py\ntools/doc_intelligence.py\ntools/keyvault.py\ntools/sharepoint.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  },
+  {
+    "name": "gpt-rag-ingestion/utils 模块",
+    "description": "[模块级] gpt-rag-ingestion 项目的 utils 模块 (source)。来源: https://github.com/Azure/gpt-rag-ingestion",
+    "domain": "ai-llm",
+    "tags": [
+      "python",
+      "stars-164",
+      "github-azure",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 3\n\n包含文件:\n- utils/__init__.py\n- utils/file_utils.py\n- utils/tools.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/file_utils.py\nutils/tools.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.3859375392190794
+  }
+]

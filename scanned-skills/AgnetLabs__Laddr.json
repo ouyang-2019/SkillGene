@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Laddr (AgnetLabs)",
+    "description": "[项目级] Laddr is a python framework for building multi-agent systems where agents communicate, delegate tasks, and execute work in parallel. Think of it as a microservices architecture for AI agents — with built-in message queues, observability, and horizontal scalability.。来源: https://github.com/AgnetLabs/Laddr",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "modular",
+      "scaleable",
+      "python",
+      "stars-338",
+      "github-agnetlabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Laddr is a python framework for building multi-agent systems where agents communicate, delegate tasks, and execute work in parallel. Think of it as a microservices architecture for AI agents — with built-in message queues, observability, and horizontal scalability.\n\n来源: https://github.com/AgnetLabs/Laddr\n语言: Python\nStars: 338",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Assets\nAssets/dashboard.png\nAssets/laddr.svg\nCODE_OF_CONDUCT.md\nLICENSE\nREADME.md\nSECURITY.md\nbuild-docs.sh\ndashboard\ndashboard/.env.example\ndashboard/Dockerfile.prod\ndashboard/README.md\ndashboard/build-dashboard.sh\ndashboard/docker-entrypoint.sh\ndashboard/index.html\ndashboard/nginx.conf\ndashboard/nginx.conf.template\ndashboard/package-lock.json\ndashboard/package.json\ndashboard/postcss.config.js",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "\"\"\"\nCoordinator agent - orchestrates research tasks\n\"\"\"\nfrom laddr import Agent\nfrom laddr.llms import gemini\n\ncoordinator = Agent(\n    name=\"coordinator\",\n    role=\"Research Task Coordinator\",\n    goal=\"Coordinate research tasks by delegating to specialist agents\",\n    backstory=\"\"\"You are a research coordinator who manages information \n    gathering tasks. You delegate specific queries to researcher agents \n    and compile their findings into comprehensive summaries.\"\"\",\n    \n    llm=gemini(\"gemini-2.0-flash\"),\n    \n    # Coordinator can delegate to other agents\n    is_coordinator=True,\n    ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.264458350138828
+  },
+  {
+    "name": "Laddr/Assets 模块",
+    "description": "[模块级] Laddr 项目的 Assets 模块 (source)。来源: https://github.com/AgnetLabs/Laddr",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "modular",
+      "scaleable",
+      "python",
+      "stars-338",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "Assets 模块说明",
+        "content": "模块路径: Assets/\n类型: source\n文件数: 2\n\n包含文件:\n- Assets/dashboard.png\n- Assets/laddr.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Assets 文件结构",
+        "content": "Assets/dashboard.png\nAssets/laddr.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.511566680111062
+  },
+  {
+    "name": "Laddr/dashboard 模块",
+    "description": "[模块级] Laddr 项目的 dashboard 模块 (source)。来源: https://github.com/AgnetLabs/Laddr",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "modular",
+      "scaleable",
+      "python",
+      "stars-338",
+      "module-level",
+      "source",
+      "dashboard"
+    ],
+    "genes": [
+      {
+        "title": "dashboard 模块说明",
+        "content": "Laddr includes a **beautiful React dashboard** with real-time monitoring:",
+        "gene_type": "principle"
+      },
+      {
+        "title": "dashboard 文件结构",
+        "content": "dashboard/.env.example\ndashboard/Dockerfile.prod\ndashboard/README.md\ndashboard/build-dashboard.sh\ndashboard/docker-entrypoint.sh\ndashboard/index.html\ndashboard/nginx.conf\ndashboard/nginx.conf.template\ndashboard/package-lock.json\ndashboard/package.json\ndashboard/postcss.config.js\ndashboard/public\ndashboard/public/favicon-dark.svg\ndashboard/public/favicon-light.svg\ndashboard/public/laddr.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.511566680111062
+  },
+  {
+    "name": "Laddr/docs 模块",
+    "description": "[模块级] Laddr 项目的 docs 模块 (docs)。来源: https://github.com/AgnetLabs/Laddr",
+    "domain": "documentation",
+    "tags": [
+      "agentic-ai",
+      "modular",
+      "scaleable",
+      "python",
+      "stars-338",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 7\n\n包含文件:\n- docs/agent-config.md\n- docs/api-reference.md\n- docs/cli.md\n- docs/getting-started.md\n- docs/local-runtime.md\n- docs/migrations.md\n- docs/tool-config.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent-config.md\ndocs/api-reference.md\ndocs/cli.md\ndocs/getting-started.md\ndocs/local-runtime.md\ndocs/migrations.md\ndocs/tool-config.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.511566680111062
+  },
+  {
+    "name": "Laddr/lib 模块",
+    "description": "[模块级] Laddr 项目的 lib 模块 (source)。来源: https://github.com/AgnetLabs/Laddr",
+    "domain": "backend",
+    "tags": [
+      "agentic-ai",
+      "modular",
+      "scaleable",
+      "python",
+      "stars-338",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "模块路径: lib/\n类型: source\n文件数: 58\n\n包含文件:\n- lib/laddr\n- lib/laddr/README.md\n- lib/laddr/pyproject.toml\n- lib/laddr/src\n- lib/laddr/src/laddr\n- lib/laddr/src/laddr/__init__.py\n- lib/laddr/src/laddr/api\n- lib/laddr/src/laddr/api/__init__.py\n- lib/laddr/src/laddr/api/main.py\n- lib/laddr/src/laddr/cli",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/laddr\nlib/laddr/README.md\nlib/laddr/pyproject.toml\nlib/laddr/src\nlib/laddr/src/laddr\nlib/laddr/src/laddr/__init__.py\nlib/laddr/src/laddr/api\nlib/laddr/src/laddr/api/__init__.py\nlib/laddr/src/laddr/api/main.py\nlib/laddr/src/laddr/cli\nlib/laddr/src/laddr/cli/__init__.py\nlib/laddr/src/laddr/cli/commands\nlib/laddr/src/laddr/cli/commands/__init__.py\nlib/laddr/src/laddr/cli/commands/add.py\nlib/laddr/src/laddr/cli/commands/check.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.511566680111062
+  }
+]

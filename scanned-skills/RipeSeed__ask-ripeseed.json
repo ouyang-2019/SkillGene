@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ask-ripeseed (RipeSeed)",
+    "description": "[项目级] An AI Assistant to answer user queries based on your own knowledge base!。来源: https://github.com/RipeSeed/ask-ripeseed",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chatgpt",
+      "gpt4",
+      "langchain",
+      "llm",
+      "typescript",
+      "stars-50",
+      "github-ripeseed",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Ask RipeSeed consists of two main sections:\n\n- **Ask RipeSeed**: Ask any questions related to RipeSeed, drawing from our knowledge base for accurate and specific answers.\n- **Ask Anything**: Upload your OpenAI API key (which will be stored locally on browser) to ask general questions. This section also allows you to upload and attach your own documents, enabling the chatbot to answer based on the content of the provided documents.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCODE_OF_CONDUCT.md\nDockerfile\nLICENSE\nREADME.md\ncomponents.json\nload-env.js\nnext.config.mjs\npackage.json\npnpm-lock.yaml\npostcss.config.mjs\npublic\npublic/ask-rs-landing.png\npublic/chat.png\npublic/clock.png\npublic/config.png\npublic/example-docs\npublic/logo\npublic/next.svg\npublic/pencil.png",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🌗 Dark/Light Mode Support\n- 📝 Markdown support\n- 💬 Chat history\n- 📚 Attach custom knowledgebase\n- 📅 Function calling support to book meetings",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8494850021680094
+  },
+  {
+    "name": "ask-ripeseed/public 模块",
+    "description": "[模块级] ask-ripeseed 项目的 public 模块 (source)。来源: https://github.com/RipeSeed/ask-ripeseed",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chatgpt",
+      "gpt4",
+      "langchain",
+      "llm",
+      "module-level",
+      "source",
+      "public"
+    ],
+    "genes": [
+      {
+        "title": "public 模块说明",
+        "content": "模块路径: public/\n类型: source\n文件数: 15\n\n包含文件:\n- public/ask-rs-landing.png\n- public/chat.png\n- public/clock.png\n- public/config.png\n- public/example-docs\n- public/example-docs/knowledgebase\n- public/example-docs/knowledgebase.template\n- public/logo\n- public/logo/logo.svg\n- public/next.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "public 文件结构",
+        "content": "public/ask-rs-landing.png\npublic/chat.png\npublic/clock.png\npublic/config.png\npublic/example-docs\npublic/example-docs/knowledgebase\npublic/example-docs/knowledgebase.template\npublic/logo\npublic/logo/logo.svg\npublic/next.svg\npublic/pencil.png\npublic/query.png\npublic/ripeseed.png\npublic/user.png\npublic/vercel.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1795880017344076
+  },
+  {
+    "name": "ask-ripeseed/src 模块",
+    "description": "[模块级] ask-ripeseed 项目的 src 模块 (source)。来源: https://github.com/RipeSeed/ask-ripeseed",
+    "domain": "devops",
+    "tags": [
+      "chatbot",
+      "chatgpt",
+      "gpt4",
+      "langchain",
+      "llm",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 124\n\n包含文件:\n- src/app\n- src/app/_components\n- src/app/_components/ChatMessages.tsx\n- src/app/_components/ExternalLink.tsx\n- src/app/_components/GeneralSidebar.tsx\n- src/app/_components/MessageList.tsx\n- src/app/_components/constants.ts\n- src/app/_components/hooks\n- src/app/_components/hooks/index.ts\n- src/app/_components/hooks/useChatMessages.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/app\nsrc/app/_components\nsrc/app/_components/ChatMessages.tsx\nsrc/app/_components/ExternalLink.tsx\nsrc/app/_components/GeneralSidebar.tsx\nsrc/app/_components/MessageList.tsx\nsrc/app/_components/constants.ts\nsrc/app/_components/hooks\nsrc/app/_components/hooks/index.ts\nsrc/app/_components/hooks/useChatMessages.ts\nsrc/app/_components/hooks/useChatScroll.ts\nsrc/app/_components/hooks/useUserId.ts\nsrc/app/_lib\nsrc/app/_lib/db\nsrc/app/_lib/db/askRSMessages.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1795880017344076
+  }
+]

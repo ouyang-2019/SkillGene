@@ -1,0 +1,128 @@
+[
+  {
+    "name": "langfuse (langfuse)",
+    "description": "[项目级] 🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 。来源: https://github.com/langfuse/langfuse",
+    "domain": "devops",
+    "tags": [
+      "analytics",
+      "autogen",
+      "evaluation",
+      "langchain",
+      "large-language-models",
+      "typescript",
+      "stars-22098",
+      "github-langfuse",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 \n\n来源: https://github.com/langfuse/langfuse\n语言: TypeScript\nStars: 22098",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.cn.md\nREADME.ja.md\nREADME.kr.md\nREADME.md\nREVIEW.md\nSECURITY.md\ndocker-compose.build.yml\ndocker-compose.dev-azure.yml\ndocker-compose.dev-redis-cluster.yml\ndocker-compose.dev.yml\ndocker-compose.yml\nee\nee/LICENSE\nee/README.md\nee/eslint.config.mjs\nee/package.json",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "<img width=\"4856\" height=\"1944\" alt=\"Langfuse Overview\" src=\"https://github.com/user-attachments/assets/5dac68ef-d546-49fb-b06f-cfafc19282e3\" />\n\n- [LLM Application Observability](https://langfuse.com/docs/tracing): Instrument your app and start ingesting traces to Langfuse, thereby tracking LLM calls and other relevant logic in your app such as retrieval, embedding, or agent actions. Inspect and debug complex logs and user sessions. Try the interactive [demo](https://langfuse.com/docs/demo) to see this in action.\n\n- [Prompt Management](https://langfuse.com/docs/prompt-management/get-started) ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "langfuse/ee 模块",
+    "description": "[模块级] langfuse 项目的 ee 模块 (source)。来源: https://github.com/langfuse/langfuse",
+    "domain": "devops",
+    "tags": [
+      "analytics",
+      "autogen",
+      "evaluation",
+      "langchain",
+      "large-language-models",
+      "module-level",
+      "source",
+      "ee"
+    ],
+    "genes": [
+      {
+        "title": "ee 模块说明",
+        "content": "See your language model calls and other application logic in Langfuse.\n\n<img width=\"1787\" height=\"674\" alt=\"Example trace in Langfuse\" src=\"https://github.com/user-attachments/assets/f796eb78-dfb5-4570-b236-bdb4b67d4d55\" />\n\n_[Public example trace in Langfuse](https://cloud.langfuse.com/project/cloramnkj0002jz088vzn1ja4/traces/2cec01e3-3dc2-472f-afcf-3b968cf0c1f4?timestamp=2025-02-10T14%3A27%3A30.275Z&observation=cb5ff844-07ef-41e6-b8e2-6c64344bc13b)_\n\n> [!TIP]\n>\n> [Learn more](https://langfuse.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ee 文件结构",
+        "content": "ee/LICENSE\nee/README.md\nee/eslint.config.mjs\nee/package.json\nee/src\nee/src/ee-license-check\nee/src/ee-license-check/index.ts\nee/src/env.ts\nee/src/index.ts\nee/tsconfig.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2377411876954225
+  },
+  {
+    "name": "langfuse/fern 模块",
+    "description": "[模块级] langfuse 项目的 fern 模块 (source)。来源: https://github.com/langfuse/langfuse",
+    "domain": "devops",
+    "tags": [
+      "analytics",
+      "autogen",
+      "evaluation",
+      "langchain",
+      "large-language-models",
+      "module-level",
+      "source",
+      "fern"
+    ],
+    "genes": [
+      {
+        "title": "fern 模块说明",
+        "content": "模块路径: fern/\n类型: source\n文件数: 47\n\n包含文件:\n- fern/apis\n- fern/apis/client\n- fern/apis/client/definition\n- fern/apis/client/definition/api.yml\n- fern/apis/client/definition/commons.yml\n- fern/apis/client/definition/score.yml\n- fern/apis/client/generators.yml\n- fern/apis/organizations\n- fern/apis/organizations/definition\n- fern/apis/organizations/definition/api.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "fern 文件结构",
+        "content": "fern/apis\nfern/apis/client\nfern/apis/client/definition\nfern/apis/client/definition/api.yml\nfern/apis/client/definition/commons.yml\nfern/apis/client/definition/score.yml\nfern/apis/client/generators.yml\nfern/apis/organizations\nfern/apis/organizations/definition\nfern/apis/organizations/definition/api.yml\nfern/apis/organizations/definition/commons.yml\nfern/apis/organizations/definition/organizations.yml\nfern/apis/organizations/generators.yml\nfern/apis/server\nfern/apis/server/definition",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2377411876954225
+  },
+  {
+    "name": "langfuse/packages 模块",
+    "description": "[模块级] langfuse 项目的 packages 模块 (source)。来源: https://github.com/langfuse/langfuse",
+    "domain": "devops",
+    "tags": [
+      "analytics",
+      "autogen",
+      "evaluation",
+      "langchain",
+      "large-language-models",
+      "module-level",
+      "source",
+      "packages"
+    ],
+    "genes": [
+      {
+        "title": "packages 模块说明",
+        "content": "| Name                                                                    | Type               | Description                                                                                                             |\n| ----------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |\n| [Instructor](https://langfuse.com/docs/integrations/instruct",
+        "gene_type": "principle"
+      },
+      {
+        "title": "packages 文件结构",
+        "content": "packages/config-eslint\npackages/config-eslint/base.js\npackages/config-eslint/index.js\npackages/config-eslint/next.js\npackages/config-eslint/package.json\npackages/config-typescript\npackages/config-typescript/base.json\npackages/config-typescript/nextjs.json\npackages/config-typescript/package.json\npackages/shared\npackages/shared/clickhouse\npackages/shared/clickhouse/migrations\npackages/shared/clickhouse/migrations/clustered\npackages/shared/clickhouse/migrations/clustered/0001_traces.down.sql\npackages/shared/clickhouse/migrations/clustered/0001_traces.up.sql",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2377411876954225
+  }
+]

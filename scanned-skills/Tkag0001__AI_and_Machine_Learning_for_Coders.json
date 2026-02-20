@@ -1,0 +1,56 @@
+[
+  {
+    "name": "AI_and_Machine_Learning_for_Coders (Tkag0001)",
+    "description": "[项目级] This repository is based on AI and Machine learning for Coders book, I note my knowledge I have learned from the book in Vietnamese.。来源: https://github.com/Tkag0001/AI_and_Machine_Learning_for_Coders",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-240",
+      "github-tkag0001",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository is based on AI and Machine learning for Coders book, I note my knowledge I have learned from the book in Vietnamese.\n\n来源: https://github.com/Tkag0001/AI_and_Machine_Learning_for_Coders\n语言: Jupyter Notebook\nStars: 240",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Chapter01_Introduction_to_Tensorflow.ipynb\nChapter02_Introduction_to_Computer_Vision.ipynb\nChapter03_1_Going_Beyond_the_Basics_Detecting_Features_in_Images.ipynb\nChapter03_2_Going_Beyond_the_Basics_Detecting_Features_in_Images.ipynb\nChapter03_3_Going_Beyond_the_Basics_Detecting_Features_in_Images.ipynb\nChapter03_4_Going_Beyond_the_Basics_Detecting_Features_in_Images.ipynb\nChapter04_Using_Public_Dataset_with_Tensorflow_Datasets.ipynb\nChapter05_1_Introduction_to_Natural_Language_Processing.ipynb\nChapter05_2_Introduction_to_Natural_Language_Processing.ipynb\nChapter05_3_Introduction_to_Natural_Language_Processing.ipynb\nChapter05_Introduction_to_Natural_Language_Processing.ipynb\nChapter06_Making_Sentiment_Programmable_Using_Embeddings.ipynb\nChapter07_Recurrent_Neural_Networks_for_Natural_Language_Processing.ipynb\nChapter08_Using_Tensorflow_to_Create_Text.ipynb\nChapter09_Understanding_Sequence_and_Time_Series_Data.ipynb\nChapter10_Creating_ML_Models_to_Predict_Sequences.ipynb\nChapter11_Using_Convolutional_and_Recurrent_Methods_for_Sequence_Models.ipynb\nChapter12_An_Introduction_to_TensorFlow_Lite.ipynb\nChapter13_Using_Tensorflow_Lite_in_Android_Apps_Part_1.ipynb\nChapter13_Using_Tensorflow_Lite_in_Android_Apps_Part_2ipynb.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.190105620855803
+  },
+  {
+    "name": "AI_and_Machine_Learning_for_Coders/images 模块",
+    "description": "[模块级] AI_and_Machine_Learning_for_Coders 项目的 images 模块 (source)。来源: https://github.com/Tkag0001/AI_and_Machine_Learning_for_Coders",
+    "domain": "general",
+    "tags": [
+      "jupyter notebook",
+      "stars-240",
+      "github-tkag0001",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 171\n\n包含文件:\n- images/Chapter_10\n- images/Chapter_10/optimize_learning_rate.png\n- images/Chapter_10/real_data.png\n- images/Chapter_10/tuner_list.png\n- images/Chapter_10/windowed_data.png\n- images/Chapter_11\n- images/Chapter_11/Seatle_tacoma.png\n- images/Chapter_11/best_predict_conv1d_model.png\n- images/Chapter_11/best_prediction_simple_rnn_model.png\n- images/Chapter_11/bidirectional.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/Chapter_10\nimages/Chapter_10/optimize_learning_rate.png\nimages/Chapter_10/real_data.png\nimages/Chapter_10/tuner_list.png\nimages/Chapter_10/windowed_data.png\nimages/Chapter_11\nimages/Chapter_11/Seatle_tacoma.png\nimages/Chapter_11/best_predict_conv1d_model.png\nimages/Chapter_11/best_prediction_simple_rnn_model.png\nimages/Chapter_11/bidirectional.png\nimages/Chapter_11/conv1d.png\nimages/Chapter_11/conv1d2.png\nimages/Chapter_11/conv1d_model.png\nimages/Chapter_11/df.png\nimages/Chapter_11/dropout.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4520844966846425
+  }
+]

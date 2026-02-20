@@ -1,0 +1,138 @@
+[
+  {
+    "name": "subsai (absadiki)",
+    "description": "[项目级] 🎞️ Subtitles generation tool (Web-UI + CLI + Python package) powered by OpenAI's Whisper and its variants 🎞️。来源: https://github.com/absadiki/subsai",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "subtitles",
+      "subtitles-generator",
+      "webui",
+      "whisper",
+      "python",
+      "stars-1638",
+      "github-absadiki",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🎞️ Subtitles generation tool (Web-UI + CLI + Python package) powered by OpenAI's Whisper and its variants 🎞️\n\n来源: https://github.com/absadiki/subsai\n语言: Python\nStars: 1638",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "> # on Ubuntu or Debian\n> sudo apt update && sudo apt install ffmpeg\n>\n> # on Arch Linux\n>sudo pacman -S ffmpeg\n>\n> # on MacOS using Homebrew (https://brew.sh/)\n> brew install ffmpeg\n>\n> # on Windows using Chocolatey (https://chocolatey.org/)\n> choco install ffmpeg\n>\n> # on Windows using Scoop (https://scoop.sh/)\n> scoop install ffmpeg\n>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nREADME.md\nassets\nassets/README.md\nassets/audio\nassets/demo\nassets/video\ndocker-compose.yml\ndocs\ndocs/index.md\nexamples\nexamples/subsai_translation.ipynb\nexamples/subsai_vad.ipynb\nmkdocs.yml\npyproject.toml\nrequirements.txt\nsrc\nsrc/subsai\ntests",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Supported Models\n  * [x] [openai/whisper](https://github.com/openai/whisper)\n    * > Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language identification.\n  * [x] [linto-ai/whisper-timestamped](https://github.com/linto-ai/whisper-timestamped)\n    * > Multilingual Automatic Speech Recognition with word-level timestamps and confidence\n  * [x] [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) (using [ absadi",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6071569487122
+  },
+  {
+    "name": "subsai/assets 模块",
+    "description": "[模块级] subsai 项目的 assets 模块 (source)。来源: https://github.com/absadiki/subsai",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "subtitles",
+      "subtitles-generator",
+      "webui",
+      "whisper",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 11\n\n包含文件:\n- assets/README.md\n- assets/audio\n- assets/audio/test0.mp3\n- assets/audio/test1.mp3\n- assets/demo\n- assets/demo/demo.gif\n- assets/video\n- assets/video/test0-ar.srt\n- assets/video/test0.webm\n- assets/video/test1.srt",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/README.md\nassets/audio\nassets/audio/test0.mp3\nassets/audio/test1.mp3\nassets/demo\nassets/demo/demo.gif\nassets/video\nassets/video/test0-ar.srt\nassets/video/test0.webm\nassets/video/test1.srt\nassets/video/test1.webm",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7857255589697596
+  },
+  {
+    "name": "subsai/examples 模块",
+    "description": "[模块级] subsai 项目的 examples 模块 (example)。来源: https://github.com/absadiki/subsai",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "subtitles",
+      "subtitles-generator",
+      "webui",
+      "whisper",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "Simple examples can be found in the [examples](https://github.com/absadiki/subsai/tree/main/examples) folder\n\n* [VAD example](https://github.com/absadiki/subsai/blob/main/examples/subsai_vad.ipynb): process long audio files using [silero-vad](https://github.com/snakers4/silero-vad). <a target=\"_blank\" href=\"https://colab.research.google.com/github/absadiki/subsai/blob/main/examples/subsai_vad.ipynb\">\n  <img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/>\n</a>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/subsai_translation.ipynb\nexamples/subsai_vad.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7857255589697596
+  },
+  {
+    "name": "subsai/src 模块",
+    "description": "[模块级] subsai 项目的 src 模块 (source)。来源: https://github.com/absadiki/subsai",
+    "domain": "devops",
+    "tags": [
+      "cli",
+      "subtitles",
+      "subtitles-generator",
+      "webui",
+      "whisper",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 18\n\n包含文件:\n- src/subsai\n- src/subsai/__init__.py\n- src/subsai/cli.py\n- src/subsai/configs.py\n- src/subsai/main.py\n- src/subsai/models\n- src/subsai/models/__init__.py\n- src/subsai/models/abstract_model.py\n- src/subsai/models/faster_whisper_model.py\n- src/subsai/models/hugging_face_model.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/subsai\nsrc/subsai/__init__.py\nsrc/subsai/cli.py\nsrc/subsai/configs.py\nsrc/subsai/main.py\nsrc/subsai/models\nsrc/subsai/models/__init__.py\nsrc/subsai/models/abstract_model.py\nsrc/subsai/models/faster_whisper_model.py\nsrc/subsai/models/hugging_face_model.py\nsrc/subsai/models/stable_ts_model.py\nsrc/subsai/models/whisperX_model.py\nsrc/subsai/models/whisper_api_model.py\nsrc/subsai/models/whisper_model.py\nsrc/subsai/models/whisper_timestamped_model.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7857255589697596
+  }
+]

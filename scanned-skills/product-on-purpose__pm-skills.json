@@ -1,0 +1,198 @@
+[
+  {
+    "name": "pm-skills (product-on-purpose)",
+    "description": "[项目级] A curated collection of 24 best-practice, plug-and-play product management “agent skills” plus templates and workflow bundles for consistent, professional PM outputs.。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "powershell",
+      "stars-25",
+      "github-product-on-purpose",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A curated collection of 24 best-practice, plug-and-play product management “agent skills” plus templates and workflow bundles for consistent, professional PM outputs.\n\n来源: https://github.com/product-on-purpose/pm-skills\n语言: PowerShell\nStars: 25",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/product-on-purpose/pm-skills.git && cd pm-skills",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAGENTS\nAGENTS/DECISIONS.md\nAGENTS/claude-opus-4.5\nAGENTS/codex\nCHANGELOG.md\nCLAUDE.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nLICENSE\nQUICKSTART.md\nREADME.md\nSECURITY.md\n_bundles\n_bundles/.gitkeep\n_bundles/feature-kickoff.md\n_bundles/lean-startup.md\n_bundles/triple-diamond.md\ncommands\ncommands/.gitkeep",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "PM-Skills provides three components that work together to accelerate your product management work:\n\n| Component    | What it is                                                  | When to use                                               |\n| ------------ | ----------------------------------------------------------- | --------------------------------------------------------- |\n| **Skills**   | Self-contained instruction sets with templates and examples | Single artifacts (PRD, user stories, retro)               |\n| **Commands** | Slash commands for Claude Code (e.g., `/prd`)               | Quic",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- ✅ **24 Production-Ready Skills** covering the complete product lifecycle\n- ✅ **Triple Diamond Framework** organizing Discover, Define, Develop, Deliver, Measure, and Iterate phases\n- ✅ **Workflow Bundles** for common PM workflows (Feature Kickoff, Lean Startup, Triple Diamond)\n- ✅ **Slash Commands** for Claude Code users-instant access to every skill\n- ✅ **Auto-Discovery** via AGENTS.md in GitHub Copilot, Cursor, and Windsurf\n- ✅ **Agent Skills Spec** compliant-works across AI assistants\n- ✅ **Best-Practice Templates** based on industry best practices\n- ✅ **Comprehensive Documentation** with",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6989700043360187
+  },
+  {
+    "name": "pm-skills/AGENTS 模块",
+    "description": "[模块级] pm-skills 项目的 AGENTS 模块 (source)。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "module-level",
+      "source",
+      "agents"
+    ],
+    "genes": [
+      {
+        "title": "AGENTS 模块说明",
+        "content": "模块路径: AGENTS/\n类型: source\n文件数: 10\n\n包含文件:\n- AGENTS/DECISIONS.md\n- AGENTS/claude-opus-4.5\n- AGENTS/claude-opus-4.5/CONTEXT.md\n- AGENTS/claude-opus-4.5/DECISIONS.md\n- AGENTS/codex\n- AGENTS/codex/CONTEXT.md\n- AGENTS/codex/DECISIONS.md\n- AGENTS/codex/README.md\n- AGENTS/codex/WORKTREE-PRIMER.md\n- AGENTS/codex/WRAP-SESSION_TEMPLATE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "AGENTS 文件结构",
+        "content": "AGENTS/DECISIONS.md\nAGENTS/claude-opus-4.5\nAGENTS/claude-opus-4.5/CONTEXT.md\nAGENTS/claude-opus-4.5/DECISIONS.md\nAGENTS/codex\nAGENTS/codex/CONTEXT.md\nAGENTS/codex/DECISIONS.md\nAGENTS/codex/README.md\nAGENTS/codex/WORKTREE-PRIMER.md\nAGENTS/codex/WRAP-SESSION_TEMPLATE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "pm-skills/_bundles 模块",
+    "description": "[模块级] pm-skills 项目的 _bundles 模块 (source)。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "module-level",
+      "source",
+      "_bundles"
+    ],
+    "genes": [
+      {
+        "title": "_bundles 模块说明",
+        "content": "模块路径: _bundles/\n类型: source\n文件数: 4\n\n包含文件:\n- _bundles/.gitkeep\n- _bundles/feature-kickoff.md\n- _bundles/lean-startup.md\n- _bundles/triple-diamond.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "_bundles 文件结构",
+        "content": "_bundles/.gitkeep\n_bundles/feature-kickoff.md\n_bundles/lean-startup.md\n_bundles/triple-diamond.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "pm-skills/commands 模块",
+    "description": "[模块级] pm-skills 项目的 commands 模块 (source)。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "module-level",
+      "source",
+      "commands"
+    ],
+    "genes": [
+      {
+        "title": "commands 模块说明",
+        "content": "git clone https://github.com/product-on-purpose/pm-skills.git\ncd pm-skills",
+        "gene_type": "principle"
+      },
+      {
+        "title": "commands 文件结构",
+        "content": "commands/.gitkeep\ncommands/adr.md\ncommands/competitive-analysis.md\ncommands/dashboard-requirements.md\ncommands/design-rationale.md\ncommands/edge-cases.md\ncommands/experiment-design.md\ncommands/experiment-results.md\ncommands/hypothesis.md\ncommands/instrumentation-spec.md\ncommands/interview-synthesis.md\ncommands/jtbd-canvas.md\ncommands/kickoff.md\ncommands/launch-checklist.md\ncommands/lessons-log.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "pm-skills/docs 模块",
+    "description": "[模块级] pm-skills 项目的 docs 模块 (docs)。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "documentation",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 50\n\n包含文件:\n- docs/agent-skill-anatomy.md\n- docs/frameworks\n- docs/frameworks/triple-diamond-delivery-process.md\n- docs/getting-started.md\n- docs/guides\n- docs/guides/authoring-pm-skills.md\n- docs/guides/mcp-integration.md\n- docs/guides/using-skills.md\n- docs/guides/validate-mcp-sync.md\n- docs/internal",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent-skill-anatomy.md\ndocs/frameworks\ndocs/frameworks/triple-diamond-delivery-process.md\ndocs/getting-started.md\ndocs/guides\ndocs/guides/authoring-pm-skills.md\ndocs/guides/mcp-integration.md\ndocs/guides/using-skills.md\ndocs/guides/validate-mcp-sync.md\ndocs/internal\ndocs/internal/Releases_2.3-2.4_detailed-breakdown.md\ndocs/internal/backlog-canonical.md\ndocs/internal/delivery-plan\ndocs/internal/delivery-plan/README.md\ndocs/internal/delivery-plan/v2.4-contract-lock-summary.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  },
+  {
+    "name": "pm-skills/library 模块",
+    "description": "[模块级] pm-skills 项目的 library 模块 (source)。来源: https://github.com/product-on-purpose/pm-skills",
+    "domain": "ai-llm",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code",
+      "claude-desktop",
+      "openskills",
+      "module-level",
+      "source",
+      "library"
+    ],
+    "genes": [
+      {
+        "title": "library 模块说明",
+        "content": "模块路径: library/\n类型: source\n文件数: 7\n\n包含文件:\n- library/samples\n- library/samples/discover-competitive-analysis\n- library/samples/discover-competitive-analysis/01-ecommerce-platform.md\n- library/samples/discover-competitive-analysis/02-design-collaboration-tools.md\n- library/samples/discover-competitive-analysis/03-ai-customer-support.md\n- library/samples/discover-interview-synthesis\n- library/samples/discover-interview-synthesis/01-mobile-banking-payments.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "library 文件结构",
+        "content": "library/samples\nlibrary/samples/discover-competitive-analysis\nlibrary/samples/discover-competitive-analysis/01-ecommerce-platform.md\nlibrary/samples/discover-competitive-analysis/02-design-collaboration-tools.md\nlibrary/samples/discover-competitive-analysis/03-ai-customer-support.md\nlibrary/samples/discover-interview-synthesis\nlibrary/samples/discover-interview-synthesis/01-mobile-banking-payments.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.0591760034688154
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "activepieces (activepieces)",
+    "description": "[项目级] AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents。来源: https://github.com/activepieces/activepieces",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-agents-framework",
+      "mcp",
+      "typescript",
+      "stars-20882",
+      "github-activepieces",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents\n\n来源: https://github.com/activepieces/activepieces\n语言: TypeScript\nStars: 20882",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nDockerfile\nLICENSE\nREADME.md\nSECURITY.md\nassets\nassets/ap-logo.png\nbun.lock\ncommitlint.config.js\ncrowdin.yml\ndeploy\ndeploy/activepieces-helm\ndeploy/pulumi\ndepot.json\ndocker-compose.dev.yml\ndocker-compose.test.yml\ndocker-compose.yml\ndocker-entrypoint.sh\ndocs\ndocs/LICENSE",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- [x] Loops\n- [x] Branches\n- [x] Auto Retries\n- [x] HTTP\n- [x] Code with **NPM**\n- [x] ASK AI in Code Piece (Non technical user can clean data without knowing to code)\n- [x] Flows are fully versioned.\n- [x] Languages Translations\n- [x] Customizable Templates\n- [X] 200+ Pieces, check https://www.activepieces.com/pieces\n\n**We release updates frequently. Check the product changelog for the latest features.**",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "activepieces/deploy 模块",
+    "description": "[模块级] activepieces 项目的 deploy 模块 (source)。来源: https://github.com/activepieces/activepieces",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-agents-framework",
+      "mcp",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 29\n\n包含文件:\n- deploy/activepieces-helm\n- deploy/activepieces-helm/.gitignore\n- deploy/activepieces-helm/.helmignore\n- deploy/activepieces-helm/Chart.lock\n- deploy/activepieces-helm/Chart.yaml\n- deploy/activepieces-helm/templates\n- deploy/activepieces-helm/templates/NOTES.txt\n- deploy/activepieces-helm/templates/_helpers.tpl\n- deploy/activepieces-helm/templates/deployment.yaml\n- deploy/activepieces-helm/templates/hpa.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/activepieces-helm\ndeploy/activepieces-helm/.gitignore\ndeploy/activepieces-helm/.helmignore\ndeploy/activepieces-helm/Chart.lock\ndeploy/activepieces-helm/Chart.yaml\ndeploy/activepieces-helm/templates\ndeploy/activepieces-helm/templates/NOTES.txt\ndeploy/activepieces-helm/templates/_helpers.tpl\ndeploy/activepieces-helm/templates/deployment.yaml\ndeploy/activepieces-helm/templates/hpa.yaml\ndeploy/activepieces-helm/templates/ingress.yaml\ndeploy/activepieces-helm/templates/pvc.yaml\ndeploy/activepieces-helm/templates/secret.yaml\ndeploy/activepieces-helm/templates/service.yaml\ndeploy/activepieces-helm/templates/serviceaccount.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2279088365705455
+  },
+  {
+    "name": "activepieces/docs 模块",
+    "description": "[模块级] activepieces 项目的 docs 模块 (docs)。来源: https://github.com/activepieces/activepieces",
+    "domain": "documentation",
+    "tags": [
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-agents-framework",
+      "mcp",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 82\n\n包含文件:\n- docs/LICENSE\n- docs/README.md\n- docs/_snippets\n- docs/_snippets/enterprise-feature.mdx\n- docs/_snippets/execution-mode.mdx\n- docs/_snippets/replace-oauth2-apps.mdx\n- docs/about\n- docs/about/changelog.mdx\n- docs/about/i18n.mdx\n- docs/about/license.mdx",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/LICENSE\ndocs/README.md\ndocs/_snippets\ndocs/_snippets/enterprise-feature.mdx\ndocs/_snippets/execution-mode.mdx\ndocs/_snippets/replace-oauth2-apps.mdx\ndocs/about\ndocs/about/changelog.mdx\ndocs/about/i18n.mdx\ndocs/about/license.mdx\ndocs/admin-guide\ndocs/admin-guide/guides\ndocs/admin-guide/guides/event-streaming.mdx\ndocs/admin-guide/guides/manage-oauth2.mdx\ndocs/admin-guide/guides/manage-pieces.mdx",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2279088365705455
+  }
+]

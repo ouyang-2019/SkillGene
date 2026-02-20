@@ -1,0 +1,91 @@
+[
+  {
+    "name": "agent-skills (callstackincubator)",
+    "description": "[项目级] A collection of agent-optimized React Native skills for AI coding assistants.。来源: https://github.com/callstackincubator/agent-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "stars-896",
+      "github-callstackincubator",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A collection of agent-optimized React Native skills for AI coding assistants.\n\n来源: https://github.com/callstackincubator/agent-skills\n语言: unknown\nStars: 896",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nLICENSE\nREADME.md\ndocs\ndocs/ai-assistant-integration.md\ndocs/skill-conventions.md\nskills\nskills/github\nskills/react-native-best-practices\nskills/upgrading-react-native",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The [callstack/optimization-best-practices](https://github.com/callstack/optimization-best-practices) repository contains runnable code examples for:\n\n- React Compiler setup\n- Dedicated React Native SDKs vs web polyfills\n- R8 code shrinking on Android",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.476154004831063
+  },
+  {
+    "name": "agent-skills/docs 模块",
+    "description": "[模块级] agent-skills 项目的 docs 模块 (docs)。来源: https://github.com/callstackincubator/agent-skills",
+    "domain": "documentation",
+    "tags": [
+      "stars-896",
+      "github-callstackincubator",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/ai-assistant-integration.md\n- docs/skill-conventions.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/ai-assistant-integration.md\ndocs/skill-conventions.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6809232038648503
+  },
+  {
+    "name": "agent-skills/skills 模块",
+    "description": "[模块级] agent-skills 项目的 skills 模块 (source)。来源: https://github.com/callstackincubator/agent-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "stars-896",
+      "github-callstackincubator",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "A collection of agent-optimized skills for AI coding assistants. Skills provide structured, actionable instructions for domain-specific tasks.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/github\nskills/github/SKILL.md\nskills/github/agents\nskills/github/agents/openai.yaml\nskills/github/references\nskills/github/references/stacked-pr-workflow.md\nskills/react-native-best-practices\nskills/react-native-best-practices/POWER.md\nskills/react-native-best-practices/SKILL.md\nskills/react-native-best-practices/agents\nskills/react-native-best-practices/agents/openai.yaml\nskills/react-native-best-practices/references\nskills/react-native-best-practices/references/bundle-analyze-app.md\nskills/react-native-best-practices/references/bundle-analyze-js.md\nskills/react-native-best-practices/references/bundle-barrel-exports.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.6809232038648503
+  }
+]

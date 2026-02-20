@@ -1,0 +1,68 @@
+[
+  {
+    "name": "E2B (e2b-dev)",
+    "description": "[项目级] Open-source, secure environment with real-world tools for enterprise-grade agents.。来源: https://github.com/e2b-dev/E2B",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "code-interpreter",
+      "mdx",
+      "stars-10956",
+      "github-e2b-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Open-source, secure environment with real-world tools for enterprise-grade agents.\n\n来源: https://github.com/e2b-dev/E2B\n语言: MDX\nStars: 10956",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm i @e2b/code-interpreter",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CLAUDE.md\nCODEOWNERS\nCONTRIBUTING.md\nDEV.md\nLICENSE\nMakefile\nREADME.md\napps\napps/web",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "E2B/apps 模块",
+    "description": "[模块级] E2B 项目的 apps 模块 (source)。来源: https://github.com/e2b-dev/E2B",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "code-interpreter",
+      "module-level",
+      "source",
+      "apps"
+    ],
+    "genes": [
+      {
+        "title": "apps 模块说明",
+        "content": "模块路径: apps/\n类型: source\n文件数: 152\n\n包含文件:\n- apps/web\n- apps/web/.eslintignore\n- apps/web/.eslintrc.json\n- apps/web/.gitignore\n- apps/web/.prettierignore\n- apps/web/README.md\n- apps/web/components.json\n- apps/web/config.ts\n- apps/web/mdx-components.tsx\n- apps/web/next.config.mjs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "apps 文件结构",
+        "content": "apps/web\napps/web/.eslintignore\napps/web/.eslintrc.json\napps/web/.gitignore\napps/web/.prettierignore\napps/web/README.md\napps/web/components.json\napps/web/config.ts\napps/web/mdx-components.tsx\napps/web/next.config.mjs\napps/web/package.json\napps/web/postcss.config.js\napps/web/prebuild.js\napps/web/public\napps/web/public/.well-known",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.115860809432769
+  }
+]

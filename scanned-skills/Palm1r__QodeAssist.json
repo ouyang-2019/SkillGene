@@ -1,0 +1,233 @@
+[
+  {
+    "name": "QodeAssist (Palm1r)",
+    "description": "[项目级] QodeAssist is an AI-powered coding assistant plugin for Qt Creator。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "c++",
+      "stars-316",
+      "github-palm1r",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "QodeAssist enhances Qt Creator with AI-powered coding assistance:\n\n- **Code Completion**: Intelligent, context-aware code suggestions for C++ and QML\n- **Chat Assistant**: Multiple interface options (popup window, side panel, bottom panel)\n- **Quick Refactoring**: Inline AI-assisted code improvements directly in editor with custom instructions library\n- **File Context**: Attach or link files for better AI understanding\n- **Tool Calling**: AI can read project files, search code, and access diagnostics\n- **Multiple Providers**: Support for Ollama, Claude, OpenAI, Google AI, Mistral AI, llama.cpp, and more\n- **Customizable**: Project-specific rules, custom instructions, and extensive model templates\n\n**Join our [Discord Community](https://discord.gg/BGMkUsXUgf)** to get support and connect wi",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CMakeLists.txt\nChatView\nChatView/CMakeLists.txt\nChatView/ChatCompressor.cpp\nChatView/ChatCompressor.hpp\nChatView/ChatData.hpp\nChatView/ChatFileManager.cpp\nChatView/ChatFileManager.hpp\nChatView/ChatModel.cpp\nChatView/ChatModel.hpp\nChatView/ChatRootView.cpp\nChatView/ChatRootView.hpp\nChatView/ChatSerializer.cpp\nChatView/ChatSerializer.hpp\nChatView/ChatUtils.cpp\nChatView/ChatUtils.h\nChatView/ChatView.cpp\nChatView/ChatView.hpp\nChatView/ChatWidget.cpp\nChatView/ChatWidget.hpp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.249843541309202
+  },
+  {
+    "name": "QodeAssist/ChatView 模块",
+    "description": "[模块级] QodeAssist 项目的 ChatView 模块 (source)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "source",
+      "chatview"
+    ],
+    "genes": [
+      {
+        "title": "ChatView 模块说明",
+        "content": "模块路径: ChatView/\n类型: source\n文件数: 68\n\n包含文件:\n- ChatView/CMakeLists.txt\n- ChatView/ChatCompressor.cpp\n- ChatView/ChatCompressor.hpp\n- ChatView/ChatData.hpp\n- ChatView/ChatFileManager.cpp\n- ChatView/ChatFileManager.hpp\n- ChatView/ChatModel.cpp\n- ChatView/ChatModel.hpp\n- ChatView/ChatRootView.cpp\n- ChatView/ChatRootView.hpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "ChatView 文件结构",
+        "content": "ChatView/CMakeLists.txt\nChatView/ChatCompressor.cpp\nChatView/ChatCompressor.hpp\nChatView/ChatData.hpp\nChatView/ChatFileManager.cpp\nChatView/ChatFileManager.hpp\nChatView/ChatModel.cpp\nChatView/ChatModel.hpp\nChatView/ChatRootView.cpp\nChatView/ChatRootView.hpp\nChatView/ChatSerializer.cpp\nChatView/ChatSerializer.hpp\nChatView/ChatUtils.cpp\nChatView/ChatUtils.h\nChatView/ChatView.cpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  },
+  {
+    "name": "QodeAssist/TaskFlow 模块",
+    "description": "[模块级] QodeAssist 项目的 TaskFlow 模块 (source)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "source",
+      "taskflow"
+    ],
+    "genes": [
+      {
+        "title": "TaskFlow 模块说明",
+        "content": "模块路径: TaskFlow/\n类型: source\n文件数: 46\n\n包含文件:\n- TaskFlow/CMakeLists.txt\n- TaskFlow/Editor\n- TaskFlow/Editor/CMakeLists.txt\n- TaskFlow/Editor/FlowEditor.cpp\n- TaskFlow/Editor/FlowEditor.hpp\n- TaskFlow/Editor/FlowItem.cpp\n- TaskFlow/Editor/FlowItem.hpp\n- TaskFlow/Editor/FlowsModel.cpp\n- TaskFlow/Editor/FlowsModel.hpp\n- TaskFlow/Editor/GridBackground.cpp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "TaskFlow 文件结构",
+        "content": "TaskFlow/CMakeLists.txt\nTaskFlow/Editor\nTaskFlow/Editor/CMakeLists.txt\nTaskFlow/Editor/FlowEditor.cpp\nTaskFlow/Editor/FlowEditor.hpp\nTaskFlow/Editor/FlowItem.cpp\nTaskFlow/Editor/FlowItem.hpp\nTaskFlow/Editor/FlowsModel.cpp\nTaskFlow/Editor/FlowsModel.hpp\nTaskFlow/Editor/GridBackground.cpp\nTaskFlow/Editor/GridBackground.hpp\nTaskFlow/Editor/TaskConnectionItem.cpp\nTaskFlow/Editor/TaskConnectionItem.hpp\nTaskFlow/Editor/TaskConnectionsModel.cpp\nTaskFlow/Editor/TaskConnectionsModel.hpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  },
+  {
+    "name": "QodeAssist/UIControls 模块",
+    "description": "[模块级] QodeAssist 项目的 UIControls 模块 (source)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "source",
+      "uicontrols"
+    ],
+    "genes": [
+      {
+        "title": "UIControls 模块说明",
+        "content": "模块路径: UIControls/\n类型: source\n文件数: 11\n\n包含文件:\n- UIControls/CMakeLists.txt\n- UIControls/icons\n- UIControls/icons/dropdown-arrow-dark.svg\n- UIControls/icons/dropdown-arrow-light.svg\n- UIControls/qml\n- UIControls/qml/Badge.qml\n- UIControls/qml/FadeListItemAnimation.qml\n- UIControls/qml/QoAButton.qml\n- UIControls/qml/QoAComboBox.qml\n- UIControls/qml/QoASeparator.qml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "UIControls 文件结构",
+        "content": "UIControls/CMakeLists.txt\nUIControls/icons\nUIControls/icons/dropdown-arrow-dark.svg\nUIControls/icons/dropdown-arrow-light.svg\nUIControls/qml\nUIControls/qml/Badge.qml\nUIControls/qml/FadeListItemAnimation.qml\nUIControls/qml/QoAButton.qml\nUIControls/qml/QoAComboBox.qml\nUIControls/qml/QoASeparator.qml\nUIControls/qml/QoATextSlider.qml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  },
+  {
+    "name": "QodeAssist/chat 模块",
+    "description": "[模块级] QodeAssist 项目的 chat 模块 (source)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "source",
+      "chat"
+    ],
+    "genes": [
+      {
+        "title": "chat 模块说明",
+        "content": "- Multiple chat panels: side panel, bottom panel, and popup window\n- Chat history with auto-save and restore\n- Token usage monitoring\n- **[Agent Roles](docs/agent-roles.md)** - Switch between AI personas (Developer, Reviewer, custom roles)\n- **[Chat Summarization](docs/chat-summarization.md)** - Compress long conversations into AI-generated summaries\n- **[File Context](docs/file-context.md)** - Attach or link files for better context\n- Automatic syncing with open editor files (optional)\n- Extend",
+        "gene_type": "principle"
+      },
+      {
+        "title": "chat 文件结构",
+        "content": "chat/ChatOutputPane.cpp\nchat/ChatOutputPane.h\nchat/NavigationPanel.cpp\nchat/NavigationPanel.hpp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  },
+  {
+    "name": "QodeAssist/context 模块",
+    "description": "[模块级] QodeAssist 项目的 context 模块 (source)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "ai-llm",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "source",
+      "context"
+    ],
+    "genes": [
+      {
+        "title": "context 模块说明",
+        "content": "QodeAssist uses a flexible prompt composition system that adapts to different contexts. Here's how prompts are constructed for each feature:\n\n<details>\n  <summary><strong>Code Completion (FIM Models)</strong> - Codestral, Qwen2.5-Coder, DeepSeek-Coder (click to expand)</summary>\n\n```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│                         CODE COMPLETION (FIM Models)                        │\n├──────────────────────────────────────────────────────",
+        "gene_type": "principle"
+      },
+      {
+        "title": "context 文件结构",
+        "content": "context/CMakeLists.txt\ncontext/ChangesManager.cpp\ncontext/ChangesManager.h\ncontext/ContentFile.hpp\ncontext/ContextManager.cpp\ncontext/ContextManager.hpp\ncontext/DocumentContextReader.cpp\ncontext/DocumentContextReader.hpp\ncontext/DocumentReaderQtCreator.hpp\ncontext/IContextManager.hpp\ncontext/IDocumentReader.hpp\ncontext/IgnoreManager.cpp\ncontext/IgnoreManager.hpp\ncontext/ProgrammingLanguage.cpp\ncontext/ProgrammingLanguage.hpp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "context 代码示例",
+        "content": "┌─────────────────────────────────────────────────────────────────────────────┐\n│                         CODE COMPLETION (FIM Models)                        │\n├─────────────────────────────────────────────────────────────────────────────┤\n│  Examples: Codestral, Qwen2.5-Coder, DeepSeek-Coder                        │\n│                                                                              │\n│  1. System Prompt (from Code Completion Settings - FIM variant)            │\n│  2. Project Rules:                                                          │\n│     └─ .qodeassist/rules/completion/*.m",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  },
+  {
+    "name": "QodeAssist/docs 模块",
+    "description": "[模块级] QodeAssist 项目的 docs 模块 (docs)。来源: https://github.com/Palm1r/QodeAssist",
+    "domain": "documentation",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-chat",
+      "autocomplete",
+      "claude",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 2\n\n包含文件:\n- docs/agent-roles.md\n- docs/chat-summarization.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/agent-roles.md\ndocs/chat-summarization.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4998748330473615
+  }
+]

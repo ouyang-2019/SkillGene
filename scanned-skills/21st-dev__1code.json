@@ -1,0 +1,206 @@
+[
+  {
+    "name": "1code (21st-dev)",
+    "description": "[项目级] Orchestration layer for coding agents (Claude Code, Codex)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Orchestration layer for coding agents (Claude Code, Codex)\n\n来源: https://github.com/21st-dev/1code\n语言: TypeScript\nStars: 4991",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nassets\nassets/cursor-ui.gif\nassets/plan-mode.gif\nassets/worktree.gif\nbuild\nbuild/background.svg\nbuild/background.tiff\nbuild/background@2x.png\nbuild/background@2x.tiff\nbuild/dmg-background.png\nbuild/dmg-background.svg\nbuild/dmg-background@2x.png\nbuild/entitlements.mac.plist\nbuild/icon.icns\nbuild/icon.ico",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.849093784933061
+  },
+  {
+    "name": "1code/assets 模块",
+    "description": "[模块级] 1code 项目的 assets 模块 (source)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 3\n\n包含文件:\n- assets/cursor-ui.gif\n- assets/plan-mode.gif\n- assets/worktree.gif",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/cursor-ui.gif\nassets/plan-mode.gif\nassets/worktree.gif",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  },
+  {
+    "name": "1code/drizzle 模块",
+    "description": "[模块级] 1code 项目的 drizzle 模块 (source)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "source",
+      "drizzle"
+    ],
+    "genes": [
+      {
+        "title": "drizzle 模块说明",
+        "content": "模块路径: drizzle/\n类型: source\n文件数: 18\n\n包含文件:\n- drizzle/0000_mixed_blur.sql\n- drizzle/0001_married_reptil.sql\n- drizzle/0002_fancy_blindfold.sql\n- drizzle/0003_crazy_thunderbolts.sql\n- drizzle/0004_melted_prism.sql\n- drizzle/0005_marvelous_master_chief.sql\n- drizzle/0006_anthropic_multi_account.sql\n- drizzle/0007_clammy_grim_reaper.sql\n- drizzle/meta\n- drizzle/meta/0000_snapshot.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "drizzle 文件结构",
+        "content": "drizzle/0000_mixed_blur.sql\ndrizzle/0001_married_reptil.sql\ndrizzle/0002_fancy_blindfold.sql\ndrizzle/0003_crazy_thunderbolts.sql\ndrizzle/0004_melted_prism.sql\ndrizzle/0005_marvelous_master_chief.sql\ndrizzle/0006_anthropic_multi_account.sql\ndrizzle/0007_clammy_grim_reaper.sql\ndrizzle/meta\ndrizzle/meta/0000_snapshot.json\ndrizzle/meta/0001_snapshot.json\ndrizzle/meta/0002_snapshot.json\ndrizzle/meta/0003_snapshot.json\ndrizzle/meta/0004_snapshot.json\ndrizzle/meta/0005_snapshot.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  },
+  {
+    "name": "1code/openspec 模块",
+    "description": "[模块级] 1code 项目的 openspec 模块 (source)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "source",
+      "openspec"
+    ],
+    "genes": [
+      {
+        "title": "openspec 模块说明",
+        "content": "模块路径: openspec/\n类型: source\n文件数: 2\n\n包含文件:\n- openspec/AGENTS.md\n- openspec/project.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "openspec 文件结构",
+        "content": "openspec/AGENTS.md\nopenspec/project.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  },
+  {
+    "name": "1code/resources 模块",
+    "description": "[模块级] 1code 项目的 resources 模块 (source)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "resources 模块说明",
+        "content": "模块路径: resources/\n类型: source\n文件数: 2\n\n包含文件:\n- resources/cli\n- resources/cli/1code",
+        "gene_type": "principle"
+      },
+      {
+        "title": "resources 文件结构",
+        "content": "resources/cli\nresources/cli/1code",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  },
+  {
+    "name": "1code/scripts 模块",
+    "description": "[模块级] 1code 项目的 scripts 模块 (script)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 6\n\n包含文件:\n- scripts/download-claude-binary.mjs\n- scripts/download-codex-binary.mjs\n- scripts/generate-icon.mjs\n- scripts/generate-update-manifest.mjs\n- scripts/patch-electron-dev.mjs\n- scripts/sync-to-public.sh",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/download-claude-binary.mjs\nscripts/download-codex-binary.mjs\nscripts/generate-icon.mjs\nscripts/generate-update-manifest.mjs\nscripts/patch-electron-dev.mjs\nscripts/sync-to-public.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  },
+  {
+    "name": "1code/src 模块",
+    "description": "[模块级] 1code 项目的 src 模块 (source)。来源: https://github.com/21st-dev/1code",
+    "domain": "ai-llm",
+    "tags": [
+      "typescript",
+      "stars-4991",
+      "github-21st-dev",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 132\n\n包含文件:\n- src/env.d.ts\n- src/main\n- src/main/auth-manager.ts\n- src/main/auth-store.ts\n- src/main/constants.ts\n- src/main/index.ts\n- src/main/lib\n- src/main/lib/analytics.ts\n- src/main/lib/auto-updater.ts\n- src/main/lib/claude-config.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/env.d.ts\nsrc/main\nsrc/main/auth-manager.ts\nsrc/main/auth-store.ts\nsrc/main/constants.ts\nsrc/main/index.ts\nsrc/main/lib\nsrc/main/lib/analytics.ts\nsrc/main/lib/auto-updater.ts\nsrc/main/lib/claude-config.ts\nsrc/main/lib/claude-token.ts\nsrc/main/lib/claude\nsrc/main/lib/claude/env.ts\nsrc/main/lib/claude/index.ts\nsrc/main/lib/claude/offline-handler.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.979275027946449
+  }
+]

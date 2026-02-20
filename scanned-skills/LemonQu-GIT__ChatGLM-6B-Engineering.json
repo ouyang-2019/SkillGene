@@ -1,0 +1,89 @@
+[
+  {
+    "name": "ChatGLM-6B-Engineering (LemonQu-GIT)",
+    "description": "[项目级] ChatGLM-6B Prompt Engineering Project。来源: https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-585",
+      "github-lemonqu-git",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGLM-6B Prompt Engineering Project\n\n来源: https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering\n语言: Python\nStars: 585",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\nREADME_en_us.md\napi.py\nfront_end.py\ngradio_demo.py\nimg\nimg/plugin_process.svg\nimg/plugin_process_en.svg\nplugins\nplugins/SD.py\nplugins/Weather_Location_Name.csv\nplugins/__init__.py\nplugins/config.json\nplugins/date.py\nplugins/markmap.py\nplugins/upload.py\nplugins/utils.py\nplugins/weather.py\nplugins/web.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* 上下文对话（默认）\n* 网络搜索（可以去了解 [WebGLM](https://github.com/THUDM/WebGLM)）\n* Stable Diffusion (已弃用)\n* [Markmap](https://markmap.js.org/) 生成思维导图",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.3835779330410904
+  },
+  {
+    "name": "ChatGLM-6B-Engineering/img 模块",
+    "description": "[模块级] ChatGLM-6B-Engineering 项目的 img 模块 (source)。来源: https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-585",
+      "github-lemonqu-git",
+      "module-level",
+      "source",
+      "img"
+    ],
+    "genes": [
+      {
+        "title": "img 模块说明",
+        "content": "模块路径: img/\n类型: source\n文件数: 2\n\n包含文件:\n- img/plugin_process.svg\n- img/plugin_process_en.svg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "img 文件结构",
+        "content": "img/plugin_process.svg\nimg/plugin_process_en.svg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.606862346432872
+  },
+  {
+    "name": "ChatGLM-6B-Engineering/plugins 模块",
+    "description": "[模块级] ChatGLM-6B-Engineering 项目的 plugins 模块 (source)。来源: https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering",
+    "domain": "general",
+    "tags": [
+      "python",
+      "stars-585",
+      "github-lemonqu-git",
+      "module-level",
+      "source",
+      "plugins"
+    ],
+    "genes": [
+      {
+        "title": "plugins 模块说明",
+        "content": "模块路径: plugins/\n类型: source\n文件数: 10\n\n包含文件:\n- plugins/SD.py\n- plugins/Weather_Location_Name.csv\n- plugins/__init__.py\n- plugins/config.json\n- plugins/date.py\n- plugins/markmap.py\n- plugins/upload.py\n- plugins/utils.py\n- plugins/weather.py\n- plugins/web.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "plugins 文件结构",
+        "content": "plugins/SD.py\nplugins/Weather_Location_Name.csv\nplugins/__init__.py\nplugins/config.json\nplugins/date.py\nplugins/markmap.py\nplugins/upload.py\nplugins/utils.py\nplugins/weather.py\nplugins/web.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.606862346432872
+  }
+]

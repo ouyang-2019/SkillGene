@@ -1,0 +1,68 @@
+[
+  {
+    "name": "botpress (botpress)",
+    "description": "[项目级] The open-source hub to build & deploy GPT/LLM Agents ⚡️。来源: https://github.com/botpress/botpress",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "botpress",
+      "chatbot",
+      "chatgpt",
+      "typescript",
+      "stars-14558",
+      "github-botpress",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "The open-source hub to build & deploy GPT/LLM Agents ⚡️\n\n来源: https://github.com/botpress/botpress\n语言: TypeScript\nStars: 14558",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pnpm install",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CODEOWNERS\nLICENSE\nTiltfile\nbots\nbots/bugbuster\nbots/clog\nbots/doppel-doer\nbots/drop-weaver\nbots/echo\nbots/hello-world\nbots/hit-looper\nbots/knowledgiani\nbots/notionaut\nbots/sheetzy\nbots/sinlin\nbots/slackbox\nbots/synchrotron",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "botpress/bots 模块",
+    "description": "[模块级] botpress 项目的 bots 模块 (source)。来源: https://github.com/botpress/botpress",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "ai",
+      "botpress",
+      "chatbot",
+      "chatgpt",
+      "module-level",
+      "source",
+      "bots"
+    ],
+    "genes": [
+      {
+        "title": "bots 模块说明",
+        "content": "The [`/bots`](./bots) folder contains examples of bots \"_as code_\" made only using the client, the SDK and the CLI.\n\n**This is not the recommended way to build bots** and is in no way a replacement for the Botpress Studio.\n\nHowever it can be useful for experienced developers who want to build bots in a more programmatic way.\n\nIt is also used internally by the Botpress team since the Studio and SDK both use the same underlying primitives.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "bots 文件结构",
+        "content": "bots/bugbuster\nbots/bugbuster/bot.definition.ts\nbots/bugbuster/bugbuster.png\nbots/bugbuster/eslint.config.mjs\nbots/bugbuster/package.json\nbots/bugbuster/readme.md\nbots/bugbuster/src\nbots/bugbuster/src/bootstrap.ts\nbots/bugbuster/src/handlers\nbots/bugbuster/src/handlers/github-issue-opened.ts\nbots/bugbuster/src/handlers/index.ts\nbots/bugbuster/src/handlers/linear-issue-created.ts\nbots/bugbuster/src/handlers/linear-issue-updated.ts\nbots/bugbuster/src/handlers/lint-all.ts\nbots/bugbuster/src/handlers/message-created.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.16524068601759
+  }
+]

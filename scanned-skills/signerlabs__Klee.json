@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Klee (signerlabs)",
+    "description": "[项目级] Secure and local AI on your desktop with a built-in RAG knowledge base and Markdown note support.。来源: https://github.com/signerlabs/Klee",
+    "domain": "web-frontend",
+    "tags": [
+      "app",
+      "klee",
+      "llamaindex",
+      "markdown",
+      "ollama",
+      "typescript",
+      "stars-1694",
+      "github-signerlabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Klee is a modern desktop application that combines AI-powered chat, knowledge base management, and note-taking capabilities. It offers both **Cloud Mode** for seamless synchronization and **Private Mode** for complete offline functionality.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\nclient\nclient/.env.example\nclient/.prettierrc\nclient/build\nclient/components.json\nclient/config\nclient/electron-builder.json\nclient/package.json\nclient/postcss.config.cjs\nclient/src",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.6144567029973445
+  },
+  {
+    "name": "Klee/client 模块",
+    "description": "[模块级] Klee 项目的 client 模块 (source)。来源: https://github.com/signerlabs/Klee",
+    "domain": "web-frontend",
+    "tags": [
+      "app",
+      "klee",
+      "llamaindex",
+      "markdown",
+      "ollama",
+      "module-level",
+      "source",
+      "client"
+    ],
+    "genes": [
+      {
+        "title": "client 模块说明",
+        "content": "```bash",
+        "gene_type": "principle"
+      },
+      {
+        "title": "client 文件结构",
+        "content": "client/.env.example\nclient/.prettierrc\nclient/build\nclient/build/entitlements.mac.plist\nclient/build/icon.icns\nclient/build/icon.ico\nclient/build/icon.png\nclient/components.json\nclient/config\nclient/config/local.config.ts\nclient/config/models.ts\nclient/electron-builder.json\nclient/package.json\nclient/postcss.config.cjs\nclient/src",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7915653623978756
+  }
+]

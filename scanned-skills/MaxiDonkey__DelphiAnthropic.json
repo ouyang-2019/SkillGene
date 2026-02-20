@@ -1,0 +1,158 @@
+[
+  {
+    "name": "DelphiAnthropic (MaxiDonkey)",
+    "description": "[项目级] The Anthropic API wrapper for Delphi leverages cutting-edge models, including Anthropic's advanced Claude series, to deliver powerful features for chat interactions, vision processing, caching, efficient batch processing, connector MCP and skills。来源: https://github.com/MaxiDonkey/DelphiAnthropic",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-api",
+      "anthropic-claude",
+      "caching",
+      "pascal",
+      "stars-39",
+      "github-maxidonkey",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": ">Built with Delphi 12 Community Edition (v12.1 Patch 1) <br>\n>The wrapper itself is MIT-licensed. <br>\n>You can compile and test it free of charge with Delphi CE.\n\n<br>\n\n**DelphiAnthropic** is a native **Delphi wrapper for the Anthropic Claude API**, providing structured access to the Messages API, including:\n- synchronous and asynchronous execution\n- SSE streaming\n- tools and function calling\n- structured outputs (JSON schema)\n- multimodal inputs (image, PDF)\n- advanced reasoning modes (adaptive / extended thinking)\n\n<br>\n\n>[!IMPORTANT]\n> This is an unofficial library. <br>\n> Anthropic does not provide an official Delphi SDK for Claude. <br>\n> This project is a Delphi implementation over the [public API](https://platform.claude.com/docs/en/api/overview)\n\n<br>",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "Anthropic.png\nChangelog.md\nLICENSE\nREADME.md\nguides\nguides/agent-skills-custom.md\nguides/agent-skills.md\nguides/batch-processing.md\nguides/citations.md\nguides/content-generation-sse.md\nguides/content-generation.md\nguides/document-understanding.md\nguides/fast-mode.md\nguides/files-api.md\nguides/models.md\nguides/prompt-caching.md\nguides/structured-outputs.md\nguides/thinking.md\nguides/token-counting.md\nguides/tools-beta.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "// uses Anthropic, Anthropic.Types, Anthropic.Helpers;\n  // Client: IAnthropic;\n\n  var Client := TAnthropicFactory.CreateInstance('ANTHROPIC_API_KEY');\n\n  //JSON payload\n  var Payload: TChatParamProc :=\n    procedure (Params: TChatParams)\n    begin\n      Params\n        .Model('claude-sonnet-4-6')\n        .Messages( Generation.MessageParts\n            .User('From which version of Delphi were multi-line strings introduced?')\n        )\n        .MaxTokens(1024);\n    end;\n\n  //Synchronous example\n  var Chat := Client.Chat.Create(Payload);\n\n  try\n    for var Block in Chat.Content do\n      if Block.&",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.7955323035132498
+  },
+  {
+    "name": "DelphiAnthropic/guides 模块",
+    "description": "[模块级] DelphiAnthropic 项目的 guides 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiAnthropic",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-api",
+      "anthropic-claude",
+      "caching",
+      "module-level",
+      "source",
+      "guides"
+    ],
+    "genes": [
+      {
+        "title": "guides 模块说明",
+        "content": "模块路径: guides/\n类型: source\n文件数: 24\n\n包含文件:\n- guides/agent-skills-custom.md\n- guides/agent-skills.md\n- guides/batch-processing.md\n- guides/citations.md\n- guides/content-generation-sse.md\n- guides/content-generation.md\n- guides/document-understanding.md\n- guides/fast-mode.md\n- guides/files-api.md\n- guides/models.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "guides 文件结构",
+        "content": "guides/agent-skills-custom.md\nguides/agent-skills.md\nguides/batch-processing.md\nguides/citations.md\nguides/content-generation-sse.md\nguides/content-generation.md\nguides/document-understanding.md\nguides/fast-mode.md\nguides/files-api.md\nguides/models.md\nguides/prompt-caching.md\nguides/structured-outputs.md\nguides/thinking.md\nguides/token-counting.md\nguides/tools-beta.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1364258428105996
+  },
+  {
+    "name": "DelphiAnthropic/media 模块",
+    "description": "[模块级] DelphiAnthropic 项目的 media 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiAnthropic",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-api",
+      "anthropic-claude",
+      "caching",
+      "module-level",
+      "source",
+      "media"
+    ],
+    "genes": [
+      {
+        "title": "media 模块说明",
+        "content": "模块路径: media/\n类型: source\n文件数: 8\n\n包含文件:\n- media/BatchExample.jsonl\n- media/BatchText.jsonl\n- media/File_Search_file.pdf\n- media/Invoice.png\n- media/Primes.py\n- media/pdf-extract\n- media/pdf-extract/SKILL.md\n- media/user.xml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "media 文件结构",
+        "content": "media/BatchExample.jsonl\nmedia/BatchText.jsonl\nmedia/File_Search_file.pdf\nmedia/Invoice.png\nmedia/Primes.py\nmedia/pdf-extract\nmedia/pdf-extract/SKILL.md\nmedia/user.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1364258428105996
+  },
+  {
+    "name": "DelphiAnthropic/sample 模块",
+    "description": "[模块级] DelphiAnthropic 项目的 sample 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiAnthropic",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-api",
+      "anthropic-claude",
+      "caching",
+      "module-level",
+      "source",
+      "sample"
+    ],
+    "genes": [
+      {
+        "title": "sample 模块说明",
+        "content": "模块路径: sample/\n类型: source\n文件数: 7\n\n包含文件:\n- sample/Main.fmx\n- sample/Main.pas\n- sample/Sample.IniManagment.pas\n- sample/Sample.Key.Managment.pas\n- sample/Sample.UrlOpen.pas\n- sample/Sample.dpr\n- sample/Sample.dproj",
+        "gene_type": "principle"
+      },
+      {
+        "title": "sample 文件结构",
+        "content": "sample/Main.fmx\nsample/Main.pas\nsample/Sample.IniManagment.pas\nsample/Sample.Key.Managment.pas\nsample/Sample.UrlOpen.pas\nsample/Sample.dpr\nsample/Sample.dproj",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1364258428105996
+  },
+  {
+    "name": "DelphiAnthropic/source 模块",
+    "description": "[模块级] DelphiAnthropic 项目的 source 模块 (source)。来源: https://github.com/MaxiDonkey/DelphiAnthropic",
+    "domain": "devops",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-api",
+      "anthropic-claude",
+      "caching",
+      "module-level",
+      "source",
+      "source"
+    ],
+    "genes": [
+      {
+        "title": "source 模块说明",
+        "content": "模块路径: source/\n类型: source\n文件数: 45\n\n包含文件:\n- source/Anthropic.API.ArrayBuilder.pas\n- source/Anthropic.API.Consts.pas\n- source/Anthropic.API.JSONShield.pas\n- source/Anthropic.API.JsonSafeReader.pas\n- source/Anthropic.API.MultiFormData.pas\n- source/Anthropic.API.Params.pas\n- source/Anthropic.API.SSEDecoder.pas\n- source/Anthropic.API.Streams.pas\n- source/Anthropic.API.pas\n- source/Anthropic.Api.JsonFingerprintBinder.pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "source 文件结构",
+        "content": "source/Anthropic.API.ArrayBuilder.pas\nsource/Anthropic.API.Consts.pas\nsource/Anthropic.API.JSONShield.pas\nsource/Anthropic.API.JsonSafeReader.pas\nsource/Anthropic.API.MultiFormData.pas\nsource/Anthropic.API.Params.pas\nsource/Anthropic.API.SSEDecoder.pas\nsource/Anthropic.API.Streams.pas\nsource/Anthropic.API.pas\nsource/Anthropic.Api.JsonFingerprintBinder.pas\nsource/Anthropic.Async.Params.pas\nsource/Anthropic.Async.Promise.pas\nsource/Anthropic.Async.Support.pas\nsource/Anthropic.Batches.Support.pas\nsource/Anthropic.Batches.pas",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.1364258428105996
+  }
+]

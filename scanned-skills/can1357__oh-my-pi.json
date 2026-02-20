@@ -1,0 +1,108 @@
+[
+  {
+    "name": "oh-my-pi (can1357)",
+    "description": "[项目级] ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more。来源: https://github.com/can1357/oh-my-pi",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-coding-agent",
+      "anthropic",
+      "bun",
+      "claude",
+      "typescript",
+      "stars-942",
+      "github-can1357",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more\n\n来源: https://github.com/can1357/oh-my-pi\n语言: TypeScript\nStars: 942",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCargo.lock\nCargo.toml\nLICENSE\nREADME.md\nassets\nassets/arxiv.webp\nassets/ask.webp\nassets/banner.html\nassets/discovery.webp\nassets/hero.png\nassets/icon.svg\nassets/lspv.webp\nassets/models.webp\nassets/perplexity.webp\nassets/python.webp\nassets/review.webp\nassets/slash.webp\nassets/task.webp\nassets/ttsr.webp",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "**File reference (`@`):** Type `@` to fuzzy-search project files. Respects `.gitignore`.\n\n**Path completion (Tab):** Complete relative paths, `../`, `~/`, etc.\n\n**Drag & drop:** Drag files from your file manager into the terminal.\n\n**Multi-line paste:** Pasted content is collapsed in preview but sent in full.\n\n**Message queuing:** Submit messages while the agent is working; queue behavior is configurable in `/settings`.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.4870254513964385
+  },
+  {
+    "name": "oh-my-pi/assets 模块",
+    "description": "[模块级] oh-my-pi 项目的 assets 模块 (source)。来源: https://github.com/can1357/oh-my-pi",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-coding-agent",
+      "anthropic",
+      "bun",
+      "claude",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 14\n\n包含文件:\n- assets/arxiv.webp\n- assets/ask.webp\n- assets/banner.html\n- assets/discovery.webp\n- assets/hero.png\n- assets/icon.svg\n- assets/lspv.webp\n- assets/models.webp\n- assets/perplexity.webp\n- assets/python.webp",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/arxiv.webp\nassets/ask.webp\nassets/banner.html\nassets/discovery.webp\nassets/hero.png\nassets/icon.svg\nassets/lspv.webp\nassets/models.webp\nassets/perplexity.webp\nassets/python.webp\nassets/review.webp\nassets/slash.webp\nassets/task.webp\nassets/ttsr.webp",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689620361117151
+  },
+  {
+    "name": "oh-my-pi/crates 模块",
+    "description": "[模块级] oh-my-pi 项目的 crates 模块 (source)。来源: https://github.com/can1357/oh-my-pi",
+    "domain": "ai-llm",
+    "tags": [
+      "ai-agent",
+      "ai-coding-agent",
+      "anthropic",
+      "bun",
+      "claude",
+      "module-level",
+      "source",
+      "crates"
+    ],
+    "genes": [
+      {
+        "title": "crates 模块说明",
+        "content": "| Crate                                                         | Description                                                                                  |\n| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |\n| **[pi-natives](crates/pi-natives)**                           | Core Rust native addon used by `@oh-my-pi/pi-natives`                                        |\n| **[brush-core-v",
+        "gene_type": "principle"
+      },
+      {
+        "title": "crates 文件结构",
+        "content": "crates/brush-builtins-vendored\ncrates/brush-builtins-vendored/Cargo.lock\ncrates/brush-builtins-vendored/Cargo.toml\ncrates/brush-builtins-vendored/LICENSE\ncrates/brush-builtins-vendored/README.md\ncrates/brush-builtins-vendored/src\ncrates/brush-builtins-vendored/src/alias.rs\ncrates/brush-builtins-vendored/src/bg.rs\ncrates/brush-builtins-vendored/src/bind.rs\ncrates/brush-builtins-vendored/src/break_.rs\ncrates/brush-builtins-vendored/src/brushinfo.rs\ncrates/brush-builtins-vendored/src/builder.rs\ncrates/brush-builtins-vendored/src/builtin_.rs\ncrates/brush-builtins-vendored/src/cd.rs\ncrates/brush-builtins-vendored/src/colon.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.689620361117151
+  }
+]

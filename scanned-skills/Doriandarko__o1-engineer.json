@@ -1,0 +1,43 @@
+[
+  {
+    "name": "o1-engineer (Doriandarko)",
+    "description": "[项目级] o1-engineer is a command-line tool designed to assist developers in managing and interacting with their projects efficiently. Leveraging the power of OpenAI's API, this tool provides functionalities such as code generation, file editing, and project planning to streamline your development workflow.。来源: https://github.com/Doriandarko/o1-engineer",
+    "domain": "devops",
+    "tags": [
+      "python",
+      "stars-2861",
+      "github-doriandarko",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "o1-engineer is a command-line tool designed to assist developers in managing and interacting with their projects efficiently. Leveraging the power of OpenAI's API, this tool provides functionalities such as code generation, file editing, and project planning to streamline your development workflow.\n\n来源: https://github.com/Doriandarko/o1-engineer\n语言: Python\nStars: 2861",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "README.md\ngrok-eng.py\no1-eng.py\nrequirements.txt",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "python o1-eng.py",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Enhanced File and Folder Management**: The `/add` and `/edit` commands now support adding and modifying both files and folders, providing greater flexibility in managing your project structure.\n- **Project Planning**: Introducing the `/planning` command, which allows users to create comprehensive project plans that can be used to generate files and directories systematically.\n- **Advanced Workflows**: New examples demonstrate how to integrate planning and creation commands for efficient project setup.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.7282589289026316
+  }
+]

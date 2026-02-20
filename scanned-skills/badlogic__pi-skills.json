@@ -5,14 +5,14 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-540",
+      "stars-541",
       "github-badlogic",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "Skills for pi coding agent (compatible with Claude Code and Codex CLI)\n\n来源: https://github.com/badlogic/pi-skills\n语言: JavaScript\nStars: 540",
+        "content": "Skills for pi coding agent (compatible with Claude Code and Codex CLI)\n\n来源: https://github.com/badlogic/pi-skills\n语言: JavaScript\nStars: 541",
         "gene_type": "principle"
       },
       {
@@ -28,7 +28,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.3661968799114845
+    "rating": 4.366598632553284
   },
   {
     "name": "pi-skills/brave-search 模块",
@@ -36,7 +36,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-540",
+      "stars-541",
       "github-badlogic",
       "module-level",
       "source",
@@ -56,7 +56,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5929575039291874
+    "rating": 3.593278906042628
   },
   {
     "name": "pi-skills/browser-tools 模块",
@@ -64,7 +64,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-540",
+      "stars-541",
       "github-badlogic",
       "module-level",
       "source",
@@ -84,7 +84,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5929575039291874
+    "rating": 3.593278906042628
   },
   {
     "name": "pi-skills/transcribe 模块",
@@ -92,7 +92,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-540",
+      "stars-541",
       "github-badlogic",
       "module-level",
       "source",
@@ -112,7 +112,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5929575039291874
+    "rating": 3.593278906042628
   },
   {
     "name": "pi-skills/youtube-transcript 模块",
@@ -120,7 +120,7 @@
     "domain": "ai-llm",
     "tags": [
       "javascript",
-      "stars-540",
+      "stars-541",
       "github-badlogic",
       "module-level",
       "source",
@@ -140,6 +140,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 3.5929575039291874
+    "rating": 3.593278906042628
   }
 ]

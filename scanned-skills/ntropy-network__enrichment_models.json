@@ -1,0 +1,163 @@
+[
+  {
+    "name": "enrichment_models (ntropy-network)",
+    "description": "[项目级] This repository benchmark Ntropy API against different Large Language Models (OpenAI ChatGPT and LLAMA finetuned models). It also contains an easy to use wrapper to enable using the LLMs to perform transaction enrichment. Llama adapters were open sourced and are available on huggingface hub.。来源: https://github.com/ntropy-network/enrichment_models",
+    "domain": "devops",
+    "tags": [
+      "financial-data",
+      "gpt-4",
+      "llama",
+      "llm",
+      "machine-learning",
+      "jupyter notebook",
+      "stars-33",
+      "github-ntropy-network",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This repository benchmark Ntropy API against different Large Language Models (OpenAI ChatGPT and LLAMA finetuned models). It also contains an easy to use wrapper to enable using the LLMs to perform transaction enrichment. Llama adapters were open sourced and are available on huggingface hub.\n\n来源: https://github.com/ntropy-network/enrichment_models\n语言: Jupyter Notebook\nStars: 33",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "poetry install\npoetry shell",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nLICENSE\nMakefile\nREADME.md\ndatasets\ndatasets/100_labeled_consumer_transactions.csv\ndatasets/benchmark_predictions.csv\ndatasets/benchmark_results.csv\nenrichment_models\nenrichment_models/__init__.py\nenrichment_models/llms\nenrichment_models/tasks\nnotebooks\nnotebooks/llama.ipynb\nnotebooks/ntropy.ipynb\nnotebooks/openai.ipynb\npoetry.lock\npyproject.toml\nrequirements.txt\nscripts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.759256969938944
+  },
+  {
+    "name": "enrichment_models/datasets 模块",
+    "description": "[模块级] enrichment_models 项目的 datasets 模块 (source)。来源: https://github.com/ntropy-network/enrichment_models",
+    "domain": "devops",
+    "tags": [
+      "financial-data",
+      "gpt-4",
+      "llama",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "datasets"
+    ],
+    "genes": [
+      {
+        "title": "datasets 模块说明",
+        "content": "模块路径: datasets/\n类型: source\n文件数: 3\n\n包含文件:\n- datasets/100_labeled_consumer_transactions.csv\n- datasets/benchmark_predictions.csv\n- datasets/benchmark_results.csv",
+        "gene_type": "principle"
+      },
+      {
+        "title": "datasets 文件结构",
+        "content": "datasets/100_labeled_consumer_transactions.csv\ndatasets/benchmark_predictions.csv\ndatasets/benchmark_results.csv",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "enrichment_models/enrichment_models 模块",
+    "description": "[模块级] enrichment_models 项目的 enrichment_models 模块 (source)。来源: https://github.com/ntropy-network/enrichment_models",
+    "domain": "devops",
+    "tags": [
+      "financial-data",
+      "gpt-4",
+      "llama",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "enrichment_models"
+    ],
+    "genes": [
+      {
+        "title": "enrichment_models 模块说明",
+        "content": "模块路径: enrichment_models/\n类型: source\n文件数: 26\n\n包含文件:\n- enrichment_models/__init__.py\n- enrichment_models/llms\n- enrichment_models/llms/__init__.py\n- enrichment_models/llms/llama.py\n- enrichment_models/llms/llm.py\n- enrichment_models/llms/openai.py\n- enrichment_models/llms/prompt_templates\n- enrichment_models/llms/prompt_templates/alpaca.json\n- enrichment_models/llms/prompt_templates/alpaca_short.json\n- enrichment_models/llms/prompt_templates/t5.json",
+        "gene_type": "principle"
+      },
+      {
+        "title": "enrichment_models 文件结构",
+        "content": "enrichment_models/__init__.py\nenrichment_models/llms\nenrichment_models/llms/__init__.py\nenrichment_models/llms/llama.py\nenrichment_models/llms/llm.py\nenrichment_models/llms/openai.py\nenrichment_models/llms/prompt_templates\nenrichment_models/llms/prompt_templates/alpaca.json\nenrichment_models/llms/prompt_templates/alpaca_short.json\nenrichment_models/llms/prompt_templates/t5.json\nenrichment_models/llms/prompter.py\nenrichment_models/llms/utils.py\nenrichment_models/tasks\nenrichment_models/tasks/__init__.py\nenrichment_models/tasks/labeler",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "enrichment_models/notebooks 模块",
+    "description": "[模块级] enrichment_models 项目的 notebooks 模块 (source)。来源: https://github.com/ntropy-network/enrichment_models",
+    "domain": "devops",
+    "tags": [
+      "financial-data",
+      "gpt-4",
+      "llama",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "source",
+      "notebooks"
+    ],
+    "genes": [
+      {
+        "title": "notebooks 模块说明",
+        "content": "模块路径: notebooks/\n类型: source\n文件数: 3\n\n包含文件:\n- notebooks/llama.ipynb\n- notebooks/ntropy.ipynb\n- notebooks/openai.ipynb",
+        "gene_type": "principle"
+      },
+      {
+        "title": "notebooks 文件结构",
+        "content": "notebooks/llama.ipynb\nnotebooks/ntropy.ipynb\nnotebooks/openai.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  },
+  {
+    "name": "enrichment_models/tests 模块",
+    "description": "[模块级] enrichment_models 项目的 tests 模块 (test)。来源: https://github.com/ntropy-network/enrichment_models",
+    "domain": "testing",
+    "tags": [
+      "financial-data",
+      "gpt-4",
+      "llama",
+      "llm",
+      "machine-learning",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 5\n\n包含文件:\n- tests/integration\n- tests/integration/test_openai.py\n- tests/unittests\n- tests/unittests/test_prompts_labeler_llm.py\n- tests/unittests/test_prompts_normalizer_llm.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/integration\ntests/integration/test_openai.py\ntests/unittests\ntests/unittests/test_prompts_labeler_llm.py\ntests/unittests/test_prompts_normalizer_llm.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.107405575951155
+  }
+]

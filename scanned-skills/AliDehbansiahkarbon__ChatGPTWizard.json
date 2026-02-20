@@ -1,0 +1,168 @@
+[
+  {
+    "name": "ChatGPTWizard (AliDehbansiahkarbon)",
+    "description": "[项目级] A ChatGPT, WriteSonic, YouChat, and Ollama(offline) plug-in for Embarcadero RAD Studio IDE XE5 to 12.1. https://getitnow.embarcadero.com/chatgptwizard。来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "delphi",
+      "delphinuspackage",
+      "embarcadero",
+      "pascal",
+      "stars-268",
+      "github-alidehbansiahkarbon",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A ChatGPT, WriteSonic, YouChat, and Ollama(offline) plug-in for Embarcadero RAD Studio IDE XE5 to 12.1. https://getitnow.embarcadero.com/chatgptwizard\n\n来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard\n语言: Pascal\nStars: 268",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "</h2>",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nChatGptWizard.delphilsp.json\nChatGptWizard.dpk\nChatGptWizard.dproj\nDelphinus.Info.json\nDelphinus.Install.json\nForms\nForms/UAbout.dfm\nForms/UAbout.pas\nForms/UChatGPTProgress.dfm\nForms/UChatGPTProgress.pas\nForms/UChatGPTQFrame.dfm\nForms/UChatGPTQFrame.pas\nForms/UChatGPTQuestion.dfm\nForms/UChatGPTQuestion.pas\nForms/UChatGPTSetting.dfm\nForms/UChatGPTSetting.pas\nLICENSE\nLexer\nLexer/ParserDefines.inc",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Free text question form.\n- Dockable question form.\n- Inline questions(in the editor).\n- Context menu options to help you to find bugs, write tests, optimize code, add comments, etc...\n- Class view(Code conversion, code optimizing, test units, and other options per class).\n- Predefined Questions for class view.\n- History to save your tokens on OpenAI!\n- Fuzzy string match searches in the history.\n- Animated letters(Like the website).\n- AI Code Translator\n- Proxy server options. \n- Supports [OpenAI](https://openai.com) ChatGPT as the main AI service.\n- Supports [Writesonic](https://writesonic.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.214067397014395
+  },
+  {
+    "name": "ChatGPTWizard/Forms 模块",
+    "description": "[模块级] ChatGPTWizard 项目的 Forms 模块 (source)。来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "delphi",
+      "delphinuspackage",
+      "embarcadero",
+      "module-level",
+      "source",
+      "forms"
+    ],
+    "genes": [
+      {
+        "title": "Forms 模块说明",
+        "content": "模块路径: Forms/\n类型: source\n文件数: 10\n\n包含文件:\n- Forms/UAbout.dfm\n- Forms/UAbout.pas\n- Forms/UChatGPTProgress.dfm\n- Forms/UChatGPTProgress.pas\n- Forms/UChatGPTQFrame.dfm\n- Forms/UChatGPTQFrame.pas\n- Forms/UChatGPTQuestion.dfm\n- Forms/UChatGPTQuestion.pas\n- Forms/UChatGPTSetting.dfm\n- Forms/UChatGPTSetting.pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Forms 文件结构",
+        "content": "Forms/UAbout.dfm\nForms/UAbout.pas\nForms/UChatGPTProgress.dfm\nForms/UChatGPTProgress.pas\nForms/UChatGPTQFrame.dfm\nForms/UChatGPTQFrame.pas\nForms/UChatGPTQuestion.dfm\nForms/UChatGPTQuestion.pas\nForms/UChatGPTSetting.dfm\nForms/UChatGPTSetting.pas",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "ChatGPTWizard/Lexer 模块",
+    "description": "[模块级] ChatGPTWizard 项目的 Lexer 模块 (source)。来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "delphi",
+      "delphinuspackage",
+      "embarcadero",
+      "module-level",
+      "source",
+      "lexer"
+    ],
+    "genes": [
+      {
+        "title": "Lexer 模块说明",
+        "content": "模块路径: Lexer/\n类型: source\n文件数: 4\n\n包含文件:\n- Lexer/ParserDefines.inc\n- Lexer/UChatGPTLexer.pas\n- Lexer/UPascalLexer.pas\n- Lexer/UPascalLexerTypes.pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Lexer 文件结构",
+        "content": "Lexer/ParserDefines.inc\nLexer/UChatGPTLexer.pas\nLexer/UPascalLexer.pas\nLexer/UPascalLexerTypes.pas",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "ChatGPTWizard/Resources 模块",
+    "description": "[模块级] ChatGPTWizard 项目的 Resources 模块 (source)。来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "delphi",
+      "delphinuspackage",
+      "embarcadero",
+      "module-level",
+      "source",
+      "resources"
+    ],
+    "genes": [
+      {
+        "title": "Resources 模块说明",
+        "content": "模块路径: Resources/\n类型: source\n文件数: 12\n\n包含文件:\n- Resources/ChatGptDelphi154.png\n- Resources/CloseBtn.bmp\n- Resources/DB\n- Resources/DB/History.sdb\n- Resources/Empty Reg Key.reg\n- Resources/GPT24.png\n- Resources/ULanguages.pas\n- Resources/close.bmp\n- Resources/libeay32.dll\n- Resources/other-ai-services-tab.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Resources 文件结构",
+        "content": "Resources/ChatGptDelphi154.png\nResources/CloseBtn.bmp\nResources/DB\nResources/DB/History.sdb\nResources/Empty Reg Key.reg\nResources/GPT24.png\nResources/ULanguages.pas\nResources/close.bmp\nResources/libeay32.dll\nResources/other-ai-services-tab.jpg\nResources/ssleay32.dll\nResources/writesonic-result-tab.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  },
+  {
+    "name": "ChatGPTWizard/Utils 模块",
+    "description": "[模块级] ChatGPTWizard 项目的 Utils 模块 (source)。来源: https://github.com/AliDehbansiahkarbon/ChatGPTWizard",
+    "domain": "ai-llm",
+    "tags": [
+      "chatgpt",
+      "chatgpt-api",
+      "delphi",
+      "delphinuspackage",
+      "embarcadero",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "Utils 模块说明",
+        "content": "模块路径: Utils/\n类型: source\n文件数: 10\n\n包含文件:\n- Utils/UChatGPTMenuHook.pas\n- Utils/UChatGPTThread.pas\n- Utils/UConsts.pas\n- Utils/UEditorHelpers.pas\n- Utils/UHistory.pas\n- Utils/UWriteSonicThread.pas\n- Utils/UYouChatThread.pas\n- Utils/XSuperJSON.pas\n- Utils/XSuperObject.inc\n- Utils/XSuperObject.pas",
+        "gene_type": "principle"
+      },
+      {
+        "title": "Utils 文件结构",
+        "content": "Utils/UChatGPTMenuHook.pas\nUtils/UChatGPTThread.pas\nUtils/UConsts.pas\nUtils/UEditorHelpers.pas\nUtils/UHistory.pas\nUtils/UWriteSonicThread.pas\nUtils/UYouChatThread.pas\nUtils/XSuperJSON.pas\nUtils/XSuperObject.inc\nUtils/XSuperObject.pas",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.4712539176115156
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Ebook-Translator-Calibre-Plugin (bookfere)",
+    "description": "[项目级] A Calibre plugin to translate ebook into a specified language.。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "python",
+      "stars-2380",
+      "github-bookfere",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "A Calibre plugin to translate ebook into a specified language.\n\n来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin\n语言: Python\nStars: 2380",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nLICENSE\nREADME.md\nREADME.zh-CN.md\n__init__.py\nabout.py\nadvanced.py\nbatch.py\ncache.py\ncomponents\ncomponents/__init__.py\ncomponents/alert.py\ncomponents/chatgpt.py\ncomponents/editor.py\ncomponents/engine.py\ncomponents/footer.py\ncomponents/format.py\ncomponents/indicator.py\ncomponents/lang.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "* Support both \"Advanced Mode\" and \"Batch Mode\" for different usage situations.\n* Support languages supported by the selected translation engine (e.g. Google Translate supports 134 languages)\n* Support multiple translation engines, including Google Translate, ChatGPT, Gemini, DeepL, etc.\n* Support custom translation engines (you can configure to parse response in JSON or XML format)\n* Support all ebook formats supported by Calibre (48 input formats, 20 output formats), as well as additional formats such as .srt\n* Support to translate more than one ebooks. The translation process of each book i",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.688288478528256
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/components 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 components 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "components"
+    ],
+    "genes": [
+      {
+        "title": "components 模块说明",
+        "content": "模块路径: components/\n类型: source\n文件数: 12\n\n包含文件:\n- components/__init__.py\n- components/alert.py\n- components/chatgpt.py\n- components/editor.py\n- components/engine.py\n- components/footer.py\n- components/format.py\n- components/indicator.py\n- components/lang.py\n- components/mode.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "components 文件结构",
+        "content": "components/__init__.py\ncomponents/alert.py\ncomponents/chatgpt.py\ncomponents/editor.py\ncomponents/engine.py\ncomponents/footer.py\ncomponents/format.py\ncomponents/indicator.py\ncomponents/lang.py\ncomponents/mode.py\ncomponents/shortcut.py\ncomponents/table.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/engines 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 engines 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "engines"
+    ],
+    "genes": [
+      {
+        "title": "engines 模块说明",
+        "content": "模块路径: engines/\n类型: source\n文件数: 14\n\n包含文件:\n- engines/__init__.py\n- engines/anthropic.py\n- engines/baidu.py\n- engines/base.py\n- engines/custom.py\n- engines/deepl.py\n- engines/deepseek.py\n- engines/genai.py\n- engines/google.py\n- engines/languages.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "engines 文件结构",
+        "content": "engines/__init__.py\nengines/anthropic.py\nengines/baidu.py\nengines/base.py\nengines/custom.py\nengines/deepl.py\nengines/deepseek.py\nengines/genai.py\nengines/google.py\nengines/languages.py\nengines/microsoft.py\nengines/openai.py\nengines/prompt_extensions.py\nengines/youdao.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/images 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 images 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 4\n\n包含文件:\n- images/icon.png\n- images/logo.png\n- images/sample-en.png\n- images/sample-sc.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/icon.png\nimages/logo.png\nimages/sample-en.png\nimages/sample-sc.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/lib 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 lib 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "lib"
+    ],
+    "genes": [
+      {
+        "title": "lib 模块说明",
+        "content": "![Ebook Translator Calibre Plugin](images/logo.png)\n\nA Calibre plugin to translate ebook into a specified language.\n\n__Plugin Homepage__: [https://translator.bookfere.com](https://translator.bookfere.com)\n\n![Translation illustration](images/sample-en.png)\n\n---",
+        "gene_type": "principle"
+      },
+      {
+        "title": "lib 文件结构",
+        "content": "lib/__init__.py\nlib/cache.py\nlib/config.py\nlib/conversion.py\nlib/ebook.py\nlib/element.py\nlib/encodings.py\nlib/exception.py\nlib/handler.py\nlib/translation.py\nlib/utils.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/page 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 page 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "page"
+    ],
+    "genes": [
+      {
+        "title": "page 模块说明",
+        "content": "模块路径: page/\n类型: source\n文件数: 5\n\n包含文件:\n- page/CNAME\n- page/_config.yml\n- page/_layouts\n- page/_layouts/default.html\n- page/index.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "page 文件结构",
+        "content": "page/CNAME\npage/_config.yml\npage/_layouts\npage/_layouts/default.html\npage/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/tests 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 tests 模块 (test)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "testing",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 12\n\n包含文件:\n- tests/__init__.py\n- tests/lib\n- tests/lib/__init__.py\n- tests/lib/test_cache.py\n- tests/lib/test_config.py\n- tests/lib/test_conversion.py\n- tests/lib/test_element.py\n- tests/lib/test_encoding.py\n- tests/lib/test_engine.py\n- tests/lib/test_translation.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/__init__.py\ntests/lib\ntests/lib/__init__.py\ntests/lib/test_cache.py\ntests/lib/test_config.py\ntests/lib/test_conversion.py\ntests/lib/test_element.py\ntests/lib/test_encoding.py\ntests/lib/test_engine.py\ntests/lib/test_translation.py\ntests/lib/test_utils.py\ntests/test_batch.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/translations 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 translations 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "translations"
+    ],
+    "genes": [
+      {
+        "title": "translations 模块说明",
+        "content": "模块路径: translations/\n类型: source\n文件数: 15\n\n包含文件:\n- translations/es.mo\n- translations/es.po\n- translations/fr.mo\n- translations/fr.po\n- translations/ja.mo\n- translations/ja.po\n- translations/message.pot\n- translations/pt.mo\n- translations/pt.po\n- translations/tr.mo",
+        "gene_type": "principle"
+      },
+      {
+        "title": "translations 文件结构",
+        "content": "translations/es.mo\ntranslations/es.po\ntranslations/fr.mo\ntranslations/fr.po\ntranslations/ja.mo\ntranslations/ja.po\ntranslations/message.pot\ntranslations/pt.mo\ntranslations/pt.po\ntranslations/tr.mo\ntranslations/tr.po\ntranslations/zh_CN.mo\ntranslations/zh_CN.po\ntranslations/zh_TW.mo\ntranslations/zh_TW.po",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  },
+  {
+    "name": "Ebook-Translator-Calibre-Plugin/vendor 模块",
+    "description": "[模块级] Ebook-Translator-Calibre-Plugin 项目的 vendor 模块 (source)。来源: https://github.com/bookfere/Ebook-Translator-Calibre-Plugin",
+    "domain": "devops",
+    "tags": [
+      "bilingual",
+      "calibre",
+      "calibre-plugin",
+      "chatgpt",
+      "deepl",
+      "module-level",
+      "source",
+      "vendor"
+    ],
+    "genes": [
+      {
+        "title": "vendor 模块说明",
+        "content": "模块路径: vendor/\n类型: source\n文件数: 6\n\n包含文件:\n- vendor/__init__.py\n- vendor/cssselect\n- vendor/cssselect/__init__.py\n- vendor/cssselect/parser.py\n- vendor/cssselect/xpath.py\n- vendor/socks.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "vendor 文件结构",
+        "content": "vendor/__init__.py\nvendor/cssselect\nvendor/cssselect/__init__.py\nvendor/cssselect/parser.py\nvendor/cssselect/xpath.py\nvendor/socks.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8506307828226047
+  }
+]

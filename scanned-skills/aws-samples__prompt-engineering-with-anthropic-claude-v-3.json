@@ -1,0 +1,140 @@
+[
+  {
+    "name": "prompt-engineering-with-anthropic-claude-v-3 (aws-samples)",
+    "description": "[项目级] prompt-engineering-with-anthropic-claude-v-3。来源: https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-329",
+      "github-aws-samples",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude, using Bedrock.\n\n**After completing this course, you will be able to**:\n- Master the basic structure of a good prompt \n- Recognize common failure modes and learn the '80/20' techniques to address them\n- Understand Claude's strengths and weaknesses\n- Build strong prompts from scratch for common use cases\n- Use advanced techniques that leverage Claude's tool use / function calling capabilities\n- Use Claude's multimodal Vision capabilites",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "00_Tutorial_How-To.ipynb\n01_Basic_Prompt_Structure.ipynb\n02_Being_Clear_and_Direct.ipynb\n03_Assigning_Roles_Role_Prompting.ipynb\n04_Separating_Data_and_Instructions.ipynb\n05_Formatting_Output_and_Speaking_for_Claude.ipynb\n06_Precognition_Thinking_Step_by_Step.ipynb\n07_Using_Examples_Few-Shot_Prompting.ipynb\n08_Avoiding_Hallucinations.ipynb\n09_Complex_Prompts_from_Scratch.ipynb\n10_1_Appendix_Chaining_Prompts.ipynb\n10_2_1_Your_First_Simple_Tool.ipynb\n10_2_2_Tool_Use_for_Structured_Outputs.ipynb\n10_2_3_Complete_Tool_Use_Workflow.ipynb\n10_2_4_Tool_Choice.ipynb\n10_2_5_Chatbot_with_Multiple_Tools.ipynb\n10_3_Appendix_Empirical_Performance_Eval.ipynb\n10_4_1_Getting_Started_with_Vision.ipynb\n10_4_2_How_to_Transcribe_Text.ipynb\n10_4_3_Reading_Charts_Graphs_Powerpoints.ipynb",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.2585979489749874
+  },
+  {
+    "name": "prompt-engineering-with-anthropic-claude-v-3/images 模块",
+    "description": "[模块级] prompt-engineering-with-anthropic-claude-v-3 项目的 images 模块 (source)。来源: https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-329",
+      "github-aws-samples",
+      "module-level",
+      "source",
+      "images"
+    ],
+    "genes": [
+      {
+        "title": "images 模块说明",
+        "content": "模块路径: images/\n类型: source\n文件数: 91\n\n包含文件:\n- images/best_practices\n- images/best_practices/100.png\n- images/best_practices/140.png\n- images/best_practices/70.png\n- images/best_practices/chinos.png\n- images/best_practices/circle.png\n- images/best_practices/labeled_circle.png\n- images/best_practices/nine_dogs.jpg\n- images/best_practices/nine_dogs.png\n- images/best_practices/officer.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "images 文件结构",
+        "content": "images/best_practices\nimages/best_practices/100.png\nimages/best_practices/140.png\nimages/best_practices/70.png\nimages/best_practices/chinos.png\nimages/best_practices/circle.png\nimages/best_practices/labeled_circle.png\nimages/best_practices/nine_dogs.jpg\nimages/best_practices/nine_dogs.png\nimages/best_practices/officer.png\nimages/best_practices/officer_example.png\nimages/best_practices/receipt1.png\nimages/best_practices/receipt2.png\nimages/best_practices/table.png\nimages/best_practices/wrinkle.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.50687835917999
+  },
+  {
+    "name": "prompt-engineering-with-anthropic-claude-v-3/output 模块",
+    "description": "[模块级] prompt-engineering-with-anthropic-claude-v-3 项目的 output 模块 (source)。来源: https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-329",
+      "github-aws-samples",
+      "module-level",
+      "source",
+      "output"
+    ],
+    "genes": [
+      {
+        "title": "output 模块说明",
+        "content": "模块路径: output/\n类型: source\n文件数: 3\n\n包含文件:\n- output/.ipynb_checkpoints\n- output/.ipynb_checkpoints/research_reading-checkpoint.md\n- output/research_reading.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "output 文件结构",
+        "content": "output/.ipynb_checkpoints\noutput/.ipynb_checkpoints/research_reading-checkpoint.md\noutput/research_reading.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.50687835917999
+  },
+  {
+    "name": "prompt-engineering-with-anthropic-claude-v-3/toolUse_order_bot 模块",
+    "description": "[模块级] prompt-engineering-with-anthropic-claude-v-3 项目的 toolUse_order_bot 模块 (source)。来源: https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-329",
+      "github-aws-samples",
+      "module-level",
+      "source",
+      "tooluse_order_bot"
+    ],
+    "genes": [
+      {
+        "title": "toolUse_order_bot 模块说明",
+        "content": "模块路径: toolUse_order_bot/\n类型: source\n文件数: 2\n\n包含文件:\n- toolUse_order_bot/final_order_bot_converse_api.py\n- toolUse_order_bot/order_bot_converse_api.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "toolUse_order_bot 文件结构",
+        "content": "toolUse_order_bot/final_order_bot_converse_api.py\ntoolUse_order_bot/order_bot_converse_api.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.50687835917999
+  },
+  {
+    "name": "prompt-engineering-with-anthropic-claude-v-3/utils 模块",
+    "description": "[模块级] prompt-engineering-with-anthropic-claude-v-3 项目的 utils 模块 (source)。来源: https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "domain": "ai-llm",
+    "tags": [
+      "jupyter notebook",
+      "stars-329",
+      "github-aws-samples",
+      "module-level",
+      "source",
+      "utils"
+    ],
+    "genes": [
+      {
+        "title": "utils 模块说明",
+        "content": "模块路径: utils/\n类型: source\n文件数: 2\n\n包含文件:\n- utils/__init__.py\n- utils/hints.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "utils 文件结构",
+        "content": "utils/__init__.py\nutils/hints.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.50687835917999
+  }
+]

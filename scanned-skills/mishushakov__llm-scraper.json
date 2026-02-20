@@ -1,0 +1,138 @@
+[
+  {
+    "name": "llm-scraper (mishushakov)",
+    "description": "[项目级] Turn any webpage into structured data using LLMs。来源: https://github.com/mishushakov/llm-scraper",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "browser",
+      "browser-automation",
+      "gpt",
+      "typescript",
+      "stars-6190",
+      "github-mishushakov",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Turn any webpage into structured data using LLMs\n\n来源: https://github.com/mishushakov/llm-scraper\n语言: TypeScript\nStars: 6190",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "npm i zod playwright llm-scraper",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\nexamples\nexamples/codegen.ts\nexamples/hn.ts\nexamples/ollama.ts\nexamples/streaming.ts\nexamples/toolUse.ts\npackage-lock.json\npackage.json\nsrc\nsrc/cleanup.ts\nsrc/index.ts\nsrc/models.ts\nsrc/preprocess.ts\ntests\ntests/index.ts\ntests/scraper.test.ts\ntsconfig.json\nvitest.config.ts",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "import { chromium } from 'playwright'\nimport { z } from 'zod'\nimport { Output } from 'ai'\nimport { openai } from '@ai-sdk/openai'\nimport LLMScraper from 'llm-scraper'\n\n// Launch a browser instance\nconst browser = await chromium.launch()\n\n// Initialize LLM provider\nconst llm = openai('gpt-4o')\n\n// Create a new LLMScraper\nconst scraper = new LLMScraper(llm)\n\n// Open new page\nconst page = await browser.newPage()\nawait page.goto('https://news.ycombinator.com')\n\n// Define schema to extract contents into\nconst schema = z.object({\n  top: z\n    .array(\n      z.object({\n        title: z.string(),\n     ",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- Supports GPT, Sonnet, Gemini, Llama, Qwen model series\n- Schemas defined with Zod or JSON Schema\n- Full type-safety with TypeScript\n- Based on Playwright framework\n- Streaming objects\n- [Code-generation](#code-generation)\n- Supports 6 formatting modes:\n  - `html` for loading pre-processed HTML\n  - `raw_html` for loading raw HTML (no processing)\n  - `markdown` for loading markdown\n  - `text` for loading extracted text (using [Readability.js](https://github.com/mozilla/readability))\n  - `image` for loading a screenshot (multi-modal only)\n  - `custom` for loading custom content (using a custom ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.895845324510059
+  },
+  {
+    "name": "llm-scraper/examples 模块",
+    "description": "[模块级] llm-scraper 项目的 examples 模块 (example)。来源: https://github.com/mishushakov/llm-scraper",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "browser",
+      "browser-automation",
+      "gpt",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 5\n\n包含文件:\n- examples/codegen.ts\n- examples/hn.ts\n- examples/ollama.ts\n- examples/streaming.ts\n- examples/toolUse.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/codegen.ts\nexamples/hn.ts\nexamples/ollama.ts\nexamples/streaming.ts\nexamples/toolUse.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.016676259608047
+  },
+  {
+    "name": "llm-scraper/src 模块",
+    "description": "[模块级] llm-scraper 项目的 src 模块 (source)。来源: https://github.com/mishushakov/llm-scraper",
+    "domain": "devops",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "browser",
+      "browser-automation",
+      "gpt",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 4\n\n包含文件:\n- src/cleanup.ts\n- src/index.ts\n- src/models.ts\n- src/preprocess.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/cleanup.ts\nsrc/index.ts\nsrc/models.ts\nsrc/preprocess.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.016676259608047
+  },
+  {
+    "name": "llm-scraper/tests 模块",
+    "description": "[模块级] llm-scraper 项目的 tests 模块 (test)。来源: https://github.com/mishushakov/llm-scraper",
+    "domain": "testing",
+    "tags": [
+      "ai",
+      "artificial-intelligence",
+      "browser",
+      "browser-automation",
+      "gpt",
+      "module-level",
+      "test",
+      "tests"
+    ],
+    "genes": [
+      {
+        "title": "tests 模块说明",
+        "content": "模块路径: tests/\n类型: test\n文件数: 2\n\n包含文件:\n- tests/index.ts\n- tests/scraper.test.ts",
+        "gene_type": "principle"
+      },
+      {
+        "title": "tests 文件结构",
+        "content": "tests/index.ts\ntests/scraper.test.ts",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.016676259608047
+  }
+]

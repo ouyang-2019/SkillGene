@@ -1,0 +1,188 @@
+[
+  {
+    "name": "awesome-chatgpt-zh (EmbraceAGI)",
+    "description": "[项目级] ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "python",
+      "stars-11488",
+      "github-embraceagi",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀\n\n来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh\n语言: Python\nStars: 11488",
+        "gene_type": "principle"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nREADME.md\ndocs\ndocs/AGI.md\ndocs/AI_money.md\ndocs/AI_tools.md\ndocs/ChatGPT_Top_Project.md\ndocs/ChatGPT_access.md\ndocs/ChatGPT_dev.md\ndocs/ChatGPT_plugins.md\ndocs/ChatGPT_prompts.md\ndocs/ChatGPT_tools.md\ndocs/LLM_RAG.md\ndocs/LLMs.md\ndocs/Sora.md\ndocs/imgs\ndocs/thinking.md\nexamples\nexamples/ChatGPT_xiangzi.md\nexamples/ImageClassificationCifar10Tutorials_ChatGPT.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "awesome-chatgpt-zh/docs 模块",
+    "description": "[模块级] awesome-chatgpt-zh 项目的 docs 模块 (docs)。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "documentation",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 85\n\n包含文件:\n- docs/AGI.md\n- docs/AI_money.md\n- docs/AI_tools.md\n- docs/ChatGPT_Top_Project.md\n- docs/ChatGPT_access.md\n- docs/ChatGPT_dev.md\n- docs/ChatGPT_plugins.md\n- docs/ChatGPT_prompts.md\n- docs/ChatGPT_tools.md\n- docs/LLM_RAG.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/AGI.md\ndocs/AI_money.md\ndocs/AI_tools.md\ndocs/ChatGPT_Top_Project.md\ndocs/ChatGPT_access.md\ndocs/ChatGPT_dev.md\ndocs/ChatGPT_plugins.md\ndocs/ChatGPT_prompts.md\ndocs/ChatGPT_tools.md\ndocs/LLM_RAG.md\ndocs/LLMs.md\ndocs/Sora.md\ndocs/imgs\ndocs/imgs/DAN_chatGPT.jpg\ndocs/imgs/GPT_wolfram.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.12409777075929
+  },
+  {
+    "name": "awesome-chatgpt-zh/examples 模块",
+    "description": "[模块级] awesome-chatgpt-zh 项目的 examples 模块 (example)。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 6\n\n包含文件:\n- examples/ChatGPT_xiangzi.md\n- examples/ImageClassificationCifar10Tutorials_ChatGPT.md\n- examples/YOLOV4.md\n- examples/chatGPT_set_free.md\n- examples/free_chatgpt_website.md\n- examples/help_make_Markdown_table.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/ChatGPT_xiangzi.md\nexamples/ImageClassificationCifar10Tutorials_ChatGPT.md\nexamples/YOLOV4.md\nexamples/chatGPT_set_free.md\nexamples/free_chatgpt_website.md\nexamples/help_make_Markdown_table.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.12409777075929
+  },
+  {
+    "name": "awesome-chatgpt-zh/files 模块",
+    "description": "[模块级] awesome-chatgpt-zh 项目的 files 模块 (source)。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "module-level",
+      "source",
+      "files"
+    ],
+    "genes": [
+      {
+        "title": "files 模块说明",
+        "content": "模块路径: files/\n类型: source\n文件数: 7\n\n包含文件:\n- files/2024AIGC视频生成：走向AI创生时代：视频生成的技术演进、范式重塑与商业化路径探索-甲子光年-2024.3-49页.pdf\n- files/midjourney辞典.pdf\n- files/simpread-真 · 万字长文：可能是全网最晚的 ChatGPT 技术总结 - TechBeattech.md\n- files/《GPT_4，通用人工智能的火花》154页微软GPT研究报告（全中文版）.pdf\n- files/《GPT_4，通用人工智能的火花》论文内容精选与翻译_.pdf\n- files/华中科技大学-交互机器人项目.pdf\n- files/真·万字长文：可能是全网最晚的ChatGPT技术总结- TechBeat.pdf",
+        "gene_type": "principle"
+      },
+      {
+        "title": "files 文件结构",
+        "content": "files/2024AIGC视频生成：走向AI创生时代：视频生成的技术演进、范式重塑与商业化路径探索-甲子光年-2024.3-49页.pdf\nfiles/midjourney辞典.pdf\nfiles/simpread-真 · 万字长文：可能是全网最晚的 ChatGPT 技术总结 - TechBeattech.md\nfiles/《GPT_4，通用人工智能的火花》154页微软GPT研究报告（全中文版）.pdf\nfiles/《GPT_4，通用人工智能的火花》论文内容精选与翻译_.pdf\nfiles/华中科技大学-交互机器人项目.pdf\nfiles/真·万字长文：可能是全网最晚的ChatGPT技术总结- TechBeat.pdf",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.12409777075929
+  },
+  {
+    "name": "awesome-chatgpt-zh/imgs 模块",
+    "description": "[模块级] awesome-chatgpt-zh 项目的 imgs 模块 (source)。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "module-level",
+      "source",
+      "imgs"
+    ],
+    "genes": [
+      {
+        "title": "imgs 模块说明",
+        "content": "模块路径: imgs/\n类型: source\n文件数: 66\n\n包含文件:\n- imgs/DAN_chatGPT.jpg\n- imgs/GPT_wolfram.jpg\n- imgs/Lite-LLaMA.gif\n- imgs/MOSS.jpg\n- imgs/ai_code_translator.png\n- imgs/ai_functions.jpg\n- imgs/ai_yjs.jpg\n- imgs/aigenprompt.jpg\n- imgs/ali_llm.jpg\n- imgs/babyagi.jpg",
+        "gene_type": "principle"
+      },
+      {
+        "title": "imgs 文件结构",
+        "content": "imgs/DAN_chatGPT.jpg\nimgs/GPT_wolfram.jpg\nimgs/Lite-LLaMA.gif\nimgs/MOSS.jpg\nimgs/ai_code_translator.png\nimgs/ai_functions.jpg\nimgs/ai_yjs.jpg\nimgs/aigenprompt.jpg\nimgs/ali_llm.jpg\nimgs/babyagi.jpg\nimgs/bard.jpg\nimgs/chartgpt.png\nimgs/chatGPT_feishu.png\nimgs/chatGPT_promote_gen.jpg\nimgs/chatGPT_shortcut.jpg",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.12409777075929
+  },
+  {
+    "name": "awesome-chatgpt-zh/src 模块",
+    "description": "[模块级] awesome-chatgpt-zh 项目的 src 模块 (source)。来源: https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+    "domain": "ai-llm",
+    "tags": [
+      "agi",
+      "ai",
+      "awesome",
+      "awesome-list",
+      "chat-gpt",
+      "module-level",
+      "source",
+      "src"
+    ],
+    "genes": [
+      {
+        "title": "src 模块说明",
+        "content": "模块路径: src/\n类型: source\n文件数: 2\n\n包含文件:\n- src/get_daily_trending.py\n- src/trending.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "src 文件结构",
+        "content": "src/get_daily_trending.py\nsrc/trending.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.12409777075929
+  }
+]

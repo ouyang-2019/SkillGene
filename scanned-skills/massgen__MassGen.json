@@ -1,0 +1,108 @@
+[
+  {
+    "name": "MassGen (massgen)",
+    "description": "[项目级] 🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai。来源: https://github.com/massgen/MassGen",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "autonomous-agents",
+      "cli",
+      "collaborative-ai",
+      "python",
+      "stars-781",
+      "github-massgen",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "🚀 MassGen is an open-source multi-agent scaling system that runs in your terminal, autonomously orchestrating frontier models and agents to collaborate, reason, and produce high-quality results. | Join us on Discord: discord.massgen.ai\n\n来源: https://github.com/massgen/MassGen\n语言: Python\nStars: 781",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "pip install --upgrade massgen",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nAI_USAGE.md\nCHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nLICENSE\nMANIFEST.in\nMakefile\nREADME.md\nREADME_PYPI.md\nRELEASE_AUTOMATION_SUMMARY.md\nROADMAP.md\nROADMAP_v0.1.54.md\nassets\nassets/MassGen-v1.gif\nassets/cos.png\nassets/favicon.png\nassets/logo-dark.png\nassets/logo.png\nassets/massgen-demo-light.gif",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "→ See [Installation Guide](https://docs.massgen.ai/en/latest/quickstart/installation.html) for complete setup instructions.\n\n**Method 2: Development Installation** (for contributors):\n\n**Clone the repository**",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "| Feature | Description |\n|---------|-------------|\n| **🤝 Cross-Model/Agent Synergy** | Harness strengths from diverse frontier model-powered agents |\n| **⚡ Parallel Processing** | Multiple agents tackle problems simultaneously |\n| **👥 Intelligence Sharing** | Agents share and learn from each other's work |\n| **🔄 Consensus Building** | Natural convergence through collaborative refinement |\n| **🖥️ Live Visualization** | Interactive Textual TUI with timeline, agent cards, and vote tracking (default). Also available: Web UI, Rich display. |\n\n---",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.44632551693865
+  },
+  {
+    "name": "MassGen/assets 模块",
+    "description": "[模块级] MassGen 项目的 assets 模块 (source)。来源: https://github.com/massgen/MassGen",
+    "domain": "ai-llm",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "autonomous-agents",
+      "cli",
+      "collaborative-ai",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 12\n\n包含文件:\n- assets/MassGen-v1.gif\n- assets/cos.png\n- assets/favicon.png\n- assets/logo-dark.png\n- assets/logo.png\n- assets/massgen-demo-light.gif\n- assets/massgen-demo.gif\n- assets/release_related_figures\n- assets/release_related_figures/context_path.png\n- assets/release_related_figures/copy_file.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/MassGen-v1.gif\nassets/cos.png\nassets/favicon.png\nassets/logo-dark.png\nassets/logo.png\nassets/massgen-demo-light.gif\nassets/massgen-demo.gif\nassets/release_related_figures\nassets/release_related_figures/context_path.png\nassets/release_related_figures/copy_file.png\nassets/thumbnail_old.png\nassets/workflow_answer_voting.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.65706041355092
+  },
+  {
+    "name": "MassGen/docs 模块",
+    "description": "[模块级] MassGen 项目的 docs 模块 (docs)。来源: https://github.com/massgen/MassGen",
+    "domain": "documentation",
+    "tags": [
+      "agent",
+      "agentic-ai",
+      "autonomous-agents",
+      "cli",
+      "collaborative-ai",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 144\n\n包含文件:\n- docs/.backend_model_listing.md.swp\n- docs/.readthedocs.yaml\n- docs/CASE_STUDIES_SUMMARY.md\n- docs/Makefile\n- docs/README.md\n- docs/announcements\n- docs/announcements/README.md\n- docs/announcements/archive\n- docs/announcements/archive/.gitkeep\n- docs/announcements/archive/v0.1.33.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.backend_model_listing.md.swp\ndocs/.readthedocs.yaml\ndocs/CASE_STUDIES_SUMMARY.md\ndocs/Makefile\ndocs/README.md\ndocs/announcements\ndocs/announcements/README.md\ndocs/announcements/archive\ndocs/announcements/archive/.gitkeep\ndocs/announcements/archive/v0.1.33.md\ndocs/announcements/archive/v0.1.34.md\ndocs/announcements/archive/v0.1.35.md\ndocs/announcements/archive/v0.1.36.md\ndocs/announcements/archive/v0.1.37.md\ndocs/announcements/archive/v0.1.38.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.65706041355092
+  }
+]

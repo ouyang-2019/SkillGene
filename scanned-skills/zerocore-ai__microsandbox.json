@@ -1,0 +1,223 @@
+[
+  {
+    "name": "microsandbox (zerocore-ai)",
+    "description": "[项目级] opensource self-hosted sandboxes for ai agents。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "rust",
+      "stars-4809",
+      "github-zerocore-ai",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "opensource self-hosted sandboxes for ai agents\n\n来源: https://github.com/zerocore-ai/microsandbox\n语言: Rust\nStars: 4809",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCLOUD_HOSTING.md\nCODE_OF_CONDUCT.md\nCONTRIBUTING.md\nCargo.lock\nCargo.toml\nDEVELOPMENT.md\nLICENSE\nMCP.md\nMSB_V_DOCKER.md\nMakefile\nPROJECTS.md\nREADME.md\nSECURITY.md\nSELF_HOSTING.md\nUSE_CASE.md\nassets\nassets/microsandbox-banner-xl-dark.png\nassets/microsandbox-banner-xl.png\ndeny.toml",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- <img height=\"15\" src=\"https://octicons-col.vercel.app/shield-lock/A770EF\"> **Strong Isolation**: Hardware-level VM isolation with [microVMs](./MSB_V_DOCKER.md).\n- <img height=\"15\" src=\"https://octicons-col.vercel.app/zap/A770EF\"> **Instant Startup**: Boot times under 200 ms.\n- <img height=\"15\" src=\"https://octicons-col.vercel.app/package/A770EF\"> **OCI Compatible**: Runs standard container images.\n- <img height=\"15\" src=\"https://octicons-col.vercel.app/home/A770EF\"> **Self-Hosted**: Deploy within your infrastructure with autonomy.\n- <img height=\"15\" src=\"https://octicons-col.vercel.app/depen",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.8410273885369035
+  },
+  {
+    "name": "microsandbox/assets 模块",
+    "description": "[模块级] microsandbox 项目的 assets 模块 (source)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "source",
+      "assets"
+    ],
+    "genes": [
+      {
+        "title": "assets 模块说明",
+        "content": "模块路径: assets/\n类型: source\n文件数: 2\n\n包含文件:\n- assets/microsandbox-banner-xl-dark.png\n- assets/microsandbox-banner-xl.png",
+        "gene_type": "principle"
+      },
+      {
+        "title": "assets 文件结构",
+        "content": "assets/microsandbox-banner-xl-dark.png\nassets/microsandbox-banner-xl.png",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  },
+  {
+    "name": "microsandbox/docs 模块",
+    "description": "[模块级] microsandbox 项目的 docs 模块 (docs)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "documentation",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 25\n\n包含文件:\n- docs/.gitignore\n- docs/favicon.ico\n- docs/guides\n- docs/guides/api-keys.md\n- docs/guides/architecture.md\n- docs/guides/getting-started.md\n- docs/guides/index.md\n- docs/guides/mcp.md\n- docs/guides/projects.md\n- docs/guides/sandboxes.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/favicon.ico\ndocs/guides\ndocs/guides/api-keys.md\ndocs/guides/architecture.md\ndocs/guides/getting-started.md\ndocs/guides/index.md\ndocs/guides/mcp.md\ndocs/guides/projects.md\ndocs/guides/sandboxes.md\ndocs/index.md\ndocs/references\ndocs/references/api.md\ndocs/references/cli.md\ndocs/references/index.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  },
+  {
+    "name": "microsandbox/microsandbox-cli 模块",
+    "description": "[模块级] microsandbox 项目的 microsandbox-cli 模块 (source)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "source",
+      "microsandbox-cli"
+    ],
+    "genes": [
+      {
+        "title": "microsandbox-cli 模块说明",
+        "content": "模块路径: microsandbox-cli/\n类型: source\n文件数: 17\n\n包含文件:\n- microsandbox-cli/Cargo.toml\n- microsandbox-cli/bin\n- microsandbox-cli/bin/msb\n- microsandbox-cli/bin/msb/handlers.rs\n- microsandbox-cli/bin/msb/main.rs\n- microsandbox-cli/bin/msb/mod.rs\n- microsandbox-cli/bin/msbrun.rs\n- microsandbox-cli/bin/msbserver.rs\n- microsandbox-cli/lib\n- microsandbox-cli/lib/args",
+        "gene_type": "principle"
+      },
+      {
+        "title": "microsandbox-cli 文件结构",
+        "content": "microsandbox-cli/Cargo.toml\nmicrosandbox-cli/bin\nmicrosandbox-cli/bin/msb\nmicrosandbox-cli/bin/msb/handlers.rs\nmicrosandbox-cli/bin/msb/main.rs\nmicrosandbox-cli/bin/msb/mod.rs\nmicrosandbox-cli/bin/msbrun.rs\nmicrosandbox-cli/bin/msbserver.rs\nmicrosandbox-cli/lib\nmicrosandbox-cli/lib/args\nmicrosandbox-cli/lib/args/mod.rs\nmicrosandbox-cli/lib/args/msb.rs\nmicrosandbox-cli/lib/args/msbrun.rs\nmicrosandbox-cli/lib/args/msbserver.rs\nmicrosandbox-cli/lib/error.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  },
+  {
+    "name": "microsandbox/microsandbox-core 模块",
+    "description": "[模块级] microsandbox 项目的 microsandbox-core 模块 (source)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "source",
+      "microsandbox-core"
+    ],
+    "genes": [
+      {
+        "title": "microsandbox-core 模块说明",
+        "content": "模块路径: microsandbox-core/\n类型: source\n文件数: 81\n\n包含文件:\n- microsandbox-core/CHANGELOG.md\n- microsandbox-core/Cargo.toml\n- microsandbox-core/README.md\n- microsandbox-core/build.rs\n- microsandbox-core/lib\n- microsandbox-core/lib/config\n- microsandbox-core/lib/config/env_pair.rs\n- microsandbox-core/lib/config/microsandbox\n- microsandbox-core/lib/config/microsandbox/builder.rs\n- microsandbox-core/lib/config/microsandbox/config.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "microsandbox-core 文件结构",
+        "content": "microsandbox-core/CHANGELOG.md\nmicrosandbox-core/Cargo.toml\nmicrosandbox-core/README.md\nmicrosandbox-core/build.rs\nmicrosandbox-core/lib\nmicrosandbox-core/lib/config\nmicrosandbox-core/lib/config/env_pair.rs\nmicrosandbox-core/lib/config/microsandbox\nmicrosandbox-core/lib/config/microsandbox/builder.rs\nmicrosandbox-core/lib/config/microsandbox/config.rs\nmicrosandbox-core/lib/config/microsandbox/mod.rs\nmicrosandbox-core/lib/config/mod.rs\nmicrosandbox-core/lib/config/path_pair.rs\nmicrosandbox-core/lib/config/path_segment.rs\nmicrosandbox-core/lib/config/port_pair.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  },
+  {
+    "name": "microsandbox/microsandbox-portal 模块",
+    "description": "[模块级] microsandbox 项目的 microsandbox-portal 模块 (source)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "source",
+      "microsandbox-portal"
+    ],
+    "genes": [
+      {
+        "title": "microsandbox-portal 模块说明",
+        "content": "模块路径: microsandbox-portal/\n类型: source\n文件数: 25\n\n包含文件:\n- microsandbox-portal/Cargo.toml\n- microsandbox-portal/bin\n- microsandbox-portal/bin/portal.rs\n- microsandbox-portal/examples\n- microsandbox-portal/examples/repl.rs\n- microsandbox-portal/examples/repl_timer.rs\n- microsandbox-portal/examples/rpc_command.rs\n- microsandbox-portal/examples/rpc_repl.rs\n- microsandbox-portal/lib\n- microsandbox-portal/lib/error.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "microsandbox-portal 文件结构",
+        "content": "microsandbox-portal/Cargo.toml\nmicrosandbox-portal/bin\nmicrosandbox-portal/bin/portal.rs\nmicrosandbox-portal/examples\nmicrosandbox-portal/examples/repl.rs\nmicrosandbox-portal/examples/repl_timer.rs\nmicrosandbox-portal/examples/rpc_command.rs\nmicrosandbox-portal/examples/rpc_repl.rs\nmicrosandbox-portal/lib\nmicrosandbox-portal/lib/error.rs\nmicrosandbox-portal/lib/handler.rs\nmicrosandbox-portal/lib/lib.rs\nmicrosandbox-portal/lib/payload.rs\nmicrosandbox-portal/lib/portal\nmicrosandbox-portal/lib/portal/command.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  },
+  {
+    "name": "microsandbox/microsandbox-server 模块",
+    "description": "[模块级] microsandbox 项目的 microsandbox-server 模块 (source)。来源: https://github.com/zerocore-ai/microsandbox",
+    "domain": "devops",
+    "tags": [
+      "agents",
+      "ai",
+      "ai-generated",
+      "container",
+      "docker",
+      "module-level",
+      "source",
+      "microsandbox-server"
+    ],
+    "genes": [
+      {
+        "title": "microsandbox-server 模块说明",
+        "content": "模块路径: microsandbox-server/\n类型: source\n文件数: 8\n\n包含文件:\n- microsandbox-server/Cargo.toml\n- microsandbox-server/lib\n- microsandbox-server/lib/config.rs\n- microsandbox-server/lib/error.rs\n- microsandbox-server/lib/handler.rs\n- microsandbox-server/lib/lib.rs\n- microsandbox-server/lib/management.rs\n- microsandbox-server/lib/mcp.rs",
+        "gene_type": "principle"
+      },
+      {
+        "title": "microsandbox-server 文件结构",
+        "content": "microsandbox-server/Cargo.toml\nmicrosandbox-server/lib\nmicrosandbox-server/lib/config.rs\nmicrosandbox-server/lib/error.rs\nmicrosandbox-server/lib/handler.rs\nmicrosandbox-server/lib/lib.rs\nmicrosandbox-server/lib/management.rs\nmicrosandbox-server/lib/mcp.rs",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.972821910829523
+  }
+]

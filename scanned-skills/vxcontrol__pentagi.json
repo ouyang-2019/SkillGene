@@ -1,0 +1,83 @@
+[
+  {
+    "name": "pentagi (vxcontrol)",
+    "description": "[项目级] ✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks。来源: https://github.com/vxcontrol/pentagi",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-agents",
+      "ai-security-tool",
+      "anthropic",
+      "autonomous-agents",
+      "golang",
+      "go",
+      "stars-2975",
+      "github-vxcontrol",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "PentAGI is an innovative tool for automated security testing that leverages cutting-edge artificial intelligence technologies. The project is designed for information security professionals, researchers, and enthusiasts who need a powerful and flexible solution for conducting penetration tests.\n\nYou can watch the video **PentAGI overview**:\n[![PentAGI Overview Video](https://github.com/user-attachments/assets/0828dc3e-15f1-4a1d-858e-9696a146e478)](https://youtu.be/R70x5Ddzs1o)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "Dockerfile\nEULA.md\nLICENSE\nNOTICE\nREADME.md\nbackend\nbackend/cmd\nbackend/docs",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🛡️ Secure & Isolated. All operations are performed in a sandboxed Docker environment with complete isolation.\n- 🤖 Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps.\n- 🔬 Professional Pentesting Tools. Built-in suite of 20+ professional security tools including nmap, metasploit, sqlmap, and more.\n- 🧠 Smart Memory System. Long-term storage of research results and successful approaches for future use.\n- 📚 Knowledge Graph Integration. Graphiti-powered knowledge graph using Neo4j for semantic relationship tracking and advanced context unde",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.736743485032284
+  },
+  {
+    "name": "pentagi/backend 模块",
+    "description": "[模块级] pentagi 项目的 backend 模块 (source)。来源: https://github.com/vxcontrol/pentagi",
+    "domain": "web-frontend",
+    "tags": [
+      "ai-agents",
+      "ai-security-tool",
+      "anthropic",
+      "autonomous-agents",
+      "golang",
+      "module-level",
+      "source",
+      "backend"
+    ],
+    "genes": [
+      {
+        "title": "backend 模块说明",
+        "content": "Run once `cd backend && go mod download` to install needed packages.\n\nFor generating swagger files have to run\n\n```bash\nswag init -g ../../pkg/server/router.go -o pkg/server/docs/ --parseDependency --parseInternal --parseDepth 2 -d cmd/pentagi\n```\n\nbefore installing `swag` package via\n\n```bash\ngo install github.com/swaggo/swag/cmd/swag@v1.8.7\n```\n\nFor generating graphql resolver files have to run\n\n```bash\ngo run github.com/99designs/gqlgen --config ./gqlgen/gqlgen.yml\n```\n\nafter that you can see",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backend 文件结构",
+        "content": "backend/cmd\nbackend/cmd/ctester\nbackend/cmd/ctester/main.go\nbackend/cmd/ctester/models.go\nbackend/cmd/ctester/report.go\nbackend/cmd/ctester/utils.go\nbackend/cmd/etester\nbackend/cmd/etester/flush.go\nbackend/cmd/etester/info.go\nbackend/cmd/etester/main.go\nbackend/cmd/etester/reindex.go\nbackend/cmd/etester/search.go\nbackend/cmd/etester/test.go\nbackend/cmd/etester/tester.go\nbackend/cmd/ftester",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "backend 代码示例",
+        "content": "swag init -g ../../pkg/server/router.go -o pkg/server/docs/ --parseDependency --parseInternal --parseDepth 2 -d cmd/pentagi",
+        "gene_type": "snippet"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.8893947880258275
+  }
+]

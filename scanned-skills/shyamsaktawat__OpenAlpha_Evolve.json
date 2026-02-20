@@ -1,0 +1,313 @@
+[
+  {
+    "name": "OpenAlpha_Evolve (shyamsaktawat)",
+    "description": "[项目级] OpenAlpha_Evolve is an open-source Python framework inspired by the groundbreaking research on autonomous coding agents like DeepMind's AlphaEvolve.。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "python",
+      "stars-970",
+      "github-shyamsaktawat",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "OpenAlpha_Evolve is an open-source Python framework inspired by the groundbreaking research on autonomous coding agents like DeepMind's AlphaEvolve.\n\n来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve\n语言: Python\nStars: 970",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "git clone https://github.com/shyamsaktawat/OpenAlpha_Evolve.git\n    cd OpenAlpha_Evolve",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE.md\nREADME.md\napp.py\ncode_generator\ncode_generator/__init__.py\ncode_generator/agent.py\nconfig\nconfig/__init__.py\nconfig/settings.py\ncore\ncore/__init__.py\ncore/interfaces.py\ndatabase_agent\ndatabase_agent/__init__.py\ndatabase_agent/agent.py\nevaluator_agent\nevaluator_agent/Dockerfile\nevaluator_agent/__init__.py\nevaluator_agent/agent.py\nexamples",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "*   **LLM-Powered Code Generation**: Leverages state-of-the-art Large Language Models via LiteLLM, supporting multiple providers (OpenAI, Anthropic, Google, etc.).\n*   **Evolutionary Algorithm Core**: Implements iterative improvement through selection, LLM-driven mutation/bug-fixing using diffs, and survival.\n*   **Modular Agent Architecture**: Easily extend or replace individual components (e.g., use a different LLM, database, or evaluation strategy).\n*   **Automated Program Evaluation**: Syntax checking and functional testing against user-provided examples. Code execution is sandboxed using ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.493385867133123
+  },
+  {
+    "name": "OpenAlpha_Evolve/code_generator 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 code_generator 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "code_generator"
+    ],
+    "genes": [
+      {
+        "title": "code_generator 模块说明",
+        "content": "模块路径: code_generator/\n类型: source\n文件数: 2\n\n包含文件:\n- code_generator/__init__.py\n- code_generator/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "code_generator 文件结构",
+        "content": "code_generator/__init__.py\ncode_generator/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/config 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 config 模块 (config)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "config",
+      "config"
+    ],
+    "genes": [
+      {
+        "title": "config 模块说明",
+        "content": "模块路径: config/\n类型: config\n文件数: 2\n\n包含文件:\n- config/__init__.py\n- config/settings.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "config 文件结构",
+        "content": "config/__init__.py\nconfig/settings.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/core 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 core 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "core"
+    ],
+    "genes": [
+      {
+        "title": "core 模块说明",
+        "content": "模块路径: core/\n类型: source\n文件数: 2\n\n包含文件:\n- core/__init__.py\n- core/interfaces.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "core 文件结构",
+        "content": "core/__init__.py\ncore/interfaces.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/database_agent 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 database_agent 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "database_agent"
+    ],
+    "genes": [
+      {
+        "title": "database_agent 模块说明",
+        "content": "模块路径: database_agent/\n类型: source\n文件数: 2\n\n包含文件:\n- database_agent/__init__.py\n- database_agent/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "database_agent 文件结构",
+        "content": "database_agent/__init__.py\ndatabase_agent/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/evaluator_agent 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 evaluator_agent 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "evaluator_agent"
+    ],
+    "genes": [
+      {
+        "title": "evaluator_agent 模块说明",
+        "content": "模块路径: evaluator_agent/\n类型: source\n文件数: 3\n\n包含文件:\n- evaluator_agent/Dockerfile\n- evaluator_agent/__init__.py\n- evaluator_agent/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "evaluator_agent 文件结构",
+        "content": "evaluator_agent/Dockerfile\nevaluator_agent/__init__.py\nevaluator_agent/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/examples 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 examples 模块 (example)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "example",
+      "examples"
+    ],
+    "genes": [
+      {
+        "title": "examples 模块说明",
+        "content": "模块路径: examples/\n类型: example\n文件数: 2\n\n包含文件:\n- examples/circle_packing.yaml\n- examples/shortest_path.yaml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "examples 文件结构",
+        "content": "examples/circle_packing.yaml\nexamples/shortest_path.yaml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/prompt_designer 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 prompt_designer 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "prompt_designer"
+    ],
+    "genes": [
+      {
+        "title": "prompt_designer 模块说明",
+        "content": "模块路径: prompt_designer/\n类型: source\n文件数: 2\n\n包含文件:\n- prompt_designer/__init__.py\n- prompt_designer/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "prompt_designer 文件结构",
+        "content": "prompt_designer/__init__.py\nprompt_designer/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/selection_controller 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 selection_controller 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "selection_controller"
+    ],
+    "genes": [
+      {
+        "title": "selection_controller 模块说明",
+        "content": "模块路径: selection_controller/\n类型: source\n文件数: 2\n\n包含文件:\n- selection_controller/__init__.py\n- selection_controller/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "selection_controller 文件结构",
+        "content": "selection_controller/__init__.py\nselection_controller/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  },
+  {
+    "name": "OpenAlpha_Evolve/task_manager 模块",
+    "description": "[模块级] OpenAlpha_Evolve 项目的 task_manager 模块 (source)。来源: https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+    "domain": "devops",
+    "tags": [
+      "alphacode",
+      "alphafold",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "module-level",
+      "source",
+      "task_manager"
+    ],
+    "genes": [
+      {
+        "title": "task_manager 模块说明",
+        "content": "模块路径: task_manager/\n类型: source\n文件数: 2\n\n包含文件:\n- task_manager/__init__.py\n- task_manager/agent.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "task_manager 文件结构",
+        "content": "task_manager/__init__.py\ntask_manager/agent.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.694708693706498
+  }
+]

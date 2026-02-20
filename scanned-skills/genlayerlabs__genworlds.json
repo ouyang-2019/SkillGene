@@ -1,0 +1,122 @@
+[
+  {
+    "name": "genworlds (genlayerlabs)",
+    "description": "[项目级] A framework for event based autonomous multi-agent systems.。来源: https://github.com/genlayerlabs/genworlds",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-306",
+      "github-genlayerlabs",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "GenWorlds is the event-based communication framework for building multi-agent systems.\n\nUsing a websocket, GenWorlds provides a platform for creating interactive environments where AI agents asynchronously interact with each other and their environments to collectively execute complex tasks.\n\nDrawing inspiration from the seminal research paper [\"Generative Agents: Interactive Simulacra of Human Behavior\"](https://arxiv.org/abs/2304.03442) by Stanford and Google researchers, GenWorlds provides a platform for creating flexible, scalable, and interactive environments where AI agents can exist, communicate asynchronously, interact with diverse objects, and form new memories.\n\nThese agents communicate with the world through a WebSocket server, promoting ease of UI construction, deployment, and ",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CONTRIBUTING.md\nLICENSE\nREADME.md\ndocs\ndocs/.gitignore\ndocs/README.md\ndocs/babel.config.js\ndocs/docs\ndocs/docusaurus.config.js\ndocs/package-lock.json\ndocs/package.json\ndocs/sidebars.js\ndocs/src\ndocs/static\ndocs/yarn.lock\ngenworlds\ngenworlds/__init__.py\ngenworlds/agents\ngenworlds/events\ngenworlds/objects",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- 🌐 **Customizable Interactive Environments:** Design unique GenWorld environments, tailored to your project's needs, filled with interactive objects and potential actions for your agents.\n\n- 🎯 **Goal-Oriented Generative Autonomous Agents:** Utilize AI agents powered by Langchain that are driven by specific objectives and can be easily extended and programmed to simulate complex behaviors and solve intricate problems.\n\n- 🧩 **Shared Objects:** Populate your world with shared objects, creating opportunities for your agents to interact with their environment and achieve their goals.\n\n- 💡 **Dy",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.24286071324079
+  },
+  {
+    "name": "genworlds/docs 模块",
+    "description": "[模块级] genworlds 项目的 docs 模块 (docs)。来源: https://github.com/genlayerlabs/genworlds",
+    "domain": "documentation",
+    "tags": [
+      "jupyter notebook",
+      "stars-306",
+      "github-genlayerlabs",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "Detailed information of how to use the framework can be found at [GenWorlds Docs](https://genworlds.com/docs/get-started/intro).",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/.gitignore\ndocs/README.md\ndocs/babel.config.js\ndocs/docs\ndocs/docs/genworlds-framework\ndocs/docs/genworlds-framework/_category_.json\ndocs/docs/genworlds-framework/actions.md\ndocs/docs/genworlds-framework/agents\ndocs/docs/genworlds-framework/agents/_category_.json\ndocs/docs/genworlds-framework/agents/agents.md\ndocs/docs/genworlds-framework/agents/thought_actions.md\ndocs/docs/genworlds-framework/objects.md\ndocs/docs/genworlds-framework/worlds.md\ndocs/docs/get-started\ndocs/docs/get-started/_category_.json",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "genworlds/genworlds 模块",
+    "description": "[模块级] genworlds 项目的 genworlds 模块 (source)。来源: https://github.com/genlayerlabs/genworlds",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-306",
+      "github-genlayerlabs",
+      "module-level",
+      "source",
+      "genworlds"
+    ],
+    "genes": [
+      {
+        "title": "genworlds 模块说明",
+        "content": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/mit/) [![Discord](https://dcbadge.vercel.app/api/server/VpfmXEMN66?compact=true&style=flat)](https://discord.gg/VpfmXEMN66) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/yeagerai.svg?style=social&label=Follow%20%40YeagerAI)](https://twitter.com/yeagerai) [![GitHub star chart](https://img.shields.io/github/stars/yeagerai/genworlds?style=social)](https://star-history.com/#yeagera",
+        "gene_type": "principle"
+      },
+      {
+        "title": "genworlds 文件结构",
+        "content": "genworlds/__init__.py\ngenworlds/agents\ngenworlds/agents/__init__.py\ngenworlds/agents/abstracts\ngenworlds/agents/abstracts/__init__.py\ngenworlds/agents/abstracts/action_planner.py\ngenworlds/agents/abstracts/agent.py\ngenworlds/agents/abstracts/agent_state.py\ngenworlds/agents/abstracts/state_manager.py\ngenworlds/agents/abstracts/thought.py\ngenworlds/agents/abstracts/thought_action.py\ngenworlds/agents/concrete\ngenworlds/agents/concrete/__init__.py\ngenworlds/agents/concrete/basic_assistant\ngenworlds/agents/concrete/basic_assistant/__init__.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  },
+  {
+    "name": "genworlds/use_cases 模块",
+    "description": "[模块级] genworlds 项目的 use_cases 模块 (source)。来源: https://github.com/genlayerlabs/genworlds",
+    "domain": "devops",
+    "tags": [
+      "jupyter notebook",
+      "stars-306",
+      "github-genlayerlabs",
+      "module-level",
+      "source",
+      "use_cases"
+    ],
+    "genes": [
+      {
+        "title": "use_cases 模块说明",
+        "content": "模块路径: use_cases/\n类型: source\n文件数: 33\n\n包含文件:\n- use_cases/custom_qna_agent\n- use_cases/custom_qna_agent/first_custom_agent.ipynb\n- use_cases/foundational_rag\n- use_cases/foundational_rag/foundational_rag_tutorial.ipynb\n- use_cases/foundational_rag/objects\n- use_cases/foundational_rag/objects/__init__.py\n- use_cases/foundational_rag/objects/local_storage_bucket.py\n- use_cases/foundational_rag/objects/qdrant_bucket.py\n- use_cases/roundtable\n- use_cases/roundtable/__init__.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "use_cases 文件结构",
+        "content": "use_cases/custom_qna_agent\nuse_cases/custom_qna_agent/first_custom_agent.ipynb\nuse_cases/foundational_rag\nuse_cases/foundational_rag/foundational_rag_tutorial.ipynb\nuse_cases/foundational_rag/objects\nuse_cases/foundational_rag/objects/__init__.py\nuse_cases/foundational_rag/objects/local_storage_bucket.py\nuse_cases/foundational_rag/objects/qdrant_bucket.py\nuse_cases/roundtable\nuse_cases/roundtable/__init__.py\nuse_cases/roundtable/agents\nuse_cases/roundtable/agents/roundtable_agent.py\nuse_cases/roundtable/events.py\nuse_cases/roundtable/migrations\nuse_cases/roundtable/migrations/chroma_to_qdrant_migration.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.494288570592632
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "name": "FastGPT (labring)",
+    "description": "[项目级] FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.。来源: https://github.com/labring/FastGPT",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "claude",
+      "deepseek",
+      "llm",
+      "mcp",
+      "typescript",
+      "stars-27136",
+      "github-labring",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.\n\n来源: https://github.com/labring/FastGPT\n语言: TypeScript\nStars: 27136",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "可以通过 Docker 快速启动 FastGPT，在终端输入以下命令，根据引导完成输入即可拉取配置。\n\n```bash",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "LICENSE\nMakefile\nREADME.md\nREADME_en.md\nREADME_id.md\nREADME_ja.md\nREADME_th.md\nREADME_vi.md\nSECURITY.md\nbin\nbin/fastgpt-v1.0.0-helm.tgz\ndeploy\ndeploy/README.md\ndeploy/args.json\ndeploy/dev\ndeploy/docker\ndeploy/helm\ndeploy/init.mjs\ndeploy/templates\ndev.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "- **云服务版本**  \n  如果你不需要私有化部署，可以直接使用我们提供的云服务版本，地址为：[fastgpt.io](https://fastgpt.io/)\n\n- **社区自托管版本**  \n  可以使用[Docker](https://doc.fastgpt.io/docs/introduction/development/docker)快速部署，也可以使用[Sealos Cloud](https://doc.fastgpt.io/docs/introduction/development/sealos) 来一键部署FastGPT。\n\n- **商业版**  \n  如果你需要更完整的功能，或深度的服务支持，可以选择我们的[商业版](https://doc.fastgpt.io/docs/introduction/commercial)。我们除了提供完整的软件外，还提供相应的场景落地辅导，具体可提交[商业咨询](https://fael3z0zfze.feishu.cn/share/base/form/shrcnjJWtKqjOI9NbQTzhNyzljc)",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "|                                    |                                    |\n| ---------------------------------- | ---------------------------------- |\n| ![Demo](./.github/imgs/intro1.png) | ![Demo](./.github/imgs/intro2.jpg) |\n| ![Demo](./.github/imgs/intro3.png) | ![Demo](./.github/imgs/intro4.png) |\n\n`1` 应用编排能力\n   - [x] 规划 Agent 模式。\n   - [x] 对话工作流、插件工作流，包含基础的 RPA 节点。\n   - [x] 用户交互\n   - [x] 双向 MCP\n   - [ ] 辅助生成工作流\n\n`2` 应用调试能力\n   - [x] 知识库单点搜索测试\n   - [x] 对话时反馈引用并可修改与删除\n   - [x] 完整调用链路日志\n   - [x] 应用评测\n   - [ ] 高级编排 DeBug 调试模式\n   - [ ] 应用节点日志\n\n`3` 知识库能力\n   - [x] 多库复用，混用\n   - [x] chunk 记录修改和删除\n ",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 5
+  },
+  {
+    "name": "FastGPT/deploy 模块",
+    "description": "[模块级] FastGPT 项目的 deploy 模块 (source)。来源: https://github.com/labring/FastGPT",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "claude",
+      "deepseek",
+      "llm",
+      "mcp",
+      "module-level",
+      "source",
+      "deploy"
+    ],
+    "genes": [
+      {
+        "title": "deploy 模块说明",
+        "content": "模块路径: deploy/\n类型: source\n文件数: 47\n\n包含文件:\n- deploy/README.md\n- deploy/args.json\n- deploy/dev\n- deploy/dev/.gitignore\n- deploy/dev/docker-compose.cn.yml\n- deploy/dev/docker-compose.yml\n- deploy/docker\n- deploy/docker/cn\n- deploy/docker/cn/docker-compose.milvus.yml\n- deploy/docker/cn/docker-compose.oceanbase.yml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "deploy 文件结构",
+        "content": "deploy/README.md\ndeploy/args.json\ndeploy/dev\ndeploy/dev/.gitignore\ndeploy/dev/docker-compose.cn.yml\ndeploy/dev/docker-compose.yml\ndeploy/docker\ndeploy/docker/cn\ndeploy/docker/cn/docker-compose.milvus.yml\ndeploy/docker/cn/docker-compose.oceanbase.yml\ndeploy/docker/cn/docker-compose.pg.yml\ndeploy/docker/cn/docker-compose.seekdb.yml\ndeploy/docker/cn/docker-compose.zilliz.yml\ndeploy/docker/global\ndeploy/docker/global/docker-compose.milvus.yml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.273418332230648
+  },
+  {
+    "name": "FastGPT/document 模块",
+    "description": "[模块级] FastGPT 项目的 document 模块 (source)。来源: https://github.com/labring/FastGPT",
+    "domain": "web-frontend",
+    "tags": [
+      "agent",
+      "claude",
+      "deepseek",
+      "llm",
+      "mcp",
+      "module-level",
+      "source",
+      "document"
+    ],
+    "genes": [
+      {
+        "title": "document 模块说明",
+        "content": "模块路径: document/\n类型: source\n文件数: 54\n\n包含文件:\n- document/.dockerignore\n- document/.env.template\n- document/.zhlintignore\n- document/.zhlintrc\n- document/Dockerfile\n- document/README.md\n- document/app\n- document/app/[lang]\n- document/app/[lang]/(home)\n- document/app/[lang]/(home)/[...not-found]",
+        "gene_type": "principle"
+      },
+      {
+        "title": "document 文件结构",
+        "content": "document/.dockerignore\ndocument/.env.template\ndocument/.zhlintignore\ndocument/.zhlintrc\ndocument/Dockerfile\ndocument/README.md\ndocument/app\ndocument/app/[lang]\ndocument/app/[lang]/(home)\ndocument/app/[lang]/(home)/[...not-found]\ndocument/app/[lang]/(home)/[...not-found]/page.tsx\ndocument/app/[lang]/(home)/layout.tsx\ndocument/app/[lang]/(home)/page.tsx\ndocument/app/[lang]/docs\ndocument/app/[lang]/docs/[[...slug]]",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.273418332230648
+  }
+]

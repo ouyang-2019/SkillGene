@@ -1,0 +1,168 @@
+[
+  {
+    "name": "DevoxxGenieIDEAPlugin (devoxx)",
+    "description": "[项目级] DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners.。来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "java",
+      "stars-619",
+      "github-devoxx",
+      "project-level"
+    ],
+    "genes": [
+      {
+        "title": "项目概述",
+        "content": "DevoxxGenie is a plugin for IntelliJ IDEA that uses local LLM's (Ollama, LMStudio, GPT4All, Jan and Llama.cpp) and Cloud based LLMs to help review, test, explain your project code. Latest version now also supports Spec Driven Development with CLI Runners.\n\n来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin\n语言: Java\nStars: 619",
+        "gene_type": "principle"
+      },
+      {
+        "title": "安装与快速开始",
+        "content": "**[📖 Full Installation Guide](https://genie.devoxx.com/docs/category/installation)**\n\n- **From IntelliJ IDEA**: Go to `Settings` -> `Plugins` -> `Marketplace` -> Enter 'Devoxx' to find [plugin](https://plugins.jetbrains.com/plugin/24169-devoxxgenie) OR Install plugin from Disk\n- **From Source Code**: Clone the repository, build the plugin using `./gradlew buildPlugin`, and install the plugin from the `build/distributions` directory and select file 'DevoxxGenie-X.Y.Z.zip'",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "项目结构",
+        "content": "AGENTS.md\nCHANGELOG.md\nCLAUDE.md\nCONTRIBUTING.md\nDEVOXXGENIE.md\nLICENSE\nMETA-INF\nMETA-INF/core.xml\nMETA-INF/ej-core.xml\nREADME.md\nTASKFILE_README.md\nTaskfile.yml\nbacklog\nbacklog/config.yml\nbacklog/tasks\nbuild.gradle.kts\ndocs\ndocs/APPEARANCE_SETTINGS.md\ndocs/CLI_TOOL_EXECUTION.md\ndocs/EXTERNAL_LINK_FIX_SUMMARY.md",
+        "gene_type": "pattern"
+      },
+      {
+        "title": "使用方法",
+        "content": "The DevoxxGenie project itself, at about 70K tokens, fits comfortably within most high-end LLM context windows. \nThis allows for incredibly nuanced interactions – we're talking advanced queries and feature requests that leave tools like GitHub Copilot scratching their virtual heads!",
+        "gene_type": "snippet"
+      },
+      {
+        "title": "核心特性",
+        "content": "- **📋 [Spec Driven Development](https://genie.devoxx.com/docs/features/spec-driven-development)** *(v0.9.7+)*: Define tasks in Backlog.md, browse them in the Spec Browser (Task List + Kanban Board), and let the Agent implement them. 17 built-in backlog tools for full CRUD on tasks, documents, and milestones. Use the [Agent Loop](https://genie.devoxx.com/docs/features/sdd-agent-loop) to run multiple tasks in batch with dependency ordering *(v0.9.8+)*.\n- **🆕 [ACP Runners](https://genie.devoxx.com/docs/features/acp-runners)** *(v0.9.10+)*: Communicate with external agents (Kimi, Gemini CLI, Kil",
+        "gene_type": "checklist"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 4.395845324510059
+  },
+  {
+    "name": "DevoxxGenieIDEAPlugin/META-INF 模块",
+    "description": "[模块级] DevoxxGenieIDEAPlugin 项目的 META-INF 模块 (source)。来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "module-level",
+      "source",
+      "meta-inf"
+    ],
+    "genes": [
+      {
+        "title": "META-INF 模块说明",
+        "content": "模块路径: META-INF/\n类型: source\n文件数: 2\n\n包含文件:\n- META-INF/core.xml\n- META-INF/ej-core.xml",
+        "gene_type": "principle"
+      },
+      {
+        "title": "META-INF 文件结构",
+        "content": "META-INF/core.xml\nMETA-INF/ej-core.xml",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.616676259608047
+  },
+  {
+    "name": "DevoxxGenieIDEAPlugin/backlog 模块",
+    "description": "[模块级] DevoxxGenieIDEAPlugin 项目的 backlog 模块 (source)。来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "module-level",
+      "source",
+      "backlog"
+    ],
+    "genes": [
+      {
+        "title": "backlog 模块说明",
+        "content": "模块路径: backlog/\n类型: source\n文件数: 3\n\n包含文件:\n- backlog/config.yml\n- backlog/tasks\n- backlog/tasks/task-41 - Reduce-Cognitive-Complexity-in-createDefaultLanguageModel-method.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "backlog 文件结构",
+        "content": "backlog/config.yml\nbacklog/tasks\nbacklog/tasks/task-41 - Reduce-Cognitive-Complexity-in-createDefaultLanguageModel-method.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.616676259608047
+  },
+  {
+    "name": "DevoxxGenieIDEAPlugin/docs 模块",
+    "description": "[模块级] DevoxxGenieIDEAPlugin 项目的 docs 模块 (docs)。来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "domain": "documentation",
+    "tags": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "module-level",
+      "docs",
+      "docs"
+    ],
+    "genes": [
+      {
+        "title": "docs 模块说明",
+        "content": "模块路径: docs/\n类型: docs\n文件数: 8\n\n包含文件:\n- docs/APPEARANCE_SETTINGS.md\n- docs/CLI_TOOL_EXECUTION.md\n- docs/EXTERNAL_LINK_FIX_SUMMARY.md\n- docs/EXTERNAL_LINK_HANDLER_README.md\n- docs/HEALTH_CHECK_OPTIMIZATION.md\n- docs/WEBVIEW_TIMEOUT_FIX.md\n- docs/prompt_flow.png\n- docs/prompt_structure_refactoring.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docs 文件结构",
+        "content": "docs/APPEARANCE_SETTINGS.md\ndocs/CLI_TOOL_EXECUTION.md\ndocs/EXTERNAL_LINK_FIX_SUMMARY.md\ndocs/EXTERNAL_LINK_HANDLER_README.md\ndocs/HEALTH_CHECK_OPTIMIZATION.md\ndocs/WEBVIEW_TIMEOUT_FIX.md\ndocs/prompt_flow.png\ndocs/prompt_structure_refactoring.md",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.616676259608047
+  },
+  {
+    "name": "DevoxxGenieIDEAPlugin/docusaurus 模块",
+    "description": "[模块级] DevoxxGenieIDEAPlugin 项目的 docusaurus 模块 (source)。来源: https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+    "domain": "ai-llm",
+    "tags": [
+      "anthropic",
+      "azure-ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude-3",
+      "module-level",
+      "source",
+      "docusaurus"
+    ],
+    "genes": [
+      {
+        "title": "docusaurus 模块说明",
+        "content": "模块路径: docusaurus/\n类型: source\n文件数: 150\n\n包含文件:\n- docusaurus/.claude\n- docusaurus/.claude/settings.local.json\n- docusaurus/.clever.json\n- docusaurus/.gitignore\n- docusaurus/README.md\n- docusaurus/WEBSITE.md\n- docusaurus/blog\n- docusaurus/blog/2025-03-24-devoxxgenie-assistant-for-idea.md\n- docusaurus/blog/2026-02-09-devoxxgenie-goes-agentic.md\n- docusaurus/blog/2026-02-10-spec-driven-development.md",
+        "gene_type": "principle"
+      },
+      {
+        "title": "docusaurus 文件结构",
+        "content": "docusaurus/.claude\ndocusaurus/.claude/settings.local.json\ndocusaurus/.clever.json\ndocusaurus/.gitignore\ndocusaurus/README.md\ndocusaurus/WEBSITE.md\ndocusaurus/blog\ndocusaurus/blog/2025-03-24-devoxxgenie-assistant-for-idea.md\ndocusaurus/blog/2026-02-09-devoxxgenie-goes-agentic.md\ndocusaurus/blog/2026-02-10-spec-driven-development.md\ndocusaurus/blog/2026-02-13-cli-runners.md\ndocusaurus/blog/2026-02-14-acp-runners.md\ndocusaurus/blog/2026-02-18-devoxxgenie-integrations.md\ndocusaurus/blog/authors.yml\ndocusaurus/create-placeholder-images.sh",
+        "gene_type": "pattern"
+      }
+    ],
+    "version": 1,
+    "usage_count": 0,
+    "rating": 3.616676259608047
+  }
+]

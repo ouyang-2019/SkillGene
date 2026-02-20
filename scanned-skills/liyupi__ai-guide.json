@@ -10,14 +10,14 @@
       "chatgpt",
       "claude",
       "javascript",
-      "stars-7029",
+      "stars-7031",
       "github-liyupi",
       "project-level"
     ],
     "genes": [
       {
         "title": "项目概述",
-        "content": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站\n\n来源: https://github.com/liyupi/ai-guide\n语言: JavaScript\nStars: 7029",
+        "content": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站\n\n来源: https://github.com/liyupi/ai-guide\n语言: JavaScript\nStars: 7031",
         "gene_type": "principle"
       },
       {
@@ -28,7 +28,7 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.923446771658313
+    "rating": 4.923508548967677
   },
   {
     "name": "ai-guide/AI 模块",
@@ -58,6 +58,6 @@
     ],
     "version": 1,
     "usage_count": 0,
-    "rating": 4.03875741732665
+    "rating": 4.038806839174142
   }
 ]
