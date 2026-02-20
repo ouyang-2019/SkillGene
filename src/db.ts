@@ -2,7 +2,7 @@ import Database from "better-sqlite3";
 import { randomUUID } from "crypto";
 import path from "path";
 import { fileURLToPath } from "url";
-import type { Capsule, Gene, SearchResult, EvolveFeedback } from "./types.js";
+import type { Capsule, Gene, SearchResult, EvolveFeedback, SecurityIssue, ScanResult } from "./types.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DB_PATH = path.join(__dirname, "..", "skillgene.db");
@@ -20,6 +20,11 @@ export function getDb(): Database.Database {
 }
 
 function initSchema(db: Database.Database) {
+  // 迁移：添加 security_status 列（已有数据库兼容）
+  try {
+    db.exec(`ALTER TABLE capsules ADD COLUMN security_status TEXT DEFAULT 'pending'`);
+  } catch { /* 列已存在 */ }
+
   db.exec(`
     CREATE TABLE IF NOT EXISTS capsules (
       id TEXT PRIMARY KEY,
@@ -30,6 +35,7 @@ function initSchema(db: Database.Database) {
       version INTEGER NOT NULL DEFAULT 1,
       usage_count INTEGER NOT NULL DEFAULT 0,
       rating REAL NOT NULL DEFAULT 0,
+      security_status TEXT DEFAULT 'pending',
       created_at TEXT NOT NULL DEFAULT (datetime('now')),
       updated_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
@@ -41,6 +47,14 @@ function initSchema(db: Database.Database) {
       content TEXT NOT NULL,
       gene_type TEXT NOT NULL DEFAULT 'pattern',
       order_index INTEGER NOT NULL DEFAULT 0
+    );
+
+    CREATE TABLE IF NOT EXISTS security_logs (
+      id TEXT PRIMARY KEY,
+      capsule_id TEXT NOT NULL REFERENCES capsules(id) ON DELETE CASCADE,
+      status TEXT NOT NULL DEFAULT 'pending',
+      issues TEXT NOT NULL DEFAULT '[]',
+      scanned_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
     CREATE VIRTUAL TABLE IF NOT EXISTS capsules_fts USING fts5(
@@ -182,6 +196,41 @@ export function evolveCapsule(feedback: EvolveFeedback): boolean {
         );
       }
     }
+  });
+  tx();
+  return true;
+}
+
+// 更新胶囊安全状态
+export function updateSecurityStatus(capsuleId: string, status: string, issues: SecurityIssue[]): void {
+  const d = getDb();
+  d.prepare("UPDATE capsules SET security_status = ?, updated_at = datetime('now') WHERE id = ?").run(status, capsuleId);
+  d.prepare(`INSERT INTO security_logs (id, capsule_id, status, issues) VALUES (?, ?, ?, ?)`)
+    .run(randomUUID(), capsuleId, status, JSON.stringify(issues));
+}
+
+// 更新胶囊标签和领域
+export function updateCapsuleTags(capsuleId: string, domain: string, tags: string[]): boolean {
+  const d = getDb();
+  const r = d.prepare("UPDATE capsules SET domain = ?, tags = ?, updated_at = datetime('now') WHERE id = ?")
+    .run(domain, JSON.stringify(tags), capsuleId);
+  return r.changes > 0;
+}
+
+// 更新胶囊的 Gene 内容
+export function updateCapsuleGenes(capsuleId: string, genes: Gene[]): boolean {
+  const d = getDb();
+  const capsule = d.prepare("SELECT id FROM capsules WHERE id = ?").get(capsuleId) as any;
+  if (!capsule) return false;
+
+  const tx = d.transaction(() => {
+    d.prepare("DELETE FROM genes WHERE capsule_id = ?").run(capsuleId);
+    const ins = d.prepare("INSERT INTO genes (id, capsule_id, title, content, gene_type, order_index) VALUES (?, ?, ?, ?, ?, ?)");
+    for (let i = 0; i < genes.length; i++) {
+      const g = genes[i];
+      ins.run(g.id || randomUUID(), capsuleId, g.title, g.content, g.gene_type, i);
+    }
+    d.prepare("UPDATE capsules SET version = version + 1, updated_at = datetime('now') WHERE id = ?").run(capsuleId);
   });
   tx();
   return true;

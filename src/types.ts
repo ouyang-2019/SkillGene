@@ -22,6 +22,7 @@ export const CapsuleSchema = z.object({
   version: z.number().default(1),
   usage_count: z.number().default(0),
   rating: z.number().default(0),
+  security_status: z.enum(["pending", "safe", "warning", "danger"]).optional(),
   created_at: z.string().optional(),
   updated_at: z.string().optional(),
 });
@@ -47,3 +48,36 @@ export const EvolveFeedbackSchema = z.object({
   new_genes: z.array(GeneSchema).optional(),
 });
 export type EvolveFeedback = z.infer<typeof EvolveFeedbackSchema>;
+
+// 安全扫描结果
+export interface SecurityIssue {
+  severity: "critical" | "high" | "medium" | "low" | "info";
+  category: string;
+  description: string;
+  location: string; // gene title or capsule field
+  matched: string;  // the matched dangerous content
+}
+
+export interface ScanResult {
+  capsule_id: string;
+  capsule_name: string;
+  status: "safe" | "warning" | "danger";
+  issues: SecurityIssue[];
+  scanned_at: string;
+}
+
+// 自动标签结果
+export interface AutoTagResult {
+  capsule_id: string;
+  suggested_domain: string;
+  suggested_tags: string[];
+  confidence: number;
+  applied: boolean;
+}
+
+// 提取上传结果
+export interface ExtractResult {
+  source_path: string;
+  capsules_created: number;
+  capsule_ids: string[];
+}
