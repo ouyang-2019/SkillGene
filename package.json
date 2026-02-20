@@ -1,0 +1,25 @@
+{
+  "name": "skillgene",
+  "version": "1.0.0",
+  "description": "AI Capability Capsule Platform - MCP driven skill capsule search and evolution",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "skillgene": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "seed": "node dist/seed.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^11.8.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
