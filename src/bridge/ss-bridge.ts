@@ -165,10 +165,11 @@ else:
   async checkPageChange(url: string, oldHash?: string): Promise<SSCommandResult> {
     return this.runPython(`
 import json
+from datetime import datetime
 from skill_seekers.sync import ChangeDetector
 detector = ChangeDetector(timeout=20)
 result = detector.check_page("${this.escPy(url)}"${oldHash ? `, old_hash="${this.escPy(oldHash)}"` : ""}, generate_diff=${oldHash ? "True" : "False"})
-print(json.dumps(result.model_dump()))
+print(json.dumps(result.model_dump(), default=lambda o: o.isoformat() if isinstance(o, datetime) else str(o)))
 `);
   }
 
@@ -184,7 +185,7 @@ data = json.loads(sys.stdin.read())
 from skill_seekers.sync import ChangeDetector
 detector = ChangeDetector(timeout=20)
 result = detector.check_pages(data["urls"], data["hashes"], generate_diffs=True)
-print(json.dumps(result.model_dump()))
+print(json.dumps(result.model_dump(), default=lambda o: o.isoformat() if hasattr(o, 'isoformat') else str(o)))
 `, JSON.stringify({ urls, hashes: previousHashes }), 60_000);
   }
 
