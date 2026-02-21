@@ -81,7 +81,7 @@ function run() {
         // 2. 技能分类
         const classification = classifySkillType(capsule);
         let skillType: string | null = null;
-        if (classification.confidence >= 0.2) {
+        if (classification.confidence >= 0.1) {
           skillType = classification.detected_type;
           typeStats[skillType] = (typeStats[skillType] || 0) + 1;
           classified++;

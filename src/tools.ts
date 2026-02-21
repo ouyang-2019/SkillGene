@@ -251,7 +251,7 @@ export function registerTools(server: McpServer) {
   // Tool 10: 技能类型分类
   server.tool(
     "classify_skill",
-    "Classify capsule into 11 cognitive operation types: summary/insight/generation/decision/evaluation/diagnosis/persuasion/planning/research/facilitation/transformation.",
+    "Classify capsule into 16 skill types: 11 cognitive (summary/insight/generation/decision/evaluation/diagnosis/persuasion/planning/research/facilitation/transformation) + 5 technical (automation/implementation/data-processing/monitoring/security-ops).",
     {
       id: z.string().describe("Capsule ID"),
       apply: z.boolean().optional().describe("Save classification to DB (default false)"),

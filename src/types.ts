@@ -1,20 +1,27 @@
 import { z } from "zod";
 
 // ============================================================
-// Skill Taxonomy - 11种认知操作类型 (from skill-from-masters)
+// Skill Taxonomy - 16种技能类型 (认知操作 + 实用技术类型)
 // ============================================================
 export const SKILL_TYPES = [
+  // --- 11种认知操作类型 (from skill-from-masters) ---
   "summary",        // 压缩：多信号 → 少信号，保留覆盖度
   "insight",        // 提取关键：多信号 → 少量关键信号（解释原因）
   "generation",     // 创造：约束 → 新内容
   "decision",       // 选择：选项+标准 → 决策+理由
   "evaluation",     // 判断：产物 → 质量评分+差距分析
   "diagnosis",      // 追溯：症状 → 根因+修复方案
-  "persuasion",     // 桥接：我的目标 → 对方行动
+  "persuasion",     // ��接：我的目标 → 对方行动
   "planning",       // 分解：目标 → 路径+里程碑
   "research",       // 发现：问题 → 结构化答案
   "facilitation",   // 引出：隐性知识 → 显性知识
   "transformation", // 映射：格式A → 格式B
+  // --- 5种实用技术类型 ---
+  "automation",       // 自动化：目标 → 自动执行流程
+  "implementation",   // 实现类：需求 → 可运行代码/工具
+  "data-processing",  // 数据处理：原始数据 → 结构化输出
+  "monitoring",       // 监控运维：系统 → 可观测性+告警
+  "security-ops",     // 安全运维：系统 → 安全加固+防护
 ] as const;
 
 export type SkillType = typeof SKILL_TYPES[number];
