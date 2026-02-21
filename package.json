@@ -1,7 +1,7 @@
 {
   "name": "skillgene",
-  "version": "1.0.0",
-  "description": "AI Capability Capsule Platform - MCP driven skill capsule search and evolution",
+  "version": "2.0.0",
+  "description": "AI Capability Capsule Platform - MCP driven skill capsule search, evolution, and deep analysis. Integrates Skill_Seekers + skill-from-masters.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -12,7 +12,9 @@
     "start": "node dist/index.js",
     "seed": "node dist/seed.js",
     "scan": "node dist/auto-scan.js",
-    "import-scan": "node dist/import-scan.js"
+    "scan:deep": "SKILLGENE_DEEP_ANALYSIS=true node dist/auto-scan.js",
+    "import-scan": "node dist/import-scan.js",
+    "import-sfm": "node dist/import-sfm.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",

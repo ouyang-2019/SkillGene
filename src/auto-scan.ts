@@ -15,6 +15,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import type { Capsule, Gene } from "./types.js";
 import { decomposeProject, type ProjectInfo } from "./decompose.js";
+import { isSSAvailable } from "./bridge/ss-health.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = path.join(__dirname, "..", "scanned-skills");
@@ -166,7 +167,14 @@ export async function runScan(customQueries?: string[]) {
   const allProjects: ProjectInfo[] = [];
   const globalSeen = new Set<string>();
 
+  // 检测 SS 深度分析是否可用
+  const deepEnabled = process.env.SKILLGENE_DEEP_ANALYSIS === "true";
+  const ssAvailable = deepEnabled && await isSSAvailable();
+
   console.log("🔍 阶段1: 搜索GitHub项目...\n");
+  if (ssAvailable) {
+    console.log("  🚀 Skill_Seekers 深度分析已启用\n");
+  }
 
   for (const q of queries) {
     console.log(`  搜索: "${q}"`);
@@ -193,7 +201,8 @@ export async function runScan(customQueries?: string[]) {
 
   for (let i = 0; i < allProjects.length; i++) {
     const proj = allProjects[i];
-    console.log(`  [${i + 1}/${allProjects.length}] ${proj.fullName} (⭐${proj.stars})`);
+    const depthLabel = ssAvailable ? "[deep]" : "[shallow]";
+    console.log(`  [${i + 1}/${allProjects.length}] ${depthLabel} ${proj.fullName} (⭐${proj.stars})`);
 
     try {
       // 获取README和目录结构
@@ -205,8 +214,10 @@ export async function runScan(customQueries?: string[]) {
         continue;
       }
 
-      // 深度拆解为胶囊
-      const capsules = await decomposeProject(proj, readme, tree);
+      // 拆解为胶囊 (浅层 + 可选深层)
+      const capsules = await decomposeProject(proj, readme, tree, {
+        deep: ssAvailable,
+      });
 
       if (capsules.length === 0) {
         console.log("    ⚠ 未能提取有效胶囊，跳过");
@@ -234,6 +245,7 @@ export async function runScan(customQueries?: string[]) {
   console.log(`\n✅ 扫描完成！`);
   console.log(`   项目数: ${allProjects.length}`);
   console.log(`   胶囊数: ${totalCapsules}`);
+  console.log(`   分析深度: ${ssAvailable ? "deep (SS)" : "shallow"}`);
   console.log(`   输出目录: ${OUTPUT_DIR}`);
 }
 

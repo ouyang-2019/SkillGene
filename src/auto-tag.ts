@@ -1,8 +1,14 @@
 /**
- * 自动标签分类模块 - 基于规则引擎 + 可选 LLM API
+ * 自动标签分类模块 - 融合11种技能类型分类体系
+ *
+ * 升级：
+ * - 保留原有领域关键词匹配
+ * - 集成 taxonomy.ts 的技能类型分类
+ * - 返回 suggested_skill_type 和 skill_type_confidence
  */
-import { getDb, getCapsule, updateCapsuleTags } from "./db.js";
+import { getCapsule, updateCapsuleTags, updateSkillType } from "./db.js";
 import type { AutoTagResult } from "./types.js";
+import { classifySkillType } from "./taxonomy.js";
 
 // 领域关键词映射
 const DOMAIN_RULES: Record<string, string[]> = {
@@ -29,7 +35,7 @@ export function autoTagCapsule(capsuleId: string, apply = false): AutoTagResult 
 
   const text = `${capsule.name} ${capsule.description} ${capsule.genes.map(g => g.title + " " + g.content).join(" ")}`.toLowerCase();
 
-  // 计算每个领域的匹配分数
+  // 1. 领域分类（原有逻辑）
   const scores: Record<string, number> = {};
   for (const [domain, keywords] of Object.entries(DOMAIN_RULES)) {
     scores[domain] = keywords.reduce((s, kw) => s + (text.includes(kw) ? 1 : 0), 0);
@@ -37,7 +43,17 @@ export function autoTagCapsule(capsuleId: string, apply = false): AutoTagResult 
 
   const sorted = Object.entries(scores).filter(([, s]) => s > 0).sort((a, b) => b[1] - a[1]);
   if (sorted.length === 0) {
-    return { capsule_id: capsuleId, suggested_domain: "general", suggested_tags: [], confidence: 0, applied: false };
+    // 即使领域未知，仍然尝试技能类型分类
+    const classification = classifySkillType(capsule);
+    return {
+      capsule_id: capsuleId,
+      suggested_domain: "general",
+      suggested_tags: [],
+      confidence: 0,
+      applied: false,
+      suggested_skill_type: classification.detected_type,
+      skill_type_confidence: Math.round(classification.confidence * 100) / 100,
+    };
   }
 
   const suggestedDomain = sorted[0][0];
@@ -47,7 +63,7 @@ export function autoTagCapsule(capsuleId: string, apply = false): AutoTagResult 
 
   // 从内容中提取标签
   const suggestedTags: string[] = [];
-  for (const [domain, keywords] of Object.entries(DOMAIN_RULES)) {
+  for (const [_domain, keywords] of Object.entries(DOMAIN_RULES)) {
     for (const kw of keywords) {
       if (text.includes(kw) && !suggestedTags.includes(kw)) {
         suggestedTags.push(kw);
@@ -55,17 +71,28 @@ export function autoTagCapsule(capsuleId: string, apply = false): AutoTagResult 
     }
   }
 
+  // 2. 技能类型分类（新增，from taxonomy.ts）
+  const classification = classifySkillType(capsule);
+
   const result: AutoTagResult = {
     capsule_id: capsuleId,
     suggested_domain: suggestedDomain,
     suggested_tags: suggestedTags.slice(0, 10),
     confidence: Math.round(confidence * 100) / 100,
     applied: false,
+    suggested_skill_type: classification.detected_type,
+    skill_type_confidence: Math.round(classification.confidence * 100) / 100,
   };
 
   if (apply && confidence >= 0.3) {
     const merged = [...new Set([...suggestedTags.slice(0, 10), ...(typeof capsule.tags === "string" ? JSON.parse(capsule.tags as any) : capsule.tags)])];
     updateCapsuleTags(capsuleId, suggestedDomain, merged);
+
+    // 同时应用技能类型分类
+    if (classification.confidence >= 0.3) {
+      updateSkillType(capsuleId, classification.detected_type);
+    }
+
     result.applied = true;
   }
 
